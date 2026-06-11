@@ -8,3 +8,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-11,bd-radar,claude-opus-4-8,2700,24854,1714365,99100
 2026-06-11,war-room,claude-opus-4-8,2229,7366,613141,55234
 2026-06-11,bd-radar,claude-opus-4-8,2249,27074,1197710,62578
+2026-06-11,bd-radar,claude-opus-4-8,3915,28034,2330269,133156
