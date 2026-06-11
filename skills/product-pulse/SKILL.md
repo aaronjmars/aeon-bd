@@ -32,8 +32,8 @@ mkdir -p memory/topics articles
 ### 1. Parse var
 - `${var}` starts with `dry-run` → `MODE=dry-run` (compute + write, skip notify). Else `MODE=execute`.
 
-### 2. Gather GitHub health (per watched repo)
-For each repo in `memory/watched-repos.md` (public table + private product list), use `gh api` — it handles auth internally and works in the sandbox:
+### 2. Gather GitHub health
+For each **public** repo in `memory/watched-repos.md`, use `gh api` (default token, auth internal, works in the sandbox):
 ```bash
 gh api repos/{owner}/{repo} --jq '{stars:.stargazers_count, issues:.open_issues_count, pushed:.pushed_at}'
 gh api repos/{owner}/{repo}/commits --jq 'length' -f per_page=1   # latest commit date
@@ -45,6 +45,8 @@ For the **automation repos** (`aeon-agent`, `miroshark-aeon`) also pull recent A
 gh api repos/{owner}/{repo}/actions/runs -f per_page=20 --jq '[.workflow_runs[]|{name:.name, status:.status, concl:.conclusion, at:.created_at}]'
 ```
 Record per repo: stars, open issues, open PRs, last-commit age (days), latest release tag/date, and (for automations) last-24h run pass/fail counts. If any `gh api` call fails, log `PRODUCT_PULSE_GH_MISS: {repo} (<reason>)` and continue — never abort on one repo.
+
+**Private repos** — the default `gh api` token can't read them, so don't call `gh api` on them. Instead read `.xai-cache/private-repos.json`, prefetched outside the sandbox by `scripts/prefetch-private-repos.sh` using the read-only `GH_READ_PAT`. Each entry is `{repo, private, issues, open_prs, pushed, latest_release}` (no `stars` — private repos report 0). Fold them into the digest under their product: `aeon-website` / `aeon-wc` → Aeon ⭐, `miroshark-website` / `MiroShark-x402` → Miroshark 🦈. The PAT's scope determines which appear; any out-of-scope repo is simply absent (that's expected, not an error). If the file is missing/empty, log `PRODUCT_PULSE_PRIVATE_MISS` and proceed public-only.
 
 ### 3. Gather X signal (followers + post count for @aeonframework and @miroshark_)
 xAI/grok owns X data, so use it. The workflow pre-fetches it **outside the sandbox** via `scripts/prefetch-xai.sh` (the `product-pulse` case), so the in-sandbox skill never curls with the secret. Resolve in this order:

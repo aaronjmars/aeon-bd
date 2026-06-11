@@ -28,9 +28,10 @@
 - Always save files AND commit before logging.
 - `chain-runner.yml` runs under `bash -e` → transient `gh` failures hard-kill the job before `on_error:continue`. Prefer staggered standalone skills + committed-file reads over chains.
 - X data on the runner: use the xAI prefetch cache (`scripts/prefetch-xai.sh` → `.xai-cache/`), not x-mcp (x-mcp is local-only). product-pulse reads `.xai-cache/product-pulse-x.json`.
-- The runner's `GITHUB_TOKEN` only covers `aeon-nur`; private MiroShark repos 404 until a PAT (`repo` scope) is added.
+- The runner's `GITHUB_TOKEN` only covers `aeon-nur`. Private repos are read via the **read-only** `GH_READ_PAT` secret in a prefetch (`scripts/prefetch-private-repos.sh` → `.xai-cache/private-repos.json`). NEVER put a read-only PAT in `GH_GLOBAL` — that's the checkout/commit token and read-only there breaks every auto-commit.
+- PAT scope (read-only): in scope = `aeon-website`, `aeon-wc`, `miroshark-website`, `MiroShark-x402` (+ this repo). Out of scope = `MiroShark-api`, `miroshark-x` (not monitored, by operator choice).
 
 ## Next Priorities
-1. **Private MiroShark repos** — add a PAT secret (`repo` scope) so product-pulse/bd-radar can read the 4 private repos, or accept public-only. (Pending operator call.)
-2. Tune schedules + lead-scoring after the first week of real output.
+1. Tune schedules + lead-scoring after the first week of real output.
+2. (Optional) add `MiroShark-api` / `miroshark-x` to the PAT scope if their health ever matters.
 3. Configure a second notification channel (Discord/Slack) if Telegram isn't enough. (Telegram already wired.)
