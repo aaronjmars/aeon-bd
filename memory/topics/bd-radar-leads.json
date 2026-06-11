@@ -22,7 +22,11 @@
     {"key": "github:TakamiyaZee/aeon", "class": "forking", "who": "TakamiyaZee/aeon", "handle": "TakamiyaZee", "signal": "aeon fork pushed today 05-28→06-11", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-11", "source": "gh_read_pat_forks"},
     {"key": "github:Raul-dd/MiroShark", "class": "forking", "who": "Raul-dd/MiroShark", "handle": "Raul-dd", "signal": "MiroShark fork w/ own commits 05-27→06-02", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-02", "source": "gh_read_pat_forks"},
     {"key": "github:chxoky/aeon", "class": "forking", "who": "chxoky/aeon", "handle": "chxoky", "signal": "aeon fork, own commits 06-05→06-08", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-08", "source": "gh_read_pat_forks"},
-    {"key": "github:Damoncrypto/aeon", "class": "forking", "who": "Damoncrypto/aeon", "handle": "Damoncrypto", "signal": "aeon fork, own commits 05-30→06-04", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-04", "source": "gh_read_pat_forks"}
+    {"key": "github:Damoncrypto/aeon", "class": "forking", "who": "Damoncrypto/aeon", "handle": "Damoncrypto", "signal": "aeon fork, own commits 05-30→06-04", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-04", "source": "gh_read_pat_forks"},
+
+    {"key": "github:HusseinJX/prelaunchagents", "class": "building", "who": "prelaunchagents", "handle": "HusseinJX", "signal": "shipped product on MiroShark — 'simulate your product launch before it happens', swarm sim on local Ollama, no API key", "fit": 3, "score": 15, "first_seen": "2026-06-11", "repo_updated": "2026-03-25", "source": "gh_search_repos"},
+    {"key": "github:rohanthomas1202/truthlayer", "class": "integrating", "who": "truthlayer", "handle": "rohanthomas1202", "signal": "backend/routes/miroshark.py — 'MiroShark simulation endpoints (Phase 1)', POST /api/miroshark/simulate/arb/{arb_id} fires a sim chain; wired into a truth-layer/arbitration backend", "fit": 3, "score": 9, "first_seen": "2026-06-11", "source": "gh_search_code"},
+    {"key": "github:0xkek/sendbox-fun", "class": "mentioning", "who": "sendbox.fun", "handle": "0xkek", "signal": "tools/miroshark.html — miroshark listed as a 'Social Media AI Tool' on the sendbox.fun tool directory (third-party distribution surface, not a builder)", "fit": 1, "score": 2, "first_seen": "2026-06-11", "source": "gh_search_code"}
   ],
   "surfaced": [
     "github:danbuildss/luca-aeon-skills",
@@ -46,6 +50,9 @@
     "github:TakamiyaZee/aeon",
     "github:Raul-dd/MiroShark",
     "github:chxoky/aeon",
-    "github:Damoncrypto/aeon"
+    "github:Damoncrypto/aeon",
+    "github:HusseinJX/prelaunchagents",
+    "github:rohanthomas1202/truthlayer",
+    "github:0xkek/sendbox-fun"
   ]
 }
