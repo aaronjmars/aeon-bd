@@ -58,7 +58,7 @@ xAI/grok owns X data, so use it. The workflow pre-fetches it **outside the sandb
 - **Path C — WebSearch (keyless fallback):** WebSearch `@aeonframework followers` and `@miroshark_ followers`; take the most recent figure. Log `X counts via WebSearch — approximate`.
 - **Local mode only:** the x-mcp `get_user_profile` tool, if present (it is NOT on the Actions runner).
 
-Capture `followers` + `posts` per handle. If every path fails, log `PRODUCT_PULSE_X_MISS` and proceed GitHub-only — never fail the run over X data.
+Capture `followers` + `posts` per handle. `posts` may come back as `unknown` (xAI couldn't resolve the lifetime count) — render it as `N/A` and skip its delta; `followers` is the metric that drives notables either way. If every path fails, log `PRODUCT_PULSE_X_MISS` and proceed GitHub-only — never fail the run over X data.
 
 ### 4. Compute deltas
 Load `product-pulse-state.json`. Compute Δ vs the most recent prior snapshot (≈1 day) and vs the snapshot closest to 7 days ago. For every metric show: value, Δ1d, Δ7d. Flag **notables**:
