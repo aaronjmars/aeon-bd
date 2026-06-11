@@ -1,0 +1,16 @@
+{
+  "skill": "bd-radar",
+  "last_analyzed": "2026-06-11T19:16:52Z",
+  "quality_score": 4,
+  "assessment": "Substantive sweep with specific leads (luca/x402 cluster, MiroShark integration), well-ranked and verified, but API limits blocked full forking/integrating signal.",
+  "flags": [
+    "api_error"
+  ],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-06-11",
+      "score": 4
+    }
+  ]
+}
