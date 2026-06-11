@@ -1,0 +1,26 @@
+{
+  "leads": [
+    {"key": "github:danbuildss/luca-aeon-skills", "class": "building", "who": "luca-aeon-skills", "handle": "@AskLucaAI", "owner": "x402Books", "signal": "NEW builder — 4 financial-intel skills for Aeon on Base (wallet/treasury/reports/registry)", "fit": 3, "score": 15, "first_seen": "2026-06-11", "repo_updated": "2026-06-04"},
+    {"key": "github:UIZorrot/careful-finance-aeon-skill-pack", "class": "building", "who": "Careful Finance", "handle": "UIZorrot", "signal": "known fork operator shipped market-intelligence skill pack — fork→skill-pack", "fit": 3, "score": 15, "known": true, "first_seen": "2026-06-11", "repo_updated": "2026-06-08"},
+    {"key": "github:codexvritra/signa-aeon-skills", "class": "building", "who": "Signa", "handle": "@Signa_Agent", "signal": "known builder new repo — wallet-signed cross-platform messaging skill pack", "fit": 3, "score": 15, "known": true, "first_seen": "2026-06-11", "repo_updated": "2026-06-07"},
+    {"key": "github:Zoidberg-eternal/monitor-the-situation-bags", "class": "building", "who": "ZERA / Zero Human Labs", "handle": "Zoidberg-eternal", "signal": "vendors MiroShark as sim engine for Bags Hackathon 2026 token-launch forecaster", "fit": 3, "score": 15, "first_seen": "2026-06-11", "repo_updated": "2026-05-18"},
+    {"key": "github:basedcryptoji/solvr-aeon-skill", "class": "building", "who": "Solvr", "handle": "basedcryptoji", "signal": "repeat builder (after Clerk) — formal verification skill pack via x402", "fit": 3, "score": 15, "first_seen": "2026-06-11", "repo_updated": "2026-05-20"},
+    {"key": "github:JohnTammi/supercompact-for-miroshark", "class": "building", "who": "supercompact-for-miroshark", "handle": "JohnTammi", "signal": "context-compaction tool built for MiroShark (4 stars)", "fit": 3, "score": 15, "first_seen": "2026-06-11", "repo_updated": "2026-04-27"},
+    {"key": "github:XIAOCUICUII/koc-growth-agent", "class": "forking", "who": "koc-growth-agent", "handle": "XIAOCUICUII", "signal": "rebuilt KOC growth-prediction system based on MiroShark (CN)", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-05-06"},
+    {"key": "github:Homie4570/aeon-skills", "class": "building", "who": "LoneStarOracle", "handle": "Homie4570", "signal": "weather/crypto/macro skill pack on aeon", "fit": 1, "score": 5, "first_seen": "2026-06-11", "repo_updated": "2026-05-19"},
+    {"key": "github:baseddevoloper/aeon-skill-pack-vvvkernel", "class": "building", "who": "vvvkernel", "handle": "baseddevoloper", "signal": "vvvkernel skill pack (no description)", "fit": 1, "score": 5, "first_seen": "2026-06-11", "repo_updated": "2026-05-19"},
+    {"key": "github:wshuyi/crucible-sim", "class": "adjacent", "who": "crucible-sim", "handle": "wshuyi", "signal": "adversarial swarm-sim on MiroFish+OASIS, name-checks MiroShark but rolled own (7 stars)", "fit": 3, "score": 3, "first_seen": "2026-06-11", "repo_updated": "2026-05-17"}
+  ],
+  "surfaced": [
+    "github:danbuildss/luca-aeon-skills",
+    "github:UIZorrot/careful-finance-aeon-skill-pack",
+    "github:codexvritra/signa-aeon-skills",
+    "github:Zoidberg-eternal/monitor-the-situation-bags",
+    "github:basedcryptoji/solvr-aeon-skill",
+    "github:JohnTammi/supercompact-for-miroshark",
+    "github:XIAOCUICUII/koc-growth-agent",
+    "github:Homie4570/aeon-skills",
+    "github:baseddevoloper/aeon-skill-pack-vvvkernel",
+    "github:wshuyi/crucible-sim"
+  ]
+}
