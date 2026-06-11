@@ -1,8 +1,10 @@
 # Watched Repos
 
 Repos the monitoring skills sweep. `builder-map`, `bd-radar`, and `product-pulse`
-read this file. Public repos drive "who's building on top"; private product repos
-are tracked via authed `gh api` for the internal health view.
+read this file. Public repos drive "who's building on top" (default `gh api`);
+private product repos are read via the read-only `GH_READ_PAT` prefetch
+(`scripts/prefetch-private-repos.sh` → `.xai-cache/private-repos.json`) for the
+internal health view — never expose their contents.
 
 | Repo | Keywords | Notes |
 |------|----------|-------|
@@ -13,11 +15,16 @@ are tracked via authed `gh api` for the internal health view.
 | aaronjmars/minitor | minitor | monitor-anything product (an Aeon product) |
 | aaronjmars/soul-aaronjmars | soul.md, "soul file", "ai soul" | the soul framework this instance runs on |
 
-## Private product repos (internal health only — authed `gh api`, never expose contents)
+## Private product repos (read-only, via `GH_READ_PAT` prefetch — never expose contents)
+In the PAT's scope → monitored by product-pulse:
+- aaronjmars/aeon-website — ⭐ aeon marketing site
+- aaronjmars/aeon-wc — ⭐ private aeon repo
+- aaronjmars/miroshark-website — 🦈 marketing site
+- aaronjmars/MiroShark-x402 — 🦈 x402 payments layer
+
+Out of the PAT's scope → not monitored (add them to the fine-grained PAT to include):
 - aaronjmars/MiroShark-api — API to run MiroShark
 - aaronjmars/miroshark-x — X bot, runs sims from @mentions
-- aaronjmars/miroshark-website — marketing site
-- aaronjmars/MiroShark-x402 — x402 payments layer
 
 ## Social handles
 - @aeonframework (Aeon) ⭐
