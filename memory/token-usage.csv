@@ -1,3 +1,4 @@
 date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-11,rss-digest,claude-opus-4-8,1964,1396,95012,10353
 2026-06-11,huggingface-trending,claude-sonnet-4-6,5308,13889,582605,38452
+2026-06-11,product-pulse,claude-opus-4-8,2252,10192,1144710,145695
