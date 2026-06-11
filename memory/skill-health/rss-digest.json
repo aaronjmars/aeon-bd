@@ -1,0 +1,14 @@
+{
+  "skill": "rss-digest",
+  "last_analyzed": "2026-06-11T17:55:13Z",
+  "quality_score": 3,
+  "assessment": "Skill executed correctly, made appropriate decision to skip when config missing, documented reasoning clearly and logged behavior.",
+  "flags": [],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-06-11",
+      "score": 3
+    }
+  ]
+}
