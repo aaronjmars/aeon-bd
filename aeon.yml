@@ -472,14 +472,15 @@ skills:
   wc-resale: { enabled: false, schedule: "0 13 * * *", var: "" } # daily/on-demand — FIFA World Cup 2026 resale ticket price tracker (get-in + median per match, ≥20% drop/spike/thin-market alerts). var: host city / venue / fixture (e.g. "toronto"); empty → Final + nearest upcoming match. WebSearch/WebFetch only, no secrets.
 
   # --- aeon + miroshark war room (Aaron + Nurstar) ---
-  # The daily `war-room` chain (see chains: below) drives product-pulse + bd-radar → war-room.
-  # These three are workflow_dispatch (no standalone cron) so enabling the chain is the single daily switch.
-  product-pulse: { enabled: true, schedule: "workflow_dispatch", var: "" } # daily state of aeon+miroshark — GitHub repo-family health + X deltas, week-over-week. Quiet unless red-flag; consumed by war-room.
-  bd-radar: { enabled: true, schedule: "workflow_dispatch", var: "" } # BD radar — who's building/forking/integrating/mentioning the products → ranked leads + a next move each. Quiet unless high-intent lead; consumed by war-room.
-  war-room: { enabled: true, schedule: "workflow_dispatch", var: "" } # daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Always notifies. Capstone of the war-room chain.
+  # 3 staggered standalone daily skills (no chain — chain-runner is brittle under bash -e).
+  # product-pulse + bd-radar commit their digests early; war-room reads those committed
+  # outputs at 07:45 via its fallback path and sends the team brief.
+  product-pulse: { enabled: true, schedule: "15 7 * * *", var: "" } # 07:15 UTC — state of aeon+miroshark: GitHub repo-family health + X deltas, week-over-week. Quiet unless red-flag. war-room reads its digest.
+  bd-radar: { enabled: true, schedule: "20 7 * * *", var: "" } # 07:20 UTC — BD radar: who's building/forking/integrating/mentioning the products → ranked leads + a next move each. Quiet unless high-intent lead.
+  war-room: { enabled: true, schedule: "45 7 * * *", var: "" } # 07:45 UTC — daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Reads the day's product-pulse + bd-radar digests. Always notifies.
   # Weekly thinkers — standalone cron; war-room folds in their latest digest if <7d old.
-  sim-watch: { enabled: true, schedule: "0 13 * * 0", var: "" } # Tue 11:00 UTC — Miroshark category intel (LLM/social simulation + world models): competitors, papers, clones; copy/counter/opening verdicts.
-  idea-forge: { enabled: true, schedule: "0 16 * * 3", var: "" } # Fri 16:00 UTC — weekly business-idea engine: zeitgeist × aeon/miroshark capability surface → 3-5 timing-window-scored wedges. Notifies the #1.
+  sim-watch: { enabled: true, schedule: "0 13 * * 0", var: "" } # Sun 13:00 UTC — Miroshark category intel (LLM/social simulation + world models): competitors, papers, clones; copy/counter/opening verdicts.
+  idea-forge: { enabled: true, schedule: "0 16 * * 3", var: "" } # Wed 16:00 UTC — weekly business-idea engine: zeitgeist × aeon/miroshark capability surface → 3-5 timing-window-scored wedges. Notifies the #1.
 
   # --- Fallback (must be last) ---
   heartbeat: { enabled: true, schedule: "0 8,14,20 * * *" }
@@ -517,15 +518,11 @@ reactive:
 #         - parallel: [skill-a, skill-b]
 #         - skill: skill-c, consume: [skill-a, skill-b]
 chains:
-  # aeon + miroshark daily standup — the single daily switch for the war room.
-  # Step 1 gathers state + leads in parallel; step 2 fuses them into one team brief.
-  war-room:
-    schedule: "30 7 * * *"        # 07:30 UTC daily
-    on_error: continue             # a missing data step shouldn't sink the brief
-    steps:
-      - parallel: [product-pulse, bd-radar]
-      - skill: war-room
-        consume: [product-pulse, bd-radar]
+  # war-room runs as 3 staggered standalone daily skills (product-pulse 07:15 →
+  # bd-radar 07:20 → war-room 07:45), NOT a chain: chain-runner.yml runs under
+  # `bash -e`, so a transient `gh` non-zero can hard-kill the job before
+  # on_error:continue reaches the capstone. Standalone is more robust and lets
+  # war-room read the committed digests via its fallback path.
 
   # routine:
   #   schedule: "0 7 * * *"

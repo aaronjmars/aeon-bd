@@ -15,7 +15,7 @@ Aaron + Nurstar ship two products — Aeon ⭐ and Miroshark 🦈 — across a s
 
 ## Config
 
-Reads `memory/watched-repos.md` for the repo list (public framework repos + the private product repos under the dedicated section). No new secrets — GitHub via authed `gh api`, X via the x-mcp tool. Reads/writes:
+Reads `memory/watched-repos.md` for the repo list (public framework repos + the private product repos under the dedicated section). GitHub via authed `gh api`; X follower/post counts via the xAI prefetch cache (`scripts/prefetch-xai.sh` → `.xai-cache/product-pulse-x.json`, needs `XAI_API_KEY`) with a keyless WebSearch fallback. Reads/writes:
 
 - `memory/topics/product-pulse-state.json` — yesterday's + last-week's snapshot, for deltas (LRU `history` capped at 30 daily entries).
 - `articles/product-pulse-${today}.md` — the daily state digest.
@@ -46,8 +46,17 @@ gh api repos/{owner}/{repo}/actions/runs -f per_page=20 --jq '[.workflow_runs[]|
 ```
 Record per repo: stars, open issues, open PRs, last-commit age (days), latest release tag/date, and (for automations) last-24h run pass/fail counts. If any `gh api` call fails, log `PRODUCT_PULSE_GH_MISS: {repo} (<reason>)` and continue — never abort on one repo.
 
-### 3. Gather X signal
-Use the x-mcp `get_user_profile` tool for `aeonframework` and `miroshark_`: capture `followers` and `tweet_count`. (Engagement on recent posts is optional — only pull `get_user_tweets` if the run is cheap and you need a top-post line.) If x-mcp is unavailable, log `PRODUCT_PULSE_X_MISS` and proceed GitHub-only.
+### 3. Gather X signal (followers + post count for @aeonframework and @miroshark_)
+xAI/grok owns X data, so use it. The workflow pre-fetches it **outside the sandbox** via `scripts/prefetch-xai.sh` (the `product-pulse` case), so the in-sandbox skill never curls with the secret. Resolve in this order:
+- **Path A — prefetch cache (preferred):** read `.xai-cache/product-pulse-x.json` and pull the model text, which is two `handle|followers|posts` lines:
+  ```bash
+  jq -r '.output[]|select(.type=="message")|.content[]|select(.type=="output_text")|.text' .xai-cache/product-pulse-x.json
+  ```
+- **Path B — direct XAI (fallback, cache empty + `XAI_API_KEY` set):** `POST https://api.x.ai/v1/responses` with `{"model":"grok-4-1-fast","input":[{"role":"user","content":"<same handle|followers|posts prompt>"}],"tools":[{"type":"x_search"}]}`, parse the same way. Sandbox may block curl-with-secret — prefer Path A.
+- **Path C — WebSearch (keyless fallback):** WebSearch `@aeonframework followers` and `@miroshark_ followers`; take the most recent figure. Log `X counts via WebSearch — approximate`.
+- **Local mode only:** the x-mcp `get_user_profile` tool, if present (it is NOT on the Actions runner).
+
+Capture `followers` + `posts` per handle. If every path fails, log `PRODUCT_PULSE_X_MISS` and proceed GitHub-only — never fail the run over X data.
 
 ### 4. Compute deltas
 Load `product-pulse-state.json`. Compute Δ vs the most recent prior snapshot (≈1 day) and vs the snapshot closest to 7 days ago. For every metric show: value, Δ1d, Δ7d. Flag **notables**:
@@ -67,7 +76,7 @@ Append today's snapshot to `history` (drop entries older than 30 days), set `sna
 This skill is primarily consumed by `war-room`, so it is **quiet by default**. Only self-notify (`./notify`) when `MODE=execute` AND a **red-flag** notable fired (CI red on an automation repo, or a previously-active repo stalled >14d). One line, Aaron's voice, lead with the flag. Otherwise no notification — the digest + state are enough.
 
 ## Sandbox note
-GitHub data uses `gh api` (auth internal — preferred over curl). X data uses the x-mcp tool (bypasses sandbox). For any public web page, WebFetch is the fallback. No raw curl with `$ENV_VAR` headers.
+GitHub data uses `gh api` (auth internal). X data comes from the `scripts/prefetch-xai.sh` cache (`.xai-cache/product-pulse-x.json`) — fetched outside the sandbox by the workflow before Claude starts — with WebSearch as the keyless fallback; x-mcp is local-mode only. No raw curl with `$ENV_VAR` headers inside the skill.
 
 ## Summary
 Ends by writing the digest + state + log. The `## Summary` in the log block lists notables and deltas; no human-facing message unless a red-flag fired.
