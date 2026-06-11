@@ -229,6 +229,13 @@ case "$SKILL" in
     fi
     ;;
 
+  product-pulse)
+    # Follower + post counts for the two product accounts (grok x_search; cached so the
+    # in-sandbox skill never has to curl with the secret). One line per handle: handle|followers|posts
+    xai_search "product-pulse-x.json" \
+      "Look up the current X (Twitter) profiles @aeonframework and @miroshark_. For EACH account return exactly one line in the form: handle|followers|posts — where followers is the current follower count as a plain integer (no commas) and posts is the total number of posts/tweets as a plain integer. Output only the two lines, no other text."
+    ;;
+
   *)
     echo "xai-prefetch: no prefetch defined for skill '$SKILL'"
     ;;
