@@ -18,5 +18,9 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4
+  },
+  "chain:war-room": {
+    "last_status": "failed",
+    "last_failed": "2026-06-11T18:33:03Z"
   }
 }
