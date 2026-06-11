@@ -1,0 +1,301 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-06-11"
+      },
+      "children": [
+        "state_section",
+        "sep1",
+        "talk_section",
+        "sep2",
+        "decide_section",
+        "sep3",
+        "appendix_section"
+      ]
+    },
+    "state_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state_heading",
+        "state_intro",
+        "stats_stack",
+        "state_details",
+        "alert_visibility"
+      ]
+    },
+    "state_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "state_intro": {
+      "type": "Text",
+      "props": {
+        "text": "both green.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_aeon",
+        "stat_miroshark"
+      ]
+    },
+    "stat_aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon",
+        "value": "508★"
+      },
+      "children": []
+    },
+    "stat_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "miroshark",
+        "value": "1256★"
+      },
+      "children": []
+    },
+    "state_details": {
+      "type": "Text",
+      "props": {
+        "text": "CI clean on both automation repos, every repo pushed today. but this is a baseline seed — real Δ1d/Δ7d start tomorrow. and the snapshot only sees public repos: the 4 private miroshark repos 404 (token unscoped) and zero X deltas (x-mcp not wired). half the product surface is dark.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_visibility": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Visibility gaps",
+        "message": "Private miroshark repos not accessible (token unscoped), X data not integrated (x-mcp not wired). Half the product surface is dark."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "talk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk_heading",
+        "alert_no_leads",
+        "talk_details"
+      ]
+    },
+    "talk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert_no_leads": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "no new leads"
+      },
+      "children": []
+    },
+    "talk_details": {
+      "type": "Text",
+      "props": {
+        "text": "bd-radar didn't produce today (first run still pending). nothing surfaced.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "decide_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide_heading",
+        "alert_instrumentation",
+        "decide_action_text"
+      ]
+    },
+    "decide_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert_instrumentation": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "don't trust tomorrow's \"first deltas\" until the instrumentation is real."
+      },
+      "children": []
+    },
+    "decide_action_text": {
+      "type": "Text",
+      "props": {
+        "text": "scope the gh token to the 4 private miroshark repos + wire x-mcp today. otherwise the war room reports on half the surface and calls it green. fix the eyes before reading the dials.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "appendix_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "appendix_heading",
+        "appendix_sources"
+      ]
+    },
+    "appendix_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Source Digests",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "appendix_sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source_pp",
+        "source_br",
+        "source_sw"
+      ]
+    },
+    "source_pp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_pp_link",
+        "source_pp_desc"
+      ]
+    },
+    "source_pp_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "product-pulse",
+        "href": "articles/product-pulse-2026-06-11.md",
+        "source": "state"
+      },
+      "children": []
+    },
+    "source_pp_desc": {
+      "type": "Text",
+      "props": {
+        "text": "baseline seeded, both green, X + private-repo misses logged.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "source_br": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_br_title",
+        "source_br_desc"
+      ]
+    },
+    "source_br_title": {
+      "type": "Text",
+      "props": {
+        "text": "bd-radar (leads):",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "source_br_desc": {
+      "type": "Text",
+      "props": {
+        "text": "no run today — no output, article, or bd-radar-leads.json. First run pending.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "source_sw": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_sw_title",
+        "source_sw_desc"
+      ]
+    },
+    "source_sw_title": {
+      "type": "Text",
+      "props": {
+        "text": "sim-watch / idea-forge:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "source_sw_desc": {
+      "type": "Text",
+      "props": {
+        "text": "none within 7 days.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "skill": "war-room",
+  "last_analyzed": "2026-06-11T18:38:36Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-structured brief with honest gap identification and clear follow-ups; bd-radar missing and private repo visibility limit depth",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-06-11",
+      "score": 4
+    }
+  ]
+}
