@@ -1,35 +1,33 @@
 # product-pulse — 2026-06-11
 
-**Baseline run.** First snapshot — no prior state, so no Δ1d / Δ7d yet. Deltas start tomorrow.
+State of aeon ⭐ + miroshark 🦈. Value · Δ1d · Δ7d. Δ7d N/A until history fills; X followers captured for the first time today (baseline, Δ starts tomorrow).
 
 ## Aeon ⭐
 
-| Repo | Stars | Open issues | Open PRs | Last commit | Latest release | CI (24h) |
-|------|------:|------:|------:|------|------|------|
-| aaronjmars/aeon | 508 | 3 | 3 | today | none | — |
-| aaronjmars/aeon-agent | 9 | 0 | 0 | today | none | 29✅ 0❌ (1 cancelled) |
-| aaronjmars/soul-aaronjmars | 9 | 0 | 0 | today | none | — |
+| Metric | Value | Δ1d | Δ7d |
+|---|---:|---:|---:|
+| [aeon](https://github.com/aaronjmars/aeon) stars | 508 | 0 | — |
+| aeon open PRs / issues | 3 / 3 | 0 / 0 | — |
+| [aeon-agent](https://github.com/aaronjmars/aeon-agent) stars | 9 | 0 | — |
+| aeon-agent CI (24h) | 34✅ / 0❌ (1 cancelled) | — | — |
+| [soul-aaronjmars](https://github.com/aaronjmars/soul-aaronjmars) stars | 9 | 0 | — |
+| [@aeonframework](https://x.com/aeonframework) followers | 151,822 | baseline | — |
 
 ## Miroshark 🦈
 
-| Repo | Stars | Open issues | Open PRs | Last commit | Latest release | CI (24h) |
-|------|------:|------:|------:|------|------|------|
-| aaronjmars/MiroShark | 1256 | 0 | 0 | today | none | — |
-| aaronjmars/miroshark-aeon | 14 | 0 | 0 | today | none | 30✅ 0❌ |
-
-## Other
-
-| Repo | Stars | Open issues | Open PRs | Last commit | Latest release |
-|------|------:|------:|------:|------|------|
-| aaronjmars/minitor | 11 | 0 | 0 | today | none |
+| Metric | Value | Δ1d | Δ7d |
+|---|---:|---:|---:|
+| [MiroShark](https://github.com/aaronjmars/MiroShark) stars | 1,257 | +1 | — |
+| MiroShark open PRs / issues | 0 / 0 | 0 / 0 | — |
+| [miroshark-aeon](https://github.com/aaronjmars/miroshark-aeon) stars | 14 | 0 | — |
+| miroshark-aeon CI (24h) | 35✅ / 0❌ | — | — |
+| [minitor](https://github.com/aaronjmars/minitor) stars | 11 | 0 | — |
+| [@miroshark_](https://x.com/miroshark_) followers | 2,072 | baseline | — |
 
 ## What changed
 
-- Baseline only. No deltas to report — first run seeds the snapshot.
-- CI green across both public automation repos (aeon-agent, miroshark-aeon): 0 failed runs in last 24h. The one `cancelled` on aeon-agent (`skill: feature`) is not a failure.
-- Every watched repo pushed today — nothing stalled.
+- **X data is live for the first time** — 151.8k aeon / 2.07k miroshark followers, pulled from the xAI prefetch cache (was dark on the morning baseline). Follower Δ tracking starts tomorrow.
+- MiroShark +1 star (1256 → 1257). Everything else flat day-over-day.
+- CI green both automation repos, every watched repo pushed today — nothing stalled, no releases anywhere.
 
-## Misses (logged, non-fatal)
-
-- `PRODUCT_PULSE_X_MISS` — x-mcp tool not present in this runtime; follower/tweet counts pending. Will populate when run where x-mcp is live.
-- `PRODUCT_PULSE_GH_MISS` ×4 — private product repos (`MiroShark-api`, `miroshark-x`, `miroshark-website`, `MiroShark-x402`) returned 404 (token lacks access). Internal health view unavailable until the token is scoped.
+No red-flags fired. Two gaps persist: 4 private miroshark repos still 404 (token unscoped) so internal health is half-dark, and xAI returned post counts of 0 (artifact) → followers only this run.
