@@ -1,28 +1,19 @@
-Done. Baseline run complete — first snapshot seeded, no deltas yet, CI green, no red-flag so correctly stayed quiet (no notification).
+Done. Ran `product-pulse` (MODE=execute) as a same-day re-run — the morning baseline had no X data, but the xAI cache is now populated, so this run captures follower counts for the first time.
 
 ## Summary
 
-First `product-pulse` run (MODE=execute, empty var). No prior state, so this seeds the baseline — Δ1d/Δ7d start tomorrow.
+**State of aeon ⭐ + miroshark 🦈 — 2026-06-11**
 
-**Snapshot (2026-06-11):**
-- **Aeon ⭐** — `aeon` 508★ (3 open issues, 3 open PRs) · `aeon-agent` 9★, CI 29✅/0❌ (1 cancelled) · `soul-aaronjmars` 9★
-- **Miroshark 🦈** — `MiroShark` 1256★ · `miroshark-aeon` 14★, CI 30✅/0❌
-- **Other** — `minitor` 11★
-- No releases anywhere; every repo pushed today (nothing stalled).
+- **X (now live, baseline):** @aeonframework **151,822** followers · @miroshark_ **2,072**. Post counts came back 0 (xAI artifact) → stored null. Follower Δ starts tomorrow.
+- **Stars:** aeon 508 (0) · MiroShark **1,257 (+1)** · aeon-agent 9 · miroshark-aeon 14 · minitor 11 · soul-aaronjmars 9. Only MiroShark moved.
+- **CI (24h):** green both automation repos — aeon-agent 34✅/0❌ (1 cancelled) · miroshark-aeon 35✅/0❌. The lone `failure` in aeon-agent's run log is at 2026-06-10T16:02, outside the 24h window.
+- **Notables:** 0 hard notables — no release, no CI red, no stall, and no 7-day history yet so momentum/milestone thresholds are N/A. **No red-flag → no notification** (correct per skill gating; this skill is quiet-by-default and feeds `war-room`).
+- **Gaps:** 4 private miroshark repos still 404 (token unscoped) — internal health half-dark; xAI post counts unavailable.
 
-**Notables:** 0 — baseline, nothing computable. CI green on both automation repos → no red-flag → **no notification** (correct per skill gating; the skill is quiet-by-default, consumed by `war-room`).
+**Files:**
+- `articles/product-pulse-2026-06-11.md` — rewritten to value/Δ1d/Δ7d table format + X rows
+- `memory/topics/product-pulse-state.json` — snapshot.x populated, history entry now Δ-ready
+- `memory/logs/2026-06-11.md` — appended `### product-pulse (re-run)` block
+- Committed to `main` as `e7d338f`
 
-**Misses (logged, non-fatal):**
-- `PRODUCT_PULSE_X_MISS` — x-mcp not present in this sandbox; follower/tweet counts pending (will populate in the Actions runtime where x-mcp is live).
-- `PRODUCT_PULSE_GH_MISS` ×4 — private product repos (`MiroShark-api`, `miroshark-x`, `miroshark-website`, `MiroShark-x402`) all 404; the `gh` token lacks access. Internal health view blocked until the token is scoped to those repos.
-
-**Files written:**
-- `articles/product-pulse-2026-06-11.md` — daily digest
-- `memory/topics/product-pulse-state.json` — created + seeded snapshot/history
-- `memory/logs/2026-06-11.md` — appended `### product-pulse` block
-
-**Follow-ups:**
-1. Scope the `gh` token (or run in an env with access) so the 4 private MiroShark repos report — that's half the "honest product state" picture.
-2. Confirm x-mcp is wired in the Actions runtime so X deltas land.
-
-Did not commit/push — leaving that to the workflow harness per repo convention (no direct-to-main).
+**Follow-up (unchanged from baseline):** scope a PAT with `repo` access for the 4 private miroshark repos to close the internal-health blind spot.
