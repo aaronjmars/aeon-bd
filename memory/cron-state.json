@@ -96,5 +96,9 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4
+  },
+  "heartbeat": {
+    "last_dispatch": "2026-06-11T20:37:33Z",
+    "last_status": "dispatched"
   }
 }
