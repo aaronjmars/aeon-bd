@@ -42,5 +42,21 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4
+  },
+  "fetch-tweets": {
+    "last_dispatch": "2026-06-11T18:52:28Z",
+    "last_status": "dispatched"
+  },
+  "write-tweet": {
+    "last_dispatch": "2026-06-11T18:52:28Z",
+    "last_status": "dispatched"
+  },
+  "reply-maker": {
+    "last_dispatch": "2026-06-11T18:52:28Z",
+    "last_status": "dispatched"
+  },
+  "agent-buzz": {
+    "last_dispatch": "2026-06-11T18:52:28Z",
+    "last_status": "dispatched"
   }
 }
