@@ -9,7 +9,20 @@
     {"key": "github:XIAOCUICUII/koc-growth-agent", "class": "forking", "who": "koc-growth-agent", "handle": "XIAOCUICUII", "signal": "rebuilt KOC growth-prediction system based on MiroShark (CN)", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-05-06"},
     {"key": "github:Homie4570/aeon-skills", "class": "building", "who": "LoneStarOracle", "handle": "Homie4570", "signal": "weather/crypto/macro skill pack on aeon", "fit": 1, "score": 5, "first_seen": "2026-06-11", "repo_updated": "2026-05-19"},
     {"key": "github:baseddevoloper/aeon-skill-pack-vvvkernel", "class": "building", "who": "vvvkernel", "handle": "baseddevoloper", "signal": "vvvkernel skill pack (no description)", "fit": 1, "score": 5, "first_seen": "2026-06-11", "repo_updated": "2026-05-19"},
-    {"key": "github:wshuyi/crucible-sim", "class": "adjacent", "who": "crucible-sim", "handle": "wshuyi", "signal": "adversarial swarm-sim on MiroFish+OASIS, name-checks MiroShark but rolled own (7 stars)", "fit": 3, "score": 3, "first_seen": "2026-06-11", "repo_updated": "2026-05-17"}
+    {"key": "github:wshuyi/crucible-sim", "class": "adjacent", "who": "crucible-sim", "handle": "wshuyi", "signal": "adversarial swarm-sim on MiroFish+OASIS, name-checks MiroShark but rolled own (7 stars)", "fit": 3, "score": 3, "first_seen": "2026-06-11", "repo_updated": "2026-05-17"},
+
+    {"key": "github:swarm-ai-research/aeon-atlas", "class": "forking", "who": "ResearchSwarm / swarm-ai-research", "handle": "@ResearchSwarmAI", "signal": "CROSS-PRODUCT — forked aeon→aeon-atlas (+~22MB own content vs base) AND MiroShark, both pushed 06-11. Likely the known ResearchSwarm, but escalating hard", "fit": 3, "score": 12, "known": true, "escalating": true, "first_seen": "2026-06-11", "repo_updated": "2026-06-11", "source": "gh_read_pat_forks"},
+    {"key": "github:anondevv69/bankr-space-aeon", "class": "forking", "who": "bankr-space-aeon", "handle": "anondevv69", "signal": "named new aeon fork 'bankr-space-aeon' (33MB, own content), created 06-10 pushed 06-11. Bankr-adjacent (Bankr in ECOSYSTEM)", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-11", "source": "gh_read_pat_forks"},
+    {"key": "github:ScoutAeon/Scout", "class": "forking", "who": "Scout", "handle": "ScoutAeon", "signal": "renamed aeon fork → 'Scout' (intentional named product), 05-28→05-31", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-05-31", "source": "gh_read_pat_forks"},
+    {"key": "github:dan-and/MiroShark", "class": "forking", "who": "dan-and/MiroShark", "handle": "dan-and", "signal": "active MiroShark fork w/ own commits (62.8MB), 06-03→06-08", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-08", "source": "gh_read_pat_forks"},
+    {"key": "github:CertifiedCryp/MiroShark", "class": "forking", "who": "CertifiedCryp/MiroShark", "handle": "CertifiedCryp", "signal": "MiroShark fork w/ added content (62.8MB), 05-23→06-06", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-06", "source": "gh_read_pat_forks"},
+    {"key": "github:DYAI2025/MiroShark", "class": "forking", "who": "DYAI2025/MiroShark", "handle": "DYAI2025", "signal": "MiroShark fork, recent activity 05-22→06-10", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-10", "source": "gh_read_pat_forks"},
+    {"key": "github:daxaur/aeon", "class": "forking", "who": "daxaur/aeon", "handle": "daxaur", "signal": "active aeon fork, own commits 06-05→06-10", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-10", "source": "gh_read_pat_forks"},
+    {"key": "github:beijiangqukuailian/aeon", "class": "forking", "who": "beijiangqukuailian/aeon", "handle": "beijiangqukuailian", "signal": "aeon fork, 8d active 06-03→06-11 (pushed today, CN owner)", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-11", "source": "gh_read_pat_forks"},
+    {"key": "github:TakamiyaZee/aeon", "class": "forking", "who": "TakamiyaZee/aeon", "handle": "TakamiyaZee", "signal": "aeon fork pushed today 05-28→06-11", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-11", "source": "gh_read_pat_forks"},
+    {"key": "github:Raul-dd/MiroShark", "class": "forking", "who": "Raul-dd/MiroShark", "handle": "Raul-dd", "signal": "MiroShark fork w/ own commits 05-27→06-02", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-02", "source": "gh_read_pat_forks"},
+    {"key": "github:chxoky/aeon", "class": "forking", "who": "chxoky/aeon", "handle": "chxoky", "signal": "aeon fork, own commits 06-05→06-08", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-08", "source": "gh_read_pat_forks"},
+    {"key": "github:Damoncrypto/aeon", "class": "forking", "who": "Damoncrypto/aeon", "handle": "Damoncrypto", "signal": "aeon fork, own commits 05-30→06-04", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-04", "source": "gh_read_pat_forks"}
   ],
   "surfaced": [
     "github:danbuildss/luca-aeon-skills",
@@ -21,6 +34,18 @@
     "github:XIAOCUICUII/koc-growth-agent",
     "github:Homie4570/aeon-skills",
     "github:baseddevoloper/aeon-skill-pack-vvvkernel",
-    "github:wshuyi/crucible-sim"
+    "github:wshuyi/crucible-sim",
+    "github:swarm-ai-research/aeon-atlas",
+    "github:anondevv69/bankr-space-aeon",
+    "github:ScoutAeon/Scout",
+    "github:dan-and/MiroShark",
+    "github:CertifiedCryp/MiroShark",
+    "github:DYAI2025/MiroShark",
+    "github:daxaur/aeon",
+    "github:beijiangqukuailian/aeon",
+    "github:TakamiyaZee/aeon",
+    "github:Raul-dd/MiroShark",
+    "github:chxoky/aeon",
+    "github:Damoncrypto/aeon"
   ]
 }
