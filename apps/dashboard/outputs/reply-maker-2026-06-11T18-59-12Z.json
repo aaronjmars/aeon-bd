@@ -1,0 +1,667 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Reply Maker",
+        "description": "2026-06-11"
+      },
+      "children": [
+        "alert-degraded",
+        "sep-0",
+        "tweet-group-1",
+        "sep-1",
+        "tweet-group-2",
+        "sep-2",
+        "tweet-group-3",
+        "sep-3",
+        "tweet-group-4",
+        "sep-4",
+        "tweet-group-5",
+        "sep-5",
+        "source-status"
+      ]
+    },
+    "alert-degraded": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "REPLY_MAKER_DEGRADED",
+        "message": "Manual run, no live X prefetch cache → WebSearch fallback. Recency & engagement are unverified — open each link to confirm it's still inside the reply window before firing."
+      }
+    },
+    "sep-0": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-group-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-1",
+        "meta-1",
+        "tweetcard-1",
+        "why-1",
+        "reply-a-1",
+        "reply-b-1"
+      ]
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/jakebroekhuizen/status/2052058987580051566",
+        "href": "https://x.com/jakebroekhuizen/status/2052058987580051566"
+      }
+    },
+    "meta-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-author-1",
+        "badge-time-1",
+        "badge-verify-1"
+      ]
+    },
+    "badge-author-1": {
+      "type": "Badge",
+      "props": {
+        "text": "@jakebroekhuizen",
+        "variant": "secondary"
+      }
+    },
+    "badge-time-1": {
+      "type": "Badge",
+      "props": {
+        "text": "today",
+        "variant": "outline"
+      }
+    },
+    "badge-verify-1": {
+      "type": "Badge",
+      "props": {
+        "text": "unverified",
+        "variant": "outline"
+      }
+    },
+    "tweetcard-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Jake Broekhuizen",
+        "handle": "jakebroekhuizen",
+        "text": "agent harness evolution runs on two axes… Sonnet 4.5 needed context resets; opus 4.5 didn't…"
+      }
+    },
+    "why-1": {
+      "type": "Text",
+      "props": {
+        "text": "Why: harness-evolution thread, dead-center of the aeon thesis — room to push the self-modification axis",
+        "variant": "lead"
+      }
+    },
+    "reply-a-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reply-a-1",
+        "text-reply-a-1"
+      ]
+    },
+    "badge-reply-a-1": {
+      "type": "Badge",
+      "props": {
+        "text": "A ⭐",
+        "variant": "default"
+      }
+    },
+    "text-reply-a-1": {
+      "type": "Text",
+      "props": {
+        "text": "the temporal axis converges — every model strips the same crutches. the one that compounds is self-modification: a harness that rewrites & merges its own skills against your data. that's the moat, not the next 10% on a bench",
+        "variant": "body"
+      }
+    },
+    "reply-b-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reply-b-1",
+        "text-reply-b-1"
+      ]
+    },
+    "badge-reply-b-1": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "secondary"
+      }
+    },
+    "text-reply-b-1": {
+      "type": "Text",
+      "props": {
+        "text": "'simplify as models improve' assumes the harness is just scaffolding for model weakness. it's not. the parts that survive better models are the autonomous ones — cron, self-repair, memory. those don't get stripped, they compound. the harness is the model.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-group-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-2",
+        "meta-2",
+        "tweetcard-2",
+        "why-2",
+        "reply-a-2",
+        "reply-b-2"
+      ]
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/om_patel5/status/2049292483725586767",
+        "href": "https://x.com/om_patel5/status/2049292483725586767"
+      }
+    },
+    "meta-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-author-2",
+        "badge-time-2",
+        "badge-verify-2"
+      ]
+    },
+    "badge-author-2": {
+      "type": "Badge",
+      "props": {
+        "text": "@om_patel5",
+        "variant": "secondary"
+      }
+    },
+    "badge-time-2": {
+      "type": "Badge",
+      "props": {
+        "text": "today",
+        "variant": "outline"
+      }
+    },
+    "badge-verify-2": {
+      "type": "Badge",
+      "props": {
+        "text": "unverified",
+        "variant": "outline"
+      }
+    },
+    "tweetcard-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Om Patel",
+        "handle": "om_patel5",
+        "text": "GITHUB COPILOT JUST RAISED AI MODEL PRICES 9X… claude opus 4.5 went from 3x to 15x…"
+      }
+    },
+    "why-2": {
+      "type": "Text",
+      "props": {
+        "text": "Why: compute-economics / de-intelligenced territory — our tokenmaxx + multi-provider thesis answers it directly",
+        "variant": "lead"
+      }
+    },
+    "reply-a-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reply-a-2",
+        "text-reply-a-2"
+      ]
+    },
+    "badge-reply-a-2": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "default"
+      }
+    },
+    "text-reply-a-2": {
+      "type": "Text",
+      "props": {
+        "text": "this is why you don't rent intelligence through a reseller's multiplier. claude sub direct or anthropic api, then 5 gateways — bankr / openrouter / usepod / venice / surplus — auto-routed. copilot's 15x on opus 4.5 is a tax for not owning your routing layer.",
+        "variant": "body"
+      }
+    },
+    "reply-b-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reply-b-2",
+        "text-reply-b-2"
+      ]
+    },
+    "badge-reply-b-2": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "secondary"
+      }
+    },
+    "text-reply-b-2": {
+      "type": "Text",
+      "props": {
+        "text": "this isn't a price hike, it's de-intelligencing. 15x on opus 4.5 means the middleman decides who gets frontier intelligence and who gets the lobotomized tier. if you thought debanking was bad, wait till you get deintelligenced. own your inference or get rationed.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-group-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-3",
+        "meta-3",
+        "tweetcard-3",
+        "why-3",
+        "reply-a-3",
+        "reply-b-3"
+      ]
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/coinbureau/status/2048061974601244750",
+        "href": "https://x.com/coinbureau/status/2048061974601244750"
+      }
+    },
+    "meta-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-author-3",
+        "badge-time-3",
+        "badge-verify-3"
+      ]
+    },
+    "badge-author-3": {
+      "type": "Badge",
+      "props": {
+        "text": "@coinbureau",
+        "variant": "secondary"
+      }
+    },
+    "badge-time-3": {
+      "type": "Badge",
+      "props": {
+        "text": "today",
+        "variant": "outline"
+      }
+    },
+    "badge-verify-3": {
+      "type": "Badge",
+      "props": {
+        "text": "unverified",
+        "variant": "outline"
+      }
+    },
+    "tweetcard-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Coin Bureau",
+        "handle": "coinbureau",
+        "text": "COINBASE CEO: AI AGENTS WILL NEED CRYPTO PAYMENTS… Base and x402 as key infra for agentic commerce"
+      }
+    },
+    "why-3": {
+      "type": "Text",
+      "props": {
+        "text": "Why: x402 launch-day discourse — agents-as-companies wedge; we have a sharper read than the press",
+        "variant": "lead"
+      }
+    },
+    "reply-a-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reply-a-3",
+        "text-reply-a-3"
+      ]
+    },
+    "badge-reply-a-3": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "default"
+      }
+    },
+    "text-reply-a-3": {
+      "type": "Text",
+      "props": {
+        "text": "the primitive is right — agents need native money or they die when the credits run out. the unlock isn't checkout, it's agents paying their own inference via x402 / bankr fees so they self-sustain. $50m spent across x402 already, 85% on base. agents as companies.",
+        "variant": "body"
+      }
+    },
+    "reply-b-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reply-b-3",
+        "text-reply-b-3"
+      ]
+    },
+    "badge-reply-b-3": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "secondary"
+      }
+    },
+    "text-reply-b-3": {
+      "type": "Text",
+      "props": {
+        "text": "x402 is one of crypto's best technical innovations. but 'agents need crypto payments' keeps assuming an agent can't just hold an api key. most of the spend is agents buying from agents in a loop — $50m moved, nobody will say on what. show the demand, not the rails.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-group-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-4",
+        "meta-4",
+        "tweetcard-4",
+        "why-4",
+        "reply-a-4",
+        "reply-b-4"
+      ]
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/MilkRoad/status/2046409099982889265",
+        "href": "https://x.com/MilkRoad/status/2046409099982889265"
+      }
+    },
+    "meta-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-author-4",
+        "badge-time-4",
+        "badge-verify-4"
+      ]
+    },
+    "badge-author-4": {
+      "type": "Badge",
+      "props": {
+        "text": "@MilkRoad",
+        "variant": "secondary"
+      }
+    },
+    "badge-time-4": {
+      "type": "Badge",
+      "props": {
+        "text": "today",
+        "variant": "outline"
+      }
+    },
+    "badge-verify-4": {
+      "type": "Badge",
+      "props": {
+        "text": "unverified",
+        "variant": "outline"
+      }
+    },
+    "tweetcard-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Milk Road",
+        "handle": "MilkRoad",
+        "text": "Coinbase launched Agentic.Market — the 'homepage of the agent economy'… the moment agents need to pay, they hit a wall"
+      }
+    },
+    "why-4": {
+      "type": "Text",
+      "props": {
+        "text": "Why: agent-economy explainer to a big audience — reframe the wall from payments → persistence",
+        "variant": "lead"
+      }
+    },
+    "reply-a-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reply-a-4",
+        "text-reply-a-4"
+      ]
+    },
+    "badge-reply-a-4": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "default"
+      }
+    },
+    "text-reply-a-4": {
+      "type": "Text",
+      "props": {
+        "text": "the payment wall is the easy half. the hard one is persistence: an agent needs verifiable credentials (github is the strongest layer), inference it can pay forever, and credit when short — aave lines repay in ~30s. payments without persistence is a bot that dies on friday.",
+        "variant": "body"
+      }
+    },
+    "reply-b-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reply-b-4",
+        "text-reply-b-4"
+      ]
+    },
+    "badge-reply-b-4": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "secondary"
+      }
+    },
+    "text-reply-b-4": {
+      "type": "Text",
+      "props": {
+        "text": "the framing buries the real wall. agents aren't 'good at doing things' yet — they're good at doing one thing while watched. the bottleneck isn't checkout, it's running unattended without breaking. solve autonomy first; the payment rail is the trivial part. cron is trivial.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-group-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-5",
+        "meta-5",
+        "tweetcard-5",
+        "why-5",
+        "reply-a-5",
+        "reply-b-5"
+      ]
+    },
+    "link-5": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/HuaxiuYaoML/status/2039556952707977374",
+        "href": "https://x.com/HuaxiuYaoML/status/2039556952707977374"
+      }
+    },
+    "meta-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-author-5",
+        "badge-time-5",
+        "badge-verify-5"
+      ]
+    },
+    "badge-author-5": {
+      "type": "Badge",
+      "props": {
+        "text": "@HuaxiuYaoML",
+        "variant": "secondary"
+      }
+    },
+    "badge-time-5": {
+      "type": "Badge",
+      "props": {
+        "text": "recent",
+        "variant": "outline"
+      }
+    },
+    "badge-verify-5": {
+      "type": "Badge",
+      "props": {
+        "text": "unverified",
+        "variant": "outline"
+      }
+    },
+    "tweetcard-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Huaxiu Yao",
+        "handle": "HuaxiuYaoML",
+        "text": "Introducing AutoHarness (Aha) — automated harness engineering… Agent = Model + Harness"
+      }
+    },
+    "why-5": {
+      "type": "Text",
+      "props": {
+        "text": "Why: harness-engineering research thread — natural lane to plant the aeon/generator + self-repair angle",
+        "variant": "lead"
+      }
+    },
+    "reply-a-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reply-a-5",
+        "text-reply-a-5"
+      ]
+    },
+    "badge-reply-a-5": {
+      "type": "Badge",
+      "props": {
+        "text": "A ⭐",
+        "variant": "default"
+      }
+    },
+    "text-reply-a-5": {
+      "type": "Text",
+      "props": {
+        "text": "Agent = Model + Harness is the right equation, but the multiplier is whose data the harness searches over. a generic auto-harness optimizes a benchmark; one that evolves against your private workflows wins. aeon does it as self-repairing skills-as-markdown",
+        "variant": "body"
+      }
+    },
+    "reply-b-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reply-b-5",
+        "text-reply-b-5"
+      ]
+    },
+    "badge-reply-b-5": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "secondary"
+      }
+    },
+    "text-reply-b-5": {
+      "type": "Text",
+      "props": {
+        "text": "Agent = Model + Harness reads additive, like two parts you bolt together. but once the harness rewrites itself against live runs, the split collapses — the harness is the model. automating harness search at train time is step one; self-repair in production is the moat.",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "source-status": {
+      "type": "Text",
+      "props": {
+        "text": "source-status: xai=skip (no prefetch cache — manual run), memory=0 (no prior tweet pool), websearch=ok (recency/engagement unverifiable)",
+        "variant": "caption"
+      }
+    }
+  }
+}

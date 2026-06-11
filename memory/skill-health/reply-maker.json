@@ -1,0 +1,17 @@
+{
+  "skill": "reply-maker",
+  "last_analyzed": "2026-06-11T18:59:12Z",
+  "quality_score": 3,
+  "assessment": "Acceptable — delivered substantive, on-strategy replies in correct voice, but degraded due to missing prefetch cache and unverified engagement metrics.",
+  "flags": [
+    "api_error",
+    "stale_data"
+  ],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-06-11",
+      "score": 3
+    }
+  ]
+}
