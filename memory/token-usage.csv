@@ -3,4 +3,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-11,huggingface-trending,claude-sonnet-4-6,5308,13889,582605,38452
 2026-06-11,product-pulse,claude-opus-4-8,2252,10192,1144710,145695
 2026-06-11,war-room,claude-opus-4-8,2237,6508,828423,50374
-2026-06-11,product-pulse,claude-opus-4-8,2239,12339,678893,36820
+2026-06-11,write-tweet,claude-opus-4-8,2248,13442,776765,40945

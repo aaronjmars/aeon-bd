@@ -1,0 +1,260 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "write-tweet",
+        "description": "Tweet drafts: an agent that audits its own blind spots — fix the eyes before reading the dials"
+      },
+      "children": [
+        "concept_section",
+        "sep1",
+        "oneliners_section",
+        "sep2",
+        "twopunch_section",
+        "sep3",
+        "paragraph_section",
+        "sep4",
+        "longtweet_section",
+        "sep5",
+        "thread_section",
+        "sep6",
+        "recommendation"
+      ]
+    },
+    "concept_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "concept_heading",
+        "concept_line1",
+        "concept_line2"
+      ]
+    },
+    "concept_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Thesis",
+        "level": "h2"
+      }
+    },
+    "concept_line1": {
+      "type": "Text",
+      "props": {
+        "text": "A dashboard with half its inputs dark isn't a dashboard, it's a horoscope.",
+        "variant": "lead"
+      }
+    },
+    "concept_line2": {
+      "type": "Text",
+      "props": {
+        "text": "Self-repair is the moat. Checking your own blind spots is the first repair.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "oneliners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "oneliners_heading",
+        "oneliner_1a",
+        "oneliner_1b"
+      ]
+    },
+    "oneliners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "One-liners",
+        "level": "h3"
+      }
+    },
+    "oneliner_1a": {
+      "type": "TweetCard",
+      "props": {
+        "text": "a dashboard with half its inputs dark isn't a dashboard, it's a horoscope."
+      }
+    },
+    "oneliner_1b": {
+      "type": "TweetCard",
+      "props": {
+        "text": "self-repair is the moat. checking your own blind spots is the first repair."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "twopunch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "twopunch_heading",
+        "twopunch_2a",
+        "twopunch_2b"
+      ]
+    },
+    "twopunch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Two-Punch",
+        "level": "h3"
+      }
+    },
+    "twopunch_2a": {
+      "type": "TweetCard",
+      "props": {
+        "text": "built an agent to watch our two products. day one it didn't report — it flagged that half its own inputs were dark. fix the eyes before reading the dials."
+      }
+    },
+    "twopunch_2b": {
+      "type": "TweetCard",
+      "props": {
+        "text": "every ai dashboard says all green. the green is only the half it can actually see. the dark half is where you die :'"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "paragraph_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "paragraph_heading",
+        "paragraph_3a",
+        "paragraph_3b"
+      ]
+    },
+    "paragraph_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Paragraphs",
+        "level": "h3"
+      }
+    },
+    "paragraph_3a": {
+      "type": "TweetCard",
+      "props": {
+        "text": "everyone wants the agent that reports the numbers. nobody wants the one that says 'i can't see four of my six inputs, don't trust today's read.' the second one is the only honest instrument you'll ever own. the harness is the model."
+      }
+    },
+    "paragraph_3b": {
+      "type": "TweetCard",
+      "props": {
+        "text": "ran the first product standup today. aeon 508 stars, miroshark 1256, CI green across the board. then it caught itself: 4 repos 404, zero X deltas. half the surface dark. green means nothing until the eyes work."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "longtweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "longtweet_heading",
+        "longtweet_4a",
+        "longtweet_4b"
+      ]
+    },
+    "longtweet_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Long Tweet",
+        "level": "h3"
+      }
+    },
+    "longtweet_4a": {
+      "type": "TweetCard",
+      "props": {
+        "text": "spun up an autonomous agent to run a daily war room over two products — state, who to talk to, what to ship. figured the value was the standup brief. it wasn't. day one it ran the numbers, then stopped and said: four of six repos are 404, the X feed is dark, you're looking at half the surface. don't trust the deltas yet — fix the instrument first. cron is trivial. an agent that audits its own blind spots before it reports? that's the moat. ⭐"
+      }
+    },
+    "longtweet_4b": {
+      "type": "TweetCard",
+      "props": {
+        "text": "a dashboard's job is to tell you the truth. but every dashboard has a dark half — the inputs it can't reach — and almost none of them admit it. they just render the part they can see as all green and let you fly into the mountain. the upgrade isn't more metrics. it's an agent that knows what it can't see and says so before you act on the numbers. fix the eyes before reading the dials."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thread_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "thread_heading",
+        "thread_5a",
+        "thread_5b"
+      ]
+    },
+    "thread_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thread Opener",
+        "level": "h3"
+      }
+    },
+    "thread_5a": {
+      "type": "TweetCard",
+      "props": {
+        "text": "what's the first thing a good monitoring agent should do? not report. check whether it can actually see."
+      }
+    },
+    "thread_5b": {
+      "type": "TweetCard",
+      "props": {
+        "text": "the moat for autonomous agents isn't doing the task. it's knowing when its own view is broken — and refusing to report numbers it can't stand behind."
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recommendation": {
+      "type": "Alert",
+      "props": {
+        "title": "Best",
+        "message": "#4a — grounded in what aeon actually did today, lands on the moat thesis, real BD signal not a generic aphorism.",
+        "type": "success"
+      }
+    }
+  }
+}
