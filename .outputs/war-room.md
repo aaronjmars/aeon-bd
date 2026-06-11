@@ -1,14 +1,14 @@
 ⭐🦈 war room — 2026-06-11
 
-state: both green. aeon 508★ / miroshark 1256★, CI clean on both automation repos, every repo pushed today. but this is a baseline seed — real Δ1d/Δ7d start tomorrow. and the snapshot only sees public repos: the 4 private miroshark repos 404 (token unscoped) and zero X deltas (x-mcp not wired). half the product surface is dark.
+state: both green. aeon 508★ / miroshark 1257★, CI clean, all repos pushed today. the "fix the eyes" call this morning landed — 4 private repos now resolve via GH_READ_PAT, internal health lit for the first time. aeon +1 follower, else flat. still dark: Δ7d (instance 1d old) + bd-radar's forks/issues API.
 
-talk to: no new leads — bd-radar didn't produce today (first run still pending). nothing surfaced.
+talk to: luca (@AskLucaAI / x402Books) — new builder, 4 x402/Base fin-intel skills on aeon → DM today, invite to TG, list in ECOSYSTEM. · ZERA (monitor-the-situation-bags) — first real vendored MiroShark integration (bags hackathon) → DM, offer the x402 sim hook.
 
-decide: don't trust tomorrow's "first deltas" until the instrumentation is real. scope the gh token to the 4 private miroshark repos + wire x-mcp today. otherwise the war room reports on half the surface and calls it green. fix the eyes before reading the dials.
+decide: it's not one lead, it's a cluster — luca, Careful Finance, Solvr all shipped x402/Base fin-intel packs on aeon this week. aeon is quietly becoming the execution layer behind on-chain data products. own it: DM luca while warm, then finish fixing the eyes — add aeon + MiroShark to GH_READ_PAT so forking/integrating stop being dark.
 
 ---
 
 ### appendix — source digests
-- **product-pulse** (state): `articles/product-pulse-2026-06-11.md` · baseline seeded, both green, X + private-repo misses logged.
-- **bd-radar** (leads): no run today — no output, article, or `bd-radar-leads.json`. First run pending.
+- **product-pulse** (state): `articles/product-pulse-2026-06-11.md` · both green, private repos now visible (GH_READ_PAT prefetch resolved all 4), aeon +1 follower, no red-flags. X post counts + Δ7d still pending.
+- **bd-radar** (leads): `articles/bd-radar-2026-06-11.md` · first real sweep — 13 candidates, 10 in digest. fin-intel cluster (luca/Careful Finance/Solvr, all x402/Base, all this week) + one real MiroShark vendored integration (ZERA). forks/issues + x sources dark (token scope).
 - **sim-watch / idea-forge**: none within 7 days.
