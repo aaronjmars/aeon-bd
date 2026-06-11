@@ -236,6 +236,14 @@ case "$SKILL" in
       "Look up the current X (Twitter) profiles @aeonframework and @miroshark_. For EACH account return exactly one line in the form: handle|followers|posts — where followers is the current follower count as a plain integer (no commas) and posts is the total number of posts/tweets as a plain integer. Output only the two lines, no other text."
     ;;
 
+  bd-radar)
+    # X mentions of the products from project/builder accounts — the `mentioning` BD signal.
+    # 3-day window (bd-radar dedups via its own surfaced LRU). Cached so the in-sandbox skill never curls the secret.
+    xai_search "bd-radar-x.json" \
+      "Search X for recent posts mentioning the products @aeonframework (the Aeon agent framework) or @miroshark_ (the Miroshark swarm-simulation engine), or the phrases \"aeon framework\", \"miroshark\", or \"simulate anything\", from ${THREE_DAYS_AGO} to ${TODAY}. Prioritise posts from accounts that look like PROJECTS or BUILDERS (have a bio/links, ship things) over pure reply-guys. For each post return: @handle, the full post text, date posted, a one-line note on whether the account looks like a builder/project, engagement (likes + reposts), and the direct link (https://x.com/handle/status/ID). Return up to 20, as a numbered list." \
+      "$THREE_DAYS_AGO" "$TODAY"
+    ;;
+
   *)
     echo "xai-prefetch: no prefetch defined for skill '$SKILL'"
     ;;
