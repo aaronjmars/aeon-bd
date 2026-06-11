@@ -1,0 +1,568 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Hugging Face Trending — 2026-06-11"
+      },
+      "children": [
+        "section_topick",
+        "sep1",
+        "section_multimodal",
+        "sep2",
+        "section_llm",
+        "sep3",
+        "section_datasets",
+        "sep4",
+        "section_spaces",
+        "sep5",
+        "footer"
+      ]
+    },
+    "section_topick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_topick",
+        "topick_item"
+      ]
+    },
+    "heading_topick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "topick_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "topick_link",
+        "topick_desc"
+      ]
+    },
+    "topick_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nvidia/LocateAnything-3B",
+        "href": "https://huggingface.co/nvidia/LocateAnything-3B"
+      }
+    },
+    "topick_desc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "topick_desc_part1",
+        "topick_arxiv_link",
+        "topick_desc_part2"
+      ]
+    },
+    "topick_desc_part1": {
+      "type": "Text",
+      "props": {
+        "text": "NVIDIA's compact visual grounding model is back at #1 months after release — the May 2026 paper drop ("
+      }
+    },
+    "topick_arxiv_link": {
+      "type": "Link",
+      "props": {
+        "label": "arxiv:2605.27365",
+        "href": "https://arxiv.org/abs/2605.27365"
+      }
+    },
+    "topick_desc_part2": {
+      "type": "Text",
+      "props": {
+        "text": ") explains the RETURNING spike, and the open-weight + published-paper combo keeps compounding community traction."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_multimodal": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_multimodal",
+        "mm_item_1",
+        "mm_item_2"
+      ]
+    },
+    "heading_multimodal": {
+      "type": "Heading",
+      "props": {
+        "text": "Multimodal",
+        "level": "h3"
+      }
+    },
+    "mm_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mm1_header",
+        "mm1_desc"
+      ]
+    },
+    "mm1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mm1_link",
+        "mm1_stats_stack"
+      ]
+    },
+    "mm1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google/diffusiongemma-26B-A4B-it",
+        "href": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+      }
+    },
+    "mm1_stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mm1_likes",
+        "mm1_downloads",
+        "mm1_type",
+        "mm1_status"
+      ]
+    },
+    "mm1_likes": {
+      "type": "Badge",
+      "props": {
+        "text": "❤ 444"
+      }
+    },
+    "mm1_downloads": {
+      "type": "Badge",
+      "props": {
+        "text": "↓ 0"
+      }
+    },
+    "mm1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "image-text-to-text"
+      }
+    },
+    "mm1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "mm1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Google's first diffusion language model — generates text via iterative denoising rather than autoregression; 26B MoE with 4B active params, Apache 2.0."
+      }
+    },
+    "mm_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mm2_header",
+        "mm2_desc"
+      ]
+    },
+    "mm2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mm2_link",
+        "mm2_stats_stack"
+      ]
+    },
+    "mm2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bosonai/higgs-audio-v3-tts-4b",
+        "href": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b"
+      }
+    },
+    "mm2_stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mm2_likes",
+        "mm2_downloads",
+        "mm2_type",
+        "mm2_status"
+      ]
+    },
+    "mm2_likes": {
+      "type": "Badge",
+      "props": {
+        "text": "❤ 349"
+      }
+    },
+    "mm2_downloads": {
+      "type": "Badge",
+      "props": {
+        "text": "↓ 20k"
+      }
+    },
+    "mm2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "text-to-speech"
+      }
+    },
+    "mm2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "mm2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "4B open TTS covering 100+ languages with controllable expressiveness — broadest multilingual reach for an open-weight voice-agent model so far."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_llm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_llm",
+        "llm_item_1"
+      ]
+    },
+    "heading_llm": {
+      "type": "Heading",
+      "props": {
+        "text": "LLMs / Reasoning",
+        "level": "h3"
+      }
+    },
+    "llm_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "llm1_header",
+        "llm1_desc"
+      ]
+    },
+    "llm1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "llm1_link",
+        "llm1_stats_stack"
+      ]
+    },
+    "llm1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sapientinc/HRM-Text-1B",
+        "href": "https://huggingface.co/sapientinc/HRM-Text-1B"
+      }
+    },
+    "llm1_stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "llm1_likes",
+        "llm1_downloads",
+        "llm1_type",
+        "llm1_status"
+      ]
+    },
+    "llm1_likes": {
+      "type": "Badge",
+      "props": {
+        "text": "❤ 747"
+      }
+    },
+    "llm1_downloads": {
+      "type": "Badge",
+      "props": {
+        "text": "↓ 135k"
+      }
+    },
+    "llm1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "text-generation"
+      }
+    },
+    "llm1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "llm1_desc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "llm1_desc_part1",
+        "llm1_arxiv_link",
+        "llm1_desc_part2"
+      ]
+    },
+    "llm1_desc_part1": {
+      "type": "Text",
+      "props": {
+        "text": "Hierarchical Reasoning Model ("
+      }
+    },
+    "llm1_arxiv_link": {
+      "type": "Link",
+      "props": {
+        "label": "arxiv:2605.20613",
+        "href": "https://arxiv.org/abs/2605.20613"
+      }
+    },
+    "llm1_desc_part2": {
+      "type": "Text",
+      "props": {
+        "text": "): 1B prefix-LM pre-alignment that outperforms same-size autoregressive models on reasoning benchmarks, Apache 2.0."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_datasets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_datasets",
+        "ds_item_1"
+      ]
+    },
+    "heading_datasets": {
+      "type": "Heading",
+      "props": {
+        "text": "Datasets",
+        "level": "h3"
+      }
+    },
+    "ds_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ds1_header",
+        "ds1_desc"
+      ]
+    },
+    "ds1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ds1_link",
+        "ds1_stats_stack"
+      ]
+    },
+    "ds1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "agents-last-exam/agents-last-exam",
+        "href": "https://huggingface.co/datasets/agents-last-exam/agents-last-exam"
+      }
+    },
+    "ds1_stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ds1_likes",
+        "ds1_downloads",
+        "ds1_status"
+      ]
+    },
+    "ds1_likes": {
+      "type": "Badge",
+      "props": {
+        "text": "❤ 152"
+      }
+    },
+    "ds1_downloads": {
+      "type": "Badge",
+      "props": {
+        "text": "↓ 787"
+      }
+    },
+    "ds1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "ds1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Structured benchmark for computer-use agents — a \"last exam\" battery designed to be the floor all capable agents must pass, CC-BY-4.0."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_spaces": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_spaces",
+        "sp_item_1"
+      ]
+    },
+    "heading_spaces": {
+      "type": "Heading",
+      "props": {
+        "text": "Spaces",
+        "level": "h3"
+      }
+    },
+    "sp_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sp1_header",
+        "sp1_desc"
+      ]
+    },
+    "sp1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sp1_link",
+        "sp1_stats_stack"
+      ]
+    },
+    "sp1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "VAST-AI/TripoSplat",
+        "href": "https://huggingface.co/spaces/VAST-AI/TripoSplat"
+      }
+    },
+    "sp1_stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sp1_likes",
+        "sp1_framework",
+        "sp1_status"
+      ]
+    },
+    "sp1_likes": {
+      "type": "Badge",
+      "props": {
+        "text": "❤ 189"
+      }
+    },
+    "sp1_framework": {
+      "type": "Badge",
+      "props": {
+        "text": "gradio"
+      }
+    },
+    "sp1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "sp1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Instant Gaussian-splatting demo from Tripo3D's team — 10-day-old space already top trending, showing appetite for zero-install 3D generation demos."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: models=ok · datasets=ok · spaces=ok · kept 6/50",
+        "variant": "muted"
+      }
+    }
+  }
+}
