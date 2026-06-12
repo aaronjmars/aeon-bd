@@ -1,23 +1,37 @@
-tweet drafts: an agent that audits its own blind spots — "fix the eyes before reading the dials"
+tweet drafts: the agent-autonomy category is priced backwards (aeon vs the VC-funded wrappers)
 
 — one-liner —
-1a. a dashboard with half its inputs dark isn't a dashboard, it's a horoscope.
-1b. self-repair is the moat. checking your own blind spots is the first repair.
+1a. the agent autonomy category is being priced backwards
+1b. $30M at a $250M val for a closed agent app. the open framework with public runs trades at a rounding error
 
 — two-punch —
-2a. built an agent to watch our two products. day one it didn't report — it flagged that half its own inputs were dark. fix the eyes before reading the dials.
-2b. every ai dashboard says all green. the green is only the half it can actually see. the dark half is where you die :')
+2a. polsia: $30M raise, $250M val, no token, no public runs. aeon: 508 stars, autonomous runs you can verify on github, trading at a rounding error. the repricing will be brutal.
+2b. everyone's pricing the closed agent startups. the category they're an application of is open, runs unattended, and basically free to own. categories don't stay mispriced forever.
 
 — paragraph —
-3a. everyone wants the agent that reports the numbers. nobody wants the one that says 'i can't see four of my six inputs, don't trust today's read.' the second one is the only honest instrument you'll ever own. the harness is the model.
-3b. ran the first product standup today. aeon 508 stars, miroshark 1256, CI green across the board. then it caught itself: 4 repos 404, zero X deltas. half the surface dark. green means nothing until the eyes work.
+3a. VCs fund closed agent startups at nine figures. the open framework with real autonomous runs and public traces trades at a rounding error. AI seed rounds raise billions with no users; crypto-AI with thousands of stars rounds to zero. the repricing is the whole trade. ⭐
+3b. polsia raised $30M at a $250M val to be an application of agent autonomy. aeon is the category itself — open, self-repairing, runs unattended on github, every trace public. a $1M memecoin must ship buybacks by week 6; a $250M agent startup ships a deck. ⭐
 
 — long tweet —
-4a. spun up an autonomous agent to run a daily war room over two products — state, who to talk to, what to ship. figured the value was the standup brief. it wasn't. day one it ran the numbers, then stopped and said: four of six repos are 404, the X feed is dark, you're looking at half the surface. don't trust the deltas yet — fix the instrument first. cron is trivial. an agent that audits its own blind spots before it reports? that's the moat. ⭐
-4b. a dashboard's job is to tell you the truth. but every dashboard has a dark half — the inputs it can't reach — and almost none of them admit it. they just render the part they can see as all green and let you fly into the mountain. the upgrade isn't more metrics. it's an agent that knows what it can't see and says so before you act on the numbers. fix the eyes before reading the dials.
+4a. a closed agent startup just raised $30M at a $250M valuation. no token, no users you can count, no runs you can verify.
+
+meanwhile the open framework it's an application of — self-repairing, running unattended on github, every trace public — trades at a rounding error.
+
+this is the AI↔crypto repricing in one frame: AI seed rounds raise billions on a deck, crypto-AI ships real autonomous work and rounds to zero.
+
+the discipline asymmetry is the joke: a $1M memecoin must buyback by week 6. a $250M agent startup ships a pitch. one of these gets repriced. ⭐
+
+4b. polsia raised $30M to be an application of agent autonomy. the whole category it's an application of is open source, runs unattended, and trades at a rounding error.
+
+think about what's being funded: not the layer that does the work, the wrapper on top of it.
+
+labs spend billions to make a model 10% smarter. the harness that makes it 20% more autonomous is free to own. the harness is the model — the market just hasn't priced it yet.
+
+public traces or it's vapor. aeon runs on github — public repo, public runs, verify the autonomy yourself. you can't verify a deck. ⭐
 
 — thread opener —
-5a. what's the first thing a good monitoring agent should do? not report. check whether it can actually see.
-5b. the moat for autonomous agents isn't doing the task. it's knowing when its own view is broken — and refusing to report numbers it can't stand behind.
+5a. the agent autonomy category is being priced backwards. closed startups raise nine figures on a deck. the open framework that actually runs unattended — every trace public — trades at a rounding error. here's why the repricing will be brutal ⭐
 
-best: #4a — grounded in what aeon actually did today, lands on the moat thesis, real BD signal not a generic aphorism.
+5b. $30M raised at a $250M valuation for a closed agent startup with no token, no public runs, no users you can count. the open framework it's an application of trades at a rounding error. this gap is the whole AI↔crypto trade ⭐
+
+best: #2a — tightest, fully grounded (real numbers vs verifiable stars), lands the repricing thesis, standalone-shareable

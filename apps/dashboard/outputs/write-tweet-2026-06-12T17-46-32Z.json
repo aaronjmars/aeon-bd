@@ -1,0 +1,410 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "tweet drafts: the agent-autonomy category is priced backwards",
+        "description": "Skill: write-tweet"
+      },
+      "children": [
+        "section_one_liner",
+        "separator_1",
+        "section_two_punch",
+        "separator_2",
+        "section_paragraph",
+        "separator_3",
+        "section_long_tweet",
+        "separator_4",
+        "section_thread",
+        "separator_5",
+        "recommendation_section"
+      ]
+    },
+    "section_one_liner": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_one_liner",
+        "option_1a",
+        "option_1b"
+      ]
+    },
+    "heading_one_liner": {
+      "type": "Heading",
+      "props": {
+        "text": "One-Liner",
+        "level": "h4"
+      }
+    },
+    "option_1a": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1a",
+        "text_1a"
+      ]
+    },
+    "badge_1a": {
+      "type": "Badge",
+      "props": {
+        "text": "1a",
+        "variant": "outline"
+      }
+    },
+    "text_1a": {
+      "type": "Text",
+      "props": {
+        "text": "the agent autonomy category is being priced backwards"
+      }
+    },
+    "option_1b": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1b",
+        "text_1b"
+      ]
+    },
+    "badge_1b": {
+      "type": "Badge",
+      "props": {
+        "text": "1b",
+        "variant": "outline"
+      }
+    },
+    "text_1b": {
+      "type": "Text",
+      "props": {
+        "text": "$30M at a $250M val for a closed agent app. the open framework with public runs trades at a rounding error"
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "section_two_punch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_two_punch",
+        "option_2a",
+        "option_2b",
+        "note_recommendation"
+      ]
+    },
+    "heading_two_punch": {
+      "type": "Heading",
+      "props": {
+        "text": "Two-Punch",
+        "level": "h4"
+      }
+    },
+    "option_2a": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_2a_recommended",
+        "text_2a"
+      ]
+    },
+    "badge_2a_recommended": {
+      "type": "Badge",
+      "props": {
+        "text": "2a ★",
+        "variant": "secondary"
+      }
+    },
+    "text_2a": {
+      "type": "Text",
+      "props": {
+        "text": "polsia: $30M raise, $250M val, no token, no public runs. aeon: 508 stars, autonomous runs you can verify on github, trading at a rounding error. the repricing will be brutal."
+      }
+    },
+    "option_2b": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_2b",
+        "text_2b"
+      ]
+    },
+    "badge_2b": {
+      "type": "Badge",
+      "props": {
+        "text": "2b",
+        "variant": "outline"
+      }
+    },
+    "text_2b": {
+      "type": "Text",
+      "props": {
+        "text": "everyone's pricing the closed agent startups. the category they're an application of is open, runs unattended, and basically free to own. categories don't stay mispriced forever."
+      }
+    },
+    "note_recommendation": {
+      "type": "Text",
+      "props": {
+        "text": "tightest, fully grounded (real numbers vs verifiable stars), lands the repricing thesis, standalone-shareable",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "section_paragraph": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_paragraph",
+        "option_3a",
+        "option_3b"
+      ]
+    },
+    "heading_paragraph": {
+      "type": "Heading",
+      "props": {
+        "text": "Paragraph",
+        "level": "h4"
+      }
+    },
+    "option_3a": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_3a",
+        "text_3a"
+      ]
+    },
+    "badge_3a": {
+      "type": "Badge",
+      "props": {
+        "text": "3a",
+        "variant": "outline"
+      }
+    },
+    "text_3a": {
+      "type": "Text",
+      "props": {
+        "text": "VCs fund closed agent startups at nine figures. the open framework with real autonomous runs and public traces trades at a rounding error. AI seed rounds raise billions with no users; crypto-AI with thousands of stars rounds to zero. the repricing is the whole trade. ⭐"
+      }
+    },
+    "option_3b": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_3b",
+        "text_3b"
+      ]
+    },
+    "badge_3b": {
+      "type": "Badge",
+      "props": {
+        "text": "3b",
+        "variant": "outline"
+      }
+    },
+    "text_3b": {
+      "type": "Text",
+      "props": {
+        "text": "polsia raised $30M at a $250M val to be an application of agent autonomy. aeon is the category itself — open, self-repairing, runs unattended on github, every trace public. a $1M memecoin must ship buybacks by week 6; a $250M agent startup ships a deck. ⭐"
+      }
+    },
+    "separator_3": {
+      "type": "Separator"
+    },
+    "section_long_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_long_tweet",
+        "option_4a",
+        "option_4b"
+      ]
+    },
+    "heading_long_tweet": {
+      "type": "Heading",
+      "props": {
+        "text": "Long Tweet",
+        "level": "h4"
+      }
+    },
+    "option_4a": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_4a",
+        "text_4a"
+      ]
+    },
+    "badge_4a": {
+      "type": "Badge",
+      "props": {
+        "text": "4a",
+        "variant": "outline"
+      }
+    },
+    "text_4a": {
+      "type": "Text",
+      "props": {
+        "text": "a closed agent startup just raised $30M at a $250M valuation. no token, no users you can count, no runs you can verify.\n\nmeanwhile the open framework it's an application of — self-repairing, running unattended on github, every trace public — trades at a rounding error.\n\nthis is the AI↔crypto repricing in one frame: AI seed rounds raise billions on a deck, crypto-AI ships real autonomous work and rounds to zero.\n\nthe discipline asymmetry is the joke: a $1M memecoin must buyback by week 6. a $250M agent startup ships a pitch. one of these gets repriced. ⭐"
+      }
+    },
+    "option_4b": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_4b",
+        "text_4b"
+      ]
+    },
+    "badge_4b": {
+      "type": "Badge",
+      "props": {
+        "text": "4b",
+        "variant": "outline"
+      }
+    },
+    "text_4b": {
+      "type": "Text",
+      "props": {
+        "text": "polsia raised $30M to be an application of agent autonomy. the whole category it's an application of is open source, runs unattended, and trades at a rounding error.\n\nthink about what's being funded: not the layer that does the work, the wrapper on top of it.\n\nlabs spend billions to make a model 10% smarter. the harness that makes it 20% more autonomous is free to own. the harness is the model — the market just hasn't priced it yet.\n\npublic traces or it's vapor. aeon runs on github — public repo, public runs, verify the autonomy yourself. you can't verify a deck. ⭐"
+      }
+    },
+    "separator_4": {
+      "type": "Separator"
+    },
+    "section_thread": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_thread",
+        "option_5a",
+        "option_5b"
+      ]
+    },
+    "heading_thread": {
+      "type": "Heading",
+      "props": {
+        "text": "Thread Opener",
+        "level": "h4"
+      }
+    },
+    "option_5a": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_5a",
+        "text_5a"
+      ]
+    },
+    "badge_5a": {
+      "type": "Badge",
+      "props": {
+        "text": "5a",
+        "variant": "outline"
+      }
+    },
+    "text_5a": {
+      "type": "Text",
+      "props": {
+        "text": "the agent autonomy category is being priced backwards. closed startups raise nine figures on a deck. the open framework that actually runs unattended — every trace public — trades at a rounding error. here's why the repricing will be brutal ⭐"
+      }
+    },
+    "option_5b": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_5b",
+        "text_5b"
+      ]
+    },
+    "badge_5b": {
+      "type": "Badge",
+      "props": {
+        "text": "5b",
+        "variant": "outline"
+      }
+    },
+    "text_5b": {
+      "type": "Text",
+      "props": {
+        "text": "$30M raised at a $250M valuation for a closed agent startup with no token, no public runs, no users you can count. the open framework it's an application of trades at a rounding error. this gap is the whole AI↔crypto trade ⭐"
+      }
+    },
+    "separator_5": {
+      "type": "Separator"
+    },
+    "recommendation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_recommendation",
+        "recommendation_content"
+      ]
+    },
+    "heading_recommendation": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommendation",
+        "level": "h3"
+      }
+    },
+    "recommendation_content": {
+      "type": "Alert",
+      "props": {
+        "title": "Best: #2a",
+        "message": "tightest, fully grounded (real numbers vs verifiable stars), lands the repricing thesis, standalone-shareable",
+        "type": "success"
+      }
+    }
+  }
+}
