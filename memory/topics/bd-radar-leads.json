@@ -26,7 +26,16 @@
 
     {"key": "github:HusseinJX/prelaunchagents", "class": "building", "who": "prelaunchagents", "handle": "HusseinJX", "signal": "shipped product on MiroShark — 'simulate your product launch before it happens', swarm sim on local Ollama, no API key", "fit": 3, "score": 15, "first_seen": "2026-06-11", "repo_updated": "2026-03-25", "source": "gh_search_repos"},
     {"key": "github:rohanthomas1202/truthlayer", "class": "integrating", "who": "truthlayer", "handle": "rohanthomas1202", "signal": "backend/routes/miroshark.py — 'MiroShark simulation endpoints (Phase 1)', POST /api/miroshark/simulate/arb/{arb_id} fires a sim chain; wired into a truth-layer/arbitration backend", "fit": 3, "score": 9, "first_seen": "2026-06-11", "source": "gh_search_code"},
-    {"key": "github:0xkek/sendbox-fun", "class": "mentioning", "who": "sendbox.fun", "handle": "0xkek", "signal": "tools/miroshark.html — miroshark listed as a 'Social Media AI Tool' on the sendbox.fun tool directory (third-party distribution surface, not a builder)", "fit": 1, "score": 2, "first_seen": "2026-06-11", "source": "gh_search_code"}
+    {"key": "github:0xkek/sendbox-fun", "class": "mentioning", "who": "sendbox.fun", "handle": "0xkek", "signal": "tools/miroshark.html — miroshark listed as a 'Social Media AI Tool' on the sendbox.fun tool directory (third-party distribution surface, not a builder)", "fit": 1, "score": 2, "first_seen": "2026-06-11", "source": "gh_search_code"},
+
+    {"key": "x:HivraOS", "class": "building", "who": "Hivra", "handle": "@HivraOS", "signal": "shipped one-click @aeonframework deployment on managed agent-hosting platform — distribution surface", "fit": 3, "score": 15, "first_seen": "2026-06-12", "link": "https://x.com/HivraOS/status/2064795813386015052", "source": "xai_x"},
+    {"key": "github:oxkaiba/amper-aeon-skill", "class": "building", "who": "Amper skill (new builder)", "handle": "oxkaiba", "signal": "new builder shipping for known partner @helloamper — Amper DeFi-execution skill, 80+ tools (swaps/lending/perps/options/bridge)", "fit": 3, "score": 15, "first_seen": "2026-06-12", "repo_updated": "2026-05-17", "source": "gh_search_repos"},
+    {"key": "github:basedcryptoji/clerk-aeon-skill", "class": "building", "who": "Clerk skill pack", "handle": "basedcryptoji", "signal": "Clerk skill pack — federal court records via x402 ($0.001 USDC Base). Builder already surfaced via Solvr — known-expanding", "fit": 3, "score": 15, "known": true, "first_seen": "2026-06-12", "repo_updated": "2026-05-28", "source": "gh_search_repos"},
+    {"key": "x:tom_doerr", "class": "mentioning", "who": "tom_doerr", "handle": "@tom_doerr", "signal": "posted MiroShark repo, 103 likes/12 RT — high-reach dev account (GitHub/DSPy/agents), best non-official engagement in window", "fit": 3, "score": 6, "first_seen": "2026-06-12", "link": "https://x.com/tom_doerr/status/2065028451786998202", "source": "xai_x"},
+    {"key": "github:BBridgeers/aeon", "class": "forking", "who": "BBridgeers", "handle": "BBridgeers", "signal": "aeon fork created 06-01, pushed daily through 06-12 (11d active operator, not drive-by)", "fit": 1, "score": 4, "first_seen": "2026-06-12", "repo_updated": "2026-06-12", "source": "gh_read_pat_forks"},
+    {"key": "github:smehrjerdian/MiroShark", "class": "forking", "who": "smehrjerdian", "handle": "smehrjerdian", "signal": "MiroShark fork w/ own commits (+2h activity), first miroshark fork outside known set this week", "fit": 1, "score": 4, "first_seen": "2026-06-12", "repo_updated": "2026-06-02", "source": "gh_read_pat_forks"},
+    {"key": "github:z-korp/aeon", "class": "forking", "who": "z-korp", "handle": "z-korp", "signal": "aeon fork, hours of own activity (06-01)", "fit": 1, "score": 4, "first_seen": "2026-06-12", "repo_updated": "2026-06-01", "source": "gh_read_pat_forks"},
+    {"key": "github:jianggaoyi/aeon", "class": "forking", "who": "jianggaoyi", "handle": "jianggaoyi", "signal": "aeon fork, hours of own activity (06-02)", "fit": 1, "score": 4, "first_seen": "2026-06-12", "repo_updated": "2026-06-02", "source": "gh_read_pat_forks"}
   ],
   "surfaced": [
     "github:danbuildss/luca-aeon-skills",
@@ -53,6 +62,19 @@
     "github:Damoncrypto/aeon",
     "github:HusseinJX/prelaunchagents",
     "github:rohanthomas1202/truthlayer",
-    "github:0xkek/sendbox-fun"
+    "github:0xkek/sendbox-fun",
+    "x:HivraOS",
+    "github:oxkaiba/amper-aeon-skill",
+    "github:basedcryptoji/clerk-aeon-skill",
+    "x:tom_doerr",
+    "github:BBridgeers/aeon",
+    "github:smehrjerdian/MiroShark",
+    "github:z-korp/aeon",
+    "github:jianggaoyi/aeon",
+    "github:alfahadgm/aeon",
+    "github:dannysrod/aeon",
+    "github:ikkeflikkeri/aeon",
+    "github:mandateseal/aeon",
+    "github:yyayourt/aeon"
   ]
 }
