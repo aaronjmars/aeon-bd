@@ -1,10 +1,12 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-11T19:21:15Z",
-  "quality_score": 5,
-  "assessment": "Excellent — insightful cluster identification (x402/Base fin-intel on aeon), well-sourced (product-pulse + bd-radar + metrics), actionable prioritization (DM luca, fix GH_READ_PAT), end-to-end delivery (synthesis → files → notify → commit).",
-  "flags": [],
-  "avg_score": 4.5,
+  "last_analyzed": "2026-06-12T08:28:33Z",
+  "quality_score": 4,
+  "assessment": "Substantive brief with actionable BD intelligence; gracefully handled stale upstream data (06-11 vs 06-12) by flagging dependency gap rather than failing silently.",
+  "flags": [
+    "stale_data"
+  ],
+  "avg_score": 4.33,
   "history": [
     {
       "date": "2026-06-11",
@@ -13,6 +15,10 @@
     {
       "date": "2026-06-11",
       "score": 5
+    },
+    {
+      "date": "2026-06-12",
+      "score": 4
     }
   ]
 }

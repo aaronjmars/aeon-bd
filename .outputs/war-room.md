@@ -1,14 +1,15 @@
-⭐🦈 war room — 2026-06-11
+⭐🦈 war room — 2026-06-12
 
-state: both green. aeon 508★ / miroshark 1257★, CI clean, all repos pushed today. the "fix the eyes" call this morning landed — 4 private repos now resolve via GH_READ_PAT, internal health lit for the first time. aeon +1 follower, else flat. still dark: Δ7d (instance 1d old) + bd-radar's forks/issues API.
+state: no fresh 06-12 read — product-pulse + bd-radar haven't committed today, so this is 06-11 carried over. both green there: aeon 508★ / miroshark 1257★, CI clean both surfaces, all repos pushed, eyes now fully lit (forks · issues · X · 4 private repos). flat, no new deltas.
 
-talk to: luca (@AskLucaAI / x402Books) — new builder, 4 x402/Base fin-intel skills on aeon → DM today, invite to TG, list in ECOSYSTEM. · ZERA (monitor-the-situation-bags) — first real vendored MiroShark integration (bags hackathon) → DM, offer the x402 sim hook.
+talk to: integrators over forkers now. truthlayer (@rohanthomas1202) already wired our /simulate api — phase 1 live → offer phase 2, confirm it's our api not a local fork. · HusseinJX/prelaunchagents shipped miroshark on local ollama, no api key → DM, feature, pull into the sim TG. that local angle is a distribution unlock.
 
-decide: it's not one lead, it's a cluster — luca, Careful Finance, Solvr all shipped x402/Base fin-intel packs on aeon this week. aeon is quietly becoming the execution layer behind on-chain data products. own it: DM luca while warm, then finish fixing the eyes — add aeon + MiroShark to GH_READ_PAT so forking/integrating stop being dark.
+decide: the read flipped under us — fork fleet → integration fleet (truthlayer, ResearchSwarm, Signa, DYAI2025 all calling the api now). yesterday was fixing the eyes; today is conversion. stop counting forks, start closing integrators — DM truthlayer while phase 1 is warm.
 
 ---
 
 ### appendix — source digests
-- **product-pulse** (state): `articles/product-pulse-2026-06-11.md` · both green, private repos now visible (GH_READ_PAT prefetch resolved all 4), aeon +1 follower, no red-flags. X post counts + Δ7d still pending.
-- **bd-radar** (leads): `articles/bd-radar-2026-06-11.md` · first real sweep — 13 candidates, 10 in digest. fin-intel cluster (luca/Careful Finance/Solvr, all x402/Base, all this week) + one real MiroShark vendored integration (ZERA). forks/issues + x sources dark (token scope).
-- **sim-watch / idea-forge**: none within 7 days.
+- **note:** today's (06-12) product-pulse + bd-radar haven't committed — state `last_run` is `2026-06-11T20:05Z`. This brief reads the most-recent (06-11) digests + state files. If upstream silently stopped firing, that's a heartbeat concern, not a red-flag I can verify here.
+- **product-pulse** (state, 06-11): both green, all instrumentation live. aeon 508★ (0) / MiroShark 1257★ (0), CI 0❌ across 40 runs each surface, 4 private repos resolved (oldest push 6d < 14d line), followers 151,823 / 2,072 flat. Only dark spot: xAI lifetime post counts return `unknown`. 0 notables. `articles/product-pulse-2026-06-11.md`.
+- **bd-radar** (leads, 06-11): 25 leads. The live read — forkers graduating to integrators: `integrating` **rohanthomas1202/truthlayer** (api Phase 1), `building` **HusseinJX/prelaunchagents** (miroshark on local ollama), plus ResearchSwarm (preregistered multi-replication study), Signa (miroshark↔aeon bridge), DYAI2025 (api-orchestrated runs). All 5 sources lit. `articles/bd-radar-2026-06-11.md`.
+- **sim-watch / idea-forge:** none within 7 days (weekly skills, instance ~2 days old).

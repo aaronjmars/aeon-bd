@@ -1,0 +1,418 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-06-12"
+      },
+      "children": [
+        "state-section",
+        "sep-1",
+        "talk-section",
+        "sep-2",
+        "decide-section",
+        "sep-3",
+        "appendix-section"
+      ]
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-h2",
+        "state-intro",
+        "state-metrics-stack",
+        "state-details"
+      ]
+    },
+    "state-h2": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "state-intro": {
+      "type": "Text",
+      "props": {
+        "text": "no fresh 06-12 read — product-pulse + bd-radar haven't committed today, so this is 06-11 carried over."
+      }
+    },
+    "state-metrics-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-aeon",
+        "stat-miroshark"
+      ]
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "508★"
+      }
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "MiroShark",
+        "value": "1257★"
+      }
+    },
+    "state-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "state-ci",
+        "state-repos",
+        "state-eyes",
+        "state-delta"
+      ]
+    },
+    "state-ci": {
+      "type": "Text",
+      "props": {
+        "text": "CI clean both surfaces",
+        "variant": "body"
+      }
+    },
+    "state-repos": {
+      "type": "Text",
+      "props": {
+        "text": "all repos pushed",
+        "variant": "body"
+      }
+    },
+    "state-eyes": {
+      "type": "Text",
+      "props": {
+        "text": "eyes now fully lit (forks · issues · X · 4 private repos)",
+        "variant": "body"
+      }
+    },
+    "state-delta": {
+      "type": "Text",
+      "props": {
+        "text": "flat, no new deltas",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk-h2",
+        "talk-lead",
+        "talk-item-a",
+        "talk-item-b"
+      ]
+    },
+    "talk-h2": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h2"
+      }
+    },
+    "talk-lead": {
+      "type": "Text",
+      "props": {
+        "text": "integrators over forkers now."
+      }
+    },
+    "talk-item-a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "talk-a-name",
+        "talk-a-detail"
+      ]
+    },
+    "talk-a-name": {
+      "type": "Text",
+      "props": {
+        "text": "truthlayer (@rohanthomas1202)"
+      }
+    },
+    "talk-a-detail": {
+      "type": "Text",
+      "props": {
+        "text": "already wired our /simulate api — phase 1 live → offer phase 2, confirm it's our api not a local fork.",
+        "variant": "body"
+      }
+    },
+    "talk-item-b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "talk-b-name",
+        "talk-b-detail-1",
+        "talk-b-detail-2"
+      ]
+    },
+    "talk-b-name": {
+      "type": "Text",
+      "props": {
+        "text": "HusseinJX/prelaunchagents"
+      }
+    },
+    "talk-b-detail-1": {
+      "type": "Text",
+      "props": {
+        "text": "shipped miroshark on local ollama, no api key",
+        "variant": "body"
+      }
+    },
+    "talk-b-detail-2": {
+      "type": "Text",
+      "props": {
+        "text": "DM, feature, pull into the sim TG. that local angle is a distribution unlock.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide-alert"
+      ]
+    },
+    "decide-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Decide",
+        "message": "the read flipped under us — fork fleet → integration fleet (truthlayer, ResearchSwarm, Signa, DYAI2025 all calling the api now). yesterday was fixing the eyes; today is conversion. stop counting forks, start closing integrators — DM truthlayer while phase 1 is warm.",
+        "type": "info"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "appendix-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "app-h2",
+        "app-note-stack",
+        "app-pulse-stack",
+        "app-radar-stack",
+        "app-simwatch-stack"
+      ]
+    },
+    "app-h2": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — source digests",
+        "level": "h2"
+      }
+    },
+    "app-note-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "app-note-h3",
+        "app-note-text"
+      ]
+    },
+    "app-note-h3": {
+      "type": "Heading",
+      "props": {
+        "text": "Note",
+        "level": "h3"
+      }
+    },
+    "app-note-text": {
+      "type": "Text",
+      "props": {
+        "text": "today's (06-12) product-pulse + bd-radar haven't committed — state `last_run` is `2026-06-11T20:05Z`. This brief reads the most-recent (06-11) digests + state files. If upstream silently stopped firing, that's a heartbeat concern, not a red-flag I can verify here.",
+        "variant": "caption"
+      }
+    },
+    "app-pulse-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "app-pulse-h3",
+        "app-pulse-text",
+        "app-pulse-link"
+      ]
+    },
+    "app-pulse-h3": {
+      "type": "Heading",
+      "props": {
+        "text": "product-pulse (state, 06-11)",
+        "level": "h3"
+      }
+    },
+    "app-pulse-text": {
+      "type": "Text",
+      "props": {
+        "text": "both green, all instrumentation live. aeon 508★ (0) / MiroShark 1257★ (0), CI 0❌ across 40 runs each surface, 4 private repos resolved (oldest push 6d < 14d line), followers 151,823 / 2,072 flat. Only dark spot: xAI lifetime post counts return `unknown`. 0 notables.",
+        "variant": "body"
+      }
+    },
+    "app-pulse-link": {
+      "type": "Link",
+      "props": {
+        "label": "articles/product-pulse-2026-06-11.md",
+        "href": "#"
+      }
+    },
+    "app-radar-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "app-radar-h3",
+        "app-radar-intro",
+        "app-radar-items",
+        "app-radar-link"
+      ]
+    },
+    "app-radar-h3": {
+      "type": "Heading",
+      "props": {
+        "text": "bd-radar (leads, 06-11)",
+        "level": "h3"
+      }
+    },
+    "app-radar-intro": {
+      "type": "Text",
+      "props": {
+        "text": "25 leads. The live read — forkers graduating to integrators:",
+        "variant": "body"
+      }
+    },
+    "app-radar-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "radar-item-1",
+        "radar-item-2",
+        "radar-item-3",
+        "radar-item-4",
+        "radar-item-5"
+      ]
+    },
+    "radar-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "`integrating` rohanthomas1202/truthlayer (api Phase 1)",
+        "variant": "caption"
+      }
+    },
+    "radar-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "`building` HusseinJX/prelaunchagents (miroshark on local ollama)",
+        "variant": "caption"
+      }
+    },
+    "radar-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "ResearchSwarm (preregistered multi-replication study)",
+        "variant": "caption"
+      }
+    },
+    "radar-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "Signa (miroshark↔aeon bridge)",
+        "variant": "caption"
+      }
+    },
+    "radar-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "DYAI2025 (api-orchestrated runs)",
+        "variant": "caption"
+      }
+    },
+    "app-radar-link": {
+      "type": "Link",
+      "props": {
+        "label": "articles/bd-radar-2026-06-11.md",
+        "href": "#"
+      }
+    },
+    "app-simwatch-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "app-simwatch-h3",
+        "app-simwatch-text"
+      ]
+    },
+    "app-simwatch-h3": {
+      "type": "Heading",
+      "props": {
+        "text": "sim-watch / idea-forge",
+        "level": "h3"
+      }
+    },
+    "app-simwatch-text": {
+      "type": "Text",
+      "props": {
+        "text": "none within 7 days (weekly skills, instance ~2 days old)",
+        "variant": "muted"
+      }
+    }
+  }
+}
