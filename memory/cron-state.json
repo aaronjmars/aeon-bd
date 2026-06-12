@@ -116,5 +116,9 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 5
+  },
+  "engagement-act": {
+    "last_dispatch": "2026-06-12T09:48:26Z",
+    "last_status": "dispatched"
   }
 }
