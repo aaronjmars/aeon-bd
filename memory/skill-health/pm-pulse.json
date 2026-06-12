@@ -1,0 +1,14 @@
+{
+  "skill": "pm-pulse",
+  "last_analyzed": "2026-06-12T11:14:10Z",
+  "quality_score": 4,
+  "assessment": "Substantive market intelligence with specific regulatory details, volume metrics, and BD signals; well-sourced and properly logged.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-06-12",
+      "score": 4
+    }
+  ]
+}

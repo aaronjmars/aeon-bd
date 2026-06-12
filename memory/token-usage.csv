@@ -13,3 +13,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-11,heartbeat,claude-opus-4-8,2243,15664,1116997,63490
 2026-06-12,bd-radar,claude-opus-4-8,2535,26651,3036855,94229
 2026-06-12,engagement-act,claude-opus-4-8,2098,7494,404142,37037
+2026-06-12,pm-pulse,claude-sonnet-4-6,3858,7394,950411,56608
