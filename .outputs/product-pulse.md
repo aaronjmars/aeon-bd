@@ -1,19 +1,23 @@
-Done. Ran `product-pulse` for 2026-06-11 (`MODE=execute`).
+Done. No notification — `MODE=execute` but zero red-flag notables, so the skill stays quiet by design (the digest + state feed `war-room`).
 
 ## Summary
 
-**State of both products — flat re-run, all instrumentation now live.**
+Ran `product-pulse` for 2026-06-12. Pulled GitHub health across the public repo family (`gh api`) + private repos (PAT prefetch cache) and X followers from the xAI prefetch cache.
 
-| Product | Stars | Δ1d | CI (24h) | Followers | Δ1d |
-|---|---|---|---|---|---|
-| Aeon ⭐ (`aeon`) | 508 | 0 | aeon-agent 34✅/0❌ | 151,823 | 0 |
-| Miroshark 🦈 (`MiroShark`) | 1,257 | 0 | miroshark-aeon 35✅/0❌ | 2,072 | 0 |
+**State — both products healthy, quiet day:**
+- **Notables: 0** — no releases, no CI red, no >14d stalls, no milestones crossed.
+- **CI green:** `aeon-agent` 33✅/0❌/1⊘, `miroshark-aeon` 34✅/0❌/0⊘ (24h).
+- **Star Δ1d:** MiroShark **+6** (1257→1263) is the only real mover; aeon −1, rest flat.
+- **Follower Δ1d:** @aeonframework −8 (noise), @miroshark_ flat at 2,072.
+- **Soft watch:** `miroshark-website` quietest at 6d since last push (under the 14d stall threshold).
+- Δ7d still N/A (history only 2 days deep); lifetime posts `unknown` from xAI → N/A.
 
-- **GitHub:** every public repo pushed today; CI green on both automation surfaces (0 failures across 40 runs each). All 4 in-scope private repos resolved via the `GH_READ_PAT` prefetch — 0 issues/PRs, oldest push miroshark-website at 6d (under the 14d stall line). `github_misses` empty.
-- **X:** followers held at 151,823 / 2,072. Lifetime post counts now return `unknown` from xAI (the #6 fix surfaced the real value vs the old `0` artifact) → N/A. The only remaining dark spot.
-- **Notables: 0.** No release, no CI red, no stall, no follower milestone. Δ7d still N/A — history started today, real day-over-day deltas begin tomorrow.
-- **Notify:** none. No red-flag fired → quiet by design (this feeds `war-room`).
+**Files:**
+- `articles/product-pulse-2026-06-12.md` — daily digest
+- `memory/topics/product-pulse-state.json` — appended today's snapshot (history now 2 entries)
+- `memory/logs/2026-06-12.md` — log block
+- Committed to `main`.
 
-**Files:** updated `articles/product-pulse-2026-06-11.md`, `memory/topics/product-pulse-state.json` (refreshed `last_run` + pushed timestamps, one history entry per date), `memory/logs/2026-06-11.md`. Committed as `b84c203`.
+**No self-notify** (no red-flag fired) — by design, per the skill's quiet-by-default gate.
 
-**Follow-up:** none blocking. xAI lifetime post counts remain unresolvable (`unknown`) — followers are the metric driving notables either way.
+**Follow-up:** none. Week-over-week deltas light up once history reaches a 7-day-old snapshot (~2026-06-18).
