@@ -119,6 +119,13 @@
   },
   "engagement-act": {
     "last_dispatch": "2026-06-12T09:48:26Z",
-    "last_status": "dispatched"
+    "last_status": "success",
+    "last_success": "2026-06-12T09:51:32Z",
+    "total_runs": 1,
+    "total_successes": 1,
+    "total_failures": 0,
+    "consecutive_failures": 0,
+    "success_rate": 1,
+    "last_quality_score": 4
   }
 }
