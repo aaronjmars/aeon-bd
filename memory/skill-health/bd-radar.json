@@ -1,8 +1,8 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-06-11T19:53:19Z",
+  "last_analyzed": "2026-06-12T08:33:21Z",
   "quality_score": 4,
-  "assessment": "Substantive findings with three verified leads, well-sourced code references, actionable follow-up, properly aligned to strategy",
+  "assessment": "Substantive, well-executed signal extraction with concrete leads (HivraOS distribution play, amper DeFi skill, tom_doerr engagement), proper deduping, honest noise suppression, and actionable next steps.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -16,6 +16,10 @@
     },
     {
       "date": "2026-06-11",
+      "score": 4
+    },
+    {
+      "date": "2026-06-12",
       "score": 4
     }
   ]
