@@ -1,17 +1,21 @@
-Heartbeat complete. Everything is green — no notification needed.
+All checks ran. Fleet is fully green.
 
 ## Summary
 
-Ran the `heartbeat` skill for 2026-06-12 08:26 UTC. **Verdict: `HEARTBEAT_OK · STATUS_PAGE=OK`** — no notification sent (nothing genuinely needs attention).
+Ran the `heartbeat` skill (14:35 UTC run, the 14:00 slot) for 2026-06-12.
 
-**Checks (all clear):**
-- **P0 — Failed/stuck skills:** Every entry in `cron-state.json` shows `last_status: success`. No failures, no stuck dispatches (>45min), no `consecutive_failures ≥ 3`, no chronic <0.5 success-rate. Heartbeat's own `last_success` (2026-06-11 20:41 UTC, ~12h ago) is well within the 36h staleness line.
-- **P1 — PRs/issues:** `gh pr list` and `gh issue list` both empty.
-- **P2 — Memory:** MEMORY.md "Next Priorities" are tuning items, not open loops.
-- **P3 — Missing skills:** Per the authoritative state file, all daily skills succeeded ~12h ago (under the 48h flag threshold). The 20 not-yet-run enabled skills are weekly/dispatch-only slots or daily slots whose first natural window hasn't arrived since the instance was stood up yesterday — not genuine misses.
+**Checks — all green:**
+- **P0 (failed/stuck skills):** Every entry in `cron-state.json` shows `last_status: success`. No failed skills, no stuck dispatches, no `consecutive_failures ≥ 3`, no chronic <0.5 success-rate. Heartbeat self-check fine (last success ~6h ago).
+- **P1 (PRs/issues):** `gh pr list` and `gh issue list` both empty.
+- **P2 (memory):** Only tuning items in "Next Priorities" — no open loops.
+- **P3 (missing skills):** All enabled daily skills succeeded today. The 17 enabled skills with no state entry are weekly/dispatch-only slots whose first cron window since stand-up (2026-06-11) hasn't arrived — already noted by the 08:26 run, so deduped, not re-notified.
+
+**Outcome:** `HEARTBEAT_OK · STATUS_PAGE=OK`. No notification sent (nothing needs attention).
 
 **Files modified:**
-- `docs/status.md` — regenerated: Overall 🟢 OK, 8 healthy skills (100%), 20 not-yet-run, 0 open issues, next run engagement-act 09:30 UTC. Token pulse section omitted (no `articles/token-report-*.md` exists). Heartbeat moved into the ran-skills group now that its own entry is populated.
-- `memory/logs/2026-06-12.md` — created with the heartbeat log entry.
+- `docs/status.md` — regenerated: Overall 🟢 OK, 11 healthy skills (all 100%), 17 not-yet-run, 0 open issues, next run fetch-tweets 17:00 UTC. Token pulse omitted (no `articles/token-report-*.md`).
+- `memory/logs/2026-06-12.md` — appended the 14:35 heartbeat log entry.
 
-**Follow-up:** None required. The status page commits to main via the workflow's auto-commit step.
+**Follow-up:** None urgent. The standing item from MEMORY.md remains — revisit the never-run weekly skills after the first full week to confirm they fire on their cron days.
+
+(Both files land on `main` via the workflow's auto-commit step — no manual git needed.)
