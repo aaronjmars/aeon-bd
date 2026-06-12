@@ -1,0 +1,431 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-06-12"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-aeon",
+        "stack-aeon",
+        "sep-1",
+        "heading-miroshark",
+        "stack-miroshark",
+        "sep-2",
+        "heading-engagement",
+        "stack-engagement",
+        "sep-3",
+        "heading-baseline",
+        "grid-baseline"
+      ]
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON ⭐",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-item-1",
+        "aeon-item-2",
+        "aeon-item-3",
+        "aeon-item-4"
+      ]
+    },
+    "aeon-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-1-tweet",
+        "aeon-1-tag"
+      ]
+    },
+    "aeon-1-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "lord_proto",
+        "handle": "@lord_proto",
+        "text": "Polsia raised 30M at a 250M val. $AEON is at 6M. Polsia is pretty much an application of the exact agentic autonomy @aeonframework has been focusing on"
+      },
+      "children": []
+    },
+    "aeon-1-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "competitor comparison / undervaluation take",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "aeon-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-2-link",
+        "aeon-2-tag"
+      ]
+    },
+    "aeon-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Autonomous AI Agents: Framework Face-Off 2026",
+        "href": "https://claude5.com",
+        "source": "claude5.com"
+      },
+      "children": []
+    },
+    "aeon-2-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "press",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aeon-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-3-link",
+        "aeon-3-desc",
+        "aeon-3-tag"
+      ]
+    },
+    "aeon-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Third-party Explainer",
+        "href": "https://repo-explainer.com",
+        "source": "repo-explainer.com"
+      },
+      "children": []
+    },
+    "aeon-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Frames it as \"the github actions agent that runs in the background\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "aeon-3-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "discovery/press",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aeon-item-4": {
+      "type": "Alert",
+      "props": {
+        "title": "Claude Code GitHub Action RCE Flaw",
+        "message": "One malicious issue → repo hijack. Aeon's whole runtime IS this action.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK 🦈",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-item-1",
+        "miroshark-item-2",
+        "miroshark-item-3",
+        "miroshark-item-4"
+      ]
+    },
+    "miroshark-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-1-text",
+        "miroshark-1-tag"
+      ]
+    },
+    "miroshark-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "4 fresh third-party forks running the engine: Forkocalypse, AlexMikhalev, MATHEUSFELIX, praxstack — people cloning + actually running it"
+      },
+      "children": []
+    },
+    "miroshark-1-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "discovery",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "miroshark-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-2-text",
+        "miroshark-2-link",
+        "miroshark-2-tag"
+      ]
+    },
+    "miroshark-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "microlaunch listing + "
+      },
+      "children": []
+    },
+    "miroshark-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Project Profile",
+        "href": "https://aixbt.tech",
+        "source": "aixbt.tech"
+      },
+      "children": []
+    },
+    "miroshark-2-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "press",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "miroshark-item-3": {
+      "type": "Alert",
+      "props": {
+        "title": "MiroFish Writeup Attribution Gap",
+        "message": "A wave of MiroFish writeups (DEV, Medium, beitroot) keep getting credit for the swarm-sim lane miroshark forked & improved. One ran 338 polymarket trades for +$4,266 — confusion over authorship.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "miroshark-item-4": {
+      "type": "Alert",
+      "props": {
+        "title": "Category Critique Circulating",
+        "message": "LLM agents herd harder than humans, sim crowds polarize faster than real ones — applies to us.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "Engagement Opportunities",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement-1",
+        "engagement-2",
+        "engagement-3"
+      ]
+    },
+    "engagement-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-1-title",
+        "engagement-1-text"
+      ]
+    },
+    "engagement-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "@lord_proto",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "engagement-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Already validating the autonomy thesis + flagging $AEON undervalued vs Polsia's raise. High-leverage amplify — he's doing the positioning for you."
+      },
+      "children": []
+    },
+    "engagement-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-2-title",
+        "engagement-2-text"
+      ]
+    },
+    "engagement-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "MiroFish → Miroshark Narrative Gap",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "engagement-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reviewers credit the upstream, miroshark is the improved fork. One clarifying post claims the lane."
+      },
+      "children": []
+    },
+    "engagement-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-3-title",
+        "engagement-3-text"
+      ]
+    },
+    "engagement-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Claude5 Face-Off",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "engagement-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Make sure aeon reads as \"autonomous background,\" not \"another claude code wrapper\"."
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-baseline": {
+      "type": "Heading",
+      "props": {
+        "text": "Baseline Metrics",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "grid-baseline": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-aeon-stars",
+        "stat-aeon-forks",
+        "stat-miroshark-stars",
+        "stat-miroshark-forks"
+      ]
+    },
+    "stat-aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars",
+        "value": "507"
+      },
+      "children": []
+    },
+    "stat-aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Forks",
+        "value": "167"
+      },
+      "children": []
+    },
+    "stat-miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Stars",
+        "value": "1263"
+      },
+      "children": []
+    },
+    "stat-miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Forks",
+        "value": "267"
+      },
+      "children": []
+    }
+  }
+}
