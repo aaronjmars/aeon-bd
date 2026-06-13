@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reply Maker",
+        "description": "2026-06-13"
+      },
+      "children": [
+        "alert_status",
+        "stack_analysis"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "title": "REPLY_MAKER_EMPTY",
+        "message": "No fresh, verifiable tweet to reply to from any source.",
+        "type": "warning"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "text_context",
+        "sep1",
+        "heading_cause",
+        "text_cause",
+        "sep2",
+        "heading_fix",
+        "text_fix",
+        "sep3",
+        "text_source"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "xai cache empty (no prefetch this run), memory pool fully inside the 7d dedup window, websearch only returns articles + your own stale posts. didn't fabricate URLs/engagement."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_cause": {
+      "type": "Heading",
+      "props": {
+        "text": "Root Cause",
+        "level": "h3"
+      }
+    },
+    "text_cause": {
+      "type": "Text",
+      "props": {
+        "text": "Config issue, not transient: reply-maker has no var + no prefetch-xai entry, so .xai-cache/reply-maker.json never gets written — the only path that yields a verified <6h reply window. same gap flagged 06-11/06-12."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_fix": {
+      "type": "Heading",
+      "props": {
+        "text": "Fix",
+        "level": "h3"
+      }
+    },
+    "text_fix": {
+      "type": "Text",
+      "props": {
+        "text": "Add a reply-maker var + prefetch entry, or fold the reply slot into engagement-act (already runs off bd-radar leads)."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "source-status: xai=skip (no cache), memory=0 fresh, websearch=ok-but-no-tweets",
+        "variant": "muted"
+      }
+    }
+  }
+}

@@ -1,29 +1,9 @@
-*Reply Maker — 2026-06-12 · REPLY_MAKER_DEGRADED*
-_(manual run, no XAI prefetch → recency/engagement unverifiable; 4 verified-URL candidates from today's bd-radar + WebSearch, all on-strategy)_
+*Reply Maker — 2026-06-13*
 
-*1.* https://x.com/HivraOS/status/2064795813386015052  (@HivraOS — recency unverified)
-> shipped one-click @aeonframework deployment on Hivra (managed agent-hosting, "resources only allocated when needed")…
-why: distribution surface, not a mention — they made aeon one-click. highest-leverage new lead this week.
-A: one-click is the right call — most ppl bounce at the yaml + secrets step. next unlock: let the agent pay its own inference via x402/bankr so it self-funds instead of burning your credits. that's how an aeon instance lives forever ⭐
-B: one-click is great, but the premise to watch: aeon's edge is public traces — it runs on your github, anyone can verify it works. a host that hides the run logs trades away the one thing that makes autonomy trustworthy. keep em public ⭐
+REPLY_MAKER_EMPTY — no fresh, verifiable tweet to reply to from any source.
 
-*2.* https://x.com/tom_doerr/status/2065028451786998202  (@tom_doerr — ~103❤️/12🔁 per bd-radar, unverified)
-> posted the MiroShark repo — best non-official engagement in the window. dev account, not in ecosystem yet…
-why: high-reach amplifier we haven't pulled in. reply converts reach → ecosystem.
-A: the part the readme undersells: agents don't just post — they trade a simulated polymarket AMM, beliefs drift across rounds, and director mode injects breaking news mid-run so you can fork the timeline. ~$1, <10min 🦈
-B: watch for the lazy take that'll show up in your replies: "it's just multi-agent deep research." it's not — raw LLMs can't plan long-horizon, they need a sandbox to strategize in. simulation is the missing layer, not a research wrapper 🦈
+xai cache empty (no prefetch this run), memory pool fully inside the 7d dedup window, websearch only returns articles + your own stale posts. didn't fabricate URLs/engagement.
 
-*3.* https://x.com/vigilcodes/status/2065068299147477391  (@vigilcodes / VIGIL — recency unverified)
-> onchain security MCP merged into @aeonframework: honeypot/rugpull/safety scan, 12 read-only tools, multi-source consensus…
-why: shipped integration, not a mention. lands square on the autonomous-security thesis.
-A: this is the right shape. balancer ran 11 audits across 4 firms and still lost $128M to a rounding bug — point-in-time audits can't keep up. read-only scanners running 24/7 with multi-source consensus change the economics of defense, not just the UX ⭐
-B: 12 read-only tools is a solid start, but detection was never the real gap — funding the defenders is. maintainers can't outspend attackers on a volunteer budget. the unlock is tokenizing the repo and routing fees to the agents that scan 24/7 ⭐
+root cause is config, not transient: reply-maker has no var + no prefetch-xai entry, so .xai-cache/reply-maker.json never gets written — the only path that yields a verified <6h reply window. same gap flagged 06-11/06-12. fix: add a reply-maker var + prefetch entry, or fold the reply slot into engagement-act (already runs off bd-radar leads).
 
-*4.* https://x.com/lord_proto/status/2057892462945763785  (@lord_proto / Ott Erlord — a few days old, not <6h)
-> "Polsia rises 30M at a 250M valuation. $AEON is at 6M when Polsia is pretty much an application of the exact kind of agentic autonomy @aeonframework has been focusing on."
-why: the AI↔crypto repricing take, ties straight to the token-price north-star. (no buy/sell call in the replies.)
-A: this is the AI↔crypto repricing in one screenshot. seed AI startups with zero users raise at billions; crypto-AI projects with thousands of real stars + public runs trade at a rounding error. the discipline asymmetry is absurd — and it doesn't hold forever ⭐
-B: the framing i'd flip: "application of" is underselling it. a single app captures one use case; the framework 100s of builders ship skills on top of captures the whole category. valuation gaps close when the ecosystem does the talking, not the other way around ⭐
-
-source-status: xai=skip (no prefetch, manual run), memory=3 verified URLs (bd-radar 06-12), websearch=ok (lord_proto URL recovered; x.com 402-gated so recency/engagement unverifiable)
-note: overlaps engagement-act's 06-12 pool by design (HivraOS, tom_doerr, lord_proto) — A/B options give you a choice; vigilcodes is net-new here.
+source-status: xai=skip (no cache), memory=0 fresh, websearch=ok-but-no-tweets
