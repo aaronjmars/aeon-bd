@@ -33,6 +33,8 @@ tmp_*
 .*-draft.md
 .heartbeat-notify.md
 .write-tweet-notify.md
+.fetch-tweets-notify.md
+.pr-body.md
 .*-msg.txt
 *_msg.txt
 *_raw.txt
