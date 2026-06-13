@@ -160,5 +160,9 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4
+  },
+  "agent-displacement": {
+    "last_dispatch": "2026-06-13T15:06:42Z",
+    "last_status": "dispatched"
   }
 }
