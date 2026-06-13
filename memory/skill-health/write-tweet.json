@@ -1,10 +1,10 @@
 {
   "skill": "write-tweet",
-  "last_analyzed": "2026-06-12T17:46:32Z",
+  "last_analyzed": "2026-06-13T17:24:10Z",
   "quality_score": 4,
-  "assessment": "Substantive, multi-tiered drafts with specific data points and strategic angles—ready to use with minimal edits. Aligns with voice, but truncated output prevents full visibility.",
+  "assessment": "Complete execution with verified sources, voice matching, and clear methodology; X-search limitation noted but core task delivered and actionable.",
   "flags": [],
-  "avg_score": 3,
+  "avg_score": 3.33,
   "history": [
     {
       "date": "2026-06-11",
@@ -12,6 +12,10 @@
     },
     {
       "date": "2026-06-12",
+      "score": 4
+    },
+    {
+      "date": "2026-06-13",
       "score": 4
     }
   ]

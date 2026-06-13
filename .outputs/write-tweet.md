@@ -1,37 +1,23 @@
-tweet drafts: the agent-autonomy category is priced backwards (aeon vs the VC-funded wrappers)
+tweet drafts: the compute contradiction — token prices −97% while anthropic pays $5B/yr to rent GPUs. cheap at the bottom, scarce at the top, nobody's trading the gap.
 
 — one-liner —
-1a. the agent autonomy category is being priced backwards
-1b. $30M at a $250M val for a closed agent app. the open framework with public runs trades at a rounding error
+1a. anthropic rents $5B/yr in compute while token prices fell 97%. price that contradiction.
+1b. compute is the new electricity. nobody's pricing the arbitrage yet.
 
 — two-punch —
-2a. polsia: $30M raise, $250M val, no token, no public runs. aeon: 508 stars, autonomous runs you can verify on github, trading at a rounding error. the repricing will be brutal.
-2b. everyone's pricing the closed agent startups. the category they're an application of is open, runs unattended, and basically free to own. categories don't stay mispriced forever.
+2a. per-token inference fell 97% since 2022. anthropic still pays $5B/yr to rent xai's GPUs. the model got cheap — the compute didn't.
+2b. everyone's asking who wins the model race. wrong question. compute got commoditized — the trade is who turns idle GPUs into money first.
 
 — paragraph —
-3a. VCs fund closed agent startups at nine figures. the open framework with real autonomous runs and public traces trades at a rounding error. AI seed rounds raise billions with no users; crypto-AI with thousands of stars rounds to zero. the repricing is the whole trade. ⭐
-3b. polsia raised $30M at a $250M val to be an application of agent autonomy. aeon is the category itself — open, self-repairing, runs unattended on github, every trace public. a $1M memecoin must ship buybacks by week 6; a $250M agent startup ships a deck. ⭐
+3a. the numbers that define this market: GPT-4-class inference down 97%+ since 2022. deepseek cut 75% overnight. google slashing consumer plans. and anthropic signs a $5B/yr deal to rent xai compute. mid intelligence is free now. the money moved to the arbitrage.
+3b. bitcoin turned electricity into money. AI turns idle compute into money — and almost nobody's positioned for it. per-token prices collapsed 97%, subsidies aren't ending, mid models are worthless. the play isn't building a model. it's arbitraging the compute underneath.
 
 — long tweet —
-4a. a closed agent startup just raised $30M at a $250M valuation. no token, no users you can count, no runs you can verify.
-
-meanwhile the open framework it's an application of — self-repairing, running unattended on github, every trace public — trades at a rounding error.
-
-this is the AI↔crypto repricing in one frame: AI seed rounds raise billions on a deck, crypto-AI ships real autonomous work and rounds to zero.
-
-the discipline asymmetry is the joke: a $1M memecoin must buyback by week 6. a $250M agent startup ships a pitch. one of these gets repriced. ⭐
-
-4b. polsia raised $30M to be an application of agent autonomy. the whole category it's an application of is open source, runs unattended, and trades at a rounding error.
-
-think about what's being funded: not the layer that does the work, the wrapper on top of it.
-
-labs spend billions to make a model 10% smarter. the harness that makes it 20% more autonomous is free to own. the harness is the model — the market just hasn't priced it yet.
-
-public traces or it's vapor. aeon runs on github — public repo, public runs, verify the autonomy yourself. you can't verify a deck. ⭐
+4a. the contradiction nobody's pricing: per-token inference down 97%+ since 2022. deepseek cut V4-Pro 75% overnight. mid models are effectively free. and yet anthropic just signed a $5B/yr deal to rent 220k GPUs on xai's Colossus. commoditized at the bottom, scarce at the top — at the same time. bitcoin turned electricity into money. this turns idle GPUs into money. ⭐
+4b. reminder while everyone argues about the next model: the model is the cheap part now. GPT-4-class tokens down 97% since 2022, and frontier labs spend $5B/yr renting GPUs they can't get enough of. de-intelligenced at the bottom, compute-starved at the top. the winners won't ship opus 4.9 — they'll realize idle compute is money waiting to be converted.
 
 — thread opener —
-5a. the agent autonomy category is being priced backwards. closed startups raise nine figures on a deck. the open framework that actually runs unattended — every trace public — trades at a rounding error. here's why the repricing will be brutal ⭐
+5a. compute got cheap and expensive at the same time — and almost nobody is trading the gap. why idle GPUs are the most mispriced asset in AI:
+5b. what happens when intelligence is nearly free but compute is scarce? you get the strangest arbitrage crypto has ever seen.
 
-5b. $30M raised at a $250M valuation for a closed agent startup with no token, no public runs, no users you can count. the open framework it's an application of trades at a rounding error. this gap is the whole AI↔crypto trade ⭐
-
-best: #2a — tightest, fully grounded (real numbers vs verifiable stars), lands the repricing thesis, standalone-shareable
+best: #2a — tightest, both numbers verifiable, the kicker stands alone.
