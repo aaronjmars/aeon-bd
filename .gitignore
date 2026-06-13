@@ -31,6 +31,7 @@ tmp_*
 .run-*.sh
 .*-tmp.md
 .*-draft.md
+.heartbeat-notify.md
 .*-msg.txt
 *_msg.txt
 *_raw.txt
