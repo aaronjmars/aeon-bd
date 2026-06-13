@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-06-12T08:33:21Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-executed signal extraction with concrete leads (HivraOS distribution play, amper DeFi skill, tom_doerr engagement), proper deduping, honest noise suppression, and actionable next steps.",
+  "last_analyzed": "2026-06-13T08:03:43Z",
+  "quality_score": 5,
+  "assessment": "Excellent — identified 12 net-new leads with specific, actionable intelligence (fork→integration shift), well-sourced across multiple channels, proper memory/file tracking, clear follow-up (reply on issue #464, DM two integrators mid-build)",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 4.2,
   "history": [
     {
       "date": "2026-06-11",
@@ -21,6 +21,10 @@
     {
       "date": "2026-06-12",
       "score": 4
+    },
+    {
+      "date": "2026-06-13",
+      "score": 5
     }
   ]
 }

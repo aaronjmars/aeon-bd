@@ -18,4 +18,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-12,reply-maker,claude-opus-4-8,3331,19503,1384821,133639
 2026-06-12,idea-validator,claude-sonnet-4-6,7,1516,236598,38861
 2026-06-12,heartbeat,claude-opus-4-8,2100,7822,521468,46384
-2026-06-13,war-room,claude-opus-4-8,2235,7859,804648,53201
+2026-06-13,bd-radar,claude-opus-4-8,2525,23616,2569454,90620
