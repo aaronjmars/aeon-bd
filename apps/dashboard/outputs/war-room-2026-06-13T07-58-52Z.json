@@ -1,0 +1,405 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 War Room",
+        "description": "2026-06-13"
+      },
+      "children": [
+        "status-section",
+        "opportunities-section",
+        "decision-section",
+        "separator-1",
+        "appendix-section"
+      ]
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status-heading",
+        "status-intro",
+        "stars-grid",
+        "ci-status-text",
+        "website-watch-alert"
+      ]
+    },
+    "status-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Status",
+        "level": "h2"
+      }
+    },
+    "status-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Running off 06-12 read — upstream didn't commit today (2nd morning straight, heartbeat smell, flagged below). Both green there: CI clean both surfaces, no releases, no stalls."
+      }
+    },
+    "stars-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "aeon-stars",
+        "miroshark-stars"
+      ]
+    },
+    "aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "507",
+        "delta": "−1",
+        "trend": "neutral"
+      }
+    },
+    "miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1263",
+        "delta": "+6",
+        "trend": "up"
+      }
+    },
+    "ci-status-text": {
+      "type": "Text",
+      "props": {
+        "text": "CI: 0❌ both surfaces (aeon-agent 33✅, miroshark-aeon 34✅)"
+      }
+    },
+    "website-watch-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "miroshark-website",
+        "message": "6d quiet — watch, not red",
+        "type": "info"
+      }
+    },
+    "opportunities-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-heading",
+        "hivra-opportunity",
+        "amper-opportunity"
+      ]
+    },
+    "opp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "hivra-opportunity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hivra-link",
+        "hivra-description",
+        "hivra-action"
+      ]
+    },
+    "hivra-link": {
+      "type": "Link",
+      "props": {
+        "label": "@HivraOS",
+        "href": "https://twitter.com/HivraOS"
+      }
+    },
+    "hivra-description": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped one-click @aeonframework deploy on their managed hosting platform. That's distribution, not a mention → DM, invite to the TG, lock a co-announce ⭐"
+      }
+    },
+    "hivra-action": {
+      "type": "Badge",
+      "props": {
+        "text": "distribution unlock",
+        "variant": "secondary"
+      }
+    },
+    "amper-opportunity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "amper-link",
+        "amper-description",
+        "amper-action"
+      ]
+    },
+    "amper-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "oxkaiba/amper-aeon-skill",
+        "href": "https://github.com/oxkaiba/amper-aeon-skill"
+      }
+    },
+    "amper-description": {
+      "type": "Text",
+      "props": {
+        "text": "80+ tool DeFi skill (swaps/lending/perps/options/cross-chain), biggest surface yet → feature + nudge an ECOSYSTEM PR"
+      }
+    },
+    "amper-action": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi tooling",
+        "variant": "secondary"
+      }
+    },
+    "decision-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decision-heading",
+        "decision-content"
+      ]
+    },
+    "decision-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "decision-content": {
+      "type": "Text",
+      "props": {
+        "text": "Chase the deploy button. HivraOS built our distribution — aeon one-click in front of their users beats any fork or integration on the board. DM them today while it's warm, get the co-announce, then we point every new builder at \"run aeon in one click.\""
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "appendix-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "appendix-heading",
+        "heartbeat-subsection",
+        "product-pulse-subsection",
+        "bd-radar-subsection",
+        "simwatch-subsection"
+      ]
+    },
+    "appendix-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Source Digests",
+        "level": "h2"
+      }
+    },
+    "heartbeat-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heartbeat-title",
+        "heartbeat-content",
+        "heartbeat-issue"
+      ]
+    },
+    "heartbeat-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Heartbeat Note",
+        "level": "h3"
+      }
+    },
+    "heartbeat-content": {
+      "type": "Text",
+      "props": {
+        "text": "Today's (06-13) product-pulse + bd-radar haven't committed — state `last_run` is `2026-06-12T08:45Z`. This brief reads the most-recent (06-12) digests + state files. This is the second consecutive morning war-room has run without same-day upstream output (06-12 brief flagged the same)."
+      }
+    },
+    "heartbeat-issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Potential Heartbeat Issue",
+        "message": "If product-pulse/bd-radar are silently not firing, that's a scheduling/heartbeat issue worth a real look — not something war-room can verify from here.",
+        "type": "warning"
+      }
+    },
+    "product-pulse-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "product-pulse-title",
+        "pulse-overview",
+        "pulse-status",
+        "pulse-ci-stats",
+        "pulse-followers",
+        "pulse-watch",
+        "product-pulse-link"
+      ]
+    },
+    "product-pulse-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Product-Pulse (06-12)",
+        "level": "h3"
+      }
+    },
+    "pulse-overview": {
+      "type": "Text",
+      "props": {
+        "text": "Both green, all instrumentation live."
+      }
+    },
+    "pulse-status": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon 507★ (−1) / MiroShark 1263★ (+6, only positive mover)"
+      }
+    },
+    "pulse-ci-stats": {
+      "type": "Text",
+      "props": {
+        "text": "CI 0❌ both surfaces (aeon-agent 33✅, miroshark-aeon 34✅), all repos pushed recent."
+      }
+    },
+    "pulse-followers": {
+      "type": "Text",
+      "props": {
+        "text": "Followers: @aeonframework 151,815 (−8, noise) / @miroshark_ 2,072 (flat)."
+      }
+    },
+    "pulse-watch": {
+      "type": "Alert",
+      "props": {
+        "title": "Soft Watch",
+        "message": "`miroshark-website` 6d quiet (<14d line). xAI lifetime post counts still return `unknown`. 0 notables.",
+        "type": "info"
+      }
+    },
+    "product-pulse-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Product Pulse Report",
+        "href": "articles/product-pulse-2026-06-12.md",
+        "source": "06-12"
+      }
+    },
+    "bd-radar-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bd-radar-title",
+        "bd-headline",
+        "bd-building-hivra",
+        "bd-building-amper",
+        "bd-mentioning",
+        "bd-expanding",
+        "bd-radar-link"
+      ]
+    },
+    "bd-radar-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BD-Radar (06-12)",
+        "level": "h3"
+      }
+    },
+    "bd-headline": {
+      "type": "Text",
+      "props": {
+        "text": "New-since-06-11 leads. Headline: `building` distribution + DeFi tooling. All sources lit."
+      }
+    },
+    "bd-building-hivra": {
+      "type": "Text",
+      "props": {
+        "text": "Building: @HivraOS — one-click aeon deploy on managed hosting platform (distribution unlock)."
+      }
+    },
+    "bd-building-amper": {
+      "type": "Text",
+      "props": {
+        "text": "Building: oxkaiba/amper-aeon-skill — Amper DeFi skill, 80+ tools."
+      }
+    },
+    "bd-mentioning": {
+      "type": "Text",
+      "props": {
+        "text": "Mentioning: @tom_doerr — MiroShark repo post, 103 likes / 12 reposts (best non-official reach in window)."
+      }
+    },
+    "bd-expanding": {
+      "type": "Text",
+      "props": {
+        "text": "Known-expanding: @vigilcodes merged security MCP into aeon, AntFleet filed issues #455/#454, swarm-ai-research now forks both products."
+      }
+    },
+    "bd-radar-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full BD Radar Report",
+        "href": "articles/bd-radar-2026-06-12.md",
+        "source": "06-12"
+      }
+    },
+    "simwatch-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "simwatch-title",
+        "simwatch-content"
+      ]
+    },
+    "simwatch-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Sim-Watch / Idea-Forge",
+        "level": "h3"
+      }
+    },
+    "simwatch-content": {
+      "type": "Text",
+      "props": {
+        "text": "None within 7 days (weekly skills, no digest on file yet)."
+      }
+    }
+  }
+}

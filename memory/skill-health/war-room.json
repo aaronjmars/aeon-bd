@@ -1,12 +1,12 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-12T08:28:33Z",
+  "last_analyzed": "2026-06-13T07:58:52Z",
   "quality_score": 4,
-  "assessment": "Substantive brief with actionable BD intelligence; gracefully handled stale upstream data (06-11 vs 06-12) by flagging dependency gap rather than failing silently.",
+  "assessment": "Substantive, actionable intelligence with clear decision (DM @HivraOS for co-announce); transparently handled stale data constraint and flagged recurring upstream digest failures.",
   "flags": [
     "stale_data"
   ],
-  "avg_score": 4.33,
+  "avg_score": 4.25,
   "history": [
     {
       "date": "2026-06-11",
@@ -18,6 +18,10 @@
     },
     {
       "date": "2026-06-12",
+      "score": 4
+    },
+    {
+      "date": "2026-06-13",
       "score": 4
     }
   ]

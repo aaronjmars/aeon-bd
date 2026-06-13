@@ -1,15 +1,16 @@
-⭐🦈 war room — 2026-06-12
+⭐🦈 war room — 2026-06-13
 
-state: no fresh 06-12 read — product-pulse + bd-radar haven't committed today, so this is 06-11 carried over. both green there: aeon 508★ / miroshark 1257★, CI clean both surfaces, all repos pushed, eyes now fully lit (forks · issues · X · 4 private repos). flat, no new deltas.
+state: running off the 06-12 read — upstream didn't commit today (2nd morning straight, heartbeat smell, flagged below). both green there: aeon 507★ (−1, noise), miroshark 1263★ (+6, only real mover). CI clean both surfaces, no releases, no stalls. miroshark-website 6d quiet — watch, not red.
 
-talk to: integrators over forkers now. truthlayer (@rohanthomas1202) already wired our /simulate api — phase 1 live → offer phase 2, confirm it's our api not a local fork. · HusseinJX/prelaunchagents shipped miroshark on local ollama, no api key → DM, feature, pull into the sim TG. that local angle is a distribution unlock.
+talk to: @HivraOS — shipped one-click @aeonframework deploy on their managed hosting platform. that's distribution, not a mention → DM, invite to the TG, lock a co-announce ⭐. · oxkaiba/amper-aeon-skill — 80+ tool DeFi skill (swaps/lending/perps/options/cross-chain), biggest surface yet → feature + nudge an ECOSYSTEM PR.
 
-decide: the read flipped under us — fork fleet → integration fleet (truthlayer, ResearchSwarm, Signa, DYAI2025 all calling the api now). yesterday was fixing the eyes; today is conversion. stop counting forks, start closing integrators — DM truthlayer while phase 1 is warm.
+decide: chase the deploy button. hivra built our distribution — aeon one-click in front of their users beats any fork or integration on the board. DM them today while it's warm, get the co-announce, then we point every new builder at "run aeon in one click."
 
 ---
 
 ### appendix — source digests
-- **note:** today's (06-12) product-pulse + bd-radar haven't committed — state `last_run` is `2026-06-11T20:05Z`. This brief reads the most-recent (06-11) digests + state files. If upstream silently stopped firing, that's a heartbeat concern, not a red-flag I can verify here.
-- **product-pulse** (state, 06-11): both green, all instrumentation live. aeon 508★ (0) / MiroShark 1257★ (0), CI 0❌ across 40 runs each surface, 4 private repos resolved (oldest push 6d < 14d line), followers 151,823 / 2,072 flat. Only dark spot: xAI lifetime post counts return `unknown`. 0 notables. `articles/product-pulse-2026-06-11.md`.
-- **bd-radar** (leads, 06-11): 25 leads. The live read — forkers graduating to integrators: `integrating` **rohanthomas1202/truthlayer** (api Phase 1), `building` **HusseinJX/prelaunchagents** (miroshark on local ollama), plus ResearchSwarm (preregistered multi-replication study), Signa (miroshark↔aeon bridge), DYAI2025 (api-orchestrated runs). All 5 sources lit. `articles/bd-radar-2026-06-11.md`.
-- **sim-watch / idea-forge:** none within 7 days (weekly skills, instance ~2 days old).
+
+- **heartbeat note:** today's (06-13) product-pulse + bd-radar haven't committed — state `last_run` is `2026-06-12T08:45Z`. This brief reads the most-recent (06-12) digests + state files. This is the **second consecutive morning** war-room has run without same-day upstream output (06-12 brief flagged the same). If product-pulse/bd-radar are silently not firing, that's a scheduling/heartbeat issue worth a real look — not something war-room can verify from here.
+- **product-pulse** (06-12): both green, all instrumentation live. aeon 507★ (−1) / MiroShark 1263★ (+6, only positive mover), CI 0❌ both surfaces (aeon-agent 33✅, miroshark-aeon 34✅), all repos pushed recent. @aeonframework 151,815 (−8, noise) / @miroshark_ 2,072 (flat). Soft watch: `miroshark-website` 6d quiet (<14d line). xAI lifetime post counts still return `unknown`. 0 notables. `articles/product-pulse-2026-06-12.md`.
+- **bd-radar** (06-12): new-since-06-11 leads. Headline: `building` **@HivraOS** — one-click aeon deploy on a managed hosting platform (distribution unlock). `building` **oxkaiba/amper-aeon-skill** — Amper DeFi skill, 80+ tools. `mentioning` **@tom_doerr** — MiroShark repo post, 103 likes / 12 reposts (best non-official reach in window). Known-expanding: **@vigilcodes** merged a security MCP into aeon, **AntFleet** filed issues #455/#454, **swarm-ai-research** now forks both products. All sources lit. `articles/bd-radar-2026-06-12.md`.
+- **sim-watch / idea-forge:** none within 7 days (weekly skills, no digest on file yet).
