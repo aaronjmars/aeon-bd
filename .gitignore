@@ -32,6 +32,7 @@ tmp_*
 .*-tmp.md
 .*-draft.md
 .heartbeat-notify.md
+.reply-maker-notify.md
 .*-msg.txt
 *_msg.txt
 *_raw.txt
