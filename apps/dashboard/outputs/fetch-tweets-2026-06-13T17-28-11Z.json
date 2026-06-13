@@ -1,0 +1,168 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "fetch-tweets Status & Decision",
+        "description": "Skill offline 2 days — fix ready, needs decision on merge vs deprecate"
+      },
+      "children": [
+        "alert_status",
+        "sep1",
+        "section_problem",
+        "sep2",
+        "section_fix",
+        "sep3",
+        "section_decision"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "fetch-tweets offline",
+        "message": "Enabled but dead 2 days — every run no-ops (no query)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_problem": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_problem",
+        "text_cause",
+        "text_impact"
+      ]
+    },
+    "heading_problem": {
+      "type": "Heading",
+      "props": {
+        "text": "Problem",
+        "level": "h3"
+      }
+    },
+    "text_cause": {
+      "type": "Text",
+      "props": {
+        "text": "Skill enabled but has no `var` set. Prefetch skips it and every run no-ops (no query to search)."
+      }
+    },
+    "text_impact": {
+      "type": "Text",
+      "props": {
+        "text": "Impact: feeds bd-radar's X path",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_fix": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_fix",
+        "text_fix_desc",
+        "branch_badge",
+        "text_query_label",
+        "text_query",
+        "alert_blocker"
+      ]
+    },
+    "heading_fix": {
+      "type": "Heading",
+      "props": {
+        "text": "Proposed Fix",
+        "level": "h3"
+      }
+    },
+    "text_fix_desc": {
+      "type": "Text",
+      "props": {
+        "text": "One-line fix pushed to branch:"
+      }
+    },
+    "branch_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "fix/fetch-tweets-set-var",
+        "variant": "secondary"
+      }
+    },
+    "text_query_label": {
+      "type": "Text",
+      "props": {
+        "text": "Sets var to:",
+        "variant": "caption"
+      }
+    },
+    "text_query": {
+      "type": "Text",
+      "props": {
+        "text": "@aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation"
+      }
+    },
+    "alert_blocker": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Blocker",
+        "message": "Can't open PR from runner — org blocks Actions from creating PRs. Needs manual merge."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_decision": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_decision",
+        "text_decision_q",
+        "text_decision_alt"
+      ]
+    },
+    "heading_decision": {
+      "type": "Heading",
+      "props": {
+        "text": "Decision Required",
+        "level": "h3"
+      }
+    },
+    "text_decision_q": {
+      "type": "Text",
+      "props": {
+        "text": "Merge fix/fetch-tweets-set-var, or kill fetch-tweets entirely?"
+      }
+    },
+    "text_decision_alt": {
+      "type": "Text",
+      "props": {
+        "text": "Alternative: product-pulse + bd-radar already cover product X-deltas",
+        "variant": "muted"
+      }
+    }
+  }
+}
