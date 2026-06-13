@@ -1,23 +1,27 @@
-Done. No notification — `MODE=execute` but zero red-flag notables, so the skill stays quiet by design (the digest + state feed `war-room`).
+Done. Quiet day — ran the full pulse, nothing red.
 
 ## Summary
 
-Ran `product-pulse` for 2026-06-12. Pulled GitHub health across the public repo family (`gh api`) + private repos (PAT prefetch cache) and X followers from the xAI prefetch cache.
+**product-pulse** for 2026-06-13 — the daily state-of-both-products read that `war-room` consumes.
 
-**State — both products healthy, quiet day:**
-- **Notables: 0** — no releases, no CI red, no >14d stalls, no milestones crossed.
-- **CI green:** `aeon-agent` 33✅/0❌/1⊘, `miroshark-aeon` 34✅/0❌/0⊘ (24h).
-- **Star Δ1d:** MiroShark **+6** (1257→1263) is the only real mover; aeon −1, rest flat.
-- **Follower Δ1d:** @aeonframework −8 (noise), @miroshark_ flat at 2,072.
-- **Soft watch:** `miroshark-website` quietest at 6d since last push (under the 14d stall threshold).
-- Δ7d still N/A (history only 2 days deep); lifetime posts `unknown` from xAI → N/A.
+**What I did**
+- Pulled public GitHub health (`gh api`) for all 6 watched public repos + 24h CI for both automation repos.
+- Read private-repo health from the `GH_READ_PAT` prefetch cache (4 repos in scope, all visible).
+- Read X follower/post counts from the xAI prefetch cache (`product-pulse-x.json`).
+- Computed Δ1d (vs 06-12) and Δ-since-06-11 deltas, checked all 5 notable triggers.
 
-**Files:**
-- `articles/product-pulse-2026-06-12.md` — daily digest
-- `memory/topics/product-pulse-state.json` — appended today's snapshot (history now 2 entries)
-- `memory/logs/2026-06-12.md` — log block
-- Committed to `main`.
+**Numbers**
+- **Aeon ⭐:** 510 stars (Δ1d +3) · 2 issues · 1 PR · soul-aaronjmars 9→10. @aeonframework 151,778 (−37, noise band).
+- **Miroshark 🦈:** 1,267 stars (Δ1d +4, **+10 since 06-11** — only real momentum) · 0 issues/PRs. @miroshark_ 2,070 (−2).
+- **CI:** aeon-agent 36✅/0❌, miroshark-aeon 35✅/0❌ — both green.
+- Posts returned `unknown` from xAI → rendered N/A (per skill spec).
 
-**No self-notify** (no red-flag fired) — by design, per the skill's quiet-by-default gate.
+**Notables: 0.** No new release, no CI red, no milestone crossed, no stall → **no self-notify** (correct under quiet-by-default gating).
 
-**Follow-up:** none. Week-over-week deltas light up once history reaches a 7-day-old snapshot (~2026-06-18).
+**Files**
+- `articles/product-pulse-2026-06-13.md` (digest)
+- `memory/topics/product-pulse-state.json` (snapshot + history appended, 3 entries)
+- `memory/logs/2026-06-13.md` (log block)
+- Committed to `main` (462e4cb).
+
+**Follow-up:** none required. Δ7d is still being computed against the 06-11 snapshot — a true 7-day baseline accrues over the next few days as history fills.
