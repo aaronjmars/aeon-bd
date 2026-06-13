@@ -1,0 +1,14 @@
+{
+  "skill": "agent-displacement",
+  "last_analyzed": "2026-06-13T15:10:21Z",
+  "quality_score": 4,
+  "assessment": "Substantive research with specific quantitative signals (company names, dates, percentages, layoff counts), includes counter-signal (Klarna), actionable findings. Truncation prevents full sourcing verification.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-06-13",
+      "score": 4
+    }
+  ]
+}
