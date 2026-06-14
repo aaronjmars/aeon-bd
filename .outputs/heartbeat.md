@@ -1,18 +1,21 @@
-HEARTBEAT_OK · STATUS_PAGE=WATCH
+Done. Heartbeat ran clean.
 
 ## Summary
 
-Ran the `heartbeat` skill (08:28 UTC, Sunday 2026-06-14 morning run). **Fleet health is green — no notification sent.**
+Ran the `heartbeat` skill (14:32 UTC midday run, Sunday 2026-06-14). Fleet is green — no notification sent.
 
-**Checks:**
-- **P0 (failed/stuck skills):** All 16 `cron-state.json` entries `last_status: success`. No failed, no stuck, no `consecutive_failures ≥ 3`, no chronic <0.5 rate. Heartbeat self-check healthy (last success ~12h ago, <36h).
-- **P1 (PRs/issues):** `gh pr list` and `gh issue list` both empty.
-- **P2 (memory flags):** None urgent.
-- **P3 (missing skills):** No genuine miss. Today's morning trio hadn't posted to cron-state yet at 08:28 — the documented late-batch scheduling smell, not a new failure. Sunday skills (pm-intel, sim-watch, launch-radar) fire later today.
-- **Carried-forward operator-pending items** (both dedup'd within 48h, not re-notified): reply-maker/fetch-tweets `var` gap (fix branch awaits operator merge); war-room scheduling smell.
+**Checks**
+- **P0 (cron-state):** All 18 entries `last_status: success`. No failed, no stuck (>45min dispatched), no `consecutive_failures ≥ 3`, no chronic <0.5 success rate. Since the morning 08:28 run, pm-intel (10:53), engagement-act (09:50) and sim-watch (13:07) all completed successfully. Heartbeat self-check: last success ~6h ago (<36h). ✅
+- **P1:** No open PRs, no open issues (`gh pr list` / `gh issue list` empty).
+- **P2:** Only the two carried-forward, operator-pending follow-ups (reply-maker/fetch-tweets `var` gap fix branch awaiting merge; war-room batched-cron scheduling smell) — both already notified and dedup'd within 48h, so no re-notify.
+- **P3:** No genuine missing skill. 16 enabled skills have run (all 100%); the 12 not-yet-run are weekly/dispatch slots whose first window hasn't arrived (launch-radar fires 16:00 today).
 
-**Files modified:**
-- `docs/status.md` — regenerated: Overall 🟡 WATCH (fleet green, carries two operator-pending follow-ups), 14 healthy skills (all 100%), 14 not-yet-run weekly/dispatch slots, 0 open issues, next run engagement-act 09:30 UTC. Token pulse omitted (no token-report article).
-- `memory/logs/2026-06-14.md` — created with this run's findings.
+**Verdict:** 🟡 WATCH — fleet health green; WATCH driven only by the two pending operator follow-ups, not a degradation.
 
-**Follow-up (operator action, not new):** merge `fix/fetch-tweets-set-var`; push war-room schedule 07:45 → ~09:00 UTC. Files auto-commit via the workflow.
+**Files modified**
+- `docs/status.md` — regenerated public status page (16 healthy skills, 12 not-yet-run, 0 open issues, next run launch-radar 16:00 UTC; Token pulse omitted — no token report).
+- `memory/logs/2026-06-14.md` — appended midday heartbeat log entry.
+
+Both land on `main` via the workflow's auto-commit step. No follow-up action needed.
+
+`HEARTBEAT_OK · STATUS_PAGE=WATCH`
