@@ -1,5 +1,14 @@
 {
   "leads": [
+    {"key": "github:AntFleet", "class": "building", "who": "AntFleet.dev", "handle": "AntFleet", "signal": "productized a PAID PR-review skill on aeon (two-model-consensus, billed to install's USDC channel on Base / x402). 21-repo org: aeon-skills + vendored aeon fork + aeon-bench + miroshark-bench. 'trust layer for code written by agents'", "fit": 3, "score": 15, "first_seen": "2026-06-14", "repo_updated": "2026-06-10", "source": "gh_search_repos"},
+    {"key": "github:sparkleware", "class": "building", "who": "Sparkleware", "handle": "sparkleware", "signal": "running own aeon skill REGISTRY (sparkleware/sparkleware 2★) + registry-watch + 6 skills + active aeon fork (pushed 06-13) + MiroShark fork. third-party distribution surface for aeon packs", "fit": 3, "score": 15, "first_seen": "2026-06-14", "repo_updated": "2026-06-13", "source": "gh_search_repos"},
+    {"key": "github:codexvritra/signa-skills", "class": "building", "who": "Signa", "handle": "@Signa_Agent", "signal": "signa-skills — 10-skill suite ONE install (messaging, coordination, Bankr, gitlawb, MiroShark) + new signa-miroshark-skills. known builder shipping cross-product", "fit": 3, "score": 15, "known": true, "first_seen": "2026-06-14", "repo_updated": "2026-05-26", "source": "gh_search_repos"},
+    {"key": "github:aeoncity-hub/aeon", "class": "forking", "who": "aeoncity-hub", "handle": "aeoncity-hub", "signal": "org-named aeon fork created 06-04, pushed 06-13 20:48 — 9d continuous own activity, not drive-by", "fit": 3, "score": 12, "first_seen": "2026-06-14", "repo_updated": "2026-06-13", "source": "gh_read_pat_forks"},
+    {"key": "github:aeonbook/aeon-excalidraw-diagram", "class": "building", "who": "aeonbook", "handle": "aeonbook", "signal": "machine-validated Excalidraw diagram skill from drawfiles (1★). utility skill, low intent", "fit": 1, "score": 5, "first_seen": "2026-06-14", "repo_updated": "2026-05-28", "source": "gh_search_repos"},
+    {"key": "github:modelcollapse/aeon", "class": "forking", "who": "modelcollapse", "handle": "modelcollapse", "signal": "named aeon fork 06-13, own commits same day (full content)", "fit": 1, "score": 4, "first_seen": "2026-06-14", "repo_updated": "2026-06-13", "source": "gh_read_pat_forks"},
+    {"key": "github:wrenwealth/aeon", "class": "forking", "who": "wrenwealth", "handle": "wrenwealth", "signal": "named aeon fork 06-13, ~48min own activity, fintech handle", "fit": 1, "score": 4, "first_seen": "2026-06-14", "repo_updated": "2026-06-13", "source": "gh_read_pat_forks"},
+    {"key": "github:SahilParikh03/aeon", "class": "forking", "who": "SahilParikh03", "handle": "SahilParikh03", "signal": "aeon fork 06-10 → pushed 06-12, 2d own activity", "fit": 1, "score": 4, "first_seen": "2026-06-14", "repo_updated": "2026-06-12", "source": "gh_read_pat_forks"},
+    {"key": "github:sneg55/SimSwarm", "class": "adjacent", "who": "sneg55/SimSwarm", "handle": "sneg55", "signal": "competing OPEN swarm-sim — self-hostable LLM agents, entity graphs + prediction markets (3★, active 06-11). MiroShark's exact category — outbound/watch", "fit": 3, "score": 3, "first_seen": "2026-06-14", "repo_updated": "2026-06-11", "watch": true, "source": "gh_search_code"},
     {"key": "github:powerloom/aeon-skills", "class": "building", "who": "Powerloom", "handle": "powerloom", "signal": "established Base data protocol shipped a datamarket skill pack that runs on Aeon", "fit": 3, "score": 15, "first_seen": "2026-06-13", "repo_updated": "2026-06-04"},
     {"key": "github:mnemedb/aeon-skill-pack-mneme", "class": "building", "who": "Mneme", "handle": "mnemedb", "signal": "persistent memory layer for Aeon — vector+graph memory, Base streams, 8 drop-in skills", "fit": 3, "score": 15, "first_seen": "2026-06-13", "repo_updated": "2026-06-08"},
     {"key": "github:tenequm", "class": "integrating", "who": "glim.sh", "handle": "tenequm", "signal": "aeon issue #464 (06-12): add glim.sh live-data MCP (x402 + MPP) to the featured MCP catalog — explicit ask", "fit": 3, "score": 9, "first_seen": "2026-06-13", "issue": 464},
@@ -51,6 +60,15 @@
     {"key": "github:jianggaoyi/aeon", "class": "forking", "who": "jianggaoyi", "handle": "jianggaoyi", "signal": "aeon fork, hours of own activity (06-02)", "fit": 1, "score": 4, "first_seen": "2026-06-12", "repo_updated": "2026-06-02", "source": "gh_read_pat_forks"}
   ],
   "surfaced": [
+    "github:AntFleet",
+    "github:sparkleware",
+    "github:codexvritra/signa-skills",
+    "github:aeoncity-hub/aeon",
+    "github:aeonbook/aeon-excalidraw-diagram",
+    "github:modelcollapse/aeon",
+    "github:wrenwealth/aeon",
+    "github:SahilParikh03/aeon",
+    "github:sneg55/SimSwarm",
     "github:powerloom/aeon-skills",
     "github:mnemedb/aeon-skill-pack-mneme",
     "github:tenequm",
