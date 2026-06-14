@@ -1,0 +1,595 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "PM Intel — 2026-06-14"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_platforms",
+        "stack_platforms",
+        "sep1",
+        "heading_new_entrants",
+        "stack_new_entrants",
+        "sep2",
+        "heading_regulation",
+        "stack_regulation",
+        "sep3",
+        "heading_oracle",
+        "stack_oracle",
+        "sep4",
+        "heading_synthesis",
+        "text_synthesis"
+      ]
+    },
+    "heading_platforms": {
+      "type": "Heading",
+      "props": {
+        "text": "PLATFORMS",
+        "level": "h2"
+      }
+    },
+    "stack_platforms": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "platform_polymarket",
+        "platform_kalshi",
+        "platform_hyperliquid",
+        "platform_novig",
+        "platform_premu",
+        "platform_noise"
+      ]
+    },
+    "platform_polymarket": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pm_h_polymarket",
+        "pm_text_polymarket_features",
+        "pm_stat_polymarket_fifa",
+        "pm_alert_polymarket_oracle",
+        "pm_stat_polymarket_voters",
+        "pm_stat_polymarket_disputes"
+      ]
+    },
+    "pm_h_polymarket": {
+      "type": "Heading",
+      "props": {
+        "text": "Polymarket",
+        "level": "h3"
+      }
+    },
+    "pm_text_polymarket_features": {
+      "type": "Text",
+      "props": {
+        "text": "V2 live — rebuilt CLOB, pUSD (USDC-backed ERC-20), Perps (10× leverage on BTC/NVDA/gold), Combos (parlay bundles) incoming."
+      }
+    },
+    "pm_stat_polymarket_fifa": {
+      "type": "Stat",
+      "props": {
+        "label": "FIFA World Cup Volume",
+        "value": "$2B+"
+      }
+    },
+    "pm_alert_polymarket_oracle": {
+      "type": "Alert",
+      "props": {
+        "title": "Oracle Conflict (WSJ exposé)",
+        "message": "UMA oracle conflicts: 60% of active voters hold live Poly positions, 1 in 5 disputes had voters with a financial stake in the contract they judged.",
+        "type": "warning"
+      }
+    },
+    "pm_stat_polymarket_voters": {
+      "type": "Stat",
+      "props": {
+        "label": "Active voters with financial stake",
+        "value": "60%"
+      }
+    },
+    "pm_stat_polymarket_disputes": {
+      "type": "Stat",
+      "props": {
+        "label": "Disputed markets in 2026 (already exceeds 2025)",
+        "value": "1,150+"
+      }
+    },
+    "platform_kalshi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pm_h_kalshi",
+        "pm_text_kalshi_features",
+        "pm_stat_kalshi_valuation",
+        "pm_text_kalshi_products",
+        "pm_alert_kalshi_legal"
+      ]
+    },
+    "pm_h_kalshi": {
+      "type": "Heading",
+      "props": {
+        "text": "Kalshi",
+        "level": "h3"
+      }
+    },
+    "pm_text_kalshi_features": {
+      "type": "Text",
+      "props": {
+        "text": "Perp futures (first CFTC-regulated perps in US history), art markets (tied to auction house lots), Kalshi Klear in-house clearinghouse (CFTC-approved, March)."
+      }
+    },
+    "pm_stat_kalshi_valuation": {
+      "type": "Stat",
+      "props": {
+        "label": "Valuation post-$1B raise",
+        "value": "$22B"
+      }
+    },
+    "pm_text_kalshi_products": {
+      "type": "Text",
+      "props": {
+        "text": "Bloomberg-style terminal in alpha."
+      }
+    },
+    "pm_alert_kalshi_legal": {
+      "type": "Alert",
+      "props": {
+        "title": "3rd Circuit legal win (April 6)",
+        "message": "CFTC preempts NJ state gambling law for event contracts — biggest legal win yet. Preliminary; 9th Circuit (Nevada) still live.",
+        "type": "success"
+      }
+    },
+    "platform_hyperliquid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pm_h_hyperliquid",
+        "pm_text_hyperliquid_features",
+        "pm_text_hyperliquid_mechanism",
+        "pm_stat_hyperliquid_volume"
+      ]
+    },
+    "pm_h_hyperliquid": {
+      "type": "Heading",
+      "props": {
+        "text": "Hyperliquid",
+        "level": "h3"
+      }
+    },
+    "pm_text_hyperliquid_features": {
+      "type": "Text",
+      "props": {
+        "text": "PM live May 25. HIP-4 outcome contracts — validators handle settlement, no external oracle."
+      }
+    },
+    "pm_text_hyperliquid_mechanism": {
+      "type": "Text",
+      "props": {
+        "text": "First BTC outcome market did 3× Polymarket + Kalshi combined volume on debut."
+      }
+    },
+    "pm_stat_hyperliquid_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "First BTC market vs. competitors",
+        "value": "3× combined volume"
+      }
+    },
+    "platform_novig": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pm_h_novig",
+        "pm_text_novig_features",
+        "pm_stat_novig_valuation"
+      ]
+    },
+    "pm_h_novig": {
+      "type": "Heading",
+      "props": {
+        "text": "Novig",
+        "level": "h3"
+      }
+    },
+    "pm_text_novig_features": {
+      "type": "Text",
+      "props": {
+        "text": "CFTC registration filed. National sports PM in 40+ states via sweepstakes model."
+      }
+    },
+    "pm_stat_novig_valuation": {
+      "type": "Stat",
+      "props": {
+        "label": "Valuation / Series B",
+        "value": "$500M val / $75M Series B"
+      }
+    },
+    "platform_premu": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pm_h_premu",
+        "pm_text_premu_features"
+      ]
+    },
+    "pm_h_premu": {
+      "type": "Heading",
+      "props": {
+        "text": "Premu",
+        "level": "h3"
+      }
+    },
+    "pm_text_premu_features": {
+      "type": "Text",
+      "props": {
+        "text": "User-created leveraged (2.5×) PMs opened June 4, World Cup-timed. ETH/Arb/Base, USDC, fee-earning market creation."
+      }
+    },
+    "platform_noise": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pm_h_noise",
+        "pm_text_noise_features"
+      ]
+    },
+    "pm_h_noise": {
+      "type": "Heading",
+      "props": {
+        "text": "Noise",
+        "level": "h3"
+      }
+    },
+    "pm_text_noise_features": {
+      "type": "Text",
+      "props": {
+        "text": "Paradigm $7.1M seed, Base mainnet pending. Attention markets — betting on topic relevance, not binary outcome."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_new_entrants": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW ENTRANTS",
+        "level": "h2"
+      }
+    },
+    "stack_new_entrants": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "entrant_edge",
+        "entrant_elastics",
+        "entrant_propmarket",
+        "entrant_snapmarkets",
+        "entrant_speedlabs"
+      ]
+    },
+    "entrant_edge": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ne_h_edge",
+        "ne_text_edge_funding",
+        "ne_text_edge_products"
+      ]
+    },
+    "ne_h_edge": {
+      "type": "Heading",
+      "props": {
+        "text": "EDGE Markets",
+        "level": "h3"
+      }
+    },
+    "ne_text_edge_funding": {
+      "type": "Badge",
+      "props": {
+        "text": "$29.2M Series A (CoinFund, June 2026)"
+      }
+    },
+    "ne_text_edge_products": {
+      "type": "Text",
+      "props": {
+        "text": "Infra play: EDGE Pro (deposit accounts for CFTC exchange market makers) + EDGE Connect (first purpose-built PM payment rail)."
+      }
+    },
+    "entrant_elastics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ne_h_elastics",
+        "ne_text_elastics_funding",
+        "ne_text_elastics_product"
+      ]
+    },
+    "ne_h_elastics": {
+      "type": "Heading",
+      "props": {
+        "text": "Elastics",
+        "level": "h3"
+      }
+    },
+    "ne_text_elastics_funding": {
+      "type": "Badge",
+      "props": {
+        "text": "$2M pre-seed (Frst)"
+      }
+    },
+    "ne_text_elastics_product": {
+      "type": "Text",
+      "props": {
+        "text": "AI quant OS for retail PM traders. Warsaw."
+      }
+    },
+    "entrant_propmarket": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ne_h_propmarket",
+        "ne_text_propmarket_model"
+      ]
+    },
+    "ne_h_propmarket": {
+      "type": "Heading",
+      "props": {
+        "text": "PropMarket",
+        "level": "h3"
+      }
+    },
+    "ne_text_propmarket_model": {
+      "type": "Text",
+      "props": {
+        "text": "Prop-firm model for Polymarket. Pass eval → funded account."
+      }
+    },
+    "entrant_snapmarkets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ne_h_snapmarkets",
+        "ne_text_snapmarkets_product"
+      ]
+    },
+    "ne_h_snapmarkets": {
+      "type": "Heading",
+      "props": {
+        "text": "SnapMarkets (Blockchain.com)",
+        "level": "h3"
+      }
+    },
+    "ne_text_snapmarkets_product": {
+      "type": "Text",
+      "props": {
+        "text": "30s BTC price bets, $1 stakes. May 2026."
+      }
+    },
+    "entrant_speedlabs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ne_h_speedlabs",
+        "ne_text_speedlabs_funding",
+        "ne_text_speedlabs_product"
+      ]
+    },
+    "ne_h_speedlabs": {
+      "type": "Heading",
+      "props": {
+        "text": "SpeedLabs / Momentum Markets",
+        "level": "h3"
+      }
+    },
+    "ne_text_speedlabs_funding": {
+      "type": "Badge",
+      "props": {
+        "text": "$6.5M seed (Parlay Capital)"
+      }
+    },
+    "ne_text_speedlabs_product": {
+      "type": "Text",
+      "props": {
+        "text": "Micro-betting PM. Summer 2026 launch."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_regulation": {
+      "type": "Heading",
+      "props": {
+        "text": "REGULATION",
+        "level": "h2"
+      }
+    },
+    "stack_regulation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reg_1",
+        "reg_2",
+        "reg_3",
+        "reg_4",
+        "reg_5",
+        "reg_6"
+      ]
+    },
+    "reg_1": {
+      "type": "Text",
+      "props": {
+        "text": "CFTC Staff Advisory 26-08 (March 12): explicit green light for event-based derivatives."
+      }
+    },
+    "reg_2": {
+      "type": "Text",
+      "props": {
+        "text": "CFTC Public Interest Determinations rule: Federal Register June 12 — new framework for which contracts can list."
+      }
+    },
+    "reg_3": {
+      "type": "Alert",
+      "props": {
+        "title": "3rd Circuit (April 6)",
+        "message": "Kalshi wins, CFTC preempts NJ state gambling law. Preliminary — 9th Circuit (Nevada) still live.",
+        "type": "success"
+      }
+    },
+    "reg_4": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Market Act of 2026 (McCormick/Gillibrand): bans Congress from trading event contracts, CFTC-primary framework."
+      }
+    },
+    "reg_5": {
+      "type": "Alert",
+      "props": {
+        "title": "CLARITY Act (crypto market structure)",
+        "message": "47% support on Polymarket, stalling in Senate after ethics objections.",
+        "type": "warning"
+      }
+    },
+    "reg_6": {
+      "type": "Alert",
+      "props": {
+        "title": "Insider trading heat",
+        "message": "CFTC advisory (Feb 25) + H.R. 7004 introduced. Political surface area growing.",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_oracle": {
+      "type": "Heading",
+      "props": {
+        "text": "ORACLE / MECHANISM",
+        "level": "h2"
+      }
+    },
+    "stack_oracle": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "oracle_1",
+        "oracle_2",
+        "oracle_3",
+        "oracle_4"
+      ]
+    },
+    "oracle_1": {
+      "type": "Alert",
+      "props": {
+        "title": "Hyperliquid: Validator-native settlement",
+        "message": "First production design that structurally sidesteps oracle manipulation — directly addresses what Polymarket's UMA can't fix without replacing core infra.",
+        "type": "success"
+      }
+    },
+    "oracle_2": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket V2 rebuilt CLOB backend + pUSD collateral. Oracle layer unchanged."
+      }
+    },
+    "oracle_3": {
+      "type": "Alert",
+      "props": {
+        "title": "LS-LMSR dead in production",
+        "message": "CPMM + hybrid book designs winning. AMM-native PM experiments stalling.",
+        "type": "info"
+      }
+    },
+    "oracle_4": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi Klear: clearing in-house = fewer external dependencies, deeper TradFi moat."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_synthesis": {
+      "type": "Heading",
+      "props": {
+        "text": "SYNTHESIS",
+        "level": "h2"
+      }
+    },
+    "text_synthesis": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi is going full Bloomberg — clearinghouse, terminal, perps, art markets, legal wins. Regulatory capture is the moat and it's working; the more TradFi they get, the wider the gap for a permissionless play. Hyperliquid proved the validator oracle model works (3× volume, day one) but doesn't have user-created markets yet. The actual product gap nobody's filling: user-created + leveraged + validator-resolved + no KYC. Premu has 3 of 4. The regulatory window is open right now — CFTC green-lit, 3rd Circuit won, McCormick/Gillibrand providing legitimacy cover. The next mover who stitches Hyperliquid's oracle + Premu's creation model + Noise's attention layer is building the cockpit, not the observation deck. That's the coordination machine. Everything else is infrastructure for it."
+      }
+    }
+  }
+}

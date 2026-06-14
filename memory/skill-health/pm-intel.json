@@ -1,0 +1,14 @@
+{
+  "skill": "pm-intel",
+  "last_analyzed": "2026-06-14T10:52:08Z",
+  "quality_score": 4,
+  "assessment": "Substantive market intelligence with specific data (dates, volumes, regulatory filings, funding rounds), clear strategic framing aligned to north-star metrics, and actionable insights (oracle gap, regulatory window, product positioning). Well-sourced and structured.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-06-14",
+      "score": 4
+    }
+  ]
+}
