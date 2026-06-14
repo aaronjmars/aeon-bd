@@ -1,21 +1,19 @@
-Done. Heartbeat ran clean.
+Heartbeat complete. Clean run — nothing needs attention.
 
 ## Summary
 
-Ran the `heartbeat` skill (14:32 UTC midday run, Sunday 2026-06-14). Fleet is green — no notification sent.
+Ran the `heartbeat` skill (20:24 UTC evening pass). **Result: HEARTBEAT_OK · STATUS_PAGE=WATCH** — no notification sent.
 
-**Checks**
-- **P0 (cron-state):** All 18 entries `last_status: success`. No failed, no stuck (>45min dispatched), no `consecutive_failures ≥ 3`, no chronic <0.5 success rate. Since the morning 08:28 run, pm-intel (10:53), engagement-act (09:50) and sim-watch (13:07) all completed successfully. Heartbeat self-check: last success ~6h ago (<36h). ✅
-- **P1:** No open PRs, no open issues (`gh pr list` / `gh issue list` empty).
-- **P2:** Only the two carried-forward, operator-pending follow-ups (reply-maker/fetch-tweets `var` gap fix branch awaiting merge; war-room batched-cron scheduling smell) — both already notified and dedup'd within 48h, so no re-notify.
-- **P3:** No genuine missing skill. 16 enabled skills have run (all 100%); the 12 not-yet-run are weekly/dispatch slots whose first window hasn't arrived (launch-radar fires 16:00 today).
+**Checks (all clear):**
+- **P0 — skills:** Every `cron-state.json` entry shows `last_status: success`. No failed, no stuck (>45min dispatched), no `consecutive_failures ≥ 3`, no chronic <0.5. Since the midday run the full X-content block fired clean (launch-radar, fetch-tweets, write-tweet, agent-buzz, reply-maker). Heartbeat self-check green (~6h since last success).
+- **P1 — PRs/issues:** `gh pr list` and `gh issue list` both empty.
+- **P2 — memory:** Only the two carried-forward operator-pending follow-ups (the `reply-maker`/`fetch-tweets` `var` gap fix branch awaiting operator merge; the war-room batched-cron scheduling smell) — both already notified and dedup'd within 48h, so no re-notify.
+- **P3 — missing skills:** None genuine. 14 enabled skills have run (all 100%); the 11 "not yet run" are weekly/dispatch slots whose window hasn't arrived.
 
-**Verdict:** 🟡 WATCH — fleet health green; WATCH driven only by the two pending operator follow-ups, not a degradation.
+**Why no notification:** Fleet health is green and the only open items are already-notified follow-ups inside the dedup window.
 
-**Files modified**
-- `docs/status.md` — regenerated public status page (16 healthy skills, 12 not-yet-run, 0 open issues, next run launch-radar 16:00 UTC; Token pulse omitted — no token report).
-- `memory/logs/2026-06-14.md` — appended midday heartbeat log entry.
+**Files modified:**
+- `docs/status.md` — regenerated: Overall 🟡 WATCH, 25 enabled skills (14 run + 11 not-yet-run), 0 open issues, next run product-pulse 07:15 UTC. Dropped 3 disabled-but-cached skills (pm-intel/compute-pulse/agent-displacement) that the prior run still listed, per the enabled-only rule. Token pulse omitted (no `token-report-*.md`).
+- `memory/logs/2026-06-14.md` — appended the evening heartbeat entry.
 
-Both land on `main` via the workflow's auto-commit step. No follow-up action needed.
-
-`HEARTBEAT_OK · STATUS_PAGE=WATCH`
+**Follow-ups (operator action, unchanged):** merge the `fix/fetch-tweets-set-var` branch to close the `var` gap; decide on the war-room cron-stagger fix.
