@@ -1,12 +1,10 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-13T07:58:52Z",
+  "last_analyzed": "2026-06-14T08:30:04Z",
   "quality_score": 4,
-  "assessment": "Substantive, actionable intelligence with clear decision (DM @HivraOS for co-announce); transparently handled stale data constraint and flagged recurring upstream digest failures.",
-  "flags": [
-    "stale_data"
-  ],
-  "avg_score": 4.25,
+  "assessment": "Good — substantive daily standup with specific opportunities, clear decisions, and strategic timing insights; properly handled stale input data with transparent caveats.",
+  "flags": [],
+  "avg_score": 4.2,
   "history": [
     {
       "date": "2026-06-11",
@@ -22,6 +20,10 @@
     },
     {
       "date": "2026-06-13",
+      "score": 4
+    },
+    {
+      "date": "2026-06-14",
       "score": 4
     }
   ]
