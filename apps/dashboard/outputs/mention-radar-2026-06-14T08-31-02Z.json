@@ -1,0 +1,418 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-06-14",
+        "description": "Web mention tracking and GitHub momentum"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-overview",
+        "separator-1",
+        "section-aeon",
+        "separator-2",
+        "section-miroshark",
+        "separator-3",
+        "section-ecosystem",
+        "separator-4",
+        "section-engagement",
+        "separator-5",
+        "alert-conclusion"
+      ]
+    },
+    "text-overview": {
+      "type": "Text",
+      "props": {
+        "text": "honest read: external web is quiet this cycle — most hits are recycled (the 4 miroshark forks, aixbt/microlaunch listings, repo-explainer) already logged 06-12. real signal is github momentum.",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aeon",
+        "stack-aeon-items"
+      ]
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON ⭐",
+        "level": "h2"
+      }
+    },
+    "stack-aeon-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-leadai",
+        "badges-leadai",
+        "text-aeon-position",
+        "stack-aeon-stats"
+      ]
+    },
+    "story-leadai": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon: A Game-Changer for Running AI Agents on GitHub Actions",
+        "href": "https://leadai.dev",
+        "source": "leadai.dev"
+      }
+    },
+    "badges-leadai": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-discovery",
+        "badge-low-conf",
+        "badge-seofarm",
+        "badge-gated",
+        "badge-date-unverified"
+      ]
+    },
+    "badge-discovery": {
+      "type": "Badge",
+      "props": {
+        "text": "discovery",
+        "variant": "outline"
+      }
+    },
+    "badge-low-conf": {
+      "type": "Badge",
+      "props": {
+        "text": "low-confidence",
+        "variant": "outline"
+      }
+    },
+    "badge-seofarm": {
+      "type": "Badge",
+      "props": {
+        "text": "SEO-farm style",
+        "variant": "outline"
+      }
+    },
+    "badge-gated": {
+      "type": "Badge",
+      "props": {
+        "text": "page gated",
+        "variant": "outline"
+      }
+    },
+    "badge-date-unverified": {
+      "type": "Badge",
+      "props": {
+        "text": "date unverified",
+        "variant": "outline"
+      }
+    },
+    "text-aeon-position": {
+      "type": "Text",
+      "props": {
+        "text": "Third-party explainer: positions Aeon vs OpenClaw (interactivity traded for a calmer unattended model)",
+        "variant": "muted"
+      }
+    },
+    "stack-aeon-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-aeon-stars",
+        "stat-aeon-forks"
+      ]
+    },
+    "stat-aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "512",
+        "delta": "+5",
+        "trend": "up"
+      }
+    },
+    "stat-aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "170",
+        "delta": "+3",
+        "trend": "up"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-miroshark",
+        "stack-miroshark-items"
+      ]
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK 🦈",
+        "level": "h2"
+      }
+    },
+    "stack-miroshark-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-youtube",
+        "badges-youtube",
+        "text-gitlawb",
+        "stack-miroshark-stats"
+      ]
+    },
+    "story-youtube": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark Simulates Public Reaction with AI Swarms (MiroFish fork)",
+        "href": "https://youtube.com",
+        "source": "YouTube"
+      }
+    },
+    "badges-youtube": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-discovery-yt",
+        "badge-unverified-yt",
+        "badge-metadata"
+      ]
+    },
+    "badge-discovery-yt": {
+      "type": "Badge",
+      "props": {
+        "text": "discovery",
+        "variant": "outline"
+      }
+    },
+    "badge-unverified-yt": {
+      "type": "Badge",
+      "props": {
+        "text": "unverified",
+        "variant": "outline"
+      }
+    },
+    "badge-metadata": {
+      "type": "Badge",
+      "props": {
+        "text": "metadata didn't load",
+        "variant": "outline"
+      }
+    },
+    "text-gitlawb": {
+      "type": "Text",
+      "props": {
+        "text": "gitlawb.com directory listing (new index entry, low signal)",
+        "variant": "muted"
+      }
+    },
+    "stack-miroshark-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-miroshark-stars",
+        "stat-miroshark-forks"
+      ]
+    },
+    "stat-miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1270",
+        "delta": "+7",
+        "trend": "up"
+      }
+    },
+    "stat-miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "269",
+        "delta": "+2",
+        "trend": "up"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-ecosystem": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ecosystem",
+        "stack-ecosystem-items"
+      ]
+    },
+    "heading-ecosystem": {
+      "type": "Heading",
+      "props": {
+        "text": "ECOSYSTEM",
+        "level": "h2"
+      }
+    },
+    "stack-ecosystem-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-aeon-agent",
+        "stat-miroshark-aeon",
+        "stat-minitor",
+        "stat-soul-aaronjmars",
+        "text-ecosystem-note"
+      ]
+    },
+    "stat-aeon-agent": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon-agent",
+        "value": "9",
+        "trend": "neutral"
+      }
+    },
+    "stat-miroshark-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "miroshark-aeon",
+        "value": "14",
+        "trend": "neutral"
+      }
+    },
+    "stat-minitor": {
+      "type": "Stat",
+      "props": {
+        "label": "minitor",
+        "value": "11",
+        "trend": "neutral"
+      }
+    },
+    "stat-soul-aaronjmars": {
+      "type": "Stat",
+      "props": {
+        "label": "soul-aaronjmars",
+        "value": "10",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "text-ecosystem-note": {
+      "type": "Text",
+      "props": {
+        "text": "All flat except soul-aaronjmars",
+        "variant": "muted"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-engagement",
+        "text-engagement-status",
+        "text-engagement-live"
+      ]
+    },
+    "heading-engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "text-engagement-status": {
+      "type": "Text",
+      "props": {
+        "text": "None new worth acting on.",
+        "variant": "lead"
+      }
+    },
+    "text-engagement-live": {
+      "type": "Text",
+      "props": {
+        "text": "Live opportunities from 06-12 to chase: lord_proto $AEON-vs-Polsia, HivraOS, tom_doerr — don't wait on this cycle.",
+        "variant": "body"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-conclusion": {
+      "type": "Alert",
+      "props": {
+        "title": "No immediate moves required",
+        "message": "Forks both ticked up — demand's real, just no new conversation to jump into today.",
+        "type": "info"
+      }
+    }
+  }
+}
