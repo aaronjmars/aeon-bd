@@ -1,0 +1,14 @@
+{
+  "skill": "launch-radar",
+  "last_analyzed": "2026-06-14T16:35:09Z",
+  "quality_score": 3,
+  "assessment": "Skill executed correctly, detected and handled missing precondition gracefully with clear logging and activation instructions, but produced no actionable launch data",
+  "flags": [],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-06-14",
+      "score": 3
+    }
+  ]
+}

@@ -32,3 +32,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-14,pm-intel,claude-sonnet-4-6,19,10211,1082420,120174
 2026-06-14,sim-watch,claude-opus-4-8,5528,13379,835699,112841
 2026-06-14,heartbeat,claude-opus-4-8,2094,9600,363017,52109
+2026-06-14,launch-radar,claude-sonnet-4-6,8,1323,286489,37508
