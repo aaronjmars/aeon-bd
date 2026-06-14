@@ -1,28 +1,28 @@
-*Engagement Act — 2026-06-13*
+*Engagement Act — 2026-06-14*
 
-*1. tenequm — aeon #464* (1 day ago) — filed an explicit ask: add glim.sh live-data MCP (x402 + MPP) to the featured catalog. Warmest, fastest conversion — they're asking to be let in.
-link: github.com/aaronjmars/aeon/issues/464
+*1. dan-and* (today) — fork→upstream contributor, filed MiroShark #160 (websearch+webretrieval) + #161 (translations). warmest signal in the radar.
+link: https://github.com/aaronjmars/MiroShark/issues/160
 type: GitHub comment
-draft: "yes — exactly the kind of x402-native live-data MCP the catalog should feature. open a PR adding glim.sh to the featured list and we'll review fast. one ask: a short skill example calling it end-to-end so people can copy-paste. ⭐"
+draft: "this is exactly the right direction — grounding the swarm with live web retrieval is the missing piece for breaking-news sims. #161 too. want to take the PR for #160? happy to point you at where the agent tool-loop lives & get you contributor access 🦈"
 
-*2. powerloom/aeon-skills* (1 day ago) — Powerloom (established Base data protocol) shipped a datamarket skill pack on Aeon. Biggest legit-protocol partner candidate.
-link: github.com/powerloom/aeon-skills
-type: X DM (@Powerloom)
-draft: "saw aeon-skills — a datamarket pack on aeon is exactly the execution layer we want Powerloom-scale data flowing through. want to feature it in ECOSYSTEM and co-announce? happy to PR the listing. also curious what's missing for you on the framework side. ⭐"
+*2. AntFleet* (today) — shipped a *paid* PR-review skill on aeon (two-model consensus, x402-billed to USDC on Base), 21-repo org incl aeon-skills + miroshark-bench. cleanest ecosystem-economy signal yet.
+link: AntFleet.dev (no X handle verified)
+type: X DM / TG invite
+draft: "the x402-billed PR-review skill is the cleanest example of the aeon ecosystem economy i've seen — paid skill, two-model consensus, settled on Base. exactly the pattern i want builders to copy. jump in the TG? would love to feature it ⭐"
 
-*3. madebyshun/blue-agent* (1 day ago) — code-level MiroShark wrap: x402 4-persona consensus, mid-build re-implementing the engine.
-link: github.com/madebyshun/blue-agent
-type: X DM (@madebyshun)
-draft: "blue-agent's 4-persona consensus is sharp — but you're rebuilding what the miroshark api already does (grounded agents, belief drift, ~$1/<10min). hit the real endpoint instead of re-implementing, you ship faster + get the AMM + director mode free. lmk and i'll get you set up 🦈"
+*3. Sparkleware* (today) — running a third-party aeon skill *registry* (sparkleware/sparkleware) + registry-watch + 6 skills + active fork. distribution surface that could fragment.
+link: github.com/sparkleware/sparkleware (no X handle verified)
+type: X DM
+draft: "you're basically running a third-party aeon skill registry — that's a real distribution surface. rather than let it fragment, want to co-announce & fold it into the official ecosystem map? happy to route builders your way ⭐"
 
-*4. saluca-labs/pantheon* (1 day ago) — Tiresias app-proxy bridge into MiroShark, also mid-build wrapping the engine.
-link: github.com/saluca-labs/pantheon
-type: X DM (@saluca_labs)
-draft: "pantheon's Tiresias bridge is doing real work proxying into miroshark. before you finish the wrap — the live api gives you the full swarm (x402-native, hundreds of grounded agents, simulated AMM) without maintaining a bridge. want an api key + a quickstart? 🦈"
+*4. Signa (codexvritra)* (today) — signa-skills one-install suite (10 skills, miroshark included) + new signa-miroshark-skills, now 3 repos. cross-product, known builder.
+link: github.com/codexvritra (no X handle verified)
+type: X DM
+draft: "the signa-skills suite — 10 skills, one install, miroshark in the bundle — is exactly the packaging i want more of. & signa-miroshark-skills on top of it. want me to feature it? lands well with the builders shipping on ⭐🦈"
 
-*5. oxkaiba/amper-aeon-skill* (~1 day ago) — new builder shipping for partner @helloamper: Amper DeFi skill with 80+ tools. Biggest tool-surface skill we've seen.
-link: github.com/oxkaiba/amper-aeon-skill
-type: X DM (@oxkaiba)
-draft: "80+ tools in one aeon skill is the biggest tool surface we've seen shipped — that's a real DeFi agent, not a demo. want it featured in ECOSYSTEM + a co-post with @helloamper? i'll PR the listing. and tell me where the framework slowed you down at that tool count. ⭐"
+*5. sneg55/SimSwarm* (today) — first credible *open* swarm-sim competitor: graphs + sim PMs + self-host (3★). adjacent, worth a hand.
+link: github.com/sneg55/SimSwarm (no X handle verified)
+type: X DM / GitHub
+draft: "saw SimSwarm — graphs + sim PMs + self-host, first open swarm-sim i've seen built right. if you ever want grounded agents trading a live AMM hour-by-hour, the miroshark api is x402-native & open — happy to wire you in 🦈"
 
-all opps ≤1 day old — none aging. window's open, act this week.
+all opps fresh (≤1d) — none aging. dan-and #160 is the cheapest public yes; close it today.

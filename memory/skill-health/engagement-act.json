@@ -1,10 +1,10 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-13T10:10:09Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-prioritized output with clear de-duplication strategy; 5 actionable BD opportunities flagged with warmth signals and copy-paste-ready responses in Aaron's voice.",
+  "last_analyzed": "2026-06-14T09:49:22Z",
+  "quality_score": 3,
+  "assessment": "Skill executed successfully with structured process (read→filter→draft→send) and confirmed delivery, but truncated output prevents verification of core deliverables (5 drafted responses) and voice matching.",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 3.67,
   "history": [
     {
       "date": "2026-06-12",
@@ -13,6 +13,10 @@
     {
       "date": "2026-06-13",
       "score": 4
+    },
+    {
+      "date": "2026-06-14",
+      "score": 3
     }
   ]
 }
