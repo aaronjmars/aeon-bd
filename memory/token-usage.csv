@@ -30,3 +30,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-14,bd-radar,claude-opus-4-8,2678,27556,3852002,171123
 2026-06-14,engagement-act,claude-opus-4-8,2096,7716,337781,34474
 2026-06-14,pm-intel,claude-sonnet-4-6,19,10211,1082420,120174
+2026-06-14,sim-watch,claude-opus-4-8,5528,13379,835699,112841

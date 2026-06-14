@@ -1,0 +1,331 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "sim-watch 🦈"
+      },
+      "children": [
+        "intro-heading",
+        "sep1",
+        "proofs-section",
+        "sep2",
+        "gap-alert",
+        "sep3",
+        "wedge-section",
+        "sep4",
+        "threat-section",
+        "sep5",
+        "move-section",
+        "sep6",
+        "digest-link"
+      ]
+    },
+    "intro-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Category went mainstream top-down this month, not bottom-up",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "proofs-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "proofs-heading",
+        "proof-google",
+        "proof-world-labs",
+        "proof-feifei",
+        "legit-summary"
+      ]
+    },
+    "proofs-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Proof points",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "proof-google": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "google-text",
+        "google-meta"
+      ]
+    },
+    "google-text": {
+      "type": "Text",
+      "props": {
+        "text": "Google put a multi-agent simulation on the Cloud Next '26 keynote stage"
+      },
+      "children": []
+    },
+    "google-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-race-condition",
+        "badge-stars",
+        "badge-tech"
+      ]
+    },
+    "badge-race-condition": {
+      "type": "Badge",
+      "props": {
+        "text": "race-condition",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "159★",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-tech": {
+      "type": "Badge",
+      "props": {
+        "text": "gemini+adk",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "proof-world-labs": {
+      "type": "Text",
+      "props": {
+        "text": "World Labs raised $1B & Fei-Fei just put \"simulator\" at the center of her world-model taxonomy"
+      },
+      "children": []
+    },
+    "proof-feifei": {
+      "type": "Text",
+      "props": {
+        "text": ""
+      },
+      "children": []
+    },
+    "legit-summary": {
+      "type": "Text",
+      "props": {
+        "text": "The big players are legitimizing the category",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "gap-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "The gap",
+        "message": "They're shipping orchestration demos, not social-outcome sims. Nobody with reach is building the actual wedge.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "wedge-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "wedge-heading",
+        "wedge-components",
+        "wedge-price",
+        "wedge-ownership"
+      ]
+    },
+    "wedge-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "The actual wedge",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "wedge-components": {
+      "type": "Text",
+      "props": {
+        "text": "Grounded agents arguing on X/reddit + AMM belief drift + director mode + x402"
+      },
+      "children": []
+    },
+    "wedge-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Cost per run",
+        "value": "$1/<10min"
+      },
+      "children": []
+    },
+    "wedge-ownership": {
+      "type": "Badge",
+      "props": {
+        "text": "that's still ours",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "threat-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "threat-heading",
+        "threat-noise",
+        "threat-signal-heading",
+        "threat-signal-event",
+        "threat-signal-interpretation"
+      ]
+    },
+    "threat-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Threat read",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "threat-noise": {
+      "type": "Text",
+      "props": {
+        "text": "~40 forks, all 0★ batch noise"
+      },
+      "children": []
+    },
+    "threat-signal-heading": {
+      "type": "Text",
+      "props": {
+        "text": "One real tell:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "threat-signal-event": {
+      "type": "Text",
+      "props": {
+        "text": "Someone rebuilt the loop into a KOC growth-predictor (koc-growth-agent)"
+      },
+      "children": []
+    },
+    "threat-signal-interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Not a fork to fear, a demand signal: verticalized launch/campaign sim is a productizable lane",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "move-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "move-heading",
+        "move-item-1",
+        "move-item-2",
+        "move-item-3"
+      ]
+    },
+    "move-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Move",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "move-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Counter the framing (sim ≠ orchestration demo)"
+      },
+      "children": []
+    },
+    "move-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Cite Google + Fei-Fei as proof the category is real"
+      },
+      "children": []
+    },
+    "move-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "Own the outcome wedge"
+      },
+      "children": []
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "digest-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest",
+        "href": "articles/sim-watch-2026-06-14.md",
+        "source": "sim-watch"
+      },
+      "children": []
+    }
+  }
+}

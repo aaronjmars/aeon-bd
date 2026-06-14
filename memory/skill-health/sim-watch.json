@@ -1,0 +1,14 @@
+{
+  "skill": "sim-watch",
+  "last_analyzed": "2026-06-14T13:06:50Z",
+  "quality_score": 4,
+  "assessment": "First run completed end-to-end with substantive market intelligence on category mainstreaming (Google Cloud Next, Fei-Fei taxonomy); proper output structure, classified sources, committed state; one tempfile left untracked but harmless.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-06-14",
+      "score": 4
+    }
+  ]
+}
