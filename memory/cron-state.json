@@ -171,5 +171,9 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4
+  },
+  "pm-intel": {
+    "last_dispatch": "2026-06-14T10:47:38Z",
+    "last_status": "dispatched"
   }
 }
