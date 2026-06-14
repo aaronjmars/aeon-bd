@@ -143,12 +143,18 @@ case "$SKILL" in
     ;;
 
   reply-maker)
+    # Reply candidates need LIVE engagement + recency — without them the skill can't rank
+    # by leverage or verify the 6h reply window, and degrades to a memory/WebSearch pool
+    # (REPLY_MAKER_DEGRADED, unverifiable counts). Sandbox blocks the auth-POST curl, so we
+    # fetch here → .xai-cache/reply-maker.json. Shape the query by var: numeric → X list,
+    # @handle → account, other → topic, EMPTY → the war-room's default interest space (so
+    # the cache is populated on every run — scheduled or manual — not just when a var is set).
+    # Empty-var schema matches SKILL.md step 1 "If ${var} is empty: top topics from MEMORY.md".
     if [ -z "$VAR" ]; then
-      echo "xai-prefetch: reply-maker has no var, skipping (skill falls back to memory logs + WebSearch)"
-      exit 0
-    fi
+      xai_search "reply-maker.json" \
+        "Search X for 12 reply-worthy original posts (not retweets, not replies) in the AI-agents and agent-infrastructure conversation — autonomous agents, agent frameworks, MCP / agent protocols, multi-agent simulation, x402 / agent payments, and crypto×AI. Posted between ${YESTERDAY} and ${TODAY}, prioritizing the last 6 hours. Reply-worthy = has a take, claim, question, or framing worth engaging — NOT pure self-promo, breaking news without analysis, or threads already past 500 replies. Prefer posts from builders, founders, and researchers. For each: @handle, full tweet text, tweet URL, posted_at ISO timestamp, like/reply/retweet counts."
     # Detect var shape: numeric → X list ID, @-prefixed → handle, anything else → topic
-    if echo "$VAR" | grep -Eq '^[0-9]+$'; then
+    elif echo "$VAR" | grep -Eq '^[0-9]+$'; then
       xai_search "reply-maker.json" \
         "Look at X list https://x.com/i/lists/${VAR}. Return the 12 most reply-worthy original posts (not retweets, not replies) by members of this list posted in the last 6 hours (between ${YESTERDAY} and ${TODAY}). Reply-worthy = has a take, claim, question, or framing worth engaging — NOT pure self-promo, breaking news without analysis, or threads already past 500 replies. For each: @handle, full tweet text, tweet URL, posted_at ISO timestamp, like/reply/retweet counts."
     elif [ "${VAR#@}" != "$VAR" ]; then
@@ -226,6 +232,21 @@ case "$SKILL" in
       else
         echo "::warning::xai-prefetch: vercel-projects response invalid"
       fi
+    fi
+    ;;
+
+  agent-buzz)
+    # Primary candidate fetch for the daily AI-agent buzz read. Engagement counts are
+    # MANDATORY — agent-buzz's signal scoring (likes + 2*retweets + replies) can't run
+    # without per-tweet metrics, and plain web search only surfaces blog roundups. The
+    # auth-POST curl is blocked in the sandbox, so we fetch here → .xai-cache/agent-buzz.json.
+    # If a topic var is set, a second topic-scoped call lands in agent-buzz-topic.json; the
+    # in-sandbox skill merges both. Prompt schema mirrors skills/agent-buzz/SKILL.md step 1.
+    xai_search "agent-buzz.json" \
+      "Search X from ${YESTERDAY} to ${TODAY} for tweets in the AI-agents conversation: autonomous agents, agent frameworks, MCP / agent protocols, agent products, agent benchmarks, agent research papers. Return up to 40 candidates. For EACH candidate you MUST return: @handle, follower_count (integer or null), role_guess (builder|founder|researcher|investor|commentator|anon), one-line claim (what they actually said — not a paraphrase, the thesis), likes (int), retweets (int), replies (int), posted_at (ISO), direct_link (https://x.com/username/status/ID). Prefer builders/founders/researchers. Skip obvious engagement-farming threads (\"RT if you agree\", reply-guy pileons, giveaways)." || true
+    if [ -n "$VAR" ]; then
+      xai_search "agent-buzz-topic.json" \
+        "Search X from ${YESTERDAY} to ${TODAY} for tweets in the AI-agents conversation specifically about: ${VAR}. Return up to 40 candidates. For EACH candidate you MUST return: @handle, follower_count (integer or null), role_guess (builder|founder|researcher|investor|commentator|anon), one-line claim (what they actually said — not a paraphrase, the thesis), likes (int), retweets (int), replies (int), posted_at (ISO), direct_link (https://x.com/username/status/ID). Prefer builders/founders/researchers. Skip obvious engagement-farming threads (\"RT if you agree\", reply-guy pileons, giveaways)." || true
     fi
     ;;
 

@@ -25,8 +25,17 @@ FROM_DATE=$(date -u -d "1 day ago" +%Y-%m-%d 2>/dev/null || date -u -v-1d +%Y-%m
 TO_DATE=$(date -u +%Y-%m-%d)
 ```
 
-Issue one primary x_search call. The response for each tweet **must include** explicit engagement counts (likes, retweets, replies) and follower count if visible — without these numbers the signal scoring in step 3 cannot run.
+X data is fetched **outside the sandbox** by `scripts/prefetch-xai.sh` (the `agent-buzz` case) and cached to `.xai-cache/` before this skill runs — same pattern as product-pulse. The auth-POST curl is blocked inside the sandbox, so the cache is the primary source. Each candidate **must include** explicit engagement counts (likes, retweets, replies) and follower_count if visible — without these numbers the signal scoring in step 3 cannot run.
 
+Resolve the source in this order; stop at the first that yields candidates with metrics, and record which one succeeded for the output footer.
+
+**Path A — prefetch cache (preferred).** Read `.xai-cache/agent-buzz.json` and pull the model text:
+```bash
+jq -r '.output[]|select(.type=="message")|.content[]|select(.type=="output_text")|.text' .xai-cache/agent-buzz.json
+```
+If `${var}` is set, also read `.xai-cache/agent-buzz-topic.json` the same way and merge the two candidate lists. Source label: `xai-prefetch`.
+
+**Path B — direct curl to X.AI** (only if the cache is missing/empty AND `XAI_API_KEY` is set). The sandbox usually blocks this auth-POST — attempt it, don't count on it:
 ```bash
 curl -s -X POST "https://api.x.ai/v1/responses" \
   -H "Content-Type: application/json" \
@@ -37,15 +46,11 @@ curl -s -X POST "https://api.x.ai/v1/responses" \
     "tools": [{"type": "x_search", "from_date": "'"$FROM_DATE"'", "to_date": "'"$TO_DATE"'"}]
   }'
 ```
+If `${var}` is set, also issue a second call constrained to that topic with the same return schema; merge results. Source label: `xai`.
 
-If `${var}` is set, also issue a second call constrained to that topic with the same return schema; merge results.
+**Path C — WebFetch** the same X.AI endpoint (bypasses sandbox env-var blocking for some requests). Source label: `webfetch`.
 
-**Fallback chain** (fire in order, stop at first success):
-1. curl to X.AI as above.
-2. WebFetch the same X.AI endpoint (bypasses sandbox env-var blocking for some requests).
-3. WebSearch with a forced-fresh query: `"AI agents twitter today ${today}"` — discard anything >48h old, expect degraded metadata.
-
-Record which source succeeded — you will print it in the output footer.
+**Path D — WebSearch** forced-fresh: `"AI agents twitter today ${today}"` — discard anything >48h old, expect degraded metadata (often no per-tweet counts → most candidates die at step 3). Source label: `websearch`.
 
 ### 2. Skip-gates (before clustering)
 
@@ -106,7 +111,7 @@ _<conversation-shape one-liner>_
 • @handle — <insight>
   <link>
 
-<!-- _src: xai|webfetch|websearch · candidates: N → kept: M_ -->
+<!-- _src: xai-prefetch|xai|webfetch|websearch · candidates: N → kept: M_ -->
 ```
 
 Keep the footer on the message — it's a single line, and it's how future self-audits debug empty days.
@@ -121,13 +126,13 @@ Append to `memory/logs/${today}.md` under `### agent-buzz`:
 **Status codes** (log exactly one):
 - `AGENT_BUZZ_OK` — notification sent with ≥1 cluster.
 - `AGENT_BUZZ_EMPTY` — fetch succeeded but nothing survived skip-gates. Send a short notify: `Agent Buzz — ${today}: quiet day, no survivors.` Do not fabricate.
-- `AGENT_BUZZ_ERROR` — all three sources in the fallback chain failed. Notify: `Agent Buzz — ${today}: all sources failed (${error summary}).` Log the specific failure per source.
+- `AGENT_BUZZ_ERROR` — every source failed: prefetch cache empty/missing AND the direct/WebFetch/WebSearch fallbacks all failed. Notify: `Agent Buzz — ${today}: all sources failed (${error summary}).` Log the specific failure per source (note whether `.xai-cache/agent-buzz.json` was present).
 
 Never pad the output to hit 10 tweets. 6 good > 10 mid.
 
 ## Sandbox note
 
-The sandbox may block outbound curl. Use **WebFetch** as a fallback for any URL fetch. For auth-required APIs, use the pre-fetch/post-process pattern (see CLAUDE.md). The three-step fallback chain in step 1 is the applied version of this.
+The sandbox blocks the auth-POST curl to X.AI (env-var bearer header isn't runnable; WebFetch can't do an authenticated POST → 405). So X data is fetched **outside the sandbox** by `scripts/prefetch-xai.sh` (the `agent-buzz` case) before Claude starts, landing in `.xai-cache/agent-buzz.json` — same pre-fetch pattern as product-pulse (see CLAUDE.md). Path A reads that cache. Paths B–D (direct curl → WebFetch → WebSearch) are the degraded fallbacks for when the cache is absent (e.g. a manual local run with no prefetch).
 
 ## Environment Variables Required
-- `XAI_API_KEY` — X.AI API key for Grok x_search. If unset, the chain starts at step 2 (WebSearch).
+- `XAI_API_KEY` — X.AI API key for Grok x_search. Consumed by `scripts/prefetch-xai.sh` to populate `.xai-cache/agent-buzz.json` before the run (and by Path B's in-sandbox curl). If unset, no cache is written and the skill falls through to WebFetch/WebSearch (degraded — usually no per-tweet metrics).

@@ -36,7 +36,7 @@ For every candidate, capture: `@handle`, full tweet text, tweet URL, `posted_at`
 jq -r '.output[] | select(.type == "message") | .content[] | select(.type == "output_text") | .text' .xai-cache/reply-maker.json
 ```
 
-If parsing yields candidates, use them. The prefetch script already shapes the request based on `${var}` (numeric list ID, `@handle`, or topic) — see "Strategy depends on `${var}`" below for the contract it implements.
+If parsing yields candidates, use them. The prefetch script shapes the request based on `${var}` (numeric list ID, `@handle`, topic, or — when empty — a default search across the war-room's core interest space: AI agents, agent frameworks, MCP/protocols, multi-agent simulation, x402, crypto×AI). So the cache is populated on **every** run, scheduled or manual, even with no var — see "Strategy depends on `${var}`" below for the contract it implements.
 
 **Path B — direct curl:** Skipped. The sandbox blocks env-var-authenticated curl; do not attempt at runtime.
 
