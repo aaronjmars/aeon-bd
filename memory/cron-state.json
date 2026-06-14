@@ -20,7 +20,7 @@
     "last_quality_score": 4
   },
   "product-pulse": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-06-13T07:59:24Z",
     "total_runs": 6,
     "total_successes": 6,
@@ -28,10 +28,10 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4,
-    "last_dispatch": "2026-06-13T07:56:16Z"
+    "last_dispatch": "2026-06-14T08:27:40Z"
   },
   "war-room": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-06-13T07:59:33Z",
     "total_runs": 4,
     "total_successes": 4,
@@ -39,7 +39,7 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4,
-    "last_dispatch": "2026-06-13T07:56:16Z"
+    "last_dispatch": "2026-06-14T08:27:40Z"
   },
   "fetch-tweets": {
     "last_dispatch": "2026-06-13T17:20:59Z",
@@ -86,7 +86,7 @@
     "last_quality_score": 4
   },
   "bd-radar": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-06-13T08:04:25Z",
     "total_runs": 5,
     "total_successes": 5,
@@ -94,11 +94,11 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 5,
-    "last_dispatch": "2026-06-13T07:56:16Z"
+    "last_dispatch": "2026-06-14T08:27:40Z"
   },
   "heartbeat": {
-    "last_dispatch": "2026-06-13T20:01:43Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-14T08:27:40Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-13T20:04:09Z",
     "total_runs": 7,
     "total_successes": 7,
@@ -107,8 +107,8 @@
     "success_rate": 1
   },
   "mention-radar": {
-    "last_dispatch": "2026-06-12T08:25:27Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-14T08:27:40Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-12T08:30:00Z",
     "total_runs": 1,
     "total_successes": 1,
