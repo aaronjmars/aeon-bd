@@ -1,0 +1,129 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Agent Buzz — 2026-06-14"
+      },
+      "children": [
+        "intro",
+        "section1",
+        "sep1",
+        "section2",
+        "footer"
+      ]
+    },
+    "intro": {
+      "type": "Text",
+      "props": {
+        "text": "Loud day for token-flavored \"agent economy\" promo. The real signal was quieter: agents getting payment rails, plus the access-control and framework plumbing underneath.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "section1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "item1",
+        "item2"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "agents get wallets — and a gatekeeper problem",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "x402 + a Coinbase-sign-in MCP (no API keys) so an agent buys its own data and services to inform trades",
+        "href": "https://x.com/milkroaddaily/status/2065946821856543053",
+        "source": "@milkroaddaily"
+      },
+      "children": []
+    },
+    "item2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "proposes a least-privilege \"agent gateway\" mediating how agents reach infra; the control layer the commerce hype skips",
+        "href": "https://x.com/InfoQ/status/2065942062780870880",
+        "source": "@InfoQ"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading2",
+        "item3",
+        "item4",
+        "item5"
+      ]
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "frameworks closing the research→artifact loop",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "claims a working chain from agent research → coding → paper; frames requirement-to-product as the new unit",
+        "href": "https://x.com/zhongxingyuyes/status/2065830993500488167",
+        "source": "@zhongxingyuyes",
+        "score": "103 likes"
+      },
+      "children": []
+    },
+    "item4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OpenTau roadmap bets on agent-framework plugins and an open stack against closed, vertically-integrated agents",
+        "href": "https://x.com/opentau_ai/status/2065892824780861555",
+        "source": "@opentau_ai"
+      },
+      "children": []
+    },
+    "item5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "build-in-public: a LangGraph planner fans one topic into parallel research agents — the multi-agent pattern going mainstream",
+        "href": "https://x.com/SinghNecoder/status/2065836228193493167",
+        "source": "@SinghNecoder"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "_src: xai-prefetch · candidates: 18 → kept: 5",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
