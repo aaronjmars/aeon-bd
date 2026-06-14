@@ -385,10 +385,10 @@ skills:
   polymarket: { enabled: false, schedule: "45 12 * * *", model: "claude-sonnet-4-6" } # trending/top Polymarket markets globally — complement to monitor-polymarket
   wallet-digest: { enabled: false, schedule: "30 12 * * *" } # balances-only activity summary across tracked wallets; sibling to onchain-monitor
   pm-pulse: { enabled: true, schedule: "0 11 * * 5", model: "claude-sonnet-4-6" } # Monday — prediction/coordination-market volume, new mechanisms, regulatory moves
-  pm-intel: { enabled: true, schedule: "0 10 * * 0", model: "claude-sonnet-4-6" } # Monday — competitive intel on the prediction-market ecosystem
+  pm-intel: { enabled: false, schedule: "0 10 * * 0", model: "claude-sonnet-4-6" } # Monday — competitive intel on the prediction-market ecosystem
   pm-manipulation: { enabled: false, schedule: "15 13 * * *", model: "claude-sonnet-4-6" } # daily — flag suspected PM manipulation from 3-day price/volume/comment + local-press anomalies
   rwa-pulse: { enabled: false, schedule: "0 12 * * 1", model: "claude-sonnet-4-6" } # Monday — RWA tokenization momentum: launches, TVL, institutional adoption, regulation
-  compute-pulse: { enabled: true, schedule: "0 11 * * 6", model: "claude-sonnet-4-6" } # Saturday — AI compute market: GPU/hardware deals, inference pricing, decentralized-compute tokens
+  compute-pulse: { enabled: false, schedule: "0 11 * * 6", model: "claude-sonnet-4-6" } # Saturday — AI compute market: GPU/hardware deals, inference pricing, decentralized-compute tokens
   x402-monitor:
     {
       enabled: true,
@@ -399,7 +399,7 @@ skills:
   mcp-pulse: { enabled: true, schedule: "0 13 * * 4", model: "claude-sonnet-4-6" } # Friday 10:00 UTC — MCP ecosystem tracker: new servers, npm/GitHub adoption velocity, protocol evolution, thesis check. Pairs with x402-monitor for full agent-infra coverage (tool-calls + payments).
 
   # Research & content
-  agent-displacement: { enabled: true, schedule: "0 15 * * 6", model: "claude-sonnet-4-6" } # Sunday — AI-agent headcount-displacement signals (named roles + real deployments)
+  agent-displacement: { enabled: false, schedule: "0 15 * * 6", model: "claude-sonnet-4-6" } # Sunday — AI-agent headcount-displacement signals (named roles + real deployments)
   launch-radar: { enabled: true, schedule: "0 16 * * 0", model: "claude-sonnet-4-6" } # Monday — scan PH/HN/GitHub Trending for launches matching the startup-idea backlog
   topic-momentum: { enabled: false, schedule: "30 6 * * 1", model: "claude-sonnet-4-6" } # Monday — content-gap scan: top 3 uncovered angles vs recent article history
   narrative-convergence:
