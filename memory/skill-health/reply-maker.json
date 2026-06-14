@@ -1,13 +1,10 @@
 {
   "skill": "reply-maker",
-  "last_analyzed": "2026-06-13T17:24:33Z",
-  "quality_score": 2,
-  "assessment": "Skill executed cleanly but produced empty output; recurring pattern on 06-11, 06-12, 06-13 reveals configuration gap blocking primary path (no var/prefetch entry).",
-  "flags": [
-    "empty_output",
-    "low_quality"
-  ],
-  "avg_score": 3,
+  "last_analyzed": "2026-06-14T17:44:41Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-structured output with 10 draft replies ready to use; transparently surfaced recency limitation rather than hiding it.",
+  "flags": [],
+  "avg_score": 3.25,
   "history": [
     {
       "date": "2026-06-11",
@@ -20,6 +17,10 @@
     {
       "date": "2026-06-13",
       "score": 2
+    },
+    {
+      "date": "2026-06-14",
+      "score": 4
     }
   ]
 }
