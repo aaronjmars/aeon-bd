@@ -1,27 +1,23 @@
-Done. Quiet day — ran the full pulse, nothing red.
+Pushed. Run complete.
 
 ## Summary
 
-**product-pulse** for 2026-06-13 — the daily state-of-both-products read that `war-room` consumes.
+Ran `product-pulse` for **2026-06-14** — the daily state-of-both-products read.
 
-**What I did**
-- Pulled public GitHub health (`gh api`) for all 6 watched public repos + 24h CI for both automation repos.
-- Read private-repo health from the `GH_READ_PAT` prefetch cache (4 repos in scope, all visible).
-- Read X follower/post counts from the xAI prefetch cache (`product-pulse-x.json`).
-- Computed Δ1d (vs 06-12) and Δ-since-06-11 deltas, checked all 5 notable triggers.
+**Data gathered:**
+- GitHub health for all 6 public repos via `gh api` + 4 private repos from the `GH_READ_PAT` prefetch cache.
+- X followers from the xAI prefetch cache (`@aeonframework` 151,767 · `@miroshark_` 2,071).
 
-**Numbers**
-- **Aeon ⭐:** 510 stars (Δ1d +3) · 2 issues · 1 PR · soul-aaronjmars 9→10. @aeonframework 151,778 (−37, noise band).
-- **Miroshark 🦈:** 1,267 stars (Δ1d +4, **+10 since 06-11** — only real momentum) · 0 issues/PRs. @miroshark_ 2,070 (−2).
-- **CI:** aeon-agent 36✅/0❌, miroshark-aeon 35✅/0❌ — both green.
-- Posts returned `unknown` from xAI → rendered N/A (per skill spec).
+**Result: 0 notables — quiet, healthy day.**
+- 🟢 CI green on both automation repos (aeon-agent + miroshark-aeon, 40/40 runs, 0 failures).
+- ⭐ aeon 512 (Δ1d +2), 🦈 MiroShark 1,270 (Δ1d +3) — MiroShark climbing faster (+13 over 3d vs +4) but under the +25/7d momentum bar.
+- No release tags, no milestones crossed, no stall (>14d) yet.
+- Minor: PR counts ticked up (aeon→2, MiroShark→2, minitor→1); miroshark-website at 9d since last push — watch toward the 14d line.
+- *Note:* history only reaches 2026-06-11, so Δ7d figures are a 3-day proxy until the window fills out.
 
-**Notables: 0.** No new release, no CI red, no milestone crossed, no stall → **no self-notify** (correct under quiet-by-default gating).
+**Files written & committed/pushed to main:**
+- `articles/product-pulse-2026-06-14.md` — the digest (consumed by `war-room`)
+- `memory/topics/product-pulse-state.json` — today's snapshot appended, history at 4 entries
+- `memory/logs/2026-06-14.md` — `### product-pulse` log block
 
-**Files**
-- `articles/product-pulse-2026-06-13.md` (digest)
-- `memory/topics/product-pulse-state.json` (snapshot + history appended, 3 entries)
-- `memory/logs/2026-06-13.md` (log block)
-- Committed to `main` (462e4cb).
-
-**Follow-up:** none required. Δ7d is still being computed against the 06-11 snapshot — a true 7-day baseline accrues over the next few days as history fills.
+**No notification sent** — per skill gating, self-notify only fires on a red-flag notable (CI red or >14d stall). None fired, so the committed digest + state are the output. **No follow-up needed.**
