@@ -182,5 +182,9 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4
+  },
+  "sim-watch": {
+    "last_dispatch": "2026-06-14T13:02:33Z",
+    "last_status": "dispatched"
   }
 }
