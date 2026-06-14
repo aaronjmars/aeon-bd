@@ -1,0 +1,26 @@
+{
+  "seen": [
+    "repo:GoogleCloudPlatform/race-condition",
+    "repo:sandbox-social/silisocs",
+    "repo:101dotxyz/GPTeam",
+    "repo:joonspk-research/generative_agents",
+    "repo:XIAOCUICUII/koc-growth-agent",
+    "repo:swarm-ai-research/MiroShark",
+    "repo:wshuyi/crucible-sim",
+    "repo:AntFleet/miroshark-bench",
+    "url:drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+    "arxiv:2606.13670",
+    "arxiv:2606.13672",
+    "arxiv:2606.13674",
+    "arxiv:2606.13673"
+  ],
+  "cohort": [
+    "GoogleCloudPlatform/race-condition",
+    "sandbox-social/silisocs",
+    "101dotxyz/GPTeam",
+    "joonspk-research/generative_agents",
+    "wshuyi/crucible-sim",
+    "AntFleet/miroshark-bench",
+    "XIAOCUICUII/koc-growth-agent"
+  ]
+}
