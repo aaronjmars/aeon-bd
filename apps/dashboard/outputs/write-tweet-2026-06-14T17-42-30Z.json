@@ -1,0 +1,257 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "write-tweet",
+        "description": "Aeon's ecosystem economy is forming (paid x402 skill + registry + one-install suite, all built on top this week)"
+      },
+      "children": [
+        "heading-drafts",
+        "sep1",
+        "section-oneliner",
+        "sep2",
+        "section-twopunch",
+        "sep3",
+        "section-paragraph",
+        "sep4",
+        "section-longtweet",
+        "sep5",
+        "section-threadopener",
+        "sep6",
+        "section-recommended"
+      ]
+    },
+    "heading-drafts": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet Drafts",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-oneliner": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-oneliner",
+        "tweet-1a",
+        "tweet-1b"
+      ]
+    },
+    "heading-oneliner": {
+      "type": "Heading",
+      "props": {
+        "text": "One-liner",
+        "level": "h3"
+      }
+    },
+    "tweet-1a": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "someone just shipped a paid skill on aeon, billed in x402. forks were the appetizer ⭐"
+      }
+    },
+    "tweet-1b": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "the day strangers start charging money for skills on your framework > the day you hit 500 stars ⭐"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-twopunch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-twopunch",
+        "tweet-2a",
+        "tweet-2b"
+      ]
+    },
+    "heading-twopunch": {
+      "type": "Heading",
+      "props": {
+        "text": "Two-punch",
+        "level": "h3"
+      }
+    },
+    "tweet-2a": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "the tell isn't the star count. it's that someone built a paid pr-review skill on aeon and bills it per-call in x402. the framework grew an economy ⭐"
+      }
+    },
+    "tweet-2b": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "this week on aeon, nobody asked us first: a paid x402 skill, a third-party skill registry, a 10-skill one-install suite. three businesses, none of them ours ⭐"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-paragraph": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-paragraph",
+        "tweet-3a",
+        "tweet-3b"
+      ]
+    },
+    "heading-paragraph": {
+      "type": "Heading",
+      "props": {
+        "text": "Paragraph",
+        "level": "h3"
+      }
+    },
+    "tweet-3a": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "everyone measures a framework by stars. wrong metric. the real one: did someone build a company on top of it without asking. someone just shipped a paid pr-review skill on aeon — two-model consensus, billed per-call in x402 to a usdc channel on base. that's the signal ⭐"
+      }
+    },
+    "tweet-3b": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "watched it happen in real time this week. one builder forked aeon, built websearch support, then opened the features back upstream as a contributor. you don't do that for a repo you're trying out. you do it for infra you're betting on ⭐"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-longtweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-longtweet",
+        "tweet-4a",
+        "tweet-4b"
+      ]
+    },
+    "heading-longtweet": {
+      "type": "Heading",
+      "props": {
+        "text": "Long tweet",
+        "level": "h3"
+      }
+    },
+    "tweet-4a": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "agents as companies stopped being a roadmap slide this week. someone built a pr-review agent on aeon — two-model consensus, \"trust layer for code written by agents\" — and bills you per review in x402, straight to a usdc channel on base. no subscription, no api key handoff, no seat license. the agent does the work, takes the payment, pays for its own inference, lives. everyone kept writing x402 threads. someone finally just shipped it ⭐"
+      }
+    },
+    "tweet-4b": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "a framework's real moat was never the features. it's whether strangers start building things you didn't sanction. this week on aeon: a paid pr-review skill billed in x402, a third-party skill registry, a 10-skill one-install pack that pulls miroshark in. tools get used. platforms grow economies you don't control. that's the moat ⭐"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-threadopener": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-threadopener",
+        "tweet-5a",
+        "tweet-5b"
+      ]
+    },
+    "heading-threadopener": {
+      "type": "Heading",
+      "props": {
+        "text": "Thread opener",
+        "level": "h3"
+      }
+    },
+    "tweet-5a": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "forks are a vanity metric. here's the one that actually matters for a framework — and the 3 things that hit it on aeon this week ⭐"
+      }
+    },
+    "tweet-5b": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "when does an open-source project stop being a repo and start being an economy? think i watched aeon cross that line this week. three signals ⭐"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-recommended": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-recommended",
+        "text-recommended",
+        "tweet-recommended"
+      ]
+    },
+    "heading-recommended": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommended",
+        "level": "h3"
+      }
+    },
+    "text-recommended": {
+      "type": "Text",
+      "props": {
+        "text": "#2a — tightest version of the whole thesis, every fact verifiable, \"the framework grew an economy\" stands alone",
+        "variant": "lead"
+      }
+    },
+    "tweet-recommended": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "text": "the tell isn't the star count. it's that someone built a paid pr-review skill on aeon and bills it per-call in x402. the framework grew an economy ⭐"
+      }
+    }
+  }
+}

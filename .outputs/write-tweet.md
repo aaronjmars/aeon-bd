@@ -1,23 +1,23 @@
-tweet drafts: the compute contradiction — token prices −97% while anthropic pays $5B/yr to rent GPUs. cheap at the bottom, scarce at the top, nobody's trading the gap.
+tweet drafts: aeon's ecosystem economy is forming (paid x402 skill + registry + one-install suite, all built on top this week)
 
 — one-liner —
-1a. anthropic rents $5B/yr in compute while token prices fell 97%. price that contradiction.
-1b. compute is the new electricity. nobody's pricing the arbitrage yet.
+1a. someone just shipped a paid skill on aeon, billed in x402. forks were the appetizer ⭐
+1b. the day strangers start charging money for skills on your framework > the day you hit 500 stars ⭐
 
 — two-punch —
-2a. per-token inference fell 97% since 2022. anthropic still pays $5B/yr to rent xai's GPUs. the model got cheap — the compute didn't.
-2b. everyone's asking who wins the model race. wrong question. compute got commoditized — the trade is who turns idle GPUs into money first.
+2a. the tell isn't the star count. it's that someone built a paid pr-review skill on aeon and bills it per-call in x402. the framework grew an economy ⭐
+2b. this week on aeon, nobody asked us first: a paid x402 skill, a third-party skill registry, a 10-skill one-install suite. three businesses, none of them ours ⭐
 
 — paragraph —
-3a. the numbers that define this market: GPT-4-class inference down 97%+ since 2022. deepseek cut 75% overnight. google slashing consumer plans. and anthropic signs a $5B/yr deal to rent xai compute. mid intelligence is free now. the money moved to the arbitrage.
-3b. bitcoin turned electricity into money. AI turns idle compute into money — and almost nobody's positioned for it. per-token prices collapsed 97%, subsidies aren't ending, mid models are worthless. the play isn't building a model. it's arbitraging the compute underneath.
+3a. everyone measures a framework by stars. wrong metric. the real one: did someone build a company on top of it without asking. someone just shipped a paid pr-review skill on aeon — two-model consensus, billed per-call in x402 to a usdc channel on base. that's the signal ⭐
+3b. watched it happen in real time this week. one builder forked aeon, built websearch support, then opened the features back upstream as a contributor. you don't do that for a repo you're trying out. you do it for infra you're betting on ⭐
 
 — long tweet —
-4a. the contradiction nobody's pricing: per-token inference down 97%+ since 2022. deepseek cut V4-Pro 75% overnight. mid models are effectively free. and yet anthropic just signed a $5B/yr deal to rent 220k GPUs on xai's Colossus. commoditized at the bottom, scarce at the top — at the same time. bitcoin turned electricity into money. this turns idle GPUs into money. ⭐
-4b. reminder while everyone argues about the next model: the model is the cheap part now. GPT-4-class tokens down 97% since 2022, and frontier labs spend $5B/yr renting GPUs they can't get enough of. de-intelligenced at the bottom, compute-starved at the top. the winners won't ship opus 4.9 — they'll realize idle compute is money waiting to be converted.
+4a. agents as companies stopped being a roadmap slide this week. someone built a pr-review agent on aeon — two-model consensus, "trust layer for code written by agents" — and bills you per review in x402, straight to a usdc channel on base. no subscription, no api key handoff, no seat license. the agent does the work, takes the payment, pays for its own inference, lives. everyone kept writing x402 threads. someone finally just shipped it ⭐
+4b. a framework's real moat was never the features. it's whether strangers start building things you didn't sanction. this week on aeon: a paid pr-review skill billed in x402, a third-party skill registry, a 10-skill one-install pack that pulls miroshark in. tools get used. platforms grow economies you don't control. that's the moat ⭐
 
 — thread opener —
-5a. compute got cheap and expensive at the same time — and almost nobody is trading the gap. why idle GPUs are the most mispriced asset in AI:
-5b. what happens when intelligence is nearly free but compute is scarce? you get the strangest arbitrage crypto has ever seen.
+5a. forks are a vanity metric. here's the one that actually matters for a framework — and the 3 things that hit it on aeon this week ⭐
+5b. when does an open-source project stop being a repo and start being an economy? think i watched aeon cross that line this week. three signals ⭐
 
-best: #2a — tightest, both numbers verifiable, the kicker stands alone.
+best: #2a — tightest version of the whole thesis, every fact verifiable, "the framework grew an economy" stands alone
