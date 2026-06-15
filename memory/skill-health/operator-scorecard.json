@@ -1,0 +1,14 @@
+{
+  "skill": "operator-scorecard",
+  "last_analyzed": "2026-06-15T09:46:02Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-reasoned scorecard with clear verdicts, explicit data gaps, and actionable follow-ups; graceful degradation on missing integrations prevents perfect score",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-06-15",
+      "score": 4
+    }
+  ]
+}

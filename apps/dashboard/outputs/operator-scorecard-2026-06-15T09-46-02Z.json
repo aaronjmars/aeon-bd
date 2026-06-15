@@ -1,0 +1,335 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Operator Scorecard — 2026-06-15"
+      },
+      "children": [
+        "alert-status",
+        "sep1",
+        "section-health",
+        "sep2",
+        "section-growth",
+        "sep3",
+        "section-economics",
+        "sep4",
+        "section-worthit",
+        "sep5",
+        "link-full"
+      ]
+    },
+    "alert-status": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 WATCH",
+        "message": "Fleet ran clean all week, +19⭐, but the measurement skills aren't wired yet so 2 lanes can't self-verify.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-health": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-health",
+        "health-stats",
+        "text-health-detail"
+      ]
+    },
+    "heading-health": {
+      "type": "Heading",
+      "props": {
+        "text": "Agent Health",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "health-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-heartbeats",
+        "stat-p0",
+        "stat-p1",
+        "stat-open-issues",
+        "stat-p3"
+      ]
+    },
+    "stat-heartbeats": {
+      "type": "Stat",
+      "props": {
+        "label": "Heartbeats",
+        "value": "10"
+      },
+      "children": []
+    },
+    "stat-p0": {
+      "type": "Stat",
+      "props": {
+        "label": "P0 Issues",
+        "value": "0"
+      },
+      "children": []
+    },
+    "stat-p1": {
+      "type": "Stat",
+      "props": {
+        "label": "P1 Issues",
+        "value": "0"
+      },
+      "children": []
+    },
+    "stat-open-issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open Issues",
+        "value": "0"
+      },
+      "children": []
+    },
+    "stat-p3": {
+      "type": "Stat",
+      "props": {
+        "label": "Recurring P3",
+        "value": "1"
+      },
+      "children": []
+    },
+    "text-health-detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "health-detail-p3",
+        "health-detail-analytics"
+      ]
+    },
+    "health-detail-p3": {
+      "type": "Text",
+      "props": {
+        "text": "War-room cron race (fix proposed).",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "health-detail-analytics": {
+      "type": "Text",
+      "props": {
+        "text": "No skill-analytics article → pass-rate unmeasured.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-growth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-growth",
+        "stat-stars",
+        "text-growth-detail"
+      ]
+    },
+    "heading-growth": {
+      "type": "Heading",
+      "props": {
+        "text": "Community Growth",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars (7d)",
+        "value": "+19"
+      },
+      "children": []
+    },
+    "text-growth-detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "growth-breakdown",
+        "growth-target",
+        "growth-signals"
+      ]
+    },
+    "growth-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "MiroShark +15, aeon +3, soul +1",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "growth-target": {
+      "type": "Text",
+      "props": {
+        "text": "One short of the +20 OK line.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "growth-signals": {
+      "type": "Text",
+      "props": {
+        "text": "Real pull underneath: VIGIL merged its MCP into aeon, AntFleet filing issues, integration fleet warming.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-economics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-economics",
+        "text-economics-detail"
+      ]
+    },
+    "heading-economics": {
+      "type": "Heading",
+      "props": {
+        "text": "Economic Activity",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-economics-detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "econ-unmeasured",
+        "econ-signal"
+      ]
+    },
+    "econ-unmeasured": {
+      "type": "Text",
+      "props": {
+        "text": "No tweet-allocator / token-report / distribute-tokens in this instance → unmeasured.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "econ-signal": {
+      "type": "Text",
+      "props": {
+        "text": "Only signal: narrative ($AEON-vs-Polsia repricing thesis).",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-worthit": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-worthit",
+        "text-worthit-detail"
+      ]
+    },
+    "heading-worthit": {
+      "type": "Heading",
+      "props": {
+        "text": "Worth-it Read",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-worthit-detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "worthit-summary",
+        "worthit-wire"
+      ]
+    },
+    "worthit-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Yes on health + growth, blind on economics.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "worthit-wire": {
+      "type": "Text",
+      "props": {
+        "text": "Wire skill-analytics + token-report if you want this fully self-scoring.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-full": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Operator Scorecard Report",
+        "href": "articles/operator-scorecard-2026-06-15.md",
+        "source": "Aeon"
+      },
+      "children": []
+    }
+  }
+}

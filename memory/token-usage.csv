@@ -37,4 +37,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-14,reply-maker,claude-opus-4-8,2386,18031,1188065,42733
 2026-06-14,heartbeat,claude-opus-4-8,2092,8860,327653,54672
 2026-06-15,bd-radar,claude-opus-4-8,3474,21228,1879396,201847
-2026-06-15,engagement-act,claude-opus-4-8,2248,12112,836378,48694
+2026-06-15,operator-scorecard,claude-opus-4-8,2376,17643,1036357,49680
