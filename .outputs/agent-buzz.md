@@ -1,18 +1,22 @@
-*Agent Buzz — 2026-06-14*
-_Loud day for token-flavored "agent economy" promo. The real signal was quieter: agents getting payment rails, plus the access-control and framework plumbing underneath._
+*Agent Buzz — 2026-06-15*
+_quiet builder day — no launches, no drama. the conversation was mcp governance: a 0-day scan, an auth gap, and fresh doubt that more agents ship more._
 
-**agents get wallets — and a gatekeeper problem**
-• @milkroaddaily — x402 + a Coinbase-sign-in MCP (no API keys) so an agent buys its own data and services to inform trades
-  https://x.com/milkroaddaily/status/2065946821856543053
-• @InfoQ — proposes a least-privilege "agent gateway" mediating how agents reach infra; the control layer the commerce hype skips
-  https://x.com/InfoQ/status/2065942062780870880
+**mcp's security bill comes due**
+• @TheUpsiderAI — VIPER-MCP scan flags 106 confirmed 0-days across 39,884 mcp server repos; pushes scoped authority + signed tool calls
+  https://x.com/TheUpsiderAI/status/2066242081236906125
+• @nullhypeai — frames agent security as an enterprise asset-inventory problem; calls the Fable 5 shutdown the same pattern at national scale
+  https://x.com/nullhypeai/status/2066245036207960183
 
-**frameworks closing the research→artifact loop**
-• @zhongxingyuyes — claims a working chain from agent research → coding → paper; frames requirement-to-product as the new unit (103 likes)
-  https://x.com/zhongxingyuyes/status/2065830993500488167
-• @opentau_ai — OpenTau roadmap bets on agent-framework plugins and an open stack against closed, vertically-integrated agents
-  https://x.com/opentau_ai/status/2065892824780861555
-• @SinghNecoder — build-in-public: a LangGraph planner fans one topic into parallel research agents — the multi-agent pattern going mainstream
-  https://x.com/SinghNecoder/status/2065836228193493167
+**more agents, less shipped**
+• @theagenticorg — five mcp-linked agents coordinated flawlessly and shipped nothing; argues collaboration overhead, not capability, is the bottleneck
+  https://x.com/theagenticorg/status/2066279732715663441
+• @avimahajan08 — maps the protocol split agents actually use: MCP for model↔tools, A2A for agent↔agent, SLIM for secure messaging
+  https://x.com/avimahajan08/status/2066257582168440916
 
-<!-- _src: xai-prefetch · candidates: 18 → kept: 5_ -->
+**the working agent stack, in practice**
+• @xpurojekuto — few actually automate work with Codex; names the five primitives — AGENTS.md, slash commands, sub-agents, Automations, mcp servers
+  https://x.com/xpurojekuto/status/2066264420003581958
+• @sota_sline — runs Claude Code, mcp, Skills, sub-agents in live sales/social ops; argues more delegation sharpens the human decision boundary
+  https://x.com/sota_sline/status/2066287082251981025
+
+<!-- _src: xai-prefetch · candidates: 12 → kept: 6_ -->

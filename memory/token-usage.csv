@@ -40,4 +40,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-15,operator-scorecard,claude-opus-4-8,2376,17643,1036357,49680
 2026-06-15,shiplog,claude-opus-4-8,2406,17983,1800620,49564
 2026-06-15,heartbeat,claude-opus-4-8,2233,11176,624776,52192
-2026-06-15,write-tweet,claude-opus-4-8,2104,8518,520164,31890
+2026-06-15,agent-buzz,claude-opus-4-8,2253,13127,925725,33250

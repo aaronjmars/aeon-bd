@@ -1,0 +1,155 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Agent Buzz",
+        "description": "quiet builder day — no launches, no drama. the conversation was mcp governance: a 0-day scan, an auth gap, and fresh doubt that more agents ship more."
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-1",
+        "stack-section-1",
+        "separator-1",
+        "heading-2",
+        "stack-section-2",
+        "separator-2",
+        "heading-3",
+        "stack-section-3",
+        "footer-text"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "mcp's security bill comes due",
+        "level": "h2"
+      }
+    },
+    "stack-section-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-1",
+        "link-2"
+      ]
+    },
+    "link-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@TheUpsiderAI — VIPER-MCP scan flags 106 confirmed 0-days across 39,884 mcp server repos; pushes scoped authority + signed tool calls",
+        "href": "https://x.com/TheUpsiderAI/status/2066242081236906125",
+        "source": "X"
+      }
+    },
+    "link-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@nullhypeai — frames agent security as an enterprise asset-inventory problem; calls the Fable 5 shutdown the same pattern at national scale",
+        "href": "https://x.com/nullhypeai/status/2066245036207960183",
+        "source": "X"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "more agents, less shipped",
+        "level": "h2"
+      }
+    },
+    "stack-section-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-3",
+        "link-4"
+      ]
+    },
+    "link-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@theagenticorg — five mcp-linked agents coordinated flawlessly and shipped nothing; argues collaboration overhead, not capability, is the bottleneck",
+        "href": "https://x.com/theagenticorg/status/2066279732715663441",
+        "source": "X"
+      }
+    },
+    "link-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@avimahajan08 — maps the protocol split agents actually use: MCP for model↔tools, A2A for agent↔agent, SLIM for secure messaging",
+        "href": "https://x.com/avimahajan08/status/2066257582168440916",
+        "source": "X"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-3": {
+      "type": "Heading",
+      "props": {
+        "text": "the working agent stack, in practice",
+        "level": "h2"
+      }
+    },
+    "stack-section-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-5",
+        "link-6"
+      ]
+    },
+    "link-5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@xpurojekuto — few actually automate work with Codex; names the five primitives — AGENTS.md, slash commands, sub-agents, Automations, mcp servers",
+        "href": "https://x.com/xpurojekuto/status/2066264420003581958",
+        "source": "X"
+      }
+    },
+    "link-6": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@sota_sline — runs Claude Code, mcp, Skills, sub-agents in live sales/social ops; argues more delegation sharpens the human decision boundary",
+        "href": "https://x.com/sota_sline/status/2066287082251981025",
+        "source": "X"
+      }
+    },
+    "footer-text": {
+      "type": "Text",
+      "props": {
+        "text": "src: xai-prefetch · candidates: 12 → kept: 6",
+        "variant": "caption"
+      }
+    }
+  }
+}
