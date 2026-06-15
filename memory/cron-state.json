@@ -97,8 +97,8 @@
     "last_dispatch": "2026-06-15T07:30:44Z"
   },
   "heartbeat": {
-    "last_dispatch": "2026-06-15T09:40:51Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-15T15:42:01Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-15T09:44:15Z",
     "total_runs": 11,
     "total_successes": 11,
