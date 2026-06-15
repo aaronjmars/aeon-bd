@@ -1,10 +1,10 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-14T09:49:22Z",
-  "quality_score": 3,
-  "assessment": "Skill executed successfully with structured process (read→filter→draft→send) and confirmed delivery, but truncated output prevents verification of core deliverables (5 drafted responses) and voice matching.",
+  "last_analyzed": "2026-06-15T09:44:42Z",
+  "quality_score": 4,
+  "assessment": "Substantive output: scanned 7 days, deduped against prior runs, ranked 5 fresh opportunities (0-1d old) with sourced metrics, drafted in voice, handled sandbox constraint properly by staging to .pending-notify/",
   "flags": [],
-  "avg_score": 3.67,
+  "avg_score": 3.75,
   "history": [
     {
       "date": "2026-06-12",
@@ -17,6 +17,10 @@
     {
       "date": "2026-06-14",
       "score": 3
+    },
+    {
+      "date": "2026-06-15",
+      "score": 4
     }
   ]
 }

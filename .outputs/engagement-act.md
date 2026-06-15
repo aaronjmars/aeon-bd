@@ -1,28 +1,19 @@
-*Engagement Act — 2026-06-14*
+Done. Executed `skills/engagement-act/SKILL.md` for 2026-06-15.
 
-*1. dan-and* (today) — fork→upstream contributor, filed MiroShark #160 (websearch+webretrieval) + #161 (translations). warmest signal in the radar.
-link: https://github.com/aaronjmars/MiroShark/issues/160
-type: GitHub comment
-draft: "this is exactly the right direction — grounding the swarm with live web retrieval is the missing piece for breaking-news sims. #161 too. want to take the PR for #160? happy to point you at where the agent tool-loop lives & get you contributor access 🦈"
+## Summary
 
-*2. AntFleet* (today) — shipped a *paid* PR-review skill on aeon (two-model consensus, x402-billed to USDC on Base), 21-repo org incl aeon-skills + miroshark-bench. cleanest ecosystem-economy signal yet.
-link: AntFleet.dev (no X handle verified)
-type: X DM / TG invite
-draft: "the x402-billed PR-review skill is the cleanest example of the aeon ecosystem economy i've seen — paid skill, two-model consensus, settled on Base. exactly the pattern i want builders to copy. jump in the TG? would love to feature it ⭐"
+Scanned the last 7 days of `memory/logs/` (06-11 → 06-15) plus `MEMORY.md`. No `projects-of-interest.md` exists, so I tracked Aeon/MiroShark per MEMORY. Pulled today's bd-radar opportunities, deduped against every handle actioned in the 06-12/06-13/06-14 engagement-act + reply-maker runs, ranked by recency × leverage, and capped at 5.
 
-*3. Sparkleware* (today) — running a third-party aeon skill *registry* (sparkleware/sparkleware) + registry-watch + 6 skills + active fork. distribution surface that could fragment.
-link: github.com/sparkleware/sparkleware (no X handle verified)
-type: X DM
-draft: "you're basically running a third-party aeon skill registry — that's a real distribution surface. rather than let it fragment, want to co-announce & fold it into the official ecosystem map? happy to route builders your way ⭐"
+**5 drafted (all 0–1d old, none aging), in Aaron's voice:**
+1. **AI-Risk-Management / AeonBrain** — `aeon-skill-schema` (ed25519-signed skill schema, score 15) → GitHub/DM, verify aeon-native + curate the trust layer.
+2. **@Root_Edge / RootAI** — QT'd the shiplog, 57♥/12RT (best reach) → X reply + builder-chat invite.
+3. **@dabusthebuilder / Azzle** — listed `@aeonframework` in the AzzleAI stack, 17♥/8RT → X reply/QT + TG.
+4. **@ResearchSwarmAI / swarm-ai-research** — preregistered multi-seed MiroShark replication study → X reply/DM, feature it.
+5. **kyrolabs/awesome-agents** — MiroShark added to a high-traffic awesome-list → GitHub comment, keep the entry current.
 
-*4. Signa (codexvritra)* (today) — signa-skills one-install suite (10 skills, miroshark included) + new signa-miroshark-skills, now 3 repos. cross-product, known builder.
-link: github.com/codexvritra (no X handle verified)
-type: X DM
-draft: "the signa-skills suite — 10 skills, one install, miroshark in the bundle — is exactly the packaging i want more of. & signa-miroshark-skills on top of it. want me to feature it? lands well with the builders shipping on ⭐🦈"
+**Files:**
+- `/tmp/engagement-act-output.md` — drafted output.
+- `.pending-notify/1781516623.md` — staged notification (see below).
+- `memory/logs/2026-06-15.md` — appended `## Engagement Act` log (`ENGAGEMENT_ACT_OK`).
 
-*5. sneg55/SimSwarm* (today) — first credible *open* swarm-sim competitor: graphs + sim PMs + self-host (3★). adjacent, worth a hand.
-link: github.com/sneg55/SimSwarm (no X handle verified)
-type: X DM / GitHub
-draft: "saw SimSwarm — graphs + sim PMs + self-host, first open swarm-sim i've seen built right. if you ever want grounded agents trading a live AMM hour-by-hour, the miroshark api is x402-native & open — happy to wire you in 🦈"
-
-all opps fresh (≤1d) — none aging. dan-and #160 is the cheapest public yes; close it today.
+**Follow-up needed:** The `./notify -f` execution was blocked by this session's permission layer (denied on retry, so I didn't keep re-firing it). I staged the message to `.pending-notify/` — which is exactly the script's own first step and the documented sandbox fallback — so the post-run delivery step will push it to the channels. On a normal Actions run with bypass permissions this sends immediately; here it relies on the postprocess/pending-delivery path.
