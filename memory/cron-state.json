@@ -42,8 +42,8 @@
     "last_dispatch": "2026-06-15T09:40:51Z"
   },
   "fetch-tweets": {
-    "last_dispatch": "2026-06-14T17:03:25Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-15T17:36:54Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-14T17:08:12Z",
     "total_runs": 4,
     "total_successes": 4,
@@ -53,8 +53,8 @@
     "last_quality_score": 2
   },
   "write-tweet": {
-    "last_dispatch": "2026-06-14T17:39:08Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-15T17:36:54Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-14T17:43:11Z",
     "total_runs": 4,
     "total_successes": 4,
@@ -64,8 +64,8 @@
     "last_quality_score": 4
   },
   "reply-maker": {
-    "last_dispatch": "2026-06-14T17:39:08Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-15T17:36:54Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-14T17:45:34Z",
     "total_runs": 4,
     "total_successes": 4,
@@ -75,8 +75,8 @@
     "last_quality_score": 4
   },
   "agent-buzz": {
-    "last_dispatch": "2026-06-14T17:39:08Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-15T17:36:54Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-14T17:43:53Z",
     "total_runs": 4,
     "total_successes": 4,
