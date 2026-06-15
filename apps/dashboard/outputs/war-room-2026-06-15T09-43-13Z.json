@@ -1,0 +1,336 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-06-15"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_section",
+        "sep1",
+        "metrics_section",
+        "sep2",
+        "talk_section",
+        "sep3",
+        "decide_section",
+        "sep4",
+        "sources_section"
+      ]
+    },
+    "status_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status_heading",
+        "status_ci",
+        "status_badges"
+      ]
+    },
+    "status_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Status",
+        "level": "h3"
+      }
+    },
+    "status_ci": {
+      "type": "Text",
+      "props": {
+        "text": "CI 40✓/0✗ each, no releases, no stalls",
+        "variant": "body"
+      }
+    },
+    "status_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_green",
+        "badge_health"
+      ]
+    },
+    "badge_green": {
+      "type": "Badge",
+      "props": {
+        "text": "Green",
+        "variant": "secondary"
+      }
+    },
+    "badge_health": {
+      "type": "Badge",
+      "props": {
+        "text": "Quiet, healthy",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics_heading",
+        "metrics_grid"
+      ]
+    },
+    "metrics_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Metrics",
+        "level": "h3"
+      }
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_miroshark_stars",
+        "stat_miroshark_followers",
+        "stat_aeon_stars"
+      ]
+    },
+    "stat_miroshark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Stars (7d)",
+        "value": "1,272",
+        "delta": "+15",
+        "trend": "up"
+      }
+    },
+    "stat_miroshark_followers": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Followers",
+        "value": "+8",
+        "trend": "up"
+      }
+    },
+    "stat_aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars",
+        "value": "511",
+        "delta": "flat",
+        "trend": "neutral"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk_heading",
+        "talk_item_1",
+        "talk_item_2"
+      ]
+    },
+    "talk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h3"
+      }
+    },
+    "talk_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "talk_1_name",
+        "talk_1_details",
+        "talk_1_quality",
+        "talk_1_action"
+      ]
+    },
+    "talk_1_name": {
+      "type": "Heading",
+      "props": {
+        "text": "ResearchSwarm",
+        "level": "h4"
+      }
+    },
+    "talk_1_details": {
+      "type": "Text",
+      "props": {
+        "text": "Running preregistered, multi-replication MiroShark study (grok-4.3 judge)",
+        "variant": "body"
+      }
+    },
+    "talk_1_quality": {
+      "type": "Badge",
+      "props": {
+        "text": "Warmest, academic-grade signal in the window",
+        "variant": "outline"
+      }
+    },
+    "talk_1_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: reply @ResearchSwarmAI, offer run gallery + ask what regimes to expose",
+        "variant": "lead"
+      }
+    },
+    "talk_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "talk_2_name",
+        "talk_2_details",
+        "talk_2_action"
+      ]
+    },
+    "talk_2_name": {
+      "type": "Heading",
+      "props": {
+        "text": "AeonBrain",
+        "level": "h4"
+      }
+    },
+    "talk_2_details": {
+      "type": "Text",
+      "props": {
+        "text": "ed25519-signed, vendor-neutral skill-schema, fresh 06-14",
+        "variant": "body"
+      }
+    },
+    "talk_2_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: DM — aeon-native, or fork-the-standard?",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide_heading",
+        "decide_alert"
+      ]
+    },
+    "decide_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h3"
+      }
+    },
+    "decide_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Same day someone benchmarks us and someone standardizes skill-trust — both downstream-of-product. Own the trust + verification layer before it gets defined without us. ResearchSwarm reply is the freebie; the schema is the call.",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources_heading",
+        "sources_stack"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h3"
+      }
+    },
+    "sources_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_1",
+        "source_2",
+        "source_3"
+      ]
+    },
+    "source_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "product-pulse-2026-06-15",
+        "href": "./product-pulse-2026-06-15.md",
+        "source": "repo-family + X state"
+      }
+    },
+    "source_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bd-radar-2026-06-15",
+        "href": "./bd-radar-2026-06-15.md",
+        "source": "7 net-new leads (AeonBrain schema #1, ResearchSwarm escalation)"
+      }
+    },
+    "source_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sim-watch-2026-06-14",
+        "href": "./sim-watch-2026-06-14.md",
+        "source": "Google + World Labs legitimizing simulation top-down; social-outcome wedge still open"
+      }
+    }
+  }
+}
