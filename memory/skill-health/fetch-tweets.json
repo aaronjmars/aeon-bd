@@ -1,13 +1,14 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-06-14T17:08:10Z",
+  "last_analyzed": "2026-06-15T17:39:53Z",
   "quality_score": 2,
-  "assessment": "Skill ran and correctly self-suppressed, but produced no actionable output for the core mission (surfacing BD signal). Known blocker already documented with fixes in flight.",
+  "assessment": "Ran with correct diagnostics and risk management, but zero actionable output — recurring degradation (2nd day), months-stale data, awaiting operator merge to unblock",
   "flags": [
-    "low_quality",
-    "stale_data"
+    "empty_output",
+    "stale_data",
+    "low_quality"
   ],
-  "avg_score": 3,
+  "avg_score": 2.75,
   "history": [
     {
       "date": "2026-06-12",
@@ -19,6 +20,10 @@
     },
     {
       "date": "2026-06-14",
+      "score": 2
+    },
+    {
+      "date": "2026-06-15",
       "score": 2
     }
   ]
