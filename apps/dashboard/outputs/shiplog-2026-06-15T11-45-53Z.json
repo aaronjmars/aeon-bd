@@ -1,0 +1,146 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Shiplog — 2026-06-15"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-text",
+        "sep1",
+        "themes-section",
+        "sep2",
+        "stats-stack",
+        "article-link"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon went provider-agnostic and identity-configurable this week — bring any LLM key and it routes and fails over on its own, build a soul and a north-star from the dashboard — while outside builders shipped the first wave of ecosystem skill packs.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "themes-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "themes-heading",
+        "themes-list"
+      ]
+    },
+    "themes-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Themes",
+        "level": "h3"
+      }
+    },
+    "themes-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "theme-1",
+        "theme-2",
+        "theme-3"
+      ]
+    },
+    "theme-1": {
+      "type": "Text",
+      "props": {
+        "text": "Bring any key — gateway routes + fails over on its own"
+      }
+    },
+    "theme-2": {
+      "type": "Text",
+      "props": {
+        "text": "SOUL.md + STRATEGY.md builders — identity is configurable now"
+      }
+    },
+    "theme-3": {
+      "type": "Text",
+      "props": {
+        "text": "Outside builders shipped the first ecosystem skill packs"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-commits",
+        "stat-prs",
+        "stat-additions",
+        "stat-deletions"
+      ]
+    },
+    "stat-commits": {
+      "type": "Stat",
+      "props": {
+        "label": "Commits",
+        "value": "111"
+      }
+    },
+    "stat-prs": {
+      "type": "Stat",
+      "props": {
+        "label": "PRs",
+        "value": "98"
+      }
+    },
+    "stat-additions": {
+      "type": "Stat",
+      "props": {
+        "label": "Additions",
+        "value": "+11,602"
+      }
+    },
+    "stat-deletions": {
+      "type": "Stat",
+      "props": {
+        "label": "Deletions",
+        "value": "−4,797"
+      }
+    },
+    "article-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View full article",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/articles/shiplog-2026-06-15.md",
+        "source": "GitHub"
+      }
+    }
+  }
+}

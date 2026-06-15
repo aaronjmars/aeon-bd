@@ -38,3 +38,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-14,heartbeat,claude-opus-4-8,2092,8860,327653,54672
 2026-06-15,bd-radar,claude-opus-4-8,3474,21228,1879396,201847
 2026-06-15,operator-scorecard,claude-opus-4-8,2376,17643,1036357,49680
+2026-06-15,shiplog,claude-opus-4-8,2406,17983,1800620,49564
