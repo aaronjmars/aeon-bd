@@ -1,19 +1,20 @@
-Heartbeat complete. All checks pass — no notification needed (fleet green; the only open items are two carried-forward operator-pending follow-ups, already notified and dedup'd within 48h).
+Heartbeat complete. Fleet is green — no notification sent.
 
 ## Summary
 
-**HEARTBEAT_OK · STATUS_PAGE=WATCH**
+Ran the `heartbeat` skill (20:00 UTC slot, executed 20:10). All checks green; no notification needed.
 
-**Checks (2026-06-15 15:42 UTC run — 14:00 slot delayed by GH cron batching):**
-- **P0 — Failed & stuck skills:** ✅ Clean. All 20 `cron-state.json` entries `last_status: success`. No failed, no stuck (>45min dispatched), no `consecutive_failures ≥ 3`, no chronic <0.5. Monday's weekly batch fired clean — operator-scorecard (09:46), shiplog (11:46), war-room (09:43), engagement-act (09:44). Self-check: heartbeat last_success ~6h ago.
-- **P1 — Stalled PRs & urgent issues:** ✅ 0 open PRs, 0 open issues, 0 open rows in issues/INDEX.md.
-- **P2 — Flagged memory:** Only tuning items + two carried-forward operator-pending follow-ups (fetch-tweets/reply-maker `var` gap fix branch awaiting merge; war-room cron-batching smell). Both already notified — no re-notify.
-- **P3 — Missing scheduled skills:** ✅ None. 16 enabled skills run (all 100%); the 9 not-yet-run are weekly slots due Tue–Thu or dispatch-only. No skill past 2x its interval.
+- **P0 — Failed/stuck skills:** None. All 20 `cron-state.json` entries `last_status: success`, no `dispatched`-stuck, no `consecutive_failures ≥ 3`, no chronic `<0.5`. Heartbeat self-check healthy (last success ~4.5h ago). The 17:00 social block (fetch-tweets, write-tweet, agent-buzz, reply-maker) fired clean since the last run.
+- **P1 — PRs/issues:** 0 open PRs, 0 open issues, 0 open entries in `issues/INDEX.md`.
+- **P2 — Memory items:** Two carried-forward operator-pending follow-ups (the `fetch-tweets`/`reply-maker` `var`-gap fix branch awaiting operator merge; the war-room batched-cron scheduling smell). Already notified + dedup'd within 48h → no re-notify, but they keep overall status at WATCH.
+- **P3 — Missing skills:** None genuine. 16 enabled skills have run (all 100%); the 9 not-yet-run are weekly slots whose window hasn't arrived this week (Tue/Wed/Thu) or dispatch-only.
 
-**Notification:** None sent (everything green / deduped).
+**Status page:** Regenerated `docs/status.md` — Overall 🟡 WATCH, 25 enabled skills (16 run + 9 not-yet-run), 0 open issues, next run product-pulse 07:15 UTC. No `articles/token-report-*.md` exists → Token pulse section omitted.
 
 **Files modified:**
-- `docs/status.md` — regenerated: Overall 🟡 WATCH, 25 enabled skills (16 run / 9 not-yet-run), 0 open issues, next run fetch-tweets 17:00 UTC, Token pulse omitted (no token-report).
-- `memory/logs/2026-06-15.md` — appended the 15:42 heartbeat entry.
+- `docs/status.md` — regenerated public status page
+- `memory/logs/2026-06-15.md` — appended heartbeat log entry
 
-**Follow-up:** The two operator-pending items (PR merge for the `var` fix; war-room schedule nudge) remain in the operator's hands — no agent action available (org blocks Actions from opening PRs). Status page commits to `main` via the workflow's auto-commit step.
+**Follow-up:** None new. The two existing operator-pending items (merge the `fix/fetch-tweets-set-var` branch; reschedule war-room off the batched 07:45 slot) remain open but require operator action.
+
+`HEARTBEAT_OK · STATUS_PAGE=WATCH`
