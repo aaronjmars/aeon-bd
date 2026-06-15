@@ -1,23 +1,21 @@
-Pushed. Run complete.
+Done. Quiet, healthy day — no notification fired (gating: notify only on a red-flag notable, none today).
 
 ## Summary
 
-Ran `product-pulse` for **2026-06-14** — the daily state-of-both-products read.
+Ran **product-pulse** for 2026-06-15 (MODE=execute). Swept the full repo family + X, computed Δ1d (vs 06-14) and Δ7d (vs 06-11, nearest ≤7d snapshot).
 
-**Data gathered:**
-- GitHub health for all 6 public repos via `gh api` + 4 private repos from the `GH_READ_PAT` prefetch cache.
-- X followers from the xAI prefetch cache (`@aeonframework` 151,767 · `@miroshark_` 2,071).
+**Notables: 0 — no red flags, so no notify (correct per quiet-by-default gating).**
 
-**Result: 0 notables — quiet, healthy day.**
-- 🟢 CI green on both automation repos (aeon-agent + miroshark-aeon, 40/40 runs, 0 failures).
-- ⭐ aeon 512 (Δ1d +2), 🦈 MiroShark 1,270 (Δ1d +3) — MiroShark climbing faster (+13 over 3d vs +4) but under the +25/7d momentum bar.
-- No release tags, no milestones crossed, no stall (>14d) yet.
-- Minor: PR counts ticked up (aeon→2, MiroShark→2, minitor→1); miroshark-website at 9d since last push — watch toward the 14d line.
-- *Note:* history only reaches 2026-06-11, so Δ7d figures are a 3-day proxy until the window fills out.
+Key reads:
+- **CI green:** aeon-agent 40✓/0✗, miroshark-aeon 40✓/0✗.
+- **Stars:** aeon 511 (Δ1d −1, Δ7d +3) · MiroShark 1,272 (Δ1d +2, Δ7d +15) · minitor 11 · soul 10 (+1/7d) · aeon-agent 9 · miroshark-aeon 14. No milestone crossings; MiroShark Δ7d +15 is below the +25 momentum flag.
+- **X followers:** @aeonframework 151,771 (Δ1d +4, Δ7d −52) · @miroshark_ 2,079 (Δ1d +8, Δ7d +7). Post counts N/A (xAI returned `unknown`).
+- No releases anywhere; no stalls >14d (oldest active: aeon-wc 7d). Private repos: 4/4 visible via PAT prefetch.
 
-**Files written & committed/pushed to main:**
-- `articles/product-pulse-2026-06-14.md` — the digest (consumed by `war-room`)
-- `memory/topics/product-pulse-state.json` — today's snapshot appended, history at 4 entries
-- `memory/logs/2026-06-14.md` — `### product-pulse` log block
+**Files:**
+- Created `articles/product-pulse-2026-06-15.md` (digest)
+- Updated `memory/topics/product-pulse-state.json` (06-15 snapshot appended, history at 5 entries)
+- Created `memory/logs/2026-06-15.md` (log block)
+- Committed as `b974a5f`
 
-**No notification sent** — per skill gating, self-notify only fires on a red-flag notable (CI red or >14d stall). None fired, so the committed digest + state are the output. **No follow-up needed.**
+**Follow-up:** none. Digest is ready for `war-room` to consume.

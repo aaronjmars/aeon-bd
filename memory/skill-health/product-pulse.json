@@ -1,8 +1,8 @@
 {
   "skill": "product-pulse",
-  "last_analyzed": "2026-06-14T08:30:44Z",
+  "last_analyzed": "2026-06-15T07:33:42Z",
   "quality_score": 4,
-  "assessment": "Well-structured daily digest with complete data gathering, clear context, and appropriate flagging. Solid execution of the intended read.",
+  "assessment": "Substantive data collection with proper deltas and metrics; correct quiet-by-default gating; well-documented state updates",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -32,6 +32,10 @@
     },
     {
       "date": "2026-06-14",
+      "score": 4
+    },
+    {
+      "date": "2026-06-15",
       "score": 4
     }
   ]
