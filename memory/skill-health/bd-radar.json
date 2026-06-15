@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-06-14T08:36:01Z",
-  "quality_score": 4,
-  "assessment": "Substantive execution: 9 net-new leads ranked with evidence, proper deduping (vs 51 surfaced + 14d log), strategic synthesis ('ecosystem economy forming'), 3 specific follow-ups, process documented (sandbox fallback, committed, files created).",
+  "last_analyzed": "2026-06-15T07:37:08Z",
+  "quality_score": 5,
+  "assessment": "Excellent—7 substantive, contextualized leads across multiple sources with strategic ecosystem insight (skill-trust layer emerging before built in-house), proper dedup rigor, and specific actionable follow-ups aligned to strategy.",
   "flags": [],
-  "avg_score": 4.17,
+  "avg_score": 4.29,
   "history": [
     {
       "date": "2026-06-11",
@@ -29,6 +29,10 @@
     {
       "date": "2026-06-14",
       "score": 4
+    },
+    {
+      "date": "2026-06-15",
+      "score": 5
     }
   ]
 }
