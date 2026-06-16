@@ -64,8 +64,8 @@
     "last_quality_score": 4
   },
   "reply-maker": {
-    "last_dispatch": "2026-06-16T18:08:45Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-06-16T19:24:30Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-15T17:42:37Z",
     "total_runs": 6,
     "total_successes": 5,
