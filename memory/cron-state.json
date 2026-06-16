@@ -31,7 +31,7 @@
     "last_dispatch": "2026-06-16T07:32:59Z"
   },
   "war-room": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-06-15T09:43:55Z",
     "total_runs": 6,
     "total_successes": 6,
@@ -39,7 +39,7 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4,
-    "last_dispatch": "2026-06-15T09:40:51Z"
+    "last_dispatch": "2026-06-16T09:26:59Z"
   },
   "fetch-tweets": {
     "last_dispatch": "2026-06-15T17:36:54Z",
@@ -97,8 +97,8 @@
     "last_dispatch": "2026-06-16T07:32:59Z"
   },
   "heartbeat": {
-    "last_dispatch": "2026-06-15T20:09:17Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-16T09:26:59Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-15T20:12:29Z",
     "total_runs": 13,
     "total_successes": 13,
@@ -226,5 +226,9 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4
+  },
+  "framework-watch": {
+    "last_dispatch": "2026-06-16T09:26:59Z",
+    "last_status": "dispatched"
   }
 }
