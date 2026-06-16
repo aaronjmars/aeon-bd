@@ -1,10 +1,10 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-15T09:44:42Z",
+  "last_analyzed": "2026-06-16T11:20:49Z",
   "quality_score": 4,
-  "assessment": "Substantive output: scanned 7 days, deduped against prior runs, ranked 5 fresh opportunities (0-1d old) with sourced metrics, drafted in voice, handled sandbox constraint properly by staging to .pending-notify/",
+  "assessment": "Substantive, strategic execution — identifies closing bottleneck, drafts 4 tailored pieces with voice/hooks, clear next steps",
   "flags": [],
-  "avg_score": 3.75,
+  "avg_score": 3.8,
   "history": [
     {
       "date": "2026-06-12",
@@ -20,6 +20,10 @@
     },
     {
       "date": "2026-06-15",
+      "score": 4
+    },
+    {
+      "date": "2026-06-16",
       "score": 4
     }
   ]

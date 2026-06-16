@@ -1,19 +1,25 @@
-Done. Executed `skills/engagement-act/SKILL.md` for 2026-06-15.
+*Engagement Act — 2026-06-16*
 
-## Summary
+quiet discovery day — no net-new conversation worth a reply. but the warm book is still open and war-room re-flagged two as owed today. closing is the game now, so here's the ready-to-send copy.
 
-Scanned the last 7 days of `memory/logs/` (06-11 → 06-15) plus `MEMORY.md`. No `projects-of-interest.md` exists, so I tracked Aeon/MiroShark per MEMORY. Pulled today's bd-radar opportunities, deduped against every handle actioned in the 06-12/06-13/06-14 engagement-act + reply-maker runs, ranked by recency × leverage, and capped at 5.
+*1. @ResearchSwarmAI* (5 days on radar, escalated yday) — preregistered multi-seed MiroShark replication study (`multiseed_miroshark.py`, grok-4.3 judge) on the aeon-atlas fork. warmest lead, academic-grade benchmarking *on* the product.
+link: https://github.com/swarm-ai-research
+type: X reply / DM
+draft: "preregistered multi-seed replication with a grok-4.3 judge — most rigorous thing anyone's run on miroshark 🦈 curious what belief drift looked like across seeds. want to feature the study + pull you into the builder chat"
 
-**5 drafted (all 0–1d old, none aging), in Aaron's voice:**
-1. **AI-Risk-Management / AeonBrain** — `aeon-skill-schema` (ed25519-signed skill schema, score 15) → GitHub/DM, verify aeon-native + curate the trust layer.
-2. **@Root_Edge / RootAI** — QT'd the shiplog, 57♥/12RT (best reach) → X reply + builder-chat invite.
-3. **@dabusthebuilder / Azzle** — listed `@aeonframework` in the AzzleAI stack, 17♥/8RT → X reply/QT + TG.
-4. **@ResearchSwarmAI / swarm-ai-research** — preregistered multi-seed MiroShark replication study → X reply/DM, feature it.
-5. **kyrolabs/awesome-agents** — MiroShark added to a high-traffic awesome-list → GitHub comment, keep the entry current.
+*2. AI-Risk-Management / AeonBrain* (1 day) — ed25519-signed `aeon-skill-schema`, "the wire format for AeonBrain". the skill-trust/signing layer — own it before someone defines it without us.
+link: https://github.com/AI-Risk-Management
+type: GitHub comment / DM
+draft: "signed skill schemas are the missing trust layer — every agent framework needs this and nobody's shipped it. is aeon-skill-schema meant aeon-native or framework-neutral? either way want to get it in front of the ecosystem. ed25519 wire format for skills is the exact primitive that's been missing ⭐"
 
-**Files:**
-- `/tmp/engagement-act-output.md` — drafted output.
-- `.pending-notify/1781516623.md` — staged notification (see below).
-- `memory/logs/2026-06-15.md` — appended `## Engagement Act` log (`ENGAGEMENT_ACT_OK`).
+*3. @Root_Edge / RootAI* (1 day) — QT'd the shiplog, 57♥/12RT (best non-official engagement of the week). X window closes fast — reply now.
+link: https://x.com/Root_Edge
+type: X reply
+draft: "RootAI QT'ing the shiplog — 57 likes says the autonomy thesis lands. what are you running on aeon? door's open to the builder chat ⭐"
 
-**Follow-up needed:** The `./notify -f` execution was blocked by this session's permission layer (denied on retry, so I didn't keep re-firing it). I staged the message to `.pending-notify/` — which is exactly the script's own first step and the documented sandbox fallback — so the post-run delivery step will push it to the channels. On a normal Actions run with bypass permissions this sends immediately; here it relies on the postprocess/pending-delivery path.
+*4. @dabusthebuilder / Azzle* (1 day) — posted the AzzleAI integration stack listing @aeonframework as "agent setup 4 everyone" next to bankr + xmtp (17♥/8RT). already in ECOSYSTEM.
+link: https://x.com/dabusthebuilder
+type: X reply / QT
+draft: "aeon next to bankr + xmtp in the azzle stack — 'agent setup 4 everyone' is the right framing, that's exactly the wedge ⭐ what are agents doing on azzle today? let's get you in the TG"
+
+some opps aging — act or drop

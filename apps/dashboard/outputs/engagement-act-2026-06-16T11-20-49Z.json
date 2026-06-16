@@ -1,0 +1,269 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-06-16"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "opportunities_stack",
+        "footer_text"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "quiet discovery day — no net-new conversation worth a reply. but the warm book is still open and war-room re-flagged two as owed today. closing is the game now, so here's the ready-to-send copy.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opportunities_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opp1",
+        "opp2",
+        "opp3",
+        "opp4"
+      ]
+    },
+    "opp1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1_heading",
+        "opp1_status",
+        "opp1_desc",
+        "opp1_link",
+        "opp1_type",
+        "opp1_draft"
+      ]
+    },
+    "opp1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@ResearchSwarmAI",
+        "level": "h3"
+      }
+    },
+    "opp1_status": {
+      "type": "Text",
+      "props": {
+        "text": "5 days on radar, escalated yday",
+        "variant": "muted"
+      }
+    },
+    "opp1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "preregistered multi-seed MiroShark replication study (multiseed_miroshark.py, grok-4.3 judge) on the aeon-atlas fork. warmest lead, academic-grade benchmarking on the product.",
+        "variant": "body"
+      }
+    },
+    "opp1_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/swarm-ai-research",
+        "href": "https://github.com/swarm-ai-research"
+      }
+    },
+    "opp1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply / DM"
+      }
+    },
+    "opp1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "preregistered multi-seed replication with a grok-4.3 judge — most rigorous thing anyone's run on miroshark 🦈 curious what belief drift looked like across seeds. want to feature the study + pull you into the builder chat",
+        "variant": "caption"
+      }
+    },
+    "opp2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_heading",
+        "opp2_status",
+        "opp2_desc",
+        "opp2_link",
+        "opp2_type",
+        "opp2_draft"
+      ]
+    },
+    "opp2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI-Risk-Management / AeonBrain",
+        "level": "h3"
+      }
+    },
+    "opp2_status": {
+      "type": "Text",
+      "props": {
+        "text": "1 day",
+        "variant": "muted"
+      }
+    },
+    "opp2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ed25519-signed aeon-skill-schema, \"the wire format for AeonBrain\". the skill-trust/signing layer — own it before someone defines it without us.",
+        "variant": "body"
+      }
+    },
+    "opp2_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/AI-Risk-Management",
+        "href": "https://github.com/AI-Risk-Management"
+      }
+    },
+    "opp2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment / DM"
+      }
+    },
+    "opp2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "signed skill schemas are the missing trust layer — every agent framework needs this and nobody's shipped it. is aeon-skill-schema meant aeon-native or framework-neutral? either way want to get it in front of the ecosystem. ed25519 wire format for skills is the exact primitive that's been missing ⭐",
+        "variant": "caption"
+      }
+    },
+    "opp3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3_heading",
+        "opp3_status_desc",
+        "opp3_link",
+        "opp3_type",
+        "opp3_draft"
+      ]
+    },
+    "opp3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@Root_Edge / RootAI",
+        "level": "h3"
+      }
+    },
+    "opp3_status_desc": {
+      "type": "Text",
+      "props": {
+        "text": "1 day — QT'd the shiplog, 57♥/12RT (best non-official engagement of the week). X window closes fast — reply now.",
+        "variant": "muted"
+      }
+    },
+    "opp3_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/Root_Edge",
+        "href": "https://x.com/Root_Edge"
+      }
+    },
+    "opp3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "opp3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "RootAI QT'ing the shiplog — 57 likes says the autonomy thesis lands. what are you running on aeon? door's open to the builder chat ⭐",
+        "variant": "caption"
+      }
+    },
+    "opp4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4_heading",
+        "opp4_status_desc",
+        "opp4_link",
+        "opp4_type",
+        "opp4_draft"
+      ]
+    },
+    "opp4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@dabusthebuilder / Azzle",
+        "level": "h3"
+      }
+    },
+    "opp4_status_desc": {
+      "type": "Text",
+      "props": {
+        "text": "1 day — posted the AzzleAI integration stack listing @aeonframework as \"agent setup 4 everyone\" next to bankr + xmtp (17♥/8RT). already in ECOSYSTEM.",
+        "variant": "muted"
+      }
+    },
+    "opp4_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/dabusthebuilder",
+        "href": "https://x.com/dabusthebuilder"
+      }
+    },
+    "opp4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply / QT"
+      }
+    },
+    "opp4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "aeon next to bankr + xmtp in the azzle stack — 'agent setup 4 everyone' is the right framing, that's exactly the wedge ⭐ what are agents doing on azzle today? let's get you in the TG",
+        "variant": "caption"
+      }
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "some opps aging — act or drop",
+        "variant": "muted"
+      }
+    }
+  }
+}
