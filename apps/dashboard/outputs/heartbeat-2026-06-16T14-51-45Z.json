@@ -1,0 +1,138 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert-failure",
+        "sep1",
+        "stack-details",
+        "sep2",
+        "stack-context"
+      ]
+    },
+    "alert-failure": {
+      "type": "Alert",
+      "props": {
+        "title": "x402-monitor Failed",
+        "message": "First-ever run at 13:05 UTC today (Tue). Weekly skill, run 1/1, success_rate 0. Error: opaque truncated token-usage fragment with no clean signature — died mid-run rather than on a known fault.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "grid-metrics",
+        "h-assessment",
+        "text-assessment"
+      ]
+    },
+    "grid-metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-run",
+        "stat-rate"
+      ]
+    },
+    "stat-run": {
+      "type": "Stat",
+      "props": {
+        "label": "Run",
+        "value": "1/1"
+      },
+      "children": []
+    },
+    "stat-rate": {
+      "type": "Stat",
+      "props": {
+        "label": "Success Rate",
+        "value": "0%"
+      },
+      "children": []
+    },
+    "h-assessment": {
+      "type": "Heading",
+      "props": {
+        "text": "Assessment & Next Steps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-assessment": {
+      "type": "Text",
+      "props": {
+        "text": "Not chronic yet (1 fail, not ≥3), but a first-run clean-fail wants a re-dispatch or skill-repair look before next Tuesday.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "stack-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-context",
+        "text-sibling",
+        "text-fleet",
+        "text-status"
+      ]
+    },
+    "h-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Fleet Status",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-sibling": {
+      "type": "Text",
+      "props": {
+        "text": "Sibling weekly framework-watch landed fine (09:35).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-fleet": {
+      "type": "Text",
+      "props": {
+        "text": "Rest of fleet: green.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "Status page: DEGRADED.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
