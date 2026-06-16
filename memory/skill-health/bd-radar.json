@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-06-15T07:37:08Z",
-  "quality_score": 5,
-  "assessment": "Excellent—7 substantive, contextualized leads across multiple sources with strategic ecosystem insight (skill-trust layer emerging before built in-house), proper dedup rigor, and specific actionable follow-ups aligned to strategy.",
+  "last_analyzed": "2026-06-16T07:38:41Z",
+  "quality_score": 4,
+  "assessment": "Substantive discovery with clear bottleneck shift insight, specific ranked leads, and strategic pattern recognition; quiet day expected per context.",
   "flags": [],
-  "avg_score": 4.29,
+  "avg_score": 4.25,
   "history": [
     {
       "date": "2026-06-11",
@@ -33,6 +33,10 @@
     {
       "date": "2026-06-15",
       "score": 5
+    },
+    {
+      "date": "2026-06-16",
+      "score": 4
     }
   ]
 }
