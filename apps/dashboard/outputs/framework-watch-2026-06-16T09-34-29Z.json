@@ -1,0 +1,318 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "AI Framework Watch — 2026-06-16"
+      },
+      "children": [
+        "release_week_banner",
+        "tracked_metrics",
+        "sep1",
+        "releases_section",
+        "sep2",
+        "quiet_section",
+        "sep3",
+        "anchor_section",
+        "sep4",
+        "digest_section"
+      ]
+    },
+    "release_week_banner": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "release_heading",
+        "release_stat",
+        "release_names",
+        "release_note"
+      ]
+    },
+    "release_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Release Week",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "release_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "4 of 9",
+        "label": "Frameworks Released"
+      },
+      "children": []
+    },
+    "release_names": {
+      "type": "Text",
+      "props": {
+        "text": "langgraph, crewai, mastra, pydantic-ai",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "release_note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "First run = cold start; star deltas baseline from next week."
+      },
+      "children": []
+    },
+    "tracked_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Tracked 9/9 · 11 releases (7d) · 0 breaking flags",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "releases_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "releases_heading",
+        "releases_list"
+      ]
+    },
+    "releases_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Releases Worth Reading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "releases_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "release_1",
+        "release_2",
+        "release_3",
+        "release_4"
+      ]
+    },
+    "release_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rel1_title",
+        "rel1_desc"
+      ]
+    },
+    "rel1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "crewai 1.14.7",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "rel1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pluggable memory/knowledge/rag/flow backends, native Snowflake Cortex provider, chat API. Feature-heavy under a patch tag.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "release_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rel2_title",
+        "rel2_desc"
+      ]
+    },
+    "rel2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "mastra @core 1.42.0",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "rel2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Trusted \"system actor\" execution for cron/queue/background work + SignalProvider (webhooks/polling) + native tool suspension (ask_user/submit_plan).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "release_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rel3_title",
+        "rel3_desc"
+      ]
+    },
+    "rel3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "pydantic-ai v1.107.0",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "rel3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Security fix: VercelAIAdapter confused-deputy file-read (GHSA-h7p7-w5gc-xj3w). v2.0.0b7 beta in flight — major bump landing soon, pin accordingly.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "release_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rel4_title",
+        "rel4_desc"
+      ]
+    },
+    "rel4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "langgraph 1.2.5",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "rel4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Patch (config/state fixes, type-checking moved to `ty`) + CLI 0.4.29.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "quiet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quiet_heading",
+        "quiet_text"
+      ]
+    },
+    "quiet_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Quiet",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "quiet_text": {
+      "type": "Text",
+      "props": {
+        "text": "autogen (last release Sep 2025), llamaindex, dspy, smolagents — no tagged releases in window.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "anchor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "anchor_heading",
+        "anchor_stat",
+        "anchor_text"
+      ]
+    },
+    "anchor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Anchor (Aeon)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "anchor_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "514",
+        "label": "GitHub Stars"
+      },
+      "children": []
+    },
+    "anchor_text": {
+      "type": "Text",
+      "props": {
+        "text": "0 tagged releases (ships continuous `main`, not the others' game). Cohort is 17k–59k★ mature import-libraries — not a like-for-like. Real positioning opens next week once deltas roll.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "digest_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "digest_link"
+      ]
+    },
+    "digest_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Digest",
+        "href": "articles/framework-watch-2026-06-16.md"
+      },
+      "children": []
+    }
+  }
+}
