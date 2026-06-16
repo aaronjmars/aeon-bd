@@ -37,6 +37,7 @@ tmp_*
 .heartbeat-notify.md
 .write-tweet-notify.md
 .fetch-tweets-notify.md
+.notify-framework-watch.md
 .pr-body.md
 .*-msg.txt
 *_msg.txt
