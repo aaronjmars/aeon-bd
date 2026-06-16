@@ -1,0 +1,110 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Agent Buzz",
+        "description": "quiet, mcp-dominated day — the protocol moved to linux foundation governance while builders talked measurement, not hype."
+      },
+      "children": [
+        "separator1",
+        "section1",
+        "separator2",
+        "section2",
+        "separator3",
+        "footer"
+      ]
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "item1",
+        "item2"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "mcp becomes shared infrastructure",
+        "level": "h2"
+      }
+    },
+    "item1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@graphprotocol — frames the agent stack as MCP (data) + Skills (expertise) + x402 (autonomous pay-per-query); payments as the missing layer",
+        "href": "https://x.com/graphprotocol/status/2066500932917969231",
+        "source": "@graphprotocol"
+      }
+    },
+    "item2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@johniosifov — MCP + A2A handed to the Linux Foundation's Agentic AI Foundation (146 orgs); Anthropic and Google ceding protocol control",
+        "href": "https://x.com/johniosifov/status/2066554563306365142",
+        "source": "@johniosifov"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading2",
+        "item3",
+        "item4"
+      ]
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "builders optimizing agent internals",
+        "level": "h2"
+      }
+    },
+    "item3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@sagar_batchu — MCP tool descriptions burn context before the agent works; dynamic toolsets cut that overhead ~100x",
+        "href": "https://x.com/sagar_batchu/status/2066581568169058589",
+        "source": "@sagar_batchu"
+      }
+    },
+    "item4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@OpenHandsDev — ships OpenHands Index, a benchmark scoring how well models perform as software-engineering agents, not just chat",
+        "href": "https://x.com/OpenHandsDev/status/2066670174720159999",
+        "source": "@OpenHandsDev"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "src: xai-prefetch · candidates: 8 → kept: 4",
+        "variant": "caption"
+      }
+    }
+  }
+}

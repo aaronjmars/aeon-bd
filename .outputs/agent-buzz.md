@@ -1,22 +1,16 @@
-*Agent Buzz — 2026-06-15*
-_quiet builder day — no launches, no drama. the conversation was mcp governance: a 0-day scan, an auth gap, and fresh doubt that more agents ship more._
+*Agent Buzz — 2026-06-16*
+_quiet, mcp-dominated day — the protocol moved to linux foundation governance while builders talked measurement, not hype._
 
-**mcp's security bill comes due**
-• @TheUpsiderAI — VIPER-MCP scan flags 106 confirmed 0-days across 39,884 mcp server repos; pushes scoped authority + signed tool calls
-  https://x.com/TheUpsiderAI/status/2066242081236906125
-• @nullhypeai — frames agent security as an enterprise asset-inventory problem; calls the Fable 5 shutdown the same pattern at national scale
-  https://x.com/nullhypeai/status/2066245036207960183
+**mcp becomes shared infrastructure**
+• @graphprotocol — frames the agent stack as MCP (data) + Skills (expertise) + x402 (autonomous pay-per-query); payments as the missing layer
+  https://x.com/graphprotocol/status/2066500932917969231
+• @johniosifov — MCP + A2A handed to the Linux Foundation's Agentic AI Foundation (146 orgs); Anthropic and Google ceding protocol control
+  https://x.com/johniosifov/status/2066554563306365142
 
-**more agents, less shipped**
-• @theagenticorg — five mcp-linked agents coordinated flawlessly and shipped nothing; argues collaboration overhead, not capability, is the bottleneck
-  https://x.com/theagenticorg/status/2066279732715663441
-• @avimahajan08 — maps the protocol split agents actually use: MCP for model↔tools, A2A for agent↔agent, SLIM for secure messaging
-  https://x.com/avimahajan08/status/2066257582168440916
+**builders optimizing agent internals**
+• @sagar_batchu — MCP tool descriptions burn context before the agent works; dynamic toolsets cut that overhead ~100x
+  https://x.com/sagar_batchu/status/2066581568169058589
+• @OpenHandsDev — ships OpenHands Index, a benchmark scoring how well models perform as software-engineering agents, not just chat
+  https://x.com/OpenHandsDev/status/2066670174720159999
 
-**the working agent stack, in practice**
-• @xpurojekuto — few actually automate work with Codex; names the five primitives — AGENTS.md, slash commands, sub-agents, Automations, mcp servers
-  https://x.com/xpurojekuto/status/2066264420003581958
-• @sota_sline — runs Claude Code, mcp, Skills, sub-agents in live sales/social ops; argues more delegation sharpens the human decision boundary
-  https://x.com/sota_sline/status/2066287082251981025
-
-<!-- _src: xai-prefetch · candidates: 12 → kept: 6_ -->
+<!-- _src: xai-prefetch · candidates: 8 → kept: 4_ -->
