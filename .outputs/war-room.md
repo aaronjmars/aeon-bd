@@ -1,16 +1,18 @@
-⭐🦈 war room — 2026-06-15
+Notify queued to `.pending-notify/1781602132.md` — the sandbox blocked the direct send, so the post-run `postprocess-notify.sh` fans it out to the channels after this finishes (the documented fallback). Content is correct.
 
-state: both green. CI 40✓/0✗ each, no releases, no stalls. miroshark steady at 1,272★ (+15/7d), followers +8. aeon flat at 511. quiet, healthy.
+## Summary
 
-talk to:
-· ResearchSwarm — running a preregistered, multi-replication MiroShark study (grok-4.3 judge). warmest, academic-grade signal in the window. reply @ResearchSwarmAI, offer the run gallery + ask what regimes to expose.
-· AeonBrain — ed25519-signed, vendor-neutral skill-schema, fresh 06-14. DM: aeon-native, or fork-the-standard?
+Ran the **war-room** standup for **2026-06-16** (MODE=execute). Read today's product-pulse + bd-radar digests, both state files, and sim-watch-2026-06-14 (within 7d). All inputs present — no `WAR_ROOM_NO_INPUTS`.
 
-decide: same day someone benchmarks us and someone standardizes skill-trust — both downstream-of-product. own the trust + verification layer before it gets defined without us. ResearchSwarm reply is the freebie; the schema is the call.
+The brief (Aaron's voice, ~95 words, state · talk-to · decide):
+- **state** — 🔴 CI red on both mirror repos, but it's the upstream-*sync* job, not the skills (30✓/27✓ green); MiroShark cooking at 1,282★ (+25/5d), x402 layer active again; aeon flat at 514.
+- **talk to** — no net-new worth chasing (3 adjacent crumbs); work the warm book — ResearchSwarm reply + AeonBrain call still owed.
+- **decide** — MiroShark went 0→11 open PRs overnight; *that burst is the BD pipeline now* — triage + merge today. Discovery's done, closing is the game.
 
----
+**Files:**
+- Created `articles/war-room-2026-06-16.md` (brief + source appendix)
+- Updated `memory/logs/2026-06-16.md` (`### war-room`, `WAR_ROOM_OK`)
+- Committed both to `main`
+- Queued notify to `.pending-notify/` (post-run script will deliver)
 
-### Appendix — sources
-- [product-pulse-2026-06-15](./product-pulse-2026-06-15.md) — repo-family + X state
-- [bd-radar-2026-06-15](./bd-radar-2026-06-15.md) — 7 net-new leads (AeonBrain schema #1, ResearchSwarm escalation)
-- [sim-watch-2026-06-14](./sim-watch-2026-06-14.md) — category tailwind: Google + World Labs legitimizing simulation top-down; social-outcome wedge still open
+**Follow-up (the decide-line, for the team):** triage/merge the 11 open MiroShark PRs today; fire the ResearchSwarm reply; quick-fix the mirror-sync CI so public mirrors pull latest.

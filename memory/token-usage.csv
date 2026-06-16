@@ -43,4 +43,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-15,reply-maker,claude-opus-4-8,7019,12766,751987,39594
 2026-06-15,heartbeat,claude-opus-4-8,2102,12440,648046,53431
 2026-06-16,product-pulse,claude-opus-4-8,2391,13896,1087092,40074
-2026-06-16,heartbeat,claude-opus-4-8,2100,17756,596812,57204
+2026-06-16,war-room,claude-opus-4-8,7011,6528,735371,53456
