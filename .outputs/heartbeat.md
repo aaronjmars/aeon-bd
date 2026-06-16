@@ -1,20 +1,21 @@
-Heartbeat complete. Fleet is green — no notification sent.
+Heartbeat complete. The fleet is healthy and nothing new requires attention, so no notification was sent (all open items were already notified within the 48h dedup window).
 
 ## Summary
 
-Ran the `heartbeat` skill (20:00 UTC slot, executed 20:10). All checks green; no notification needed.
+**Verdict:** `HEARTBEAT_OK · STATUS_PAGE=WATCH` — no new notification sent.
 
-- **P0 — Failed/stuck skills:** None. All 20 `cron-state.json` entries `last_status: success`, no `dispatched`-stuck, no `consecutive_failures ≥ 3`, no chronic `<0.5`. Heartbeat self-check healthy (last success ~4.5h ago). The 17:00 social block (fetch-tweets, write-tweet, agent-buzz, reply-maker) fired clean since the last run.
-- **P1 — PRs/issues:** 0 open PRs, 0 open issues, 0 open entries in `issues/INDEX.md`.
-- **P2 — Memory items:** Two carried-forward operator-pending follow-ups (the `fetch-tweets`/`reply-maker` `var`-gap fix branch awaiting operator merge; the war-room batched-cron scheduling smell). Already notified + dedup'd within 48h → no re-notify, but they keep overall status at WATCH.
-- **P3 — Missing skills:** None genuine. 16 enabled skills have run (all 100%); the 9 not-yet-run are weekly slots whose window hasn't arrived this week (Tue/Wed/Thu) or dispatch-only.
+**Checks (Tue 2026-06-16, 09:27 UTC):**
+- **P0 — clean.** All 15 run skills in `cron-state.json` at `success`: 0 failed, 0 stuck, 0 with `consecutive_failures ≥ 3`, none below 50% success rate. Heartbeat self-check OK (~13h since last success).
+- **P1 — clean.** No open PRs in this repo (`gh pr list` empty), no urgent issues, `issues/INDEX.md` 0 open.
+- **P2 — three carried follow-ups, all already notified → dedup skip:** (a) reply-maker/fetch-tweets `var`-gap fix branch awaiting operator merge; (b) war-room scheduling smell (batched 07:45 cron); (c) today's product-pulse 🔴 CI-red on the two automation mirror repos (`Sync from upstream` failing, skill-exec all green).
+- **P3 — never-run weekly skills:** framework-watch + x402-monitor are due *today* but only ~30 min past slot (GitHub batches delayed crons) → treated as expected-late, flagged to **reconfirm at the 14:00 heartbeat**.
 
-**Status page:** Regenerated `docs/status.md` — Overall 🟡 WATCH, 25 enabled skills (16 run + 9 not-yet-run), 0 open issues, next run product-pulse 07:15 UTC. No `articles/token-report-*.md` exists → Token pulse section omitted.
+**Overall:** 🟡 WATCH — held by unresolved carried follow-ups, not a health degradation.
 
 **Files modified:**
-- `docs/status.md` — regenerated public status page
-- `memory/logs/2026-06-15.md` — appended heartbeat log entry
+- `docs/status.md` — regenerated (24 enabled skills: 15 run / 9 not-yet-run; Token pulse section omitted since no `articles/token-report-*.md` exists; Next run: engagement-act 09:30 UTC).
+- `memory/logs/2026-06-16.md` — appended the heartbeat log entry.
 
-**Follow-up:** None new. The two existing operator-pending items (merge the `fix/fetch-tweets-set-var` branch; reschedule war-room off the batched 07:45 slot) remain open but require operator action.
+**Follow-up:** At the 14:00 heartbeat, confirm framework-watch + x402-monitor (and war-room) actually fired today; if still absent, file an issue.
 
-`HEARTBEAT_OK · STATUS_PAGE=WATCH`
+(Both files land on `main` via the workflow's auto-commit step — no manual git needed.)
