@@ -1,0 +1,274 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "write-tweet: x402 demand side analysis",
+        "description": "Tweet draft variants analyzing x402 adoption metrics and the gap between payment infrastructure and actual use case"
+      },
+      "children": [
+        "section_stats",
+        "separator_1",
+        "section_variants",
+        "separator_2",
+        "section_recommendation"
+      ]
+    },
+    "section_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_txns",
+        "stat_volume",
+        "stat_agents",
+        "stat_services"
+      ]
+    },
+    "stat_txns": {
+      "type": "Stat",
+      "props": {
+        "label": "x402 Transactions",
+        "value": "207M"
+      }
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$50M"
+      }
+    },
+    "stat_agents": {
+      "type": "Stat",
+      "props": {
+        "label": "Active Agents",
+        "value": "480k"
+      }
+    },
+    "stat_services": {
+      "type": "Stat",
+      "props": {
+        "label": "Services",
+        "value": "100k"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_variants": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "variant_oneliner",
+        "variant_twopunch",
+        "variant_paragraph",
+        "variant_long",
+        "variant_thread"
+      ]
+    },
+    "variant_oneliner": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_oneliner",
+        "oneliner_1a",
+        "oneliner_1b"
+      ]
+    },
+    "heading_oneliner": {
+      "type": "Heading",
+      "props": {
+        "text": "One-liner",
+        "level": "h3"
+      }
+    },
+    "oneliner_1a": {
+      "type": "Text",
+      "props": {
+        "text": "1a. 207M x402 txns. $50M volume. 480k agents. nobody will tell you what they're buying."
+      }
+    },
+    "oneliner_1b": {
+      "type": "Text",
+      "props": {
+        "text": "1b. x402: best payment primitive in crypto, worst marketing in crypto."
+      }
+    },
+    "variant_twopunch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_twopunch",
+        "twopunch_2a",
+        "twopunch_2b"
+      ]
+    },
+    "heading_twopunch": {
+      "type": "Heading",
+      "props": {
+        "text": "Two-punch",
+        "level": "h3"
+      }
+    },
+    "twopunch_2a": {
+      "type": "Text",
+      "props": {
+        "text": "2a. everyone's celebrating $50M in x402 volume. nobody's asking what 480k agents actually paid for — or whether any of them needed crypto to do it."
+      }
+    },
+    "twopunch_2b": {
+      "type": "Text",
+      "props": {
+        "text": "2b. AWS, Stripe, Ripple, Travala all shipped x402 this month. the infra is done. the demand side is still a black box nobody wants to open."
+      }
+    },
+    "variant_paragraph": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_paragraph",
+        "paragraph_3a",
+        "paragraph_3b"
+      ]
+    },
+    "heading_paragraph": {
+      "type": "Heading",
+      "props": {
+        "text": "Paragraph",
+        "level": "h3"
+      }
+    },
+    "paragraph_3a": {
+      "type": "Text",
+      "props": {
+        "text": "3a. the first rule of the x402 club: don't ask who's spending the money. $50M moved, 480k agents, 100k services. for what? AWS and Stripe wired it up this month. the rails are real. the receipts are vibes."
+      }
+    },
+    "paragraph_3b": {
+      "type": "Text",
+      "props": {
+        "text": "3b. x402 finally went mainstream — AWS, Stripe, Ripple all shipped it in June. real milestone. but most x402 products still assume your agent can't just use an api key. solving a problem that mostly doesn't exist yet, on rails that are genuinely great."
+      }
+    },
+    "variant_long": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_long",
+        "long_4a",
+        "long_4b"
+      ]
+    },
+    "heading_long": {
+      "type": "Heading",
+      "props": {
+        "text": "Long tweet",
+        "level": "h3"
+      }
+    },
+    "long_4a": {
+      "type": "Text",
+      "props": {
+        "text": "4a. x402 this month: 207M transactions, $50M volume, 480k agents, 100k services. AWS turned it on across CloudFront + WAF. Stripe has docs. Ripple's pushing it on XRPL. the rails are no longer the question.\n\ndemand is. $50M moved through agent-native payments and nobody will say what for. honest read: best payment primitive crypto shipped in years, paired with the worst answer to \"who's actually using this.\" authorize a wallet to spend $20, funds stay yours — strictly better than locking $20 in openai credits forever. the value's real. the usage story is still a black box."
+      }
+    },
+    "long_4b": {
+      "type": "Text",
+      "props": {
+        "text": "4b. watched x402 go from coinbase demo to AWS default in ~6 months. CloudFront + WAF, Bedrock agent payments, Stripe docs, Ripple on XRPL, Travala booking 2.2M hotels. multi-chain now — Solana, Stellar, Sui, Avalanche, TRON.\n\nhere's the absurd part: the rails won, but every new x402 launch still pitches a world where your agent can't just paste an api key — a problem that mostly isn't real yet. the primitive is way ahead of the use case. coolest tech crypto shipped in years, still hunting for a killer reason to exist beyond agents paying agents. toll roads before the cars show up."
+      }
+    },
+    "variant_thread": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_thread",
+        "thread_5a",
+        "thread_5b"
+      ]
+    },
+    "heading_thread": {
+      "type": "Heading",
+      "props": {
+        "text": "Thread opener",
+        "level": "h3"
+      }
+    },
+    "thread_5a": {
+      "type": "Text",
+      "props": {
+        "text": "5a. $50M moved through x402 this month. 480k agents, 100k services, AWS and Stripe now wired in. one question none of the announcements answer: what are the agents actually buying?"
+      }
+    },
+    "thread_5b": {
+      "type": "Text",
+      "props": {
+        "text": "5b. coinbase built the best payment primitive in crypto and fumbled the marketing so hard that AWS, Stripe and Ripple shipped x402 before most of crypto noticed. the tech is winning despite its own go-to-market. here's the state of it —"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_recommendation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_recommendation",
+        "rec_badge",
+        "rec_rationale"
+      ]
+    },
+    "heading_recommendation": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommendation",
+        "level": "h3"
+      }
+    },
+    "rec_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BEST: 3a (Paragraph variant)",
+        "variant": "default"
+      }
+    },
+    "rec_rationale": {
+      "type": "Text",
+      "props": {
+        "text": "Most Aaron (first-rule-of-x402-club + verified data + \"rails are real, receipts are vibes\"), one-tweet shippable."
+      }
+    }
+  }
+}

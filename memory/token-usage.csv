@@ -46,4 +46,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-16,framework-watch,claude-opus-4-8,2777,21287,1374761,50422
 2026-06-16,engagement-act,claude-opus-4-8,6886,13822,690441,69022
 2026-06-16,heartbeat,claude-opus-4-8,2237,12253,857856,57074
-2026-06-16,fetch-tweets,claude-opus-4-8,2233,6495,454103,26253
+2026-06-16,write-tweet,claude-opus-4-8,2235,11748,812857,59320

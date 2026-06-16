@@ -1,10 +1,10 @@
 {
   "skill": "write-tweet",
-  "last_analyzed": "2026-06-15T17:39:49Z",
+  "last_analyzed": "2026-06-16T18:12:00Z",
   "quality_score": 4,
-  "assessment": "Well-structured, voice-aligned tweet tiers with specific signals sourced; production-ready copy across multiple difficulty levels",
+  "assessment": "Substantive and well-reasoned: strategic topic selection with cross-log verification, multiple draft variations across tiers, precise voice matching to soul files, correct execution with proper logging and notifications",
   "flags": [],
-  "avg_score": 3.6,
+  "avg_score": 3.67,
   "history": [
     {
       "date": "2026-06-11",
@@ -24,6 +24,10 @@
     },
     {
       "date": "2026-06-15",
+      "score": 4
+    },
+    {
+      "date": "2026-06-16",
       "score": 4
     }
   ]
