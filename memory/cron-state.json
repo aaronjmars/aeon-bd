@@ -237,5 +237,9 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4
+  },
+  "x402-monitor": {
+    "last_dispatch": "2026-06-16T13:01:05Z",
+    "last_status": "dispatched"
   }
 }
