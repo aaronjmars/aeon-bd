@@ -1,5 +1,8 @@
 {
   "leads": [
+    {"key": "github:lerugray/generalstaff", "class": "adjacent", "who": "generalstaff (lerugray)", "handle": "lerugray", "signal": "local-first dispatcher for AI coding agents — verification-gated, BYOK, rolls back on test failure (self-repair-adjacent). 7★, pushed 06-15. references miroshark in overnight-relaunch script", "fit": 3, "score": 3, "first_seen": "2026-06-16", "repo_updated": "2026-06-15", "watch": true, "source": "gh_search_code"},
+    {"key": "github:L-ingqin12/aeon", "class": "adjacent", "who": "L-ingqin12/aeon (namesake)", "handle": "L-ingqin12", "signal": "NAMESAKE collision — separate project (not a fork, parent:null) also called 'AEON — Agent Evolution & Optimization Network' (CN), self-evolving Claude Code skills from conversation. exact wedge, 0★. brand-collision watch", "fit": 3, "score": 3, "first_seen": "2026-06-16", "repo_updated": "2026-06-13", "watch": true, "source": "gh_search_repos"},
+    {"key": "github:Arnon-hs/open-source", "class": "mentioning", "who": "Arnon-hs/open-source", "handle": "Arnon-hs", "signal": "personal OSS catalog with aiml/aaronjmars-miroshark.md entry (3★) — distribution surface, not a builder", "fit": 1, "score": 2, "first_seen": "2026-06-16", "source": "gh_search_code"},
     {"key": "github:AI-Risk-Management/aeon-skill-schema", "class": "building", "who": "AI-Risk-Management / AeonBrain", "handle": "AI-Risk-Management", "signal": "aeon-skill-schema — vendor-neutral, ed25519-signed AI skill schema, 'the wire format for AeonBrain'. fresh 06-14, 0★. trust/signing layer for agent skills — ecosystem-infra wedge. VERIFY: aeon-native vs own-standard play", "fit": 3, "score": 15, "first_seen": "2026-06-15", "repo_updated": "2026-06-14", "source": "gh_search_repos"},
     {"key": "x:dabusthebuilder", "class": "mentioning", "who": "Azzle (dabusthebuilder)", "handle": "@dabusthebuilder", "signal": "Azzle founder posted the AzzleAI integration stack — @aeonframework as 'agent setup 4 everyone' alongside bankr + xmtp. 17♥/8RT. Azzle in ECOSYSTEM — founder publicly running aeon as agent-setup layer", "fit": 3, "score": 6, "first_seen": "2026-06-15", "link": "https://x.com/dabusthebuilder/status/2065389270764855691", "source": "xai_x"},
     {"key": "github:kyrolabs/awesome-agents", "class": "mentioning", "who": "kyrolabs/awesome-agents", "handle": "kyrolabs", "signal": "MiroShark added to kyrolabs/awesome-agents curated list (high-traffic awesome-list) — distribution/reach surface", "fit": 3, "score": 6, "first_seen": "2026-06-15", "source": "gh_search_code"},
@@ -133,6 +136,9 @@
     "github:zby/commonplace",
     "github:microchipgnu/frames-monorepo",
     "github:alecjames-dot/nexus-l1-monitor-agent",
-    "github:zszkey/aeon-1"
+    "github:zszkey/aeon-1",
+    "github:lerugray/generalstaff",
+    "github:L-ingqin12/aeon",
+    "github:Arnon-hs/open-source"
   ]
 }

@@ -9,6 +9,9 @@
 # Claude Code local state
 .claude/
 
+# Transient skill scratch files
+.bd-update.py
+
 # Caches (regenerated per run)
 .xai-cache/
 .bankr-cache/
