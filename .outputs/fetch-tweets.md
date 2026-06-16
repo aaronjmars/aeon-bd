@@ -1,19 +1,16 @@
-Executed `skills/fetch-tweets/SKILL.md` for 2026-06-15.
-
 ## Summary
 
-Ran fetch-tweets end-to-end; outcome is **DEGRADED → no notification**, identical to 06-14 and driven by the same unresolved root cause.
+Executed `skills/fetch-tweets/SKILL.md`. Result: **no-op, no notification** — this is the known recurring config gap, now **day 5** (06-12 → 06-16).
 
-**What happened**
-- **Path A (cache):** unavailable — `var` is still unset in `aeon.yml` L137, so the workflow's `scripts/prefetch-xai.sh` skipped (it exits early with "no var") and `.xai-cache/fetch-tweets.json` was never written.
-- **Path B (xAI curl):** blocked — inline `$XAI_API_KEY` trips the sandbox `simple_expansion` guard, and invoking `prefetch-xai.sh` directly requires operator approval (denied in this perm mode).
-- **Path C (WebSearch):** ran the intended query (`@aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation`). Returned the same stale set as yesterday — @aaronjmars roadmap + MiroShark build posts + a BioStone_chad shill, all snowflake IDs in the months-old 2035–2037M range, **zero verifiable engagement counts, no 48h-fresh tweets.**
+**What happened:**
+- `fetch-tweets` is enabled at `aeon.yml:137` with **no `var`** set. The skill requires a search query.
+- Path A (cache): `.xai-cache/fetch-tweets.json` absent — prefetch skips entries with no var (confirmed this run).
+- Path B (xAI curl): sandbox-blocked.
+- Path C (WebSearch): can't produce dated tweets with verifiable engagement counts → fails the skill's data bar.
+- Per skill step 4 + STRATEGY ("never publish unverified claims as fact"): nothing fabricated, nothing sent.
+- No re-notify — the gap was already notified (06-12) and is carried as a heartbeat P2 follow-up; a fix branch is awaiting operator merge. Re-notifying would be noise.
 
-**Decision:** Per the skill's engagement-ranked, 48h-fresh bar and STRATEGY (no unverified claims as fact, avoid filler), I did **not** notify and did **not** fabricate counts. Did not touch `memory/fetch-tweets-seen.txt` (nothing kept).
+**Files modified:**
+- `memory/logs/2026-06-16.md` — appended the `FETCH_TWEETS_NO_VAR` entry (committed).
 
-**Root cause is already in flight** — branches `fix/fetch-tweets-set-var` + `fix/fetch-tweets-var` are pushed and await operator merge (org blocks Actions-created PRs). No new branch opened (would be a 3rd duplicate). Once merged, prefetch populates Path A with real engagement data and the clustered digest works.
-
-**Files**
-- Modified: `memory/logs/2026-06-15.md` (appended `### fetch-tweets` entry) — committed to `main`.
-
-**Follow-up needed (operator):** merge one of the two `fix/fetch-tweets-*var*` branches to set the `var` in aeon.yml L137 — this unblocks Path A and is the single fix for the recurring degraded state.
+**Follow-up (operator action needed):** merge the pending var-gap branch, or set a `var` on the fetch-tweets entry — e.g. `var: "@aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation"` — or disable the skill since `product-pulse`/`bd-radar` already cover product X-deltas. Until then it no-ops every run.

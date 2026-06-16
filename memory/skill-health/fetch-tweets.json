@@ -1,14 +1,12 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-06-15T17:39:53Z",
-  "quality_score": 2,
-  "assessment": "Ran with correct diagnostics and risk management, but zero actionable output — recurring degradation (2nd day), months-stale data, awaiting operator merge to unblock",
+  "last_analyzed": "2026-06-16T18:11:07Z",
+  "quality_score": 3,
+  "assessment": "No-op with high-quality diagnosis: skill ran correctly (refused to publish unverified data), clearly documented the config gap and root cause, provided actionable follow-up. Primary task (fetch tweets) did not complete.",
   "flags": [
-    "empty_output",
-    "stale_data",
-    "low_quality"
+    "empty_output"
   ],
-  "avg_score": 2.75,
+  "avg_score": 2.8,
   "history": [
     {
       "date": "2026-06-12",
@@ -25,6 +23,10 @@
     {
       "date": "2026-06-15",
       "score": 2
+    },
+    {
+      "date": "2026-06-16",
+      "score": 3
     }
   ]
 }
