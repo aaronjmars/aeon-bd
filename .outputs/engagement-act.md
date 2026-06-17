@@ -1,25 +1,25 @@
-*Engagement Act — 2026-06-16*
+*Engagement Act — 2026-06-17*
 
-quiet discovery day — no net-new conversation worth a reply. but the warm book is still open and war-room re-flagged two as owed today. closing is the game now, so here's the ready-to-send copy.
+warm book, day 2 unactioned. war-room escalated #1 + #2 today: SEND before they cool.
 
-*1. @ResearchSwarmAI* (5 days on radar, escalated yday) — preregistered multi-seed MiroShark replication study (`multiseed_miroshark.py`, grok-4.3 judge) on the aeon-atlas fork. warmest lead, academic-grade benchmarking *on* the product.
-link: https://github.com/swarm-ai-research
+*aging — 1. @ResearchSwarmAI* (6 days on radar) — preregistered multi-seed MiroShark replication study (swarm-ai-research/swarm · multiseed_miroshark.py · grok-4.3 judge), on top of the aeon-atlas + MiroShark forks. academic-grade validation *on* the product.
+link: github.com/swarm-ai-research/swarm (no tweet URL — DM or QT the repo)
 type: X reply / DM
-draft: "preregistered multi-seed replication with a grok-4.3 judge — most rigorous thing anyone's run on miroshark 🦈 curious what belief drift looked like across seeds. want to feature the study + pull you into the builder chat"
+draft: "preregistered multi-seed replication on miroshark is the validation the sim category never had 🦈 most people benchmark vibes. want the director-mode + belief-drift internals so the seeds vary on the right axes? would feature the study"
 
-*2. AI-Risk-Management / AeonBrain* (1 day) — ed25519-signed `aeon-skill-schema`, "the wire format for AeonBrain". the skill-trust/signing layer — own it before someone defines it without us.
-link: https://github.com/AI-Risk-Management
+*2. AI-Risk-Management / AeonBrain* (2 days) — ed25519-signed `aeon-skill-schema`, "the wire format for AeonBrain". the trust/provenance layer for agent skills — own it before someone else defines it.
+link: github.com/AI-Risk-Management/aeon-skill-schema
 type: GitHub comment / DM
-draft: "signed skill schemas are the missing trust layer — every agent framework needs this and nobody's shipped it. is aeon-skill-schema meant aeon-native or framework-neutral? either way want to get it in front of the ecosystem. ed25519 wire format for skills is the exact primitive that's been missing ⭐"
+draft: "signed skill schema is the missing trust layer — skills are markdown, anyone can ship one, nothing proves provenance. ed25519 on the wire format is the right call. is this aeon-native or a parallel standard? if native, we want to curate it into the ecosystem before the trust layer fragments. either way — let's talk."
 
-*3. @Root_Edge / RootAI* (1 day) — QT'd the shiplog, 57♥/12RT (best non-official engagement of the week). X window closes fast — reply now.
-link: https://x.com/Root_Edge
+*3. @Root_Edge / RootAI* (2 days) — QT'd the shiplog, 57♥/12RT (best non-official engagement this week). window closing.
+link: no tweet URL in logs — reply on the QT
 type: X reply
-draft: "RootAI QT'ing the shiplog — 57 likes says the autonomy thesis lands. what are you running on aeon? door's open to the builder chat ⭐"
+draft: "the shiplog QT did numbers — 57♥ on a build-in-public post means people want to watch agents actually ship, not demo ⭐ what are you building on aeon? happy to pull you into the builder TG"
 
-*4. @dabusthebuilder / Azzle* (1 day) — posted the AzzleAI integration stack listing @aeonframework as "agent setup 4 everyone" next to bankr + xmtp (17♥/8RT). already in ECOSYSTEM.
-link: https://x.com/dabusthebuilder
+*4. @dabusthebuilder / Azzle* (2 days) — listed @aeonframework as "agent setup 4 everyone" in the AzzleAI integration stack next to bankr + xmtp (17♥/8RT). Azzle already in ECOSYSTEM.
+link: no tweet URL in logs — reply/QT the stack post
 type: X reply / QT
-draft: "aeon next to bankr + xmtp in the azzle stack — 'agent setup 4 everyone' is the right framing, that's exactly the wedge ⭐ what are agents doing on azzle today? let's get you in the TG"
+draft: "aeon next to bankr + xmtp in the AzzleAI stack is the right neighborhood — agent setup that runs unattended ⭐ what's azzle wiring it into? would QT the stack + get you in the builder TG"
 
-some opps aging — act or drop
+ResearchSwarm aging (6d, near the 14d edge) — act or drop. the other three are still warm.

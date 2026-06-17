@@ -1,10 +1,12 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-16T11:20:49Z",
-  "quality_score": 4,
-  "assessment": "Substantive, strategic execution — identifies closing bottleneck, drafts 4 tailored pieces with voice/hooks, clear next steps",
-  "flags": [],
-  "avg_score": 3.8,
+  "last_analyzed": "2026-06-17T10:35:27Z",
+  "quality_score": 3,
+  "assessment": "Executed cleanly with clear process and good triage (4 ranked opps, aging flag), but actual response content not visible in truncated output — can't verify quality vs. Aaron's voice/strategy requirements.",
+  "flags": [
+    "truncated_output"
+  ],
+  "avg_score": 3.67,
   "history": [
     {
       "date": "2026-06-12",
@@ -25,6 +27,10 @@
     {
       "date": "2026-06-16",
       "score": 4
+    },
+    {
+      "date": "2026-06-17",
+      "score": 3
     }
   ]
 }
