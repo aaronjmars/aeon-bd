@@ -1,0 +1,7 @@
+{"ideas":[
+  {"date":"2026-06-17","name":"proof-of-self-repair","one_liner":"every framework now claims self-improvement; only a public repo can prove it — ship the receipt (self-repair ledger)","fit":"aeon","score":15},
+  {"date":"2026-06-17","name":"counterfactual-launch-sim","one_liner":"the unit of competition is the timing window — simulate the window before you spend it (miroshark launch-window template)","fit":"miroshark","score":13},
+  {"date":"2026-06-17","name":"miroshark-social-world-model","one_liner":"world-models wave is all pixels; the missing world model is social — expose miroshark as an MCP/A2A simulate(decision) tool","fit":"miroshark","score":13},
+  {"date":"2026-06-17","name":"pm-presim","one_liner":"PM trading agents bet blind — give them a belief-drift sim before they size the bet (miroshark pm-presim, x402-metered)","fit":"miroshark","score":12},
+  {"date":"2026-06-17","name":"ambient-aeon","one_liner":"ambient AI went consensus; aeon shipped it a year ago on public traces — claim the category (ambient-watch skill + timed launch)","fit":"aeon","score":12}
+]}
