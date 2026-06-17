@@ -67,7 +67,11 @@
     {"key": "github:BBridgeers/aeon", "class": "forking", "who": "BBridgeers", "handle": "BBridgeers", "signal": "aeon fork created 06-01, pushed daily through 06-12 (11d active operator, not drive-by)", "fit": 1, "score": 4, "first_seen": "2026-06-12", "repo_updated": "2026-06-12", "source": "gh_read_pat_forks"},
     {"key": "github:smehrjerdian/MiroShark", "class": "forking", "who": "smehrjerdian", "handle": "smehrjerdian", "signal": "MiroShark fork w/ own commits (+2h activity), first miroshark fork outside known set this week", "fit": 1, "score": 4, "first_seen": "2026-06-12", "repo_updated": "2026-06-02", "source": "gh_read_pat_forks"},
     {"key": "github:z-korp/aeon", "class": "forking", "who": "z-korp", "handle": "z-korp", "signal": "aeon fork, hours of own activity (06-01)", "fit": 1, "score": 4, "first_seen": "2026-06-12", "repo_updated": "2026-06-01", "source": "gh_read_pat_forks"},
-    {"key": "github:jianggaoyi/aeon", "class": "forking", "who": "jianggaoyi", "handle": "jianggaoyi", "signal": "aeon fork, hours of own activity (06-02)", "fit": 1, "score": 4, "first_seen": "2026-06-12", "repo_updated": "2026-06-02", "source": "gh_read_pat_forks"}
+    {"key": "github:jianggaoyi/aeon", "class": "forking", "who": "jianggaoyi", "handle": "jianggaoyi", "signal": "aeon fork, hours of own activity (06-02)", "fit": 1, "score": 4, "first_seen": "2026-06-12", "repo_updated": "2026-06-02", "source": "gh_read_pat_forks"},
+    {"key": "github:gitlumen-team/aeon", "class": "forking", "who": "gitlumen-team/aeon", "handle": "gitlumen-team", "signal": "org fork of aeon w/ custom homepage aeon.fun, 4 days own commits (created 06-12, pushed 06-16) — homepage set = not a drive-by", "fit": 3, "score": 12, "first_seen": "2026-06-17", "repo_updated": "2026-06-16", "source": "gh_read_pat_forks", "move": "check what aeon.fun is; if a live product on aeon, DM org + TG invite"},
+    {"key": "github:rajkaria/aeon", "class": "forking", "who": "rajkaria/aeon", "handle": "rajkaria", "signal": "active named fork, own commits over ~1 day (created 06-15, pushed 06-16), 0 stars", "fit": 1, "score": 4, "first_seen": "2026-06-17", "repo_updated": "2026-06-16", "source": "gh_read_pat_forks", "move": "low-touch; ask what they're building if they resurface"},
+    {"key": "github:asimog/cancerhawk", "class": "adjacent", "who": "asimog/cancerhawk (cancerhawk.vercel.app)", "handle": "asimog", "signal": "open-source cancer-research multi-agent sim (godmode agents, particle viz), references miroshark in llms.txt; stale 05-09, 1 star", "fit": 3, "score": 3, "first_seen": "2026-06-17", "repo_updated": "2026-05-09", "source": "gh_search_code", "move": "outbound; offer MiroShark API as the swarm layer for a domain-vertical sim builder already aware of us"},
+    {"key": "github:Drix10/ai-resources", "class": "mentioning", "who": "Drix10/ai-resources", "handle": "Drix10", "signal": "112-star daily AI resources catalog lists aaronjmars-miroshark; distribution surface", "fit": 1, "score": 2, "first_seen": "2026-06-17", "repo_updated": "2026-06-06", "source": "gh_search_code", "move": "reach play; confirm listing accurate, free top-of-funnel"}
   ],
   "surfaced": [
     "github:AntFleet",
@@ -139,6 +143,10 @@
     "github:zszkey/aeon-1",
     "github:lerugray/generalstaff",
     "github:L-ingqin12/aeon",
-    "github:Arnon-hs/open-source"
+    "github:Arnon-hs/open-source",
+    "github:gitlumen-team/aeon",
+    "github:rajkaria/aeon",
+    "github:asimog/cancerhawk",
+    "github:Drix10/ai-resources"
   ]
 }
