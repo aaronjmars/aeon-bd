@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "idea-forge",
+        "description": "This week's #1 wedge"
+      },
+      "children": [
+        "heading_wedge",
+        "text_concept",
+        "text_implementation",
+        "text_criteria",
+        "link_digest"
+      ]
+    },
+    "heading_wedge": {
+      "type": "Heading",
+      "props": {
+        "text": "⭐ proof of self-repair",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_concept": {
+      "type": "Text",
+      "props": {
+        "text": "self-evolving agents stopped being our thesis and became a category this month — agentfactory, memento-skills, venusfactory2, a whole venturebeat piece on \"agents that rewrite their own skills.\" everyone claims the moat now. so the moat moves. when the claim commoditizes, the differentiator is *proof* — and aeon is the only entrant where every self-repair is already a public git commit."
+      },
+      "children": []
+    },
+    "text_implementation": {
+      "type": "Text",
+      "props": {
+        "text": "ship the receipt: a `self-repair-ledger` skill that scans our own history + run-state and emits a public, dated ledger — every skill aeon wrote / reviewed / merged / squash-deleted, the failing run that triggered it, the green run after. one auto-updated page, linkable, buildable this week."
+      },
+      "children": []
+    },
+    "text_criteria": {
+      "type": "Text",
+      "props": {
+        "text": "kill it if nobody clicks or cites it in 2 weeks."
+      },
+      "children": []
+    },
+    "link_digest": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest (5 ranked wedges)",
+        "href": "articles/idea-forge-2026-06-17.md",
+        "source": "idea-forge"
+      },
+      "children": []
+    }
+  }
+}
