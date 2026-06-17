@@ -1,0 +1,305 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Competitor Launch Radar — 2026-06-17"
+      },
+      "children": [
+        "intro_text",
+        "separator_1",
+        "entries_stack",
+        "separator_2",
+        "notes_alert",
+        "digest_link"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "7 new agent entrants outside the tracked cohort this week. one real framework competitor, the rest adjacent.",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "entries_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "entry_1",
+        "entry_2",
+        "entry_3",
+        "entry_4",
+        "entry_5",
+        "entry_6",
+        "entry_7"
+      ]
+    },
+    "entry_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry_1_category",
+        "entry_1_link",
+        "entry_1_description"
+      ]
+    },
+    "entry_1_category": {
+      "type": "Badge",
+      "props": {
+        "text": "framework",
+        "variant": "default"
+      }
+    },
+    "entry_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Apache Burr",
+        "href": "https://news.ycombinator.com/item?id=48477400",
+        "source": "HN",
+        "score": "★249"
+      }
+    },
+    "entry_1_description": {
+      "type": "Text",
+      "props": {
+        "text": "build agents + multi-agent systems, state-machine API. now under apache governance — direct cohort competitor, langgraph framing.",
+        "variant": "body"
+      }
+    },
+    "entry_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry_2_category",
+        "entry_2_link",
+        "entry_2_description"
+      ]
+    },
+    "entry_2_category": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "default"
+      }
+    },
+    "entry_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "state-harness",
+        "href": "https://news.ycombinator.com/item?id=48488870",
+        "source": "HN",
+        "score": "★10"
+      }
+    },
+    "entry_2_description": {
+      "type": "Text",
+      "props": {
+        "text": "runtime safety net for llm agents. rust core + python sdk, kills runaway agent loops cheap. adjacent to aeon self-repair.",
+        "variant": "body"
+      }
+    },
+    "entry_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry_3_category",
+        "entry_3_link",
+        "entry_3_description"
+      ]
+    },
+    "entry_3_category": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "default"
+      }
+    },
+    "entry_3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SolonGate",
+        "href": "https://www.producthunt.com/products/solongate",
+        "source": "PH"
+      }
+    },
+    "entry_3_description": {
+      "type": "Text",
+      "props": {
+        "text": "zero-trust security gateway for ai agents. bounds what an autonomous agent can touch — inverse of the vuln-scanner thread.",
+        "variant": "body"
+      }
+    },
+    "entry_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry_4_category",
+        "entry_4_link",
+        "entry_4_description"
+      ]
+    },
+    "entry_4_category": {
+      "type": "Badge",
+      "props": {
+        "text": "mcp",
+        "variant": "default"
+      }
+    },
+    "entry_4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Spanly",
+        "href": "https://www.producthunt.com/products/spanly",
+        "source": "PH"
+      }
+    },
+    "entry_4_description": {
+      "type": "Text",
+      "props": {
+        "text": "observability into what agents do inside your mcp server. mcp tooling maturing past raw servers.",
+        "variant": "body"
+      }
+    },
+    "entry_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry_5_category",
+        "entry_5_link",
+        "entry_5_description"
+      ]
+    },
+    "entry_5_category": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "default"
+      }
+    },
+    "entry_5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Locus Founder",
+        "href": "https://www.producthunt.com/products/locus-founder",
+        "source": "PH"
+      }
+    },
+    "entry_5_description": {
+      "type": "Text",
+      "props": {
+        "text": "\"text an ai agent, it builds + runs your business.\" posted by garry tan — the backer is the signal.",
+        "variant": "body"
+      }
+    },
+    "entry_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry_6_category",
+        "entry_6_link",
+        "entry_6_description"
+      ]
+    },
+    "entry_6_category": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "default"
+      }
+    },
+    "entry_6_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Wolfram Language 15",
+        "href": "https://www.producthunt.com/products/wolfram-mathematica",
+        "source": "PH"
+      }
+    },
+    "entry_6_description": {
+      "type": "Text",
+      "props": {
+        "text": "computational language \"built for humans and ai agents.\" incumbent courting agents-as-users.",
+        "variant": "body"
+      }
+    },
+    "entry_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry_7_category",
+        "entry_7_link",
+        "entry_7_description"
+      ]
+    },
+    "entry_7_category": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "default"
+      }
+    },
+    "entry_7_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PaneFlow",
+        "href": "https://www.producthunt.com/products/paneflow",
+        "source": "PH"
+      }
+    },
+    "entry_7_description": {
+      "type": "Text",
+      "props": {
+        "text": "ai agents that build animated slideshows. narrow vertical, low signal.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notes_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Dropped 2 viral HN hits: agent-bankrupts-operator ★1461, agent-runs-amok-in-fedora ★552 — news/incidents, not launches. PH has no upvote data in RSS, so PH rows carry no score."
+      }
+    },
+    "digest_link": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest: articles/competitor-radar-2026-06-17.md",
+        "href": "articles/competitor-radar-2026-06-17.md"
+      }
+    }
+  }
+}

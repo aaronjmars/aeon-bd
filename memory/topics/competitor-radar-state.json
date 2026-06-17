@@ -1,0 +1,13 @@
+{
+  "last_run": "2026-06-17",
+  "last_status": "COMPETITOR_LAUNCH_RADAR_OK",
+  "announced": [
+    {"id":"hn:48477400","name":"Apache Burr: Build reliable AI agents and applications","url":"https://news.ycombinator.com/item?id=48477400","class":"framework","score":249,"source":"hackernews","announced_at":"2026-06-17"},
+    {"id":"hn:48488870","name":"Show HN: state-harness — detect when LLM agents spiral","url":"https://news.ycombinator.com/item?id=48488870","class":"product","score":10,"source":"hackernews","announced_at":"2026-06-17"},
+    {"id":"ph:wolfram-mathematica","name":"Wolfram Language 15","url":"https://www.producthunt.com/products/wolfram-mathematica","class":"product","score":null,"source":"producthunt","announced_at":"2026-06-17"},
+    {"id":"ph:solongate","name":"SolonGate","url":"https://www.producthunt.com/products/solongate","class":"product","score":null,"source":"producthunt","announced_at":"2026-06-17"},
+    {"id":"ph:paneflow","name":"PaneFlow","url":"https://www.producthunt.com/products/paneflow","class":"product","score":null,"source":"producthunt","announced_at":"2026-06-17"},
+    {"id":"ph:spanly","name":"Spanly","url":"https://www.producthunt.com/products/spanly","class":"mcp","score":null,"source":"producthunt","announced_at":"2026-06-17"},
+    {"id":"ph:locus-founder","name":"Locus Founder","url":"https://www.producthunt.com/products/locus-founder","class":"product","score":null,"source":"producthunt","announced_at":"2026-06-17"}
+  ]
+}

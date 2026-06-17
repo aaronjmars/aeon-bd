@@ -11,6 +11,7 @@
 
 # Transient skill scratch files
 .bd-update.py
+.radar_*
 
 # Caches (regenerated per run)
 .xai-cache/
