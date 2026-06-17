@@ -1,21 +1,26 @@
-Done. `bd-radar` executed for 2026-06-16.
+Done. bd-radar executed for 2026-06-17. The notify gate was correctly **not** triggered — 0 net-new `building`/`integrating` leads, so it rolls into war-room rather than self-notifying.
 
 ## Summary
 
-Quiet day — the high-intent inbound all surfaced earlier in the week and is already in the lead book. The prefetch caches turned up **zero net-new**: every aeon/MiroShark fork + issue is already surfaced or a drive-by snapshot (pushed-before-created, no own commits); the X cache was empty (only $MiroShark token spam, no builder accounts). Discovery (`gh search`) found 3 marginal, low-intent leads.
+**bd-radar — 2026-06-17 · MODE=execute · committed to main (`6d96f15`)**
 
-**Net-new: 3** — 0 building · 0 integrating · 1 mentioning · 2 adjacent:
-1. **lerugray/generalstaff** (adjacent) — local-first AI-coding-agent dispatcher, verification-gated + rollback-on-test-fail (self-repair-adjacent), 7★; references miroshark. Watch — same wedge as aeon's autonomy thesis.
-2. **L-ingqin12/aeon** (adjacent) — **namesake collision**: a separate "AEON — Agent Evolution & Optimization Network" (CN, self-evolving Claude Code skills), not a fork. Brand-collision watch.
-3. **Arnon-hs/open-source** (mentioning) — OSS catalog listing miroshark; distribution surface, not a builder.
+Ran the full BD sweep. Sources: GitHub forks/issues prefetch cache ✅, `gh search` repos ✅ + code ✅ (`aeonframework` code query hit a transient HTTP 429; repos + `miroshark` code completed), xAI X cache ✅, WebSearch ✅. No prompt injection in any fetched content.
 
-**Read:** the daily inbound is thin because the warm names are already flagged and waiting on outreach — the bottleneck shifted from discovery to **closing** the ~10 unactioned high-intent leads. **Notify gated off** (requires ≥1 net-new building/integrating lead; none today) — rolls into war-room.
+**4 net-new leads** (deduped vs surfaced(70) + 14-day log set) — **2 forking · 1 adjacent · 1 mentioning · 0 building · 0 integrating**:
+1. **gitlumen-team/aeon** (forking, score 12) — org fork with a custom homepage `aeon.fun` + 4 days of own commits. The set homepage flags a real product-in-progress, not a drive-by → top lead, verify what aeon.fun is and DM if live.
+2. **rajkaria/aeon** (forking, 4) — active named fork, low-touch.
+3. **asimog/cancerhawk** (adjacent, 3) — cancer-research multi-agent sim that references miroshark; outbound candidate for the MiroShark API.
+4. **Drix10/ai-resources** (mentioning, 2) — 112★ AI catalog listing miroshark; distribution reach.
+
+**Read:** Second quiet discovery day running. The caches and `gh search` are now almost entirely already-surfaced names or drive-by snapshots. Discovery isn't the gap — the warm high-intent book (ResearchSwarm, AeonBrain, AntFleet, Sparkleware, dan-and, DYAI2025) is already named and **still owed outreach**. The bottleneck is closing, not finding — surfaced in the digest's "warm book" section for war-room to carry.
+
+**Notify:** skipped (gate requires ≥1 net-new `building`/`integrating`; none today).
 
 **Files:**
-- Created `articles/bd-radar-2026-06-16.md` (ranked digest)
-- Updated `memory/topics/bd-radar-leads.json` (leads 65, surfaced 70)
-- Created `memory/logs/2026-06-16.md` (`### bd-radar` block)
-- Updated `.gitignore` (added `.bd-update.py` — the sandbox blocked `rm` of a transient scratch file, so I gitignored it instead of leaving it to be auto-committed)
-- Committed to `main` (so war-room can read the digest)
+- created `articles/bd-radar-2026-06-17.md` (ranked digest + warm-book + source notes)
+- updated `memory/topics/bd-radar-leads.json` (leads 65→69, surfaced 70→74)
+- updated `memory/logs/2026-06-17.md` (`### bd-radar` block)
 
-**Follow-up:** none required. Two items to keep an eye on flagged for future runs — the `generalstaff` "verification-gated autonomy" pattern showing up in a competitor's runner, and the second project literally named **AEON** in the self-evolving-skills lane (search/brand collision).
+**Follow-ups (not blocking):**
+- The high-intent warm leads remain unactioned — the real lever this week is outreach, not the next sweep.
+- `.bd-update.py` scratch file couldn't be `rm`'d (sandbox blocks deletes) but is already in `.gitignore`, so it stays untracked — same workaround the 06-16 run used.
