@@ -134,7 +134,7 @@ skills:
   create-skill: { enabled: false, schedule: "workflow_dispatch", var: "" } # one-shot skill creator — set var to a description prompt
 
   # --- X / social (5 PM UTC) ---
-  fetch-tweets: { enabled: true, schedule: "0 17 * * *" }
+  fetch-tweets: { enabled: true, schedule: "0 17 * * *", var: "@aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation" } # var feeds prefetch-xai (Path A cache); without it the skill no-ops (no query → prefetch skips → empty cache)
   refresh-x: { enabled: false, schedule: "0 17 * * *" }
   list-digest: { enabled: false, schedule: "0 17 * * *" }
   write-tweet: { enabled: true, schedule: "15 17 * * *" }
