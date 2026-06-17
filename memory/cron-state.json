@@ -20,7 +20,7 @@
     "last_quality_score": 4
   },
   "product-pulse": {
-    "last_status": "failed",
+    "last_status": "dispatched",
     "last_success": "2026-06-16T07:38:58Z",
     "total_runs": 11,
     "total_successes": 9,
@@ -28,7 +28,7 @@
     "consecutive_failures": 2,
     "success_rate": 0.82,
     "last_quality_score": 5,
-    "last_dispatch": "2026-06-17T08:55:27Z",
+    "last_dispatch": "2026-06-17T10:31:52Z",
     "last_failed": "2026-06-17T08:59:30Z",
     "last_error": "ard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":465,"
   },
@@ -90,7 +90,7 @@
     "last_quality_score": 4
   },
   "bd-radar": {
-    "last_status": "failed",
+    "last_status": "dispatched",
     "last_success": "2026-06-16T07:38:42Z",
     "total_runs": 9,
     "total_successes": 8,
@@ -98,7 +98,7 @@
     "consecutive_failures": 1,
     "success_rate": 0.89,
     "last_quality_score": 4,
-    "last_dispatch": "2026-06-17T08:55:27Z",
+    "last_dispatch": "2026-06-17T10:31:52Z",
     "last_failed": "2026-06-17T08:59:30Z",
     "last_error": "e_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inp"
   },
@@ -124,8 +124,8 @@
     "last_quality_score": 4
   },
   "engagement-act": {
-    "last_dispatch": "2026-06-16T11:16:42Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-17T10:31:52Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-16T11:21:32Z",
     "total_runs": 5,
     "total_successes": 5,
@@ -256,5 +256,9 @@
     "last_error": "okens\":13,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":0,\"costUSD\":0.000531,\"contextWindow\":200000,\"maxOutputTokens\":32000},\"claude-opus-4-8\":{\"inputTokens\":139,\"outputTok",
     "last_success": "2026-06-16T14:52:44Z",
     "last_quality_score": 4
+  },
+  "competitor-radar": {
+    "last_dispatch": "2026-06-17T10:31:52Z",
+    "last_status": "dispatched"
   }
 }
