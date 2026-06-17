@@ -1,18 +1,16 @@
-Notify queued to `.pending-notify/1781602132.md` — the sandbox blocked the direct send, so the post-run `postprocess-notify.sh` fans it out to the channels after this finishes (the documented fallback). Content is correct.
+⭐🦈 war room — 2026-06-17
 
-## Summary
+state: today's pulse/bd haven't landed yet (cron batching) — running on yesterday's read. miroshark still cooking: 1,282★ (+25/5d, +10 yday), 0→11 open PRs, x402 layer moving. aeon flat at 514. one lingering flag: mirror-sync CI red since 06-15 — it's the upstream-sync job, not the skills (those 30✓/27✓ green). mirrors just aren't pulling latest.
 
-Ran the **war-room** standup for **2026-06-16** (MODE=execute). Read today's product-pulse + bd-radar digests, both state files, and sim-watch-2026-06-14 (within 7d). All inputs present — no `WAR_ROOM_NO_INPUTS`.
+talk to: not new leads — the warm book. ResearchSwarm (preregistered miroshark study) still owed a reply, AeonBrain (signed skill-schema) still owed a call. both have been sitting all week.
 
-The brief (Aaron's voice, ~95 words, state · talk-to · decide):
-- **state** — 🔴 CI red on both mirror repos, but it's the upstream-*sync* job, not the skills (30✓/27✓ green); MiroShark cooking at 1,282★ (+25/5d), x402 layer active again; aeon flat at 514.
-- **talk to** — no net-new worth chasing (3 adjacent crumbs); work the warm book — ResearchSwarm reply + AeonBrain call still owed.
-- **decide** — MiroShark went 0→11 open PRs overnight; *that burst is the BD pipeline now* — triage + merge today. Discovery's done, closing is the game.
+decide: the book is aging. yesterday was "merge the 11 PRs" — today actually send the two outbound: ResearchSwarm reply + AeonBrain call. a named warm lead that sits goes cold. we have ~10 unactioned high-intent names — discovery's done, closing is the whole game. send the two before they cool.
 
-**Files:**
-- Created `articles/war-room-2026-06-16.md` (brief + source appendix)
-- Updated `memory/logs/2026-06-16.md` (`### war-room`, `WAR_ROOM_OK`)
-- Committed both to `main`
-- Queued notify to `.pending-notify/` (post-run script will deliver)
+---
 
-**Follow-up (the decide-line, for the team):** triage/merge the 11 open MiroShark PRs today; fire the ResearchSwarm reply; quick-fix the mirror-sync CI so public mirrors pull latest.
+### Appendix — sources
+- [product-pulse-2026-06-16](./product-pulse-2026-06-16.md) — repo-family + X state (mirror-sync CI red; MiroShark +25/5d, 0→11 PRs, x402 active; aeon flat 514)
+- [bd-radar-2026-06-16](./bd-radar-2026-06-16.md) — 0 net-new high-intent; bottleneck shifted discovery → closing, ~10 warm names unactioned (ResearchSwarm, AeonBrain owed outreach)
+- [sim-watch-2026-06-14](./sim-watch-2026-06-14.md) — tailwind: Google + World Labs legitimizing simulation top-down; social-outcome wedge still open
+
+> note: today's (06-17) product-pulse + bd-radar weren't committed before this run — GitHub batches the 07:45 cron. Brief built on the 06-16 digests (most recent). State numbers are ~24h old.
