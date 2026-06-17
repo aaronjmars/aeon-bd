@@ -327,8 +327,8 @@ skills:
       var: ""
     } # daily 08:00 UTC — audit enabled skills' upstream file dependencies for staleness; pass dry-run to skip notify; per-class thresholds (articles 28h / .outputs 4h / topics 7d / state 30d); fingerprint-based dedup, 7d re-emit window
   smithery-manifest: { enabled: false, schedule: "0 6 1/7 * *" } # weekly — refresh docs/smithery-manifest.json + smithery.yaml + smithery-submission.md from skills.json + aeon-mcp; PR + notify only on diff
-  show-hn: { enabled: true, schedule: "workflow_dispatch", var: "" } # one-shot — draft Show HN post + r/MachineLearning + r/selfhosted variants from live repo state, ready for the operator to paste at launch time. Set var to one of {show-hn, r/MachineLearning, r/selfhosted} to regenerate that single variant.
-  product-hunt: { enabled: true, schedule: "workflow_dispatch", var: "" } # one-shot — draft the full Product Hunt launch asset pack (tagline 60ch / description 260ch / first comment 500ch / maker comment 500ch / six 80ch feature bullets) from live repo state. Set var to one of {tagline, description, first-comment, maker-comment, bullets} to regenerate that single section only.
+  show-hn: { enabled: true, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # one-shot — draft Show HN post + r/MachineLearning + r/selfhosted variants from live repo state, ready for the operator to paste at launch time. Set var to one of {show-hn, r/MachineLearning, r/selfhosted} to regenerate that single variant.
+  product-hunt: { enabled: true, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # one-shot — draft the full Product Hunt launch asset pack (tagline 60ch / description 260ch / first comment 500ch / maker comment 500ch / six 80ch feature bullets) from live repo state. Set var to one of {tagline, description, first-comment, maker-comment, bullets} to regenerate that single section only.
   v4-readiness:
     {
       enabled: false,
@@ -397,7 +397,7 @@ skills:
 
   # Ideas & productivity
   idea-pipeline: { enabled: false, schedule: "0 18 * * 1" } # Monday — execution-gap audit: top 3 backlog ideas to build this week
-  idea-validator: { enabled: true, schedule: "0 18 * * 5" } # Monday — screen the startup-idea backlog, score viability
+  idea-validator: { enabled: true, schedule: "0 18 * * 5", model: "claude-opus-4-8" } # Monday — screen the startup-idea backlog, score viability
   milestone-tracker: { enabled: false, schedule: "0 19 * * 1" } # Monday — progress on key product/growth milestones; crossings, approaches, stalls
   note-taking: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — save a note (Supernotes card or memory/notes/)
 
@@ -427,7 +427,7 @@ skills:
       schedule: "0 10 * * 0",
       var: ""
     } # Sunday 10:00 UTC — weekly engagement analysis of the operator's X account (topics, formats, breakouts); feeds article-queue/topic-momentum. var: X handle (no @); falls back to soul/SOUL.md. XAI_API_KEY optional (WebSearch fallback).
-  thread-writer: { enabled: true, schedule: "workflow_dispatch", var: "" } # on-demand — write a 5–10 tweet thread in the operator's voice on a topic/URL; picks the sharpest recent signal from memory if var empty
+  thread-writer: { enabled: true, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # on-demand — write a 5–10 tweet thread in the operator's voice on a topic/URL; picks the sharpest recent signal from memory if var empty
   # Social
   mention-radar:
     {
@@ -444,10 +444,10 @@ skills:
   # outputs at 07:45 via its fallback path and sends the team brief.
   product-pulse: { enabled: true, schedule: "15 7 * * *", var: "" } # 07:15 UTC — state of aeon+miroshark: GitHub repo-family health + X deltas, week-over-week. Quiet unless red-flag. war-room reads its digest.
   bd-radar: { enabled: true, schedule: "20 7 * * *", var: "" } # 07:20 UTC — BD radar: who's building/forking/integrating/mentioning the products → ranked leads + a next move each. Quiet unless high-intent lead.
-  war-room: { enabled: true, schedule: "45 7 * * *", var: "" } # 07:45 UTC — daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Reads the day's product-pulse + bd-radar digests. Always notifies.
+  war-room: { enabled: true, schedule: "45 7 * * *", var: "", model: "claude-opus-4-8" } # 07:45 UTC — daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Reads the day's product-pulse + bd-radar digests. Always notifies.
   # Weekly thinkers — standalone cron; war-room folds in their latest digest if <7d old.
   sim-watch: { enabled: true, schedule: "0 13 * * 0", var: "" } # Sun 13:00 UTC — Miroshark category intel (LLM/social simulation + world models): competitors, papers, clones; copy/counter/opening verdicts.
-  idea-forge: { enabled: true, schedule: "0 16 * * 3", var: "" } # Wed 16:00 UTC — weekly business-idea engine: zeitgeist × aeon/miroshark capability surface → 3-5 timing-window-scored wedges. Notifies the #1.
+  idea-forge: { enabled: true, schedule: "0 16 * * 3", var: "", model: "claude-opus-4-8" } # Wed 16:00 UTC — weekly business-idea engine: zeitgeist × aeon/miroshark capability surface → 3-5 timing-window-scored wedges. Notifies the #1.
 
   # --- Fallback (must be last) ---
   heartbeat: { enabled: true, schedule: "0 8,14,20 * * *" }
