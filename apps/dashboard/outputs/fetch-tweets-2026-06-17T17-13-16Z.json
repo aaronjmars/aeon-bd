@@ -1,0 +1,251 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark (2026-06-17)"
+      },
+      "children": [
+        "text_summary",
+        "separator_1",
+        "heading_ecosystem",
+        "tweet_1_stack",
+        "tweet_2_stack",
+        "separator_2",
+        "heading_aeon",
+        "tweet_3_stack",
+        "tweet_4_stack",
+        "separator_3",
+        "heading_skeptics",
+        "tweet_5_stack"
+      ]
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet day — ≤1 like across the board, zero Miroshark mentions. One real signal: Azzle ($AZL) shipping on Aeon (+bankrbot +xmtp, 750 NPM downloads overnight). Worth a BD touch."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_ecosystem": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem builds",
+        "level": "h2"
+      }
+    },
+    "tweet_1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_1",
+        "engagement_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "toktiol",
+        "handle": "toktiol",
+        "text": "Azzle ($AZL) \"built on @aeonframework\", wired to bankrbot + xmtp, 750 NPM downloads in one night. A real build, not just a mention — chase the DM.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "engagement_1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/toktiol/status/2067014526445461651"
+      }
+    },
+    "tweet_2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_2",
+        "engagement_2",
+        "link_2"
+      ]
+    },
+    "tweet_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sparklewarefun",
+        "handle": "sparklewarefun",
+        "text": "turning every skill pack in the Aeon registry into holographic trading cards — flip one for its skills + install. Community riffing on skills-as-markdown.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "engagement_2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link_2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/sparklewarefun/status/2066950537627734479"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "$AEON accumulation",
+        "level": "h2"
+      }
+    },
+    "tweet_3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_3",
+        "engagement_3",
+        "link_3"
+      ]
+    },
+    "tweet_3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "lev_eth",
+        "handle": "lev_eth",
+        "text": "keep adding $aeon at these levels because nobody is paying attention yet. Quiet accumulation tone.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "engagement_3": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link_3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/lev_eth/status/2066988843291586568"
+      }
+    },
+    "tweet_4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_4",
+        "engagement_4",
+        "link_4"
+      ]
+    },
+    "tweet_4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Tradinator33",
+        "handle": "Tradinator33",
+        "text": "clocked the rewards/ecosystem push for $aeon, says he \"peeped the dms.\" Inbound-curious lead.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "engagement_4": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link_4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Tradinator33/status/2066984760925110454"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_skeptics": {
+      "type": "Heading",
+      "props": {
+        "text": "Skeptics",
+        "level": "h2"
+      }
+    },
+    "tweet_5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_5",
+        "engagement_5",
+        "link_5"
+      ]
+    },
+    "tweet_5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "CHAN20351",
+        "handle": "CHAN20351",
+        "text": "(zh) \"sort out your own aeon token first.\" Lone critical voice — low reach.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "engagement_5": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link_5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/CHAN20351/status/2067027805423255590"
+      }
+    }
+  }
+}

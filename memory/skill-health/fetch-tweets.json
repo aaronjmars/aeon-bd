@@ -1,12 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-06-16T18:11:07Z",
-  "quality_score": 3,
-  "assessment": "No-op with high-quality diagnosis: skill ran correctly (refused to publish unverified data), clearly documented the config gap and root cause, provided actionable follow-up. Primary task (fetch tweets) did not complete.",
-  "flags": [
-    "empty_output"
-  ],
-  "avg_score": 2.8,
+  "last_analyzed": "2026-06-17T17:13:16Z",
+  "quality_score": 4,
+  "assessment": "Completed task well — identified concrete BD lead (Azzle ecosystem build), proper dedup/filtering logic, good follow-up (verify before outreach), memory updated correctly.",
+  "flags": [],
+  "avg_score": 3,
   "history": [
     {
       "date": "2026-06-12",
@@ -27,6 +25,10 @@
     {
       "date": "2026-06-16",
       "score": 3
+    },
+    {
+      "date": "2026-06-17",
+      "score": 4
     }
   ]
 }
