@@ -1,13 +1,14 @@
 {
   "skill": "reply-maker",
-  "last_analyzed": "2026-06-16T19:31:35Z",
+  "last_analyzed": "2026-06-17T18:11:18Z",
   "quality_score": 3,
-  "assessment": "Completed adequately with substantive output (10 replies, 5 targets), but undermined by stale cache data (19-31h old tweets, outside prime 6-12h reply window) and recurring systemic prefetch-timing issue.",
+  "assessment": "Substantive strategic output, but self-reported as DEGRADED due to stale cache (17–28h old candidates) and WebSearch failure on execution day.",
   "flags": [
     "stale_data",
-    "low_quality"
+    "cache_staleness",
+    "search_failure"
   ],
-  "avg_score": 3.17,
+  "avg_score": 3.14,
   "history": [
     {
       "date": "2026-06-11",
@@ -31,6 +32,10 @@
     },
     {
       "date": "2026-06-16",
+      "score": 3
+    },
+    {
+      "date": "2026-06-17",
       "score": 3
     }
   ]

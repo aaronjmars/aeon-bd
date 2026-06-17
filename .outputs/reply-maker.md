@@ -1,34 +1,34 @@
-*Reply Maker — 2026-06-16* `REPLY_MAKER_DEGRADED`
-_stale window: prefetch cache only surfaced tweets from ~19–31h ago (xAI window closed late 06-15). Outside the prime 6h slot — takes are evergreen + on-strategy so shipping anyway. Verify each is still live before firing._
+*Reply Maker — REPLY_MAKER_DEGRADED — 2026-06-17*
+_stale window: prefetch closed June 16 ~23:59 UTC; all candidates ~17–28h old — takes are evergreen + on-strategy so shipping anyway_
 
-*1.* https://x.com/graphprotocol/status/2066500932917969231  (@graphprotocol, ~31h ago, 117♥ 14💬)
-> MCP gives real-time data access. Skills bundle docs/expertise. x402 lets agents pay per query. Each layer removes a step between an agent and the data it needs to act…
-why: clean MCP→Skills→x402 stack framing, big-account reach, not yet swarmed — easy to extend or flip
-A: the layer you skipped: scheduling. mcp + skills + x402 still need a trigger. cron is trivial but it’s what turns "agent can act" into "agent acts before you ask." that’s the last step between data and autonomy ⭐
-B: removing steps is the easy part. the step nobody’s removing: verification. an agent that can pay per query autonomously can also get rugged per query autonomously. x402 without receipts you can check is just faster mistakes.
+*1.* https://x.com/samconnerone/status/2067033262665375867  (@samconnerone, ~17h ago, 23💬 120♥ 20RT)
+> Really enjoyed @bleso_a's video... Circle Agent Stack for agents holding funds, paying via x402-style infra, marketplace…
+why: highest-engagement x402 agent-payments take in the cache — Aaron's direct thesis territory, thread still open
+A: bankr trading fees + x402 = the agent's compute bill pays itself. Tweazy does this on CDP wallets. but the real unlock isn't custody — it's spending policy: when does the agent approve its own tx? circle solves the rails, not that.
+B: holding funds is the easy part. authorize-a-wallet > locked credits, sure. but the smart-spend layer — when the agent decides NOT to pay — is still a prompt. custody without budget policy is just a fancier way to run out of money.
 
-*2.* https://x.com/boyuan_chen/status/2066667367921320150  (@boyuan_chen, ~20h ago, 0♥ 1💬)
-> the MCP vs CLI debate gets clearer when you ask who owns the blast radius… should this action inherit my local shell identity, or pass through a governed integration surface?
-why: sharp agent-security framing, near-zero replies = wide-open thread, dead center of aeon’s harness/identity turf
-A: blast-radius framing is right. concrete: we run agent skills on github actions, so every action inherits the runner token scope — read-only PAT for reads, never the commit token. boundary isn’t mcp vs cli, it’s which identity the harness hands each task ⭐
-B: good stack uses both — sure. but the mcp-vs-cli axis is a distraction. the real split is replayable vs not. a cli command a human can re-run beats a governed mcp call nobody can audit. governance you can’t replay is theater.
+*2.* https://x.com/repligate/status/2067032783298428987  (@repligate, ~17h ago, 3💬 46♥ 2RT)
+> I discussed GPT-3 and Loom with Fable... deep reflections on base models vs RLed agentic LLMs, coherence, hallucination insights…
+why: intellectual depth on base models vs RL training — Aaron's territory, room to add Loom/Fable specifics + the harness thesis
+A: loom showed this in 2021 — davinci base had more texture than any RLHF successor. Fable/Mythos is the first model that hasn't impressed me. if intelligence has plateaued, the harness is the only variable left.
+B: base models don't hallucinate — they generate. RLHF models hallucinate because they're trained to sound confident. GPT-3 was more honest about uncertainty than anything post-RLHF. the coherence loss is the training objective, not the architecture.
 
-*3.* https://x.com/alephantai/status/2066671692630331695  (@alephantai, ~19h ago, 3♥ 0💬)
-> x402 makes every workflow measurable as a business unit. revenue in, model/tool spend out, receipts for what happened in between…
-why: x402-as-P&L thesis — direct lane to surface Miroshark’s unit economics as living proof
-A: the "workflow as business unit" framing is the real unlock. miroshark already runs this way — x402-native, ~$1 per sim under 10 min, spend in / signal out. once receipts exist, agents stop being a cost center and start being a P&L 🦈
-B: measurability isn’t the moat — a gateway is a thin layer anyone can fork. the hard part is the agent on top that earns more than it burns. receipts make the loss legible; they don’t make it profitable. unit economics > unit metering.
+*3.* https://x.com/rachittshah/status/2066871651749486753  (@rachittshah, ~28h ago, 2💬 5♥ 1RT)
+> It's been over a year since we have seen agents... model is commodity, local is real, verification is the product, harnesses/memory matter…
+why: perfect alignment with Aeon's thesis — Aaron can add specific proof (stars, skills, public traces) and sharpen to "the harness IS the model"
+A: aeon has been on this thesis for a year — 517★, 197 skills, public traces on github actions. the one nobody mentions: if it's not verifiable, it's vaporware. public traces or it doesn't count. ⭐
+B: the harness IS the model — not "harnesses matter", the harness IS the model. if openai spends $10B for 10% smarter, a harness that extracts 20% more from the same model is worth more. nobody's building for that.
 
-*4.* https://x.com/usestork/status/2066669046649475262  (@usestork, ~20h ago, 0♥ 0💬)
-> distribution still beats technology — the person who closes the dentist wins over the person who built the better voice model…
-why: pure GTM take on our north-star (distribution > tech); room to generalize past voice into agent verticals
-A: distribution-beats-tech isn’t just voice — it’s every agent vertical. the aeon forks that win aren’t best-coded, they’re the ones that shipped where someone already pays. harness is commodity. the wedge is the dentist ⭐
-B: distribution wins — until the no-code stack everyone uses means the dentist gets 5 identical pitches by friday. commoditized tech commoditizes the closer too. the edge isn’t closing the dentist, it’s owning a workflow he can’t buy off the shelf.
+*4.* https://x.com/pulmencr/status/2067030545046102487  (@pulmencr, ~17h ago, 3💬 18♥ 5RT)
+> A 21-year-old from China is charging businesses $1,500 for videos that cost him 15 minutes to make... Claude + Higgsfield via MCP, $13k/month…
+why: compute→money thesis playing out at the freelancer layer; Aaron can both celebrate it and call the expiry date
+A: $1,500 / 15min = $6k/hr effective rate. bitcoin turned electricity into money, MCP + Higgsfield is turning inference into margin. the 21yo figured it out before the VC-funded AI tools companies.
+B: the service is temporary. businesses paying $1,500 for this pay $150 in 18 months when they figure it out. build the $29/mo wrapper, not the agency. $13k/mo scales to zero real fast.
 
-*5.* https://x.com/madebyshun/status/2066665303279382603  (@madebyshun, ~20h ago, 3♥ 0💬)
-> building real infrastructure for builders on Base? tools that compress idea → build → launch. multi-agent collaboration, x402 payments, self-managed capital flows…
-why: open question in the Base trenches, x402/multi-agent themes — natural opening to name both products
-A: the idea→build→launch stack already has working pieces — aeon (multi-agent skills + x402 tools on cron) and miroshark (sim the launch before you ship it 🦈). the gap isn’t primitives, it’s one surface chaining them. build that ⭐
-B: pushback: builders on Base aren’t blocked on idea→build→launch tooling. they’re blocked on demand. shipping faster into a market that isn’t there just gets you to zero users quicker. infra for distribution > infra for building.
+*5.* https://x.com/99_Bollish/status/2067032612015935819  (@99_Bollish, ~17h ago, 2💬 13♥ 5RT)
+> Wait, so $ZAMBO AI tool being listed in Anthropic's official MCP Registry alongside professional tools like Claude Desktop and Cursor?…
+why: MCP registry curation debate — Aaron has a clear contrarian take (vaporware > tokens as the real curation problem)
+A: the mcp registry is a directory of working servers, not a credentialing system. if $ZAMBO ships a real server, it belongs there. vaporware is the registry's problem, not tokens.
+B: a token project that ships a working mcp tool is more credible than a seed-stage ai startup with a "coming soon" page. at least they built something. the curation problem in the registry is vaporware, not tokenized tools.
 
-source-status: xai=ok (cache, ~19–31h stale), memory=12 candidates / 5 selected, websearch=skip
+source-status: xai=ok (cache, ~17–28h stale), memory=12 candidates / 5 selected, websearch=skip (no verifiable tweet data)
