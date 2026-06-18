@@ -1,10 +1,10 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-06-16T07:36:40Z",
+  "last_analyzed": "2026-06-18T08:52:37Z",
   "quality_score": 4,
-  "assessment": "Solid execution: systematic multi-platform search, verified GitHub deltas, clear signal (web quiet + GH demand real), properly scoped findings to downstream skills.",
+  "assessment": "Substantive, well-structured findings with specific data points, actionable opportunities, and risk flags; minor: leading 'Done.' is generic",
   "flags": [],
-  "avg_score": 4.33,
+  "avg_score": 4.25,
   "history": [
     {
       "date": "2026-06-12",
@@ -16,6 +16,10 @@
     },
     {
       "date": "2026-06-16",
+      "score": 4
+    },
+    {
+      "date": "2026-06-18",
       "score": 4
     }
   ]
