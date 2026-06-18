@@ -289,5 +289,9 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 3
+  },
+  "mcp-pulse": {
+    "last_dispatch": "2026-06-18T13:50:30Z",
+    "last_status": "dispatched"
   }
 }
