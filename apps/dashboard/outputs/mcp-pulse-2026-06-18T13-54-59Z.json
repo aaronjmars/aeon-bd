@@ -1,0 +1,186 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "mcp-pulse — 2026-06-18"
+      },
+      "children": [
+        "momentum-badge",
+        "sep1",
+        "proto-section",
+        "sep2",
+        "metrics-section",
+        "sep3",
+        "signals-section",
+        "sep4",
+        "thesis-section"
+      ]
+    },
+    "momentum-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "breakout — 12 pts",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "proto-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "proto-heading",
+        "proto-item-1",
+        "proto-item-2",
+        "proto-item-3"
+      ]
+    },
+    "proto-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Protocol evolution this week",
+        "level": "h2"
+      }
+    },
+    "proto-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-28 RC: stateless core — plain http, no sticky sessions. last enterprise deployment friction gone",
+        "variant": "body"
+      }
+    },
+    "proto-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "ext-apps: servers now ship interactive HTML UIs (2,443★)",
+        "variant": "body"
+      }
+    },
+    "proto-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "ext-auth + ext-tasks: auth hardening + long-running agent ops in flight",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics-heading",
+        "npm-stat",
+        "npm-context"
+      ]
+    },
+    "metrics-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Metrics",
+        "level": "h2"
+      }
+    },
+    "npm-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "npm @modelcontextprotocol/sdk",
+        "value": "39.75M/wk"
+      }
+    },
+    "npm-context": {
+      "type": "Text",
+      "props": {
+        "text": "first baseline — 97M/mo as of Mar, 970x in 18mo",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signals-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "signals-heading",
+        "signal-1",
+        "signal-2"
+      ]
+    },
+    "signals-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Signals",
+        "level": "h2"
+      }
+    },
+    "signal-1": {
+      "type": "Text",
+      "props": {
+        "text": "41% of software orgs in limited/broad production — CIO territory now",
+        "variant": "body"
+      }
+    },
+    "signal-2": {
+      "type": "Text",
+      "props": {
+        "text": "HubSpot + Adobe Marketo Engage both shipping official MCP servers (100+ ops)",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thesis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-text"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h2"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "advancing — stateless RC removes the last enterprise deployment blocker. mcp isn't competing for default tool-call rail anymore, it won.",
+        "variant": "lead"
+      }
+    }
+  }
+}
