@@ -1,0 +1,268 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-06-18"
+      },
+      "children": [
+        "heading_state",
+        "stack_state",
+        "sep1",
+        "heading_talktoto",
+        "stack_talktoto",
+        "sep2",
+        "heading_decide",
+        "text_decide",
+        "sep3",
+        "heading_sources",
+        "stack_sources",
+        "text_snapshot_note"
+      ]
+    },
+    "heading_state": {
+      "type": "Heading",
+      "props": {
+        "text": "state",
+        "level": "h2"
+      }
+    },
+    "stack_state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_both_green",
+        "stat_miroshark",
+        "text_miroshark_detail",
+        "stat_aeon",
+        "text_aeon_detail",
+        "text_ci",
+        "text_pulse_timing"
+      ]
+    },
+    "text_both_green": {
+      "type": "Text",
+      "props": {
+        "text": "Both green.",
+        "variant": "body"
+      }
+    },
+    "stat_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1,297★",
+        "delta": "+40/7d",
+        "trend": "up"
+      }
+    },
+    "text_miroshark_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Steepest line in the family, ~3 off a 1,300 milestone, PR backlog cleared.",
+        "variant": "body"
+      }
+    },
+    "stat_aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "517★",
+        "delta": "+9/7d",
+        "trend": "up"
+      }
+    },
+    "text_aeon_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Steady.",
+        "variant": "body"
+      }
+    },
+    "text_ci": {
+      "type": "Text",
+      "props": {
+        "text": "CI clean (just the flaky skill:feature, 94% pass). Nothing red.",
+        "variant": "body"
+      }
+    },
+    "text_pulse_timing": {
+      "type": "Text",
+      "props": {
+        "text": "Heads up: today's pulse hasn't run yet — this reads the 06-17 snapshot.",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_talktoto": {
+      "type": "Heading",
+      "props": {
+        "text": "talk to",
+        "level": "h2"
+      }
+    },
+    "stack_talktoto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_researchswarm",
+        "item_gitlumen"
+      ]
+    },
+    "item_researchswarm": {
+      "type": "Text",
+      "props": {
+        "text": "@ResearchSwarmAI — preregistered miroshark replication study (multiseed_miroshark.py), academic validation on the product, owed a reply all week → DM today."
+      }
+    },
+    "item_gitlumen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_gitlumen_main",
+        "link_aeon_fun"
+      ]
+    },
+    "text_gitlumen_main": {
+      "type": "Text",
+      "props": {
+        "text": "gitlumen-team/aeon set a custom homepage — check if it's a live product, DM the org if it's real."
+      }
+    },
+    "link_aeon_fun": {
+      "type": "Link",
+      "props": {
+        "label": "aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_decide": {
+      "type": "Heading",
+      "props": {
+        "text": "decide",
+        "level": "h2"
+      }
+    },
+    "text_decide": {
+      "type": "Text",
+      "props": {
+        "text": "Close, don't sweep. Two dry discovery days running while the warm book sits unanswered — the bottleneck isn't finding, it's the DM nobody sent. One move today: reply @ResearchSwarmAI. Third-party validation on miroshark = the unfakeable receipt idea-forge keeps pointing at. More sweeping is busywork till the warm ones get an answer."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_sources": {
+      "type": "Heading",
+      "props": {
+        "text": "appendix — sources",
+        "level": "h2"
+      }
+    },
+    "stack_sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source_pulse_link",
+        "source_pulse_desc",
+        "source_radar_link",
+        "source_radar_desc",
+        "source_forge_link",
+        "source_forge_desc",
+        "source_simwatch_link",
+        "source_simwatch_desc"
+      ]
+    },
+    "source_pulse_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "product-pulse 2026-06-17",
+        "href": "./product-pulse-2026-06-17.md"
+      }
+    },
+    "source_pulse_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Both green; miroshark 1,297★ (+40/7d), ~3 off 1,300, 11 PRs→0; aeon 517★ (+9/7d); CI clean.",
+        "variant": "caption"
+      }
+    },
+    "source_radar_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bd-radar 2026-06-17",
+        "href": "./bd-radar-2026-06-17.md"
+      }
+    },
+    "source_radar_desc": {
+      "type": "Text",
+      "props": {
+        "text": "4 net-new (2 forking · 1 adjacent · 1 mentioning · 0 building/integrating). Second quiet discovery day; warm book (ResearchSwarm, AeonBrain, AntFleet, Sparkleware, dan-and, DYAI2025) still owed outreach.",
+        "variant": "caption"
+      }
+    },
+    "source_forge_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "idea-forge 2026-06-17",
+        "href": "./idea-forge-2026-06-17.md"
+      }
+    },
+    "source_forge_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Top wedge #1: proof of self-repair (the ledger) — when self-improvement commoditizes, the moat becomes the verifiable receipt. Explicitly flags closing-the-warm-book as the bottleneck.",
+        "variant": "caption"
+      }
+    },
+    "source_simwatch_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sim-watch 2026-06-14",
+        "href": "./sim-watch-2026-06-14.md"
+      }
+    },
+    "source_simwatch_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Miroshark category intel (within 7d).",
+        "variant": "caption"
+      }
+    },
+    "text_snapshot_note": {
+      "type": "Text",
+      "props": {
+        "text": "Note: 06-18 product-pulse/bd-radar had not run at war-room time (xai-cache empty, no dated files) — brief synthesized from the most recent committed digests, all 06-17.",
+        "variant": "caption"
+      }
+    }
+  }
+}

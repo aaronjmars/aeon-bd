@@ -1,16 +1,17 @@
-⭐🦈 war room — 2026-06-17
+⭐🦈 war room — 2026-06-18
 
-state: today's pulse/bd haven't landed yet (cron batching) — running on yesterday's read. miroshark still cooking: 1,282★ (+25/5d, +10 yday), 0→11 open PRs, x402 layer moving. aeon flat at 514. one lingering flag: mirror-sync CI red since 06-15 — it's the upstream-sync job, not the skills (those 30✓/27✓ green). mirrors just aren't pulling latest.
+state: both green. 🦈 miroshark 1,297★ (+40/7d) — steepest line in the family, ~3 off a 1,300 milestone, PR backlog cleared. ⭐ aeon 517★ (+9/7d), steady. CI clean (just the flaky skill:feature, 94% pass). nothing red. heads up: today's pulse hasn't run yet — this reads the 06-17 snapshot.
 
-talk to: not new leads — the warm book. ResearchSwarm (preregistered miroshark study) still owed a reply, AeonBrain (signed skill-schema) still owed a call. both have been sitting all week.
+talk to: @ResearchSwarmAI — preregistered miroshark replication study (multiseed_miroshark.py), academic validation *on* the product, owed a reply all week → DM today. also gitlumen-team/aeon set a custom homepage at aeon.fun → check if it's a live product, DM the org if it's real.
 
-decide: the book is aging. yesterday was "merge the 11 PRs" — today actually send the two outbound: ResearchSwarm reply + AeonBrain call. a named warm lead that sits goes cold. we have ~10 unactioned high-intent names — discovery's done, closing is the whole game. send the two before they cool.
+decide: close, don't sweep. two dry discovery days running while the warm book sits unanswered — the bottleneck isn't finding, it's the DM nobody sent. one move today: reply @ResearchSwarmAI. third-party validation on miroshark = the unfakeable receipt idea-forge keeps pointing at. more sweeping is busywork till the warm ones get an answer.
 
 ---
 
-### Appendix — sources
-- [product-pulse-2026-06-16](./product-pulse-2026-06-16.md) — repo-family + X state (mirror-sync CI red; MiroShark +25/5d, 0→11 PRs, x402 active; aeon flat 514)
-- [bd-radar-2026-06-16](./bd-radar-2026-06-16.md) — 0 net-new high-intent; bottleneck shifted discovery → closing, ~10 warm names unactioned (ResearchSwarm, AeonBrain owed outreach)
-- [sim-watch-2026-06-14](./sim-watch-2026-06-14.md) — tailwind: Google + World Labs legitimizing simulation top-down; social-outcome wedge still open
+### appendix — sources
+- [product-pulse 2026-06-17](./product-pulse-2026-06-17.md) — both green; miroshark 1,297★ (+40/7d), ~3 off 1,300, 11 PRs→0; aeon 517★ (+9/7d); CI clean.
+- [bd-radar 2026-06-17](./bd-radar-2026-06-17.md) — 4 net-new (2 forking · 1 adjacent · 1 mentioning · 0 building/integrating). Second quiet discovery day; warm book (ResearchSwarm, AeonBrain, AntFleet, Sparkleware, dan-and, DYAI2025) still owed outreach.
+- [idea-forge 2026-06-17](./idea-forge-2026-06-17.md) — top wedge #1: *proof of self-repair (the ledger)* — when self-improvement commoditizes, the moat becomes the verifiable receipt. Explicitly flags closing-the-warm-book as the bottleneck.
+- [sim-watch 2026-06-14](./sim-watch-2026-06-14.md) — Miroshark category intel (within 7d).
 
-> note: today's (06-17) product-pulse + bd-radar weren't committed before this run — GitHub batches the 07:45 cron. Brief built on the 06-16 digests (most recent). State numbers are ~24h old.
+*Note: 06-18 product-pulse/bd-radar had not run at war-room time (xai-cache empty, no dated files) — brief synthesized from the most recent committed digests, all 06-17.*

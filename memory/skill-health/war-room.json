@@ -1,12 +1,12 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-17T08:58:10Z",
+  "last_analyzed": "2026-06-18T08:50:16Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured brief with clear strategic direction; proactively disclosed data staleness and system timing issues",
+  "assessment": "Well-structured brief with clear state/talk-to/decide; actionable guidance (send the one DM to @ResearchSwarmAI); transparent about data limitation; transparent about synthesizing from 06-17 digests instead of 06-18 inputs",
   "flags": [
     "stale_data"
   ],
-  "avg_score": 4.13,
+  "avg_score": 4.11,
   "history": [
     {
       "date": "2026-06-11",
@@ -38,6 +38,10 @@
     },
     {
       "date": "2026-06-17",
+      "score": 4
+    },
+    {
+      "date": "2026-06-18",
       "score": 4
     }
   ]
