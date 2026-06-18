@@ -1,10 +1,12 @@
 {
   "skill": "product-pulse",
-  "last_analyzed": "2026-06-17T10:37:38Z",
+  "last_analyzed": "2026-06-18T08:50:55Z",
   "quality_score": 4,
-  "assessment": "Substantive daily product read with specific metrics, historical deltas, and clear red-flag logic; well-structured, actionable follow-ups noted.",
-  "flags": [],
-  "avg_score": 4.1,
+  "assessment": "Substantive daily metrics with clear deltas and momentum flags; well-structured tracking. CI API error noted but not retried; BD/integration signal extraction not visible in summary.",
+  "flags": [
+    "api_error"
+  ],
+  "avg_score": 4.09,
   "history": [
     {
       "date": "2026-06-11",
@@ -44,6 +46,10 @@
     },
     {
       "date": "2026-06-17",
+      "score": 4
+    },
+    {
+      "date": "2026-06-18",
       "score": 4
     }
   ]
