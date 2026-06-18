@@ -1,25 +1,29 @@
-*Engagement Act — 2026-06-17*
+*Engagement Act — 2026-06-18*
 
-warm book, day 2 unactioned. war-room escalated #1 + #2 today: SEND before they cool.
+*1. bradAGI* (1 day ago) — listed aeon in awesome-cli-coding-agents (580★ curated list, "90+ skills, self-healing loop, MCP+A2A")
+link: https://github.com/bradAGI/awesome-cli-coding-agents
+type: GitHub comment
+draft: "appreciate the add ⭐ self-repair is the moat — the 90+ skills are the surface layer; the real thing is the harness evolves itself. happy to help flesh out the entry if you want more depth on the self-healing loop or the ecosystem building on top (miroshark🦈, skill packs, x402 billing). lmk."
 
-*aging — 1. @ResearchSwarmAI* (6 days on radar) — preregistered multi-seed MiroShark replication study (swarm-ai-research/swarm · multiseed_miroshark.py · grok-4.3 judge), on top of the aeon-atlas + MiroShark forks. academic-grade validation *on* the product.
-link: github.com/swarm-ai-research/swarm (no tweet URL — DM or QT the repo)
+*2. @ResearchSwarmAI* (7 days ago) — preregistered multi-seed MiroShark replication study w/ grok-4.3 judge on top of aeon-atlas + MiroShark forks (pushed 06-14/06-15)
+link: https://github.com/swarm-ai-research/swarm
 type: X reply / DM
-draft: "preregistered multi-seed replication on miroshark is the validation the sim category never had 🦈 most people benchmark vibes. want the director-mode + belief-drift internals so the seeds vary on the right axes? would feature the study"
+draft: "the preregistered multi-seed study is exactly what the category needs. what's the grok-4.3 judge scoring on — belief-drift fidelity or final state accuracy? genuinely curious what it surfaces 🦈"
 
-*2. AI-Risk-Management / AeonBrain* (2 days) — ed25519-signed `aeon-skill-schema`, "the wire format for AeonBrain". the trust/provenance layer for agent skills — own it before someone else defines it.
-link: github.com/AI-Risk-Management/aeon-skill-schema
+*3. AI-Risk-Management/AeonBrain* (4 days ago) — shipped ed25519-signed aeon-skill-schema ("the wire format for AeonBrain"), fresh 06-14
+link: https://github.com/AI-Risk-Management/aeon-skill-schema
 type: GitHub comment / DM
-draft: "signed skill schema is the missing trust layer — skills are markdown, anyone can ship one, nothing proves provenance. ed25519 on the wire format is the right call. is this aeon-native or a parallel standard? if native, we want to curate it into the ecosystem before the trust layer fragments. either way — let's talk."
+draft: "the signing layer is exactly where this needs to go — verified skill provenance is the missing piece for production aeon deployments. aeon-native or vendor-neutral? if native, worth co-announcing and folding into the ecosystem trust layer ⭐"
 
-*3. @Root_Edge / RootAI* (2 days) — QT'd the shiplog, 57♥/12RT (best non-official engagement this week). window closing.
-link: no tweet URL in logs — reply on the QT
-type: X reply
-draft: "the shiplog QT did numbers — 57♥ on a build-in-public post means people want to watch agents actually ship, not demo ⭐ what are you building on aeon? happy to pull you into the builder TG"
+*4. DYAI2025/Pattern-agent* (5 days ago) — TypeScript orchestrator wiring MiroShark runs via /api/pattern-amp/runs, second repo from an active MiroShark forker pushing daily
+link: https://github.com/DYAI2025/Pattern-agent
+type: GitHub comment / DM
+draft: "nice — seeing the orchestrator pattern click into place. routing through the hosted API or running local? there's a dedicated builder channel in the miroshark TG worth joining either way 🦈"
 
-*4. @dabusthebuilder / Azzle* (2 days) — listed @aeonframework as "agent setup 4 everyone" in the AzzleAI integration stack next to bankr + xmtp (17♥/8RT). Azzle already in ECOSYSTEM.
-link: no tweet URL in logs — reply/QT the stack post
-type: X reply / QT
-draft: "aeon next to bankr + xmtp in the AzzleAI stack is the right neighborhood — agent setup that runs unattended ⭐ what's azzle wiring it into? would QT the stack + get you in the builder TG"
+*5. @dabusthebuilder / Azzle* (1 day ago) — @toktiol posted: Azzle built on @aeonframework + bankrbot + xmtp, 750 NPM downloads overnight
+link: https://x.com/toktiol/status/2067014526445461651
+type: DM @dabusthebuilder + X reply @toktiol
+draft [DM @dabusthebuilder]: "saw the toktiol post — 750 NPM overnight is a real number. bankrbot+xmtp on top of aeon is a pattern more builders should be running. in the TG? worth connecting ⭐"
+draft [reply @toktiol]: "750 overnight is a real number. the bankrbot+xmtp combo on aeon is the pattern ⭐"
 
-ResearchSwarm aging (6d, near the 14d edge) — act or drop. the other three are still warm.
+aging — @ResearchSwarmAI (7d on radar since 06-11), DYAI2025/Pattern-agent (5d since 06-13) — act or drop

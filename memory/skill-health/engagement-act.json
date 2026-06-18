@@ -1,12 +1,10 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-17T10:35:27Z",
-  "quality_score": 3,
-  "assessment": "Executed cleanly with clear process and good triage (4 ranked opps, aging flag), but actual response content not visible in truncated output — can't verify quality vs. Aaron's voice/strategy requirements.",
-  "flags": [
-    "truncated_output"
-  ],
-  "avg_score": 3.67,
+  "last_analyzed": "2026-06-18T10:21:56Z",
+  "quality_score": 5,
+  "assessment": "Excellent — specific opportunities with sources, recent signals, draft-ready actions, intelligent filtering logic tailored to BD workflow.",
+  "flags": [],
+  "avg_score": 3.86,
   "history": [
     {
       "date": "2026-06-12",
@@ -31,6 +29,10 @@
     {
       "date": "2026-06-17",
       "score": 3
+    },
+    {
+      "date": "2026-06-18",
+      "score": 5
     }
   ]
 }
