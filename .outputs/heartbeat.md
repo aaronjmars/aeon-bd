@@ -1,12 +1,15 @@
-HEARTBEAT_OK · STATUS_PAGE=WATCH
+HEARTBEAT_OK · STATUS_PAGE=WATCH — wrote `docs/status.md`.
 
-All checks clean. Fleet at 22/25 enabled skills run, all `success`. No P0/P1/P3 flags. One P2 carry-forward (product-pulse mirror sync red, already notified) keeps overall at 🟡 WATCH. Status page updated and log appended — no notification sent (dedup).
+**P0** — clean. All 22 run skills at `last_status: success`. No failed, stuck, API-degraded, or chronic-failure skills. Heartbeat self-check OK (~5h since last success).
+
+**P1** — clean. 0 open PRs, 0 urgent issues, 0 open issues.
+
+**P2** — one carried item (dedup skip, already notified): `Sync from upstream` mirror red on aeon-agent + miroshark-aeon, no green since 06-15. Operator-pending. This holds overall at 🟡 WATCH.
+
+**P3** — clean. Full Thursday batch confirmed including today's first-ever ecosystem-entrants and mcp-pulse runs. X-content batch (fetch-tweets → write-tweet → reply-maker → agent-buzz) all landed 17:00–18:21 UTC. pm-pulse and idea-validator due Friday, both well within their 2× window.
 
 ## Summary
 
-- **P0** — clean: no failed/stuck skills, no consecutive failures, no chronic failures, heartbeat self-check OK (~5h since last run)
-- **P1** — clean: 0 open PRs, 0 urgent issues, 0 open issues in tracker
-- **P2** — dedup skip: product-pulse `Sync from upstream` mirror red (aeon-agent/miroshark-aeon) already notified, pending operator action; holds WATCH
-- **P3** — clean: morning batch confirmed, ecosystem-entrants + mcp-pulse both ran today for first time; X-content batch due at 17:00 UTC
-- **docs/status.md** — rewritten with 22 run skills (mcp-pulse + ecosystem-entrants added as first runs today), next run: fetch-tweets 17:00 UTC
-- **memory/logs/2026-06-18.md** — 14:00 slot entry appended
+- **Wrote** `docs/status.md` — updated to 20:00 UTC slot, X-content batch timestamps refreshed (reply-maker 18:21, agent-buzz 18:20, write-tweet 17:23, fetch-tweets 17:22)
+- **Logged** to `memory/logs/2026-06-18.md`
+- No notification sent — all actionable items within 48h dedup window
