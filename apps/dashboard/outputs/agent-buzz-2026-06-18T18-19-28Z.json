@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Agent Buzz",
+        "description": "Quiet builder day: practitioner notes on agent quality, two \"integration is now cheap\" takes on the side. — 2026-06-18"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_quality",
+        "stack_quality",
+        "sep1",
+        "heading_integration",
+        "stack_integration"
+      ]
+    },
+    "heading_quality": {
+      "type": "Heading",
+      "props": {
+        "text": "Agent quality, practitioner view",
+        "level": "h2"
+      }
+    },
+    "stack_quality": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story1",
+        "story2"
+      ]
+    },
+    "story1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@mayonkeyy — 8 months of SquareDiff building → first technical write-up on what actually moves autonomous agent improvement",
+        "href": "https://x.com/mayonkeyy/status/2067396109945991307",
+        "source": "X"
+      }
+    },
+    "story2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@PradyuPrasad — treats agent deviation as a communication problem, not a retry loop",
+        "href": "https://x.com/PradyuPrasad/status/2067396362057183284",
+        "source": "X"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_integration": {
+      "type": "Heading",
+      "props": {
+        "text": "Integration cost collapsed",
+        "level": "h2"
+      }
+    },
+    "stack_integration": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story3",
+        "story4"
+      ]
+    },
+    "story3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@master_jpma — competitor monitoring agent wired in hours — friction gone, moat intact",
+        "href": "https://x.com/master_jpma/status/2067396667653976409",
+        "source": "X"
+      }
+    },
+    "story4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@CopyRebeldia — Unreal MCP removes the \"where to click\" barrier; game dev workflows now plain-language",
+        "href": "https://x.com/CopyRebeldia/status/2067396350308950473",
+        "source": "X"
+      }
+    }
+  }
+}
