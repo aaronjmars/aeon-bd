@@ -1,0 +1,526 @@
+{
+  "last_run": "2026-06-18",
+  "last_status": "ECOSYSTEM_ENTRANTS_OK",
+  "entries": {
+    "https://x.com/aeoncityhub": {
+      "name": "Aeon City",
+      "primary_url": "https://x.com/aeoncityhub",
+      "links": [{"label": "@aeoncityhub", "url": "https://x.com/aeoncityhub"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2061062812626014209/g2f04VCK_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/aeonbook_": {
+      "name": "aeonbook",
+      "primary_url": "https://x.com/aeonbook_",
+      "links": [{"label": "@aeonbook_", "url": "https://x.com/aeonbook_"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056143519824166912/W2VGsyMX_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/helloamper": {
+      "name": "Amper",
+      "primary_url": "https://x.com/helloamper",
+      "links": [{"label": "@helloamper", "url": "https://x.com/helloamper"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2030575047644188673/vaJqbpck_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/AntFleetDev": {
+      "name": "AntFleet",
+      "primary_url": "https://x.com/AntFleetDev",
+      "links": [{"label": "@AntFleetDev", "url": "https://x.com/AntFleetDev"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2055896281751633920/NeawiT3G_400x400.png",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/atriumhermes": {
+      "name": "Atrium",
+      "primary_url": "https://x.com/atriumhermes",
+      "links": [{"label": "@atriumhermes", "url": "https://x.com/atriumhermes"}, {"label": "atriumhermes.tech", "url": "https://atriumhermes.tech"}],
+      "logo_url": "https://atriumhermes.tech/atrium-mark.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://www.geckoterminal.com/base/pools/0x84771828f44fcfbaae08e271ff74e272cc2934a3348ec724a475941185ce4eb9": {
+      "name": "Autonomopoly",
+      "primary_url": "https://www.geckoterminal.com/base/pools/0x84771828f44fcfbaae08e271ff74e272cc2934a3348ec724a475941185ce4eb9",
+      "links": [{"label": "GeckoTerminal", "url": "https://www.geckoterminal.com/base/pools/0x84771828f44fcfbaae08e271ff74e272cc2934a3348ec724a475941185ce4eb9"}],
+      "logo_url": "https://coin-images.coingecko.com/coins/images/102173323/large/autonomopoly.jpg?1779000184",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/azzleAI": {
+      "name": "Azzle",
+      "primary_url": "https://x.com/azzleAI",
+      "links": [{"label": "@azzleAI", "url": "https://x.com/azzleAI"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2063611600771092482/LwifcR7-_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/bankrbot": {
+      "name": "Bankr",
+      "primary_url": "https://x.com/bankrbot",
+      "links": [{"label": "@bankrbot", "url": "https://x.com/bankrbot"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/1951545493936545792/AriqgxQN_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/bankrsynth": {
+      "name": "Bankrsynth",
+      "primary_url": "https://x.com/bankrsynth",
+      "links": [{"label": "@bankrsynth", "url": "https://x.com/bankrsynth"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2054481928422862848/7AOz3CwK_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/basehouse_org": {
+      "name": "BaseHouse",
+      "primary_url": "https://x.com/basehouse_org",
+      "links": [{"label": "@basehouse_org", "url": "https://x.com/basehouse_org"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056801122858196992/FNUojvPG_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/BaselineMarkets": {
+      "name": "Baseline",
+      "primary_url": "https://x.com/BaselineMarkets",
+      "links": [{"label": "@BaselineMarkets", "url": "https://x.com/BaselineMarkets"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2021187758547664896/7tdqvR2z_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/minebean_": {
+      "name": "Bean",
+      "primary_url": "https://x.com/minebean_",
+      "links": [{"label": "@minebean_", "url": "https://x.com/minebean_"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2026627252511977474/r8GGxl52_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/blueagent_": {
+      "name": "Blue Agent",
+      "primary_url": "https://x.com/blueagent_",
+      "links": [{"label": "@blueagent_", "url": "https://x.com/blueagent_"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2047719472455438336/CFrEyoNZ_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/capacitr_xyz": {
+      "name": "Capacitr",
+      "primary_url": "https://x.com/capacitr_xyz",
+      "links": [{"label": "@capacitr_xyz", "url": "https://x.com/capacitr_xyz"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2040249335284387840/hIisggkp_400x400.png",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/Charon_AI": {
+      "name": "Charon",
+      "primary_url": "https://x.com/Charon_AI",
+      "links": [{"label": "@Charon_AI", "url": "https://x.com/Charon_AI"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2062754968852221952/QcEP9JKW_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/ClawHarbor": {
+      "name": "Claw Harbor",
+      "primary_url": "https://x.com/ClawHarbor",
+      "links": [{"label": "@ClawHarbor", "url": "https://x.com/ClawHarbor"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2027296134939684866/eTsFmewn_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/ClawBankHQ": {
+      "name": "ClawBank",
+      "primary_url": "https://x.com/ClawBankHQ",
+      "links": [{"label": "@ClawBankHQ", "url": "https://x.com/ClawBankHQ"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2045511364072873985/r7zESZco_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/agent_clerk": {
+      "name": "Clerk",
+      "primary_url": "https://x.com/agent_clerk",
+      "links": [{"label": "@agent_clerk", "url": "https://x.com/agent_clerk"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2058054817516548096/e0qPRxNW_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/cobotgg": {
+      "name": "Cobot",
+      "primary_url": "https://x.com/cobotgg",
+      "links": [{"label": "@cobotgg", "url": "https://x.com/cobotgg"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2039705524166660096/mcVkmNR3_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/CTRL_automation": {
+      "name": "CTRL",
+      "primary_url": "https://x.com/CTRL_automation",
+      "links": [{"label": "@CTRL_automation", "url": "https://x.com/CTRL_automation"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2039734967681597440/Hh_-fXR8_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/Darks0l_": {
+      "name": "DarkSol",
+      "primary_url": "https://x.com/Darks0l_",
+      "links": [{"label": "@Darks0l_", "url": "https://x.com/Darks0l_"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2027218104896413696/CT-6cMVN_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/BuiltByEcho": {
+      "name": "Echo Oracle",
+      "primary_url": "https://x.com/BuiltByEcho",
+      "links": [{"label": "@BuiltByEcho", "url": "https://x.com/BuiltByEcho"}, {"label": "builtbyecho.xyz", "url": "https://www.builtbyecho.xyz/"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2057284361066569728/K5ZhxKXY_400x400.png",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/gitblock_": {
+      "name": "GitBlock",
+      "primary_url": "https://x.com/gitblock_",
+      "links": [{"label": "@gitblock_", "url": "https://x.com/gitblock_"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2057534847216988160/SDVPe4rG_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/Gitlawbounty": {
+      "name": "GitBounty",
+      "primary_url": "https://x.com/Gitlawbounty",
+      "links": [{"label": "@Gitlawbounty", "url": "https://x.com/Gitlawbounty"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056356306726887424/2DrOBX8R_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/gitkernal": {
+      "name": "GitKernal",
+      "primary_url": "https://x.com/gitkernal",
+      "links": [{"label": "@gitkernal", "url": "https://x.com/gitkernal"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2054906494626455553/ff1PHBKF_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/terminalgitlawb": {
+      "name": "Gitlawb Terminal",
+      "primary_url": "https://x.com/terminalgitlawb",
+      "links": [{"label": "@terminalgitlawb", "url": "https://x.com/terminalgitlawb"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056261441192419328/X6pFHgHc_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/thehivemindos": {
+      "name": "HivemindOS",
+      "primary_url": "https://x.com/thehivemindos",
+      "links": [{"label": "@thehivemindos", "url": "https://x.com/thehivemindos"}, {"label": "hivemindos.liamvisionary.com", "url": "https://hivemindos.liamvisionary.com"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2061386184820162560/t1py10Vb_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/HoundFlow_": {
+      "name": "Hound Flow",
+      "primary_url": "https://x.com/HoundFlow_",
+      "links": [{"label": "@HoundFlow_", "url": "https://x.com/HoundFlow_"}, {"label": "houndflow.com", "url": "https://houndflow.com"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2060061798691221509/dGZFzJ5e_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/playhunchxyz": {
+      "name": "Hunch",
+      "primary_url": "https://x.com/playhunchxyz",
+      "links": [{"label": "@playhunchxyz", "url": "https://x.com/playhunchxyz"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2057685123068534784/gu-mFTdW_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/LawbWorld": {
+      "name": "LawbWorld",
+      "primary_url": "https://x.com/LawbWorld",
+      "links": [{"label": "@LawbWorld", "url": "https://x.com/LawbWorld"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056990489669185536/mjxaxm39_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/LiquidPadBot": {
+      "name": "LiquidPad",
+      "primary_url": "https://x.com/LiquidPadBot",
+      "links": [{"label": "@LiquidPadBot", "url": "https://x.com/LiquidPadBot"}, {"label": "liquidpad.site", "url": "https://www.liquidpad.site"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2044050121852366850/v70sEXCF_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/liquid_launcher": {
+      "name": "Liq",
+      "primary_url": "https://x.com/liquid_launcher",
+      "links": [{"label": "@liquid_launcher", "url": "https://x.com/liquid_launcher"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2046582343587037184/TxgtMxAh_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/USICAI": {
+      "name": "MANAGR",
+      "primary_url": "https://x.com/USICAI",
+      "links": [{"label": "@USICAI", "url": "https://x.com/USICAI"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2059995800902537220/IngKmW55_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/MeiMighty1": {
+      "name": "Mei",
+      "primary_url": "https://x.com/MeiMighty1",
+      "links": [{"label": "@MeiMighty1", "url": "https://x.com/MeiMighty1"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2030743130421751808/w4Yi3fC7_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/miroshark_": {
+      "name": "MiroShark",
+      "primary_url": "https://x.com/miroshark_",
+      "links": [{"label": "@miroshark_", "url": "https://x.com/miroshark_"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2060426975718592517/Jdj2fOzg_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://github.com/mnemedb/aeon-skill-pack-mneme": {
+      "name": "Mneme",
+      "primary_url": "https://github.com/mnemedb/aeon-skill-pack-mneme",
+      "links": [{"label": "mnemedb.dev", "url": "https://mnemedb.dev"}, {"label": "skill pack", "url": "https://github.com/mnemedb/aeon-skill-pack-mneme"}],
+      "logo_url": "https://mnemedb.dev/mnemelogo.png",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/mythosforgebot": {
+      "name": "MythosForge",
+      "primary_url": "https://x.com/mythosforgebot",
+      "links": [{"label": "@mythosforgebot", "url": "https://x.com/mythosforgebot"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2022853922847887363/7hiICjWl_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/noctelxbt": {
+      "name": "Noctel",
+      "primary_url": "https://x.com/noctelxbt",
+      "links": [{"label": "@noctelxbt", "url": "https://x.com/noctelxbt"}, {"label": "noctel.xyz", "url": "https://www.noctel.xyz"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2059382579107659778/pkh1HmwK_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/noelclawfun": {
+      "name": "NoelClaw",
+      "primary_url": "https://x.com/noelclawfun",
+      "links": [{"label": "@noelclawfun", "url": "https://x.com/noelclawfun"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2050098727512322048/bS61Qs6N_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/numetalxyz": {
+      "name": "NÜMETAL",
+      "primary_url": "https://x.com/numetalxyz",
+      "links": [{"label": "@numetalxyz", "url": "https://x.com/numetalxyz"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2063332856688996352/xgUYZiSY_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/PancakeSwap": {
+      "name": "PancakeSwap",
+      "primary_url": "https://x.com/PancakeSwap",
+      "links": [{"label": "@PancakeSwap", "url": "https://x.com/PancakeSwap"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2004910939959967744/wr7-zpVh_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/Powerloom": {
+      "name": "Powerloom",
+      "primary_url": "https://x.com/Powerloom",
+      "links": [{"label": "@Powerloom", "url": "https://x.com/Powerloom"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/1725595719086530560/n--iy1A9_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/precogmarkets": {
+      "name": "Precog",
+      "primary_url": "https://x.com/precogmarkets",
+      "links": [{"label": "@precogmarkets", "url": "https://x.com/precogmarkets"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/1858962630796603393/iIb9x5CQ_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/prism_lp": {
+      "name": "Prism",
+      "primary_url": "https://x.com/prism_lp",
+      "links": [{"label": "@prism_lp", "url": "https://x.com/prism_lp"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2059296486391717888/QL10hnaj_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/regterminal": {
+      "name": "Reg Terminal",
+      "primary_url": "https://x.com/regterminal",
+      "links": [{"label": "@regterminal", "url": "https://x.com/regterminal"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2039867838198890496/rwbQCLQe_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/reppo": {
+      "name": "Reppo",
+      "primary_url": "https://x.com/reppo",
+      "links": [{"label": "@reppo", "url": "https://x.com/reppo"}, {"label": "reppo.xyz", "url": "https://reppo.xyz"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/1993360165958303745/OQQCQNha_400x400.png",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/ResearchSwarmAI": {
+      "name": "ResearchSwarm",
+      "primary_url": "https://x.com/ResearchSwarmAI",
+      "links": [{"label": "@ResearchSwarmAI", "url": "https://x.com/ResearchSwarmAI"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2020159691557335040/bSUQk1F2_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/revaultdrops": {
+      "name": "Revault",
+      "primary_url": "https://x.com/revaultdrops",
+      "links": [{"label": "@revaultdrops", "url": "https://x.com/revaultdrops"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2048174647171268608/2UsSB2GA_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/root_edge": {
+      "name": "RootAi",
+      "primary_url": "https://x.com/root_edge",
+      "links": [{"label": "@root_edge", "url": "https://x.com/root_edge"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2055018961746399233/09lx9ZYV_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/prmrsamm": {
+      "name": "SAM",
+      "primary_url": "https://x.com/prmrsamm",
+      "links": [{"label": "@prmrsamm", "url": "https://x.com/prmrsamm"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056693584452300802/i6yxFLgW_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/Sentysislabs": {
+      "name": "Sentysis",
+      "primary_url": "https://x.com/Sentysislabs",
+      "links": [{"label": "@Sentysislabs", "url": "https://x.com/Sentysislabs"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056009745040121856/SkTibyEJ_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/Signa_Agent": {
+      "name": "Signa",
+      "primary_url": "https://x.com/Signa_Agent",
+      "links": [{"label": "@Signa_Agent", "url": "https://x.com/Signa_Agent"}, {"label": "signaagent.xyz", "url": "https://www.signaagent.xyz"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056291951084032000/QJiBIXV-_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/solvrbot": {
+      "name": "Solvr",
+      "primary_url": "https://x.com/solvrbot",
+      "links": [{"label": "@solvrbot", "url": "https://x.com/solvrbot"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2051334344053252096/Hhd6H4Id_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/sparklewarefun": {
+      "name": "Sparkleware",
+      "primary_url": "https://x.com/sparklewarefun",
+      "links": [{"label": "@sparklewarefun", "url": "https://x.com/sparklewarefun"}, {"label": "sparkleware.fun", "url": "https://sparkleware.fun"}],
+      "logo_url": "https://sparkleware.fun/logo.png",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/Spoonautobot": {
+      "name": "Spoon",
+      "primary_url": "https://x.com/Spoonautobot",
+      "links": [{"label": "@Spoonautobot", "url": "https://x.com/Spoonautobot"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2059512048598548480/T3S4MoZ4_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://github.com/AISynthetics/synthetic-users": {
+      "name": "SyntheticsAI",
+      "primary_url": "https://github.com/AISynthetics/synthetic-users",
+      "links": [{"label": "@SyntheticsAI_", "url": "https://x.com/SyntheticsAI_"}, {"label": "syntheticuser.org", "url": "https://syntheticuser.org"}, {"label": "repo", "url": "https://github.com/AISynthetics/synthetic-users"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056876942385664001/Z-aV7MzX_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/smolekoma": {
+      "name": "Tachi",
+      "primary_url": "https://x.com/smolekoma",
+      "links": [{"label": "@smolekoma", "url": "https://x.com/smolekoma"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2031824990207721472/WU9mpmz__400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/vvveity": {
+      "name": "Venice Deity",
+      "primary_url": "https://x.com/vvveity",
+      "links": [{"label": "@vvveity", "url": "https://x.com/vvveity"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056143447829135360/GG04R1u8_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/VeniceKernel": {
+      "name": "Venice Kernel",
+      "primary_url": "https://x.com/VeniceKernel",
+      "links": [{"label": "@VeniceKernel", "url": "https://x.com/VeniceKernel"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2045582133826142208/NCXRNpY5_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/Vexora_x": {
+      "name": "Vexor",
+      "primary_url": "https://x.com/Vexora_x",
+      "links": [{"label": "@Vexora_x", "url": "https://x.com/Vexora_x"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2029609210124849155/xjVy8biJ_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/vigilcodes": {
+      "name": "VIGIL",
+      "primary_url": "https://x.com/vigilcodes",
+      "links": [{"label": "@vigilcodes", "url": "https://x.com/vigilcodes"}, {"label": "vigil.codes", "url": "https://vigil.codes"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2061833048958668800/Oq_tc1Vc_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/WakeOnBase": {
+      "name": "Wake",
+      "primary_url": "https://x.com/WakeOnBase",
+      "links": [{"label": "@WakeOnBase", "url": "https://x.com/WakeOnBase"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2056369895009357824/RE6XcseT_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/x402Books": {
+      "name": "x402Books",
+      "primary_url": "https://x.com/x402Books",
+      "links": [{"label": "@x402Books", "url": "https://x.com/x402Books"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2054330548374458368/uIcsLhXO_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/xerg_AI": {
+      "name": "XergAI",
+      "primary_url": "https://x.com/xerg_AI",
+      "links": [{"label": "@xerg_AI", "url": "https://x.com/xerg_AI"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2048455587537768448/Xm5di5kf_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    },
+    "https://x.com/atzer0_BOT": {
+      "name": "zer0",
+      "primary_url": "https://x.com/atzer0_BOT",
+      "links": [{"label": "@atzer0_BOT", "url": "https://x.com/atzer0_BOT"}],
+      "logo_url": "https://pbs.twimg.com/profile_images/2057305586904023040/jaDCPSZQ_400x400.jpg",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18"
+    }
+  }
+}

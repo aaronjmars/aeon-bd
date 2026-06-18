@@ -1,0 +1,16 @@
+{
+  "skill": "ecosystem-entrants",
+  "last_analyzed": "2026-06-18T10:27:10Z",
+  "quality_score": 3,
+  "assessment": "Baseline established correctly with sound infrastructure, but notification is generic and lacks strategic analysis of the 65 projects for a GTM-focused instance.",
+  "flags": [
+    "generic_content"
+  ],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-06-18",
+      "score": 3
+    }
+  ]
+}
