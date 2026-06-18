@@ -1,0 +1,389 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework | aaronjmars/aeon | @miroshark_ | Miroshark swarm simulation (2026-06-18)",
+        "description": "Organic bullish volume is real — MrDegenWolf's \"two gems\" take dominated at 58 likes; but the first AEON holder value-accrual challenge landed publicly, same day $MIROSHARK slid 7.45%."
+      },
+      "children": [
+        "section_bullish",
+        "sep1",
+        "section_narrative",
+        "sep2",
+        "section_aeon_debate",
+        "sep3",
+        "section_price_action"
+      ]
+    },
+    "section_bullish": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_bullish",
+        "context_1",
+        "tweet_1",
+        "stats_1"
+      ]
+    },
+    "heading_bullish": {
+      "type": "Heading",
+      "props": {
+        "text": "Bullish Builder Takes",
+        "level": "h3"
+      }
+    },
+    "context_1": {
+      "type": "Text",
+      "props": {
+        "text": "First organic take comparing Aeon to \"openclaw but on steroids.\" High-conviction, high-reach.",
+        "variant": "caption"
+      }
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MrDegenWolf",
+        "handle": "MrDegenWolf",
+        "text": "You're not bullish enough on @aaronjmars building two gems",
+        "likes": 58,
+        "retweets": 9
+      }
+    },
+    "stats_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_likes_1",
+        "stat_rts_1",
+        "stat_replies_1",
+        "link_1"
+      ]
+    },
+    "stat_likes_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Likes",
+        "value": "58"
+      }
+    },
+    "stat_rts_1": {
+      "type": "Stat",
+      "props": {
+        "label": "RTs",
+        "value": "9"
+      }
+    },
+    "stat_replies_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Replies",
+        "value": "9"
+      }
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/MrDegenWolf/status/2067291604667306027"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_narrative",
+        "context_2",
+        "tweet_2",
+        "stats_2"
+      ]
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "Product Narrative (Hackernoon)",
+        "level": "h3"
+      }
+    },
+    "context_2": {
+      "type": "Text",
+      "props": {
+        "text": "Own post from Hackernoon. Best-performing account tweet.",
+        "variant": "caption"
+      }
+    },
+    "tweet_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "miroshark_",
+        "handle": "miroshark_",
+        "text": "Reflexive prediction is why static surveys fail — Miroshark simulates belief drift instead of snapshotting it.",
+        "likes": 20,
+        "retweets": 5
+      }
+    },
+    "stats_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_likes_2",
+        "stat_rts_2",
+        "stat_replies_2",
+        "link_2"
+      ]
+    },
+    "stat_likes_2": {
+      "type": "Stat",
+      "props": {
+        "label": "Likes",
+        "value": "20"
+      }
+    },
+    "stat_rts_2": {
+      "type": "Stat",
+      "props": {
+        "label": "RTs",
+        "value": "5"
+      }
+    },
+    "stat_replies_2": {
+      "type": "Stat",
+      "props": {
+        "label": "Replies",
+        "value": "0"
+      }
+    },
+    "link_2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/miroshark_/status/2067289800646824163"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_aeon_debate": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aeon",
+        "tweet_3",
+        "stats_3"
+      ]
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON Token Value Debate",
+        "level": "h3"
+      }
+    },
+    "tweet_3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "RuggRat_X",
+        "handle": "RuggRat_X",
+        "text": "First holder to call out the missing value accrual story publicly: ecosystem growth is strengthening, but what mechanism (fees, burns, staking) ties it back to token value?",
+        "likes": 8,
+        "retweets": 0
+      }
+    },
+    "stats_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_likes_3",
+        "stat_rts_3",
+        "stat_replies_3",
+        "link_3"
+      ]
+    },
+    "stat_likes_3": {
+      "type": "Stat",
+      "props": {
+        "label": "Likes",
+        "value": "8"
+      }
+    },
+    "stat_rts_3": {
+      "type": "Stat",
+      "props": {
+        "label": "RTs",
+        "value": "0"
+      }
+    },
+    "stat_replies_3": {
+      "type": "Stat",
+      "props": {
+        "label": "Replies",
+        "value": "0"
+      }
+    },
+    "link_3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/RuggRat_X/status/2067358090190860508"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_price_action": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_price",
+        "tweet_4",
+        "stats_4",
+        "tweet_5",
+        "stats_5"
+      ]
+    },
+    "heading_price": {
+      "type": "Heading",
+      "props": {
+        "text": "$MIROSHARK Price Action",
+        "level": "h3"
+      }
+    },
+    "tweet_4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Karma_Nfa",
+        "handle": "Karma_Nfa",
+        "text": "Pinged @bankrbot for TA as price slid; triggered a detailed analysis thread.",
+        "likes": 5,
+        "retweets": 0
+      }
+    },
+    "stats_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_likes_4",
+        "stat_rts_4",
+        "stat_replies_4",
+        "link_4"
+      ]
+    },
+    "stat_likes_4": {
+      "type": "Stat",
+      "props": {
+        "label": "Likes",
+        "value": "5"
+      }
+    },
+    "stat_rts_4": {
+      "type": "Stat",
+      "props": {
+        "label": "RTs",
+        "value": "0"
+      }
+    },
+    "stat_replies_4": {
+      "type": "Stat",
+      "props": {
+        "label": "Replies",
+        "value": "1"
+      }
+    },
+    "link_4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Karma_Nfa/status/2067303003237851422"
+      }
+    },
+    "tweet_5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bankrbot",
+        "handle": "bankrbot",
+        "text": "Price: $0.00000531, -7.45% 24h, 2,082 holders. Support at $0.00000523–$0.00000530; approaching oversold. FOMC reading today is the swing factor.",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "stats_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_likes_5",
+        "stat_rts_5",
+        "stat_replies_5",
+        "link_5"
+      ]
+    },
+    "stat_likes_5": {
+      "type": "Stat",
+      "props": {
+        "label": "Likes",
+        "value": "3"
+      }
+    },
+    "stat_rts_5": {
+      "type": "Stat",
+      "props": {
+        "label": "RTs",
+        "value": "0"
+      }
+    },
+    "stat_replies_5": {
+      "type": "Stat",
+      "props": {
+        "label": "Replies",
+        "value": "0"
+      }
+    },
+    "link_5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bankrbot/status/2067303441215766819"
+      }
+    }
+  }
+}

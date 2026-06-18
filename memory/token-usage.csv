@@ -59,3 +59,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-18,ecosystem-entrants,claude-sonnet-4-6,13,37653,848028,83107
 2026-06-18,mcp-pulse,claude-sonnet-4-6,18,8767,893102,77590
 2026-06-18,heartbeat,claude-sonnet-4-6,9,11913,403551,54755
+2026-06-18,fetch-tweets,claude-sonnet-4-6,13,8531,469504,30120
