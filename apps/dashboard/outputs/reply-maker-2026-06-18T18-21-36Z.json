@@ -1,0 +1,94 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "reply-maker",
+        "description": "xAI prefetch and WebSearch summary"
+      },
+      "children": [
+        "status-alert",
+        "sep1",
+        "opportunity-section",
+        "sep2",
+        "candidate-section"
+      ]
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "REPLY_MAKER_EMPTY",
+        "message": "xAI prefetch ran 18:16 UTC but returned June 17 22–23 UTC posts (all 18–20h old); 12 candidates collected, 0 survived skip gate (>6h window); WebSearch yielded no verifiable June 18 tweet URLs.",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opportunity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-heading",
+        "opp-content"
+      ]
+    },
+    "opp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Manual Opportunity",
+        "level": "h3"
+      }
+    },
+    "opp-content": {
+      "type": "Alert",
+      "props": {
+        "title": "Google killed Gemini CLI → Antigravity CLI",
+        "message": "Closed-source, agent-harness-first, multi-agent. Exact \"harness is the model\" territory — worth a take if the timing feels right.",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "candidate-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "candidate-heading",
+        "tweet"
+      ]
+    },
+    "candidate-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Best Stale Candidate (for reference, not posted)",
+        "level": "h3"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "WEAL28H",
+        "handle": "@WEAL28H",
+        "text": "CEOs sell the story. Lawyers paper it. An AI agent itself CANNOT be the registered investment adviser under today's SEC framework. A legal entity is. Brian's 'we registered the AI agent itself' is factually wrong.",
+        "likes": 119,
+        "retweets": 43
+      }
+    }
+  }
+}
