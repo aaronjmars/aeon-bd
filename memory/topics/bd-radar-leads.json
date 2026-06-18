@@ -71,7 +71,11 @@
     {"key": "github:gitlumen-team/aeon", "class": "forking", "who": "gitlumen-team/aeon", "handle": "gitlumen-team", "signal": "org fork of aeon w/ custom homepage aeon.fun, 4 days own commits (created 06-12, pushed 06-16) — homepage set = not a drive-by", "fit": 3, "score": 12, "first_seen": "2026-06-17", "repo_updated": "2026-06-16", "source": "gh_read_pat_forks", "move": "check what aeon.fun is; if a live product on aeon, DM org + TG invite"},
     {"key": "github:rajkaria/aeon", "class": "forking", "who": "rajkaria/aeon", "handle": "rajkaria", "signal": "active named fork, own commits over ~1 day (created 06-15, pushed 06-16), 0 stars", "fit": 1, "score": 4, "first_seen": "2026-06-17", "repo_updated": "2026-06-16", "source": "gh_read_pat_forks", "move": "low-touch; ask what they're building if they resurface"},
     {"key": "github:asimog/cancerhawk", "class": "adjacent", "who": "asimog/cancerhawk (cancerhawk.vercel.app)", "handle": "asimog", "signal": "open-source cancer-research multi-agent sim (godmode agents, particle viz), references miroshark in llms.txt; stale 05-09, 1 star", "fit": 3, "score": 3, "first_seen": "2026-06-17", "repo_updated": "2026-05-09", "source": "gh_search_code", "move": "outbound; offer MiroShark API as the swarm layer for a domain-vertical sim builder already aware of us"},
-    {"key": "github:Drix10/ai-resources", "class": "mentioning", "who": "Drix10/ai-resources", "handle": "Drix10", "signal": "112-star daily AI resources catalog lists aaronjmars-miroshark; distribution surface", "fit": 1, "score": 2, "first_seen": "2026-06-17", "repo_updated": "2026-06-06", "source": "gh_search_code", "move": "reach play; confirm listing accurate, free top-of-funnel"}
+    {"key": "github:Drix10/ai-resources", "class": "mentioning", "who": "Drix10/ai-resources", "handle": "Drix10", "signal": "112-star daily AI resources catalog lists aaronjmars-miroshark; distribution surface", "fit": 1, "score": 2, "first_seen": "2026-06-17", "repo_updated": "2026-06-06", "source": "gh_search_code", "move": "reach play; confirm listing accurate, free top-of-funnel"},
+    {"key": "github:mistakes5/meridian-oss", "class": "building", "who": "mistakes5 / Meridian", "handle": "mistakes5", "signal": "built MiroShark MCP Server inside Meridian — LLM-backed oracle + attention-trading platform (Flask/Vue/Neo4j). `mcp/src/server.ts: Exposes MiroShark simulation engine as tools for Claude Code`. 0★, stale since 04-07 — first-time on radar", "fit": 3, "score": 15, "first_seen": "2026-06-18", "repo_updated": "2026-04-07", "source": "gh_search_code", "move": "open GitHub comment on meridian-oss: props for the MCP wrapper, still building Meridian? how are you using MiroShark sims in the oracle stack?"},
+    {"key": "github:DYAI2025/Pattern-agent", "class": "integrating", "who": "DYAI2025 / Pattern-agent", "handle": "DYAI2025", "signal": "second repo from DYAI2025 (MiroShark forker, daily pushes through 06-16) — TypeScript orchestrator (Google AI Studio template) wiring MiroShark `POST /api/pattern-amp/runs`. 0★, created 05-31", "fit": 3, "score": 9, "first_seen": "2026-06-18", "repo_updated": "2026-05-31", "source": "gh_search_code", "move": "DM or GitHub comment on Pattern-agent: saw the MiroShark fork still pushing daily + this orchestrator — what are you building with it?"},
+    {"key": "github:vigilcodes/aeon", "class": "forking", "who": "VIGIL (@vigilcodes)", "handle": "vigilcodes", "signal": "VIGIL in ECOSYSTEM.md (known builder). Aeon fork created 06-02, own commits through 06-04 (2d active). Known-expanding.", "fit": 1, "score": 4, "known": true, "first_seen": "2026-06-18", "repo_updated": "2026-06-04", "source": "gh_read_pat_forks", "move": "acknowledge in ecosystem comms — already a builder"},
+    {"key": "github:Atrium-Hermes/aeon", "class": "forking", "who": "Atrium (@atriumhermes)", "handle": "Atrium-Hermes", "signal": "Atrium in ECOSYSTEM.md (known builder). Aeon fork created 06-01, own commits 06-02. Known-expanding.", "fit": 1, "score": 4, "known": true, "first_seen": "2026-06-18", "repo_updated": "2026-06-02", "source": "gh_read_pat_forks", "move": "already in ecosystem"}
   ],
   "surfaced": [
     "github:AntFleet",
@@ -147,6 +151,20 @@
     "github:gitlumen-team/aeon",
     "github:rajkaria/aeon",
     "github:asimog/cancerhawk",
-    "github:Drix10/ai-resources"
+    "github:Drix10/ai-resources",
+    "github:mistakes5/meridian-oss",
+    "github:DYAI2025/Pattern-agent",
+    "github:vigilcodes/aeon",
+    "github:Atrium-Hermes/aeon",
+    "x:gitkernal",
+    "x:cheuk_baby",
+    "github:hurley87/aeon",
+    "github:runchr-org/aeon",
+    "github:brainlabors-dot/aeon",
+    "github:ziyosteve/aeon",
+    "github:ghostx-dev/aeon",
+    "github:RootLayer-Labs/MiroShark",
+    "github:samiyouhub/MiroShark",
+    "github:swapnasarit-byte/MiroShark"
   ]
 }
