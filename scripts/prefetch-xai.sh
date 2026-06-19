@@ -12,6 +12,12 @@ VAR="${2:-}"
 TODAY=$(date -u +%Y-%m-%d)
 YESTERDAY=$(date -u -d "yesterday" +%Y-%m-%d 2>/dev/null || date -u -v-1d +%Y-%m-%d)
 THREE_DAYS_AGO=$(date -u -d "3 days ago" +%Y-%m-%d 2>/dev/null || date -u -v-3d +%Y-%m-%d)
+# x_search treats a date-only `to_date` as the instant to_date 00:00:00Z, so passing
+# $TODAY EXCLUDES every post made today (the window ends at last midnight). Use $TOMORROW
+# as the upper bound so today's posts are actually in range. Safe under either reading of
+# the docs: if to_date excludes its day, this includes today; if it's truly inclusive, it
+# just adds an empty future day. Without this, recency-gated skills (reply-maker) hard-fail.
+TOMORROW=$(date -u -d "tomorrow" +%Y-%m-%d 2>/dev/null || date -u -v+1d +%Y-%m-%d)
 
 if [ -z "$SKILL" ]; then
   echo "Usage: xai-prefetch.sh <skill-name> [var]"
@@ -28,7 +34,7 @@ mkdir -p .xai-cache
 # Generic XAI search call. Args: output_file, prompt, [from_date], [to_date], [extra_tools_json]
 xai_search() {
   local outfile="$1" prompt="$2"
-  local from_date="${3:-$YESTERDAY}" to_date="${4:-$TODAY}"
+  local from_date="${3:-$YESTERDAY}" to_date="${4:-$TOMORROW}"
   local extra_tools="${5:-}"
 
   local tools
@@ -161,7 +167,7 @@ case "$SKILL" in
       ACCOUNT="${VAR#@}"
       xai_search "reply-maker.json" \
         "Search X for the 12 most reply-worthy original posts (not retweets, not replies) by @${ACCOUNT} between ${YESTERDAY} and ${TODAY}, prioritizing the last 6 hours. Reply-worthy = has a take, claim, question, or framing worth engaging — NOT pure self-promo, breaking news without analysis, or threads already past 500 replies. For each: @handle, full tweet text, tweet URL, posted_at ISO timestamp, like/reply/retweet counts." \
-        "$YESTERDAY" "$TODAY" \
+        "$YESTERDAY" "$TOMORROW" \
         "\"allowed_x_handles\": [\"${ACCOUNT}\"]"
     else
       xai_search "reply-maker.json" \
@@ -198,7 +204,7 @@ case "$SKILL" in
     else
       xai_search "content-performance.json" \
         "Search X for all public tweets posted by @${HANDLE} between ${SEVEN_DAYS_AGO} and ${TODAY}. Include original tweets, replies, and quote tweets. For each tweet return: the full text (up to 150 chars), date posted (YYYY-MM-DD), like count, retweet count, quote tweet count, and reply count. Return up to 25 tweets sorted by total engagement (likes + retweets*2 + quotes*3) descending. If fewer tweets exist in the window, return all of them." \
-        "$SEVEN_DAYS_AGO" "$TODAY" \
+        "$SEVEN_DAYS_AGO" "$TOMORROW" \
         "\"allowed_x_handles\": [\"${HANDLE}\"]"
     fi
     ;;
@@ -262,7 +268,7 @@ case "$SKILL" in
     # 3-day window (bd-radar dedups via its own surfaced LRU). Cached so the in-sandbox skill never curls the secret.
     xai_search "bd-radar-x.json" \
       "Search X for recent posts mentioning the products @aeonframework (the Aeon agent framework) or @miroshark_ (the Miroshark swarm-simulation engine), or the phrases \"aeon framework\", \"miroshark\", or \"simulate anything\", from ${THREE_DAYS_AGO} to ${TODAY}. Prioritise posts from accounts that look like PROJECTS or BUILDERS (have a bio/links, ship things) over pure reply-guys. For each post return: @handle, the full post text, date posted, a one-line note on whether the account looks like a builder/project, engagement (likes + reposts), and the direct link (https://x.com/handle/status/ID). Return up to 20, as a numbered list." \
-      "$THREE_DAYS_AGO" "$TODAY"
+      "$THREE_DAYS_AGO" "$TOMORROW"
     ;;
 
   *)
