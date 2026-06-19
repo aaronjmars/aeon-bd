@@ -1,0 +1,23 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "reply-maker"
+      },
+      "children": [
+        "alert-warning"
+      ]
+    },
+    "alert-warning": {
+      "type": "Alert",
+      "props": {
+        "title": "REPLY_MAKER_EMPTY",
+        "message": "xai-cache stale for 2nd consecutive day (all 12 candidates from June 18, 17-18h past the 12h window); websearch returned no verifiable June 19 tweet URLs. Consider checking prefetch-xai.sh search window.",
+        "type": "warning"
+      }
+    }
+  }
+}

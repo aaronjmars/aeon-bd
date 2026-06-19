@@ -1,6 +1,1 @@
-REPLY_MAKER_EMPTY — xAI prefetch ran 18:16 UTC but returned June 17 22–23 UTC posts (all 18–20h old); 12 candidates collected, 0 survived skip gate (>6h window); WebSearch yielded no verifiable June 18 tweet URLs.
-
-**Manual opportunity:** Google killed Gemini CLI today (June 18) → Antigravity CLI. Closed-source, agent-harness-first, multi-agent. Exact "harness is the model" territory — worth a take if the timing feels right.
-
-**Best stale candidate (for reference, not posted):**
-@WEAL28H: "CEOs sell the story. Lawyers paper it. An AI agent itself CANNOT be the registered investment adviser under today's SEC framework. A legal entity is. Brian's 'we registered the AI agent itself' is factually wrong." — 119♥ 43RT, June 17 23:56 UTC
+REPLY_MAKER_EMPTY — xai-cache stale for 2nd consecutive day (all 12 candidates from June 18, 17-18h past the 12h window); websearch returned no verifiable June 19 tweet URLs. Consider checking prefetch-xai.sh search window.
