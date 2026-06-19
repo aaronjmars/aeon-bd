@@ -1,11 +1,8 @@
-HEARTBEAT_OK · STATUS_PAGE=WATCH
+HEARTBEAT_OK · STATUS_PAGE=WATCH — wrote `docs/status.md`.
 
-All checks clean. `docs/status.md` updated (14:00 UTC slot). No notification sent — the only open watch item (GitHub mirror red on aeon-agent/miroshark-aeon) is dedup'd from the 08:00 run this morning.
-
-## Summary
-
-- **P0** — clean. All 22 scheduled skills healthy; heartbeat self-check OK (~5h since last success).
-- **P1** — clean. 0 open PRs, 0 urgent issues, 0 open tracked issues.
-- **P2** — dedup'd. Ongoing `Sync from upstream` mirror-red carry-forward (within 48h window from 08:00 log).
-- **P3** — clean. Full morning+midday batch confirmed (product-pulse, bd-radar, war-room, engagement-act, pm-pulse all ✅). X-content batch due 17:00 UTC.
-- **Status page** written to `docs/status.md` — 🟡 WATCH, 25 enabled skills, next run: fetch-tweets 17:00 UTC.
+**Summary:**
+- **P0:** Clean. All 22 scheduled skills `last_status: success`. No failed, stuck, or consecutive-failure signals. Heartbeat self-check OK (~5h since last success).
+- **P1:** 1 open PR (#8 `fix/xai-prefetch-todate-offbyone`, opened 2h ago — not stalled). 0 urgent issues.
+- **P2:** Carry-forward dedup skip — `Sync from upstream` mirror red on aeon-agent + miroshark-aeon since 06-15; holds WATCH, no re-notify.
+- **P3:** Full Friday batch confirmed (product-pulse → bd-radar → war-room → engagement-act → pm-pulse → fetch-tweets → write-tweet → reply-maker → agent-buzz → idea-validator). All weekly skills within 2× interval.
+- **Status page:** 🟡 WATCH, 25 enabled skills, 0 open issues, next run product-pulse 07:15 UTC tomorrow. Token pulse omitted (no token-report articles).
