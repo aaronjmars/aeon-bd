@@ -1,0 +1,157 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "pm pulse",
+        "description": "2026-06-19"
+      },
+      "children": [
+        "stat_momentum",
+        "sep1",
+        "heading_regulatory",
+        "stack_regulatory",
+        "sep2",
+        "heading_volume",
+        "stat_volume",
+        "sep3",
+        "heading_mechanisms",
+        "text_mechanisms",
+        "sep4",
+        "heading_signals",
+        "stack_signals"
+      ]
+    },
+    "stat_momentum": {
+      "type": "Stat",
+      "props": {
+        "label": "Momentum",
+        "value": "Breakout",
+        "delta": "11 pts",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_regulatory": {
+      "type": "Heading",
+      "props": {
+        "text": "Regulatory",
+        "level": "h2"
+      }
+    },
+    "stack_regulatory": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_clarity",
+        "text_minnesota",
+        "text_cftc"
+      ]
+    },
+    "text_clarity": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act on Senate calendar — floor vote is next. Galaxy bet $10M on 2026 passage"
+      }
+    },
+    "text_minnesota": {
+      "type": "Text",
+      "props": {
+        "text": "Minnesota: ban starts Aug 1. first state to actually outlaw PMs. 3rd Circuit preemption fight incoming"
+      }
+    },
+    "text_cftc": {
+      "type": "Text",
+      "props": {
+        "text": "CFTC crypto perps debate: Kalshi's perps — futures or swaps? CFTC hasn't ruled"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_volume": {
+      "type": "Heading",
+      "props": {
+        "text": "Volume",
+        "level": "h2"
+      }
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket World Cup: winner contract",
+        "value": "$2.7B",
+        "delta": "+35% (from ~$2B last week)",
+        "trend": "up"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_mechanisms": {
+      "type": "Heading",
+      "props": {
+        "text": "New Mechanisms",
+        "level": "h2"
+      }
+    },
+    "text_mechanisms": {
+      "type": "Text",
+      "props": {
+        "text": "ProphetX: CFTC-approved, US launch June 18. sports-first. sixth regulated US venue."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_signals": {
+      "type": "Heading",
+      "props": {
+        "text": "Signals",
+        "level": "h2"
+      }
+    },
+    "stack_signals": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_polymarket_signal",
+        "text_bitmart_signal"
+      ]
+    },
+    "text_polymarket_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket $400M at $15B closing (ICE-backed, trailing Kalshi $22B)"
+      }
+    },
+    "text_bitmart_signal": {
+      "type": "Text",
+      "props": {
+        "text": "BitMart US launched CFTC-regulated PMs June 12 (Plaee infra, 405 live markets at launch)"
+      }
+    }
+  }
+}
