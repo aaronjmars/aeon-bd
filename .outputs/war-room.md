@@ -1,17 +1,11 @@
-⭐🦈 war room — 2026-06-18
+⭐🦈 war room — 2026-06-19
 
-state: both green. 🦈 miroshark 1,297★ (+40/7d) — steepest line in the family, ~3 off a 1,300 milestone, PR backlog cleared. ⭐ aeon 517★ (+9/7d), steady. CI clean (just the flaky skill:feature, 94% pass). nothing red. heads up: today's pulse hasn't run yet — this reads the 06-17 snapshot.
+state: both green. 🦈 +51 stars/7d — strongest week yet, something's pulling. issues 1→4 in a day (worth a look, but that's usage not breakage). ⭐ +24, steady. aeon-wc at 11d, watch it before 14. CI still 404 on both automation repos — unverified, not confirmed red.
 
-talk to: @ResearchSwarmAI — preregistered miroshark replication study (multiseed_miroshark.py), academic validation *on* the product, owed a reply all week → DM today. also gitlumen-team/aeon set a custom homepage at aeon.fun → check if it's a live product, DM the org if it's real.
+talk to: **swarm-ai-research** (36★, running multi-seed 🦈 studies w/ grok-4.3, now 3 active repos in the org) — cold DM, open the academic-use path. **SpartanLabsXyz** — shipped a Polymarket skill pack on aeon, exactly what the ecosystem needed → TG invite + co-promo.
 
-decide: close, don't sweep. two dry discovery days running while the warm book sits unanswered — the bottleneck isn't finding, it's the DM nobody sent. one move today: reply @ResearchSwarmAI. third-party validation on miroshark = the unfakeable receipt idea-forge keeps pointing at. more sweeping is busywork till the warm ones get an answer.
+decide: 🦈's +51 week is the window — spend it closing, not discovering. DM swarm-ai-research today and reply to dan-and on #187. multilingual + multi-seed sims are the same academic wedge, and it's escalating now. one warm book, close it before the attention fades.
 
 ---
 
-### appendix — sources
-- [product-pulse 2026-06-17](./product-pulse-2026-06-17.md) — both green; miroshark 1,297★ (+40/7d), ~3 off 1,300, 11 PRs→0; aeon 517★ (+9/7d); CI clean.
-- [bd-radar 2026-06-17](./bd-radar-2026-06-17.md) — 4 net-new (2 forking · 1 adjacent · 1 mentioning · 0 building/integrating). Second quiet discovery day; warm book (ResearchSwarm, AeonBrain, AntFleet, Sparkleware, dan-and, DYAI2025) still owed outreach.
-- [idea-forge 2026-06-17](./idea-forge-2026-06-17.md) — top wedge #1: *proof of self-repair (the ledger)* — when self-improvement commoditizes, the moat becomes the verifiable receipt. Explicitly flags closing-the-warm-book as the bottleneck.
-- [sim-watch 2026-06-14](./sim-watch-2026-06-14.md) — Miroshark category intel (within 7d).
-
-*Note: 06-18 product-pulse/bd-radar had not run at war-room time (xai-cache empty, no dated files) — brief synthesized from the most recent committed digests, all 06-17.*
+*Sources: [product-pulse-2026-06-19](./product-pulse-2026-06-19.md) · [bd-radar-2026-06-19](./bd-radar-2026-06-19.md) · idea-forge-2026-06-17 (bottleneck = closing the warm book, not discovery) · sim-watch-2026-06-14.*

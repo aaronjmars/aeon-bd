@@ -1,0 +1,264 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-06-19"
+      },
+      "children": [
+        "badge-status",
+        "separator-1",
+        "heading-status",
+        "stack-metrics",
+        "separator-2",
+        "heading-bd",
+        "stack-bd-opps",
+        "separator-3",
+        "heading-decide",
+        "text-decision",
+        "separator-4",
+        "heading-sources",
+        "stack-sources"
+      ]
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "Both green",
+        "variant": "default"
+      }
+    },
+    "separator-1": {
+      "type": "Separator"
+    },
+    "heading-status": {
+      "type": "Heading",
+      "props": {
+        "text": "Status",
+        "level": "h2"
+      }
+    },
+    "stack-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-miroshark",
+        "text-miroshark-note",
+        "stat-aeon",
+        "text-aeon-note",
+        "text-issues",
+        "text-aeon-wc",
+        "alert-ci"
+      ]
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark (🦈)",
+        "value": "+51 stars",
+        "delta": "7-day",
+        "trend": "up"
+      }
+    },
+    "text-miroshark-note": {
+      "type": "Text",
+      "props": {
+        "text": "Strongest week yet — something's pulling",
+        "variant": "caption"
+      }
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon (⭐)",
+        "value": "+24 stars",
+        "trend": "up"
+      }
+    },
+    "text-aeon-note": {
+      "type": "Text",
+      "props": {
+        "text": "Steady growth",
+        "variant": "caption"
+      }
+    },
+    "text-issues": {
+      "type": "Text",
+      "props": {
+        "text": "Issues: 1→4 in a day (worth a look, but that's usage not breakage)"
+      }
+    },
+    "text-aeon-wc": {
+      "type": "Text",
+      "props": {
+        "text": "aeon-wc at 11d — watch it before 14"
+      }
+    },
+    "alert-ci": {
+      "type": "Alert",
+      "props": {
+        "title": "CI Status",
+        "message": "404 on both automation repos — unverified, not confirmed red",
+        "type": "warning"
+      }
+    },
+    "separator-2": {
+      "type": "Separator"
+    },
+    "heading-bd": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to (BD Opportunities)",
+        "level": "h2"
+      }
+    },
+    "stack-bd-opps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "stack-swarm",
+        "stack-spartan"
+      ]
+    },
+    "stack-swarm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-swarm",
+        "text-swarm-details",
+        "text-swarm-action"
+      ]
+    },
+    "heading-swarm": {
+      "type": "Heading",
+      "props": {
+        "text": "swarm-ai-research",
+        "level": "h3"
+      }
+    },
+    "text-swarm-details": {
+      "type": "Text",
+      "props": {
+        "text": "36★ • Running multi-seed 🦈 studies with grok-4.3 • 3 active repos in the org"
+      }
+    },
+    "text-swarm-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Cold DM, open the academic-use path",
+        "variant": "lead"
+      }
+    },
+    "stack-spartan": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-spartan",
+        "text-spartan-details",
+        "text-spartan-action"
+      ]
+    },
+    "heading-spartan": {
+      "type": "Heading",
+      "props": {
+        "text": "SpartanLabsXyz",
+        "level": "h3"
+      }
+    },
+    "text-spartan-details": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped a Polymarket skill pack on aeon — exactly what the ecosystem needed"
+      }
+    },
+    "text-spartan-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ TG invite + co-promo",
+        "variant": "lead"
+      }
+    },
+    "separator-3": {
+      "type": "Separator"
+    },
+    "heading-decide": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "text-decision": {
+      "type": "Text",
+      "props": {
+        "text": "🦈's +51 week is the window — spend it closing, not discovering. DM swarm-ai-research today and reply to dan-and on #187. multilingual + multi-seed sims are the same academic wedge, and it's escalating now. one warm book, close it before the attention fades.",
+        "variant": "lead"
+      }
+    },
+    "separator-4": {
+      "type": "Separator"
+    },
+    "heading-sources": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h2"
+      }
+    },
+    "stack-sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-pulse",
+        "link-bd",
+        "text-idea-forge",
+        "link-sim"
+      ]
+    },
+    "link-pulse": {
+      "type": "Link",
+      "props": {
+        "label": "product-pulse-2026-06-19",
+        "href": "./product-pulse-2026-06-19.md"
+      }
+    },
+    "link-bd": {
+      "type": "Link",
+      "props": {
+        "label": "bd-radar-2026-06-19",
+        "href": "./bd-radar-2026-06-19.md"
+      }
+    },
+    "text-idea-forge": {
+      "type": "Text",
+      "props": {
+        "text": "idea-forge-2026-06-17 (bottleneck = closing the warm book, not discovery)",
+        "variant": "caption"
+      }
+    },
+    "link-sim": {
+      "type": "Link",
+      "props": {
+        "label": "sim-watch-2026-06-14",
+        "href": "./sim-watch-2026-06-14.md"
+      }
+    }
+  }
+}

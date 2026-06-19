@@ -1,12 +1,10 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-18T08:50:16Z",
-  "quality_score": 4,
-  "assessment": "Well-structured brief with clear state/talk-to/decide; actionable guidance (send the one DM to @ResearchSwarmAI); transparent about data limitation; transparent about synthesizing from 06-17 digests instead of 06-18 inputs",
-  "flags": [
-    "stale_data"
-  ],
-  "avg_score": 4.11,
+  "last_analyzed": "2026-06-19T09:21:04Z",
+  "quality_score": 5,
+  "assessment": "Excellent — specific metrics tied to strategy (Miroshark +51/7d as window), two concrete BD targets with reasoning (swarm-ai-research, SpartanLabsXyz), clear decision line with immediate actions (DM, reply), proper caveats (CI 404 unverified), Aaron's voice, zero filler.",
+  "flags": [],
+  "avg_score": 4.2,
   "history": [
     {
       "date": "2026-06-11",
@@ -43,6 +41,10 @@
     {
       "date": "2026-06-18",
       "score": 4
+    },
+    {
+      "date": "2026-06-19",
+      "score": 5
     }
   ]
 }
