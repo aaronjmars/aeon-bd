@@ -1,0 +1,232 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "bd-radar 06-19 — 2 new high-intent leads ⭐🦈"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_spartanlabs",
+        "sep1",
+        "section_swarm",
+        "sep2",
+        "section_bonus",
+        "sep3",
+        "link_digest"
+      ]
+    },
+    "section_spartanlabs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_spartanlabs",
+        "text_spartanlabs_details",
+        "badge_spartanlabs",
+        "text_spartanlabs_action"
+      ]
+    },
+    "heading_spartanlabs": {
+      "type": "Heading",
+      "props": {
+        "text": "SpartanLabsXyz",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_spartanlabs_details": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped Polymarket Trader skill pack on Aeon (powered by Simmer) — fresh 06-18. Direct PM × agent fit.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_spartanlabs": {
+      "type": "Badge",
+      "props": {
+        "text": "High-intent lead",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_spartanlabs_action": {
+      "type": "Text",
+      "props": {
+        "text": "Actions: DM them, invite to TG",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_swarm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_swarm",
+        "stat_stars",
+        "text_swarm_details",
+        "stack_swarm_links",
+        "text_swarm_action"
+      ]
+    },
+    "heading_swarm": {
+      "type": "Heading",
+      "props": {
+        "text": "swarm-ai-research",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub stars",
+        "value": "36"
+      },
+      "children": []
+    },
+    "text_swarm_details": {
+      "type": "Text",
+      "props": {
+        "text": "Running multi-seed academic MiroShark studies with grok-4.3. Forked aeon-atlas, MiroShark, and have their own research repo.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_swarm_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_swarm_website",
+        "badge_aeon_atlas",
+        "badge_miroshark"
+      ]
+    },
+    "link_swarm_website": {
+      "type": "Link",
+      "props": {
+        "label": "swarm-ai.org",
+        "href": "https://swarm-ai.org"
+      },
+      "children": []
+    },
+    "badge_aeon_atlas": {
+      "type": "Badge",
+      "props": {
+        "text": "aeon-atlas (forked)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_miroshark": {
+      "type": "Badge",
+      "props": {
+        "text": "MiroShark (forked)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_swarm_action": {
+      "type": "Text",
+      "props": {
+        "text": "Cold outreach: offer academic-use path before they roll their own",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_bonus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_bonus",
+        "badge_hackernoon",
+        "text_bonus_article",
+        "text_bonus_action"
+      ]
+    },
+    "heading_bonus": {
+      "type": "Heading",
+      "props": {
+        "text": "Bonus: HackerNoon Coverage",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_hackernoon": {
+      "type": "Badge",
+      "props": {
+        "text": "HackerNoon",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_bonus_article": {
+      "type": "Text",
+      "props": {
+        "text": "\"Meet the Agents That Pay for Their Own Compute: Inside Aeon, MiroShark, and Agentic Commerce\" — published 06-18, first long-form piece covering both products together",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_bonus_action": {
+      "type": "Text",
+      "props": {
+        "text": "Find author and amplify.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_digest": {
+      "type": "Link",
+      "props": {
+        "label": "📄 Full digest",
+        "href": "articles/bd-radar-2026-06-19.md"
+      },
+      "children": []
+    }
+  }
+}

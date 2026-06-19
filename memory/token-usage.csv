@@ -62,4 +62,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-18,write-tweet,claude-sonnet-4-6,12,20998,682175,68288
 2026-06-18,reply-maker,claude-sonnet-4-6,2535,12670,747907,65243
 2026-06-18,heartbeat,claude-sonnet-4-6,9,13448,415763,58041
-2026-06-19,product-pulse,claude-sonnet-4-6,14,10827,729399,54994
+2026-06-19,bd-radar,claude-sonnet-4-6,23,14491,1589004,80383

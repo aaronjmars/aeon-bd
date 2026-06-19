@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-06-18T08:55:55Z",
+  "last_analyzed": "2026-06-19T07:43:45Z",
   "quality_score": 4,
-  "assessment": "Substantive leads with specific moves and scores; shows systematic tracking; discovery working well, closing backlog flagged as gap",
+  "assessment": "Substantive lead generation with specific targets, clear actions, and comprehensive multi-source dedup — well-executed against strategy goals",
   "flags": [],
-  "avg_score": 4.2,
+  "avg_score": 4.18,
   "history": [
     {
       "date": "2026-06-11",
@@ -44,6 +44,10 @@
     },
     {
       "date": "2026-06-18",
+      "score": 4
+    },
+    {
+      "date": "2026-06-19",
       "score": 4
     }
   ]

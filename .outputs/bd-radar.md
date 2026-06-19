@@ -1,7 +1,9 @@
-two finds today ⭐🦈
+**bd-radar 06-19 — 2 new high-intent leads ⭐🦈**
 
-**mistakes5/meridian-oss** built a full MiroShark MCP server — wraps MiroShark sims as Claude Code tools inside an oracle + attention-trading platform (Flask/Vue/Neo4j). created April, went quiet, we just found it. open a github comment now and see if it's still live. that's the kind of integration we want to know about.
+**SpartanLabsXyz** shipped a Polymarket Trader skill pack on Aeon (powered by Simmer) — fresh 06-18, direct PM × agent fit. DM them, invite to TG.
 
-**DYAI2025** is escalating: their MiroShark fork pushes daily AND they have a second repo — `Pattern-agent`, a TypeScript orchestrator wiring MiroShark sim runs. same person, different repo, more intent. DM or drop a comment on Pattern-agent.
+**swarm-ai-research** (36★, swarm-ai.org) is running multi-seed academic MiroShark studies with grok-4.3. They've forked aeon-atlas AND MiroShark AND have their own research repo. Cold outreach: offer an academic-use path before they roll their own.
 
-ResearchSwarm reply + AeonBrain call still owed from last week.
+Bonus: HackerNoon published the first long-form piece covering both products together yesterday ("Meet the Agents That Pay for Their Own Compute: Inside Aeon, MiroShark, and Agentic Commerce"). Worth finding the author and amplifying.
+
+Full digest → `articles/bd-radar-2026-06-19.md`
