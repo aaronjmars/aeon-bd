@@ -1,10 +1,10 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-18T10:21:56Z",
-  "quality_score": 5,
-  "assessment": "Excellent — specific opportunities with sources, recent signals, draft-ready actions, intelligent filtering logic tailored to BD workflow.",
+  "last_analyzed": "2026-06-19T11:00:30Z",
+  "quality_score": 4,
+  "assessment": "Substantive, specific engagement opportunities with clear next steps, strategic prioritization, and transparent drops rationale.",
   "flags": [],
-  "avg_score": 3.86,
+  "avg_score": 3.88,
   "history": [
     {
       "date": "2026-06-12",
@@ -33,6 +33,10 @@
     {
       "date": "2026-06-18",
       "score": 5
+    },
+    {
+      "date": "2026-06-19",
+      "score": 4
     }
   ]
 }

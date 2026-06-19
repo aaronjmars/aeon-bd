@@ -1,29 +1,28 @@
-*Engagement Act — 2026-06-18*
+*Engagement Act — 2026-06-19*
 
-*1. bradAGI* (1 day ago) — listed aeon in awesome-cli-coding-agents (580★ curated list, "90+ skills, self-healing loop, MCP+A2A")
-link: https://github.com/bradAGI/awesome-cli-coding-agents
+*1. SpartanLabsXyz/aeon-skill-pack-polymarket* (0 days ago) — built a Polymarket skill pack on Aeon ⭐ (score 15 building lead, brand new today from bd-radar)
+link: https://github.com/SpartanLabsXyz/aeon-skill-pack-polymarket
+type: GitHub comment / X DM
+draft: "saw you're building a PM skill pack on top of aeon ⭐ — this is exactly the ecosystem we want compounding. open to feature this in the official skill registry + co-post when it's ready. drop in the TG (t.me/aeonframework) and let's move fast."
+
+*2. dan-and/issue-187* (0 days ago) — filed multilingual sims friction on MiroShark 🦈 (integrating, score 9, war-room escalated explicitly today)
+link: https://github.com/aaronjmars/MiroShark/issues/187
 type: GitHub comment
-draft: "appreciate the add ⭐ self-repair is the moat — the 90+ skills are the surface layer; the real thing is the harness evolves itself. happy to help flesh out the entry if you want more depth on the self-healing loop or the ecosystem building on top (miroshark🦈, skill packs, x402 billing). lmk."
+draft: "multilingual sims + multi-seed were basically on the same roadmap line. if you're hitting friction on the language side specifically — what's the blocker, input/output formatting or the model itself? would be useful to fix at the root rather than patch. happy to cut a branch if it's worth merging upstream 🦈"
 
-*2. @ResearchSwarmAI* (7 days ago) — preregistered multi-seed MiroShark replication study w/ grok-4.3 judge on top of aeon-atlas + MiroShark forks (pushed 06-14/06-15)
+*3. aging — @ResearchSwarmAI* (8 days ago) — preregistered multi-seed MiroShark replication study with grok-4.3 judge (war-room #1 talk-to today, on radar since 06-11)
 link: https://github.com/swarm-ai-research/swarm
 type: X reply / DM
-draft: "the preregistered multi-seed study is exactly what the category needs. what's the grok-4.3 judge scoring on — belief-drift fidelity or final state accuracy? genuinely curious what it surfaces 🦈"
+draft: "the preregistered MiroShark replication study is the kind of third-party validation that's actually unfakeable. question: are you using grok-4.3 as the judge for belief-drift scoring specifically, or final round aggregation? curious how you're handling multi-seed variance 🦈"
 
-*3. AI-Risk-Management/AeonBrain* (4 days ago) — shipped ed25519-signed aeon-skill-schema ("the wire format for AeonBrain"), fresh 06-14
-link: https://github.com/AI-Risk-Management/aeon-skill-schema
-type: GitHub comment / DM
-draft: "the signing layer is exactly where this needs to go — verified skill provenance is the missing piece for production aeon deployments. aeon-native or vendor-neutral? if native, worth co-announcing and folding into the ecosystem trust layer ⭐"
+*4. bradAGI/awesome-cli-coding-agents* (1 day ago) — listed aeon in a 580★ curated list as "90+ skills, self-healing loop, MCP+A2A" (organic find via mention-radar 06-18)
+link: https://github.com/bradAGI/awesome-cli-coding-agents
+type: GitHub comment
+draft: "appreciate the listing ⭐ — one thing worth adding if you want it more precise: self-repair isn't a feature, it's the whole thesis. skills write, review, and squash-delete themselves with no human approval. happy to keep the entry current as it evolves."
 
-*4. DYAI2025/Pattern-agent* (5 days ago) — TypeScript orchestrator wiring MiroShark runs via /api/pattern-amp/runs, second repo from an active MiroShark forker pushing daily
+*5. aging — DYAI2025/Pattern-agent* (5 days ago) — TypeScript orchestrator actively wiring MiroShark runs via /api/pattern-amp/runs, still pushing daily
 link: https://github.com/DYAI2025/Pattern-agent
 type: GitHub comment / DM
-draft: "nice — seeing the orchestrator pattern click into place. routing through the hosted API or running local? there's a dedicated builder channel in the miroshark TG worth joining either way 🦈"
+draft: "pattern-agent wiring miroshark runs is the architecture we'd want to support properly. quick question: are you hitting the hosted API or running miroshark locally? if hosted, there's a faster path — happy to share the real API endpoint + schema so you're not reverse-engineering it 🦈"
 
-*5. @dabusthebuilder / Azzle* (1 day ago) — @toktiol posted: Azzle built on @aeonframework + bankrbot + xmtp, 750 NPM downloads overnight
-link: https://x.com/toktiol/status/2067014526445461651
-type: DM @dabusthebuilder + X reply @toktiol
-draft [DM @dabusthebuilder]: "saw the toktiol post — 750 NPM overnight is a real number. bankrbot+xmtp on top of aeon is a pattern more builders should be running. in the TG? worth connecting ⭐"
-draft [reply @toktiol]: "750 overnight is a real number. the bankrbot+xmtp combo on aeon is the pattern ⭐"
-
-aging — @ResearchSwarmAI (7d on radar since 06-11), DYAI2025/Pattern-agent (5d since 06-13) — act or drop
+some opps aging — act or drop
