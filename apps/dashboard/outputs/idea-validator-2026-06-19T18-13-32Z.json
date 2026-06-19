@@ -1,0 +1,250 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "idea screener",
+        "description": "2026-06-19 | screened 5 — all positioning wedges"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-intro",
+        "sep-1",
+        "idea-1-section",
+        "sep-2",
+        "idea-2-section",
+        "sep-3",
+        "idea-3-section",
+        "sep-4",
+        "skipped-section",
+        "sep-5",
+        "notes-link"
+      ]
+    },
+    "text-intro": {
+      "type": "Text",
+      "props": {
+        "text": "All 5 screened are aeon/miroshark positioning wedges, not new builds. Top 3:",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "idea-1-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "idea-1-title",
+        "idea-1-desc",
+        "idea-1-scores",
+        "idea-1-gap",
+        "idea-1-tailwind"
+      ]
+    },
+    "idea-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "1. miroshark-social-world-model 🦈",
+        "level": "h3"
+      }
+    },
+    "idea-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Expose miroshark as an MCP/A2A simulate(decision) tool",
+        "variant": "body"
+      }
+    },
+    "idea-1-scores": {
+      "type": "Text",
+      "props": {
+        "text": "Competition: sparse | Timing: 5/5 | Operator-fit: 5/5 | Score: 15/16",
+        "variant": "caption"
+      }
+    },
+    "idea-1-gap": {
+      "type": "Text",
+      "props": {
+        "text": "Gap: The world-models race is all pixels (LeCun €500M, Genie 3). Social world model is the unclaimed flank — only research owns it (MCP-Cosmos, AgentSociety), no product.",
+        "variant": "body"
+      }
+    },
+    "idea-1-tailwind": {
+      "type": "Text",
+      "props": {
+        "text": "Tailwind: This idea's timing went UP since we filed it. \"All pixels\" is now a live funded race. Claim social before someone else does.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "idea-2-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "idea-2-title",
+        "idea-2-desc",
+        "idea-2-scores",
+        "idea-2-gap",
+        "idea-2-tailwind"
+      ]
+    },
+    "idea-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "2. proof-of-self-repair ⭐",
+        "level": "h3"
+      }
+    },
+    "idea-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Ship the public self-repair ledger",
+        "variant": "body"
+      }
+    },
+    "idea-2-scores": {
+      "type": "Text",
+      "props": {
+        "text": "Competition: sparse | Timing: 5/5 | Operator-fit: 5/5 | Score: 15/16",
+        "variant": "caption"
+      }
+    },
+    "idea-2-gap": {
+      "type": "Text",
+      "props": {
+        "text": "Gap: Self-healing agents are everywhere in 2026 — but all internal enterprise audit logs. Nobody ships a public, verifiable ledger. Aeon already runs self-repair on public traces, so the proof is free.",
+        "variant": "body"
+      }
+    },
+    "idea-2-tailwind": {
+      "type": "Text",
+      "props": {
+        "text": "Tailwind: Self-repair is the moat. Everyone's claiming it; only a public repo proves it.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "idea-3-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "idea-3-title",
+        "idea-3-desc",
+        "idea-3-scores",
+        "idea-3-gap",
+        "idea-3-tailwind"
+      ]
+    },
+    "idea-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "3. counterfactual-launch-sim 🦈",
+        "level": "h3"
+      }
+    },
+    "idea-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Simulate the window before you spend it",
+        "variant": "body"
+      }
+    },
+    "idea-3-scores": {
+      "type": "Text",
+      "props": {
+        "text": "Competition: open | Timing: 4/5 | Operator-fit: 5/5 | Score: 14/16",
+        "variant": "caption"
+      }
+    },
+    "idea-3-gap": {
+      "type": "Text",
+      "props": {
+        "text": "Gap: Agent-based market sims exist (Simudyne) but they're capital-markets. Nobody simulates a product launch via a social swarm. Wide open.",
+        "variant": "body"
+      }
+    },
+    "idea-3-tailwind": {
+      "type": "Text",
+      "props": {
+        "text": "Tailwind: The unit of competition is the timing window. Eat your own dogfood — sim the launch.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "skipped-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "skipped-title",
+        "skipped-item-1",
+        "skipped-item-2"
+      ]
+    },
+    "skipped-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Skipped",
+        "level": "h3"
+      }
+    },
+    "skipped-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "ambient-aeon — crowded (category went consensus, Moveworks/Ambient.ai; the \"we did it first on public traces\" claim is still ours though — now-or-never)",
+        "variant": "body"
+      }
+    },
+    "skipped-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "pm-presim — crowded + off-thesis (Semantic 42 already funded x402 PM agents; cuts against the \"bloomberg for reality is dead\" take)",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notes-link": {
+      "type": "Link",
+      "props": {
+        "label": "Full notes: memory/topics/startup-ideas-screened.md",
+        "href": "memory/topics/startup-ideas-screened.md"
+      }
+    }
+  }
+}
