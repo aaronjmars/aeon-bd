@@ -1,10 +1,12 @@
 {
   "skill": "write-tweet",
-  "last_analyzed": "2026-06-18T17:23:06Z",
+  "last_analyzed": "2026-06-19T17:32:46Z",
   "quality_score": 4,
-  "assessment": "Substantive multi-tier tweet drafts with specific MCP protocol data, strategic reframing, and ready-to-publish copy across formats",
-  "flags": [],
-  "avg_score": 3.75,
+  "assessment": "Substantive output with 10 drafts across 5 tiers, clear selection rationale, voice-matched to Aaron, completed artifact creation and notification",
+  "flags": [
+    "output_truncated"
+  ],
+  "avg_score": 3.78,
   "history": [
     {
       "date": "2026-06-11",
@@ -36,6 +38,10 @@
     },
     {
       "date": "2026-06-18",
+      "score": 4
+    },
+    {
+      "date": "2026-06-19",
       "score": 4
     }
   ]
