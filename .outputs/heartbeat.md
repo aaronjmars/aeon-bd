@@ -1,12 +1,12 @@
-**HEARTBEAT_OK · STATUS_PAGE=WATCH**
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks clean:
+All checks clean. Key action this run: ISS-001 (xAI prefetch `to_date` off-by-one) formally closed — reply-maker confirmed working at 18:00 UTC with 10 replies from same-day candidates. Status page flipped from 🟡 WATCH → 🟢 OK with 0 open issues.
 
-- **P0** — No failed, stuck, or consecutively-failing skills. All 22 cron-scheduled skills at `last_status: success`. Heartbeat self-check: last success 08:53 UTC today (~11h ago, well under 36h limit).
-- **P1** — 0 open PRs (PR #8 merged). 0 urgent issues.
-- **P2** — ISS-001 (xAI `to_date` off-by-one, high severity) still open in the index. Within 48h dedup window from today's 08:00 log — no re-notify.
-- **P3** — All enabled skills within 2× their schedule interval. No skills missing from cron-state.json.
+## Summary
 
-**Status page written** to `docs/status.md`: 🟡 WATCH, 1 open issue (ISS-001), next run product-pulse at 07:15 UTC tomorrow. Token pulse omitted (no token-report files).
-
-**No notification sent** — all items already logged within the 48h dedup window. Log entry appended to `memory/logs/2026-06-20.md`.
+- **P0** — clean. All 25 skills `last_status: success`. No stuck, failed, or consecutive-failure conditions.
+- **P1** — clean. 0 open PRs, 0 urgent issues.
+- **P2** — ISS-001 resolved. Closed `memory/issues/ISS-001.md` (status: resolved), moved to Resolved in `memory/issues/INDEX.md`. No new memory flags.
+- **P3** — clean. All enabled skills within 2× their schedule interval.
+- **Files updated:** `docs/status.md` (🟢 OK, 0 open issues), `memory/issues/ISS-001.md`, `memory/issues/INDEX.md`, `memory/logs/2026-06-20.md`.
+- No notification sent (no actionable findings outside 48h dedup window).
