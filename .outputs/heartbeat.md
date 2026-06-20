@@ -1,9 +1,12 @@
-HEARTBEAT_OK · STATUS_PAGE=WATCH
+**HEARTBEAT_OK · STATUS_PAGE=WATCH**
 
-**Summary:**
-- **P0** — clean. All 25 enabled skills healthy: no failures, no stuck dispatches, no consecutive failure streaks, no chronic failures. Heartbeat self-check OK (~13h since last success).
-- **P1** — clean. 0 open PRs (PR #8 was merged), 0 urgent GitHub issues.
-- **P2** — dedup skip. ISS-001 (xAI prefetch to_date off-by-one, high severity) and product-pulse mirror red both logged yesterday — within 48h window.
-- **P3** — clean. Full morning batch confirmed (product-pulse, bd-radar, war-room, mention-radar all ran 07:52–07:56 UTC). All weekly skills within 2× their interval.
-- **No notification sent** — all findings within 48h dedup window.
-- **`docs/status.md` written** — 🟡 WATCH (ISS-001 open/high), 25 skills, next run engagement-act 09:30 UTC. Token pulse omitted (no `articles/token-report-*.md`).
+All checks clean:
+
+- **P0** — No failed, stuck, or consecutively-failing skills. All 22 cron-scheduled skills at `last_status: success`. Heartbeat self-check: last success 08:53 UTC today (~11h ago, well under 36h limit).
+- **P1** — 0 open PRs (PR #8 merged). 0 urgent issues.
+- **P2** — ISS-001 (xAI `to_date` off-by-one, high severity) still open in the index. Within 48h dedup window from today's 08:00 log — no re-notify.
+- **P3** — All enabled skills within 2× their schedule interval. No skills missing from cron-state.json.
+
+**Status page written** to `docs/status.md`: 🟡 WATCH, 1 open issue (ISS-001), next run product-pulse at 07:15 UTC tomorrow. Token pulse omitted (no token-report files).
+
+**No notification sent** — all items already logged within the 48h dedup window. Log entry appended to `memory/logs/2026-06-20.md`.
