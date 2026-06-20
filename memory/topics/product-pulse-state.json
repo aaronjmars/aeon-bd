@@ -1,27 +1,26 @@
 {
-  "last_run": "2026-06-19T07:15:00Z",
+  "last_run": "2026-06-20T07:15:00Z",
   "snapshot": {
-    "date": "2026-06-19",
+    "date": "2026-06-20",
     "github": {
-      "aaronjmars/aeon": {"stars": 531, "issues": 1, "open_prs": null, "pushed": "2026-06-18T13:48:27Z", "last_commit_age_days": 1, "release": null},
-      "aaronjmars/MiroShark": {"stars": 1314, "issues": 4, "open_prs": null, "pushed": "2026-06-18T13:17:44Z", "last_commit_age_days": 1, "release": null},
-      "aaronjmars/aeon-agent": {"stars": 9, "issues": 0, "open_prs": null, "pushed": "2026-06-19T07:35:12Z", "last_commit_age_days": 0, "release": null, "ci_24h": null},
-      "aaronjmars/miroshark-aeon": {"stars": 16, "issues": 0, "open_prs": null, "pushed": "2026-06-19T06:14:08Z", "last_commit_age_days": 0, "release": null, "ci_24h": null},
-      "aaronjmars/minitor": {"stars": 11, "issues": 0, "open_prs": null, "pushed": "2026-06-18T13:27:48Z", "last_commit_age_days": 1, "release": null},
-      "aaronjmars/soul-aaronjmars": {"stars": 10, "issues": 0, "open_prs": null, "pushed": "2026-06-17T13:59:58Z", "last_commit_age_days": 2, "release": null}
+      "aaronjmars/aeon": {"stars": 536, "issues": 3, "open_prs": null, "pushed": "2026-06-19T17:04:34Z", "last_commit_age_days": 1, "release": null},
+      "aaronjmars/MiroShark": {"stars": 1315, "issues": 2, "open_prs": null, "pushed": "2026-06-20T00:07:47Z", "last_commit_age_days": 0, "release": null},
+      "aaronjmars/aeon-agent": {"stars": 9, "issues": 0, "open_prs": null, "pushed": "2026-06-20T06:37:37Z", "last_commit_age_days": 0, "release": null, "ci_24h": null},
+      "aaronjmars/miroshark-aeon": {"stars": 16, "issues": 0, "open_prs": null, "pushed": "2026-06-20T06:41:29Z", "last_commit_age_days": 0, "release": null, "ci_24h": null},
+      "aaronjmars/minitor": {"stars": 12, "issues": 0, "open_prs": null, "pushed": "2026-06-18T13:27:48Z", "last_commit_age_days": 2, "release": null},
+      "aaronjmars/soul-aaronjmars": {"stars": 10, "issues": 0, "open_prs": null, "pushed": "2026-06-17T13:59:58Z", "last_commit_age_days": 3, "release": null}
     },
     "github_private": {
-      "aaronjmars/aeon-website": {"private": true, "issues": 0, "open_prs": 0, "pushed": "2026-06-17T14:00:02Z", "last_commit_age_days": 2, "release": null},
-      "aaronjmars/aeon-wc": {"private": true, "issues": 0, "open_prs": 0, "pushed": "2026-06-08T19:24:30Z", "last_commit_age_days": 11, "release": null},
-      "aaronjmars/miroshark-website": {"private": true, "issues": 0, "open_prs": 0, "pushed": "2026-06-18T19:36:11Z", "last_commit_age_days": 1, "release": null},
-      "aaronjmars/MiroShark-x402": {"private": true, "issues": 0, "open_prs": 0, "pushed": "2026-06-17T22:59:40Z", "last_commit_age_days": 2, "release": null}
+      "aaronjmars/aeon-website": {"private": true, "issues": 0, "open_prs": 0, "pushed": "2026-06-17T14:00:02Z", "last_commit_age_days": 3, "release": null},
+      "aaronjmars/aeon-wc": {"private": true, "issues": 0, "open_prs": 0, "pushed": "2026-06-08T19:24:30Z", "last_commit_age_days": 12, "release": null},
+      "aaronjmars/miroshark-website": {"private": true, "issues": 0, "open_prs": 0, "pushed": "2026-06-18T19:36:11Z", "last_commit_age_days": 2, "release": null},
+      "aaronjmars/MiroShark-x402": {"private": true, "issues": 0, "open_prs": 0, "pushed": "2026-06-17T22:59:40Z", "last_commit_age_days": 3, "release": null}
     },
     "github_misses": [
       "PRODUCT_PULSE_GH_MISS: aeon-agent actions (404)",
-      "PRODUCT_PULSE_GH_MISS: miroshark-aeon actions (404)",
-      "PRODUCT_PULSE_GH_MISS: all repos pulls (403)"
+      "PRODUCT_PULSE_GH_MISS: miroshark-aeon actions (404)"
     ],
-    "x": {"@aeonframework": {"followers": 151732, "posts": null}, "@miroshark_": {"followers": 2102, "posts": null}},
+    "x": {"@aeonframework": {"followers": 151737, "posts": null}, "@miroshark_": {"followers": 2106, "posts": null}},
     "x_note": "followers via xAI prefetch cache; lifetime post counts returned 'unknown' → null"
   },
   "history": [
@@ -86,6 +85,13 @@
       "stars": {"aeon": 531, "MiroShark": 1314, "aeon-agent": 9, "miroshark-aeon": 16, "minitor": 11, "soul-aaronjmars": 10},
       "ci_24h": {"aeon-agent": null, "miroshark-aeon": null},
       "x": {"aeon": 151732, "miroshark": 2102},
+      "private_visible": true
+    },
+    {
+      "date": "2026-06-20",
+      "stars": {"aeon": 536, "MiroShark": 1315, "aeon-agent": 9, "miroshark-aeon": 16, "minitor": 12, "soul-aaronjmars": 10},
+      "ci_24h": {"aeon-agent": null, "miroshark-aeon": null},
+      "x": {"aeon": 151737, "miroshark": 2106},
       "private_visible": true
     }
   ]
