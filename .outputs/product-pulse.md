@@ -1,21 +1,20 @@
-Done. Here's the rundown:
+Done. Here's the summary.
 
 ## Summary
 
-**product-pulse 2026-06-19 complete.**
+**product-pulse 2026-06-20** — ran clean, no red flags.
 
-**One notable:** MiroShark 🦈 hit **+51 stars Δ7d** (1,263 → 1,314) — well above the +25 threshold, strongest week on record.
+**Key numbers:**
 
-**Key deltas:**
-- Aeon ⭐: 531★ (+11 Δ1d / +24 Δ7d) — just under the notable threshold but consistent
-- MiroShark 🦈: 1,314★ (+6 Δ1d / **+51 Δ7d**) — momentum
-- miroshark-aeon: 16★ (+2, automation surface growing)
-- @aeonframework: 151,732 followers (-1 Δ1d / -83 Δ7d) — mild drift
-- @miroshark_: 2,102 followers (+9 Δ1d / +30 Δ7d)
+| | aeon ⭐ | MiroShark 🦈 |
+|---|---|---|
+| Stars | 536 (+5 / **+26 Δ7d**) | 1,315 (+1 / **+48 Δ7d**) |
+| Followers | 151,737 (+5 / −41 Δ7d) | 2,106 (+4 / +36 Δ7d) |
 
-**Watch items:**
-- MiroShark open issues jumped 1 → 4 in one day — worth checking what landed
-- aeon-wc at 11 days since last commit (stall alert fires at 14d)
-- CI data still 404 (actions API unavailable, ongoing)
+**Notables:**
+- MiroShark strongest 7d star week this cycle (+48), on track toward 1,400
+- Aeon crossed the +25 Δ7d momentum threshold (+26)
+- @miroshark_ followers growing cleanly (+36 Δ7d)
+- @aeonframework followers Δ7d negative (−41) but Δ1d just flipped positive (+5) — trailing drag, not acceleration
 
-No red-flag notables → no notification sent. Digest and state committed.
+**No notify sent** — no CI red, no stall >14d (aeon-wc at 12d). Digest at `articles/product-pulse-2026-06-20.md`.
