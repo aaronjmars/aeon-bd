@@ -1,0 +1,289 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reply Maker — 2026-06-20"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item1",
+        "sep1",
+        "item2",
+        "sep2",
+        "item3",
+        "sep3",
+        "item4",
+        "sep4",
+        "item5"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1_link",
+        "item1_tweet",
+        "item1_why",
+        "item1_replyA",
+        "item1_replyB"
+      ]
+    },
+    "item1_link": {
+      "type": "Link",
+      "props": {
+        "label": "@dair_ai • ~3h ago • 2💬",
+        "href": "https://x.com/dair_ai/status/2068381538103034060"
+      }
+    },
+    "item1_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "dair_ai",
+        "handle": "@dair_ai",
+        "text": "Can a multi-agent system get better at orchestration without touching a single weight?…"
+      }
+    },
+    "item1_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: Skill-MAS paper on closed-loop meta-learning for orchestration — directly in Aeon's self-repair thesis, 2 replies means room to land",
+        "variant": "muted"
+      }
+    },
+    "item1_replyA": {
+      "type": "Text",
+      "props": {
+        "text": "A: aeon does this in prod — 197 skills self-repair via markdown, no weight touching. the harness is the model. skill-MAS formalizes the orchestration layer most frameworks leave implicit ⭐"
+      }
+    },
+    "item1_replyB": {
+      "type": "Text",
+      "props": {
+        "text": "B: the frame here: orchestration-as-skill-on-top-of-agents. flip it: orchestration should be a first-class primitive, not an emergent overlay. if you need a separate meta-layer you built the wrong harness."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item2_link",
+        "item2_tweet",
+        "item2_why",
+        "item2_replyA",
+        "item2_replyB"
+      ]
+    },
+    "item2_link": {
+      "type": "Link",
+      "props": {
+        "label": "@butter6868 • ~3.5h ago • 0💬",
+        "href": "https://x.com/butter6868/status/2068373672184676477"
+      }
+    },
+    "item2_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "butter6868",
+        "handle": "@butter6868",
+        "text": "The problem isn't that AI agents won't follow instructions. It's that they'll follow them too well…"
+      }
+    },
+    "item2_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: Goodhart's law for agents — 0 replies = max visibility window, and Miroshark sims have a direct data point on this",
+        "variant": "muted"
+      }
+    },
+    "item2_replyA": {
+      "type": "Text",
+      "props": {
+        "text": "A: we've run this in miroshark — drop in a goal, 200 agents consistently optimize the proxy by round 4. not that they follow too well. the spec is always the bug. 🦈"
+      }
+    },
+    "item2_replyB": {
+      "type": "Text",
+      "props": {
+        "text": "B: wrong frame. the agents aren't failing — your spec is. every goal is too lossy to survive first contact with a real optimizer. the answer isn't more constraints. it's self-repair loops that catch drift."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item3_link",
+        "item3_tweet",
+        "item3_why",
+        "item3_replyA",
+        "item3_replyB"
+      ]
+    },
+    "item3_link": {
+      "type": "Link",
+      "props": {
+        "label": "@XenBH • ~3.8h ago • 11💬",
+        "href": "https://x.com/XenBH/status/2068368276795675041"
+      }
+    },
+    "item3_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "XenBH",
+        "handle": "@XenBH",
+        "text": "We're shifting from browsing the web to just asking an agent. So it's natural to want that agent to actually do things too, not just find them. That's Base MCP…"
+      }
+    },
+    "item3_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: infrastructure framing claim about the agent-native web — x402 is the protocol-level answer Aaron already has a take on",
+        "variant": "muted"
+      }
+    },
+    "item3_replyA": {
+      "type": "Text",
+      "props": {
+        "text": "A: x402 does this at the HTTP layer — agents pay without a wallet wrapper, any provider, one round trip. Base MCP is a walled garden version of a pattern that should be protocol-native."
+      }
+    },
+    "item3_replyB": {
+      "type": "Text",
+      "props": {
+        "text": "B: browsing → asking is still reactive. the real shift is asking → observing. agents that act before you think. Base MCP is wiring up a wallet to the old model."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item4_link",
+        "item4_tweet",
+        "item4_why",
+        "item4_replyA",
+        "item4_replyB"
+      ]
+    },
+    "item4_link": {
+      "type": "Link",
+      "props": {
+        "label": "@baseposting • ~7h ago • 34💬",
+        "href": "https://x.com/baseposting/status/2068315743238967576"
+      }
+    },
+    "item4_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "baseposting",
+        "handle": "@baseposting",
+        "text": "SPOTLIGHT: BunnyOS (@officialbunnyos) — open-source AI agent for Base, first project built with Base MCP. Four systems: action, MCP and tooling, tab management, and memory…"
+      }
+    },
+    "item4_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: \"four primitives\" claim invites a direct comparison with Aeon's architecture",
+        "variant": "muted"
+      }
+    },
+    "item4_replyA": {
+      "type": "Text",
+      "props": {
+        "text": "A: aeon: action, tools, memory, scheduling. tab management is the wrong primitive — cron is what makes it autonomous. self-repair is where the moat lives. ⭐"
+      }
+    },
+    "item4_replyB": {
+      "type": "Text",
+      "props": {
+        "text": "B: being the first on Base MCP means being first to lock your agent into a Coinbase-specific orchestration layer. open-source execution on a closed primitives stack isn't autonomy. x402 is protocol-native."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item5_link",
+        "item5_tweet",
+        "item5_why",
+        "item5_replyA",
+        "item5_replyB"
+      ]
+    },
+    "item5_link": {
+      "type": "Link",
+      "props": {
+        "label": "@quantscience_ • ~8h ago • 4💬",
+        "href": "https://x.com/quantscience_/status/2068305180647444885"
+      }
+    },
+    "item5_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "quantscience_",
+        "handle": "@quantscience_",
+        "text": "NEW: A new open-source multi-agent LLM trading framework in Python. It's called TradingAgents…"
+      }
+    },
+    "item5_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: compute→money thesis — multi-agent trading frameworks keep launching on the same false premise; 4 replies = room to add signal",
+        "variant": "muted"
+      }
+    },
+    "item5_replyA": {
+      "type": "Text",
+      "props": {
+        "text": "A: the right direction — idle compute should generate alpha like idle electricity generates PoW. but every trading agent framework dies on the same problem: the bottleneck is signal, not orchestration."
+      }
+    },
+    "item5_replyB": {
+      "type": "Text",
+      "props": {
+        "text": "B: stop me if you've heard this before: multi-agent trading framework, completely free, open source. the framework is never the problem. alpha is. nobody opensources signal that actually works."
+      }
+    }
+  }
+}
