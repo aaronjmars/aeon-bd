@@ -44,8 +44,8 @@
     "last_dispatch": "2026-06-20T07:48:30Z"
   },
   "fetch-tweets": {
-    "last_dispatch": "2026-06-19T17:28:27Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-20T17:19:05Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-19T17:33:28Z",
     "total_runs": 9,
     "total_successes": 9,
@@ -55,8 +55,8 @@
     "last_quality_score": 4
   },
   "write-tweet": {
-    "last_dispatch": "2026-06-19T17:28:27Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-20T17:19:05Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-19T17:34:26Z",
     "total_runs": 9,
     "total_successes": 9,
