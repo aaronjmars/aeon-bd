@@ -1,0 +1,301 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-06-20"
+      },
+      "children": [
+        "section-aeon",
+        "sep1",
+        "section-miroshark",
+        "sep2",
+        "section-opportunities"
+      ]
+    },
+    "section-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aeon",
+        "link-hackernoon",
+        "text-hackernoon-framing",
+        "badge-press",
+        "stat-aeon-stars",
+        "stat-aeon-forks",
+        "text-fork-signal",
+        "text-missing-header",
+        "list-missing-aeon"
+      ]
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON ⭐",
+        "level": "h2"
+      }
+    },
+    "link-hackernoon": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Meet the Agents That Pay for Their Own Compute: Inside Aeon, MiroShark, and Agentic Commerce",
+        "href": "https://hackernoon.com/meet-the-agents-that-pay-for-their-own-compute-inside-aeon-miroshark-and-agentic-commerce",
+        "source": "HackerNoon (~Jun 17) — Ishan Pandey"
+      }
+    },
+    "text-hackernoon-framing": {
+      "type": "Text",
+      "props": {
+        "text": "Frames both as autonomous agents that ship their own code, simulate crowds, and pay for compute",
+        "variant": "muted"
+      }
+    },
+    "badge-press": {
+      "type": "Badge",
+      "props": {
+        "text": "Press Coverage",
+        "variant": "secondary"
+      }
+    },
+    "stat-aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Stars",
+        "value": "536",
+        "delta": "+16 since 06-18",
+        "trend": "up"
+      }
+    },
+    "stat-aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Forks",
+        "value": "186",
+        "delta": "+9 in 2 days",
+        "trend": "up"
+      }
+    },
+    "text-fork-signal": {
+      "type": "Text",
+      "props": {
+        "text": "Fork spike is the real signal here",
+        "variant": "lead"
+      }
+    },
+    "text-missing-header": {
+      "type": "Text",
+      "props": {
+        "text": "Missing from 3 active curated lists (self-evolving agents is the exact category):",
+        "variant": "lead"
+      }
+    },
+    "list-missing-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-awesome1",
+        "link-awesome2",
+        "link-awesome3"
+      ]
+    },
+    "link-awesome1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "XMUDeepLIT/Awesome-Self-Evolving-Agents",
+        "href": "https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents",
+        "score": "265★"
+      }
+    },
+    "link-awesome2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ARUNAGIRINATHAN-K/awesome-ai-agents-2026",
+        "href": "https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026",
+        "score": "163★, updated today"
+      }
+    },
+    "link-awesome3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Zijian-Ni/awesome-ai-agents-2026",
+        "href": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+        "score": "145★, updated 06-19"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-miroshark",
+        "link-openflows",
+        "text-openflows-discovery",
+        "link-toolhunter",
+        "link-microlaunch",
+        "stat-miroshark-stars",
+        "stat-miroshark-forks",
+        "text-praxstack-note"
+      ]
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK 🦈",
+        "level": "h2"
+      }
+    },
+    "link-openflows": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Infrastructure for stress-testing narratives and observing emergent social behaviors",
+        "href": "https://openflows.org/currency/currents/miroshark/",
+        "source": "openflows.org (Apr 19)"
+      }
+    },
+    "text-openflows-discovery": {
+      "type": "Text",
+      "props": {
+        "text": "Discovery — someone placing MiroShark in the civic-resilience + artificial-organizations stack",
+        "variant": "lead"
+      }
+    },
+    "link-toolhunter": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Top AI simulation engine for social dynamics 2026",
+        "href": "https://toolhunter.cc/tools/miroshark",
+        "source": "toolhunter.cc"
+      }
+    },
+    "link-microlaunch": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark",
+        "href": "https://microlaunch.net/p/miroshark",
+        "score": "0 upvotes — early, flat"
+      }
+    },
+    "stat-miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Stars",
+        "value": "1,315",
+        "delta": "+7 since 06-18",
+        "trend": "up"
+      }
+    },
+    "stat-miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Forks",
+        "value": "276",
+        "delta": "+4 since 06-18",
+        "trend": "up"
+      }
+    },
+    "text-praxstack-note": {
+      "type": "Text",
+      "props": {
+        "text": "praxstack mirror pushed Jun 19",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-opportunities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-opportunities",
+        "text-opp-aeon-intro",
+        "stack-opp-aeon-lists",
+        "text-opp-miroshark-intro",
+        "link-opp-microlaunch"
+      ]
+    },
+    "heading-opportunities": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "text-opp-aeon-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Add Aeon to curated lists — self-evolving agents is the exact category:",
+        "variant": "body"
+      }
+    },
+    "stack-opp-aeon-lists": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-opp-awesome1",
+        "link-opp-awesome2",
+        "link-opp-awesome3"
+      ]
+    },
+    "link-opp-awesome1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "XMUDeepLIT/Awesome-Self-Evolving-Agents (265★) — open a PR",
+        "href": "https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents"
+      }
+    },
+    "link-opp-awesome2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ARUNAGIRINATHAN-K/awesome-ai-agents-2026 (163★, updated today) — active lists, window open",
+        "href": "https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026"
+      }
+    },
+    "link-opp-awesome3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Zijian-Ni/awesome-ai-agents-2026 (145★) — active lists, window open",
+        "href": "https://github.com/Zijian-Ni/awesome-ai-agents-2026"
+      }
+    },
+    "text-opp-miroshark-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Upvote MiroShark on microlaunch.net (0 engagement, go upvote/leave a note):",
+        "variant": "body"
+      }
+    },
+    "link-opp-microlaunch": {
+      "type": "StoryLink",
+      "props": {
+        "title": "microlaunch.net/p/miroshark",
+        "href": "https://microlaunch.net/p/miroshark"
+      }
+    }
+  }
+}
