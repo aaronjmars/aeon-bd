@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-06-19T17:32:45Z",
-  "quality_score": 4,
-  "assessment": "Substantive dedup and curation pipeline with clear signal extraction; proper state management and notification.",
+  "last_analyzed": "2026-06-20T17:23:18Z",
+  "quality_score": 3,
+  "assessment": "Skill executed correctly with proper fallback logic; no new signal found; appropriate decision not to notify.",
   "flags": [],
-  "avg_score": 3.25,
+  "avg_score": 3.22,
   "history": [
     {
       "date": "2026-06-12",
@@ -37,6 +37,10 @@
     {
       "date": "2026-06-19",
       "score": 4
+    },
+    {
+      "date": "2026-06-20",
+      "score": 3
     }
   ]
 }
