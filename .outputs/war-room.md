@@ -1,11 +1,11 @@
-⭐🦈 war room — 2026-06-19
+⭐🦈 war room — 2026-06-20
 
-state: both green. 🦈 +51 stars/7d — strongest week yet, something's pulling. issues 1→4 in a day (worth a look, but that's usage not breakage). ⭐ +24, steady. aeon-wc at 11d, watch it before 14. CI still 404 on both automation repos — unverified, not confirmed red.
+state: data's as-of 06-19 — pulse/radar haven't refreshed yet today. both green. 🦈 +51 stars/7d, strongest week, still pulling; issues 1→4 is usage not breakage. ⭐ 531★, +24/7d, steady. aeon-wc now 12d quiet — 2 days from the 14d stall flag, ping it before it trips. CI still 404 on both automation repos — unverified, not confirmed red.
 
-talk to: **swarm-ai-research** (36★, running multi-seed 🦈 studies w/ grok-4.3, now 3 active repos in the org) — cold DM, open the academic-use path. **SpartanLabsXyz** — shipped a Polymarket skill pack on aeon, exactly what the ecosystem needed → TG invite + co-promo.
+talk to: same warm book, no new leads (radar hasn't run today). **swarm-ai-research** — multi-seed 🦈 academic studies w/ grok-4.3, the escalating one (3 active repos now) — and **dan-and** on #187, multilingual sims hitting integration friction. SpartanLabsXyz's PM skill pack still owed a TG invite.
 
-decide: 🦈's +51 week is the window — spend it closing, not discovering. DM swarm-ai-research today and reply to dan-and on #187. multilingual + multi-seed sims are the same academic wedge, and it's escalating now. one warm book, close it before the attention fades.
+decide: yesterday's call was DM swarm-ai-research + reply #187 — and the data hasn't moved since. so today isn't a new decision, it's the same one, un-closed. did the warm book get worked? if not, that's the whole job today. the +51 week doesn't wait for us to discover more. one DM, one reply, before the attention fades.
 
 ---
 
-*Sources: [product-pulse-2026-06-19](./product-pulse-2026-06-19.md) · [bd-radar-2026-06-19](./bd-radar-2026-06-19.md) · idea-forge-2026-06-17 (bottleneck = closing the warm book, not discovery) · sim-watch-2026-06-14.*
+*Sources: [product-pulse-2026-06-19](./product-pulse-2026-06-19.md) · [bd-radar-2026-06-19](./bd-radar-2026-06-19.md) (both most-recent; 06-20 upstream hadn't committed at 07:45) · idea-forge-2026-06-17 (bottleneck = closing the warm book, not discovery) · sim-watch-2026-06-14.*

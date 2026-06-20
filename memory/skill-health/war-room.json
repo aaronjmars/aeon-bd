@@ -1,10 +1,12 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-19T09:21:04Z",
-  "quality_score": 5,
-  "assessment": "Excellent — specific metrics tied to strategy (Miroshark +51/7d as window), two concrete BD targets with reasoning (swarm-ai-research, SpartanLabsXyz), clear decision line with immediate actions (DM, reply), proper caveats (CI 404 unverified), Aaron's voice, zero filler.",
-  "flags": [],
-  "avg_score": 4.2,
+  "last_analyzed": "2026-06-20T07:51:39Z",
+  "quality_score": 4,
+  "assessment": "Well-executed with honest handling of stale upstream data; delivered actionable follow-ups and identified system timing issues",
+  "flags": [
+    "stale_data"
+  ],
+  "avg_score": 4.18,
   "history": [
     {
       "date": "2026-06-11",
@@ -45,6 +47,10 @@
     {
       "date": "2026-06-19",
       "score": 5
+    },
+    {
+      "date": "2026-06-20",
+      "score": 4
     }
   ]
 }

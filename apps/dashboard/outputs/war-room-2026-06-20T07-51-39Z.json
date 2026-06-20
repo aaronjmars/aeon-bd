@@ -1,0 +1,384 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-06-20"
+      },
+      "children": [
+        "state-section",
+        "separator-1",
+        "talk-section",
+        "separator-2",
+        "decide-section",
+        "separator-3",
+        "sources-section"
+      ]
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-header",
+        "state-intro",
+        "state-stats",
+        "state-flags"
+      ]
+    },
+    "state-header": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "state-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Data as-of 06-19. Pulse/radar haven't refreshed today. Both green.",
+        "variant": "muted"
+      }
+    },
+    "state-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-stat",
+        "miroshark-note",
+        "aeon-stat",
+        "aeon-note"
+      ]
+    },
+    "miroshark-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "🦈 Miroshark",
+        "value": "+51 stars",
+        "trend": "up"
+      }
+    },
+    "miroshark-note": {
+      "type": "Text",
+      "props": {
+        "text": "Strongest week, still pulling. Issues: 1→4 (usage not breakage).",
+        "variant": "caption"
+      }
+    },
+    "aeon-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "⭐ Aeon",
+        "value": "531 stars",
+        "delta": "+24/7d",
+        "trend": "neutral"
+      }
+    },
+    "aeon-note": {
+      "type": "Text",
+      "props": {
+        "text": "Steady growth",
+        "variant": "caption"
+      }
+    },
+    "state-flags": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-wc-alert",
+        "ci-alert"
+      ]
+    },
+    "aeon-wc-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "aeon-wc",
+        "message": "12d quiet. 2 days from 14d stall flag — ping before it trips."
+      }
+    },
+    "ci-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "CI Status",
+        "message": "404 on both automation repos. Unverified, not confirmed red."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk-header",
+        "talk-intro",
+        "talk-items"
+      ]
+    },
+    "talk-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "talk-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Same warm book, no new leads. Radar hasn't run today.",
+        "variant": "muted"
+      }
+    },
+    "talk-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk-swarm",
+        "talk-dan",
+        "talk-spartan"
+      ]
+    },
+    "talk-swarm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "swarm-badge",
+        "swarm-desc"
+      ]
+    },
+    "swarm-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "swarm-ai-research",
+        "variant": "default"
+      }
+    },
+    "swarm-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-seed 🦈 academic studies w/ grok-4.3, the escalating one. 3 active repos now.",
+        "variant": "body"
+      }
+    },
+    "talk-dan": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dan-badge",
+        "dan-desc"
+      ]
+    },
+    "dan-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "dan-and on #187",
+        "variant": "default"
+      }
+    },
+    "dan-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Multilingual sims hitting integration friction.",
+        "variant": "body"
+      }
+    },
+    "talk-spartan": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "spartan-badge",
+        "spartan-desc"
+      ]
+    },
+    "spartan-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SpartanLabsXyz",
+        "variant": "outline"
+      }
+    },
+    "spartan-desc": {
+      "type": "Text",
+      "props": {
+        "text": "PM skill pack still owed a TG invite.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide-header",
+        "decide-context",
+        "decide-actions"
+      ]
+    },
+    "decide-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "decide-context": {
+      "type": "Text",
+      "props": {
+        "text": "Yesterday's call: DM swarm-ai-research + reply #187. Data hasn't moved since. Not a new decision — same one, un-closed. Did the warm book get worked? If not, that's the whole job today.",
+        "variant": "body"
+      }
+    },
+    "decide-actions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action-dm",
+        "action-reply",
+        "action-urgency"
+      ]
+    },
+    "action-dm": {
+      "type": "Badge",
+      "props": {
+        "text": "→ DM swarm-ai-research",
+        "variant": "default"
+      }
+    },
+    "action-reply": {
+      "type": "Badge",
+      "props": {
+        "text": "→ Reply #187",
+        "variant": "default"
+      }
+    },
+    "action-urgency": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "+51 week doesn't wait. One DM, one reply, before the attention fades."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources-header",
+        "sources-intro",
+        "sources-list",
+        "sources-note"
+      ]
+    },
+    "sources-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      }
+    },
+    "sources-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Most recent data. (06-20 upstream hadn't committed at 07:45)",
+        "variant": "caption"
+      }
+    },
+    "sources-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
+    },
+    "source-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "product-pulse-2026-06-19",
+        "href": "./product-pulse-2026-06-19.md"
+      }
+    },
+    "source-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bd-radar-2026-06-19",
+        "href": "./bd-radar-2026-06-19.md"
+      }
+    },
+    "source-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "idea-forge-2026-06-17",
+        "href": "./idea-forge-2026-06-17.md"
+      }
+    },
+    "source-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sim-watch-2026-06-14",
+        "href": "./sim-watch-2026-06-14.md"
+      }
+    },
+    "sources-note": {
+      "type": "Text",
+      "props": {
+        "text": "idea-forge-2026-06-17: bottleneck = closing the warm book, not discovery",
+        "variant": "caption"
+      }
+    }
+  }
+}
