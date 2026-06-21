@@ -12,7 +12,19 @@
     "arxiv:2606.13670",
     "arxiv:2606.13672",
     "arxiv:2606.13674",
-    "arxiv:2606.13673"
+    "arxiv:2606.13673",
+    "repo:VincenzoManto/Doxa",
+    "repo:francemazzi/worldsim",
+    "repo:Longzhong-Lin/UniMM",
+    "repo:aepichaya/th-ai-passport-mirofish-sim",
+    "arxiv:2606.18795",
+    "arxiv:2606.17657",
+    "arxiv:2606.20493",
+    "arxiv:2606.19144",
+    "arxiv:2606.19488",
+    "arxiv:2601.21473",
+    "url:worldlabs.ai/marble",
+    "url:nvidia-cosmos-3-june2026"
   ],
   "cohort": [
     "GoogleCloudPlatform/race-condition",
@@ -21,6 +33,8 @@
     "joonspk-research/generative_agents",
     "wshuyi/crucible-sim",
     "AntFleet/miroshark-bench",
-    "XIAOCUICUII/koc-growth-agent"
+    "XIAOCUICUII/koc-growth-agent",
+    "VincenzoManto/Doxa",
+    "francemazzi/worldsim"
   ]
 }
