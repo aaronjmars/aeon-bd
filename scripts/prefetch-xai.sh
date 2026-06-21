@@ -271,6 +271,16 @@ case "$SKILL" in
       "$THREE_DAYS_AGO" "$TOMORROW"
     ;;
 
+  daily-shiplog)
+    # Operator + product-account posts in the last 24h — feeds the daily shiplog's
+    # X section (original launches/announcements vs RTs). Cached so the in-sandbox
+    # skill never curls with the secret; the skill degrades to WebSearch if absent.
+    xai_search "daily-shiplog.json" \
+      "Search X for posts by @aaronjmars, @aeonframework, and @miroshark_ from ${YESTERDAY} to ${TODAY}. Include BOTH original posts AND reposts/retweets. For each post return: @handle, whether it is an original post or an RT (RT text starts with 'RT @'), the full text, date/time posted, engagement (likes, reposts, replies), and the direct link (https://x.com/handle/status/ID). Return up to 25 as a chronological list." \
+      "$YESTERDAY" "$TOMORROW" \
+      "\"allowed_x_handles\": [\"aaronjmars\", \"aeonframework\", \"miroshark_\"]"
+    ;;
+
   *)
     echo "xai-prefetch: no prefetch defined for skill '$SKILL'"
     ;;
