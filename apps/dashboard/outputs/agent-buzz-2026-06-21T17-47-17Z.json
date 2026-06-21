@@ -1,0 +1,140 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Agent Buzz",
+        "description": "Builders split between arguing what \"agent-native\" means and quietly dropping the primitives that answer it."
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h2-meaning",
+        "stack-meaning-items",
+        "separator-1",
+        "h2-shipping",
+        "stack-shipping-items",
+        "text-footer"
+      ]
+    },
+    "h2-meaning": {
+      "type": "Heading",
+      "props": {
+        "text": "What \"agent-native\" really means",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-meaning-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-1",
+        "story-2",
+        "story-3"
+      ]
+    },
+    "story-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@JustAnotherPM — Anthropic's May 2026 Claude Code orchestration made multi-agent first-party: coordinator Claude routes to specialist Claudes.",
+        "href": "https://x.com/JustAnotherPM/status/2068393498315981184",
+        "source": "X"
+      },
+      "children": []
+    },
+    "story-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@RhysSullivan — Cloud products aren't agent-native — just cloud UX with \"agent\" in the copy, no purpose-built primitives underneath.",
+        "href": "https://x.com/RhysSullivan/status/2068423790766563676",
+        "source": "X"
+      },
+      "children": []
+    },
+    "story-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@crislenta — Most devs claiming \"autonomous self-improving entity\" are posturing, not actually building it.",
+        "href": "https://x.com/crislenta/status/2068483506708082968",
+        "source": "X"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "h2-shipping": {
+      "type": "Heading",
+      "props": {
+        "text": "Builders shipping primitives",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-shipping-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-4",
+        "story-5",
+        "story-6"
+      ]
+    },
+    "story-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@cyberstrike_io — Open-source offensive security agent: 13+ specialist sub-agents, 120+ OWASP cases, any LLM subscription.",
+        "href": "https://x.com/cyberstrike_io/status/2068481767380537724",
+        "source": "X"
+      },
+      "children": []
+    },
+    "story-5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@0xAlexaOnChain — $SAIRI on Base: onchain treasury + code-deploy ability — economic stakes as agent identity primitive.",
+        "href": "https://x.com/0xAlexaOnChain/status/2068479638351819036",
+        "source": "X"
+      },
+      "children": []
+    },
+    "story-6": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@adriansalinaas — Self-reference in minimal agents depends on ordered operational memory, not textual self-description.",
+        "href": "https://x.com/adriansalinaas/status/2068407763760230668",
+        "source": "X"
+      },
+      "children": []
+    },
+    "text-footer": {
+      "type": "Text",
+      "props": {
+        "text": "Source: xai-prefetch · 6 of 11 candidates selected",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
