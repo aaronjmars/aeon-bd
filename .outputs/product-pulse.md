@@ -1,20 +1,18 @@
-Done. Here's the summary.
-
 ## Summary
 
-**product-pulse 2026-06-20** — ran clean, no red flags.
+**product-pulse 2026-06-21** — done.
+
+**What was gathered:**
+- All 6 public repos via `gh api`, 4 private repos from prefetch cache, X followers from xAI cache
 
 **Key numbers:**
-
-| | aeon ⭐ | MiroShark 🦈 |
-|---|---|---|
-| Stars | 536 (+5 / **+26 Δ7d**) | 1,315 (+1 / **+48 Δ7d**) |
-| Followers | 151,737 (+5 / −41 Δ7d) | 2,106 (+4 / +36 Δ7d) |
+- Aeon ⭐: 539 stars (Δ7d **+27**), @aeonframework 151,731 followers (Δ7d -36)
+- MiroShark 🦈: 1,318 stars (Δ7d **+48**), @miroshark_ 2,106 followers (Δ7d +35)
 
 **Notables:**
-- MiroShark strongest 7d star week this cycle (+48), on track toward 1,400
-- Aeon crossed the +25 Δ7d momentum threshold (+26)
-- @miroshark_ followers growing cleanly (+36 Δ7d)
-- @aeonframework followers Δ7d negative (−41) but Δ1d just flipped positive (+5) — trailing drag, not acceleration
+- Both repos above the +25 star/week momentum threshold — MiroShark running hot
+- `aeon-wc` at 13 days stale, hits the 14d flag tomorrow
+- CI actions endpoint still 404 (day 4) — logged as MISS, not confirmed failure
+- No red-flag fired → no self-notify sent
 
-**No notify sent** — no CI red, no stall >14d (aeon-wc at 12d). Digest at `articles/product-pulse-2026-06-20.md`.
+**Files written:** `articles/product-pulse-2026-06-21.md`, `memory/topics/product-pulse-state.json`, `memory/logs/2026-06-21.md` — all committed.

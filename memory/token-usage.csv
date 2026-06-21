@@ -77,4 +77,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-20,fetch-tweets,claude-sonnet-4-6,856,9330,565987,35975
 2026-06-20,reply-maker,claude-sonnet-4-6,11,19675,570338,60243
 2026-06-20,heartbeat,claude-sonnet-4-6,12,15055,615404,59457
-2026-06-21,heartbeat,claude-sonnet-4-6,11,11750,480865,67530
+2026-06-21,product-pulse,claude-sonnet-4-6,12,10311,575734,48901
