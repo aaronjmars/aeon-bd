@@ -1,0 +1,276 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "launch-radar",
+        "description": "2026-06-21"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "prior_art_section",
+        "sep2",
+        "open_section"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "5 ideas scanned. 0 active competition. 2 still wide open.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "prior_art_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prior_heading",
+        "prior_items"
+      ]
+    },
+    "prior_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "prior art (exists, weak signal)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "prior_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prior_item_1",
+        "prior_item_2",
+        "prior_item_3"
+      ]
+    },
+    "prior_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prior_1_title",
+        "prior_1_desc"
+      ]
+    },
+    "prior_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "proof-of-self-repair",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "prior_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Phantom (HN, Apr 24), Zuckerman (HN, Feb 8) ship self-editing agents. none have the public verifiable ledger angle. the proof is free — aeon already runs it.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "prior_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prior_2_title",
+        "prior_2_desc"
+      ]
+    },
+    "prior_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "counterfactual-launch-sim",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "prior_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ProductHunt Chaos Generator exists (single LLM, Grok). no swarm, no timing window, no counterfactual branching. adjacent, not competing.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "prior_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prior_3_title",
+        "prior_3_desc"
+      ]
+    },
+    "prior_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "ambient-aeon",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "prior_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "category is crowded (SuperPowers AI, Local Operator, AGNT.Hub on PH). closest HN hit was Feb 17, >60 days, no confirmed breakout. the \"shipped first on public traces\" claim is still unclaimed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "open_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "open_heading",
+        "open_items"
+      ]
+    },
+    "open_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "still wide open",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "open_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "open_item_1",
+        "open_item_2"
+      ]
+    },
+    "open_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "open_1_title_wrapper",
+        "open_1_desc"
+      ]
+    },
+    "open_1_title_wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "open_1_title",
+        "open_1_badge1",
+        "open_1_badge2"
+      ]
+    },
+    "open_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "miroshark-social-world-model",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "open_1_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "⭐",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "open_1_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "🦈",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "open_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "world-models race is exploding in pixels/3D; social simulation as MCP simulate(decision) tool is the unclaimed flank",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "open_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "open_2_title",
+        "open_2_desc"
+      ]
+    },
+    "open_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "pm-presim",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "open_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "belief-drift pre-sim before sizing a PM bet: open lane, low conviction (operator bearish on standalone PM products)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
