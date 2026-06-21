@@ -55,8 +55,8 @@
     "last_quality_score": 4
   },
   "write-tweet": {
-    "last_dispatch": "2026-06-20T17:19:05Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-21T17:41:52Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-20T17:22:53Z",
     "total_runs": 10,
     "total_successes": 10,
@@ -66,8 +66,8 @@
     "last_quality_score": 4
   },
   "reply-maker": {
-    "last_dispatch": "2026-06-20T17:51:42Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-21T17:41:52Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-20T18:00:19Z",
     "total_runs": 11,
     "total_successes": 10,
@@ -79,8 +79,8 @@
     "last_error": "e_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inp"
   },
   "agent-buzz": {
-    "last_dispatch": "2026-06-20T17:51:42Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-21T17:41:52Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-20T17:56:40Z",
     "total_runs": 10,
     "total_successes": 10,
@@ -302,13 +302,14 @@
     "last_quality_score": 4
   },
   "daily-shiplog": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-06-21T17:39:57Z",
     "total_runs": 1,
     "total_successes": 1,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1,
-    "last_quality_score": 4
+    "last_quality_score": 4,
+    "last_dispatch": "2026-06-21T17:41:52Z"
   }
 }
