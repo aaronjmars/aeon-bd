@@ -1,12 +1,16 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks clean. Key action this run: ISS-001 (xAI prefetch `to_date` off-by-one) formally closed — reply-maker confirmed working at 18:00 UTC with 10 replies from same-day candidates. Status page flipped from 🟡 WATCH → 🟢 OK with 0 open issues.
+All checks clean:
+- **P0:** All 25 enabled skills showing `success`, no failures, no stuck dispatches, no consecutive failures, heartbeat self-check fresh (~12h).
+- **P1:** 0 open PRs, 0 urgent issues.
+- **P2:** ISS-001 resolved last night — nothing new flagged.
+- **P3:** All scheduled skills within 2× their interval; no missing cron-state entries.
+
+`docs/status.md` updated to 🟢 OK. Next scheduled run: engagement-act at 09:30 UTC. Token pulse section omitted (no `articles/token-report-*.md` exists).
 
 ## Summary
-
-- **P0** — clean. All 25 skills `last_status: success`. No stuck, failed, or consecutive-failure conditions.
-- **P1** — clean. 0 open PRs, 0 urgent issues.
-- **P2** — ISS-001 resolved. Closed `memory/issues/ISS-001.md` (status: resolved), moved to Resolved in `memory/issues/INDEX.md`. No new memory flags.
-- **P3** — clean. All enabled skills within 2× their schedule interval.
-- **Files updated:** `docs/status.md` (🟢 OK, 0 open issues), `memory/issues/ISS-001.md`, `memory/issues/INDEX.md`, `memory/logs/2026-06-20.md`.
-- No notification sent (no actionable findings outside 48h dedup window).
+- Read `memory/cron-state.json`, `aeon.yml`, `memory/issues/INDEX.md`, recent logs, and checked open PRs.
+- Ran all P0–P3 checks: everything green.
+- Wrote `docs/status.md` with 🟢 OK status (25 skills, 0 issues, next run engagement-act 09:30 UTC).
+- Created `memory/logs/2026-06-21.md` with today's heartbeat entry.
+- No notification sent (nothing to flag).
