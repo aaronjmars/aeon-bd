@@ -1,12 +1,10 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-20T07:51:39Z",
+  "last_analyzed": "2026-06-21T08:42:07Z",
   "quality_score": 4,
-  "assessment": "Well-executed with honest handling of stale upstream data; delivered actionable follow-ups and identified system timing issues",
-  "flags": [
-    "stale_data"
-  ],
-  "avg_score": 4.18,
+  "assessment": "Substantive, well-structured, actionable decision grounded in data with clear rationale and proper execution",
+  "flags": [],
+  "avg_score": 4.17,
   "history": [
     {
       "date": "2026-06-11",
@@ -50,6 +48,10 @@
     },
     {
       "date": "2026-06-20",
+      "score": 4
+    },
+    {
+      "date": "2026-06-21",
       "score": 4
     }
   ]

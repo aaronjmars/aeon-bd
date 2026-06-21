@@ -1,11 +1,11 @@
-⭐🦈 war room — 2026-06-20
+⭐🦈 war room — 2026-06-21
 
-state: data's as-of 06-19 — pulse/radar haven't refreshed yet today. both green. 🦈 +51 stars/7d, strongest week, still pulling; issues 1→4 is usage not breakage. ⭐ 531★, +24/7d, steady. aeon-wc now 12d quiet — 2 days from the 14d stall flag, ping it before it trips. CI still 404 on both automation repos — unverified, not confirmed red.
+state: data's as-of 06-20 — today's pulse/radar haven't refreshed yet. both green. 🦈 1,315★ +48/7d, strongest week, on track to 1,400. ⭐ 536★ +26/7d, above threshold; issues 3 (+2 = usage, not breakage). aeon-wc 12d quiet — 2 days from the 14d stall flag, ping it. CI 404 on both automation repos — unverified, not red.
 
-talk to: same warm book, no new leads (radar hasn't run today). **swarm-ai-research** — multi-seed 🦈 academic studies w/ grok-4.3, the escalating one (3 active repos now) — and **dan-and** on #187, multilingual sims hitting integration friction. SpartanLabsXyz's PM skill pack still owed a TG invite.
+talk to: **@Charon_AI** — built charon.aeon.yml on aeon (PASS/PAUSE/DENY policy layer, signed receipts, TG human-in-loop), iterating overnight, you already praised it 06-19. **dan-and** — MiroShark #193, third signal this week → reply.
 
-decide: yesterday's call was DM swarm-ai-research + reply #187 — and the data hasn't moved since. so today isn't a new decision, it's the same one, un-closed. did the warm book get worked? if not, that's the whole job today. the +51 week doesn't wait for us to discover more. one DM, one reply, before the attention fades.
+decide: Charon's the move. you validated it in public already — warm intro's half-done. DM today, turn the praise into a real ecosystem spotlight: co-post the PASS/PAUSE/DENY pattern + a fleet-watcher × charon setup guide. governance is the wedge fleet operators actually need. close it while it's fresh.
 
 ---
 
-*Sources: [product-pulse-2026-06-19](./product-pulse-2026-06-19.md) · [bd-radar-2026-06-19](./bd-radar-2026-06-19.md) (both most-recent; 06-20 upstream hadn't committed at 07:45) · idea-forge-2026-06-17 (bottleneck = closing the warm book, not discovery) · sim-watch-2026-06-14.*
+*Sources: [product-pulse-2026-06-20](./product-pulse-2026-06-20.md) · [bd-radar-2026-06-20](./bd-radar-2026-06-20.md) (both most-recent; 06-21 upstream hadn't committed at 07:45) · idea-forge-2026-06-17 (bottleneck = closing the warm book, not discovery) · sim-watch-2026-06-14.*
