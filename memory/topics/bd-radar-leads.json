@@ -89,7 +89,10 @@
     {"key": "github:deepmindru-afk/MiroShark", "class": "forking", "who": "deepmindru-afk", "handle": "deepmindru-afk", "signal": "MiroShark fork created 06-19T00:44, own commits pushed 06-19T18:28 — 17h+ own activity. Unclear vertical, no description.", "fit": 3, "score": 6, "first_seen": "2026-06-20", "repo_updated": "2026-06-19", "source": "gh_read_pat_forks", "move": "Watch — if they push again or add description, ping: what are you building with MiroShark?"},
     {"key": "x:1clawAI", "class": "adjacent", "who": "1clawAI", "handle": "@1clawAI", "signal": "Replied to aeon fleet-watcher security thread 06-19: 'signing key infrastructure that keeps secrets out of agent processes entirely'. Agent-security infra, complementary to aeon's governance layer. Shared TG invite link.", "fit": 3, "score": 3, "first_seen": "2026-06-20", "source": "xai_x", "move": "Check 1claw.ai; if building agent signing infra, reply in thread — their signing + charon's policy + fleet-watcher = composable governance stack, worth a public thread"},
     {"key": "github:Tholynceus/aeon", "class": "forking", "who": "Tholynceus", "handle": "Tholynceus", "signal": "Aeon fork created 06-19T23:20, own commits 06-19T23:35 (15min activity overnight). Identity unknown.", "fit": 1, "score": 2, "first_seen": "2026-06-20", "repo_updated": "2026-06-19", "source": "gh_read_pat_forks", "move": "Watch only"},
-    {"key": "github:logbookbase/aeon", "class": "forking", "who": "logbookbase", "handle": "logbookbase", "signal": "Aeon fork created 06-19T15:32, pushed 06-19T15:55 (23min own activity). Handle suggests logging/ops vertical.", "fit": 1, "score": 2, "first_seen": "2026-06-20", "repo_updated": "2026-06-19", "source": "gh_read_pat_forks", "move": "Watch. If logging/observability play on aeon, ping when description appears"}
+    {"key": "github:logbookbase/aeon", "class": "forking", "who": "logbookbase", "handle": "logbookbase", "signal": "Aeon fork created 06-19T15:32, pushed 06-19T15:55 (23min own activity). Handle suggests logging/ops vertical.", "fit": 1, "score": 2, "first_seen": "2026-06-20", "repo_updated": "2026-06-19", "source": "gh_read_pat_forks", "move": "Watch. If logging/observability play on aeon, ping when description appears"},
+    {"key": "github:swarm-ai-research/MiroShark", "class": "forking", "who": "swarm-ai-research (swarm-ai.org)", "handle": "swarm-ai-research", "signal": "Known research org (36★, already has aeon-atlas + swarm repos, runs multi-seed Grok-4.3 MiroShark experiments). MiroShark fork created 06-07, pushed TODAY 06-21T02:22 with own content (63,661 bytes > base ~62,985). Escalating from adjacent → deep MiroShark builder.", "fit": 3, "score": 12, "first_seen": "2026-06-21", "repo_updated": "2026-06-21", "known": true, "escalating": true, "source": "gh_read_pat_forks", "move": "Ping swarm-ai.org / GH org: your MiroShark fork has own content this morning — what's the experiment? offer academic-use path + direct collab"},
+    {"key": "github:adlai88/aeon", "class": "forking", "who": "adlai88", "handle": "adlai88", "signal": "New aeon fork, 43min own activity 06-18T13:04→13:47. Identity unknown, no description.", "fit": 1, "score": 4, "first_seen": "2026-06-21", "repo_updated": "2026-06-18", "source": "gh_read_pat_forks", "move": "Watch — ping if they add a description or open an issue"},
+    {"key": "x:gumterver100", "class": "mentioning", "who": "gumterver100", "handle": "@gumterver100", "signal": "Base Daily Recap 06-21 calls out '@Litebeam_xyz integrated into @aeonframework' + '$MIROSHARK trending #8 on CoinGatePad.' Distribution surface that names both products in the same post. 7 likes/1 RT.", "fit": 1, "score": 3, "first_seen": "2026-06-21", "link": "https://x.com/gumterver100/status/2068559314579587303", "source": "xai_x", "move": "No action — confirms Litebeam integration getting organic pick-up"}
   ],
   "surfaced": [
     "github:AntFleet",
@@ -193,6 +196,9 @@
     "github:deepmindru-afk/MiroShark",
     "x:1clawAI",
     "github:Tholynceus/aeon",
-    "github:logbookbase/aeon"
+    "github:logbookbase/aeon",
+    "github:swarm-ai-research/MiroShark",
+    "github:adlai88/aeon",
+    "x:gumterver100"
   ]
 }
