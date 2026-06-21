@@ -1,26 +1,36 @@
-*Engagement Act — 2026-06-20*
+*Engagement Act — 2026-06-21*
 
-*1. @Charon_AI* (0 days ago) — building charon.aeon.yml governance policy layer on top of Aeon; Aaron publicly validated 06-19, fork pushed overnight
-link: https://github.com/Charon-AI/aeon
-type: X reply / DM
-draft: "policy layer on aeon is the right call. charon.aeon.yml for auditable permissions is exactly the standard worth owning. what's the roadmap for cross-skill enforcement — per-skill or per-instance? dm'd ⭐"
+*1. @Charon_AI* (0d ago) — built charon.aeon.yml: PASS/PAUSE/DENY policy layer with ed25519 signed receipts + TG human-in-loop on aeon. Aaron publicly validated 06-19, warm intro half-done. War-room #1 today.
+link: no link found
+type: X DM
+draft: "the PASS/PAUSE/DENY pattern is exactly what aeon needed — signed receipts make human-in-loop actually auditable ⭐
 
-*2. @madebyshun* (1 day ago) — no-employee company running aeon+miroshark+blueagent via x402 hourly, zero humans in the loop (19L/1RT)
-link: https://x.com/madebyshun/status/2067447758177619999
-type: X reply
-draft: "literally just a company. no employees, just agents on x402. this is what 'agents as companies' looks like in the wild — you built the thesis ⭐🦈"
+want to co-post a setup guide? fleet-watcher × charon is a strong combo and people keep asking about governance. would shine a light on what you built"
 
-*3. @0xZiuuu* (1 day ago) — first systematic Miroshark 14-integration deep-dive thread framing integration count as compounding bull case (4L/2RT)
-link: https://x.com/0xZiuuu/status/2067582037285126247
-type: X reply
-draft: "the compounding argument is right — integrations aren't additive, they're multiplicative. each one makes the sim more grounded. 14 is still early 🦈"
+*2. swarm-ai-research* (0d ago) — pushed own content to MiroShark fork today — preregistered multi-seed replication study, grok-4.3 as judge. Escalating.
+link: https://github.com/swarm-ai-research/MiroShark
+type: GitHub comment
+draft: "the preregistered multi-seed design + grok-4.3 as judge is the right call — makes results falsifiable rather than vibes 🦈
 
-*4. XMUDeepLIT/Awesome-Self-Evolving-Agents* (0 days ago) — 265★ curated list; "self-evolving agents" is Aeon's exact category claim, not on the list yet
-link: https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents
-type: GitHub PR / comment
-draft: "aeon fits this exactly — 197 skills as markdown, self-repair on failure, public traces at github.com/aaronjmars/aeon-agent. 'self-repair is the moat' is the tagline for a reason. happy to open a PR if you want a submission ⭐"
+are you tracking belief drift divergence across seeds, or treating each run as independent? we added cross-seed hooks last sprint, can point you at the right parameters"
 
-*5. dan-and / MiroShark issue-193* (0 days ago) — third MiroShark signal this week, escalating model architecture discussion
+*3. dan-and/issue-193* (1d ago) — 3rd MiroShark issue this week. Model architecture discussion. Score 9 integrating. War-room secondary.
 link: https://github.com/aaronjmars/MiroShark/issues/193
 type: GitHub comment
-draft: "third good one this week — you're persistent in the best way 🦈 model architecture question is real. what's the main blocker — single-provider context ceiling, or the belief-drift parameters not exposed enough to swap models mid-run? either way this is exactly what we want in the tracker."
+draft: "third issue this week — clearly deep in it 🦈
+
+is this about swapping which model runs each persona, or about the simulation's internal topology? pretty different problems, happy to walk through either"
+
+*4. @madebyshun* (1d ago) — running a no-employee company on aeon + miroshark + blueagent via x402, hourly, zero humans. 19 likes.
+link: https://x.com/madebyshun/status/2067447758177619999
+type: X reply
+draft: "a no-employee company that actually runs hourly — not a concept, a live stack ⭐🦈
+
+what's the hardest thing to get right on the x402 payment loop? the async payment confirmation is where most people get stuck"
+
+*5. gumterver100* (0d ago) — Base Daily Recap today: Litebeam×aeon integration + $MIROSHARK trending #8.
+link: no link found
+type: X reply
+draft: "litebeam × aeon is one of the integrations we're most bullish on — they're building the infrastructure layer ⭐
+
+$miroshark at #8 while the sim engine is shipping — market reads the builds before the threads do 🦈"

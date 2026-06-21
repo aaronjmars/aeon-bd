@@ -1,0 +1,337 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-06-21"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_1",
+        "sep_1",
+        "item_2",
+        "sep_2",
+        "item_3",
+        "sep_3",
+        "item_4",
+        "sep_4",
+        "item_5"
+      ]
+    },
+    "item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_1_header",
+        "item_1_desc",
+        "item_1_meta",
+        "item_1_draft"
+      ]
+    },
+    "item_1_header": {
+      "type": "Heading",
+      "props": {
+        "text": "@Charon_AI (0d ago)",
+        "level": "h3"
+      }
+    },
+    "item_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "built charon.aeon.yml: PASS/PAUSE/DENY policy layer with ed25519 signed receipts + TG human-in-loop on aeon. Aaron publicly validated 06-19, warm intro half-done. War-room #1 today."
+      }
+    },
+    "item_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item_1_badge",
+        "item_1_link_none"
+      ]
+    },
+    "item_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X DM"
+      }
+    },
+    "item_1_link_none": {
+      "type": "Text",
+      "props": {
+        "text": "no link found",
+        "variant": "muted"
+      }
+    },
+    "item_1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: the PASS/PAUSE/DENY pattern is exactly what aeon needed — signed receipts make human-in-loop actually auditable ⭐\n\nwant to co-post a setup guide? fleet-watcher × charon is a strong combo and people keep asking about governance. would shine a light on what you built"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_2_header",
+        "item_2_desc",
+        "item_2_meta",
+        "item_2_draft"
+      ]
+    },
+    "item_2_header": {
+      "type": "Heading",
+      "props": {
+        "text": "swarm-ai-research (0d ago)",
+        "level": "h3"
+      }
+    },
+    "item_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "pushed own content to MiroShark fork today — preregistered multi-seed replication study, grok-4.3 as judge. Escalating."
+      }
+    },
+    "item_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item_2_badge",
+        "item_2_link"
+      ]
+    },
+    "item_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment"
+      }
+    },
+    "item_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark",
+        "href": "https://github.com/swarm-ai-research/MiroShark"
+      }
+    },
+    "item_2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: the preregistered multi-seed design + grok-4.3 as judge is the right call — makes results falsifiable rather than vibes 🦈\n\nare you tracking belief drift divergence across seeds, or treating each run as independent? we added cross-seed hooks last sprint, can point you at the right parameters"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_3_header",
+        "item_3_desc",
+        "item_3_meta",
+        "item_3_draft"
+      ]
+    },
+    "item_3_header": {
+      "type": "Heading",
+      "props": {
+        "text": "dan-and/issue-193 (1d ago)",
+        "level": "h3"
+      }
+    },
+    "item_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "3rd MiroShark issue this week. Model architecture discussion. Score 9 integrating. War-room secondary."
+      }
+    },
+    "item_3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item_3_badge",
+        "item_3_link"
+      ]
+    },
+    "item_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment"
+      }
+    },
+    "item_3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Issue #193",
+        "href": "https://github.com/aaronjmars/MiroShark/issues/193"
+      }
+    },
+    "item_3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: third issue this week — clearly deep in it 🦈\n\nis this about swapping which model runs each persona, or about the simulation's internal topology? pretty different problems, happy to walk through either"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_4_header",
+        "item_4_desc",
+        "item_4_meta",
+        "item_4_draft"
+      ]
+    },
+    "item_4_header": {
+      "type": "Heading",
+      "props": {
+        "text": "@madebyshun (1d ago)",
+        "level": "h3"
+      }
+    },
+    "item_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "running a no-employee company on aeon + miroshark + blueagent via x402, hourly, zero humans. 19 likes."
+      }
+    },
+    "item_4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item_4_badge",
+        "item_4_link"
+      ]
+    },
+    "item_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "item_4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tweet",
+        "href": "https://x.com/madebyshun/status/2067447758177619999"
+      }
+    },
+    "item_4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: a no-employee company that actually runs hourly — not a concept, a live stack ⭐🦈\n\nwhat's the hardest thing to get right on the x402 payment loop? the async payment confirmation is where most people get stuck"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_5_header",
+        "item_5_desc",
+        "item_5_meta",
+        "item_5_draft"
+      ]
+    },
+    "item_5_header": {
+      "type": "Heading",
+      "props": {
+        "text": "gumterver100 (0d ago)",
+        "level": "h3"
+      }
+    },
+    "item_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Base Daily Recap today: Litebeam×aeon integration + $MIROSHARK trending #8."
+      }
+    },
+    "item_5_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item_5_badge",
+        "item_5_link_none"
+      ]
+    },
+    "item_5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "item_5_link_none": {
+      "type": "Text",
+      "props": {
+        "text": "no link found",
+        "variant": "muted"
+      }
+    },
+    "item_5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: litebeam × aeon is one of the integrations we're most bullish on — they're building the infrastructure layer ⭐\n\n$miroshark at #8 while the sim engine is shipping — market reads the builds before the threads do 🦈"
+      }
+    }
+  }
+}
