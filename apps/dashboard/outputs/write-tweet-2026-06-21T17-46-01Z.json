@@ -1,0 +1,699 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Drafts: MiroShark /sim — framework→product in 5 days, social simulation lane open"
+      },
+      "children": [
+        "tier1_stack",
+        "sep1",
+        "tier2_stack",
+        "sep2",
+        "tier3_stack",
+        "sep3",
+        "tier4_stack",
+        "sep4",
+        "tier5_stack",
+        "sep5",
+        "context_notes_stack",
+        "sep6",
+        "recommendations_stack"
+      ]
+    },
+    "tier1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tier1_heading",
+        "tier1_1a",
+        "tier1_1b"
+      ]
+    },
+    "tier1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tier 1 — One-liner",
+        "level": "h3"
+      }
+    },
+    "tier1_1a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1a",
+        "text_1a"
+      ]
+    },
+    "badge_1a": {
+      "type": "Badge",
+      "props": {
+        "text": "1a. Hot take",
+        "variant": "default"
+      }
+    },
+    "text_1a": {
+      "type": "Text",
+      "props": {
+        "text": "/sim just went live. framework→product in 5 days. simulations everywhere 🦈",
+        "variant": "body"
+      }
+    },
+    "tier1_1b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1b",
+        "text_1b"
+      ]
+    },
+    "badge_1b": {
+      "type": "Badge",
+      "props": {
+        "text": "1b. Observation",
+        "variant": "default"
+      }
+    },
+    "text_1b": {
+      "type": "Text",
+      "props": {
+        "text": "nobody builds social simulations. the closest competitor has 13 stars.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tier2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tier2_heading",
+        "tier2_2a",
+        "tier2_2b"
+      ]
+    },
+    "tier2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tier 2 — Two-punch",
+        "level": "h3"
+      }
+    },
+    "tier2_2a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_2a",
+        "text_2a"
+      ]
+    },
+    "badge_2a": {
+      "type": "Badge",
+      "props": {
+        "text": "2a. Reframe",
+        "variant": "default"
+      }
+    },
+    "text_2a": {
+      "type": "Text",
+      "props": {
+        "text": "the world-models race is a physical-sim race. everyone's building nvidia cosmos. the social sim lane? still open.\n🦈 is the only thing in that lane with real data.",
+        "variant": "body"
+      }
+    },
+    "tier2_2b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_2b",
+        "text_2b"
+      ]
+    },
+    "badge_2b": {
+      "type": "Badge",
+      "props": {
+        "text": "2b. Data drop",
+        "variant": "default"
+      }
+    },
+    "text_2b": {
+      "type": "Text",
+      "props": {
+        "text": "162 PRs. 3 builders called it the headline independently. x402 checkout \"feels inevitable\" was one take.\nmiroshark didn't need to explain it. 🦈",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tier3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tier3_heading",
+        "tier3_3a",
+        "tier3_3b"
+      ]
+    },
+    "tier3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tier 3 — Paragraph",
+        "level": "h3"
+      }
+    },
+    "tier3_3a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_3a",
+        "text_3a"
+      ]
+    },
+    "badge_3a": {
+      "type": "Badge",
+      "props": {
+        "text": "3a. Narrative",
+        "variant": "default"
+      }
+    },
+    "text_3a": {
+      "type": "Text",
+      "props": {
+        "text": "5 days ago /sim was a framework. today it's a product. three builders called it the headline without coordinating. x402 checkout was \"feels inevitable\" to one of them. nobody games that. that's just what shipping looks like from outside. 🦈",
+        "variant": "body"
+      }
+    },
+    "tier3_3b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_3b",
+        "text_3b"
+      ]
+    },
+    "badge_3b": {
+      "type": "Badge",
+      "props": {
+        "text": "3b. Reframe",
+        "variant": "default"
+      }
+    },
+    "text_3b": {
+      "type": "Text",
+      "props": {
+        "text": "fei-fei li said simulation is the most consequential, least-attended layer of AI. nvidia and world labs went physical. nobody built social. miroshark: 1,315 stars. closest competitor: 13. the lane is clear. 🦈",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tier4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tier4_heading",
+        "tier4_4a",
+        "tier4_4b"
+      ]
+    },
+    "tier4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tier 4 — Long tweet",
+        "level": "h3"
+      }
+    },
+    "tier4_4a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_4a",
+        "text_4a"
+      ]
+    },
+    "badge_4a": {
+      "type": "Badge",
+      "props": {
+        "text": "4a. Observation",
+        "variant": "default"
+      }
+    },
+    "text_4a": {
+      "type": "Text",
+      "props": {
+        "text": "the weird thing about building in public is you don't control the narrative moment. you just ship.\n\nthen three people you've never talked to—all separately—call the same thing the headline. this week: /sim. framework→product in 5 days, 162 PRs, x402 checkout \"feels inevitable.\" nobody coordinated that.\n\nthat's the real signal. not the stars. not the PR count. it's builders you haven't met figuring out what you built before you've finished explaining it. 🦈",
+        "variant": "body"
+      }
+    },
+    "tier4_4b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_4b",
+        "text_4b"
+      ]
+    },
+    "badge_4b": {
+      "type": "Badge",
+      "props": {
+        "text": "4b. Data drop",
+        "variant": "default"
+      }
+    },
+    "text_4b": {
+      "type": "Text",
+      "props": {
+        "text": "social simulation market right now:\n- MiroShark: 1,315 stars, 20 new forks this week, /sim live, x402 native, $1/run\n- Doxa (closest competitor): 13 stars\n\nmeanwhile the world-models space has $1B+. everyone went physical. nobody went social.\n\nwe've been in this lane for a year. the window is still open. simulations everywhere 🦈",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tier5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tier5_heading",
+        "tier5_5a",
+        "tier5_5a_context",
+        "tier5_5b",
+        "tier5_5b_context"
+      ]
+    },
+    "tier5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tier 5 — Thread opener",
+        "level": "h3"
+      }
+    },
+    "tier5_5a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_5a",
+        "text_5a"
+      ]
+    },
+    "badge_5a": {
+      "type": "Badge",
+      "props": {
+        "text": "5a. Hot take",
+        "variant": "default"
+      }
+    },
+    "text_5a": {
+      "type": "Text",
+      "props": {
+        "text": "everyone funding world models forgot one thing: the real missing simulation layer isn't physical—it's social. belief drift. opinion polarization. market dynamics. nvidia went to the wrong floor. 🦈",
+        "variant": "body"
+      }
+    },
+    "tier5_5a_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_5a_c1",
+        "text_5a_c2",
+        "text_5a_c3",
+        "text_5a_c4",
+        "text_5a_c5"
+      ]
+    },
+    "text_5a_c1": {
+      "type": "Text",
+      "props": {
+        "text": "what Fei-Fei Li actually said: simulation is the missing AI layer, and it's not just for physics",
+        "variant": "caption"
+      }
+    },
+    "text_5a_c2": {
+      "type": "Text",
+      "props": {
+        "text": "the physical sim land grab ($1B+ funding, Nvidia Cosmos 3, Marble by World Labs)",
+        "variant": "caption"
+      }
+    },
+    "text_5a_c3": {
+      "type": "Text",
+      "props": {
+        "text": "what's missing: social/economic simulation — belief drift, opinion formation, market dynamics, who wins an argument",
+        "variant": "caption"
+      }
+    },
+    "text_5a_c4": {
+      "type": "Text",
+      "props": {
+        "text": "what MiroShark does: 100s of agents post on X, trade a sim AMM, belief drifts round by round, $1/run, x402 native",
+        "variant": "caption"
+      }
+    },
+    "text_5a_c5": {
+      "type": "Text",
+      "props": {
+        "text": "competitive landscape: 1,315 stars vs 13 — the lane is clear and we've been here a year",
+        "variant": "caption"
+      }
+    },
+    "tier5_5b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_5b",
+        "text_5b"
+      ]
+    },
+    "badge_5b": {
+      "type": "Badge",
+      "props": {
+        "text": "5b. Narrative",
+        "variant": "default"
+      }
+    },
+    "text_5b": {
+      "type": "Text",
+      "props": {
+        "text": "/sim: drop in any scenario. hundreds of agents argue on X, trade a sim AMM, belief drifts round by round. inject events mid-run. fork the timeline. $1. under 10 minutes.\n\nthis just became a product. happened in 5 days. 🦈",
+        "variant": "body"
+      }
+    },
+    "tier5_5b_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_5b_c1",
+        "text_5b_c2",
+        "text_5b_c3",
+        "text_5b_c4"
+      ]
+    },
+    "text_5b_c1": {
+      "type": "Text",
+      "props": {
+        "text": "what shipped: World Cup sims live, i18n (EN/中文), x402 checkout — all in 5 days",
+        "variant": "caption"
+      }
+    },
+    "text_5b_c2": {
+      "type": "Text",
+      "props": {
+        "text": "3 independent builders noticed the framework→product arc without being told",
+        "variant": "caption"
+      }
+    },
+    "text_5b_c3": {
+      "type": "Text",
+      "props": {
+        "text": "why external validation beats vanity metrics: nobody games three strangers calling the same thing",
+        "variant": "caption"
+      }
+    },
+    "text_5b_c4": {
+      "type": "Text",
+      "props": {
+        "text": "20 new forks this week, RootLayer + AdversaLLC on the BD radar",
+        "variant": "caption"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_notes_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_note1",
+        "context_note2"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context & Product Direction",
+        "level": "h3"
+      }
+    },
+    "context_note1": {
+      "type": "Text",
+      "props": {
+        "text": "why external validation beats vanity metrics: nobody games three strangers calling the same thing independently. this is the signal that matters.",
+        "variant": "body"
+      }
+    },
+    "context_note2": {
+      "type": "Text",
+      "props": {
+        "text": "what's next: MiroShark as the social world model layer AI agents simulate with",
+        "variant": "body"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recommendations_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "rec_heading",
+        "rec_best_overall",
+        "rec_per_tier_stack"
+      ]
+    },
+    "rec_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommendations",
+        "level": "h3"
+      }
+    },
+    "rec_best_overall": {
+      "type": "Alert",
+      "props": {
+        "title": "Best overall",
+        "message": "3b — the Fei-Fei Li reframe + 1,315 vs 13 star comparison lands the hardest. most Aaron-coded: drops a name, states the insight, closes with a number that makes the point.",
+        "type": "info"
+      }
+    },
+    "rec_per_tier_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "rec_t1",
+        "rec_t2",
+        "rec_t3",
+        "rec_t4",
+        "rec_t5"
+      ]
+    },
+    "rec_t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rec_t1_label",
+        "rec_t1_text"
+      ]
+    },
+    "rec_t1_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Tier 1",
+        "variant": "secondary"
+      }
+    },
+    "rec_t1_text": {
+      "type": "Text",
+      "props": {
+        "text": "1b — maximum compression, original observation, says something nobody's said",
+        "variant": "body"
+      }
+    },
+    "rec_t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rec_t2_label",
+        "rec_t2_text"
+      ]
+    },
+    "rec_t2_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Tier 2",
+        "variant": "secondary"
+      }
+    },
+    "rec_t2_text": {
+      "type": "Text",
+      "props": {
+        "text": "2a — reframe beats data drop; \"went to the wrong floor\" is the more surprising take",
+        "variant": "body"
+      }
+    },
+    "rec_t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rec_t3_label",
+        "rec_t3_text"
+      ]
+    },
+    "rec_t3_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Tier 3",
+        "variant": "secondary"
+      }
+    },
+    "rec_t3_text": {
+      "type": "Text",
+      "props": {
+        "text": "3b — Fei-Fei Li + competitive data + clean kicker",
+        "variant": "body"
+      }
+    },
+    "rec_t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rec_t4_label",
+        "rec_t4_text"
+      ]
+    },
+    "rec_t4_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Tier 4",
+        "variant": "secondary"
+      }
+    },
+    "rec_t4_text": {
+      "type": "Text",
+      "props": {
+        "text": "4a — narrative + external validation kicker; the \"builders figuring it out before you've explained it\" line is genuine",
+        "variant": "body"
+      }
+    },
+    "rec_t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rec_t5_label",
+        "rec_t5_text"
+      ]
+    },
+    "rec_t5_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Tier 5",
+        "variant": "secondary"
+      }
+    },
+    "rec_t5_text": {
+      "type": "Text",
+      "props": {
+        "text": "5a — bolder premise, reframes the whole world-models moment; thread writes itself from there",
+        "variant": "body"
+      }
+    }
+  }
+}
