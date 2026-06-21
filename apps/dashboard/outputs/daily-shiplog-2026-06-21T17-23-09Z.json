@@ -1,0 +1,183 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "aeon / miroshark daily shiplog ⭐🦈 june 21"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "shipped-section",
+        "sep1",
+        "traction-section",
+        "sep2",
+        "article-link"
+      ]
+    },
+    "shipped-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "shipped-heading",
+        "shipped-items"
+      ]
+    },
+    "shipped-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Shipped Today",
+        "level": "h2"
+      }
+    },
+    "shipped-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item1",
+        "item2",
+        "item3",
+        "item4",
+        "item5"
+      ]
+    },
+    "item1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Charon AI skill pack",
+        "href": "https://github.com/aaronjmars/aeon-nur/issues/511",
+        "source": "@Charon_AI shipped the first community-authored skill pack into @aeonframework — charon-setup + charon-policy, natural language PASS/PAUSE/DENY controls for any aeon repo."
+      }
+    },
+    "item2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Ecosystem +5 new members",
+        "href": "https://github.com/aaronjmars/aeon-nur/issues/528",
+        "source": "@clawhuntersol, @glim_sh, @lnsx_io, @Litebeam_xyz, @simmer_markets joined @aeonframework today"
+      }
+    },
+    "item3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Miroshark i18n hardened",
+        "href": "https://github.com/aaronjmars/aeon-nur/issues/198",
+        "source": "locale was dropping in fallback interviews inside ThreadPoolExecutor — fixed. cross-language sims now consistent."
+      }
+    },
+    "item4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Dependabot wired",
+        "href": "https://github.com/aaronjmars/aeon-nur/issues/513",
+        "source": "all npm apps + GH actions now auto-track deps. typescript 6.0, next 16.2.9, tailwind 4.3 all merged today."
+      }
+    },
+    "item5": {
+      "type": "Text",
+      "props": {
+        "text": "New on the ecosystem: @clawhuntersol, @glim_sh, @lnsx_io, @Litebeam_xyz, @simmer_markets joined @aeonframework today",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "traction-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "traction-heading",
+        "traction-grid"
+      ]
+    },
+    "traction-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Traction",
+        "level": "h2"
+      }
+    },
+    "traction-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-aeon",
+        "stat-miroshark",
+        "stat-tokens",
+        "stat-x402"
+      ]
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars",
+        "value": "539",
+        "trend": "neutral"
+      }
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Stars",
+        "value": "1,319",
+        "trend": "neutral"
+      }
+    },
+    "stat-tokens": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Token Burn (30d)",
+        "value": "1.66B",
+        "delta": "across 52 models on @OpenRouter"
+      }
+    },
+    "stat-x402": {
+      "type": "Stat",
+      "props": {
+        "label": "x402 Miroshark Paid Runs",
+        "value": "93",
+        "delta": "21 buyers @ $1/run"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "article-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Daily Shiplog Article",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/articles/daily-shiplog-2026-06-21.md",
+        "source": "Complete details and updates"
+      }
+    }
+  }
+}
