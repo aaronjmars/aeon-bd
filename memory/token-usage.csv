@@ -82,3 +82,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-21,sim-watch,claude-sonnet-4-6,1245,8761,740375,70313
 2026-06-21,heartbeat,claude-sonnet-4-6,9,10332,386486,49808
 2026-06-21,launch-radar,claude-sonnet-4-6,640,10154,638028,50643
+2026-06-21,fetch-tweets,claude-sonnet-4-6,15,8045,549625,28211
