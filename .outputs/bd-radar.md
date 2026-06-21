@@ -1,7 +1,15 @@
-**bd-radar 06-20** — 1 building, 2 integrating leads
+Done. Today's bd-radar sweep complete.
 
-**@Charon_AI** shipped charon.aeon.yml — a repo-local policy layer for aeon with PASS/PAUSE/DENY verdicts, Ed25519-signed receipts, and human-in-the-loop Telegram routing. Aaron publicly blessed the architecture yesterday (33 eng). Fork pushed overnight. known builder, escalating hard. move: DM @Charon_AI and co-post the fleet-watcher × charon governance stack.
+## Summary
 
-**@Litebeam_xyz** ($LBM — AI microservice routing) claimed aeon integration on X 06-19. litebeam.xyz is a real product (one MCP → thousands of services, USDC on Base). unverified in code — check their GitHub before the co-announce window closes.
+Quiet day — 3 fresh leads surfaced, 99 total now tracked:
 
-**dan-and** filed MiroShark issue #193 (06-19): discussing separate thinking vs response token budgets for reasoning models. third signal this week (fork, #187, now #193). the most engaged non-core MiroShark contributor — reply directly on #193, convert to collab.
+1. **`swarm-ai-research/MiroShark`** (`forking`, score 12) — the 36★ research org running multi-seed Grok-4.3 MiroShark experiments just pushed their fork with own content this morning. They already had aeon-atlas + a swarm research org. This is the standout: escalating from adjacent → deep builder. Move: ping swarm-ai.org, offer academic-use path + direct collab.
+
+2. **`adlai88/aeon`** (`forking`, score 4) — new forker, 43min own activity on 06-18, identity unknown. Watch only.
+
+3. **`x:gumterver100`** (`mentioning`, score 3) — Base Daily Recap called out the Litebeam×@aeonframework integration AND $MIROSHARK trending #8 in the same post. Confirms organic pick-up, no action needed.
+
+Escalation signals (existing surfaced leads still hot): chxoky/aeon +10KB own content pushed today, beijiangqukuailian/aeon 18d continuous, dan-and 3rd MiroShark signal-week.
+
+No `building` or `integrating` class leads → no notify sent. war-room gets the roll-up at 07:45.
