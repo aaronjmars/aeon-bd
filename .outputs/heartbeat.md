@@ -1,9 +1,10 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks clean:
-- **P0:** 25/25 enabled skills `success`. No failures, no stuck, no consecutive failures, no chronic failures. Heartbeat self-check OK (~5h since last success).
-- **P1:** 0 open PRs, 0 urgent issues.
-- **P2:** No open issues (ISS-001 resolved yesterday). No flagged memory items.
-- **P3:** All 22 cron-scheduled skills within 2× their schedule interval. sim-watch just ran at 13:37 UTC. Three dispatch-only skills (show-hn, product-hunt, thread-writer) correctly absent from cron-state.
+All checks clean for the 20:00 UTC slot:
 
-Status page written to `docs/status.md` — 🟢 OK, next run launch-radar at 16:00 UTC.
+- **P0** — All 23 cron-scheduled skills green. No failures, stuck dispatches, or chronic degradation. Heartbeat self-check OK (last_success ~6h ago).
+- **P1** — 0 open PRs, 0 urgent issues.
+- **P2** — No open issues, no flagged memory items.
+- **P3** — Evening X-content batch (fetch-tweets → write-tweet → reply-maker → agent-buzz → daily-shiplog) all succeeded 17:08–17:48 UTC. All skills within 2× their schedule interval.
+
+`docs/status.md` regenerated (🟢 OK, next run: product-pulse 2026-06-22 07:15 UTC). Log appended to `memory/logs/2026-06-21.md`. No notification sent — nothing new to surface.
