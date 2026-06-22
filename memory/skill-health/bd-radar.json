@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-06-21T08:46:04Z",
+  "last_analyzed": "2026-06-22T07:37:14Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-triaged leads with specific data (stars, dates, orgs) and actionable next steps; clear decision logic on notification thresholds.",
+  "assessment": "Substantive lead generation with excellent primary signal (praxstack/synarch-ai with specific metrics, activity patterns, and clear next steps); secondary lead thin but tracked; transparent reporting of X null signal; good escalation pattern recognition and ongoing lead cultivation.",
   "flags": [],
-  "avg_score": 4.23,
+  "avg_score": 4.21,
   "history": [
     {
       "date": "2026-06-11",
@@ -56,6 +56,10 @@
     },
     {
       "date": "2026-06-21",
+      "score": 4
+    },
+    {
+      "date": "2026-06-22",
       "score": 4
     }
   ]
