@@ -82,9 +82,14 @@ jobs:
             BODY="Automated upstream sync — clean merge, $AHEAD commits.\n\nReview the diff and merge to pull in the latest skills, workflows, and fixes from aaronjmars/aeon."
           fi
 
-          EXISTING=$(gh pr list --head "$BRANCH" --json number --jq '.[0].number' || echo "")
+          # Pin the repo with -R: the "Fetch upstream" step adds an `upstream`
+          # remote (aaronjmars/aeon), and gh otherwise resolves that as the base
+          # repo for `pr create`/`list`/`edit` — pushing the PR at the upstream,
+          # where GITHUB_TOKEN has no write access. That fails with
+          # "Resource not accessible by integration (createPullRequest)".
+          EXISTING=$(gh pr list -R "$GITHUB_REPOSITORY" --head "$BRANCH" --json number --jq '.[0].number' || echo "")
           if [ -n "$EXISTING" ]; then
-            gh pr edit "$EXISTING" --title "$TITLE" --body "$(printf '%b' "$BODY")"
+            gh pr edit "$EXISTING" -R "$GITHUB_REPOSITORY" --title "$TITLE" --body "$(printf '%b' "$BODY")"
           else
-            gh pr create --base main --head "$BRANCH" --title "$TITLE" --body "$(printf '%b' "$BODY")"
+            gh pr create -R "$GITHUB_REPOSITORY" --base main --head "$BRANCH" --title "$TITLE" --body "$(printf '%b' "$BODY")"
           fi
