@@ -1,29 +1,29 @@
 {
   "version": "1",
-  "generated_at": "2026-06-15T09:42:57Z",
+  "generated_at": "2026-06-22T00:00:00Z",
   "skill": "operator-scorecard",
-  "title": "Operator Scorecard — 2026-06-15",
+  "title": "Operator Scorecard — 2026-06-22",
   "spec": {
     "type": "Stack",
     "props": {"direction": "vertical", "gap": "md"},
     "children": [
-      {"type": "Heading", "props": {"level": 2, "children": "Operator Scorecard — 2026-06-15"}},
-      {"type": "Alert", "props": {"variant": "secondary", "children": "WATCH — fleet ran clean all week (0 P0/P1, 0 open issues), +19⭐ across the family, but skill-analytics / token-report / tweet-allocator aren't wired here, so three lanes can't fully self-verify."}},
+      {"type": "Heading", "props": {"level": 2, "children": "Operator Scorecard — 2026-06-22"}},
+      {"type": "Alert", "props": {"variant": "destructive", "children": "DEGRADED — Fleet ran healthy and community pulled hard (+79⭐), but $AEON distribution is still unlinked — economic loop silent."}},
       {"type": "Grid", "props": {"columns": 3, "gap": "sm"}, "children": [
         {"type": "Card", "props": {"children": [
           {"type": "Text", "props": {"variant": "muted", "children": "Agent health"}},
-          {"type": "Heading", "props": {"level": 3, "children": "10 clean"}},
-          {"type": "Text", "props": {"children": "10 heartbeats · 0 P0/P1 · 0 open issues"}}
+          {"type": "Heading", "props": {"level": 3, "children": "20 clean"}},
+          {"type": "Text", "props": {"children": "21 heartbeats · 1 P0 recovered · 0 open issues"}}
         ]}},
         {"type": "Card", "props": {"children": [
           {"type": "Text", "props": {"variant": "muted", "children": "Stars added"}},
-          {"type": "Heading", "props": {"level": 3, "children": "+19"}},
-          {"type": "Text", "props": {"children": "MiroShark +15 · aeon +3 · soul +1"}}
+          {"type": "Heading", "props": {"level": 3, "children": "+79"}},
+          {"type": "Text", "props": {"children": "~+20 forks · new contributors unknown"}}
         ]}},
         {"type": "Card", "props": {"children": [
           {"type": "Text", "props": {"variant": "muted", "children": "$AEON distributed"}},
-          {"type": "Heading", "props": {"level": 3, "children": "n/a"}},
-          {"type": "Text", "props": {"children": "no economic skills wired in this instance"}}
+          {"type": "Heading", "props": {"level": 3, "children": "$0"}},
+          {"type": "Text", "props": {"children": "0 recipients · token data unavailable"}}
         ]}}
       ]},
       {"type": "Heading", "props": {"level": 3, "children": "Verdicts by lane"}},
@@ -34,9 +34,9 @@
           {"key": "headline", "header": "Headline"}
         ],
         "rows": [
-          {"lane": "Agent health", "verdict": "INSUFFICIENT_DATA", "headline": "No skill-analytics; heartbeats green — 0 P0/P1, 0 open issues"},
-          {"lane": "Community growth", "verdict": "WATCH", "headline": "+19⭐ fleet-wide (MiroShark +15), one short of +20 OK line"},
-          {"lane": "Economic activity", "verdict": "INSUFFICIENT_DATA", "headline": "No tweet-allocator / token-report / distribute-tokens here"}
+          {"lane": "Agent health", "verdict": "INSUFFICIENT_DATA", "headline": "No skill-analytics; 21 heartbeats, 1 P0 recovered, 0 open issues"},
+          {"lane": "Community growth", "verdict": "OK", "headline": "+79⭐ fleet-wide (aeon +31, MiroShark +48); @aeoncityhub 3D ecosystem map live"},
+          {"lane": "Economic activity", "verdict": "DEGRADED", "headline": "$0 in $AEON distributed; tweet-allocator/token-report not wired in this deployment"}
         ]
       }}
     ]
