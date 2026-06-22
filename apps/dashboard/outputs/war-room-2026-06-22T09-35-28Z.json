@@ -1,0 +1,310 @@
+{
+  "root": "card-warroom",
+  "state": {},
+  "elements": {
+    "card-warroom": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-06-22"
+      },
+      "children": [
+        "state-intro",
+        "state-section",
+        "sep-1",
+        "talk-section",
+        "sep-2",
+        "decide-section",
+        "sep-3",
+        "sources-section"
+      ]
+    },
+    "state-intro": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-intro"
+      ]
+    },
+    "text-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Fresh data today — both ran on time. Both green, both still above the line:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics-grid",
+        "alert-issues",
+        "alert-stall",
+        "text-ci404"
+      ]
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-aeon",
+        "stat-miroshark"
+      ]
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "⭐ Aeon",
+        "value": "542★",
+        "delta": "+31/7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "🦈 Miroshark",
+        "value": "1,320★",
+        "delta": "+48/7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "alert-issues": {
+      "type": "Alert",
+      "props": {
+        "title": "Aeon issues escalating",
+        "message": "Issues: 4→7 in a day — inbound from the star run, or unacked bugs? Read which before they rot.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert-stall": {
+      "type": "Alert",
+      "props": {
+        "title": "Aeon-wc stall flag",
+        "message": "14d quiet. Stall flag trips tomorrow without a push.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text-ci404": {
+      "type": "Text",
+      "props": {
+        "text": "CI 404: day 5 on both automation repos — unverified, still not red.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "talk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-talk",
+        "leads-stack"
+      ]
+    },
+    "heading-talk": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "leads-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead-praxstack",
+        "lead-chxoky"
+      ]
+    },
+    "lead-praxstack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-praxstack-name",
+        "text-praxstack-desc"
+      ]
+    },
+    "text-praxstack-name": {
+      "type": "Text",
+      "props": {
+        "text": "praxstack (@synarch-ai) — ex-Amazon SDE",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-praxstack-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Forking 🦈, merging our PRs + shipping own content, and using ⭐ to manage the fork. The cross-product flywheel in one person.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead-chxoky": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-chxoky-name",
+        "text-chxoky-desc"
+      ]
+    },
+    "text-chxoky-name": {
+      "type": "Text",
+      "props": {
+        "text": "chxoky — biggest own-content Aeon fork (+8.4KB, 17d straight)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-chxoky-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed this morning, still no description.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "decide-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-decide",
+        "text-decide"
+      ]
+    },
+    "heading-decide": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-decide": {
+      "type": "Text",
+      "props": {
+        "text": "DM praxstack today. Strongest cold lead in a week — built on 🦈, reached for ⭐ to run it, unprompted. Ask what synarch-ai is, pull them into TG. The warm book (Charon, swarm-ai-research) is still owed its closes — but praxstack's the one that fades if you sleep on it.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-sources",
+        "sources-stack"
+      ]
+    },
+    "heading-sources": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sources-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-pulse",
+        "link-radar",
+        "link-forge",
+        "link-watch"
+      ]
+    },
+    "link-pulse": {
+      "type": "StoryLink",
+      "props": {
+        "title": "product-pulse-2026-06-22",
+        "href": "./product-pulse-2026-06-22.md",
+        "source": "Fresh, committed this morning"
+      },
+      "children": []
+    },
+    "link-radar": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bd-radar-2026-06-22",
+        "href": "./bd-radar-2026-06-22.md",
+        "source": "Fresh, committed this morning"
+      },
+      "children": []
+    },
+    "link-forge": {
+      "type": "StoryLink",
+      "props": {
+        "title": "idea-forge-2026-06-17",
+        "href": "./idea-forge-2026-06-17.md",
+        "source": "Bottleneck = closing the warm book, not discovery"
+      },
+      "children": []
+    },
+    "link-watch": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sim-watch-2026-06-21",
+        "href": "./sim-watch-2026-06-21.md",
+        "source": "Doxa = closest 🦈 competitor, counter when it gets stars"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,11 +1,11 @@
-⭐🦈 war room — 2026-06-21
+⭐🦈 war room — 2026-06-22
 
-state: data's as-of 06-20 — today's pulse/radar haven't refreshed yet. both green. 🦈 1,315★ +48/7d, strongest week, on track to 1,400. ⭐ 536★ +26/7d, above threshold; issues 3 (+2 = usage, not breakage). aeon-wc 12d quiet — 2 days from the 14d stall flag, ping it. CI 404 on both automation repos — unverified, not red.
+state: fresh data today — both ran on time. both green, both still above the line: ⭐ 542★ +31/7d, 🦈 1,320★ +48/7d, not decelerating. aeon issues 4→7 in a day — inbound from the star run, or unacked bugs? read which before they rot. aeon-wc hits 14d quiet today — stall flag trips tomorrow without a push. CI 404 day 5 on both automation repos — unverified, still not red.
 
-talk to: **@Charon_AI** — built charon.aeon.yml on aeon (PASS/PAUSE/DENY policy layer, signed receipts, TG human-in-loop), iterating overnight, you already praised it 06-19. **dan-and** — MiroShark #193, third signal this week → reply.
+talk to: **praxstack** (@synarch-ai) — ex-Amazon SDE forking 🦈, merging our PRs + shipping own content, and using ⭐ to manage the fork. the cross-product flywheel in one person. **chxoky** — biggest own-content aeon fork (+8.4KB, 17d straight), pushed this morning, still no description.
 
-decide: Charon's the move. you validated it in public already — warm intro's half-done. DM today, turn the praise into a real ecosystem spotlight: co-post the PASS/PAUSE/DENY pattern + a fleet-watcher × charon setup guide. governance is the wedge fleet operators actually need. close it while it's fresh.
+decide: DM praxstack today. strongest cold lead in a week — built on 🦈, reached for ⭐ to run it, unprompted. ask what synarch-ai is, pull them into TG. the warm book (Charon, swarm-ai-research) is still owed its closes — but praxstack's the one that fades if you sleep on it.
 
 ---
 
-*Sources: [product-pulse-2026-06-20](./product-pulse-2026-06-20.md) · [bd-radar-2026-06-20](./bd-radar-2026-06-20.md) (both most-recent; 06-21 upstream hadn't committed at 07:45) · idea-forge-2026-06-17 (bottleneck = closing the warm book, not discovery) · sim-watch-2026-06-14.*
+*Sources: [product-pulse-2026-06-22](./product-pulse-2026-06-22.md) · [bd-radar-2026-06-22](./bd-radar-2026-06-22.md) (both fresh, committed this morning) · idea-forge-2026-06-17 (bottleneck = closing the warm book, not discovery) · sim-watch-2026-06-21 (Doxa = closest 🦈 competitor, counter when it gets stars).*
