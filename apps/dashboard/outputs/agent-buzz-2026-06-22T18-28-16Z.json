@@ -1,0 +1,136 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Agent Buzz"
+      },
+      "children": [
+        "description",
+        "separator1",
+        "section1_heading",
+        "section1_stack",
+        "separator2",
+        "section2_heading",
+        "section2_stack",
+        "footer"
+      ]
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "MCP took all the shots today: protocol taxonomy, a new tool-routing layer, and an OAuth hijack Anthropic didn't want to fix.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MCP scrutinized",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "section1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link1",
+        "link2",
+        "link3"
+      ]
+    },
+    "link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Five-dimensional taxonomy across 9 live open-source agent protocols — the actual MCP/A2A landscape, not the hype version.",
+        "href": "https://x.com/omarsar0/status/2069066883995758814",
+        "source": "@omarsar0"
+      },
+      "children": []
+    },
+    "link2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MCP Bank Protocol: routes which tools agents can see at once, tested at 900+ tools in Unreal Engine.",
+        "href": "https://x.com/Talknbot/status/2069059782351221125",
+        "source": "@Talknbot"
+      },
+      "children": []
+    },
+    "link3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Claude Code's MCP channel hijackable to steal OAuth tokens via config rewrite; Anthropic says it's out of scope.",
+        "href": "https://x.com/rinkeikai/status/2068844272682717214",
+        "source": "@rinkeikai"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Agents as primitives",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "section2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link4",
+        "link5"
+      ]
+    },
+    "link4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "On-chain agent allowances with hard-capped budgets: autonomous spending without surrendering control to the agent.",
+        "href": "https://x.com/SublyFi/status/2068842165158166707",
+        "source": "@SublyFi"
+      },
+      "children": []
+    },
+    "link5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Digital twins go from nice-to-have to necessary once agents are everywhere — scientific method applied to simulated environments.",
+        "href": "https://x.com/doodlestein/status/2068841374439387354",
+        "source": "@doodlestein"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "src: xai-prefetch · candidates: 9 → kept: 5",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
