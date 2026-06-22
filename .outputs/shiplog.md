@@ -1,11 +1,11 @@
-*Shiplog — 2026-06-15*
+*Shiplog — 2026-06-22*
 
-Aeon went provider-agnostic and identity-configurable this week — bring any LLM key and it routes and fails over on its own, build a soul and a north-star from the dashboard — while outside builders shipped the first wave of ecosystem skill packs.
+Aeon launched a full skill-pack system with one-click community install while five external builders merged packs in the same week, and MiroShark shipped multilingual simulations and transparent run costs.
 
 Themes:
-- Bring any key — gateway routes + fails over on its own
-- SOUL.md + STRATEGY.md builders — identity is configurable now
-- Outside builders shipped the first ecosystem skill packs
+- Pack system: browse, discover, and install community skill packs from the dashboard
+- Community built in public: five packs, seven ecosystem additions
+- MiroShark: multilingual simulations and queryable run cost
 
-111 commits · 98 PRs · +11,602 / −4,797
-https://github.com/aaronjmars/aeon-nur/blob/main/articles/shiplog-2026-06-15.md
+aeon 59 commits · 31 PRs merged · MiroShark 29 commits · 29 PRs merged
+https://github.com/aaronjmars/aeon-nur/blob/main/articles/shiplog-2026-06-22.md
