@@ -1,10 +1,12 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks clean for the 14:00 UTC slot:
+All checks clean for the 20:00 UTC slot. No notification sent (dedup — prior runs at 08:00 and 14:00 already confirmed the same all-clear state). Status page updated with the full evening batch (fetch-tweets, write-tweet, reply-maker, agent-buzz, daily-shiplog) now reflecting today's 17:00–18:30 UTC runs.
 
-- **P0** — All 23 cron-scheduled skills show `last_status: success`. No stuck, no consecutive failures, no chronic failures. Heartbeat last succeeded ~4.5h ago (well under 36h).
-- **P1** — 0 open PRs, 0 urgent issues.
-- **P2** — No open issues, no flagged memory items.
-- **P3** — Every enabled scheduled skill has a cron-state entry and is within 2× its schedule interval. Today's Monday batch (shiplog, operator-scorecard, engagement-act, war-room) all succeeded.
+## Summary
 
-No notification sent (all clear, and 08:00 slot already logged identical status). `docs/status.md` updated with current timestamps and skill table.
+- **P0**: All 23 scheduled skills green — no failures, stucks, or chronic degradation. Heartbeat self-check OK (last_success ~5h ago).
+- **P1**: 0 open PRs, 0 urgent issues.
+- **P2**: No open issues, no flagged memory items.
+- **P3**: All enabled skills have cron-state entries and are within 2× their schedule interval.
+- **docs/status.md**: Regenerated — 🟢 OK, table updated with evening batch timestamps, next run product-pulse 07:15 UTC tomorrow.
+- **No notification** (all clear, dedup against 08:00 and 14:00 runs).
