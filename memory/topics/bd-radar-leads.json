@@ -92,7 +92,10 @@
     {"key": "github:logbookbase/aeon", "class": "forking", "who": "logbookbase", "handle": "logbookbase", "signal": "Aeon fork created 06-19T15:32, pushed 06-19T15:55 (23min own activity). Handle suggests logging/ops vertical.", "fit": 1, "score": 2, "first_seen": "2026-06-20", "repo_updated": "2026-06-19", "source": "gh_read_pat_forks", "move": "Watch. If logging/observability play on aeon, ping when description appears"},
     {"key": "github:swarm-ai-research/MiroShark", "class": "forking", "who": "swarm-ai-research (swarm-ai.org)", "handle": "swarm-ai-research", "signal": "Known research org (36★, already has aeon-atlas + swarm repos, runs multi-seed Grok-4.3 MiroShark experiments). MiroShark fork created 06-07, pushed TODAY 06-21T02:22 with own content (63,661 bytes > base ~62,985). Escalating from adjacent → deep MiroShark builder.", "fit": 3, "score": 12, "first_seen": "2026-06-21", "repo_updated": "2026-06-21", "known": true, "escalating": true, "source": "gh_read_pat_forks", "move": "Ping swarm-ai.org / GH org: your MiroShark fork has own content this morning — what's the experiment? offer academic-use path + direct collab"},
     {"key": "github:adlai88/aeon", "class": "forking", "who": "adlai88", "handle": "adlai88", "signal": "New aeon fork, 43min own activity 06-18T13:04→13:47. Identity unknown, no description.", "fit": 1, "score": 4, "first_seen": "2026-06-21", "repo_updated": "2026-06-18", "source": "gh_read_pat_forks", "move": "Watch — ping if they add a description or open an issue"},
-    {"key": "x:gumterver100", "class": "mentioning", "who": "gumterver100", "handle": "@gumterver100", "signal": "Base Daily Recap 06-21 calls out '@Litebeam_xyz integrated into @aeonframework' + '$MIROSHARK trending #8 on CoinGatePad.' Distribution surface that names both products in the same post. 7 likes/1 RT.", "fit": 1, "score": 3, "first_seen": "2026-06-21", "link": "https://x.com/gumterver100/status/2068559314579587303", "source": "xai_x", "move": "No action — confirms Litebeam integration getting organic pick-up"}
+    {"key": "x:gumterver100", "class": "mentioning", "who": "gumterver100", "handle": "@gumterver100", "signal": "Base Daily Recap 06-21 calls out '@Litebeam_xyz integrated into @aeonframework' + '$MIROSHARK trending #8 on CoinGatePad.' Distribution surface that names both products in the same post. 7 likes/1 RT.", "fit": 1, "score": 3, "first_seen": "2026-06-21", "link": "https://x.com/gumterver100/status/2068559314579587303", "source": "xai_x", "move": "No action — confirms Litebeam integration getting organic pick-up"},
+
+    {"key": "github:praxstack/aaronjmars-MiroShark", "class": "building", "who": "Prax Lannister (praxstack / @synarch-ai)", "handle": "praxstack", "signal": "MiroShark fork created 03-23, pushed 06-21T13:31 with 66,801 bytes (base ~63,000 = +3.8KB own content). Commit history shows actively merging upstream PRs — CLAUDE.md addition (PR#197) + i18n fixes (PRs #191-196) co-authored by aeonframework bot. Ex-Amazon SDE, @synarch-ai org. Using Aeon to manage the fork itself.", "fit": 3, "score": 15, "first_seen": "2026-06-22", "repo_updated": "2026-06-21", "source": "websearch+gh_api", "move": "DM praxstack on GitHub: you've been merging our PRs and adding own content — what's synarch-ai building on MiroShark? Invite to TG."},
+    {"key": "github:noelclaw/miroshark", "class": "forking", "who": "noelclaw", "handle": "noelclaw", "signal": "MiroShark fork created 05-27T03:51, pushed 05-27T19:44 (+15h own activity, size +416 bytes). 'claw' handle possibly openclaw/moltbook adjacent. 26d stale now, unknown vertical.", "fit": 1, "score": 4, "first_seen": "2026-06-22", "repo_updated": "2026-05-27", "source": "gh_read_pat_forks", "move": "Watch — ping if they resurface with a description or push again"}
   ],
   "surfaced": [
     "github:AntFleet",
@@ -199,6 +202,8 @@
     "github:logbookbase/aeon",
     "github:swarm-ai-research/MiroShark",
     "github:adlai88/aeon",
-    "x:gumterver100"
+    "x:gumterver100",
+    "github:praxstack/aaronjmars-MiroShark",
+    "github:noelclaw/miroshark"
   ]
 }
