@@ -1,8 +1,8 @@
 {
   "skill": "product-pulse",
-  "last_analyzed": "2026-06-21T08:43:07Z",
+  "last_analyzed": "2026-06-22T07:34:31Z",
   "quality_score": 4,
-  "assessment": "Substantive data collection with specific metrics, proper monitoring of degradation signals, integrated memory/logging — well-executed.",
+  "assessment": "Well-structured daily digest with specific metrics, clear deltas, and actionable notables; properly flags data gaps and aligns with north-star priorities.",
   "flags": [],
   "avg_score": 4.07,
   "history": [
@@ -60,6 +60,10 @@
     },
     {
       "date": "2026-06-21",
+      "score": 4
+    },
+    {
+      "date": "2026-06-22",
       "score": 4
     }
   ]
