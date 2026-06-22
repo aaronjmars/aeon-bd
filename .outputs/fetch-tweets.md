@@ -1,15 +1,12 @@
-*Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-06-21)*
-_Three independent voices calling the same headline: Miroshark's /sim turning from framework to product in 5 days — the velocity is cutting through._
+*Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ (2026-06-22)*
+_Near-silent — 10 results, all zero-engagement; two signals: a holder calling out the $AEON utility gap publicly, and a WakeOnBase BD rumor touching both products._
 
-*Miroshark /sim momentum*
-1. x.com/rq_crypto — First-mover spotting: calls out Miroshark going live + /sim flipping from framework to product in 5 days as something happening in real time, unprompted.
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/rq_crypto/status/2068715617046176110)
+*Token Utility Challenge*
+1. x.com/Dino_Wishperer3 — Pressing Aaron directly: "$aeon ≠ aeonframework — you never explain what the token actually does." First holder to call this out publicly in this window.
+Likes: 0 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/Dino_Wishperer3/status/2068846078812893612)
 
-2. x.com/NNardecchi13579 — Picks up the "162 PRs" stat and says the framework→product arc in 5 days is the real headline — signal that the dev velocity is registering externally.
+*BD Signal*
+2. x.com/AlJazz1122 — Claims @WakeOnBase is "in contact with both" — context points to aeonframework + miroshark. Unverified, but surfaced publicly in the same thread.
 Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/NNardecchi13579/status/2068726069864100196)
-
-3. x.com/0xTreff — Says /sim going live with x402 checkout "already feels inevitable for this ecosystem" — x402 integration angle landing without prompting.
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/0xTreff/status/2068715961188770191)
+[View tweet](https://x.com/AlJazz1122/status/2068840116857028710)
