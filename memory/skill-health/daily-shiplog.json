@@ -1,9 +1,11 @@
 {
   "skill": "daily-shiplog",
-  "last_analyzed": "2026-06-21T17:43:22Z",
+  "last_analyzed": "2026-06-22T17:02:36Z",
   "quality_score": 4,
-  "assessment": "Idempotency check passed with substantive earlier results: 80 commits, 22 PRs, 5 named ecosystem partners, and identified themes; well-structured status report",
-  "flags": [],
+  "assessment": "Substantive, well-structured daily report with concrete signals (Phylax integration, star deltas, World Cup sim cadence), metrics, and honest gap acknowledgment",
+  "flags": [
+    "source_gaps_acknowledged"
+  ],
   "avg_score": 4,
   "history": [
     {
@@ -12,6 +14,10 @@
     },
     {
       "date": "2026-06-21",
+      "score": 4
+    },
+    {
+      "date": "2026-06-22",
       "score": 4
     }
   ]
