@@ -1,36 +1,26 @@
-*Engagement Act — 2026-06-21*
+*Engagement Act — 2026-06-22*
 
-*1. @Charon_AI* (0d ago) — built charon.aeon.yml: PASS/PAUSE/DENY policy layer with ed25519 signed receipts + TG human-in-loop on aeon. Aaron publicly validated 06-19, warm intro half-done. War-room #1 today.
-link: no link found
-type: X DM
-draft: "the PASS/PAUSE/DENY pattern is exactly what aeon needed — signed receipts make human-in-loop actually auditable ⭐
+*1. praxstack / @synarch-ai* (0 days ago) — ex-Amazon SDE merging MiroShark PRs with own content + using aeon to manage the fork; score 15
+link: https://github.com/praxstack/aaronjmars-MiroShark
+type: GitHub comment + X DM
+draft: "saw the fork — you're merging MiroShark PRs + pushing your own content with aeon managing the fork. what's the actual build? if it's production-bound we can feature it in the ecosystem or get you in the builder TG 🦈⭐"
 
-want to co-post a setup guide? fleet-watcher × charon is a strong combo and people keep asking about governance. would shine a light on what you built"
-
-*2. swarm-ai-research* (0d ago) — pushed own content to MiroShark fork today — preregistered multi-seed replication study, grok-4.3 as judge. Escalating.
-link: https://github.com/swarm-ai-research/MiroShark
-type: GitHub comment
-draft: "the preregistered multi-seed design + grok-4.3 as judge is the right call — makes results falsifiable rather than vibes 🦈
-
-are you tracking belief drift divergence across seeds, or treating each run as independent? we added cross-seed hooks last sprint, can point you at the right parameters"
-
-*3. dan-and/issue-193* (1d ago) — 3rd MiroShark issue this week. Model architecture discussion. Score 9 integrating. War-room secondary.
-link: https://github.com/aaronjmars/MiroShark/issues/193
-type: GitHub comment
-draft: "third issue this week — clearly deep in it 🦈
-
-is this about swapping which model runs each persona, or about the simulation's internal topology? pretty different problems, happy to walk through either"
-
-*4. @madebyshun* (1d ago) — running a no-employee company on aeon + miroshark + blueagent via x402, hourly, zero humans. 19 likes.
-link: https://x.com/madebyshun/status/2067447758177619999
+*2. @aeoncityhub* (4 days ago) — built live 3D walkable ecosystem map aeoncity.fun: 66 residents, 171 skills, 47 ecosystem projects, unprompted
+link: https://x.com/aeoncityhub/status/2067426681409991123
 type: X reply
-draft: "a no-employee company that actually runs hourly — not a concept, a live stack ⭐🦈
+draft: "66 residents, 171 skills, 47 ecosystem projects. that's not a fan project, that's infrastructure. get in the TG if you're not already — want to feature this properly ⭐"
 
-what's the hardest thing to get right on the x402 payment loop? the async payment confirmation is where most people get stuck"
-
-*5. gumterver100* (0d ago) — Base Daily Recap today: Litebeam×aeon integration + $MIROSHARK trending #8.
-link: no link found
+*3. @rq_crypto* (1 day ago) — first-mover spotting: Miroshark /sim flipping framework→product in 5 days, unprompted
+link: https://x.com/rq_crypto/status/2068715617046176110
 type: X reply
-draft: "litebeam × aeon is one of the integrations we're most bullish on — they're building the infrastructure layer ⭐
+draft: "/sim is the move. the five-day arc is real and there's more coming 🦈"
 
-$miroshark at #8 while the sim engine is shipping — market reads the builds before the threads do 🦈"
+*4. @0xTreff* (1 day ago) — "/sim + x402 checkout combo feels inevitable" — x402 integration registering externally without prompting
+link: https://x.com/0xTreff/status/2068715961188770191
+type: X reply
+draft: "it is :) the /sim → x402 path is the whole play — agents run, agents pay, the sim pays for itself 🦈"
+
+*5. @NNardecchi13579* (1 day ago) — "162 PRs is wild" + framework→product arc in 5 days called the real headline externally
+link: https://x.com/NNardecchi13579/status/2068726069864100196
+type: X reply
+draft: "162 PRs in the pipeline, velocity is the point. framework→product in 5 days is barely started 🦈"

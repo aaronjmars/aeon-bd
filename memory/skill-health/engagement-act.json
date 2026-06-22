@@ -1,10 +1,10 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-21T10:06:25Z",
+  "last_analyzed": "2026-06-22T09:35:52Z",
   "quality_score": 4,
-  "assessment": "Substantive BD output—5 specific, fresh opportunities with concrete engagement angles and channels; well-filtered for staleness and aligned with strategy priorities.",
+  "assessment": "Substantive, well-structured opportunities with specific context, clear engagement actions, and proper filtering logic — immediately actionable for the operator",
   "flags": [],
-  "avg_score": 3.9,
+  "avg_score": 3.91,
   "history": [
     {
       "date": "2026-06-12",
@@ -44,6 +44,10 @@
     },
     {
       "date": "2026-06-21",
+      "score": 4
+    },
+    {
+      "date": "2026-06-22",
       "score": 4
     }
   ]
