@@ -1,0 +1,306 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Operator Scorecard",
+        "description": "2026-06-22"
+      },
+      "children": [
+        "status",
+        "sep1",
+        "agent-health",
+        "sep2",
+        "community-growth",
+        "sep3",
+        "economic-activity",
+        "sep4",
+        "notable",
+        "sep5",
+        "link-section"
+      ]
+    },
+    "status": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🔴 DEGRADED",
+        "message": "fleet healthy, community strong, economic loop silent"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "agent-health": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ah-heading",
+        "ah-stack"
+      ]
+    },
+    "ah-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Agent Health",
+        "level": "h3"
+      }
+    },
+    "ah-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ah-item1",
+        "ah-item2",
+        "ah-item3",
+        "ah-item4"
+      ]
+    },
+    "ah-item1": {
+      "type": "Text",
+      "props": {
+        "text": "no pass-rate data (skill-analytics not wired)",
+        "variant": "body"
+      }
+    },
+    "ah-item2": {
+      "type": "Stat",
+      "props": {
+        "label": "Heartbeats",
+        "value": "21"
+      }
+    },
+    "ah-item3": {
+      "type": "Text",
+      "props": {
+        "text": "1 P0 recovered same-day (x402-monitor first run 06-16)",
+        "variant": "body"
+      }
+    },
+    "ah-item4": {
+      "type": "Stat",
+      "props": {
+        "label": "Open Issues",
+        "value": "0"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "community-growth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cg-heading",
+        "cg-metrics",
+        "cg-details"
+      ]
+    },
+    "cg-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Community Growth",
+        "level": "h3"
+      }
+    },
+    "cg-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cg-stars",
+        "cg-forks"
+      ]
+    },
+    "cg-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "+79",
+        "trend": "up"
+      }
+    },
+    "cg-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks (2 repos)",
+        "value": "+~20",
+        "trend": "up"
+      }
+    },
+    "cg-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cg-d1",
+        "cg-d2",
+        "cg-d3",
+        "cg-d4"
+      ]
+    },
+    "cg-d1": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon: 511→542 (+31)",
+        "variant": "body"
+      }
+    },
+    "cg-d2": {
+      "type": "Text",
+      "props": {
+        "text": "MiroShark: 1,272→1,320 (+48)",
+        "variant": "body"
+      }
+    },
+    "cg-d3": {
+      "type": "Text",
+      "props": {
+        "text": "@aeoncityhub shipped independent 3D walkable ecosystem map (66 residents, 171 skills) unprompted",
+        "variant": "body"
+      }
+    },
+    "cg-d4": {
+      "type": "Text",
+      "props": {
+        "text": "3 external builders called the MiroShark framework→product arc on X",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "economic-activity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ea-heading",
+        "ea-stack"
+      ]
+    },
+    "ea-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Economic Activity",
+        "level": "h3"
+      }
+    },
+    "ea-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ea-1",
+        "ea-2"
+      ]
+    },
+    "ea-1": {
+      "type": "Stat",
+      "props": {
+        "label": "$AEON to recipients",
+        "value": "$0"
+      }
+    },
+    "ea-2": {
+      "type": "Text",
+      "props": {
+        "text": "no token data — tweet-allocator/token-report not wired in this deployment",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-1",
+        "notable-2"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-001 resolved 06-20 (xAI prefetch off-by-one)",
+        "variant": "body"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "6 skills ran first-ever this week: ecosystem-entrants, framework-watch, x402-monitor, competitor-radar, idea-forge, mcp-pulse",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-window",
+        "link-full"
+      ]
+    },
+    "link-window": {
+      "type": "Text",
+      "props": {
+        "text": "Window: last 7d",
+        "variant": "caption"
+      }
+    },
+    "link-full": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Scorecard",
+        "href": "articles/operator-scorecard-2026-06-22.md"
+      }
+    }
+  }
+}
