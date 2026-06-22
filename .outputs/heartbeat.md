@@ -1,12 +1,10 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks clean. `docs/status.md` regenerated with 2026-06-22 08:05 UTC timestamp and the updated skill table (mention-radar, bd-radar, product-pulse at the top from today's morning runs). No notification sent — nothing needs attention.
+All checks clean for the 14:00 UTC slot:
 
-## Summary
+- **P0** — All 23 cron-scheduled skills show `last_status: success`. No stuck, no consecutive failures, no chronic failures. Heartbeat last succeeded ~4.5h ago (well under 36h).
+- **P1** — 0 open PRs, 0 urgent issues.
+- **P2** — No open issues, no flagged memory items.
+- **P3** — Every enabled scheduled skill has a cron-state entry and is within 2× its schedule interval. Today's Monday batch (shiplog, operator-scorecard, engagement-act, war-room) all succeeded.
 
-- **P0** — clean. All 23 cron-scheduled skills at `success`, no stuck/failed/degraded.
-- **P1** — clean. 0 open PRs, 0 urgent issues.
-- **P2** — clean. No flagged memory items, ISS-001 resolved.
-- **P3** — clean. All enabled skills have cron-state entries within 2× their schedule interval.
-- **docs/status.md** — overwritten with current fleet state (🟢 OK, next run: operator-scorecard 08:30 UTC).
-- **memory/logs/2026-06-22.md** — heartbeat entry appended.
+No notification sent (all clear, and 08:00 slot already logged identical status). `docs/status.md` updated with current timestamps and skill table.
