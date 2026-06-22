@@ -1,0 +1,339 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reply Maker",
+        "description": "2026-06-22"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_status",
+        "sep_1",
+        "post_1_container",
+        "sep_2",
+        "post_2_container",
+        "sep_3",
+        "post_3_container",
+        "sep_4",
+        "post_4_container",
+        "sep_5",
+        "source_status"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Status",
+        "message": "REPLY_MAKER_DEGRADED — 4/5 candidates; 5 of 12 from cache were promo/shill/stale/already-replied"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "post_1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_1_url",
+        "post_1_tweet",
+        "post_1_engagement",
+        "post_1_why",
+        "post_1_options_label",
+        "post_1_reply_a",
+        "post_1_reply_b"
+      ]
+    },
+    "post_1_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/xmyttle/status/2069110165211914574",
+        "href": "https://x.com/xmyttle/status/2069110165211914574"
+      }
+    },
+    "post_1_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "xmyttle",
+        "handle": "@xmyttle",
+        "text": "AI AGENTS ARE GETTING WALLETS…the wallet is not a feature. it is the missing layer between \"AI suggested the work\" and \"AI completed the work.\"",
+        "likes": 25
+      }
+    },
+    "post_1_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "52m ago · 6 comments · 25 likes",
+        "variant": "caption"
+      }
+    },
+    "post_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why: best frame-to-challenge in the window — conflates custody with credit; x402 + agent-credit directly rebuts it; Aaron has shipped both",
+        "variant": "muted"
+      }
+    },
+    "post_1_options_label": {
+      "type": "Text",
+      "props": {
+        "text": "Reply options:",
+        "variant": "body"
+      }
+    },
+    "post_1_reply_a": {
+      "type": "Text",
+      "props": {
+        "text": "A: x402 already solves this — funds stay in your wallet, agent authorizes bounded spend. no locking credits upfront. built agent-credit on top: borrow up to $X, repay in 30s on any chain. the wallet-as-leash is already gone. the open problem is credit, not custody.",
+        "variant": "body"
+      }
+    },
+    "post_1_reply_b": {
+      "type": "Text",
+      "props": {
+        "text": "B: wallet is the wrong frame. the missing layer isn't custody, it's credit. x402 handles bounded micropayments without upfront locking. agent-credit (aaronjmars/agent-credit) adds borrow-and-repay in 30s. model→wallet is solved. model→credit line is the actual gap.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "post_2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_2_url",
+        "post_2_tweet",
+        "post_2_engagement",
+        "post_2_why",
+        "post_2_options_label",
+        "post_2_reply_a",
+        "post_2_reply_b"
+      ]
+    },
+    "post_2_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/omarsar0/status/2069066883995758814",
+        "href": "https://x.com/omarsar0/status/2069066883995758814"
+      }
+    },
+    "post_2_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "omarsar0",
+        "handle": "@omarsar0",
+        "text": "Great report on LLM agent communication protocols. decentralized discovery is still rare. field is quietly standardizing on stateful sessions while leaving discovery and policy enforcement open.",
+        "likes": 48
+      }
+    },
+    "post_2_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "3h44m ago · 5 comments · 48 likes",
+        "variant": "caption"
+      }
+    },
+    "post_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why: @omarsar0 is DAIR.ai — high-leverage audience; specific claim on discovery gap Aaron can add to from Aeon's public-traces architecture",
+        "variant": "muted"
+      }
+    },
+    "post_2_options_label": {
+      "type": "Text",
+      "props": {
+        "text": "Reply options:",
+        "variant": "body"
+      }
+    },
+    "post_2_reply_a": {
+      "type": "Text",
+      "props": {
+        "text": "A: discovery being rare is the key finding. stateful sessions standardizing while nobody solves discovery — that's where agent identity lands. github as credentials layer (verifiable runs, public traces) already closes this gap better than any dedicated discovery protocol.",
+        "variant": "body"
+      }
+    },
+    "post_2_reply_b": {
+      "type": "Text",
+      "props": {
+        "text": "B: decentralized discovery being rare isn't the bottleneck. policy enforcement being open is. nine protocols, still nobody solved who authorizes what between agents. if you can't govern what agents agree to do with each other, the discovery layer is useless.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "post_3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_3_url",
+        "post_3_tweet",
+        "post_3_engagement",
+        "post_3_why",
+        "post_3_options_label",
+        "post_3_reply_a",
+        "post_3_reply_b"
+      ]
+    },
+    "post_3_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/SteveTheHead_/status/2068997169441292488",
+        "href": "https://x.com/SteveTheHead_/status/2068997169441292488"
+      }
+    },
+    "post_3_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "SteveTheHead_",
+        "handle": "@SteveTheHead_",
+        "text": "x402 is a huge step for agent payments but the real question is what happens after — agents need verifiable indexing, immutable execution records, escrow settlement, collateralized reputation",
+        "likes": 30
+      }
+    },
+    "post_3_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "8h22m ago · 9 comments · 30 likes",
+        "variant": "caption"
+      }
+    },
+    "post_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why: deep x402 + agent infrastructure take; Aaron has shipped the exact stack described; good room to add from Aeon's public-runs model",
+        "variant": "muted"
+      }
+    },
+    "post_3_options_label": {
+      "type": "Text",
+      "props": {
+        "text": "Reply options:",
+        "variant": "body"
+      }
+    },
+    "post_3_reply_a": {
+      "type": "Text",
+      "props": {
+        "text": "A: the post-payment audit trail is what github-as-identity solves. aeon runs every skill on github actions — each cron run is an immutable record of what the agent did and what it output. verifiable indexing for free, no separate layer. the harness IS the audit trail.",
+        "variant": "body"
+      }
+    },
+    "post_3_reply_b": {
+      "type": "Text",
+      "props": {
+        "text": "B: dedicated audit layer is the wrong frame. if the harness is public (github actions, public runs), you already have verifiable indexing for free. agent track record IS the repo history. x402 closes payments; public traces close reputation. attestation is solved.",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "post_4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_4_url",
+        "post_4_tweet",
+        "post_4_engagement",
+        "post_4_why",
+        "post_4_options_label",
+        "post_4_reply_a",
+        "post_4_reply_b"
+      ]
+    },
+    "post_4_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/suggestionii/status/2069027540509806822",
+        "href": "https://x.com/suggestionii/status/2069027540509806822"
+      }
+    },
+    "post_4_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "suggestionii",
+        "handle": "@suggestionii",
+        "text": "Have spent the last few weeks studying how autonomous agents behave…Agents don't just need intelligence. They need operational infrastructure. memory. financial boundaries. auditability. governance.",
+        "likes": 15
+      }
+    },
+    "post_4_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "6h21m ago · 7 comments · 15 likes",
+        "variant": "caption"
+      }
+    },
+    "post_4_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why: \"governance before action\" framing directly conflicts with Aeon's self-repair-first thesis; Aaron has a year of production data to back the counter",
+        "variant": "muted"
+      }
+    },
+    "post_4_options_label": {
+      "type": "Text",
+      "props": {
+        "text": "Reply options:",
+        "variant": "body"
+      }
+    },
+    "post_4_reply_a": {
+      "type": "Text",
+      "props": {
+        "text": "A: aeon's been running this for a year — every action logged to github, self-repair closes the auditability loop. the pattern: you don't need a separate operational layer if the harness IS the audit trail. public traces > custom observability.",
+        "variant": "body"
+      }
+    },
+    "post_4_reply_b": {
+      "type": "Text",
+      "props": {
+        "text": "B: governance-first is backwards. agents that need approval workflows before acting won't scale. x402 for payments, public runs for auditability, agent-credit for capital — the harness governs itself via self-repair. policy layers are a symptom of not trusting your own agent.",
+        "variant": "body"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "source_status": {
+      "type": "Text",
+      "props": {
+        "text": "source-status: xai=ok, memory=0, websearch=skip",
+        "variant": "caption"
+      }
+    }
+  }
+}
