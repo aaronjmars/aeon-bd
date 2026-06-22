@@ -1,10 +1,10 @@
 {
   "skill": "write-tweet",
-  "last_analyzed": "2026-06-21T17:46:01Z",
+  "last_analyzed": "2026-06-22T18:28:25Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced, 10 actionable drafts with strategic positioning. Specific data on competitive advantage (1,315 vs 13 stars), market timing, and builder validation.",
+  "assessment": "Substantive, multi-variant copy addressing Aeon's founding narrative with insightful framing (agent→company inversion); well-structured tiered tiers; immediately actionable; aligns with strategy on positioning and voice; minor deduction for unverified data figures (26 skills, 105 leads) without explicit sourcing shown",
   "flags": [],
-  "avg_score": 3.82,
+  "avg_score": 3.83,
   "history": [
     {
       "date": "2026-06-11",
@@ -48,6 +48,10 @@
     },
     {
       "date": "2026-06-21",
+      "score": 4
+    },
+    {
+      "date": "2026-06-22",
       "score": 4
     }
   ]
