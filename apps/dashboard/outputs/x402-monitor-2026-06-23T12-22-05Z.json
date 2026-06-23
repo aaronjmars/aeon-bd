@@ -1,0 +1,457 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x402 Pulse — 2026-06-23",
+        "description": "Breakout momentum with major enterprise adoption and ecosystem growth"
+      },
+      "children": [
+        "momentum-section",
+        "sep1",
+        "integrations-section",
+        "sep2",
+        "metrics-section",
+        "sep3",
+        "signals-section",
+        "sep4",
+        "state-section"
+      ]
+    },
+    "momentum-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "momentum-label",
+        "momentum-badge"
+      ]
+    },
+    "momentum-label": {
+      "type": "Text",
+      "props": {
+        "text": "Momentum:",
+        "variant": "lead"
+      }
+    },
+    "momentum-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Breakout (34 pts)",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "integrations-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "integrations-heading",
+        "integrations-stack"
+      ]
+    },
+    "integrations-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "New Integrations (10, highlights)",
+        "level": "h2"
+      }
+    },
+    "integrations-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "int1",
+        "int2",
+        "int3",
+        "int4",
+        "int5",
+        "int6",
+        "int7",
+        "int8",
+        "int9",
+        "int10"
+      ]
+    },
+    "int1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "int1-link",
+        "int1-desc",
+        "int1-badge"
+      ]
+    },
+    "int1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nirholas/three.ws",
+        "href": "https://github.com/nirholas/three.ws",
+        "source": "GitHub",
+        "score": "68★"
+      }
+    },
+    "int1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "3D AI agent framework, x402 + Solana/EVM, browser-native",
+        "variant": "caption"
+      }
+    },
+    "int1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "68 stars",
+        "variant": "secondary"
+      }
+    },
+    "int2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "int2-link",
+        "int2-desc",
+        "int2-badge"
+      ]
+    },
+    "int2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "whiteknightonhorse/APIbase",
+        "href": "https://github.com/whiteknightonhorse/APIbase",
+        "source": "GitHub",
+        "score": "7★"
+      }
+    },
+    "int2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "685-tool MCP gateway, x402 pay-per-call on Base",
+        "variant": "caption"
+      }
+    },
+    "int2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "7 stars",
+        "variant": "secondary"
+      }
+    },
+    "int3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "int3-link",
+        "int3-desc",
+        "int3-badge"
+      ]
+    },
+    "int3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vbkotecha/agentcourt-api",
+        "href": "https://github.com/vbkotecha/agentcourt-api",
+        "source": "GitHub",
+        "score": "0★"
+      }
+    },
+    "int3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Policy dispute resolution, x402-native + ERC-8183",
+        "variant": "caption"
+      }
+    },
+    "int3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "0 stars",
+        "variant": "secondary"
+      }
+    },
+    "int4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "int4-link",
+        "int4-desc",
+        "int4-badge"
+      ]
+    },
+    "int4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dmustapha/the-underwriter",
+        "href": "https://github.com/dmustapha/the-underwriter",
+        "source": "GitHub",
+        "score": "0★"
+      }
+    },
+    "int4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "CMC trade risk skill, x402 USDC on Base",
+        "variant": "caption"
+      }
+    },
+    "int4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "0 stars",
+        "variant": "secondary"
+      }
+    },
+    "int5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "int5-link",
+        "int5-desc",
+        "int5-badge"
+      ]
+    },
+    "int5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mizukaizen/x402-tools-mcp",
+        "href": "https://github.com/mizukaizen/x402-tools-mcp",
+        "source": "GitHub",
+        "score": "0★"
+      }
+    },
+    "int5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "22 utility tools MCP, USDC/Base",
+        "variant": "caption"
+      }
+    },
+    "int5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "0 stars",
+        "variant": "secondary"
+      }
+    },
+    "int6": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chetparker/x402-marketplace",
+        "href": "https://github.com/chetparker/x402-marketplace",
+        "source": "GitHub"
+      }
+    },
+    "int7": {
+      "type": "StoryLink",
+      "props": {
+        "title": "IvanAnishchuk/y402",
+        "href": "https://github.com/IvanAnishchuk/y402",
+        "source": "GitHub"
+      }
+    },
+    "int8": {
+      "type": "StoryLink",
+      "props": {
+        "title": "shop100global/pay402",
+        "href": "https://github.com/shop100global/pay402",
+        "source": "GitHub"
+      }
+    },
+    "int9": {
+      "type": "Text",
+      "props": {
+        "text": "sna4an cluster",
+        "variant": "body"
+      }
+    },
+    "int10": {
+      "type": "StoryLink",
+      "props": {
+        "title": "wewson/ArcTrip",
+        "href": "https://github.com/wewson/ArcTrip",
+        "source": "GitHub"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics-heading",
+        "npm-main",
+        "npm-coinbase-stack"
+      ]
+    },
+    "metrics-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NPM Metrics",
+        "level": "h2"
+      }
+    },
+    "npm-main": {
+      "type": "Stat",
+      "props": {
+        "label": "x402 downloads/week",
+        "value": "287,709",
+        "delta": "+61,618",
+        "trend": "up"
+      }
+    },
+    "npm-coinbase-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "npm-coinbase-stat",
+        "npm-coinbase-note"
+      ]
+    },
+    "npm-coinbase-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "@coinbase/x402 downloads/week",
+        "value": "76,709",
+        "delta": "-56,950",
+        "trend": "down"
+      }
+    },
+    "npm-coinbase-note": {
+      "type": "Text",
+      "props": {
+        "text": "Ecosystem gravitating to foundation pkg",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signals-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "signals-heading",
+        "signal1",
+        "signal2",
+        "signal3",
+        "signal4"
+      ]
+    },
+    "signals-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Enterprise & Platform Signals",
+        "level": "h2"
+      }
+    },
+    "signal1": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "x402 Foundation Core Members",
+        "message": "Google, Visa, Anthropic, Circle, Vercel"
+      }
+    },
+    "signal2": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Solana Integration",
+        "message": "Solana.com official x402 page live"
+      }
+    },
+    "signal3": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Stellar Foundation",
+        "message": "x402 on Stellar unlocks agent economy"
+      }
+    },
+    "signal4": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Integration Wave",
+        "message": "Zuplo + Allium + Nevermined drop x402 explainers/integrations this week"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "state-label",
+        "state-link"
+      ]
+    },
+    "state-label": {
+      "type": "Text",
+      "props": {
+        "text": "State:",
+        "variant": "muted"
+      }
+    },
+    "state-link": {
+      "type": "Link",
+      "props": {
+        "label": "memory/topics/protocol-state-x402.md",
+        "href": "memory/topics/protocol-state-x402.md"
+      }
+    }
+  }
+}
