@@ -1,0 +1,126 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-06-23)"
+      },
+      "children": [
+        "intro-text",
+        "separator-1",
+        "ecosystem-section",
+        "separator-2",
+        "token-section"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet day — 2 real signals from 5 candidates; Aeon City's 72-builder claim leads, one buyer crediting GitHub activity is the cleanest external validation of dev momentum yet.",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ecosystem-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ecosystem-heading",
+        "tweet-1",
+        "tweet-1-meta",
+        "tweet-1-link"
+      ]
+    },
+    "ecosystem-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem momentum",
+        "level": "h3"
+      }
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeoncityhub",
+        "handle": "aeoncityhub",
+        "text": "Claims 72 projects live on @aeonframework, each one a building you can walk up to and run in a 3D Aeon City explorer. First public framing of the ecosystem as a navigable world.",
+        "likes": 14,
+        "retweets": 1
+      }
+    },
+    "tweet-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeoncityhub/status/2069167087634022507"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-heading",
+        "tweet-2",
+        "tweet-2-meta",
+        "tweet-2-link"
+      ]
+    },
+    "token-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token signal",
+        "level": "h3"
+      }
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "lev_eth",
+        "handle": "lev_eth",
+        "text": "Bought $AEON two weeks ago purely because the GitHub was active — now feels like they timed it right. Direct line: dev velocity → buy signal → holder conviction.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet-2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/lev_eth/status/2069158630310478241"
+      }
+    }
+  }
+}
