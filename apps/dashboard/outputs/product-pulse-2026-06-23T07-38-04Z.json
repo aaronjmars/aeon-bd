@@ -1,0 +1,84 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "product-pulse",
+        "description": "2026-06-23"
+      },
+      "children": [
+        "alert-warning",
+        "separator-1",
+        "momentum-section"
+      ]
+    },
+    "alert-warning": {
+      "type": "Alert",
+      "props": {
+        "title": "aeon-wc dark for 15 days",
+        "message": "Previously active private repo, nothing pushed since Jun 8",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "momentum-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "momentum-header",
+        "stats-row"
+      ]
+    },
+    "momentum-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Momentum this week (7d)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-aeon",
+        "stat-miroshark"
+      ]
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "⭐ Aeon",
+        "value": "+30",
+        "delta": "+30 stars",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "🦈 MiroShark",
+        "value": "+47",
+        "delta": "+47 stars",
+        "trend": "up"
+      },
+      "children": []
+    }
+  }
+}

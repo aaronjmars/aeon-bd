@@ -1,10 +1,10 @@
 {
   "skill": "product-pulse",
-  "last_analyzed": "2026-06-22T07:34:31Z",
+  "last_analyzed": "2026-06-23T07:38:04Z",
   "quality_score": 4,
-  "assessment": "Well-structured daily digest with specific metrics, clear deltas, and actionable notables; properly flags data gaps and aligns with north-star priorities.",
+  "assessment": "Substantive reporting with specific metrics, clear structure, and actionable flagging of momentum and stalls; solid GTM tracking for both products.",
   "flags": [],
-  "avg_score": 4.07,
+  "avg_score": 4.06,
   "history": [
     {
       "date": "2026-06-11",
@@ -64,6 +64,10 @@
     },
     {
       "date": "2026-06-22",
+      "score": 4
+    },
+    {
+      "date": "2026-06-23",
       "score": 4
     }
   ]
