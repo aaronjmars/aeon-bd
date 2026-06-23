@@ -245,8 +245,8 @@
     "last_quality_score": 4
   },
   "x402-monitor": {
-    "last_dispatch": "2026-06-16T14:48:36Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-23T12:16:28Z",
+    "last_status": "dispatched",
     "last_failed": "2026-06-16T13:05:37Z",
     "total_runs": 2,
     "total_successes": 1,
