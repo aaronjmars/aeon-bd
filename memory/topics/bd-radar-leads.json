@@ -53,7 +53,7 @@
     {"key": "github:beijiangqukuailian/aeon", "class": "forking", "who": "beijiangqukuailian/aeon", "handle": "beijiangqukuailian", "signal": "aeon fork, 8d active 06-03→06-11 (pushed today, CN owner)", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-11", "source": "gh_read_pat_forks"},
     {"key": "github:TakamiyaZee/aeon", "class": "forking", "who": "TakamiyaZee/aeon", "handle": "TakamiyaZee", "signal": "aeon fork pushed today 05-28→06-11", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-11", "source": "gh_read_pat_forks"},
     {"key": "github:Raul-dd/MiroShark", "class": "forking", "who": "Raul-dd/MiroShark", "handle": "Raul-dd", "signal": "MiroShark fork w/ own commits 05-27→06-02", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-02", "source": "gh_read_pat_forks"},
-    {"key": "github:chxoky/aeon", "class": "forking", "who": "chxoky/aeon", "handle": "chxoky", "signal": "aeon fork, own commits 06-05→06-08", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-08", "source": "gh_read_pat_forks"},
+    {"key": "github:chxoky/aeon", "class": "building", "who": "chxoky", "handle": "chxoky", "signal": "Aeon fork with 17d continuous own activity. Pushed 06-23T06:50 at 43,628 bytes — +10.5KB above base. Biggest own-content aeon fork in PAT list. Unknown vertical.", "fit": 3, "score": 15, "first_seen": "2026-06-11", "repo_updated": "2026-06-23", "escalating": true, "source": "gh_read_pat_forks", "move": "DM or open GH issue: 10KB+ own content, 17d active — what are you building? TG invite"},
     {"key": "github:Damoncrypto/aeon", "class": "forking", "who": "Damoncrypto/aeon", "handle": "Damoncrypto", "signal": "aeon fork, own commits 05-30→06-04", "fit": 3, "score": 12, "first_seen": "2026-06-11", "repo_updated": "2026-06-04", "source": "gh_read_pat_forks"},
 
     {"key": "github:HusseinJX/prelaunchagents", "class": "building", "who": "prelaunchagents", "handle": "HusseinJX", "signal": "shipped product on MiroShark — 'simulate your product launch before it happens', swarm sim on local Ollama, no API key", "fit": 3, "score": 15, "first_seen": "2026-06-11", "repo_updated": "2026-03-25", "source": "gh_search_repos"},
@@ -95,7 +95,17 @@
     {"key": "x:gumterver100", "class": "mentioning", "who": "gumterver100", "handle": "@gumterver100", "signal": "Base Daily Recap 06-21 calls out '@Litebeam_xyz integrated into @aeonframework' + '$MIROSHARK trending #8 on CoinGatePad.' Distribution surface that names both products in the same post. 7 likes/1 RT.", "fit": 1, "score": 3, "first_seen": "2026-06-21", "link": "https://x.com/gumterver100/status/2068559314579587303", "source": "xai_x", "move": "No action — confirms Litebeam integration getting organic pick-up"},
 
     {"key": "github:praxstack/aaronjmars-MiroShark", "class": "building", "who": "Prax Lannister (praxstack / @synarch-ai)", "handle": "praxstack", "signal": "MiroShark fork created 03-23, pushed 06-21T13:31 with 66,801 bytes (base ~63,000 = +3.8KB own content). Commit history shows actively merging upstream PRs — CLAUDE.md addition (PR#197) + i18n fixes (PRs #191-196) co-authored by aeonframework bot. Ex-Amazon SDE, @synarch-ai org. Using Aeon to manage the fork itself.", "fit": 3, "score": 15, "first_seen": "2026-06-22", "repo_updated": "2026-06-21", "source": "websearch+gh_api", "move": "DM praxstack on GitHub: you've been merging our PRs and adding own content — what's synarch-ai building on MiroShark? Invite to TG."},
-    {"key": "github:noelclaw/miroshark", "class": "forking", "who": "noelclaw", "handle": "noelclaw", "signal": "MiroShark fork created 05-27T03:51, pushed 05-27T19:44 (+15h own activity, size +416 bytes). 'claw' handle possibly openclaw/moltbook adjacent. 26d stale now, unknown vertical.", "fit": 1, "score": 4, "first_seen": "2026-06-22", "repo_updated": "2026-05-27", "source": "gh_read_pat_forks", "move": "Watch — ping if they resurface with a description or push again"}
+    {"key": "github:noelclaw/miroshark", "class": "forking", "who": "noelclaw", "handle": "noelclaw", "signal": "MiroShark fork created 05-27T03:51, pushed 05-27T19:44 (+15h own activity, size +416 bytes). 'claw' handle possibly openclaw/moltbook adjacent. 26d stale now, unknown vertical.", "fit": 1, "score": 4, "first_seen": "2026-06-22", "repo_updated": "2026-05-27", "source": "gh_read_pat_forks", "move": "Watch — ping if they resurface with a description or push again"},
+
+    {"key": "x:lnsx_io", "class": "building", "who": "lnsx_io (lens-scan)", "handle": "@lnsx_io", "signal": "Shipped lens-scan — an aeon skill that pulls the wallet behind any X profile and flags rug devs on Base before your agent touches them. Public data, no key. GitHub: Tholynceus/lens-skill-pack. 7 likes on X. @Trend_Ron naming a B20 partnership with aeon.", "fit": 3, "score": 15, "first_seen": "2026-06-23", "link": "https://x.com/lnsx_io/status/2069223398786347162", "source": "xai_x", "move": "DM @lnsx_io: lens-scan is exactly what agents need — what's the B20 angle? Invite to TG"},
+    {"key": "github:Tholynceus/lens-skill-pack", "class": "building", "who": "lnsx_io / Tholynceus", "handle": "Tholynceus", "signal": "lens-skill-pack — aeon skill that pulls wallet behind any X profile, flags rug devs on Base. Public, no key needed. Announced 06-23 on X (7 likes).", "fit": 3, "score": 15, "first_seen": "2026-06-23", "repo_updated": "2026-06-23", "source": "xai_x", "move": "See x:lnsx_io"},
+    {"key": "x:aeoncityhub", "class": "building", "who": "aeoncityhub", "handle": "@aeoncityhub", "signal": "X post 06-22: '72 projects building on @aeonframework. each one is a building in aeon city you can walk up to and run.' 12 likes/1 RT. Building 3D ecosystem explorer. GH fork (aeoncity-hub/aeon) active since 06-04, pushed 06-22.", "fit": 3, "score": 15, "first_seen": "2026-06-23", "link": "https://x.com/aeoncityhub/status/2069167087634022507", "source": "xai_x", "move": "Reply to tweet + DM: ECOSYSTEM.md entry + ecosystem spotlight post"},
+    {"key": "github:sparkleware/morning-briefing", "class": "building", "who": "sparkleware", "handle": "sparkleware", "signal": "Known builder expanding with 4 new standalone aeon skill repos (morning-briefing, eth-gas-watch, hn-top, arxiv-digest) on top of existing aeon registry + fork + MiroShark fork. Building a standalone skill ecosystem.", "fit": 3, "score": 15, "first_seen": "2026-06-23", "repo_updated": "2026-06-23", "source": "gh_search_repos", "move": "Already in TG — acknowledge the expansion, ask if they want new repos in skill registry; offer spotlight post"},
+    {"key": "github:tomer-liran/MiroShark", "class": "forking", "who": "tomer-liran", "handle": "tomer-liran", "signal": "MiroShark fork created 06-22T15:07. 63,930 bytes = +945 bytes own content above base. Not drive-by.", "fit": 1, "score": 4, "first_seen": "2026-06-23", "repo_updated": "2026-06-22", "source": "gh_read_pat_forks", "move": "Watch — ping if description appears or they push again"},
+    {"key": "github:kevinpinscoe/MiroShark", "class": "forking", "who": "kevinpinscoe", "handle": "kevinpinscoe", "signal": "MiroShark fork 06-19. 63,754 bytes = +769 bytes own content.", "fit": 1, "score": 4, "first_seen": "2026-06-23", "repo_updated": "2026-06-19", "source": "gh_read_pat_forks", "move": "Watch"},
+    {"key": "github:jonnydubowsky/MiroShark", "class": "forking", "who": "jonnydubowsky", "handle": "jonnydubowsky", "signal": "MiroShark fork 06-18. 63,530 bytes = +545 bytes own content. Name reads like a real person, not a bot.", "fit": 1, "score": 4, "first_seen": "2026-06-23", "repo_updated": "2026-06-18", "source": "gh_read_pat_forks", "move": "Check who jonnydubowsky is — DM on GH if recognizable builder"},
+    {"key": "github:usephylax/aeon", "class": "forking", "who": "usephylax", "handle": "usephylax", "signal": "Aeon fork created 06-22T11:50, own commits 23min later at 12:13. No description.", "fit": 1, "score": 2, "first_seen": "2026-06-23", "repo_updated": "2026-06-22", "source": "gh_read_pat_forks", "move": "Watch"},
+    {"key": "github:ARUNAGIRINATHAN-K/awesome-ai-agents-2026", "class": "mentioning", "who": "ARUNAGIRINATHAN-K", "handle": "ARUNAGIRINATHAN-K", "signal": "Curated 300+ AI agents/frameworks list (awesome-ai-agents-2026). Appeared in web search for aeon/miroshark. Potential distribution surface.", "fit": 1, "score": 2, "first_seen": "2026-06-23", "source": "websearch", "move": "Verify aeon is listed; if not, open a PR or ping for inclusion"}
   ],
   "surfaced": [
     "github:AntFleet",
@@ -204,6 +214,16 @@
     "github:adlai88/aeon",
     "x:gumterver100",
     "github:praxstack/aaronjmars-MiroShark",
-    "github:noelclaw/miroshark"
+    "github:noelclaw/miroshark",
+    "github:chxoky/aeon",
+    "x:lnsx_io",
+    "github:Tholynceus/lens-skill-pack",
+    "x:aeoncityhub",
+    "github:sparkleware/morning-briefing",
+    "github:tomer-liran/MiroShark",
+    "github:kevinpinscoe/MiroShark",
+    "github:jonnydubowsky/MiroShark",
+    "github:usephylax/aeon",
+    "github:ARUNAGIRINATHAN-K/awesome-ai-agents-2026"
   ]
 }
