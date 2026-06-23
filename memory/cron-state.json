@@ -33,7 +33,7 @@
     "last_error": "ard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":465,"
   },
   "war-room": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-06-22T09:37:10Z",
     "total_runs": 13,
     "total_successes": 13,
@@ -41,7 +41,7 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4,
-    "last_dispatch": "2026-06-22T09:32:34Z"
+    "last_dispatch": "2026-06-23T08:43:01Z"
   },
   "fetch-tweets": {
     "last_dispatch": "2026-06-22T18:23:41Z",
@@ -103,8 +103,8 @@
     "last_error": "e_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inp"
   },
   "heartbeat": {
-    "last_dispatch": "2026-06-22T20:37:13Z",
-    "last_status": "success",
+    "last_dispatch": "2026-06-23T08:43:01Z",
+    "last_status": "dispatched",
     "last_success": "2026-06-22T20:40:06Z",
     "total_runs": 34,
     "total_successes": 34,
