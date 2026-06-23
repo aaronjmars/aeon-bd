@@ -1,0 +1,254 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x402 breakout — the protocol escaped its creator"
+      },
+      "children": [
+        "intro-heading",
+        "sep-1",
+        "one-liner-section",
+        "sep-2",
+        "two-punch-section",
+        "sep-3",
+        "paragraph-section",
+        "sep-4",
+        "long-tweet-section",
+        "sep-5",
+        "thread-section",
+        "sep-6",
+        "recommendation-note"
+      ]
+    },
+    "intro-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet Drafts",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "one-liner-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "one-liner-title",
+        "one-liner-1a",
+        "one-liner-1b"
+      ]
+    },
+    "one-liner-title": {
+      "type": "Heading",
+      "props": {
+        "text": "One-liner",
+        "level": "h3"
+      }
+    },
+    "one-liner-1a": {
+      "type": "Text",
+      "props": {
+        "text": "1a. x402 stopped being coinbase's to fumble. google noticed."
+      }
+    },
+    "one-liner-1b": {
+      "type": "Text",
+      "props": {
+        "text": "1b. coinbase fumbled x402 for a year. google/visa/anthropic fixed that in a week. :)"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "two-punch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "two-punch-title",
+        "two-punch-2a",
+        "two-punch-2b"
+      ]
+    },
+    "two-punch-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Two-punch",
+        "level": "h3"
+      }
+    },
+    "two-punch-2a": {
+      "type": "Text",
+      "props": {
+        "text": "2a. x402: 287k npm downloads/week on the protocol package. @coinbase/x402: 76k and dropping. the protocol already escaped its creator."
+      }
+    },
+    "two-punch-2b": {
+      "type": "Text",
+      "props": {
+        "text": "2b. google, visa, anthropic, circle, vercel — all joined the x402 foundation this week. when 5 companies that size converge on a protocol simultaneously, the window is open."
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "paragraph-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "paragraph-title",
+        "paragraph-3a",
+        "paragraph-3b"
+      ]
+    },
+    "paragraph-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Paragraph",
+        "level": "h3"
+      }
+    },
+    "paragraph-3a": {
+      "type": "Text",
+      "props": {
+        "text": "3a. called it coinbase's biggest marketing fumble. still believe it. but the fumble was always the distribution, not the innovation. when google/visa/anthropic/circle/vercel join the same foundation in the same week — the distribution problem is now someone else's win."
+      }
+    },
+    "paragraph-3b": {
+      "type": "Text",
+      "props": {
+        "text": "3b. x402 foundation: google, visa, anthropic, circle, vercel — same week. npm: 287k downloads/week on the protocol pkg, 76k on coinbase's own pkg and falling. nobody's asking \"is x402 real\" anymore. they're asking who builds the UX first."
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "long-tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "long-tweet-title",
+        "long-tweet-4a",
+        "long-tweet-4b"
+      ]
+    },
+    "long-tweet-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Long tweet",
+        "level": "h3"
+      }
+    },
+    "long-tweet-4a": {
+      "type": "Text",
+      "props": {
+        "text": "4a. called x402 coinbase's biggest marketing fumble a year ago. still hold that. the innovation was real — HTTP-native micropayments for AI agents, stablecoins, no locked credits. the distribution was embarrassing. then this week: google, visa, anthropic, circle, vercel all join the x402 foundation. npm: 287k downloads/week on the protocol package. @coinbase/x402 dropped 57k weekly downloads in one week — the ecosystem already migrated itself. the protocol escaped its creator. going to be everywhere before anyone agrees it matters."
+      }
+    },
+    "long-tweet-4b": {
+      "type": "Text",
+      "props": {
+        "text": "4b. everyone's waiting for x402's \"killer app.\" wrong question. x402 IS the payment layer. every AI agent needs to pay for inference. you can lock credits with OpenAI/Anthropic and watch them expire — or authorize a wallet to spend up to $20 and keep the rest. x402 is option 2. this week: google, visa, anthropic, circle, vercel joined the foundation. miroshark runs it natively. agent-credit lets agents borrow/repay on aave in 30s via x402. 287k npm downloads/week and rising. the demand IS every agent in production."
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "thread-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thread-title",
+        "thread-5a-heading",
+        "thread-5a",
+        "thread-5b-heading",
+        "thread-5b"
+      ]
+    },
+    "thread-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Thread opener",
+        "level": "h3"
+      }
+    },
+    "thread-5a-heading": {
+      "type": "Text",
+      "props": {
+        "text": "5a:",
+        "variant": "lead"
+      }
+    },
+    "thread-5a": {
+      "type": "Text",
+      "props": {
+        "text": "x402 just had its breakout week. here's what happened:\n- x402 Foundation adds google, visa, anthropic, circle, vercel — all in one week, not staggered\n- npm: 287k/week on the protocol pkg; @coinbase/x402 dropped 57k — ecosystem migrated itself without coordination\n- miroshark is x402-native; agent-credit (borrow/repay on aave in 30s) plugs in — agents that never run out of credits is the actual demand vector\n- why now: subsidies end, compute commoditizes, agents need a payment rail built for this\n- nobody's asking \"is this real\" — they're asking who builds the UX layer first. that's the window."
+      }
+    },
+    "thread-5b-heading": {
+      "type": "Text",
+      "props": {
+        "text": "5b:",
+        "variant": "lead"
+      }
+    },
+    "thread-5b": {
+      "type": "Text",
+      "props": {
+        "text": "what happens when coinbase fumbles a protocol and google, visa, anthropic all pick it up the same week?\n- x402: HTTP-native micropayments for AI agents. Coinbase shipped it quietly and barely marketed it\n- the take: \"one of crypto's coolest technical innovations. one of coinbase's biggest marketing fumbles.\" still true.\n- June 23 2026: google/visa/anthropic/circle/vercel join x402 foundation simultaneously\n- npm: market already moved — 287k/week on protocol pkg, coinbase's own package losing 57k this week alone\n- conclusion: good protocols escape their creators. x402 is the agent payment rail now. not coinbase's product. few realize."
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "recommendation-note": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rec-label",
+        "rec-badge"
+      ]
+    },
+    "rec-label": {
+      "type": "Text",
+      "props": {
+        "text": "Recommendation:",
+        "variant": "lead"
+      }
+    },
+    "rec-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "#3a — hot take / tier 3 (holds the existing fumble take + lands the reframe; most Aaron-coded)",
+        "variant": "secondary"
+      }
+    }
+  }
+}
