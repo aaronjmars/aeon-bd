@@ -1,0 +1,299 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-06-23"
+      },
+      "children": [
+        "opp-1",
+        "sep-1",
+        "opp-2",
+        "sep-2",
+        "opp-3",
+        "sep-3",
+        "opp-4",
+        "sep-4",
+        "opp-5",
+        "sep-5",
+        "closing-note"
+      ]
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-1-header",
+        "opp-1-meta",
+        "opp-1-type",
+        "opp-1-link",
+        "opp-1-draft"
+      ]
+    },
+    "opp-1-header": {
+      "type": "Heading",
+      "props": {
+        "text": "@lnsx_io",
+        "level": "h3"
+      }
+    },
+    "opp-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "building lens-scan aeon skill: wallet + rug-flag from X profiles, no API key needed",
+        "variant": "body"
+      }
+    },
+    "opp-1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago • X DM",
+        "variant": "outline"
+      }
+    },
+    "opp-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/Tholynceus/lens-skill-pack",
+        "href": "https://github.com/Tholynceus/lens-skill-pack"
+      }
+    },
+    "opp-1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "lens-scan is exactly what aeon was built for — no-approval-loop skill, real wallet signal, no key needed is the right call. what's the infra? open to a B20 integration or co-post if you're interested. drop in the TG. ⭐",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-2-header",
+        "opp-2-meta",
+        "opp-2-type",
+        "opp-2-link",
+        "opp-2-draft"
+      ]
+    },
+    "opp-2-header": {
+      "type": "Heading",
+      "props": {
+        "text": "chxoky/aeon",
+        "level": "h3"
+      }
+    },
+    "opp-2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "biggest active aeon fork by byte count (43,628 bytes own content, 17d continuous)",
+        "variant": "body"
+      }
+    },
+    "opp-2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago • GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "opp-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/chxoky/aeon",
+        "href": "https://github.com/chxoky/aeon"
+      }
+    },
+    "opp-2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "biggest own-content fork in the ecosystem by a mile. 17 days continuous — what are you building on top? want to be in the aeon TG? ⭐",
+        "variant": "lead"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-3-header",
+        "opp-3-meta",
+        "opp-3-type",
+        "opp-3-link",
+        "opp-3-draft"
+      ]
+    },
+    "opp-3-header": {
+      "type": "Heading",
+      "props": {
+        "text": "praxstack/@synarch-ai",
+        "level": "h3"
+      }
+    },
+    "opp-3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "ex-Amazon SDE merging MiroShark PRs + using aeon to manage the fork (cross-product flywheel)",
+        "variant": "body"
+      }
+    },
+    "opp-3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago • GitHub comment + X DM",
+        "variant": "outline"
+      }
+    },
+    "opp-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/praxstack/aaronjmars-MiroShark",
+        "href": "https://github.com/praxstack/aaronjmars-MiroShark"
+      }
+    },
+    "opp-3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "using aeon to manage a MiroShark fork is the exact cross-product flywheel we talk about. what's the use case? drop in the aeon TG. ⭐🦈",
+        "variant": "lead"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-4-header",
+        "opp-4-meta",
+        "opp-4-type",
+        "opp-4-draft"
+      ]
+    },
+    "opp-4-header": {
+      "type": "Heading",
+      "props": {
+        "text": "@BranaRakic/OriginTrail",
+        "level": "h3"
+      }
+    },
+    "opp-4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "DKG v9 + MiroShark co-promotion signal from mention radar",
+        "variant": "body"
+      }
+    },
+    "opp-4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago • X DM",
+        "variant": "outline"
+      }
+    },
+    "opp-4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "saw the DKG v9 + 🦈 mention — what's the integration story? curious if there's a co-post angle here.",
+        "variant": "lead"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-5-header",
+        "opp-5-meta",
+        "opp-5-type",
+        "opp-5-link",
+        "opp-5-draft"
+      ]
+    },
+    "opp-5-header": {
+      "type": "Heading",
+      "props": {
+        "text": "@aeoncityhub",
+        "level": "h3"
+      }
+    },
+    "opp-5-meta": {
+      "type": "Text",
+      "props": {
+        "text": "unprompted 3D walkable ecosystem map aeoncity.fun (72 projects, 171 skills, 47 ecosystem projects)",
+        "variant": "body"
+      }
+    },
+    "opp-5-type": {
+      "type": "Badge",
+      "props": {
+        "text": "5 days ago • X reply",
+        "variant": "outline"
+      }
+    },
+    "opp-5-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/aeoncityhub/status/2067426681409991123",
+        "href": "https://x.com/aeoncityhub/status/2067426681409991123"
+      }
+    },
+    "opp-5-draft": {
+      "type": "Text",
+      "props": {
+        "text": "aeoncity.fun is the best thing in the ecosystem we didn't build. 72 residents, 171 skills, 47 projects — the 3D map is more real than most product pages i've seen. what's the roadmap? ⭐",
+        "variant": "lead"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "closing-note": {
+      "type": "Alert",
+      "props": {
+        "message": "some opps aging — act or drop",
+        "type": "info"
+      }
+    }
+  }
+}

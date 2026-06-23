@@ -1,10 +1,10 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-22T09:35:52Z",
+  "last_analyzed": "2026-06-23T10:07:05Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured opportunities with specific context, clear engagement actions, and proper filtering logic — immediately actionable for the operator",
+  "assessment": "Substantive and specific — 5 qualified opportunities with timing, context, actionable channels, and cross-product signals. Execution well-aligned to war-room strategy.",
   "flags": [],
-  "avg_score": 3.91,
+  "avg_score": 3.92,
   "history": [
     {
       "date": "2026-06-12",
@@ -48,6 +48,10 @@
     },
     {
       "date": "2026-06-22",
+      "score": 4
+    },
+    {
+      "date": "2026-06-23",
       "score": 4
     }
   ]

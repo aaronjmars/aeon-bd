@@ -1,26 +1,28 @@
-*Engagement Act — 2026-06-22*
+*Engagement Act — 2026-06-23*
 
-*1. praxstack / @synarch-ai* (0 days ago) — ex-Amazon SDE merging MiroShark PRs with own content + using aeon to manage the fork; score 15
-link: https://github.com/praxstack/aaronjmars-MiroShark
+*1. @lnsx_io* (0 days ago) — building lens-scan aeon skill: wallet + rug-flag from X profiles, no API key needed
+link: github.com/Tholynceus/lens-skill-pack
+type: X DM
+draft: "lens-scan is exactly what aeon was built for — no-approval-loop skill, real wallet signal, no key needed is the right call. what's the infra? open to a B20 integration or co-post if you're interested. drop in the TG. ⭐"
+
+*2. chxoky/aeon* (0 days ago) — biggest active aeon fork by byte count (43,628 bytes own content, 17d continuous)
+link: github.com/chxoky/aeon
+type: GitHub comment
+draft: "biggest own-content fork in the ecosystem by a mile. 17 days continuous — what are you building on top? want to be in the aeon TG? ⭐"
+
+*3. praxstack/@synarch-ai* (1 day ago) — ex-Amazon SDE merging MiroShark PRs + using aeon to manage the fork (cross-product flywheel)
+link: github.com/praxstack/aaronjmars-MiroShark
 type: GitHub comment + X DM
-draft: "saw the fork — you're merging MiroShark PRs + pushing your own content with aeon managing the fork. what's the actual build? if it's production-bound we can feature it in the ecosystem or get you in the builder TG 🦈⭐"
+draft: "using aeon to manage a MiroShark fork is the exact cross-product flywheel we talk about. what's the use case? drop in the aeon TG. ⭐🦈"
 
-*2. @aeoncityhub* (4 days ago) — built live 3D walkable ecosystem map aeoncity.fun: 66 residents, 171 skills, 47 ecosystem projects, unprompted
+*4. @BranaRakic/OriginTrail* (1 day ago) — DKG v9 + MiroShark co-promotion signal from mention radar
+link: no link found
+type: X DM
+draft: "saw the DKG v9 + 🦈 mention — what's the integration story? curious if there's a co-post angle here."
+
+*5. @aeoncityhub* (5 days ago) — unprompted 3D walkable ecosystem map aeoncity.fun (72 projects, 171 skills, 47 ecosystem projects)
 link: https://x.com/aeoncityhub/status/2067426681409991123
 type: X reply
-draft: "66 residents, 171 skills, 47 ecosystem projects. that's not a fan project, that's infrastructure. get in the TG if you're not already — want to feature this properly ⭐"
+draft: "aeoncity.fun is the best thing in the ecosystem we didn't build. 72 residents, 171 skills, 47 projects — the 3D map is more real than most product pages i've seen. what's the roadmap? ⭐"
 
-*3. @rq_crypto* (1 day ago) — first-mover spotting: Miroshark /sim flipping framework→product in 5 days, unprompted
-link: https://x.com/rq_crypto/status/2068715617046176110
-type: X reply
-draft: "/sim is the move. the five-day arc is real and there's more coming 🦈"
-
-*4. @0xTreff* (1 day ago) — "/sim + x402 checkout combo feels inevitable" — x402 integration registering externally without prompting
-link: https://x.com/0xTreff/status/2068715961188770191
-type: X reply
-draft: "it is :) the /sim → x402 path is the whole play — agents run, agents pay, the sim pays for itself 🦈"
-
-*5. @NNardecchi13579* (1 day ago) — "162 PRs is wild" + framework→product arc in 5 days called the real headline externally
-link: https://x.com/NNardecchi13579/status/2068726069864100196
-type: X reply
-draft: "162 PRs in the pipeline, velocity is the point. framework→product in 5 days is barely started 🦈"
+some opps aging — act or drop
