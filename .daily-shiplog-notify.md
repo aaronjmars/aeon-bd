@@ -1,18 +1,19 @@
-@aeonframework / @miroshark_ daily shiplog ⭐ june 22
+@aeonframework / @miroshark_ daily shiplog ⭐ Jun 23
 
 shipped today. the bytes:
 
-- phylax-audit: @usephylax shipped a pre-install security gate — ALLOW/WARN/DENY verdict before any external skill runs. static scan + sandbox check + permission audit. joined ECOSYSTEM.md same day (764cd11)
-- new on the ecosystem: @usephylax (Phylax) joined @aeonframework — first security org in the building-on-aeon table
-- aeon is now Aeon Inc: license updated, 183 skills in the catalog. harness is company-shaped (f87fb2d)
-- vuln-scanner milestone: secured +1.2M ⭐ repos on GitHub with one skill — now on the website
-- world cup sim marathon: @miroshark_ ran Argentina/Austria, France/Iraq, Norway/Senegal, Jordan/Algeria — 4 matches live with x402 share links 🦈
-- minitor: non-empty query validation on Grok columns — silent failures closed (#78)
+- cost cli: `python -m cli cost <sim_id>` prints per-run USD estimate at the terminal. 🦈 (#208)
+- model fallback: blank LLM_MODEL_NAME= no longer 400s upstream — falls back to mimo-v2.5 (#210)
+- dashboard signal: dependabot noise purged from feed/runs. only real agent runs. ⭐ (#542)
+- input validation: linkedin, bluesky, mastodon, youtube required fields now enforced in minitor (#79)
+- X prefetch wired: miroshark-aeon token-report Social Pulse was silently skipping — fixed (#74)
+- sandbox guard: feature skill warns on compound-bash in temp dirs (#115)
+- soul.md activation: built vitalik's SOUL.md from 10y of public writing, set aeon to autonomously sweep ethresearch + EIPs every hour. 64 likes, 8 RTs. ⭐
 
 traction:
-- @aeonframework 543 ⭐ (+4 today)
-- @miroshark_ 1,323 ⭐ (+4 today)
+- @aeonframework ⭐ 544 (+1 today)
+- @miroshark_ 🦈 1,331 (+8 today)
 
-https://github.com/aaronjmars/aeon-nur/blob/main/articles/daily-shiplog-2026-06-22.md
+https://github.com/aaronjmars/aeon-nur/blob/main/articles/daily-shiplog-2026-06-23.md
 
 ⭐
