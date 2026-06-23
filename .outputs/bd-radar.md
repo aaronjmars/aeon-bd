@@ -1,5 +1,1 @@
-**bd-radar** ⭐🦈 — new building lead
-
-**praxstack/aaronjmars-MiroShark** (@synarch-ai) — ex-Amazon SDE who forked MiroShark in March and has been **merging upstream PRs** (CLAUDE.md, i18n fixes, JSON repair) with own content, pushed yesterday. 66,801 bytes vs base 63K = +3.8KB own. Co-authored commits include aeonframework bot — they're using Aeon to manage the fork itself.
-
-**Move:** ping praxstack on GitHub — what's synarch-ai building with MiroShark? invite to TG.
+@lnsx_io just shipped **lens-scan** for aeon ⭐ — pulls the wallet behind any X profile, flags rug devs on Base before your agent touches them. public data, no key. that's on-chain X identity wired natively into aeon workflows, and @Trend_Ron is already calling it a B20 partnership. also today: @aeoncityhub claims 72 projects building on aeon with a 3D explorer where each is a building you can run; chxoky is quietly sitting at +10.5KB of own content in their aeon fork (17d continuous, biggest in the PAT list) — unknown vertical, someone's building something real. **move:** DM @lnsx_io today — what's the B20 angle, invite to TG.
