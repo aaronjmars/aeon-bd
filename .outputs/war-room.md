@@ -1,11 +1,16 @@
-⭐🦈 war room — 2026-06-22
+⭐🦈 war room — 2026-06-23
 
-state: fresh data today — both ran on time. both green, both still above the line: ⭐ 542★ +31/7d, 🦈 1,320★ +48/7d, not decelerating. aeon issues 4→7 in a day — inbound from the star run, or unacked bugs? read which before they rot. aeon-wc hits 14d quiet today — stall flag trips tomorrow without a push. CI 404 day 5 on both automation repos — unverified, still not red.
+state: both running hot at once — MiroShark 1,329 (+47/7d), Aeon 544 (+30/7d), both over the momentum line the same morning. rare. flag: aeon-wc dark 15d (private, low stakes) and @aeonframework −38 followers/7d — a bleed, not a fire.
 
-talk to: **praxstack** (@synarch-ai) — ex-Amazon SDE forking 🦈, merging our PRs + shipping own content, and using ⭐ to manage the fork. the cross-product flywheel in one person. **chxoky** — biggest own-content aeon fork (+8.4KB, 17d straight), pushed this morning, still no description.
+talk to: @lnsx_io — shipped lens-scan (wallet behind any X profile, rug-flags Base devs, no key) + a B20 partnership hook. DM today, lead with the B20 angle. · @aeoncityhub — claims 72 projects on aeon + a 3D walk-in explorer, 12 likes. quote-reply it, let it run as the public ecosystem flex.
 
-decide: DM praxstack today. strongest cold lead in a week — built on 🦈, reached for ⭐ to run it, unprompted. ask what synarch-ai is, pull them into TG. the warm book (Charon, swarm-ai-research) is still owed its closes — but praxstack's the one that fades if you sleep on it.
+decide: momentum is cover to close, not to post. one DM today — @lnsx_io, B20. that's a partnership door; the rest is just listings.
 
 ---
 
-*Sources: [product-pulse-2026-06-22](./product-pulse-2026-06-22.md) · [bd-radar-2026-06-22](./bd-radar-2026-06-22.md) (both fresh, committed this morning) · idea-forge-2026-06-17 (bottleneck = closing the warm book, not discovery) · sim-watch-2026-06-21 (Doxa = closest 🦈 competitor, counter when it gets stars).*
+### appendix — sources
+
+- product-pulse: `articles/product-pulse-2026-06-23.md` — Aeon 544 (+30/7d), MiroShark 1,329 (+47/7d), both above momentum threshold; aeon-wc stall 15d; @aeonframework −38/7d.
+- bd-radar: `articles/bd-radar-2026-06-23.md` — 9 new leads (4 building). Top: @lnsx_io/lens-scan, @aeoncityhub (72 projects), chxoky/aeon (biggest active fork), sparkleware (4 new skills) — all score 15.
+- sim-watch (06-21): Doxa is closest Miroshark competitor (13★) — counter with a side-by-side. arxiv:2606.18795 validates belief-drift — cite in next Show HN.
+- idea-forge (06-17): top wedge = `self-repair-ledger` (proof beats claims now the self-evolving-agent category formed). Bottleneck is closing the warm book, not discovery.

@@ -1,0 +1,363 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "war room",
+        "description": "2026-06-23"
+      },
+      "children": [
+        "state_section",
+        "sep1",
+        "talk_section",
+        "sep2",
+        "decide_section",
+        "sep3",
+        "sources_section"
+      ]
+    },
+    "state_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_state",
+        "state_summary",
+        "metrics_grid",
+        "flags_stack"
+      ]
+    },
+    "heading_state": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "state_summary": {
+      "type": "Text",
+      "props": {
+        "text": "both running hot at once — MiroShark 1,329 (+47/7d), Aeon 544 (+30/7d), both over the momentum line the same morning. rare"
+      }
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_miroshark",
+        "stat_aeon"
+      ]
+    },
+    "stat_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "MiroShark",
+        "value": "1,329",
+        "delta": "+47/7d",
+        "trend": "up"
+      }
+    },
+    "stat_aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "544",
+        "delta": "+30/7d",
+        "trend": "up"
+      }
+    },
+    "flags_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "flag1",
+        "flag2"
+      ]
+    },
+    "flag1": {
+      "type": "Alert",
+      "props": {
+        "title": "aeon-wc dark 15d",
+        "message": "private, low stakes",
+        "type": "warning"
+      }
+    },
+    "flag2": {
+      "type": "Alert",
+      "props": {
+        "title": "@aeonframework −38 followers/7d",
+        "message": "a bleed, not a fire",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_talk",
+        "lead1",
+        "lead2"
+      ]
+    },
+    "heading_talk": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h2"
+      }
+    },
+    "lead1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead1_handle",
+        "lead1_details",
+        "lead1_action"
+      ]
+    },
+    "lead1_handle": {
+      "type": "Text",
+      "props": {
+        "text": "@lnsx_io",
+        "variant": "lead"
+      }
+    },
+    "lead1_details": {
+      "type": "Text",
+      "props": {
+        "text": "shipped lens-scan (wallet behind any X profile, rug-flags Base devs, no key) + a B20 partnership hook"
+      }
+    },
+    "lead1_action": {
+      "type": "Text",
+      "props": {
+        "text": "DM today, lead with the B20 angle",
+        "variant": "caption"
+      }
+    },
+    "lead2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead2_handle",
+        "lead2_details",
+        "lead2_action"
+      ]
+    },
+    "lead2_handle": {
+      "type": "Text",
+      "props": {
+        "text": "@aeoncityhub",
+        "variant": "lead"
+      }
+    },
+    "lead2_details": {
+      "type": "Text",
+      "props": {
+        "text": "claims 72 projects on aeon + a 3D walk-in explorer, 12 likes"
+      }
+    },
+    "lead2_action": {
+      "type": "Text",
+      "props": {
+        "text": "quote-reply it, let it run as the public ecosystem flex",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_decide",
+        "decide_alert"
+      ]
+    },
+    "heading_decide": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "decide_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "momentum is cover to close, not to post",
+        "message": "one DM today — @lnsx_io, B20. that's a partnership door; the rest is just listings",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sources",
+        "source1",
+        "source2",
+        "source3",
+        "source4"
+      ]
+    },
+    "heading_sources": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      }
+    },
+    "source1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "src1_title",
+        "src1_content"
+      ]
+    },
+    "src1_title": {
+      "type": "Text",
+      "props": {
+        "text": "product-pulse: `articles/product-pulse-2026-06-23.md`",
+        "variant": "lead"
+      }
+    },
+    "src1_content": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon 544 (+30/7d), MiroShark 1,329 (+47/7d), both above momentum threshold; aeon-wc stall 15d; @aeonframework −38/7d"
+      }
+    },
+    "source2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "src2_title",
+        "src2_content"
+      ]
+    },
+    "src2_title": {
+      "type": "Text",
+      "props": {
+        "text": "bd-radar: `articles/bd-radar-2026-06-23.md`",
+        "variant": "lead"
+      }
+    },
+    "src2_content": {
+      "type": "Text",
+      "props": {
+        "text": "9 new leads (4 building). Top: @lnsx_io/lens-scan, @aeoncityhub (72 projects), chxoky/aeon (biggest active fork), sparkleware (4 new skills) — all score 15"
+      }
+    },
+    "source3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "src3_title",
+        "src3_line1",
+        "src3_arxiv_link",
+        "src3_line2"
+      ]
+    },
+    "src3_title": {
+      "type": "Text",
+      "props": {
+        "text": "sim-watch (06-21)",
+        "variant": "lead"
+      }
+    },
+    "src3_line1": {
+      "type": "Text",
+      "props": {
+        "text": "Doxa is closest Miroshark competitor (13★) — counter with a side-by-side."
+      }
+    },
+    "src3_arxiv_link": {
+      "type": "Link",
+      "props": {
+        "label": "arxiv:2606.18795",
+        "href": "https://arxiv.org/abs/2606.18795"
+      }
+    },
+    "src3_line2": {
+      "type": "Text",
+      "props": {
+        "text": "validates belief-drift — cite in next Show HN"
+      }
+    },
+    "source4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "src4_title",
+        "src4_content"
+      ]
+    },
+    "src4_title": {
+      "type": "Text",
+      "props": {
+        "text": "idea-forge (06-17)",
+        "variant": "lead"
+      }
+    },
+    "src4_content": {
+      "type": "Text",
+      "props": {
+        "text": "top wedge = `self-repair-ledger` (proof beats claims now the self-evolving-agent category formed). Bottleneck is closing the warm book, not discovery"
+      }
+    }
+  }
+}

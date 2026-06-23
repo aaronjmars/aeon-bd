@@ -1,10 +1,10 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-22T09:35:28Z",
+  "last_analyzed": "2026-06-23T08:45:15Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced, and actionable—identified specific cold lead (praxstack, ex-Amazon SDE forking both products) with clear rationale, flagged state (metrics, stalls, CI issues), and executed cleanly without sandbox issues.",
+  "assessment": "Substantive, well-sourced standup with clear decision — synthesized multiple upstream digests, identified rare momentum alignment, prioritized one high-leverage move (B20 partnership DM)",
   "flags": [],
-  "avg_score": 4.15,
+  "avg_score": 4.14,
   "history": [
     {
       "date": "2026-06-11",
@@ -56,6 +56,10 @@
     },
     {
       "date": "2026-06-22",
+      "score": 4
+    },
+    {
+      "date": "2026-06-23",
       "score": 4
     }
   ]
