@@ -94,3 +94,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-22,reply-maker,claude-sonnet-4-6,10,12930,523106,62492
 2026-06-22,heartbeat,claude-sonnet-4-6,9,9735,395622,51930
 2026-06-23,bd-radar,claude-sonnet-4-6,22,20133,1595482,86808
+2026-06-23,heartbeat,claude-sonnet-4-6,9,10572,386966,49658
