@@ -1,10 +1,10 @@
 {
   "skill": "write-tweet",
-  "last_analyzed": "2026-06-22T18:28:25Z",
+  "last_analyzed": "2026-06-23T17:51:25Z",
   "quality_score": 4,
-  "assessment": "Substantive, multi-variant copy addressing Aeon's founding narrative with insightful framing (agent→company inversion); well-structured tiered tiers; immediately actionable; aligns with strategy on positioning and voice; minor deduction for unverified data figures (26 skills, 105 leads) without explicit sourcing shown",
+  "assessment": "Well-structured, specific tweet drafts across tiers with concrete data points; ready-to-use GTM copy",
   "flags": [],
-  "avg_score": 3.83,
+  "avg_score": 3.85,
   "history": [
     {
       "date": "2026-06-11",
@@ -52,6 +52,10 @@
     },
     {
       "date": "2026-06-22",
+      "score": 4
+    },
+    {
+      "date": "2026-06-23",
       "score": 4
     }
   ]
