@@ -1,0 +1,249 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "AI Framework Watch",
+        "description": "2026-06-23"
+      },
+      "children": [
+        "release-summary",
+        "tracked-stats",
+        "sep-1",
+        "top-movers-heading",
+        "top-movers-list",
+        "sep-2",
+        "releases-heading",
+        "releases-list",
+        "sep-3",
+        "watch-heading",
+        "watch-list",
+        "sep-4",
+        "anchor-heading",
+        "anchor-info",
+        "sep-5",
+        "full-digest"
+      ]
+    },
+    "release-summary": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "RELEASE WEEK: 3 frameworks shipped — langgraph, crewai, mastra"
+      }
+    },
+    "tracked-stats": {
+      "type": "Text",
+      "props": {
+        "text": "Tracked 9/9 frameworks · 6 releases (7d) · 0 breaking flags",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "top-movers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top movers (7d stars)",
+        "level": "h3"
+      }
+    },
+    "top-movers-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mover-1",
+        "mover-2",
+        "mover-3",
+        "mover-4",
+        "mover-5"
+      ]
+    },
+    "mover-1": {
+      "type": "Stat",
+      "props": {
+        "label": "langchain-ai/langgraph",
+        "value": "35.5k",
+        "delta": "+592 (+1.7%)",
+        "trend": "up"
+      }
+    },
+    "mover-2": {
+      "type": "Stat",
+      "props": {
+        "label": "crewAIInc/crewAI",
+        "value": "54.2k",
+        "delta": "+534 (+1.0%)",
+        "trend": "up"
+      }
+    },
+    "mover-3": {
+      "type": "Stat",
+      "props": {
+        "label": "stanfordnlp/dspy",
+        "value": "35.3k",
+        "delta": "+257 (+0.7%)",
+        "trend": "up"
+      }
+    },
+    "mover-4": {
+      "type": "Stat",
+      "props": {
+        "label": "mastra-ai/mastra",
+        "value": "25.4k",
+        "delta": "+231 (+0.9%)",
+        "trend": "up"
+      }
+    },
+    "mover-5": {
+      "type": "Stat",
+      "props": {
+        "label": "microsoft/autogen",
+        "value": "59.2k",
+        "delta": "+189 (+0.3%)",
+        "trend": "up"
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "releases-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Releases worth reading",
+        "level": "h3"
+      }
+    },
+    "releases-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "release-1",
+        "release-2",
+        "release-3"
+      ]
+    },
+    "release-1": {
+      "type": "Text",
+      "props": {
+        "text": "langchain-ai/langgraph 1.2.6 — Fixes nested subgraph checkpoint_ns regression (from 1.2.3); v3 stream abort cancel"
+      }
+    },
+    "release-2": {
+      "type": "Text",
+      "props": {
+        "text": "mastra-ai/mastra @mastra/core@1.45.0 — Faster long-thread resume via improved state signal restoration"
+      }
+    },
+    "release-3": {
+      "type": "Text",
+      "props": {
+        "text": "crewAIInc/crewAI 1.14.8a2 [PRE] — Single-agent actions in Flows, CEL expression validation at load"
+      }
+    },
+    "sep-3": {
+      "type": "Separator"
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "watch-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-1",
+        "watch-2",
+        "watch-3"
+      ]
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "dspy +257 with zero releases — organic inbound, driver unclear"
+      }
+    },
+    "watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "autogen last tagged Sep 2025, still pulling +189/wk"
+      }
+    },
+    "watch-3": {
+      "type": "Text",
+      "props": {
+        "text": "pydantic-ai running dual v1/v2 tracks simultaneously (v2.0.0b7 in beta)"
+      }
+    },
+    "sep-4": {
+      "type": "Separator"
+    },
+    "anchor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Anchor (aeon)",
+        "level": "h3"
+      }
+    },
+    "anchor-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anchor-stat",
+        "anchor-releases",
+        "anchor-push"
+      ]
+    },
+    "anchor-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "543",
+        "delta": "+29 this week",
+        "trend": "up"
+      }
+    },
+    "anchor-releases": {
+      "type": "Text",
+      "props": {
+        "text": "0 releases (7d)",
+        "variant": "muted"
+      }
+    },
+    "anchor-push": {
+      "type": "Text",
+      "props": {
+        "text": "pushed 2026-06-22 · 9/9 by 7d delta",
+        "variant": "muted"
+      }
+    },
+    "sep-5": {
+      "type": "Separator"
+    },
+    "full-digest": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest",
+        "href": "articles/framework-watch-2026-06-23.md"
+      }
+    }
+  }
+}
