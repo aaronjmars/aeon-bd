@@ -1,12 +1,10 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All clear. No notification sent (nothing new to flag — all 23 cron-scheduled skills running clean, 0 open PRs, 0 open issues, heartbeat self-check healthy at ~11h since last success). `docs/status.md` updated to reflect the 08:00 UTC run with today's product-pulse and bd-radar both fresh.
+All clear across every check tier:
 
-## Summary
+- **P0** — 23 cron-scheduled skills all `last_status: success`. No stuck, no consecutive failures ≥3, no chronic failures. Heartbeat self-check healthy (~4h since last success).
+- **P1** — 0 open PRs, 0 urgent issues.
+- **P2** — No open issues (ISS-001 resolved 06-20), nothing flagged in MEMORY.md.
+- **P3** — All enabled skills have cron-state entries and are within 2× their schedule interval. Notable: x402-monitor just succeeded at 12:24 UTC (its Tuesday slot), framework-watch and engagement-act both ran this morning.
 
-- **P0:** Clean — all skills `success`, no stuck/degraded entries, heartbeat last run 11h ago
-- **P1:** 0 open PRs, 0 urgent issues
-- **P2:** No flagged memory items
-- **P3:** All 26 enabled skills within bounds; morning batch (product-pulse, bd-radar) both completed today
-- **docs/status.md:** Regenerated — 🟢 OK, next run operator-scorecard 08:30 UTC
-- **memory/logs/2026-06-23.md:** Appended heartbeat entry
+`docs/status.md` regenerated — 26 skills listed (23 cron-scheduled + 3 dispatch-only), overall 🟢 OK, next run heartbeat at 14:00 UTC. No token-report files found so Token pulse section omitted.
