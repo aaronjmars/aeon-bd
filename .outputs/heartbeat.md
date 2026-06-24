@@ -1,10 +1,11 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks clean:
+All checks clean. `docs/status.md` regenerated for the 20:00 UTC slot. No notification sent.
 
-- **P0** — 23/23 cron-scheduled skills `success`, no stuck, no consecutive failures, heartbeat self-check 11h ago (well under 36h)
-- **P1** — 0 open PRs, 0 urgent issues
-- **P2** — 0 open issues, no flagged memory items
-- **P3** — all skills within 2× their schedule interval; competitor-radar + idea-forge both hit their 7d weekly cadence today and should fire later this morning
+## Summary
 
-`docs/status.md` updated (🟢 OK, next run: engagement-act 09:30 UTC). Log written to `memory/logs/2026-06-24.md`.
+- **P0** — clean: all 23 skills `success`, no stuck, no API degradation, heartbeat self-check 5.5h ago
+- **P1** — clean: 1 open PR (#13, 5.5h old, below 24h stalled threshold), 0 urgent issues
+- **P2** — clean: no open issues, no new flagged memory items
+- **P3** — clean: morning batch (product-pulse/bd-radar/war-room/engagement-act) shows June 23 last_success (~36h) but within the 48h 2× threshold; all weekly skills within their 2× windows
+- **Status page** regenerated: 🟢 OK, 26 skills, next run product-pulse 07:15 UTC (2026-06-25), token pulse omitted (no token-report files)
