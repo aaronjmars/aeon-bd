@@ -1,0 +1,147 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Agent Buzz — 2026-06-24",
+        "description": "Low-volume day: MCP architecture debate dominated, one product launch claimed the numbers."
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section1",
+        "separator1",
+        "section2",
+        "source-note"
+      ]
+    },
+    "section1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section1-heading",
+        "section1-tweets"
+      ]
+    },
+    "section1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MCP as permissions, not protocol",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "section1-tweets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1",
+        "tweet2",
+        "tweet3"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@rlaope",
+        "text": "MCP reframed as identity/access boundary; auth decides if agents enter, access becomes product UX, teams must govern agent actions\nhttps://x.com/rlaope/status/2069666488265691544"
+      },
+      "children": []
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@TheNJDevOpsGuy",
+        "text": "translate APIs into MCP spec rather than calling them directly: same capability, but security and standard enforcement baked in\nhttps://x.com/TheNJDevOpsGuy/status/2069408404817268963"
+      },
+      "children": []
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@AgenticAIFdn",
+        "text": "structured tool surfaces (MCP) are the actual interface layer for AI, replacing visual UI — MCP + agentic web standards converging on this\nhttps://x.com/AgenticAIFdn/status/2069458008854138997"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section2-heading",
+        "section2-tweets"
+      ]
+    },
+    "section2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MCP productized",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "section2-tweets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet4",
+        "tweet5"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@OptimaiNetwork",
+        "text": "OptimAI Search MCP launch: agents get live web, social, onchain data through one MCP surface; 170 likes, 24 RTs\nhttps://x.com/OptimaiNetwork/status/2069796656774533360",
+        "likes": 170,
+        "retweets": 24
+      },
+      "children": []
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@DaedalusAgents",
+        "text": "production MCP stack shape: subdomain + OAuth + x402 + per-tool scopes + receipts binding payment→request→result hash\nhttps://x.com/DaedalusAgents/status/2069637329799512373"
+      },
+      "children": []
+    },
+    "source-note": {
+      "type": "Text",
+      "props": {
+        "text": "src: xai-prefetch · candidates: 10 → kept: 5",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,20 +1,18 @@
-*Agent Buzz — 2026-06-23*
-_Three MCP ships + official Claude Code course pulling 1.3k likes — builders locking in the protocol stack._
+*Agent Buzz — 2026-06-24*
+_Low-volume day: MCP architecture debate dominated, one product launch claimed the numbers._
 
-**MCP cementing as default protocol**
-• @maestro__dev — Maestro MCP lets Claude/Cursor drive real Android & iOS UI flows—not synthetic tests, live device.
-  https://x.com/maestro__dev/status/2069109020032737414
-• @zambodotdev — MCP (tool connections) + x402 (payments) framed as the two primitives every agent dev needs to know now.
-  https://x.com/zambodotdev/status/2069371192528580614
-• @AgenticAIFdn — Skybridge collapses MCP tools, UI components, and agent workflows into one TypeScript definition—vs scattered adapters.
-  https://x.com/AgenticAIFdn/status/2069106935920480459
+**MCP as permissions, not protocol**
+• @rlaope — MCP reframed as identity/access boundary; auth decides if agents enter, access becomes product UX, teams must govern agent actions
+  https://x.com/rlaope/status/2069666488265691544
+• @TheNJDevOpsGuy — translate APIs into MCP spec rather than calling them directly: same capability, but security and standard enforcement baked in
+  https://x.com/TheNJDevOpsGuy/status/2069408404817268963
+• @AgenticAIFdn — structured tool surfaces (MCP) are the actual interface layer for AI, replacing visual UI — MCP + agentic web standards converging on this
+  https://x.com/AgenticAIFdn/status/2069458008854138997
 
-**Builder education + architecture questions**
-• @midudev — First official Claude Code course (free) — CLAUDE.md, subagents, MCP, hooks end-to-end; 1.3k likes signals the gap was real.
-  https://x.com/midudev/status/2069066256355868887
-• @jiqizhixin — UIUC/Meta/Stanford: code is agent reasoning harness, not just what agents produce—shifts where the work lives.
-  https://x.com/jiqizhixin/status/2069314517054656680
-• @hi_kaank — Builder drops robots-vs-agents comparison; argues physical demos have the visceral proof-of-work software agents still lack.
-  https://x.com/hi_kaank/status/2069122503625318536
+**MCP productized**
+• @OptimaiNetwork — OptimAI Search MCP launch: agents get live web, social, onchain data through one MCP surface; 170 likes, 24 RTs
+  https://x.com/OptimaiNetwork/status/2069796656774533360
+• @DaedalusAgents — production MCP stack shape: subdomain + OAuth + x402 + per-tool scopes + receipts binding payment→request→result hash
+  https://x.com/DaedalusAgents/status/2069637329799512373
 
-<!-- _src: xai-prefetch · candidates: 10 → kept: 6_ -->
+_src: xai-prefetch · candidates: 10 → kept: 5_
