@@ -1,0 +1,327 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "write-tweet",
+        "description": "Skill supply chain attack surface — tweet drafts"
+      },
+      "children": [
+        "intro",
+        "oneliners-section",
+        "sep1",
+        "twopunch-section",
+        "sep2",
+        "paragraph-section",
+        "sep3",
+        "longtweet-section",
+        "sep4",
+        "thread-section",
+        "sep5",
+        "recommendation"
+      ]
+    },
+    "intro": {
+      "type": "Text",
+      "props": {
+        "text": "22,511 AI coding skills audited, 5% are attack chains, no trust layer",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "oneliners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "oneliners-heading",
+        "oneliners-1a",
+        "oneliners-1b"
+      ]
+    },
+    "oneliners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ONE-LINER",
+        "level": "h3"
+      }
+    },
+    "oneliners-1a": {
+      "type": "Text",
+      "props": {
+        "text": "1a. 22,511 AI coding skills audited. 5% are multi-stage attack chains. nobody built a trust layer.",
+        "variant": "body"
+      }
+    },
+    "oneliners-1b": {
+      "type": "Text",
+      "props": {
+        "text": "1b. npm had leftpad. agent skills have 140,963 issues. few notice.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "twopunch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "twopunch-heading",
+        "twopunch-2a",
+        "twopunch-2b"
+      ]
+    },
+    "twopunch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TWO-PUNCH",
+        "level": "h3"
+      }
+    },
+    "twopunch-2a": {
+      "type": "Text",
+      "props": {
+        "text": "2a. 22,511 AI coding skills audited. 5% carry multi-stage attack chains. 80% behave differently than advertised.\n\nyour agent trusts every skill you install. there's no verification layer.",
+        "variant": "body"
+      }
+    },
+    "twopunch-2b": {
+      "type": "Text",
+      "props": {
+        "text": "2b. everyone's worried about model jailbreaks. the real vector is the skill registry.\n\nthird-party skill = immediate shell access. no vetting. no verification.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "paragraph-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "paragraph-heading",
+        "paragraph-3a",
+        "paragraph-3b"
+      ]
+    },
+    "paragraph-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PARAGRAPH",
+        "level": "h3"
+      }
+    },
+    "paragraph-3a": {
+      "type": "Text",
+      "props": {
+        "text": "3a. 22,511 AI agent skills audited. 5% have multi-stage attack chains. 80% mismatch their advertised behavior. a fake moltbot assistant was dropping malware through VS Code.\n\nthe npm supply chain problem just cloned itself into agent infra. and nobody built a trust layer yet.",
+        "variant": "body"
+      }
+    },
+    "paragraph-3b": {
+      "type": "Text",
+      "props": {
+        "text": "3b. the first major agent security breach will be a malicious skill inside a trusted community pack.\n\nskills get shell access on install. no audit required. you just assumed the registry was clean. 22,511 checked — 5% are full attack chains.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "longtweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "longtweet-heading",
+        "longtweet-4a",
+        "longtweet-4b"
+      ]
+    },
+    "longtweet-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "LONG TWEET",
+        "level": "h3"
+      }
+    },
+    "longtweet-4a": {
+      "type": "Text",
+      "props": {
+        "text": "4a. researchers audited 22,511 AI coding skills. 140,963 issues found. 5% carry multi-stage attack chains. 80% mismatch their declared behavior.\n\nwhen you install a third-party skill, it gets immediate shell access to your credentials, filesystem, and env. no vetting. no behavioral check. you trust the registry by default.\n\nthe npm supply chain problem didn't die — it cloned into agent infra. same gap, larger blast radius. your agent has root.",
+        "variant": "body"
+      }
+    },
+    "longtweet-4b": {
+      "type": "Text",
+      "props": {
+        "text": "4b. a fake 'moltbot' skill showed up in VS Code Marketplace. looked like an AI coding assistant. dropped malware on install.\n\nsecurity researchers ran an audit of 22,511 skills afterward. 140,963 issues. 5% multi-stage attack chains. 80% behave differently than advertised.\n\nthe ecosystem built the registry before the trust layer. nobody is building the attestation layer. we know exactly how this ends.",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "thread-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thread-heading",
+        "thread-5a",
+        "thread-5a-bullets",
+        "thread-5b",
+        "thread-5b-bullets"
+      ]
+    },
+    "thread-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "THREAD OPENER",
+        "level": "h3"
+      }
+    },
+    "thread-5a": {
+      "type": "Text",
+      "props": {
+        "text": "5a. the agent ecosystem built the skill registry before the trust layer. 22,511 AI coding skills audited. 140,963 issues. 5% multi-stage attack chains. this is npm in 2014 — but your credentials are on the other end.",
+        "variant": "body"
+      }
+    },
+    "thread-5a-bullets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bullet-5a-1",
+        "bullet-5a-2",
+        "bullet-5a-3",
+        "bullet-5a-4",
+        "bullet-5a-5"
+      ]
+    },
+    "bullet-5a-1": {
+      "type": "Text",
+      "props": {
+        "text": "how skills work: install = immediate shell + credential + filesystem access, zero behavioral verification required",
+        "variant": "caption"
+      }
+    },
+    "bullet-5a-2": {
+      "type": "Text",
+      "props": {
+        "text": "what the audit found: 22,511 skills, 80% behavioral mismatch, 5% full attack chains — fake moltbot incident (brand confusion as the distribution vector)",
+        "variant": "caption"
+      }
+    },
+    "bullet-5a-3": {
+      "type": "Text",
+      "props": {
+        "text": "why it's worse than npm: a malicious package corrupts a build; a malicious skill corrupts a live agent with root",
+        "variant": "caption"
+      }
+    },
+    "bullet-5a-4": {
+      "type": "Text",
+      "props": {
+        "text": "the gap nobody is filling: no behavioral hashing, no on-chain provenance, no community trust scoring — registries grow, don't vet",
+        "variant": "caption"
+      }
+    },
+    "bullet-5a-5": {
+      "type": "Text",
+      "props": {
+        "text": "how you fix it: tokenize the scanner fleet — agents run 24/7, find issues, get paid from the repo treasury, publish attestations",
+        "variant": "caption"
+      }
+    },
+    "thread-5b": {
+      "type": "Text",
+      "props": {
+        "text": "5b. the next major AI security breach won't be a jailbreak. it'll be a malicious skill in a trusted community pack. the trust layer doesn't exist.",
+        "variant": "body"
+      }
+    },
+    "thread-5b-bullets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bullet-5b-1",
+        "bullet-5b-2",
+        "bullet-5b-3",
+        "bullet-5b-4",
+        "bullet-5b-5"
+      ]
+    },
+    "bullet-5b-1": {
+      "type": "Text",
+      "props": {
+        "text": "the data: 5% of 22,511 audited skills are attack chains — 1,100+ weaponized packages in public registries right now",
+        "variant": "caption"
+      }
+    },
+    "bullet-5b-2": {
+      "type": "Text",
+      "props": {
+        "text": "why community packs are the perfect vector: social trust from the curator gets laundered onto the skill",
+        "variant": "caption"
+      }
+    },
+    "bullet-5b-3": {
+      "type": "Text",
+      "props": {
+        "text": "the npm parallel: we solved npm with shas, provenance, supply chain tooling — none of that exists for skills",
+        "variant": "caption"
+      }
+    },
+    "bullet-5b-4": {
+      "type": "Text",
+      "props": {
+        "text": "economics of attack: AI scanners flipped offense/defense — maintainers can't outspend attackers at scale",
+        "variant": "caption"
+      }
+    },
+    "bullet-5b-5": {
+      "type": "Text",
+      "props": {
+        "text": "the answer: tokenize the scanner — pay agents from the repo treasury to find, verify, publish attestations that compound",
+        "variant": "caption"
+      }
+    },
+    "recommendation": {
+      "type": "Alert",
+      "props": {
+        "title": "Best choice",
+        "message": "#3a — hot take / tier 3 (leads with citable data + the moltbot incident, lands the npm clone reframe in one punch — most tweet-shaped, most Aaron-voiced)",
+        "type": "info"
+      }
+    }
+  }
+}

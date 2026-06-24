@@ -1,10 +1,10 @@
 {
   "skill": "write-tweet",
-  "last_analyzed": "2026-06-23T17:51:25Z",
+  "last_analyzed": "2026-06-24T17:40:14Z",
   "quality_score": 4,
-  "assessment": "Well-structured, specific tweet drafts across tiers with concrete data points; ready-to-use GTM copy",
+  "assessment": "Substantive tweet options across five escalation tiers with strong GTM framing; truncated explanation section",
   "flags": [],
-  "avg_score": 3.85,
+  "avg_score": 3.86,
   "history": [
     {
       "date": "2026-06-11",
@@ -56,6 +56,10 @@
     },
     {
       "date": "2026-06-23",
+      "score": 4
+    },
+    {
+      "date": "2026-06-24",
       "score": 4
     }
   ]
