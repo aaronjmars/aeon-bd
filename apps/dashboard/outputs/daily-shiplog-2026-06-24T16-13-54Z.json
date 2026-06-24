@@ -1,0 +1,180 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "aeon / miroshark daily shiplog ⭐ june 24"
+      },
+      "children": [
+        "heading_shipped",
+        "shipped_intro",
+        "shipped_container",
+        "separator1",
+        "heading_traction",
+        "traction_container",
+        "separator2",
+        "star_divider",
+        "link_article"
+      ]
+    },
+    "heading_shipped": {
+      "type": "Heading",
+      "props": {
+        "text": "Shipped today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "shipped_intro": {
+      "type": "Text",
+      "props": {
+        "text": "the bytes:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "shipped_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "aeon inc: new legal entity owns all @aeonframework IPs — legal structure to protect token holders + buybacks committed. B1 Transparency Filing live on @Blockworks (113 likes, 27 RTs)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "shipped_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "phylax pre-screen: skill-triage now auto-vets any SKILL.md touching Base contracts or x402 endpoints before merge. the framework has an immune system now (0346752)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "shipped_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "miroshark wait: `miro wait <sim-id>` blocks until sim completes — exit 0/1/2. pipeline-composable, no polling hacks needed (#215)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "shipped_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "thinking model hardening: THINKING_BUDGET_TOKENS config, JSON repair, None guards — MiroShark handles reasoning models without choking (#209)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "shipped_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "graph fan-out restored: 4-way semantic fallback in sub-query failure path — caught + fixed same day as the regression (#211)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "shipped_item_6": {
+      "type": "Text",
+      "props": {
+        "text": "x402.miroshark.xyz dropped: first product built on top of @miroshark_, affiliation for every integrator, fully x402-native",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "shipped_item_7": {
+      "type": "Text",
+      "props": {
+        "text": "@aeonframework YouTube channel live — intro video up, subscriber push underway",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "shipped_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "shipped_item_1",
+        "shipped_item_2",
+        "shipped_item_3",
+        "shipped_item_4",
+        "shipped_item_5",
+        "shipped_item_6",
+        "shipped_item_7"
+      ]
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_traction": {
+      "type": "Heading",
+      "props": {
+        "text": "Traction",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "traction_aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon",
+        "value": "549 ⭐",
+        "delta": "+5",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "traction_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "miroshark",
+        "value": "1,333 ⭐",
+        "delta": "+2",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "traction_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "traction_aeon",
+        "traction_miroshark"
+      ]
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "star_divider": {
+      "type": "Text",
+      "props": {
+        "text": "⭐",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link_article": {
+      "type": "Link",
+      "props": {
+        "label": "Full article",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/articles/daily-shiplog-2026-06-24.md"
+      },
+      "children": []
+    }
+  }
+}
