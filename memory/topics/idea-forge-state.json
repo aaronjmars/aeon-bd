@@ -1,4 +1,9 @@
 {"ideas":[
+  {"date":"2026-06-24","name":"skill-attest","one_liner":"22,511 community skills, vulns lurking in the markdown — audits already failed once; tokenize the scanner and let agents fund the defense","fit":"aeon","score":14},
+  {"date":"2026-06-24","name":"x402-skill-meter","one_liner":"payment rails went incumbent (Mastercard/Stripe/Google M2M this month) — meter any aeon skill behind x402, inference pays for itself","fit":"aeon","score":13},
+  {"date":"2026-06-24","name":"compute-price-sim","one_liner":"Polymarket just listed reflexive AI-race markets (compute index, model-of-the-month) — spin a miroshark swarm on the drift before traders size the bet","fit":"miroshark","score":13},
+  {"date":"2026-06-24","name":"conway-claim","one_liner":"Conway is aeon with the traces cropped out — ship the open public-traces ambient build and claim the category on the day it drops","fit":"aeon","score":12},
+  {"date":"2026-06-24","name":"agent-pay-sim","one_liner":"five incumbents launched machine wallets this month and nobody knows what an agent economy does under load — simulate it over x402","fit":"miroshark","score":11},
   {"date":"2026-06-17","name":"proof-of-self-repair","one_liner":"every framework now claims self-improvement; only a public repo can prove it — ship the receipt (self-repair ledger)","fit":"aeon","score":15},
   {"date":"2026-06-17","name":"counterfactual-launch-sim","one_liner":"the unit of competition is the timing window — simulate the window before you spend it (miroshark launch-window template)","fit":"miroshark","score":13},
   {"date":"2026-06-17","name":"miroshark-social-world-model","one_liner":"world-models wave is all pixels; the missing world model is social — expose miroshark as an MCP/A2A simulate(decision) tool","fit":"miroshark","score":13},
