@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-06-23T17:09:54Z",
+  "last_analyzed": "2026-06-24T17:38:30Z",
   "quality_score": 4,
-  "assessment": "Well-structured, properly curated with clear reasoning, state maintained, actionable signal capture for a light day",
+  "assessment": "Substantive and well-structured with specific metrics, clustering strategy, and actionable BD signals; signal scoring methodology and curation rationale could be more transparent.",
   "flags": [],
-  "avg_score": 3.42,
+  "avg_score": 3.46,
   "history": [
     {
       "date": "2026-06-12",
@@ -52,6 +52,10 @@
     },
     {
       "date": "2026-06-23",
+      "score": 4
+    },
+    {
+      "date": "2026-06-24",
       "score": 4
     }
   ]
