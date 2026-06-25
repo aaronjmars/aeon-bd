@@ -1,8 +1,8 @@
 {
   "skill": "daily-shiplog",
-  "last_analyzed": "2026-06-24T16:13:54Z",
+  "last_analyzed": "2026-06-25T16:43:29Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured daily report with concrete ships, verified metrics, and direct alignment to strategy (stars, ecosystem, market signal)",
+  "assessment": "Substantive daily summary with concrete metrics, PR references, and thematic analysis aligned to GTM priorities",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -24,6 +24,10 @@
     },
     {
       "date": "2026-06-24",
+      "score": 4
+    },
+    {
+      "date": "2026-06-25",
       "score": 4
     }
   ]
