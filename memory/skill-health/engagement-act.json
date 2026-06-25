@@ -1,8 +1,8 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-23T10:07:05Z",
+  "last_analyzed": "2026-06-25T10:25:44Z",
   "quality_score": 4,
-  "assessment": "Substantive and specific — 5 qualified opportunities with timing, context, actionable channels, and cross-product signals. Execution well-aligned to war-room strategy.",
+  "assessment": "Substantive, actionable BD signal — specific opportunities with context, proper de-duping, aligned with strategy. Truncation limits full verification.",
   "flags": [],
   "avg_score": 3.92,
   "history": [
@@ -52,6 +52,10 @@
     },
     {
       "date": "2026-06-23",
+      "score": 4
+    },
+    {
+      "date": "2026-06-25",
       "score": 4
     }
   ]

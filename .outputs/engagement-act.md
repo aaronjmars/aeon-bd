@@ -1,28 +1,28 @@
-*Engagement Act — 2026-06-23*
+*Engagement Act — 2026-06-25*
 
-*1. @lnsx_io* (0 days ago) — building lens-scan aeon skill: wallet + rug-flag from X profiles, no API key needed
-link: github.com/Tholynceus/lens-skill-pack
-type: X DM
-draft: "lens-scan is exactly what aeon was built for — no-approval-loop skill, real wallet signal, no key needed is the right call. what's the infra? open to a B20 integration or co-post if you're interested. drop in the TG. ⭐"
-
-*2. chxoky/aeon* (0 days ago) — biggest active aeon fork by byte count (43,628 bytes own content, 17d continuous)
-link: github.com/chxoky/aeon
+*1. clawhunter/clawhunter-skills* (0 days ago) — built official skill repo on aeon: Pump Fun GO bounty discovery + content automation
+link: https://github.com/clawhunter/clawhunter-skills
 type: GitHub comment
-draft: "biggest own-content fork in the ecosystem by a mile. 17 days continuous — what are you building on top? want to be in the aeon TG? ⭐"
+draft: "saw the bounty-discovery + content automation combo — solid. what's the main workflow look like? chaining the pump.fun feed into the content pipe or running them separately? if you want the skills indexed in the ecosystem browser, drop a link — building the trust layer right now and early builders get priority. ⭐"
 
-*3. praxstack/@synarch-ai* (1 day ago) — ex-Amazon SDE merging MiroShark PRs + using aeon to manage the fork (cross-product flywheel)
-link: github.com/praxstack/aaronjmars-MiroShark
-type: GitHub comment + X DM
-draft: "using aeon to manage a MiroShark fork is the exact cross-product flywheel we talk about. what's the use case? drop in the aeon TG. ⭐🦈"
-
-*4. @BranaRakic/OriginTrail* (1 day ago) — DKG v9 + MiroShark co-promotion signal from mention radar
-link: no link found
-type: X DM
-draft: "saw the DKG v9 + 🦈 mention — what's the integration story? curious if there's a co-post angle here."
-
-*5. @aeoncityhub* (5 days ago) — unprompted 3D walkable ecosystem map aeoncity.fun (72 projects, 171 skills, 47 ecosystem projects)
-link: https://x.com/aeoncityhub/status/2067426681409991123
+*2. @AeonSportss* (1 day ago) — first sports-vertical integration: autonomous FIFA match tokenization on @aeonframework (2 likes, 1 RT)
+link: https://x.com/AeonSportss/status/2069540645841276960
 type: X reply
-draft: "aeoncity.fun is the best thing in the ecosystem we didn't build. 72 residents, 171 skills, 47 projects — the 3D map is more real than most product pages i've seen. what's the roadmap? ⭐"
+draft: "sports vertical is genuinely untapped. autonomous FIFA match tokenization on cron — what's the full pipeline? curious what data source you're pulling from. ⭐"
+
+*3. @mindinpanic* (1 day ago) — organic cold-discovery of GH Actions architecture: "no separate infra, just the ci pipeline"
+link: https://x.com/mindinpanic/status/2069564263409078637
+type: X reply
+draft: "exactly. the pipeline IS the runtime. most people see github actions as a deployment tool — it's actually a fully managed compute layer. cron, secrets, logs, retries, self-repair. just aeon it ⭐"
+
+*4. @MrDegenWolf* (1 day ago) — frames Aeon as agentic economy infrastructure that wins regardless of chain/model ideology
+link: https://x.com/MrDegenWolf/status/2069564918831960569
+type: X reply
+draft: "100%. the infra doesn't care which chain wins, which model wins — it runs on cron, self-repairs, converts compute to output. that's the thesis. the harness is the model ⭐"
+
+*5. @aeoncityhub* (aging — 7+ days on radar, war-room #1 TALK-TO today) — built aeoncity.fun: 3D walkable explorer with 72 projects, unprompted
+link: https://x.com/aeoncityhub/status/2069167087634022507
+type: X reply
+draft: "72 projects in a 3D explorer you built without us asking — that's the most aeon thing i've seen. pulling from ECOSYSTEM.md or something else? want to make sure you're on the canonical list. ⭐"
 
 some opps aging — act or drop
