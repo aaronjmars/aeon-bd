@@ -1,15 +1,17 @@
 {
   "skill": "ecosystem-entrants",
-  "last_analyzed": "2026-06-18T10:27:10Z",
+  "last_analyzed": "2026-06-25T09:23:22Z",
   "quality_score": 3,
-  "assessment": "Baseline established correctly with sound infrastructure, but notification is generic and lacks strategic analysis of the 65 projects for a GTM-focused instance.",
-  "flags": [
-    "generic_content"
-  ],
+  "assessment": "Quiet run executed correctly — no ecosystem changes detected, handled appropriately with QUIET mode, clean state management and logging, but minimal actionable output this week",
+  "flags": [],
   "avg_score": 3,
   "history": [
     {
       "date": "2026-06-18",
+      "score": 3
+    },
+    {
+      "date": "2026-06-25",
       "score": 3
     }
   ]
