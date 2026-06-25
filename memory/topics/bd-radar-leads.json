@@ -105,7 +105,10 @@
     {"key": "github:kevinpinscoe/MiroShark", "class": "forking", "who": "kevinpinscoe", "handle": "kevinpinscoe", "signal": "MiroShark fork 06-19. 63,754 bytes = +769 bytes own content.", "fit": 1, "score": 4, "first_seen": "2026-06-23", "repo_updated": "2026-06-19", "source": "gh_read_pat_forks", "move": "Watch"},
     {"key": "github:jonnydubowsky/MiroShark", "class": "forking", "who": "jonnydubowsky", "handle": "jonnydubowsky", "signal": "MiroShark fork 06-18. 63,530 bytes = +545 bytes own content. Name reads like a real person, not a bot.", "fit": 1, "score": 4, "first_seen": "2026-06-23", "repo_updated": "2026-06-18", "source": "gh_read_pat_forks", "move": "Check who jonnydubowsky is — DM on GH if recognizable builder"},
     {"key": "github:usephylax/aeon", "class": "forking", "who": "usephylax", "handle": "usephylax", "signal": "Aeon fork created 06-22T11:50, own commits 23min later at 12:13. No description.", "fit": 1, "score": 2, "first_seen": "2026-06-23", "repo_updated": "2026-06-22", "source": "gh_read_pat_forks", "move": "Watch"},
-    {"key": "github:ARUNAGIRINATHAN-K/awesome-ai-agents-2026", "class": "mentioning", "who": "ARUNAGIRINATHAN-K", "handle": "ARUNAGIRINATHAN-K", "signal": "Curated 300+ AI agents/frameworks list (awesome-ai-agents-2026). Appeared in web search for aeon/miroshark. Potential distribution surface.", "fit": 1, "score": 2, "first_seen": "2026-06-23", "source": "websearch", "move": "Verify aeon is listed; if not, open a PR or ping for inclusion"}
+    {"key": "github:ARUNAGIRINATHAN-K/awesome-ai-agents-2026", "class": "mentioning", "who": "ARUNAGIRINATHAN-K", "handle": "ARUNAGIRINATHAN-K", "signal": "Curated 300+ AI agents/frameworks list (awesome-ai-agents-2026). Appeared in web search for aeon/miroshark. Potential distribution surface.", "fit": 1, "score": 2, "first_seen": "2026-06-23", "source": "websearch", "move": "Verify aeon is listed; if not, open a PR or ping for inclusion"},
+
+    {"key": "github:clawhunter/clawhunter-skills", "class": "building", "who": "clawhunter (Claw Hunter)", "handle": "clawhunter", "signal": "Shipped public skill repo 'Official Claw Hunter agent skills — discover and vet Pump Fun GO bounties, and produce the content to win them.' Updated 06-18T11:48. A product built on aeon, separate from their fork (clawhunter/add-clawhunter-pack).", "fit": 1, "score": 5, "first_seen": "2026-06-25", "repo_updated": "2026-06-18", "source": "gh_search_repos", "move": "DM clawhunter: the Claw Hunter skills are live — feature it in the skill registry + ECOSYSTEM.md entry"},
+    {"key": "github:Marr554/aeon", "class": "forking", "who": "Marr554", "handle": "Marr554", "signal": "Aeon fork created 06-24T10:49, own commits pushed 06-25T05:52 (19h+ own activity). Fresh and active today. No description yet, unknown vertical.", "fit": 1, "score": 4, "first_seen": "2026-06-25", "repo_updated": "2026-06-25", "source": "gh_read_pat_forks", "move": "Watch — ping if description appears or they open an issue"}
   ],
   "surfaced": [
     "github:AntFleet",
@@ -224,6 +227,8 @@
     "github:kevinpinscoe/MiroShark",
     "github:jonnydubowsky/MiroShark",
     "github:usephylax/aeon",
-    "github:ARUNAGIRINATHAN-K/awesome-ai-agents-2026"
+    "github:ARUNAGIRINATHAN-K/awesome-ai-agents-2026",
+    "github:clawhunter/clawhunter-skills",
+    "github:Marr554/aeon"
   ]
 }
