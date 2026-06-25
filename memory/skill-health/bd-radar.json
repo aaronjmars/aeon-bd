@@ -1,10 +1,12 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-06-23T07:42:47Z",
+  "last_analyzed": "2026-06-25T08:11:22Z",
   "quality_score": 4,
-  "assessment": "Substantive BD findings with specific metrics, actionable next moves, and clear escalation logic — exactly what the strategy calls for.",
-  "flags": [],
-  "avg_score": 4.2,
+  "assessment": "Substantive output with 2 new actionable leads, clear scoring/moves, and transparent source limitations; escalations tracked with metrics; already actioned notification.",
+  "flags": [
+    "source_miss"
+  ],
+  "avg_score": 4.19,
   "history": [
     {
       "date": "2026-06-11",
@@ -64,6 +66,10 @@
     },
     {
       "date": "2026-06-23",
+      "score": 4
+    },
+    {
+      "date": "2026-06-25",
       "score": 4
     }
   ]
