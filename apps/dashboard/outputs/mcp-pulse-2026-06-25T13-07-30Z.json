@@ -1,0 +1,121 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "mcp pulse"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-momentum",
+        "badge-momentum",
+        "sep1",
+        "heading-downloads",
+        "stat-downloads",
+        "sep2",
+        "heading-signals",
+        "text-signal1",
+        "text-signal2",
+        "text-signal3",
+        "sep3",
+        "heading-thesis",
+        "text-thesis"
+      ]
+    },
+    "heading-momentum": {
+      "type": "Heading",
+      "props": {
+        "text": "Momentum",
+        "level": "h2"
+      }
+    },
+    "badge-momentum": {
+      "type": "Badge",
+      "props": {
+        "text": "building (5 pts)",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-downloads": {
+      "type": "Heading",
+      "props": {
+        "text": "Downloads",
+        "level": "h2"
+      }
+    },
+    "stat-downloads": {
+      "type": "Stat",
+      "props": {
+        "label": "npm @modelcontextprotocol/sdk",
+        "value": "40.1M/wk",
+        "delta": "+367k",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-signals": {
+      "type": "Heading",
+      "props": {
+        "text": "Signals",
+        "level": "h2"
+      }
+    },
+    "text-signal1": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-28 RC validation window live — stateless core, MCP Apps, Tasks; Tier 1 SDKs shipping against it. biggest spec revision since launch.",
+        "variant": "body"
+      }
+    },
+    "text-signal2": {
+      "type": "Text",
+      "props": {
+        "text": "ext-auth: 108→132★ (+22%) in a week — auth hardening getting real dev attention",
+        "variant": "body"
+      }
+    },
+    "text-signal3": {
+      "type": "Text",
+      "props": {
+        "text": "Microsoft MCP Server for Enterprise (Preview): Entra ID natural-language access for agents",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h2"
+      }
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "advancing — downloads compounding through RC window; devs already building toward stateless MCP before it ships",
+        "variant": "body"
+      }
+    }
+  }
+}
