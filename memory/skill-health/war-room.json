@@ -1,10 +1,12 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-23T08:45:15Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-sourced standup with clear decision — synthesized multiple upstream digests, identified rare momentum alignment, prioritized one high-leverage move (B20 partnership DM)",
-  "flags": [],
-  "avg_score": 4.14,
+  "last_analyzed": "2026-06-25T08:08:14Z",
+  "quality_score": 3,
+  "assessment": "Acceptable — completed war-room standup despite 2-day stale data; explicitly flagged issue and provided actionable strategic recommendation despite degraded inputs.",
+  "flags": [
+    "stale_data"
+  ],
+  "avg_score": 4.07,
   "history": [
     {
       "date": "2026-06-11",
@@ -61,6 +63,10 @@
     {
       "date": "2026-06-23",
       "score": 4
+    },
+    {
+      "date": "2026-06-25",
+      "score": 3
     }
   ]
 }

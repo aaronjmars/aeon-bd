@@ -1,0 +1,235 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room",
+        "description": "2026-06-25"
+      },
+      "children": [
+        "status-badge",
+        "metrics-stack",
+        "sep-1",
+        "activity-section",
+        "sep-2",
+        "contacts-section",
+        "sep-3",
+        "decision-section"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "both green, momentum holding",
+        "variant": "default"
+      }
+    },
+    "metrics-stack": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "metric-aeon",
+        "metric-shark"
+      ]
+    },
+    "metric-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "549⭐"
+      }
+    },
+    "metric-shark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1333🦈"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "activity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "activity-heading",
+        "activity-list"
+      ]
+    },
+    "activity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Activity",
+        "level": "h3"
+      }
+    },
+    "activity-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "activity-1",
+        "activity-2",
+        "activity-3",
+        "activity-4"
+      ]
+    },
+    "activity-1": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon Inc + B1 filing landed (Blockworks)",
+        "variant": "body"
+      }
+    },
+    "activity-2": {
+      "type": "Text",
+      "props": {
+        "text": "x402 endpoints live",
+        "variant": "body"
+      }
+    },
+    "activity-3": {
+      "type": "Text",
+      "props": {
+        "text": "pulse+radar didn't fire this AM, so leads are from the 23rd",
+        "variant": "caption"
+      }
+    },
+    "activity-4": {
+      "type": "Text",
+      "props": {
+        "text": "aeon-wc still dark (17d)",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "contacts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "contacts-heading",
+        "contacts-list"
+      ]
+    },
+    "contacts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h3"
+      }
+    },
+    "contacts-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "contact-1",
+        "contact-2"
+      ]
+    },
+    "contact-1": {
+      "type": "Text",
+      "props": {
+        "text": "@aeoncityhub — 72 projects + a 3D explorer you walk into → reply + ECOSYSTEM.md entry",
+        "variant": "body"
+      }
+    },
+    "contact-2": {
+      "type": "Text",
+      "props": {
+        "text": "@lnsx_io (lens-scan) — shipped a rug-flagging aeon skill, hints a B20 deal → DM, get the angle",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decision-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decision-heading",
+        "decision-thesis",
+        "decision-context",
+        "decision-action"
+      ]
+    },
+    "decision-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decision",
+        "level": "h3"
+      }
+    },
+    "decision-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "The install wave IS the story",
+        "variant": "lead"
+      }
+    },
+    "decision-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-1",
+        "context-2"
+      ]
+    },
+    "context-1": {
+      "type": "Text",
+      "props": {
+        "text": "72 projects, lens-scan, sparkleware's 4 — and the 22,511-skill audit says nobody trusts what they install",
+        "variant": "body"
+      }
+    },
+    "context-2": {
+      "type": "Text",
+      "props": {
+        "text": "ship skill-attest this week, hand the trust badge to the ecosystem before someone gets rugged on our rails",
+        "variant": "body"
+      }
+    },
+    "decision-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Ship skill-attest this week to provide trust badge to ecosystem",
+        "type": "warning"
+      }
+    }
+  }
+}
