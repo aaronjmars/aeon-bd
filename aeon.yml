@@ -133,7 +133,7 @@ skills:
   refresh-x: { enabled: false, schedule: "0 17 * * *" }
   list-digest: { enabled: false, schedule: "0 17 * * *" }
   write-tweet: { enabled: false, schedule: "15 17 * * *" }
-  reply-maker: { enabled: true, schedule: "20 17 * * *" }
+  reply-maker: { enabled: false, schedule: "20 17 * * *" }
   remix-tweets: { enabled: false, schedule: "30 17 * * *" } # 10 rephrased versions of random past tweets
   tweet-roundup: { enabled: false, schedule: "0 17 * * *", var: "" } # latest tweets on configurable topics
   agent-buzz: { enabled: false, schedule: "30 17 * * *" } # top AI agent tweets by influence
@@ -443,7 +443,7 @@ skills:
   # 3 staggered standalone daily skills (no chain — chain-runner is brittle under bash -e).
   # product-pulse + bd-radar commit their digests early; war-room reads those committed
   # outputs at 07:45 via its fallback path and sends the team brief.
-  product-pulse: { enabled: true, schedule: "15 7 * * *", var: "" } # 07:15 UTC — state of aeon+miroshark: GitHub repo-family health + X deltas, week-over-week. Quiet unless red-flag. war-room reads its digest.
+  product-pulse: { enabled: false, schedule: "15 7 * * *", var: "" } # 07:15 UTC — state of aeon+miroshark: GitHub repo-family health + X deltas, week-over-week. Quiet unless red-flag. war-room reads its digest.
   bd-radar: { enabled: true, schedule: "20 7 * * *", var: "" } # 07:20 UTC — BD radar: who's building/forking/integrating/mentioning the products → ranked leads + a next move each. Quiet unless high-intent lead.
   war-room: { enabled: true, schedule: "45 7 * * *", var: "", model: "claude-opus-4-8" } # 07:45 UTC — daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Reads the day's product-pulse + bd-radar digests. Always notifies.
   # Weekly thinkers — standalone cron; war-room folds in their latest digest if <7d old.
