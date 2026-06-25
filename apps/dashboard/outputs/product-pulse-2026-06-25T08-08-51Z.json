@@ -1,0 +1,96 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "product-pulse"
+      },
+      "children": [
+        "alert_status",
+        "divider1",
+        "details_stack",
+        "divider2",
+        "action"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "title": "aeon-wc still dark",
+        "message": "17 days, no commit since Jun 8",
+        "type": "warning"
+      }
+    },
+    "divider1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "attr_badges",
+        "context_text",
+        "significance_text"
+      ]
+    },
+    "attr_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_private",
+        "badge_notci"
+      ]
+    },
+    "badge_private": {
+      "type": "Badge",
+      "props": {
+        "text": "Not a public repo",
+        "variant": "secondary"
+      }
+    },
+    "badge_notci": {
+      "type": "Badge",
+      "props": {
+        "text": "Not CI",
+        "variant": "secondary"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "The private aeon core"
+      }
+    },
+    "significance_text": {
+      "type": "Text",
+      "props": {
+        "text": "Longest quiet period in the stack",
+        "variant": "muted"
+      }
+    },
+    "divider2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action": {
+      "type": "Text",
+      "props": {
+        "text": "⭐ Worth a look if something's mid-build in there",
+        "variant": "lead"
+      }
+    }
+  }
+}
