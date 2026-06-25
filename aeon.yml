@@ -132,11 +132,11 @@ skills:
   fetch-tweets: { enabled: true, schedule: "0 17 * * *", var: "@aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation" } # var feeds prefetch-xai (Path A cache); without it the skill no-ops (no query → prefetch skips → empty cache)
   refresh-x: { enabled: false, schedule: "0 17 * * *" }
   list-digest: { enabled: false, schedule: "0 17 * * *" }
-  write-tweet: { enabled: true, schedule: "15 17 * * *" }
+  write-tweet: { enabled: false, schedule: "15 17 * * *" }
   reply-maker: { enabled: true, schedule: "20 17 * * *" }
   remix-tweets: { enabled: false, schedule: "30 17 * * *" } # 10 rephrased versions of random past tweets
   tweet-roundup: { enabled: false, schedule: "0 17 * * *", var: "" } # latest tweets on configurable topics
-  agent-buzz: { enabled: true, schedule: "30 17 * * *" } # top AI agent tweets by influence
+  agent-buzz: { enabled: false, schedule: "30 17 * * *" } # top AI agent tweets by influence
   farcaster-digest: { enabled: false, schedule: "0 17 * * *" } # trending Farcaster casts
   vibecoding-digest: { enabled: false, schedule: "30 17 * * *" } # r/vibecoding trending posts
   channel-recap: { enabled: false, schedule: "0 17 * * 0", var: "" } # weekly — recap from Telegram channel (set var to channel username)
@@ -272,7 +272,7 @@ skills:
     } # Monday — turn Sunday's leaderboard into a tier-priced rewards plan in memory/distributions.yml; pass dry-run to preview
   operator-scorecard:
     {
-      enabled: true,
+      enabled: false,
       schedule: "30 8 * * 1",
       var: ""
     } # Monday — weekly plain-language scorecard: agent health + community growth + economic activity (worst-of-three OK/WATCH/DEGRADED verdict)
@@ -328,8 +328,8 @@ skills:
       var: ""
     } # daily 08:00 UTC — audit enabled skills' upstream file dependencies for staleness; pass dry-run to skip notify; per-class thresholds (articles 28h / .outputs 4h / topics 7d / state 30d); fingerprint-based dedup, 7d re-emit window
   smithery-manifest: { enabled: false, schedule: "0 6 1/7 * *" } # weekly — refresh docs/smithery-manifest.json + smithery.yaml + smithery-submission.md from skills.json + aeon-mcp; PR + notify only on diff
-  show-hn: { enabled: true, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # one-shot — draft Show HN post + r/MachineLearning + r/selfhosted variants from live repo state, ready for the operator to paste at launch time. Set var to one of {show-hn, r/MachineLearning, r/selfhosted} to regenerate that single variant.
-  product-hunt: { enabled: true, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # one-shot — draft the full Product Hunt launch asset pack (tagline 60ch / description 260ch / first comment 500ch / maker comment 500ch / six 80ch feature bullets) from live repo state. Set var to one of {tagline, description, first-comment, maker-comment, bullets} to regenerate that single section only.
+  show-hn: { enabled: false, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # one-shot — draft Show HN post + r/MachineLearning + r/selfhosted variants from live repo state, ready for the operator to paste at launch time. Set var to one of {show-hn, r/MachineLearning, r/selfhosted} to regenerate that single variant.
+  product-hunt: { enabled: false, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # one-shot — draft the full Product Hunt launch asset pack (tagline 60ch / description 260ch / first comment 500ch / maker comment 500ch / six 80ch feature bullets) from live repo state. Set var to one of {tagline, description, first-comment, maker-comment, bullets} to regenerate that single section only.
   v4-readiness:
     {
       enabled: false,
@@ -354,7 +354,7 @@ skills:
   # Markets & crypto
   polymarket: { enabled: false, schedule: "45 12 * * *" } # trending/top Polymarket markets globally — complement to monitor-polymarket
   wallet-digest: { enabled: false, schedule: "30 12 * * *" } # balances-only activity summary across tracked wallets; sibling to onchain-monitor
-  pm-pulse: { enabled: true, schedule: "0 11 * * 5" } # Monday — prediction/coordination-market volume, new mechanisms, regulatory moves
+  pm-pulse: { enabled: false, schedule: "0 11 * * 5" } # Monday — prediction/coordination-market volume, new mechanisms, regulatory moves
   pm-intel: { enabled: false, schedule: "0 10 * * 0" } # Monday — competitive intel on the prediction-market ecosystem
   pm-manipulation: { enabled: false, schedule: "15 13 * * *" } # daily — flag suspected PM manipulation from 3-day price/volume/comment + local-press anomalies
   rwa-pulse: { enabled: false, schedule: "0 12 * * 1" } # Monday — RWA tokenization momentum: launches, TVL, institutional adoption, regulation
@@ -365,7 +365,7 @@ skills:
       schedule: "0 12 * * 2",
       var: ""
     } # Tuesday — protocol ecosystem velocity (defaults to x402; set memory/topics/tracked-protocol.md)
-  mcp-pulse: { enabled: true, schedule: "0 13 * * 4" } # Friday 10:00 UTC — MCP ecosystem tracker: new servers, npm/GitHub adoption velocity, protocol evolution, thesis check. Pairs with x402-monitor for full agent-infra coverage (tool-calls + payments).
+  mcp-pulse: { enabled: false, schedule: "0 13 * * 4" } # Friday 10:00 UTC — MCP ecosystem tracker: new servers, npm/GitHub adoption velocity, protocol evolution, thesis check. Pairs with x402-monitor for full agent-infra coverage (tool-calls + payments).
 
   # Research & content
   agent-displacement: { enabled: false, schedule: "0 15 * * 6" } # Sunday — AI-agent headcount-displacement signals (named roles + real deployments)
@@ -428,7 +428,7 @@ skills:
       schedule: "0 10 * * 0",
       var: ""
     } # Sunday 10:00 UTC — weekly engagement analysis of the operator's X account (topics, formats, breakouts); feeds article-queue/topic-momentum. var: X handle (no @); falls back to soul/SOUL.md. XAI_API_KEY optional (WebSearch fallback).
-  thread-writer: { enabled: true, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # on-demand — write a 5–10 tweet thread in the operator's voice on a topic/URL; picks the sharpest recent signal from memory if var empty
+  thread-writer: { enabled: false, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # on-demand — write a 5–10 tweet thread in the operator's voice on a topic/URL; picks the sharpest recent signal from memory if var empty
   # Social
   mention-radar:
     {
