@@ -108,7 +108,15 @@
     {"key": "github:ARUNAGIRINATHAN-K/awesome-ai-agents-2026", "class": "mentioning", "who": "ARUNAGIRINATHAN-K", "handle": "ARUNAGIRINATHAN-K", "signal": "Curated 300+ AI agents/frameworks list (awesome-ai-agents-2026). Appeared in web search for aeon/miroshark. Potential distribution surface.", "fit": 1, "score": 2, "first_seen": "2026-06-23", "source": "websearch", "move": "Verify aeon is listed; if not, open a PR or ping for inclusion"},
 
     {"key": "github:clawhunter/clawhunter-skills", "class": "building", "who": "clawhunter (Claw Hunter)", "handle": "clawhunter", "signal": "Shipped public skill repo 'Official Claw Hunter agent skills — discover and vet Pump Fun GO bounties, and produce the content to win them.' Updated 06-18T11:48. A product built on aeon, separate from their fork (clawhunter/add-clawhunter-pack).", "fit": 1, "score": 5, "first_seen": "2026-06-25", "repo_updated": "2026-06-18", "source": "gh_search_repos", "move": "DM clawhunter: the Claw Hunter skills are live — feature it in the skill registry + ECOSYSTEM.md entry"},
-    {"key": "github:Marr554/aeon", "class": "forking", "who": "Marr554", "handle": "Marr554", "signal": "Aeon fork created 06-24T10:49, own commits pushed 06-25T05:52 (19h+ own activity). Fresh and active today. No description yet, unknown vertical.", "fit": 1, "score": 4, "first_seen": "2026-06-25", "repo_updated": "2026-06-25", "source": "gh_read_pat_forks", "move": "Watch — ping if description appears or they open an issue"}
+    {"key": "github:Marr554/aeon", "class": "forking", "who": "Marr554", "handle": "Marr554", "signal": "Aeon fork created 06-24T10:49, own commits pushed 06-25T05:52 (19h+ own activity). Pushed again today 06-26T05:47. Unknown vertical.", "fit": 1, "score": 4, "first_seen": "2026-06-25", "repo_updated": "2026-06-26", "source": "gh_read_pat_forks", "move": "Watch — ping if description appears or they open an issue"},
+    {"key": "github:Danypsy/aeon-perso", "class": "building", "who": "Danypsy (Dany)", "handle": "Danypsy", "signal": "Personal aeon instance: 'Agent autonome personnel basé sur Aeon — GitHub Actions. Configuré pour Dany.' 1★, pushed 06-25. First French-language personal aeon deployment in the radar.", "fit": 3, "score": 15, "first_seen": "2026-06-26", "repo_updated": "2026-06-25", "source": "gh_search", "move": "DM Danypsy on GH: saw your personal aeon instance — how's it running? TG invite + onboarding help"},
+    {"key": "x:excelsior_x0", "class": "mentioning", "who": "excelsior_x0 (Web3/AI Researcher)", "handle": "@excelsior_x0", "signal": "'AI Agents on Base Tier List' — @aeonframework + @miroshark_ both in OG tier alongside gitlawb, Root_Edge, BlockRunAI. 28 engagement (24 likes/4 RT). 06-25. Account bio/links focused on on-chain AI.", "fit": 3, "score": 6, "first_seen": "2026-06-26", "link": "https://x.com/excelsior_x0/status/2070248839022342660", "source": "xai_x", "move": "Reply: 'OG tier acknowledged :)' + drop the miroshark 50% affiliate angle"},
+    {"key": "github:alpenflow/aeon", "class": "forking", "who": "alpenflow", "handle": "alpenflow", "signal": "Aeon fork created 06-24T05:59, base size (33,493 bytes). No own commits visible.", "fit": 1, "score": 4, "first_seen": "2026-06-26", "repo_updated": "2026-06-24", "source": "gh_read_pat_forks", "move": "Watch"},
+    {"key": "github:stefrogovskyi/aeon", "class": "forking", "who": "stefrogovskyi", "handle": "stefrogovskyi", "signal": "Aeon fork created 06-23T16:58, base size (33,493 bytes). No own commits.", "fit": 1, "score": 4, "first_seen": "2026-06-26", "repo_updated": "2026-06-23", "source": "gh_read_pat_forks", "move": "Watch"},
+    {"key": "github:onyekaLT/MiroShark", "class": "forking", "who": "onyekaLT", "handle": "onyekaLT", "signal": "MiroShark fork created TODAY 06-26T06:59, base size (62,382 bytes). Drive-by likely.", "fit": 1, "score": 4, "first_seen": "2026-06-26", "repo_updated": "2026-06-26", "source": "gh_read_pat_forks", "move": "Watch"},
+    {"key": "github:kaleho/miroshark", "class": "forking", "who": "kaleho", "handle": "kaleho", "signal": "MiroShark fork created 06-25T21:39, base size (62,382 bytes). Drive-by likely.", "fit": 1, "score": 4, "first_seen": "2026-06-26", "repo_updated": "2026-06-25", "source": "gh_read_pat_forks", "move": "Watch"},
+    {"key": "github:bradAGI/awesome-cli-coding-agents", "class": "mentioning", "who": "bradAGI", "handle": "bradAGI", "signal": "Aeon listed in curated 'awesome-cli-coding-agents' GitHub list. Distribution surface.", "fit": 1, "score": 2, "first_seen": "2026-06-26", "source": "websearch", "move": "Verify listing is current — free top-of-funnel"},
+    {"key": "github:andyrewlee/awesome-agent-orchestrators", "class": "mentioning", "who": "andyrewlee", "handle": "andyrewlee", "signal": "Aeon listed in curated 'awesome-agent-orchestrators' GitHub list. Distribution surface.", "fit": 1, "score": 2, "first_seen": "2026-06-26", "source": "websearch", "move": "Verify listing is current — free top-of-funnel"}
   ],
   "surfaced": [
     "github:AntFleet",
@@ -229,6 +237,14 @@
     "github:usephylax/aeon",
     "github:ARUNAGIRINATHAN-K/awesome-ai-agents-2026",
     "github:clawhunter/clawhunter-skills",
-    "github:Marr554/aeon"
+    "github:Marr554/aeon",
+    "github:Danypsy/aeon-perso",
+    "x:excelsior_x0",
+    "github:alpenflow/aeon",
+    "github:stefrogovskyi/aeon",
+    "github:onyekaLT/MiroShark",
+    "github:kaleho/miroshark",
+    "github:bradAGI/awesome-cli-coding-agents",
+    "github:andyrewlee/awesome-agent-orchestrators"
   ]
 }
