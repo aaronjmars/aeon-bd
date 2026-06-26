@@ -1,12 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-06-25T08:11:22Z",
+  "last_analyzed": "2026-06-26T07:53:20Z",
   "quality_score": 4,
-  "assessment": "Substantive output with 2 new actionable leads, clear scoring/moves, and transparent source limitations; escalations tracked with metrics; already actioned notification.",
-  "flags": [
-    "source_miss"
-  ],
-  "avg_score": 4.19,
+  "assessment": "Substantive, well-prioritized lead set with specific metrics and actionable next steps; strong execution aligned with BD strategy.",
+  "flags": [],
+  "avg_score": 4.18,
   "history": [
     {
       "date": "2026-06-11",
@@ -70,6 +68,10 @@
     },
     {
       "date": "2026-06-25",
+      "score": 4
+    },
+    {
+      "date": "2026-06-26",
       "score": 4
     }
   ]
