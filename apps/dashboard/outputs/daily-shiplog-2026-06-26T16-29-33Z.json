@@ -1,0 +1,365 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "daily shiplog ⭐ june 26",
+        "description": "@aeonframework / @miroshark_"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-shipped",
+        "sep-1",
+        "stack-shipped",
+        "sep-2",
+        "heading-traction",
+        "grid-traction",
+        "sep-3",
+        "storylink-article"
+      ]
+    },
+    "heading-shipped": {
+      "type": "Heading",
+      "props": {
+        "text": "Shipped today",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "stack-shipped": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4",
+        "item-5",
+        "item-6",
+        "item-7"
+      ]
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-item-1",
+        "stack-links-1"
+      ]
+    },
+    "text-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Skill hardening on by default: capability tiers, read-only mode for notify-only skills, and conflict-free state (issues-as-state) all live — a compromised skill can't wreck the repo, parallel runs stop clobbering each other.",
+        "variant": "body"
+      }
+    },
+    "stack-links-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-548",
+        "link-550",
+        "badge-aeon-1"
+      ]
+    },
+    "link-548": {
+      "type": "Link",
+      "props": {
+        "label": "#548",
+        "href": "https://github.com/aaronjmars/aeon-nur/pull/548"
+      }
+    },
+    "link-550": {
+      "type": "Link",
+      "props": {
+        "label": "#550",
+        "href": "https://github.com/aaronjmars/aeon-nur/pull/550"
+      }
+    },
+    "badge-aeon-1": {
+      "type": "Badge",
+      "props": {
+        "text": "@aeonframework ⭐",
+        "variant": "default"
+      }
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-item-2",
+        "stack-links-2"
+      ]
+    },
+    "text-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Votable health default-on: failing skills now file a GitHub Issue you 👍/👎 — visible failures, you control the fix queue.",
+        "variant": "body"
+      }
+    },
+    "stack-links-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-552",
+        "badge-aeon-2"
+      ]
+    },
+    "link-552": {
+      "type": "Link",
+      "props": {
+        "label": "#552",
+        "href": "https://github.com/aaronjmars/aeon-nur/pull/552"
+      }
+    },
+    "badge-aeon-2": {
+      "type": "Badge",
+      "props": {
+        "text": "@aeonframework",
+        "variant": "default"
+      }
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-item-3",
+        "stack-links-3"
+      ]
+    },
+    "text-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "Chain runner fixed: issues:write scope + var-less skill discovery — two latent bugs, clean before the first real chain run.",
+        "variant": "body"
+      }
+    },
+    "stack-links-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-553",
+        "badge-aeon-3"
+      ]
+    },
+    "link-553": {
+      "type": "Link",
+      "props": {
+        "label": "#553",
+        "href": "https://github.com/aaronjmars/aeon-nur/pull/553"
+      }
+    },
+    "badge-aeon-3": {
+      "type": "Badge",
+      "props": {
+        "text": "@aeonframework",
+        "variant": "default"
+      }
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-item-4",
+        "stack-links-4"
+      ]
+    },
+    "text-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "New on the ecosystem: @aethree_xyz joined @aeonframework — AI agent launchpad, on-chain governance by token holders.",
+        "variant": "body"
+      }
+    },
+    "stack-links-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-556"
+      ]
+    },
+    "link-556": {
+      "type": "Link",
+      "props": {
+        "label": "#556",
+        "href": "https://github.com/aaronjmars/aeon-nur/pull/556"
+      }
+    },
+    "item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-item-5",
+        "stack-links-5"
+      ]
+    },
+    "text-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "clawhunter-skills v0.2: multi-venue support for Pump Fun — first real product shipping on aeon's skill-pack system.",
+        "variant": "body"
+      }
+    },
+    "stack-links-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-555",
+        "badge-aeon-5"
+      ]
+    },
+    "link-555": {
+      "type": "Link",
+      "props": {
+        "label": "#555",
+        "href": "https://github.com/aaronjmars/aeon-nur/pull/555"
+      }
+    },
+    "badge-aeon-5": {
+      "type": "Badge",
+      "props": {
+        "text": "@aeonframework",
+        "variant": "default"
+      }
+    },
+    "item-6": {
+      "type": "Text",
+      "props": {
+        "text": "Security: `harden: validate package-name charset in request_builder` merged into Universal-Debloater-Alliance's android debloater.",
+        "variant": "body"
+      }
+    },
+    "item-7": {
+      "type": "Text",
+      "props": {
+        "text": "Distribution: Aeon added to Awesome-AI-Agents frameworks list.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "heading-traction": {
+      "type": "Heading",
+      "props": {
+        "text": "Traction",
+        "level": "h2"
+      }
+    },
+    "grid-traction": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stack-stat-aeon",
+        "stack-stat-miroshark"
+      ]
+    },
+    "stack-stat-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-aeon"
+      ]
+    },
+    "stack-stat-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-miroshark",
+        "text-miroshark-note"
+      ]
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "@aeonframework ⭐",
+        "value": "552",
+        "delta": "+2",
+        "trend": "up"
+      }
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "@miroshark_ 🦈",
+        "value": "1337",
+        "delta": "+4",
+        "trend": "up"
+      }
+    },
+    "text-miroshark-note": {
+      "type": "Text",
+      "props": {
+        "text": "organic, nothing shipped",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator"
+    },
+    "storylink-article": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Read full shiplog",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/articles/daily-shiplog-2026-06-26.md"
+      }
+    }
+  }
+}

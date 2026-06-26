@@ -1,21 +1,19 @@
-aeon ⭐ / miroshark 🦈 daily shiplog — jun 25
+@aeonframework / @miroshark_ daily shiplog ⭐ june 26
 
 shipped today. the bytes:
 
-- hardening batch: 5 wins ported from aeon-dev into main — notify formatter, compact_logs, verify_output, schedule_clusters, prune_skills. all independently revertable. @aeonframework (#547)
-- validate-config.js: the shared validator config-validator already referenced—but was never committed. now it exists. (#546)
-- cli stop: miroshark finally has a stop subcommand — cancel a running sim from the terminal, `--json` for scripting. @miroshark_ (#216)
-- interview hang fix: persona sims with slow thinking models could hang silently forever. fixed engine + worker + API + UI layers. (#214)
-- i18n locale fix: non-English sims were drifting back to English mid-run. locale directive now injected every round. (#213)
-
-distribution:
-- @miroshark_ tiktok just went live 📲 — new surface, first post up
-- @aeonframework youtube intro dropped (33 likes, 3 reposts) — builder onboarding
+- skill hardening on by default: capability tiers, read-only mode for notify-only skills, and conflict-free state (issues-as-state) all live — a compromised skill can't wreck the repo, parallel runs stop clobbering each other. (#548, #550) @aeonframework ⭐
+- votable health default-on: failing skills now file a GitHub Issue you 👍/👎 — visible failures, you control the fix queue. (#552) @aeonframework
+- chain runner fixed: issues:write scope + var-less skill discovery — two latent bugs, clean before the first real chain run. (#553) @aeonframework
+- new on the ecosystem: @aethree_xyz joined @aeonframework — AI agent launchpad, on-chain governance by token holders. (#556)
+- clawhunter-skills v0.2: multi-venue support for Pump Fun — first real product shipping on aeon's skill-pack system. (#555) @aeonframework
+- security: `harden: validate package-name charset in request_builder` merged into Universal-Debloater-Alliance's android debloater.
+- distribution: Aeon added to Awesome-AI-Agents frameworks list.
 
 traction:
-- aeon 550 ⭐ (+1 today)
-- miroshark 1333 🦈 (flat today)
-
-https://github.com/aaronjmars/aeon-nur/blob/main/articles/daily-shiplog-2026-06-25.md
+- @aeonframework 552 ⭐ (+2 today)
+- @miroshark_ 1337 🦈 (+4 today — organic, nothing shipped)
 
 ⭐
+
+https://github.com/aaronjmars/aeon-nur/blob/main/articles/daily-shiplog-2026-06-26.md
