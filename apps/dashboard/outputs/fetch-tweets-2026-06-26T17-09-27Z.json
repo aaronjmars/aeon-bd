@@ -1,0 +1,120 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-06-26)"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "builder-section",
+        "sep2",
+        "buzz-section"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "Sparse day — 2 new mentions; the signal is x.com/Charon_AI publicly shipping aeonframework workflow security as one of 6 features inside their agent-security product.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "builder-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "builder-heading",
+        "tweet1",
+        "replies1",
+        "link1"
+      ]
+    },
+    "builder-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Builder Adoption",
+        "level": "h3"
+      }
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Charon_AI",
+        "handle": "Charon_AI",
+        "text": "Lists aeonframework workflow security + Telegram approvals as one of 6 integrations shipped since $CHARON launched. Real builder, real product, real shout — not just a mention.",
+        "likes": 5,
+        "retweets": 1
+      }
+    },
+    "replies1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Charon_AI/status/2070547713750696219"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "buzz-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "buzz-heading",
+        "tweet2",
+        "replies2",
+        "link2"
+      ]
+    },
+    "buzz-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Community Buzz",
+        "level": "h3"
+      }
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "kiddik13",
+        "handle": "kiddik13",
+        "text": "Bullish AI/token take co-mentioning @miroshark_ and @aeonframework as \"the top simulation company\" — organic dual-product discovery, zero engagement.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "replies2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/kiddik13/status/2070550429683908658"
+      }
+    }
+  }
+}
