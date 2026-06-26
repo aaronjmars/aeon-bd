@@ -1,7 +1,9 @@
-🟡 P3 — WATCH: Morning batch missed 2 days
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-**product-pulse · bd-radar · war-room · engagement-act** last succeeded 2026-06-23 07:38–10:07 UTC (~49h ago). Daily threshold is 2× = 48h.
+All 16 enabled skills are green, no open PRs, no issues, no P3 flags. Status page updated to 🟢 OK and logged to today's memory.
 
-No dispatches logged for June 24 or June 25. All other skills (fetch-tweets, write-tweet, reply-maker, agent-buzz, daily-shiplog, idea-forge) ran normally yesterday. PR #13 "chore: reduce GitHub Actions minutes" is open/unmerged (17h old) — not the cause.
-
-Status page updated → 🟡 WATCH.
+## Summary
+- **P0–P3:** All clean. War-room, bd-radar, and mention-radar ran successfully this morning. The previously-stalled PR #13 is gone (merged/closed).
+- **Mild note:** `competitor-radar` missed its June 24 Wednesday run (9 days since last success), but this is below the 2× weekly threshold (14 days) — no flag triggered.
+- **docs/status.md:** Regenerated with 🟢 OK, 16 enabled skills sorted by recency. Token pulse omitted (no token-report files). Previous WATCH banner cleared.
+- No notification sent (nothing needs attention).
