@@ -1,10 +1,10 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-06-22T07:37:38Z",
+  "last_analyzed": "2026-06-26T07:53:35Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced mention radar with strong discovery signals (@aeoncityhub ecosystem map, Polsia valuation comparison, OriginTrail co-founder validation) and clear strategy alignment; truncated output and unsummarized engagement opps prevent higher score.",
+  "assessment": "Substantive, well-sourced findings across multiple platforms with specific opportunities (unclaimed listing, brand confusion, ecosystem signals) and clear structure for decision-making",
   "flags": [],
-  "avg_score": 4.17,
+  "avg_score": 4.14,
   "history": [
     {
       "date": "2026-06-12",
@@ -28,6 +28,10 @@
     },
     {
       "date": "2026-06-22",
+      "score": 4
+    },
+    {
+      "date": "2026-06-26",
       "score": 4
     }
   ]
