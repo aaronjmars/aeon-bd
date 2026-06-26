@@ -1,10 +1,10 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-25T10:25:44Z",
-  "quality_score": 4,
-  "assessment": "Substantive, actionable BD signal — specific opportunities with context, proper de-duping, aligned with strategy. Truncation limits full verification.",
+  "last_analyzed": "2026-06-26T10:04:27Z",
+  "quality_score": 3,
+  "assessment": "Solid prioritization and filtering logic (dropped stale/low-leverage opps correctly), well-structured output with clear reasoning. However, core deliverable—the 5 drafted responses—is truncated from view, preventing assessment of voice/quality. Verification of notification send and memory log also not visible.",
   "flags": [],
-  "avg_score": 3.92,
+  "avg_score": 3.86,
   "history": [
     {
       "date": "2026-06-12",
@@ -57,6 +57,10 @@
     {
       "date": "2026-06-25",
       "score": 4
+    },
+    {
+      "date": "2026-06-26",
+      "score": 3
     }
   ]
 }
