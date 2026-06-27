@@ -1,0 +1,156 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "daily-shiplog"
+      },
+      "children": [
+        "heading_main",
+        "text_intro_shipped",
+        "stack_shipped",
+        "sep1",
+        "text_intro_traction",
+        "stack_traction",
+        "sep2",
+        "link_article",
+        "text_closing"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "aeon / miroshark daily shiplog ⭐ june 27",
+        "level": "h2"
+      }
+    },
+    "text_intro_shipped": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped today. The bytes:"
+      }
+    },
+    "stack_shipped": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_item_vuln_scanner"
+      ]
+    },
+    "stack_item_vuln_scanner": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_vuln_scanner",
+        "stack_badges_vuln"
+      ]
+    },
+    "text_vuln_scanner": {
+      "type": "Text",
+      "props": {
+        "text": "vuln-scanner: fixed PVR endpoint — security reports were going to the wrong GitHub API path and silently dropping; real findings now land."
+      }
+    },
+    "stack_badges_vuln": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_557",
+        "badge_aeonframework"
+      ]
+    },
+    "badge_557": {
+      "type": "Badge",
+      "props": {
+        "text": "#557",
+        "variant": "outline"
+      }
+    },
+    "badge_aeonframework": {
+      "type": "Badge",
+      "props": {
+        "text": "@aeonframework",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_intro_traction": {
+      "type": "Text",
+      "props": {
+        "text": "Traction:"
+      }
+    },
+    "stack_traction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_aeon",
+        "stat_miroshark",
+        "text_shiplog_engagement"
+      ]
+    },
+    "stat_aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon",
+        "value": "555",
+        "delta": "+3 today",
+        "trend": "up"
+      }
+    },
+    "stat_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "miroshark",
+        "value": "1344",
+        "delta": "+7 today",
+        "trend": "up"
+      }
+    },
+    "text_shiplog_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly shiplog at 37 likes / 12 reposts on @aaronjmars — still traveling"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_article": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Daily shiplog - June 27",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/articles/daily-shiplog-2026-06-27.md",
+        "source": "GitHub"
+      }
+    },
+    "text_closing": {
+      "type": "Text",
+      "props": {
+        "text": "⭐"
+      }
+    }
+  }
+}
