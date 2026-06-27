@@ -120,3 +120,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-26,idea-validator,claude-opus-4-8,3509,15080,1035952,107008
 2026-06-27,bd-radar,claude-sonnet-4-6,38,25282,3344522,98535
 2026-06-27,war-room,claude-opus-4-8,2370,8351,1034707,57290
+2026-06-27,engagement-act,claude-sonnet-4-6,10,11323,522636,66412

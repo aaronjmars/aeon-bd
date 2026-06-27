@@ -1,48 +1,36 @@
-*Engagement Act — 2026-06-26*
+*Engagement Act — 2026-06-27*
 
-*1. Danypsy/aeon-perso* (1 day ago) — first French-language personal aeon deployment, pushed 06-25, 15k bytes own config (score 15)
-link: github.com/Danypsy/aeon-perso
-type: GitHub comment
-draft: "first french-language personal aeon deployment i've seen on radar. nice.
-
-what skills are you running? curious if you hit any friction w/ fr-language soul files or had to adapt any skills for the fr context. happy to debug anything ⭐"
-
----
-
-*2. @excelsior_x0* (0 days ago) — "AI Agents on Base Tier List" — both @aeonframework + @miroshark_ listed as OG tier, 28 engagement
-link: no link found in logs
+*1. @usephylax* (0 days ago) — shipped Phylax as live skill-install trust gate (ALLOW/WARN/DENY pre-screen) for aeon, publicly announced on X
+link: no link found
 type: X reply
-draft: "OG tier is right. few understand why both are in that category together — aeon is the harness, miroshark is the simulator. the combo is the thing ⭐🦈"
+draft: "the ecosystem ships the roadmap before us sometimes. that's the good kind.
 
----
+@usephylax just pre-screened every aeon skill install. ALLOW / WARN / DENY — live. ⭐"
 
-*3. MiroFish brand confusion* (0 days ago) — multiple articles (agentnativedev.com, emelia.io) still framing MiroFish as active with no MiroShark mention; brand dilution risk flagged by mention-radar
-link: no specific URL
-type: X post
-draft: "mirofish is dead — i forked it, tried it, rebuilt it from scratch.
-
-the rebuild is @miroshark_: 100s of agents, AMM belief drift, x402-native, $1/<10min.
-
-if your 2026 article still links mirofish, update it 🦈"
-
----
-
-*4. clawhunter/clawhunter-skills* (1 day ago) — first builder shipping a real product on aeon (Pump Fun GO bounty hunting + content automation on aeon rails, score 5)
-link: github.com/clawhunter/clawhunter-skills
-type: GitHub comment
-draft: "clawhunter-skills is exactly what the ecosystem needs — bounty hunting on Pump Fun GO with aeon as the rails.
-
-are you running this on cron or dispatch? open to a co-post? first builder with an actual live product on aeon, worth amplifying ⭐"
-
----
-
-*5. @aeoncityhub* (8 days ago) — built 3D walkable ecosystem map (aeoncity.fun), 72 projects, 171 skills, unprompted; war-room #1 pick multiple days running
-link: x.com/aeoncityhub/status/2069167087634022507
+*2. @Charon_AI* (1 day ago) — public X post listing aeonframework workflow security + TG approvals as 1 of 6 integrations shipped since $CHARON launch
+link: https://x.com/Charon_AI/status/2070547713750696219
 type: X reply
-draft: "72 projects in a 3D walkable map — nobody asked for this but it's exactly what the ecosystem needed.
+draft: "workflow security + TG approvals as shipped integrations — not a roadmap slide. the $CHARON team gets it.
 
-adding aeoncity.fun to ECOSYSTEM.md. what's the stack? ⭐"
+aeon coded ⭐"
 
----
+*3. sparkleware/aeon-pulse* (0 days ago) — 9th standalone aeon skill repo (daily activity summary); known builder, expanding
+link: https://github.com/sparkleware/aeon-pulse
+type: GitHub comment
+draft: "9 skill repos in and still going — activity summary is a useful one. the stack's getting real.
 
-some opps aging — act or drop (@aeoncityhub 8d)
+if you hit anything at the skill layer that needs improving, drop it in issues or ping in TG — always watching builders who ship."
+
+*4. @AIonBase_* (0 days ago) — "Alpha of the week: @miroshark_" breakdown post, Base AI/agents account
+link: no link found
+type: X reply
+draft: "appreciate the alpha. simulations everywhere 🦈
+
+if you want to run one live — miroshark.fun, credit card in, $1, 10 min."
+
+*5. chxoky/aeon* (4 days since first surfaced) — 22d continuous own-content fork, 49,502 bytes above base; bd-radar marks DM overdue today (escalated from 06-23 GitHub comment draft)
+link: https://github.com/chxoky/aeon
+type: X DM
+draft: "saw you've been running on aeon for 22 days straight — 49k+ bytes of your own content. that's a real deployment.
+
+what are you building? always down to talk to builders putting in real time."

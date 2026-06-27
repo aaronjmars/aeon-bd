@@ -1,0 +1,366 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-06-27"
+      },
+      "children": [
+        "mainStack"
+      ]
+    },
+    "mainStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item1",
+        "sep1",
+        "item2",
+        "sep2",
+        "item3",
+        "sep3",
+        "item4",
+        "sep4",
+        "item5"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1h",
+        "item1meta",
+        "item1desc",
+        "item1draft"
+      ]
+    },
+    "item1h": {
+      "type": "Heading",
+      "props": {
+        "text": "@usephylax",
+        "level": "h3"
+      }
+    },
+    "item1meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item1time",
+        "item1type"
+      ]
+    },
+    "item1time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "item1type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "item1desc": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped Phylax as live skill-install trust gate (ALLOW/WARN/DENY pre-screen) for aeon, publicly announced on X"
+      }
+    },
+    "item1draft": {
+      "type": "Text",
+      "props": {
+        "text": "the ecosystem ships the roadmap before us sometimes. that's the good kind.\n\n@usephylax just pre-screened every aeon skill install. ALLOW / WARN / DENY — live. ⭐",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item2h",
+        "item2meta",
+        "item2desc",
+        "item2link",
+        "item2draft"
+      ]
+    },
+    "item2h": {
+      "type": "Heading",
+      "props": {
+        "text": "@Charon_AI",
+        "level": "h3"
+      }
+    },
+    "item2meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item2time",
+        "item2type"
+      ]
+    },
+    "item2time": {
+      "type": "Text",
+      "props": {
+        "text": "1 day ago",
+        "variant": "caption"
+      }
+    },
+    "item2type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "item2desc": {
+      "type": "Text",
+      "props": {
+        "text": "Public X post listing aeonframework workflow security + TG approvals as 1 of 6 integrations shipped since $CHARON launch"
+      }
+    },
+    "item2link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@Charon_AI integration post",
+        "href": "https://x.com/Charon_AI/status/2070547713750696219",
+        "source": "X"
+      }
+    },
+    "item2draft": {
+      "type": "Text",
+      "props": {
+        "text": "workflow security + TG approvals as shipped integrations — not a roadmap slide. the $CHARON team gets it.\n\naeon coded ⭐",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item3h",
+        "item3meta",
+        "item3desc",
+        "item3link",
+        "item3draft"
+      ]
+    },
+    "item3h": {
+      "type": "Heading",
+      "props": {
+        "text": "sparkleware/aeon-pulse",
+        "level": "h3"
+      }
+    },
+    "item3meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item3time",
+        "item3type"
+      ]
+    },
+    "item3time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "item3type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "item3desc": {
+      "type": "Text",
+      "props": {
+        "text": "9th standalone aeon skill repo (daily activity summary); known builder, expanding"
+      }
+    },
+    "item3link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sparkleware/aeon-pulse",
+        "href": "https://github.com/sparkleware/aeon-pulse",
+        "source": "GitHub"
+      }
+    },
+    "item3draft": {
+      "type": "Text",
+      "props": {
+        "text": "9 skill repos in and still going — activity summary is a useful one. the stack's getting real.\n\nif you hit anything at the skill layer that needs improving, drop it in issues or ping in TG — always watching builders who ship.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item4h",
+        "item4meta",
+        "item4desc",
+        "item4draft"
+      ]
+    },
+    "item4h": {
+      "type": "Heading",
+      "props": {
+        "text": "@AIonBase_",
+        "level": "h3"
+      }
+    },
+    "item4meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item4time",
+        "item4type"
+      ]
+    },
+    "item4time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "item4type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "item4desc": {
+      "type": "Text",
+      "props": {
+        "text": "\"Alpha of the week: @miroshark_\" breakdown post, Base AI/agents account"
+      }
+    },
+    "item4draft": {
+      "type": "Text",
+      "props": {
+        "text": "appreciate the alpha. simulations everywhere 🦈\n\nif you want to run one live — miroshark.fun, credit card in, $1, 10 min.",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item5h",
+        "item5meta",
+        "item5desc",
+        "item5link",
+        "item5draft"
+      ]
+    },
+    "item5h": {
+      "type": "Heading",
+      "props": {
+        "text": "chxoky/aeon",
+        "level": "h3"
+      }
+    },
+    "item5meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item5time",
+        "item5type"
+      ]
+    },
+    "item5time": {
+      "type": "Text",
+      "props": {
+        "text": "4 days since first surfaced",
+        "variant": "caption"
+      }
+    },
+    "item5type": {
+      "type": "Badge",
+      "props": {
+        "text": "X DM",
+        "variant": "outline"
+      }
+    },
+    "item5desc": {
+      "type": "Text",
+      "props": {
+        "text": "22d continuous own-content fork, 49,502 bytes above base; bd-radar marks DM overdue today (escalated from 06-23 GitHub comment draft)"
+      }
+    },
+    "item5link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chxoky/aeon",
+        "href": "https://github.com/chxoky/aeon",
+        "source": "GitHub"
+      }
+    },
+    "item5draft": {
+      "type": "Text",
+      "props": {
+        "text": "saw you've been running on aeon for 22 days straight — 49k+ bytes of your own content. that's a real deployment.\n\nwhat are you building? always down to talk to builders putting in real time.",
+        "variant": "muted"
+      }
+    }
+  }
+}
