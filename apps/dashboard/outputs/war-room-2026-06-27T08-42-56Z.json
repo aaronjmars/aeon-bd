@@ -1,0 +1,205 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-06-27"
+      },
+      "children": [
+        "state_section",
+        "caveat_alert",
+        "separator_1",
+        "talk_to_section",
+        "separator_2",
+        "decide_section"
+      ]
+    },
+    "state_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state_status",
+        "aeon_stat",
+        "shark_stat",
+        "shark_followers_stat",
+        "watch_label",
+        "aeonframework_stat",
+        "aeon_wc_badge"
+      ]
+    },
+    "state_status": {
+      "type": "Badge",
+      "props": {
+        "text": "state: both green",
+        "variant": "default"
+      }
+    },
+    "aeon_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "549⭐",
+        "delta": "+29/wk",
+        "trend": "up"
+      }
+    },
+    "shark_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1,333🦈",
+        "delta": "+25/wk",
+        "trend": "up"
+      }
+    },
+    "shark_followers_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Shark followers (still climbing)",
+        "value": "2,130",
+        "delta": "+37/wk",
+        "trend": "up"
+      }
+    },
+    "watch_label": {
+      "type": "Text",
+      "props": {
+        "text": "watch",
+        "variant": "muted"
+      }
+    },
+    "aeonframework_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "@aeonframework",
+        "value": "-189/wk",
+        "trend": "down"
+      }
+    },
+    "aeon_wc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "aeon-wc dark 19d",
+        "variant": "destructive"
+      }
+    },
+    "caveat_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "product-pulse didn't fire today — numbers are 06-25"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk_to_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "talk_to_heading",
+        "phylax_item",
+        "chxoky_item"
+      ]
+    },
+    "talk_to_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "talk to",
+        "level": "h3"
+      }
+    },
+    "phylax_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "phylax_link",
+        "phylax_desc"
+      ]
+    },
+    "phylax_link": {
+      "type": "Link",
+      "props": {
+        "label": "@usephylax (Phylax)",
+        "href": "https://x.com/usephylax"
+      }
+    },
+    "phylax_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Announced live today: their scan is now the ALLOW/WARN/DENY pre-screen for skill installs in aeon. \"every agent skill is a stranger's code with your wallet attached.\" → reply + quote, make them the canonical skill trust layer, co-write the skill-triage thread.",
+        "variant": "body"
+      }
+    },
+    "chxoky_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chxoky_link",
+        "chxoky_desc"
+      ]
+    },
+    "chxoky_link": {
+      "type": "Link",
+      "props": {
+        "label": "chxoky",
+        "href": "https://x.com/chxoky"
+      }
+    },
+    "chxoky_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Biggest own-content aeon fork (49.5KB, 22d straight). DM overdue, go now.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide_heading",
+        "decide_content"
+      ]
+    },
+    "decide_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "decide",
+        "level": "h3"
+      }
+    },
+    "decide_content": {
+      "type": "Text",
+      "props": {
+        "text": "The skill trust layer we were going to build (skill-attest) — a builder just shipped it live. Don't build it, amplify it. Quote Phylax today, co-write the thread, make \"the ecosystem is shipping our roadmap\" the story. That's the timing window.",
+        "variant": "body"
+      }
+    }
+  }
+}

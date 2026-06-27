@@ -1,8 +1,8 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-26T07:50:10Z",
+  "last_analyzed": "2026-06-27T08:42:55Z",
   "quality_score": 4,
-  "assessment": "Substantive standup with specific BD opportunity (clawhunter) and clear next steps; handled upstream failures gracefully but data is one day stale and upstream cron misses are recurring.",
+  "assessment": "Good — substantive brief with clear strategy, specific talk-to targets, well-sourced decision-making; caveat: product-pulse metrics are 2 days stale",
   "flags": [
     "stale_data"
   ],
@@ -70,6 +70,10 @@
     },
     {
       "date": "2026-06-26",
+      "score": 4
+    },
+    {
+      "date": "2026-06-27",
       "score": 4
     }
   ]
