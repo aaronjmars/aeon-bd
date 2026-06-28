@@ -24,7 +24,14 @@
     "arxiv:2606.19488",
     "arxiv:2601.21473",
     "url:worldlabs.ai/marble",
-    "url:nvidia-cosmos-3-june2026"
+    "url:nvidia-cosmos-3-june2026",
+    "repo:uno-km/AMEVA-Dead-Internet-Threatre",
+    "repo:eq-network/Collective-Intelligence-Library",
+    "repo:adityashah522/ASSIP-agentic-currency-simulation",
+    "arxiv:2606.27326",
+    "arxiv:2604.04383",
+    "url:genie3-deepmind-jun2026",
+    "url:gwm1-runway-jun2026"
   ],
   "cohort": [
     "GoogleCloudPlatform/race-condition",
@@ -35,6 +42,8 @@
     "AntFleet/miroshark-bench",
     "XIAOCUICUII/koc-growth-agent",
     "VincenzoManto/Doxa",
-    "francemazzi/worldsim"
+    "francemazzi/worldsim",
+    "uno-km/AMEVA-Dead-Internet-Threatre",
+    "eq-network/Collective-Intelligence-Library"
   ]
 }
