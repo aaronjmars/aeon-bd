@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-06-27T07:51:45Z",
+  "last_analyzed": "2026-06-28T08:00:44Z",
   "quality_score": 4,
-  "assessment": "Substantive BD radar run with 9 specific leads, clear scores, and actionable moves; well-structured memory updates and proactive escalation flag",
+  "assessment": "Substantive, well-structured, actionable — surfaced 1 new lead with follow-up strategy, honest about pipeline health, identified strategic gaps (HN/Reddit) for stars growth.",
   "flags": [],
-  "avg_score": 4.17,
+  "avg_score": 4.16,
   "history": [
     {
       "date": "2026-06-11",
@@ -76,6 +76,10 @@
     },
     {
       "date": "2026-06-27",
+      "score": 4
+    },
+    {
+      "date": "2026-06-28",
       "score": 4
     }
   ]
