@@ -1,10 +1,10 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-06-26T07:53:35Z",
+  "last_analyzed": "2026-06-28T07:58:28Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced findings across multiple platforms with specific opportunities (unclaimed listing, brand confusion, ecosystem signals) and clear structure for decision-making",
+  "assessment": "Substantive, well-structured findings with specific BD signal (HackerNoon coverage, awesome-list ecosystem placement) and brand intelligence; actionable next steps aligned with strategy; contextually aware deduplication",
   "flags": [],
-  "avg_score": 4.14,
+  "avg_score": 4.13,
   "history": [
     {
       "date": "2026-06-12",
@@ -32,6 +32,10 @@
     },
     {
       "date": "2026-06-26",
+      "score": 4
+    },
+    {
+      "date": "2026-06-28",
       "score": 4
     }
   ]
