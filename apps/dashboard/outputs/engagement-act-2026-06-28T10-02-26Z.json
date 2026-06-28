@@ -1,0 +1,313 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-06-28"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opp1",
+        "sep1",
+        "opp2",
+        "sep2",
+        "opp3",
+        "sep3",
+        "opp4",
+        "sep4",
+        "aging"
+      ]
+    },
+    "opp1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1-heading",
+        "opp1-meta",
+        "opp1-context",
+        "opp1-links",
+        "opp1-note",
+        "opp1-draft"
+      ]
+    },
+    "opp1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MiroFish brand confusion",
+        "level": "h3"
+      }
+    },
+    "opp1-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "X post · 0 days ago",
+        "variant": "secondary"
+      }
+    },
+    "opp1-context": {
+      "type": "Text",
+      "props": {
+        "text": "yourstory.com + beitroot.co running articles that still frame MiroFish as the active sim project, no MiroShark mention; brand dilution ongoing",
+        "variant": "body"
+      }
+    },
+    "opp1-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-yourstory",
+        "link-beitroot"
+      ]
+    },
+    "link-yourstory": {
+      "type": "Link",
+      "props": {
+        "label": "yourstory.com",
+        "href": "https://yourstory.com"
+      }
+    },
+    "link-beitroot": {
+      "type": "Link",
+      "props": {
+        "label": "beitroot.co",
+        "href": "https://beitroot.co"
+      }
+    },
+    "opp1-note": {
+      "type": "Text",
+      "props": {
+        "text": "Note: article URLs not captured by mention-radar",
+        "variant": "caption"
+      }
+    },
+    "opp1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"psa: mirofish was the vaporware. miroshark rebuilt it from scratch and is live — hundreds of agents arguing across X + Reddit + a sim AMM, $1/run, x402-native. if you're reading about mirofish on yourstory or beitroot that's the wrong product. simulations everywhere 🦈\"",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2-heading",
+        "opp2-meta",
+        "opp2-context",
+        "opp2-link",
+        "opp2-draft"
+      ]
+    },
+    "opp2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@BaseCaptainHB",
+        "level": "h3"
+      }
+    },
+    "opp2-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply · 1 day ago",
+        "variant": "secondary"
+      }
+    },
+    "opp2-context": {
+      "type": "Text",
+      "props": {
+        "text": "Listed both @aeonframework + @miroshark_ in \"Momentum\" tier on Base AI ecosystem tier list, above ~20 Growing/Early Stage projects",
+        "variant": "body"
+      }
+    },
+    "opp2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View X post",
+        "href": "https://x.com/BaseCaptainHB/status/2070918749537051059"
+      }
+    },
+    "opp2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"building it live — aeon self-repairs on cron, miroshark runs sims for $1 on x402. momentum is the polite word ⭐🦈\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp3-heading",
+        "opp3-meta",
+        "opp3-context",
+        "opp3-link",
+        "opp3-draft"
+      ]
+    },
+    "opp3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "bradAGI / awesome-cli-coding-agents",
+        "level": "h3"
+      }
+    },
+    "opp3-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment · 6 days ago",
+        "variant": "secondary"
+      }
+    },
+    "opp3-context": {
+      "type": "Text",
+      "props": {
+        "text": "aeon listed in curated awesome-cli-coding-agents GitHub curation (Jun 22 — first public CLI coding agents list to include aeon)",
+        "variant": "body"
+      }
+    },
+    "opp3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "awesome-cli-coding-agents",
+        "href": "https://github.com/bradAGI/awesome-cli-coding-agents",
+        "source": "GitHub"
+      }
+    },
+    "opp3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"appreciate the add. aeon runs 197 skills as markdown files on GitHub Actions — cron-driven, self-repairing, no babysitting. if there's a discussion thread where entries get more context or links, happy to drop the skill registry url ⭐\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp4-heading",
+        "opp4-meta",
+        "opp4-context",
+        "opp4-site-link",
+        "opp4-note",
+        "opp4-draft"
+      ]
+    },
+    "opp4-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ishan Pandey / HackerNoon",
+        "level": "h3"
+      }
+    },
+    "opp4-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply · 11 days ago",
+        "variant": "secondary"
+      }
+    },
+    "opp4-context": {
+      "type": "Text",
+      "props": {
+        "text": "\"Meet the Agents That Pay for Their Own Compute: Inside Aeon, MiroShark, and Agentic Commerce\" — first press piece covering both products together under the x402/agentic-commerce angle",
+        "variant": "body"
+      }
+    },
+    "opp4-site-link": {
+      "type": "Link",
+      "props": {
+        "label": "HackerNoon",
+        "href": "https://hackernoon.com"
+      }
+    },
+    "opp4-note": {
+      "type": "Text",
+      "props": {
+        "text": "Note: Article URL not captured by mention-radar. Search HackerNoon for \"Aeon MiroShark agentic commerce\" to find the full article.",
+        "variant": "caption"
+      }
+    },
+    "opp4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"late on this but good framing — compute→money is the right thesis. aeon funds its own inference via x402, miroshark sims anything for $1, nobody runs out of credits. the article got the angle right ⭐🦈\"",
+        "variant": "lead"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aging-heading",
+        "aging-list"
+      ]
+    },
+    "aging-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Aging opportunities — act or drop",
+        "level": "h3"
+      }
+    },
+    "aging-list": {
+      "type": "Text",
+      "props": {
+        "text": "bradAGI (6 days), Ishan Pandey/HackerNoon (11 days)",
+        "variant": "body"
+      }
+    }
+  }
+}

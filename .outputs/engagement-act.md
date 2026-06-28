@@ -1,36 +1,24 @@
-*Engagement Act — 2026-06-27*
+*Engagement Act — 2026-06-28*
 
-*1. @usephylax* (0 days ago) — shipped Phylax as live skill-install trust gate (ALLOW/WARN/DENY pre-screen) for aeon, publicly announced on X
-link: no link found
+*1. MiroFish brand confusion* (0 days ago) — yourstory.com + beitroot.co running articles that still frame MiroFish as the active sim project, no MiroShark mention; brand dilution ongoing
+link: https://yourstory.com / https://beitroot.co (article URLs not captured by mention-radar)
+type: X post
+draft: "psa: mirofish was the vaporware. miroshark rebuilt it from scratch and is live — hundreds of agents arguing across X + Reddit + a sim AMM, $1/run, x402-native. if you're reading about mirofish on yourstory or beitroot that's the wrong product. simulations everywhere 🦈"
+
+*2. @BaseCaptainHB* (1 day ago) — listed both @aeonframework + @miroshark_ in "Momentum" tier on Base AI ecosystem tier list, above ~20 Growing/Early Stage projects
+link: https://x.com/BaseCaptainHB/status/2070918749537051059
 type: X reply
-draft: "the ecosystem ships the roadmap before us sometimes. that's the good kind.
+draft: "building it live — aeon self-repairs on cron, miroshark runs sims for $1 on x402. momentum is the polite word ⭐🦈"
 
-@usephylax just pre-screened every aeon skill install. ALLOW / WARN / DENY — live. ⭐"
-
-*2. @Charon_AI* (1 day ago) — public X post listing aeonframework workflow security + TG approvals as 1 of 6 integrations shipped since $CHARON launch
-link: https://x.com/Charon_AI/status/2070547713750696219
-type: X reply
-draft: "workflow security + TG approvals as shipped integrations — not a roadmap slide. the $CHARON team gets it.
-
-aeon coded ⭐"
-
-*3. sparkleware/aeon-pulse* (0 days ago) — 9th standalone aeon skill repo (daily activity summary); known builder, expanding
-link: https://github.com/sparkleware/aeon-pulse
+*3. bradAGI / awesome-cli-coding-agents* (6 days ago) — aeon listed in curated awesome-cli-coding-agents GitHub curation (Jun 22 — first public CLI coding agents list to include aeon)
+link: https://github.com/bradAGI/awesome-cli-coding-agents
 type: GitHub comment
-draft: "9 skill repos in and still going — activity summary is a useful one. the stack's getting real.
+draft: "appreciate the add. aeon runs 197 skills as markdown files on GitHub Actions — cron-driven, self-repairing, no babysitting. if there's a discussion thread where entries get more context or links, happy to drop the skill registry url ⭐"
 
-if you hit anything at the skill layer that needs improving, drop it in issues or ping in TG — always watching builders who ship."
-
-*4. @AIonBase_* (0 days ago) — "Alpha of the week: @miroshark_" breakdown post, Base AI/agents account
-link: no link found
+*4. Ishan Pandey / HackerNoon* (11 days ago) — "Meet the Agents That Pay for Their Own Compute: Inside Aeon, MiroShark, and Agentic Commerce" — first press piece covering both products together under the x402/agentic-commerce angle
+link: https://hackernoon.com (article URL not captured by mention-radar — search HackerNoon for "Aeon MiroShark agentic commerce" to find it)
 type: X reply
-draft: "appreciate the alpha. simulations everywhere 🦈
+draft: "late on this but good framing — compute→money is the right thesis. aeon funds its own inference via x402, miroshark sims anything for $1, nobody runs out of credits. the article got the angle right ⭐🦈"
 
-if you want to run one live — miroshark.fun, credit card in, $1, 10 min."
-
-*5. chxoky/aeon* (4 days since first surfaced) — 22d continuous own-content fork, 49,502 bytes above base; bd-radar marks DM overdue today (escalated from 06-23 GitHub comment draft)
-link: https://github.com/chxoky/aeon
-type: X DM
-draft: "saw you've been running on aeon for 22 days straight — 49k+ bytes of your own content. that's a real deployment.
-
-what are you building? always down to talk to builders putting in real time."
+aging opps — act or drop:
+bradAGI (6d), Ishan Pandey/HackerNoon (11d)
