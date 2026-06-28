@@ -1,14 +1,14 @@
-aeon / miroshark daily shiplog ⭐ june 27
+@aeonframework / @miroshark_ daily shiplog ⭐ june 28
 
 shipped today. the bytes:
 
-- vuln-scanner: fixed PVR endpoint — security reports were going to the wrong GitHub API path and silently dropping; real findings now land. (#557 @aeonframework)
+- ecosystem listing: aeon landed in awesome-cybersecurity-agentic-ai (#44 merged) — frameworks section, onchain security pack cited. quiet sunday, still indexing.
+- video: @bankrbot Agent Hour clip on @aeonframework — 39 likes. organic sunday reach.
 
 traction:
-- aeon 555⭐ (+3 today)
-- miroshark 1344⭐ (+7 today)
-- weekly shiplog at 37 likes / 12 reposts on @aaronjmars — still traveling
+- @aeonframework 556 ⭐ (+1 today)
+- @miroshark_ 1348 🦈 (+4 today)
 
-https://github.com/aaronjmars/aeon-nur/blob/main/articles/daily-shiplog-2026-06-27.md
+https://github.com/aaronjmars/aeon-nur/blob/main/articles/daily-shiplog-2026-06-28.md
 
 ⭐
