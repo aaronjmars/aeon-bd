@@ -1468,6 +1468,19 @@
       "repo_updated": "2026-06-26",
       "source": "gh_read_pat_forks",
       "move": "Watch"
+    },
+    {
+      "key": "github:Jelloeater/MiroShark",
+      "class": "forking",
+      "who": "Jelloeater",
+      "handle": "Jelloeater",
+      "signal": "MiroShark fork 2026-06-27 (yesterday). Drive-by so far (push ~= create, size 62356 = baseline). Fresh enough to watch — if commits appear in 5 days, reach out.",
+      "fit": 1,
+      "score": 3,
+      "first_seen": "2026-06-28",
+      "repo_updated": "2026-06-27",
+      "source": "gh_read_pat_forks",
+      "move": "Watch 5 days — if new commits appear, DM @Jelloeater 🦈"
     }
   ],
   "surfaced": [
@@ -1621,6 +1634,17 @@
     "github:BuiltByEcho/MiroShark",
     "github:NurstarK/aeon-upstream",
     "github:NurstarK/MiroShark",
-    "github:NASTYZUNI/aeon"
+    "github:NASTYZUNI/aeon",
+    "github:Jelloeater/MiroShark",
+    "github:seuzht/MiroShark",
+    "github:ENNEADLABS/MiroShark",
+    "github:Josiah1/MiroShark",
+    "github:0xShak/MiroShark",
+    "github:KingRwaz/MiroShark",
+    "github:rajkgupta84/MiroShark",
+    "github:janicegrech1-hash/miroshark",
+    "github:ericlbrault/MiroShark",
+    "github:SahilParikh03/MiroShark",
+    "x:checkrsocial"
   ]
 }
