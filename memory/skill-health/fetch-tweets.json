@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-06-27T17:29:16Z",
-  "quality_score": 4,
-  "assessment": "Good execution—found 3 fresh organic third-party mentions with clear signal clusters (ecosystem + integration), proper dedup and memory management, actionable for BD.",
+  "last_analyzed": "2026-06-28T17:03:53Z",
+  "quality_score": 3,
+  "assessment": "Executed cleanly — legitimate empty result properly logged, follows spec (no notification on empty), but lacks investigation depth or insight into cache freshness",
   "flags": [],
-  "avg_score": 3.56,
+  "avg_score": 3.53,
   "history": [
     {
       "date": "2026-06-12",
@@ -69,6 +69,10 @@
     {
       "date": "2026-06-27",
       "score": 4
+    },
+    {
+      "date": "2026-06-28",
+      "score": 3
     }
   ]
 }

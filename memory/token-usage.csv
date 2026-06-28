@@ -128,3 +128,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-28,engagement-act,claude-sonnet-4-6,9,7061,433367,60325
 2026-06-28,sim-watch,claude-sonnet-4-6,18,13296,1039515,79958
 2026-06-28,launch-radar,claude-sonnet-4-6,15,14309,701443,78726
+2026-06-28,fetch-tweets,claude-sonnet-4-6,8,2672,225769,21197
