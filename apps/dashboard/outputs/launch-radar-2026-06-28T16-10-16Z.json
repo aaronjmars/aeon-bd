@@ -1,0 +1,526 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Launch Radar",
+        "description": "2026-06-28"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-text",
+        "sep-1",
+        "heading-prior-art",
+        "prior-art-stack",
+        "sep-2",
+        "heading-wide-open",
+        "wide-open-stack"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "10 ideas scanned. 0 with active competition. 2 still wide open.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-prior-art": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Art",
+        "level": "h2"
+      }
+    },
+    "prior-art-note": {
+      "type": "Text",
+      "props": {
+        "text": "weak signal — no breakout traction",
+        "variant": "caption"
+      }
+    },
+    "prior-art-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4",
+        "item-5",
+        "item-6",
+        "item-7",
+        "item-8"
+      ]
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1-header",
+        "item-1-desc"
+      ]
+    },
+    "item-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1-title",
+        "item-1-badge"
+      ]
+    },
+    "item-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "miroshark-social-world-model",
+        "variant": "body"
+      }
+    },
+    "item-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "weak signal",
+        "variant": "outline"
+      }
+    },
+    "item-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SocialCompute, Agentarium exist; none frame it as MCP/A2A simulate(decision); lane clear",
+        "variant": "caption"
+      }
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-2-header",
+        "item-2-desc"
+      ]
+    },
+    "item-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item-2-title",
+        "item-2-badge"
+      ]
+    },
+    "item-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "proof-of-self-repair",
+        "variant": "body"
+      }
+    },
+    "item-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "weak signal",
+        "variant": "outline"
+      }
+    },
+    "item-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "self-healing agents went mainstream (Helix, HyperFlow, 4-tier agent, all Apr 2026 Show HN) but all internal/enterprise; public verifiable ledger angle unclaimed",
+        "variant": "caption"
+      }
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-3-header",
+        "item-3-desc"
+      ]
+    },
+    "item-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item-3-title",
+        "item-3-badge"
+      ]
+    },
+    "item-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "counterfactual-launch-sim",
+        "variant": "body"
+      }
+    },
+    "item-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "weak signal",
+        "variant": "outline"
+      }
+    },
+    "item-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Societies.io (YC W25) owns \"simulate your audience\"; ProductHunt Chaos Generator launched Apr 2026; social-swarm timing-window angle still distinct",
+        "variant": "caption"
+      }
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-4-header",
+        "item-4-desc"
+      ]
+    },
+    "item-4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item-4-title",
+        "item-4-badge"
+      ]
+    },
+    "item-4-title": {
+      "type": "Text",
+      "props": {
+        "text": "conway-claim",
+        "variant": "body"
+      }
+    },
+    "item-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "weak signal",
+        "variant": "outline"
+      }
+    },
+    "item-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "background AI infrastructure everywhere (Phantom, Crnd, Trigger.dev) but the narrative \"open public traces, we shipped it first\" is unclaimed; claim it the day Conway drops",
+        "variant": "caption"
+      }
+    },
+    "item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-5-header",
+        "item-5-desc"
+      ]
+    },
+    "item-5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item-5-title",
+        "item-5-badge"
+      ]
+    },
+    "item-5-title": {
+      "type": "Text",
+      "props": {
+        "text": "ambient-aeon",
+        "variant": "body"
+      }
+    },
+    "item-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "weak signal",
+        "variant": "outline"
+      }
+    },
+    "item-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "fully crowded; lean into conway-claim as the sharper version",
+        "variant": "caption"
+      }
+    },
+    "item-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-6-header",
+        "item-6-desc"
+      ]
+    },
+    "item-6-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item-6-title",
+        "item-6-badge"
+      ]
+    },
+    "item-6-title": {
+      "type": "Text",
+      "props": {
+        "text": "skill-attest",
+        "variant": "body"
+      }
+    },
+    "item-6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "weak signal",
+        "variant": "outline"
+      }
+    },
+    "item-6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "skill-security wave peaked Jan–Mar 2026 (SkillFortify, AcidTest, Clawned.io); funded incumbents took it; park, surface to aaeron",
+        "variant": "caption"
+      }
+    },
+    "item-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-7-header",
+        "item-7-desc"
+      ]
+    },
+    "item-7-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item-7-title",
+        "item-7-badge"
+      ]
+    },
+    "item-7-title": {
+      "type": "Text",
+      "props": {
+        "text": "x402-skill-meter",
+        "variant": "body"
+      }
+    },
+    "item-7-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "weak signal",
+        "variant": "outline"
+      }
+    },
+    "item-7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "x402 infra commoditized (CrowPay, Zero.xyz, Delegare); ship as free aeon feature not a company",
+        "variant": "caption"
+      }
+    },
+    "item-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-8-header",
+        "item-8-desc"
+      ]
+    },
+    "item-8-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item-8-title",
+        "item-8-badge"
+      ]
+    },
+    "item-8-title": {
+      "type": "Text",
+      "props": {
+        "text": "pm-presim",
+        "variant": "body"
+      }
+    },
+    "item-8-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "weak signal",
+        "variant": "outline"
+      }
+    },
+    "item-8-desc": {
+      "type": "Text",
+      "props": {
+        "text": "PM trading agents active (trades Polymarket, Prediction Hunt API); belief-drift pre-sim unclaimed but park it; better as Miroshark layer",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-wide-open": {
+      "type": "Heading",
+      "props": {
+        "text": "Still Wide Open",
+        "level": "h2"
+      }
+    },
+    "wide-open-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-wide-1",
+        "item-wide-2"
+      ]
+    },
+    "item-wide-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-wide-1-header",
+        "item-wide-1-desc"
+      ]
+    },
+    "item-wide-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item-wide-1-title",
+        "item-wide-1-badge"
+      ]
+    },
+    "item-wide-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "compute-price-sim",
+        "variant": "body"
+      }
+    },
+    "item-wide-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "wide open",
+        "variant": "secondary"
+      }
+    },
+    "item-wide-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "nobody forward-simulates AI-race narrative drift before Polymarket bets are sized; live $1.1M/24h markets, nobody runs the sim",
+        "variant": "caption"
+      }
+    },
+    "item-wide-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-wide-2-header",
+        "item-wide-2-desc"
+      ]
+    },
+    "item-wide-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item-wide-2-title",
+        "item-wide-2-badge"
+      ]
+    },
+    "item-wide-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "agent-pay-sim",
+        "variant": "body"
+      }
+    },
+    "item-wide-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "wide open",
+        "variant": "secondary"
+      }
+    },
+    "item-wide-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "forward-simulation of agent payment network under load is unclaimed; weakest demand signal of the two",
+        "variant": "caption"
+      }
+    }
+  }
+}

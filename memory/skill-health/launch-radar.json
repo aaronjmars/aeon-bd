@@ -1,8 +1,8 @@
 {
   "skill": "launch-radar",
-  "last_analyzed": "2026-06-21T16:32:16Z",
-  "quality_score": 5,
-  "assessment": "Insightful market analysis identifying miroshark-social-world-model as unclaimed competitive flank with specific sourced context (LeCun $500M, Genie 3); actionable timing signal directly aligned to north-star metrics.",
+  "last_analyzed": "2026-06-28T16:10:16Z",
+  "quality_score": 4,
+  "assessment": "Substantive market intelligence with specific competitive landscape analysis and clear recommendations; well-structured and strategy-aligned.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -13,6 +13,10 @@
     {
       "date": "2026-06-21",
       "score": 5
+    },
+    {
+      "date": "2026-06-28",
+      "score": 4
     }
   ]
 }
