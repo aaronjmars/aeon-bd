@@ -1,8 +1,8 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-27T08:42:55Z",
+  "last_analyzed": "2026-06-28T07:56:00Z",
   "quality_score": 4,
-  "assessment": "Good — substantive brief with clear strategy, specific talk-to targets, well-sourced decision-making; caveat: product-pulse metrics are 2 days stale",
+  "assessment": "Substantive, well-structured, actionable brief in voice; specific metrics and decision points; honestly flagged data staleness (3d) and upstream batch misses.",
   "flags": [
     "stale_data"
   ],
@@ -74,6 +74,10 @@
     },
     {
       "date": "2026-06-27",
+      "score": 4
+    },
+    {
+      "date": "2026-06-28",
       "score": 4
     }
   ]

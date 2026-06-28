@@ -1,0 +1,370 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 War Room — 2026-06-28"
+      },
+      "children": [
+        "state_section",
+        "sep1",
+        "action_section",
+        "sep2",
+        "decision_section",
+        "sep3",
+        "appendix_section"
+      ]
+    },
+    "state_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state_header",
+        "metrics_stack",
+        "red_flag_alert",
+        "bleeding_badge"
+      ]
+    },
+    "state_header": {
+      "type": "Text",
+      "props": {
+        "text": "both green on 06-25 numbers (pp + bd didn't fire today — flying 3d stale)",
+        "variant": "body"
+      }
+    },
+    "metrics_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_aeon_stars",
+        "stat_shark_stars",
+        "stat_shark_followers"
+      ]
+    },
+    "stat_aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars (7d)",
+        "value": "549",
+        "delta": "+29",
+        "trend": "up"
+      }
+    },
+    "stat_shark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Shark Stars (7d)",
+        "value": "1,333",
+        "delta": "+25",
+        "trend": "up"
+      }
+    },
+    "stat_shark_followers": {
+      "type": "Stat",
+      "props": {
+        "label": "Shark Followers",
+        "value": "2,130",
+        "delta": "climbing",
+        "trend": "up"
+      }
+    },
+    "red_flag_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Red Flag: aeon-wc Dark",
+        "message": "aeon-wc dark 20 days, no commit since Jun 8 — that's the private core, longest stall in the stack",
+        "type": "warning"
+      }
+    },
+    "bleeding_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@aeonframework bleeding (-189/7d)",
+        "variant": "destructive"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "action_heading",
+        "action_item_1",
+        "action_item_2"
+      ]
+    },
+    "action_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h3"
+      }
+    },
+    "action_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action_1_title",
+        "action_1_desc"
+      ]
+    },
+    "action_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "@usephylax",
+        "variant": "lead"
+      }
+    },
+    "action_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Phylax is now the ALLOW/WARN/DENY pre-screen for aeon skill installs. they shipped our skill-attest roadmap item, live. quote + co-write the skill-triage thread."
+      }
+    },
+    "action_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action_2_title",
+        "action_2_desc"
+      ]
+    },
+    "action_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "chxoky",
+        "variant": "lead"
+      }
+    },
+    "action_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "biggest own-content aeon fork (49.5KB, 22d straight), DM overdue 2 days now. go."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decision_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decision_heading",
+        "decision_observation",
+        "decision_call",
+        "decision_rationale"
+      ]
+    },
+    "decision_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h3"
+      }
+    },
+    "decision_observation": {
+      "type": "Text",
+      "props": {
+        "text": "the ecosystem shipped our roadmap this week — Phylax = the trust layer, sparkleware = 9 skill repos. that's the post."
+      }
+    },
+    "decision_call": {
+      "type": "Badge",
+      "props": {
+        "text": "ship the 'ecosystem is shipping our roadmap' thread today, lead with Phylax",
+        "variant": "secondary"
+      }
+    },
+    "decision_rationale": {
+      "type": "Text",
+      "props": {
+        "text": "don't build skill-attest — amplify the builder who did. that's the timing window."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "appendix_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "appendix_heading",
+        "source_product_pulse",
+        "source_bd_radar",
+        "source_escalation",
+        "source_idea_forge",
+        "source_sim_watch",
+        "data_caveat"
+      ]
+    },
+    "appendix_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h3"
+      }
+    },
+    "source_product_pulse": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pulse_title",
+        "pulse_desc"
+      ]
+    },
+    "pulse_title": {
+      "type": "Text",
+      "props": {
+        "text": "product-pulse:",
+        "variant": "lead"
+      }
+    },
+    "pulse_desc": {
+      "type": "Text",
+      "props": {
+        "text": "articles/product-pulse-2026-06-25.md + memory/topics/product-pulse-state.json (last committed run — 06-26/27/28 AM batches did not fire; numbers are 3 days stale)"
+      }
+    },
+    "source_bd_radar": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "radar_title",
+        "radar_desc"
+      ]
+    },
+    "radar_title": {
+      "type": "Text",
+      "props": {
+        "text": "bd-radar:",
+        "variant": "lead"
+      }
+    },
+    "radar_desc": {
+      "type": "Text",
+      "props": {
+        "text": "articles/bd-radar-2026-06-27.md (9 new leads; top: @usephylax integrating · sparkleware/aeon-pulse building · @AIonBase_ mentioning)"
+      }
+    },
+    "source_escalation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "escalation_title",
+        "escalation_desc"
+      ]
+    },
+    "escalation_title": {
+      "type": "Text",
+      "props": {
+        "text": "escalation:",
+        "variant": "lead"
+      }
+    },
+    "escalation_desc": {
+      "type": "Text",
+      "props": {
+        "text": "chxoky/aeon 49,502 bytes, 22d continuous — DM overdue · swarm-ai-research/MiroShark 3rd daily push"
+      }
+    },
+    "source_idea_forge": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "forge_title",
+        "forge_desc"
+      ]
+    },
+    "forge_title": {
+      "type": "Text",
+      "props": {
+        "text": "idea-forge:",
+        "variant": "lead"
+      }
+    },
+    "forge_desc": {
+      "type": "Text",
+      "props": {
+        "text": "articles/idea-forge-2026-06-24.md (within 7d) — build-one pick = skill-attest (trust layer for the skill supply chain) — now being shipped externally by Phylax. confirms the amplify-not-build call."
+      }
+    },
+    "source_sim_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sim_title",
+        "sim_desc"
+      ]
+    },
+    "sim_title": {
+      "type": "Text",
+      "props": {
+        "text": "sim-watch:",
+        "variant": "lead"
+      }
+    },
+    "sim_desc": {
+      "type": "Text",
+      "props": {
+        "text": "articles/sim-watch-2026-06-21.md (7d — edge of window)"
+      }
+    },
+    "data_caveat": {
+      "type": "Alert",
+      "props": {
+        "title": "Data Caveat",
+        "message": "product-pulse last committed 06-25, bd-radar 06-27. Verify a lead's freshness before acting; the upstream daily batch has now missed multiple mornings — worth a look at why.",
+        "type": "info"
+      }
+    }
+  }
+}
