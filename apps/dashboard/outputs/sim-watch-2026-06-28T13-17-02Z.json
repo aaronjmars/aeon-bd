@@ -1,0 +1,189 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "sim-watch 🦈 · Jun 28"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ameva",
+        "storylink-repo",
+        "stack-details",
+        "separator-1",
+        "heading-week",
+        "stack-week"
+      ]
+    },
+    "heading-ameva": {
+      "type": "Heading",
+      "props": {
+        "text": "AMEVA Dead Internet Theatre",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "storylink-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "uno-km/AMEVA-Dead-Internet-Threatre",
+        "href": "https://github.com/uno-km/AMEVA-Dead-Internet-Threatre",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-builder",
+        "text-tech",
+        "text-comparison",
+        "stack-badges",
+        "text-competitive",
+        "text-insight"
+      ]
+    },
+    "text-builder": {
+      "type": "Text",
+      "props": {
+        "text": "Solo Korean researcher"
+      },
+      "children": []
+    },
+    "text-tech": {
+      "type": "Text",
+      "props": {
+        "text": "Fully autonomous dockerized sim of the Dead Internet Theory. Director LLM with belief drift via personality state tensors (Affect/Opinion/Power). Sequential agent containers on Llama 3.1 8B."
+      },
+      "children": []
+    },
+    "text-comparison": {
+      "type": "Text",
+      "props": {
+        "text": "Same conceptual loop as Miroshark: autonomous social simulation + director injection + opinion dynamics."
+      },
+      "children": []
+    },
+    "stack-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-stars",
+        "badge-localonly",
+        "badge-constraints"
+      ]
+    },
+    "badge-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "1 star",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-localonly": {
+      "type": "Badge",
+      "props": {
+        "text": "local-only",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-constraints": {
+      "type": "Badge",
+      "props": {
+        "text": "no AMM/x402/X-Reddit",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-competitive": {
+      "type": "Text",
+      "props": {
+        "text": "Miroshark is 10x ahead on scale and platform depth."
+      },
+      "children": []
+    },
+    "text-insight": {
+      "type": "Text",
+      "props": {
+        "text": "Worth copying: LPDE personality tensor system — more grounded than scalar drift."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-week": {
+      "type": "Heading",
+      "props": {
+        "text": "Rest of the Week",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-releases",
+        "text-taxonomy",
+        "text-market",
+        "text-narrative"
+      ]
+    },
+    "text-releases": {
+      "type": "Text",
+      "props": {
+        "text": "Genie 3 (DeepMind) and GWM-1 (Runway) dropped as physical world models."
+      },
+      "children": []
+    },
+    "text-taxonomy": {
+      "type": "Text",
+      "props": {
+        "text": "Fei-Fei Li's Renderer/Simulator/Planner taxonomy is hardening into consensus."
+      },
+      "children": []
+    },
+    "text-market": {
+      "type": "Text",
+      "props": {
+        "text": "Physical sim is locking up. Social/discrete sim is still wide open."
+      },
+      "children": []
+    },
+    "text-narrative": {
+      "type": "Text",
+      "props": {
+        "text": "'Simulation everywhere' narrative is building itself."
+      },
+      "children": []
+    }
+  }
+}
