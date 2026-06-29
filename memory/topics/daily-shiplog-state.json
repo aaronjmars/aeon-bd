@@ -1,14 +1,25 @@
 {
-  "date": "2026-06-28",
+  "date": "2026-06-29",
   "stars": {
-    "aaronjmars/aeon": 556,
-    "aaronjmars/MiroShark": 1348,
+    "aaronjmars/aeon": 559,
+    "aaronjmars/MiroShark": 1352,
     "aaronjmars/aeon-agent": 10,
     "aaronjmars/miroshark-aeon": 17,
     "aaronjmars/minitor": 12,
     "aaronjmars/soul-aaronjmars": 10
   },
   "history": [
+    {
+      "date": "2026-06-29",
+      "stars": {
+        "aaronjmars/aeon": 559,
+        "aaronjmars/MiroShark": 1352,
+        "aaronjmars/aeon-agent": 10,
+        "aaronjmars/miroshark-aeon": 17,
+        "aaronjmars/minitor": 12,
+        "aaronjmars/soul-aaronjmars": 10
+      }
+    },
     {
       "date": "2026-06-28",
       "stars": {
