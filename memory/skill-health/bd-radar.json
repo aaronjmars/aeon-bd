@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-06-28T08:00:44Z",
+  "last_analyzed": "2026-06-29T08:36:37Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured, actionable — surfaced 1 new lead with follow-up strategy, honest about pipeline health, identified strategic gaps (HN/Reddit) for stars growth.",
+  "assessment": "Substantive, well-structured BD output with 5 specific leads properly classified, escalation flag (chxoky/aeon DM overdue), and honest assessment (no high-intent today = no spam)",
   "flags": [],
-  "avg_score": 4.16,
+  "avg_score": 4.15,
   "history": [
     {
       "date": "2026-06-11",
@@ -80,6 +80,10 @@
     },
     {
       "date": "2026-06-28",
+      "score": 4
+    },
+    {
+      "date": "2026-06-29",
       "score": 4
     }
   ]

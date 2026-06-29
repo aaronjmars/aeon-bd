@@ -1,18 +1,14 @@
-Done. Here's what happened:
+Done. No high-intent (building/integrating) leads found today → no self-notify.
 
-**bd-radar 2026-06-28**
+## Summary
 
-Quiet day — the pipeline is too good. Most of the high-signal ecosystem builders were already surfaced in prior runs.
+**bd-radar 2026-06-29** — 5 new leads surfaced, 0 building/integrating → no notify.
 
-**What was evaluated:** ~60 forks across aeon + MiroShark, 13 skill-pack/ecosystem repos from `gh search`, the xAI X cache, and a web sweep for HN/Reddit.
+**New leads:**
+1. `web:openagentskill.com` *(adjacent)* — "npm for AI Agent Skills" platform indexed Aeon as installable (`npx skills add aaronjmars/aeon`). New passive distribution surface.
+2. `x:danbuildss` *(mentioning, known-expanding)* — known builder (luca-aeon-skills) shipped open-schema/governance-docs project with @aeonframework as a featured framework guide.
+3. `github:luis212/NovaShoal-Swarm-Sim` *(adjacent)* — "EnsembleOS" competing swarm sim, created today, copied MiroShark's tagline as their repo description.
+4. `x:CoinSense_App` *(mentioning)* — crypto analytics account published $MiroShark monthly breakdown (32 dev updates, $489k mcap).
+5. `github:anajuliabit/aeon-fork` *(forking)* — drive-by fork today, 8s push = watch only.
 
-**1 new lead:**
-- `Jelloeater/MiroShark` — fresh fork 2026-06-27 (yesterday). Drive-by so far. Watch for 5 days, reach out if commits appear. 🦈
-
-**9 drive-by forks added to surfaced (noise):** older May MiroShark forks (seuzht, ENNEADLABS, Josiah1, 0xShak, KingRwaz, rajkgupta84, janicegrech1-hash, ericlbrault, SahilParikh03).
-
-**X:** `@checkrsocial` mentioned miroshark bullishly on 06-27 ("most bullish on miroshark today") — attention tracker, not a builder.
-
-**No self-notify** — no new building/integrating leads.
-
-**The real signal:** Fork velocity is strong, all the substantive builders are already tracked. The gap is HN/Reddit — no thread this week. A Show HN or forum post would move stars right now.
+**Top escalation:** `chxoky/aeon` hit 50,039 bytes this morning (+16.5KB above base), 24 days continuous own activity. Still no contact. That DM is overdue.
