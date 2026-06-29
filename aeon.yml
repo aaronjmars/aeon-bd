@@ -445,6 +445,7 @@ skills:
   install-skill: { enabled: false, schedule: "workflow_dispatch" }
   phylax-audit: { enabled: false, schedule: "workflow_dispatch" }
 
+  send-email: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — compose + send a 1:1 email to a named recipient via Resend (general sibling of disclosure-emailer). var: "to=… | subject=… | about=…"
   # --- Fallback (must be last) ---
   heartbeat: { enabled: true, schedule: "0 8 * * *" }
 
