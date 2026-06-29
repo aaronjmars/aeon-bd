@@ -78,7 +78,6 @@ skills:
     } # every 30 minutes — fire on tracked-token ATH, ±20% 1h move, or operator-set target crossing (var=target_price,target_price2,...). Silent on normal runs. Set var=dry-run to skip notify.
   market-context: { enabled: false, schedule: "0 13 * * *" } # fetch live crypto macro data, update memory
   narrative-tracker: { enabled: false, schedule: "30 13 * * *" } # track rising/peaking/fading narratives
-  polymarket-comments: { enabled: false, schedule: "0 13 * * *" } # top comments from trending Polymarket markets
   unlock-monitor: { enabled: false, schedule: "0 10 * * 1" } # weekly token unlock/vesting tracker
   aixbt-pulse: { enabled: false, schedule: "0 9,21 * * *" } # twice daily — AIXBT free grounding endpoint: cross-domain market pulse (crypto/macro/tradfi/geopolitics) with taxonomy refresh
 
@@ -204,12 +203,6 @@ skills:
       schedule: "0 10 * * 3",
       var: ""
     } # Monday 10:00 UTC — weekly scan of Product Hunt RSS + HN Algolia for NEW AI-agent-framework launches outside the 9-framework cohort tracked by framework-watch. Classifies framework/mcp/product, LRU-200 dedup, gated notify (QUIET on zero entrants). Pass dry-run to skip notify.
-  ecosystem-entrants:
-    {
-      enabled: true,
-      schedule: "0 9 * * 4",
-      var: ""
-    } # Monday 11:45 UTC — weekly diff of ECOSYSTEM.md against the prior snapshot. Reports added / removed / updated entries since last run, attributes added rows to a merged PR when one can be found in the last 14 days. Pairs with ecosystem-pulse (liveness, 11:00 UTC) as the first-touch signal for new entrants. Read-only against ECOSYSTEM.md. Gated notify (added/removed only; updates surface in the article). Pass dry-run to skip notify. First run is a baseline (no diff fired).
   ecosystem-links:
     {
       enabled: false,
@@ -327,15 +320,8 @@ skills:
       schedule: "0 8 * * *",
       var: ""
     } # daily 08:00 UTC — audit enabled skills' upstream file dependencies for staleness; pass dry-run to skip notify; per-class thresholds (articles 28h / .outputs 4h / topics 7d / state 30d); fingerprint-based dedup, 7d re-emit window
-  smithery-manifest: { enabled: false, schedule: "0 6 1/7 * *" } # weekly — refresh docs/smithery-manifest.json + smithery.yaml + smithery-submission.md from skills.json + aeon-mcp; PR + notify only on diff
   show-hn: { enabled: false, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # one-shot — draft Show HN post + r/MachineLearning + r/selfhosted variants from live repo state, ready for the operator to paste at launch time. Set var to one of {show-hn, r/MachineLearning, r/selfhosted} to regenerate that single variant.
   product-hunt: { enabled: false, schedule: "workflow_dispatch", var: "", model: "claude-opus-4-8" } # one-shot — draft the full Product Hunt launch asset pack (tagline 60ch / description 260ch / first comment 500ch / maker comment 500ch / six 80ch feature bullets) from live repo state. Set var to one of {tagline, description, first-comment, maker-comment, bullets} to regenerate that single section only.
-  v4-readiness:
-    {
-      enabled: false,
-      schedule: "workflow_dispatch",
-      var: ""
-    } # one-shot — per-fork v4 upgrade readiness checklist. Reads aeon.yml + skills.json + MEMORY.md against an embedded v4 change manifest; emits Safe / Review / Custom / Action breakdown. Pass dry-run to skip notify, or owner/repo to audit a fork remotely.
 
   # --- Paid ads (AdManage.ai) ---
   schedule-ads:
@@ -352,7 +338,6 @@ skills:
 
   # --- Ported from derivative instances (PR #219) ---
   # Markets & crypto
-  polymarket: { enabled: false, schedule: "45 12 * * *" } # trending/top Polymarket markets globally — complement to monitor-polymarket
   wallet-digest: { enabled: false, schedule: "30 12 * * *" } # balances-only activity summary across tracked wallets; sibling to onchain-monitor
   pm-pulse: { enabled: false, schedule: "0 11 * * 5" } # Monday — prediction/coordination-market volume, new mechanisms, regulatory moves
   pm-intel: { enabled: false, schedule: "0 10 * * 0" } # Monday — competitive intel on the prediction-market ecosystem
