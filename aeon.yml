@@ -450,6 +450,16 @@ skills:
   sim-watch: { enabled: true, schedule: "0 13 * * 0", var: "" } # Sun 13:00 UTC — Miroshark category intel (LLM/social simulation + world models): competitors, papers, clones; copy/counter/opening verdicts.
   idea-forge: { enabled: true, schedule: "0 16 * * 3", var: "", model: "claude-opus-4-8" } # Wed 16:00 UTC — weekly business-idea engine: zeitgeist × aeon/miroshark capability surface → 3-5 timing-window-scored wedges. Notifies the #1.
 
+
+  # --- Synced from aeon (2026-06-29): catalog parity, all disabled ---
+  beamr-route: { enabled: false, schedule: "workflow_dispatch" }
+  ctrl: { enabled: false, schedule: "workflow_dispatch" }
+  disclosure-emailer: { enabled: false, schedule: "0 13 * * *" }
+  docs-sync: { enabled: false, schedule: "0 9 * * 1" }
+  inbox-triage: { enabled: false, schedule: "30 11 * * *" }
+  install-skill: { enabled: false, schedule: "workflow_dispatch" }
+  phylax-audit: { enabled: false, schedule: "workflow_dispatch" }
+
   # --- Fallback (must be last) ---
   heartbeat: { enabled: true, schedule: "0 8 * * *" }
 
