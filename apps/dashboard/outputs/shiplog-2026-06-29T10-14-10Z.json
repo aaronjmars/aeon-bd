@@ -1,0 +1,168 @@
+{
+  "root": "shiplog_card",
+  "state": {},
+  "elements": {
+    "shiplog_card": {
+      "type": "Card",
+      "props": {
+        "title": "Shiplog — 2026-06-29"
+      },
+      "children": [
+        "shiplog_description",
+        "themes_section",
+        "stats_section",
+        "article_link"
+      ]
+    },
+    "shiplog_description": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon shipped capability tiers, votable skill health tracked as GitHub Issues, and a community-built pre-install security screener — while MiroShark's CLI gained stop, wait, and cost subcommands that make simulations programmable from shell scripts."
+      },
+      "children": []
+    },
+    "themes_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "themes_heading",
+        "themes_list"
+      ]
+    },
+    "themes_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Themes",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "themes_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "theme_1",
+        "theme_2",
+        "theme_3"
+      ]
+    },
+    "theme_1": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon gains capability tiers, votable health, and issues-as-state"
+      },
+      "children": []
+    },
+    "theme_2": {
+      "type": "Text",
+      "props": {
+        "text": "Phylax lands in the skill supply chain"
+      },
+      "children": []
+    },
+    "theme_3": {
+      "type": "Text",
+      "props": {
+        "text": "MiroShark CLI becomes automation-ready"
+      },
+      "children": []
+    },
+    "stats_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stats_heading",
+        "stats_grid"
+      ]
+    },
+    "stats_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Activity",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "aeon_commits",
+        "aeon_prs",
+        "miroshark_commits",
+        "miroshark_prs",
+        "minitor_commits",
+        "minitor_prs"
+      ]
+    },
+    "aeon_commits": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon commits",
+        "value": "23"
+      },
+      "children": []
+    },
+    "aeon_prs": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon PRs",
+        "value": "22"
+      },
+      "children": []
+    },
+    "miroshark_commits": {
+      "type": "Stat",
+      "props": {
+        "label": "MiroShark commits",
+        "value": "17"
+      },
+      "children": []
+    },
+    "miroshark_prs": {
+      "type": "Stat",
+      "props": {
+        "label": "MiroShark PRs",
+        "value": "17"
+      },
+      "children": []
+    },
+    "minitor_commits": {
+      "type": "Stat",
+      "props": {
+        "label": "minitor commits",
+        "value": "4"
+      },
+      "children": []
+    },
+    "minitor_prs": {
+      "type": "Stat",
+      "props": {
+        "label": "minitor PRs",
+        "value": "4"
+      },
+      "children": []
+    },
+    "article_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Shiplog Article",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/articles/shiplog-2026-06-29.md",
+        "source": "GitHub"
+      },
+      "children": []
+    }
+  }
+}

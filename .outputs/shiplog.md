@@ -1,11 +1,11 @@
-*Shiplog — 2026-06-22*
+*Shiplog — 2026-06-29*
 
-Aeon launched a full skill-pack system with one-click community install while five external builders merged packs in the same week, and MiroShark shipped multilingual simulations and transparent run costs.
+Aeon shipped capability tiers, votable skill health tracked as GitHub Issues, and a community-built pre-install security screener — while MiroShark's CLI gained stop, wait, and cost subcommands that make simulations programmable from shell scripts.
 
 Themes:
-- Pack system: browse, discover, and install community skill packs from the dashboard
-- Community built in public: five packs, seven ecosystem additions
-- MiroShark: multilingual simulations and queryable run cost
+- Aeon gains capability tiers, votable health, and issues-as-state
+- Phylax lands in the skill supply chain
+- MiroShark CLI becomes automation-ready
 
-aeon 59 commits · 31 PRs merged · MiroShark 29 commits · 29 PRs merged
-https://github.com/aaronjmars/aeon-nur/blob/main/articles/shiplog-2026-06-22.md
+aeon 23 commits · 22 PRs · MiroShark 17 commits · 17 PRs · minitor 4 commits · 4 PRs
+https://github.com/aaronjmars/aeon-nur/blob/main/articles/shiplog-2026-06-29.md
