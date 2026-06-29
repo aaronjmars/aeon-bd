@@ -40,7 +40,6 @@ skills:
     } # daily — curated trending HF models/datasets/spaces with "why notable" lines, momentum tags, and bucket clustering. Set var to one of {models, datasets, spaces} to scope.
 
   # --- Midday (12 PM UTC) ---
-  token-alert: { enabled: false, schedule: "0 12 * * *" }
   token-movers: { enabled: false, schedule: "0 12 * * *" }
   onchain-monitor: { enabled: false, schedule: "0 12 * * *" }
   defi-monitor: { enabled: false, schedule: "0 12 * * *" }
@@ -142,7 +141,6 @@ skills:
 
   # --- Feed generation (5:30 PM UTC, after content skills) ---
   rss-feed: { enabled: false, schedule: "30 17 * * *" }
-  thread-formatter: { enabled: false, schedule: "30 17 * * *", var: "" } # score today's events from memory/logs and format the top one as a 5-tweet thread ready to paste; no-op silently on quiet days
 
   # --- Gallery update (Sunday 6 PM UTC, after content week) ---
   update-gallery: { enabled: false, schedule: "0 18 * * 0" }
@@ -340,7 +338,6 @@ skills:
   # Markets & crypto
   wallet-digest: { enabled: false, schedule: "30 12 * * *" } # balances-only activity summary across tracked wallets; sibling to onchain-monitor
   pm-pulse: { enabled: false, schedule: "0 11 * * 5" } # Monday — prediction/coordination-market volume, new mechanisms, regulatory moves
-  pm-intel: { enabled: false, schedule: "0 10 * * 0" } # Monday — competitive intel on the prediction-market ecosystem
   pm-manipulation: { enabled: false, schedule: "15 13 * * *" } # daily — flag suspected PM manipulation from 3-day price/volume/comment + local-press anomalies
   rwa-pulse: { enabled: false, schedule: "0 12 * * 1" } # Monday — RWA tokenization momentum: launches, TVL, institutional adoption, regulation
   compute-pulse: { enabled: false, schedule: "0 11 * * 6" } # Saturday — AI compute market: GPU/hardware deals, inference pricing, decentralized-compute tokens
