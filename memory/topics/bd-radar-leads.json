@@ -1481,6 +1481,72 @@
       "repo_updated": "2026-06-27",
       "source": "gh_read_pat_forks",
       "move": "Watch 5 days — if new commits appear, DM @Jelloeater 🦈"
+    },
+    {
+      "key": "web:openagentskill.com",
+      "class": "adjacent",
+      "who": "OpenAgentSkill (openagentskill.com)",
+      "handle": "openagentskill",
+      "signal": "'npm for AI Agent Skills' — skill discovery/distribution platform with Aeon listed as an installable skill via `npx skills add aaronjmars/aeon`. Auditable, ranked, install-ready; works with Claude Code, Codex, Cursor, MCP agents.",
+      "fit": 3,
+      "score": 3,
+      "first_seen": "2026-06-29",
+      "source": "websearch",
+      "move": "Reach out to OpenAgentSkill team: verify Aeon listing accuracy; explore adding MiroShark sim as a listed skill; offer co-post on agent skill distribution"
+    },
+    {
+      "key": "x:danbuildss",
+      "class": "mentioning",
+      "who": "danbuildss (@danbuildss, whybase Media)",
+      "handle": "@danbuildss",
+      "signal": "X post 06-28: shipped open schema + validator + GH Action + governance docs + registry submission flow, added framework guides for AgentKit, @aeonframework, GOAT, @virtuals_io, @bankrbot. 2 likes. Known builder (also has luca-aeon-skills in ecosystem).",
+      "fit": 3,
+      "score": 6,
+      "known": true,
+      "first_seen": "2026-06-29",
+      "link": "https://x.com/danbuildss/status/2071240182506946693",
+      "source": "xai_x",
+      "move": "Reply: 'the open schema + framework guides is the infra the skill ecosystem needed — what's the registry submission flow?'"
+    },
+    {
+      "key": "github:luis212/NovaShoal-Swarm-Sim",
+      "class": "adjacent",
+      "who": "luis212 / EnsembleOS",
+      "handle": "luis212",
+      "signal": "EnsembleOS — biologically-inspired distributed swarm consensus protocol, created 06-28, pushed 06-29. GitHub description copies MiroShark tagline verbatim. Actual project is a competing distributed-intelligence framework (35-byte stub). In the swarm sim wedge.",
+      "fit": 3,
+      "score": 3,
+      "first_seen": "2026-06-29",
+      "repo_updated": "2026-06-29",
+      "source": "gh_search_repos",
+      "watch": true,
+      "move": "Watch — if they ship code, outreach: aware of MiroShark, competing angle, potential user/partner"
+    },
+    {
+      "key": "x:CoinSense_App",
+      "class": "mentioning",
+      "who": "CoinSense_App",
+      "handle": "@CoinSense_App",
+      "signal": "Crypto analytics project published detailed $MiroShark monthly breakdown (06-28): '32 dev updates this month, up from 8. $489k mcap, base.' Prompt-based sim launch, x402, Privy, 16 languages, bankrbot external run. 3 likes.",
+      "fit": 1,
+      "score": 1,
+      "first_seen": "2026-06-29",
+      "link": "https://x.com/CoinSense_App/status/2071212325499973939",
+      "source": "xai_x",
+      "move": "Reply thanking them — mention the 50% affiliate angle for the Base audience"
+    },
+    {
+      "key": "github:anajuliabit/aeon-fork",
+      "class": "forking",
+      "who": "anajuliabit",
+      "handle": "anajuliabit",
+      "signal": "Aeon fork created 06-29T00:49:49, pushed 8s later (33,587 bytes = base). Drive-by likely.",
+      "fit": 1,
+      "score": 2,
+      "first_seen": "2026-06-29",
+      "repo_updated": "2026-06-29",
+      "source": "gh_read_pat_forks",
+      "move": "Watch 5 days — if commits appear, ping"
     }
   ],
   "surfaced": [
@@ -1645,6 +1711,11 @@
     "github:janicegrech1-hash/miroshark",
     "github:ericlbrault/MiroShark",
     "github:SahilParikh03/MiroShark",
-    "x:checkrsocial"
+    "x:checkrsocial",
+    "web:openagentskill.com",
+    "x:danbuildss",
+    "github:luis212/NovaShoal-Swarm-Sim",
+    "x:CoinSense_App",
+    "github:anajuliabit/aeon-fork"
   ]
 }
