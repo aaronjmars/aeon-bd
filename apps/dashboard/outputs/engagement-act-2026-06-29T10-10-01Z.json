@@ -1,0 +1,455 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-06-29",
+        "description": "Five engagement opportunities: BD signal, GitHub integrations, and reply drafts ready to send"
+      },
+      "children": [
+        "item-1",
+        "sep-1",
+        "item-2",
+        "sep-2",
+        "item-3",
+        "sep-3",
+        "item-4",
+        "sep-4",
+        "item-5"
+      ]
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h1-1",
+        "meta-1",
+        "badges-1",
+        "no-link-1",
+        "draft-1"
+      ]
+    },
+    "h1-1": {
+      "type": "Heading",
+      "props": {
+        "text": "@danbuildss",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "meta-1": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago — shipped open-schema/governance-docs project with @aeonframework as the framework layer. bd-radar source: x:danbuildss",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badges-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-type-1a",
+        "badge-class-1a",
+        "badge-score-1a"
+      ]
+    },
+    "badge-type-1a": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-class-1a": {
+      "type": "Badge",
+      "props": {
+        "text": "mentioning class",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-score-1a": {
+      "type": "Badge",
+      "props": {
+        "text": "Score 6",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "no-link-1": {
+      "type": "Text",
+      "props": {
+        "text": "no link found",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "draft-1": {
+      "type": "Text",
+      "props": {
+        "text": "governance-docs on aeon is the move. open schema + skills = operator spec. what's the underlying use case?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h1-2",
+        "meta-2",
+        "link-2",
+        "badges-2",
+        "draft-2"
+      ]
+    },
+    "h1-2": {
+      "type": "Heading",
+      "props": {
+        "text": "Collective-Intelligence-Library — Jonas Hallgren (eq-network)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "meta-2": {
+      "type": "Text",
+      "props": {
+        "text": "1 day ago. Uppsala, 6★, JAX. 1000-seed GPU-parallel adversarial sweeps = academic cousin of Miroshark counterfactual branching. War-room flagged as reply opening.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Collective-Intelligence-Library",
+        "href": "https://github.com/eq-network/Collective-Intelligence-Library",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "badges-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-type-2a"
+      ]
+    },
+    "badge-type-2a": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "draft-2": {
+      "type": "Text",
+      "props": {
+        "text": "the 1000-seed adversarial sweep + belief drift across rounds is exactly what miroshark runs — social/opinion sim instead of physical agents, same counterfactual branching architecture. no tensor algebra required, ~$1 in under 10min. curious what domain you're pointing this at next 🦈",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h1-3",
+        "meta-3",
+        "link-3",
+        "badges-3",
+        "draft-3"
+      ]
+    },
+    "h1-3": {
+      "type": "Heading",
+      "props": {
+        "text": "awesome-cybersecurity-agentic-ai — raphabot",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "meta-3": {
+      "type": "Text",
+      "props": {
+        "text": "1 day ago. PR #44 merged: Aeon added to curated frameworks list.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #44: Add Aeon to awesome-cybersecurity-agentic-ai",
+        "href": "https://github.com/raphabot/awesome-cybersecurity-agentic-ai/pull/44",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "badges-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-type-3a"
+      ]
+    },
+    "badge-type-3a": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "draft-3": {
+      "type": "Text",
+      "props": {
+        "text": "appreciate the add. autonomous vuln-scanner fleet + self-opening PRs on real repos is the use case we're building toward — audits are broken, tokenized agents scanning 24/7 is the fix. stoked aeon made the list.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h1-4",
+        "meta-4",
+        "link-4",
+        "cmd-4",
+        "badges-4",
+        "draft-4"
+      ]
+    },
+    "h1-4": {
+      "type": "Heading",
+      "props": {
+        "text": "openagentskill.com — npm for AI agent skills",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "meta-4": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago. Aeon added to registry as installable skill. bd-radar source: web:openagentskill.com",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "openagentskill.com",
+        "href": "https://openagentskill.com"
+      },
+      "children": []
+    },
+    "cmd-4": {
+      "type": "Text",
+      "props": {
+        "text": "npx skills add aaronjmars/aeon",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "badges-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-type-4a",
+        "badge-class-4a",
+        "badge-score-4a"
+      ]
+    },
+    "badge-type-4a": {
+      "type": "Badge",
+      "props": {
+        "text": "X post",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-class-4a": {
+      "type": "Badge",
+      "props": {
+        "text": "adjacent class",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-score-4a": {
+      "type": "Badge",
+      "props": {
+        "text": "Score 3",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "draft-4": {
+      "type": "Text",
+      "props": {
+        "text": "someone built npm for AI agent skills and aeon is in the registry\n\nnpx skills add aaronjmars/aeon\n\nthe skill supply chain is materializing ⭐",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h1-5",
+        "meta-5",
+        "badges-5",
+        "no-link-5",
+        "note-5",
+        "draft-5"
+      ]
+    },
+    "h1-5": {
+      "type": "Heading",
+      "props": {
+        "text": "@CoinSense_App",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "meta-5": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago. First-time mention of Aeon. bd-radar source: x:CoinSense_App, limited radar context.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badges-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-type-5a",
+        "badge-class-5a",
+        "badge-score-5a",
+        "badge-confidence-5a"
+      ]
+    },
+    "badge-type-5a": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-class-5a": {
+      "type": "Badge",
+      "props": {
+        "text": "mentioning-new class",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-score-5a": {
+      "type": "Badge",
+      "props": {
+        "text": "Score 3",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-confidence-5a": {
+      "type": "Badge",
+      "props": {
+        "text": "Low confidence",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "no-link-5": {
+      "type": "Text",
+      "props": {
+        "text": "no link found",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "note-5": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Verify tweet before sending — limited context from radar"
+      },
+      "children": []
+    },
+    "draft-5": {
+      "type": "Text",
+      "props": {
+        "text": "appreciate the mention — what's the angle?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}

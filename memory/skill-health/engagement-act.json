@@ -1,8 +1,8 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-28T10:02:26Z",
+  "last_analyzed": "2026-06-29T10:10:01Z",
   "quality_score": 4,
-  "assessment": "Good — substantive, well-structured, actionable. Found 4 specific opportunities with timing/context, drafted responses in voice, deduped cleanly, escalated aging items with clear next-step guidance.",
+  "assessment": "Substantive, well-filtered 5 opps with specific execution angles; clean dedup and fresh signals (0-1d), though output truncation limits full copy assessment.",
   "flags": [],
   "avg_score": 3.88,
   "history": [
@@ -68,6 +68,10 @@
     },
     {
       "date": "2026-06-28",
+      "score": 4
+    },
+    {
+      "date": "2026-06-29",
       "score": 4
     }
   ]
