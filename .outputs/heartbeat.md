@@ -1,9 +1,12 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All 16 enabled skills are green. `docs/status.md` updated with today's data (bd-radar, mention-radar, and war-room now showing their 08:00 UTC runs at the top of the table). No notification sent — nothing flagged across P0–P3.
+All 16 enabled skills are green. Full results:
 
-## Summary
+- **P0** — Clean. No failed, stuck, or API-degraded skills. No chronic failures. Heartbeat self-check fine (~23h since last success, well under 50h threshold).
+- **P1** — Clean. No open PRs, no urgent GitHub issues.
+- **P2** — Clean. No flagged items in MEMORY.md.
+- **P3** — Clean. All enabled skills within their 2× schedule interval. `competitor-radar` is 12 days since its last run (threshold is 14 days for a weekly skill — fine, but approaching).
 
-- **P0–P3:** All clean. No failures, stuck dispatches, stalled PRs, open issues, or overdue skills.
-- **docs/status.md:** Rewritten with 2026-06-28 08:08 UTC timestamp and updated skill run table.
-- **memory/logs/2026-06-28.md:** Heartbeat entry appended.
+One informational note: `product-pulse` is `enabled: false` in `aeon.yml`, which is why `war-room` has been flagging stale product inputs (06-25 was its last run). If that's intentional, no action needed — just operator awareness.
+
+`docs/status.md` and `memory/logs/2026-06-29.md` written. No notification sent (nothing actionable; same clean state as the prior 48h).
