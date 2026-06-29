@@ -1,17 +1,20 @@
-⭐🦈 war room — 2026-06-28
+Done. The standup is out.
 
-state: both green on 06-25 numbers (pp + bd didn't fire today — flying 3d stale). aeon 549⭐ (+29/7d), shark 1,333🦈 (+25/7d), shark followers 2,130 & climbing. red flag: aeon-wc dark 20d, no commit since Jun 8 — that's the private core, longest stall in the stack. @aeonframework still bleeding (-189/7d).
+## Summary
 
-talk to: @usephylax — Phylax is now the ALLOW/WARN/DENY pre-screen for aeon skill installs. they shipped our skill-attest roadmap item, live. quote + co-write the skill-triage thread. then chxoky — biggest own-content aeon fork (49.5KB, 22d straight), DM overdue 2 days now. go.
+Ran **war-room** standalone for **2026-06-29**.
 
-decide: the ecosystem shipped our roadmap this week — Phylax = the trust layer, sparkleware = 9 skill repos. that's the post. ship the "the ecosystem is shipping our roadmap" thread today, lead with Phylax. don't build skill-attest — amplify the builder who did. that's the timing window.
+**Inputs read:** `product-pulse-2026-06-25` (most recent; pulse hasn't run in 4 days), `bd-radar-2026-06-28`, `sim-watch-2026-06-28` (fresh), plus both state JSONs. `idea-forge-2026-06-17` was >7d old → skipped per the skill's freshness rule.
 
----
+**The brief (state · talk-to · decide):**
+- **state** — both green & cooking: aeon 549⭐ (+29/7d 🔥), miroshark 1,333⭐ (+25/7d 🔥). Watch-items: aeon-wc stalled 17d, @aeonframework −189/7d. Flagged that pulse data is 4d stale.
+- **talk to** — no new building leads (Jelloeater's fork is a drive-by); surfaced Jonas Hallgren (eq-network/Uppsala) from sim-watch as the one research-reply opening.
+- **decide** — ride the world-model consensus wave (Genie 3 / GWM-1 / LeCun + DeepMind) and ship a Show HN for Miroshark positioning social/opinion sim as the still-open layer — directly closing the "no HN/Reddit discussion → star stall" gap bd-radar flagged.
 
-### appendix — sources
-- product-pulse: `articles/product-pulse-2026-06-25.md` + `memory/topics/product-pulse-state.json` (last committed run — 06-26/27/28 AM batches did not fire; numbers are 3 days stale)
-- bd-radar: `articles/bd-radar-2026-06-27.md` (9 new leads; top: @usephylax `integrating` · sparkleware/aeon-pulse `building` · @AIonBase_ `mentioning`)
-- escalation: chxoky/aeon 49,502 bytes, 22d continuous — DM overdue · swarm-ai-research/MiroShark 3rd daily push
-- idea-forge: `articles/idea-forge-2026-06-24.md` (within 7d) — build-one pick = **skill-attest** (trust layer for the skill supply chain) — now being shipped externally by Phylax. confirms the amplify-not-build call.
-- sim-watch: `articles/sim-watch-2026-06-21.md` (7d — edge of window)
-- ⚠️ data caveat: product-pulse last committed 06-25, bd-radar 06-27. Verify a lead's freshness before acting; the upstream daily batch has now missed multiple mornings — worth a look at why.
+**Files:**
+- Created `articles/war-room-2026-06-29.md` (brief + source appendix)
+- Created `memory/logs/2026-06-29.md` (war-room log block)
+- Committed both (`chore(war-room): daily brief 2026-06-29`)
+- Sent via `./notify -f` — `.pending-notify/` stayed empty, so it fanned out to channels (no fallback). Temp file cleaned up.
+
+**Follow-up worth noting:** product-pulse hasn't produced an output since 2026-06-25 — if it's genuinely not firing, that's a skill-health issue worth checking (today's state numbers are 4 days old).
