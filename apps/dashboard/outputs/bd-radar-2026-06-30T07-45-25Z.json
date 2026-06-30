@@ -1,0 +1,168 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "New Integrating Lead — @revaultdrops + Miroshark 🦈"
+      },
+      "children": [
+        "integration-stack",
+        "sep-1",
+        "use-case-stack",
+        "sep-2",
+        "pattern-stack",
+        "sep-3",
+        "timing-stack",
+        "sep-4",
+        "actions-stack"
+      ]
+    },
+    "integration-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "integration-heading",
+        "integration-text"
+      ]
+    },
+    "integration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Integration",
+        "level": "h3"
+      }
+    },
+    "integration-text": {
+      "type": "Text",
+      "props": {
+        "text": "@revaultdrops wired @miroshark_ into their Bankr mini app"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "use-case-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "use-case-heading",
+        "use-case-text"
+      ]
+    },
+    "use-case-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Use Case",
+        "level": "h3"
+      }
+    },
+    "use-case-text": {
+      "type": "Text",
+      "props": {
+        "text": "Users run a sim before Polymarket bets on Nike markets"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "pattern-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pattern-heading",
+        "pattern-quote",
+        "pattern-context"
+      ]
+    },
+    "pattern-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern",
+        "level": "h3"
+      }
+    },
+    "pattern-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Simulate before you trade\"",
+        "variant": "lead"
+      }
+    },
+    "pattern-context": {
+      "type": "Text",
+      "props": {
+        "text": "Live, during the World Cup"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "timing-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "timing-alert"
+      ]
+    },
+    "timing-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Timing Window",
+        "message": "NOW"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "actions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "actions-heading",
+        "action-1",
+        "action-2"
+      ]
+    },
+    "actions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Actions",
+        "level": "h3"
+      }
+    },
+    "action-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Reply to the thread: co-announce the pattern with 50% affiliate angle"
+      }
+    },
+    "action-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. DM: co-announce the pattern, 50% affiliate angle"
+      }
+    }
+  }
+}
