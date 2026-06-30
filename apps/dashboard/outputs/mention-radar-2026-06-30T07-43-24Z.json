@@ -1,0 +1,432 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-06-30"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-section",
+        "sep-1",
+        "miroshark-section",
+        "sep-2",
+        "engagement-section",
+        "sep-3",
+        "stats-section"
+      ]
+    },
+    "aeon-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aeon",
+        "aeon-item"
+      ]
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "aeon-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-aeon",
+        "badge-curation",
+        "text-aeon-desc",
+        "text-aeon-date"
+      ]
+    },
+    "storylink-aeon": {
+      "type": "StoryLink",
+      "props": {
+        "title": "andyrewlee/awesome-agent-orchestrators",
+        "href": "https://github.com/andyrewlee/awesome-agent-orchestrators",
+        "source": "GitHub",
+        "score": "809★"
+      },
+      "children": []
+    },
+    "badge-curation": {
+      "type": "Badge",
+      "props": {
+        "text": "Curation",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-aeon-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Listed under \"Personal Assistants\": \"autonomous agent framework running unattended on GitHub Actions; 90+ skills, quality scoring, self-healing, persistent memory, reactive triggers.\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-aeon-date": {
+      "type": "Text",
+      "props": {
+        "text": "Last pushed Jun 21 • Not previously surfaced",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "miroshark-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-miroshark",
+        "miroshark-item-1",
+        "miroshark-item-2",
+        "miroshark-item-3",
+        "miroshark-item-4"
+      ]
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "miroshark-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-microlaunch",
+        "badge-discovery-1",
+        "text-item-1-desc"
+      ]
+    },
+    "storylink-microlaunch": {
+      "type": "StoryLink",
+      "props": {
+        "title": "microlaunch.net/p/miroshark",
+        "href": "https://microlaunch.net/p/miroshark",
+        "source": "Microlaunch",
+        "score": "0 upvotes"
+      },
+      "children": []
+    },
+    "badge-discovery-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-item-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "New Microlaunch listing. Early mover window open.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "miroshark-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-openflows",
+        "badge-discovery-2",
+        "text-item-2-desc"
+      ]
+    },
+    "storylink-openflows": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openflows.org/currency/currents/miroshark/",
+        "href": "https://openflows.org/currency/currents/miroshark/",
+        "source": "OpenFlows"
+      },
+      "children": []
+    },
+    "badge-discovery-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-item-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Writeup: \"swarm-intelligence simulation engine for document-driven public reaction and market modeling.\" Technical overview, accurate description.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "miroshark-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-toolhunter",
+        "badge-discovery-3",
+        "text-item-3-desc"
+      ]
+    },
+    "storylink-toolhunter": {
+      "type": "StoryLink",
+      "props": {
+        "title": "toolhunter.cc/tools/miroshark",
+        "href": "https://toolhunter.cc/tools/miroshark",
+        "source": "ToolHunter"
+      },
+      "children": []
+    },
+    "badge-discovery-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-item-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Listed as \"Best AI Simulation Engines for AI Developers Simulating Social Dynamics in 2026.\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "miroshark-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-fork",
+        "badge-building",
+        "text-item-4-stats",
+        "text-item-4-detail"
+      ]
+    },
+    "storylink-fork": {
+      "type": "StoryLink",
+      "props": {
+        "title": "praxstack/aaronjmars-MiroShark",
+        "href": "https://github.com/praxstack/aaronjmars-MiroShark",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "badge-building": {
+      "type": "Badge",
+      "props": {
+        "text": "Building",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-item-4-stats": {
+      "type": "Text",
+      "props": {
+        "text": "551 commits • Pushed Jun 26",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-item-4-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Recent: persona-interview hang fixes (#214), local LLM perf tuning (#212), i18n non-English locale fix (#213). Real infra work, not a drive-by.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "engagement-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-engagement",
+        "engagement-item-1",
+        "engagement-item-2"
+      ]
+    },
+    "heading-engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "engagement-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-engagement-1-title",
+        "text-engagement-1-desc"
+      ]
+    },
+    "text-engagement-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "praxstack (GitHub)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-engagement-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Shipping MiroShark internals fixes right now — interviews, i18n, local-LLM. chxoky pattern. GitHub comment or DM overdue.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "engagement-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-engagement-2-title",
+        "text-engagement-2-desc"
+      ]
+    },
+    "text-engagement-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "andyrewlee (GitHub)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-engagement-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "809★ awesome list added Aeon. Star the repo; a note wouldn't hurt.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-stats",
+        "stats-grid",
+        "text-stats-note"
+      ]
+    },
+    "heading-stats": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Stars",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-aeon",
+        "stat-miroshark"
+      ]
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "560",
+        "delta": "+1",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "MiroShark",
+        "value": "1353",
+        "delta": "+1",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-stats-note": {
+      "type": "Text",
+      "props": {
+        "text": "Flat. No new X/Reddit/HN discussions this cycle.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

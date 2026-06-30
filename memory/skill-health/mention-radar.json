@@ -1,10 +1,14 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-06-28T07:58:28Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-structured findings with specific BD signal (HackerNoon coverage, awesome-list ecosystem placement) and brand intelligence; actionable next steps aligned with strategy; contextually aware deduplication",
-  "flags": [],
-  "avg_score": 4.13,
+  "last_analyzed": "2026-06-30T07:43:24Z",
+  "quality_score": 3,
+  "assessment": "Competent execution with 5 finds and one actionable lead (praxstack fork), but flat growth metrics and limited high-signal activity in primary channels (X/HN/Reddit quiet).",
+  "flags": [
+    "flat_growth",
+    "limited_high_signal",
+    "shallow_finds"
+  ],
+  "avg_score": 4,
   "history": [
     {
       "date": "2026-06-12",
@@ -37,6 +41,10 @@
     {
       "date": "2026-06-28",
       "score": 4
+    },
+    {
+      "date": "2026-06-30",
+      "score": 3
     }
   ]
 }
