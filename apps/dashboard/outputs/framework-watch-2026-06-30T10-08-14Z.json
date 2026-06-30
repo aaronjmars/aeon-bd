@@ -1,0 +1,329 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "AI Framework Watch",
+        "description": "2026-06-30"
+      },
+      "children": [
+        "alert-breaking",
+        "summary-stats",
+        "sep1",
+        "movers-section",
+        "sep2",
+        "releases-section",
+        "sep3",
+        "anchor-section",
+        "sep4",
+        "digest-link"
+      ]
+    },
+    "alert-breaking": {
+      "type": "Alert",
+      "props": {
+        "title": "BREAKING WEEK",
+        "message": "1 framework shipped breaking releases — pydantic-ai (v1→v2 major)",
+        "type": "warning"
+      }
+    },
+    "summary-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-frameworks",
+        "text-releases",
+        "text-breaking"
+      ]
+    },
+    "text-frameworks": {
+      "type": "Text",
+      "props": {
+        "text": "Tracked 9/9 frameworks"
+      }
+    },
+    "text-releases": {
+      "type": "Text",
+      "props": {
+        "text": "10 releases (7d across 5 frameworks)"
+      }
+    },
+    "text-breaking": {
+      "type": "Text",
+      "props": {
+        "text": "1 breaking flag"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "movers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "movers-heading",
+        "movers-table"
+      ]
+    },
+    "movers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top movers (7d stars)",
+        "level": "h3"
+      }
+    },
+    "movers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Framework",
+          "Stars",
+          "Change"
+        ],
+        "rows": [
+          [
+            "langchain-ai/langgraph",
+            "36.1k",
+            "+622"
+          ],
+          [
+            "crewAIInc/crewAI",
+            "54.6k",
+            "+405"
+          ],
+          [
+            "stanfordnlp/dspy",
+            "35.7k",
+            "+351"
+          ],
+          [
+            "mastra-ai/mastra",
+            "25.6k",
+            "+253"
+          ],
+          [
+            "run-llama/llama_index",
+            "50.5k",
+            "+224"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "releases-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "releases-heading",
+        "releases-stack"
+      ]
+    },
+    "releases-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Releases worth reading",
+        "level": "h3"
+      }
+    },
+    "releases-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "release-1",
+        "release-2",
+        "release-3",
+        "release-4"
+      ]
+    },
+    "release-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r1-title",
+        "r1-badge",
+        "r1-quote",
+        "r1-details"
+      ]
+    },
+    "r1-title": {
+      "type": "Text",
+      "props": {
+        "text": "pydantic/pydantic-ai v2.0.0",
+        "variant": "lead"
+      }
+    },
+    "r1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKING",
+        "variant": "destructive"
+      }
+    },
+    "r1-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Pydantic AI V2.0 is here!\"",
+        "variant": "body"
+      }
+    },
+    "r1-details": {
+      "type": "Text",
+      "props": {
+        "text": "stable v1→v2 major, review migration guide before upgrading",
+        "variant": "caption"
+      }
+    },
+    "release-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r2-title",
+        "r2-details"
+      ]
+    },
+    "r2-title": {
+      "type": "Text",
+      "props": {
+        "text": "pydantic/pydantic-ai v2.1.1",
+        "variant": "lead"
+      }
+    },
+    "r2-details": {
+      "type": "Text",
+      "props": {
+        "text": "same-week patch follow-up",
+        "variant": "caption"
+      }
+    },
+    "release-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r3-title",
+        "r3-details"
+      ]
+    },
+    "r3-title": {
+      "type": "Text",
+      "props": {
+        "text": "crewAIInc/crewAI 1.15.1",
+        "variant": "lead"
+      }
+    },
+    "r3-details": {
+      "type": "Text",
+      "props": {
+        "text": "1.14→1.15 minor bump, stable landed",
+        "variant": "caption"
+      }
+    },
+    "release-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r4-title",
+        "r4-details"
+      ]
+    },
+    "r4-title": {
+      "type": "Text",
+      "props": {
+        "text": "langchain-ai/langgraph 1.2.7",
+        "variant": "lead"
+      }
+    },
+    "r4-details": {
+      "type": "Text",
+      "props": {
+        "text": "patch on main line",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "anchor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anchor-heading",
+        "anchor-stats",
+        "anchor-text"
+      ]
+    },
+    "anchor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Anchor (aeon)",
+        "level": "h3"
+      }
+    },
+    "anchor-stats": {
+      "type": "Stat",
+      "props": {
+        "value": "★560",
+        "delta": "+17 this week",
+        "trend": "up"
+      }
+    },
+    "anchor-text": {
+      "type": "Text",
+      "props": {
+        "text": "0 releases · 9/9 by 7d delta"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "digest-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest",
+        "href": "articles/framework-watch-2026-06-30.md"
+      }
+    }
+  }
+}
