@@ -137,3 +137,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-30,war-room,claude-opus-4-8,11040,7179,773059,59172
 2026-06-30,framework-watch,claude-sonnet-4-6,17,17296,777557,42929
 2026-06-30,x402-monitor,claude-sonnet-4-6,18,12861,899343,57135
+2026-06-30,fetch-tweets,claude-sonnet-4-6,13,8394,463896,29556
