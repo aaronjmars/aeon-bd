@@ -1,8 +1,8 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-06-29T08:31:51Z",
+  "last_analyzed": "2026-06-30T08:47:13Z",
   "quality_score": 4,
-  "assessment": "Substantive execution — identified concrete BD lead (Jonas Hallgren), made strategic decision on Show HN timing, delivered state/talk-to/decide brief with specific metrics. Proper file creation, commits, notification. Proactively flagged skill-health follow-up.",
+  "assessment": "Substantive, well-structured brief with actionable lead (@revaultdrops) and sound timing analysis, but undermined by 5-day-stale product-pulse data flagged in output.",
   "flags": [
     "stale_data"
   ],
@@ -82,6 +82,10 @@
     },
     {
       "date": "2026-06-29",
+      "score": 4
+    },
+    {
+      "date": "2026-06-30",
       "score": 4
     }
   ]
