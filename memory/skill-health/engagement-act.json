@@ -1,10 +1,10 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-06-29T10:10:01Z",
+  "last_analyzed": "2026-06-30T10:06:05Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-filtered 5 opps with specific execution angles; clean dedup and fresh signals (0-1d), though output truncation limits full copy assessment.",
+  "assessment": "Substantive, well-prioritized engagement opportunities with specific actions tied to strategy (timing windows, builder signals, ecosystem growth); one opportunity aging (9d) but flagged.",
   "flags": [],
-  "avg_score": 3.88,
+  "avg_score": 3.89,
   "history": [
     {
       "date": "2026-06-12",
@@ -72,6 +72,10 @@
     },
     {
       "date": "2026-06-29",
+      "score": 4
+    },
+    {
+      "date": "2026-06-30",
       "score": 4
     }
   ]

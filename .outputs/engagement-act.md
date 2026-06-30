@@ -1,26 +1,28 @@
-*Engagement Act — 2026-06-29*
+*Engagement Act — 2026-06-30*
 
-*1. @danbuildss* (0 days ago) — shipped open-schema/governance-docs project with @aeonframework as the framework layer
-link: no link found (bd-radar 2026-06-29, x:danbuildss, mentioning class, Score 6)
+*1. @revaultdrops* (0 days ago) — wired @miroshark_ sims into Bankr mini app before Polymarket Nike World Cup bets
+link: no link found (surfaced via bd-radar / war-room 06-30)
 type: X reply
-draft: "governance-docs on aeon is the move. open schema + skills = operator spec. what's the underlying use case?"
+draft: "this is the sim-before-bet use case we kept saying was coming 🦈 simulate before you trade. you shipped it live in the exact WC window. let's talk"
 
-*2. eq-network / Jonas Hallgren* (1 day ago) — Collective-Intelligence-Library (Uppsala, 6★, JAX): 1000-seed GPU-parallel adversarial sweeps = academic cousin of Miroshark counterfactual branching; war-room flagged as reply opening
-link: https://github.com/eq-network/Collective-Intelligence-Library
+*2. XMUDeepLIT/Awesome-Self-Evolving-Agents* (1 day ago) — PR #6 "Add Aeon to Foundational Agent Orchestration" merged Jun 29
+link: https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents/pull/6
 type: GitHub comment
-draft: "the 1000-seed adversarial sweep + belief drift across rounds is exactly what miroshark runs — social/opinion sim instead of physical agents, same counterfactual branching architecture. no tensor algebra required, ~$1 in under 10min. curious what domain you're pointing this at next 🦈"
+draft: "appreciate the inclusion — Aeon in the Foundational Agent Orchestration tier is the right framing. if you're benchmarking or building on top of it, happy to help. ⭐"
 
-*3. raphabot / awesome-cybersecurity-agentic-ai* (1 day ago) — PR #44 merged adding Aeon to curated frameworks list
-link: https://github.com/raphabot/awesome-cybersecurity-agentic-ai/pull/44
+*3. saluca-labs/miroshark* (0 days ago) — known builder (pantheon) escalated from ecosystem to direct MiroShark fork, score 12
+link: no link found (surfaced via bd-radar 06-30)
 type: GitHub comment
-draft: "appreciate the add. autonomous vuln-scanner fleet + self-opening PRs on real repos is the use case we're building toward — audits are broken, tokenized agents scanning 24/7 is the fix. stoked aeon made the list."
+draft: "saw pantheon, didn't expect a direct MiroShark fork — the escalation makes sense. what are you building on top of it? happy to share what's coming on the roadmap if it helps you plan. 🦈"
 
-*4. openagentskill.com* (0 days ago) — "npm for AI agent skills" platform added Aeon as installable (`npx skills add aaronjmars/aeon`)
-link: https://openagentskill.com (bd-radar 2026-06-29, web:openagentskill.com, adjacent class, Score 3)
-type: X post
-draft: "someone built npm for AI agent skills and aeon is in the registry\n\nnpx skills add aaronjmars/aeon\n\nthe skill supply chain is materializing ⭐"
-
-*5. @CoinSense_App* (0 days ago) — first-time mention of Aeon (mentioning-new, Score 3, limited radar context)
-link: no link found (bd-radar 2026-06-29, x:CoinSense_App, mentioning-new class)
+*4. @NFTfafafa* (1 day ago) — asked on X whether Aeon handles 24/7 autonomous crypto trading with self-improving strategy + performance fees
+link: https://x.com/NFTfafafa/status/2071297666441736405
 type: X reply
-draft: "appreciate the mention — what's the angle?" [low-confidence: verify tweet before sending, limited context from radar]
+draft: "yes — 24/7 unattended, self-healing, runs on cron. x402 for payment flows + agent credit lines for the perf fee angle. DM to walk through the stack ⭐"
+
+*5. andyrewlee/awesome-agent-orchestrators* (9 days ago) — curated Aeon in 809⭐ orchestrators list (Jun 21)
+link: no link found (surfaced via mention-radar 06-30)
+type: GitHub comment
+draft: "late on this — appreciate the inclusion. awesome-agent-orchestrators is the right home: skills-as-markdown, cron-driven, self-repair is the moat. let me know if you want a more detailed writeup for the entry. ⭐"
+
+⚠️ andyrewlee (9d) — act or drop
