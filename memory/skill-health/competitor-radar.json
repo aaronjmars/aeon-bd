@@ -1,14 +1,18 @@
 {
   "skill": "competitor-radar",
-  "last_analyzed": "2026-06-17T10:43:05Z",
-  "quality_score": 5,
-  "assessment": "Substantive radar with 7 specific competitive entrants, transparent methodology, highest-signal move identified (Apache Burr with context), and actionable follow-ups.",
+  "last_analyzed": "2026-07-01T10:51:38Z",
+  "quality_score": 4,
+  "assessment": "Substantive autonomous run: tracked 3 specific entrants with sources (HN, PH) and metrics, updated state/logs, committed properly. Cannot verify article quality without reading output.",
   "flags": [],
-  "avg_score": 5,
+  "avg_score": 4.5,
   "history": [
     {
       "date": "2026-06-17",
       "score": 5
+    },
+    {
+      "date": "2026-07-01",
+      "score": 4
     }
   ]
 }

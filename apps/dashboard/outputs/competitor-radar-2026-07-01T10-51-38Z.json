@@ -1,0 +1,147 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Competitor Launch Radar",
+        "description": "2026-07-01"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "products_stack",
+        "sep2",
+        "digest_link"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "3 new agent-framework entrants outside the tracked cohort.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "products_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "product_1_group",
+        "product_2_group",
+        "product_3_group"
+      ]
+    },
+    "product_1_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "product_1",
+        "description_1"
+      ]
+    },
+    "product_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Ornith-1.0",
+        "href": "https://news.ycombinator.com/item?id=48709744",
+        "source": "HN",
+        "score": "84"
+      },
+      "children": []
+    },
+    "description_1": {
+      "type": "Text",
+      "props": {
+        "text": "Self-scaffolding LLMs for agentic coding. Dropped June 29.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "product_2_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "product_2",
+        "description_2"
+      ]
+    },
+    "product_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Livinity",
+        "href": "https://www.producthunt.com/products/livinity",
+        "source": "PH"
+      },
+      "children": []
+    },
+    "description_2": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source homeserver OS with a built-in AI agent. June 29.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "product_3_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "product_3",
+        "description_3"
+      ]
+    },
+    "product_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Sequence Agentic",
+        "href": "https://www.producthunt.com/products/sequence",
+        "source": "PH"
+      },
+      "children": []
+    },
+    "description_3": {
+      "type": "Text",
+      "props": {
+        "text": "Money movement for AI agents. June 28.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "digest_link": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest",
+        "href": "articles/competitor-radar-2026-07-01.md"
+      },
+      "children": []
+    }
+  }
+}
