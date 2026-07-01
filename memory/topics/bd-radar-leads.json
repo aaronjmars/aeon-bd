@@ -1797,7 +1797,6 @@
     "x:gumterver100",
     "github:praxstack/aaronjmars-MiroShark",
     "github:noelclaw/miroshark",
-    "github:chxoky/aeon",
     "x:lnsx_io",
     "github:Tholynceus/lens-skill-pack",
     "x:aeoncityhub",
@@ -1867,6 +1866,8 @@
     "github:penguinxbt/aeon",
     "github:myexperts-solutions/MiroShark",
     "github:caramaschiHG/awesome-ai-agents-2026",
-    "web:leadai.dev-aeon-article"
+    "web:leadai.dev-aeon-article",
+    "x:aethree_xyz",
+    "github:usepaxterapp/aeon"
   ]
 }
