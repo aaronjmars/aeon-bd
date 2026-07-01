@@ -1,16 +1,22 @@
-⭐🦈 war room — 2026-06-30
+⭐🦈 war room — 2026-07-01
 
-state: both green on last read — aeon 549⭐ (+29/7d), shark 1,333⭐ (+25/7d), shark followers climbing (+37). but that read's 5d stale — product-pulse hasn't fired since the 25th. aeon-wc still stalled (~22d), @aeonframework slid -189/7d.
+state: both green on commits, both cleared the momentum line last read — aeon +29⭐/7d (549), miro +25⭐ (1,333), @miroshark_ climbing (+37 → 2,130). two flags tho: @aeonframework bled -189 followers (151.5k), and product-pulse hasn't run since 06-25 — 6 days flying blind on the numbers. fix the pulse cron before we trust any of this.
 
-talk to: @revaultdrops — wired shark sims into their Bankr mini app, "sim before you bet" on Polymarket Nike markets, live, World Cup timing · reply the thread + DM, pitch a co-announce. backup: saluca-labs escalated pantheon → direct MiroShark fork (score 12) · DM, ask what's next.
+talk to: @revaultdrops — live "simulate before you trade" integration, miro sims + Polymarket Nike markets inside their Bankr mini app, World Cup timing. reply the thread + DM, co-announce. · saluca-labs (pantheon bridge → now a direct miro fork): ping for next phase.
 
-decide: engage revaultdrops today. "simulate before you trade" is the wedge and someone shipped it live in the exact window — collide it before the WC window shuts. also re-fire product-pulse; we're flying blind on 5d-old numbers.
+decide: co-announce revaultdrops today. it's a public integration that literally IS the miroshark thesis, and the World Cup window is closing — this one travels now or not at all.
 
 ---
 
 ## Appendix — sources
 
-- **bd-radar** (fresh, 06-30): `articles/bd-radar-2026-06-30.md` — 11 new leads, 1 integrating (@revaultdrops). Escalations: chxoky/aeon (50.8KB, 25d active, DM overdue), Phylax v0.2 shipped 06-29.
-- **product-pulse** (stale, last 06-25): `articles/product-pulse-2026-06-25.md` — state file `last_run` 06-25; no run 06-26→30. Numbers above are from that snapshot.
-- **sim-watch** (06-28, within 7d): `articles/sim-watch-2026-06-28.md` — physical world models (Genie 3 / GWM-1) hardening into VC consensus; social/opinion sim still open. Ride the "simulation is the missing layer" narrative.
-- **Note:** product-pulse has not committed an output since 06-25 — worth a manual re-fire / health check. STATE block runs on 5-day-old data.
+- **product-pulse** — most recent: [`articles/product-pulse-2026-06-25.md`](product-pulse-2026-06-25.md) ⚠️ 6 days stale; skill hasn't run since 06-25. State numbers below are as-of 06-25.
+  - Aeon ⭐ 549 (+29/7d) · Miroshark 🦈 1,333 (+25/7d) · @miroshark_ 2,130 (+37/7d) · @aeonframework 151,544 (-189/7d) · aeon-wc stalled 17d+ (since 06-08, now ~23d).
+- **bd-radar** — [`articles/bd-radar-2026-06-30.md`](bd-radar-2026-06-30.md) (fresh, yesterday). 11 new leads, 1 high-intent.
+  - #3 `integrating` @revaultdrops (score 9) — live World Cup integration, [thread](https://x.com/revaultdrops/status/2071692217047990361).
+  - #1 `forking` saluca-labs/miroshark (score 12) — pantheon bridge + direct fork.
+  - Overdue: chxoky/aeon (50.8KB own content, 25d active) — DM still pending.
+- **sim-watch** — [`articles/sim-watch-2026-06-28.md`](sim-watch-2026-06-28.md) (3 days). Genie 3 / GWM-1 world models landed → "simulation is the missing layer" now consensus; ride the positioning. No Miroshark clone threats.
+- **idea-forge** — [`articles/idea-forge-2026-06-24.md`](idea-forge-2026-06-24.md) (7 days, borderline).
+
+_Note: no product-pulse or bd-radar dated 2026-07-01 at run time — bd-radar 06-30 is fresh, product-pulse is 6 days stale. Flagged in state; pulse cron needs a look._
