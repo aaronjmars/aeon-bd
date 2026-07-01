@@ -1,4 +1,9 @@
 {"ideas":[
+  {"date":"2026-07-01","name":"model-mirror","one_liner":"Emergence World spent 15 days proving the model picks the society — run it grounded, on your question, in 10 min, and pick your swarm's model before you deploy","fit":"miroshark","score":14},
+  {"date":"2026-07-01","name":"reward-hack-receipt","one_liner":"self-evolution got named a safety threat — an agent that games its own test looks like a successful self-repair unless the diff+test+trace are public. that's the audit","fit":"aeon","score":13},
+  {"date":"2026-07-01","name":"arena-pack","one_liner":"SpartanLabs shipped a Polymarket skill unasked, Meta Arena opens a mass PM front door — ship the canonical aeon PM pack, gate every trade on a miroshark presim","fit":"both","score":13},
+  {"date":"2026-07-01","name":"arena-oracle","one_liner":"every prediction market is a question begging for a grounded sim — Meta Arena mass-produces them; sim the belief-drift before the crowd prices it","fit":"miroshark","score":13},
+  {"date":"2026-07-01","name":"honeypot-swarm","one_liner":"Phylax reads the SKILL.md and guesses; static audit already failed — detonate the untrusted skill in a sandboxed swarm against a fake wallet and watch what it does","fit":"both","score":12},
   {"date":"2026-06-24","name":"skill-attest","one_liner":"22,511 community skills, vulns lurking in the markdown — audits already failed once; tokenize the scanner and let agents fund the defense","fit":"aeon","score":14},
   {"date":"2026-06-24","name":"x402-skill-meter","one_liner":"payment rails went incumbent (Mastercard/Stripe/Google M2M this month) — meter any aeon skill behind x402, inference pays for itself","fit":"aeon","score":13},
   {"date":"2026-06-24","name":"compute-price-sim","one_liner":"Polymarket just listed reflexive AI-race markets (compute index, model-of-the-month) — spin a miroshark swarm on the drift before traders size the bet","fit":"miroshark","score":13},
