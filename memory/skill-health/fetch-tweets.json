@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-06-30T17:45:43Z",
-  "quality_score": 5,
-  "assessment": "Excellent — curated signal with clear reasoning, specific integrations identified, actionable ecosystem growth data",
+  "last_analyzed": "2026-07-01T17:13:04Z",
+  "quality_score": 4,
+  "assessment": "Substantive curation with strategic clustering and specific engagement metrics; completed successfully with memory/notification updates.",
   "flags": [],
-  "avg_score": 3.58,
+  "avg_score": 3.6,
   "history": [
     {
       "date": "2026-06-12",
@@ -81,6 +81,10 @@
     {
       "date": "2026-06-30",
       "score": 5
+    },
+    {
+      "date": "2026-07-01",
+      "score": 4
     }
   ]
 }
