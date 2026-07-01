@@ -140,3 +140,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-30,fetch-tweets,claude-sonnet-4-6,13,8394,463896,29556
 2026-07-01,bd-radar,claude-sonnet-4-6,35,21396,2357790,74398
 2026-07-01,competitor-radar,claude-sonnet-4-6,22083,23627,1040196,238388
+2026-07-01,idea-forge,claude-opus-4-8,7656,23449,1696969,156916

@@ -1,10 +1,10 @@
 {
   "skill": "idea-forge",
-  "last_analyzed": "2026-06-24T16:12:57Z",
-  "quality_score": 5,
-  "assessment": "Excellent: substantive ideas grounded in specific current signals (skill supply chain audit, agent payments, ambient/reflexive markets), well-structured T+F+E ranking, clear build-one pick with reasoning, complete execution (files, memory updates, commit), and proper downstream handoff.",
+  "last_analyzed": "2026-07-01T16:28:19Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-structured synthesis of signals into 5 ranked wedges. Strong execution across research, dedup, scoring, and follow-up.",
   "flags": [],
-  "avg_score": 4.5,
+  "avg_score": 4.33,
   "history": [
     {
       "date": "2026-06-17",
@@ -13,6 +13,10 @@
     {
       "date": "2026-06-24",
       "score": 5
+    },
+    {
+      "date": "2026-07-01",
+      "score": 4
     }
   ]
 }
