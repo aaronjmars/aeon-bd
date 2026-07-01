@@ -1,9 +1,9 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
 All checks clean:
-- **P0:** 15 enabled skills all `success`, zero consecutive failures, zero stuck dispatches. Heartbeat self-check OK (~24h since last success).
-- **P1:** One open PR opened <9h ago (not stalled). No urgent issues.
-- **P2:** No flagged memory items.
-- **P3:** All skills within 2× their schedule interval. competitor-radar is at 13d (threshold: 14d) — its next Wednesday run resets it.
+- **P0:** All 14 enabled skills succeeded. No consecutive failures, no stuck dispatches, heartbeat self-check OK (~23h since last success).
+- **P1:** No open PRs, no urgent issues.
+- **P2:** Nothing flagged in memory.
+- **P3:** competitor-radar is exactly 14d old (threshold is >14d), and it's scheduled to run today (Wednesday) — no flag.
 
-No notification sent. `docs/status.md` updated.
+No token-report files found, so the Token pulse section was omitted. `docs/status.md` updated; log written to `memory/logs/2026-07-01.md`.
