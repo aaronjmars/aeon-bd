@@ -1,0 +1,62 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "bd-radar — new building lead ⭐"
+      },
+      "children": [
+        "headline",
+        "project-link",
+        "description",
+        "founder",
+        "separator",
+        "action"
+      ]
+    },
+    "headline": {
+      "type": "Heading",
+      "props": {
+        "text": "OrlixAI went live on Aeon",
+        "level": "h3"
+      }
+    },
+    "project-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OrlixAI",
+        "href": "https://www.orlixai.xyz/"
+      }
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic AI Playground on Base — search web, fetch URLs, analyze GitHub repos, query Base live, powered by the Aeon Framework.",
+        "variant": "body"
+      }
+    },
+    "founder": {
+      "type": "Text",
+      "props": {
+        "text": "Co-founder: @tylerbroqs",
+        "variant": "body"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action": {
+      "type": "Alert",
+      "props": {
+        "title": "Move",
+        "message": "DM @tylerbroqs — ECOSYSTEM.md entry + co-post while it's fresh.",
+        "type": "info"
+      }
+    }
+  }
+}
