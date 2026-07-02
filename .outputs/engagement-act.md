@@ -1,21 +1,29 @@
-*Engagement Act — 2026-07-01*
+*Engagement Act — 2026-07-02*
 
-*1. @aethree_xyz* (0 days ago) — project account building agent face/economy product "on @aeonframework", TGE imminent
-link: no link found (bd-radar: x:aethree_xyz, score 15)
-type: X reply / DM
-draft: "this is exactly the kind of thing we want to see built on aeon — agent faces + economy on top, TGE incoming. what's the timeline? would love to co-announce ⭐"
+*1. @tylerbroqs* (0 days ago) — built orlixai.xyz live: "Agentic AI Playground on Base, powered by the Aeon Framework." Co-founder of OrlixAI with @tylerbroqs. Score 15. War-room decide line today.
+link: https://x.com/tylerbroqs (orlixai.xyz)
+type: X DM + X quote-post
+draft DM: "yo — love what you built at orlixai.xyz. aeon-powered agent playground on Base is exactly the ecosystem move we want. want to get you into ECOSYSTEM.md + do a co-announce? lmk."
+draft quote-post: "the ecosystem keeps shipping ⭐ @tylerbroqs built orlixai.xyz — agentic AI playground on Base, powered by @aeonframework. this is what ecosystem-native looks like."
 
-*2. github:SpartanLabsXyz/aeon-skill-pack-polymarket* (0 days ago) — Polymarket Trader drop-in skill pack built on Aeon (bd-radar score 15)
-link: https://github.com/SpartanLabsXyz/aeon-skill-pack-polymarket
-type: GitHub comment
-draft: "spotted the polymarket trader skill pack — exactly the kind of ecosystem contribution that makes aeon worth running. let us know if you want it listed in ECOSYSTEM.md or need help with the skill spec ⭐"
-
-*3. @usephylax* (1 day ago) — Phylax v0.2 ships as native Aeon skill: on-chain token sell simulation before install, DENY if honeypot, x402 native (13 likes, 3 rts)
-link: https://x.com/usephylax/status/2071648805016269095
+*2. @BranaRakic* (0 days ago) — OriginTrail co-founder publicly called MiroShark their DKG V9 simulation layer: "DKG V9 + MiroShark simulating the future." Biggest web3 org cosign to date.
+link: no link found (flagged in today's mention-radar)
 type: X reply
-draft: "v0.2 with on-chain simulation before install is the right move — simulating the token sell to catch a honeypot before the skill runs is exactly the trust layer this ecosystem needs. shipping on top of aeon while aeon ships the harness. few ⭐"
+draft: "this is exactly what 🦈 is for — run 100 agents against your V9 launch, see how the network believes before the market prices it. DKG V9 deserves a proper sim. lfg @OriginTrail"
 
-*4. @chxoky* (DM overdue — 25d+ active) — most significant unreached aeon builder, 50,820 bytes of own content pushed over 25 days continuous
+*3. Jenqyang/Awesome-AI-Agents* (0 days ago) — submitted a PR to add aeon to their Awesome-AI-Agents list. Fresh inbound curation signal.
+link: no link found (flagged in today's mention-radar)
+type: GitHub comment
+draft: "appreciate the PR. aeon fits — skills-as-markdown on GitHub Actions, cron-driven, self-repairing. every run is public on github so you can verify it actually works. ⭐"
+
+*4. bradAGI/awesome-cli-coding-agents* (3 days ago) — new curation update Jun 29 (distinct from Jun 22 entry actioned Jun 28). Added aeon to curated CLI coding agents list.
+link: no link found (flagged in today's mention-radar as curation Jun 29)
+type: GitHub comment
+draft: "appreciated the update — aeon is the CLI-native autonomous agent framework: skills-as-markdown, cron on GHA, self-repairing. runs unattended, public traces. solid list ⭐"
+
+*5. @chxoky* (aging — 25+ days) — most significant unreached aeon builder. 50,820 bytes own content, 25+ days continuous commits. DM drafted 07-01 but still flagged overdue.
 link: https://github.com/chxoky/aeon
 type: X DM
-draft: "hey — been watching chxoky/aeon for 25 days, you've been building harder than anyone in the ecosystem. what are you building on top? would love to feature it and talk about what you need from the framework"
+draft: "hey — you've been building something real on aeon for 25 days straight. 50k bytes of own commits. nobody's done that. curious what you're cooking — DM open."
+
+some opps aging — act or drop (@chxoky 25d+)
