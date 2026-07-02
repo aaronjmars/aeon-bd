@@ -1,25 +1,20 @@
-*Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-07-01)*
-_External accounts doing the heavy lifting — trader recap and Bankr leaderboard drove top reach; official accounts quiet, with Miroshark's x402/Cloudflare callout the only product signal._
+*Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-07-02)*
+_Quiet window — 4 tweets in 24h, all low-engagement; CTRL_automation is the only external builder posting twice about the ecosystem._
 
-*Ecosystem Momentum*
-1. x.com/medonchain — June recap names $AEON 100x and $miroshark 70x; 11 replies shows real trader discussion, not just noise
-Likes: 30 | RTs: 1 | Replies: 11
-[View tweet](https://x.com/medonchain/status/2072292520147468342)
+*Official Signal*
+1. x.com/aeonframework — "Pro integratooooors" — signals integrator momentum is front of mind; casual but deliberate call to ecosystem builders ⭐
+Likes: 3 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/aeonframework/status/2072412281921528243)
 
-2. x.com/AIonBase_ — Aeon ranked #2 in "Top 10 Bankr Launches", leads with 40/40 Blockworks transparency score and Bedrock Foundation stake
-Likes: 18 | RTs: 1 | Replies: 2
-[View tweet](https://x.com/AIonBase_/status/2072330498123444676)
+2. x.com/0xNurstar — "Agentic simulations, decoded🔥" — Nurstar puts the Miroshark pitch on the timeline with the "agentic simulations" frame 🦈
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/0xNurstar/status/2072411141280575580)
 
-*x402 / Protocol moves*
-3. x.com/miroshark_ — Flags Cloudflare's x402 Monetization Gateway as validation; first serious external signal for their protocol bet
-Likes: 6 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/miroshark_/status/2072319640538136805)
+*Third-Party Engagement*
+3. x.com/CTRL_automation — "CTRL" — first appearance of this external automation builder in this window; got a reply, suggesting actual engagement not just a shoutout
+Likes: 3 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/CTRL_automation/status/2072407455477244171)
 
-4. x.com/aeonframework — "Keep building wonders team!" — moderate team shoutout; low info but shows account is active
-Likes: 14 | RTs: 2 | Replies: 1
-[View tweet](https://x.com/aeonframework/status/2072293815629521133)
-
-*Market data*
-5. x.com/bankrbot — Weekly update: MIROSHARK at $0.00000315 (-18.70% 24h), AEON at $0.1333
-Likes: 3 | RTs: 1 | Replies: 0
-[View tweet](https://x.com/bankrbot/status/2072230481480049145)
+4. x.com/CTRL_automation — "🦈🦾" — shark + robot arm dropped minutes before the "CTRL" post; paired together suggests intentional Miroshark × automation double-tap 🦈
+Likes: 1 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/CTRL_automation/status/2072403862015610949)

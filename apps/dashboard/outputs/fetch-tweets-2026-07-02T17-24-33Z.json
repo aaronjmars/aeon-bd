@@ -1,0 +1,220 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon & Miroshark (2026-07-02)"
+      },
+      "children": [
+        "meta_text",
+        "sep1",
+        "official_heading",
+        "official_stack",
+        "sep2",
+        "thirdparty_heading",
+        "thirdparty_stack"
+      ]
+    },
+    "meta_text": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet window — 4 tweets in 24h, all low-engagement; CTRL_automation is the only external builder posting twice about the ecosystem.",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "official_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Official Signal",
+        "level": "h2"
+      }
+    },
+    "official_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet1_container",
+        "tweet2_container"
+      ]
+    },
+    "tweet1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "tweet1_meta",
+        "tweet1_link"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "Pro integratooooors",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "tweet1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 3 | RTs: 0 | Replies: 0 — signals integrator momentum is front of mind; casual but deliberate call to ecosystem builders ⭐",
+        "variant": "caption"
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2072412281921528243"
+      }
+    },
+    "tweet2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "tweet2_meta",
+        "tweet2_link"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "@0xNurstar",
+        "text": "Agentic simulations, decoded🔥",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 0 | RTs: 0 | Replies: 0 — Nurstar puts the Miroshark pitch on the timeline with the \"agentic simulations\" frame 🦈",
+        "variant": "caption"
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2072411141280575580"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thirdparty_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Third-Party Engagement",
+        "level": "h2"
+      }
+    },
+    "thirdparty_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet3_container",
+        "tweet4_container"
+      ]
+    },
+    "tweet3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3",
+        "tweet3_meta",
+        "tweet3_link"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "CTRL_automation",
+        "handle": "@CTRL_automation",
+        "text": "CTRL",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "tweet3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 3 | RTs: 0 | Replies: 1 — first appearance of this external automation builder in this window; got a reply, suggesting actual engagement not just a shoutout",
+        "variant": "caption"
+      }
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/CTRL_automation/status/2072407455477244171"
+      }
+    },
+    "tweet4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4",
+        "tweet4_meta",
+        "tweet4_link"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "CTRL_automation",
+        "handle": "@CTRL_automation",
+        "text": "🦈🦾",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet4_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 1 | RTs: 0 | Replies: 0 — shark + robot arm dropped minutes before the \"CTRL\" post; paired together suggests intentional Miroshark × automation double-tap 🦈",
+        "variant": "caption"
+      }
+    },
+    "tweet4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/CTRL_automation/status/2072403862015610949"
+      }
+    }
+  }
+}
