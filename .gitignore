@@ -39,6 +39,7 @@ tmp_*
 .write-tweet-notify.md
 .fetch-tweets-notify.md
 .notify-framework-watch.md
+.notify-war-room.md
 .pr-body.md
 .*-msg.txt
 *_msg.txt
