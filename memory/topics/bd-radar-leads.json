@@ -1762,6 +1762,84 @@
       "link": "https://x.com/baseboss_/status/2072560908539253062",
       "source": "xai_x",
       "move": "No action — distribution surface"
+    },
+    {
+      "key": "x:CTRL_automation",
+      "class": "building",
+      "who": "CTRL_automation (@CTRL_automation / @daxaur builder)",
+      "handle": "@CTRL_automation",
+      "signal": "Live cross-product onchain automation layer: 'Use @miroshark_ market simulations to trigger executions, autonomously trading top @base tokens like @aeonframework before the market moves. Drag and drop, that's it.' 12 likes / 2 RT (07-02). Confirmed Aeon MCP partner via web search. @daxaur (builder) also posts: 'no matter what i automate onchain, i sim it through the @miroshark_ endpoint first.'",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-07-03",
+      "link": "https://x.com/CTRL_automation/status/2072727845919674394",
+      "source": "xai_x+websearch",
+      "move": "DM @daxaur: you built the Miroshark×Aeon execution layer — ECOSYSTEM.md entry + co-announcement while it's fresh"
+    },
+    {
+      "key": "github:ryjin111/flakes",
+      "class": "building",
+      "who": "MythosForge (ryjin111)",
+      "handle": "ryjin111",
+      "signal": "Known builder (MythosForge ops-monitoring skills for Aeon). New product 'Flakes' — app/web/index.html: 'Agent auto-replies need an external AeonFramework runtime (not wired in this MVP).' Treating Aeon as THE runtime dependency, not just a skill pack host.",
+      "fit": 3,
+      "score": 15,
+      "known": true,
+      "first_seen": "2026-07-03",
+      "source": "gh_search_code",
+      "move": "DM or GitHub issue: Flakes is treating Aeon as the agent runtime — invite to co-build the integration, offer TG support"
+    },
+    {
+      "key": "github:nu11dotfun/mine-bean",
+      "class": "integrating",
+      "who": "nu11.fun / mine-bean",
+      "handle": "nu11dotfun",
+      "signal": "Gamified mining protocol on Base (6★, TypeScript, pushed 07-02T14:00Z). Has app/(agent)/integrations/aeon/page.tsx — dedicated Aeon integration page in their agent-facing app.",
+      "fit": 3,
+      "score": 9,
+      "first_seen": "2026-07-03",
+      "repo_updated": "2026-07-02",
+      "source": "gh_search_code",
+      "move": "Open GH comment or DM nu11dotfun: saw the Aeon integration page in mine-bean — what agents are you building? TG invite"
+    },
+    {
+      "key": "github:Zarbel974/MiroShark",
+      "class": "forking",
+      "who": "Zarbel974",
+      "handle": "Zarbel974",
+      "signal": "MiroShark fork created 06-30T19:34, pushed TODAY 07-03T06:35Z (3 days of own development). Size 62,766 bytes = +384 bytes own content above base. Not a drive-by.",
+      "fit": 3,
+      "score": 6,
+      "first_seen": "2026-07-03",
+      "repo_updated": "2026-07-03",
+      "source": "gh_read_pat_forks",
+      "move": "Watch — if description or issue appears within 5 days, DM: what are you building with MiroShark? 🦈"
+    },
+    {
+      "key": "github:roadtogideon222-byte/aeon-cat-studio",
+      "class": "building",
+      "who": "roadtogideon222-byte (aeon-cat-studio)",
+      "handle": "roadtogideon222-byte",
+      "signal": "aeon-cat-studio — personal aeon deployment, created 04-18, pushed TODAY 07-03T05:02Z. Has skills/spawn-instance/SKILL.md with aeonframework config. TypeScript, 0★, 2.5 months of continuous operation.",
+      "fit": 1,
+      "score": 5,
+      "first_seen": "2026-07-03",
+      "repo_updated": "2026-07-03",
+      "source": "gh_search_code",
+      "move": "Watch — if they publish a description or open issue, reach out: 2.5mo running aeon quietly is worth a ping"
+    },
+    {
+      "key": "x:trillhause_",
+      "class": "adjacent",
+      "who": "trillhause_ (@trillhause_, worklayer, ex-Google/Pinterest)",
+      "handle": "@trillhause_",
+      "signal": "Builder behind @worklayer asked a technical scaling question in response to aeon thread: 'How do you scale to trillions of agents? ephemeral sandboxes like e2b and modal are too heavy at that scale.' Agent infra builder, engaged with our content.",
+      "fit": 3,
+      "score": 3,
+      "first_seen": "2026-07-03",
+      "link": "https://x.com/trillhause_/status/2071926431706189913",
+      "source": "xai_x",
+      "move": "Reply to thread with the fleet-watcher + pool-runner architecture — convert the question into a TG invite"
     }
   ],
   "surfaced": [
@@ -1949,6 +2027,17 @@
     "github:s97472091-pixel/aeon",
     "web:Zijian-Ni/awesome-ai-agents-2026",
     "x:jay2jay01",
-    "x:baseboss_"
+    "x:baseboss_",
+    "x:CTRL_automation",
+    "github:ryjin111/flakes",
+    "github:nu11dotfun/mine-bean",
+    "github:Zarbel974/MiroShark",
+    "github:roadtogideon222-byte/aeon-cat-studio",
+    "github:nigelon11/aeon",
+    "x:trillhause_",
+    "github:webguy-cloud/aeon",
+    "github:Loopershot/aeon",
+    "github:Waleeeeed88/MiroShark",
+    "github:benderwope/MiroShark"
   ]
 }
