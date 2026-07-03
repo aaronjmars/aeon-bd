@@ -1,8 +1,8 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-02T07:30:29Z",
+  "last_analyzed": "2026-07-03T07:56:13Z",
   "quality_score": 4,
-  "assessment": "Complete execution with 6 specific, scored leads and actionable moves; well-structured but lacks strategic depth on why these matter for north-star metrics",
+  "assessment": "Substantive BD signal output with 11 verified leads, top 3 prioritized with actionable next steps (specific handles, co-announcement ready); fits strategy (surface signal early, honest read, peer-to-peer for Aaron); truncation limits full assessment.",
   "flags": [],
   "avg_score": 4.17,
   "history": [
@@ -96,6 +96,10 @@
     },
     {
       "date": "2026-07-02",
+      "score": 4
+    },
+    {
+      "date": "2026-07-03",
       "score": 4
     }
   ]

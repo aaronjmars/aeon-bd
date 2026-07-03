@@ -1,0 +1,281 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "bd-radar 07-03 ⭐🦈",
+        "description": "3 new high-intent leads"
+      },
+      "children": [
+        "container-main"
+      ]
+    },
+    "container-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "lead-1",
+        "sep-1",
+        "lead-2",
+        "sep-2",
+        "lead-3",
+        "sep-3",
+        "escalation-section"
+      ]
+    },
+    "lead-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead1-name",
+        "lead1-desc",
+        "lead1-badges",
+        "lead1-action"
+      ]
+    },
+    "lead1-name": {
+      "type": "Text",
+      "props": {
+        "text": "@CTRL_automation (@daxaur building)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "lead1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Live onchain automation layer that uses Miroshark sims to trigger executions on Base tokens, explicitly powered by @aeonframework."
+      },
+      "children": []
+    },
+    "lead1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1-mcp",
+        "badge1-activity"
+      ]
+    },
+    "badge1-mcp": {
+      "type": "Badge",
+      "props": {
+        "text": "Confirmed MCP partner",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge1-activity": {
+      "type": "Badge",
+      "props": {
+        "text": "Posted today • 12 likes",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "lead1-action": {
+      "type": "Text",
+      "props": {
+        "text": "🎯 DM @daxaur now — ECOSYSTEM.md entry + co-announcement while it's fresh",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "lead-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead2-name",
+        "lead2-builder",
+        "lead2-desc",
+        "lead2-quote",
+        "lead2-signal"
+      ]
+    },
+    "lead2-name": {
+      "type": "Text",
+      "props": {
+        "text": "ryjin111/flakes",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "lead2-builder": {
+      "type": "Text",
+      "props": {
+        "text": "MythosForge (known builder)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "lead2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "New product treating AeonFramework as an external runtime dependency."
+      },
+      "children": []
+    },
+    "lead2-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Agent auto-replies need an external AeonFramework runtime (not wired in this MVP).\"",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "lead2-signal": {
+      "type": "Text",
+      "props": {
+        "text": "💡 Stronger signal than a skill pack — Aeon is the infrastructure layer"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "lead-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead3-name",
+        "lead3-badge",
+        "lead3-desc",
+        "lead3-detail",
+        "lead3-action"
+      ]
+    },
+    "lead3-name": {
+      "type": "Text",
+      "props": {
+        "text": "nu11dotfun/mine-bean",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "lead3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "6★ Base mining protocol",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "lead3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Live on-chain product with dedicated Aeon integration."
+      },
+      "children": []
+    },
+    "lead3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Has app/(agent)/integrations/aeon/page.tsx — dedicated aeon integration page in a live on-chain product.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "lead3-action": {
+      "type": "Text",
+      "props": {
+        "text": "🎯 Open GH comment or DM"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "escalation-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "escalation-heading",
+        "escalation-items"
+      ]
+    },
+    "escalation-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Escalation Watch",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "escalation-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "esc1",
+        "esc2",
+        "esc3",
+        "esc-note"
+      ]
+    },
+    "esc1": {
+      "type": "Text",
+      "props": {
+        "text": "sinfronterasai/aeon (21d) — pushed today"
+      },
+      "children": []
+    },
+    "esc2": {
+      "type": "Text",
+      "props": {
+        "text": "gitlumen-team/aeon.fun — pushed today"
+      },
+      "children": []
+    },
+    "esc3": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-ai-research/MiroShark — pushed today"
+      },
+      "children": []
+    },
+    "esc-note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "All repos pushed today — elevated activity"
+      },
+      "children": []
+    }
+  }
+}
