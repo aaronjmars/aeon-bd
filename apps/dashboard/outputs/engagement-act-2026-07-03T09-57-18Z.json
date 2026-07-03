@@ -1,0 +1,336 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-03"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item1_stack",
+        "sep1",
+        "item2_stack",
+        "sep2",
+        "item3_stack",
+        "sep3",
+        "item4_stack",
+        "sep4",
+        "item5_stack"
+      ]
+    },
+    "item1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1_heading",
+        "item1_desc",
+        "item1_type",
+        "item1_link",
+        "item1_draft"
+      ]
+    },
+    "item1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@CTRL_automation / @daxaur · 0d ago",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "shipped live Miroshark→Aeon cross-product layer; sims gate onchain Base executions; confirmed Aeon MCP partner; double-posted yesterday with shark+robot arm intentional signal",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "item1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/CTRL_automation/status/2072407455477244171",
+        "source": "X"
+      },
+      "children": []
+    },
+    "item1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"sim first, execute after — you're building the exact feedback loop ⭐🦈\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item2_heading",
+        "item2_desc",
+        "item2_type",
+        "item2_link",
+        "item2_draft"
+      ]
+    },
+    "item2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ryjin111/flakes — MythosForge · 0d ago",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "treating AeonFramework as an external runtime dependency (not just a fork); infrastructure-level adoption",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "item2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View repository",
+        "href": "https://github.com/ryjin111/flakes",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "item2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"using aeon as the runtime layer is the right framing — exactly what it was built for. drop into the TG if you want to sync on the roadmap, lots of active builders there: t.me/aeonframework\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item3_heading",
+        "item3_desc",
+        "item3_type",
+        "item3_link",
+        "item3_draft"
+      ]
+    },
+    "item3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "sinfronterasai/aeon · 4d ago",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "21d+ continuous own-content development on aeon fork, pushed again today; same pattern as chxoky, still unreached",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X DM",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "item3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View repository",
+        "href": "https://github.com/sinfronterasai/aeon",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "item3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"hey — noticed you've been building on aeon for 3+ weeks straight, pushed again today. curious what you're working on. drop a link if you want eyes on it.\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item4_heading",
+        "item4_desc",
+        "item4_type",
+        "item4_link",
+        "item4_draft"
+      ]
+    },
+    "item4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "nu11dotfun/mine-bean · 0d ago",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "gamified Base mining protocol shipped /integrations/aeon/ page; 6★, pushed 07-02; fresh concrete integration",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "item4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View repository",
+        "href": "https://github.com/nu11dotfun/mine-bean",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "item4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"saw the /integrations/aeon/ path — what does the integration look like on your end? curious how the mining mechanic maps onto the skill system.\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item5_heading",
+        "item5_desc",
+        "item5_type",
+        "item5_link",
+        "item5_draft"
+      ]
+    },
+    "item5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "roadtogideon222-byte/aeon-cat-studio · 0d ago",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "new building lead from today's bd-radar; building something aeon-powered",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item5_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "item5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View repository",
+        "href": "https://github.com/roadtogideon222-byte/aeon-cat-studio",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "item5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"noticed the fork is active — what's aeon-cat-studio? happy to sync on the architecture if helpful.\"",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,29 +1,26 @@
-*Engagement Act — 2026-07-02*
+*Engagement Act — 2026-07-03*
 
-*1. @tylerbroqs* (0 days ago) — built orlixai.xyz live: "Agentic AI Playground on Base, powered by the Aeon Framework." Co-founder of OrlixAI with @tylerbroqs. Score 15. War-room decide line today.
-link: https://x.com/tylerbroqs (orlixai.xyz)
-type: X DM + X quote-post
-draft DM: "yo — love what you built at orlixai.xyz. aeon-powered agent playground on Base is exactly the ecosystem move we want. want to get you into ECOSYSTEM.md + do a co-announce? lmk."
-draft quote-post: "the ecosystem keeps shipping ⭐ @tylerbroqs built orlixai.xyz — agentic AI playground on Base, powered by @aeonframework. this is what ecosystem-native looks like."
-
-*2. @BranaRakic* (0 days ago) — OriginTrail co-founder publicly called MiroShark their DKG V9 simulation layer: "DKG V9 + MiroShark simulating the future." Biggest web3 org cosign to date.
-link: no link found (flagged in today's mention-radar)
+*1. @CTRL_automation / @daxaur* (0d ago) — shipped live Miroshark→Aeon cross-product layer; sims gate onchain Base executions; confirmed Aeon MCP partner; double-posted yesterday with shark+robot arm intentional signal
+link: https://x.com/CTRL_automation/status/2072407455477244171
 type: X reply
-draft: "this is exactly what 🦈 is for — run 100 agents against your V9 launch, see how the network believes before the market prices it. DKG V9 deserves a proper sim. lfg @OriginTrail"
+draft: "sim first, execute after — you're building the exact feedback loop ⭐🦈"
 
-*3. Jenqyang/Awesome-AI-Agents* (0 days ago) — submitted a PR to add aeon to their Awesome-AI-Agents list. Fresh inbound curation signal.
-link: no link found (flagged in today's mention-radar)
+*2. ryjin111/flakes — MythosForge* (0d ago) — treating AeonFramework as an external runtime dependency (not just a fork); infrastructure-level adoption
+link: https://github.com/ryjin111/flakes
 type: GitHub comment
-draft: "appreciate the PR. aeon fits — skills-as-markdown on GitHub Actions, cron-driven, self-repairing. every run is public on github so you can verify it actually works. ⭐"
+draft: "using aeon as the runtime layer is the right framing — exactly what it was built for. drop into the TG if you want to sync on the roadmap, lots of active builders there: t.me/aeonframework"
 
-*4. bradAGI/awesome-cli-coding-agents* (3 days ago) — new curation update Jun 29 (distinct from Jun 22 entry actioned Jun 28). Added aeon to curated CLI coding agents list.
-link: no link found (flagged in today's mention-radar as curation Jun 29)
-type: GitHub comment
-draft: "appreciated the update — aeon is the CLI-native autonomous agent framework: skills-as-markdown, cron on GHA, self-repairing. runs unattended, public traces. solid list ⭐"
-
-*5. @chxoky* (aging — 25+ days) — most significant unreached aeon builder. 50,820 bytes own content, 25+ days continuous commits. DM drafted 07-01 but still flagged overdue.
-link: https://github.com/chxoky/aeon
+*3. sinfronterasai/aeon* (4d ago) — 21d+ continuous own-content development on aeon fork, pushed again today; same pattern as chxoky, still unreached
+link: https://github.com/sinfronterasai/aeon
 type: X DM
-draft: "hey — you've been building something real on aeon for 25 days straight. 50k bytes of own commits. nobody's done that. curious what you're cooking — DM open."
+draft: "hey — noticed you've been building on aeon for 3+ weeks straight, pushed again today. curious what you're working on. drop a link if you want eyes on it."
 
-some opps aging — act or drop (@chxoky 25d+)
+*4. nu11dotfun/mine-bean* (0d ago) — gamified Base mining protocol shipped /integrations/aeon/ page; 6★, pushed 07-02; fresh concrete integration
+link: https://github.com/nu11dotfun/mine-bean
+type: GitHub comment
+draft: "saw the /integrations/aeon/ path — what does the integration look like on your end? curious how the mining mechanic maps onto the skill system."
+
+*5. roadtogideon222-byte/aeon-cat-studio* (0d ago) — new building lead from today's bd-radar; building something aeon-powered
+link: https://github.com/roadtogideon222-byte/aeon-cat-studio
+type: GitHub comment
+draft: "noticed the fork is active — what's aeon-cat-studio? happy to sync on the architecture if helpful."
