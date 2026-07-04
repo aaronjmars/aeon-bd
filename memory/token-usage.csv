@@ -152,4 +152,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-03,fetch-tweets,claude-sonnet-4-6,3686,5559,679864,63496
 2026-07-03,idea-validator,claude-opus-4-8,3660,16643,972819,113947
 2026-07-04,bd-radar,claude-sonnet-4-6,28,19598,1906908,68760
-2026-07-04,heartbeat,claude-sonnet-4-6,9,9184,366417,44824
+2026-07-04,war-room,claude-opus-4-8,2235,9159,837881,58073

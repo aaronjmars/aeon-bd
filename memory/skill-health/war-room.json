@@ -1,12 +1,10 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-03T07:51:46Z",
-  "quality_score": 4,
-  "assessment": "Adapted intelligently to degraded upstream (product-pulse cron dark 8d); delivered substantive brief with live-verified data, clear diagnostics, and actionable signal for decision-makers.",
-  "flags": [
-    "stale_data"
-  ],
-  "avg_score": 4.04,
+  "last_analyzed": "2026-07-04T08:21:44Z",
+  "quality_score": 5,
+  "assessment": "Excellent execution — adapted when upstream was stale (product-pulse), delivered fresh metrics via spot-check, flagged specific BD targets with warm context, identified actionable next move (post), and surfaced operational issue.",
+  "flags": [],
+  "avg_score": 4.08,
   "history": [
     {
       "date": "2026-06-11",
@@ -99,6 +97,10 @@
     {
       "date": "2026-07-03",
       "score": 4
+    },
+    {
+      "date": "2026-07-04",
+      "score": 5
     }
   ]
 }

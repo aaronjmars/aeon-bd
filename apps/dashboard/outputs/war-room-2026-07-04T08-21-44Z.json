@@ -1,0 +1,476 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room",
+        "description": "2026-07-04"
+      },
+      "children": [
+        "state-section",
+        "sep1",
+        "talk-to-section",
+        "sep2",
+        "decide-section",
+        "sep3",
+        "sources-section"
+      ]
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-heading",
+        "status-badges",
+        "stats-container",
+        "state-note"
+      ]
+    },
+    "state-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "status-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-aeon-green",
+        "badge-miroshark-green",
+        "badge-shipped"
+      ]
+    },
+    "badge-aeon-green": {
+      "type": "Badge",
+      "props": {
+        "text": "Aeon ✓ Green",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-miroshark-green": {
+      "type": "Badge",
+      "props": {
+        "text": "Miroshark ✓ Green",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-shipped": {
+      "type": "Badge",
+      "props": {
+        "text": "Both Shipped Yesterday",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stats-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-aeon",
+        "stat-miroshark"
+      ]
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "565",
+        "delta": "+16 (since 06-25)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1354",
+        "delta": "+21 (since 06-25)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "state-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Live spot-check",
+        "message": "Product-pulse hasn't fired in 9 days — worth a poke.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "talk-to-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk-to-heading",
+        "leads-table"
+      ]
+    },
+    "talk-to-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "leads-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Name",
+          "Stars",
+          "Score",
+          "Description",
+          "Action"
+        ],
+        "rows": [
+          [
+            "truthlayer",
+            "65",
+            "12",
+            "polymarket/kalshi arb scanner. Already wired miroshark into DB (miroshark_sim_id migration + routes). Warmest handshake in the stack.",
+            "Open issue + TG invite today"
+          ],
+          [
+            "swarm-ai-research",
+            "35",
+            "15",
+            "Org running peer-reviewed miroshark studies.",
+            "DM, offer hosted endpoint"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "decide-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide-heading",
+        "density-insight",
+        "ecosystem-stats",
+        "decide-action"
+      ]
+    },
+    "decide-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "density-insight": {
+      "type": "Text",
+      "props": {
+        "text": "The density is the story.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "ecosystem-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-integrations",
+        "stat-skill-packs",
+        "stat-x402-billing",
+        "ecosystem-assessment"
+      ]
+    },
+    "stat-integrations": {
+      "type": "Stat",
+      "props": {
+        "label": "Production miroshark integrations (48h)",
+        "value": "3",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-skill-packs": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon skill packs",
+        "value": "8",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-x402-billing": {
+      "type": "Text",
+      "props": {
+        "text": "First x402-billed pack: AntFleet"
+      },
+      "children": []
+    },
+    "ecosystem-assessment": {
+      "type": "Text",
+      "props": {
+        "text": "That's an ecosystem, not noise."
+      },
+      "children": []
+    },
+    "decide-action": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action-text",
+        "followup-text",
+        "compound-text"
+      ]
+    },
+    "action-text": {
+      "type": "Text",
+      "props": {
+        "text": "Ship one ⭐🦈 post naming the builders — DMs are the follow-up."
+      },
+      "children": []
+    },
+    "followup-text": {
+      "type": "Badge",
+      "props": {
+        "text": "Public traces compound",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "compound-text": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources-heading",
+        "bd-radar-subsection",
+        "product-pulse-subsection",
+        "mention-radar-subsection",
+        "no-activity-note"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "bd-radar-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bd-radar-title",
+        "bd-radar-summary",
+        "bd-radar-link"
+      ]
+    },
+    "bd-radar-title": {
+      "type": "Heading",
+      "props": {
+        "text": "bd-radar (fresh, today)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "bd-radar-summary": {
+      "type": "Text",
+      "props": {
+        "text": "10 leads total: 9 building, 1 integrating. Top leads: truthlayer (65★, integrating, score 12), swarm-ai-research (35★, building, score 15), LiamVisionary/hivemindos (7★, full REST integration). x402-native billing first confirmed via AntFleet/aeon-skills."
+      },
+      "children": []
+    },
+    "bd-radar-link": {
+      "type": "Link",
+      "props": {
+        "label": "articles/bd-radar-2026-07-04.md",
+        "href": "articles/bd-radar-2026-07-04.md"
+      },
+      "children": []
+    },
+    "product-pulse-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "product-pulse-title",
+        "product-pulse-alert",
+        "product-pulse-details",
+        "product-pulse-links"
+      ]
+    },
+    "product-pulse-title": {
+      "type": "Heading",
+      "props": {
+        "text": "product-pulse",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "product-pulse-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Stale — Did not run today",
+        "message": "Last run: 2026-06-25 (9 days). STATE block above is live gh api spot-check, not full pulse sweep. Workflow may be down.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "product-pulse-details": {
+      "type": "Text",
+      "props": {
+        "text": "Live spot-check (aeon 565★/201f, miroshark 1354★/285f, both pushed 2026-07-03)"
+      },
+      "children": []
+    },
+    "product-pulse-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "product-pulse-state-link",
+        "product-pulse-output-link"
+      ]
+    },
+    "product-pulse-state-link": {
+      "type": "Link",
+      "props": {
+        "label": "State file",
+        "href": "memory/topics/product-pulse-state.json"
+      },
+      "children": []
+    },
+    "product-pulse-output-link": {
+      "type": "Link",
+      "props": {
+        "label": "Output",
+        "href": ".outputs/product-pulse.md"
+      },
+      "children": []
+    },
+    "mention-radar-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention-radar-title",
+        "mention-items-list"
+      ]
+    },
+    "mention-radar-title": {
+      "type": "Heading",
+      "props": {
+        "text": "mention-radar (fresh, today)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "mention-items-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention-item-aeon-city",
+        "mention-item-github-fork"
+      ]
+    },
+    "mention-item-aeon-city": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon City",
+        "href": "https://aeoncity.fun",
+        "source": "mention-radar",
+        "score": "Third-party 3D explorer: 66 residents, 70 projects"
+      },
+      "children": []
+    },
+    "mention-item-github-fork": {
+      "type": "StoryLink",
+      "props": {
+        "title": "praxstack/aaronjmars-MiroShark",
+        "href": "https://github.com/praxstack/aaronjmars-MiroShark",
+        "source": "mention-radar",
+        "score": "Forked by ex-Amazon SDE @synarch-ai"
+      },
+      "children": []
+    },
+    "no-activity-note": {
+      "type": "Text",
+      "props": {
+        "text": "No fresh sim-watch / idea-forge within 7 days.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
