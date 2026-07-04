@@ -1,0 +1,105 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_"
+      },
+      "children": [
+        "meta_date",
+        "meta_summary",
+        "separator_1",
+        "section_signal",
+        "tweet_1",
+        "metrics_1",
+        "link_1",
+        "separator_2",
+        "section_organic",
+        "tweet_2",
+        "metrics_2",
+        "link_2"
+      ]
+    },
+    "meta_date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-04",
+        "variant": "caption"
+      }
+    },
+    "meta_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet July 4th — both products top gainers + most traded on Bankr; Grok differentiator landing organically."
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "section_signal": {
+      "type": "Heading",
+      "props": {
+        "text": "Token/Market Signal",
+        "level": "h3"
+      }
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "text": "$AEON + $MIROSHARK appearing as top gainers AND most traded on Bankr's 24h overview simultaneously — both products on the leaderboard at once.",
+        "likes": 25,
+        "retweets": 2
+      }
+    },
+    "metrics_1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2073157334751436818"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "section_organic": {
+      "type": "Heading",
+      "props": {
+        "text": "Community Organic",
+        "level": "h3"
+      }
+    },
+    "tweet_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "EternalEila",
+        "text": "Organic user calls out the Grok connection as what makes Aeon stand out — the differentiator is registering.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "metrics_2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link_2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/EternalEila/status/2073186883967045725"
+      }
+    }
+  }
+}
