@@ -1,0 +1,538 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-04"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item-1",
+        "sep-1",
+        "item-2",
+        "sep-2",
+        "item-3",
+        "sep-3",
+        "item-4",
+        "sep-4",
+        "item-5"
+      ]
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1-header",
+        "item-1-meta",
+        "item-1-desc",
+        "item-1-link",
+        "item-1-draft"
+      ]
+    },
+    "item-1-header": {
+      "type": "Heading",
+      "props": {
+        "text": "rohanthomas1202/truthlayer",
+        "level": "h3"
+      }
+    },
+    "item-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item-1-time",
+        "item-1-star",
+        "item-1-type"
+      ]
+    },
+    "item-1-time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "item-1-star": {
+      "type": "Badge",
+      "props": {
+        "text": "65★",
+        "variant": "outline"
+      }
+    },
+    "item-1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "item-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket/Kalshi arb scanner with deep MiroShark API integration (routes + service + DB migration). War-room's warmest handshake."
+      }
+    },
+    "item-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on GitHub",
+        "href": "https://github.com/rohanthomas1202/truthlayer"
+      }
+    },
+    "item-1-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "item-1-draft-label",
+        "item-1-draft-text"
+      ]
+    },
+    "item-1-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "muted"
+      }
+    },
+    "item-1-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "this is exactly the wedge — sim before you bet, not after. one of the most production-grade miro integrations we've seen. if you want to get this in front of the miroshark community, drop it in the TG. happy to amplify 🦈"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-2-header",
+        "item-2-meta",
+        "item-2-desc",
+        "item-2-link",
+        "item-2-draft"
+      ]
+    },
+    "item-2-header": {
+      "type": "Heading",
+      "props": {
+        "text": "swarm-ai-research/swarm",
+        "level": "h3"
+      }
+    },
+    "item-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item-2-time",
+        "item-2-star",
+        "item-2-type",
+        "item-2-push"
+      ]
+    },
+    "item-2-time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "item-2-star": {
+      "type": "Badge",
+      "props": {
+        "text": "35★",
+        "variant": "outline"
+      }
+    },
+    "item-2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "item-2-push": {
+      "type": "Text",
+      "props": {
+        "text": "pushed 07-02",
+        "variant": "caption"
+      }
+    },
+    "item-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Research org running peer-reviewed MiroShark studies and publishing research blogs."
+      }
+    },
+    "item-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on GitHub",
+        "href": "https://github.com/swarm-ai-research/swarm"
+      }
+    },
+    "item-2-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "item-2-draft-label",
+        "item-2-draft-text"
+      ]
+    },
+    "item-2-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "muted"
+      }
+    },
+    "item-2-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "peer-reviewed miroshark research is exactly what the category needs. what's the current study? would love to feature this in the weekly curation — this is the kind of work that moves the whole ecosystem forward 🦈"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-3-header",
+        "item-3-meta",
+        "item-3-note",
+        "item-3-desc",
+        "item-3-link",
+        "item-3-stats",
+        "item-3-draft"
+      ]
+    },
+    "item-3-header": {
+      "type": "Heading",
+      "props": {
+        "text": "@aeoncityhub",
+        "level": "h3"
+      }
+    },
+    "item-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item-3-time",
+        "item-3-type"
+      ]
+    },
+    "item-3-time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "item-3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "item-3-note": {
+      "type": "Alert",
+      "props": {
+        "message": "Not previously logged — fresh find from mention radar",
+        "type": "info"
+      }
+    },
+    "item-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Independently built aeoncity.fun: 3D explorer of the Aeon ecosystem."
+      }
+    },
+    "item-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Visit aeoncity.fun",
+        "href": "https://aeoncity.fun"
+      }
+    },
+    "item-3-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "item-3-residents",
+        "item-3-projects"
+      ]
+    },
+    "item-3-residents": {
+      "type": "Stat",
+      "props": {
+        "label": "Residents",
+        "value": "66"
+      }
+    },
+    "item-3-projects": {
+      "type": "Stat",
+      "props": {
+        "label": "Projects",
+        "value": "70+"
+      }
+    },
+    "item-3-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "item-3-draft-label",
+        "item-3-draft-text"
+      ]
+    },
+    "item-3-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "muted"
+      }
+    },
+    "item-3-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "this is insane. independently built a whole 3D ecosystem explorer for aeon — 66 residents, 70+ projects. that's more complete than anything we've built ourselves. few. ⭐"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-4-header",
+        "item-4-meta",
+        "item-4-desc",
+        "item-4-link",
+        "item-4-draft"
+      ]
+    },
+    "item-4-header": {
+      "type": "Heading",
+      "props": {
+        "text": "LiamVisionary/hivemindos",
+        "level": "h3"
+      }
+    },
+    "item-4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item-4-time",
+        "item-4-star",
+        "item-4-type",
+        "item-4-push"
+      ]
+    },
+    "item-4-time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "item-4-star": {
+      "type": "Badge",
+      "props": {
+        "text": "7★",
+        "variant": "outline"
+      }
+    },
+    "item-4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "item-4-push": {
+      "type": "Text",
+      "props": {
+        "text": "pushed 07-03",
+        "variant": "caption"
+      }
+    },
+    "item-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Full MiroShark REST integration in an agent collaboration dashboard."
+      }
+    },
+    "item-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on GitHub",
+        "href": "https://github.com/LiamVisionary/hivemindos"
+      }
+    },
+    "item-4-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "item-4-draft-label",
+        "item-4-draft-text"
+      ]
+    },
+    "item-4-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "muted"
+      }
+    },
+    "item-4-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "building an agent collaboration layer on top of miroshark is exactly the use case — swarm argues before the group commits. if you want live sim data or a feature shoutout, hit the miroshark TG. solid work 🦈"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-5-header",
+        "item-5-meta",
+        "item-5-desc",
+        "item-5-draft"
+      ]
+    },
+    "item-5-header": {
+      "type": "Heading",
+      "props": {
+        "text": "@ByteByByteSrSDE",
+        "level": "h3"
+      }
+    },
+    "item-5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item-5-time",
+        "item-5-type"
+      ]
+    },
+    "item-5-time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "item-5-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "item-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Ex-Amazon SDE at @synarch-ai, forked MiroShark today (03:07 UTC). Infrastructure-minded builder."
+      }
+    },
+    "item-5-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "item-5-draft-label",
+        "item-5-draft-text"
+      ]
+    },
+    "item-5-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "muted"
+      }
+    },
+    "item-5-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "welcome 🦈 ex-amazon infra mind in the miroshark ecosystem is exactly what we need. what are you simulating? happy to support and amplify."
+      }
+    }
+  }
+}
