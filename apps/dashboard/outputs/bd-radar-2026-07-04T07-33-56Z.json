@@ -1,0 +1,191 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "bd-radar 07-04"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "headline",
+        "sep1",
+        "section_miroshark_title",
+        "stack_miroshark_items",
+        "sep2",
+        "section_aeon_title",
+        "stack_aeon_items",
+        "sep3",
+        "section_moves_title",
+        "stack_moves"
+      ]
+    },
+    "headline": {
+      "type": "Heading",
+      "props": {
+        "text": "9 new building leads, 3 are shipping production integrations ⭐🦈",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_miroshark_title": {
+      "type": "Heading",
+      "props": {
+        "text": "MiroShark integrations (3)",
+        "level": "h3"
+      }
+    },
+    "stack_miroshark_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark_1",
+        "miroshark_2",
+        "miroshark_3"
+      ]
+    },
+    "miroshark_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "swarm-ai-research/swarm",
+        "href": "https://github.com/swarm-ai-research/swarm",
+        "source": "35★ research org",
+        "score": "Running peer-reviewed multi-seed MiroShark studies + publishing results"
+      }
+    },
+    "miroshark_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "LiamVisionary/hivemindos",
+        "href": "https://github.com/LiamVisionary/hivemindos",
+        "score": "Agent collaboration dashboard with full REST integration — 5 endpoints, TS types, user docs"
+      }
+    },
+    "miroshark_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "rohanthomas1202/truthlayer",
+        "href": "https://github.com/rohanthomas1202/truthlayer",
+        "source": "65★",
+        "score": "Polymarket/Kalshi arb scanner, added `miroshark_sim_id` to their DB"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_aeon_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon integrations (5)",
+        "level": "h3"
+      }
+    },
+    "stack_aeon_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon_1",
+        "aeon_2",
+        "aeon_3",
+        "aeon_4",
+        "aeon_5"
+      ]
+    },
+    "aeon_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "clawhunter",
+        "href": "https://github.com/clawhunter",
+        "score": "Actively building a named skill pack (branch `add-clawhunter-pack`, pushed today)"
+      }
+    },
+    "aeon_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mnemedb",
+        "href": "https://github.com/mnemedb",
+        "score": "Shipped a persistent memory layer (vector search + graph + Base streams, 8 drop-in skills)"
+      }
+    },
+    "aeon_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AntFleet",
+        "href": "https://github.com/AntFleet",
+        "score": "Wired x402 USDC billing into PR-review skills (first native x402-billed skill pack)"
+      }
+    },
+    "aeon_4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SpartanLabsXyz",
+        "href": "https://github.com/SpartanLabsXyz",
+        "score": "Dropped a Polymarket trader skill pack"
+      }
+    },
+    "aeon_5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "codexvritra/signa-skills",
+        "href": "https://github.com/codexvritra/signa-skills",
+        "score": "Ships a 10-skill suite crossing Aeon + MiroShark + Bankr in one install"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_moves_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Next moves",
+        "level": "h3"
+      }
+    },
+    "stack_moves": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "move_1",
+        "move_2"
+      ]
+    },
+    "move_1": {
+      "type": "Text",
+      "props": {
+        "text": "DM swarm-ai-research (research wedge)",
+        "variant": "body"
+      }
+    },
+    "move_2": {
+      "type": "Text",
+      "props": {
+        "text": "Open issue on truthlayer (65★, already integrated, warmest handshake) today",
+        "variant": "body"
+      }
+    }
+  }
+}

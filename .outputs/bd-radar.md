@@ -1,9 +1,3 @@
-**bd-radar 07-03 ⭐🦈** — 3 new high-intent leads
+**bd-radar 07-04 — 9 new building leads, 3 are shipping production integrations ⭐🦈**
 
-**@CTRL_automation** (@daxaur building) — live onchain automation layer that uses Miroshark sims to trigger executions on Base tokens, explicitly powered by @aeonframework. confirmed MCP partner, posted today, 12 likes. DM @daxaur now — ECOSYSTEM.md entry + co-announcement while it's fresh.
-
-**ryjin111/flakes** (MythosForge, known builder) — new product treating AeonFramework as an *external runtime dependency*. "Agent auto-replies need an external AeonFramework runtime (not wired in this MVP)." that's a stronger signal than a skill pack — aeon is the infrastructure layer.
-
-**nu11dotfun/mine-bean** (6★ Base mining protocol) — has `app/(agent)/integrations/aeon/page.tsx`. dedicated aeon integration page in a live on-chain product. open GH comment or DM.
-
-escalation watch: sinfronterasai/aeon (21d), gitlumen-team/aeon.fun, swarm-ai-research/MiroShark — all pushed today.
+`gh search code "miroshark"` surfaced three orgs that wired MiroShark into real products in the last 48h: **swarm-ai-research/swarm** (35★ research org, running peer-reviewed multi-seed MiroShark studies + publishing results), **LiamVisionary/hivemindos** (agent collaboration dashboard with full REST integration — 5 endpoints, TS types, user docs), **rohanthomas1202/truthlayer** (65★ Polymarket/Kalshi arb scanner, added `miroshark_sim_id` to their DB). On Aeon: **clawhunter** is actively building a named skill pack (branch `add-clawhunter-pack`, pushed today), **mnemedb** shipped a persistent memory layer (vector search + graph + Base streams, 8 drop-in skills), **AntFleet** wired x402 USDC billing into PR-review skills (first native x402-billed skill pack), **SpartanLabsXyz** dropped a Polymarket trader skill pack, **codexvritra/signa-skills** ships a 10-skill suite crossing Aeon + MiroShark + Bankr in one install. Move: DM swarm-ai-research (research wedge) + open issue on truthlayer (65★, already integrated, warmest handshake) today.
