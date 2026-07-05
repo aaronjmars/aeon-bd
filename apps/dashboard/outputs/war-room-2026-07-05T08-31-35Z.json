@@ -1,0 +1,275 @@
+{
+  "root": "card-war-room",
+  "state": {},
+  "elements": {
+    "card-war-room": {
+      "type": "Card",
+      "props": {
+        "title": "War Room — 2026-07-05"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-heading",
+        "state-products",
+        "aeon-stat",
+        "miroshark-stat",
+        "state-pushed",
+        "red-flag",
+        "sep-1",
+        "talk-heading",
+        "tweet-liam",
+        "liam-context",
+        "liam-action",
+        "sep-2",
+        "decide-heading",
+        "decide-rationale",
+        "draft-subheading",
+        "draft-text",
+        "sep-3",
+        "appendix-heading",
+        "bd-radar-block",
+        "product-pulse-block",
+        "sim-watch-block",
+        "idea-forge-block"
+      ]
+    },
+    "state-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "state-products": {
+      "type": "Text",
+      "props": {
+        "text": "products green — both pushed 2026-07-03"
+      }
+    },
+    "aeon-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "567★",
+        "delta": "+18",
+        "trend": "up"
+      }
+    },
+    "miroshark-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1355★",
+        "delta": "+22",
+        "trend": "up"
+      }
+    },
+    "state-pushed": {
+      "type": "Text",
+      "props": {
+        "text": "(since the last real pulse)",
+        "variant": "caption"
+      }
+    },
+    "red-flag": {
+      "type": "Alert",
+      "props": {
+        "title": "Red Flag",
+        "message": "product-pulse still hasn't fired in 10 days — numbers above are a live gh spot-check, not the sweep. The schedule's down, needs a poke.",
+        "type": "warning"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "tweet-liam": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@0xLiamVisionary",
+        "handle": "0xLiamVisionary",
+        "text": "publicly named aeon + miroshark \"serious builders\" for hivemindos",
+        "likes": 50,
+        "retweets": 12
+      }
+    },
+    "liam-context": {
+      "type": "Text",
+      "props": {
+        "text": "Only new lead today, and it's free validation.",
+        "variant": "caption"
+      }
+    },
+    "liam-action": {
+      "type": "Text",
+      "props": {
+        "text": "Reply visibly from @aeonframework",
+        "variant": "lead"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "decide-rationale": {
+      "type": "Text",
+      "props": {
+        "text": "Bank the free validation. One visible reply to Liam today — someone vouched in public, respond in public, it compounds."
+      }
+    },
+    "draft-subheading": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft Reply",
+        "level": "h3"
+      }
+    },
+    "draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "🤝 hivemindos is the good kind of build — real integration, not a fork w/ the readme swapped. serious builders. ⭐🦈",
+        "variant": "lead"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "appendix-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      }
+    },
+    "bd-radar-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bd-radar-title",
+        "bd-radar-text"
+      ]
+    },
+    "bd-radar-title": {
+      "type": "Heading",
+      "props": {
+        "text": "bd-radar (fresh, today)",
+        "level": "h3"
+      }
+    },
+    "bd-radar-text": {
+      "type": "Text",
+      "props": {
+        "text": "articles/bd-radar-2026-07-05.md — 1 new lead (@0xLiamVisionary, mentioning/expanding: public shoutout naming both products \"serious builders\" for @TheHivemindOS, 50 likes / 12 rt). Everything else already caught in the dense 07-03/07-04 sweep (11 + 14 new). Active pipeline still warm: truthlayer (65★, integrating), swarm-ai-research (research org), NovaShoal-Swarm-Sim (151★), microchipgnu/x402 catalog — all engaged 07-04, no re-poke.",
+        "variant": "body"
+      }
+    },
+    "product-pulse-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "product-pulse-title",
+        "product-pulse-text"
+      ]
+    },
+    "product-pulse-title": {
+      "type": "Heading",
+      "props": {
+        "text": "product-pulse",
+        "level": "h3"
+      }
+    },
+    "product-pulse-text": {
+      "type": "Text",
+      "props": {
+        "text": "DID NOT RUN. product-pulse-state.json last_run = 2026-06-25 (10 days stale). STATE block is a live gh api spot-check: aeon 567★/201f, miroshark 1355★/286f, both pushed 2026-07-03. → operational flag persists (also raised 07-04): the product-pulse schedule looks down — check the workflow.",
+        "variant": "body"
+      }
+    },
+    "sim-watch-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sim-watch-title",
+        "sim-watch-text"
+      ]
+    },
+    "sim-watch-title": {
+      "type": "Heading",
+      "props": {
+        "text": "sim-watch (fresh, 06-28, within 7d)",
+        "level": "h3"
+      }
+    },
+    "sim-watch-text": {
+      "type": "Text",
+      "props": {
+        "text": "top verdict counter — AMEVA Dead Internet Theatre (same conceptual loop, miroshark 10x ahead on scale + integration; LPDE personality tensor worth copying). World-model validation wave (Genie 3 / GWM-1) — \"simulation is the missing layer\" now said by LeCun + DeepMind, ride it in positioning.",
+        "variant": "body"
+      }
+    },
+    "idea-forge-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "idea-forge-title",
+        "idea-forge-text"
+      ]
+    },
+    "idea-forge-title": {
+      "type": "Heading",
+      "props": {
+        "text": "idea-forge (fresh, 07-01, within 7d)",
+        "level": "h3"
+      }
+    },
+    "idea-forge-text": {
+      "type": "Text",
+      "props": {
+        "text": "top wedge model-mirror (🦈) — ride Emergence World's viral category-proof with a grounded 10-min cross-model sim. Window was cresting 4 days ago; if we ride it, it's now-or-gone. arena-pack / arena-oracle queued behind Meta Arena's PM launch.",
+        "variant": "body"
+      }
+    }
+  }
+}

@@ -1,9 +1,12 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-04T08:21:44Z",
-  "quality_score": 5,
-  "assessment": "Excellent execution — adapted when upstream was stale (product-pulse), delivered fresh metrics via spot-check, flagged specific BD targets with warm context, identified actionable next move (post), and surfaced operational issue.",
-  "flags": [],
+  "last_analyzed": "2026-07-05T08:31:35Z",
+  "quality_score": 4,
+  "assessment": "Good execution — adaptive when product-pulse failed, substantive BD signal surfaced (Liam lead), voice-matched copy drafted, actionable follow-ups; pulse degradation and truncated output prevent 5.",
+  "flags": [
+    "operational_degradation",
+    "stale_data"
+  ],
   "avg_score": 4.08,
   "history": [
     {
@@ -101,6 +104,10 @@
     {
       "date": "2026-07-04",
       "score": 5
+    },
+    {
+      "date": "2026-07-05",
+      "score": 4
     }
   ]
 }
