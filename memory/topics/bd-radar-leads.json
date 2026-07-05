@@ -1840,6 +1840,14 @@
       "link": "https://x.com/trillhause_/status/2071926431706189913",
       "source": "xai_x",
       "move": "Reply to thread with the fleet-watcher + pool-runner architecture — convert the question into a TG invite"
+    },
+    {
+      "key": "x:0xLiamVisionary",
+      "class": "mentioning",
+      "who": "@0xLiamVisionary (HivemindOS)",
+      "signal": "Public post endorsing both aeon+miroshark integrations July 4, 50L+12RT",
+      "date": "2026-07-05",
+      "score": 6
     }
   ],
   "surfaced": [
@@ -2052,6 +2060,7 @@
     "github:usephylax/aeon",
     "github:dan-and/MiroShark",
     "github:stefrogovskyi/aeon",
-    "github:anondevv69/bankr-space-aeon"
+    "github:anondevv69/bankr-space-aeon",
+    "x:0xLiamVisionary"
   ]
 }
