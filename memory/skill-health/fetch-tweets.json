@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-04T17:30:16Z",
-  "quality_score": 4,
-  "assessment": "Good — skill found specific signals (products as top gainers/most traded, organic Grok mention), provided engagement metrics, updated memory correctly, structured clearly for decision-making",
+  "last_analyzed": "2026-07-05T17:24:17Z",
+  "quality_score": 3,
+  "assessment": "Competent execution with clear methodology and proper state management, but signal quality is thin (2/10 candidates; one integration mention and speculative valuation claim)",
   "flags": [],
-  "avg_score": 3.65,
+  "avg_score": 3.63,
   "history": [
     {
       "date": "2026-06-12",
@@ -97,6 +97,10 @@
     {
       "date": "2026-07-04",
       "score": 4
+    },
+    {
+      "date": "2026-07-05",
+      "score": 3
     }
   ]
 }

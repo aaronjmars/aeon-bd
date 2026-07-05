@@ -1,0 +1,140 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-07-05)"
+      },
+      "children": [
+        "summary_text",
+        "separator_1",
+        "section_builder",
+        "separator_2",
+        "section_community"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Thin day — one builder publicly stacking both products in an integration thread (60 likes); everything else is generic encouragement under 5 engagement.",
+        "variant": "muted"
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "section_builder": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_builder",
+        "tweet_1_container"
+      ]
+    },
+    "heading_builder": {
+      "type": "Heading",
+      "props": {
+        "text": "Builder integration",
+        "level": "h3"
+      }
+    },
+    "tweet_1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_1",
+        "tweet_1_engagement",
+        "tweet_1_link"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xLiamVisionary",
+        "handle": "0xLiamVisionary",
+        "text": "Stacked @miroshark_ + @aeonframework in a multi-agent integration list alongside bankr, Veildotcash, AskVenice, ClawBankHQ — framing both as \"serious builders with real passion.\" First public vouching that links the two products as a bundle.",
+        "likes": 60,
+        "retweets": 12
+      }
+    },
+    "tweet_1_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 6",
+        "variant": "caption"
+      }
+    },
+    "tweet_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xLiamVisionary/status/2073475304488911251"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "section_community": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_community",
+        "tweet_2_container"
+      ]
+    },
+    "heading_community": {
+      "type": "Heading",
+      "props": {
+        "text": "Community signal",
+        "level": "h3"
+      }
+    },
+    "tweet_2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_2",
+        "tweet_2_engagement",
+        "tweet_2_link"
+      ]
+    },
+    "tweet_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bitcoindragon28",
+        "handle": "bitcoindragon28",
+        "text": "Calls for marketing to match the shipping pace; pegs the project at 100M marketcap potential — first public holder pushing back on the build-first cadence.",
+        "likes": 2,
+        "retweets": 0
+      }
+    },
+    "tweet_2_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bitcoindragon28/status/2073775654978695240"
+      }
+    }
+  }
+}
