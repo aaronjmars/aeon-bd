@@ -1,3 +1,17 @@
-**bd-radar 07-04 — 9 new building leads, 3 are shipping production integrations ⭐🦈**
+That's fine — it was untracked, not staged. It'll stay as an untracked file. Done.
 
-`gh search code "miroshark"` surfaced three orgs that wired MiroShark into real products in the last 48h: **swarm-ai-research/swarm** (35★ research org, running peer-reviewed multi-seed MiroShark studies + publishing results), **LiamVisionary/hivemindos** (agent collaboration dashboard with full REST integration — 5 endpoints, TS types, user docs), **rohanthomas1202/truthlayer** (65★ Polymarket/Kalshi arb scanner, added `miroshark_sim_id` to their DB). On Aeon: **clawhunter** is actively building a named skill pack (branch `add-clawhunter-pack`, pushed today), **mnemedb** shipped a persistent memory layer (vector search + graph + Base streams, 8 drop-in skills), **AntFleet** wired x402 USDC billing into PR-review skills (first native x402-billed skill pack), **SpartanLabsXyz** dropped a Polymarket trader skill pack, **codexvritra/signa-skills** ships a 10-skill suite crossing Aeon + MiroShark + Bankr in one install. Move: DM swarm-ai-research (research wedge) + open issue on truthlayer (65★, already integrated, warmest handshake) today.
+---
+
+## Summary
+
+**bd-radar ran clean today.** The radar has matured — 211 unique leads surfaced across 15 daily runs.
+
+**Today: 1 new lead**
+
+| Class | Who | Signal | Move |
+|-------|-----|--------|------|
+| `mentioning` *(expanding)* | [@0xLiamVisionary](https://x.com/0xLiamVisionary/status/2073475304488911251) | July 4 post explicitly crediting @miroshark_ + @aeonframework as "serious builders" integrated into @TheHivemindOS. 50 likes + 12 reposts. | Reply from @aeonframework with a 🤝 — public endorsement from a known ecosystem builder compounds credibility for both products |
+
+**No new building or integrating leads → no notification sent.** (The dense July 3–4 pipeline — NovaShoal-Swarm-Sim, swarm-ai-research, LiamVisionary/hivemindos, truthlayer, microchipgnu x402 catalog — was already surfaced and engagement-act is in flight on those.)
+
+Files written: `articles/bd-radar-2026-07-05.md`, `memory/logs/2026-07-05.md`, `memory/topics/bd-radar-leads.json` (211 surfaced, 150 leads).
