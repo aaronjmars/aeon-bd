@@ -1,26 +1,23 @@
-*Engagement Act — 2026-07-04*
+*Engagement Act — 2026-07-05*
 
-*1. rohanthomas1202/truthlayer* (0 days ago) — 65★ Polymarket/Kalshi arb scanner with deep MiroShark API integration (routes + service + DB migration). War-room's warmest handshake.
-link: https://github.com/rohanthomas1202/truthlayer
-type: GitHub comment
-draft: "this is exactly the wedge — sim before you bet, not after. one of the most production-grade miro integrations we've seen. if you want to get this in front of the miroshark community, drop it in the TG. happy to amplify 🦈"
-
-*2. swarm-ai-research/swarm* (0 days ago) — research org running peer-reviewed MiroShark studies + publishing research blogs; 35★, pushed 07-02.
-link: https://github.com/swarm-ai-research/swarm
-type: GitHub comment
-draft: "peer-reviewed miroshark research is exactly what the category needs. what's the current study? would love to feature this in the weekly curation — this is the kind of work that moves the whole ecosystem forward 🦈"
-
-*3. @aeoncityhub* (0 days ago) — independently built aeoncity.fun: 3D explorer of the Aeon ecosystem, 66 residents, 70+ projects. Not previously logged — fresh find from mention radar.
-link: no link found (aeoncity.fun)
+*1. @0xLiamVisionary* (1 day ago) — July 4 public tweet crediting @aeonframework + @miroshark_ as "serious builders" integrated into @TheHivemindOS (50L / 12RT)
+link: no link found (July 4 post, x:0xLiamVisionary)
 type: X reply
-draft: "this is insane. independently built a whole 3D ecosystem explorer for aeon — 66 residents, 70+ projects. that's more complete than anything we've built ourselves. few. ⭐"
+draft: "appreciate the shout. what does the hivemindOS × aeon integration actually do — what are you feeding the swarm? ⭐🦈"
 
-*4. LiamVisionary/hivemindos* (0 days ago) — full MiroShark REST integration in an agent collaboration dashboard; 7★, pushed 07-03.
-link: https://github.com/LiamVisionary/hivemindos
-type: GitHub comment
-draft: "building an agent collaboration layer on top of miroshark is exactly the use case — swarm argues before the group commits. if you want live sim data or a feature shoutout, hit the miroshark TG. solid work 🦈"
-
-*5. @ByteByByteSrSDE* (0 days ago) — ex-Amazon SDE at @synarch-ai, forked MiroShark today (03:07 UTC). Infrastructure-minded builder.
-link: no link found
+*2. @AIonBase_* (1 day ago) — both $AEON + $MIROSHARK top gainers AND most traded on Bankr 24h overview (25L / 2RT / 4 replies); also ranked Aeon #2 on Bankr Launches with 40/40 Blockworks transparency score (4d ago)
+link: https://x.com/AIonBase_/status/2073157334751436818
 type: X reply
-draft: "welcome 🦈 ex-amazon infra mind in the miroshark ecosystem is exactly what we need. what are you simulating? happy to support and amplify."
+draft: "#2 on bankr launch + top gainers all week. builders compound. ⭐🦈"
+
+*3. clawhunter/add-clawhunter-pack* (4 days ago) — building an Aeon skill pack (building class, surfaced bd-radar 07-01, not yet actioned)
+link: https://github.com/clawhunter/add-clawhunter-pack
+type: GitHub comment
+draft: "saw the skill pack — exactly the kind of contribution that compounds the ecosystem. what's the use case you're targeting? happy to help if you hit rough edges in the skill API ⭐"
+
+*4. @medonchain* (5 days ago) — June recap: $AEON 100x + $miroshark 70x, 11 replies showing real trader discussion (30L / 1RT)
+link: https://x.com/medonchain/status/2072292520147468342
+type: X reply
+draft: "the token follows the builders. miroshark integrations 3x'd in 48h last week — the market's just running a little slower ⭐🦈"
+
+some opps aging — act or drop

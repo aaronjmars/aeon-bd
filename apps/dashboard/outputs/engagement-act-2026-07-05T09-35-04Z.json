@@ -1,0 +1,352 @@
+{
+  "root": "card_engagement",
+  "state": {},
+  "elements": {
+    "card_engagement": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-05"
+      },
+      "children": [
+        "stack_all"
+      ]
+    },
+    "stack_all": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opp1_container",
+        "sep1",
+        "opp2_container",
+        "sep2",
+        "opp3_container",
+        "sep3",
+        "opp4_container",
+        "sep4",
+        "alert_action"
+      ]
+    },
+    "opp1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1_meta",
+        "opp1_card",
+        "opp1_link_note",
+        "opp1_draft"
+      ]
+    },
+    "opp1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_timing",
+        "opp1_type"
+      ]
+    },
+    "opp1_timing": {
+      "type": "Text",
+      "props": {
+        "text": "1 day ago",
+        "variant": "muted"
+      }
+    },
+    "opp1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "opp1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@0xLiamVisionary",
+        "handle": "0xLiamVisionary",
+        "text": "July 4 public tweet crediting @aeonframework + @miroshark_ as \"serious builders\" integrated into @TheHivemindOS",
+        "likes": 50,
+        "retweets": 12
+      }
+    },
+    "opp1_link_note": {
+      "type": "Text",
+      "props": {
+        "text": "No link found (July 4 post, x:0xLiamVisionary)",
+        "variant": "caption"
+      }
+    },
+    "opp1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"appreciate the shout. what does the hivemindOS × aeon integration actually do — what are you feeding the swarm? ⭐🦈\"",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_meta",
+        "opp2_card",
+        "opp2_details",
+        "opp2_draft"
+      ]
+    },
+    "opp2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_timing",
+        "opp2_type"
+      ]
+    },
+    "opp2_timing": {
+      "type": "Text",
+      "props": {
+        "text": "1 day ago",
+        "variant": "muted"
+      }
+    },
+    "opp2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "opp2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@AIonBase_",
+        "handle": "AIonBase_",
+        "text": "$AEON + $MIROSHARK top gainers AND most traded on Bankr 24h overview; Aeon #2 on Bankr Launches with 40/40 Blockworks transparency score (4 days ago)",
+        "likes": 25,
+        "retweets": 2
+      }
+    },
+    "opp2_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_link",
+        "opp2_replies"
+      ]
+    },
+    "opp2_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/AIonBase_/status/2073157334751436818",
+        "href": "https://x.com/AIonBase_/status/2073157334751436818"
+      }
+    },
+    "opp2_replies": {
+      "type": "Text",
+      "props": {
+        "text": "4 replies showing engagement",
+        "variant": "caption"
+      }
+    },
+    "opp2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"#2 on bankr launch + top gainers all week. builders compound. ⭐🦈\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3_meta",
+        "opp3_card",
+        "opp3_context",
+        "opp3_draft"
+      ]
+    },
+    "opp3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp3_timing",
+        "opp3_type"
+      ]
+    },
+    "opp3_timing": {
+      "type": "Text",
+      "props": {
+        "text": "4 days ago",
+        "variant": "muted"
+      }
+    },
+    "opp3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment"
+      }
+    },
+    "opp3_card": {
+      "type": "StoryLink",
+      "props": {
+        "title": "clawhunter/add-clawhunter-pack",
+        "href": "https://github.com/clawhunter/add-clawhunter-pack",
+        "source": "GitHub"
+      }
+    },
+    "opp3_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3_desc",
+        "opp3_status"
+      ]
+    },
+    "opp3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Building an Aeon skill pack"
+      }
+    },
+    "opp3_status": {
+      "type": "Text",
+      "props": {
+        "text": "Status: surfaced bd-radar 07-01, not yet actioned",
+        "variant": "caption"
+      }
+    },
+    "opp3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"saw the skill pack — exactly the kind of contribution that compounds the ecosystem. what's the use case you're targeting? happy to help if you hit rough edges in the skill API ⭐\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4_meta",
+        "opp4_card",
+        "opp4_details",
+        "opp4_draft"
+      ]
+    },
+    "opp4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp4_timing",
+        "opp4_type"
+      ]
+    },
+    "opp4_timing": {
+      "type": "Text",
+      "props": {
+        "text": "5 days ago",
+        "variant": "muted"
+      }
+    },
+    "opp4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "opp4_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@medonchain",
+        "handle": "medonchain",
+        "text": "June recap: $AEON 100x + $miroshark 70x; 11 replies showing real trader discussion",
+        "likes": 30,
+        "retweets": 1
+      }
+    },
+    "opp4_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4_link"
+      ]
+    },
+    "opp4_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/medonchain/status/2072292520147468342",
+        "href": "https://x.com/medonchain/status/2072292520147468342"
+      }
+    },
+    "opp4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"the token follows the builders. miroshark integrations 3x'd in 48h last week — the market's just running a little slower ⭐🦈\"",
+        "variant": "lead"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Some opportunities are aging — act or drop",
+        "type": "warning"
+      }
+    }
+  }
+}
