@@ -91,3 +91,48 @@ Competitive scan results from launch-radar. Upserted each run.
 - **HN Show HN:** AI agent that trades Polymarket (Mar 2026, >60 days); Prediction market analysis app (Apr 2026, within 60 days, no upvote count); Prediction Hunt API (Apr 2026, within 60 days) — PM trading infrastructure active but no belief-drift pre-sim product
 - **Signal:** prior art
 - **Note:** PM trading agents are active but the "belief-drift simulation before sizing the bet" wedge is unclaimed; cuts against Aaron's PM skepticism and funded PM-agent space (Semantic 42) — strongest as a Miroshark layer, not a standalone product
+
+---
+
+## model-mirror
+- **Last scanned:** 2026-07-05
+- **ProductHunt:** none found (general multi-model tools exist; no model-selection-for-swarm-simulation product)
+- **HN Show HN:** "A multi-model interface where LLMs discuss & argue with each other" (May 15, 2026, ~50 days, upvotes unknown) — adjacent (debate UI) but not model-selection-for-sim
+- **Signal:** prior art
+- **Note:** multi-model debate UI exists within 60 days but doesn't own the "pick your swarm's model before you deploy on your own question" angle; the Emergence World catalyst (arxiv 2606.08367) is still the only proof and nobody productizes it
+
+---
+
+## reward-hack-receipt
+- **Last scanned:** 2026-07-05
+- **ProductHunt:** none found (Onpilot, DeepWorkPlan have audit trails but no public verifiable receipt)
+- **HN Show HN:** "RewardHackWatch – Reward hacking detector for LLM agents" (Mar 1, 2026, >60 days, no upvote count) — detector ≠ public verifiable receipt
+- **Signal:** prior art
+- **Note:** reward hacking detection exists but public diff+test+trace receipt for self-evolving agents is unclaimed; safety threat framing (arxiv 2606.23075) is newer than any existing product
+
+---
+
+## arena-oracle
+- **Last scanned:** 2026-07-05
+- **ProductHunt:** none found (MAXIA Oracle is a price feed, not a belief-drift sim; Predicto and PM tools are static analysis)
+- **HN Show HN:** "Prediction market analysis app layering LLMs with data APIs" (Apr 2026, >60 days) — layers LLMs on data, doesn't run a swarm presim; no belief-drift forward-simulation product found
+- **Signal:** open
+- **Note:** Meta Arena (Mark Zuckerberg PM app, 3.56B-DAU funnel) mass-produces PM questions; nobody forward-sims belief drift before the crowd prices them — the presim-only miroshark lane is genuinely empty
+
+---
+
+## arena-pack
+- **Last scanned:** 2026-07-05
+- **ProductHunt:** Fere AI (autonomous PM trading agent — turns signals into Polymarket trades, entry/exit rules, stop-loss); Agent Arena on PH (awards, products listed)
+- **HN Show HN:** none found specifically for aeon+PM skill pack; SpartanLabs already shipped aeon Polymarket skill (per screened notes)
+- **Signal:** prior art
+- **Note:** Fere AI is the funded standalone PM-trading-agent competitor; SpartanLabs already in field; the only open sliver is the miroshark presim-gate layer, not a competing standalone pack
+
+---
+
+## honeypot-swarm
+- **Last scanned:** 2026-07-05
+- **ProductHunt:** Beelzebub honeypot framework (2025, general honeypot, >60 days); no AI-agent-specific honeypot swarm product found
+- **HN Show HN:** "I built a live honeypot that catches AI agents" (Feb 20, 2026, >60 days, no upvote count); Nono – kernel-enforced sandboxing (Feb 2, 2026, >60 days) — adjacent, not swarm-based
+- **Signal:** prior art
+- **Note:** honeypot-for-AI-agents exists as named research (Honeypot Protocol arxiv 2604.13301, AI Control Hackathon) and on HN; static scanner field crowded+funded; security lane → aaeron

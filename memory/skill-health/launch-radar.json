@@ -1,8 +1,8 @@
 {
   "skill": "launch-radar",
-  "last_analyzed": "2026-06-28T16:10:16Z",
+  "last_analyzed": "2026-07-05T16:33:20Z",
   "quality_score": 4,
-  "assessment": "Substantive market intelligence with specific competitive landscape analysis and clear recommendations; well-structured and strategy-aligned.",
+  "assessment": "Substantive competitive intelligence with specific, differentiated open lanes and nuanced prior-art analysis; well-structured and actionable for GTM decisions",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -16,6 +16,10 @@
     },
     {
       "date": "2026-06-28",
+      "score": 4
+    },
+    {
+      "date": "2026-07-05",
       "score": 4
     }
   ]
