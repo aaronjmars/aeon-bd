@@ -1848,6 +1848,19 @@
       "signal": "Public post endorsing both aeon+miroshark integrations July 4, 50L+12RT",
       "date": "2026-07-05",
       "score": 6
+    },
+    {
+      "key": "github:R16008882/MiroShark",
+      "class": "forking",
+      "who": "R16008882",
+      "handle": "R16008882",
+      "signal": "MiroShark fork created 07-04, pushed 07-03 (predates fork = drive-by flag). +905 bytes above base (63,287 total). Unknown vertical.",
+      "fit": 1,
+      "score": 4,
+      "first_seen": "2026-07-06",
+      "repo_updated": "2026-07-04",
+      "source": "gh_read_pat_forks",
+      "move": "Watch -- ping if own commits appear in 5 days"
     }
   ],
   "surfaced": [
@@ -2061,6 +2074,7 @@
     "github:dan-and/MiroShark",
     "github:stefrogovskyi/aeon",
     "github:anondevv69/bankr-space-aeon",
-    "x:0xLiamVisionary"
+    "x:0xLiamVisionary",
+    "github:R16008882/MiroShark"
   ]
 }
