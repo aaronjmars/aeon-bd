@@ -1,0 +1,181 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Aeon + Miroshark Shiplog ⭐🦈"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "date-range",
+        "overview-stat",
+        "sep-1",
+        "bytes-heading",
+        "shipped-items",
+        "sep-2",
+        "traction-heading",
+        "traction-section",
+        "sep-3",
+        "article-link"
+      ]
+    },
+    "date-range": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 2 → Jul 6"
+      }
+    },
+    "overview-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Shipped",
+        "value": "76 PRs + 41 commits"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "bytes-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "The Bytes",
+        "level": "h2"
+      }
+    },
+    "shipped-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4",
+        "item-5",
+        "item-6"
+      ]
+    },
+    "item-1": {
+      "type": "Text",
+      "props": {
+        "text": "grok build is live: @xai's grok now a first-class harness on @aeonframework — connect your @X or @grok sub, every skill runs unchanged. compat layer handles the translation."
+      }
+    },
+    "item-2": {
+      "type": "Text",
+      "props": {
+        "text": "skill lib pruned 102 → 69: merged 25+ skills, retired dead weight. moving from marketplace to generator. leaner agent, same surface."
+      }
+    },
+    "item-3": {
+      "type": "Text",
+      "props": {
+        "text": "telegram is a full control surface now: run any skill from your phone — buttons, slash commands, \"run again / schedule weekly\" on every notification."
+      }
+    },
+    "item-4": {
+      "type": "Text",
+      "props": {
+        "text": "@aeonframework incorporated under @BedrockFndn: first Base project with token + treasury + constitution + transparency dashboard. live. 40/40 @Blockworks filing. 50% buybacks."
+      }
+    },
+    "item-5": {
+      "type": "Text",
+      "props": {
+        "text": "@miroshark_ x402 → @CTRL_automation: sims trigger onchain automations + builder codes live — integrate & earn 50% of every sim you drive."
+      }
+    },
+    "item-6": {
+      "type": "Text",
+      "props": {
+        "text": "security: CVE-2025-71176 fixed in miroshark, 12 Dependabot alerts cleared (opendia, tweazy), escape-sequence sanitization landed in baairon/torlink (#44)"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "traction-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Traction",
+        "level": "h2"
+      }
+    },
+    "traction-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-1",
+        "stat-2",
+        "achieve-1",
+        "achieve-2"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "@aeonframework",
+        "value": "568 ⭐",
+        "delta": "+7",
+        "trend": "up"
+      }
+    },
+    "stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "@miroshark_",
+        "value": "1,357 🦈",
+        "delta": "+4",
+        "trend": "up"
+      }
+    },
+    "achieve-1": {
+      "type": "Text",
+      "props": {
+        "text": "featured by @Base_Insights (22k) as top AI on Base gainer × 2 days + \"Leading\" tier in their Jul 2026 ecosystem tierlist"
+      }
+    },
+    "achieve-2": {
+      "type": "Text",
+      "props": {
+        "text": "aeon.fun transparency dashboard live"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "article-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Shiplog",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/articles/shiplog-2026-07-06.md",
+        "source": "GitHub"
+      }
+    }
+  }
+}
