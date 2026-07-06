@@ -1,23 +1,28 @@
-*Engagement Act — 2026-07-05*
+*Engagement Act — 2026-07-06*
 
-*1. @0xLiamVisionary* (1 day ago) — July 4 public tweet crediting @aeonframework + @miroshark_ as "serious builders" integrated into @TheHivemindOS (50L / 12RT)
-link: no link found (July 4 post, x:0xLiamVisionary)
+*1. @lord_proto* (0 days ago) — Polsia $250M vs $AEON $6M public pricing comparison, same autonomy thesis
+link: no link found
 type: X reply
-draft: "appreciate the shout. what does the hivemindOS × aeon integration actually do — what are you feeding the swarm? ⭐🦈"
+draft: "polsia raised $250M on the autonomy thesis. aeon shipped it a year ago, fully open source, at $6M. the repricing will be the hardest we've seen ⭐"
 
-*2. @AIonBase_* (1 day ago) — both $AEON + $MIROSHARK top gainers AND most traded on Bankr 24h overview (25L / 2RT / 4 replies); also ranked Aeon #2 on Bankr Launches with 40/40 Blockworks transparency score (4d ago)
-link: https://x.com/AIonBase_/status/2073157334751436818
-type: X reply
-draft: "#2 on bankr launch + top gainers all week. builders compound. ⭐🦈"
-
-*3. clawhunter/add-clawhunter-pack* (4 days ago) — building an Aeon skill pack (building class, surfaced bd-radar 07-01, not yet actioned)
-link: https://github.com/clawhunter/add-clawhunter-pack
+*2. ARUNAGIRINATHAN-K* (0 days ago) — awesome-ai-agents-2026 list curator who included Aeon (flagged by mention-radar)
+link: no link found
 type: GitHub comment
-draft: "saw the skill pack — exactly the kind of contribution that compounds the ecosystem. what's the use case you're targeting? happy to help if you hit rough edges in the skill API ⭐"
+draft: "appreciate the inclusion — aeon is at 197+ skills, self-repair, chain execution, public traces on GHA. happy to help keep the entry current if you want to add capability flags ⭐"
 
-*4. @medonchain* (5 days ago) — June recap: $AEON 100x + $miroshark 70x, 11 replies showing real trader discussion (30L / 1RT)
-link: https://x.com/medonchain/status/2072292520147468342
+*3. nigelon11/aeon* (3 days ago) — own-content builder, +1,463 bytes above base, pushed 07-05, DM overdue per war-room
+link: https://github.com/nigelon11/aeon
+type: GitHub comment
+draft: "looks like you've been building something — +1.4K bytes of your own content. what are you making? happy to point you at the right resources or connect you with the ecosystem ⭐"
+
+*4. @bitcoindragon28* (1 day ago) — first public holder pushing back on build-first cadence; pegs project at 100M marketcap potential
+link: https://x.com/bitcoindragon28/status/2073775654978695240
 type: X reply
-draft: "the token follows the builders. miroshark integrations 3x'd in 48h last week — the market's just running a little slower ⭐🦈"
+draft: "valid — shipping faster than the narrative is traveling. that's the exact problem this war room was built to fix ⭐🦈"
+
+*5. Marr554/aeon* (12 days ago) — 12d continuous active fork, pushed today, war-room flagged DM overdue
+link: https://github.com/Marr554/aeon
+type: GitHub comment
+draft: "12 straight days of pushes — what's the build? if you're making something real on aeon, want to make sure you've got the support and right context ⭐"
 
 some opps aging — act or drop
