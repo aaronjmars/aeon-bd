@@ -1,0 +1,308 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-07-06"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aeon",
+        "mention_aeon_1",
+        "mention_aeon_2",
+        "mention_aeon_3",
+        "mention_aeon_4",
+        "mention_aeon_5",
+        "sep_1",
+        "heading_miroshark",
+        "mention_miro_1",
+        "mention_miro_2",
+        "sep_2",
+        "heading_engagement",
+        "engagement_1",
+        "engagement_2",
+        "sep_3",
+        "text_quiet"
+      ]
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON ⭐",
+        "level": "h2"
+      }
+    },
+    "mention_aeon_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_aeon_1",
+        "badge_aeon_1"
+      ]
+    },
+    "tweet_aeon_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "lord_proto",
+        "handle": "lord_proto",
+        "text": "Polsia rises 30M at a 250M valuation. $AEON is at 6M When Polsia is pretty much an application of the exact kind of agentic autonomy @aeonframework has been focusing on."
+      }
+    },
+    "badge_aeon_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Competitor comparison",
+        "variant": "default"
+      }
+    },
+    "mention_aeon_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aeon_2a",
+        "link_aeon_2b",
+        "link_aeon_2c",
+        "badge_aeon_2"
+      ]
+    },
+    "link_aeon_2a": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ARUNAGIRINATHAN-K/awesome-ai-agents-2026",
+        "href": "https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026",
+        "source": "GitHub"
+      }
+    },
+    "link_aeon_2b": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Zijian-Ni/awesome-ai-agents-2026",
+        "href": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+        "source": "GitHub"
+      }
+    },
+    "link_aeon_2c": {
+      "type": "StoryLink",
+      "props": {
+        "title": "caramaschiHG/awesome-ai-agents-2026",
+        "href": "https://github.com/caramaschiHG/awesome-ai-agents-2026",
+        "source": "GitHub"
+      }
+    },
+    "badge_aeon_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "default"
+      }
+    },
+    "mention_aeon_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_aeon_3",
+        "badge_aeon_3"
+      ]
+    },
+    "tweet_aeon_3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sparklewarefun",
+        "handle": "sparklewarefun",
+        "text": "discovery catalog for @aeonframework skill packs"
+      }
+    },
+    "badge_aeon_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Ecosystem",
+        "variant": "default"
+      }
+    },
+    "mention_aeon_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_aeon_4",
+        "badge_aeon_4"
+      ]
+    },
+    "tweet_aeon_4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MandeqMendy",
+        "handle": "MandeqMendy",
+        "text": "tagging @aeonframework/@aaronjmars while tracking $aeonbook (60k mcap) vs $molt (100M mcap); calls the dev \"cracked\""
+      }
+    },
+    "badge_aeon_4": {
+      "type": "Badge",
+      "props": {
+        "text": "Community/ecosystem",
+        "variant": "default"
+      }
+    },
+    "mention_aeon_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aeon_5",
+        "badge_aeon_5"
+      ]
+    },
+    "link_aeon_5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon listed in open skill catalog",
+        "href": "https://openagentskill.com",
+        "source": "openagentskill.com"
+      }
+    },
+    "badge_aeon_5": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "default"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK 🦈",
+        "level": "h2"
+      }
+    },
+    "mention_miro_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_miro_1",
+        "text_miro_1_quote",
+        "badge_miro_1"
+      ]
+    },
+    "link_miro_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "beitroot.co blog review",
+        "href": "https://beitroot.co",
+        "source": "beitroot.co"
+      }
+    },
+    "text_miro_1_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"one of the most genuinely interesting open source AI projects to appear in 2026 ... for social, narrative, and sentiment scenarios MiroShark produces genuinely interesting emergent outputs that are difficult to replicate with a single LLM call\"",
+        "variant": "caption"
+      }
+    },
+    "badge_miro_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Press/newsletter",
+        "variant": "default"
+      }
+    },
+    "mention_miro_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_miro_2",
+        "badge_miro_2"
+      ]
+    },
+    "link_miro_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AlexMikhalev/miroshark",
+        "href": "https://github.com/AlexMikhalev/miroshark",
+        "source": "GitHub"
+      }
+    },
+    "badge_miro_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Forking",
+        "variant": "default"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "engagement_1": {
+      "type": "Text",
+      "props": {
+        "text": "@lord_proto: doing public pricing discovery — Polsia ($250M) vs $AEON ($6M), same thesis. clean reply from @aeonframework. the gap is the story. \"the harness is the model\" lands here.",
+        "variant": "body"
+      }
+    },
+    "engagement_2": {
+      "type": "Text",
+      "props": {
+        "text": "ARUNAGIRINATHAN-K (GitHub): three separate awesome lists included aeon this cycle. worth a ⭐ + \"thank you for the inclusion\" comment on the most-starred one — goodwill with curators compounds.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_quiet": {
+      "type": "Text",
+      "props": {
+        "text": "QUIET: no HN thread mentions this cycle. Reddit quiet.",
+        "variant": "muted"
+      }
+    }
+  }
+}
