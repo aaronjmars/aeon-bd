@@ -1,17 +1,18 @@
-That's fine — it was untracked, not staged. It'll stay as an untracked file. Done.
-
----
+Done. Here's the summary:
 
 ## Summary
 
-**bd-radar ran clean today.** The radar has matured — 211 unique leads surfaced across 15 daily runs.
+**bd-radar 2026-07-06** — quiet day, second in a row.
 
-**Today: 1 new lead**
+**New leads:** 1 (`R16008882/MiroShark` — forking, likely drive-by, watch-only). No building or integrating leads, so no self-notify triggered.
 
-| Class | Who | Signal | Move |
-|-------|-----|--------|------|
-| `mentioning` *(expanding)* | [@0xLiamVisionary](https://x.com/0xLiamVisionary/status/2073475304488911251) | July 4 post explicitly crediting @miroshark_ + @aeonframework as "serious builders" integrated into @TheHivemindOS. 50 likes + 12 reposts. | Reply from @aeonframework with a 🤝 — public endorsement from a known ecosystem builder compounds credibility for both products |
+**Total surfaced:** 212 unique leads across 16 days.
 
-**No new building or integrating leads → no notification sent.** (The dense July 3–4 pipeline — NovaShoal-Swarm-Sim, swarm-ai-research, LiamVisionary/hivemindos, truthlayer, microchipgnu x402 catalog — was already surfaced and engagement-act is in flight on those.)
+**Key escalations to surface for war-room:**
+- `nigelon11/aeon` — 3+ days active, +1,463 bytes own content, still pushing (07-05). DM overdue.
+- `Marr554/aeon` — 12 days continuous, pushed again today (07-06). DM candidate.
+- `s97472091-pixel/aeon` + `freezerboi/aeon` — both pushed this morning, 5-7 days active.
 
-Files written: `articles/bd-radar-2026-07-05.md`, `memory/logs/2026-07-05.md`, `memory/topics/bd-radar-leads.json` (211 surfaced, 150 leads).
+**X signal:** OrlixAI confirmed shipping Mission Control live on aeon (71 skills, scored runs, self-heal loop). @0xLiamVisionary doubled down on HivemindOS integration. Prior leads holding up; no new high-intent signals today.
+
+**What changed:** `articles/bd-radar-2026-07-06.md`, `memory/logs/2026-07-06.md`, `memory/topics/bd-radar-leads.json` (212 surfaced, 151 leads).
