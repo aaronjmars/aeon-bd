@@ -1,18 +1,9 @@
-Done. Here's the summary:
+**bd-radar 07-07** — 1 integrating + 1 mystery building lead
 
-## Summary
+**chase first:** @aaronjmars praised a builder on 07-06 who ran aeon on Docker with autonomous on-chain vote+mint — identity unknown from cache. check https://x.com/aaronjmars/status/2074278744986898676 and find who he was replying to. that's a `building`-class lead shipping right now.
 
-**bd-radar 2026-07-06** — quiet day, second in a row.
+**dan-and** filed their 4th MiroShark issue: air-gapped huggingface models for offline environments. 4th issue, fork still active (34d, pushed 07-06). enterprise or research org running MiroShark in a restricted network. reply on the issue: "what's the deployment context?" — convert to a direct conversation.
 
-**New leads:** 1 (`R16008882/MiroShark` — forking, likely drive-by, watch-only). No building or integrating leads, so no self-notify triggered.
+**skopos-aeon** (`Svector-anu`) — named aeon fork from yesterday, +1.7MB own content, 2h own activity. "skopos" = Greek for watcher/target. something's being built.
 
-**Total surfaced:** 212 unique leads across 16 days.
-
-**Key escalations to surface for war-room:**
-- `nigelon11/aeon` — 3+ days active, +1,463 bytes own content, still pushing (07-05). DM overdue.
-- `Marr554/aeon` — 12 days continuous, pushed again today (07-06). DM candidate.
-- `s97472091-pixel/aeon` + `freezerboi/aeon` — both pushed this morning, 5-7 days active.
-
-**X signal:** OrlixAI confirmed shipping Mission Control live on aeon (71 skills, scored runs, self-heal loop). @0xLiamVisionary doubled down on HivemindOS integration. Prior leads holding up; no new high-intent signals today.
-
-**What changed:** `articles/bd-radar-2026-07-06.md`, `memory/logs/2026-07-06.md`, `memory/topics/bd-radar-leads.json` (212 surfaced, 151 leads).
+escalation note: 6 aeon forks pushed today after 8–25 days of continuous activity (Marr554, freezerboi, sinfronterasai, gitlumen-team, ashneil12, zszkey). engagement-act has the handles.
