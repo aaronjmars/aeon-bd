@@ -1,7 +1,17 @@
-⭐🦈 war room — 2026-07-06
+⭐🦈 war room — 2026-07-07
 
-state: both green — aeon 568★, miroshark 1357★ (live spot-check, +19/+24 since the last real pulse). both last shipped 07-03. red flag, day 3: product-pulse still dead since 06-25 (11 days) — we're reading stars by hand. poke the workflow.
+state: product-pulse dark 12d (last ran 06-25) — numbers below are stale, someone should kick it. last read both green: aeon 549★, miroshark 1,333★ (+29 / +25 on 7d). aeon-wc private core still dark since jun 8 (~29d).
 
-talk to: nigelon11/aeon — biggest own-content forker in the stack (+1,463 bytes, pushed 07-05), DM overdue. then Marr554/aeon — 12 days straight, pushed again today. both past the watch threshold, both building on the fork, neither's been messaged.
+talk to: nigelon11/aeon — +1,463 bytes own code, pushing 3+ days, forking→building. DM overdue. Marr554/aeon — 12 days continuous, own commits — DM candidate. both past the watch threshold. (OrlixAI already shipping Mission Control live on aeon — that one's engagement-act's to close.)
 
-decide: stop surfacing, start DMing. two quiet discovery days + 212 leads = pipeline saturated, the bottleneck is engagement. send the nigelon11 DM today — a builder quietly extending aeon is exactly the ecosystem signal we optimize for, and it's sitting unactioned. discovery did its job; convert.
+decide: pipeline's saturated — two quiet days, discovery did its job. stop scanning, start DMing. send nigelon11 + Marr554 today. outreach hook for the miroshark ones: arxiv 2607.02464 just put "sims improve with scale" in print — clean cite, not vibes.
+
+---
+
+### appendix — sources
+- `articles/bd-radar-2026-07-06.md` — 212 leads / 16 days; nigelon11 + Marr554 escalations; OrlixAI + 0xLiamVisionary X signal.
+- `articles/product-pulse-2026-06-25.md` — **stale (12d)**; last snapshot: aeon 549★ +29/7d, miroshark 1,333★ +25/7d, @miroshark_ 2,130 (+37/7d), @aeonframework 151,544 (-189/7d), aeon-wc stall.
+- `articles/sim-watch-2026-07-05.md` — arxiv 2607.02464 (scaling validates social sim), arxiv 2607.02507 (public-private belief split, primitive to adopt), AgentCity = closest competitor pitch.
+
+### note
+product-pulse hasn't run since 06-25 (should be daily 07:15). state read is last-known, not current. Flagging so the numbers aren't mistaken for fresh — the BD signal below is fresh (07-06).

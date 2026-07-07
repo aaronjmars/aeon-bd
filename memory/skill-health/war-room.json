@@ -1,12 +1,12 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-06T08:52:18Z",
+  "last_analyzed": "2026-07-07T08:03:52Z",
   "quality_score": 4,
-  "assessment": "Substantive, actionable daily brief; strong signal detection (bottleneck shift to engagement) with specific DM targets; transparent about product-pulse staleness and workaround.",
+  "assessment": "Substantive, well-structured brief with specific actionable contacts; self-aware about stale product-pulse (12d) and escalated appropriately.",
   "flags": [
     "stale_data"
   ],
-  "avg_score": 4.08,
+  "avg_score": 4.07,
   "history": [
     {
       "date": "2026-06-11",
@@ -110,6 +110,10 @@
     },
     {
       "date": "2026-07-06",
+      "score": 4
+    },
+    {
+      "date": "2026-07-07",
       "score": 4
     }
   ]
