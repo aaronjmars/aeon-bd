@@ -1,0 +1,269 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "AI Framework Watch — 2026-07-07"
+      },
+      "children": [
+        "release_info",
+        "sep1",
+        "top_movers_heading",
+        "top_movers_stack",
+        "sep2",
+        "releases_heading",
+        "releases_stack",
+        "sep3",
+        "anchor_heading",
+        "anchor_info",
+        "sep4",
+        "digest_link"
+      ]
+    },
+    "release_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "release_line",
+        "badges_row"
+      ]
+    },
+    "release_line": {
+      "type": "Text",
+      "props": {
+        "text": "4 frameworks shipped: langgraph, crewai (pre), mastra, pydantic-ai",
+        "variant": "lead"
+      }
+    },
+    "badges_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_tracked",
+        "badge_releases",
+        "badge_breaking"
+      ]
+    },
+    "badge_tracked": {
+      "type": "Badge",
+      "props": {
+        "text": "9/9 frameworks",
+        "variant": "secondary"
+      }
+    },
+    "badge_releases": {
+      "type": "Badge",
+      "props": {
+        "text": "9 releases (7d)",
+        "variant": "secondary"
+      }
+    },
+    "badge_breaking": {
+      "type": "Badge",
+      "props": {
+        "text": "0 breaking flags",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "top_movers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top movers (7d stars)",
+        "level": "h3"
+      }
+    },
+    "top_movers_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mover_1",
+        "mover_2",
+        "mover_3",
+        "mover_4"
+      ]
+    },
+    "mover_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "langchain-ai/langgraph",
+        "href": "https://github.com/langchain-ai/langgraph",
+        "source": "GitHub",
+        "score": "36.7k stars (+555, +1.5%)"
+      }
+    },
+    "mover_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "crewAIInc/crewAI",
+        "href": "https://github.com/crewAIInc/crewAI",
+        "source": "GitHub",
+        "score": "55.1k stars (+445, +0.8%)"
+      }
+    },
+    "mover_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mastra-ai/mastra",
+        "href": "https://github.com/mastra-ai/mastra",
+        "source": "GitHub",
+        "score": "25.9k stars (+284, +1.1%)"
+      }
+    },
+    "mover_4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "stanfordnlp/dspy",
+        "href": "https://github.com/stanfordnlp/dspy",
+        "source": "GitHub",
+        "score": "35.9k stars (+231, +0.6%)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "releases_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Releases worth reading",
+        "level": "h3"
+      }
+    },
+    "releases_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "release_1",
+        "release_2",
+        "release_3"
+      ]
+    },
+    "release_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "langchain-ai/langgraph 1.2.8",
+        "href": "https://github.com/langchain-ai/langgraph/releases",
+        "source": "GitHub",
+        "score": "weekly patch"
+      }
+    },
+    "release_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mastra-ai/mastra 1.47.0 → 1.49.0",
+        "href": "https://github.com/mastra-ai/mastra/releases",
+        "source": "GitHub",
+        "score": "three drops in 7d"
+      }
+    },
+    "release_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pydantic/pydantic-ai v2.2.0 → v2.5.1",
+        "href": "https://github.com/pydantic/pydantic-ai/releases",
+        "source": "GitHub",
+        "score": "5 releases + closed 138 issues this week"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "anchor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Anchor (aeon) ⭐",
+        "level": "h3"
+      }
+    },
+    "anchor_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anchor_stats_row",
+        "anchor_coverage"
+      ]
+    },
+    "anchor_stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "anchor_stars",
+        "anchor_releases",
+        "anchor_7d"
+      ]
+    },
+    "anchor_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "570"
+      }
+    },
+    "anchor_releases": {
+      "type": "Stat",
+      "props": {
+        "label": "Releases",
+        "value": "0"
+      }
+    },
+    "anchor_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "This week",
+        "value": "+10",
+        "trend": "up"
+      }
+    },
+    "anchor_coverage": {
+      "type": "Badge",
+      "props": {
+        "text": "9/9 by 7d delta",
+        "variant": "outline"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "digest_link": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest: articles/framework-watch-2026-07-07.md",
+        "href": "articles/framework-watch-2026-07-07.md"
+      }
+    }
+  }
+}
