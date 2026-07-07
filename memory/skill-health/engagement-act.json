@@ -1,10 +1,13 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-07-06T10:22:06Z",
-  "quality_score": 5,
-  "assessment": "Excellent execution: 5 fresh, specific opportunities de-duped against prior runs; each with timing, context, and clear action items; properly integrated with memory/notification system and aligned with BD/GTM strategy",
-  "flags": [],
-  "avg_score": 4,
+  "last_analyzed": "2026-07-07T10:33:28Z",
+  "quality_score": 3,
+  "assessment": "Acceptable — identified specific, contextual targets with planned actions and state tracking, but output is incomplete: draft copy not shown and one opportunity unidentified.",
+  "flags": [
+    "incomplete_output",
+    "missing_deliverable"
+  ],
+  "avg_score": 3.96,
   "history": [
     {
       "date": "2026-06-12",
@@ -101,6 +104,10 @@
     {
       "date": "2026-07-06",
       "score": 5
+    },
+    {
+      "date": "2026-07-07",
+      "score": 3
     }
   ]
 }

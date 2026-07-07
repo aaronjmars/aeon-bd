@@ -1,0 +1,344 @@
+{
+  "root": "card_engagement_act",
+  "state": {},
+  "elements": {
+    "card_engagement_act": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-07"
+      },
+      "children": [
+        "stack_all_opps",
+        "alert_aging"
+      ]
+    },
+    "stack_all_opps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opp1_docker",
+        "sep1",
+        "opp2_dan",
+        "sep2",
+        "opp3_atlas",
+        "sep3",
+        "opp4_svector",
+        "sep4",
+        "opp5_gitlumen"
+      ]
+    },
+    "opp1_docker": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h1_docker",
+        "badge1_age",
+        "text1_signal",
+        "text1_action",
+        "badge1_type",
+        "text1_draft"
+      ]
+    },
+    "h1_docker": {
+      "type": "Heading",
+      "props": {
+        "text": "x:unidentified-docker-aeon-builder-07-07",
+        "level": "h3"
+      }
+    },
+    "badge1_age": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago"
+      }
+    },
+    "text1_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Aaron publicly praised their Docker + autonomous on-chain aeon build on 07-06; builder handle unknown, 24 likes"
+      }
+    },
+    "text1_action": {
+      "type": "Text",
+      "props": {
+        "text": "Check Aaron's 07-06 X liked/replied posts to ID the tweet, then reply or DM",
+        "variant": "muted"
+      }
+    },
+    "badge1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply (draft — use once handle confirmed)",
+        "variant": "outline"
+      }
+    },
+    "text1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "running aeon on docker + autonomous onchain execution — that's the stack ⭐ what does the integration look like?",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp2_dan": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h2_dan",
+        "badge2_age",
+        "text2_signal",
+        "link2_github",
+        "badge2_type",
+        "text2_draft"
+      ]
+    },
+    "h2_dan": {
+      "type": "Heading",
+      "props": {
+        "text": "dan-and",
+        "level": "h3"
+      }
+    },
+    "badge2_age": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago"
+      }
+    },
+    "text2_signal": {
+      "type": "Text",
+      "props": {
+        "text": "4th MiroShark GitHub issue filed; asking about air-gapped / enterprise HF model deployment — strong enterprise signal"
+      }
+    },
+    "link2_github": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark issues (search: dan-and)",
+        "href": "https://github.com/aaronjmars/MiroShark/issues",
+        "source": "GitHub"
+      }
+    },
+    "badge2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "text2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "4th issue — the pattern's clear. air-gapped + enterprise HF deployment is a real wedge; logging it for the 🦈 roadmap. if you want to share your deployment context drop it here or open a discussion — helps with prioritization.",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp3_atlas": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h3_atlas",
+        "badge3_age",
+        "text3_signal",
+        "link3_twitter",
+        "badge3_type",
+        "text3_draft"
+      ]
+    },
+    "h3_atlas": {
+      "type": "Heading",
+      "props": {
+        "text": "@atlas_int_",
+        "level": "h3"
+      }
+    },
+    "badge3_age": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago"
+      }
+    },
+    "text3_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Cited Miroshark benchmarks as real-world evidence of self-evolution loops; called sim outputs a research tracking signal worth watching"
+      }
+    },
+    "link3_twitter": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Post by @atlas_int_",
+        "href": "https://x.com/atlas_int_/status/2074110121735516602",
+        "source": "X"
+      }
+    },
+    "badge3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "text3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "treating 🦈 outputs as a research signal is the right frame — belief drift across rounds is designed to be trackable. if you want structured sim logs or raw output, DM @miroshark_ and we'll work something out",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp4_svector": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h4_svector",
+        "badge4_age",
+        "text4_signal",
+        "link4_skopos",
+        "badge4_type",
+        "text4_draft"
+      ]
+    },
+    "h4_svector": {
+      "type": "Heading",
+      "props": {
+        "text": "Svector-anu",
+        "level": "h3"
+      }
+    },
+    "badge4_age": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago"
+      }
+    },
+    "text4_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Forked aeon, named it \"skopos-aeon\" (skopos = goal/aim in Greek); put 2h of own work in post-fork — intentional naming + immediate commits signals real investment"
+      }
+    },
+    "link4_skopos": {
+      "type": "StoryLink",
+      "props": {
+        "title": "skopos-aeon (GitHub fork)",
+        "href": "https://github.com/Svector-anu/skopos-aeon",
+        "source": "GitHub"
+      }
+    },
+    "badge4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "text4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "skopos — the target. good name. 2h of own work post-fork tells us this isn't a drive-by. what are you building toward? drop questions here or hit the aeon TG ⭐",
+        "variant": "lead"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp5_gitlumen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h5_gitlumen",
+        "badge5_age",
+        "text5_signal",
+        "link5_gitlumen",
+        "badge5_type",
+        "text5_draft"
+      ]
+    },
+    "h5_gitlumen": {
+      "type": "Heading",
+      "props": {
+        "text": "gitlumen-team/aeon",
+        "level": "h3"
+      }
+    },
+    "badge5_age": {
+      "type": "Badge",
+      "props": {
+        "text": "25 days continuous, pushed today"
+      }
+    },
+    "text5_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Building aeon.fun; 25 straight days of commits, never been contacted"
+      }
+    },
+    "link5_gitlumen": {
+      "type": "StoryLink",
+      "props": {
+        "title": "gitlumen-team/aeon",
+        "href": "https://github.com/gitlumen-team/aeon",
+        "source": "GitHub"
+      }
+    },
+    "badge5_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "text5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "25 days of commits and we haven't said a word — that's on us. what's aeon.fun shaping up to be? drop a link when it's live ⭐",
+        "variant": "lead"
+      }
+    },
+    "alert_aging": {
+      "type": "Alert",
+      "props": {
+        "message": "some opps aging — act or drop",
+        "type": "warning"
+      }
+    }
+  }
+}

@@ -1,28 +1,28 @@
-*Engagement Act — 2026-07-06*
+*Engagement Act — 2026-07-07*
 
-*1. @lord_proto* (0 days ago) — Polsia $250M vs $AEON $6M public pricing comparison, same autonomy thesis
-link: no link found
+*1. x:unidentified-docker-aeon-builder-07-07* (0 days ago) — Aaron publicly praised their Docker + autonomous on-chain aeon build on 07-06; builder handle unknown, 24 likes
+link: Check Aaron's 07-06 X liked/replied posts to ID the tweet, then reply or DM
+type: X reply (draft — use once handle confirmed)
+draft: "running aeon on docker + autonomous onchain execution — that's the stack ⭐ what does the integration look like?"
+
+*2. dan-and* (0 days ago) — 4th MiroShark GitHub issue filed; asking about air-gapped / enterprise HF model deployment — strong enterprise signal
+link: https://github.com/aaronjmars/MiroShark/issues (search: dan-and)
+type: GitHub comment
+draft: "4th issue — the pattern's clear. air-gapped + enterprise HF deployment is a real wedge; logging it for the 🦈 roadmap. if you want to share your deployment context drop it here or open a discussion — helps with prioritization."
+
+*3. @atlas_int_* (1 day ago) — Cited Miroshark benchmarks as real-world evidence of self-evolution loops; called sim outputs a research tracking signal worth watching
+link: https://x.com/atlas_int_/status/2074110121735516602
 type: X reply
-draft: "polsia raised $250M on the autonomy thesis. aeon shipped it a year ago, fully open source, at $6M. the repricing will be the hardest we've seen ⭐"
+draft: "treating 🦈 outputs as a research signal is the right frame — belief drift across rounds is designed to be trackable. if you want structured sim logs or raw output, DM @miroshark_ and we'll work something out"
 
-*2. ARUNAGIRINATHAN-K* (0 days ago) — awesome-ai-agents-2026 list curator who included Aeon (flagged by mention-radar)
-link: no link found
+*4. Svector-anu* (1 day ago) — Forked aeon, named it "skopos-aeon" (skopos = goal/aim in Greek); put 2h of own work in post-fork — intentional naming + immediate commits signals real investment
+link: https://github.com/Svector-anu/skopos-aeon
 type: GitHub comment
-draft: "appreciate the inclusion — aeon is at 197+ skills, self-repair, chain execution, public traces on GHA. happy to help keep the entry current if you want to add capability flags ⭐"
+draft: "skopos — the target. good name. 2h of own work post-fork tells us this isn't a drive-by. what are you building toward? drop questions here or hit the aeon TG ⭐"
 
-*3. nigelon11/aeon* (3 days ago) — own-content builder, +1,463 bytes above base, pushed 07-05, DM overdue per war-room
-link: https://github.com/nigelon11/aeon
+*5. gitlumen-team/aeon* (25 days continuous, pushed today) — Building aeon.fun; 25 straight days of commits, never been contacted
+link: https://github.com/gitlumen-team/aeon
 type: GitHub comment
-draft: "looks like you've been building something — +1.4K bytes of your own content. what are you making? happy to point you at the right resources or connect you with the ecosystem ⭐"
-
-*4. @bitcoindragon28* (1 day ago) — first public holder pushing back on build-first cadence; pegs project at 100M marketcap potential
-link: https://x.com/bitcoindragon28/status/2073775654978695240
-type: X reply
-draft: "valid — shipping faster than the narrative is traveling. that's the exact problem this war room was built to fix ⭐🦈"
-
-*5. Marr554/aeon* (12 days ago) — 12d continuous active fork, pushed today, war-room flagged DM overdue
-link: https://github.com/Marr554/aeon
-type: GitHub comment
-draft: "12 straight days of pushes — what's the build? if you're making something real on aeon, want to make sure you've got the support and right context ⭐"
+draft: "25 days of commits and we haven't said a word — that's on us. what's aeon.fun shaping up to be? drop a link when it's live ⭐"
 
 some opps aging — act or drop
