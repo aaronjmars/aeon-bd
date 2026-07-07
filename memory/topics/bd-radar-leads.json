@@ -1850,6 +1850,68 @@
       "score": 6
     },
     {
+      "key": "github:dan-and/issue-hf-offline",
+      "class": "integrating",
+      "who": "dan-and (MiroShark heavy contributor)",
+      "handle": "dan-and",
+      "signal": "4th MiroShark issue (07-07): 'offline huggingface-models for air-gapped environments' — enterprise/air-gapped deployment signal. Fork 63,752 bytes, pushed 07-06. Prior: issues #187 (multilingual timeouts), #193 (thinking token budget), #N (general integration).",
+      "fit": 3,
+      "score": 9,
+      "first_seen": "2026-07-07",
+      "source": "gh_read_pat_issues",
+      "move": "Reply on issue directly: air-gapped path is interesting — what's the deployment context? Offer a direct call or TG"
+    },
+    {
+      "key": "github:Svector-anu/skopos-aeon",
+      "class": "forking",
+      "who": "Svector-anu (skopos-aeon)",
+      "handle": "Svector-anu",
+      "signal": "Named fork 'skopos-aeon' created 07-06T17:55, pushed 07-06T19:03 (2h own activity). Size 35,077 KB = +1,714 bytes above base. 'Skopos' = Greek: watcher/target. Intentional branding = product in progress.",
+      "fit": 3,
+      "score": 9,
+      "first_seen": "2026-07-07",
+      "repo_updated": "2026-07-06",
+      "source": "gh_read_pat_forks",
+      "move": "DM or GH comment: 'skopos-aeon' is a real product name — what are you building? TG invite"
+    },
+    {
+      "key": "github:mattsegura/aeon",
+      "class": "forking",
+      "who": "mattsegura",
+      "handle": "mattsegura",
+      "signal": "Aeon fork created TODAY 07-07T05:00, pushed 07-07T05:01. Size 35,884 KB = +2,521 bytes above base — largest own-content delta in today's cache. Had content ready to push immediately.",
+      "fit": 1,
+      "score": 4,
+      "first_seen": "2026-07-07",
+      "repo_updated": "2026-07-07",
+      "source": "gh_read_pat_forks",
+      "move": "Watch — ping if they add description or continue pushing today"
+    },
+    {
+      "key": "github:KrishDabhi/MiroShark-a-swarm-intelligence",
+      "class": "mentioning",
+      "who": "KrishDabhi",
+      "handle": "KrishDabhi",
+      "signal": "Standalone named project 'MiroShark-a-swarm-intelligence' — description uses MiroShark tagline verbatim. Created 04-19, 0★, no recent activity. Research/education use case.",
+      "fit": 1,
+      "score": 2,
+      "first_seen": "2026-07-07",
+      "source": "gh_search_repos",
+      "move": "Watch — low signal; open GH comment if they resurface"
+    },
+    {
+      "key": "x:unidentified-docker-aeon-builder-07-07",
+      "class": "building",
+      "who": "Unidentified (Docker-based aeon implementation)",
+      "handle": "unknown",
+      "signal": "Aaron (@aaronjmars) praised on 07-06: 'very cool implementation on top of @aeonframework ⭐ runs on docker instead of github actions, keep aeon AI gateway system + claude subscription, implements a strategy and vote & mint autonomously.' 24 likes. Builder identity not in X cache — manual follow-up required.",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-07-07",
+      "source": "xai_x",
+      "move": "Manual: check @aaronjmars post context (https://x.com/aaronjmars/status/2074278744986898676) to identify who Aaron was replying to — this is a BUILDING-class lead shipping aeon on Docker with autonomous on-chain execution"
+    },
+    {
       "key": "github:R16008882/MiroShark",
       "class": "forking",
       "who": "R16008882",
@@ -2075,6 +2137,11 @@
     "github:stefrogovskyi/aeon",
     "github:anondevv69/bankr-space-aeon",
     "x:0xLiamVisionary",
-    "github:R16008882/MiroShark"
+    "github:R16008882/MiroShark",
+    "github:Svector-anu/skopos-aeon",
+    "github:mattsegura/aeon",
+    "github:dan-and/issue-hf-offline",
+    "github:KrishDabhi/MiroShark-a-swarm-intelligence",
+    "x:unidentified-docker-aeon-builder-07-07"
   ]
 }
