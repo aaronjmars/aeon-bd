@@ -1,6 +1,42 @@
 {
   "leads": [
     {
+      "key": "x:sparklewarefun",
+      "class": "mentioning",
+      "who": "sparklewarefun (@sparklewarefun)",
+      "handle": "sparklewarefun",
+      "signal": "Launched $SPARKLE token on @virtuals_io 2026-07-08 — tokenizing the aeon skill registry. Rebuilt all packs to aeon spec same day. Escalation from known github:sparkleware builder.",
+      "fit": 3,
+      "score": 6,
+      "first_seen": "2026-07-08",
+      "source": "x_cache",
+      "watch": true
+    },
+    {
+      "key": "github:Aluma/aeon",
+      "class": "forking",
+      "who": "Aluma/aeon",
+      "handle": "Aluma",
+      "signal": "Fork created 07-07 15:13 UTC, pushed 07-07 22:12 UTC — 7h same-day activity. 62 public repos. Small delta. Monitor.",
+      "fit": 1,
+      "score": 3,
+      "first_seen": "2026-07-08",
+      "repo_updated": "2026-07-07",
+      "source": "gh_pat_cache"
+    },
+    {
+      "key": "github:KingKaonix/aeon",
+      "class": "forking",
+      "who": "KingKaonix/aeon",
+      "handle": "KingKaonix",
+      "signal": "Fork created 07-07 13:35 UTC, pushed same day. 19 public repos, no bio. Small delta. Watch only.",
+      "fit": 1,
+      "score": 3,
+      "first_seen": "2026-07-08",
+      "repo_updated": "2026-07-07",
+      "source": "gh_pat_cache"
+    },
+    {
       "key": "github:lerugray/generalstaff",
       "class": "adjacent",
       "who": "generalstaff (lerugray)",
@@ -1926,6 +1962,9 @@
     }
   ],
   "surfaced": [
+    "x:sparklewarefun",
+    "github:Aluma/aeon",
+    "github:KingKaonix/aeon",
     "github:AntFleet",
     "github:sparkleware",
     "github:codexvritra/signa-skills",
