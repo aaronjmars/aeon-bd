@@ -1,10 +1,10 @@
 {
   "skill": "competitor-radar",
-  "last_analyzed": "2026-07-01T10:51:38Z",
+  "last_analyzed": "2026-07-08T10:11:48Z",
   "quality_score": 4,
-  "assessment": "Substantive autonomous run: tracked 3 specific entrants with sources (HN, PH) and metrics, updated state/logs, committed properly. Cannot verify article quality without reading output.",
+  "assessment": "Substantive radar output with real data (6 entrants), clear signal hierarchy (Safari MCP highest), strategic context (Aeon's opening), and actionable findings—but Product Hunt items lack scores and analysis could be deeper.",
   "flags": [],
-  "avg_score": 4.5,
+  "avg_score": 4.33,
   "history": [
     {
       "date": "2026-06-17",
@@ -12,6 +12,10 @@
     },
     {
       "date": "2026-07-01",
+      "score": 4
+    },
+    {
+      "date": "2026-07-08",
       "score": 4
     }
   ]

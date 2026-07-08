@@ -1,0 +1,417 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "2026-07-08"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item-1",
+        "sep-1",
+        "item-2",
+        "sep-2",
+        "item-3",
+        "sep-3",
+        "item-4",
+        "sep-4",
+        "item-5",
+        "sep-5",
+        "note"
+      ]
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-1-header",
+        "item-1-context",
+        "item-1-link",
+        "item-1-draft-label",
+        "item-1-draft"
+      ]
+    },
+    "item-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item-1-title",
+        "item-1-badge",
+        "item-1-time"
+      ]
+    },
+    "item-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "nigelon11/aeon — issue #681",
+        "variant": "lead"
+      }
+    },
+    "item-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACTION NEEDED",
+        "variant": "destructive"
+      }
+    },
+    "item-1-time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "muted"
+      }
+    },
+    "item-1-context": {
+      "type": "Text",
+      "props": {
+        "text": "builder with 1,463 bytes own code filed a public issue on the main repo; war-room directive: answer today",
+        "variant": "body"
+      }
+    },
+    "item-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/aaronjmars/aeon/issues/681",
+        "href": "https://github.com/aaronjmars/aeon/issues/681"
+      }
+    },
+    "item-1-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Type: GitHub comment | Draft:",
+        "variant": "caption"
+      }
+    },
+    "item-1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "been watching your fork — you've gone deeper than almost anyone. what's the constraint you're trying to break in #681? happy to build it with you in the open. ⭐",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-2-header",
+        "item-2-context",
+        "item-2-draft-label",
+        "item-2-draft"
+      ]
+    },
+    "item-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item-2-title",
+        "item-2-time"
+      ]
+    },
+    "item-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "@sparklewarefun",
+        "variant": "lead"
+      }
+    },
+    "item-2-time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "muted"
+      }
+    },
+    "item-2-context": {
+      "type": "Text",
+      "props": {
+        "text": "launched $SPARKLE on virtuals.io today, tokenizing the aeon skill pack registry",
+        "variant": "body"
+      }
+    },
+    "item-2-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Type: X reply | Draft:",
+        "variant": "caption"
+      }
+    },
+    "item-2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "launching on virtuals.io and tokenizing the aeon skill pack registry — wild. few. what's the plan for official listing / coordination with the ecosystem? ⭐",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-3-header",
+        "item-3-context",
+        "item-3-draft-label",
+        "item-3-draft"
+      ]
+    },
+    "item-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item-3-title",
+        "item-3-time"
+      ]
+    },
+    "item-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "@Blockworks",
+        "variant": "lead"
+      }
+    },
+    "item-3-time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "muted"
+      }
+    },
+    "item-3-context": {
+      "type": "Text",
+      "props": {
+        "text": "covered $AEON B1 Token Transparency Filing, \"B1 complete with no material gaps, token live since March 2026\"",
+        "variant": "body"
+      }
+    },
+    "item-3-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Type: X reply | Draft:",
+        "variant": "caption"
+      }
+    },
+    "item-3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "appreciate the B1 coverage — $AEON is the only agent framework with a public token and a 40/40 blockworks score. transparency is the bar. ⭐",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-4-header",
+        "item-4-context",
+        "item-4-link",
+        "item-4-draft-label",
+        "item-4-draft"
+      ]
+    },
+    "item-4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item-4-title",
+        "item-4-badge",
+        "item-4-time"
+      ]
+    },
+    "item-4-title": {
+      "type": "Text",
+      "props": {
+        "text": "NovaShoal/luis212",
+        "variant": "lead"
+      }
+    },
+    "item-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "AGING",
+        "variant": "secondary"
+      }
+    },
+    "item-4-time": {
+      "type": "Text",
+      "props": {
+        "text": "10 days ago",
+        "variant": "muted"
+      }
+    },
+    "item-4-context": {
+      "type": "Text",
+      "props": {
+        "text": "151★ repo, outreach pending, never reached",
+        "variant": "body"
+      }
+    },
+    "item-4-link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/NovaShoal/luis212",
+        "href": "https://github.com/NovaShoal/luis212"
+      }
+    },
+    "item-4-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Type: GitHub comment | Draft:",
+        "variant": "caption"
+      }
+    },
+    "item-4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "been watching luis212 — 151 stars is real traction. what's the aeon integration looking like on your end? happy to support directly — feature requests, skill packs, whatever you need. ⭐",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-5-header",
+        "item-5-context",
+        "item-5-link",
+        "item-5-draft-label",
+        "item-5-draft"
+      ]
+    },
+    "item-5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item-5-title",
+        "item-5-badge",
+        "item-5-time"
+      ]
+    },
+    "item-5-title": {
+      "type": "Text",
+      "props": {
+        "text": "freezerboi/aeon",
+        "variant": "lead"
+      }
+    },
+    "item-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "AGING",
+        "variant": "secondary"
+      }
+    },
+    "item-5-time": {
+      "type": "Text",
+      "props": {
+        "text": "9 days ago",
+        "variant": "muted"
+      }
+    },
+    "item-5-context": {
+      "type": "Text",
+      "props": {
+        "text": "9 days continuous pushing on an aeon fork, never reached",
+        "variant": "body"
+      }
+    },
+    "item-5-link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/freezerboi/aeon",
+        "href": "https://github.com/freezerboi/aeon"
+      }
+    },
+    "item-5-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Type: GitHub comment | Draft:",
+        "variant": "caption"
+      }
+    },
+    "item-5-draft": {
+      "type": "Text",
+      "props": {
+        "text": "9 days of continuous pushing on the fork — what are you building on top? drop the use case here, happy to point you to the right parts of the skill registry. ⭐",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note": {
+      "type": "Alert",
+      "props": {
+        "title": "Aging opportunities",
+        "message": "Items 4–5 are aging — act or drop",
+        "type": "warning"
+      }
+    }
+  }
+}
