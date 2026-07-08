@@ -172,3 +172,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-07,fetch-tweets,claude-sonnet-4-6,14,11999,508741,33562
 2026-07-08,bd-radar,claude-sonnet-4-6,237,24219,2076206,71782
 2026-07-08,war-room,claude-opus-4-8,7013,6992,816715,55326
+2026-07-08,engagement-act,claude-sonnet-4-6,10,8302,493415,53351
