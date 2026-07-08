@@ -1,6 +1,11 @@
 # Startup Ideas — backlog
 | date | name | one-liner | fit | T+F+E |
 |------|------|-----------|-----|-------|
+| 2026-07-08 | sim-audit | social-sim papers this month say sims are unreliable (PIMMUR: 89.7% violate a principle) — miroshark ships the only one with its own robustness audit: run across seeds+models, get a boundary receipt | miroshark | 14 |
+| 2026-07-08 | cloudflare-skill-shop | cloudflare + aws both shipped x402 at the edge this week — sell an MCP tool, settle USDC in one line. an aeon skill IS an MCP tool; ship the adapter, every skill = a priced endpoint | aeon | 12 |
+| 2026-07-08 | harness-not-model | zuck says meta's agents are 'slower than expected' (HN #1) and the field answers with a bigger model — pin one model, run a real task raw vs through aeon, publish both traces weekly | aeon | 12 |
+| 2026-07-08 | swarm-eval | 'LLM-simulated users are unreliable proxies' — ground them: miroshark's belief-drifting swarm becomes the agent-eval sandbox the critique says doesn't exist | miroshark | 12 |
+| 2026-07-08 | agent-firewall | MS shipped a governance toolkit for all 10 OWASP agentic risks — aeon skills are untrusted markdown that self-merge; ship a per-skill allowlist, every violation to the public trace | aeon | 11 |
 | 2026-06-17 | proof-of-self-repair | every framework claims self-improvement; only a public repo can prove it — ship the self-repair ledger | aeon | 15 |
 | 2026-06-17 | counterfactual-launch-sim | the unit of competition is the timing window — simulate the window before you spend it | miroshark | 13 |
 | 2026-06-17 | miroshark-social-world-model | world-models wave is all pixels; the missing one is social — expose miroshark as an MCP/A2A simulate(decision) tool | miroshark | 13 |
