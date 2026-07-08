@@ -1,9 +1,21 @@
-**bd-radar 07-07** — 1 integrating + 1 mystery building lead
+Done. No self-notify — MODE is not set to execute and no building/integrating leads today (threshold not met).
 
-**chase first:** @aaronjmars praised a builder on 07-06 who ran aeon on Docker with autonomous on-chain vote+mint — identity unknown from cache. check https://x.com/aaronjmars/status/2074278744986898676 and find who he was replying to. that's a `building`-class lead shipping right now.
+## Summary
 
-**dan-and** filed their 4th MiroShark issue: air-gapped huggingface models for offline environments. 4th issue, fork still active (34d, pushed 07-06). enterprise or research org running MiroShark in a restricted network. reply on the issue: "what's the deployment context?" — convert to a direct conversation.
+bd-radar sweep for 2026-07-08 complete.
 
-**skopos-aeon** (`Svector-anu`) — named aeon fork from yesterday, +1.7MB own content, 2h own activity. "skopos" = Greek for watcher/target. something's being built.
+**3 new leads** surfaced (220 total):
 
-escalation note: 6 aeon forks pushed today after 8–25 days of continuous activity (Marr554, freezerboi, sinfronterasai, gitlumen-team, ashneil12, zszkey). engagement-act has the handles.
+1. **`x:sparklewarefun` (mentioning, score 6)** — sparkleware launched `$SPARKLE` on @virtuals_io today, tokenizing the aeon skill registry. Known builder escalated to token layer. Reply to launch tweet + ask about official listing in the aeon skill directory.
+
+2. **`github:Aluma/aeon` (forking, score 3)** — 62-repo account, forked + pushed within 7h on 07-07. Small delta, monitor for continued activity.
+
+3. **`github:KingKaonix/aeon` (forking, score 3)** — same-day fork 07-07, thin signal. Watch only.
+
+**Escalation cohort** (already surfaced, still pushing today — the real list for war-room):
+- nigelon11: 5d fork + filed deep technical issue #681 — **DM overdue**
+- Marr554/aeon: 14 consecutive days, pushing this morning
+- freezerboi/aeon: 9 consecutive days, pushing this morning
+- NovaShoal (luis212): 151★ MiroShark app, 10d streak, outreach pending
+
+Pattern: pipeline is mature at 220. New inbound is slowing — the action is outreach on warm leads, not new discovery. The sparkleware token launch is the headline signal.

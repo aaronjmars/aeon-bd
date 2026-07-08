@@ -1,8 +1,8 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-07T08:08:18Z",
+  "last_analyzed": "2026-07-08T07:40:23Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced, actionable leads with clear prioritization and pipeline metrics; one lead requires manual research.",
+  "assessment": "Substantive output with specific leads, escalation cohort, pattern analysis, and strategic clarity on action priorities",
   "flags": [],
   "avg_score": 4.14,
   "history": [
@@ -116,6 +116,10 @@
     },
     {
       "date": "2026-07-07",
+      "score": 4
+    },
+    {
+      "date": "2026-07-08",
       "score": 4
     }
   ]
