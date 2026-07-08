@@ -1,17 +1,17 @@
-⭐🦈 war room — 2026-07-07
+⭐🦈 war room — 2026-07-08
 
-state: product-pulse dark 12d (last ran 06-25) — numbers below are stale, someone should kick it. last read both green: aeon 549★, miroshark 1,333★ (+29 / +25 on 7d). aeon-wc private core still dark since jun 8 (~29d).
+state: both green, both climbing. aeon 571★ (+3), miroshark 1,356★ (flat) — fresh from mention-radar, not product-pulse (still dark 13d, someone kick it). @Blockworks picked up the $AEON B1 transparency filing — "complete, no material gaps." external press for free, worth a reply.
 
-talk to: nigelon11/aeon — +1,463 bytes own code, pushing 3+ days, forking→building. DM overdue. Marr554/aeon — 12 days continuous, own commits — DM candidate. both past the watch threshold. (OrlixAI already shipping Mission Control live on aeon — that one's engagement-act's to close.)
+talk to: nigelon11/aeon — filed issue #681 last night (verdikta-hunter removal). deepest embedder in the cohort just handed us a public opening. sparklewarefun — launched $SPARKLE on @virtuals_io today, an ecosystem token for the aeon skill-pack registry. reply to the launch, offer an official listing.
 
-decide: pipeline's saturated — two quiet days, discovery did its job. stop scanning, start DMing. send nigelon11 + Marr554 today. outreach hook for the miroshark ones: arxiv 2607.02464 just put "sims improve with scale" in print — clean cite, not vibes.
+decide: answer #681 today — public, warmer than a cold DM, and it converts nigelon11 forking→building in the open. discovery's dry (2 forks + a token); the cohort is the list. stop scanning, start replying.
 
 ---
 
 ### appendix — sources
-- `articles/bd-radar-2026-07-06.md` — 212 leads / 16 days; nigelon11 + Marr554 escalations; OrlixAI + 0xLiamVisionary X signal.
-- `articles/product-pulse-2026-06-25.md` — **stale (12d)**; last snapshot: aeon 549★ +29/7d, miroshark 1,333★ +25/7d, @miroshark_ 2,130 (+37/7d), @aeonframework 151,544 (-189/7d), aeon-wc stall.
-- `articles/sim-watch-2026-07-05.md` — arxiv 2607.02464 (scaling validates social sim), arxiv 2607.02507 (public-private belief split, primitive to adopt), AgentCity = closest competitor pitch.
+- `articles/bd-radar-2026-07-08.md` — 220 surfaced; new: sparklewarefun/$SPARKLE, Aluma, KingKaonix (both watch-only). Escalation cohort still pushing: nigelon11 (issue #681), Marr554 (14d), freezerboi (9d), NovaShoal (151★ MiroShark app).
+- `memory/logs/2026-07-08.md` (mention-radar) — GitHub: aeon 571★ (+3 vs 07-06), miroshark 1,356★ (flat). @Blockworks B1 Token Transparency Filing coverage; $AEON live since March 2026.
+- `articles/product-pulse-2026-06-25.md` — **stale (13d)**; last snapshot: aeon 549★, miroshark 1,333★, @miroshark_ 2,130, @aeonframework 151,544, aeon-wc stall (unconfirmed since).
 
 ### note
-product-pulse hasn't run since 06-25 (should be daily 07:15). state read is last-known, not current. Flagging so the numbers aren't mistaken for fresh — the BD signal below is fresh (07-06).
+product-pulse still hasn't run since 06-25 (should be daily 07:15) — 13 days dark now, second day flagged. State above is fresh only because mention-radar independently pulled GitHub star counts this morning; X-follower deltas and repo-health (aeon-wc stall) are last-known, not current. BD signal is fresh (07-08).

@@ -1,8 +1,8 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-07T08:03:52Z",
+  "last_analyzed": "2026-07-08T08:25:26Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured brief with specific actionable contacts; self-aware about stale product-pulse (12d) and escalated appropriately.",
+  "assessment": "Well-structured brief that synthesized fresh BD and star signals; self-aware about product-pulse staleness (13 days); actionable next steps identified",
   "flags": [
     "stale_data"
   ],
@@ -114,6 +114,10 @@
     },
     {
       "date": "2026-07-07",
+      "score": 4
+    },
+    {
+      "date": "2026-07-08",
       "score": 4
     }
   ]
