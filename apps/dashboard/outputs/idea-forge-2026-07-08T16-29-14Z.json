@@ -1,0 +1,95 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 idea-forge · wed wedge"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-critique",
+        "sep-1",
+        "heading-sim-audit",
+        "text-sim-audit-desc",
+        "text-v0-implementation",
+        "text-positioning",
+        "sep-2",
+        "story-link-digest"
+      ]
+    },
+    "text-critique": {
+      "type": "Text",
+      "props": {
+        "text": "the whole field is about to spend a year telling everyone LLM social sims don't replicate — a cluster of papers just landed (\"stop drawing scientific claims without robustness audits,\" PIMMUR says 89.7% of studies violate a principle, \"lost in simulation\"). that critique is a gift.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-sim-audit": {
+      "type": "Heading",
+      "props": {
+        "text": "sim-audit 🦈",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-sim-audit-desc": {
+      "type": "Text",
+      "props": {
+        "text": "miroshark ships the only social sim with its own robustness audit — run the question across N seeds × M models, return a confidence receipt + which boundary it trips, not one cherry-picked narrative.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-v0-implementation": {
+      "type": "Text",
+      "props": {
+        "text": "v0 is just wrapping the counterfactual branching we already have in a report.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-positioning": {
+      "type": "Text",
+      "props": {
+        "text": "the cohort is the one being critiqued; we're the one shipping the answer. window's open now — turn the incoming punch into the moat.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "story-link-digest": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest (5 wedges)",
+        "href": "articles/idea-forge-2026-07-08.md",
+        "source": "idea-forge"
+      },
+      "children": []
+    }
+  }
+}

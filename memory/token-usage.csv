@@ -174,3 +174,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-08,war-room,claude-opus-4-8,7013,6992,816715,55326
 2026-07-08,engagement-act,claude-sonnet-4-6,10,8302,493415,53351
 2026-07-08,competitor-radar,claude-sonnet-4-6,12481,27699,2058005,95634
+2026-07-08,idea-forge,claude-opus-4-8,3963,22573,1717006,158074
