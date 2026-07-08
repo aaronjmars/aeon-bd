@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-07T17:40:31Z",
+  "last_analyzed": "2026-07-08T17:34:37Z",
   "quality_score": 4,
-  "assessment": "Successfully executed fetch, curated substantive signal (Docker fork + builder credit), updated memory, and delivered notification—well-structured and actionable.",
+  "assessment": "Substantive, well-structured output with specific signal extraction and clear curation logic; limited to 4 rather than 5 due to truncation preventing full verification and engagement numbers require external validation.",
   "flags": [],
-  "avg_score": 3.65,
+  "avg_score": 3.67,
   "history": [
     {
       "date": "2026-06-12",
@@ -108,6 +108,10 @@
     },
     {
       "date": "2026-07-07",
+      "score": 4
+    },
+    {
+      "date": "2026-07-08",
       "score": 4
     }
   ]

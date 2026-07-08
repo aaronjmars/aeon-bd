@@ -1,12 +1,20 @@
-*Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-07-05)*
-_Thin day — one builder publicly stacking both products in an integration thread (60 likes); everything else is generic encouragement under 5 engagement._
+*Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-07-08)*
+_Attestation feature drop dominated Tuesday — Aaron's post hit 41 likes; two unsolicited builder integration asks already landing in the wild._
 
-*Builder integration*
-1. x.com/0xLiamVisionary — stacked @miroshark\_ + @aeonframework in a multi-agent integration list alongside bankr, Veildotcash, AskVenice, ClawBankHQ — framing both as "serious builders with real passion." First public vouching that links the two products as a bundle.
-Likes: 60 | RTs: 12 | Replies: 6
-[View tweet](https://x.com/0xLiamVisionary/status/2073475304488911251)
+*Attestation Drop*
+1. x.com/aaronjmars — Proof-of-execution feature live: every Aeon skill run gets a GitHub-signed, publicly-logged proof — unlocking pay-for-verified-work, on-chain action gating, and fleet trust without a human in the loop.
+Likes: 41 | RTs: 6 | Replies: 6
+[View tweet](https://x.com/aaronjmars/status/2074516793800933663)
 
-*Community signal*
-2. x.com/bitcoindragon28 — calls for marketing to match the shipping pace; pegs the project at 100M marketcap potential — first public holder pushing back on the build-first cadence
-Likes: 2 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/bitcoindragon28/status/2073775654978695240)
+*Builder Inbound*
+2. x.com/dr_osse — Community member publicly asking Aaron to port a specific skill into @aeonframework — 2 replies engaged, warm lead worth a DM.
+Likes: 0 | RTs: 0 | Replies: 2
+[View tweet](https://x.com/dr_osse/status/2074587897282412566)
+
+3. x.com/TotalWorldApps — Pitches Aeon as the native logging + verification layer for TON miniapp pipelines with a TON connect integration ask — first public framing of Aeon as mini-app infra.
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/TotalWorldApps/status/2074524132922802397)
+
+4. x.com/s11221s — "Aeon is so underrated man" — unprompted sentiment, suggests awareness is building below the surface.
+Likes: 1 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/s11221s/status/2074529715189330032)
