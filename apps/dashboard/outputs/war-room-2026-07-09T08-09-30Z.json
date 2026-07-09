@@ -1,0 +1,257 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-07-09"
+      },
+      "children": [
+        "state-section",
+        "sep-1",
+        "talk-section",
+        "sep-2",
+        "decide-section"
+      ]
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-heading",
+        "stars-row",
+        "state-text",
+        "pulse-status",
+        "aeon-core-status"
+      ]
+    },
+    "state-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "stars-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-stat",
+        "miroshark-stat"
+      ]
+    },
+    "aeon-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "571★",
+        "trend": "neutral"
+      }
+    },
+    "miroshark-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1,356★",
+        "trend": "neutral"
+      }
+    },
+    "state-text": {
+      "type": "Text",
+      "props": {
+        "text": "stars green — but that's mention-radar scraps, not product-pulse",
+        "variant": "body"
+      }
+    },
+    "pulse-status": {
+      "type": "Alert",
+      "props": {
+        "title": "Product Pulse",
+        "message": "Dark since 06-25, day 3 flagged: no X-deltas, no repo health. Someone actually kick it.",
+        "type": "warning"
+      }
+    },
+    "aeon-core-status": {
+      "type": "Text",
+      "props": {
+        "text": "aeon-wc private core untouched since Jun 8",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk-heading",
+        "sparklewarefun-item",
+        "nigelon11-item"
+      ]
+    },
+    "talk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h2"
+      }
+    },
+    "sparklewarefun-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sparklewarefun-name",
+        "sparklewarefun-desc",
+        "sparklewarefun-badge"
+      ]
+    },
+    "sparklewarefun-name": {
+      "type": "Text",
+      "props": {
+        "text": "sparklewarefun",
+        "variant": "lead"
+      }
+    },
+    "sparklewarefun-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Launched $SPARKLE on @virtuals_io, tokenizing the aeon skill registry.",
+        "variant": "body"
+      }
+    },
+    "sparklewarefun-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Mention-tier builder → escalated to token layer",
+        "variant": "secondary"
+      }
+    },
+    "nigelon11-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "nigelon11-name",
+        "nigelon11-desc",
+        "nigelon11-badges-row"
+      ]
+    },
+    "nigelon11-name": {
+      "type": "Text",
+      "props": {
+        "text": "nigelon11",
+        "variant": "lead"
+      }
+    },
+    "nigelon11-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Issue #681 still open, deepest embedder in the cohort.",
+        "variant": "body"
+      }
+    },
+    "nigelon11-badges-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "nigelon11-badge-warm"
+      ]
+    },
+    "nigelon11-badge-warm": {
+      "type": "Badge",
+      "props": {
+        "text": "warm",
+        "variant": "default"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide-heading",
+        "decide-actions",
+        "decide-rationale",
+        "decide-cta"
+      ]
+    },
+    "decide-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "decide-actions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action-cosign",
+        "action-clear"
+      ]
+    },
+    "action-cosign": {
+      "type": "Text",
+      "props": {
+        "text": "Co-sign $SPARKLE + give it an official listing in the skill directory.",
+        "variant": "body"
+      }
+    },
+    "action-clear": {
+      "type": "Text",
+      "props": {
+        "text": "Clear #681 in the same pass.",
+        "variant": "body"
+      }
+    },
+    "decide-rationale": {
+      "type": "Alert",
+      "props": {
+        "title": "Why",
+        "message": "An ecosystem token tokenizing your own skill registry is \"tokenize the repo / agents as companies\" showing up unprompted — that's aeon-coded, you amplify it, you don't watch it. One reply turns a mention into an ecosystem pillar + hands the token narrative a real external datapoint. Free warm conversion.",
+        "type": "info"
+      }
+    },
+    "decide-cta": {
+      "type": "Alert",
+      "props": {
+        "title": "Next",
+        "message": "Stop scanning, ship the reply.",
+        "type": "success"
+      }
+    }
+  }
+}
