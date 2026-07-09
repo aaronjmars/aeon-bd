@@ -2,15 +2,15 @@
   "leads": [
     {
       "key": "x:sparklewarefun",
-      "class": "mentioning",
+      "class": "building",
       "who": "sparklewarefun (@sparklewarefun)",
       "handle": "sparklewarefun",
-      "signal": "Launched $SPARKLE token on @virtuals_io 2026-07-08 — tokenizing the aeon skill registry. Rebuilt all packs to aeon spec same day. Escalation from known github:sparkleware builder.",
+      "signal": "ACP live on @virtuals_io 07-08: agent that routes @aeonframework skill packs — describe your agent → exact loadout, other agents can hire + query the registry. $SPARKLE token launched same day. Escalated: mentioning → building.",
       "fit": 3,
-      "score": 6,
+      "score": 15,
       "first_seen": "2026-07-08",
       "source": "x_cache",
-      "watch": true
+      "move": "DM @sparklewarefun: the ACP discovery layer is exactly what the ecosystem needs — ECOSYSTEM.md spotlight + co-announce"
     },
     {
       "key": "github:Aluma/aeon",
@@ -1959,6 +1959,45 @@
       "repo_updated": "2026-07-04",
       "source": "gh_read_pat_forks",
       "move": "Watch -- ping if own commits appear in 5 days"
+    },
+    {
+      "key": "github:techdigger/aeon-skill-pack-agentlink",
+      "class": "building",
+      "who": "techdigger (AgentLink)",
+      "handle": "techdigger",
+      "signal": "Shipped AgentLink aeon skill pack 07-08: verified human-backed on-chain identity on Base (status check, human linking hand-off, signed free-endpoint access). Fork (techdigger/aeon) pushed same day with +1,979 bytes own content.",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-07-09",
+      "repo_updated": "2026-07-08",
+      "source": "gh_search_repos+gh_pat_cache",
+      "move": "DM techdigger on GH: AgentLink is live — ECOSYSTEM.md + skill registry listing"
+    },
+    {
+      "key": "github:nigelon11/aeon",
+      "class": "integrating",
+      "who": "nigelon11",
+      "handle": "nigelon11",
+      "signal": "7-day active aeon fork (created 07-02, pushed 07-08T21:20, size 34,846 = +983 bytes own content). Filed issue #681 on main aeon repo. Deepest active embedder in today's sweep.",
+      "fit": 3,
+      "score": 9,
+      "first_seen": "2026-07-09",
+      "repo_updated": "2026-07-08",
+      "source": "gh_pat_cache+gh_issue",
+      "move": "Reply on aeon issue #681 — public thread converts integrating→building in the open"
+    },
+    {
+      "key": "github:Waleeeeed88/MiroShark",
+      "class": "forking",
+      "who": "Waleeeeed88",
+      "handle": "Waleeeeed88",
+      "signal": "MiroShark fork created 07-01T19:43, pushed 07-01T19:55 (12min activity, size 62,396 = base). Drive-by likely.",
+      "fit": 1,
+      "score": 2,
+      "first_seen": "2026-07-09",
+      "repo_updated": "2026-07-01",
+      "source": "gh_pat_cache",
+      "move": "Watch only"
     }
   ],
   "surfaced": [
@@ -2181,6 +2220,9 @@
     "github:mattsegura/aeon",
     "github:dan-and/issue-hf-offline",
     "github:KrishDabhi/MiroShark-a-swarm-intelligence",
-    "x:unidentified-docker-aeon-builder-07-07"
+    "x:unidentified-docker-aeon-builder-07-07",
+    "github:techdigger/aeon-skill-pack-agentlink",
+    "github:nigelon11/aeon",
+    "github:Waleeeeed88/MiroShark"
   ]
 }
