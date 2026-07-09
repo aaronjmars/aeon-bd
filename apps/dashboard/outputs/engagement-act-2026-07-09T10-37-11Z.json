@@ -1,0 +1,294 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-09"
+      },
+      "children": [
+        "stack_items"
+      ]
+    },
+    "stack_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item1_stack",
+        "sep1",
+        "item2_stack",
+        "sep2",
+        "item3_stack",
+        "sep3",
+        "item4_stack",
+        "sep4",
+        "item5_stack"
+      ]
+    },
+    "item1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h1_name",
+        "text1_desc",
+        "link1",
+        "text1_response_header",
+        "text1_draft"
+      ]
+    },
+    "h1_name": {
+      "type": "Text",
+      "props": {
+        "text": "1. techdigger (1d ago)",
+        "variant": "lead"
+      }
+    },
+    "text1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "built AgentLink skill pack: human-backed on-chain identity on Base, live 07-08"
+      }
+    },
+    "link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon-skill-pack-agentlink",
+        "href": "https://github.com/techdigger/aeon-skill-pack-agentlink",
+        "source": "GitHub"
+      }
+    },
+    "text1_response_header": {
+      "type": "Text",
+      "props": {
+        "text": "Suggested response:",
+        "variant": "muted"
+      }
+    },
+    "text1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "nice. human-backed on-chain identity on Base as an aeon skill pack — hadn't seen this angle. want to get you listed in the ECOSYSTEM? open a PR to skills/registry or drop the repo link here.",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h2_name",
+        "text2_desc",
+        "link2",
+        "text2_response_header",
+        "text2_draft"
+      ]
+    },
+    "h2_name": {
+      "type": "Text",
+      "props": {
+        "text": "2. @dr_osse (1d ago)",
+        "variant": "lead"
+      }
+    },
+    "text2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "publicly asking Aaron to port a specific skill into @aeonframework"
+      }
+    },
+    "link2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Reply",
+        "href": "https://x.com/dr_osse/status/2074587897282412566",
+        "source": "X"
+      }
+    },
+    "text2_response_header": {
+      "type": "Text",
+      "props": {
+        "text": "Suggested response:",
+        "variant": "muted"
+      }
+    },
+    "text2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "open an issue on aeon with the spec. if it's useful to more than one builder it gets built ⭐",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h3_name",
+        "text3_desc",
+        "link3",
+        "text3_response_header",
+        "text3_draft"
+      ]
+    },
+    "h3_name": {
+      "type": "Text",
+      "props": {
+        "text": "3. @TotalWorldApps (1d ago)",
+        "variant": "lead"
+      }
+    },
+    "text3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "pitches Aeon as native logging + verification layer for TON miniapp pipelines; first public mini-app infra framing"
+      }
+    },
+    "link3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Reply",
+        "href": "https://x.com/TotalWorldApps/status/2074524132922802397",
+        "source": "X"
+      }
+    },
+    "text3_response_header": {
+      "type": "Text",
+      "props": {
+        "text": "Suggested response:",
+        "variant": "muted"
+      }
+    },
+    "text3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "hadn't thought about TON miniapp pipelines but logging + verification fits natively — every skill run is already a public trace on GitHub. what would the TON connect hook look like on your side? ⭐",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h4_name",
+        "text4_desc",
+        "link4",
+        "text4_response_header",
+        "text4_draft"
+      ]
+    },
+    "h4_name": {
+      "type": "Text",
+      "props": {
+        "text": "4. @anajuliabit (2d ago)",
+        "variant": "lead"
+      }
+    },
+    "text4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "builder of \"orquestra\" credits aeon features as inspiration, unprompted, same thread as Aaron's Docker post"
+      }
+    },
+    "link4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Reply",
+        "href": "https://x.com/anajuliabit/status/2074278309639151907",
+        "source": "X"
+      }
+    },
+    "text4_response_header": {
+      "type": "Text",
+      "props": {
+        "text": "Suggested response:",
+        "variant": "muted"
+      }
+    },
+    "text4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "orquestra looks solid. what part of aeon did you adapt? curious if it's worth turning into a skill ⭐",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h5_name",
+        "text5_desc",
+        "link5",
+        "text5_response_header",
+        "text5_draft"
+      ]
+    },
+    "h5_name": {
+      "type": "Text",
+      "props": {
+        "text": "5. @aethree_xyz (3d ago)",
+        "variant": "lead"
+      }
+    },
+    "text5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "first public builder to wrap full token economy (avatar + bonding curve) in a single $AEON call"
+      }
+    },
+    "link5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Reply",
+        "href": "https://x.com/aethree_xyz/status/2074119284993769698",
+        "source": "X"
+      }
+    },
+    "text5_response_header": {
+      "type": "Text",
+      "props": {
+        "text": "Suggested response:",
+        "variant": "muted"
+      }
+    },
+    "text5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "first time i've seen someone wrap the full avatar + bonding curve in a single aeon call. what's the stack under it? ⭐",
+        "variant": "caption"
+      }
+    }
+  }
+}
