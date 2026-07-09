@@ -1,21 +1,19 @@
-Done. No self-notify — MODE is not set to execute and no building/integrating leads today (threshold not met).
+Done. Here's what the sweep found:
 
-## Summary
+---
 
-bd-radar sweep for 2026-07-08 complete.
+**bd-radar 2026-07-09**
 
-**3 new leads** surfaced (220 total):
+**3 new leads surfaced** (pipeline now at 223):
 
-1. **`x:sparklewarefun` (mentioning, score 6)** — sparkleware launched `$SPARKLE` on @virtuals_io today, tokenizing the aeon skill registry. Known builder escalated to token layer. Reply to launch tweet + ask about official listing in the aeon skill directory.
+1. **`techdigger` — building (score 15)** — shipped `aeon-skill-pack-agentlink` on 07-08: verified human-backed on-chain identity on Base. Fork active same day with +1,979 bytes own content. → DM on GH for ECOSYSTEM.md + skill registry
 
-2. **`github:Aluma/aeon` (forking, score 3)** — 62-repo account, forked + pushed within 7h on 07-07. Small delta, monitor for continued activity.
+2. **`nigelon11` — integrating (score 9)** — 7-day active aeon fork (07-02 → 07-08), filed issue #681 on the main aeon repo. Deepest embedder this sweep. → Reply on #681 publicly, converts in the open
 
-3. **`github:KingKaonix/aeon` (forking, score 3)** — same-day fork 07-07, thin signal. Watch only.
+3. **`Waleeeeed88/MiroShark` — watch** — MiroShark fork, 12min activity, base size. Drive-by likely.
 
-**Escalation cohort** (already surfaced, still pushing today — the real list for war-room):
-- nigelon11: 5d fork + filed deep technical issue #681 — **DM overdue**
-- Marr554/aeon: 14 consecutive days, pushing this morning
-- freezerboi/aeon: 9 consecutive days, pushing this morning
-- NovaShoal (luis212): 151★ MiroShark app, 10d streak, outreach pending
+**Escalation:** `sparklewarefun` upgraded `mentioning → building` — ACP live on @virtuals_io (07-08): agent that routes @aeonframework skill packs, other agents can hire it + query the registry.
 
-Pattern: pipeline is mature at 220. New inbound is slowing — the action is outreach on warm leads, not new discovery. The sparkleware token launch is the headline signal.
+**Hot cohort:** 4 aeon forks (freezerboi 10d, Marr554 15d, zszkey 24d, sinfronterasai 27d) all pushed in the last 6 hours. The pattern holds: outreach is the bottleneck, not discovery.
+
+No self-notify (MODE not execute; war-room carries the brief).
