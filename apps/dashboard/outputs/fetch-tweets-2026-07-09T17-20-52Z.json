@@ -1,0 +1,199 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework / @miroshark",
+        "description": "Team making real product moves (onramp + first x402 buyback); builders integrating on Virtuals.io; lone price FUD, zero amplification."
+      },
+      "children": [
+        "product-section",
+        "separator1",
+        "ecosystem-section",
+        "separator2",
+        "price-section"
+      ]
+    },
+    "product-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "product-heading",
+        "tweet1-stack"
+      ]
+    },
+    "product-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Product Announcement",
+        "level": "h3"
+      }
+    },
+    "tweet1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "tweet1-link"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron",
+        "handle": "aaronjmars",
+        "text": "onramp live on both websites: credit card top-up, X/GitHub/Google/wallet login, swap+buy direct from site. First Miroshark buyback executed using 100% of x402 endpoint revenue.",
+        "likes": 39,
+        "retweets": 2
+      }
+    },
+    "tweet1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2074916309348049107"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ecosystem-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ecosystem-heading",
+        "tweet2-stack",
+        "tweet3-stack"
+      ]
+    },
+    "ecosystem-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem Builders",
+        "level": "h3"
+      }
+    },
+    "tweet2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "tweet2-link"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Nurstar",
+        "handle": "0xNurstar",
+        "text": "aeon skill demo: agent that explains complex/unknown transactions to users in plain language.",
+        "likes": 7,
+        "retweets": 1
+      }
+    },
+    "tweet2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2074800325052014789"
+      }
+    },
+    "tweet3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3",
+        "tweet3-link"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sparkleware",
+        "handle": "sparklewarefun",
+        "text": "sparkleware ACP live on Virtuals.io. describe your agent → get its exact aeon skill loadout (packs + install + LOADOUT.md). other agents can hire it + query the registry.",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "tweet3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/sparklewarefun/status/2074927991826894894"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price-heading",
+        "tweet4-stack"
+      ]
+    },
+    "price-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price FUD",
+        "level": "h3"
+      }
+    },
+    "tweet4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4",
+        "tweet4-link"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "hytluckly",
+        "handle": "hytluckly",
+        "text": "first holder to publicly flag $AEON price decline and question whether social practices have failed.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/hytluckly/status/2075004962430689632"
+      }
+    }
+  }
+}
