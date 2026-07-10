@@ -38,7 +38,7 @@ If `${var}` matches a slug, the run produces a single-framework deep dive instea
 ### 0. Bootstrap
 
 ```bash
-mkdir -p memory/topics articles
+mkdir -p memory/topics output/articles
 [ -f memory/topics/framework-watch-state.json ] || echo '{"frameworks":{},"last_run":null}' > memory/topics/framework-watch-state.json
 ```
 

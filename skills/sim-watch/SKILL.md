@@ -26,7 +26,7 @@ Aaron's bet: **"simulation is the most consequential, least-attended layer of AI
 
 ### 0. Bootstrap
 ```bash
-mkdir -p memory/topics articles
+mkdir -p memory/topics output/articles
 [ -f memory/topics/sim-watch-state.json ] || echo '{"seen":[],"cohort":[]}' > memory/topics/sim-watch-state.json
 ```
 `seen` is an LRU (cap 250) of already-reported item keys (`{type}:{id}` — repo full-name, arXiv id, or url). Also dedupe against last 14 days of `### sim-watch` log blocks.
