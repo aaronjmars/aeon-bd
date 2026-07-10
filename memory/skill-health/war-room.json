@@ -1,9 +1,11 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-09T08:09:30Z",
+  "last_analyzed": "2026-07-10T07:51:14Z",
   "quality_score": 4,
-  "assessment": "Substantive brief with specific, reasoned decisions and strong execution; synthesized available data cleanly and flagged systemic gaps (product-pulse dark) appropriately.",
-  "flags": [],
+  "assessment": "Substantive, actionable brief with real bug discovery and BD signals; solid execution but truncated output and flat metrics prevent 5-tier",
+  "flags": [
+    "stale_data"
+  ],
   "avg_score": 4.07,
   "history": [
     {
@@ -120,6 +122,10 @@
     },
     {
       "date": "2026-07-09",
+      "score": 4
+    },
+    {
+      "date": "2026-07-10",
       "score": 4
     }
   ]
