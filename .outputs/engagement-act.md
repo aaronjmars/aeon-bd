@@ -1,26 +1,30 @@
-*Engagement Act — 2026-07-09*
+*Engagement Act — 2026-07-10*
 
-*1. techdigger* (1d ago) — built AgentLink skill pack: human-backed on-chain identity on Base, live 07-08
-link: https://github.com/techdigger/aeon-skill-pack-agentlink
-type: GitHub comment
-draft: "nice. human-backed on-chain identity on Base as an aeon skill pack — hadn't seen this angle. want to get you listed in the ECOSYSTEM? open a PR to skills/registry or drop the repo link here."
+*1. @AzzleAI* (0 days ago) — shipped GITHUB_ACTIONS.md + azzle-skills.yml + aeon-env.snippet.yml into /agents/scaffolding/aeon; building AMM for agentic labor on Base; top bd-radar lead today (score 15)
+link: no link found (escalated from @dabusthebuilder context in bd-radar 07-10)
+type: X DM
+draft: "saw you shipped the aeon scaffolding files — the env snippet + skills yml is exactly how the stack wants to be set up. building an AMM for agentic labor on Base is straight from the compute→money thesis. sending ECOSYSTEM.md + happy to add you to the builder TG if you want — we track everyone doing production work on top ⭐"
 
-*2. @dr_osse* (1d ago) — publicly asking Aaron to port a specific skill into @aeonframework
-link: https://x.com/dr_osse/status/2074587897282412566
+*2. MiroFish misattribution* (0 days ago) — article chain floating in the wild says Miroshark is "built on MiroFish"; MiroFish hit 68K★, $4M raised in 24h, #1 trending; timing window to correct + capture the category moment
+link: no single URL (mention-radar 07-10 flagged multiple articles)
+type: X post (from @miroshark_ or @aaronjmars)
+draft: "seeing articles saying @miroshark_ is 'built on MiroFish'
+
+it's not. Miroshark is its own stack — neo4j, x402-native, director mode, belief drift across rounds. same category, different engine 🦈
+
+MiroFish going viral just proved the market exists"
+
+*3. @nazimahmed* (0 days ago) — CoinHeroFun, 2nd-time founder; included @aeonframework in token network curation list; 13 likes / 4 RT
+link: no link found (surfaced in bd-radar 07-10, X cache)
 type: X reply
-draft: "open an issue on aeon with the spec. if it's useful to more than one builder it gets built ⭐"
+draft: "appreciate the include @nazimahmed — curious what you're using for the network curation side. building on top of aeon or just watching the stack? ⭐"
 
-*3. @TotalWorldApps* (1d ago) — pitches Aeon as native logging + verification layer for TON miniapp pipelines; first public mini-app infra framing
-link: https://x.com/TotalWorldApps/status/2074524132922802397
-type: X reply
-draft: "hadn't thought about TON miniapp pipelines but logging + verification fits natively — every skill run is already a public trace on GitHub. what would the TON connect hook look like on your side? ⭐"
+*4. OpenAgentSkill.com* (0 days ago) — external registry listed Aeon at quality 85/100; listing is unclaimed; flagged by mention-radar 07-10
+link: https://openagentskill.com (visit to claim)
+type: website action (claim listing)
+draft: [go to openagentskill.com, search for Aeon, click claim — add: correct GitHub URL (aaronjmars/aeon), short description "the most autonomous agent framework — skills as markdown, self-repair, runs unattended on GitHub Actions", link to @aeonframework]
 
-*4. @anajuliabit* (2d ago) — builder of "orquestra" credits aeon features as inspiration, unprompted, same thread as Aaron's Docker post
-link: https://x.com/anajuliabit/status/2074278309639151907
-type: X reply
-draft: "orquestra looks solid. what part of aeon did you adapt? curious if it's worth turning into a skill ⭐"
-
-*5. @aethree_xyz* (3d ago) — first public builder to wrap full token economy (avatar + bonding curve) in a single $AEON call
-link: https://x.com/aethree_xyz/status/2074119284993769698
-type: X reply
-draft: "first time i've seen someone wrap the full avatar + bonding curve in a single aeon call. what's the stack under it? ⭐"
+*5. github:aeonbookai/aeonTemplate* (0 days ago) — org named aeonbookai, fork named aeonTemplate, +2,586 bytes own content beyond base; fresh fork signal
+link: https://github.com/aeonbookai/aeonTemplate
+type: GitHub comment / DM
+draft: "hey — noticed you've got +2,586 bytes of own content in aeonTemplate. what are you building on top of it? if it's production-intent, worth linking you to ECOSYSTEM.md + the builder TG ⭐"
