@@ -1,8 +1,8 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-07-08T07:36:07Z",
+  "last_analyzed": "2026-07-10T07:51:39Z",
   "quality_score": 4,
-  "assessment": "Solid execution: identified high-value press mention (Blockworks) with clear context, correctly assessed both products' status, flagged specific engagement opportunity aligned to strategy.",
+  "assessment": "Substantive, actionable findings with strong competitive signal and timing insight; execution complete but MiroFish numbers lack source verification",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -56,6 +56,10 @@
     },
     {
       "date": "2026-07-08",
+      "score": 4
+    },
+    {
+      "date": "2026-07-10",
       "score": 4
     }
   ]

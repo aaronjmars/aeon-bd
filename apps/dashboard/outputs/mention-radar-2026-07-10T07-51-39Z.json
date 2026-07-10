@@ -1,0 +1,438 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-07-10"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep-1",
+        "heading-aeon",
+        "stack-aeon",
+        "sep-2",
+        "heading-miroshark",
+        "stack-miroshark",
+        "sep-3",
+        "heading-engagement",
+        "stack-engagement",
+        "sep-4",
+        "heading-quiet",
+        "stack-quiet",
+        "sep-5",
+        "heading-github",
+        "text-github"
+      ]
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON / @aeonframework",
+        "level": "h2"
+      }
+    },
+    "stack-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-item-1",
+        "aeon-item-2"
+      ]
+    },
+    "aeon-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-1-link",
+        "aeon-1-text",
+        "aeon-1-badge"
+      ]
+    },
+    "aeon-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "openagentskill.com",
+        "href": "https://openagentskill.com"
+      }
+    },
+    "aeon-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Community registry listed Aeon with quality 85/100, trust 80/100, audit 89/100. \"Most autonomous agent framework\" — categorized under coding agents + GitHub automation. Not yet claimed by @aeonframework. Star count stale (536, actual 573).",
+        "variant": "body"
+      }
+    },
+    "aeon-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery / Press",
+        "variant": "secondary"
+      }
+    },
+    "aeon-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-2-link",
+        "aeon-2-text",
+        "aeon-2-badge"
+      ]
+    },
+    "aeon-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "steemit.com/tiptag",
+        "href": "https://steemit.com/tiptag"
+      }
+    },
+    "aeon-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-posts of @aeonframework + @AIonBase_ tweets auto-syncing to Steemit. Low signal, bot-indexed.",
+        "variant": "body"
+      }
+    },
+    "aeon-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "secondary"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK / @miroshark_",
+        "level": "h2"
+      }
+    },
+    "stack-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-item-1",
+        "miroshark-item-2",
+        "miroshark-item-3"
+      ]
+    },
+    "miroshark-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-1-alert",
+        "miroshark-1-sources",
+        "miroshark-1-repo",
+        "miroshark-1-details",
+        "miroshark-1-false-claim"
+      ]
+    },
+    "miroshark-1-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "MiroFish Wall-to-Wall Coverage",
+        "type": "warning"
+      }
+    },
+    "miroshark-1-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: Medium (agentnativedev), emelia.io, perplexityaimagazine, byteiota, flowtivity.ai, LinkedIn",
+        "variant": "caption"
+      }
+    },
+    "miroshark-1-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroFish (68,292★, 10,654 forks)",
+        "href": "https://github.com/666ghj/MiroFish",
+        "source": "GitHub Trending",
+        "score": "#1 Global"
+      }
+    },
+    "miroshark-1-details": {
+      "type": "Text",
+      "props": {
+        "text": "$4M raised in 24h. 20-year-old founder. Positioned as \"the\" swarm simulation engine. Same exact use case as MiroShark (doc → agents → simulate discourse).",
+        "variant": "body"
+      }
+    },
+    "miroshark-1-false-claim": {
+      "type": "Alert",
+      "props": {
+        "title": "Narrative Alert",
+        "message": "One article chain mischaracterizes MiroShark as \"built on MiroFish\" — false, but spreading.",
+        "type": "error"
+      }
+    },
+    "miroshark-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-2-title",
+        "miroshark-2-stats"
+      ]
+    },
+    "miroshark-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Signal",
+        "level": "h4"
+      }
+    },
+    "miroshark-2-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-24h",
+        "stat-7d",
+        "stat-mcap",
+        "stat-volume"
+      ]
+    },
+    "stat-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "$MIROSHARK (24h)",
+        "value": "-3.80%",
+        "trend": "down"
+      }
+    },
+    "stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "$MIROSHARK (7d)",
+        "value": "-28%",
+        "trend": "down"
+      }
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$520K"
+      }
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$3.2K"
+      }
+    },
+    "miroshark-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-3-link",
+        "miroshark-3-text",
+        "miroshark-3-badge"
+      ]
+    },
+    "miroshark-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "8004scan.io/agents/base/44287",
+        "href": "https://8004scan.io/agents/base/44287"
+      }
+    },
+    "miroshark-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "MiroShark listed in ERC-8004 agent registry on Base. Static listing, no discussion.",
+        "variant": "body"
+      }
+    },
+    "miroshark-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "secondary"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "stack-engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement-item-1",
+        "engagement-item-2"
+      ]
+    },
+    "engagement-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-1-badge",
+        "engagement-1-title",
+        "engagement-1-text"
+      ]
+    },
+    "engagement-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH PRIORITY — Timing Window",
+        "variant": "destructive"
+      }
+    },
+    "engagement-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "MiroFish Narrative",
+        "level": "h3"
+      }
+    },
+    "engagement-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "The \"MiroFish vs MiroShark\" window is open right now. MiroFish is eating every AI newsletter this week; MiroShark is the original swarm sim engine in this space. A thread comparing the two — honest, technical, direct — would land in exactly the audience currently reading about MiroFish. One wrong article already claims MiroShark is \"built on\" MiroFish. Correct the record before it solidifies. This is a timing window, not a defense play.",
+        "variant": "body"
+      }
+    },
+    "engagement-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-2-title",
+        "engagement-2-text",
+        "engagement-2-action"
+      ]
+    },
+    "engagement-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "OpenAgentSkill.com",
+        "level": "h3"
+      }
+    },
+    "engagement-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon is indexed but unclaimed (stars stale at 536). Claim the listing at openagentskill.com/skills/aaronjmars-aeon and update the description. Zero-effort discoverability win for the coding-agent builder audience.",
+        "variant": "body"
+      }
+    },
+    "engagement-2-action": {
+      "type": "Button",
+      "props": {
+        "label": "Claim at openagentskill.com/skills/aaronjmars-aeon",
+        "variant": "primary"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-quiet": {
+      "type": "Heading",
+      "props": {
+        "text": "QUIET",
+        "level": "h2"
+      }
+    },
+    "stack-quiet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quiet-aeon",
+        "quiet-miroshark"
+      ]
+    },
+    "quiet-aeon": {
+      "type": "Text",
+      "props": {
+        "text": "@aeonframework — no fresh external mentions beyond the OpenAgentSkill registry entry",
+        "variant": "muted"
+      }
+    },
+    "quiet-miroshark": {
+      "type": "Text",
+      "props": {
+        "text": "@miroshark_ — no external @-mentions found; token tracked but no social signal",
+        "variant": "muted"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-github": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Stars",
+        "level": "h2"
+      }
+    },
+    "text-github": {
+      "type": "Text",
+      "props": {
+        "text": "aeon 573★ (+2 vs 07-08) · MiroShark 1,358★ (+2 vs 07-08) — both below 5★ delta threshold",
+        "variant": "body"
+      }
+    }
+  }
+}
