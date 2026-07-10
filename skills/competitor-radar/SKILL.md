@@ -126,7 +126,7 @@ Key invariants:
 ### 0. Bootstrap
 
 ```bash
-mkdir -p memory/topics articles
+mkdir -p memory/topics output/articles
 [ -f memory/topics/competitor-radar-state.json ] || cat > memory/topics/competitor-radar-state.json <<'EOF'
 {"last_run":null,"last_status":null,"announced":[]}
 EOF
