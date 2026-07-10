@@ -1,0 +1,404 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Idea Screener",
+        "description": "2026-07-10"
+      },
+      "children": [
+        "summary-text",
+        "separator-1",
+        "idea-1-section",
+        "separator-2",
+        "idea-2-section",
+        "separator-3",
+        "idea-3-section",
+        "separator-4",
+        "skipped-section",
+        "separator-5",
+        "recommendation-section",
+        "separator-6",
+        "notes-link"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "screened 5 (idea-forge 07-08 backlog). first-ever 16/16 in the pile. top picks:",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "idea-1-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "idea-1-header",
+        "idea-1-description",
+        "idea-1-scores",
+        "idea-1-gap-heading",
+        "idea-1-gap-text",
+        "idea-1-tailwind-heading",
+        "idea-1-tailwind-text"
+      ]
+    },
+    "idea-1-header": {
+      "type": "Heading",
+      "props": {
+        "text": "1. harness-not-model — 16/16 ⭐",
+        "level": "h2"
+      }
+    },
+    "idea-1-description": {
+      "type": "Text",
+      "props": {
+        "text": "pin one model, run a real task raw vs through aeon, publish both traces weekly."
+      }
+    },
+    "idea-1-scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "idea-1-competition",
+        "idea-1-timing",
+        "idea-1-operator"
+      ]
+    },
+    "idea-1-competition": {
+      "type": "Stat",
+      "props": {
+        "label": "competition",
+        "value": "open"
+      }
+    },
+    "idea-1-timing": {
+      "type": "Stat",
+      "props": {
+        "label": "timing",
+        "value": "5/5"
+      }
+    },
+    "idea-1-operator": {
+      "type": "Stat",
+      "props": {
+        "label": "operator-fit",
+        "value": "5/5"
+      }
+    },
+    "idea-1-gap-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Gap",
+        "level": "h4"
+      }
+    },
+    "idea-1-gap-text": {
+      "type": "Text",
+      "props": {
+        "text": "nobody ships an ongoing raw-vs-harnessed public receipt on a pinned model. harness benchmarks are one-off tweets, not a branded series."
+      }
+    },
+    "idea-1-tailwind-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tailwind",
+        "level": "h4"
+      }
+    },
+    "idea-1-tailwind-text": {
+      "type": "Text",
+      "props": {
+        "text": "zuck said meta's agents are \"slower than expected\" (town hall 07-02, HN #1). the coverage itself concludes the failure points at the *models*, not the scaffolding — the harness is the model, validated in the news this week. cheapest play we've ever scored. ship the trace while the story's live."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "idea-2-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "idea-2-header",
+        "idea-2-description",
+        "idea-2-scores",
+        "idea-2-gap-heading",
+        "idea-2-gap-text",
+        "idea-2-tailwind-heading",
+        "idea-2-tailwind-text"
+      ]
+    },
+    "idea-2-header": {
+      "type": "Heading",
+      "props": {
+        "text": "2. sim-audit — 15/16 🦈",
+        "level": "h2"
+      }
+    },
+    "idea-2-description": {
+      "type": "Text",
+      "props": {
+        "text": "run miroshark across seeds+models, ship a robustness boundary receipt."
+      }
+    },
+    "idea-2-scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "idea-2-competition",
+        "idea-2-timing",
+        "idea-2-operator"
+      ]
+    },
+    "idea-2-competition": {
+      "type": "Stat",
+      "props": {
+        "label": "competition",
+        "value": "sparse"
+      }
+    },
+    "idea-2-timing": {
+      "type": "Stat",
+      "props": {
+        "label": "timing",
+        "value": "5/5"
+      }
+    },
+    "idea-2-operator": {
+      "type": "Stat",
+      "props": {
+        "label": "operator-fit",
+        "value": "5/5"
+      }
+    },
+    "idea-2-gap-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Gap",
+        "level": "h4"
+      }
+    },
+    "idea-2-gap-text": {
+      "type": "Text",
+      "props": {
+        "text": "the field is telling sims to publish audits (2605.18890 \"stop drawing claims without robustness audits\"). no product ships one. MiroFish (68K★, $4M) ships zero audit — this is the \"what MiroFish can't do\" wedge."
+      }
+    },
+    "idea-2-tailwind-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tailwind",
+        "level": "h4"
+      }
+    },
+    "idea-2-tailwind-text": {
+      "type": "Text",
+      "props": {
+        "text": "turns the strongest attack on social sims into miroshark's moat. pure dogfood, no new build."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "idea-3-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "idea-3-header",
+        "idea-3-description",
+        "idea-3-scores",
+        "idea-3-gap-heading",
+        "idea-3-gap-text",
+        "idea-3-tailwind-heading",
+        "idea-3-tailwind-text"
+      ]
+    },
+    "idea-3-header": {
+      "type": "Heading",
+      "props": {
+        "text": "3. swarm-eval — 12/16 🦈",
+        "level": "h2"
+      }
+    },
+    "idea-3-description": {
+      "type": "Text",
+      "props": {
+        "text": "miroshark's belief-drift swarm becomes the grounded agent-eval sandbox."
+      }
+    },
+    "idea-3-scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "idea-3-competition",
+        "idea-3-timing",
+        "idea-3-operator"
+      ]
+    },
+    "idea-3-competition": {
+      "type": "Stat",
+      "props": {
+        "label": "competition",
+        "value": "crowded"
+      }
+    },
+    "idea-3-timing": {
+      "type": "Stat",
+      "props": {
+        "label": "timing",
+        "value": "5/5"
+      }
+    },
+    "idea-3-operator": {
+      "type": "Stat",
+      "props": {
+        "label": "operator-fit",
+        "value": "4/5"
+      }
+    },
+    "idea-3-gap-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Gap",
+        "level": "h4"
+      }
+    },
+    "idea-3-gap-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Lost in Simulation\" (2601.17087) says simulated users are unreliable proxies — grounded ones don't exist. miroshark grounds them."
+      }
+    },
+    "idea-3-tailwind-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tailwind",
+        "level": "h4"
+      }
+    },
+    "idea-3-tailwind-text": {
+      "type": "Text",
+      "props": {
+        "text": "right wave, but eval infra is contested (Confident AI, ClawsBench, WebArena, VISTA) and it pulls miroshark toward eval-infra. let sim-audit lead the same critique."
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "skipped-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "skipped-heading",
+        "skipped-1",
+        "skipped-2"
+      ]
+    },
+    "skipped-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Skipped",
+        "level": "h3"
+      }
+    },
+    "skipped-1": {
+      "type": "Text",
+      "props": {
+        "text": "cloudflare-skill-shop (11) — crowded, it's x402-skill-meter reborn (a free aeon feature + buyback dogfood, not a company)"
+      }
+    },
+    "skipped-2": {
+      "type": "Text",
+      "props": {
+        "text": "agent-firewall (10) — MS already shipped the exact toolkit, and security is aaeron's lane."
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recommendation-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "recommendation-heading",
+        "recommendation-1",
+        "recommendation-2"
+      ]
+    },
+    "recommendation-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Read",
+        "level": "h3"
+      }
+    },
+    "recommendation-1": {
+      "type": "Text",
+      "props": {
+        "text": "harness-not-model is the move this week — dated catalyst, our literal thesis, pure content."
+      }
+    },
+    "recommendation-2": {
+      "type": "Text",
+      "props": {
+        "text": "sim-audit is the free miroshark moat that also answers MiroFish."
+      }
+    },
+    "separator-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notes-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full notes",
+        "href": "memory/topics/startup-ideas-screened.md"
+      }
+    }
+  }
+}
