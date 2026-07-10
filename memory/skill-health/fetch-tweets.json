@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-09T17:20:52Z",
+  "last_analyzed": "2026-07-10T17:14:36Z",
   "quality_score": 4,
-  "assessment": "Good — substantive output with specific metrics, clear cluster structure, working deduplication/curation logic, actionable signal assessment aligned with strategy (BD + ecosystem growth), and proper memory tracking.",
+  "assessment": "Substantive cluster analysis with clear metrics, proper filtering logic, and correct memory updates; lacks explicit engagement recommendations for high-signal tweets.",
   "flags": [],
-  "avg_score": 3.68,
+  "avg_score": 3.69,
   "history": [
     {
       "date": "2026-06-12",
@@ -116,6 +116,10 @@
     },
     {
       "date": "2026-07-09",
+      "score": 4
+    },
+    {
+      "date": "2026-07-10",
       "score": 4
     }
   ]

@@ -1,0 +1,188 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-07-10)"
+      },
+      "children": [
+        "subtitle",
+        "sep1",
+        "section1",
+        "sep2",
+        "section2",
+        "sep3",
+        "section3"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Three distinct angles today — one builder forking the framework, one token network listing $AEON, one unanswered governance challenge on $a3.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section1-heading",
+        "tweet1",
+        "tweet1-engagement",
+        "tweet1-link"
+      ]
+    },
+    "section1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem Integration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AzzleAI",
+        "handle": "@AzzleAI",
+        "text": "Shipped GitHub Actions scaffolding inside an @aeonframework fork: GITHUB_ACTIONS.md, azzle-skills.yml, aeon-env.snippet.yml — wires up scheduled and on-demand AZZLE skill execution. Real builder, not a talker.",
+        "likes": 4,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "tweet1-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AzzleAI/status/2075333505672745213"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section2-heading",
+        "tweet2",
+        "tweet2-engagement",
+        "tweet2-link"
+      ]
+    },
+    "section2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token Visibility",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "nazimahmed",
+        "handle": "@nazimahmed",
+        "text": "CoinHeroFun token network curation sweep included $AEON alongside @bankrbot, @virtuals_io, @AerodromeFi. Self-serve portal for new projects coming soon. First public token-network listing we've seen for $AEON.",
+        "likes": 14,
+        "retweets": 4
+      },
+      "children": []
+    },
+    "tweet2-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/nazimahmed/status/2075286419526881463"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section3-heading",
+        "tweet3",
+        "tweet3-engagement",
+        "tweet3-link"
+      ]
+    },
+    "section3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Governance FUD",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xETHBTC5",
+        "handle": "@0xETHBTC5",
+        "text": "Challenges whether $a3 governance token has any real voting mechanism for holders. Frames it as \"absolutely worthless\" if true. Zero replies so far — no one has stepped in to correct or confirm.",
+        "likes": 0,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "tweet3-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xETHBTC5/status/2075299441985163300"
+      },
+      "children": []
+    }
+  }
+}
