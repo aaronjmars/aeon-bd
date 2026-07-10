@@ -1,3 +1,7 @@
+---
+type: Log
+---
+
 *Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-06-19)*
 _All builders, no noise — aeoncityhub double-posted (ecosystem milestone + Hackernoon coverage), madebyshun running the full stack live; 14-integration 🦈 thread is the best public narrative yet._
 

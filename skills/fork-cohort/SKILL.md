@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: fork-cohort
+category: core
 description: Fork-activation cohort tracker — buckets every fork by recent run activity (COLD / STALE / ACTIVE / POWER) with deltas since the prior snapshot
 var: ""
 tags: [meta, community]
@@ -137,7 +139,7 @@ Priority order:
 
 ### 8. Write the article
 
-Path: `articles/fork-cohort-${today}.md`
+Path: `output/articles/fork-cohort-${today}.md`
 
 ```markdown
 # Fork Activation Cohort — ${today}
@@ -234,7 +236,7 @@ Append to `memory/logs/${today}.md`:
 - Verdict: {one-line verdict}
 - Total: N_TOTAL · POWER N · ACTIVE N · STALE N · COLD N · UNREADABLE N
 - Δ: leveled_up N · revived N · went_stale N · new_active N · went_cold N
-- Article: articles/fork-cohort-${today}.md
+- Article: output/articles/fork-cohort-${today}.md
 - Source status: forks_list=ok · runs_lookup=N/M · aeon_yml_lookup=N/M · unreadable=N
 ```
 
@@ -266,7 +268,7 @@ Went stale (worth a check-in):
 {If any NEW_ACTIVE:}
 New running forks: @{owner1}, @{owner2}, ...
 
-Full report: articles/fork-cohort-${today}.md
+Full report: output/articles/fork-cohort-${today}.md
 ```
 
 ## Exit taxonomy

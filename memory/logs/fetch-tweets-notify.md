@@ -1,3 +1,7 @@
+---
+type: Log
+---
+
 *Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-07-08)*
 _Attestation feature drop dominated Tuesday — Aaron's post hit 41 likes; two unsolicited builder integration asks already landing in the wild._
 

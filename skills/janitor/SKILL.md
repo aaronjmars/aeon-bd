@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Janitor
+category: core
 description: Cleanup of accumulated temp files — .notify-* root-level files, .pending-notify-temp/, and stale .outputs/ chain artifacts older than their TTL
 tags: [meta]
 ---

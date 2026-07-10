@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: beat-tracker
+category: productivity
 description: Multi-beat news thread tracker — persists beat counts per active storyline, searches for new developments, alerts when a thread hits the article-ready threshold (3rd beat)
 schedule: "0 9 * * 3"
 tags: [content, meta, research]
@@ -104,7 +106,7 @@ Set `status: stale`. Will be moved to Closed Threads in step 6.
 
 ### 5. Cross-check articles
 
-Use Glob on `articles/*.md`. For any article-ready thread, check if an article was already published on this topic (scan article filenames and H1s from the past 30 days).
+Use Glob on `output/articles/*.md`. For any article-ready thread, check if an article was already published on this topic (scan article filenames and H1s from the past 30 days).
 
 If yes: mark thread as `status: converted` with the article date. Move to Closed Threads.
 

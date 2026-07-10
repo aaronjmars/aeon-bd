@@ -1,4 +1,5 @@
 ---
+type: Skill
 name: Protocol Monitor (x402 default)
 category: crypto
 description: Tracker for a configured protocol's ecosystem velocity — new GitHub integrations, npm adoption, notable announcements. Defaults to x402; operators swap in their own protocol via memory/topics/tracked-protocol.md.

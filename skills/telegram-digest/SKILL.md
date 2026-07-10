@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Telegram Digest
+category: basics
 description: Cross-channel digest of public Telegram posts — ranked by signal, clustered by narrative, not by channel
 var: ""
 tags: [social]

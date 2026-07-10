@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Self Review
+category: core
 description: Audit of what the agent did, what failed, and what to improve
 var: ""
 tags: [meta]
@@ -14,7 +16,7 @@ Read ALL memory/logs/ entries from the last 7 days.
 
 Steps:
 1. Audit quality of outputs:
-   - Read recent articles in articles/ — are they substantive or formulaic?
+   - Read recent articles in output/articles/ — are they substantive or formulaic?
    - Check recent notifications in logs — were they useful or noisy?
    - Review any PR comments posted — were they actionable?
 2. Audit reliability:
@@ -30,7 +32,7 @@ Steps:
    - Schedule adjustments
    - Config changes (feeds, repos, addresses to add/remove)
    - Quality improvements (better prompts, new data sources)
-5. Save the full review to articles/self-review-${today}.md.
+5. Save the full review to output/articles/self-review-${today}.md.
 6. Apply any safe, obvious improvements directly:
    - Prune stale MEMORY.md entries
    - Update feeds.yml if feeds are dead

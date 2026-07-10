@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Spend Monitor
+category: core
 description: API spend watchdog — checks running cost against the configured weekly budget cap, alerts when approaching or exceeding it
 var: ""
 tags: [meta]

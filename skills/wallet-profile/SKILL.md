@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Wallet Profile
+category: crypto
 description: Behavioral profile of any wallet on Base — age, activity class (bot/whale/sniper/trader), funding source, top counterparties, and risk flags. Keyless via Etherscan v2 + Base RPC.
 var: ""
 tags: [crypto, base]

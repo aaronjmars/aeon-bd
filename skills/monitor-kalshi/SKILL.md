@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Monitor Kalshi
+category: crypto
 description: Monitor specific Kalshi prediction markets for 24h price moves, volume changes, and top events
 var: ""
 tags: [crypto, research]

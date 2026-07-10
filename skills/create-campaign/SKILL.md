@@ -1,6 +1,8 @@
 ---
+type: Skill
 name: Create Campaign
-description: Provision Meta campaigns and ad sets on AdManage.ai from a declarative config. Runs on-demand — creates entities PAUSED, writes the returned IDs back into state so schedule-ads can launch into them.
+category: productivity
+description: Provision Meta campaigns and ad sets on AdManage.ai from a declarative config. Runs on-demand — creates entities PAUSED in-run, writes the returned IDs back into state so schedule-ads can launch into them.
 commits: true
 permissions:
   - contents:write
@@ -8,9 +10,11 @@ tags: [growth, ads]
 requires: [ADMANAGE_API_KEY]
 ---
 
-Reads `skills/create-campaign/config.yaml`, figures out which campaigns/ad sets don't exist yet, and queues create requests to `.pending-admanage/creates/`. The credentialed API calls happen in `scripts/postprocess-admanage-create.sh` after Claude finishes.
+Reads `skills/create-campaign/config.yaml`, figures out which campaigns/ad sets don't exist yet, and creates them **in-run** via AdManage.ai (`/v1/manage/create-*` through `./secretcurl`) — campaigns first, then ad sets referencing the returned campaign IDs — writing the new IDs back to `.admanage-state/campaigns.json`.
 
-This skill is **on-demand** — no `schedule:` in frontmatter. Invoke it manually when you want to provision new campaigns, then reference the returned IDs in `schedules-ads/config.yaml` to launch creatives into them.
+This skill is **on-demand** — no `schedule:` in frontmatter. Invoke it manually when you want to provision new campaigns, then reference the returned IDs in `skills/schedule-ads/config.yaml` to launch creatives into them.
+
+`ADMANAGE_API_KEY` is injected in-run via this skill's `requires:` — always write it as the `{ADMANAGE_API_KEY}` placeholder to `./secretcurl`, never a bare `$ADMANAGE_API_KEY` (the Bash permission layer refuses a secret on the command line).
 
 Read `memory/MEMORY.md` for context. Read `.admanage-state/campaigns.json` (if it exists) to see what's already created.
 
@@ -28,17 +32,16 @@ Same posture as schedule-ads:
 
 1. **PAUSED by default.** Every campaign + ad set is created with `status: PAUSED`. No surprise spend.
 2. **Idempotent.** The skill tracks created entities in `.admanage-state/campaigns.json`. If a campaign name already exists in state, it's skipped. Run the skill twice → no duplicates.
-3. **Dry-run mode.** `DRY_RUN=true` or `config.dryRun: true` → payloads written to `.pending-admanage/dryrun-create/`, notified, no API calls.
+3. **Dry-run mode.** `DRY_RUN=true` or `config.dryRun: true` → compute the payloads and notify with a `[DRY RUN]` prefix, make **no** API calls.
 4. **Config-only.** No config file → exit silently. No invented campaigns, no autonomous provisioning.
 
-## Sandbox note
+## Network note
 
-Every `/manage/*` endpoint requires `Authorization: Bearer $ADMANAGE_API_KEY`. Sandbox blocks env-var expansion in curl headers, so this skill queues intents only:
+Provisioning campaigns and ad sets is an irreversible outbound side-effect, so it is the skill's **final** action and runs **in-run** via `./secretcurl` only after the diff + validation pass:
 
-- Skill writes: `.pending-admanage/creates/campaigns/<slug>.json` and `.pending-admanage/creates/adsets/<campaign-slug>__<adset-slug>.json`
-- After Claude exits, `scripts/postprocess-admanage-create.sh` runs with full env access, makes the API calls in the right order (campaigns first, then ad sets referencing returned campaign IDs), and writes results back to `.admanage-state/campaigns.json`.
-
-If the postprocess script is missing, the skill still queues correctly — the payloads sit in `.pending-admanage/creates/` until the script exists.
+- Auth'd calls go through `./secretcurl` with the `{ADMANAGE_API_KEY}` placeholder — never a bare `$ADMANAGE_API_KEY` (the Bash permission layer refuses a secret on the command line). The key is injected in-run via `requires:`.
+- **Order matters:** create all campaigns first (`POST /v1/manage/create-campaign`), keep a config-name → campaignId map, then create ad sets (`POST /v1/manage/create-adset`) substituting each parent's real campaign ID. Write every new ID back to `.admanage-state/campaigns.json` as you go (the workflow's Commit step persists it).
+- If `ADMANAGE_API_KEY` is unset, or a create call fails, record the failure and continue with the rest — never retry blindly, never invent IDs. An ad set whose parent campaign failed to create is skipped. There is **no** deferred/postprocess fallback.
 
 ## Steps
 
@@ -70,7 +73,7 @@ If the postprocess script is missing, the skill still queues correctly — the p
 4. **Compute diff.** For each campaign in config:
    - Match against state by exact `name`. If present, mark as `existing`.
    - If missing, mark as `new` and queue a campaign create.
-   - For each ad set under the campaign, match against the parent's `adSets[]` in state by name. If missing, queue an ad-set create (with a `parentCampaignConfigName` reference that postprocess will resolve to a real campaign ID).
+   - For each ad set under the campaign, match against the parent's `adSets[]` in state by name. If missing, mark it for creation (carrying a `parentCampaignConfigName` reference you resolve to a real campaign ID **in-run**, once the parent campaign create returns).
 
    If nothing is new, log `CREATE_CAMPAIGN_ALL_EXIST` and exit without notify.
 
@@ -109,7 +112,7 @@ If the postprocess script is missing, the skill still queues correctly — the p
    }
    ```
 
-   The `__RESOLVE_FROM_PARENT__` sentinel + `parentCampaignConfigName` tells postprocess to look up the campaign ID after the campaign create succeeds. If the parent campaign was *existing* (already in state), write the real campaign ID directly and drop the sentinel.
+   The `__RESOLVE_FROM_PARENT__` sentinel + `parentCampaignConfigName` marks an ad set whose `campaignId` you fill **in-run**, from the map built as each campaign create returns (step 9b). If the parent campaign was *existing* (already in state), write the real campaign ID directly and drop the sentinel.
 
 7. **Pre-flight validation.**
    - `adAccountId` must start with `act_` (this skill is Meta-only in v1).
@@ -118,15 +121,26 @@ If the postprocess script is missing, the skill still queues correctly — the p
    - Targeting `geo_locations.countries` must be a non-empty array.
    Drop invalid entries, keep going, log what was skipped and why.
 
-8. **Handle dry-run.** If `DRY_RUN=true` or `config.dryRun: true`: write payloads to `.pending-admanage/dryrun-create/` instead, notify with a `[DRY RUN]` prefix, skip step 9.
+8. **Handle dry-run.** If `DRY_RUN=true` or `config.dryRun: true`: compute the payloads, notify with a `[DRY RUN]` prefix (step 11), and **skip step 9** — no API calls, no state writes. This mode exists for the operator to sanity-check before arming real creation.
 
-9. **Queue for postprocess.** Write files into `.pending-admanage/creates/`:
-   - `campaigns/<slugify(name)>.json` — campaign create payload.
-   - `adsets/<slugify(campaign-name)>__<slugify(adset-name)>.json` — ad-set create payload.
+9. **Create in-run.** This is the skill's final action — provisions real entities, so run only after the diff + pre-flight pass. Only `./secretcurl`, `jq`, `date`, `echo`, `python3`, and the `Write` tool are available (no `mv`). Seed `.admanage-state/campaigns.json` to `{"campaigns":[]}` if missing.
 
-   The file-name convention matters: postprocess lexical-sorts `campaigns/` first, then `adsets/`, so campaigns always create before their children.
+   a. **Config check.** `[ -n "${ADMANAGE_API_KEY:+x}" ]` (the `${VAR:+x}` form — a bare `$ADMANAGE_API_KEY` trips the secret-expansion analyzer and reads as unset). If unset, notify "campaigns computed but ADMANAGE_API_KEY missing — nothing created" and stop (state unchanged).
 
-10. **Write artifact to `.outputs/create-campaign.md`** so chain consumers can see what was queued:
+   b. **Campaigns first.** For each *new* campaign, `POST /v1/manage/create-campaign`:
+      ```bash
+      RESP=$(./secretcurl -sS --max-time 60 -w 'http=%{http_code}\n' -X POST \
+        "https://api.admanage.ai/v1/manage/create-campaign" \
+        -H "Authorization: Bearer {ADMANAGE_API_KEY}" -H "Content-Type: application/json" -d "$PAYLOAD")
+      # success => .success==true and .campaignId set.
+      ```
+      On success: remember `configName → campaignId` (for step 9c) and append `{configName, campaignId, adAccountId, createdAt, adSets:[]}` to `.admanage-state/campaigns.json`. On failure: record the error, skip this campaign's ad sets.
+
+   c. **Then ad sets.** For each new ad set, resolve `campaignId`: if it's `__RESOLVE_FROM_PARENT__`, look it up by `parentCampaignConfigName` in the map from 9b **or** existing state — if the parent isn't found (its create failed), skip the ad set with a warning. Then `POST /v1/manage/create-adset` (same `./secretcurl` shape, `{ADMANAGE_API_KEY}` placeholder). On success: append `{configName, adSetId, createdAt}` under the parent campaign in `.admanage-state/campaigns.json` (via `python3`/`Write` — no `mv`).
+
+   Ordering is explicit here (campaigns loop fully before the ad-sets loop), so children always reference a resolved parent ID.
+
+10. **Write artifact to `output/.chains/create-campaign.md`** so chain consumers can see what was created:
     ```markdown
     # Create Campaign — ${today}
 
@@ -154,16 +168,16 @@ If the postprocess script is missing, the skill still queues correctly — the p
     <if dry-run>
     no API calls made — remove DRY_RUN to arm.
     <else>
-    postprocess-admanage-create will provision and write IDs to .admanage-state/campaigns.json.
+    created via AdManage (PAUSED); new IDs written to .admanage-state/campaigns.json.
     ```
     If nothing is new, don't notify at all.
 
 12. **Log to `memory/logs/${today}.md`:**
     ```
     ## Create Campaign
-    - New campaigns queued: <count>
-    - New ad sets queued: <count>
-    - Files: .pending-admanage/creates/**/*.json
+    - New campaigns created: <count> (ok/fail)
+    - New ad sets created: <count> (ok/fail)
+    - State: new IDs written to .admanage-state/campaigns.json (live) | dry-run (no calls)
     ```
 
 ## Config schema
@@ -198,12 +212,12 @@ campaigns:
 
 ## Interaction with schedule-ads
 
-After `postprocess-admanage-create.sh` writes to `.admanage-state/campaigns.json`, the IDs are yours to reference in `skills/schedule-ads/config.yaml` under `adSets[].value`. The two skills are intentionally decoupled:
+This skill writes new IDs to `.admanage-state/campaigns.json` **within the same run**; from there they're yours to reference in `skills/schedule-ads/config.yaml` under `adSets[].value`. The two skills are intentionally decoupled:
 
 - **create-campaign** provisions structure (container).
 - **schedule-ads** launches creative into that structure (contents).
 
-Running both in the same Claude cycle *won't* chain — the state file won't have IDs until postprocess runs. Pattern is: run create-campaign → wait for postprocess to log the new IDs → copy IDs into schedule-ads config → next schedule-ads run uses them.
+They still don't auto-chain — schedule-ads reads `config.yaml`, which you edit by hand. Pattern is: run create-campaign (provisions + writes IDs in-run) → read the new IDs from `.admanage-state/campaigns.json` / the create-run notify → copy them into `skills/schedule-ads/config.yaml` → next schedule-ads run launches into them.
 
 ## What it does NOT do
 
@@ -215,10 +229,10 @@ Running both in the same Claude cycle *won't* chain — the state file won't hav
 
 ## Environment Variables
 
-- `ADMANAGE_API_KEY` — required for `scripts/postprocess-admanage-create.sh`. Never read by this skill.
+- `ADMANAGE_API_KEY` — the AdManage.ai API key, injected in-run via this skill's `requires:` and read in-run for the `/v1/manage/create-*` calls. Always pass it as the `{ADMANAGE_API_KEY}` placeholder to `./secretcurl`, never a bare `$ADMANAGE_API_KEY` on the command line.
 - `DRY_RUN` — optional. `true` forces dry-run regardless of config.
 - Notification channels configured via repo secrets (see CLAUDE.md).
 
 ## Output
 
-End with a `## Summary` block: new campaigns queued, new ad sets queued, skipped (already-exist) count, dry-run yes/no, files written.
+End with a `## Summary` block: new campaigns created, new ad sets created, skipped (already-exist) count, dry-run yes/no, files written.

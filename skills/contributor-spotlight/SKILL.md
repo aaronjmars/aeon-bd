@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: contributor-spotlight
+category: core
 description: Recognition post for one fork operator — converts fork-cohort cohort data into a named human moment (POWER fork callout with their work, stars, and skills enabled)
 var: ""
 tags: [meta, community]
@@ -18,13 +20,13 @@ contributor-spotlight is the social loop: one fork operator per week gets a name
 
 No new secrets. No new env vars. Reads:
 
-- `articles/fork-cohort-*.md` — most recent (look back up to 14 days). Picks the POWER cohort roster.
+- `output/articles/fork-cohort-*.md` — most recent (look back up to 14 days). Picks the POWER cohort roster.
 - `memory/topics/fork-cohort-state.json` — authoritative bucket assignments, fallback if no article exists.
 - `memory/topics/contributor-spotlight-history.json` — dedup state. Same fork is not featured two weeks running.
 
 Writes:
 
-- `articles/contributor-spotlight-${today}.md` — the recognition post.
+- `output/articles/contributor-spotlight-${today}.md` — the recognition post.
 - `memory/topics/contributor-spotlight-history.json` — appends `{fork, featured_at, role}` for last 26 entries (≈6 months at weekly cadence).
 - `memory/logs/${today}.md` — log block.
 
@@ -47,7 +49,7 @@ mkdir -p memory/topics articles
 ### 2. Locate the source cohort data
 
 ```bash
-COHORT_ARTICLE=$(ls -t articles/fork-cohort-*.md 2>/dev/null | head -1)
+COHORT_ARTICLE=$(ls -t output/articles/fork-cohort-*.md 2>/dev/null | head -1)
 COHORT_STATE=memory/topics/fork-cohort-state.json
 ```
 
@@ -149,7 +151,7 @@ The paragraph must avoid:
 
 ### 7. Write the article
 
-Path: `articles/contributor-spotlight-${today}.md`. Overwrite if exists.
+Path: `output/articles/contributor-spotlight-${today}.md`. Overwrite if exists.
 
 ```markdown
 # Contributor Spotlight — ${today}
@@ -190,7 +192,7 @@ ${one-sentence answer — derives from operator-authored skills if present, othe
 
 ---
 
-*Recognition rotates weekly. Same fork is not featured twice within 4 weeks. Picked from `articles/fork-cohort-*.md` POWER (then ACTIVE) cohort.*
+*Recognition rotates weekly. Same fork is not featured twice within 4 weeks. Picked from `output/articles/fork-cohort-*.md` POWER (then ACTIVE) cohort.*
 
 [Visit the fork →](${html_url})
 ```
@@ -215,7 +217,7 @@ Diverged work:
 - ${operator_authored_skill_1}
 - ${operator_authored_skill_2}
 
-Article: articles/contributor-spotlight-${today}.md
+Article: output/articles/contributor-spotlight-${today}.md
 [Fork →](${html_url})
 ```
 
@@ -259,7 +261,7 @@ Cap to last 26 entries (≈6 months of weekly recognition). When trimming, drop 
 - **Operator**: @${FORK_OWNER}
 - **Stack**: ${ENABLED_COUNT} enabled skills · ${COMMITS_30D} commits in 30d
 - **Operator-authored skills**: ${count} (${comma-separated names})
-- **Article**: articles/contributor-spotlight-${today}.md
+- **Article**: output/articles/contributor-spotlight-${today}.md
 - **Source**: ${COHORT_ARTICLE | COHORT_STATE}
 - **Notification sent**: ${yes | no — dry-run | no — SPOTLIGHT_NO_CANDIDATES | no — SPOTLIGHT_NO_COHORT_DATA}
 - **Status**: ${SPOTLIGHT_OK | SPOTLIGHT_DRY_RUN | SPOTLIGHT_NO_CANDIDATES | SPOTLIGHT_NO_COHORT_DATA | SPOTLIGHT_STALE_COHORT | SPOTLIGHT_BAD_VAR | SPOTLIGHT_BAD_OVERRIDE}

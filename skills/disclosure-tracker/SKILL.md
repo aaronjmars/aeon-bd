@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: disclosure-tracker
+category: dev
 description: Audit of the pending vulnerability disclosure queue — tracks draft advisories in memory/pending-disclosures/, alerts on aging CRITICAL/HIGH findings.
 tags: [security, meta]
 ---

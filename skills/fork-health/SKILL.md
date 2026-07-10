@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Fork Health
+category: core
 description: Per-fork health tier synthesizing push recency + enabled skill count + 30d PR activity into ACTIVE/WARM/STALE/QUIET buckets; fleet health ratio + top-10 ACTIVE table; silent when nothing moves
 var: ""
 tags: [meta, community]
@@ -28,7 +30,7 @@ Reads from two places, with graceful degradation:
 
 Writes:
 - `memory/topics/fork-health-state.json` — per-fork tier, score components, rolling 8-week history
-- `articles/fork-health-${today}.md` — leaderboard article (every non-error run, including QUIET)
+- `output/articles/fork-health-${today}.md` — leaderboard article (every non-error run, including QUIET)
 - `memory/logs/${today}.md` — one log block per run
 - Notification via `./notify` — only when the ACTIVE ratio drops ≥10 percentage points week-over-week, the top-10 changes, or it's the first baseline run (see step 8)
 
@@ -203,7 +205,7 @@ In `MODE=dry-run`: build the message, write the article, update state — **do n
 
 ### 9. Write the article
 
-Path: `articles/fork-health-${today}.md`. Written on every non-error run (including QUIET — the article is the always-fresh leaderboard; only the notification is gated).
+Path: `output/articles/fork-health-${today}.md`. Written on every non-error run (including QUIET — the article is the always-fresh leaderboard; only the notification is gated).
 
 ```markdown
 # Fork Health Score — ${today}
@@ -273,7 +275,7 @@ Append this run's `{date, audited, readable, buckets, top10}` to `history`; keep
 - Fleet health: {ACTIVE_RATIO}% (WoW {+Δ / —})
 - Top 3 ACTIVE: {fork1} ({score1}), {fork2} ({score2}), {fork3} ({score3})
 - Tier transitions: {wakeups} wakeups / {regressions} regressions / {new_forks} new
-- Article: articles/fork-health-${today}.md
+- Article: output/articles/fork-health-${today}.md
 ```
 
 End the skill body with a single terminal line mirroring the chosen status, e.g. `Status: FORK_HEALTH_SCORE_OK`.
@@ -303,7 +305,7 @@ Top 3 ACTIVE:
 {If wakeups:} Woke up: {fork list}
 {If regressions:} Regressed: {fork list}
 
-Full leaderboard: articles/fork-health-${today}.md
+Full leaderboard: output/articles/fork-health-${today}.md
 ```
 
 Drop any line whose list is empty. On a baseline (first) run, omit the WoW delta clause and the wakeups/regressions lines.
@@ -333,7 +335,7 @@ Stay under 900 chars. If tight, drop the regressions line first, then the wakeup
 
 ## Constraints
 
-- **Read-only across the fleet.** Never writes to fork repos, never opens issues/PRs, never edits anything outside this repo's `memory/`, `articles/`, and log files. Pure measurement.
+- **Read-only across the fleet.** Never writes to fork repos, never opens issues/PRs, never edits anything outside this repo's `memory/`, `output/articles/`, and log files. Pure measurement.
 - **Bot owner allowlist.** `dependabot[bot]`, `github-actions[bot]`, `aeonframework[bot]` are excluded from the fork audit list (same set as `skill-adoption`).
 - **Resolve each fork's real default branch** before reading `aeon.yml` and listing PRs — forks on `master`/`develop` must not be silently read against `main` (the `contributor-spotlight` PR #206 / `skill-update` H7 class of bug). Use `repos/{fork}.default_branch` with a `null`-string guard.
 - **`aeon.yml` parsing is text/YAML only** — never executed, never interpolated into a shell command. Counts only; no slug identity is rendered. A malicious fork shipping `"$(rm -rf /)": { enabled: true }` produces a count of 1 (or 0 if the parse rejects it) — never a shell expansion.

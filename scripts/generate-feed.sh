@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #
-# generate-feed.sh — Build an Atom XML feed from articles/*.md
+# generate-feed.sh — Build an Atom XML feed from output/articles/*.md
 #
 # Usage: bash scripts/generate-feed.sh [repo_slug]
 #   repo_slug: GitHub owner/repo (default: auto-detected from git remote)
 #
-# Output: articles/feed.xml
+# Output: output/articles/feed.xml
 #
 
 set -euo pipefail

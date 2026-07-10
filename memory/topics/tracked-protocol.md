@@ -1,3 +1,8 @@
+---
+type: Protocol
+title: "Tracked Protocol"
+---
+
 # Tracked Protocol
 
 ## Default

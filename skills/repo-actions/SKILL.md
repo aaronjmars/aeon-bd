@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: repo-actions
+category: dev
 description: Generate 5 anchored, implementable action ideas for a watched repo — specificity-gated, priority-ranked, with a Top Pick verdict
 var: ""
 tags: [dev]
@@ -90,7 +92,7 @@ Record results; code search may be rate-limited separately (source-status `code_
 ```bash
 TODAY=$(date -u +%Y-%m-%d)
 # Ideas suggested in the last 14 days — do not repeat
-ls articles/repo-actions-*.md 2>/dev/null | sort -r | head -14 | xargs -r grep -h '^### [0-9]\+\.' 2>/dev/null | sed 's/^### [0-9]\+\. //' > /tmp/repo-actions-recent-ideas.txt
+ls output/articles/repo-actions-*.md 2>/dev/null | sort -r | head -14 | xargs -r grep -h '^### [0-9]\+\.' 2>/dev/null | sed 's/^### [0-9]\+\. //' > /tmp/repo-actions-recent-ideas.txt
 # Things already shipped/closed in the repo in last 30 days — do not re-propose
 jq -r '.data.repository.closedIssues.nodes[].title, .data.repository.mergedPRs.nodes[].title' /tmp/repo-actions-state.json 2>/dev/null >> /tmp/repo-actions-recent-ideas.txt
 ```
@@ -216,7 +218,7 @@ Structure:
 **Carried over from prior runs:** [titles of yesterday's top-pick if not yet merged/closed, else "—"]
 ```
 
-Write to `articles/repo-actions-${TODAY}.md`. If the file already exists and the repo's `pushedAt` hasn't advanced since the last run, exit `REPO_ACTIONS_NO_CHANGE` silently (no notify, no commit, log only). Otherwise overwrite.
+Write to `output/articles/repo-actions-${TODAY}.md`. If the file already exists and the repo's `pushedAt` hasn't advanced since the last run, exit `REPO_ACTIONS_NO_CHANGE` silently (no notify, no commit, log only). Otherwise overwrite.
 
 ### 9. Notify
 

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Vibecoding Digest
+category: basics
 description: Decision-ready pulse of r/vibecoding — ranked by signal score, narrative-clustered, with a one-line verdict and tools leaderboard
 var: ""
 tags: [content]

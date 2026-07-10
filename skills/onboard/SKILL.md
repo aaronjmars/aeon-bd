@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: onboard
+category: core
 description: One-shot setup validator — runs every check from the ./onboard CLI inside the workflow and sends the resulting checklist to the configured notification channel
 var: ""
 tags: [meta]
@@ -117,7 +119,7 @@ Used by `shiplog` and any future skill that wants to spot setup drift (e.g. "GH_
 
 - **`./onboard` exits non-zero** — that's expected when failures are present. The CLI is designed to be parseable regardless of exit code; capture stdout, ignore the exit code, and continue. Only treat actual missing-file or permission errors as fatal.
 - **JSON parse failure** — log `ONBOARD_PARSE_ERROR: <error>` and send a minimal notification with just the raw stdout (truncated to 2000 chars) plus a "validator output unparseable, raw text below — please run ./onboard locally for the full report" preamble.
-- **`./notify` not present** — log `ONBOARD_NOTIFY_MISSING` and write the message body to `articles/onboard-${today}.md` so the operator can read it from the dashboard or repo.
+- **`./notify` not present** — log `ONBOARD_NOTIFY_MISSING` and write the message body to `output/articles/onboard-${today}.md` so the operator can read it from the dashboard or repo.
 - **Repeated failures across runs** — do not auto-file an issue under `memory/issues/`; this skill is operator-facing setup advice, not a degradation signal. The `skill-health` and `heartbeat` skills already cover ongoing runtime issues. Onboard's job ends at "told the operator clearly."
 
 ## Sandbox note
@@ -128,5 +130,5 @@ Pure local validation — no outbound network from the skill itself (other than 
 
 - **Never fabricate fixes.** If a check has no clean fix command, leave the `fix` field blank in `./onboard` rather than inventing one. False fixes burn trust faster than missing ones.
 - **Do not auto-mutate repo state.** Onboard is read-only by design — it suggests `gh secret set`, `chmod`, etc., but never runs them. Operators stay in control.
-- **Idempotent.** Running multiple times the same day overwrites `articles/onboard-${today}.md` and appends one line per run to `memory/topics/onboard-history.md`. The `memory/logs/${today}.md` entry is appended (multiple runs visible).
+- **Idempotent.** Running multiple times the same day overwrites `output/articles/onboard-${today}.md` and appends one line per run to `memory/topics/onboard-history.md`. The `memory/logs/${today}.md` entry is appended (multiple runs visible).
 - **One notification max per run.** Even if both stdout and JSON parsing produce output, send at most one `./notify` call.

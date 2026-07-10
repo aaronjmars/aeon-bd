@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Repo Scanner
+category: dev
 description: Catalog GitHub repos into a prioritized fleet report with concrete, coded opportunities that downstream skills consume directly
 var: ""
 tags: [dev, meta]

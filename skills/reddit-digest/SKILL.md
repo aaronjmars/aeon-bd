@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Reddit Digest
+category: basics
 description: Detect cross-subreddit narratives — stories surfacing in multiple unrelated subs at once
 var: ""
 tags: [news]

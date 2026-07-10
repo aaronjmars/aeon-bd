@@ -1,1 +1,0 @@
-aeon-wc still dark — 17 days, no commit since Jun 8. not CI, not a public repo, but it's the private aeon core and it's been quiet longer than anything else in the stack. worth a look if something's mid-build in there. ⭐

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Show HN
+category: productivity
 description: Draft a Show HN post (plus shorter Reddit r/MachineLearning + r/selfhosted variants) from the live repo state — README, SHOWCASE, recent repo-articles + project-lens, real autonomous behavior examples from logs, and current stars/forks/skill counts. Operator pastes; agent writes.
 var: ""
 tags: [dev]
@@ -7,7 +9,7 @@ tags: [dev]
 
 > **${var}** — Optional. If empty: write the default trio (Show HN + r/MachineLearning + r/selfhosted). If set to one of `show-hn`, `r/MachineLearning`, `r/selfhosted`: regenerate that single variant only and overwrite that section in today's draft. Any other value: log `SHOW_HN_DRAFT_BAD_VAR` and exit.
 
-Today is ${today}. Write a Show HN post — plus two shorter platform variants — that an operator can paste **as-is** at the moment the project is ready for a launch push. The point is to remove every text-authoring obstacle so that when timing is right (currently: the 500-star milestone is the auto-dispatch trigger wired by `star-milestone` — this skill must have a fresh draft sitting in `articles/` when that fires), the operator is not typing a 4-paragraph post in 10 minutes and shipping the worst version of it. **The agent writes the text now, under zero pressure, with full context. The operator edits and pastes.**
+Today is ${today}. Write a Show HN post — plus two shorter platform variants — that an operator can paste **as-is** at the moment the project is ready for a launch push. The point is to remove every text-authoring obstacle so that when timing is right (currently: the 500-star milestone is the auto-dispatch trigger wired by `star-milestone` — this skill must have a fresh draft sitting in `output/articles/` when that fires), the operator is not typing a 4-paragraph post in 10 minutes and shipping the worst version of it. **The agent writes the text now, under zero pressure, with full context. The operator edits and pastes.**
 
 ## Why this skill exists
 
@@ -24,7 +26,7 @@ The Reddit variants exist because cross-posting verbatim from HN to r/MachineLea
 - `${var}` = `r/MachineLearning` or `r/selfhosted` → regenerate that block only.
 - Any other value → log `SHOW_HN_DRAFT_BAD_VAR: ${var}` and exit without notifying.
 
-When regenerating a single variant, read the existing `articles/show-hn-${today}.md` if present, replace only the matching section, and rewrite the file. If no file exists, generate just the requested variant — do NOT fabricate the others.
+When regenerating a single variant, read the existing `output/articles/show-hn-${today}.md` if present, replace only the matching section, and rewrite the file. If no file exists, generate just the requested variant — do NOT fabricate the others.
 
 ### 2. Pull the source-of-truth inputs
 
@@ -36,8 +38,8 @@ Read in this order; any missing input is non-fatal — log `SHOW_HN_DRAFT_MISSIN
 | `SHOWCASE.md` | Active-fork count + ecosystem comparison row |
 | `skills.json` | Total skill count for the headline number; categories breakdown |
 | `aeon.yml` | Default-enabled skills (typically just `heartbeat`) |
-| `articles/repo-article-*.md` (last 7 days) | Most concrete recent ship narratives |
-| `articles/project-lens-*.md` (last 7 days) | Outside-the-repo framing — the angle that lands with engineers who haven't seen Aeon before |
+| `output/articles/repo-article-*.md` (last 7 days) | Most concrete recent ship narratives |
+| `output/articles/project-lens-*.md` (last 7 days) | Outside-the-repo framing — the angle that lands with engineers who haven't seen Aeon before |
 | `memory/logs/*.md` (last 7 days) | Autonomous-behavior moments — which skill caught what, what self-improve shipped, which PR was triaged in minutes |
 | `memory/MEMORY.md` Skills Built table (last 14 days) | Concrete "the agent built X" examples |
 
@@ -45,7 +47,7 @@ For repo stats, run:
 ```bash
 gh api repos/aaronjmars/aeon --jq '{stars:.stargazers_count, forks:.forks_count, open_issues:.open_issues_count, default_branch:.default_branch}'
 ```
-If `gh api` fails, fall through to scraping the latest `articles/repo-pulse-*.md` for the most recent count and footnote the draft with `_<stars> stars at last repo-pulse run_`. Do NOT fabricate live numbers.
+If `gh api` fails, fall through to scraping the latest `output/articles/repo-pulse-*.md` for the most recent count and footnote the draft with `_<stars> stars at last repo-pulse run_`. Do NOT fabricate live numbers.
 
 ### 3. Pick the lead
 
@@ -63,7 +65,7 @@ Do **not** lead with stars or token price. HN's technical audience scores those 
 
 ### 4. Write the Show HN variant
 
-Write to the `## Show HN` section of `articles/show-hn-${today}.md`.
+Write to the `## Show HN` section of `output/articles/show-hn-${today}.md`.
 
 **Title** — single line, ≤80 chars, follows HN convention `Show HN: <project>` + a one-clause hook. Examples to match in shape (do **not** copy verbatim):
 - `Show HN: Aeon — an autonomous agent that runs on GitHub Actions and patches itself`
@@ -118,7 +120,7 @@ Write to the `## r/selfhosted` section of the draft file.
 
 ### 7. Append the launch checklist
 
-Append a `## Launch checklist` section to `articles/show-hn-${today}.md`. Plain checklist for the operator — not for the agent. Do **not** post this to HN/Reddit; it lives in the draft file only.
+Append a `## Launch checklist` section to `output/articles/show-hn-${today}.md`. Plain checklist for the operator — not for the agent. Do **not** post this to HN/Reddit; it lives in the draft file only.
 
 ```
 ## Launch checklist
@@ -144,7 +146,7 @@ ${show_hn_paragraph_1}
 
 —
 Variants in file: ${variants_written} (show-hn, r/MachineLearning, r/selfhosted)
-File: articles/show-hn-${today}.md
+File: output/articles/show-hn-${today}.md
 Stars: ${current_stars} | Forks: ${current_forks} | Skills: ${total_skills}
 
 Operator: read the launch checklist at the bottom of the file before posting.
@@ -162,7 +164,7 @@ Append to `memory/logs/${today}.md`:
 - **Variants written**: ${list}
 - **Lead beat picked**: ${one-line summary of the lead from step 3}
 - **Stars at draft time**: ${current_stars}
-- **File**: articles/show-hn-${today}.md
+- **File**: output/articles/show-hn-${today}.md
 - **Notification**: sent
 - **Status**: SHOW_HN_DRAFT_OK | SHOW_HN_DRAFT_PARTIAL | SHOW_HN_DRAFT_BAD_VAR
 ```

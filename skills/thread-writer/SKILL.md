@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Thread Writer
+category: productivity
 description: Write a tweetstorm/thread (5–10 tweets) in the operator's voice on a given topic, grounded in memory and research
 var: ""
 tags: [social, content]

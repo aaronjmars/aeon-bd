@@ -1,14 +1,16 @@
 ---
+type: Skill
 name: Update Gallery
+category: productivity
 description: Publish new or changed articles to the GitHub Pages gallery with change detection, silent on no-op weeks
 var: ""
 tags: [content]
 ---
 <!-- autoresearch: variation B — sharper output via hash-based dedup + exit taxonomy + noise-gated notify, folds A's excerpt/category and C's YAML-safe title + stable hash filename -->
 
-> **${var}** — Optional single article filename (e.g. `article-2026-04-01.md`) to sync. Empty = sync every file in `articles/`.
+> **${var}** — Optional single article filename (e.g. `article-2026-04-01.md`) to sync. Empty = sync every file in `output/articles/`.
 
-Publish article outputs from `articles/` to the Jekyll gallery at `docs/_posts/` with hash-based dedup, a clear exit taxonomy, and notifications gated on real changes.
+Publish article outputs from `output/articles/` to the Jekyll gallery at `docs/_posts/` with hash-based dedup, a clear exit taxonomy, and notifications gated on real changes.
 
 ## Steps
 
@@ -29,7 +31,7 @@ Capture whether this mutated any file under `docs/_data/` (compare `git status d
 ### 3. Enumerate candidate articles
 
 ```bash
-ls articles/*.md 2>/dev/null | grep -v '/feed.xml$' | grep -v '\.gitkeep$' | sort
+ls output/articles/*.md 2>/dev/null | grep -v '/feed.xml$' | grep -v '\.gitkeep$' | sort
 ```
 If `${var}` is set, restrict to that single filename; abort with `UPDATE_GALLERY_ERROR: var points to missing file` if it doesn't exist.
 
@@ -51,7 +53,7 @@ For each article:
 **c) Parse date** (priority order):
 1. Filename regex `([0-9]{4}-[0-9]{2}-[0-9]{2})`.
 2. Jekyll frontmatter `date:` field if article starts with `---`.
-3. `git log -1 --format="%as" -- articles/<filename>` fallback.
+3. `git log -1 --format="%as" -- output/articles/<filename>` fallback.
 4. Last resort: today's UTC date; log the fallback use.
 
 **d) Parse slug**: everything in filename before the date pattern, trailing hyphens stripped. If no date in filename, slug = basename without `.md`.
@@ -112,7 +114,7 @@ Write the file only when added or updated.
 
 ### 5. Orphan detection
 
-For every entry in `state` whose `source_file` no longer exists in `articles/`:
+For every entry in `state` whose `source_file` no longer exists in `output/articles/`:
 - Append one line to `memory/topics/gallery-orphans.md` (create file with `# Orphaned articles` header if absent): `- YYYY-MM-DD: <source_file> → <post_path> (last seen <processed_at>)`.
 - Increment `orphaned++`. **Do not delete the Jekyll post.** Orphaning is a record, not a cleanup.
 
@@ -227,7 +229,7 @@ Append to `memory/logs/${today}.md`:
 - YAML titles with colons/quotes must be escaped. A title like `"Can't Stop": Why …` must render as a valid single YAML string; the escape routine in 4i is mandatory.
 - The `workflow-audit-*` articles map to the `security` category in the new map (they used to default to `article`).
 - Use `./notify` for notifications (fan-out to Telegram/Discord/Slack); never call channel-specific scripts directly.
-- `${var}` semantics: empty = sync all; set = sync a single filename (must exist under `articles/`).
+- `${var}` semantics: empty = sync all; set = sync a single filename (must exist under `output/articles/`).
 
 ## Sandbox note
 

@@ -1,18 +1,20 @@
 ---
+type: Skill
 name: skill-freshness
+category: evolution
 description: Audit every enabled skill's upstream file dependencies for staleness — flags chained skills about to consume yesterday's article or a long-dead topic file
 var: ""
 tags: [meta, dev]
 ---
 > **${var}** — Optional. Pass `dry-run` to skip the notification (article still writes, log still appends). Pass a single skill name to scope the audit to that one consumer (e.g. `var=tweet-allocator`). Empty = audit every enabled skill in `aeon.yml`.
 
-Today is ${today}. Walk every enabled skill in `aeon.yml`, parse the file dependencies it declares (explicit `chains: consume:` edges + implicit `articles/`, `.outputs/`, `memory/topics/`, `memory/state/` references inside each `SKILL.md`), check the on-disk freshness of each dependency against a per-class threshold, and surface a single decision-ready report: which enabled consumer is about to read a file that's older than its expected freshness window.
+Today is ${today}. Walk every enabled skill in `aeon.yml`, parse the file dependencies it declares (explicit `chains: consume:` edges + implicit `output/articles/`, `.outputs/`, `memory/topics/`, `memory/state/` references inside each `SKILL.md`), check the on-disk freshness of each dependency against a per-class threshold, and surface a single decision-ready report: which enabled consumer is about to read a file that's older than its expected freshness window.
 
-The skill answers a question the existing health stack cannot: a chained skill that runs on schedule, with no API errors, and a 100% pass rate, can still silently act on stale upstream data if the producer skill failed earlier and nothing replaced its output. Today there is no check that `tweet-allocator` reading `articles/token-report-*.md` is reading today's version rather than last Tuesday's. This skill closes that gap.
+The skill answers a question the existing health stack cannot: a chained skill that runs on schedule, with no API errors, and a 100% pass rate, can still silently act on stale upstream data if the producer skill failed earlier and nothing replaced its output. Today there is no check that `tweet-allocator` reading `output/articles/token-report-*.md` is reading today's version rather than last Tuesday's. This skill closes that gap.
 
 ## Why this exists
 
-Aeon's reliability story has three layers — `heartbeat` (per-run pulse), `skill-analytics` (per-skill ranking over time), `skill-health` (per-skill failure detection) — and one gap. None of them catches the case where a producer skill's last successful run was N days ago and a downstream consumer is still happily reading the cached file as if it were fresh. The output of `tweet-allocator` looks normal. The output of `repo-pulse` looks normal. The aggregate verdict from `operator-scorecard` looks normal. The only signal something is wrong is that the upstream `articles/token-report-*.md` mtime drifted past its freshness window — and nobody is looking.
+Aeon's reliability story has three layers — `heartbeat` (per-run pulse), `skill-analytics` (per-skill ranking over time), `skill-health` (per-skill failure detection) — and one gap. None of them catches the case where a producer skill's last successful run was N days ago and a downstream consumer is still happily reading the cached file as if it were fresh. The output of `tweet-allocator` looks normal. The output of `repo-pulse` looks normal. The aggregate verdict from `operator-scorecard` looks normal. The only signal something is wrong is that the upstream `output/articles/token-report-*.md` mtime drifted past its freshness window — and nobody is looking.
 
 This skill looks. It's a watchdog for **silent staleness**, not for failures. It does not duplicate `skill-health`'s job (which catches consecutive failures by reading run history) or `skill-update`'s job (which catches upstream SKILL.md drift in imported skills). Its scope is narrow: file-on-disk freshness vs the consumer that's about to read it.
 
@@ -23,10 +25,10 @@ No new secrets. No new env vars. No new state file beyond `memory/topics/skill-f
 Reads:
 - `aeon.yml` — enabled skill list, `chains:` blocks (steps, consume, parallel), per-skill `schedule` (used to derive expected freshness windows).
 - Every `skills/*/SKILL.md` whose corresponding `aeon.yml` entry has `enabled: true` — for implicit file-reference extraction.
-- `articles/`, `.outputs/`, `memory/topics/`, `memory/state/` — directory listings + mtimes only (no content reads beyond what's needed for fingerprinting).
+- `output/articles/`, `.outputs/`, `memory/topics/`, `memory/state/` — directory listings + mtimes only (no content reads beyond what's needed for fingerprinting).
 
 Writes:
-- `articles/skill-freshness-${today}.md` — the report.
+- `output/articles/skill-freshness-${today}.md` — the report.
 - `memory/topics/skill-freshness-state.json` — fingerprint + last-verdict for run-to-run dedup.
 - `memory/logs/${today}.md` — log block.
 
@@ -38,8 +40,8 @@ The threshold for a dependency depends on its path class:
 
 | Path class | Threshold | Rationale |
 |------------|-----------|-----------|
-| `articles/{skill}-*.md` | 28 hours | Daily skills run once per day; 28h gives a 4h grace window for clock skew + run delays. |
-| `articles/{skill}-*.md` produced by a weekly skill (cron starts with `0 _ * * 0`-`6` only) | 8 days (192h) | Weekly producers have a 24h grace window. |
+| `output/articles/{skill}-*.md` | 28 hours | Daily skills run once per day; 28h gives a 4h grace window for clock skew + run delays. |
+| `output/articles/{skill}-*.md` produced by a weekly skill (cron starts with `0 _ * * 0`-`6` only) | 8 days (192h) | Weekly producers have a 24h grace window. |
 | `.outputs/{skill}.md` (chain runner outputs) | 4 hours | Chain steps run minutes apart; a 4h-old `.outputs/` file is a stale chain run. |
 | `memory/topics/{name}.md` | 7 days (168h) | Topic files are reference material, edited on memory-flush cycles (~weekly). |
 | `memory/state/{name}.json` | 30 days (720h) | State files are append/update-on-write; 30 days is a "skill hasn't run at all" signal. |
@@ -52,7 +54,7 @@ Per-class thresholds are computed at runtime — not hardcoded per dependency. T
 - `STALE` — file mtime past 2× threshold (real degradation, not a one-day blip).
 - `MISSING` — referenced file does not exist on disk at all.
 
-`MISSING` only fires for **explicit** dependencies (`chains: consume:` entries + canonical `articles/{producer}-${today}.md` patterns). Implicit grep-discovered references that simply never existed are not flagged — many SKILL.md files mention paths in pseudocode or comments that aren't real reads.
+`MISSING` only fires for **explicit** dependencies (`chains: consume:` entries + canonical `output/articles/{producer}-${today}.md` patterns). Implicit grep-discovered references that simply never existed are not flagged — many SKILL.md files mention paths in pseudocode or comments that aren't real reads.
 
 ## Steps
 
@@ -84,14 +86,14 @@ Also record any step with `parallel: [...]` followed by a downstream `consume:` 
 For each skill in `ENABLED`, read its `SKILL.md` and extract every reference to:
 
 ```
-articles/[a-zA-Z0-9_-]+(-\$\{today\}|-[0-9]{4}-[0-9]{2}-[0-9]{2})?\.md
+output/articles/[a-zA-Z0-9_-]+(-\$\{today\}|-[0-9]{4}-[0-9]{2}-[0-9]{2})?\.md
 \.outputs/[a-zA-Z0-9_-]+\.md
 memory/topics/[a-zA-Z0-9_.-]+\.md
 memory/state/[a-zA-Z0-9_.-]+\.json
 ```
 
 Filter out:
-- References inside fenced code blocks marked `bash` or `text` that are clearly examples (e.g. `# example: articles/foo-2026-01-01.md`).
+- References inside fenced code blocks marked `bash` or `text` that are clearly examples (e.g. `# example: output/articles/foo-2026-01-01.md`).
 - References to the consumer's own output paths (a producer self-reading its prior file is not a freshness gap; that's its own state-keeping). Detected when the producer prefix matches the consuming skill name.
 - References inside the comment marker `<!-- skill-freshness:ignore -->` and the next line (escape hatch for SKILL.md authors who cite a path in prose without actually reading it).
 
@@ -99,7 +101,7 @@ Each surviving reference becomes an **implicit** edge with the appropriate path 
 
 ### 5. Resolve canonical "today's article" patterns
 
-For every `articles/{producer}-${today}.md` reference (or the date-suffixed equivalent), resolve to the actual most-recent file on disk: `ls -1t articles/{producer}-*.md 2>/dev/null | head -1`. Record the resolved path AND the producer's expected cadence (from step 2's `PRODUCER_CADENCE` map).
+For every `output/articles/{producer}-${today}.md` reference (or the date-suffixed equivalent), resolve to the actual most-recent file on disk: `ls -1t output/articles/{producer}-*.md 2>/dev/null | head -1`. Record the resolved path AND the producer's expected cadence (from step 2's `PRODUCER_CADENCE` map).
 
 If no file matches the pattern at all, record as `MISSING` (only counted if the producer has cadence `daily` or `weekly` — `on_demand` producers may legitimately have never run).
 
@@ -152,7 +154,7 @@ If different (a new flag appeared, an old one cleared, or the verdict band chang
 
 ### 9. Write the article
 
-Path: `articles/skill-freshness-${today}.md`. Overwrite if exists.
+Path: `output/articles/skill-freshness-${today}.md`. Overwrite if exists.
 
 ```markdown
 # Skill Freshness — ${today}
@@ -242,7 +244,7 @@ Worst:
 - ${consumer_3} ← ${path_3} (${age_3} old, class ${class_3}, sev ${sev_3})
 
 Action: ${one_line_action_for_worst_consumer}
-Full: articles/skill-freshness-${today}.md
+Full: output/articles/skill-freshness-${today}.md
 ```
 
 Cap message at ~3500 chars. Drop "Worst" entries 4+ if exceeded.
@@ -255,7 +257,7 @@ Cap message at ~3500 chars. Drop "Worst" entries 4+ if exceeded.
 - **Verdict**: ${verdict_emoji} ${fleet_verdict}
 - **Audited**: ${enabled_count} enabled consumers · ${dependency_count} deps · ${flagged_count} flagged
 - **Worst**: ${consumer_with_worst_severity} — ${worst_path} (${worst_age} old, ${worst_severity})
-- **Article**: articles/skill-freshness-${today}.md
+- **Article**: output/articles/skill-freshness-${today}.md
 - **Notification sent**: ${yes|no — FRESHNESS_OK|no — FRESHNESS_NO_CHANGE|no — dry-run}
 - **Status**: ${FRESHNESS_OK|FRESHNESS_WARN|FRESHNESS_STALE|FRESHNESS_NO_CHANGE|FRESHNESS_DRY_RUN}
 ```
@@ -273,14 +275,14 @@ Cap message at ~3500 chars. Drop "Worst" entries 4+ if exceeded.
 
 ## Sandbox note
 
-Pure local file I/O — no curl, no `gh api`, no env-var-in-headers, no prefetch script. Every read is a directory listing or an mtime call; every write is to `articles/`, `memory/topics/`, or `memory/logs/`. Works in the GitHub Actions sandbox without any of the network workarounds other skills need. The only outbound call is `./notify` itself, which is already sandbox-safe (postprocess-notify pattern).
+Pure local file I/O — no curl, no `gh api`, no env-var-in-headers, no prefetch script. Every read is a directory listing or an mtime call; every write is to `output/articles/`, `memory/topics/`, or `memory/logs/`. Works in the GitHub Actions sandbox without any of the network workarounds other skills need. The only outbound call is `./notify` itself, which is already sandbox-safe (postprocess-notify pattern).
 
 ## Constraints
 
 - **Read-only across producers.** This skill never re-runs a producer to refresh its output, never deletes stale files, never edits another skill's SKILL.md. It reports; the operator (or `skill-repair`) acts.
 - **Enabled consumers only.** A skill with `enabled: false` does not need its dependencies audited — it isn't going to consume them. This keeps the report scoped to what's actually live in the schedule.
 - **Implicit dependencies are best-effort.** Grep-based discovery is heuristic. False positives are tolerated (consumer paragraph clarifies why); false negatives are accepted (an explicit `chains: consume:` edge is the source of truth for chain runs). The goal is to surface the worst-case staleness, not to prove formally complete coverage.
-- **Per-class thresholds, not per-skill.** The threshold for `articles/token-report-*.md` is the same as for `articles/repo-pulse-*.md`: the path class drives the window, derived from the producer's cadence in `aeon.yml`. This keeps the table maintainable as the fleet grows.
+- **Per-class thresholds, not per-skill.** The threshold for `output/articles/token-report-*.md` is the same as for `output/articles/repo-pulse-*.md`: the path class drives the window, derived from the producer's cadence in `aeon.yml`. This keeps the table maintainable as the fleet grows.
 - **Fingerprint-based dedup.** A stale file flagged today and still stale tomorrow does not re-notify. The 7-day re-emit window handles the case where a chronic stale file has been forgotten about.
 - **No issue filing.** Anomalies surface in the verdict and the article. Persistence and resolution belong to `skill-health`. This skill is read-only across `memory/issues/`.
 - **Idempotent.** Same-day reruns overwrite the article and state file. The log entry appends one block per run.

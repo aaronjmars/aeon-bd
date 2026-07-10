@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: sim-watch
+category: productivity
 description: Weekly intel on Miroshark's category — LLM multi-agent / social simulation and world models. Tracks new sim engines, encroaching competitors, notable papers, and direct miroshark clones, then flags what to copy, what to counter, and where the opening is.
 var: ""
 tags: [research, ecosystem]
@@ -47,7 +49,7 @@ For each kept item, one line of **so-what** for Aaron/Nurstar, choosing a verdic
 - **validation** — narrative tailwind (cite when pitching/posting)
 
 ### 5. Write + state
-- `articles/sim-watch-${today}.md`: grouped by class, each item = name/id · 1-line · verdict. Lead with the single most important move. If a week is quiet: say "category quiet this week" in one line + list any new papers.
+- `output/articles/sim-watch-${today}.md`: grouped by class, each item = name/id · 1-line · verdict. Lead with the single most important move. If a week is quiet: say "category quiet this week" in one line + list any new papers.
 - Append keys to `seen` (LRU 250); refresh `cohort` with currently-active competitors.
 - `memory/logs/${today}.md`: `### sim-watch` block — counts by class + the top verdict.
 

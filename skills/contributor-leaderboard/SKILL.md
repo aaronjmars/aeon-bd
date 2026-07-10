@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Contributor Leaderboard
+category: core
 description: Ranking of developers contributing to the fork fleet and back upstream
 var: ""
 tags: [meta, community]
@@ -68,9 +70,9 @@ The `tweet-allocator` skill rewards social mentions with $AEON. Code contributor
 
    Rank all contributors by score descending. A contributor is anyone who either owns an active fork OR has authored an upstream PR in the past 30 days OR has left ≥1 upstream review comment in the past 30 days (union of all three sets).
 
-8. **Compare to last week's leaderboard.** Glob `articles/contributor-leaderboard-*.md` from the last 14 days, pick the most recent, and parse its ranked list (logins + scores) using a tolerant regex on the table rows (`^\| \d+ \| @(\S+) \| (\d+) \|`). If parsing yields zero rows, skip the comparison silently (don't crash). Compute week-over-week rank changes (new entries, rank shifts ≥3, dropouts).
+8. **Compare to last week's leaderboard.** Glob `output/articles/contributor-leaderboard-*.md` from the last 14 days, pick the most recent, and parse its ranked list (logins + scores) using a tolerant regex on the table rows (`^\| \d+ \| @(\S+) \| (\d+) \|`). If parsing yields zero rows, skip the comparison silently (don't crash). Compute week-over-week rank changes (new entries, rank shifts ≥3, dropouts).
 
-9. **Write the article** to `articles/contributor-leaderboard-${today}.md`. Lead with the narrative — the table is the proof, not the headline:
+9. **Write the article** to `output/articles/contributor-leaderboard-${today}.md`. Lead with the narrative — the table is the proof, not the headline:
 
    ```markdown
    # Fork Contributor Leaderboard — ${today}

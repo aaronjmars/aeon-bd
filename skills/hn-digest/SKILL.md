@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: HN Digest
+category: basics
 description: Top HN stories filtered by interests, with comment-mined insights and themed clustering
 var: ""
 tags: [research]

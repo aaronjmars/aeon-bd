@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Skill Update
+category: evolution
 description: Check imported skills for upstream changes and security regressions since the version in skills.lock
 var: ""
 tags: [dev, security]
@@ -96,7 +98,7 @@ For each `CHANGED` skill, assign one priority:
 | `MEDIUM` | In `ENABLED` AND no risk flags (clean update; review encouraged) |
 | `LOW` | NOT in `ENABLED` (drift exists but no production impact today) |
 
-### 6. Build the report at `articles/skill-update-${today}.md`
+### 6. Build the report at `output/articles/skill-update-${today}.md`
 
 Lead with a verdict line; then a triage table sorted by priority; then per-skill detail blocks for CRITICAL/HIGH/MEDIUM (LOW gets a compact list, no detail blocks). Up-to-date / unreachable / missing-upstream go in a compact footer table.
 
@@ -179,7 +181,7 @@ Verdict: {N_critical} critical · {N_high} high · {N_medium} medium of {N_total
 {N_medium} medium-priority updates queued for review.
 
 To accept after review: ./add-skill {repo} {skill}
-Full report: articles/skill-update-${today}.md
+Full report: output/articles/skill-update-${today}.md
 ```
 
 Send via `./notify "..."`.
@@ -249,7 +251,7 @@ Steps:
 - Up-to-date: N, Changed: N (critical: a, high: b, medium: c, low: d), Unreachable: N, Missing-upstream: N
 - Source-status: gh_api={ok|...}, scanner={present|missing}
 - Critical/high (one line each): {skill — reason}
-- Report: articles/skill-update-${today}.md
+- Report: output/articles/skill-update-${today}.md
 ```
 
 ## Sandbox note

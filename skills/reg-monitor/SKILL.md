@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Regulatory Monitor
+category: crypto
 description: Track legislation, regulatory actions, and legal developments affecting prediction markets, crypto, and AI agents — triaged by stage × impact for decision-ready output
 var: ""
 tags: [crypto, research]

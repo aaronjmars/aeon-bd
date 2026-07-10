@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: ecosystem-links
+category: dev
 description: Link-health audit of ECOSYSTEM.md — checks every GitHub repo for archived/disabled state and every project URL for HTTP 4xx/5xx or redirect chains, surfacing dead/archived/moved entries before a casual reader stumbles into one. Closes the three-skill ecosystem loop with ecosystem-entrants (arrivals) and ecosystem-pulse (liveness).
 var: ""
 tags: [research, dev]
@@ -40,7 +42,7 @@ No new secrets. GitHub access uses the `gh` CLI (`GH_TOKEN`), which handles auth
 
 Writes:
 - `memory/topics/ecosystem-links-state.json` — per-URL snapshot keyed by the canonical URL
-- `articles/ecosystem-links-${today}.md` — digest on every non-error run (including QUIET; the article is the durable record even when the notification is suppressed)
+- `output/articles/ecosystem-links-${today}.md` — digest on every non-error run (including QUIET; the article is the durable record even when the notification is suppressed)
 - `memory/logs/${today}.md` — one log block per run
 - Notification via `./notify` — only when ≥1 DEAD or newly-ARCHIVED URL has surfaced since the last run (see step 7)
 
@@ -226,7 +228,7 @@ Plus transitions since last run: `T_NEW_DEAD`, `T_NEW_ARCH`, `T_NEW_MOVED`, `T_R
 
 ### 6. Write the article
 
-Overwrite `articles/ecosystem-links-${today}.md`:
+Overwrite `output/articles/ecosystem-links-${today}.md`:
 
 ```markdown
 # Ecosystem Links — ${today}
@@ -295,7 +297,7 @@ Baseline (first) run:
 
 ecosystem-links is now monitoring {N} URLs across ECOSYSTEM.md.
 Next Monday will report transitions. Snapshot in
-articles/ecosystem-links-${today}.md.
+output/articles/ecosystem-links-${today}.md.
 ```
 
 Normal run with transitions:
@@ -322,7 +324,7 @@ Moved (resolves to a different host now):
 Recovered:
 - {Project}: {url} (was {prior_bucket})
 
-Full digest: articles/ecosystem-links-${today}.md
+Full digest: output/articles/ecosystem-links-${today}.md
 ```
 
 Keep under 900 chars. If any section has more than 6 entries, list the first 6 and append "+M more (see article)" — preserves the dashboard render and the article carries the full list.
@@ -351,7 +353,7 @@ Append to `memory/logs/${today}.md`:
 - **OK**: {OK_C} · **Archived**: {ARCH_C} · **Moved**: {MOVED_C} · **Dead**: {DEAD_C} · **Inconclusive**: {INC_C}
 - **Transitions since last run**: {T_NEW_DEAD} new dead · {T_NEW_ARCH} new archived · {T_NEW_MOVED} new moved · {T_RECOVERED} recovered
 - **Baseline run**: yes/no
-- **Article**: articles/ecosystem-links-${today}.md
+- **Article**: output/articles/ecosystem-links-${today}.md
 - **Notification**: sent / skipped (gated)
 - **Status**: ECOSYSTEM_LINKS_OK
 ```
@@ -396,4 +398,4 @@ No prefetch/postprocess wrapper required. The only other outbound call is `./not
 
 - `GH_TOKEN` (or `GITHUB_TOKEN` in CI) — provided by the runner; no new secret to provision.
 
-No third-party API keys. No on-chain reads. No file writes outside `memory/`, `articles/`, and `/tmp/`.
+No third-party API keys. No on-chain reads. No file writes outside `memory/`, `output/articles/`, and `/tmp/`.

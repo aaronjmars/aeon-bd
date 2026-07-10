@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: skill-enabler
+category: evolution
 description: Flip enabled:false → enabled:true for a comma-separated list of skill slugs in aeon.yml — validate against skills/, fail loudly on already-enabled or missing slugs, commit, open a PR with per-skill rationale
 var: ""
 tags: [dev, meta]

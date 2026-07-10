@@ -1,3 +1,8 @@
+---
+type: Narrative
+title: "Agent Displacement Tracker"
+---
+
 # Agent Displacement Tracker
 
 *Last run: 2026-06-13*

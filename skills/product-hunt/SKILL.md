@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Product Hunt
+category: productivity
 description: Draft the full Product Hunt launch asset package (tagline, description, first comment, maker comment, six-bullet feature list) from live repo state — operator reviews and submits.
 var: ""
 tags: [dev]
@@ -29,7 +31,7 @@ All five of these have to be ready before the launch window opens. Writing them 
 - `${var}` ∈ `{tagline, description, first-comment, maker-comment, bullets}` → regenerate that section only.
 - Any other value → log `PRODUCT_HUNT_LAUNCH_BAD_VAR: ${var}` and exit without notifying.
 
-When regenerating a single section, read the existing `articles/product-hunt-${today}.md` if present, replace only the matching `##` block, and rewrite the file. If no file exists, generate just the requested section — do NOT fabricate the others.
+When regenerating a single section, read the existing `output/articles/product-hunt-${today}.md` if present, replace only the matching `##` block, and rewrite the file. If no file exists, generate just the requested section — do NOT fabricate the others.
 
 ### 2. Pull the source-of-truth inputs
 
@@ -41,8 +43,8 @@ Read in this order; any missing input is non-fatal — log `PRODUCT_HUNT_LAUNCH_
 | `SHOWCASE.md` | Active-fork count + concrete production-use examples |
 | `skills.json` | Total skill count by category — the "what's in the box" inventory |
 | `aeon.yml` | Default-enabled vs `workflow_dispatch` mix — informs "configure once, walk away" claims |
-| `articles/repo-article-*.md` (last 7 days) | Most concrete recent-ship moments to seed the first-comment narrative |
-| `articles/project-lens-*.md` (last 7 days) | Outside-the-repo framing — the angle that lands with someone seeing Aeon for the first time |
+| `output/articles/repo-article-*.md` (last 7 days) | Most concrete recent-ship moments to seed the first-comment narrative |
+| `output/articles/project-lens-*.md` (last 7 days) | Outside-the-repo framing — the angle that lands with someone seeing Aeon for the first time |
 | `memory/logs/*.md` (last 7 days) | Autonomous-behavior moments — specific PR numbers, what self-improve shipped |
 | `memory/MEMORY.md` Skills Built table (last 14 days) | Concrete "the agent built X in Y days" examples |
 
@@ -52,7 +54,7 @@ For live repo stats:
 gh api repos/aaronjmars/aeon --jq '{stars:.stargazers_count, forks:.forks_count, open_issues:.open_issues_count}'
 ```
 
-If `gh api` fails, fall through to the latest `articles/repo-pulse-*.md` for the most recent count and footnote the draft with `_<stars> stars at last repo-pulse run_`. Do NOT fabricate live numbers.
+If `gh api` fails, fall through to the latest `output/articles/repo-pulse-*.md` for the most recent count and footnote the draft with `_<stars> stars at last repo-pulse run_`. Do NOT fabricate live numbers.
 
 ### 3. Pick the lead capability
 
@@ -70,7 +72,7 @@ Do **not** lead with stars, token price, or "AI-powered." PH's audience scores t
 
 ### 4. Write the tagline (≤60 chars)
 
-Write to the `## Tagline` section of `articles/product-hunt-${today}.md`.
+Write to the `## Tagline` section of `output/articles/product-hunt-${today}.md`.
 
 **Hard constraint:** ≤60 characters. PH truncates at 60 in the front-page card — anything beyond gets cut.
 
@@ -153,7 +155,7 @@ Write to the `## Feature Bullets` section. Six bullets, each ≤80 chars, format
 
 ### 9. Append the operator checklist
 
-Append a `## Operator Checklist` section to `articles/product-hunt-${today}.md`. Plain checklist — not for the agent, do **not** post this to PH:
+Append a `## Operator Checklist` section to `output/articles/product-hunt-${today}.md`. Plain checklist — not for the agent, do **not** post this to PH:
 
 ```
 ## Operator Checklist
@@ -181,7 +183,7 @@ Description (${desc_chars}/260): ${description_first_200}…
 
 —
 Sections written: ${variants_written}
-File: articles/product-hunt-${today}.md
+File: output/articles/product-hunt-${today}.md
 Stars: ${current_stars} | Forks: ${current_forks} | Skills: ${total_skills}
 
 Operator: review the full pack and the checklist at the bottom of the file before scheduling the launch.
@@ -203,7 +205,7 @@ Append to `memory/logs/${today}.md`:
 - **Description char count**: ${desc_chars}/260
 - **First comment char count**: ${first_comment_chars}/500
 - **Maker comment char count**: ${maker_comment_chars}/500
-- **File**: articles/product-hunt-${today}.md
+- **File**: output/articles/product-hunt-${today}.md
 - **Notification**: sent
 - **Status**: PRODUCT_HUNT_LAUNCH_OK | PRODUCT_HUNT_LAUNCH_PARTIAL | PRODUCT_HUNT_LAUNCH_BAD_VAR
 ```

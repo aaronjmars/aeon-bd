@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: PR Tracker
+category: dev
 description: Track status of cross-repo PRs opened by this aeon instance — merges, stale open, and closures
 tags: [meta, github]
 ---

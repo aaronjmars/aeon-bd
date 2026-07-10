@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Technical Explainer
+category: productivity
 description: Generate a visual technical explanation of a recent topic using Replicate for the hero image
 var: ""
 tags: [content]
@@ -24,7 +26,7 @@ This is a *technical* explainer — you explaining a mechanism to a smart friend
 
 If `${var}` is set, use that as the topic verbatim. Otherwise pick deterministically in this order — first hit wins:
 
-1. The newest file in `articles/` from the last 3 days. Choose the single most non-obvious mechanism inside it.
+1. The newest file in `output/articles/` from the last 3 days. Choose the single most non-obvious mechanism inside it.
 2. The newest "Paper Pick" entry in `memory/logs/` from the last 7 days. The paper's headline mechanism is the topic.
 3. A topic surfaced in the last 7 days of logs (digests, discussions) that names a specific technique, algorithm, or system.
 4. Fallback: the most recent topic listed under "Recent Articles" or "Recent Digests" in `memory/MEMORY.md`.
@@ -98,7 +100,7 @@ A numbered walkthrough of the mechanism in **3-7 steps**. Each step is one or tw
 
 Use Replicate's Nano Banana Pro (Gemini 3 Pro Image). It renders **text labels well** — exploit that by writing prompts that ask for labeled diagrams or schematics, not stock-photo metaphors.
 
-1. **Preflight**: if `$REPLICATE_API_TOKEN` is empty **or unset**, log `IMAGE_SKIPPED reason=no-token` to `memory/logs/${today}.md` and jump directly to step 5 (no-image path). Do not attempt any Replicate call. The explainer must ship without an image in this case.
+1. **Preflight**: if `REPLICATE_API_TOKEN` is unset — presence-check with `[ -n "${REPLICATE_API_TOKEN:+x}" ]`, never a bare `$REPLICATE_API_TOKEN` (which trips the secret-expansion analyzer and falsely reads as unset) — log `IMAGE_SKIPPED reason=no-token` to `memory/logs/${today}.md` and jump directly to step 5 (no-image path). Do not attempt any Replicate call. The explainer must ship without an image in this case.
 
 2. **Craft the prompt**. Aim for technical illustration energy, not marketing. Strong prompt templates:
    - *Schematic*: "Technical schematic illustration of <mechanism>, dark navy background, thin cyan and amber lines, labeled boxes reading '<label1>', '<label2>', '<label3>', arrows showing data flow from <A> to <B> to <C>, blueprint aesthetic, 16:9"
@@ -106,10 +108,10 @@ Use Replicate's Nano Banana Pro (Gemini 3 Pro Image). It renders **text labels w
    - *Data-flow*: "Network diagram of <mechanism>: nodes labeled '<A>', '<B>', '<C>' connected by directional arrows, weights shown as line thickness, monospace labels, technical-paper figure style, 16:9"
    Avoid: photorealistic faces, stock-business imagery, "AI brain" tropes, gradient slop.
 
-3. **Generate** with fallback enabled from the start (Nano Banana Pro can rate-limit; Seedream 5.0 lite is the fallback):
+3. **Generate in-run** with fallback enabled from the start (Nano Banana Pro can rate-limit; Seedream 5.0 lite is the fallback). Use `./secretcurl` with the `{REPLICATE_API_TOKEN}` placeholder — a bare `$REPLICATE_API_TOKEN` on the command line is refused by the Bash permission layer, and plain `curl` must not carry the token:
    ```bash
-   curl -s -X POST \
-     -H "Authorization: Bearer $REPLICATE_API_TOKEN" \
+   ./secretcurl -sS --max-time 120 -w 'http=%{http_code}\n' -X POST \
+     -H "Authorization: Bearer {REPLICATE_API_TOKEN}" \
      -H "Content-Type: application/json" \
      -H "Prefer: wait" \
      -d '{
@@ -123,6 +125,7 @@ Use Replicate's Nano Banana Pro (Gemini 3 Pro Image). It renders **text labels w
      }' \
      "https://api.replicate.com/v1/models/google/nano-banana-pro/predictions"
    ```
+   Print `http=<code>`. On a non-2xx / `--max-time` timeout / 200 with empty body, treat the image as unavailable and fall through to the no-image path (step 5) — never fail the whole skill over an image.
 
 4. **Persist locally** — Replicate CDN URLs expire. Download and commit:
    ```bash
@@ -139,7 +142,7 @@ Use Replicate's Nano Banana Pro (Gemini 3 Pro Image). It renders **text labels w
 
 ## Save & Notify
 
-1. Save the explainer to `articles/explainer-${today}.md`:
+1. Save the explainer to `output/articles/explainer-${today}.md`:
    - Hero image at the top: `![hero](../images/explainer-${today}.<ext>)` — relative path. Skip this line if no image.
    - HTML comment with the image prompt used (for future audits).
    - The full structured explainer.
@@ -154,7 +157,7 @@ Use Replicate's Nano Banana Pro (Gemini 3 Pro Image). It renders **text labels w
    - **Image:** generated | fallback-model | skipped (<reason>)
    - **Image prompt:** [prompt used, or "n/a"]
    - **Primary source:** [URL of the primary source you cited]
-   - **File:** articles/explainer-${today}.md
+   - **File:** output/articles/explainer-${today}.md
    - **Notification sent:** yes | no
    ```
 
@@ -166,12 +169,12 @@ Use Replicate's Nano Banana Pro (Gemini 3 Pro Image). It renders **text labels w
 
    [hero image URL if generated — original Replicate URL still works for ~24h]
 
-   read it: articles/explainer-${today}.md
+   read it: output/articles/explainer-${today}.md
    ```
 
-## Sandbox note
+## Network note
 
-The sandbox may block outbound curl. Use **WebFetch** as a fallback for any URL fetch. For the Replicate call (auth-required via env var), if the inline curl fails, write the request payload to `.pending-replicate/explainer-${today}.json` and rely on the post-process pattern documented in `CLAUDE.md` (`scripts/postprocess-replicate.sh` runs after Claude finishes with full env access). Continue down the no-image path so the article still ships.
+The hero image is an **optional, auth'd Replicate call made in-run** via `./secretcurl` (the `{REPLICATE_API_TOKEN}` placeholder — a bare `$REPLICATE_API_TOKEN` on the command line is refused by the Bash permission layer). It is attempted in step 3, after the step-1 preflight. There is **no** deferred/postprocess step: if the call fails for any reason (non-2xx, timeout, empty body, missing token, or a failed download), record the concrete reason and continue straight down the no-image path (step 5) so the article still ships. The image is a nice-to-have; the text stands on its own. Public reads (the CDN image download, Semantic Scholar) can use plain `curl`, with **WebFetch** as a fallback for a flaky public GET.
 
 ## Environment Variables
 - `REPLICATE_API_TOKEN` — Replicate API key. Optional: explainer text works without it via the no-image path.

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: rwa-pulse
+category: crypto
 description: Real World Asset tokenization momentum tracker — surfaces new protocol launches, TVL milestones, institutional adoption, and regulatory approvals
 tags: [crypto, research]
 ---

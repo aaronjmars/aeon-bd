@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Wallet Digest
+category: basics
 description: Lightweight balance-and-activity summary across tracked wallets. Sibling to onchain-monitor — balances-only, no per-transfer decode.
 var: ""
 tags: [crypto]

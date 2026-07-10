@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Star Momentum
+category: productivity
 description: Project the date a watched repo crosses its next star milestone — alert only when projected date lands inside the Show HN dispatch window (7-14 days out, Tue/Wed/Thu)
 var: ""
 tags: [meta, growth]
@@ -21,11 +23,11 @@ No new secrets. No new env vars. No new state file beyond `memory/topics/star-mo
 Reads:
 - `memory/watched-repos.md` — repos to track. Skip lines containing `aeon-agent` or ending in `-aeon` (agent repos, not project repos).
 - `memory/logs/YYYY-MM-DD.md` for the last 14 days — extract the `**owner/repo**: stargazers_count=N, forks_count=M` lines that `repo-pulse` writes under its `## Repo Pulse` blocks.
-- Optional fallback: `articles/repo-pulse-*.md` if any fork writes them — same regex applies. Logs are the source of truth on the canonical instance.
+- Optional fallback: `output/articles/repo-pulse-*.md` if any fork writes them — same regex applies. Logs are the source of truth on the canonical instance.
 - `memory/topics/star-momentum-state.json` — prior-run dedup state.
 
 Writes:
-- `articles/star-momentum-${today}.md` — the per-repo projection report (always written, even when no alert fires).
+- `output/articles/star-momentum-${today}.md` — the per-repo projection report (always written, even when no alert fires).
 - `memory/topics/star-momentum-state.json` — last-alert timestamp per `(repo, target_milestone)` pair.
 - `memory/logs/${today}.md` — log block.
 
@@ -131,7 +133,7 @@ If all gates pass: verdict `ALERT`. Promote this repo into the notify list.
 
 ### 8. Build the article (always — even when zero alerts fire)
 
-Path: `articles/star-momentum-${today}.md`. Overwrite if exists.
+Path: `output/articles/star-momentum-${today}.md`. Overwrite if exists.
 
 ```markdown
 # Star Momentum — ${today}
@@ -208,7 +210,7 @@ ${projected_date_v7} is a ${day_of_week_v7} — inside the Show HN dispatch wind
 
 Suggested action: dispatch \`show-hn\` 24-48 hours before ${projected_date_v7} so the post is ready when the milestone lands.
 
-Article: articles/star-momentum-${today}.md
+Article: output/articles/star-momentum-${today}.md
 ```
 
 Cap each message at ~2500 chars. Notifications fan out via `./notify` (Telegram/Discord/Slack — whichever are configured).
@@ -250,7 +252,7 @@ Cap to last 20 milestone entries per repo to bound the file.
 - **Per-repo verdicts**:
   - ${repo}: ${verdict} — ${current_stars}⭐ → ${target}⭐ in ~${eta}d (${projected_date_v7}, ${day_of_week_v7})
 - **Alerts sent**: ${alert_count}
-- **Article**: articles/star-momentum-${today}.md
+- **Article**: output/articles/star-momentum-${today}.md
 - **Notification sent**: ${yes — N alerts | no — STAR_MOMENTUM_NO_ALERTS | no — dry-run}
 - **Status**: ${STAR_MOMENTUM_OK | STAR_MOMENTUM_NO_ALERTS | STAR_MOMENTUM_DRY_RUN | STAR_MOMENTUM_NO_REPOS | STAR_MOMENTUM_BAD_VAR}
 ```
@@ -267,7 +269,7 @@ Cap to last 20 milestone entries per repo to bound the file.
 
 ## Sandbox note
 
-Pure local file I/O — no curl, no `gh api`, no env-var-in-headers, no prefetch script. Every read is a directory listing, file existence check, or grep over `memory/logs/`. Every write goes to `articles/`, `memory/topics/`, or `memory/logs/`. Works in the GitHub Actions sandbox without any of the network workarounds other skills need. The only outbound call is `./notify` itself, which is already sandbox-safe (postprocess-notify pattern).
+Pure local file I/O — no curl, no `gh api`, no env-var-in-headers, no prefetch script. Every read is a directory listing, file existence check, or grep over `memory/logs/`. Every write goes to `output/articles/`, `memory/topics/`, or `memory/logs/`. Works in the GitHub Actions sandbox without any of the network workarounds other skills need. The only outbound call is `./notify` itself, which is already sandbox-safe (postprocess-notify pattern).
 
 ## Constraints
 

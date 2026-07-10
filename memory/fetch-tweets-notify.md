@@ -1,3 +1,8 @@
+---
+type: Reference
+title: "fetch-tweets-notify"
+---
+
 *Top Tweets — @aeonframework OR @miroshark_ (2026-07-07)*
 _Quiet window — one thread generated all the substance: Aaron spotlighted a Docker-based Aeon fork, drawing an immediate builder credit from orquestra. Zero Miroshark signal._
 

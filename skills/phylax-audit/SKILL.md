@@ -1,6 +1,7 @@
 ---
+type: Skill
 name: Phylax Audit
-category: onchain-security
+category: evolution
 description: Pre-install security verdict for an external agent skill before you ./add-skill it. Scans the remote SKILL.md for prompt-injection and secret-exfil, audits any Base contracts it references, and probes its x402 endpoints — then returns one deterministic ALLOW / WARN / DENY with evidence. Keyless via Base RPC + Etherscan v2.
 var: ""
 tags: [crypto, security, base]

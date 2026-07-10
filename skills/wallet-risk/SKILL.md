@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Wallet Risk
+category: crypto
 description: Risk audit of this agent's own Base wallets — live ERC-20 approvals (unlimited flagged), honeypot simulation on every token with a live approval, severity-tiered findings. Keyless via Base RPC. First scheduled consumer of the HoundFlow security pack against `.x402books/wallets.json`.
 var: ""
 tags: [crypto, security, base, meta]
@@ -155,7 +157,7 @@ A spender not in this list is unknown — UNLIMITED stays HIGH.
 
 ### 7. Write the weekly article
 
-Write `articles/wallet-risk-${today}.md`:
+Write `output/articles/wallet-risk-${today}.md`:
 
 ```markdown
 # Wallet Risk — ${today}
@@ -212,7 +214,7 @@ Tier: HIGH · N wallets audited · vs last week: WORSENED
 • Deployer 0x123…456 — CLEAN
 
 Revoke unknown unlimited approvals at revoke.cash. Full breakdown:
-articles/wallet-risk-${today}.md
+output/articles/wallet-risk-${today}.md
 ```
 
 Send:
@@ -266,7 +268,7 @@ Append:
   - `0xabc…def` (treasury): HIGH — 4 live (2 unlimited, 1 unknown-unlimited), 1 honeypot
   - `0x123…456` (deployer): CLEAN
 - **vs last run**: WORSENED / IMPROVED / UNCHANGED / FIRST_RUN
-- **Article**: articles/wallet-risk-${today}.md
+- **Article**: output/articles/wallet-risk-${today}.md
 - **Notification sent**: yes / no (reason)
 - **Status**: WALLET_RISK_OK / WALLET_RISK_HIGH / WALLET_RISK_QUIET / WALLET_RISK_NO_WALLETS / WALLET_RISK_RPC_FAIL / WALLET_RISK_BAD_VAR / STATE_CORRUPT / DRY_RUN
 ```

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: topic-momentum
+category: productivity
 description: Content-gap scanner — cross-references rising narrative signals (narrative-tracker, tweet-roundup, paper-pick, etc.) against recent article history and surfaces the top 3 uncovered angles to write next.
 var: ""
 tags: [content, meta]
@@ -51,7 +53,7 @@ If `${var}` is set, restrict the gap-scan to themes that match the named domain 
 
 ### 1. Load recent article coverage
 
-Use Glob to list `.md` files in `articles/` modified in the last 30 days (filename pattern `YYYY-MM-DD.md` makes this easy).
+Use Glob to list `.md` files in `output/articles/` modified in the last 30 days (filename pattern `YYYY-MM-DD.md` makes this easy).
 
 For each file:
 - Read the H1 and first 2 sentences — extract the core topic and angle
@@ -173,7 +175,7 @@ If fewer than 3 scoreable gaps were found: log `TOPIC_MOMENTUM_SKIP: insufficien
 
 ## Required Env Vars
 
-None. All reads from local `memory/` and `articles/` dirs. No external API calls, no curl, no prefetch script needed.
+None. All reads from local `memory/` and `output/articles/` dirs. No external API calls, no curl, no prefetch script needed.
 
 ## Sandbox Note
 

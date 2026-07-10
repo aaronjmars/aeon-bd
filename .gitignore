@@ -9,20 +9,15 @@
 # Claude Code local state
 .claude/
 
-# Transient skill scratch files
-.bd-update.py
-.radar_*
-
-# Caches (regenerated per run)
-.xai-cache/
-.bankr-cache/
-.pending-notify/
-.pending-replicate/
-.pending-supernotes/
-.pending-deploy/
-.pending-devto/
-.pending-farcaster/
+# Caches — prefetch scripts write these, skills read them; regenerated every run
+# (.xai-cache, .treasury-cache, .star-cache, .github-releases-cache, …)
+.*-cache/
 .tg_cache/
+
+# Working scratch dirs some skills stage during a run, then clean up:
+# .pending-notify (notify re-delivery), .pending-deploy (deploy-prototype build),
+# plus .pending-notify-temp where skills stage notify bodies for `./notify -f`
+.pending-*/
 
 # Skill provenance lock (per-repo, not committed)
 skills.lock
@@ -35,12 +30,6 @@ tmp_*
 .run-*.sh
 .*-tmp.md
 .*-draft.md
-.heartbeat-notify.md
-.write-tweet-notify.md
-.fetch-tweets-notify.md
-.notify-framework-watch.md
-.notify-war-room.md
-.pr-body.md
 .*-msg.txt
 *_msg.txt
 *_raw.txt

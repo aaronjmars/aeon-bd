@@ -1,4 +1,5 @@
 ---
+type: Skill
 name: idea-validator
 category: productivity
 description: Screen the startup idea backlog — research competitive landscape, score viability, surface the strongest picks from memory/topics/startup-ideas.md

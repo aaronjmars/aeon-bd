@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Skill Dependency Graph
+category: evolution
 description: Generate a navigable Mermaid dependency map of all skills with change detection, per-category drill-downs, and enabled overlay
 var: ""
 tags: [meta, dev]
@@ -41,7 +43,7 @@ If state file is missing → mode = `SKILL_GRAPH_NEW`. Otherwise → mode = `SKI
 
 **Derived edges (this is the leverage):**
 - For each skill, grep `memory/topics/*.md` and `memory/state/*.json` references. Classify as **write** if surrounding 3 lines match `(write|save|append|>|update)\b.*(topics|state)/`, else **read**. A `write→topic` from skill A and a `read→same topic` from skill B yields a shared-state edge `A -..-> B`.
-- Skills tagged `research` writing to `articles/*.md` (or having `articles/` in their output description) → automatic content-pipeline edges to `syndicate-article`, `rss-feed`, `update-gallery`.
+- Skills tagged `research` writing to `output/articles/*.md` (or having `output/articles/` in their output description) → automatic content-pipeline edges to `syndicate-article`, `rss-feed`, `update-gallery`.
 - Every skill writes `memory/cron-state.json` — collapse this into a single legend note rather than 90 edges to `heartbeat/skill-health/skill-repair`.
 
 ### 3. Categorize via `skills.json`
