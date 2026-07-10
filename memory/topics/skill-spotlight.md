@@ -1,3 +1,8 @@
+---
+type: Reference
+title: "Skill Spotlight — Rotation State"
+---
+
 # Skill Spotlight — Rotation State
 
 Queue + history for `skills/skill-spotlight/`. The picker reads top-down, skips anything covered in the last 30 days or in the blocklist.

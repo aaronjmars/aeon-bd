@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Deep Research
+category: basics
 description: Exhaustive multi-source synthesis on any topic with explicit source credibility tiering and per-finding confidence — analyst-grade, not aggregator-grade
 var: ""
 tags: [research]
@@ -125,7 +127,7 @@ A "Low" confidence finding can still be reported but **must** be flagged inline.
 
 ### 6. Write the research report
 
-Save to `articles/deep-research-${today}.md`.
+Save to `output/articles/deep-research-${today}.md`.
 
 **Shallow mode (~600 words):**
 
@@ -205,7 +207,7 @@ Save to `articles/deep-research-${today}.md`.
 
 Append to `memory/logs/${today}.md`:
 ```
-- Deep Research: "${topic}" (${depth} mode, ${source_count} sources [T1:X T2:Y T3:Z], ${paper_count} papers) -> articles/deep-research-${today}.md
+- Deep Research: "${topic}" (${depth} mode, ${source_count} sources [T1:X T2:Y T3:Z], ${paper_count} papers) -> output/articles/deep-research-${today}.md
 ```
 
 Send via `./notify`:
@@ -226,7 +228,7 @@ Key findings:
 Strongest data point: [one stat with source]
 Biggest open question: [one item]
 
-Full report: articles/deep-research-${today}.md
+Full report: output/articles/deep-research-${today}.md
 ```
 
 ---

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: RSS Feed Generator
+category: basics
 description: Generate an Atom XML feed from articles, validate it, and notify only when it actually changes
 var: ""
 tags: [content]
@@ -8,7 +10,7 @@ tags: [content]
 
 > **${var}** — Repo slug override (`owner/repo`) for feed URLs. If empty, the script auto-detects from the git remote. Pass through unchanged; do not invent a value.
 
-Generate a valid Atom XML feed from all markdown articles in `articles/`, validate it, and notify only when the feed content actually changed. Unchanged runs are a silent no-op.
+Generate a valid Atom XML feed from all markdown articles in `output/articles/`, validate it, and notify only when the feed content actually changed. Unchanged runs are a silent no-op.
 
 ## Steps
 
@@ -21,9 +23,9 @@ Read `memory/MEMORY.md`.
 Before regenerating, snapshot the current feed so we can tell whether anything changed:
 
 ```bash
-if [[ -f articles/feed.xml ]]; then
-  PREV_HASH="$(sha256sum articles/feed.xml | awk '{print $1}')"
-  grep -oP '(?<=<title>)[^<]+' articles/feed.xml | tail -n +2 | sort -u > /tmp/rss-feed-prev-titles.txt
+if [[ -f output/articles/feed.xml ]]; then
+  PREV_HASH="$(sha256sum output/articles/feed.xml | awk '{print $1}')"
+  grep -oP '(?<=<title>)[^<]+' output/articles/feed.xml | tail -n +2 | sort -u > /tmp/rss-feed-prev-titles.txt
 else
   PREV_HASH=""
   : > /tmp/rss-feed-prev-titles.txt
@@ -50,11 +52,11 @@ Invalid XML breaks every subscriber. Fail loud if the feed is malformed:
 
 ```bash
 if command -v xmllint >/dev/null 2>&1; then
-  xmllint --noout articles/feed.xml || { STATUS="RSS_FEED_ERROR"; VALIDATION_ERR="xmllint failed"; }
+  xmllint --noout output/articles/feed.xml || { STATUS="RSS_FEED_ERROR"; VALIDATION_ERR="xmllint failed"; }
 else
   # Fallback: verify the root element and a closing tag
-  head -2 articles/feed.xml | grep -q '<feed' || { STATUS="RSS_FEED_ERROR"; VALIDATION_ERR="missing <feed> root"; }
-  tail -1 articles/feed.xml | grep -q '</feed>' || { STATUS="RSS_FEED_ERROR"; VALIDATION_ERR="missing </feed> close"; }
+  head -2 output/articles/feed.xml | grep -q '<feed' || { STATUS="RSS_FEED_ERROR"; VALIDATION_ERR="missing <feed> root"; }
+  tail -1 output/articles/feed.xml | grep -q '</feed>' || { STATUS="RSS_FEED_ERROR"; VALIDATION_ERR="missing </feed> close"; }
 fi
 ```
 
@@ -65,8 +67,8 @@ If `STATUS=RSS_FEED_ERROR`, stop, notify with the error, log it, and exit withou
 Compare new feed against the baseline:
 
 ```bash
-NEW_HASH="$(sha256sum articles/feed.xml | awk '{print $1}')"
-grep -oP '(?<=<title>)[^<]+' articles/feed.xml | tail -n +2 | sort -u > /tmp/rss-feed-new-titles.txt
+NEW_HASH="$(sha256sum output/articles/feed.xml | awk '{print $1}')"
+grep -oP '(?<=<title>)[^<]+' output/articles/feed.xml | tail -n +2 | sort -u > /tmp/rss-feed-new-titles.txt
 
 ADDED="$(comm -13 /tmp/rss-feed-prev-titles.txt /tmp/rss-feed-new-titles.txt)"
 REMOVED="$(comm -23 /tmp/rss-feed-prev-titles.txt /tmp/rss-feed-new-titles.txt)"
@@ -89,7 +91,7 @@ else
   MSG="chore(feed): metadata refresh ($ENTRY_COUNT entries)"
 fi
 
-git add articles/feed.xml
+git add output/articles/feed.xml
 git diff --cached --quiet || git commit -m "$MSG"
 git push || true
 ```
@@ -117,7 +119,7 @@ On `RSS_FEED_ERROR`, notify with:
 
 ```
 *RSS feed ERROR* — $VALIDATION_ERR
-Feed not committed. Investigate scripts/generate-feed.sh or articles/ inputs.
+Feed not committed. Investigate scripts/generate-feed.sh or output/articles/ inputs.
 ```
 
 ### 8. Log

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Frequency Guard
+category: core
 description: Per-skill run-count watchdog — checks if any capped skills exceeded their configured daily limit and alerts on breach
 tags: [meta]
 ---

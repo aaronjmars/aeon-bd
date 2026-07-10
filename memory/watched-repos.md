@@ -1,3 +1,7 @@
+---
+type: Reference
+---
+
 # Watched Repos
 
 Repos the monitoring skills sweep. `builder-map`, `bd-radar`, and `product-pulse`

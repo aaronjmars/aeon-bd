@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Startup Idea
+category: productivity
 description: 2 evidence-backed startup memos with ICP, wedge, monetization, and numeric kill criteria
 var: ""
 tags: [creative]

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: GitHub Issues
+category: dev
 description: Digest of new open issues across your repos, ranked by signal (security/bug/feature/other)
 var: ""
 tags: [dev]

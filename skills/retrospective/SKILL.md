@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Retrospective
+category: core
 description: KALM retrospective grounded in objective metrics, with closed-loop tracking of prior actions and SMART next actions
 var: ""
 tags: [meta]
@@ -23,7 +25,7 @@ Read in this order. If any source is empty or missing, note it explicitly in the
 3. **Objective skill metrics** — run `./scripts/skill-runs --hours 168 --json` and parse pass/fail counts per skill. If the script fails or the JSON is empty, fall back to `cat memory/cron-state.json` and note the degraded source.
 4. **Open issues** — `memory/issues/INDEX.md` (treat any new `open` issues this week as findings).
 5. **Code activity** — `git log --since="7 days ago" --pretty=format:"%h %s"` to see what shipped (skills added/changed, fixes, PRs merged).
-6. **Prior review** — the most recent `articles/retrospective-*.md` (if none exists, fall back to the most recent legacy `articles/weekly-review-*.md`). Extract its "Next week priorities" section — you will audit those actions in step 1 below.
+6. **Prior review** — the most recent `output/articles/retrospective-*.md` (if none exists, fall back to the most recent legacy `output/articles/weekly-review-*.md`). Extract its "Next week priorities" section — you will audit those actions in step 1 below.
 
 ## Steps
 
@@ -86,7 +88,7 @@ If MEMORY.md has no concrete goals (placeholder content), flag that as itself an
 
 ### 6. Write the article
 
-Save to `articles/retrospective-${today}.md`. Required structure:
+Save to `output/articles/retrospective-${today}.md`. Required structure:
 
 ```markdown
 # Retrospective — ${today}
@@ -126,7 +128,7 @@ When you do notify, lead with the action, not the count:
 *Retrospective — ${today}*
 Top action: {the #1 SMART action, in one line}
 Health: N/M skill runs ok, K new issues
-Full review: articles/retrospective-${today}.md
+Full review: output/articles/retrospective-${today}.md
 ```
 
 ### 8. Send email via Resend
@@ -162,7 +164,7 @@ Append to `memory/logs/${today}.md`:
 - Top finding: {one-line summary}
 - Top action: {one-line summary, with deadline}
 - Closed-loop result: X shipped / Y slipped / Z abandoned (of N prior actions)
-- Article: articles/retrospective-${today}.md
+- Article: output/articles/retrospective-${today}.md
 ```
 
 ## Sandbox note

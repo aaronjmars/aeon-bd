@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Channel Recap
+category: productivity
 description: Recap article from a public Telegram channel — rank posts by engagement, expand on the best
 var: ""
 tags: [content]
@@ -115,7 +117,7 @@ Rules:
 
 ### 6. Save the article
 
-Write to `articles/channel-recap-${var}-${today}.md`.
+Write to `output/articles/channel-recap-${var}-${today}.md`.
 
 ### 7. Notify
 
@@ -131,7 +133,7 @@ top posts by engagement:
 - [one-liner] — N views (link)
 - [one-liner] — N views (link)
 
-full article: articles/channel-recap-${var}-${today}.md
+full article: output/articles/channel-recap-${var}-${today}.md
 ```
 
 ### 8. Log
@@ -145,7 +147,7 @@ Append to `memory/logs/${today}.md`:
 - **Posts featured:** N
 - **Top post:** [link] — N views, N reactions
 - **Themes:** [list]
-- **Article:** articles/channel-recap-${var}-${today}.md
+- **Article:** output/articles/channel-recap-${var}-${today}.md
 - **Notification sent:** yes
 ```
 

@@ -1,6 +1,7 @@
 ---
+type: Skill
 name: Framework Watch
-category: research
+category: productivity
 description: Competitive-intelligence digest on the AI agent framework space — momentum, releases, breaking changes across a curated watchlist
 var: ""
 tags: [research, dev]
@@ -120,7 +121,7 @@ Pick the highest-priority verdict that fires. Don't stack multiple verdicts.
 
 ### 7. Write the article
 
-Path: `articles/framework-watch-${today}.md`
+Path: `output/articles/framework-watch-${today}.md`
 
 ```markdown
 # AI Framework Watch — ${today}
@@ -207,7 +208,7 @@ Rotate the `_7d_ago` field by reading the prior state's `stars` value as the new
 
 ### 9. Deep-dive mode (when `${var}` matches a slug)
 
-Skip the ranked table. Write `articles/framework-watch-${var}-${today}.md` with:
+Skip the ranked table. Write `output/articles/framework-watch-${var}-${today}.md` with:
 
 - Header: `# AI Framework Deep Dive — {repo} — ${today}`
 - Stats block: stars, forks, issues, language, license, default branch
@@ -228,7 +229,7 @@ Notify the deep dive separately (step 10 format adapts).
 - Tracked: N_TRACKED / WATCHLIST_SIZE · Unreachable: N
 - Releases (7d): N · Breaking flags: N
 - Momentum picks: {framework1, framework2, ...} or none
-- Article: articles/framework-watch-${today}.md
+- Article: output/articles/framework-watch-${today}.md
 - Source status: gh_api=ok|partial · releases_lookup=N/M
 ```
 
@@ -259,7 +260,7 @@ Tracked {N_TRACKED}/{WATCHLIST_SIZE} frameworks · {N_RELEASES} releases (7d) ·
 *Anchor (aeon)*
 ★ N (+N this week) · N releases (7d) · {pos}/{WATCHLIST_SIZE} by 7d delta
 
-Full digest: articles/framework-watch-${today}.md
+Full digest: output/articles/framework-watch-${today}.md
 ```
 
 For deep-dive mode, replace the body with:
@@ -275,7 +276,7 @@ Top releases:
 • v{tag} — one-line headline
 • ...
 
-Full deep dive: articles/framework-watch-{slug}-${today}.md
+Full deep dive: output/articles/framework-watch-{slug}-${today}.md
 ```
 
 ## Exit taxonomy

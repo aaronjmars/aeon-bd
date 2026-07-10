@@ -1,3 +1,8 @@
+---
+type: Narrative
+title: "MCP Ecosystem Tracker"
+---
+
 # MCP Ecosystem Tracker
 
 *Last run: 2026-06-25*

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Linked Wallets
+category: crypto
 description: Cluster addresses likely controlled by the same entity on Base via shared-funder and co-spend heuristics. Keyless — no explorer key needed.
 var: ""
 tags: [crypto, security, base]

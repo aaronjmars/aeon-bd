@@ -1,4 +1,5 @@
 ---
+type: Skill
 name: Docs Sync
 category: dev
 description: Sync recently merged product PRs into the marketing website as a changelog — opens a PR on the website repo

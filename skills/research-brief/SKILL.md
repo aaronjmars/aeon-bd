@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Research Brief
+category: basics
 description: Deep dive on a topic with a falsifiable thesis, cited claims, and explicit uncertainty
 var: ""
 tags: [research]
@@ -53,7 +55,7 @@ If no falsifiable thesis emerges from the sources, broaden the search or narrow 
 
 ### 3. Write the brief (600-1000 words)
 
-Save to `articles/research-brief-${topic-slug}-${today}.md` with YAML frontmatter:
+Save to `output/articles/research-brief-${topic-slug}-${today}.md` with YAML frontmatter:
 
 ```yaml
 ---
@@ -102,7 +104,7 @@ Append to `memory/logs/${today}.md`:
 - Thesis: {thesis}
 - Confidence: {low|medium|high}
 - Sources: {N web} / {N academic}
-- File: articles/research-brief-${topic-slug}-${today}.md
+- File: output/articles/research-brief-${topic-slug}-${today}.md
 ```
 
 ## Security

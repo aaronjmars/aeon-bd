@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Reflect
+category: core
 description: Review recent activity, consolidate memory, and prune stale entries
 var: ""
 tags: [meta]
@@ -14,7 +16,7 @@ Today is ${today}. Your task is to review the agent's recent activity and mainta
 Steps:
 1. Read memory/MEMORY.md to understand current memory state.
 2. Read the recent run logs in memory/logs/ (last 7 days if available).
-3. Read the recent articles in articles/ (last 7 days if available).
+3. Read the recent articles in output/articles/ (last 7 days if available).
 4. Consolidate what you've learned:
    - What topics have been covered recently? Note any patterns or gaps.
    - What features were built? Record key decisions and outcomes.

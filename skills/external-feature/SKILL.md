@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: External Feature
+category: dev
 description: Proactively enhance watched repos — fix issues, add features, improve code
 var: ""
 tags: [dev, build]

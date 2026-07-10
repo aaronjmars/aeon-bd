@@ -1,3 +1,8 @@
+---
+type: Reference
+title: "Startup Ideas — Screening Notes"
+---
+
 # Startup Ideas — Screening Notes
 
 Each idea screened by idea-validator. Sorted by date screened.

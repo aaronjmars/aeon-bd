@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: project-lens
+category: productivity
 description: Write an article about the project through a surprising lens — connecting it to current events, trends, philosophy, or comparable projects
 var: ""
 tags: [content, dev]
@@ -19,8 +21,8 @@ Writes articles that explain the project through a **different lens each time** 
 ## Phase 1 — Context
 
 Read before deciding anything:
-- Last 14 days of `articles/project-lens-*.md` and `memory/project-lens-angles.md` — know which angle categories and theses are exhausted.
-- 2-3 most recent `articles/repo-article-*.md` and `articles/push-recap-*.md` — know what shipped lately.
+- Last 14 days of `output/articles/project-lens-*.md` and `memory/project-lens-angles.md` — know which angle categories and theses are exhausted.
+- 2-3 most recent `output/articles/repo-article-*.md` and `output/articles/push-recap-*.md` — know what shipped lately.
 - Repo state: `gh api repos/{owner}/{repo} --jq '{name, description, stargazers_count, forks_count, open_issues_count, updated_at}'`. If unreachable, continue with memory only and log the gap.
 
 If `memory/watched-repos.md` is empty or missing, abort and notify: "project-lens: no watched repo configured."
@@ -56,7 +58,7 @@ If `memory/watched-repos.md` is empty or missing, abort and notify: "project-len
 - Log every URL consulted
 
 **Project side — required minimums:**
-- 2+ recent articles in `articles/` read end-to-end
+- 2+ recent articles in `output/articles/` read end-to-end
 - `gh api repos/{owner}/{repo}/commits --jq '.[0:10] | .[] | {sha: .sha[0:7], msg: (.commit.message|split("\n")[0])}'` — last 10 commits
 - ≥3 specific project references you plan to use: named features, file paths, commit hashes, architectural choices. **Not** vague claims like "the project uses AI" or "it has good UX."
 
@@ -77,7 +79,7 @@ Rules:
 
 ## Phase 5 — Draft (700-1000 words)
 
-Save to `articles/project-lens-${today}.md` with this structure:
+Save to `output/articles/project-lens-${today}.md` with this structure:
 
 ```markdown
 # [Title: leads with the lens, works for a reader who doesn't know the project]
@@ -125,7 +127,7 @@ Go through this checklist after the first draft. If any gate fails, rewrite the 
 
 ## Phase 7 — Output
 
-1. **Save** `articles/project-lens-${today}.md`.
+1. **Save** `output/articles/project-lens-${today}.md`.
 2. **Append** to `memory/project-lens-angles.md` (create if missing):
    ```markdown
    ## ${today}
@@ -140,7 +142,7 @@ Go through this checklist after the first draft. If any gate fails, rewrite the 
 
    [3-4 sentence summary: the external thing the article connects to, the thesis claim, one specific project detail.]
 
-   Read: [URL to articles/project-lens-${today}.md — use `git remote get-url origin` for this repo]
+   Read: [URL to output/articles/project-lens-${today}.md — use `git remote get-url origin` for this repo]
    ```
 4. **Log** to `memory/logs/${today}.md`:
    ```

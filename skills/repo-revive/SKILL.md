@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Repo Revive
+category: dev
 description: Pick the highest-★ dormant watched repo and make one targeted improvement to reactivate it — refresh stale model references, README, or metadata
 var: ""
 schedule: "0 10 * * 6"

@@ -1,3 +1,8 @@
+---
+type: Narrative
+title: "Prediction Market & Coordination Market Tracker"
+---
+
 # Prediction Market & Coordination Market Tracker
 
 *Last run: 2026-06-19*

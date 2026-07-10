@@ -6,13 +6,15 @@
 # Provisions Meta campaigns + ad sets. PAUSED by default. Idempotent —
 # entries already in .admanage-state/campaigns.json are skipped.
 #
-# One-time bootstrap (outside sandbox, with ADMANAGE_API_KEY set):
+# One-time bootstrap (in-run, with ADMANAGE_API_KEY in env). Use ./secretcurl with the
+# {ADMANAGE_API_KEY} placeholder — a bare $ADMANAGE_API_KEY on the line is refused by the
+# Bash permission layer:
 #
-#   curl -s "https://api.admanage.ai/v1/adaccounts" \
-#     -H "Authorization: Bearer $ADMANAGE_API_KEY" | jq
+#   ./secretcurl -s "https://api.admanage.ai/v1/adaccounts" \
+#     -H "Authorization: Bearer {ADMANAGE_API_KEY}" | jq
 #
-#   curl -s "https://api.admanage.ai/v1/conversions/pixels?businessId=act_XXX" \
-#     -H "Authorization: Bearer $ADMANAGE_API_KEY" | jq
+#   ./secretcurl -s "https://api.admanage.ai/v1/conversions/pixels?businessId=act_XXX" \
+#     -H "Authorization: Bearer {ADMANAGE_API_KEY}" | jq
 
 defaults:
   adAccountId: act_XXXXXXXXXXXXXXX

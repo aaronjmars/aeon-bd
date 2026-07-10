@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Competitor Radar
+category: productivity
 description: Scan of Product Hunt + Hacker News for NEW AI-agent-framework launches outside the 9-framework cohort already tracked by framework-watch
 var: ""
 tags: [research, dev]
@@ -31,7 +33,7 @@ No new secrets. Both data sources are public, keyless HTTP. Sandbox fallback: We
 
 Writes:
 - `memory/topics/competitor-radar-state.json` — LRU 200-entry `announced` array
-- `articles/competitor-radar-${today}.md` — digest article on non-QUIET runs
+- `output/articles/competitor-radar-${today}.md` — digest article on non-QUIET runs
 - `memory/logs/${today}.md` — one log block per run, even on QUIET
 - Notification via `./notify` — only when a gate fires
 
@@ -236,7 +238,7 @@ If **both** PH and HN failed entirely (no candidates from either source, and bot
 
 ### 7. Write article
 
-Path: `articles/competitor-radar-${today}.md`. Only written when `N ≥ 1` (QUIET runs produce no article).
+Path: `output/articles/competitor-radar-${today}.md`. Only written when `N ≥ 1` (QUIET runs produce no article).
 
 ```markdown
 # Competitor Launch Radar — ${today}
@@ -341,7 +343,7 @@ ${N} new agent-framework entrant(s) outside the tracked cohort.
   https://www.producthunt.com/posts/some-agent-product
   One-line tagline.
 
-Full digest: articles/competitor-radar-${today}.md
+Full digest: output/articles/competitor-radar-${today}.md
 ```
 
 **Batched digest (N ≥ 4):**
@@ -362,7 +364,7 @@ ${N} new agent-framework entrants this week (top 8 below):
 
 ... and ${N-8} more.
 
-Full digest: articles/competitor-radar-${today}.md
+Full digest: output/articles/competitor-radar-${today}.md
 ```
 
 **Partial coverage variant** — prefix the body with: `(Partial: ${SOURCE_DOWN} unavailable this run.)` before the entrant list. The list itself is unchanged.
@@ -390,7 +392,7 @@ Append to `memory/logs/${today}.md`:
 - **Suppressed**: ${SUPPRESSED_COUNT} (cohort overlap) · ${DEDUP_COUNT} (already announced)
 - **New entrants**: ${N} (classes: ${N_FRAMEWORK} framework / ${N_MCP} mcp / ${N_PRODUCT} product)
 - **Top entrant**: ${TOP_NAME} — ${TOP_CLASS} — ★ ${TOP_SCORE} (${TOP_SOURCE})  (or `none` on QUIET)
-- **Article**: articles/competitor-radar-${today}.md  (or `none` on QUIET)
+- **Article**: output/articles/competitor-radar-${today}.md  (or `none` on QUIET)
 - **Notification sent**: yes | no
 - **Status**: COMPETITOR_LAUNCH_RADAR_OK | COMPETITOR_LAUNCH_RADAR_QUIET | COMPETITOR_LAUNCH_RADAR_DRY_RUN | COMPETITOR_LAUNCH_RADAR_NO_SOURCES | COMPETITOR_LAUNCH_RADAR_PARTIAL | COMPETITOR_LAUNCH_RADAR_STATE_CORRUPT | COMPETITOR_LAUNCH_RADAR_BAD_VAR
 ```
@@ -416,7 +418,7 @@ End the skill body with a single terminal line that mirrors the chosen status co
 - **Never invent entrant facts.** Every name, URL, tagline, upvote, and class comes from the upstream feed/API. Truncate, don't paraphrase. The whole point of this skill is a trustworthy weekly anchor on new entrants.
 - **Noise floor is precision-over-recall.** 10 upvotes (PH) and 10 points (HN) are deliberately conservative — the operator gets fewer false positives in exchange for occasionally missing a quietly-launched framework. The next week's run catches anything that picks up traction in week two.
 - **Never notify on QUIET.** Zero entrants is the modal week. Firing a "nothing new" notification every Monday trains the operator to ignore the channel.
-- **One article per non-QUIET run.** QUIET runs produce a log entry and nothing else — keeps `articles/` from accumulating empty files.
+- **One article per non-QUIET run.** QUIET runs produce a log entry and nothing else — keeps `output/articles/` from accumulating empty files.
 
 ## Security
 

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: repo-article
+category: productivity
 description: Thesis-driven article about a watched repo — falsifiable claim, cited evidence, self-edit quality gate
 var: ""
 tags: [dev, content]
@@ -119,7 +121,7 @@ If any item still fails after one rewrite pass, publish with status `REPO_ARTICL
 
 ## Phase 5 — Save, log, notify
 
-1. Save the article to `articles/repo-article-${today}.md`.
+1. Save the article to `output/articles/repo-article-${today}.md`.
 2. Append to `memory/logs/${today}.md` **before** notifying:
    ```
    ### repo-article
@@ -137,7 +139,7 @@ If any item still fails after one rewrite pass, publish with status `REPO_ARTICL
 
    Thesis: [one sentence]
 
-   Read: [link to articles/repo-article-${today}.md in THIS repo — get the repo name from `git remote get-url origin`, not the watched repo]
+   Read: [link to output/articles/repo-article-${today}.md in THIS repo — get the repo name from `git remote get-url origin`, not the watched repo]
    ```
 
 ## Sandbox note

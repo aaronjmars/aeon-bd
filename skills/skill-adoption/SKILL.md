@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Skill Adoption
+category: core
 description: Fleet skill-adoption leaderboard — per-slug count of how many POWER+ACTIVE forks have each upstream skill enabled, top-15 most-adopted and bottom-15 least-adopted by fleet penetration, silent when nothing moves
 var: ""
 tags: [meta, community]
@@ -27,7 +29,7 @@ The intent: when `fork-cohort` runs Sunday 19:00 and `skill-gap` at 21:00, `skil
 
 Writes:
 - `memory/topics/skill-adoption-state.json` — per-slug rolling 8-week adoption history
-- `articles/skill-adoption-${today}.md` — leaderboard article (every non-error run, including QUIET)
+- `output/articles/skill-adoption-${today}.md` — leaderboard article (every non-error run, including QUIET)
 - `memory/logs/${today}.md` — one log block per run
 - Notification via `./notify` — only when the top-10 moved or it's the first baseline run (see step 8)
 
@@ -177,7 +179,7 @@ In `MODE=dry-run`: build the message, write the article, update state — **do n
 
 ### 9. Write the article
 
-Path: `articles/skill-adoption-${today}.md`. Written on every non-error run (including QUIET — the article is the always-fresh leaderboard; only the notification is gated).
+Path: `output/articles/skill-adoption-${today}.md`. Written on every non-error run (including QUIET — the article is the always-fresh leaderboard; only the notification is gated).
 
 ```markdown
 # Fleet Skill Adoption — ${today}
@@ -255,7 +257,7 @@ Append this run's `{date, readable_forks, top10}` to `history`; keep the last 8 
 - Top adopted: {slug1} {pct1}%, {slug2} {pct2}%, {slug3} {pct3}%
 - Zero-adoption established skills: {N}
 - Movement: {gainers} gainers / {decliners} decliners / {top10_churn} top-10 changes
-- Article: articles/skill-adoption-${today}.md
+- Article: output/articles/skill-adoption-${today}.md
 ```
 
 End the skill body with a single terminal line mirroring the chosen status, e.g. `Status: FLEET_SKILL_ADOPTION_OK`.
@@ -284,7 +286,7 @@ Most adopted:
 {If a new skill crossed 25%:} Fast start: {newslug} — {pct}% in its first weeks
 {If zero-adoption established skills:} {N} established skills still at 0% fleet adoption.
 
-Full leaderboard: articles/skill-adoption-${today}.md
+Full leaderboard: output/articles/skill-adoption-${today}.md
 ```
 
 Drop any line whose list is empty. On a baseline (first) run, omit the rising/movement lines.

@@ -1,3 +1,8 @@
+---
+type: Protocol
+title: "x402 Ecosystem Tracker"
+---
+
 # x402 Ecosystem Tracker
 
 *Last run: 2026-07-07*

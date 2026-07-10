@@ -9,7 +9,7 @@
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]", "PLACEHOLDER"]
     },
     "repo-pulse": {
-      "output_pattern": "articles/repo-pulse-*.md",
+      "output_pattern": "output/articles/repo-pulse-*.md",
       "min_words": 80,
       "required_patterns": ["star", "fork"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"],
@@ -18,25 +18,25 @@
       ]
     },
     "changelog": {
-      "output_pattern": "articles/changelog-*.md",
+      "output_pattern": "output/articles/changelog-*.md",
       "min_words": 150,
       "required_patterns": ["commit|feat|fix|change"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]", "PLACEHOLDER"]
     },
     "push-recap": {
-      "output_pattern": "articles/push-recap-*.md",
+      "output_pattern": "output/articles/push-recap-*.md",
       "min_words": 80,
       "required_patterns": ["commit|push|branch|merge"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"]
     },
     "fork-fleet": {
-      "output_pattern": "articles/fork-fleet-*.md",
+      "output_pattern": "output/articles/fork-fleet-*.md",
       "min_words": 150,
       "required_patterns": ["fork|Fork"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"]
     },
     "cost-report": {
-      "output_pattern": "articles/cost-report-*.md",
+      "output_pattern": "output/articles/cost-report-*.md",
       "min_words": 100,
       "required_patterns": ["cost|\\$|token"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"],
@@ -45,37 +45,37 @@
       ]
     },
     "repo-article": {
-      "output_pattern": "articles/repo-article-*.md",
+      "output_pattern": "output/articles/repo-article-*.md",
       "min_words": 300,
       "required_patterns": ["Aeon|aeon"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]", "PLACEHOLDER"]
     },
     "repo-actions": {
-      "output_pattern": "articles/repo-actions-*.md",
+      "output_pattern": "output/articles/repo-actions-*.md",
       "min_words": 300,
       "required_patterns": ["skill|Skill|feature|Feature"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]", "PLACEHOLDER"]
     },
     "deep-research": {
-      "output_pattern": "articles/deep-research-*.md",
+      "output_pattern": "output/articles/deep-research-*.md",
       "min_words": 800,
       "required_patterns": ["source|Source|http|reference"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]", "PLACEHOLDER"]
     },
     "hn-digest": {
-      "output_pattern": "articles/hn-digest-*.md",
+      "output_pattern": "output/articles/hn-digest-*.md",
       "min_words": 150,
       "required_patterns": ["Hacker News|hacker.news|ycombinator|HN"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"]
     },
     "rss-digest": {
-      "output_pattern": "articles/rss-digest-*.md",
+      "output_pattern": "output/articles/rss-digest-*.md",
       "min_words": 100,
       "required_patterns": ["feed|article|post|item"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"]
     },
     "polymarket": {
-      "output_pattern": "articles/polymarket-*.md",
+      "output_pattern": "output/articles/polymarket-*.md",
       "min_words": 100,
       "required_patterns": ["market|Market|probability|volume"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"],
@@ -84,7 +84,7 @@
       ]
     },
     "token-alert": {
-      "output_pattern": "articles/token-alert-*.md",
+      "output_pattern": "output/articles/token-alert-*.md",
       "min_words": 50,
       "required_patterns": ["AEON|aeon|token|Token|price|Price"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"],
@@ -93,7 +93,7 @@
       ]
     },
     "skill-health": {
-      "output_pattern": "articles/skill-health-*.md",
+      "output_pattern": "output/articles/skill-health-*.md",
       "min_words": 80,
       "required_patterns": ["HEALTHY|DEGRADED|CRITICAL|healthy|skill"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"]

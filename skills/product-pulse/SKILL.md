@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: product-pulse
+category: productivity
 description: Daily "state of aeon + miroshark" — GitHub health across the repo family plus X follower/engagement deltas, with week-over-week deltas. The single "how are we doing" read.
 var: ""
 tags: [meta, dev, ecosystem]
@@ -18,7 +20,7 @@ Aaron + Nurstar ship two products — Aeon ⭐ and Miroshark 🦈 — across a s
 Reads `memory/watched-repos.md` for the repo list (public framework repos + the private product repos under the dedicated section). GitHub via authed `gh api`; X follower/post counts via the xAI prefetch cache (`scripts/prefetch-xai.sh` → `.xai-cache/product-pulse-x.json`, needs `XAI_API_KEY`) with a keyless WebSearch fallback. Reads/writes:
 
 - `memory/topics/product-pulse-state.json` — yesterday's + last-week's snapshot, for deltas (LRU `history` capped at 30 daily entries).
-- `articles/product-pulse-${today}.md` — the daily state digest.
+- `output/articles/product-pulse-${today}.md` — the daily state digest.
 - `memory/logs/${today}.md` — one `### product-pulse` log block per run.
 
 ## Steps
@@ -69,7 +71,7 @@ Load `product-pulse-state.json`. Compute Δ vs the most recent prior snapshot (�
 - a repo with last-commit age > 14d that was previously active (stall signal)
 
 ### 5. Write the digest
-`articles/product-pulse-${today}.md`: a compact table per product (Aeon row-group, Miroshark row-group) with value / Δ1d / Δ7d, then a 2–4 bullet **"what changed"** list pulling only the notables. No filler. If nothing notable: say so in one line.
+`output/articles/product-pulse-${today}.md`: a compact table per product (Aeon row-group, Miroshark row-group) with value / Δ1d / Δ7d, then a 2–4 bullet **"what changed"** list pulling only the notables. No filler. If nothing notable: say so in one line.
 
 ### 6. State + log
 Append today's snapshot to `history` (drop entries older than 30 days), set `snapshot` + `last_run`. Append a `### product-pulse` log block: notable count, CI status, star/follower deltas.

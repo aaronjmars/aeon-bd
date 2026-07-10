@@ -1,6 +1,8 @@
 ---
+type: Skill
 name: signal-verdict
-description: Accountability check on a configured set of tracker skills. Verifies each tracker is producing citable signals in articles/newsletters. Surfaces uncited trackers so the operator can demote or kill them.
+category: evolution
+description: Accountability check on a configured set of tracker skills. Verifies each tracker is producing citable signals in output/articles/newsletters. Surfaces uncited trackers so the operator can demote or kill them.
 schedule: "0 8 * * 1"
 commits: true
 permissions:
@@ -66,20 +68,20 @@ If the keyword map is empty for a tracker, log a warning and skip that tracker f
 ### 2. Find articles from the past 14 days
 
 ```bash
-ls articles/ | grep -E "^[0-9]{4}-[0-9]{2}-[0-9]{2}\.md$" | sort | tail -14
-ls articles/ | grep -E "newsletter|weekly" | sort | tail -10
+ls output/articles/ | grep -E "^[0-9]{4}-[0-9]{2}-[0-9]{2}\.md$" | sort | tail -14
+ls output/articles/ | grep -E "newsletter|weekly" | sort | tail -10
 ```
 
 Read each file. **Exclude** ops articles (these don't count as "outward content"):
-- `articles/self-review-*.md`
-- `articles/skill-evals-*.md`
-- `articles/vuln-scan-*.md`
-- `articles/batch-health-*.md`
-- `articles/repo-pulse-*.md`
+- `output/articles/self-review-*.md`
+- `output/articles/skill-evals-*.md`
+- `output/articles/vuln-scan-*.md`
+- `output/articles/batch-health-*.md`
+- `output/articles/repo-pulse-*.md`
 
 What counts as "outward content":
-- Daily articles (`articles/YYYY-MM-DD.md`)
-- Weekly newsletters (`articles/newsletter-*.md`, `articles/weekly-*.md`)
+- Daily articles (`output/articles/YYYY-MM-DD.md`)
+- Weekly newsletters (`output/articles/newsletter-*.md`, `output/articles/weekly-*.md`)
 - Any article whose main thesis or a substantive section discusses the tracker's topic area
 
 ### 3. Score each tracker for this week
@@ -197,7 +199,7 @@ Pure file I/O — reads articles and writes memory files. No network calls neede
 ## What counts as a citation
 
 ✓ Counts:
-- Daily article (`articles/YYYY-MM-DD.md`) with substantive paragraph about the tracker's topic area
+- Daily article (`output/articles/YYYY-MM-DD.md`) with substantive paragraph about the tracker's topic area
 - Weekly newsletter with a section on the tracker's topic
 - A thesis or angle that originated from the tracker's output, even if the tracker isn't named
 

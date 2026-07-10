@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Security Digest
+category: dev
 description: Lead with confirmed exploitation (CISA KEV), enrich with EPSS, filter GitHub Advisories to your tracked stack, output one action per item
 var: ""
 tags: [news, dev]

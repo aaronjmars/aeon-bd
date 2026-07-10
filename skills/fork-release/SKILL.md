@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Fork Release
+category: core
 description: Scan that celebrates when any fork of the parent repo cuts a tagged GitHub release. Silent when no fork releases in the window.
 var: ""
 tags: [meta, community]
@@ -137,11 +139,11 @@ Also this week:
 Every release is a fork operator publishing something they're willing to put a version number behind. ${PARENT_OWNER} now has ${N} downstream artifacts shipped this week.
 ```
 
-The "Lead" is always the newest release by `PUBLISHED_AT`. The "Also this week" tail lists the rest in `PUBLISHED_AT` descending order, capped at 6 entries; if more, append `- (+${EXTRA} more, see articles/fork-release-${today}.md)`.
+The "Lead" is always the newest release by `PUBLISHED_AT`. The "Also this week" tail lists the rest in `PUBLISHED_AT` descending order, capped at 6 entries; if more, append `- (+${EXTRA} more, see output/articles/fork-release-${today}.md)`.
 
 ### 7. Write article
 
-Write `articles/fork-release-${today}.md`:
+Write `output/articles/fork-release-${today}.md`:
 
 ```markdown
 # Fork Releases — ${today}
@@ -171,7 +173,7 @@ ${BODY truncated to 500 chars, with trailing ellipsis if cut}
 **Generated:** ${ISO8601 timestamp}
 ```
 
-If `N==0`, do not write the article (the QUIET status is logged but no artifact is produced — keeps `articles/` from accumulating empty files).
+If `N==0`, do not write the article (the QUIET status is logged but no artifact is produced — keeps `output/articles/` from accumulating empty files).
 
 ### 8. Persist state
 
@@ -207,7 +209,7 @@ Append to `memory/logs/${today}.md`:
 - **Unreadable**: ${LIST or none}
 - **New releases this week**: ${N}
 - **Releases announced**: ${COMMA_LIST of fork_full_name@tag, or NONE}
-- **Article**: articles/fork-release-${today}.md (or `none` on QUIET)
+- **Article**: output/articles/fork-release-${today}.md (or `none` on QUIET)
 - **Notification sent**: ${yes|no}
 - **Status**: ${FORK_RELEASE_OK | FORK_RELEASE_QUIET | FORK_RELEASE_NEW_RELEASE | FORK_RELEASE_MULTI_RELEASE | FORK_RELEASE_DRY_RUN | FORK_RELEASE_NO_FORKS | FORK_RELEASE_API_FAIL | FORK_RELEASE_PARENT_CHANGED | FORK_RELEASE_STATE_CORRUPT | FORK_RELEASE_BAD_VAR}
 ```
@@ -238,7 +240,7 @@ Append to `memory/logs/${today}.md`:
 
 - **Read-only across the fleet.** This skill never writes to fork repos, never opens issues or PRs against them, never reacts to release events from inside fork repos.
 - **7-day window only.** Older releases are out of scope — they were either already announced or they predate the skill running. Backfilling old releases is an operator decision (dispatch with the state file emptied and a wider window, manually).
-- **One artifact per run, only on signal.** No daily-noise file in `articles/`. Quiet runs produce a log entry and nothing else.
+- **One artifact per run, only on signal.** No daily-noise file in `output/articles/`. Quiet runs produce a log entry and nothing else.
 - **Dedup is permanent.** Once `(fork, tag)` is in `announced`, it stays there until evicted by the LRU cap. Operators who want to re-announce a release edit the state file by hand.
 
 ## Security

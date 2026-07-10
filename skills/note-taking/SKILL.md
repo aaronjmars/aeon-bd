@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Note Taking
+category: productivity
 description: Save a note as a Supernotes card (if configured) or to a local memory/notes/ file
 var: ""
 tags: [meta]

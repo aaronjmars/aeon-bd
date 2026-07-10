@@ -1,3 +1,8 @@
+---
+type: Reference
+title: "Startup Ideas — backlog"
+---
+
 # Startup Ideas — backlog
 | date | name | one-liner | fit | T+F+E |
 |------|------|-----------|-----|-------|

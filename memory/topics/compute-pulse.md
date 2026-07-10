@@ -1,3 +1,8 @@
+---
+type: Narrative
+title: "Compute Pulse Tracker"
+---
+
 # Compute Pulse Tracker
 
 *Last run: 2026-06-13*

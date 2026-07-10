@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: fleet-state
+category: core
 description: Fleet-state digest — synthesises fork-cohort, contributor-spotlight, and fork-release into one "state of the fleet" narrative
 var: ""
 tags: [meta, community]
@@ -25,12 +27,12 @@ No new secrets. No new env vars. Reads:
 - `memory/topics/fork-cohort-state.json` — authoritative current bucket assignments + totals.
 - `memory/topics/fork-release-state.json` — `announced` array of `{fork_full_name, tag, published_at, announced_at}`.
 - `memory/topics/contributor-spotlight-history.json` — `history` array; most recent entry is "this week's pick".
-- `articles/fork-cohort-*.md`, `articles/fork-release-*.md`, `articles/contributor-spotlight-*.md` — read most recent of each for narrative material.
+- `output/articles/fork-cohort-*.md`, `output/articles/fork-release-*.md`, `output/articles/contributor-spotlight-*.md` — read most recent of each for narrative material.
 - `memory/topics/fleet-state.json` — this skill's own prior snapshot, for week-over-week deltas.
 
 Writes:
 
-- `articles/fleet-state-${today}.md` — the synthesis digest.
+- `output/articles/fleet-state-${today}.md` — the synthesis digest.
 - `memory/topics/fleet-state.json` — current snapshot for next week's delta.
 - `memory/logs/${today}.md` — log block.
 
@@ -149,7 +151,7 @@ Express deltas with explicit sign: `+3`, `-1`, `0`. Never bare numbers.
 
 ### 6. Pull transition highlights from fork-cohort article
 
-If the most recent `articles/fork-cohort-*.md` exists and is ≤8 days old, parse its "Movement this week" section. The article format (from `fork-cohort/SKILL.md` step 8) has the following subsections:
+If the most recent `output/articles/fork-cohort-*.md` exists and is ≤8 days old, parse its "Movement this week" section. The article format (from `fork-cohort/SKILL.md` step 8) has the following subsections:
 
 - `### Leveled up to POWER`
 - `### Revived (stale → running)`
@@ -163,7 +165,7 @@ If the article is missing or >8 days old → no transition highlights this week.
 
 ### 7. Pull release highlights from fork-release article
 
-If the most recent `articles/fork-release-*.md` exists and is ≤8 days old, parse the per-release blocks (format from `fork-release/SKILL.md` step 7):
+If the most recent `output/articles/fork-release-*.md` exists and is ≤8 days old, parse the per-release blocks (format from `fork-release/SKILL.md` step 7):
 
 ```
 ## ${FORK_FULL_NAME} — ${TAG}${PRERELEASE_TAG}
@@ -172,7 +174,7 @@ If the most recent `articles/fork-release-*.md` exists and is ≤8 days old, par
 - **Notes:** ${URL}
 ```
 
-Extract `fork_full_name`, `tag`, `published_at`, `url`, `prerelease_tag` per release. List up to 5 in the digest; if more, footer `and N more in articles/fork-release-${COHORT_DATE}.md`.
+Extract `fork_full_name`, `tag`, `published_at`, `url`, `prerelease_tag` per release. List up to 5 in the digest; if more, footer `and N more in output/articles/fork-release-${COHORT_DATE}.md`.
 
 If the article is missing but `RELEASES_THIS_WEEK` (from step 4) is non-empty, fall back to the state file. Each `announced` entry has `fork_full_name`, `tag`, `published_at` — render `(release URL not in state file)` for the URL field.
 
@@ -180,7 +182,7 @@ If `RELEASE_COUNT == 0` → render the section as `_No tagged releases from fork
 
 ### 8. Pull spotlight pick from contributor-spotlight article
 
-If `articles/contributor-spotlight-*.md` exists ≤8 days old, read the first ~300 chars of body and use it as the spotlight summary verbatim (truncated to 240 chars with trailing `…` if longer). Never paraphrase — the spotlight skill already shaped the prose.
+If `output/articles/contributor-spotlight-*.md` exists ≤8 days old, read the first ~300 chars of body and use it as the spotlight summary verbatim (truncated to 240 chars with trailing `…` if longer). Never paraphrase — the spotlight skill already shaped the prose.
 
 If the article is missing but `SPOTLIGHT_FORK` is set in history, render `Spotlight pick: @${owner} — ${SPOTLIGHT_FORK} (full recognition post pending)`.
 
@@ -201,7 +203,7 @@ The verdict is the lede line of the article AND the notification. Both must read
 
 ### 10. Write the article
 
-Path: `articles/fleet-state-${today}.md`
+Path: `output/articles/fleet-state-${today}.md`
 
 ```markdown
 # Fleet State — ${today}
@@ -350,7 +352,7 @@ Append to `memory/logs/${today}.md`:
 - **Releases this week**: ${RELEASE_COUNT} (${delta_releases})
 - **Spotlight pick**: ${SPOTLIGHT_FORK} (${SPOTLIGHT_DATE})
 - **Source status**: cohort=${state} · releases=${state} · spotlight=${state}
-- **Article**: articles/fleet-state-${today}.md
+- **Article**: output/articles/fleet-state-${today}.md
 - **Notification sent**: ${yes|no}
 - **Status**: ${FLEET_STATE_OK | FLEET_STATE_QUIET | FLEET_STATE_PARTIAL | FLEET_STATE_NO_SOURCES | FLEET_STATE_DRY_RUN | FLEET_STATE_PARENT_CHANGED | FLEET_STATE_STATE_CORRUPT | FLEET_STATE_BAD_VAR}
 ```
@@ -383,7 +385,7 @@ Movement:
 {If SPOTLIGHT_FORK is set and recent:}
 Spotlight: ${SPOTLIGHT_FORK} (featured ${SPOTLIGHT_DATE})
 
-Full digest: articles/fleet-state-${today}.md
+Full digest: output/articles/fleet-state-${today}.md
 ```
 
 ## Exit taxonomy
@@ -423,4 +425,4 @@ Full digest: articles/fleet-state-${today}.md
 
 ## Sandbox note
 
-Almost-pure local file I/O — reads state files in `memory/topics/`, reads articles in `articles/`, writes a new article + state file + log entry. One `gh api repos/<self>` and one `gh repo view` call in Step 2 to resolve `PARENT_REPO` when `PARENT_OVERRIDE` is empty; skip both by exporting `PARENT_OVERRIDE=<owner>/<repo>` before running. No `curl`, no env-var-in-headers, no `gh api` against fork repos. The `./notify` path uses the existing `.pending-notify/` post-process pattern when run inside GitHub Actions.
+Almost-pure local file I/O — reads state files in `memory/topics/`, reads articles in `output/articles/`, writes a new article + state file + log entry. One `gh api repos/<self>` and one `gh repo view` call in Step 2 to resolve `PARENT_REPO` when `PARENT_OVERRIDE` is empty; skip both by exporting `PARENT_OVERRIDE=<owner>/<repo>` before running. No `curl`, no env-var-in-headers, no `gh api` against fork repos. The `./notify` path uses the existing `.pending-notify/` post-process pattern when run inside GitHub Actions.

@@ -1,3 +1,8 @@
+---
+type: Reference
+title: "Startup Ideas — Market Intel"
+---
+
 # Startup Ideas — Market Intel
 
 Competitive scan results from launch-radar. Upserted each run.

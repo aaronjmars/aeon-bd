@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Skill Triage
+category: evolution
 description: Structured triage for inbound PRs that introduce or modify SKILL.md files — security scan per skill, required-secrets enumeration, cron slot-conflict check, basic quality signals, posted as one PR comment. The receipt that turns a 10-minute manual skill-PR review into a 10-second human decision
 var: ""
 tags: [dev, community]
@@ -219,7 +221,7 @@ Post the comment:
 gh pr comment "${PR_NUMBER}" -R aaronjmars/aeon --body "$(cat /tmp/triage-comment.md)"
 ```
 
-If the `gh pr comment` call fails (network, perms), record the comment body to `articles/skill-triage-${PR_NUMBER}-${today}.md` as a fallback artifact and surface `PR_SKILL_TRIAGE_COMMENT_FAILED` in the log + notification — the operator can paste the artifact onto the PR manually.
+If the `gh pr comment` call fails (network, perms), record the comment body to `output/articles/skill-triage-${PR_NUMBER}-${today}.md` as a fallback artifact and surface `PR_SKILL_TRIAGE_COMMENT_FAILED` in the log + notification — the operator can paste the artifact onto the PR manually.
 
 ### 10. Advance state, log, and notify
 
@@ -235,7 +237,7 @@ Append a log block:
 - Security HIGH findings: {N}
 - Required secrets: {N}
 - Cron conflicts: {N hard / N adjacent}
-- Comment: posted | failed (fallback artifact at articles/skill-triage-${PR_NUMBER}-${today}.md)
+- Comment: posted | failed (fallback artifact at output/articles/skill-triage-${PR_NUMBER}-${today}.md)
 ```
 
 End the skill body with a single terminal line mirroring the chosen status.
@@ -250,7 +252,7 @@ End the skill body with a single terminal line mirroring the chosen status.
 {If BLOCK from security:} {N} HIGH security finding(s) in {file}. Top: {finding}.
 {If BLOCK from conflict:} Schedule conflict: {file} `{schedule}` collides with existing `{slug}`.
 {If WARN from MEDIUM:} {N} MEDIUM security finding(s) — review before merge.
-{If COMMENT_FAILED:} Could not post triage comment to PR — fallback artifact at articles/skill-triage-${PR_NUMBER}-${today}.md.
+{If COMMENT_FAILED:} Could not post triage comment to PR — fallback artifact at output/articles/skill-triage-${PR_NUMBER}-${today}.md.
 
 PR: https://github.com/aaronjmars/aeon/pull/${PR_NUMBER}
 ```

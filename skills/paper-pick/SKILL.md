@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Paper Pick
+category: basics
 description: Find the one paper most worth reading from Hugging Face Papers
 var: ""
 tags: [research]

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Skill Gap
+category: core
 description: Cross-fork skill adoption digest — per-fork table of upstream skills the fork hasn't enabled, top forks by gap size called out, silent when gaps are small
 var: ""
 tags: [meta, community]
@@ -154,7 +156,7 @@ Priority order:
 
 ### 8. Write the article
 
-Path: `articles/skill-gap-${today}.md`
+Path: `output/articles/skill-gap-${today}.md`
 
 ```markdown
 # Fork Skill Gap — ${today}
@@ -241,7 +243,7 @@ Append to `memory/logs/${today}.md`:
 - Verdict: {one-line verdict}
 - Active forks audited: {N_AUDITED} (readable: {N_READABLE})
 - Median gap: M_MEDIAN · Max gap: M_MAX
-- Article: articles/skill-gap-${today}.md
+- Article: output/articles/skill-gap-${today}.md
 - Source status: active_list_source={cohort|live} · skills_json_lookup=N/M · unreadable=N
 ```
 
@@ -268,7 +270,7 @@ Top 3 forks by gap:
 {If TOP_MISSING_SLUGS has any with fork_count == N_READABLE — i.e. nobody has it:}
 Universally unadopted upstream skills: {slug1}, {slug2}, {slug3}
 
-Full report: articles/skill-gap-${today}.md
+Full report: output/articles/skill-gap-${today}.md
 ```
 
 ## Exit taxonomy

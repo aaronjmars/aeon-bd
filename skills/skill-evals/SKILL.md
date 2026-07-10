@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Skill Evals
+category: evolution
 description: Validate skill outputs against assertions, diff vs prior eval to flag regressions, file issues for new failures, and queue concrete fixes
 var: ""
 tags: [meta]
@@ -21,7 +23,7 @@ This skill exists to catch quality regressions *between* runs — not just to re
 - `aeon.yml` — registered skills, enabled flags, cron schedules.
 - `memory/cron-state.json` — `total_runs`, `success_rate`, `last_quality_score`, `last_failed`, `last_success` per skill.
 - `memory/issues/INDEX.md` — currently open issues (used to dedupe issue filing in step 5b).
-- Most recent prior eval at `articles/skill-evals-*.md` (sorted descending, excluding today's). If none exist, mark prior_run as `BOOTSTRAP` — every result is `NEW_*`.
+- Most recent prior eval at `output/articles/skill-evals-*.md` (sorted descending, excluding today's). If none exist, mark prior_run as `BOOTSTRAP` — every result is `NEW_*`.
 
 If `evals.json` is missing or has zero `skills` keys, run `./scripts/eval-audit --stubs` to scaffold a starter spec and exit `SKILL_EVALS_BOOTSTRAP` with a notify telling the operator to commit the stub.
 
@@ -112,7 +114,7 @@ If the queue is empty, write `Action Queue: none — all green`.
 
 ### 8. Write the article
 
-Path: `articles/skill-evals-${today}.md`. Skeleton:
+Path: `output/articles/skill-evals-${today}.md`. Skeleton:
 
 ```markdown
 # Skill Evals — ${today}
@@ -165,7 +167,7 @@ Notify body (concise, soul-voice):
 *Skill Evals — {VERDICT}*
 {N_NEW_FAIL} new fail · {N_FIXED} fixed · coverage {coverage_pct}%
 Top action: {action_queue[0]}
-Article: articles/skill-evals-${today}.md
+Article: output/articles/skill-evals-${today}.md
 ```
 
 If `N_NEW_FAIL > 0`, append the first 3 regressions as `{skill}: {root_cause}` lines.
@@ -186,7 +188,7 @@ Append to `memory/logs/${today}.md`:
 
 ## Sandbox note
 
-All inputs are local files (`evals.json`, `aeon.yml`, `memory/*`, `articles/*`, `scripts/eval-audit`). No outbound HTTP — no fallback needed. `./scripts/eval-audit` is a local bash script and uses `jq`; if jq is missing (rare on GH Actions ubuntu runners), the script will exit non-zero — mark `eval-audit=fail` in the source-status footer and continue with the in-memory coverage check.
+All inputs are local files (`evals.json`, `aeon.yml`, `memory/*`, `output/articles/*`, `scripts/eval-audit`). No outbound HTTP — no fallback needed. `./scripts/eval-audit` is a local bash script and uses `jq`; if jq is missing (rare on GH Actions ubuntu runners), the script will exit non-zero — mark `eval-audit=fail` in the source-status footer and continue with the in-memory coverage check.
 
 ## Constraints
 

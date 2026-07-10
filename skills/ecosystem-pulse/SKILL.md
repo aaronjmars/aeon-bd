@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: ecosystem-pulse
+category: dev
 description: Liveness check of the projects listed in ECOSYSTEM.md — stars/forks/last-commit recency + new releases for any project that can be matched to a GitHub repo
 var: ""
 tags: [research, dev]
@@ -35,7 +37,7 @@ No new secrets. GitHub access uses the `gh` CLI (`GH_TOKEN`), which handles auth
 Writes:
 - `memory/topics/ecosystem-pulse-state.json` — per-project snapshot keyed by project name
 - `memory/topics/ecosystem-pulse-map.json` — created from an empty template on first run if absent (never auto-populated with guessed repos)
-- `articles/ecosystem-pulse-${today}.md` — digest article on non-QUIET runs
+- `output/articles/ecosystem-pulse-${today}.md` — digest article on non-QUIET runs
 - `memory/logs/${today}.md` — one log block per run, even on QUIET
 - Notification via `./notify` — only when signal warrants (see step 7)
 
@@ -219,7 +221,7 @@ In `MODE=dry-run`: build the message, write the article, update state — **do n
 
 ### 8. Write article
 
-Path: `articles/ecosystem-pulse-${today}.md`. Written on every non-error run (including QUIET — the article is the always-fresh snapshot; only the notification is gated).
+Path: `output/articles/ecosystem-pulse-${today}.md`. Written on every non-error run (including QUIET — the article is the always-fresh snapshot; only the notification is gated).
 
 ```markdown
 # Ecosystem Pulse — ${today}
@@ -318,7 +320,7 @@ New entrant: Vexor
 
 Top by stars: MiroShark (★312), Powerloom (★188), GitBounty (★97)
 
-Full snapshot: articles/ecosystem-pulse-${today}.md
+Full snapshot: output/articles/ecosystem-pulse-${today}.md
 ```
 
 Drop any line whose list is empty (don't print "New releases: none" — just omit the section). On a baseline (first) run, omit the woke-up/went-quiet/new-entrant lines and lead with the snapshot.
@@ -354,7 +356,7 @@ Append to `memory/logs/${today}.md`:
 - **New releases (7d)**: ${NEW_RELEASE_COUNT} (${NEW_RELEASE_NAMES} or none)
 - **Movements**: ${WOKE_COUNT} woke / ${QUIET_COUNT} went quiet / ${NEW_ENTRANT_COUNT} new entrants
 - **Top project**: ${TOP_NAME} (★ ${TOP_STARS})  (or none)
-- **Article**: articles/ecosystem-pulse-${today}.md  (or none)
+- **Article**: output/articles/ecosystem-pulse-${today}.md  (or none)
 - **Notification sent**: yes | no
 - **Status**: ECOSYSTEM_PULSE_OK | ECOSYSTEM_PULSE_QUIET | ECOSYSTEM_PULSE_DRY_RUN | ECOSYSTEM_PULSE_PARTIAL | ECOSYSTEM_PULSE_NO_ECOSYSTEM_FILE | ECOSYSTEM_PULSE_STATE_CORRUPT | ECOSYSTEM_PULSE_BAD_VAR
 ```

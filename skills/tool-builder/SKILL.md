@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Tool Builder
+category: evolution
 description: Build automation scripts from action-converter suggestions and recurring manual tasks
 var: ""
 tags: [dev, build]

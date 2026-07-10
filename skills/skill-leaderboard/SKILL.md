@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: skill-leaderboard
+category: core
 description: Ranking of which skills are most popular across CONFIGURED Aeon forks (excludes untouched templates)
 var: ""
 tags: [meta]
@@ -120,7 +122,7 @@ If the file is missing or stale (>14 days), set deltas to "first ranked snapshot
 
 ### 9. Write the article
 
-To `articles/skill-leaderboard-${today}.md`:
+To `output/articles/skill-leaderboard-${today}.md`:
 
 ```markdown
 # Skill Leaderboard — ${today}

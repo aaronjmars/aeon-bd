@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Remix Tweets
+category: productivity
 description: Fetch ~30 older tweets, pre-filter for remixability, then produce 10 new rephrased versions across diverse strategies with post-write quality gates
 var: ""
 tags: [social]

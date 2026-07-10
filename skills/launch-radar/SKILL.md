@@ -1,6 +1,7 @@
 ---
+type: Skill
 name: launch-radar
-category: research
+category: productivity
 description: Competitive scan — searches ProductHunt, HN Show HN, and GitHub Trending for product launches matching the operator's startup idea backlog. Flags when someone ships an idea from the list.
 var: ""
 tags: [meta, creative, ideas]
@@ -68,7 +69,7 @@ Format per entry:
 
 ### 5. Write the report
 
-Write to `articles/launch-radar-${today}.md`:
+Write to `output/articles/launch-radar-${today}.md`:
 
 ```markdown
 # Launch Radar — ${today}

@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Fork Digest
+category: core
 description: Cross-fork customization digest — surfaces where the fleet's enable/disable/var/model decisions diverge from upstream defaults
 var: ""
 tags: [meta]
@@ -167,7 +169,7 @@ Pick the strongest single claim, in priority:
 
 ### 11. Write the article
 
-To `articles/fork-digest-${today}.md`:
+To `output/articles/fork-digest-${today}.md`:
 
 ```markdown
 # Fork Skill Digest — ${today}

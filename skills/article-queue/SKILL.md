@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: article-queue
+category: productivity
 description: Article idea synthesizer — ranks signals from topic-momentum, beat-tracker, and narrative-tracker into a prioritized queue the article skill reads on its next run
 schedule: "0 11 * * 0"
 tags: [content, meta]
@@ -52,7 +54,7 @@ Same log scan as step 2. From the most recent `## Narrative Tracker` section, ex
 
 ### 4. Load recent article coverage (dedup)
 
-Use Glob on `articles/*.md`. Sort by filename date descending. Take the 30 most recent.
+Use Glob on `output/articles/*.md`. Sort by filename date descending. Take the 30 most recent.
 
 For each, extract the date from the filename and the H1 title from the first line. Build a **covered list**: `[{ date, title }]`.
 

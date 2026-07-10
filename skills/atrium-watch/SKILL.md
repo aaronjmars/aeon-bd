@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Atrium Watch
+category: evolution
 description: Diff of the Atrium marketplace catalog at https://atriumhermes.tech/.well-known/skills/index.json against the prior snapshot — surfaces newly-published skills, removed skills, and updated descriptions. Supply-side complement to sparkleware-catalog (curated skill-packs.json registry) and skill-update (version drift of installed skills).
 var: ""
 tags: [dev, community]
@@ -38,7 +40,7 @@ No new secrets. The Atrium endpoint is public — no auth header, no env-var exp
 
 Writes:
 - `memory/topics/atrium-catalog-state.json` — current parsed catalog (keyed by `skill_id`) + `last_run` timestamp + `last_status`
-- `articles/atrium-watch-${today}.md` — digest on every non-error run (including QUIET; the article is the durable record even when the notification is suppressed)
+- `output/articles/atrium-watch-${today}.md` — digest on every non-error run (including QUIET; the article is the durable record even when the notification is suppressed)
 - `memory/logs/${today}.md` — one log block per run
 - Notification via `./notify` — only when ≥1 added or removed entry since the last run (see step 6)
 
@@ -140,7 +142,7 @@ If `state.last_run` is null (first run) → `added` is the full `current` set; d
 
 ### 5. Write the article
 
-Overwrite `articles/atrium-watch-${today}.md`:
+Overwrite `output/articles/atrium-watch-${today}.md`:
 
 ```markdown
 # Atrium Catalog Watcher — ${today}
@@ -203,7 +205,7 @@ Baseline (first) run:
 
 atrium-watch is now tracking N skills publishable at ${ATRIUM_HOST}.
 Next Friday will report the diff. Full snapshot in
-articles/atrium-watch-${today}.md.
+output/articles/atrium-watch-${today}.md.
 ```
 
 Host-switch run:
@@ -213,7 +215,7 @@ Host-switch run:
 
 ATRIUM_HOST changed: {old_host} → {new_host}.
 Re-baselined to N skills at the new host. Full snapshot in
-articles/atrium-watch-${today}.md.
+output/articles/atrium-watch-${today}.md.
 ```
 
 Normal run with added/removed entries:
@@ -231,7 +233,7 @@ Added:
 Removed:
 - {name} (was first seen YYYY-MM-DD)
 
-Full digest: articles/atrium-watch-${today}.md
+Full digest: output/articles/atrium-watch-${today}.md
 ```
 
 Keep under 900 chars. If `added` has more than 8 entries, list the first 8 and append "+M more (see article)" — preserves the dashboard render and the article carries the full list. Each `added` line includes the operator's `install-from-atrium <name>` install command so the notification is one-click actionable (no need to copy a skill_id or click through to the article for the common case).
@@ -260,7 +262,7 @@ Append to `memory/logs/${today}.md`:
 - **Baseline run**: yes/no
 - **Host switch**: yes (from {old}) / no
 - **Invalid IDs skipped**: K (catalog rows with malformed skill_id)
-- **Article**: articles/atrium-watch-${today}.md
+- **Article**: output/articles/atrium-watch-${today}.md
 - **Notification**: sent / skipped (gated)
 - **Status**: ATRIUM_CATALOG_WATCHER_OK
 ```

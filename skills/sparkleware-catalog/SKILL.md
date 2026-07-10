@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: sparkleware-catalog
+category: evolution
 description: Enriched export of skill-packs.json — joins the canonical community registry to live GitHub signals (stars, last-push, live manifest skill count) and writes a machine-readable skill-packs-catalog.json that external tools (e.g. Sparkleware) can consume without screen-scraping
 var: ""
 tags: [dev, community]
@@ -32,7 +34,7 @@ No new secrets. GitHub access uses the `gh` CLI (`GH_TOKEN`), which handles auth
 
 Writes:
 - `skill-packs-catalog.json` (repo root) — the machine-readable enriched catalog (overwritten each run; stable filename, no timestamp, so the raw URL is permanent)
-- `articles/sparkleware-catalog-${today}.md` — human-readable pack-health table (every non-error run, including QUIET)
+- `output/articles/sparkleware-catalog-${today}.md` — human-readable pack-health table (every non-error run, including QUIET)
 - `memory/topics/sparkleware-catalog-state.json` — prior-run snapshot
 - `memory/logs/${today}.md` — one log block per run
 - Notification via `./notify` — only when the registry composition or pack reachability changed (see step 7)
@@ -146,7 +148,7 @@ Top-level wrapper:
 
 ### 5. Write the catalog and the article
 
-Write `skill-packs-catalog.json` at the repo root (pretty-printed via `jq .`). Then write `articles/sparkleware-catalog-${today}.md`:
+Write `skill-packs-catalog.json` at the repo root (pretty-printed via `jq .`). Then write `output/articles/sparkleware-catalog-${today}.md`:
 
 ```markdown
 # Skill-Packs Catalog — ${today}
@@ -225,7 +227,7 @@ Append a log block to `memory/logs/${today}.md`:
 - Live skills total: {total_live_skills}
 - Deltas: {new_packs} new / {removed_packs} removed / {newly_unreachable} went dark / {recovered} recovered
 - Drift: {N} packs where live manifest ≠ registry
-- Catalog: skill-packs-catalog.json · Article: articles/sparkleware-catalog-${today}.md
+- Catalog: skill-packs-catalog.json · Article: output/articles/sparkleware-catalog-${today}.md
 ```
 
 End the skill body with a single terminal line mirroring the chosen status, e.g. `Status: SPARKLEWARE_CATALOG_OK`.

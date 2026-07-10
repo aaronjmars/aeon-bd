@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: capabilities-map
+category: evolution
 description: Read-only audit of installed skills' capability coverage — maps every enabled/disabled skill against the locked 6-value taxonomy in docs/CAPABILITIES.md, flags any capability tier with zero enabled coverage as an actionable gap
 var: ""
 tags: [dev, community]
@@ -44,7 +46,7 @@ This skill is **read-only**. It never edits `skill-packs.json`, never writes `ca
 No network calls. No new secrets. All inputs are local files written by `generate-skills-json` / committed by the operator / installed by `./install-skill-pack`.
 
 Writes:
-- `articles/capabilities-map-${today}.md` — human-readable coverage matrix + gap call-outs (every non-error run, including `QUIET`)
+- `output/articles/capabilities-map-${today}.md` — human-readable coverage matrix + gap call-outs (every non-error run, including `QUIET`)
 - `memory/topics/capabilities-map-state.json` — prior-run snapshot
 - `memory/logs/${today}.md` — one log block per run
 - Notification via `./notify` — only when the gap set changed, when a previously-zero tier picked up coverage, or on the first (baseline) run (see step 7)
@@ -272,7 +274,7 @@ When `COVERAGE_ASSESSABLE=false` the actionable signal is no longer "which tiers
 
 ### 7. Write the article
 
-Write `articles/capabilities-map-${today}.md`:
+Write `output/articles/capabilities-map-${today}.md`:
 
 ```markdown
 # Capabilities Coverage Map — ${today}
@@ -397,7 +399,7 @@ Append a log block to `memory/logs/${today}.md`:
 - Gaps: {N} ({comma-separated gap capabilities, or "none"})
 - New gaps: {N} ({list, or "none"}) · Recovered: {N} ({list, or "none"})
 - Newly declared: {N} · Newly undeclared: {N}
-- Article: articles/capabilities-map-${today}.md
+- Article: output/articles/capabilities-map-${today}.md
 ```
 
 End the skill body with a single terminal line mirroring the chosen status, e.g. `Status: CAPABILITIES_MAP_OK`.
@@ -414,7 +416,7 @@ Coverage can't be assessed yet: {undeclared_enabled} of {enabled_skill_count} en
 The matrix can't tell a real gap from an unannotated one until at least one enabled skill declares a capability. Start with the highest-blast-radius skills (on-chain writes, key-spending APIs, anything that speaks for you).
 
 Annotation guide: docs/CAPABILITIES.md §"How to choose"
-Matrix: articles/capabilities-map-${today}.md
+Matrix: output/articles/capabilities-map-${today}.md
 ```
 
 **Otherwise** (status `OK` / `GAPS`):
@@ -430,7 +432,7 @@ Matrix: articles/capabilities-map-${today}.md
 {If became_assessable:} First declarations landed — coverage analysis is now live.
 {If newly_undeclared_skills:} Dropped declarations: {comma-separated slugs}
 
-Matrix: articles/capabilities-map-${today}.md
+Matrix: output/articles/capabilities-map-${today}.md
 ```
 
 Drop any line whose list is empty. On the first (baseline) run that *is* assessable, lead with the matrix totals and skip the delta lines (every tier is "new" on a baseline — listing all of them is noise; the article carries the full table).

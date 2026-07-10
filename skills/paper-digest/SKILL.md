@@ -1,5 +1,7 @@
 ---
+type: Skill
 name: Paper Digest
+category: basics
 description: Find and summarize new papers matching tracked research interests
 var: ""
 tags: [research]
@@ -86,7 +88,7 @@ Self-edit pass: re-read each summary. If "what's new" could apply to 5+ other pa
 
 ## 6. Output
 
-Save to `articles/paper-digest-${today}.md`:
+Save to `output/articles/paper-digest-${today}.md`:
 ```markdown
 # Paper Digest — ${today}
 > **Verdict:** <one line: shape of the week, e.g. "3 solid LLM agent results, 1 surprising RL finding, no new alignment work worth reading">
@@ -109,7 +111,7 @@ ${verdict}
 1. "Title" — what's new in ≤12 words (↑${upvotes})
 2. ...
 
-Full: articles/paper-digest-${today}.md
+Full: output/articles/paper-digest-${today}.md
 ```
 
 ## 7. Log
