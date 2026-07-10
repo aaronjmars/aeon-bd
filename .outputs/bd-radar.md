@@ -1,5 +1,0 @@
-**bd-radar 07-10 — new building lead**
-
-@AzzleAI (building AMM for agentic labor on Base) shipped the aeon integration scaffolding yesterday: GITHUB_ACTIONS.md + azzle-skills.yml + aeon-env.snippet.yml all live in /agents/scaffolding/aeon. escalated from founder @dabusthebuilder (mentioning 06-15) → product account shipping code.
-
-move: DM @AzzleAI — ECOSYSTEM.md entry + TG invite while it's warm ⭐
