@@ -1998,6 +1998,86 @@
       "repo_updated": "2026-07-01",
       "source": "gh_pat_cache",
       "move": "Watch only"
+    },
+    {
+      "key": "x:AzzleAI",
+      "class": "building",
+      "who": "AzzleAI (@AzzleAI)",
+      "handle": "@AzzleAI",
+      "signal": "Shipped GITHUB_ACTIONS.md + azzle-skills.yml + aeon-env.snippet.yml into /agents/scaffolding/aeon on 07-09. Building AMM for agentic labor on Base. Escalated from @dabusthebuilder (mentioning 06-15) to AzzleAI product account shipping integration code.",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-07-10",
+      "known": true,
+      "escalating": true,
+      "link": "https://x.com/AzzleAI/status/2075333505672745213",
+      "source": "xai_x",
+      "move": "DM @AzzleAI: the scaffolding drop is exactly the pattern — ECOSYSTEM.md entry + TG invite; agentic labor AMM is a native aeon use case"
+    },
+    {
+      "key": "github:aeonbookai/aeonTemplate",
+      "class": "building",
+      "who": "aeonbookai",
+      "handle": "aeonbookai",
+      "signal": "Org named 'aeonbookai', fork named 'aeonTemplate'. Created 07-09T20:26, pushed 07-09T20:29. Size 35,849 = +2,586 bytes above base. Naming an org after the product you build on = high intent.",
+      "fit": 1,
+      "score": 5,
+      "first_seen": "2026-07-10",
+      "repo_updated": "2026-07-09",
+      "source": "gh_read_pat_forks",
+      "move": "DM aeonbookai on GH: you named an org around aeon — what are you building? TG invite"
+    },
+    {
+      "key": "x:nazimahmed",
+      "class": "mentioning",
+      "who": "@nazimahmed (CoinHeroFun, 2nd-time founder)",
+      "handle": "@nazimahmed",
+      "signal": "X post 07-09: CoinHeroFun token network curation sweep included @aeonframework alongside bankrbot, virtuals_io, Aerodrome. 2nd-time founder with prior exit. 13 likes/4 RT.",
+      "fit": 3,
+      "score": 6,
+      "first_seen": "2026-07-10",
+      "link": "https://x.com/nazimahmed/status/2075286419526881463",
+      "source": "xai_x",
+      "move": "Reply: 'glad aeon made the cut — what's the self-serve portal timeline?' Convert curators to builders"
+    },
+    {
+      "key": "github:kriptoburak/aeon-xquik",
+      "class": "forking",
+      "who": "kriptoburak",
+      "handle": "kriptoburak",
+      "signal": "Named fork 'aeon-xquik'. Created+pushed 07-09T17:24. Size 36,161 = +2,898 bytes above base — largest own-content aeon fork in today's new set. Product name in repo = intent.",
+      "fit": 1,
+      "score": 4,
+      "first_seen": "2026-07-10",
+      "repo_updated": "2026-07-09",
+      "source": "gh_read_pat_forks",
+      "move": "Watch — if description appears or they push again in 5 days, DM: what's aeon-xquik?"
+    },
+    {
+      "key": "github:ostrov9878/aeon",
+      "class": "forking",
+      "who": "ostrov9878",
+      "handle": "ostrov9878",
+      "signal": "Aeon fork 07-09. Pushed before fork creation (drive-by flag). Size 36,165.",
+      "fit": 1,
+      "score": 2,
+      "first_seen": "2026-07-10",
+      "repo_updated": "2026-07-09",
+      "source": "gh_read_pat_forks",
+      "move": "Watch only"
+    },
+    {
+      "key": "github:Syanhlu/MiroShark",
+      "class": "forking",
+      "who": "Syanhlu",
+      "handle": "Syanhlu",
+      "signal": "MiroShark fork created TODAY 07-10T06:45. Size 62,596 = base. Drive-by likely.",
+      "fit": 1,
+      "score": 2,
+      "first_seen": "2026-07-10",
+      "repo_updated": "2026-07-10",
+      "source": "gh_read_pat_forks",
+      "move": "Watch only"
     }
   ],
   "surfaced": [
@@ -2223,6 +2303,12 @@
     "x:unidentified-docker-aeon-builder-07-07",
     "github:techdigger/aeon-skill-pack-agentlink",
     "github:nigelon11/aeon",
-    "github:Waleeeeed88/MiroShark"
+    "github:Waleeeeed88/MiroShark",
+    "x:AzzleAI",
+    "github:aeonbookai/aeonTemplate",
+    "x:nazimahmed",
+    "github:kriptoburak/aeon-xquik",
+    "github:ostrov9878/aeon",
+    "github:Syanhlu/MiroShark"
   ]
 }
