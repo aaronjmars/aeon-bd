@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-09T08:12:03Z",
+  "last_analyzed": "2026-07-10T07:51:52Z",
   "quality_score": 4,
-  "assessment": "Well-executed skill run with specific, current BD leads (3 surfaced, 1 escalation), verified data, pattern insight, and clear next actions—directly addresses operator's north-star (surface signal early, drive ecosystem growth).",
+  "assessment": "Substantive output with 6 net-new leads, escalation detection, and actionable moves; all sources live and notified",
   "flags": [],
   "avg_score": 4.13,
   "history": [
-    {
-      "date": "2026-06-11",
-      "score": 4
-    },
     {
       "date": "2026-06-11",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-09",
+      "score": 4
+    },
+    {
+      "date": "2026-07-10",
       "score": 4
     }
   ]

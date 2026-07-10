@@ -1,0 +1,107 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "bd-radar 07-10 — new building lead"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-lead",
+        "sep-1",
+        "stack-info",
+        "sep-2",
+        "heading-action",
+        "text-action",
+        "badge-priority"
+      ]
+    },
+    "heading-lead": {
+      "type": "Heading",
+      "props": {
+        "text": "@AzzleAI — New Building Lead",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-project",
+        "text-shipped",
+        "text-files",
+        "text-escalation"
+      ]
+    },
+    "text-project": {
+      "type": "Text",
+      "props": {
+        "text": "Building AMM for agentic labor on Base"
+      }
+    },
+    "text-shipped": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped aeon integration scaffolding yesterday to /agents/scaffolding/aeon"
+      }
+    },
+    "text-files": {
+      "type": "Text",
+      "props": {
+        "text": "Files: GITHUB_ACTIONS.md, azzle-skills.yml, aeon-env.snippet.yml (all live)"
+      }
+    },
+    "text-escalation": {
+      "type": "Text",
+      "props": {
+        "text": "Escalated from founder @dabusthebuilder (mentioning 06-15) → product account shipping code"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-action": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommended Move",
+        "level": "h3"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "DM @AzzleAI with ECOSYSTEM.md entry + TG invite while it's warm"
+      }
+    },
+    "badge-priority": {
+      "type": "Badge",
+      "props": {
+        "text": "⭐ High Priority",
+        "variant": "default"
+      }
+    }
+  }
+}
