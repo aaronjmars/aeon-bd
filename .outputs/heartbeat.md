@@ -1,9 +1,10 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks clean:
-- **P0**: 14/14 enabled skills green, no stuck dispatches, no consecutive failures, heartbeat self-check at ~24h (well under 50h threshold)
-- **P1**: 0 open PRs, 0 urgent issues
-- **P2**: No actionable MEMORY.md flags
-- **P3**: All skills within 2× their schedule interval
+All checks clean. `docs/status.md` updated — 14 enabled skills all green, 1 open issue (ISS-002 medium, product-pulse config flip needed, already filed by war-room earlier today). No notification sent — ISS-002 already in the 48h log window.
 
-`docs/status.md` updated (timestamp → 2026-07-09 08:00 UTC, next run: shiplog at 09:00 UTC), log written to `memory/logs/2026-07-09.md`. No notification needed.
+## Summary
+
+- **P0/P1/P2/P3**: All clean. No failed skills, no stuck dispatches, no stalled PRs, no urgent issues, no MEMORY.md follow-up flags, no skills overdue by 2× their interval.
+- **ISS-002** (product-pulse disabled): deduped — war-room filed it earlier today; skipped re-notify.
+- **`docs/status.md`**: Overwritten with fresh table (14 skills, sorted by recency), ISS-002 in Open Issues, Overall 🟢 OK.
+- **Log**: appended heartbeat entry to `memory/logs/2026-07-10.md`.
