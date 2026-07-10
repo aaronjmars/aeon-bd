@@ -2,7 +2,9 @@
 
 ## Open
 
-_No open issues._
+| ID | Title | Severity | Detected | Detected by |
+|----|-------|----------|----------|-------------|
+| [ISS-002](ISS-002.md) | product-pulse disabled in aeon.yml — no fresh product state 15d | medium | 2026-07-10 | war-room |
 
 ## Resolved
 
