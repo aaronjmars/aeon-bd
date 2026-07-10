@@ -33,7 +33,7 @@
     "last_error": "ard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":465,"
   },
   "war-room": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-07-09T08:10:36Z",
     "total_runs": 29,
     "total_successes": 29,
@@ -41,7 +41,7 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4,
-    "last_dispatch": "2026-07-09T08:05:04Z"
+    "last_dispatch": "2026-07-10T07:46:19Z"
   },
   "fetch-tweets": {
     "last_dispatch": "2026-07-09T17:16:05Z",
@@ -90,7 +90,7 @@
     "last_quality_score": 4
   },
   "bd-radar": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-07-09T08:12:05Z",
     "total_runs": 31,
     "total_successes": 30,
@@ -98,7 +98,7 @@
     "consecutive_failures": 0,
     "success_rate": 0.97,
     "last_quality_score": 4,
-    "last_dispatch": "2026-07-09T08:05:04Z",
+    "last_dispatch": "2026-07-10T07:46:19Z",
     "last_failed": "2026-06-17T08:59:30Z",
     "last_error": "e_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inp"
   },
@@ -113,8 +113,8 @@
     "success_rate": 1
   },
   "mention-radar": {
-    "last_dispatch": "2026-07-08T07:30:41Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-10T07:46:19Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-08T07:37:29Z",
     "total_runs": 13,
     "total_successes": 13,
