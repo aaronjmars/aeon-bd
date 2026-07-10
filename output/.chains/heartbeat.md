@@ -1,20 +1,10 @@
-All checks complete. Here's the summary:
+HEARTBEAT_OK · STATUS_PAGE=OK
+
+All P0–P3 checks clean. No notification needed. Updated `docs/status.md` with the latest run timestamps (idea-validator 18:29 UTC, heartbeat 17:55 UTC), ISS-002 still open at medium severity, overall 🟢 OK. Log appended.
 
 ## Summary
 
-**Ambient heartbeat — 🟢 OK**
-
-**P0:** All 14 enabled skills show `last_status: success`. No stuck dispatches (post-morning runs since the 08:00 UTC heartbeat: `engagement-act` ✅ 10:07, `fetch-tweets` ✅ 17:15). No consecutive failures ≥ 3, no chronic failures. Heartbeat self-check clean (last success 08:56 UTC today).
-
-**P1:** No open PRs, no urgent GitHub issues.
-
-**P2:** ISS-002 (product-pulse disabled, medium) was already filed and logged this morning by war-room — deduped, no re-notify.
-
-**P3:** All 14 enabled skills have cron-state entries and are within 2× their schedule interval. `idea-validator` (weekly Fri) last ran 2026-07-03, scheduled again at 18:00 UTC today.
-
-**Token pulse:** No `output/articles/token-report-*.md` files — section omitted from status page.
-
-**Actions taken:**
-- Wrote `docs/status.md` (fleet health page, 14 skills, 🟢 OK)
-- Appended log entry to `memory/logs/2026-07-10.md`
-- No notification sent (nothing net-new since the morning run)
+- **P0–P3:** All clear. 14 enabled skills, all `success`, none stuck or degraded.
+- **ISS-002** (product-pulse disabled) already deduped from earlier today — no re-notify.
+- **`docs/status.md`** regenerated: 🟢 OK, 14 skills in table, ISS-002 in open issues, next run bd-radar 07:20 UTC.
+- **`memory/logs/2026-07-10.md`** updated with `mode: ambient` entry for this run.
