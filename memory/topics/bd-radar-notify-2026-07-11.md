@@ -1,3 +1,8 @@
+---
+type: Reference
+title: "BD Radar notify — 2026-07-11"
+---
+
 ## BD Radar — 2026-07-11 ⭐🦈
 
 **Skopos is building on aeon ⭐** — and @aeonframework already spotlit them.

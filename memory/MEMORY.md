@@ -18,20 +18,19 @@ type: Index
 ## War-room skills (this instance)
 | Skill | Cadence | Does |
 |-------|---------|------|
-| product-pulse | daily 07:15 | state of both products — repo-family health + X deltas |
 | bd-radar | daily 07:20 | who's building/forking/integrating/mentioning → ranked leads + next move |
 | war-room | daily 07:45 | the standup brief — state · talk-to · decide — for Aaron + Nurstar |
 | sim-watch | Sun weekly | Miroshark category intel — sim competitors, papers, clones |
 | idea-forge | Wed weekly | business-idea engine — zeitgeist × capabilities → scored wedges |
 
-- The war room runs as **3 staggered standalone daily skills** (07:15 → 07:20 → 07:45), NOT a chain — `chain-runner.yml` is brittle under `bash -e` (a transient `gh` non-zero hard-kills the job before `on_error:continue` reaches the capstone). war-room reads the morning's committed product-pulse + bd-radar digests. All live + `enabled: true`.
+- The war room runs as **2 staggered standalone daily skills** (bd-radar 07:20 → war-room 07:45), NOT a chain — `chain-runner.yml` is brittle under `bash -e` (a transient `gh` non-zero hard-kills the job before `on_error:continue` reaches the capstone). war-room reads the morning's committed bd-radar digest plus a live `gh api` product-state read. (product-pulse retired 2026-07.)
 
 ## Lessons Learned
 - Digest format: Markdown with clickable links, under 4000 chars.
 - Multi-line notify: use `./notify -f file.md`, never `./notify "$(cat …)"` (sandbox trips).
 - Always save files AND commit before logging.
 - `chain-runner.yml` runs under `bash -e` → transient `gh` failures hard-kill the job before `on_error:continue`. Prefer staggered standalone skills + committed-file reads over chains.
-- X data on the runner: use the xAI prefetch cache (`scripts/prefetch-xai.sh` → `.xai-cache/`), not x-mcp (x-mcp is local-only). product-pulse reads `.xai-cache/product-pulse-x.json`.
+- X data on the runner: use the xAI prefetch cache (`scripts/prefetch-xai.sh` → `.xai-cache/`), not x-mcp (x-mcp is local-only).
 - The runner's `GITHUB_TOKEN` only covers `aeon-nur`. Private repos are read via the **read-only** `GH_READ_PAT` secret in a prefetch (`scripts/prefetch-private-repos.sh` → `.xai-cache/private-repos.json`). NEVER put a read-only PAT in `GH_GLOBAL` — that's the checkout/commit token and read-only there breaks every auto-commit.
 - PAT scope (read-only): in scope = `aeon-website`, `aeon-wc`, `miroshark-website`, `MiroShark-x402` (+ this repo). Out of scope = `MiroShark-api`, `miroshark-x` (not monitored, by operator choice).
 

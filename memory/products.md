@@ -4,7 +4,7 @@ type: Reference
 
 # Products
 
-Config for the product-aware skills: `bd-radar` and `product-pulse`.
+Config for the product-aware skill `bd-radar`.
 One `##` block per product (format matches each skill's Config section).
 
 **scouts:** @buildonbase, @Base_Insights, @BaseHubHB, @PremierBase   <!-- ecosystem recap/ranking accounts the shiplog skill scans for product mentions (parity with aaeron) -->
