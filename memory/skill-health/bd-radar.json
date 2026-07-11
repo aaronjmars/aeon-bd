@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-10T07:51:52Z",
+  "last_analyzed": "2026-07-11T07:59:17Z",
   "quality_score": 4,
-  "assessment": "Substantive output with 6 net-new leads, escalation detection, and actionable moves; all sources live and notified",
+  "assessment": "Substantive, well-prioritized leads with specific details and actionable next steps; strong signal filtering and context around market timing.",
   "flags": [],
   "avg_score": 4.13,
   "history": [
-    {
-      "date": "2026-06-11",
-      "score": 4
-    },
     {
       "date": "2026-06-11",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-10",
+      "score": 4
+    },
+    {
+      "date": "2026-07-11",
       "score": 4
     }
   ]

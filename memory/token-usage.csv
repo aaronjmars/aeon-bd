@@ -187,4 +187,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-10,heartbeat,claude-sonnet-4-6,255,16812,620287,50644
 2026-07-10,idea-validator,claude-opus-4-8,2239,17419,820111,89284
 2026-07-10,heartbeat,claude-sonnet-4-6,868,12157,485914,50656
-2026-07-11,war-room,claude-opus-4-8,2392,14403,975303,70420
+2026-07-11,bd-radar,claude-sonnet-4-6,35,26145,3476641,111459

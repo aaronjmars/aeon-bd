@@ -1,0 +1,163 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar — 2026-07-11 ⭐🦈"
+      },
+      "children": [
+        "heading_intro",
+        "stack_signal1",
+        "sep1",
+        "stack_signal2",
+        "sep2",
+        "link_digest"
+      ]
+    },
+    "heading_intro": {
+      "type": "Heading",
+      "props": {
+        "text": "Signal Summary",
+        "level": "h3"
+      }
+    },
+    "stack_signal1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_skopos",
+        "text_skopos_intro",
+        "link_twitter_skopos",
+        "text_skopos_details",
+        "link_github_skopos",
+        "text_skopos_context",
+        "text_skopos_move"
+      ]
+    },
+    "heading_skopos": {
+      "type": "Heading",
+      "props": {
+        "text": "Skopos is building on Aeon ⭐",
+        "level": "h3"
+      }
+    },
+    "text_skopos_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped an agentic cross-chain DeFi platform on top of the framework.",
+        "variant": "lead"
+      }
+    },
+    "link_twitter_skopos": {
+      "type": "Link",
+      "props": {
+        "label": "@tryskopos",
+        "href": "https://x.com/tryskopos"
+      }
+    },
+    "text_skopos_details": {
+      "type": "Text",
+      "props": {
+        "text": "Features: tx-explain, token-safety, market reads (defi/narrative/fear-greed index), x402 pulse skill. Supports 10+ chains — not just Base. Fork includes a full custom skill set + committed DeFi data (DEX pools, fees, CoinGecko).",
+        "variant": "body"
+      }
+    },
+    "link_github_skopos": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Svector-anu/skopos-aeon",
+        "href": "https://github.com/Svector-anu/skopos-aeon",
+        "source": "GitHub",
+        "score": "Pushed this morning"
+      }
+    },
+    "text_skopos_context": {
+      "type": "Text",
+      "props": {
+        "text": "The @aeonframework account spotlit them yesterday (28♥/5RT). The window is open.",
+        "variant": "caption"
+      }
+    },
+    "text_skopos_move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: DM @tryskopos — make the spotlight official. Add to ECOSYSTEM.md + TG invite + co-post the cross-chain angle.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_signal2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_dan",
+        "text_dan_intro",
+        "text_dan_details",
+        "text_dan_context",
+        "text_dan_action"
+      ]
+    },
+    "heading_dan": {
+      "type": "Heading",
+      "props": {
+        "text": "dan-and filed MiroShark issue #240 🦈",
+        "level": "h3"
+      }
+    },
+    "text_dan_intro": {
+      "type": "Text",
+      "props": {
+        "text": "\"Offline huggingface-models for air-gapped environments.\"",
+        "variant": "lead"
+      }
+    },
+    "text_dan_details": {
+      "type": "Text",
+      "props": {
+        "text": "This is their 4th signal in a month: 38-day fork + issues #187, #193, now #240. They're running MiroShark in production and hitting the cloud dependency wall.",
+        "variant": "body"
+      }
+    },
+    "text_dan_context": {
+      "type": "Text",
+      "props": {
+        "text": "Production usage + repeated signals = deep integration partner potential.",
+        "variant": "caption"
+      }
+    },
+    "text_dan_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Reply on #240 with a local config path. This converts to a deep integration partner.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_digest": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest",
+        "href": "../output/articles/bd-radar-2026-07-11.md",
+        "source": "BD Radar"
+      }
+    }
+  }
+}
