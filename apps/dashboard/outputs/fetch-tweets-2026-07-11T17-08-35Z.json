@@ -1,0 +1,414 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — 2026-07-11",
+        "description": "v0.1 drop hit hard — $AEON most-traded + $MIROSHARK top-gainer on Bankr the same day, builders shipped on day one."
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_v01",
+        "sep1",
+        "section_robinhood",
+        "sep2",
+        "section_token",
+        "sep3",
+        "section_ecosystem"
+      ]
+    },
+    "section_v01": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_v01",
+        "tweet1",
+        "tweet2"
+      ]
+    },
+    "heading_v01": {
+      "type": "Heading",
+      "props": {
+        "text": "v0.1 Release",
+        "level": "h2"
+      }
+    },
+    "tweet1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1_card",
+        "tweet1_replies",
+        "tweet1_link"
+      ]
+    },
+    "tweet1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "first stable release after 70 partners beat on it; \"Apex Agents\" framing: agents that don't just execute, they self-evolve to be best at what they do.",
+        "likes": 62,
+        "retweets": 10
+      }
+    },
+    "tweet1_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 5",
+        "variant": "caption"
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2075576813850403049"
+      }
+    },
+    "tweet2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2_card",
+        "tweet2_replies",
+        "tweet2_link"
+      ]
+    },
+    "tweet2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "@aaronjmars",
+        "text": "shiplog: 224 PRs, 1,804 autonomous runs, 460.8M tokens burned (~$984); first miroshark x402 buyback on 100% of endpoint revenue; aeon + miroshark websites now have wallets + onramp.",
+        "likes": 32,
+        "retweets": 5
+      }
+    },
+    "tweet2_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 10",
+        "variant": "caption"
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2075646695417749694"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_robinhood": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_robinhood",
+        "tweet3",
+        "tweet4",
+        "tweet5"
+      ]
+    },
+    "heading_robinhood": {
+      "type": "Heading",
+      "props": {
+        "text": "Robinhood Chain",
+        "level": "h2"
+      }
+    },
+    "tweet3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3_card",
+        "tweet3_replies",
+        "tweet3_link"
+      ]
+    },
+    "tweet3_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "Robinhood Chain MCP live on aeon; timely reminder as the chain gets attention — they own the distribution angle without shipping new infra.",
+        "likes": 33,
+        "retweets": 4
+      }
+    },
+    "tweet3_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2075572511484317906"
+      }
+    },
+    "tweet4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4_card",
+        "tweet4_replies",
+        "tweet4_link"
+      ]
+    },
+    "tweet4_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sparklewarefun",
+        "handle": "@sparklewarefun",
+        "text": "\"Robinhood Chain day one 👀\" — positions virtuals agents hiring the aeon skill loadout as the play on the new chain; composable infra pitch to the chain's builder wave.",
+        "likes": 10,
+        "retweets": 1
+      }
+    },
+    "tweet4_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/sparklewarefun/status/2075666075451351309"
+      }
+    },
+    "tweet5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet5_card",
+        "tweet5_replies",
+        "tweet5_link"
+      ]
+    },
+    "tweet5_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "@aaronjmars",
+        "text": "bare confirmation \"already live on aeon btw\" — no new info, but Aaron personally anchoring the Robinhood narrative to the framework.",
+        "likes": 5,
+        "retweets": 1
+      }
+    },
+    "tweet5_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2075694778457432299"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_token",
+        "tweet6"
+      ]
+    },
+    "heading_token": {
+      "type": "Heading",
+      "props": {
+        "text": "Token Velocity",
+        "level": "h2"
+      }
+    },
+    "tweet6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet6_card",
+        "tweet6_replies",
+        "tweet6_link"
+      ]
+    },
+    "tweet6_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "handle": "@AIonBase_",
+        "text": "$MIROSHARK top gainer + $AEON most-traded AND trending simultaneously on Bankr in the same 24h window — rare double-stack during v0.1 launch week.",
+        "likes": 43,
+        "retweets": 9
+      }
+    },
+    "tweet6_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 8",
+        "variant": "caption"
+      }
+    },
+    "tweet6_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2075690274668335230"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_ecosystem": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ecosystem",
+        "tweet7",
+        "tweet8"
+      ]
+    },
+    "heading_ecosystem": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem Builders",
+        "level": "h2"
+      }
+    },
+    "tweet7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet7_card",
+        "tweet7_replies",
+        "tweet7_link"
+      ]
+    },
+    "tweet7_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "@tryskopos spotlight: cross-chain DeFi on aeon, 10+ chains, x402 pulse read; first external builder to extend aeon's base-only skills to a full cross-chain stack — the ecosystem is beginning to outrun the core.",
+        "likes": 28,
+        "retweets": 6
+      }
+    },
+    "tweet7_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 5",
+        "variant": "caption"
+      }
+    },
+    "tweet7_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2075556200184181152"
+      }
+    },
+    "tweet8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet8_card",
+        "tweet8_replies",
+        "tweet8_link"
+      ]
+    },
+    "tweet8_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sparklewarefun",
+        "handle": "@sparklewarefun",
+        "text": "proof-of-loadout skill pack shipped: compose a loadout, prove it on-chain, run it — built specifically for \"agents that pay for their own compute.\" Direct alignment with the x402-native thesis.",
+        "likes": 14,
+        "retweets": 1
+      }
+    },
+    "tweet8_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 5",
+        "variant": "caption"
+      }
+    },
+    "tweet8_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/sparklewarefun/status/2075694867074924657"
+      }
+    }
+  }
+}
