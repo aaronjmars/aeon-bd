@@ -4,7 +4,7 @@ type: Reference
 
 # Watched Repos
 
-Repos the monitoring skills sweep. `builder-map`, `bd-radar`, and `product-pulse`
+Repos the monitoring skills sweep. `builder-map` and `bd-radar`
 read this file. Public repos drive "who's building on top" (default `gh api`);
 private product repos are read via the read-only `GH_READ_PAT` prefetch
 (`scripts/prefetch-private-repos.sh` → `.xai-cache/private-repos.json`) for the
@@ -20,7 +20,7 @@ internal health view — never expose their contents.
 | aaronjmars/soul-aaronjmars | soul.md, "soul file", "ai soul" | the soul framework this instance runs on |
 
 ## Private product repos (read-only, via `GH_READ_PAT` prefetch — never expose contents)
-In the PAT's scope → monitored by product-pulse:
+In the PAT's scope (read-only prefetch):
 - aaronjmars/aeon-website — ⭐ aeon marketing site
 - aaronjmars/aeon-wc — ⭐ private aeon repo
 - aaronjmars/miroshark-website — 🦈 marketing site

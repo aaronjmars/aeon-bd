@@ -394,11 +394,11 @@ skills:
 
   # --- aeon + miroshark war room (Aaron + Nurstar) ---
   # 3 staggered standalone daily skills (no chain — chain-runner is brittle under bash -e).
-  # product-pulse + bd-radar commit their digests early; war-room reads those committed
-  # outputs at 07:45 via its fallback path and sends the team brief.
-  product-pulse: { enabled: false, schedule: "15 7 * * *", var: "" } # 07:15 UTC — state of aeon+miroshark: GitHub repo-family health + X deltas, week-over-week. Quiet unless red-flag. war-room reads its digest.
+  # bd-radar commits its digest early; war-room reads it (plus a live `gh api`
+  # product-state read) at 07:45 and sends the team brief.
+  # (product-pulse retired 2026-07 — war-room now reads product STATE live via gh api.)
   bd-radar: { enabled: true, schedule: "20 7 * * *", var: "" } # 07:20 UTC — BD radar: who's building/forking/integrating/mentioning the products → ranked leads + a next move each. Quiet unless high-intent lead.
-  war-room: { enabled: true, schedule: "45 7 * * *", var: "", model: "claude-opus-4-8" } # 07:45 UTC — daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Reads the day's product-pulse + bd-radar digests. Always notifies.
+  war-room: { enabled: true, schedule: "45 7 * * *", var: "", model: "claude-opus-4-8" } # 07:45 UTC — daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Reads the day's bd-radar digest + a live gh api product-state read. Always notifies.
   # Weekly thinkers — standalone cron; war-room folds in their latest digest if <7d old.
   sim-watch: { enabled: true, schedule: "0 13 * * 0", var: "" } # Sun 13:00 UTC — Miroshark category intel (LLM/social simulation + world models): competitors, papers, clones; copy/counter/opening verdicts.
   idea-forge: { enabled: true, schedule: "0 16 * * 3", var: "", model: "claude-opus-4-8" } # Wed 16:00 UTC — weekly business-idea engine: zeitgeist × aeon/miroshark capability surface → 3-5 timing-window-scored wedges. Notifies the #1.
@@ -450,8 +450,8 @@ reactive:
 #         - parallel: [skill-a, skill-b]
 #         - skill: skill-c, consume: [skill-a, skill-b]
 chains:
-  # war-room runs as 3 staggered standalone daily skills (product-pulse 07:15 →
-  # bd-radar 07:20 → war-room 07:45), NOT a chain: chain-runner.yml runs under
+  # war-room runs as staggered standalone daily skills (bd-radar 07:20 →
+  # war-room 07:45), NOT a chain: chain-runner.yml runs under
   # `bash -e`, so a transient `gh` non-zero can hard-kill the job before
   # on_error:continue reaches the capstone. Standalone is more robust and lets
   # war-room read the committed digests via its fallback path.

@@ -55,7 +55,7 @@ Ground every idea in real primitives this operator already has — don't invent 
 2. **The installed skills directory** — `ls skills/` and skim a sample of `description:` lines. The skill/chain set is itself a capability surface: what this instance can already automate or ship as a skill or a chain this week.
 3. **`STRATEGY.md` theses** — the north-star + priorities name the wedge the operator occupies and the bets they're already making. Lean on those as the "theses to ride"; don't import a fixed thesis list.
 
-Also, for current state, read the latest `product-pulse` + `bd-radar` digests if present.
+Also, for current state, read the latest `bd-radar` digest if present.
 
 ### Steps
 
@@ -67,7 +67,7 @@ mkdir -p memory/topics output/articles
 Load prior idea titles/one-liners into a dedup set (don't re-pitch the same wedge unless materially evolved). Also scan the last 21 days of `memory/logs/` for `### idea-forge` blocks.
 
 #### 1. Read the zeitgeist (this week)
-Derive 4-6 search axes from the capability surface + the `STRATEGY.md` wedge — the spaces the operator's products occupy, plus the fast-moving adjacent areas they could ride. Run WebSearch (use current month + year) across each axis and pull a 1-line "what's moving" per theme. Don't work from a fixed theme list — let the surface and strategy choose the axes each week. Also fold in: notables from the latest `product-pulse`, leads from `bd-radar` (a cluster of similar leads = a demand signal), and anything in MEMORY's active topics. If a source fails, log `IDEA_FORGE_SOURCE_MISS` and continue. If a theme was passed in `${var}`, bias the axes toward it.
+Derive 4-6 search axes from the capability surface + the `STRATEGY.md` wedge — the spaces the operator's products occupy, plus the fast-moving adjacent areas they could ride. Run WebSearch (use current month + year) across each axis and pull a 1-line "what's moving" per theme. Don't work from a fixed theme list — let the surface and strategy choose the axes each week. Also fold in: leads from `bd-radar` (a cluster of similar leads = a demand signal), and anything in MEMORY's active topics. If a source fails, log `IDEA_FORGE_SOURCE_MISS` and continue. If a theme was passed in `${var}`, bias the axes toward it.
 
 #### 2. Collide → generate
 Produce **8-12 raw ideas** by colliding a zeitgeist signal × a capability-surface primitive. Bias toward the operator's instincts as read from `soul/` + `STRATEGY.md`: contrarian-but-defensible, distribution-aware, refuses its own category, fits a timing window now. No safe/generic SaaS takes. Don't self-censor for "too weird."
