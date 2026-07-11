@@ -1,17 +1,13 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-10T07:51:14Z",
+  "last_analyzed": "2026-07-11T07:54:51Z",
   "quality_score": 4,
-  "assessment": "Substantive, actionable brief with real bug discovery and BD signals; solid execution but truncated output and flat metrics prevent 5-tier",
+  "assessment": "Substantive, well-sourced standup brief with actionable BD recommendation; stayed in lane and self-identified limitations (product-pulse dark 16d, figures need verification, duplicate notify send).",
   "flags": [
     "stale_data"
   ],
   "avg_score": 4.07,
   "history": [
-    {
-      "date": "2026-06-11",
-      "score": 4
-    },
     {
       "date": "2026-06-11",
       "score": 5
@@ -126,6 +122,10 @@
     },
     {
       "date": "2026-07-10",
+      "score": 4
+    },
+    {
+      "date": "2026-07-11",
       "score": 4
     }
   ]

@@ -1,0 +1,514 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-07-11"
+      },
+      "children": [
+        "status-stack",
+        "sep1",
+        "state-section",
+        "sep2",
+        "talk-to-section",
+        "sep3",
+        "decide-section",
+        "sep4",
+        "appendix-section"
+      ]
+    },
+    "status-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-aeon",
+        "stat-miroshark",
+        "stat-price"
+      ]
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars",
+        "value": "573",
+        "delta": "+2/day"
+      }
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Stars",
+        "value": "1,358",
+        "delta": "+2/day"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "$MIROSHARK (weekly)",
+        "value": "-28%",
+        "trend": "down"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-heading",
+        "state-content",
+        "state-issue"
+      ]
+    },
+    "state-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "state-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "state-status",
+        "state-read"
+      ]
+    },
+    "state-status": {
+      "type": "Text",
+      "props": {
+        "text": "product-pulse dark 16d — numbers are last-known off mention-radar.",
+        "variant": "body"
+      }
+    },
+    "state-read": {
+      "type": "Text",
+      "props": {
+        "text": "Flat is the read. The movement this week isn't ours — it's MiroFish.",
+        "variant": "body"
+      }
+    },
+    "state-issue": {
+      "type": "Badge",
+      "props": {
+        "text": "enabled: false (ISS-002) — one-line fix, operator's call",
+        "variant": "destructive"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "talk-to-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk-heading",
+        "azzle-card",
+        "sparkle-card"
+      ]
+    },
+    "talk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h2"
+      }
+    },
+    "azzle-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "azzle-header",
+        "azzle-detail1",
+        "azzle-detail2",
+        "azzle-action"
+      ]
+    },
+    "azzle-header": {
+      "type": "Text",
+      "props": {
+        "text": "AzzleAI",
+        "variant": "lead"
+      }
+    },
+    "azzle-detail1": {
+      "type": "Badge",
+      "props": {
+        "text": "BUILDING",
+        "variant": "secondary"
+      }
+    },
+    "azzle-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped aeon GitHub-Actions scaffolding 07-09. Building an AMM for agentic labor on Base. Score: 15. Warmest lead on the board.",
+        "variant": "body"
+      }
+    },
+    "azzle-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ DM the ECOSYSTEM.md spot + TG",
+        "variant": "caption"
+      }
+    },
+    "sparkle-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sparkle-header",
+        "sparkle-detail"
+      ]
+    },
+    "sparkle-header": {
+      "type": "Text",
+      "props": {
+        "text": "sparklewarefun",
+        "variant": "lead"
+      }
+    },
+    "sparkle-detail": {
+      "type": "Text",
+      "props": {
+        "text": "ACP live on virtuals.io, posted again, still not listed by us. List it, it's free.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "decide-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide-heading",
+        "mirofish-alert",
+        "context-stack"
+      ]
+    },
+    "decide-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "mirofish-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "MiroFish",
+        "message": "$4M raised, 68K★, #1 trending this week. Built on the sim engine we forked, ported to english, rebuilt because their execution was vaporware.",
+        "type": "warning"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-para1",
+        "context-para2",
+        "recommendation-alert"
+      ]
+    },
+    "context-para1": {
+      "type": "Text",
+      "props": {
+        "text": "The wire's filling with \"miroshark is a mirofish clone.\" Don't fight the lineage — own it.",
+        "variant": "body"
+      }
+    },
+    "context-para2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "para2-line1",
+        "para2-line2",
+        "para2-line3"
+      ]
+    },
+    "para2-line1": {
+      "type": "Text",
+      "props": {
+        "text": "One @miroshark_ post:",
+        "variant": "muted"
+      }
+    },
+    "para2-line2": {
+      "type": "Text",
+      "props": {
+        "text": "Yeah it started as a mirofish fork. Then i shipped the version that actually runs — $1, 10min, x402-native, belief drift + AMM, public traces.",
+        "variant": "body"
+      }
+    },
+    "para2-line3": {
+      "type": "Text",
+      "props": {
+        "text": "And here's the one thing $4M didn't buy them: a seed×model robustness audit (sim-audit, 15/16). Their attention window, our receipt.",
+        "variant": "body"
+      }
+    },
+    "recommendation-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "Post sim-audit while they're trending.",
+        "type": "success"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "appendix-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "appendix-heading",
+        "source1",
+        "source2",
+        "source3",
+        "source4",
+        "appendix-note"
+      ]
+    },
+    "appendix-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h3"
+      }
+    },
+    "source1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s1-link",
+        "s1-text"
+      ]
+    },
+    "s1-link": {
+      "type": "Link",
+      "props": {
+        "label": "output/articles/bd-radar-2026-07-10.md",
+        "href": "output/articles/bd-radar-2026-07-10.md"
+      }
+    },
+    "s1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Pipeline 212, 6 net-new (building×2, mentioning×1, forking×3). Top: AzzleAI (building, AMM for agentic labor on Base, score 15) · nazimahmed (CoinHeroFun listed $AEON in a token network, 13♥/4RT) · aeonbookai/aeonTemplate (org fork, +2.6KB own content). Escalation watch: freezerboi, Aluma, Marr554, dan-and/MiroShark all pushed 07-09/10.",
+        "variant": "caption"
+      }
+    },
+    "source2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s2-link",
+        "s2-text"
+      ]
+    },
+    "s2-link": {
+      "type": "Link",
+      "props": {
+        "label": "memory/logs/2026-07-10.md → mention-radar",
+        "href": "memory/logs/2026-07-10.md"
+      }
+    },
+    "s2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Headline: MiroFish blast — 68,292★, $4M raised in 24h, #1 trending, wall-to-wall coverage; one article chain mischaracterizes MiroShark as \"built on MiroFish.\" Also: OpenAgentSkill.com unclaimed Aeon listing (quality 85/100). Stars: aeon 573★ (+2), miroshark 1,358★ (+2).",
+        "variant": "caption"
+      }
+    },
+    "source3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s3-link",
+        "s3a-text",
+        "s3b-text",
+        "s3c-text"
+      ]
+    },
+    "s3-link": {
+      "type": "Link",
+      "props": {
+        "label": "memory/logs/2026-07-10.md → fetch-tweets",
+        "href": "memory/logs/2026-07-10.md"
+      }
+    },
+    "s3a-text": {
+      "type": "Text",
+      "props": {
+        "text": "AzzleAI aeon-fork scaffolding (4♥/2RT)",
+        "variant": "caption"
+      }
+    },
+    "s3b-text": {
+      "type": "Text",
+      "props": {
+        "text": "nazimahmed token-network listing (14♥/4RT)",
+        "variant": "caption"
+      }
+    },
+    "s3c-text": {
+      "type": "Text",
+      "props": {
+        "text": "lone $a3 governance-FUD tweet (0 amplification)",
+        "variant": "caption"
+      }
+    },
+    "source4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "s4a",
+        "s4b",
+        "s4c"
+      ]
+    },
+    "s4a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s4a-link",
+        "s4a-text1",
+        "s4a-text2"
+      ]
+    },
+    "s4a-link": {
+      "type": "Link",
+      "props": {
+        "label": "memory/logs/2026-07-10.md → idea-validator",
+        "href": "memory/logs/2026-07-10.md"
+      }
+    },
+    "s4a-text1": {
+      "type": "Text",
+      "props": {
+        "text": "harness-not-model 16/16 (first perfect score, Zuck-HN catalyst, pure content, ship the raw-vs-harnessed trace)",
+        "variant": "caption"
+      }
+    },
+    "s4a-text2": {
+      "type": "Text",
+      "props": {
+        "text": "sim-audit 15/16 (seed×model robustness receipt — answers MiroFish's missing audit, handoff to miroshark)",
+        "variant": "caption"
+      }
+    },
+    "s4b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s4b-link",
+        "s4b-text"
+      ]
+    },
+    "s4b-link": {
+      "type": "Link",
+      "props": {
+        "label": "output/articles/sim-watch-2026-07-05.md",
+        "href": "output/articles/sim-watch-2026-07-05.md"
+      }
+    },
+    "s4b-text": {
+      "type": "Text",
+      "props": {
+        "text": "Scaling paper (arxiv 2607.02464) confirms \"sim improves with scale\" in print; public-private belief-split paper (2607.02507) = a belief-drift primitive to adopt. New category seeds all ≤5★, none a threat yet.",
+        "variant": "caption"
+      }
+    },
+    "s4c": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s4c-link",
+        "s4c-text"
+      ]
+    },
+    "s4c-link": {
+      "type": "Link",
+      "props": {
+        "label": "memory/topics/product-pulse-state.json",
+        "href": "memory/topics/product-pulse-state.json"
+      }
+    },
+    "s4c-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stale, last_run 2026-06-25 (aeon 549★, miroshark 1,333★, @aeonframework 151,544, @miroshark_ 2,130). Dark since 06-25 → ISS-002.",
+        "variant": "caption"
+      }
+    },
+    "appendix-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Note",
+        "message": "STATE is last-known only — product-pulse enabled: false in aeon.yml since ~06-29 (ISS-002, filed 07-10, medium). Star counts survive because mention-radar/fetch-tweets pull them independently; X-follower deltas and aeon-wc health are dark until re-enable. Yesterday's decide (miroshark buyback thread) not repeated. MiroFish figures quoted from our own mention-radar sweep — verify the $4M/68K before citing publicly.",
+        "type": "info"
+      }
+    }
+  }
+}
