@@ -1,0 +1,390 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-11"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-1",
+        "sep-1",
+        "opp-2",
+        "sep-2",
+        "opp-3",
+        "sep-3",
+        "opp-4",
+        "sep-4",
+        "opp-5",
+        "sep-5",
+        "aging-alert"
+      ]
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-1-heading",
+        "opp-1-timing",
+        "opp-1-context",
+        "opp-1-link",
+        "opp-1-type",
+        "opp-1-draft-label",
+        "opp-1-draft"
+      ]
+    },
+    "opp-1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@tryskopos",
+        "level": "h3"
+      }
+    },
+    "opp-1-timing": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago — pushed skopos-aeon fork today (+4850 bytes own DeFi stack); @aeonframework spotlit them 07-10 (28♥/5RT)",
+        "variant": "body"
+      }
+    },
+    "opp-1-context": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-chain DeFi on aeon, 10+ chains",
+        "variant": "body"
+      }
+    },
+    "opp-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/tryskopos",
+        "href": "https://x.com/tryskopos"
+      }
+    },
+    "opp-1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X DM (from @aeonframework)",
+        "variant": "default"
+      }
+    },
+    "opp-1-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "lead"
+      }
+    },
+    "opp-1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "saw you push skopos-aeon today — 4800+ bytes of your own DeFi stack on top of aeon, that's the move. want to make it official in our ECOSYSTEM.md and jump in the builder TG?",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-2-heading",
+        "opp-2-timing",
+        "opp-2-context",
+        "opp-2-type",
+        "opp-2-draft-label",
+        "opp-2-draft"
+      ]
+    },
+    "opp-2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@miroshark_ — own the MiroFish lineage",
+        "level": "h3"
+      }
+    },
+    "opp-2-timing": {
+      "type": "Text",
+      "props": {
+        "text": "1 day ago",
+        "variant": "muted"
+      }
+    },
+    "opp-2-context": {
+      "type": "Text",
+      "props": {
+        "text": "\"miroshark is a mirofish clone\" misattribution spreading as MiroFish hits #1 trending / $4M raised / 68K★; war-room directive today to own it proactively, not defensively",
+        "variant": "body"
+      }
+    },
+    "opp-2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X post (from @miroshark_)",
+        "variant": "default"
+      }
+    },
+    "opp-2-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "lead"
+      }
+    },
+    "opp-2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "started as a mirofish fork. then i shipped the version that runs: $1 / 10min / x402-native. seed×model sim-audit: 15/16. simulations everywhere 🦈",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-3-heading",
+        "opp-3-timing",
+        "opp-3-context",
+        "opp-3-link",
+        "opp-3-type",
+        "opp-3-draft-label",
+        "opp-3-draft"
+      ]
+    },
+    "opp-3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@sparklewarefun",
+        "level": "h3"
+      }
+    },
+    "opp-3-timing": {
+      "type": "Text",
+      "props": {
+        "text": "2 days ago",
+        "variant": "muted"
+      }
+    },
+    "opp-3-context": {
+      "type": "Text",
+      "props": {
+        "text": "ACP live on virtuals.io, tokenizing the aeon skill registry as a hireable agent; war-room 07-10 + 07-11 both flag as \"still unlisted by us\"",
+        "variant": "body"
+      }
+    },
+    "opp-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/sparklewarefun/status/2074927991826894894",
+        "href": "https://x.com/sparklewarefun/status/2074927991826894894"
+      }
+    },
+    "opp-3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "default"
+      }
+    },
+    "opp-3-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "lead"
+      }
+    },
+    "opp-3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "the aeon skill registry tokenized as an agent that can be hired — that's exactly the thesis. listing in ECOSYSTEM.md. what's the ACP contract address?",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-4-heading",
+        "opp-4-timing",
+        "opp-4-context",
+        "opp-4-link",
+        "opp-4-type",
+        "opp-4-draft-label",
+        "opp-4-draft"
+      ]
+    },
+    "opp-4-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "github:dan-and/issue-240",
+        "level": "h3"
+      }
+    },
+    "opp-4-timing": {
+      "type": "Text",
+      "props": {
+        "text": "5 days ago",
+        "variant": "muted"
+      }
+    },
+    "opp-4-context": {
+      "type": "Text",
+      "props": {
+        "text": "MiroShark #240: air-gapped HuggingFace model support; most active non-core MiroShark operator (38d fork, 4 issues filed)",
+        "variant": "body"
+      }
+    },
+    "opp-4-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aaronjmars/MiroShark/issues/240",
+        "href": "https://github.com/aaronjmars/MiroShark/issues/240"
+      }
+    },
+    "opp-4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "default"
+      }
+    },
+    "opp-4-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "lead"
+      }
+    },
+    "opp-4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "solid ask — air-gapped / enterprise HuggingFace deployments are real. add `model_path: /path/to/local` in your config and it bypasses the API call. if you hit issues with a specific model family, drop the error here and i'll walk through it.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-5-heading",
+        "opp-5-timing",
+        "opp-5-context",
+        "opp-5-link",
+        "opp-5-type",
+        "opp-5-draft-label",
+        "opp-5-draft"
+      ]
+    },
+    "opp-5-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Marr554/aeon",
+        "level": "h3"
+      }
+    },
+    "opp-5-timing": {
+      "type": "Text",
+      "props": {
+        "text": "16 days continuous pushing",
+        "variant": "muted"
+      }
+    },
+    "opp-5-context": {
+      "type": "Text",
+      "props": {
+        "text": "16d active fork, in escalation watch since 07-06, never confirmed contacted despite prior drafts",
+        "variant": "body"
+      }
+    },
+    "opp-5-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/Marr554/aeon",
+        "href": "https://github.com/Marr554/aeon"
+      }
+    },
+    "opp-5-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "default"
+      }
+    },
+    "opp-5-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "lead"
+      }
+    },
+    "opp-5-draft": {
+      "type": "Text",
+      "props": {
+        "text": "you've been pushing for 16 days straight — what are you building? if you want early access to new skills or want the fork in ECOSYSTEM.md, just say the word.",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aging-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Aging Opportunities",
+        "message": "Some opps aging — act or drop (dan-and #240: 5d, Marr554: 16d continuous)",
+        "type": "warning"
+      }
+    }
+  }
+}
