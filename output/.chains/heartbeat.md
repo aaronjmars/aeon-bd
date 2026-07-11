@@ -1,10 +1,12 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All P0–P3 checks clean. No notification needed. Updated `docs/status.md` with the latest run timestamps (idea-validator 18:29 UTC, heartbeat 17:55 UTC), ISS-002 still open at medium severity, overall 🟢 OK. Log appended.
-
 ## Summary
 
-- **P0–P3:** All clear. 14 enabled skills, all `success`, none stuck or degraded.
-- **ISS-002** (product-pulse disabled) already deduped from earlier today — no re-notify.
-- **`docs/status.md`** regenerated: 🟢 OK, 14 skills in table, ISS-002 in open issues, next run bd-radar 07:20 UTC.
-- **`memory/logs/2026-07-10.md`** updated with `mode: ambient` entry for this run.
+- **P0 — clean.** All 14 enabled skills show `last_status: success`. No stuck dispatches, no consecutive failures ≥ 3, no chronic failures. Heartbeat self-check OK (~12h since last success).
+- **P1 — clean.** No open PRs. GH issue #30 is a machine-managed health thread (no `urgent` label).
+- **P2 — clean.** ISS-002 (product-pulse disabled, medium) deduped — already logged in yesterday's heartbeat runs.
+- **P3 — clean.** All 14 enabled skills have cron-state entries, none >2× their schedule interval stale.
+- **Token pulse:** no token-report files — section omitted.
+- **No notification sent** (nothing new to surface).
+- **Wrote `docs/status.md`** — 🟢 OK, 14 skills, next run: engagement-act at 09:30 UTC.
+- **Appended log** to `memory/logs/2026-07-11.md` under `### heartbeat`.
