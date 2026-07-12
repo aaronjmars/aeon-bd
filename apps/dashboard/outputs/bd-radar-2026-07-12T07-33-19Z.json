@@ -1,0 +1,286 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar 07-12",
+        "description": "three new building-class leads today ⭐🦈"
+      },
+      "children": [
+        "stack_leads"
+      ]
+    },
+    "stack_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "paperclipai_item",
+        "sep1",
+        "sparkleware_item",
+        "sep2",
+        "antfleet_item",
+        "sep3",
+        "jetbrains_item"
+      ]
+    },
+    "paperclipai_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "paperclipai_h",
+        "paperclipai_body",
+        "paperclipai_tags",
+        "paperclipai_action"
+      ]
+    },
+    "paperclipai_h": {
+      "type": "Heading",
+      "props": {
+        "text": "paperclipai",
+        "level": "h3"
+      }
+    },
+    "paperclipai_body": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped \"Aeon Intelligence\" as the canonical company template inside their 30K-star framework — 32 aeon skills, full autonomous company running on GitHub Actions. This is the use case.",
+        "variant": "body"
+      }
+    },
+    "paperclipai_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag_use_case",
+        "tag_30k"
+      ]
+    },
+    "tag_use_case": {
+      "type": "Badge",
+      "props": {
+        "text": "Use case validated",
+        "variant": "secondary"
+      }
+    },
+    "tag_30k": {
+      "type": "Badge",
+      "props": {
+        "text": "30K-star framework",
+        "variant": "secondary"
+      }
+    },
+    "paperclipai_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ DM them: co-announce + ECOSYSTEM.md",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sparkleware_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sparkleware_h",
+        "sparkleware_body",
+        "sparkleware_tags",
+        "sparkleware_action"
+      ]
+    },
+    "sparkleware_h": {
+      "type": "Heading",
+      "props": {
+        "text": "sparkleware",
+        "level": "h3"
+      }
+    },
+    "sparkleware_body": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped proof-of-loadout — compose an aeon loadout, route packs through phylax audit, preflight a miroshark sim, all in one skill. \"Agents pay for their own compute.\" The whole thesis in 80 lines.",
+        "variant": "body"
+      }
+    },
+    "sparkleware_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag_loadout",
+        "tag_thesis"
+      ]
+    },
+    "tag_loadout": {
+      "type": "Badge",
+      "props": {
+        "text": "Proof-of-loadout",
+        "variant": "secondary"
+      }
+    },
+    "tag_thesis": {
+      "type": "Badge",
+      "props": {
+        "text": "Thesis validated",
+        "variant": "secondary"
+      }
+    },
+    "sparkleware_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Spotlight it",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "antfleet_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "antfleet_h",
+        "antfleet_body",
+        "antfleet_tags",
+        "antfleet_action"
+      ]
+    },
+    "antfleet_h": {
+      "type": "Heading",
+      "props": {
+        "text": "AntFleet",
+        "level": "h3"
+      }
+    },
+    "antfleet_body": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped bench-miroshark — two-model security review methodology applied to miroshark. They're now cross-product on both sides.",
+        "variant": "body"
+      }
+    },
+    "antfleet_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag_bench",
+        "tag_cross_product"
+      ]
+    },
+    "tag_bench": {
+      "type": "Badge",
+      "props": {
+        "text": "Bench-miroshark",
+        "variant": "secondary"
+      }
+    },
+    "tag_cross_product": {
+      "type": "Badge",
+      "props": {
+        "text": "Cross-product",
+        "variant": "secondary"
+      }
+    },
+    "antfleet_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ DM: What did the bench find?",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "jetbrains_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "jetbrains_h",
+        "jetbrains_body",
+        "jetbrains_tags",
+        "jetbrains_action"
+      ]
+    },
+    "jetbrains_h": {
+      "type": "Heading",
+      "props": {
+        "text": "JetBrains PyCharm Blog",
+        "level": "h3"
+      }
+    },
+    "jetbrains_body": {
+      "type": "Text",
+      "props": {
+        "text": "June blog post listed aeon in \"Top Agentic Frameworks 2026.\" Millions of devs audience.",
+        "variant": "body"
+      }
+    },
+    "jetbrains_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag_pr_opp",
+        "tag_reach"
+      ]
+    },
+    "tag_pr_opp": {
+      "type": "Badge",
+      "props": {
+        "text": "PR opportunity",
+        "variant": "secondary"
+      }
+    },
+    "tag_reach": {
+      "type": "Badge",
+      "props": {
+        "text": "Millions of devs",
+        "variant": "secondary"
+      }
+    },
+    "jetbrains_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Worth a quote from @aeonframework",
+        "variant": "lead"
+      }
+    }
+  }
+}

@@ -1,17 +1,11 @@
-ℹ️ BD Radar 07-11
+ℹ️ BD Radar 07-12
 
-## BD Radar — 2026-07-11 ⭐🦈
+three new building-class leads today ⭐🦈
 
-**Skopos is building on aeon ⭐** — and @aeonframework already spotlit them.
+**paperclipai** shipped "Aeon Intelligence" as the canonical company template inside their 30K-star framework — 32 aeon skills, full autonomous company running on GitHub Actions. this is the use case. DM them: co-announce + ECOSYSTEM.md.
 
-[@tryskopos](https://x.com/tryskopos) shipped an agentic cross-chain DeFi platform on top of the framework: tx-explain, token-safety, market reads (defi/narrative/fear-greed index), x402 pulse skill. 10+ chains — not just Base. Their fork ([Svector-anu/skopos-aeon](https://github.com/Svector-anu/skopos-aeon)) has a full custom skill set + committed DeFi data (DEX pools, fees, CoinGecko) and was pushed this morning.
+**sparkleware** dropped proof-of-loadout — compose an aeon loadout, route packs through phylax audit, preflight a miroshark sim, all in one skill. "agents pay for their own compute." the whole thesis in 80 lines. spotlight it.
 
-The @aeonframework account spotlit them yesterday (28♥/5RT). The window is open.
+**AntFleet** shipped bench-miroshark — two-model security review methodology applied to miroshark. they're now cross-product on both sides. DM: what did the bench find?
 
-**Move:** DM @tryskopos — the spotlight happened, make it official. ECOSYSTEM.md entry + TG invite + co-post the cross-chain angle.
-
----
-
-Also: **dan-and filed MiroShark issue #240** 🦈 — "offline huggingface-models for air-gapped environments." This is their 4th signal in a month (38d fork + issues #187, #193, now #240). They're running MiroShark in production and hitting the cloud dependency wall. Reply on #240 with a local config path — this converts to a deep integration partner.
-
-[Full digest →](../output/articles/bd-radar-2026-07-11.md)
+also: JetBrains PyCharm blog (June) listed aeon in "Top Agentic Frameworks 2026." millions of devs, worth a quote from @aeonframework.

@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-11T07:59:17Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-prioritized leads with specific details and actionable next steps; strong signal filtering and context around market timing.",
+  "last_analyzed": "2026-07-12T07:33:19Z",
+  "quality_score": 5,
+  "assessment": "5 net-new leads with insightful categorization (first third-party 'company on Aeon', cross-product integration thesis), specific technical depth, actionable moves for each lead, mature tracking showing momentum (176→237 leads).",
   "flags": [],
-  "avg_score": 4.13,
+  "avg_score": 4.17,
   "history": [
-    {
-      "date": "2026-06-11",
-      "score": 4
-    },
     {
       "date": "2026-06-12",
       "score": 4
@@ -125,6 +121,10 @@
     {
       "date": "2026-07-11",
       "score": 4
+    },
+    {
+      "date": "2026-07-12",
+      "score": 5
     }
   ]
 }
