@@ -1,0 +1,379 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Launch Radar — 2026-07-12"
+      },
+      "children": [
+        "stats_row",
+        "separator1",
+        "section_open",
+        "separator2",
+        "section_prior"
+      ]
+    },
+    "stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_scanned",
+        "stat_competition",
+        "stat_open"
+      ]
+    },
+    "stat_scanned": {
+      "type": "Stat",
+      "props": {
+        "label": "Ideas scanned",
+        "value": "15"
+      }
+    },
+    "stat_competition": {
+      "type": "Stat",
+      "props": {
+        "label": "Active competition",
+        "value": "0"
+      }
+    },
+    "stat_open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still wide open",
+        "value": "5"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_open": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_open",
+        "idea_1",
+        "idea_2",
+        "idea_3",
+        "idea_4",
+        "idea_5"
+      ]
+    },
+    "heading_open": {
+      "type": "Heading",
+      "props": {
+        "text": "Still Wide Open (No Launches Found)",
+        "level": "h2"
+      }
+    },
+    "idea_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "idea_1_title",
+        "idea_1_desc",
+        "idea_1_score"
+      ]
+    },
+    "idea_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "harness-not-model",
+        "level": "h3"
+      }
+    },
+    "idea_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Nobody ships the weekly raw-vs-through-aeon trace series. Zuck \"slower than expected\" catalyst is live. Cheapest execution, pure content. Ship this week.",
+        "variant": "body"
+      }
+    },
+    "idea_1_score": {
+      "type": "Progress",
+      "props": {
+        "value": 16,
+        "max": 16,
+        "label": "Score: 16/16"
+      }
+    },
+    "idea_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "idea_2_title",
+        "idea_2_desc",
+        "idea_2_score"
+      ]
+    },
+    "idea_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "model-mirror",
+        "level": "h3"
+      }
+    },
+    "idea_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Nobody productizes model-selection for a grounded sim on your own question in 10 min. Emergence World paper is still the only proof.",
+        "variant": "body"
+      }
+    },
+    "idea_2_score": {
+      "type": "Progress",
+      "props": {
+        "value": 15,
+        "max": 16,
+        "label": "Score: 15/16"
+      }
+    },
+    "idea_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "idea_3_title",
+        "idea_3_desc",
+        "idea_3_score"
+      ]
+    },
+    "idea_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "sim-audit",
+        "level": "h3"
+      }
+    },
+    "idea_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Nobody ships a seed+model robustness audit receipt for social LLM sims. MiroFish ($4M/68K★) has zero audit — this is the moat.",
+        "variant": "body"
+      }
+    },
+    "idea_3_score": {
+      "type": "Progress",
+      "props": {
+        "value": 15,
+        "max": 16,
+        "label": "Score: 15/16"
+      }
+    },
+    "idea_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "idea_4_title",
+        "idea_4_desc",
+        "idea_4_score"
+      ]
+    },
+    "idea_4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "arena-oracle",
+        "level": "h3"
+      }
+    },
+    "idea_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Nobody forward-sims belief drift before a crowd prices a Meta Arena / Polymarket question. Genuinely empty.",
+        "variant": "body"
+      }
+    },
+    "idea_4_score": {
+      "type": "Progress",
+      "props": {
+        "value": 14,
+        "max": 16,
+        "label": "Score: 14/16"
+      }
+    },
+    "idea_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "idea_5_title",
+        "idea_5_desc",
+        "idea_5_score"
+      ]
+    },
+    "idea_5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "compute-price-sim",
+        "level": "h3"
+      }
+    },
+    "idea_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Nobody simulates AI-race narrative drift before traders size bets. Polymarket has live markets ($1.1M/24h), forward-sim is empty.",
+        "variant": "body"
+      }
+    },
+    "idea_5_score": {
+      "type": "Progress",
+      "props": {
+        "value": 11,
+        "max": 16,
+        "label": "Score: 11/16"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_prior": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_prior",
+        "prior_description",
+        "prior_list",
+        "full_report_link"
+      ]
+    },
+    "heading_prior": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Art (Weak Signal, No Breakout)",
+        "level": "h2"
+      }
+    },
+    "prior_description": {
+      "type": "Text",
+      "props": {
+        "text": "Related concepts with weaker competitive positioning:",
+        "variant": "caption"
+      }
+    },
+    "prior_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5",
+        "badge_6",
+        "badge_7",
+        "badge_8",
+        "badge_9",
+        "badge_10"
+      ]
+    },
+    "badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "miroshark-social-world-model",
+        "variant": "outline"
+      }
+    },
+    "badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "proof-of-self-repair",
+        "variant": "outline"
+      }
+    },
+    "badge_3": {
+      "type": "Badge",
+      "props": {
+        "text": "reward-hack-receipt",
+        "variant": "outline"
+      }
+    },
+    "badge_4": {
+      "type": "Badge",
+      "props": {
+        "text": "counterfactual-launch-sim",
+        "variant": "outline"
+      }
+    },
+    "badge_5": {
+      "type": "Badge",
+      "props": {
+        "text": "conway-claim",
+        "variant": "outline"
+      }
+    },
+    "badge_6": {
+      "type": "Badge",
+      "props": {
+        "text": "ambient-aeon",
+        "variant": "outline"
+      }
+    },
+    "badge_7": {
+      "type": "Badge",
+      "props": {
+        "text": "swarm-eval",
+        "variant": "outline"
+      }
+    },
+    "badge_8": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-attest",
+        "variant": "outline"
+      }
+    },
+    "badge_9": {
+      "type": "Badge",
+      "props": {
+        "text": "arena-pack",
+        "variant": "outline"
+      }
+    },
+    "badge_10": {
+      "type": "Badge",
+      "props": {
+        "text": "cloudflare-skill-shop",
+        "variant": "outline"
+      }
+    },
+    "full_report_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Report",
+        "href": "output/articles/launch-radar-2026-07-12.md"
+      }
+    }
+  }
+}

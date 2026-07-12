@@ -195,3 +195,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-12,war-room,claude-opus-4-8,2233,7717,747386,55759
 2026-07-12,engagement-act,claude-sonnet-4-6,10,8522,477390,61511
 2026-07-12,sim-watch,claude-sonnet-4-6,773,16529,930433,80954
+2026-07-12,launch-radar,claude-sonnet-4-6,1262,22595,935164,101984
