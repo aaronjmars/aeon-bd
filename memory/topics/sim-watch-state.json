@@ -41,7 +41,20 @@
     "repo:Disarrayed-agglutination903/multi-agent-game-engine",
     "repo:markjkropf/voxelcivitas",
     "url:tencent-hyworld-2-open-source",
-    "url:boundless-world-model-jun2026"
+    "url:boundless-world-model-jun2026",
+    "repo:servetkosem/BTC-SOL-ETH-S-COINS-NAME-N-B-NANCE-MARKET",
+    "repo:Kaka-cheaper/Polisim",
+    "repo:raaylucifer1-netizen/OIST-ACM-AOC-TechRegiment",
+    "repo:juanmmm21/the-autonomous-enclave",
+    "repo:KasraSedghi/Project-Ruba",
+    "repo:nasserkassioui333-sudo/AgentGraph",
+    "repo:zjupump/Agent-Hangzhou",
+    "arxiv:2607.08768",
+    "url:acl2026-llm-simulate-multi-turn-human",
+    "repo:agproproducts-web/MiroShark",
+    "repo:Syanhlu/MiroShark",
+    "repo:deepmindru-afk/MiroShark",
+    "repo:kevinpinscoe/MiroShark"
   ],
   "cohort": [
     "GoogleCloudPlatform/race-condition",
@@ -58,6 +71,8 @@
     "Shreyas-V06/AgentCity",
     "JiaxinChen-Annie/SURF-0245-Multi-Agent-Social-Simulation-for-Public-Opinion-Governance",
     "shizhigu/chronicle",
-    "8kugames/Cyber-Jianghu"
+    "8kugames/Cyber-Jianghu",
+    "Kaka-cheaper/Polisim",
+    "servetkosem/BTC-SOL-ETH-S-COINS-NAME-N-B-NANCE-MARKET"
   ]
 }
