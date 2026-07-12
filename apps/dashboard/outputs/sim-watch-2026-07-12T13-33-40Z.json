@@ -1,0 +1,140 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "sim-watch 🦈 · 2026-07-12"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "section_mirofork",
+        "sep2",
+        "section_polisim",
+        "sep3",
+        "section_forks",
+        "sep4",
+        "digest_link"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "two flags this week",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_mirofork": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_mirofork",
+        "text_mirofork"
+      ]
+    },
+    "heading_mirofork": {
+      "type": "Heading",
+      "props": {
+        "text": "servetkosem MiroFish Fork",
+        "level": "h3"
+      }
+    },
+    "text_mirofork": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped an English fork of MiroFish — Neo4j + Ollama local stack, billed as \"offline multi-agent simulation & prediction engine.\" Same ancestor as Miroshark, different bet: went local-first, no AMM, no X/Reddit social layer, no x402. Someone found the MiroFish lineage worth rebuilding — thesis validated. Their path is the opposite of ours: local, closed, no market layer. Miroshark's edge holds: cloud-native, real X/Reddit personas, AMM belief drift, director mode, $1/<10min, x402-native. Watch for stars/community traction."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_polisim": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_polisim",
+        "text_polisim_1",
+        "text_polisim_2",
+        "text_polisim_3"
+      ]
+    },
+    "heading_polisim": {
+      "type": "Heading",
+      "props": {
+        "text": "Polisim (Kaka-cheaper, 3★)",
+        "level": "h3"
+      }
+    },
+    "text_polisim_1": {
+      "type": "Text",
+      "props": {
+        "text": "Is the closer structural shot: YAML-defined social sims with mid-simulation intervention — overlaps directly with director mode."
+      }
+    },
+    "text_polisim_2": {
+      "type": "Text",
+      "props": {
+        "text": "Missing: economic simulation, X/Reddit grounding, cost floor."
+      }
+    },
+    "text_polisim_3": {
+      "type": "Text",
+      "props": {
+        "text": "Counter move: own \"counterfactual branching = git for strategic decisions\" publicly before they get there. Ship that framing."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_forks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_forks",
+        "text_forks"
+      ]
+    },
+    "heading_forks": {
+      "type": "Heading",
+      "props": {
+        "text": "MiroShark Fork Activity",
+        "level": "h3"
+      }
+    },
+    "text_forks": {
+      "type": "Text",
+      "props": {
+        "text": "4 direct MiroShark forks pushed this week including one labeled \"vng adaptation\" — fork velocity is high, ecosystem is moving."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "digest_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest",
+        "href": "output/articles/sim-watch-2026-07-12.md",
+        "source": "sim-watch"
+      }
+    }
+  }
+}
