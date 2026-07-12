@@ -1,30 +1,28 @@
-ℹ️ Engagement Act — 2026-07-11
+ℹ️ Engagement Act — 2026-07-12
 
-*Engagement Act — 2026-07-11*
+**Engagement Act — 2026-07-12**
 
-*1. @tryskopos* (0 days ago) — pushed skopos-aeon fork today (+4850 bytes own DeFi stack); @aeonframework spotlit them 07-10 (28♥/5RT); cross-chain DeFi on aeon, 10+ chains
-link: https://x.com/tryskopos
-type: X DM (from @aeonframework)
-draft: "saw you push skopos-aeon today — 4800+ bytes of your own DeFi stack on top of aeon, that's the move. want to make it official in our ECOSYSTEM.md and jump in the builder TG?"
+**1. paperclipai** (0 days ago) — 30K★ Paperclip AI shipped "Aeon Intelligence" as the canonical company template, 32 Aeon skills baked in — biggest third-party platform adoption yet
+link: https://github.com/paperclipai/companies
+type: X DM
+draft: "just saw Aeon Intelligence in companies — 32 skills, the full company template. this is 'agents as companies' playing out at 30K stars. want to co-announce + get you in ECOSYSTEM.md? ⭐"
 
-*2. @miroshark_ — own the MiroFish lineage* (1 day ago) — "miroshark is a mirofish clone" misattribution spreading as MiroFish hits #1 trending / $4M raised / 68K★; war-room directive today to own it proactively, not defensively
+**2. @0xLiamVisionary** (0 days ago) — second deep integration with v0.1, coined "Zero Human Companies on AEON" + @TheHivemindOS framing, 29♥/12RT
 link: no link found
-type: X post (from @miroshark_)
-draft: "started as a mirofish fork. then i shipped the version that runs: $1 / 10min / x402-native. seed×model sim-audit: 15/16. simulations everywhere 🦈"
-
-*3. @sparklewarefun* (2 days ago) — ACP live on virtuals.io, tokenizing the aeon skill registry as a hireable agent; war-room 07-10 + 07-11 both flag as "still unlisted by us"
-link: https://x.com/sparklewarefun/status/2074927991826894894
 type: X reply
-draft: "the aeon skill registry tokenized as an agent that can be hired — that's exactly the thesis. listing in ECOSYSTEM.md. what's the ACP contract address?"
+draft: "zero human companies on AEON ⭐ — that's the thesis. second integration on v0.1. DM me, this belongs in ECOSYSTEM.md"
 
-*4. github:dan-and/issue-240* (5 days ago) — MiroShark #240: air-gapped HuggingFace model support; most active non-core MiroShark operator (38d fork, 4 issues filed)
-link: https://github.com/aaronjmars/MiroShark/issues/240
+**3. @MrDegenWolf** (0 days ago) — bullish bottom call for Base projects incl $miroshark, 64♥/6RT — high engagement, public cosign
+link: no link found
+type: X reply
+draft: "catching $miroshark bottoms before the sim audit drops 🦈"
+
+**4. AntFleet/bench-miroshark** (0 days ago) — known builder shipped bench-miroshark: two-model security methodology applied to MiroShark
+link: https://github.com/AntFleet/bench-miroshark
 type: GitHub comment
-draft: "solid ask — air-gapped / enterprise HuggingFace deployments are real. add `model_path: /path/to/local` in your config and it bypasses the API call. if you hit issues with a specific model family, drop the error here and i'll walk through it."
+draft: "nice — what models did you run? curious what the two-model methodology surfaced on the swarm dynamics 🦈"
 
-*5. Marr554/aeon* (16 days continuous pushing) — 16d active fork, in escalation watch since 07-06, never confirmed contacted despite prior drafts
-link: https://github.com/Marr554/aeon
+**5. sparkleware/proof-of-loadout** (0 days ago) — 10th standalone skill from sparkleware: cross-product Aeon×MiroShark×Phylax in one skill, "agents pay for their own compute"
+link: https://github.com/sparkleware/proof-of-loadout
 type: GitHub comment
-draft: "you've been pushing for 16 days straight — what are you building? if you want early access to new skills or want the fork in ECOSYSTEM.md, just say the word."
-
-some opps aging — act or drop (dan-and #240: 5d, Marr554: 16d continuous)
+draft: "proof-of-loadout is the canonical integration — aeon × miroshark × phylax in one skill, agents paying for their own compute. 10th skill from you. want to make this the ECOSYSTEM.md reference? ⭐🦈"
