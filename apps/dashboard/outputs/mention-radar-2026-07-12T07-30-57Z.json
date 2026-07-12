@@ -1,0 +1,363 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-07-12 — AEON & Miroshark social signals"
+      },
+      "children": [
+        "section-aeon",
+        "sep1",
+        "section-miroshark",
+        "sep2",
+        "coverage-section",
+        "sep3",
+        "engagement-section"
+      ]
+    },
+    "section-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aeon",
+        "aeon-item"
+      ]
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-tweet",
+        "aeon-metadata"
+      ]
+    },
+    "aeon-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xLiamVisionary",
+        "handle": "@0xLiamVisionary",
+        "text": "as @aeonframework continues to grow, I couldn't help doing a second deep integration for their new v0.1. Zero Human Companies can now run on AEON. Choose a workspace + skill. AEON handles recurring work. @TheHivemindOS keeps the company controls.",
+        "likes": 29,
+        "retweets": 12
+      }
+    },
+    "aeon-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-tags",
+        "aeon-replies",
+        "aeon-link"
+      ]
+    },
+    "aeon-tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-integration",
+        "badge-discovery"
+      ]
+    },
+    "badge-integration": {
+      "type": "Badge",
+      "props": {
+        "text": "Integration",
+        "variant": "default"
+      }
+    },
+    "badge-discovery": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "outline"
+      }
+    },
+    "aeon-replies": {
+      "type": "Text",
+      "props": {
+        "text": "6 replies",
+        "variant": "caption"
+      }
+    },
+    "aeon-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/0xLiamVisionary/status/2075998867913609351"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-miroshark",
+        "miroshark-item"
+      ]
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-tweet",
+        "miroshark-metadata"
+      ]
+    },
+    "miroshark-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MrDegenWolf",
+        "handle": "@MrDegenWolf",
+        "text": "i truly believe we're at the absolute bottom for the biggest projects on @base … $bnkr $edel $lfi $drb $aeon $miroshark",
+        "likes": 64,
+        "retweets": 6
+      }
+    },
+    "miroshark-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-tags",
+        "miroshark-replies",
+        "miroshark-link"
+      ]
+    },
+    "miroshark-tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-bullish",
+        "badge-sentiment"
+      ]
+    },
+    "badge-bullish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish bottom call",
+        "variant": "secondary"
+      }
+    },
+    "badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Market sentiment",
+        "variant": "default"
+      }
+    },
+    "miroshark-replies": {
+      "type": "Text",
+      "props": {
+        "text": "13 replies",
+        "variant": "caption"
+      }
+    },
+    "miroshark-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/MrDegenWolf/status/2075814657822978482"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "coverage-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "coverage-heading",
+        "coverage-quiet",
+        "coverage-frameworks",
+        "coverage-noise"
+      ]
+    },
+    "coverage-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Coverage Status",
+        "level": "h3"
+      }
+    },
+    "coverage-quiet": {
+      "type": "Alert",
+      "props": {
+        "title": "Quiet",
+        "message": "Reddit / HN / Product Hunt — no new external posts this cycle",
+        "type": "info"
+      }
+    },
+    "coverage-frameworks": {
+      "type": "Text",
+      "props": {
+        "text": "@AEONFRAMEWORK & @MIROSHARK_ mentions covered above in main tweets",
+        "variant": "caption"
+      }
+    },
+    "coverage-noise": {
+      "type": "Text",
+      "props": {
+        "text": "@rnadhg \"they're dead\" at 0 engagement — noise",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement-heading",
+        "engagement-opp1",
+        "engagement-opp2"
+      ]
+    },
+    "engagement-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Engagement Opportunities",
+        "level": "h2"
+      }
+    },
+    "engagement-opp1": {
+      "type": "Card",
+      "props": {
+        "title": "@0xLiamVisionary — Second Integration / Zero Human Companies Framing"
+      },
+      "children": [
+        "opp1-desc",
+        "opp1-context",
+        "opp1-opportunity",
+        "opp1-action"
+      ]
+    },
+    "opp1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Second integration with v0.1, coined \"Zero Human Companies\" framing on top of AEON + @TheHivemindOS.",
+        "variant": "body"
+      }
+    },
+    "opp1-context": {
+      "type": "Text",
+      "props": {
+        "text": "Metrics: 29♥ / 12RT",
+        "variant": "caption"
+      }
+    },
+    "opp1-opportunity": {
+      "type": "Text",
+      "props": {
+        "text": "Real organic pull, not just a tag. This is the \"agents as companies\" thesis landing in the wild.",
+        "variant": "body"
+      }
+    },
+    "opp1-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Recommended Action",
+        "message": "Reply and claim the framing before someone else does.",
+        "type": "success"
+      }
+    },
+    "engagement-opp2": {
+      "type": "Card",
+      "props": {
+        "title": "@MrDegenWolf — Base Coins Bottom Call"
+      },
+      "children": [
+        "opp2-desc",
+        "opp2-context",
+        "opp2-opportunity",
+        "opp2-action"
+      ]
+    },
+    "opp2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "64♥ \"absolute bottom\" Base coins thread listing $miroshark alongside $bnkr, $edel, $lfi, $drb.",
+        "variant": "body"
+      }
+    },
+    "opp2-context": {
+      "type": "Text",
+      "props": {
+        "text": "Metrics: 64♥ / 6RT / 13 replies",
+        "variant": "caption"
+      }
+    },
+    "opp2-opportunity": {
+      "type": "Text",
+      "props": {
+        "text": "Thread has legs.",
+        "variant": "body"
+      }
+    },
+    "opp2-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Recommended Action",
+        "message": "Drop the v0.1 + x402 buyback receipt (\"first sim engine where endpoint revenue auto-buys back the token\") into that thread while the sentiment window is open.",
+        "type": "success"
+      }
+    }
+  }
+}
