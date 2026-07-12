@@ -2,23 +2,23 @@
 type: Log
 ---
 
-*Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-07-08)*
-_Attestation feature drop dominated Tuesday — Aaron's post hit 41 likes; two unsolicited builder integration asks already landing in the wild._
+*Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-07-12)*
+_Three independent integrations shipped in 36h; market doubt is scattered noise, not organized pressure._
 
-*Attestation Drop*
-1. x.com/aaronjmars — Proof-of-execution feature live: every Aeon skill run gets a GitHub-signed, publicly-logged proof — unlocking pay-for-verified-work, on-chain action gating, and fleet trust without a human in the loop.
-Likes: 41 | RTs: 6 | Replies: 6
-[View tweet](https://x.com/aaronjmars/status/2074516793800933663)
+*Builder Integrations*
+1. x.com/0xLiamVisionary — Second v0.1 deep integration: Zero Human Companies now run on AEON — workspace + skill selected, AEON handles recurring work, @TheHivemindOS keeps company controls. "agents as companies" landing in the wild.
+Likes: 34 | RTs: 12 | Replies: 7
+[View tweet](https://x.com/0xLiamVisionary/status/2075998867913609351)
 
-*Builder Inbound*
-2. x.com/dr_osse — Community member publicly asking Aaron to port a specific skill into @aeonframework — 2 replies engaged, warm lead worth a DM.
-Likes: 0 | RTs: 0 | Replies: 2
-[View tweet](https://x.com/dr_osse/status/2074587897282412566)
+2. x.com/sparklewarefun — virtuals.io agents will hire Sparkleware to compose+prove Aeon loadouts, agent-to-agent, settled on-chain. The skill shelf becomes hireable — live wiring now.
+Likes: 8 | RTs: 2 | Replies: 0
+[View tweet](https://x.com/sparklewarefun/status/2076244474498585036)
 
-3. x.com/TotalWorldApps — Pitches Aeon as the native logging + verification layer for TON miniapp pipelines with a TON connect integration ask — first public framing of Aeon as mini-app infra.
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/TotalWorldApps/status/2074524132922802397)
+3. x.com/aethree_xyz — AeThree launchpad: any model (via API or ngrok/Cloudflare tunnels) becomes a token-governed AI agent with its own skills + 3D avatar, powered by @aeonframework.
+Likes: 4 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/aethree_xyz/status/2075867971071905851)
 
-4. x.com/s11221s — "Aeon is so underrated man" — unprompted sentiment, suggests awareness is building below the surface.
-Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/s11221s/status/2074529715189330032)
+*Token Doubt*
+4. x.com/hytluckly — Public burn-check: "I haven't found any record of $aeon token burning. Have you been scammed?" — no viral pickup, first public scam-query directed at $AEON holders.
+Likes: 3 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/hytluckly/status/2075853046966571205)

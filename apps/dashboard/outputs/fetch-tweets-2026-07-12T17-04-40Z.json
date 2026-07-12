@@ -1,0 +1,117 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Fetch Tweets",
+        "description": "Top Tweets — @aeonframework OR aaronjmars/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-07-12)"
+      },
+      "children": [
+        "text-intro",
+        "sep-1",
+        "heading-integrations",
+        "stack-integrations",
+        "sep-2",
+        "heading-doubt",
+        "stack-doubt"
+      ]
+    },
+    "text-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Three independent integrations shipped in 36h; market doubt is scattered noise, not organized pressure.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-integrations": {
+      "type": "Heading",
+      "props": {
+        "text": "Builder Integrations",
+        "level": "h2"
+      }
+    },
+    "stack-integrations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "tweet-2",
+        "tweet-3"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xLiamVisionary",
+        "handle": "@0xLiamVisionary",
+        "text": "Second v0.1 deep integration: Zero Human Companies now run on AEON — workspace + skill selected, AEON handles recurring work, @TheHivemindOS keeps company controls. \"agents as companies\" landing in the wild.",
+        "likes": 34,
+        "retweets": 12
+      }
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sparklewarefun",
+        "handle": "@sparklewarefun",
+        "text": "virtuals.io agents will hire Sparkleware to compose+prove Aeon loadouts, agent-to-agent, settled on-chain. The skill shelf becomes hireable — live wiring now.",
+        "likes": 8,
+        "retweets": 2
+      }
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aethree_xyz",
+        "handle": "@aethree_xyz",
+        "text": "AeThree launchpad: any model (via API or ngrok/Cloudflare tunnels) becomes a token-governed AI agent with its own skills + 3D avatar, powered by @aeonframework.",
+        "likes": 4,
+        "retweets": 0
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-doubt": {
+      "type": "Heading",
+      "props": {
+        "text": "Token Doubt",
+        "level": "h2"
+      }
+    },
+    "stack-doubt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-4"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "hytluckly",
+        "handle": "@hytluckly",
+        "text": "Public burn-check: \"I haven't found any record of $aeon token burning. Have you been scammed?\" — no viral pickup, first public scam-query directed at $AEON holders.",
+        "likes": 3,
+        "retweets": 0
+      }
+    }
+  }
+}
