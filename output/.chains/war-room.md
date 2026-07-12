@@ -1,26 +1,24 @@
-ℹ️ war room 2026-07-11
+ℹ️ ⭐🦈 war room 2026-07-12
 
 ---
 type: Article
 ---
 
-⭐🦈 war room — 2026-07-11
+⭐🦈 war room — 2026-07-12
 
-state: product-pulse dark 16d — still `enabled: false` (ISS-002, one-line fix, operator's call). numbers are last-known off mention-radar: aeon ~573★, miroshark ~1,358★, both crawling +2/day. $MIROSHARK -28% on the week. flat is the read. the movement this week isn't ours — it's MiroFish (below).
+state: both green — aeon + miroshark both pushed yesterday, no stall. aeon 573⭐/209 forks (v0.1.0 shipped 07-09), miroshark 1359⭐/288 forks. stars flat, but ~500 forks combined — the ecosystem is the number moving, not the star count.
 
-talk to: AzzleAI — BUILDING, shipped aeon GitHub-Actions scaffolding 07-09, building an AMM for agentic labor on Base (score 15). warmest lead on the board — DM the ECOSYSTEM.md spot + TG. · sparklewarefun — ACP live on virtuals.io, posted again, still not listed by us. list it, it's free.
+talk to: paperclipai — 30K-star Paperclip AI shipped "Aeon Intelligence" as their company template, 32 aeon skills. biggest third-party adoption yet, updated today. DM + co-announce. · sparkleware — proof-of-loadout, aeon×miroshark×phylax in one skill. already in TG, spotlight it as the canonical integration demo.
 
-decide: MiroFish. $4M raised, 68K★, #1 trending this week — on the sim engine i forked, ported to english, and rebuilt because their execution was vaporware. so now the wire's filling with "miroshark is a mirofish clone." don't fight the lineage — own it. one @miroshark_ post: yeah it started as a mirofish fork. then i shipped the version that actually runs — $1, 10min, x402-native, belief drift + AMM, public traces. and here's the one thing $4M didn't buy them: a seed×model robustness audit (sim-audit, 15/16). their attention window, our receipt. post it while they're trending.
+decide: paperclipai. a 30K-star platform made aeon the template for autonomous companies — "agents as companies" validating itself in the wild, not a passive fork. don't let it sit. DM today, co-announce Aeon Intelligence as the canonical company loadout while it's fresh. their reach, our thesis.
 
 ---
 
 ### appendix — sources
-- `output/articles/bd-radar-2026-07-10.md` — pipeline 212, 6 net-new (building×2, mentioning×1, forking×3). Top: **AzzleAI** (building, AMM for agentic labor on Base, score 15) · nazimahmed (CoinHeroFun listed $AEON in a token network, 13♥/4RT) · aeonbookai/aeonTemplate (org fork, +2.6KB own content). Escalation watch: freezerboi, Aluma, Marr554, dan-and/MiroShark all pushed 07-09/10.
-- `memory/logs/2026-07-10.md` → **mention-radar** — headline: **MiroFish blast** — 68,292★, $4M raised in 24h, #1 trending, wall-to-wall coverage; one article chain mischaracterizes MiroShark as "built on MiroFish." Also: OpenAgentSkill.com unclaimed Aeon listing (quality 85/100). Stars: aeon 573★ (+2), miroshark 1,358★ (+2).
-- `memory/logs/2026-07-10.md` → **fetch-tweets** — AzzleAI aeon-fork scaffolding (4♥/2RT) · nazimahmed token-network listing (14♥/4RT) · lone $a3 governance-FUD tweet (0 amplification).
-- `memory/logs/2026-07-10.md` → **idea-validator** — **harness-not-model 16/16** (first perfect score, Zuck-HN catalyst, pure content, ship the raw-vs-harnessed trace) · **sim-audit 15/16** (seed×model robustness receipt — answers MiroFish's missing audit, handoff to miroshark).
-- `output/articles/sim-watch-2026-07-05.md` — scaling paper (arxiv 2607.02464) confirms "sim improves with scale" in print; public-private belief-split paper (2607.02507) = a belief-drift primitive to adopt. New category seeds all ≤5★, none a threat yet.
-- `memory/topics/product-pulse-state.json` — **stale, last_run 2026-06-25** (aeon 549★, miroshark 1,333★, @aeonframework 151,544, @miroshark_ 2,130). Dark since 06-25 → ISS-002.
+- **STATE** — live `gh api` read (2026-07-12): `aaronjmars/aeon` 573⭐ / 209 forks, pushed 2026-07-11T23:01Z, latest release **v0.1.0** (2026-07-09). `aaronjmars/MiroShark` 1359⭐ / 288 forks, pushed 2026-07-11T18:18Z, no releases. Both pushed <24h ago — no stall. Star deltas near-flat vs 07-11 war-room (aeon 573, miroshark 1358→1359 +1); ~500 combined forks is the live ecosystem-growth signal.
+- `output/articles/bd-radar-2026-07-12.md` — 5 net-new (building×3, mentioning×1, forking×1). Top: **paperclipai/companies** (30K★ Paperclip AI ships "Aeon Intelligence" template, 32 aeon skills, score 15) · **sparkleware/proof-of-loadout** (10th standalone skill, aeon×miroshark×phylax, score 15) · **AntFleet/bench-miroshark** (two-model security review applied to MiroShark, score 15). Also: **JetBrains PyCharm** "Top Agentic Frameworks 2026" lists Aeon (score 6) · **xalil05/ProjecSen** first French MiroShark fork (score 4).
+- Escalation watch (bd-radar): Svector-anu/skopos-aeon (+3.4KB this week, pushed today) · zszkey/aeon-1 (27d continuous) · Marr554/aeon (18d) · freezerboi/aeon (13d).
+- `memory/logs/2026-07-12.md` → **mention-radar** — @0xLiamVisionary second aeon v0.1 integration, coined "Zero Human Companies on AEON" (29♥/12RT, high-leverage reply opp) · @MrDegenWolf bullish Base bottom-call incl $miroshark (64♥/6RT).
 
 ### note
-STATE is last-known only — product-pulse has been `enabled: false` in aeon.yml since ~06-29 (ISS-002, filed 07-10, medium). Star counts survive because mention-radar/fetch-tweets pull them independently; X-follower deltas and aeon-wc health are dark until the one-line re-enable. Yesterday's decide (miroshark buyback thread) not repeated here. MiroFish figures are quoted from our own mention-radar sweep — verify the $4M/68K before citing publicly.
+product-pulse is retired (2026-07) — STATE is now a live `gh api` read, so no ISS-002 / stale-data framing. AntFleet + JetBrains held back from the brief for signal density (paperclipai and sparkleware are the two moves). Yesterday's decide (MiroFish lineage post) not repeated.

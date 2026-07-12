@@ -1,0 +1,543 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-07-12",
+        "description": "State: both green — aeon + miroshark both pushed yesterday, no stall."
+      },
+      "children": [
+        "state_section",
+        "separator_1",
+        "talk_to_section",
+        "separator_2",
+        "decide_section",
+        "separator_3",
+        "appendix_section"
+      ]
+    },
+    "state_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state_heading",
+        "state_text",
+        "stats_grid"
+      ]
+    },
+    "state_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "state_text": {
+      "type": "Text",
+      "props": {
+        "text": "Both aeon and miroshark pushed yesterday, no stall. Stars flat, but ~500 forks combined — the ecosystem is the number moving, not the star count.",
+        "variant": "body"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "aeon_stack",
+        "miroshark_stack"
+      ]
+    },
+    "aeon_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_label",
+        "aeon_stars",
+        "aeon_forks",
+        "aeon_release"
+      ]
+    },
+    "aeon_label": {
+      "type": "Heading",
+      "props": {
+        "text": "aeon",
+        "level": "h3"
+      }
+    },
+    "aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "573"
+      }
+    },
+    "aeon_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "209"
+      }
+    },
+    "aeon_release": {
+      "type": "Badge",
+      "props": {
+        "text": "v0.1.0 shipped 07-09",
+        "variant": "secondary"
+      }
+    },
+    "miroshark_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark_label",
+        "miroshark_stars",
+        "miroshark_forks"
+      ]
+    },
+    "miroshark_label": {
+      "type": "Heading",
+      "props": {
+        "text": "miroshark",
+        "level": "h3"
+      }
+    },
+    "miroshark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1359"
+      }
+    },
+    "miroshark_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "288"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk_to_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk_to_heading",
+        "paperclipai_stack",
+        "sparkleware_stack"
+      ]
+    },
+    "talk_to_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h2"
+      }
+    },
+    "paperclipai_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paperclipai_heading",
+        "paperclipai_desc",
+        "paperclipai_highlight",
+        "paperclipai_action"
+      ]
+    },
+    "paperclipai_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "paperclipai",
+        "level": "h3"
+      }
+    },
+    "paperclipai_desc": {
+      "type": "Text",
+      "props": {
+        "text": "30K-star Paperclip AI shipped \"Aeon Intelligence\" as their company template, 32 aeon skills. Biggest third-party adoption yet, updated today.",
+        "variant": "body"
+      }
+    },
+    "paperclipai_highlight": {
+      "type": "Badge",
+      "props": {
+        "text": "Biggest third-party adoption",
+        "variant": "default"
+      }
+    },
+    "paperclipai_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: DM + co-announce",
+        "variant": "lead"
+      }
+    },
+    "sparkleware_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sparkleware_heading",
+        "sparkleware_desc",
+        "sparkleware_status"
+      ]
+    },
+    "sparkleware_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "sparkleware",
+        "level": "h3"
+      }
+    },
+    "sparkleware_desc": {
+      "type": "Text",
+      "props": {
+        "text": "proof-of-loadout, aeon×miroshark×phylax in one skill. Already in TG, spotlight it as the canonical integration demo.",
+        "variant": "body"
+      }
+    },
+    "sparkleware_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Canonical integration demo",
+        "variant": "secondary"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide_heading",
+        "decide_text",
+        "decide_alert"
+      ]
+    },
+    "decide_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "decide_text": {
+      "type": "Text",
+      "props": {
+        "text": "A 30K-star platform made aeon the template for autonomous companies — \"agents as companies\" validating itself in the wild, not a passive fork. Don't let it sit. DM today, co-announce Aeon Intelligence as the canonical company loadout while it's fresh. Their reach, our thesis.",
+        "variant": "body"
+      }
+    },
+    "decide_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "Priority Action",
+        "message": "DM paperclipai today for co-announcement of Aeon Intelligence as canonical company loadout"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "appendix_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "appendix_heading",
+        "state_source_stack",
+        "bd_radar_stack",
+        "escalation_stack",
+        "mention_radar_stack",
+        "note_stack"
+      ]
+    },
+    "appendix_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      }
+    },
+    "state_source_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "state_source_title",
+        "state_source_text"
+      ]
+    },
+    "state_source_title": {
+      "type": "Heading",
+      "props": {
+        "text": "STATE",
+        "level": "h3"
+      }
+    },
+    "state_source_text": {
+      "type": "Text",
+      "props": {
+        "text": "Live `gh api` read (2026-07-12): `aaronjmars/aeon` 573⭐ / 209 forks, pushed 2026-07-11T23:01Z, latest release v0.1.0 (2026-07-09). `aaronjmars/MiroShark` 1359⭐ / 288 forks, pushed 2026-07-11T18:18Z, no releases. Both pushed <24h ago — no stall. Star deltas near-flat vs 07-11 war-room (aeon 573, miroshark 1358→1359 +1); ~500 combined forks is the live ecosystem-growth signal.",
+        "variant": "caption"
+      }
+    },
+    "bd_radar_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bd_radar_title",
+        "bd_radar_intro",
+        "bd_items_stack"
+      ]
+    },
+    "bd_radar_title": {
+      "type": "Heading",
+      "props": {
+        "text": "BD Radar",
+        "level": "h3"
+      }
+    },
+    "bd_radar_intro": {
+      "type": "Text",
+      "props": {
+        "text": "`output/articles/bd-radar-2026-07-12.md` — 5 net-new (building×3, mentioning×1, forking×1). Top findings:",
+        "variant": "caption"
+      }
+    },
+    "bd_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bd_item_1",
+        "bd_item_2",
+        "bd_item_3",
+        "bd_item_4",
+        "bd_item_5"
+      ]
+    },
+    "bd_item_1": {
+      "type": "Badge",
+      "props": {
+        "text": "paperclipai/companies: 30K★ Paperclip AI ships \"Aeon Intelligence\" template, 32 aeon skills, score 15",
+        "variant": "default"
+      }
+    },
+    "bd_item_2": {
+      "type": "Badge",
+      "props": {
+        "text": "sparkleware/proof-of-loadout: 10th standalone skill, aeon×miroshark×phylax, score 15",
+        "variant": "default"
+      }
+    },
+    "bd_item_3": {
+      "type": "Badge",
+      "props": {
+        "text": "AntFleet/bench-miroshark: two-model security review applied to MiroShark, score 15",
+        "variant": "default"
+      }
+    },
+    "bd_item_4": {
+      "type": "Badge",
+      "props": {
+        "text": "JetBrains PyCharm: \"Top Agentic Frameworks 2026\" lists Aeon, score 6",
+        "variant": "secondary"
+      }
+    },
+    "bd_item_5": {
+      "type": "Badge",
+      "props": {
+        "text": "xalil05/ProjecSen: first French MiroShark fork, score 4",
+        "variant": "secondary"
+      }
+    },
+    "escalation_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "escalation_title",
+        "escalation_intro",
+        "escalation_items"
+      ]
+    },
+    "escalation_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Escalation Watch",
+        "level": "h3"
+      }
+    },
+    "escalation_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Continuous forks in bd-radar:",
+        "variant": "caption"
+      }
+    },
+    "escalation_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "esc_item_1",
+        "esc_item_2",
+        "esc_item_3",
+        "esc_item_4"
+      ]
+    },
+    "esc_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "Svector-anu/skopos-aeon (+3.4KB this week, pushed today)",
+        "variant": "body"
+      }
+    },
+    "esc_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "zszkey/aeon-1 (27d continuous)",
+        "variant": "body"
+      }
+    },
+    "esc_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "Marr554/aeon (18d)",
+        "variant": "body"
+      }
+    },
+    "esc_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "freezerboi/aeon (13d)",
+        "variant": "body"
+      }
+    },
+    "mention_radar_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention_radar_title",
+        "mention_radar_intro",
+        "mention_items_stack"
+      ]
+    },
+    "mention_radar_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Mention Radar",
+        "level": "h3"
+      }
+    },
+    "mention_radar_intro": {
+      "type": "Text",
+      "props": {
+        "text": "`memory/logs/2026-07-12.md` — Key social signals:",
+        "variant": "caption"
+      }
+    },
+    "mention_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention_1",
+        "mention_2"
+      ]
+    },
+    "mention_1": {
+      "type": "Badge",
+      "props": {
+        "text": "@0xLiamVisionary: second aeon v0.1 integration, \"Zero Human Companies on AEON\" (29♥/12RT, high-leverage reply opp)",
+        "variant": "outline"
+      }
+    },
+    "mention_2": {
+      "type": "Badge",
+      "props": {
+        "text": "@MrDegenWolf: bullish Base bottom-call incl $miroshark (64♥/6RT)",
+        "variant": "outline"
+      }
+    },
+    "note_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "note_title",
+        "note_text"
+      ]
+    },
+    "note_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Note",
+        "level": "h3"
+      }
+    },
+    "note_text": {
+      "type": "Text",
+      "props": {
+        "text": "product-pulse is retired (2026-07) — STATE is now a live `gh api` read, so no ISS-002 / stale-data framing. AntFleet + JetBrains held back from the brief for signal density (paperclipai and sparkleware are the two moves). Yesterday's decide (MiroFish lineage post) not repeated.",
+        "variant": "caption"
+      }
+    }
+  }
+}

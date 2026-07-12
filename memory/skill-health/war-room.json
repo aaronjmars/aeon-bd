@@ -1,17 +1,11 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-11T07:54:51Z",
+  "last_analyzed": "2026-07-12T08:19:36Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced standup brief with actionable BD recommendation; stayed in lane and self-identified limitations (product-pulse dark 16d, figures need verification, duplicate notify send).",
-  "flags": [
-    "stale_data"
-  ],
-  "avg_score": 4.07,
+  "assessment": "Solid war-room execution: live product state, specific BD signals (paperclipai, sparkleware), clear decision backed by GitHub data, strategically aligned and actionable.",
+  "flags": [],
+  "avg_score": 4.03,
   "history": [
-    {
-      "date": "2026-06-11",
-      "score": 5
-    },
     {
       "date": "2026-06-12",
       "score": 4
@@ -126,6 +120,10 @@
     },
     {
       "date": "2026-07-11",
+      "score": 4
+    },
+    {
+      "date": "2026-07-12",
       "score": 4
     }
   ]
