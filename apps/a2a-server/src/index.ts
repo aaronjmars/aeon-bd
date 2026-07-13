@@ -272,7 +272,7 @@ function buildAgentCard(): Record<string, unknown> {
       "no infra required.",
     url: SERVER_URL,
     version: "1.0.0",
-    documentationUrl: "https://github.com/aaronjmars/aeon",
+    documentationUrl: "https://github.com/aeonfun/aeon",
     capabilities: {
       streaming: true,
       pushNotifications: false,
