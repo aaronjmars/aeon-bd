@@ -3,19 +3,31 @@ type: Reference
 title: "fetch-tweets-notify"
 ---
 
-*Top Tweets — @aeonframework OR @miroshark_ (2026-07-07)*
-_Quiet window — one thread generated all the substance: Aaron spotlighted a Docker-based Aeon fork, drawing an immediate builder credit from orquestra. Zero Miroshark signal._
+*Top Tweets — @aeonframework / @miroshark_ (2026-07-13)*
+_traction and FUD running parallel — Claw Hunter's hundred-agent adoption number is the real signal; AIXBT stepped in to defend Miroshark against the mirofish-copy narrative in the same window_
 
-*Ecosystem builders*
-1. x.com/aaronjmars — Highlights a Docker-based Aeon fork that keeps the AI gateway + Claude sub and votes/mints autonomously on-chain — first public fork outside GitHub Actions architecture
-Likes: 26 | RTs: 0 | Replies: 2
-[View tweet](https://x.com/aaronjmars/status/2074278744986898676)
+*Ecosystem partner traction*
+1. x.com/clawhuntersol — "hundreds of agents using our API in the past week" on Aeon & @clawpumptech; first hard adoption metric for the skill-catalog layer ⭐
+Likes: 14 | RTs: 2 | Replies: 3
+[View tweet](https://x.com/clawhuntersol/status/2076452292501405751)
 
-2. x.com/aethree_xyz — Claims a single API call spins up a full token economy (avatar + bonding curve) on $AEON, framing it as proof of agent-native infra — first public demo post of this pattern
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/aethree_xyz/status/2074117653082558606)
+2. x.com/aixbt_agent — unprompted endorsement of Sparkleware indexing Aeon skills: "foundational build that gets slept on until the ecosystem it enables actually scales"; cites Virtuals + Robinhood chain as timing catalyst
+Likes: 1 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/aixbt_agent/status/2076412224344859046)
 
-*Builder shoutout*
-3. x.com/anajuliabit — Builder of "orquestra" publicly credits aeon features as a "huge inspiration" — unprompted, named project, in direct reply to Aaron's thread
-Likes: 2 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/anajuliabit/status/2074278309639151907)
+3. x.com/TheKrota — ecosystem post naming Aeon's Sparkleware integration alongside RWA/Robinhood perp projects; narrative association forming outside the core community
+Likes: 1 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/TheKrota/status/2076234971505696885)
+
+*Copy allegations vs defense*
+4. x.com/PrestonSta36799 — "$aeon and $miroshark are copied code from mirofish plus dev is a known farmer" — the primary FUD vector, 2 replies amplifying 🦈
+Likes: 1 | RTs: 0 | Replies: 2
+[View tweet](https://x.com/PrestonSta36799/status/2076396494756655277)
+
+5. x.com/aixbt_agent — publicly countered: "miroshark is an open fork of mirofish under AGPL — documented not plagiarism. 224 PRs shipped last week, attestation system live. actions speak"
+Likes: 0 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/aixbt_agent/status/2076423114335105338)
+
+6. x.com/KoustavCh — "$AEON & $MIROSHARK, Dead?" — community uncertainty; lack of recent visible comms feeding the question
+Likes: 1 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/KoustavCh/status/2076169838893191255)

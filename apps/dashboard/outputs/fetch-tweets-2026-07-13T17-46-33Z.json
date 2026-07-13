@@ -1,0 +1,307 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark (2026-07-13)"
+      },
+      "children": [
+        "intro-text",
+        "section-1",
+        "separator-1",
+        "section-2"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Traction and FUD running parallel — Claw Hunter's hundred-agent adoption number is the real signal; AIXBT stepped in to defend Miroshark against the mirofish-copy narrative in the same window",
+        "variant": "lead"
+      }
+    },
+    "section-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-1",
+        "tweets-group-1"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem partner traction",
+        "level": "h3"
+      }
+    },
+    "tweets-group-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1-container",
+        "tweet-2-container",
+        "tweet-3-container"
+      ]
+    },
+    "tweet-1-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1",
+        "tweet-1-replies",
+        "tweet-1-link"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "clawhuntersol",
+        "handle": "clawhuntersol",
+        "text": "\"hundreds of agents using our API in the past week\" on Aeon & @clawpumptech; first hard adoption metric for the skill-catalog layer ⭐",
+        "likes": 14,
+        "retweets": 2
+      }
+    },
+    "tweet-1-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/clawhuntersol/status/2076452292501405751"
+      }
+    },
+    "tweet-2-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2",
+        "tweet-2-replies",
+        "tweet-2-link"
+      ]
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aixbt_agent",
+        "handle": "aixbt_agent",
+        "text": "unprompted endorsement of Sparkleware indexing Aeon skills: \"foundational build that gets slept on until the ecosystem it enables actually scales\"; cites Virtuals + Robinhood chain as timing catalyst",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet-2-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aixbt_agent/status/2076412224344859046"
+      }
+    },
+    "tweet-3-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3",
+        "tweet-3-replies",
+        "tweet-3-link"
+      ]
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "TheKrota",
+        "handle": "TheKrota",
+        "text": "ecosystem post naming Aeon's Sparkleware integration alongside RWA/Robinhood perp projects; narrative association forming outside the core community",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet-3-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/TheKrota/status/2076234971505696885"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-2",
+        "tweets-group-2"
+      ]
+    },
+    "heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "Copy allegations vs defense",
+        "level": "h3"
+      }
+    },
+    "tweets-group-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-4-container",
+        "tweet-5-container",
+        "tweet-6-container"
+      ]
+    },
+    "tweet-4-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-4",
+        "tweet-4-replies",
+        "tweet-4-link"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "PrestonSta36799",
+        "handle": "PrestonSta36799",
+        "text": "\"$aeon and $miroshark are copied code from mirofish plus dev is a known farmer\" — the primary FUD vector, 2 replies amplifying 🦈",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet-4-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet-4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/PrestonSta36799/status/2076396494756655277"
+      }
+    },
+    "tweet-5-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-5",
+        "tweet-5-replies",
+        "tweet-5-link"
+      ]
+    },
+    "tweet-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aixbt_agent",
+        "handle": "aixbt_agent",
+        "text": "publicly countered: \"miroshark is an open fork of mirofish under AGPL — documented not plagiarism. 224 PRs shipped last week, attestation system live. actions speak\"",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet-5-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet-5-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aixbt_agent/status/2076423114335105338"
+      }
+    },
+    "tweet-6-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-6",
+        "tweet-6-replies",
+        "tweet-6-link"
+      ]
+    },
+    "tweet-6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KoustavCh",
+        "handle": "KoustavCh",
+        "text": "\"$AEON & $MIROSHARK, Dead?\" — community uncertainty; lack of recent visible comms feeding the question",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet-6-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet-6-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KoustavCh/status/2076169838893191255"
+      }
+    }
+  }
+}

@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-12T17:04:40Z",
+  "last_analyzed": "2026-07-13T17:46:33Z",
   "quality_score": 4,
-  "assessment": "Solid execution: fetched 9 tweets, curated to 4 with clear reasoning, organized into meaningful clusters (integrations vs sentiment), provided signal scores and strategic summary for BD triage.",
+  "assessment": "Well-executed skill run — fetched 16 candidates, curated 6 high-signal tweets organized into two strategic clusters (ecosystem adoption + FUD counter-narrative), included quantified metrics, and updated memory files properly. Directly actionable on the core mission (surface BD signal, catch builder traction early). Not 5 because analysis is primarily summative rather than deeply synthesized.",
   "flags": [],
-  "avg_score": 3.7,
+  "avg_score": 3.73,
   "history": [
-    {
-      "date": "2026-06-13",
-      "score": 3
-    },
     {
       "date": "2026-06-14",
       "score": 2
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-12",
+      "score": 4
+    },
+    {
+      "date": "2026-07-13",
       "score": 4
     }
   ]
