@@ -1,24 +1,26 @@
-ℹ️ ⭐🦈 war room 2026-07-12
+ℹ️ ⭐🦈 war room — 2026-07-13
 
 ---
 type: Article
+title: War Room — 2026-07-13
+description: Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar
+tags: [meta, ecosystem, standup]
+timestamp: 2026-07-13T07:45:00Z
 ---
 
-⭐🦈 war room — 2026-07-12
+⭐🦈 war room — 2026-07-13
 
-state: both green — aeon + miroshark both pushed yesterday, no stall. aeon 573⭐/209 forks (v0.1.0 shipped 07-09), miroshark 1359⭐/288 forks. stars flat, but ~500 forks combined — the ecosystem is the number moving, not the star count.
+state: both green, flat. aeon 574⭐/208 forks, miroshark 1360⭐/289 forks — +1★ each, +1 miroshark fork (one aeon fork dropped). both last pushed 07-11 — ~2 days quiet. not a stall, but the daily ship cadence slipped. ~500 combined forks still the number that moves, not the star count.
 
-talk to: paperclipai — 30K-star Paperclip AI shipped "Aeon Intelligence" as their company template, 32 aeon skills. biggest third-party adoption yet, updated today. DM + co-announce. · sparkleware — proof-of-loadout, aeon×miroshark×phylax in one skill. already in TG, spotlight it as the canonical integration demo.
+talk to: no new leads today — no fresh bd-radar committed yet. paperclipai (30K★ Paperclip AI, running "Aeon Intelligence" as their company template) is still yesterday's open co-announce.
 
-decide: paperclipai. a 30K-star platform made aeon the template for autonomous companies — "agents as companies" validating itself in the wild, not a passive fork. don't let it sit. DM today, co-announce Aeon Intelligence as the canonical company loadout while it's fresh. their reach, our thesis.
+decide: don't let both open loops sit. if the paperclipai DM went out, the next move is public — own "counterfactual branching = git for strategic decisions" for miroshark before Polisim (3★, building director-mode overlap per sim-watch) closes the gap. if the DM didn't go out, paperclipai's still the call. one thing, today.
 
 ---
 
 ### appendix — sources
-- **STATE** — live `gh api` read (2026-07-12): `aaronjmars/aeon` 573⭐ / 209 forks, pushed 2026-07-11T23:01Z, latest release **v0.1.0** (2026-07-09). `aaronjmars/MiroShark` 1359⭐ / 288 forks, pushed 2026-07-11T18:18Z, no releases. Both pushed <24h ago — no stall. Star deltas near-flat vs 07-11 war-room (aeon 573, miroshark 1358→1359 +1); ~500 combined forks is the live ecosystem-growth signal.
-- `output/articles/bd-radar-2026-07-12.md` — 5 net-new (building×3, mentioning×1, forking×1). Top: **paperclipai/companies** (30K★ Paperclip AI ships "Aeon Intelligence" template, 32 aeon skills, score 15) · **sparkleware/proof-of-loadout** (10th standalone skill, aeon×miroshark×phylax, score 15) · **AntFleet/bench-miroshark** (two-model security review applied to MiroShark, score 15). Also: **JetBrains PyCharm** "Top Agentic Frameworks 2026" lists Aeon (score 6) · **xalil05/ProjecSen** first French MiroShark fork (score 4).
-- Escalation watch (bd-radar): Svector-anu/skopos-aeon (+3.4KB this week, pushed today) · zszkey/aeon-1 (27d continuous) · Marr554/aeon (18d) · freezerboi/aeon (13d).
-- `memory/logs/2026-07-12.md` → **mention-radar** — @0xLiamVisionary second aeon v0.1 integration, coined "Zero Human Companies on AEON" (29♥/12RT, high-leverage reply opp) · @MrDegenWolf bullish Base bottom-call incl $miroshark (64♥/6RT).
 
-### note
-product-pulse is retired (2026-07) — STATE is now a live `gh api` read, so no ISS-002 / stale-data framing. AntFleet + JetBrains held back from the brief for signal density (paperclipai and sparkleware are the two moves). Yesterday's decide (MiroFish lineage post) not repeated.
+- **STATE** — live `gh api` read (2026-07-13): `aaronjmars/aeon` 574⭐ / 208 forks, pushed 2026-07-11T23:01Z, latest release **v0.1.0** (2026-07-09). `aaronjmars/MiroShark` 1360⭐ / 289 forks, pushed 2026-07-11T18:18Z, no releases. Deltas vs 07-12 war-room: aeon 573→574 (+1★, forks 209→208), miroshark 1359→1360 (+1★, forks 288→289). Both last pushed 07-11 — ~2 days without a push (below the >2-week stall threshold; no red flag).
+- **Leads** — no `output/articles/bd-radar-2026-07-13.md` committed at read time; most recent is `bd-radar-2026-07-12.md` (5 net-new: paperclipai/companies ★★★ · sparkleware/proof-of-loadout ★★★ · AntFleet/bench-miroshark ★★★ · JetBrains PyCharm mention · xalil05/ProjecSen fork). All surfaced and synthesized in the 07-12 war-room already — no new signal to add today.
+- **sim-watch** (`sim-watch-2026-07-12.md`, within 7d): threat = servetkosem MiroFish-lineage fork (local Ollama, no social/AMM layer). Counter = **Kaka-cheaper/Polisim** (3★, YAML worlds + mid-sim intervention = director-mode overlap) — flagged for a public differentiation push ("counterfactual branching = git for strategic decisions"). MiroShark fork velocity high (4 direct forks this week).
+- **Prior brief** (`war-room-2026-07-12.md`): decide was paperclipai — DM + co-announce Aeon Intelligence. Carried forward here as an open loop, not re-argued.

@@ -1,0 +1,519 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "War Room — 2026-07-13",
+        "description": "Daily aeon + miroshark standup — state · talk-to · decide"
+      },
+      "children": [
+        "tags-row",
+        "sep1",
+        "state-block",
+        "sep2",
+        "talk-block",
+        "sep3",
+        "decide-block",
+        "sep4",
+        "appendix-block"
+      ]
+    },
+    "tags-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag-meta",
+        "tag-ecosystem",
+        "tag-standup"
+      ]
+    },
+    "tag-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "meta",
+        "variant": "outline"
+      }
+    },
+    "tag-ecosystem": {
+      "type": "Badge",
+      "props": {
+        "text": "ecosystem",
+        "variant": "outline"
+      }
+    },
+    "tag-standup": {
+      "type": "Badge",
+      "props": {
+        "text": "standup",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "state-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-title",
+        "state-status-badges",
+        "state-aeon-row",
+        "state-miroshark-row",
+        "state-notes"
+      ]
+    },
+    "state-title": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "state-status-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-green",
+        "badge-flat"
+      ]
+    },
+    "badge-green": {
+      "type": "Badge",
+      "props": {
+        "text": "both green",
+        "variant": "success"
+      }
+    },
+    "badge-flat": {
+      "type": "Badge",
+      "props": {
+        "text": "flat",
+        "variant": "default"
+      }
+    },
+    "state-aeon-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "aeon-heading",
+        "aeon-stat-stars",
+        "aeon-stat-forks"
+      ]
+    },
+    "aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "⭐ Aeon",
+        "level": "h3"
+      }
+    },
+    "aeon-stat-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "574",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "aeon-stat-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "208",
+        "delta": "-1",
+        "trend": "down"
+      }
+    },
+    "state-miroshark-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "miroshark-heading",
+        "miroshark-stat-stars",
+        "miroshark-stat-forks"
+      ]
+    },
+    "miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🦈 MiroShark",
+        "level": "h3"
+      }
+    },
+    "miroshark-stat-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1360",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "miroshark-stat-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "289",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "state-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "note1",
+        "note2"
+      ]
+    },
+    "note1": {
+      "type": "Text",
+      "props": {
+        "text": "Last pushed: both 07-11 (~2 days quiet). Not a stall, but the daily ship cadence slipped.",
+        "variant": "body"
+      }
+    },
+    "note2": {
+      "type": "Text",
+      "props": {
+        "text": "~500 combined forks is the number that moves, not the star count.",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "talk-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk-title",
+        "talk-content"
+      ]
+    },
+    "talk-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "talk-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "talk-item1",
+        "talk-item2"
+      ]
+    },
+    "talk-item1": {
+      "type": "Text",
+      "props": {
+        "text": "No new leads today — no fresh bd-radar committed yet.",
+        "variant": "body"
+      }
+    },
+    "talk-item2": {
+      "type": "Text",
+      "props": {
+        "text": "paperclipai (30K★ Paperclip AI, running 'Aeon Intelligence' as their company template) is still yesterday's open co-announce.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "decide-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide-title",
+        "decide-preamble",
+        "decide-if1",
+        "decide-if2",
+        "decide-action"
+      ]
+    },
+    "decide-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "decide-preamble": {
+      "type": "Text",
+      "props": {
+        "text": "Don't let both open loops sit.",
+        "variant": "body"
+      }
+    },
+    "decide-if1": {
+      "type": "Text",
+      "props": {
+        "text": "If the paperclipai DM went out: own 'counterfactual branching = git for strategic decisions' for miroshark before Polisim (3★, building director-mode overlap per sim-watch) closes the gap.",
+        "variant": "body"
+      }
+    },
+    "decide-if2": {
+      "type": "Text",
+      "props": {
+        "text": "If the DM didn't go out: paperclipai's still the call.",
+        "variant": "body"
+      }
+    },
+    "decide-action": {
+      "type": "Alert",
+      "props": {
+        "message": "One thing, today.",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "appendix-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "appendix-title",
+        "appendix-state",
+        "sep-a",
+        "appendix-leads",
+        "sep-b",
+        "appendix-sim",
+        "sep-c",
+        "appendix-prior"
+      ]
+    },
+    "appendix-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      }
+    },
+    "appendix-state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "app-state-title",
+        "app-state-intro",
+        "app-state-aeon",
+        "app-state-miroshark",
+        "app-state-deltas"
+      ]
+    },
+    "app-state-title": {
+      "type": "Heading",
+      "props": {
+        "text": "STATE",
+        "level": "h3"
+      }
+    },
+    "app-state-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Live gh api read (2026-07-13):",
+        "variant": "caption"
+      }
+    },
+    "app-state-aeon": {
+      "type": "Text",
+      "props": {
+        "text": "aaronjmars/aeon 574⭐ / 208 forks, pushed 2026-07-11T23:01Z, latest release v0.1.0 (2026-07-09)",
+        "variant": "body"
+      }
+    },
+    "app-state-miroshark": {
+      "type": "Text",
+      "props": {
+        "text": "aaronjmars/MiroShark 1360⭐ / 289 forks, pushed 2026-07-11T18:18Z, no releases",
+        "variant": "body"
+      }
+    },
+    "app-state-deltas": {
+      "type": "Text",
+      "props": {
+        "text": "Deltas vs 07-12 war-room: aeon 573→574 (+1★, forks 209→208), miroshark 1359→1360 (+1★, forks 288→289). Both last pushed 07-11 — ~2 days without a push (below the >2-week stall threshold; no red flag).",
+        "variant": "caption"
+      }
+    },
+    "sep-a": {
+      "type": "Separator"
+    },
+    "appendix-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "app-leads-title",
+        "app-leads-intro",
+        "app-leads-list",
+        "app-leads-summary"
+      ]
+    },
+    "app-leads-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Leads",
+        "level": "h3"
+      }
+    },
+    "app-leads-intro": {
+      "type": "Text",
+      "props": {
+        "text": "No output/articles/bd-radar-2026-07-13.md committed at read time; most recent is bd-radar-2026-07-12.md (5 net-new):",
+        "variant": "caption"
+      }
+    },
+    "app-leads-list": {
+      "type": "Text",
+      "props": {
+        "text": "• paperclipai/companies ★★★\n• sparkleware/proof-of-loadout ★★★\n• AntFleet/bench-miroshark ★★★\n• JetBrains PyCharm mention\n• xalil05/ProjecSen fork",
+        "variant": "body"
+      }
+    },
+    "app-leads-summary": {
+      "type": "Text",
+      "props": {
+        "text": "All surfaced and synthesized in the 07-12 war-room already — no new signal to add today.",
+        "variant": "caption"
+      }
+    },
+    "sep-b": {
+      "type": "Separator"
+    },
+    "appendix-sim": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "app-sim-title",
+        "app-sim-ref",
+        "app-sim-threat-header",
+        "app-sim-threat-detail",
+        "app-sim-counter-header",
+        "app-sim-counter-detail"
+      ]
+    },
+    "app-sim-title": {
+      "type": "Heading",
+      "props": {
+        "text": "sim-watch",
+        "level": "h3"
+      }
+    },
+    "app-sim-ref": {
+      "type": "Text",
+      "props": {
+        "text": "sim-watch-2026-07-12.md, within 7d:",
+        "variant": "caption"
+      }
+    },
+    "app-sim-threat-header": {
+      "type": "Text",
+      "props": {
+        "text": "Threat: servetkosem MiroFish-lineage fork (local Ollama, no social/AMM layer)",
+        "variant": "body"
+      }
+    },
+    "app-sim-threat-detail": {
+      "type": "Text",
+      "props": {
+        "text": "MiroShark fork velocity high (4 direct forks this week).",
+        "variant": "caption"
+      }
+    },
+    "app-sim-counter-header": {
+      "type": "Text",
+      "props": {
+        "text": "Counter: Kaka-cheaper/Polisim (3★, YAML worlds + mid-sim intervention = director-mode overlap)",
+        "variant": "body"
+      }
+    },
+    "app-sim-counter-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Flagged for a public differentiation push: 'counterfactual branching = git for strategic decisions'",
+        "variant": "caption"
+      }
+    },
+    "sep-c": {
+      "type": "Separator"
+    },
+    "appendix-prior": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "app-prior-title",
+        "app-prior-ref",
+        "app-prior-detail"
+      ]
+    },
+    "app-prior-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Brief",
+        "level": "h3"
+      }
+    },
+    "app-prior-ref": {
+      "type": "Text",
+      "props": {
+        "text": "war-room-2026-07-12.md:",
+        "variant": "caption"
+      }
+    },
+    "app-prior-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Decision was paperclipai — DM + co-announce Aeon Intelligence. Carried forward here as an open loop, not re-argued.",
+        "variant": "body"
+      }
+    }
+  }
+}
