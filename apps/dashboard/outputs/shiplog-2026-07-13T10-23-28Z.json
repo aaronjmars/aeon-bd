@@ -1,0 +1,352 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Shiplog jul 9→13",
+        "description": "aeon + miroshark shiplog ⭐🦈 jul 9 → jul 13"
+      },
+      "children": [
+        "overview_stat",
+        "sep1",
+        "shipped_heading",
+        "shipped_stack",
+        "sep2",
+        "traction_heading",
+        "traction_content",
+        "sep3",
+        "miroshark_heading",
+        "miroshark_text",
+        "sep4",
+        "article_link"
+      ]
+    },
+    "overview_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Shipped this window",
+        "value": "23 PRs + 29 commits on @aeonframework"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "shipped_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Shipped",
+        "level": "h2"
+      }
+    },
+    "shipped_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "shipped_1",
+        "shipped_2",
+        "shipped_3",
+        "shipped_4",
+        "shipped_5"
+      ]
+    },
+    "shipped_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "shipped_1_title",
+        "shipped_1_desc"
+      ]
+    },
+    "shipped_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "v0.1.0 dropped",
+        "level": "h4"
+      }
+    },
+    "shipped_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "first stable, 70 partners' feedback baked in — multi-harness (Grok+), OKF, attestation, observability, email",
+        "variant": "body"
+      }
+    },
+    "shipped_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "shipped_2_title",
+        "shipped_2_desc"
+      ]
+    },
+    "shipped_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "x login live",
+        "level": "h4"
+      }
+    },
+    "shipped_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "run agents on your X subscription, natively. no api key setup",
+        "variant": "body"
+      }
+    },
+    "shipped_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "shipped_3_title",
+        "shipped_3_desc"
+      ]
+    },
+    "shipped_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "retired postprocess",
+        "level": "h4"
+      }
+    },
+    "shipped_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "deploys + token transfers now run in-run via secretcurl. no deferred steps, fail-closed",
+        "variant": "body"
+      }
+    },
+    "shipped_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "shipped_4_title",
+        "shipped_4_desc"
+      ]
+    },
+    "shipped_4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "robinhood chain MCP",
+        "level": "h4"
+      }
+    },
+    "shipped_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "already live on @aeonframework before the narrative peaked",
+        "variant": "body"
+      }
+    },
+    "shipped_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "shipped_5_title",
+        "shipped_5_desc"
+      ]
+    },
+    "shipped_5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "bedrock foundation",
+        "level": "h4"
+      }
+    },
+    "shipped_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "$AEON among the first integrations — constitutional buyout framework",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "traction_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Traction",
+        "level": "h2"
+      }
+    },
+    "traction_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "traction_grid",
+        "traction_launches",
+        "traction_ecosystem"
+      ]
+    },
+    "traction_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_aeon",
+        "stat_miroshark"
+      ]
+    },
+    "stat_aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon stars",
+        "value": "574",
+        "delta": "+3",
+        "trend": "up"
+      }
+    },
+    "stat_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark stars",
+        "value": "1360",
+        "delta": "+3",
+        "trend": "up"
+      }
+    },
+    "traction_launches": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "launch_v010",
+        "launch_xlogin"
+      ]
+    },
+    "launch_v010": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "launch_v010_title",
+        "launch_v010_metrics"
+      ]
+    },
+    "launch_v010_title": {
+      "type": "Text",
+      "props": {
+        "text": "v0.1.0 launch",
+        "variant": "lead"
+      }
+    },
+    "launch_v010_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "69♥ / 11RT / 6833 views",
+        "variant": "body"
+      }
+    },
+    "launch_xlogin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "launch_xlogin_title",
+        "launch_xlogin_metrics"
+      ]
+    },
+    "launch_xlogin_title": {
+      "type": "Text",
+      "props": {
+        "text": "x login launch",
+        "variant": "lead"
+      }
+    },
+    "launch_xlogin_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "40♥ / 6RT / 2408 views",
+        "variant": "body"
+      }
+    },
+    "traction_ecosystem": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ecosystem_title",
+        "ecosystem_text"
+      ]
+    },
+    "ecosystem_title": {
+      "type": "Text",
+      "props": {
+        "text": "Ecosystem",
+        "variant": "lead"
+      }
+    },
+    "ecosystem_text": {
+      "type": "Text",
+      "props": {
+        "text": "paperclipai (30K★) \"Aeon Intelligence\" template (32 aeon skills) · @tryskopos cross-chain DeFi · AgentLink pack",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "miroshark_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark 🦈",
+        "level": "h2"
+      }
+    },
+    "miroshark_text": {
+      "type": "Text",
+      "props": {
+        "text": "website section + blog kicked off this week 🦈",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "article_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Shiplog Article",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/output/articles/shiplog-2026-07-13.md",
+        "source": "GitHub"
+      }
+    }
+  }
+}

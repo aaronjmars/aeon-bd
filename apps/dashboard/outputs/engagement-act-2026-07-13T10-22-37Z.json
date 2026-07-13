@@ -1,0 +1,250 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "2026-07-13"
+      },
+      "children": [
+        "stack_items"
+      ]
+    },
+    "stack_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1",
+        "sep1",
+        "item2",
+        "sep2",
+        "item3",
+        "sep3",
+        "item4"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story1",
+        "badge1",
+        "time1",
+        "desc1",
+        "draft1"
+      ]
+    },
+    "story1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "logbookbase/aeon-logbook",
+        "href": "https://github.com/logbookbase/aeon-logbook",
+        "source": "GitHub"
+      }
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "outline"
+      }
+    },
+    "time1": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "desc1": {
+      "type": "Text",
+      "props": {
+        "text": "shipped signed, verifiable receipts for agent actions as a dedicated Aeon skill",
+        "variant": "muted"
+      }
+    },
+    "draft1": {
+      "type": "Text",
+      "props": {
+        "text": "signed receipts for agent actions — this is the audit layer autonomous skills have been missing. adding you to ECOSYSTEM.md. want to join the ecosystem TG?",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story2",
+        "badge2",
+        "time2",
+        "desc2",
+        "draft2"
+      ]
+    },
+    "story2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AI-Risk-Management/aeon-cli",
+        "href": "https://github.com/AI-Risk-Management/aeon-cli",
+        "source": "GitHub"
+      }
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "outline"
+      }
+    },
+    "time2": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "desc2": {
+      "type": "Text",
+      "props": {
+        "text": "same org as aeon-skill-schema now ships aeon-cli: turn docs into signed executable Aeon skills — two-product signed-skill toolchain",
+        "variant": "muted"
+      }
+    },
+    "draft2": {
+      "type": "Text",
+      "props": {
+        "text": "aeon-cli + aeon-skill-schema in the same org — you're building the signed-skill toolchain nobody else is touching. what's the AeonBrain rollout plan?",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story3",
+        "badge3",
+        "time3",
+        "desc3",
+        "draft3"
+      ]
+    },
+    "story3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "codexvritra/signa-coordinate-skills",
+        "href": "https://github.com/codexvritra/signa-coordinate-skills",
+        "source": "GitHub"
+      }
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "X post",
+        "variant": "outline"
+      }
+    },
+    "time3": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "desc3": {
+      "type": "Text",
+      "props": {
+        "text": "3rd Aeon skill repo from codexvritra (messaging + sims + coordinate-skills), completing a full agent-comms suite",
+        "variant": "muted"
+      }
+    },
+    "draft3": {
+      "type": "Text",
+      "props": {
+        "text": "Signa just shipped the full agent-comms suite on Aeon — messaging, sims, coordinate-skills. three repos, one coherent stack ⭐ this is what building in public looks like",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story4",
+        "badge4",
+        "time4",
+        "desc4",
+        "draft4"
+      ]
+    },
+    "story4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@aethree_xyz",
+        "href": "https://x.com/aethree_xyz/status/2075867971071905851",
+        "source": "X"
+      }
+    },
+    "badge4": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "time4": {
+      "type": "Text",
+      "props": {
+        "text": "1 day ago",
+        "variant": "caption"
+      }
+    },
+    "desc4": {
+      "type": "Text",
+      "props": {
+        "text": "AeThree launchpad built on @aeonframework, part of three independent builder integrations in 36h",
+        "variant": "muted"
+      }
+    },
+    "draft4": {
+      "type": "Text",
+      "props": {
+        "text": "AeThree running launch infrastructure on Aeon ⭐ launchpad going autonomous — love to see it. what does the full setup look like?",
+        "variant": "body"
+      }
+    }
+  }
+}
