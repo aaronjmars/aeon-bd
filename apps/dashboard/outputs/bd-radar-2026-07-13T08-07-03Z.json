@@ -1,0 +1,183 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "bd-radar 07-13 — 5 new building leads ⭐"
+      },
+      "children": [
+        "separator_top",
+        "stack_leads",
+        "separator_bottom",
+        "digest_link"
+      ]
+    },
+    "separator_top": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead_1",
+        "lead_2",
+        "lead_3",
+        "lead_4"
+      ]
+    },
+    "lead_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_logbook",
+        "desc_logbook",
+        "action_logbook"
+      ]
+    },
+    "link_logbook": {
+      "type": "StoryLink",
+      "props": {
+        "title": "logbookbase/aeon-logbook",
+        "href": "https://github.com/logbookbase/aeon-logbook",
+        "source": "GitHub"
+      }
+    },
+    "desc_logbook": {
+      "type": "Text",
+      "props": {
+        "text": "fork → skill: signed, verifiable receipts for agent actions. the fork-to-skill graduation is the signal.",
+        "variant": "body"
+      }
+    },
+    "action_logbook": {
+      "type": "Text",
+      "props": {
+        "text": "→ DM logbookbase on GH: ECOSYSTEM.md + TG",
+        "variant": "caption"
+      }
+    },
+    "lead_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aeon_cli",
+        "desc_aeon_cli",
+        "action_aeon_cli"
+      ]
+    },
+    "link_aeon_cli": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AI-Risk-Management/aeon-cli",
+        "href": "https://github.com/AI-Risk-Management/aeon-cli",
+        "source": "GitHub"
+      }
+    },
+    "desc_aeon_cli": {
+      "type": "Text",
+      "props": {
+        "text": "same org as aeon-skill-schema. now they have the wire format AND a CLI to turn any team's docs into signed executable aeon skills. two-piece toolchain, same builder.",
+        "variant": "body"
+      }
+    },
+    "action_aeon_cli": {
+      "type": "Text",
+      "props": {
+        "text": "→ DM AI-Risk-Management on GH: what's AeonBrain's rollout plan?",
+        "variant": "caption"
+      }
+    },
+    "lead_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_signa",
+        "desc_signa",
+        "action_signa"
+      ]
+    },
+    "link_signa": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Signa/signa-coordinate-skills",
+        "href": "https://github.com/Signa/signa-coordinate-skills",
+        "source": "GitHub"
+      }
+    },
+    "desc_signa": {
+      "type": "Text",
+      "props": {
+        "text": "3rd distinct skill pack from codexvritra. messaging + sims + coordination = full agent-comms suite on Aeon. few. build that quietly.",
+        "variant": "body"
+      }
+    },
+    "action_signa": {
+      "type": "Text",
+      "props": {
+        "text": "→ spotlight the full suite in ecosystem comms",
+        "variant": "caption"
+      }
+    },
+    "lead_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_clawhunter",
+        "desc_clawhunter",
+        "action_clawhunter"
+      ]
+    },
+    "link_clawhunter": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@clawhuntersol",
+        "href": "https://x.com/clawhuntersol",
+        "source": "X"
+      }
+    },
+    "desc_clawhunter": {
+      "type": "Text",
+      "props": {
+        "text": "via X 07-12 — \"hundreds of agents hitting our API in the past week, front row on @aeonframework.\" clawhunter-skills is now confirmed traction, not just a repo.",
+        "variant": "body"
+      }
+    },
+    "action_clawhunter": {
+      "type": "Text",
+      "props": {
+        "text": "→ reply: \"front row on the framework\" + DM for ECOSYSTEM.md",
+        "variant": "caption"
+      }
+    },
+    "separator_bottom": {
+      "type": "Separator",
+      "props": {}
+    },
+    "digest_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest: bd-radar-2026-07-13",
+        "href": "output/articles/bd-radar-2026-07-13.md",
+        "source": "Article"
+      }
+    }
+  }
+}

@@ -1,11 +1,17 @@
-ℹ️ BD Radar 07-12
+ℹ️ bd-radar 07-13
 
-three new building-class leads today ⭐🦈
+**bd-radar 07-13** — 5 new building leads ⭐
 
-**paperclipai** shipped "Aeon Intelligence" as the canonical company template inside their 30K-star framework — 32 aeon skills, full autonomous company running on GitHub Actions. this is the use case. DM them: co-announce + ECOSYSTEM.md.
+**logbookbase/aeon-logbook** — fork → skill: signed, verifiable receipts for agent actions. the fork-to-skill graduation is the signal.
+→ DM logbookbase on GH: ECOSYSTEM.md + TG
 
-**sparkleware** dropped proof-of-loadout — compose an aeon loadout, route packs through phylax audit, preflight a miroshark sim, all in one skill. "agents pay for their own compute." the whole thesis in 80 lines. spotlight it.
+**AI-Risk-Management/aeon-cli** — same org as aeon-skill-schema. now they have the wire format AND a CLI to turn any team's docs into signed executable aeon skills. two-piece toolchain, same builder.
+→ DM AI-Risk-Management on GH: what's AeonBrain's rollout plan?
 
-**AntFleet** shipped bench-miroshark — two-model security review methodology applied to miroshark. they're now cross-product on both sides. DM: what did the bench find?
+**Signa/signa-coordinate-skills** — 3rd distinct skill pack from codexvritra. messaging + sims + coordination = full agent-comms suite on Aeon. few. build that quietly.
+→ spotlight the full suite in ecosystem comms
 
-also: JetBrains PyCharm blog (June) listed aeon in "Top Agentic Frameworks 2026." millions of devs, worth a quote from @aeonframework.
+**@clawhuntersol** (via X 07-12) — "hundreds of agents hitting our API in the past week, front row on @aeonframework." clawhunter-skills is now confirmed traction, not just a repo.
+→ reply: "front row on the framework" + DM for ECOSYSTEM.md
+
+Full digest: `output/articles/bd-radar-2026-07-13.md`
