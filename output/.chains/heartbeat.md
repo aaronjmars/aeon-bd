@@ -1,9 +1,10 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks clean:
-- **P0**: All 14 enabled skills at `last_status: success`, no stuck dispatches, no consecutive failures.
-- **P1**: No open PRs, no open GitHub issues.
-- **P2**: No new memory flags; both ISS-001 and ISS-002 are resolved.
-- **P3**: All enabled skills have cron-state entries and are within their schedule intervals.
+Fleet is clean across all tiers. 14 enabled skills, all `last_status: success`, zero open issues, zero stuck dispatches. Updated `docs/status.md` (🟢 OK) and logged to `memory/logs/2026-07-13.md`.
 
-`docs/status.md` regenerated with today's timestamp and no notification sent (nothing actionable).
+## Summary
+
+- **P0–P3:** all clean — no failures, no stuck skills, no stalled PRs/issues, no overdue schedules
+- **docs/status.md** regenerated — 🟢 OK, 14 skills listed sorted by last-run desc, no token pulse section (no token-report files), 0 open issues
+- **memory/logs/2026-07-13.md** — heartbeat entry appended under `### heartbeat`
+- No notification sent (nothing needs attention)
