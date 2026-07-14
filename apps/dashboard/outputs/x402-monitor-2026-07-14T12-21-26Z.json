@@ -1,0 +1,496 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x402 pulse — 2026-07-14"
+      },
+      "children": [
+        "stat-momentum",
+        "sep1",
+        "npm-section",
+        "sep2",
+        "integrations-section",
+        "sep3",
+        "signals-section",
+        "sep4",
+        "state-ref"
+      ]
+    },
+    "stat-momentum": {
+      "type": "Stat",
+      "props": {
+        "label": "Momentum (breakout)",
+        "value": "47 pts",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "npm-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-npm",
+        "npm-stack"
+      ]
+    },
+    "heading-npm": {
+      "type": "Heading",
+      "props": {
+        "text": "NPM metrics",
+        "level": "h3"
+      }
+    },
+    "npm-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "npm-x402",
+        "npm-x402-note",
+        "npm-coinbase",
+        "npm-coinbase-note"
+      ]
+    },
+    "npm-x402": {
+      "type": "Stat",
+      "props": {
+        "label": "npm x402",
+        "value": "289,646/wk",
+        "delta": "+17.8%",
+        "trend": "up"
+      }
+    },
+    "npm-x402-note": {
+      "type": "Text",
+      "props": {
+        "text": "breaks 3-week decline",
+        "variant": "caption"
+      }
+    },
+    "npm-coinbase": {
+      "type": "Stat",
+      "props": {
+        "label": "npm @coinbase/x402",
+        "value": "30,807/wk",
+        "delta": "-19.2%",
+        "trend": "down"
+      }
+    },
+    "npm-coinbase-note": {
+      "type": "Text",
+      "props": {
+        "text": "migration to foundation pkg continues",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "integrations-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-integrations",
+        "integrations-stack"
+      ]
+    },
+    "heading-integrations": {
+      "type": "Heading",
+      "props": {
+        "text": "New integrations (15)",
+        "level": "h3"
+      }
+    },
+    "integrations-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "integration-1",
+        "integration-2",
+        "integration-3",
+        "integration-4",
+        "integration-5",
+        "integration-6",
+        "integration-7",
+        "integration-8",
+        "integration-9",
+        "integration-10",
+        "integration-11",
+        "integration-12",
+        "integration-13",
+        "integration-14",
+        "integration-15"
+      ]
+    },
+    "integration-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "integration-1-link",
+        "integration-1-desc",
+        "integration-1-badge"
+      ]
+    },
+    "integration-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MikeyPetrillo/Agent402",
+        "href": "https://github.com/MikeyPetrillo/Agent402",
+        "source": "GitHub"
+      }
+    },
+    "integration-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "500 pay-per-call tools + skill packs, USDC on 8 chains, MCP-native",
+        "variant": "body"
+      }
+    },
+    "integration-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "5★"
+      }
+    },
+    "integration-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "integration-2-link",
+        "integration-2-desc"
+      ]
+    },
+    "integration-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aws-samples/sample-agentcore-cloudfront-x402-payments",
+        "href": "https://github.com/aws-samples/sample-agentcore-cloudfront-x402-payments",
+        "source": "GitHub"
+      }
+    },
+    "integration-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "official AWS reference arch, Bedrock AgentCore + x402",
+        "variant": "body"
+      }
+    },
+    "integration-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "integration-3-link",
+        "integration-3-desc"
+      ]
+    },
+    "integration-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Risingtell/argus",
+        "href": "https://github.com/Risingtell/argus",
+        "source": "GitHub"
+      }
+    },
+    "integration-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "OKX.AI trust bureau that audits agent services by actually paying them via x402 on X Layer",
+        "variant": "body"
+      }
+    },
+    "integration-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "integration-4-link",
+        "integration-4-desc"
+      ]
+    },
+    "integration-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "wiseman-umanah/TaskForge",
+        "href": "https://github.com/wiseman-umanah/TaskForge",
+        "source": "GitHub"
+      }
+    },
+    "integration-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "agents compete for paid work, settle on Hedera via x402, tamper-proof audit log",
+        "variant": "body"
+      }
+    },
+    "integration-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "integration-5-link",
+        "integration-5-desc"
+      ]
+    },
+    "integration-5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GenesisTechAT/peerpay-js",
+        "href": "https://github.com/GenesisTechAT/peerpay-js",
+        "source": "GitHub"
+      }
+    },
+    "integration-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "PeerPay JS SDKs — x402, seller gate, agent client, MCP server",
+        "variant": "body"
+      }
+    },
+    "integration-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "integration-6-link",
+        "integration-6-desc"
+      ]
+    },
+    "integration-6-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dayprotocol/daylight",
+        "href": "https://github.com/dayprotocol/daylight",
+        "source": "GitHub"
+      }
+    },
+    "integration-6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "non-custodial capital rail for autonomous agents",
+        "variant": "body"
+      }
+    },
+    "integration-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "integration-7-link",
+        "integration-7-desc",
+        "integration-7-badge"
+      ]
+    },
+    "integration-7-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "grimn0va/boltzpay",
+        "href": "https://github.com/grimn0va/boltzpay",
+        "source": "GitHub"
+      }
+    },
+    "integration-7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "multi-protocol paid API access across chains, automated payment",
+        "variant": "body"
+      }
+    },
+    "integration-7-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "1★"
+      }
+    },
+    "integration-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "integration-8-link",
+        "integration-8-desc"
+      ]
+    },
+    "integration-8-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Gomathi1806/Duka",
+        "href": "https://github.com/Gomathi1806/Duka",
+        "source": "GitHub"
+      }
+    },
+    "integration-8-desc": {
+      "type": "Text",
+      "props": {
+        "text": "QR Code payment on Celo minipay via x402",
+        "variant": "body"
+      }
+    },
+    "integration-9": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mefai-signal-agent",
+        "href": "https://github.com/mefai-signal-agent",
+        "source": "GitHub"
+      }
+    },
+    "integration-10": {
+      "type": "StoryLink",
+      "props": {
+        "title": "arc-suite",
+        "href": "https://github.com/arc-suite",
+        "source": "GitHub"
+      }
+    },
+    "integration-11": {
+      "type": "StoryLink",
+      "props": {
+        "title": "fpl-api",
+        "href": "https://github.com/fpl-api",
+        "source": "GitHub"
+      }
+    },
+    "integration-12": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chronolock",
+        "href": "https://github.com/chronolock",
+        "source": "GitHub"
+      }
+    },
+    "integration-13": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ag402",
+        "href": "https://github.com/ag402",
+        "source": "GitHub"
+      }
+    },
+    "integration-14": {
+      "type": "StoryLink",
+      "props": {
+        "title": "flash402-showcase",
+        "href": "https://github.com/flash402-showcase",
+        "source": "GitHub"
+      }
+    },
+    "integration-15": {
+      "type": "StoryLink",
+      "props": {
+        "title": "x402-payments-skill",
+        "href": "https://github.com/x402-payments-skill",
+        "source": "GitHub"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "signals-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-signals",
+        "signals-stack"
+      ]
+    },
+    "heading-signals": {
+      "type": "Heading",
+      "props": {
+        "text": "Signals",
+        "level": "h3"
+      }
+    },
+    "signals-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "signal-1",
+        "signal-2",
+        "signal-3",
+        "signal-4"
+      ]
+    },
+    "signal-1": {
+      "type": "Text",
+      "props": {
+        "text": "Cloudflare Monetization Gateway waitlist live — edge-native x402 gating for any page, API, or MCP tool",
+        "variant": "body"
+      }
+    },
+    "signal-2": {
+      "type": "Text",
+      "props": {
+        "text": "x402 SVM spec merged into coinbase/x402 — Solana at protocol level, not just via adapters",
+        "variant": "body"
+      }
+    },
+    "signal-3": {
+      "type": "Text",
+      "props": {
+        "text": "Chainalysis full-year report: 169M total txns, 590K buyers, 100K sellers — first third-party data breakdown",
+        "variant": "body"
+      }
+    },
+    "signal-4": {
+      "type": "Text",
+      "props": {
+        "text": "Paystack (Africa's dominant payments infra) filed x402 MCP integration proposal",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "state-ref": {
+      "type": "Text",
+      "props": {
+        "text": "State: memory/topics/protocol-state-x402.md",
+        "variant": "caption"
+      }
+    }
+  }
+}
