@@ -233,15 +233,15 @@
   },
   "x402-monitor": {
     "last_dispatch": "2026-07-14T12:14:57Z",
-    "last_status": "dispatched",
+    "last_status": "success",
     "last_failed": "2026-06-16T13:05:37Z",
-    "total_runs": 5,
-    "total_successes": 4,
+    "total_runs": 6,
+    "total_successes": 5,
     "total_failures": 1,
     "consecutive_failures": 0,
-    "success_rate": 0.8,
+    "success_rate": 0.83,
     "last_error": "okens\":13,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":0,\"costUSD\":0.000531,\"contextWindow\":200000,\"maxOutputTokens\":32000},\"claude-opus-4-8\":{\"inputTokens\":139,\"outputTok",
-    "last_success": "2026-07-07T12:28:26Z",
+    "last_success": "2026-07-14T12:23:17Z",
     "last_quality_score": 4
   },
   "competitor-radar": {
