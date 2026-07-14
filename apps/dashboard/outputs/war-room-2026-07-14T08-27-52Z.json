@@ -1,0 +1,384 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "War Room — 2026-07-14"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_state",
+        "sep_1",
+        "section_talk",
+        "sep_2",
+        "section_decide",
+        "sep_3",
+        "section_appendix"
+      ]
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_state",
+        "text_state_intro",
+        "grid_metrics",
+        "text_state_context"
+      ]
+    },
+    "heading_state": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "text_state_intro": {
+      "type": "Text",
+      "props": {
+        "text": "both green, cadence's back"
+      }
+    },
+    "grid_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_aeon_stars",
+        "stat_aeon_forks",
+        "stat_miroshark_stars",
+        "stat_miroshark_forks"
+      ]
+    },
+    "stat_aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars",
+        "value": "574"
+      }
+    },
+    "stat_aeon_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Forks",
+        "value": "208"
+      }
+    },
+    "stat_miroshark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Stars",
+        "value": "1364",
+        "delta": "+4",
+        "trend": "up"
+      }
+    },
+    "stat_miroshark_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Forks",
+        "value": "290",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "text_state_context": {
+      "type": "Text",
+      "props": {
+        "text": "both pushed yesterday — the 07-11 quiet is over. combined forks now 498 — the ~500 line is basically here. forks are the number, not stars."
+      }
+    },
+    "section_talk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_talk",
+        "stack_bankrsynth",
+        "stack_dawsonblock"
+      ]
+    },
+    "heading_talk": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "stack_bankrsynth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_bankrsynth",
+        "text_bankrsynth_desc"
+      ]
+    },
+    "badge_bankrsynth": {
+      "type": "Badge",
+      "props": {
+        "text": "BankrSynth",
+        "variant": "default"
+      }
+    },
+    "text_bankrsynth_desc": {
+      "type": "Text",
+      "props": {
+        "text": "first live Aeon agent, calls itself a \"market OS on Base,\" just featured in blocmates' Base AI Landscape. find on X/GH, DM co-announce."
+      }
+    },
+    "stack_dawsonblock": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dawsonblock",
+        "text_dawsonblock_desc"
+      ]
+    },
+    "badge_dawsonblock": {
+      "type": "Badge",
+      "props": {
+        "text": "dawsonblock",
+        "variant": "default"
+      }
+    },
+    "text_dawsonblock_desc": {
+      "type": "Text",
+      "props": {
+        "text": "built an @aeonframework skill-spotlight series — pull it into official curation."
+      }
+    },
+    "section_decide": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_decide",
+        "text_decide"
+      ]
+    },
+    "heading_decide": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "text_decide": {
+      "type": "Text",
+      "props": {
+        "text": "DM BankrSynth today. blocmates already did the reach — a third party publicly calling an Aeon agent a company on Base is the agents-as-companies thesis proving itself in the wild. co-announce before the window cools. one thing."
+      }
+    },
+    "section_appendix": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_appendix",
+        "stack_appendix_state",
+        "stack_appendix_leads",
+        "stack_appendix_simwatch",
+        "stack_appendix_prior"
+      ]
+    },
+    "heading_appendix": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      }
+    },
+    "stack_appendix_state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_appendix_state",
+        "text_appendix_state"
+      ]
+    },
+    "heading_appendix_state": {
+      "type": "Heading",
+      "props": {
+        "text": "STATE",
+        "level": "h3"
+      }
+    },
+    "text_appendix_state": {
+      "type": "Text",
+      "props": {
+        "text": "live `gh api` read (2026-07-14): `aaronjmars/aeon` 574⭐ / 208 forks, pushed 2026-07-13T19:13Z, latest release **v0.1.0** (2026-07-09). `aaronjmars/MiroShark` 1364⭐ / 290 forks, pushed 2026-07-13T22:25Z, no releases. Deltas vs 07-13 war-room: aeon flat (574⭐/208 forks), miroshark 1360→1364 (+4★), forks 289→290 (+1). Both pushed 07-13 — the ~2-day push gap from 07-11 flagged yesterday has closed; no stall (well within the >2-week threshold). Combined forks 498, approaching the ~500 milestone prior briefs called the real number."
+      }
+    },
+    "stack_appendix_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_appendix_leads",
+        "text_appendix_leads_file",
+        "table_leads",
+        "text_appendix_leads_escalations"
+      ]
+    },
+    "heading_appendix_leads": {
+      "type": "Heading",
+      "props": {
+        "text": "Leads",
+        "level": "h3"
+      }
+    },
+    "text_appendix_leads_file": {
+      "type": "Text",
+      "props": {
+        "text": "`output/articles/bd-radar-2026-07-14.md` (6 net-new):"
+      }
+    },
+    "table_leads": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Lead",
+          "Status",
+          "Score"
+        ],
+        "rows": [
+          [
+            "BankrSynth",
+            "building",
+            "★15"
+          ],
+          [
+            "dawsonblock/Aaron",
+            "building",
+            "★10"
+          ],
+          [
+            "zoodsood/MiroShark",
+            "forking",
+            "★3"
+          ],
+          [
+            "iopo545454-del/project-watchlist",
+            "mentioning",
+            "★3"
+          ],
+          [
+            "vibewatch",
+            "mentioning",
+            "★2"
+          ],
+          [
+            "yindaqiu/aeon",
+            "forking",
+            "★2"
+          ]
+        ]
+      }
+    },
+    "text_appendix_leads_escalations": {
+      "type": "Text",
+      "props": {
+        "text": "Escalations noted but not re-reported: @sparklewarefun \"compose → simulate → ship\" (Aeon×MiroShark×Virtuals ACP, in production) and chxoky/aeon (66.7KB own content, still no description — overdue for a direct ping)."
+      }
+    },
+    "stack_appendix_simwatch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_appendix_simwatch",
+        "text_appendix_simwatch"
+      ]
+    },
+    "heading_appendix_simwatch": {
+      "type": "Heading",
+      "props": {
+        "text": "sim-watch",
+        "level": "h3"
+      }
+    },
+    "text_appendix_simwatch": {
+      "type": "Text",
+      "props": {
+        "text": "`sim-watch-2026-07-12.md`, within 7d: open differentiation loop — own \"counterfactual branching = git for strategic decisions\" for MiroShark before Kaka-cheaper/Polisim (3★, director-mode overlap) closes the gap. Carried, not re-argued — BankrSynth is the fresher, higher-scored call today."
+      }
+    },
+    "stack_appendix_prior": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_appendix_prior",
+        "text_appendix_prior"
+      ]
+    },
+    "heading_appendix_prior": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Brief",
+        "level": "h3"
+      }
+    },
+    "text_appendix_prior": {
+      "type": "Text",
+      "props": {
+        "text": "`war-room-2026-07-13.md`: decide was the paperclipai / Polisim open loops. Both still open; today's higher-signal call (BankrSynth, external validation, score 15) supersedes for the single-decision slot."
+      }
+    }
+  }
+}

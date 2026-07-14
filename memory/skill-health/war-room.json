@@ -1,15 +1,11 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-13T07:59:23Z",
+  "last_analyzed": "2026-07-14T08:27:52Z",
   "quality_score": 4,
-  "assessment": "Substantive daily standup with live GitHub metrics, strategic positioning call (miroshark counterfactual branching), and clear follow-up flagged; output terse by design per operator preference.",
+  "assessment": "Substantive standup: pulled live metrics, triangulated sources, synthesized to a single strategic decision (BankrSynth DM), logged and notified cleanly.",
   "flags": [],
   "avg_score": 4.03,
   "history": [
-    {
-      "date": "2026-06-13",
-      "score": 4
-    },
     {
       "date": "2026-06-14",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-13",
+      "score": 4
+    },
+    {
+      "date": "2026-07-14",
       "score": 4
     }
   ]
