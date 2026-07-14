@@ -1,0 +1,606 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-07-14"
+      },
+      "children": [
+        "heading_aeon",
+        "stack_chainriffs",
+        "stack_eltommy",
+        "text_aeon_quiet",
+        "sep1",
+        "heading_miroshark",
+        "stack_sparkle1",
+        "stack_sparkle2",
+        "stack_cryptolart",
+        "stack_wolf",
+        "story_towards_ai",
+        "sep2",
+        "heading_engagement",
+        "stack_opp1",
+        "stack_opp2",
+        "stack_opp3"
+      ]
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "stack_chainriffs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badges_chainriffs_type",
+        "tweet_chainriffs",
+        "badges_chainriffs_cat"
+      ]
+    },
+    "badges_chainriffs_type": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_chainriffs_x",
+        "badge_chainriffs_tag"
+      ]
+    },
+    "badge_chainriffs_x": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      }
+    },
+    "badge_chainriffs_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "tag",
+        "variant": "secondary"
+      }
+    },
+    "tweet_chainriffs": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chainriffs",
+        "handle": "Chainriffs",
+        "text": "I've already started showing @sparklewarefun / $SPARKLE to some of my KOL and bagholder friends... @aeonframework @aaronjmars @virtuals_io",
+        "likes": 18,
+        "retweets": 2
+      }
+    },
+    "badges_chainriffs_cat": {
+      "type": "Badge",
+      "props": {
+        "text": "Ecosystem adjacent",
+        "variant": "outline"
+      }
+    },
+    "stack_eltommy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badges_eltommy_type",
+        "tweet_eltommy",
+        "text_eltommy_note"
+      ]
+    },
+    "badges_eltommy_type": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_eltommy_x",
+        "badge_eltommy_tag"
+      ]
+    },
+    "badge_eltommy_x": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      }
+    },
+    "badge_eltommy_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "tag",
+        "variant": "secondary"
+      }
+    },
+    "tweet_eltommy": {
+      "type": "TweetCard",
+      "props": {
+        "author": "EltommytoC",
+        "handle": "EltommytoC",
+        "text": "Soon @aeonframework ?",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "text_eltommy_note": {
+      "type": "Text",
+      "props": {
+        "text": "Possibly awaiting an announcement",
+        "variant": "caption"
+      }
+    },
+    "text_aeon_quiet": {
+      "type": "Alert",
+      "props": {
+        "title": "QUIET: AEON",
+        "message": "No substantive external X mentions or web discussions found this cycle beyond incidental tags",
+        "type": "info"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "stack_sparkle1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badges_sparkle1_type",
+        "tweet_sparkle1",
+        "badges_sparkle1_cat",
+        "link_sparkle1"
+      ]
+    },
+    "badges_sparkle1_type": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sparkle1_x",
+        "badge_sparkle1_api"
+      ]
+    },
+    "badge_sparkle1_x": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      }
+    },
+    "badge_sparkle1_api": {
+      "type": "Badge",
+      "props": {
+        "text": "api",
+        "variant": "secondary"
+      }
+    },
+    "tweet_sparkle1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sparklewarefun",
+        "handle": "sparklewarefun",
+        "text": "LLMs are confident about the next word and clueless about the next week — that gap is exactly why we don't ship loadouts blind. every Aeon loadout the sparkleware agent composes on @virtuals_io ACP gets a @miroshark_ preflight before it's delivered. ✦ compose → simulate → ship ✦",
+        "likes": 11,
+        "retweets": 2
+      }
+    },
+    "badges_sparkle1_cat": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sparkle1_discovery",
+        "badge_sparkle1_ecosystem"
+      ]
+    },
+    "badge_sparkle1_discovery": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "outline"
+      }
+    },
+    "badge_sparkle1_ecosystem": {
+      "type": "Badge",
+      "props": {
+        "text": "Ecosystem",
+        "variant": "outline"
+      }
+    },
+    "link_sparkle1": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/sparklewarefun/status/2076736820914880562"
+      }
+    },
+    "stack_sparkle2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badges_sparkle2_type",
+        "tweet_sparkle2",
+        "badges_sparkle2_cat",
+        "link_sparkle2"
+      ]
+    },
+    "badges_sparkle2_type": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sparkle2_x",
+        "badge_sparkle2_api"
+      ]
+    },
+    "badge_sparkle2_x": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      }
+    },
+    "badge_sparkle2_api": {
+      "type": "Badge",
+      "props": {
+        "text": "api",
+        "variant": "secondary"
+      }
+    },
+    "tweet_sparkle2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sparklewarefun",
+        "handle": "sparklewarefun",
+        "text": "sparkleware is now a hireable agent on @virtuals_io ACP... an agent hires us with a goal → compose an Aeon loadout → simulate it with @miroshark_ 🦈 → deliver settled in USDC, on-chain",
+        "likes": 13,
+        "retweets": 3
+      }
+    },
+    "badges_sparkle2_cat": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sparkle2_ecosystem",
+        "badge_sparkle2_discovery"
+      ]
+    },
+    "badge_sparkle2_ecosystem": {
+      "type": "Badge",
+      "props": {
+        "text": "Ecosystem",
+        "variant": "outline"
+      }
+    },
+    "badge_sparkle2_discovery": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "outline"
+      }
+    },
+    "link_sparkle2": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/sparklewarefun/status/2076624381673967765"
+      }
+    },
+    "stack_cryptolart": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badges_cryptolart_type",
+        "tweet_cryptolart",
+        "badge_cryptolart_discovery"
+      ]
+    },
+    "badges_cryptolart_type": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cryptolart_x",
+        "badge_cryptolart_api"
+      ]
+    },
+    "badge_cryptolart_x": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      }
+    },
+    "badge_cryptolart_api": {
+      "type": "Badge",
+      "props": {
+        "text": "api",
+        "variant": "secondary"
+      }
+    },
+    "tweet_cryptolart": {
+      "type": "TweetCard",
+      "props": {
+        "author": "cryptolart",
+        "handle": "cryptolart",
+        "text": "I love this tool. (in @miroshark_ context)",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "badge_cryptolart_discovery": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "outline"
+      }
+    },
+    "stack_wolf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badges_wolf_type",
+        "tweet_wolf",
+        "text_wolf_note"
+      ]
+    },
+    "badges_wolf_type": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_wolf_x",
+        "badge_wolf_api"
+      ]
+    },
+    "badge_wolf_x": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      }
+    },
+    "badge_wolf_api": {
+      "type": "Badge",
+      "props": {
+        "text": "api",
+        "variant": "secondary"
+      }
+    },
+    "tweet_wolf": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MrDegenWolf",
+        "handle": "MrDegenWolf",
+        "text": "Check @miroshark_",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "text_wolf_note": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up from 07-12 bottom-call thread",
+        "variant": "caption"
+      }
+    },
+    "story_towards_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_towards_ai_web",
+        "link_towards_ai",
+        "text_towards_ai_note"
+      ]
+    },
+    "badge_towards_ai_web": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_web",
+        "badge_press"
+      ]
+    },
+    "badge_web": {
+      "type": "Badge",
+      "props": {
+        "text": "Web",
+        "variant": "secondary"
+      }
+    },
+    "badge_press": {
+      "type": "Badge",
+      "props": {
+        "text": "Press",
+        "variant": "outline"
+      }
+    },
+    "link_towards_ai": {
+      "type": "StoryLink",
+      "props": {
+        "title": "The 3-Step Guide to Running a 500-Agent AI Simulation on Your Laptop",
+        "source": "Towards AI",
+        "href": "https://pub.towardsai.net/the-3-step-guide-to-running-a-500-agent-ai-simulation-on-your-laptop-13145bfeea77"
+      }
+    },
+    "text_towards_ai_note": {
+      "type": "Text",
+      "props": {
+        "text": "By MohamedAbdelmenem — Editorial coverage, date unconfirmed",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "stack_opp1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_opp1",
+        "text_opp1_value",
+        "text_opp1_action",
+        "text_opp1_context"
+      ]
+    },
+    "heading_opp1": {
+      "type": "Heading",
+      "props": {
+        "text": "@sparklewarefun: Compose → Simulate → Ship framing",
+        "level": "h4"
+      }
+    },
+    "text_opp1_value": {
+      "type": "Text",
+      "props": {
+        "text": "\"Compose → Simulate → Ship\" is the cleanest 3-word Aeon×Miroshark value prop anyone has coined outside the team.",
+        "variant": "lead"
+      }
+    },
+    "text_opp1_action": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to the pipeline tweet to amplify and co-sign the framing.",
+        "variant": "body"
+      }
+    },
+    "text_opp1_context": {
+      "type": "Text",
+      "props": {
+        "text": "11♥/2RT, ecosystem partner",
+        "variant": "caption"
+      }
+    },
+    "stack_opp2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_opp2",
+        "text_opp2_usecase",
+        "text_opp2_action"
+      ]
+    },
+    "heading_opp2": {
+      "type": "Heading",
+      "props": {
+        "text": "@sparklewarefun: ACP hireable agent with Miroshark preflight",
+        "level": "h4"
+      }
+    },
+    "text_opp2_usecase": {
+      "type": "Text",
+      "props": {
+        "text": "ACP hireable agent with Miroshark preflight is a new use-case.",
+        "variant": "body"
+      }
+    },
+    "text_opp2_action": {
+      "type": "Text",
+      "props": {
+        "text": "Quote or spotlight officially.",
+        "variant": "body"
+      }
+    },
+    "stack_opp3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_opp3",
+        "text_opp3_signal",
+        "text_opp3_action"
+      ]
+    },
+    "heading_opp3": {
+      "type": "Heading",
+      "props": {
+        "text": "@cryptolart: Genuine tool appreciation",
+        "level": "h4"
+      }
+    },
+    "text_opp3_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Low follower signal but genuine \"I love this tool\" — a warm reply could convert a passive user into an advocate.",
+        "variant": "body"
+      }
+    },
+    "text_opp3_action": {
+      "type": "Text",
+      "props": {
+        "text": "Respond warmly to build momentum.",
+        "variant": "caption"
+      }
+    }
+  }
+}

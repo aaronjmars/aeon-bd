@@ -1,8 +1,8 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-07-12T07:30:57Z",
+  "last_analyzed": "2026-07-14T07:41:12Z",
   "quality_score": 4,
-  "assessment": "Substantive signal detection with strong actionability — found high-priority X mention (0xLiamVisionary) + medium opportunity (MrDegenWolf) with verified engagement tactics; proper noise filtering and source coverage (X.AI API + WebSearch + GitHub); no blocking errors. Brief on broader web/GitHub analysis.",
+  "assessment": "Substantive, well-sourced output with specific signal, engagement metrics, and actionable opps; minor uncertainty on one data point doesn't degrade core deliverable",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -64,6 +64,10 @@
     },
     {
       "date": "2026-07-12",
+      "score": 4
+    },
+    {
+      "date": "2026-07-14",
       "score": 4
     }
   ]
