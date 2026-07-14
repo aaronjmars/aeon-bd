@@ -1,0 +1,407 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "AI Framework Watch — 2026-07-14"
+      },
+      "children": [
+        "release_week_section",
+        "sep1",
+        "top_movers_section",
+        "sep2",
+        "releases_section",
+        "sep3",
+        "anchor_section",
+        "autogen_note",
+        "sep4",
+        "digest_link"
+      ]
+    },
+    "release_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "release_week_heading",
+        "frameworks_badges",
+        "tracked_stats"
+      ]
+    },
+    "release_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "RELEASE WEEK: 5 frameworks shipped",
+        "level": "h2"
+      }
+    },
+    "frameworks_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aeon",
+        "badge_langgraph",
+        "badge_crewai",
+        "badge_mastra",
+        "badge_pydantic"
+      ]
+    },
+    "badge_aeon": {
+      "type": "Badge",
+      "props": {
+        "text": "aeon ⭐",
+        "variant": "default"
+      }
+    },
+    "badge_langgraph": {
+      "type": "Badge",
+      "props": {
+        "text": "langgraph"
+      }
+    },
+    "badge_crewai": {
+      "type": "Badge",
+      "props": {
+        "text": "crewai"
+      }
+    },
+    "badge_mastra": {
+      "type": "Badge",
+      "props": {
+        "text": "mastra"
+      }
+    },
+    "badge_pydantic": {
+      "type": "Badge",
+      "props": {
+        "text": "pydantic-ai"
+      }
+    },
+    "tracked_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_tracked",
+        "stat_releases",
+        "stat_breaking"
+      ]
+    },
+    "stat_tracked": {
+      "type": "Stat",
+      "props": {
+        "label": "Tracked",
+        "value": "9/9"
+      }
+    },
+    "stat_releases": {
+      "type": "Stat",
+      "props": {
+        "label": "Releases (7d)",
+        "value": "10"
+      }
+    },
+    "stat_breaking": {
+      "type": "Stat",
+      "props": {
+        "label": "Breaking flags",
+        "value": "0"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "top_movers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_movers_heading",
+        "top_movers_table"
+      ]
+    },
+    "top_movers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top movers (7d stars)",
+        "level": "h2"
+      }
+    },
+    "top_movers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Framework",
+          "Stars",
+          "Change (7d)"
+        ],
+        "rows": [
+          [
+            "langchain-ai/langgraph",
+            "37.3k",
+            "+587 (+1.6%)"
+          ],
+          [
+            "crewAIInc/crewAI",
+            "55.5k",
+            "+433 (+0.8%)"
+          ],
+          [
+            "mastra-ai/mastra",
+            "26.1k",
+            "+258 (+1.0%)"
+          ],
+          [
+            "pydantic/pydantic-ai",
+            "18.5k",
+            "+250 (+1.4%)"
+          ],
+          [
+            "stanfordnlp/dspy",
+            "36.1k",
+            "+215 (+0.6%)"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "releases_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "releases_heading",
+        "releases_stack"
+      ]
+    },
+    "releases_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Releases worth reading",
+        "level": "h2"
+      }
+    },
+    "releases_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "release_1",
+        "release_2",
+        "release_3",
+        "release_4",
+        "release_5"
+      ]
+    },
+    "release_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "release_1_title",
+        "release_1_desc"
+      ]
+    },
+    "release_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "aaronjmars/aeon v0.1.0 ⭐",
+        "level": "h3"
+      }
+    },
+    "release_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "first public release (07-09)"
+      }
+    },
+    "release_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "release_2_title",
+        "release_2_desc"
+      ]
+    },
+    "release_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "pydantic/pydantic-ai v2.7.0→v2.9.1",
+        "level": "h3"
+      }
+    },
+    "release_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "5 releases this week; now running dual v1/v2 tracks simultaneously, v1 as legacy stability branch"
+      }
+    },
+    "release_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "release_3_title",
+        "release_3_desc"
+      ]
+    },
+    "release_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "langchain-ai/langgraph 1.2.9 + cli 0.4.31",
+        "level": "h3"
+      }
+    },
+    "release_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "steady patch cadence"
+      }
+    },
+    "release_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "release_4_title",
+        "release_4_desc"
+      ]
+    },
+    "release_4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "crewAIInc/crewAI 1.15.2",
+        "level": "h3"
+      }
+    },
+    "release_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "stable point release (pre-releases resolved)"
+      }
+    },
+    "release_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "release_5_title",
+        "release_5_desc"
+      ]
+    },
+    "release_5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "mastra-ai/mastra @mastra/core@1.50.0",
+        "level": "h3"
+      }
+    },
+    "release_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "weekly TypeScript cadence holds"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "anchor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anchor_heading",
+        "anchor_content"
+      ]
+    },
+    "anchor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Anchor (aeon) ⭐",
+        "level": "h2"
+      }
+    },
+    "anchor_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "anchor_stars",
+        "anchor_releases",
+        "anchor_cohort"
+      ]
+    },
+    "anchor_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "574",
+        "delta": "+4 this week",
+        "trend": "up"
+      }
+    },
+    "anchor_releases": {
+      "type": "Stat",
+      "props": {
+        "label": "Releases (7d)",
+        "value": "1"
+      }
+    },
+    "anchor_cohort": {
+      "type": "Text",
+      "props": {
+        "text": "9/9 in cohort by 7d delta"
+      }
+    },
+    "autogen_note": {
+      "type": "Alert",
+      "props": {
+        "title": "Autogen note",
+        "message": "10 months release-dark at 59.7k stars — either they're pre-cooking something large or the project's real activity moved to a different release surface.",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "digest_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest",
+        "href": "output/articles/framework-watch-2026-07-14.md"
+      }
+    }
+  }
+}

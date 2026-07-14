@@ -1,115 +1,115 @@
 {
-  "last_run": "2026-07-07",
+  "last_run": "2026-07-14",
   "last_status": "AI_FRAMEWORK_WATCH_OK",
   "watchlist_size": 9,
   "frameworks": {
     "aeon": {
       "repo": "aaronjmars/aeon",
-      "stars": 570, "forks": 203, "open_issues": 0,
-      "stars_7d_ago": 560,
+      "stars": 574, "forks": 208, "open_issues": 4,
+      "stars_7d_ago": 570,
       "stars_30d_ago": 514,
       "stars_30d_ago_at": "2026-06-16",
-      "open_issues_7d_ago": 3,
-      "last_release": null,
-      "last_release_at": null,
+      "open_issues_7d_ago": 0,
+      "last_release": "v0.1.0",
+      "last_release_at": "2026-07-09T19:30:29Z",
       "archived": false,
-      "last_seen": "2026-07-07"
+      "last_seen": "2026-07-14"
     },
     "langgraph": {
       "repo": "langchain-ai/langgraph",
-      "stars": 36676, "forks": 6153, "open_issues": 602,
-      "stars_7d_ago": 36121,
+      "stars": 37263, "forks": 6238, "open_issues": 617,
+      "stars_7d_ago": 36676,
       "stars_30d_ago": 34907,
       "stars_30d_ago_at": "2026-06-16",
-      "open_issues_7d_ago": 593,
-      "last_release": "1.2.8",
-      "last_release_at": "2026-07-06T20:40:30Z",
+      "open_issues_7d_ago": 602,
+      "last_release": "1.2.9",
+      "last_release_at": "2026-07-10T01:30:24Z",
       "archived": false,
-      "last_seen": "2026-07-07"
+      "last_seen": "2026-07-14"
     },
     "crewai": {
       "repo": "crewAIInc/crewAI",
-      "stars": 55057, "forks": 7734, "open_issues": 616,
-      "stars_7d_ago": 54612,
+      "stars": 55490, "forks": 7824, "open_issues": 651,
+      "stars_7d_ago": 55057,
       "stars_30d_ago": 53673,
       "stars_30d_ago_at": "2026-06-16",
-      "open_issues_7d_ago": 576,
-      "last_release": "1.15.2a2",
-      "last_release_at": "2026-07-01T22:15:05Z",
+      "open_issues_7d_ago": 616,
+      "last_release": "1.15.2",
+      "last_release_at": "2026-07-08T02:05:22Z",
       "archived": false,
-      "last_seen": "2026-07-07"
+      "last_seen": "2026-07-14"
     },
     "autogen": {
       "repo": "microsoft/autogen",
-      "stars": 59548, "forks": 8963, "open_issues": 927,
-      "stars_7d_ago": 59373,
+      "stars": 59720, "forks": 8987, "open_issues": 946,
+      "stars_7d_ago": 59548,
       "stars_30d_ago": 58994,
       "stars_30d_ago_at": "2026-06-16",
-      "open_issues_7d_ago": 921,
+      "open_issues_7d_ago": 927,
       "last_release": "python-v0.7.5",
       "last_release_at": "2025-09-30T06:18:26Z",
       "archived": false,
-      "last_seen": "2026-07-07"
+      "last_seen": "2026-07-14"
     },
     "llamaindex": {
       "repo": "run-llama/llama_index",
-      "stars": 50701, "forks": 7702, "open_issues": 488,
-      "stars_7d_ago": 50531,
+      "stars": 50831, "forks": 7742, "open_issues": 543,
+      "stars_7d_ago": 50701,
       "stars_30d_ago": 50166,
       "stars_30d_ago_at": "2026-06-16",
-      "open_issues_7d_ago": 515,
+      "open_issues_7d_ago": 488,
       "last_release": "v0.14.23",
       "last_release_at": "2026-06-24T19:36:43Z",
       "archived": false,
-      "last_seen": "2026-07-07"
+      "last_seen": "2026-07-14"
     },
     "mastra": {
       "repo": "mastra-ai/mastra",
-      "stars": 25891, "forks": 2371, "open_issues": 383,
-      "stars_7d_ago": 25607,
+      "stars": 26149, "forks": 2412, "open_issues": 431,
+      "stars_7d_ago": 25891,
       "stars_30d_ago": 25123,
       "stars_30d_ago_at": "2026-06-16",
-      "open_issues_7d_ago": 396,
-      "last_release": "@mastra/core@1.49.0",
-      "last_release_at": "2026-07-07T07:59:25Z",
+      "open_issues_7d_ago": 383,
+      "last_release": "@mastra/core@1.50.0",
+      "last_release_at": "2026-07-08T15:12:13Z",
       "archived": false,
-      "last_seen": "2026-07-07"
+      "last_seen": "2026-07-14"
     },
     "smolagents": {
       "repo": "huggingface/smolagents",
-      "stars": 28231, "forks": 2741, "open_issues": 667,
-      "stars_7d_ago": 28108,
+      "stars": 28343, "forks": 2776, "open_issues": 683,
+      "stars_7d_ago": 28231,
       "stars_30d_ago": 27882,
       "stars_30d_ago_at": "2026-06-16",
-      "open_issues_7d_ago": 642,
+      "open_issues_7d_ago": 667,
       "last_release": "v1.26.0",
       "last_release_at": "2026-05-29T05:09:47Z",
       "archived": false,
-      "last_seen": "2026-07-07"
+      "last_seen": "2026-07-14"
     },
     "dspy": {
       "repo": "stanfordnlp/dspy",
-      "stars": 35899, "forks": 3063, "open_issues": 566,
-      "stars_7d_ago": 35668,
+      "stars": 36114, "forks": 3095, "open_issues": 589,
+      "stars_7d_ago": 35899,
       "stars_30d_ago": 35060,
       "stars_30d_ago_at": "2026-06-16",
-      "open_issues_7d_ago": 544,
+      "open_issues_7d_ago": 566,
       "last_release": "3.3.0b1",
       "last_release_at": "2026-05-28T01:11:39Z",
       "archived": false,
-      "last_seen": "2026-07-07"
+      "last_seen": "2026-07-14"
     },
     "pydantic-ai": {
       "repo": "pydantic/pydantic-ai",
-      "stars": 18254, "forks": 2312, "open_issues": 506,
-      "stars_7d_ago": 18094,
+      "stars": 18504, "forks": 2363, "open_issues": 502,
+      "stars_7d_ago": 18254,
       "stars_30d_ago": 17781,
       "stars_30d_ago_at": "2026-06-16",
-      "open_issues_7d_ago": 644,
-      "last_release": "v2.5.1",
-      "last_release_at": "2026-07-07T01:55:50Z",
+      "open_issues_7d_ago": 506,
+      "last_release": "v2.9.1",
+      "last_release_at": "2026-07-14T02:59:28Z",
       "archived": false,
-      "last_seen": "2026-07-07"
+      "last_seen": "2026-07-14"
     }
   }
 }

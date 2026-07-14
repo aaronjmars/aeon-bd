@@ -1,8 +1,8 @@
 {
   "skill": "framework-watch",
-  "last_analyzed": "2026-07-07T09:21:46Z",
+  "last_analyzed": "2026-07-14T09:17:21Z",
   "quality_score": 4,
-  "assessment": "Comprehensive framework release report with specific metrics, clear verdict (RELEASE WEEK), anomaly detection, and actionable watchlist insights aligned to strategy.",
+  "assessment": "Substantive weekly framework watch with specific release data, star metrics, and actionable signals (aeon v0.1.0 launch, pydantic v1/v2 stabilization, langgraph momentum). Well-structured verdict and file output.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -20,6 +20,10 @@
     },
     {
       "date": "2026-07-07",
+      "score": 4
+    },
+    {
+      "date": "2026-07-14",
       "score": 4
     }
   ]
