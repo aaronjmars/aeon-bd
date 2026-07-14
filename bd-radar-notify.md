@@ -1,5 +1,3 @@
-ℹ️ BD Radar 2026-07-14
-
 ## BD Radar — 2026-07-14 ⭐🦈
 
 Two new `building` leads today.

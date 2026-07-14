@@ -1,0 +1,173 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar — 2026-07-14 ⭐🦈"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "leads_section",
+        "sep2",
+        "notable_section",
+        "sep3",
+        "digest_link"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Two new building leads today.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "leads_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "bankr_lead",
+        "dawson_lead"
+      ]
+    },
+    "bankr_lead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "bankr_heading",
+        "bankr_desc"
+      ]
+    },
+    "bankr_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BankrSynth",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "bankr_desc": {
+      "type": "Text",
+      "props": {
+        "text": "One of the first agents live on Aeon, positioning as a \"market operating system on Base.\" blocmates featured it in their Base AI Landscape article. Needs a verify pass but if the stack is real this is agents-as-companies in the wild. Find them on X or GH and DM."
+      },
+      "children": []
+    },
+    "dawson_lead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dawson_heading",
+        "dawson_desc",
+        "dawson_code_snippet",
+        "dawson_action"
+      ]
+    },
+    "dawson_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "dawsonblock/Aaron",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "dawson_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Personal Aeon instance running a skill-spotlight series for the @aeonframework ecosystem."
+      },
+      "children": []
+    },
+    "dawson_code_snippet": {
+      "type": "Text",
+      "props": {
+        "text": "The code has: \"The @aeonframework skill spotlight ⭐ is the brand of the series.\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "dawson_action": {
+      "type": "Text",
+      "props": {
+        "text": "Someone built automation on top of Aeon to curate Aeon. Worth pulling into official curation and Telegram."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "sparkle_update",
+        "chxoky_update"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sparkle_update": {
+      "type": "Text",
+      "props": {
+        "text": "@sparklewarefun dropped another post 07-13 — \"every Aeon loadout gets a @miroshark_ preflight before it's delivered.\" compose → simulate → ship. Still the cleanest Aeon×MiroShark integration live."
+      },
+      "children": []
+    },
+    "chxoky_update": {
+      "type": "Text",
+      "props": {
+        "text": "chxoky/aeon is now at 66K bytes own content (was 44K) with zero description — this builder is cooking something and hasn't come up for air yet."
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "digest_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest",
+        "href": "output/articles/bd-radar-2026-07-14.md",
+        "source": "BD Radar"
+      },
+      "children": []
+    }
+  }
+}

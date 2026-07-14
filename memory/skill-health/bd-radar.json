@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-13T08:07:03Z",
+  "last_analyzed": "2026-07-14T07:44:24Z",
   "quality_score": 4,
-  "assessment": "Strong radar output — 6 specific, contextualized leads across multiple sources with clear escalation signals and actionable patterns (fork→skill progression, org-level toolchain growth). Well-structured for operator action.",
+  "assessment": "Substantive BD sweep with 6 new leads, clear scoring, actionable next steps, aligned to strategy",
   "flags": [],
-  "avg_score": 4.17,
+  "avg_score": 4.13,
   "history": [
-    {
-      "date": "2026-06-13",
-      "score": 5
-    },
     {
       "date": "2026-06-14",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-13",
+      "score": 4
+    },
+    {
+      "date": "2026-07-14",
       "score": 4
     }
   ]

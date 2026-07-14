@@ -1,17 +1,15 @@
-ℹ️ bd-radar 07-13
+ℹ️ BD Radar 2026-07-14
 
-**bd-radar 07-13** — 5 new building leads ⭐
+## BD Radar — 2026-07-14 ⭐🦈
 
-**logbookbase/aeon-logbook** — fork → skill: signed, verifiable receipts for agent actions. the fork-to-skill graduation is the signal.
-→ DM logbookbase on GH: ECOSYSTEM.md + TG
+Two new `building` leads today.
 
-**AI-Risk-Management/aeon-cli** — same org as aeon-skill-schema. now they have the wire format AND a CLI to turn any team's docs into signed executable aeon skills. two-piece toolchain, same builder.
-→ DM AI-Risk-Management on GH: what's AeonBrain's rollout plan?
+**BankrSynth** — one of the first agents live on Aeon, positioning as a "market operating system on Base." blocmates featured it in their Base AI Landscape article. Needs a verify pass but if the stack is real this is agents-as-companies in the wild. Find them on X or GH and DM.
 
-**Signa/signa-coordinate-skills** — 3rd distinct skill pack from codexvritra. messaging + sims + coordination = full agent-comms suite on Aeon. few. build that quietly.
-→ spotlight the full suite in ecosystem comms
+**dawsonblock/Aaron** — personal Aeon instance running a `skill-spotlight` series for the @aeonframework ecosystem. The code has: *"The @aeonframework skill spotlight ⭐ is the brand of the series."* Someone built automation on top of Aeon to curate Aeon. Worth pulling into official curation and TG.
 
-**@clawhuntersol** (via X 07-12) — "hundreds of agents hitting our API in the past week, front row on @aeonframework." clawhunter-skills is now confirmed traction, not just a repo.
-→ reply: "front row on the framework" + DM for ECOSYSTEM.md
+---
 
-Full digest: `output/articles/bd-radar-2026-07-13.md`
+**Notable:** @sparklewarefun dropped another post 07-13 — "every Aeon loadout gets a @miroshark_ preflight before it's delivered." compose → simulate → ship. still the cleanest Aeon×MiroShark integration live. chxoky/aeon is now at 66K bytes own content (was 44K) with zero description — this builder is cooking something and hasn't come up for air yet.
+
+Full digest: `output/articles/bd-radar-2026-07-14.md`
