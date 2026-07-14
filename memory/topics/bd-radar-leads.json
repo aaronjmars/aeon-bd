@@ -2262,6 +2262,80 @@
       "repo_updated": "2026-07-11",
       "source": "gh_read_pat_forks",
       "move": "Watch"
+    },
+    {
+      "key": "web:BankrSynth",
+      "class": "building",
+      "who": "BankrSynth",
+      "handle": "BankrSynth",
+      "signal": "Featured in blocmates Base AI Landscape article as one of the first agents live on Aeon framework, positioning as a 'market operating system on Base.' Live product claim — highest-intent signal class.",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-07-14",
+      "source": "websearch",
+      "move": "Find @BankrSynth on X or GH to verify — if live on aeon, DM: co-announce + ECOSYSTEM.md entry"
+    },
+    {
+      "key": "github:dawsonblock/Aaron",
+      "class": "building",
+      "who": "dawsonblock",
+      "handle": "dawsonblock",
+      "signal": "Personal Aeon instance with a skill-spotlight series for the @aeonframework ecosystem. Code: 'The @aeonframework skill spotlight ⭐ is the brand of the series.' Builder running Aeon automation to spotlight the ecosystem.",
+      "fit": 2,
+      "score": 10,
+      "first_seen": "2026-07-14",
+      "source": "gh_search_code",
+      "move": "DM dawsonblock on GH: you built an ecosystem spotlight skill — want to wire it into official Aeon curation? TG invite"
+    },
+    {
+      "key": "github:zoodsood/MiroShark",
+      "class": "forking",
+      "who": "zoodsood",
+      "handle": "zoodsood",
+      "signal": "MiroShark fork created 07-13T19:41, pushed 07-13 with +417 bytes own content. Unknown vertical.",
+      "fit": 1,
+      "score": 3,
+      "first_seen": "2026-07-14",
+      "repo_updated": "2026-07-13",
+      "source": "gh_read_pat_forks",
+      "move": "Watch — ping if description or issue appears in 5 days"
+    },
+    {
+      "key": "github:iopo545454-del/project-watchlist",
+      "class": "mentioning",
+      "who": "iopo545454-del",
+      "handle": "iopo545454-del",
+      "signal": "Detailed Aeon watch log with source-dated entries from 06-16 through 07-14: community call, Litebeam integration, Packs publishing. Someone doing structured market research on Aeon.",
+      "fit": 1,
+      "score": 3,
+      "first_seen": "2026-07-14",
+      "source": "gh_search_code",
+      "move": "No action — free-moving intel tracker. Monitor for inbound"
+    },
+    {
+      "key": "github:vibewatch/vibewatch.github.io",
+      "class": "mentioning",
+      "who": "vibewatch",
+      "handle": "vibewatch",
+      "signal": "Vibewatch AI agent tracking site catalogued Aeon (121 likes, 25 bookmarks, 424,990 views on Aeon launch post). Distribution surface tracking agent frameworks.",
+      "fit": 1,
+      "score": 2,
+      "first_seen": "2026-07-14",
+      "source": "gh_search_code",
+      "move": "No action — organic reach"
+    },
+    {
+      "key": "github:yindaqiu/aeon",
+      "class": "forking",
+      "who": "yindaqiu",
+      "handle": "yindaqiu",
+      "signal": "Aeon fork created 06-02, still pushing TODAY 07-14T07:28 (35d continuous operation). Size 33569 = +206 bytes own content. Unknown vertical.",
+      "fit": 1,
+      "score": 2,
+      "first_seen": "2026-07-14",
+      "repo_updated": "2026-07-14",
+      "source": "gh_read_pat_forks",
+      "move": "Watch — if description appears or issue filed, ping"
     }
   ],
   "surfaced": [
@@ -2507,6 +2581,12 @@
     "github:sparkleware/proof-of-loadout",
     "github:AntFleet/bench-miroshark",
     "web:jetbrains-aeon-2026",
-    "github:xalil05/ProjecSen"
+    "github:xalil05/ProjecSen",
+    "web:BankrSynth",
+    "github:dawsonblock/Aaron",
+    "github:zoodsood/MiroShark",
+    "github:iopo545454-del/project-watchlist",
+    "github:vibewatch/vibewatch.github.io",
+    "github:yindaqiu/aeon"
   ]
 }
