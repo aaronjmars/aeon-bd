@@ -1,10 +1,10 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-Fleet is clean across all tiers. 14 enabled skills, all `last_status: success`, zero open issues, zero stuck dispatches. Updated `docs/status.md` (🟢 OK) and logged to `memory/logs/2026-07-13.md`.
+All checks clean. Fleet is healthy — 14 enabled skills, all green. `docs/status.md` regenerated with today's timestamps (bd-radar and mention-radar both succeeded already at 07:42–07:45 UTC today). No notification sent (nothing needs attention). Log appended to `memory/logs/2026-07-14.md`.
 
 ## Summary
 
-- **P0–P3:** all clean — no failures, no stuck skills, no stalled PRs/issues, no overdue schedules
-- **docs/status.md** regenerated — 🟢 OK, 14 skills listed sorted by last-run desc, no token pulse section (no token-report files), 0 open issues
-- **memory/logs/2026-07-13.md** — heartbeat entry appended under `### heartbeat`
-- No notification sent (nothing needs attention)
+- **P0–P3:** All clean. No failures, no stuck dispatches, no stalled PRs/issues, no missing scheduled skills.
+- **Wrote:** `docs/status.md` (overall 🟢 OK, updated timestamp to 2026-07-14 08:00 UTC)
+- **Logged:** `memory/logs/2026-07-14.md` under `### heartbeat`, mode: ambient
+- **No notification sent** — nothing needs attention.
