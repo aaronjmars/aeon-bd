@@ -1,15 +1,11 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-07-13T10:22:37Z",
+  "last_analyzed": "2026-07-14T09:59:57Z",
   "quality_score": 4,
-  "assessment": "Substantive skill run: identified 4 specific, de-duped engagement opportunities with proper source attribution and fresh signal (0–1d old); drafted in operator's voice and logged cleanly.",
+  "assessment": "Solid engagement discovery — 5 timely, specific, de-duped opportunities with strategic framing and recent data.",
   "flags": [],
   "avg_score": 3.97,
   "history": [
-    {
-      "date": "2026-06-13",
-      "score": 4
-    },
     {
       "date": "2026-06-14",
       "score": 3
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-13",
+      "score": 4
+    },
+    {
+      "date": "2026-07-14",
       "score": 4
     }
   ]

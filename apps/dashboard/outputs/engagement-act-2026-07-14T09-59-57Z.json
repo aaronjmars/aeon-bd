@@ -1,0 +1,243 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-14"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1-heading",
+        "item1-desc",
+        "item1-link-note",
+        "item1-type",
+        "item1-draft",
+        "sep1",
+        "item2-heading",
+        "item2-desc",
+        "item2-link",
+        "item2-type",
+        "item2-draft",
+        "sep2",
+        "item3-heading",
+        "item3-desc",
+        "item3-link-note",
+        "item3-type",
+        "item3-draft",
+        "sep3",
+        "item4-heading",
+        "item4-desc",
+        "item4-link-note",
+        "item4-type",
+        "item4-draft",
+        "sep4",
+        "item5-heading",
+        "item5-desc",
+        "item5-link-note",
+        "item5-type",
+        "item5-draft"
+      ]
+    },
+    "item1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1. BankrSynth (0 days ago)",
+        "level": "h3"
+      }
+    },
+    "item1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Featured in blocmates Base AI Landscape as one of first live Aeon agents, calling itself a \"market operating system on Base\" — agents-as-companies thesis in the wild"
+      }
+    },
+    "item1-link-note": {
+      "type": "Text",
+      "props": {
+        "text": "Find on X/GH — blocmates Base AI Landscape feature",
+        "variant": "caption"
+      }
+    },
+    "item1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X DM"
+      }
+    },
+    "item1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"saw the blocmates feature. one of the first live Aeon agents calling itself a 'market OS on Base' — agents as companies playing out live. want to co-announce + get you into ECOSYSTEM.md? ⭐\"",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2. @sparklewarefun (0 days ago)",
+        "level": "h3"
+      }
+    },
+    "item2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "ACP hireable agent announcement on @virtuals_io (13♥/3RT) — other agents can now hire it; cross-product Aeon×MiroShark×Virtuals pipeline live"
+      }
+    },
+    "item2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ACP Hireable Agent Announcement",
+        "href": "https://x.com/sparklewarefun/status/2076244474498585036",
+        "source": "X"
+      }
+    },
+    "item2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "item2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"getting hired by other agents is the whole thesis ⭐🦈\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3. @sparklewarefun (1 day ago)",
+        "level": "h3"
+      }
+    },
+    "item3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "\"compose → simulate → ship\" pipeline post (11♥/2RT) — clearest third-party articulation of the Aeon×Miroshark value prop anyone's written"
+      }
+    },
+    "item3-link-note": {
+      "type": "Text",
+      "props": {
+        "text": "Search @sparklewarefun timeline 07-13",
+        "variant": "caption"
+      }
+    },
+    "item3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "item3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"this should be the tagline. compose → simulate → ship is the cleanest description of the aeon × miroshark stack anyone's written ⭐🦈\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item4-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4. dawsonblock (0 days ago)",
+        "level": "h3"
+      }
+    },
+    "item4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Running Aeon to spotlight the Aeon ecosystem (@aeonframework skill-spotlight series, score 10); dawsonblock/Aaron repo with own content"
+      }
+    },
+    "item4-link-note": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub: dawsonblock/Aaron",
+        "variant": "caption"
+      }
+    },
+    "item4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM"
+      }
+    },
+    "item4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"spotted the skill-spotlight series — love that you're running aeon to curate the aeon ecosystem. let's make it official: wire into ECOSYSTEM.md + weekly curation feed? ⭐\"",
+        "variant": "lead"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item5-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "5. @cryptolart (0 days ago)",
+        "level": "h3"
+      }
+    },
+    "item5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "\"I love this tool\" unprompted mention of Miroshark (1♥)"
+      }
+    },
+    "item5-link-note": {
+      "type": "Text",
+      "props": {
+        "text": "Search @cryptolart timeline 07-14",
+        "variant": "caption"
+      }
+    },
+    "item5-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "item5-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"simulations everywhere 🦈\"",
+        "variant": "lead"
+      }
+    }
+  }
+}

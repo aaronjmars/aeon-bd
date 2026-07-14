@@ -1,23 +1,28 @@
-ℹ️ Engagement Act
+ℹ️ Engagement Act — 2026-07-14
 
-*Engagement Act — 2026-07-13*
+*Engagement Act — 2026-07-14*
 
-*1. github:logbookbase/aeon-logbook* (0 days ago) — shipped signed, verifiable receipts for agent actions as a dedicated Aeon skill
-link: https://github.com/logbookbase/aeon-logbook
-type: GitHub DM
-draft: "signed receipts for agent actions — this is the audit layer autonomous skills have been missing. adding you to ECOSYSTEM.md. want to join the ecosystem TG?"
+*1. BankrSynth* (0 days ago) — featured in blocmates Base AI Landscape as one of first live Aeon agents, calling itself a "market operating system on Base" — agents-as-companies thesis in the wild
+link: no link found (find on X/GH — blocmates Base AI Landscape feature)
+type: X DM
+draft: "saw the blocmates feature. one of the first live Aeon agents calling itself a 'market OS on Base' — agents as companies playing out live. want to co-announce + get you into ECOSYSTEM.md? ⭐"
 
-*2. github:AI-Risk-Management/aeon-cli* (0 days ago) — same org as aeon-skill-schema now ships aeon-cli: turn docs into signed executable Aeon skills — two-product signed-skill toolchain
-link: https://github.com/AI-Risk-Management/aeon-cli
-type: GitHub DM
-draft: "aeon-cli + aeon-skill-schema in the same org — you're building the signed-skill toolchain nobody else is touching. what's the AeonBrain rollout plan?"
-
-*3. github:codexvritra/signa-coordinate-skills* (0 days ago) — 3rd Aeon skill repo from codexvritra (messaging + sims + coordinate-skills), completing a full agent-comms suite
-link: https://github.com/codexvritra/signa-coordinate-skills
-type: X post
-draft: "Signa just shipped the full agent-comms suite on Aeon — messaging, sims, coordinate-skills. three repos, one coherent stack ⭐ this is what building in public looks like"
-
-*4. @aethree_xyz* (1 day ago) — AeThree launchpad built on @aeonframework, part of three independent builder integrations in 36h
-link: https://x.com/aethree_xyz/status/2075867971071905851
+*2. @sparklewarefun* (0 days ago) — ACP hireable agent announcement on @virtuals_io (13♥/3RT) — other agents can now hire it; cross-product Aeon×MiroShark×Virtuals pipeline live
+link: https://x.com/sparklewarefun/status/2076244474498585036
 type: X reply
-draft: "AeThree running launch infrastructure on Aeon ⭐ launchpad going autonomous — love to see it. what does the full setup look like?"
+draft: "getting hired by other agents is the whole thesis ⭐🦈"
+
+*3. @sparklewarefun* (1 day ago) — "compose → simulate → ship" pipeline post (11♥/2RT) — clearest third-party articulation of the Aeon×Miroshark value prop anyone's written
+link: no direct URL in logs (search @sparklewarefun timeline 07-13)
+type: X reply
+draft: "this should be the tagline. compose → simulate → ship is the cleanest description of the aeon × miroshark stack anyone's written ⭐🦈"
+
+*4. dawsonblock* (0 days ago) — running Aeon to spotlight the Aeon ecosystem (@aeonframework skill-spotlight series, score 10); dawsonblock/Aaron repo with own content
+link: no link found (github:dawsonblock/Aaron)
+type: GitHub DM
+draft: "spotted the skill-spotlight series — love that you're running aeon to curate the aeon ecosystem. let's make it official: wire into ECOSYSTEM.md + weekly curation feed? ⭐"
+
+*5. @cryptolart* (0 days ago) — "I love this tool" unprompted mention of Miroshark (1♥)
+link: no link found (search @cryptolart timeline 07-14)
+type: X reply
+draft: "simulations everywhere 🦈"
