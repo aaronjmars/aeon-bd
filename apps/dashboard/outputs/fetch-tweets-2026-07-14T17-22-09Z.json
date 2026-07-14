@@ -1,0 +1,157 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark"
+      },
+      "children": [
+        "subtitle",
+        "sep1",
+        "section1-title",
+        "tweet1-container",
+        "sep2",
+        "section2-title",
+        "tweet2-container"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "One structural move (Github org live + IP transfer) and a builder plugging aeon×miroshark as a pipeline — quiet 24h, real signal.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Org expansion & IP consolidation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet1-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1-card",
+        "tweet1-engagement"
+      ]
+    },
+    "tweet1-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "aeonframework",
+        "text": "Launched the aeonfun Github org; transferred IP of OpenDia, soul.md & minitor to a Base address, framing all three as part of the autonomous-agent mission ⭐",
+        "likes": 27,
+        "retweets": 6
+      },
+      "children": []
+    },
+    "tweet1-engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1-replies",
+        "tweet1-link"
+      ]
+    },
+    "tweet1-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2077028299369304148"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Builder adoption",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet2-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet2-card",
+        "tweet2-engagement"
+      ]
+    },
+    "tweet2-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sparklewarefun",
+        "handle": "sparklewarefun",
+        "text": "Calls the LLM/planning gap directly, positions miroshark as a preflight simulation layer for aeon-composed loadouts on the @virtuals_io ACP — 'compose → simulate → ship.'",
+        "likes": 14,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "tweet2-engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2-replies",
+        "tweet2-link"
+      ]
+    },
+    "tweet2-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/sparklewarefun/status/2076736820914880562"
+      },
+      "children": []
+    }
+  }
+}

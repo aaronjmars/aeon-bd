@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-13T17:46:33Z",
+  "last_analyzed": "2026-07-14T17:22:09Z",
   "quality_score": 4,
-  "assessment": "Well-executed skill run — fetched 16 candidates, curated 6 high-signal tweets organized into two strategic clusters (ecosystem adoption + FUD counter-narrative), included quantified metrics, and updated memory files properly. Directly actionable on the core mission (surface BD signal, catch builder traction early). Not 5 because analysis is primarily summative rather than deeply synthesized.",
+  "assessment": "Well-executed fetch with substantive results: 2 signal-bearing tweets (product launches, integrations) identified from 7 candidates, low-signal noise filtered, memory updated",
   "flags": [],
-  "avg_score": 3.73,
+  "avg_score": 3.8,
   "history": [
-    {
-      "date": "2026-06-14",
-      "score": 2
-    },
     {
       "date": "2026-06-15",
       "score": 2
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-13",
+      "score": 4
+    },
+    {
+      "date": "2026-07-14",
       "score": 4
     }
   ]
