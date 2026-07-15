@@ -2268,24 +2268,24 @@
       "class": "building",
       "who": "BankrSynth",
       "handle": "BankrSynth",
-      "signal": "Featured in blocmates Base AI Landscape article as one of the first agents live on Aeon framework, positioning as a 'market operating system on Base.' Live product claim — highest-intent signal class.",
+      "signal": "Featured in blocmates Base AI Landscape article as one of the first agents live on Aeon framework, positioning as a 'market operating system on Base.' Live product claim \u2014 highest-intent signal class.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-07-14",
       "source": "websearch",
-      "move": "Find @BankrSynth on X or GH to verify — if live on aeon, DM: co-announce + ECOSYSTEM.md entry"
+      "move": "Find @BankrSynth on X or GH to verify \u2014 if live on aeon, DM: co-announce + ECOSYSTEM.md entry"
     },
     {
       "key": "github:dawsonblock/Aaron",
       "class": "building",
       "who": "dawsonblock",
       "handle": "dawsonblock",
-      "signal": "Personal Aeon instance with a skill-spotlight series for the @aeonframework ecosystem. Code: 'The @aeonframework skill spotlight ⭐ is the brand of the series.' Builder running Aeon automation to spotlight the ecosystem.",
+      "signal": "Personal Aeon instance with a skill-spotlight series for the @aeonframework ecosystem. Code: 'The @aeonframework skill spotlight \u2b50 is the brand of the series.' Builder running Aeon automation to spotlight the ecosystem.",
       "fit": 2,
       "score": 10,
       "first_seen": "2026-07-14",
       "source": "gh_search_code",
-      "move": "DM dawsonblock on GH: you built an ecosystem spotlight skill — want to wire it into official Aeon curation? TG invite"
+      "move": "DM dawsonblock on GH: you built an ecosystem spotlight skill \u2014 want to wire it into official Aeon curation? TG invite"
     },
     {
       "key": "github:zoodsood/MiroShark",
@@ -2298,7 +2298,7 @@
       "first_seen": "2026-07-14",
       "repo_updated": "2026-07-13",
       "source": "gh_read_pat_forks",
-      "move": "Watch — ping if description or issue appears in 5 days"
+      "move": "Watch \u2014 ping if description or issue appears in 5 days"
     },
     {
       "key": "github:iopo545454-del/project-watchlist",
@@ -2310,7 +2310,7 @@
       "score": 3,
       "first_seen": "2026-07-14",
       "source": "gh_search_code",
-      "move": "No action — free-moving intel tracker. Monitor for inbound"
+      "move": "No action \u2014 free-moving intel tracker. Monitor for inbound"
     },
     {
       "key": "github:vibewatch/vibewatch.github.io",
@@ -2322,7 +2322,7 @@
       "score": 2,
       "first_seen": "2026-07-14",
       "source": "gh_search_code",
-      "move": "No action — organic reach"
+      "move": "No action \u2014 organic reach"
     },
     {
       "key": "github:yindaqiu/aeon",
@@ -2335,7 +2335,102 @@
       "first_seen": "2026-07-14",
       "repo_updated": "2026-07-14",
       "source": "gh_read_pat_forks",
-      "move": "Watch — if description appears or issue filed, ping"
+      "move": "Watch \u2014 if description appears or issue filed, ping"
+    },
+    {
+      "key": "github:AureliusAI-code/orlix",
+      "class": "building",
+      "who": "Orlix (AureliusAI-code)",
+      "handle": "AureliusAI-code",
+      "signal": "Orlix - live Base/Robinhood Chain analytics + B20 token platform at orlix.xyz. api/aeon.js wires aaronjmars/aeon as agent backbone. x402 premium endpoints, Bankr ecosystem tokens, b20-skills. Created 06-12, pushed 07-14. Known via x:OrlixAI.",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-07-15",
+      "repo_updated": "2026-07-14",
+      "known": true,
+      "source": "gh_search_code",
+      "move": "DM AureliusAI-code on GH: orlix.xyz is live on Base using aeon as agent backbone - ECOSYSTEM.md entry + B20 partnership opp"
+    },
+    {
+      "key": "github:aeoncity-demo/myaeon",
+      "class": "building",
+      "who": "aeoncity-demo (AeonCity)",
+      "handle": "aeoncity-demo",
+      "signal": "AeonCity demo org launched aeoncity-demo/myaeon - full aeon instance with ECOSYSTEM.md (15KB), README (46KB), skills.json (70KB). Created 06-17, pushed TODAY 07-15. Known builder (aeoncity-hub + x:aeoncityhub surfaced). New demo org is live infrastructure.",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-07-15",
+      "repo_updated": "2026-07-15",
+      "known": true,
+      "source": "gh_search_code",
+      "move": "Ping aeoncity-hub: demo org live today (aeoncity-demo/myaeon) - what is the demo flow? ECOSYSTEM.md + showcase opp"
+    },
+    {
+      "key": "github:cyotee/crane",
+      "class": "integrating",
+      "who": "cyotee/crane",
+      "handle": "cyotee",
+      "signal": "No-description 82MB repo, created 2025-11, pushed 07-14. Code search finds .agents/skills/aeon-defi-monitor/catalog.json pointing to aaronjmars/aeon. Running aeon DeFi skill inside a larger platform. 0 stars, stealth build.",
+      "fit": 2,
+      "score": 6,
+      "first_seen": "2026-07-15",
+      "repo_updated": "2026-07-14",
+      "source": "gh_search_code",
+      "move": "Check cyotee profile - if real DeFi platform, cold-DM: spotted aeon-defi-monitor catalog entry, what are you building?"
+    },
+    {
+      "key": "github:framerslab/paracosm",
+      "class": "adjacent",
+      "who": "framerslab/paracosm",
+      "handle": "framerslab",
+      "signal": "Agent swarm simulation for structured world modeling with LLMs. Built on AgentOS. Updated 07-11. Directly in MiroShark category. Outbound candidate.",
+      "fit": 3,
+      "score": 3,
+      "first_seen": "2026-07-15",
+      "repo_updated": "2026-07-11",
+      "watch": true,
+      "source": "gh_search_repos",
+      "move": "Watch - if framerslab has contact, cross-promo or pitch MiroShark as their simulation backend"
+    },
+    {
+      "key": "github:Abhinesh2004/mirage-cortex",
+      "class": "adjacent",
+      "who": "RealmForge (Abhinesh2004)",
+      "handle": "Abhinesh2004",
+      "signal": "RealmForge - 152 stars, generative agent swarm for persistent simulated worlds. Structured World Model. Topics: swarm, simulation, world-models, multi-agent. Created 06-28, pushed TODAY. 152 stars in 17 days. Direct adjacent to MiroShark.",
+      "fit": 3,
+      "score": 3,
+      "first_seen": "2026-07-15",
+      "repo_updated": "2026-07-15",
+      "watch": true,
+      "source": "gh_search_repos",
+      "move": "Watch momentum - cold-pitch MiroShark as more mature sim backend; 152 stars in 17d means distribution"
+    },
+    {
+      "key": "github:enuno/noesis-aeon",
+      "class": "forking",
+      "who": "enuno",
+      "handle": "enuno",
+      "signal": "New aeon instance, created 07-09, pushed TODAY 07-15. Full aeon.yml + CLAUDE.md + skills folder. Stock config. Unknown vertical.",
+      "fit": 1,
+      "score": 3,
+      "first_seen": "2026-07-15",
+      "repo_updated": "2026-07-15",
+      "source": "gh_search_repos",
+      "move": "Watch - ping if they add strategy or soul indicating vertical"
+    },
+    {
+      "key": "github:gabrielmoreira/awesome-ai-rabbit-holes",
+      "class": "mentioning",
+      "who": "gabrielmoreira",
+      "handle": "gabrielmoreira",
+      "signal": "Curated AI agents catalog (4 stars). Has aaronjmars/aeon entry. Small reach but warm cataloger.",
+      "fit": 1,
+      "score": 2,
+      "first_seen": "2026-07-15",
+      "repo_updated": "2026-07-13",
+      "source": "gh_search_code",
+      "move": "No action - free distribution surface"
     }
   ],
   "surfaced": [
@@ -2587,6 +2682,13 @@
     "github:zoodsood/MiroShark",
     "github:iopo545454-del/project-watchlist",
     "github:vibewatch/vibewatch.github.io",
-    "github:yindaqiu/aeon"
+    "github:yindaqiu/aeon",
+    "github:AureliusAI-code/orlix",
+    "github:aeoncity-demo/myaeon",
+    "github:cyotee/crane",
+    "github:framerslab/paracosm",
+    "github:Abhinesh2004/mirage-cortex",
+    "github:enuno/noesis-aeon",
+    "github:gabrielmoreira/awesome-ai-rabbit-holes"
   ]
 }
