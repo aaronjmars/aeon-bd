@@ -1,10 +1,10 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks clean. Fleet is healthy — 14 enabled skills, all green. `docs/status.md` regenerated with today's timestamps (bd-radar and mention-radar both succeeded already at 07:42–07:45 UTC today). No notification sent (nothing needs attention). Log appended to `memory/logs/2026-07-14.md`.
+Fleet is clean across all tiers. 10 enabled skills, all green. `docs/status.md` regenerated with bd-radar already showing today's success, war-room and the rest at yesterday's marks. No notification sent — nothing needs attention.
 
 ## Summary
 
-- **P0–P3:** All clean. No failures, no stuck dispatches, no stalled PRs/issues, no missing scheduled skills.
-- **Wrote:** `docs/status.md` (overall 🟢 OK, updated timestamp to 2026-07-14 08:00 UTC)
-- **Logged:** `memory/logs/2026-07-14.md` under `### heartbeat`, mode: ambient
-- **No notification sent** — nothing needs attention.
+- **Checked:** P0 (failed/stuck/degraded) → clean; P1 (PRs/issues) → clean; P2 (memory flags) → clean; P3 (schedule staleness) → clean
+- **Written:** `docs/status.md` (🟢 OK, 10 enabled skills, 0 open issues)
+- **Logged:** `memory/logs/2026-07-15.md` under `### heartbeat`
+- **No notification sent** — healthy fleet, nothing to surface
