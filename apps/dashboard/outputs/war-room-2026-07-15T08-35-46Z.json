@@ -1,0 +1,456 @@
+{
+  "root": "card-war-room",
+  "state": {},
+  "elements": {
+    "card-war-room": {
+      "type": "Card",
+      "props": {
+        "title": "War Room — 2026-07-15",
+        "description": "Daily aeon + miroshark standup — state · talk-to · decide"
+      },
+      "children": [
+        "header-stack",
+        "sep-1",
+        "state-section",
+        "sep-2",
+        "talktone-section",
+        "sep-3",
+        "decide-section",
+        "sep-4",
+        "appendix-section"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-meta",
+        "badge-ecosystem",
+        "badge-standup",
+        "timestamp-text"
+      ]
+    },
+    "badge-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "meta",
+        "variant": "outline"
+      }
+    },
+    "badge-ecosystem": {
+      "type": "Badge",
+      "props": {
+        "text": "ecosystem",
+        "variant": "outline"
+      }
+    },
+    "badge-standup": {
+      "type": "Badge",
+      "props": {
+        "text": "standup",
+        "variant": "outline"
+      }
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-15T07:45:00Z",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-h2",
+        "state-summary",
+        "state-stats-grid",
+        "state-details"
+      ]
+    },
+    "state-h2": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "state-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Both green, flat day. Both pushed yesterday, cadence fine. Nothing forcing on state.",
+        "variant": "lead"
+      }
+    },
+    "state-stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "aeon-stat",
+        "miroshark-stat"
+      ]
+    },
+    "aeon-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "574★ / 207 forks"
+      }
+    },
+    "miroshark-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1365★ / 290 forks",
+        "delta": "+1★",
+        "trend": "up"
+      }
+    },
+    "state-details": {
+      "type": "Text",
+      "props": {
+        "text": "Combined forks: ~497. Deltas vs 07-14: Aeon flat (574★), forks 208→207 (−1); Miroshark 1364→1365 (+1★), forks flat at 290.",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talktone-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talktone-h2",
+        "orlix-item",
+        "aeoncity-item"
+      ]
+    },
+    "talktone-h2": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "orlix-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "orlix-link",
+        "orlix-detail"
+      ]
+    },
+    "orlix-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Orlix — AureliusAI-code",
+        "href": "https://orlix.xyz",
+        "source": "GitHub",
+        "score": "★15"
+      }
+    },
+    "orlix-detail": {
+      "type": "Text",
+      "props": {
+        "text": "api/aeon.js wires aeon as the agent backbone, x402 premium endpoints + its own B20 token via bankr. Live on Base.",
+        "variant": "caption"
+      }
+    },
+    "aeoncity-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "aeoncity-link",
+        "aeoncity-detail"
+      ]
+    },
+    "aeoncity-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AeonCity — aeoncity-demo/myaeon",
+        "href": "https://github.com/aeoncity-demo/myaeon",
+        "source": "GitHub",
+        "score": "★15"
+      }
+    },
+    "aeoncity-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped a live demo org today — full instance, install-from-atrium flow.",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide-h2",
+        "decide-alert"
+      ]
+    },
+    "decide-h2": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "decide-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "DM AureliusAI-code today",
+        "message": "A live Base product running aeon as its backbone, x402-native, with its own token — agents-as-companies proving itself in the wild again. Lock the ECOSYSTEM.md entry + open the B20 convo before the integration story gets told without us. One thing.",
+        "type": "info"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "appendix-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "appendix-h2",
+        "appendix-state",
+        "appendix-leads",
+        "appendix-escalations",
+        "appendix-prior"
+      ]
+    },
+    "appendix-h2": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h3"
+      }
+    },
+    "appendix-state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "state-source-label",
+        "state-source-1",
+        "state-source-2",
+        "state-source-3",
+        "state-source-4"
+      ]
+    },
+    "state-source-label": {
+      "type": "Text",
+      "props": {
+        "text": "STATE — live gh api read (2026-07-15):",
+        "variant": "body"
+      }
+    },
+    "state-source-1": {
+      "type": "Text",
+      "props": {
+        "text": "aaronjmars/aeon: 574⭐ / 207 forks, pushed 2026-07-14T13:42Z, latest release v0.1.0 (2026-07-09)",
+        "variant": "caption"
+      }
+    },
+    "state-source-2": {
+      "type": "Text",
+      "props": {
+        "text": "aaronjmars/MiroShark: 1365⭐ / 290 forks, pushed 2026-07-14T13:42Z, no releases",
+        "variant": "caption"
+      }
+    },
+    "state-source-3": {
+      "type": "Text",
+      "props": {
+        "text": "Deltas vs 07-14 war-room: aeon flat (574⭐), forks 208→207 (−1); miroshark 1364→1365 (+1★), forks flat at 290. Combined forks 497 — the ~500 line noted in prior briefs still just short.",
+        "variant": "caption"
+      }
+    },
+    "state-source-4": {
+      "type": "Text",
+      "props": {
+        "text": "Both pushed yesterday — no stall (well within the >2-week threshold). Repos now resolve under the aeonfun / MiroShark orgs post-IP-transfer — reported 07-14, not re-flagged.",
+        "variant": "caption"
+      }
+    },
+    "appendix-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "leads-header",
+        "lead-1",
+        "lead-2",
+        "lead-3",
+        "lead-4",
+        "lead-5",
+        "lead-6",
+        "lead-7"
+      ]
+    },
+    "leads-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "leads-label",
+        "leads-source-link"
+      ]
+    },
+    "leads-label": {
+      "type": "Text",
+      "props": {
+        "text": "LEADS (7 net-new):",
+        "variant": "body"
+      }
+    },
+    "leads-source-link": {
+      "type": "Link",
+      "props": {
+        "label": "bd-radar-2026-07-15.md",
+        "href": "output/articles/bd-radar-2026-07-15.md"
+      }
+    },
+    "lead-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Orlix / AureliusAI-code",
+        "href": "https://github.com/AureliusAI-code",
+        "source": "Building",
+        "score": "★15"
+      }
+    },
+    "lead-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeoncity-demo/myaeon",
+        "href": "https://github.com/aeoncity-demo/myaeon",
+        "source": "Building",
+        "score": "★15"
+      }
+    },
+    "lead-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cyotee/crane",
+        "href": "https://github.com/cyotee/crane",
+        "source": "Integrating — aeon-defi-monitor, 82MB stealth repo",
+        "score": "★6"
+      }
+    },
+    "lead-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Abhinesh2004/mirage-cortex (RealmForge)",
+        "href": "https://github.com/Abhinesh2004/mirage-cortex",
+        "source": "Adjacent — 152★ in 17d, MiroShark's exact category",
+        "score": "★3"
+      }
+    },
+    "lead-5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "framerslab/paracosm",
+        "href": "https://github.com/framerslab/paracosm",
+        "source": "Adjacent",
+        "score": "★3"
+      }
+    },
+    "lead-6": {
+      "type": "StoryLink",
+      "props": {
+        "title": "enuno/noesis-aeon",
+        "href": "https://github.com/enuno/noesis-aeon",
+        "source": "Forking",
+        "score": "★3"
+      }
+    },
+    "lead-7": {
+      "type": "StoryLink",
+      "props": {
+        "title": "awesome-ai-rabbit-holes",
+        "href": "https://github.com/topics/awesome-ai-rabbit-holes",
+        "source": "Mentioning",
+        "score": "★2"
+      }
+    },
+    "appendix-escalations": {
+      "type": "Text",
+      "props": {
+        "text": "ESCALATIONS CARRIED — Svector-anu/skopos-aeon pushed again (9d continuous growth, still no official ECOSYSTEM.md entry); cyotee/crane \"quiet builder\" pattern worth an identity check.",
+        "variant": "caption"
+      }
+    },
+    "appendix-prior": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prior-brief-text",
+        "prior-brief-link"
+      ]
+    },
+    "prior-brief-text": {
+      "type": "Text",
+      "props": {
+        "text": "PRIOR BRIEF — Decide was DM BankrSynth (external validation via blocmates). Still a live open loop; today's Orlix call (fresh score-15 building lead, live Base product wiring aeon as backbone) supersedes for the single-decision slot — same agents-as-companies thesis, newer proof.",
+        "variant": "caption"
+      }
+    },
+    "prior-brief-link": {
+      "type": "Link",
+      "props": {
+        "label": "war-room-2026-07-14.md",
+        "href": "output/articles/war-room-2026-07-14.md"
+      }
+    }
+  }
+}
