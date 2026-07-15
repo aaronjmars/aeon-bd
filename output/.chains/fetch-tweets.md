@@ -1,14 +1,11 @@
-ℹ️ Top Tweets — Aeon + Miroshark
+## Summary
 
-*Top Tweets — @aeonframework OR @miroshark_ (2026-07-14)*
-_One structural move (Github org live + IP transfer) and a builder plugging aeon×miroshark as a pipeline — quiet 24h, real signal._
+**Branch:** keyword (`@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation`)
 
-*Org expansion & IP consolidation*
-1. x.com/aeonframework — Launched the aeonfun Github org; transferred IP of OpenDia, soul.md & minitor to a Base address, framing all three as part of the autonomous-agent mission ⭐
-Likes: 27 | RTs: 6 | Replies: 2
-[View tweet](https://x.com/aeonframework/status/2077028299369304148)
+**Fetch:** API (http=200) — 12 candidates returned for 2026-07-14 to 2026-07-15.
 
-*Builder adoption*
-2. x.com/sparklewarefun — Calls the LLM/planning gap directly, positions miroshark as a preflight simulation layer for aeon-composed loadouts on the @virtuals_io ACP — "compose → simulate → ship."
-Likes: 14 | RTs: 2 | Replies: 1
-[View tweet](https://x.com/sparklewarefun/status/2076736820914880562)
+**Dedup:** 1 already seen (the aeonfun org announcement tweet that ran yesterday).
+
+**Curation result:** 11 new URLs, but all below the quality threshold — max signal was 4 (a plain GitHub link in the announcement thread). The rest: "Let's goooo", a 🦞 emoji, "are you sure @aeonframework can't replace me?", a $AEON→Robinhood listing call, Chinese community reactions — none pass the ≥5 engagement floor, none offer a distinct angle not already covered by yesterday's run.
+
+**Status: FETCH_TWEETS_EMPTY** — no notification sent. Quiet follow-up day to the aeonfun org/IP move. No Miroshark swarm simulation mentions surfaced. 11 new URLs added to `memory/fetch-tweets-seen.txt`, log appended to `memory/logs/2026-07-15.md`.
