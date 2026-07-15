@@ -1,0 +1,333 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Competitor Launch Radar — 2026-07-15"
+      },
+      "children": [
+        "intro_text",
+        "sep_1",
+        "stack_products",
+        "sep_2",
+        "digest_section"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "8 new agent-framework entrants this week (all product class)",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_products": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "product_1",
+        "product_2",
+        "product_3",
+        "product_4",
+        "product_5",
+        "product_6",
+        "product_7",
+        "product_8"
+      ]
+    },
+    "product_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1_badge",
+        "p1_link",
+        "p1_desc"
+      ]
+    },
+    "p1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "secondary"
+      }
+    },
+    "p1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+        "href": "https://news.ycombinator.com/item?id=48827858",
+        "source": "HN",
+        "score": "★ 539"
+      }
+    },
+    "p1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Noma Security prompt-injection attack on GitHub Copilot agent leaks private repos. AI agent security is no longer theoretical.",
+        "variant": "body"
+      }
+    },
+    "product_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2_badge",
+        "p2_link",
+        "p2_desc"
+      ]
+    },
+    "p2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "secondary"
+      }
+    },
+    "p2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Microsoft Flint — visualization language for AI agents",
+        "href": "https://news.ycombinator.com/item?id=48834924",
+        "source": "HN",
+        "score": "★ 348"
+      }
+    },
+    "p2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Microsoft open-sources Flint: a declarative chart/diagram spec layer for expressing agent topologies. Tooling above the framework layer.",
+        "variant": "body"
+      }
+    },
+    "product_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3_badge",
+        "p3_link",
+        "p3_desc"
+      ]
+    },
+    "p3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "secondary"
+      }
+    },
+    "p3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+        "href": "https://news.ycombinator.com/item?id=48882716",
+        "source": "HN",
+        "score": "★ 257"
+      }
+    },
+    "p3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ploy.ai production case study. GPT-5.6 pulling agent workloads at the model-switching tier.",
+        "variant": "body"
+      }
+    },
+    "product_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p4_badge",
+        "p4_link",
+        "p4_desc"
+      ]
+    },
+    "p4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "secondary"
+      }
+    },
+    "p4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Abralo – run several Claude Code agents in one window",
+        "href": "https://news.ycombinator.com/item?id=48832797",
+        "source": "HN",
+        "score": "★ 37"
+      }
+    },
+    "p4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Free multi-agent Claude Code orchestration UI. Nth entry in the Claude orchestrator category.",
+        "variant": "body"
+      }
+    },
+    "product_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p5_badge",
+        "p5_link",
+        "p5_desc"
+      ]
+    },
+    "p5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "secondary"
+      }
+    },
+    "p5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SubjectiveZero — open-source agentic node editor for creative coding",
+        "href": "https://news.ycombinator.com/item?id=48861217",
+        "source": "HN",
+        "score": "★ 25"
+      }
+    },
+    "p5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Visual node editor with agentic loops for creative/generative workflows. ComfyUI adjacency.",
+        "variant": "body"
+      }
+    },
+    "product_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p6_badge",
+        "p6_link"
+      ]
+    },
+    "p6_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "secondary"
+      }
+    },
+    "p6_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Campus (FlutterFlow) — One project space for humans and AI agents",
+        "href": "https://www.producthunt.com/products/flutterflow",
+        "source": "PH"
+      }
+    },
+    "product_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p7_badge",
+        "p7_link"
+      ]
+    },
+    "p7_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "secondary"
+      }
+    },
+    "p7_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NoMac.app — headless iOS app publishing pipeline for AI agents",
+        "href": "https://www.producthunt.com/products/nomac",
+        "source": "PH"
+      }
+    },
+    "product_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p8_badge",
+        "p8_link"
+      ]
+    },
+    "p8_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "product",
+        "variant": "secondary"
+      }
+    },
+    "p8_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Playground (nyx-4) — $100K+ weekly rewards for hacking AI agents",
+        "href": "https://www.producthunt.com/products/nyx-4",
+        "source": "PH"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "digest_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "digest_label",
+        "digest_link"
+      ]
+    },
+    "digest_label": {
+      "type": "Text",
+      "props": {
+        "text": "Full digest:",
+        "variant": "muted"
+      }
+    },
+    "digest_link": {
+      "type": "Link",
+      "props": {
+        "label": "output/articles/competitor-radar-2026-07-15.md",
+        "href": "output/articles/competitor-radar-2026-07-15.md"
+      }
+    }
+  }
+}
