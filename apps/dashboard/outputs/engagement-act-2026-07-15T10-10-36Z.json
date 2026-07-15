@@ -1,0 +1,240 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-15"
+      },
+      "children": [
+        "stack-all"
+      ]
+    },
+    "stack-all": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item1",
+        "sep1",
+        "item2",
+        "sep2",
+        "item3",
+        "sep3",
+        "item4",
+        "sep4",
+        "aging-section"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1-heading",
+        "item1-meta",
+        "item1-link",
+        "item1-draft"
+      ]
+    },
+    "item1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1. AureliusAI-code/orlix",
+        "level": "h3"
+      }
+    },
+    "item1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago — live Base + Robinhood Chain, aeon.js as backbone, x402 premium, B20 token",
+        "variant": "body"
+      }
+    },
+    "item1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AureliusAI-code/orlix",
+        "href": "https://github.com/AureliusAI-code/orlix",
+        "source": "GitHub DM"
+      }
+    },
+    "item1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: saw orlix is live — Base + RHC, aeon.js backbone, x402 premium, B20 integration already wired. that's agents as companies in the wild. want to get you into ECOSYSTEM.md + open a B20 partnership convo before the integration story gets told without us. what's the right channel?",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item2-heading",
+        "item2-meta",
+        "item2-link",
+        "item2-draft"
+      ]
+    },
+    "item2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2. aeoncity-demo/myaeon",
+        "level": "h3"
+      }
+    },
+    "item2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago — AeonCity demo org went live today, full aeon instance with ECOSYSTEM.md + skills.json, install-from-atrium",
+        "variant": "body"
+      }
+    },
+    "item2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeoncity-demo/myaeon",
+        "href": "https://github.com/aeoncity-demo/myaeon",
+        "source": "GitHub comment"
+      }
+    },
+    "item2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: myaeon is the cleanest demo instance i've seen — ECOSYSTEM.md, skills.json, atrium install in one org. adding you to the ecosystem page. what skills are you running? let's do a proper showcase ⭐",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item3-heading",
+        "item3-meta",
+        "item3-link",
+        "item3-draft"
+      ]
+    },
+    "item3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3. cyotee/crane",
+        "level": "h3"
+      }
+    },
+    "item3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago — stealth 82MB repo running aeon-defi-monitor skill inside a larger platform",
+        "variant": "body"
+      }
+    },
+    "item3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cyotee/crane",
+        "href": "https://github.com/cyotee/crane",
+        "source": "GitHub DM"
+      }
+    },
+    "item3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: noticed crane is running aeon-defi-monitor inside a larger stack. 82MB — clearly not a toy. who's building this? open to getting it into ECOSYSTEM.md. DM if you want to talk",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item4-heading",
+        "item4-badge",
+        "item4-meta",
+        "item4-link",
+        "item4-draft"
+      ]
+    },
+    "item4-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4. @tryskopos / Svector-anu/skopos-aeon",
+        "level": "h3"
+      }
+    },
+    "item4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Aging — draft sent 07-11, no ack logged",
+        "variant": "secondary"
+      }
+    },
+    "item4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "5 days ago — 9d continuous pushing, +3.5KB own content today, @aeonframework spotlit 07-10",
+        "variant": "body"
+      }
+    },
+    "item4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Svector-anu/skopos-aeon",
+        "href": "https://github.com/Svector-anu/skopos-aeon",
+        "source": "X DM (follow-up)"
+      }
+    },
+    "item4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: hey — sent a DM a few days ago re: skopos-aeon. still one of the most active forks on the list (9d continuous, +3.5KB today). ECOSYSTEM.md slot is open whenever you're ready",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aging-section": {
+      "type": "Text",
+      "props": {
+        "text": "some opps aging — act or drop",
+        "variant": "muted"
+      }
+    }
+  }
+}

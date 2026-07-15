@@ -1,28 +1,26 @@
-ℹ️ Engagement Act — 2026-07-14
+ℹ️ Engagement Act — 2026-07-15
 
-*Engagement Act — 2026-07-14*
+**Engagement Act — 2026-07-15**
 
-*1. BankrSynth* (0 days ago) — featured in blocmates Base AI Landscape as one of first live Aeon agents, calling itself a "market operating system on Base" — agents-as-companies thesis in the wild
-link: no link found (find on X/GH — blocmates Base AI Landscape feature)
-type: X DM
-draft: "saw the blocmates feature. one of the first live Aeon agents calling itself a 'market OS on Base' — agents as companies playing out live. want to co-announce + get you into ECOSYSTEM.md? ⭐"
-
-*2. @sparklewarefun* (0 days ago) — ACP hireable agent announcement on @virtuals_io (13♥/3RT) — other agents can now hire it; cross-product Aeon×MiroShark×Virtuals pipeline live
-link: https://x.com/sparklewarefun/status/2076244474498585036
-type: X reply
-draft: "getting hired by other agents is the whole thesis ⭐🦈"
-
-*3. @sparklewarefun* (1 day ago) — "compose → simulate → ship" pipeline post (11♥/2RT) — clearest third-party articulation of the Aeon×Miroshark value prop anyone's written
-link: no direct URL in logs (search @sparklewarefun timeline 07-13)
-type: X reply
-draft: "this should be the tagline. compose → simulate → ship is the cleanest description of the aeon × miroshark stack anyone's written ⭐🦈"
-
-*4. dawsonblock* (0 days ago) — running Aeon to spotlight the Aeon ecosystem (@aeonframework skill-spotlight series, score 10); dawsonblock/Aaron repo with own content
-link: no link found (github:dawsonblock/Aaron)
+**1. AureliusAI-code/orlix** (0 days ago) — live Base + Robinhood Chain, aeon.js as backbone, x402 premium, B20 token
+link: https://github.com/AureliusAI-code/orlix
 type: GitHub DM
-draft: "spotted the skill-spotlight series — love that you're running aeon to curate the aeon ecosystem. let's make it official: wire into ECOSYSTEM.md + weekly curation feed? ⭐"
+draft: "saw orlix is live — Base + RHC, aeon.js backbone, x402 premium, B20 integration already wired. that's agents as companies in the wild. want to get you into ECOSYSTEM.md + open a B20 partnership convo before the integration story gets told without us. what's the right channel?"
 
-*5. @cryptolart* (0 days ago) — "I love this tool" unprompted mention of Miroshark (1♥)
-link: no link found (search @cryptolart timeline 07-14)
-type: X reply
-draft: "simulations everywhere 🦈"
+**2. aeoncity-demo/myaeon** (0 days ago) — AeonCity demo org went live today, full aeon instance with ECOSYSTEM.md + skills.json, install-from-atrium
+link: https://github.com/aeoncity-demo/myaeon
+type: GitHub comment
+draft: "myaeon is the cleanest demo instance i've seen — ECOSYSTEM.md, skills.json, atrium install in one org. adding you to the ecosystem page. what skills are you running? let's do a proper showcase ⭐"
+
+**3. cyotee/crane** (0 days ago) — stealth 82MB repo running aeon-defi-monitor skill inside a larger platform
+link: https://github.com/cyotee/crane
+type: GitHub DM
+draft: "noticed crane is running aeon-defi-monitor inside a larger stack. 82MB — clearly not a toy. who's building this? open to getting it into ECOSYSTEM.md. DM if you want to talk"
+
+aging — **4. @tryskopos / Svector-anu/skopos-aeon** (5 days ago, draft sent 07-11, no ack logged) — 9d continuous pushing, +3.5KB own content today, @aeonframework spotlit 07-10
+link: https://github.com/Svector-anu/skopos-aeon
+type: X DM (follow-up if first went unanswered)
+draft: "hey — sent a DM a few days ago re: skopos-aeon. still one of the most active forks on the list (9d continuous, +3.5KB today). ECOSYSTEM.md slot is open whenever you're ready"
+
+---
+some opps aging — act or drop

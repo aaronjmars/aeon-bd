@@ -1,15 +1,11 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-07-14T09:59:57Z",
+  "last_analyzed": "2026-07-15T10:10:36Z",
   "quality_score": 4,
-  "assessment": "Solid engagement discovery — 5 timely, specific, de-duped opportunities with strategic framing and recent data.",
+  "assessment": "Substantive, well-scoped — 4 fresh, specific opportunities with contextual metadata, clear pitches aligned to strategy, proper de-duping and logging.",
   "flags": [],
-  "avg_score": 3.97,
+  "avg_score": 4,
   "history": [
-    {
-      "date": "2026-06-14",
-      "score": 3
-    },
     {
       "date": "2026-06-15",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-14",
+      "score": 4
+    },
+    {
+      "date": "2026-07-15",
       "score": 4
     }
   ]
