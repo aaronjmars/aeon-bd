@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-14T07:44:24Z",
+  "last_analyzed": "2026-07-15T07:51:46Z",
   "quality_score": 4,
-  "assessment": "Substantive BD sweep with 6 new leads, clear scoring, actionable next steps, aligned to strategy",
+  "assessment": "Substantive, well-sourced, properly ranked. Transparent methodology (sources listed with http codes), clear classification hierarchy, state tracked (195 total vs 256 surfaced), actionable next move with reasoning.",
   "flags": [],
   "avg_score": 4.13,
   "history": [
-    {
-      "date": "2026-06-14",
-      "score": 4
-    },
     {
       "date": "2026-06-15",
       "score": 5
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-14",
+      "score": 4
+    },
+    {
+      "date": "2026-07-15",
       "score": 4
     }
   ]

@@ -1,0 +1,168 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar — 07-15"
+      },
+      "children": [
+        "header",
+        "leads-container",
+        "separator-main",
+        "summary-section"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "2 building leads ⭐🦈",
+        "level": "h3"
+      }
+    },
+    "leads-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "orlix-lead",
+        "lead-divider",
+        "aeoncity-lead"
+      ]
+    },
+    "orlix-lead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "orlix-title",
+        "orlix-website",
+        "orlix-description",
+        "orlix-contact-info"
+      ]
+    },
+    "orlix-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Orlix",
+        "level": "h4"
+      }
+    },
+    "orlix-website": {
+      "type": "StoryLink",
+      "props": {
+        "title": "orlix.xyz",
+        "href": "https://orlix.xyz"
+      }
+    },
+    "orlix-description": {
+      "type": "Text",
+      "props": {
+        "text": "Live on Base with Aeon baked in as the agent backbone — api/aeon.js, x402 premium endpoints, Bankr tokens, B20 skills, autonomous X agent. This is a real product, not a prototype."
+      }
+    },
+    "orlix-contact-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "contact-dm",
+        "contact-username",
+        "contact-suffix"
+      ]
+    },
+    "contact-dm": {
+      "type": "Text",
+      "props": {
+        "text": "Contact: DM",
+        "variant": "muted"
+      }
+    },
+    "contact-username": {
+      "type": "Link",
+      "props": {
+        "label": "AureliusAI-code",
+        "href": "https://github.com/AureliusAI-code"
+      }
+    },
+    "contact-suffix": {
+      "type": "Text",
+      "props": {
+        "text": "on GH — ECOSYSTEM.md entry + we should talk B20",
+        "variant": "muted"
+      }
+    },
+    "lead-divider": {
+      "type": "Separator",
+      "props": {}
+    },
+    "aeoncity-lead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeoncity-title",
+        "aeoncity-repo",
+        "aeoncity-description"
+      ]
+    },
+    "aeoncity-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AeonCity demo org",
+        "level": "h4"
+      }
+    },
+    "aeoncity-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeoncity-demo/myaeon",
+        "href": "https://github.com/aeoncity-demo/myaeon"
+      }
+    },
+    "aeoncity-description": {
+      "type": "Text",
+      "props": {
+        "text": "Went live today — separate org from the main aeoncity-hub fork, with its own ECOSYSTEM.md (15KB), full skills.json (70KB), and install-from-atrium integration. The 3D explorer now has a live demo layer."
+      }
+    },
+    "separator-main": {
+      "type": "Separator",
+      "props": {}
+    },
+    "summary-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "leads-count",
+        "digest-link"
+      ]
+    },
+    "leads-count": {
+      "type": "Stat",
+      "props": {
+        "label": "New leads total",
+        "value": "7"
+      }
+    },
+    "digest-link": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest →",
+        "href": "output/articles/bd-radar-2026-07-15.md"
+      }
+    }
+  }
+}
