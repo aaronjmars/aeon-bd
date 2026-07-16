@@ -1,11 +1,22 @@
-## Summary
+ℹ️ fetch-tweets 2026-07-16
 
-**Branch:** keyword (`@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation`)
+*Top Tweets — @aeonframework / Miroshark (2026-07-16)*
+_@DegenOnBase_ discovery thread and Aaron's live HackerOne vuln via @aeonframework — external credibility and the open-source security flywheel firing on the same day._
 
-**Fetch:** API (http=200) — 12 candidates returned for 2026-07-14 to 2026-07-15.
+**External Discovery — Base builder radar**
+1. x.com/DegenOnBase_ — Calls @aeonframework a "hidden gem on Base" and breaks down the full stack (Base MCP, x402 payments, onchain monitoring, agent marketplace) — first non-operator deep-dive from a Base-native account, 12 replies of follow-on discussion.
+Likes: 47 | RTs: 6 | Replies: 12
+[View tweet](https://x.com/DegenOnBase_/status/2077444080083296601)
 
-**Dedup:** 1 already seen (the aeonfun org announcement tweet that ran yesterday).
+**Open-source flywheel — vuln as credibility**
+2. x.com/aaronjmars — Filed a high-sev issue *found using @aeonframework itself* on HackerOne — the framework discovering its own exploits, publicly, in real use. Now at 62♥ and climbing.
+Likes: 62 | RTs: 4 | Replies: 4
+[View tweet](https://x.com/aaronjmars/status/2077508274610446421)
 
-**Curation result:** 11 new URLs, but all below the quality threshold — max signal was 4 (a plain GitHub link in the announcement thread). The rest: "Let's goooo", a 🦞 emoji, "are you sure @aeonframework can't replace me?", a $AEON→Robinhood listing call, Chinese community reactions — none pass the ≥5 engagement floor, none offer a distinct angle not already covered by yesterday's run.
+3. x.com/weswinder — "perfect. now you can contribute a fix" — builders treating @aeonframework as open infrastructure worth patching, not just using.
+Likes: 5 | RTs: 0 | Replies: 2
+[View tweet](https://x.com/weswinder/status/2077521556247343294)
 
-**Status: FETCH_TWEETS_EMPTY** — no notification sent. Quiet follow-up day to the aeonfun org/IP move. No Miroshark swarm simulation mentions surfaced. 11 new URLs added to `memory/fetch-tweets-seen.txt`, log appended to `memory/logs/2026-07-15.md`.
+4. x.com/aaronjmars — "using aeon to build & convert every task I do into a background skill that runs when I'm sleeping" — the automation thesis in one sentence. Includes aeonfun/aeon link.
+Likes: 7 | RTs: 1 | Replies: 0
+[View tweet](https://x.com/aaronjmars/status/2077481542545248273)

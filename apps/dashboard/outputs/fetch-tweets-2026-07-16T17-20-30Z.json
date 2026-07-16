@@ -1,0 +1,237 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework / Miroshark (2026-07-16)"
+      },
+      "children": [
+        "intro_text",
+        "separator1",
+        "section_discovery",
+        "separator2",
+        "section_flywheel"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "@DegenOnBase discovery thread and Aaron's live HackerOne vuln via @aeonframework — external credibility and the open-source security flywheel firing on the same day.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_discovery": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_discovery",
+        "tweet1_container"
+      ]
+    },
+    "heading_discovery": {
+      "type": "Heading",
+      "props": {
+        "text": "External Discovery — Base builder radar",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1_card",
+        "tweet1_replies",
+        "tweet1_link"
+      ]
+    },
+    "tweet1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "DegenOnBase",
+        "handle": "DegenOnBase_",
+        "text": "Calls @aeonframework a \"hidden gem on Base\" and breaks down the full stack (Base MCP, x402 payments, onchain monitoring, agent marketplace) — first non-operator deep-dive from a Base-native account, 12 replies of follow-on discussion.",
+        "likes": 47,
+        "retweets": 6
+      },
+      "children": []
+    },
+    "tweet1_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 12",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/DegenOnBase_/status/2077444080083296601"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_flywheel": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_flywheel",
+        "tweet2_container",
+        "tweet3_container",
+        "tweet4_container"
+      ]
+    },
+    "heading_flywheel": {
+      "type": "Heading",
+      "props": {
+        "text": "Open-source flywheel — vuln as credibility",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2_card",
+        "tweet2_replies",
+        "tweet2_link"
+      ]
+    },
+    "tweet2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron",
+        "handle": "aaronjmars",
+        "text": "Filed a high-sev issue *found using @aeonframework itself* on HackerOne — the framework discovering its own exploits, publicly, in real use. Now at 62♥ and climbing.",
+        "likes": 62,
+        "retweets": 4
+      },
+      "children": []
+    },
+    "tweet2_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2077508274610446421"
+      },
+      "children": []
+    },
+    "tweet3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3_card",
+        "tweet3_replies",
+        "tweet3_link"
+      ]
+    },
+    "tweet3_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "weswinder",
+        "handle": "weswinder",
+        "text": "\"perfect. now you can contribute a fix\" — builders treating @aeonframework as open infrastructure worth patching, not just using.",
+        "likes": 5,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "tweet3_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/weswinder/status/2077521556247343294"
+      },
+      "children": []
+    },
+    "tweet4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4_card",
+        "tweet4_replies",
+        "tweet4_link"
+      ]
+    },
+    "tweet4_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron",
+        "handle": "aaronjmars",
+        "text": "\"using aeon to build & convert every task I do into a background skill that runs when I'm sleeping\" — the automation thesis in one sentence. Includes aeonfun/aeon link.",
+        "likes": 7,
+        "retweets": 1
+      },
+      "children": []
+    },
+    "tweet4_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2077481542545248273"
+      },
+      "children": []
+    }
+  }
+}
