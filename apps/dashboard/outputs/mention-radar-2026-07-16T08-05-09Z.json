@@ -1,0 +1,163 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-07-16"
+      },
+      "children": [
+        "section-aeon",
+        "separator-1",
+        "section-miroshark",
+        "separator-2",
+        "section-opportunities"
+      ]
+    },
+    "section-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aeon",
+        "mention-container"
+      ]
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "mention-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention-source-date",
+        "tweet-card",
+        "mention-footer"
+      ]
+    },
+    "mention-source-date": {
+      "type": "Text",
+      "props": {
+        "text": "x.com/@TotalWorldApps • Jul 15",
+        "variant": "muted"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "TotalWorldApps",
+        "handle": "TotalWorldApps",
+        "text": "aeonframework seems pretty interesting and ambitious. open source ai infra for autonomous agents is uncharted territory in crypto. will be interesting to see what they build out with their mcp and agent marketplace.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "mention-footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-discovery",
+        "engagement-metrics",
+        "link-tweet"
+      ]
+    },
+    "badge-discovery": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "default"
+      }
+    },
+    "engagement-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "0♥ 0RT 0↩",
+        "variant": "caption"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/TotalWorldApps/status/2077496693625336136"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-miroshark",
+        "miroshark-text"
+      ]
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark-text": {
+      "type": "Text",
+      "props": {
+        "text": "QUIET: no external mentions found (bankrbot API logs excluded; microlaunch listing 0 engagement, no date)",
+        "variant": "muted"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-opportunities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-opportunities",
+        "alert-totalworldapps"
+      ]
+    },
+    "heading-opportunities": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "alert-totalworldapps": {
+      "type": "Alert",
+      "props": {
+        "title": "@TotalWorldApps: Framing correction needed",
+        "message": "First-take discovery with a framing drift — 'crypto infra' + 'MCP and agent marketplace.' Aeon is a GitHub Actions agent framework, not crypto-native infra. Worth a one-tweet clarification before that label calcifies. Atrium is the 'marketplace' they're likely gesturing at.",
+        "type": "info"
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-07-14T07:41:12Z",
+  "last_analyzed": "2026-07-16T08:05:09Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced output with specific signal, engagement metrics, and actionable opps; minor uncertainty on one data point doesn't degrade core deliverable",
+  "assessment": "Skill ran successfully across all channels (http=200 confirmed), delivered specific findings with one actionable engagement opportunity, and provided an honest assessment of a quiet cycle — well-structured and decision-ready.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -68,6 +68,10 @@
     },
     {
       "date": "2026-07-14",
+      "score": 4
+    },
+    {
+      "date": "2026-07-16",
       "score": 4
     }
   ]
