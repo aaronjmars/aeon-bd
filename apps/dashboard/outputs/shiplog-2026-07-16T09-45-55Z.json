@@ -1,0 +1,193 @@
+{
+  "root": "card-shiplog",
+  "state": {},
+  "elements": {
+    "card-shiplog": {
+      "type": "Card",
+      "props": {
+        "title": "Shiplog ⭐🦈 Jul 13-16"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "subtitle-text",
+        "shipped-stat",
+        "features-section",
+        "traction-section",
+        "article-link"
+      ]
+    },
+    "subtitle-text": {
+      "type": "Text",
+      "props": {
+        "text": "aeon ⭐ + miroshark 🦈 shiplog — jul 13 → jul 16",
+        "variant": "lead"
+      }
+    },
+    "shipped-stat": {
+      "type": "Text",
+      "props": {
+        "text": "shipped 23 PRs + 14 commits"
+      }
+    },
+    "features-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "features-heading",
+        "feature-1",
+        "feature-2",
+        "feature-3",
+        "feature-4",
+        "feature-5"
+      ]
+    },
+    "features-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Features shipped",
+        "level": "h3"
+      }
+    },
+    "feature-1": {
+      "type": "Text",
+      "props": {
+        "text": "aeonfun org live: IP of aeon, opendia (1849★), soul.md & minitor transferred to base on-chain. aeon inc."
+      }
+    },
+    "feature-2": {
+      "type": "Text",
+      "props": {
+        "text": "mcp durable OAuth: one-click connect for OAuth-gated MCP servers (glim, robinhood) — no more hand-rolling tokens ⭐"
+      }
+    },
+    "feature-3": {
+      "type": "Text",
+      "props": {
+        "text": "grok 4.5 live: latest @xai model in the picker, deprecated x_search migrated @aeonframework"
+      }
+    },
+    "feature-4": {
+      "type": "Text",
+      "props": {
+        "text": "minitor × aeon: minitor is now a frontend for your aeon runs — dedicated column, skill runner, honest api-key gating ⭐"
+      }
+    },
+    "feature-5": {
+      "type": "Text",
+      "props": {
+        "text": "security: found a high-severity vuln using @aeonframework — reported to hackerone. streak: @google @vercel @alibaba already secured"
+      }
+    },
+    "traction-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "traction-heading",
+        "stats-row",
+        "posts-subsection",
+        "mention-text"
+      ]
+    },
+    "traction-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Traction",
+        "level": "h3"
+      }
+    },
+    "stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "aeon-stat",
+        "miroshark-stat"
+      ]
+    },
+    "aeon-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon ⭐",
+        "value": "576",
+        "delta": "+2"
+      }
+    },
+    "miroshark-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "miroshark 🦈",
+        "value": "1365",
+        "delta": "+5"
+      }
+    },
+    "posts-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "posts-heading",
+        "post-1",
+        "post-2",
+        "post-3"
+      ]
+    },
+    "posts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top posts",
+        "level": "h4"
+      }
+    },
+    "post-1": {
+      "type": "Text",
+      "props": {
+        "text": "org announcement — 38♥ / 7RT"
+      }
+    },
+    "post-2": {
+      "type": "Text",
+      "props": {
+        "text": "intro articles — 31♥ / 3RT"
+      }
+    },
+    "post-3": {
+      "type": "Text",
+      "props": {
+        "text": "grok 4.5 — 21♥ / 3RT"
+      }
+    },
+    "mention-text": {
+      "type": "Text",
+      "props": {
+        "text": "@Base_Insights (22k followers) listed @miroshark_ in their Base Early tier (Jul 15)"
+      }
+    },
+    "article-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full shiplog article",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/output/articles/shiplog-2026-07-16.md",
+        "source": "GitHub"
+      }
+    }
+  }
+}
