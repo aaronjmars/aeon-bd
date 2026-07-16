@@ -2431,6 +2431,46 @@
       "repo_updated": "2026-07-13",
       "source": "gh_search_code",
       "move": "No action - free distribution surface"
+    },
+    {
+      "key": "github:Hollup/aeon",
+      "class": "building",
+      "who": "Hollup",
+      "handle": "Hollup",
+      "signal": "Personal Aeon instance (non-fork!), 33d running (created 06-13, pushed 07-16 TODAY). Skills deployed but failing: heartbeat, engagement-act, self-improve all showing 'chore(cron): X failed' commits. SOUL.md and STRATEGY.md are unconfigured defaults. Real operator stuck at onboarding.",
+      "fit": 1,
+      "score": 5,
+      "first_seen": "2026-07-16",
+      "repo_updated": "2026-07-16",
+      "source": "gh_search_repos",
+      "move": "DM Hollup on GH: your skills are failing (heartbeat, engagement-act, self-improve) \u2014 likely missing API key or secrets config. Share setup guide + TG invite."
+    },
+    {
+      "key": "github:techdigger/aeon",
+      "class": "forking",
+      "who": "techdigger (aeon-skill-pack-agentlink builder)",
+      "handle": "techdigger",
+      "signal": "techdigger (known ecosystem builder \u2014 shipped aeon-skill-pack-agentlink, AgentLink verified human-backed on-chain identity) created their own aeon fork 07-08, pushed same day. Size 35,442. Deepening personal engagement.",
+      "fit": 1,
+      "score": 3,
+      "first_seen": "2026-07-16",
+      "repo_updated": "2026-07-08",
+      "known": true,
+      "source": "gh_read_pat_forks",
+      "move": "Acknowledge at next TG touchpoint; confirm secrets and aeon.yml setup help if needed."
+    },
+    {
+      "key": "x:TotalWorldApps",
+      "class": "mentioning",
+      "who": "TotalWorldApps",
+      "handle": "@TotalWorldApps",
+      "signal": "X post 07-15: 'aeonframework seems pretty interesting and ambitious. open source ai infra for autonomous agents is uncharted territory in crypto. will be interesting to see what they build out with their mcp and agent marketplace.' Builder account (building tap-to-earn/mining app). 0 engagement but unprompted positive exploration.",
+      "fit": 1,
+      "score": 2,
+      "first_seen": "2026-07-16",
+      "link": "https://x.com/TotalWorldApps/status/2077496693625336136",
+      "source": "xai_x",
+      "move": "Reply from @aeonframework: welcome \u2014 here's ECOSYSTEM.md + TG link. Convert explorer to builder."
     }
   ],
   "surfaced": [
@@ -2689,6 +2729,9 @@
     "github:framerslab/paracosm",
     "github:Abhinesh2004/mirage-cortex",
     "github:enuno/noesis-aeon",
-    "github:gabrielmoreira/awesome-ai-rabbit-holes"
+    "github:gabrielmoreira/awesome-ai-rabbit-holes",
+    "github:Hollup/aeon",
+    "github:techdigger/aeon",
+    "x:TotalWorldApps"
   ]
 }
