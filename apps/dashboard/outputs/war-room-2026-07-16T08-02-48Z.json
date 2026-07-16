@@ -1,0 +1,345 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 War Room — 2026-07-16"
+      },
+      "children": [
+        "state-section",
+        "sep1",
+        "talk-section",
+        "sep2",
+        "decide-section",
+        "sep3",
+        "appendix-section"
+      ]
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-heading",
+        "state-status",
+        "repos-table"
+      ]
+    },
+    "state-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h3"
+      }
+    },
+    "state-status": {
+      "type": "Text",
+      "props": {
+        "text": "Both green. Fork velocity high on both, nothing stalled.",
+        "variant": "body"
+      }
+    },
+    "repos-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Repo",
+          "Stars",
+          "Forks",
+          "Last Push",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Aeon (aeonfun/aeon)",
+            "576",
+            "207",
+            "2026-07-15",
+            "Canonical, IP transfer landed, release v0.1.0 (2026-07-09)"
+          ],
+          [
+            "Miroshark (MiroShark/MiroShark)",
+            "1365",
+            "290",
+            "2026-07-14",
+            "No recent release"
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk-heading",
+        "orlix-item",
+        "aeoncity-item"
+      ]
+    },
+    "talk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h3"
+      }
+    },
+    "orlix-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "orlix-header",
+        "orlix-body",
+        "orlix-action"
+      ]
+    },
+    "orlix-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "orlix-name",
+        "orlix-status"
+      ]
+    },
+    "orlix-name": {
+      "type": "Text",
+      "props": {
+        "text": "Orlix (AureliusAI-code)",
+        "variant": "lead"
+      }
+    },
+    "orlix-status": {
+      "type": "Badge",
+      "props": {
+        "text": "PRIORITY",
+        "variant": "secondary"
+      }
+    },
+    "orlix-body": {
+      "type": "Text",
+      "props": {
+        "text": "Live on Base @ orlix.xyz. Wires Aeon as its agent backbone via api/aeon.js. Uses x402 premium endpoints + B20 token.",
+        "variant": "body"
+      }
+    },
+    "orlix-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ DM today: ECOSYSTEM.md entry + B20 partnership",
+        "variant": "muted"
+      }
+    },
+    "aeoncity-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeoncity-header",
+        "aeoncity-body",
+        "aeoncity-action"
+      ]
+    },
+    "aeoncity-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeoncity-name",
+        "aeoncity-status"
+      ]
+    },
+    "aeoncity-name": {
+      "type": "Text",
+      "props": {
+        "text": "AeonCity (aeoncityhub)",
+        "variant": "lead"
+      }
+    },
+    "aeoncity-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RUNNER-UP",
+        "variant": "outline"
+      }
+    },
+    "aeoncity-body": {
+      "type": "Text",
+      "props": {
+        "text": "Spun a demo org (aeoncity-demo/myaeon) live today.",
+        "variant": "body"
+      }
+    },
+    "aeoncity-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Ping aeoncityhub for demo flow",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide-heading",
+        "decide-alert"
+      ]
+    },
+    "decide-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h3"
+      }
+    },
+    "decide-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Land Orlix",
+        "message": "A live third-party product running Aeon as its backbone + token + x402 is the strongest real-demand proof we've got. Make it the flagship ecosystem showcase this week. → One DM.",
+        "type": "success"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "appendix-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "appendix-heading",
+        "source-state",
+        "source-leads",
+        "source-category"
+      ]
+    },
+    "appendix-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h3"
+      }
+    },
+    "source-state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-state-label",
+        "source-state-text"
+      ]
+    },
+    "source-state-label": {
+      "type": "Badge",
+      "props": {
+        "text": "STATE",
+        "variant": "outline"
+      }
+    },
+    "source-state-text": {
+      "type": "Text",
+      "props": {
+        "text": "Live gh api read (07-16): aeonfun/aeon 576⭐ / 207 forks, pushed 2026-07-15, release v0.1.0 (07-09) · MiroShark/MiroShark 1365⭐ / 290 forks, pushed 2026-07-14, no release. Both pushed <2wk → no stall.",
+        "variant": "caption"
+      }
+    },
+    "source-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-leads-label",
+        "source-leads-link"
+      ]
+    },
+    "source-leads-label": {
+      "type": "Badge",
+      "props": {
+        "text": "TALK TO / LEADS",
+        "variant": "outline"
+      }
+    },
+    "source-leads-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bd-radar-2026-07-15",
+        "href": "bd-radar-2026-07-15.md",
+        "source": "No 07-16 digest committed yet; used most recent. Top two leads both building, score 15."
+      }
+    },
+    "source-category": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-category-label",
+        "source-category-text",
+        "source-category-link"
+      ]
+    },
+    "source-category-label": {
+      "type": "Badge",
+      "props": {
+        "text": "CATEGORY INTEL",
+        "variant": "outline"
+      }
+    },
+    "source-category-text": {
+      "type": "Text",
+      "props": {
+        "text": "MiroFish-lineage threat + Polisim director-mode overlap.",
+        "variant": "caption"
+      }
+    },
+    "source-category-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sim-watch-2026-07-12",
+        "href": "sim-watch-2026-07-12.md",
+        "source": "idea-forge last dated 07-08 (>7d, skipped)"
+      }
+    }
+  }
+}

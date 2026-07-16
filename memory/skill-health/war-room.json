@@ -1,15 +1,11 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-15T08:35:46Z",
+  "last_analyzed": "2026-07-16T08:02:48Z",
   "quality_score": 4,
-  "assessment": "Complete, well-structured standup with specific BD opportunities (Orlix), clear decision line (DM AureliusAI-code), live data sourced (gh api, bd-radar), properly de-duped and aligned to strategy. Substantive and actionable.",
+  "assessment": "Substantive standup with real metrics, clear STATE/TALK TO/DECIDE structure, and actionable recommendation (Orlix flagship showcase); properly committed and notified.",
   "flags": [],
   "avg_score": 4.03,
   "history": [
-    {
-      "date": "2026-06-15",
-      "score": 4
-    },
     {
       "date": "2026-06-16",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-15",
+      "score": 4
+    },
+    {
+      "date": "2026-07-16",
       "score": 4
     }
   ]
