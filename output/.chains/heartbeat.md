@@ -1,10 +1,12 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
-
-Fleet is clean across all tiers. 10 enabled skills, all green. `docs/status.md` regenerated with bd-radar already showing today's success, war-room and the rest at yesterday's marks. No notification sent — nothing needs attention.
+All clean — nothing needs attention, no notification sent.
 
 ## Summary
 
-- **Checked:** P0 (failed/stuck/degraded) → clean; P1 (PRs/issues) → clean; P2 (memory flags) → clean; P3 (schedule staleness) → clean
-- **Written:** `docs/status.md` (🟢 OK, 10 enabled skills, 0 open issues)
-- **Logged:** `memory/logs/2026-07-15.md` under `### heartbeat`
-- **No notification sent** — healthy fleet, nothing to surface
+**Ambient check — 2026-07-16 — HEARTBEAT_OK · STATUS_PAGE=OK**
+
+- **P0**: All 10 enabled skills healthy (`last_status: success`), no stuck dispatches, no consecutive failures, no chronic degradation. Heartbeat self-check OK (~23.5h since last success).
+- **P1**: No open PRs, no open GitHub issues.
+- **P2**: No new memory flags.
+- **P3**: All enabled skills have cron-state entries, none overdue by 2× their interval.
+- **docs/status.md** regenerated — 🟢 OK, 0 open issues, next scheduled run: shiplog at 09:00 UTC.
+- No notification sent (nothing to flag).
