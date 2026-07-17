@@ -1,0 +1,423 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "War Room — 2026-07-17",
+        "description": "Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar."
+      },
+      "children": [
+        "tags",
+        "sep1",
+        "section_state",
+        "sep2",
+        "section_talk",
+        "sep3",
+        "section_decide",
+        "sep4",
+        "section_appendix"
+      ]
+    },
+    "tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_wr",
+        "badge_su",
+        "badge_ec"
+      ]
+    },
+    "badge_wr": {
+      "type": "Badge",
+      "props": {
+        "text": "war-room"
+      }
+    },
+    "badge_su": {
+      "type": "Badge",
+      "props": {
+        "text": "standup"
+      }
+    },
+    "badge_ec": {
+      "type": "Badge",
+      "props": {
+        "text": "ecosystem"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_state",
+        "stats_row1",
+        "stats_row2",
+        "stat_combined",
+        "txt_state"
+      ]
+    },
+    "h_state": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "stats_row1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_aeon_stars",
+        "stat_aeon_forks"
+      ]
+    },
+    "stat_aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars",
+        "value": "577",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "stat_aeon_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Forks",
+        "value": "208",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "stats_row2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_miro_stars",
+        "stat_miro_forks"
+      ]
+    },
+    "stat_miro_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Stars",
+        "value": "1368",
+        "delta": "+3",
+        "trend": "up"
+      }
+    },
+    "stat_miro_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Forks",
+        "value": "290",
+        "delta": "0",
+        "trend": "neutral"
+      }
+    },
+    "stat_combined": {
+      "type": "Stat",
+      "props": {
+        "label": "Combined Forks",
+        "value": "498",
+        "delta": "500 within reach"
+      }
+    },
+    "txt_state": {
+      "type": "Text",
+      "props": {
+        "text": "Nothing stalled, nothing forcing on state. Both pushed yesterday.",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_talk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_talk",
+        "txt_talk_intro",
+        "lead_orlix",
+        "lead_hollup"
+      ]
+    },
+    "h_talk": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "txt_talk_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet sweep, no fresh high-intent lead. Best carried play still:",
+        "variant": "body"
+      }
+    },
+    "lead_orlix": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_orlix_title",
+        "lead_orlix_desc"
+      ]
+    },
+    "lead_orlix_title": {
+      "type": "Text",
+      "props": {
+        "text": "Orlix",
+        "variant": "lead"
+      }
+    },
+    "lead_orlix_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AureliusAI-code, orlix.xyz live on Base, wires aeon as its agent backbone + B20 token, ★15",
+        "variant": "body"
+      }
+    },
+    "lead_hollup": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_hollup_title",
+        "lead_hollup_desc"
+      ]
+    },
+    "lead_hollup_title": {
+      "type": "Text",
+      "props": {
+        "text": "Hollup (runner-up)",
+        "variant": "lead"
+      }
+    },
+    "lead_hollup_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Real operator, 33d in, skills failing at setup → one GH reply unsticks them, fastest conversion on a dry day.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_decide": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_decide",
+        "txt_decide"
+      ]
+    },
+    "h_decide": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "txt_decide": {
+      "type": "Text",
+      "props": {
+        "text": "Close the Orlix loop. It's been the call two mornings running — send the DM today or consciously drop it. Don't let the best real-demand proof we have rot in the queue.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_appendix": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_appendix",
+        "src_state",
+        "src_talk",
+        "src_loop",
+        "src_intel"
+      ]
+    },
+    "h_appendix": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h3"
+      }
+    },
+    "src_state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "src_state_label",
+        "src_state_text"
+      ]
+    },
+    "src_state_label": {
+      "type": "Text",
+      "props": {
+        "text": "STATE",
+        "variant": "lead"
+      }
+    },
+    "src_state_text": {
+      "type": "Text",
+      "props": {
+        "text": "Live gh api read (2026-07-17): aeonfun/aeon 577★ / 208 forks, pushed 2026-07-16T21:59Z, release v0.1.0 (07-09). MiroShark/MiroShark 1368★ / 290 forks, pushed 2026-07-16T20:53Z, no release. Deltas vs 07-16 brief: aeon 576→577 (+1★), forks 207→208 (+1); miroshark 1365→1368 (+3★), forks flat 290. Both pushed <2wk → no stall. Combined forks 498 — the ~500 line still just short.",
+        "variant": "body"
+      }
+    },
+    "src_talk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "src_talk_header",
+        "src_talk_text"
+      ]
+    },
+    "src_talk_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "src_talk_label",
+        "link_bdradar"
+      ]
+    },
+    "src_talk_label": {
+      "type": "Text",
+      "props": {
+        "text": "TALK TO / leads —",
+        "variant": "lead"
+      }
+    },
+    "link_bdradar": {
+      "type": "Link",
+      "props": {
+        "label": "bd-radar-2026-07-16",
+        "href": "bd-radar-2026-07-16.md"
+      }
+    },
+    "src_talk_text": {
+      "type": "Text",
+      "props": {
+        "text": "No 07-17 digest committed yet; used most recent. Quiet sweep — 3 net-new, top intent is Hollup/aeon (building ★5, stuck operator, skills failing at setup) + techdigger fork (★3) + TotalWorldApps mention (★2). No fresh score-15 building/integrating from unknown accounts. Strongest standing lead remains Orlix / AureliusAI-code (★15, live Base product) carried from the 07-15 digest.",
+        "variant": "body"
+      }
+    },
+    "src_loop": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "src_loop_label",
+        "src_loop_text"
+      ]
+    },
+    "src_loop_label": {
+      "type": "Text",
+      "props": {
+        "text": "Open loop",
+        "variant": "lead"
+      }
+    },
+    "src_loop_text": {
+      "type": "Text",
+      "props": {
+        "text": "The Orlix DM was the decide on both 07-15 and 07-16. Two mornings as the standing call with no close → today's decide is to resolve it, not manufacture a new one.",
+        "variant": "body"
+      }
+    },
+    "src_intel": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "src_intel_header",
+        "src_intel_text"
+      ]
+    },
+    "src_intel_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "src_intel_label",
+        "link_simwatch"
+      ]
+    },
+    "src_intel_label": {
+      "type": "Text",
+      "props": {
+        "text": "Category intel —",
+        "variant": "lead"
+      }
+    },
+    "link_simwatch": {
+      "type": "Link",
+      "props": {
+        "label": "sim-watch-2026-07-12",
+        "href": "sim-watch-2026-07-12.md"
+      }
+    },
+    "src_intel_text": {
+      "type": "Text",
+      "props": {
+        "text": "(5d, still fresh — MiroFish-lineage threat + Polisim director-mode overlap). idea-forge last dated 07-08 (>7d, skipped).",
+        "variant": "body"
+      }
+    }
+  }
+}

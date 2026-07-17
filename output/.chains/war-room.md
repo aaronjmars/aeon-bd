@@ -1,25 +1,26 @@
-ℹ️ ⭐🦈 war room — 2026-07-16
+ℹ️ war room 2026-07-17
 
 ---
 type: Article
-title: War Room — 2026-07-16
+title: War Room — 2026-07-17
 description: Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar.
 tags: [war-room, standup, ecosystem]
-timestamp: 2026-07-16T07:45:00Z
+timestamp: 2026-07-17T07:45:00Z
 ---
 
-⭐🦈 war room — 2026-07-16
+⭐🦈 war room — 2026-07-17
 
-state: both green. aeon 576⭐/207 forks (pushed yest — now canonical at aeonfun/aeon, IP transfer landed). miroshark 1365⭐/290 forks (pushed 07-14). fork velocity high on both, nothing stalled.
+state: both green, both pushed yest. aeon 577⭐/208 forks (+1★ +1 fork), miroshark 1368⭐/290 forks (+3★). combined forks 498 — 500 within reach. nothing stalled, nothing forcing on state.
 
-talk to: **Orlix** (AureliusAI-code) — live on Base @ orlix.xyz, wires Aeon as its agent backbone via api/aeon.js, x402 premium endpoints + B20 token. → DM today: ECOSYSTEM.md entry + B20 partnership. runner-up: **AeonCity** spun a demo org (aeoncity-demo/myaeon) live today → ping aeoncityhub for the demo flow.
+talk to: quiet sweep, no fresh high-intent lead. best carried play still **Orlix** (AureliusAI-code, orlix.xyz live on Base, wires aeon as its agent backbone + B20 token, ★15). runner-up **Hollup** — real operator, 33d in, skills failing at setup → one GH reply unsticks them, fastest conversion on a dry day.
 
-decide: land Orlix. a live third-party product running Aeon as its backbone + token + x402 is the strongest real-demand proof we've got. make it the flagship ecosystem showcase this week. one DM.
+decide: close the Orlix loop. it's been the call two mornings running — send the DM today or consciously drop it. don't let the best real-demand proof we have rot in the queue.
 
 ---
 
 ## Appendix — sources
 
-- **STATE** — live `gh api` read (07-16): `aeonfun/aeon` 576⭐ / 207 forks, pushed 2026-07-15, release v0.1.0 (07-09) · `MiroShark/MiroShark` 1365⭐ / 290 forks, pushed 2026-07-14, no release. Both pushed <2wk → no stall.
-- **TALK TO / leads** — [bd-radar-2026-07-15](bd-radar-2026-07-15.md) (no 07-16 digest committed yet; used most recent). Top two leads both `building`, score 15.
-- **Category intel** — [sim-watch-2026-07-12](sim-watch-2026-07-12.md) (MiroFish-lineage threat + Polisim director-mode overlap). idea-forge last dated 07-08 (>7d, skipped).
+- **STATE** — live `gh api` read (2026-07-17): `aeonfun/aeon` 577⭐ / 208 forks, pushed 2026-07-16T21:59Z, release **v0.1.0** (07-09). `MiroShark/MiroShark` 1368⭐ / 290 forks, pushed 2026-07-16T20:53Z, no release. Deltas vs 07-16 brief: aeon 576→577 (+1★), forks 207→208 (+1); miroshark 1365→1368 (+3★), forks flat 290. Both pushed <2wk → no stall. Combined forks 498 — the ~500 line still just short.
+- **TALK TO / leads** — [bd-radar-2026-07-16](bd-radar-2026-07-16.md) (no 07-17 digest committed yet; used most recent). Quiet sweep — 3 net-new, top intent is **Hollup/aeon** (`building` ★5, stuck operator, skills failing at setup) + techdigger fork (★3) + TotalWorldApps mention (★2). No fresh score-15 `building`/`integrating` from unknown accounts. Strongest standing lead remains **Orlix / AureliusAI-code** (★15, live Base product) carried from the 07-15 digest.
+- **Open loop** — the Orlix DM was the `decide` on both 07-15 and 07-16. Two mornings as the standing call with no close → today's decide is to resolve it, not manufacture a new one.
+- **Category intel** — [sim-watch-2026-07-12](sim-watch-2026-07-12.md) (5d, still fresh — MiroFish-lineage threat + Polisim director-mode overlap). idea-forge last dated 07-08 (>7d, skipped).
