@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-16T08:12:21Z",
+  "last_analyzed": "2026-07-17T08:15:31Z",
   "quality_score": 4,
-  "assessment": "Good — three specific, actionable leads with context; smart signal filtering and MODE-aware execution",
+  "assessment": "Good execution: specific lead identified with actionable follow-up, false positives cleaned, multiple sources consulted and documented, appropriate no-notify decision.",
   "flags": [],
   "avg_score": 4.1,
   "history": [
-    {
-      "date": "2026-06-16",
-      "score": 4
-    },
     {
       "date": "2026-06-17",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-16",
+      "score": 4
+    },
+    {
+      "date": "2026-07-17",
       "score": 4
     }
   ]

@@ -1,13 +1,12 @@
-Done. Here's the summary:
+Committed. No notification fired — no new building/integrating leads today, just adjacent signal and false-positive cleanup.
 
 ## Summary
 
-**bd-radar 2026-07-16** — quiet sweep. 3 net-new leads:
+**bd-radar 2026-07-17 complete.**
 
-1. **github:Hollup/aeon** (`building`, score 5) — personal Aeon instance (non-fork, 33d running), SOUL/STRATEGY unconfigured, skills failing today (heartbeat, engagement-act, self-improve). Real operator stuck at onboarding. → DM on GH with setup help + TG invite.
-
-2. **github:techdigger/aeon** (`forking`, score 3) — known builder (aeon-skill-pack-agentlink) created own aeon fork 07-08. Known-expanding.
-
-3. **x:TotalWorldApps** (`mentioning`, score 2) — builder account: "aeonframework seems pretty interesting and ambitious. open source ai infra for autonomous agents is uncharted territory in crypto." Unprompted, 0 engagement. → Reply from @aeonframework.
-
-Most fork/repo signals from the past week are already in the surfaced LRU (256→259 entries). No new high-intent `building`/`integrating` leads from previously-unknown accounts — no notification sent (MODE not execute). Files committed: `output/articles/bd-radar-2026-07-16.md`, `memory/logs/2026-07-16.md`, updated `memory/topics/bd-radar-leads.json` (198 leads).
+- **Sources:** GitHub forks (PAT), gh search, xAI x_search (8 builder posts), WebSearch (HN/Reddit quiet), WebFetch
+- **Net-new:** 1 lead (adjacent), 3 keys surfaced
+- **The one lead:** `github:jmthomasofficial/noesis-aeon` — JM Thomas is building autonomous agent tooling (`hyped-fib`: openclaw alternative, `wardproof`: AI agent security boundaries, `noesis-aeon`: Aeon reference). 152 repos, all Jul 11 burst. In the adjacent wedge — DM if jmthomasofficial.com looks serious.
+- **False-positives surfaced:** `x:SpaceTimeViking` (AEON-7/aeon-bench.com — completely different "AEON" brand), `github:MiroShark/MiroShark` (official team IP transfer, same as aeonfun/aeon pattern)
+- **Notable but not new:** sparkleware agent ran a live MiroShark sim + bought its own compute today (strongest ecosystem signal, already surfaced). Five known forks (Marr554, Svector-anu, freezerboi, clawhunter, zszkey) all still pushing today.
+- **Surfaced LRU:** 259 → 262 entries. No notification sent.
