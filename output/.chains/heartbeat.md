@@ -1,12 +1,11 @@
-All clean — nothing needs attention, no notification sent.
+HEARTBEAT_OK · STATUS_PAGE=OK
+
+All checks clean across 10 enabled skills. `docs/status.md` updated (🟢 OK, 0 open issues). No notification sent — nothing needs attention.
 
 ## Summary
 
-**Ambient check — 2026-07-16 — HEARTBEAT_OK · STATUS_PAGE=OK**
-
-- **P0**: All 10 enabled skills healthy (`last_status: success`), no stuck dispatches, no consecutive failures, no chronic degradation. Heartbeat self-check OK (~23.5h since last success).
-- **P1**: No open PRs, no open GitHub issues.
-- **P2**: No new memory flags.
-- **P3**: All enabled skills have cron-state entries, none overdue by 2× their interval.
-- **docs/status.md** regenerated — 🟢 OK, 0 open issues, next scheduled run: shiplog at 09:00 UTC.
-- No notification sent (nothing to flag).
+- **P0–P3:** All clean. No failed, stuck, or chronic-failure skills. No open PRs or issues. No new MEMORY.md flags. All 10 enabled skills within their 2× schedule windows.
+- **Wrote:** `docs/status.md` — refreshed timestamps, current cron-state data for all 10 skills.
+- **Wrote:** `memory/logs/2026-07-17.md` — heartbeat ambient log entry.
+- **Token pulse:** omitted (no `output/articles/token-report-*.md` files exist).
+- **No notification sent** (clean run).
