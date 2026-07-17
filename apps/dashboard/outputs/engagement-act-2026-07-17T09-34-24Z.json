@@ -1,0 +1,235 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-17"
+      },
+      "children": [
+        "engagement-list"
+      ]
+    },
+    "engagement-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item-1",
+        "sep-1",
+        "item-2",
+        "sep-2",
+        "item-3",
+        "sep-3",
+        "item-4"
+      ]
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1-heading",
+        "item-1-desc",
+        "item-1-link",
+        "item-1-type",
+        "item-1-draft"
+      ]
+    },
+    "item-1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "github:AureliusAI-code/orlix (2d)",
+        "level": "h3"
+      }
+    },
+    "item-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "orlix.xyz live on Base, aeon.js backbone, x402 premium, B20 token"
+      }
+    },
+    "item-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/AureliusAI-code/orlix",
+        "href": "https://github.com/AureliusAI-code/orlix"
+      }
+    },
+    "item-1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "item-1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "hey — saw orlix.xyz running aeon as the backbone via api/aeon.js + x402. that's the agents-as-companies thesis live in the wild. happy to add orlix to ECOSYSTEM.md and make it a featured showcase. also curious about the B20 angle — might be worth 5 min. lmk.",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-2-heading",
+        "item-2-desc",
+        "item-2-link",
+        "item-2-type",
+        "item-2-draft"
+      ]
+    },
+    "item-2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@DegenOnBase_ (1d)",
+        "level": "h3"
+      }
+    },
+    "item-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "\"hidden gem on Base\" full-stack breakdown, 47♥/6RT/12 replies"
+      }
+    },
+    "item-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/DegenOnBase_/status/2077444080083296601",
+        "href": "https://x.com/DegenOnBase_/status/2077444080083296601"
+      }
+    },
+    "item-2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "item-2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "hidden gem status is earned not assigned. the $1/10min + x402-native part is what the sim layer should always have been. 🦈",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-3-heading",
+        "item-3-desc",
+        "item-3-note",
+        "item-3-type",
+        "item-3-draft"
+      ]
+    },
+    "item-3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@Base_Insights (2d)",
+        "level": "h3"
+      }
+    },
+    "item-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "22K account, listed @miroshark_ in Base Early tier"
+      }
+    },
+    "item-3-note": {
+      "type": "Alert",
+      "props": {
+        "message": "no link found (surfaced in shiplog 07-16)",
+        "type": "info"
+      }
+    },
+    "item-3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply (from @miroshark_)",
+        "variant": "secondary"
+      }
+    },
+    "item-3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "appreciate the Base Early listing. miroshark is built for what Base is becoming — the layer where agents simulate, transact, and operate. 🦈 more coming.",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-4-heading",
+        "item-4-desc",
+        "item-4-link",
+        "item-4-type",
+        "item-4-draft"
+      ]
+    },
+    "item-4-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "github:jmthomasofficial/noesis-aeon (0d)",
+        "level": "h3"
+      }
+    },
+    "item-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "adjacent builder: noesis-aeon + wardproof (AI agent security) + hyped-fib (openclaw alt). Score 3."
+      }
+    },
+    "item-4-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/jmthomasofficial/noesis-aeon",
+        "href": "https://github.com/jmthomasofficial/noesis-aeon"
+      }
+    },
+    "item-4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "item-4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "hey — noticed noesis-aeon, wardproof, and hyped-fib. building in the signed-skill + security space, looks adjacent to the aeon stack. if you want to compare notes on the security toolchain (we've got vuln-scanner skills running against real repos) or wire this into the official ecosystem, happy to connect.",
+        "variant": "caption"
+      }
+    }
+  }
+}
