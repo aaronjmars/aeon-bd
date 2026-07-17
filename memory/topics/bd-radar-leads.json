@@ -2471,6 +2471,18 @@
       "link": "https://x.com/TotalWorldApps/status/2077496693625336136",
       "source": "xai_x",
       "move": "Reply from @aeonframework: welcome \u2014 here's ECOSYSTEM.md + TG link. Convert explorer to builder."
+    },
+    {
+      "key": "github:jmthomasofficial/noesis-aeon",
+      "class": "adjacent",
+      "who": "jmthomasofficial (JM Thomas)",
+      "handle": "jmthomasofficial",
+      "signal": "Autonomous-agent tooling builder: noesis-aeon (Aeon reference), hyped-fib (openclaw alternative), wardproof (AI agent security), remem (Claude Code memory), mcp-servers-hub. 152 repos, Jul 11 burst. Building in aeon-adjacent space.",
+      "fit": 3,
+      "score": 3,
+      "first_seen": "2026-07-17",
+      "source": "gh_search_repos",
+      "move": "Check jmthomasofficial.com \u2014 if serious builder, DM on GH about Aeon as prod-ready version of what they are building toward"
     }
   ],
   "surfaced": [
@@ -2732,6 +2744,9 @@
     "github:gabrielmoreira/awesome-ai-rabbit-holes",
     "github:Hollup/aeon",
     "github:techdigger/aeon",
-    "x:TotalWorldApps"
+    "x:TotalWorldApps",
+    "github:jmthomasofficial/noesis-aeon",
+    "x:SpaceTimeViking",
+    "github:MiroShark/MiroShark"
   ]
 }
