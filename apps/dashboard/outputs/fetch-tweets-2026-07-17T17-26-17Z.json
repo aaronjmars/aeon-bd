@@ -1,0 +1,176 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup — 2026-07-17"
+      },
+      "children": [
+        "text-source",
+        "sep1",
+        "section1-heading",
+        "section1-items",
+        "sep2",
+        "section2-heading",
+        "section2-items"
+      ]
+    },
+    "text-source": {
+      "type": "Text",
+      "props": {
+        "text": "Source: api:3 websearch:0 failed:0",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI / Agents — framework credibility gap + governance catching up",
+        "level": "h3"
+      }
+    },
+    "section1-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1-container",
+        "tweet2-container"
+      ]
+    },
+    "tweet1-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1-link",
+        "tweet1-desc",
+        "tweet1-score"
+      ]
+    },
+    "tweet1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "x.com/chenzeling4 — Deep Agents framework",
+        "href": "https://x.com/chenzeling4/status/2077905877273805162",
+        "source": "X",
+        "score": "35"
+      }
+    },
+    "tweet1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Deep Agents frames every \"starter template\" framework as handing you a while loop and good luck: ships sub-agents, filesystem, context summarization, LangGraph persistence, model-agnostic. 26.3k stars.",
+        "variant": "body"
+      }
+    },
+    "tweet1-score": {
+      "type": "Badge",
+      "props": {
+        "text": "signal: 35",
+        "variant": "secondary"
+      }
+    },
+    "tweet2-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2-link",
+        "tweet2-desc",
+        "tweet2-score"
+      ]
+    },
+    "tweet2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "x.com/SteveJiangPhD — Agent Trust governance",
+        "href": "https://x.com/SteveJiangPhD/status/2077906096778334637",
+        "source": "X",
+        "score": "4"
+      }
+    },
+    "tweet2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Argues Zero Trust needs to evolve into Agent Trust: verifiable identity + least privilege + runtime auditing per autonomous agent action. Governance catching up to the autonomy wave.",
+        "variant": "body"
+      }
+    },
+    "tweet2-score": {
+      "type": "Badge",
+      "props": {
+        "text": "signal: 4",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tech / Open Source — two major open-source model drops in 48h",
+        "level": "h3"
+      }
+    },
+    "section2-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet3-container"
+      ]
+    },
+    "tweet3-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3-link",
+        "tweet3-desc",
+        "tweet3-score"
+      ]
+    },
+    "tweet3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "x.com/emax — Kimi 3 open-source model release",
+        "href": "https://x.com/emax/status/2077905836366598316",
+        "source": "X",
+        "score": "3"
+      }
+    },
+    "tweet3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Kimi 3 just dropped — \"incredible open source model,\" second consecutive day of a frontier open-source release after Inkling.",
+        "variant": "body"
+      }
+    },
+    "tweet3-score": {
+      "type": "Badge",
+      "props": {
+        "text": "signal: 3",
+        "variant": "secondary"
+      }
+    }
+  }
+}

@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-16T17:20:30Z",
+  "last_analyzed": "2026-07-17T17:26:17Z",
   "quality_score": 4,
-  "assessment": "Tight curation of high-signal tweets with clear filtering logic; surfaces external builders and framework dogfooding; memory updated; memory updated. Lacks explicit next-steps or ranking by action priority.",
+  "assessment": "Curated 3 actionable tweets with signal scores and distinct angles, applied filtering logic (dropped low-engagement crypto topic), maintained memory to prevent re-reporting, clear summary with concrete deliverables.",
   "flags": [],
   "avg_score": 3.9,
   "history": [
-    {
-      "date": "2026-06-17",
-      "score": 4
-    },
     {
       "date": "2026-06-18",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-16",
+      "score": 4
+    },
+    {
+      "date": "2026-07-17",
       "score": 4
     }
   ]
