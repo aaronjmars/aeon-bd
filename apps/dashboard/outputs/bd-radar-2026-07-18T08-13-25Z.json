@@ -1,0 +1,146 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar 07-18",
+        "description": "1 new building lead"
+      },
+      "children": [
+        "lead-name",
+        "lead-shipped",
+        "repo-link",
+        "lead-description",
+        "lead-stats",
+        "lead-bio",
+        "sep-1",
+        "other-projects-heading",
+        "projects-list",
+        "sep-2",
+        "move-heading",
+        "move-text"
+      ]
+    },
+    "lead-name": {
+      "type": "Heading",
+      "props": {
+        "text": "sparkleware (@sparklewarefun)",
+        "level": "h2"
+      }
+    },
+    "lead-shipped": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped the Aeon skill registry"
+      }
+    },
+    "repo-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sparkleware/sparkleware",
+        "href": "https://github.com/sparkleware/sparkleware",
+        "source": "GitHub"
+      }
+    },
+    "lead-description": {
+      "type": "Text",
+      "props": {
+        "text": "Y2K holographic discovery + one-click-install for Aeon skill packs"
+      }
+    },
+    "lead-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-repos",
+        "stat-refresh"
+      ]
+    },
+    "stat-repos": {
+      "type": "Text",
+      "props": {
+        "text": "13 repos, all in the ecosystem"
+      }
+    },
+    "stat-refresh": {
+      "type": "Text",
+      "props": {
+        "text": "Daily auto-refresh since at least 07-15"
+      }
+    },
+    "lead-bio": {
+      "type": "Text",
+      "props": {
+        "text": "Bio: \"The discovery catalog for Aeon skill packs. No PR required. No approval queue. No friction. ✦\"",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "other-projects-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Related Projects",
+        "level": "h3"
+      }
+    },
+    "projects-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "project-1",
+        "project-2",
+        "project-3"
+      ]
+    },
+    "project-1": {
+      "type": "Text",
+      "props": {
+        "text": "sparkleware-browse — Aeon skills that query the registry"
+      }
+    },
+    "project-2": {
+      "type": "Text",
+      "props": {
+        "text": "proof-of-loadout — Aeon + MiroShark preflight"
+      }
+    },
+    "project-3": {
+      "type": "Text",
+      "props": {
+        "text": "7 standalone skills running on their own Aeon instance"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "move-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommended Move",
+        "level": "h3"
+      }
+    },
+    "move-text": {
+      "type": "Text",
+      "props": {
+        "text": "DM @sparklewarefun — registry is live, talk about making it the official Atrium discovery layer and co-posting the one-click-install flow. This is the ecosystem infrastructure you want to own the narrative on."
+      }
+    }
+  }
+}
