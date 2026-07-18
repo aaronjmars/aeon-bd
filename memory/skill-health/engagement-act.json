@@ -1,15 +1,11 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-07-17T09:34:24Z",
+  "last_analyzed": "2026-07-18T09:53:46Z",
   "quality_score": 4,
-  "assessment": "Substantive engagement opps with specific context and ready drafts; proper dedup and logging; all leads fresh (0–2d)",
+  "assessment": "Substantive and actionable—scanned properly, de-duped against prior run, surfaced 1 qualified opportunity with score and age, drafted specific X DM with angles, and updated logs.",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 4.03,
   "history": [
-    {
-      "date": "2026-06-17",
-      "score": 3
-    },
     {
       "date": "2026-06-18",
       "score": 5
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-17",
+      "score": 4
+    },
+    {
+      "date": "2026-07-18",
       "score": 4
     }
   ]

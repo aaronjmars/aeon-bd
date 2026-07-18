@@ -1,0 +1,114 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-18"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-type",
+        "text-handle",
+        "text-context",
+        "stat-repos",
+        "stack-features",
+        "link-github",
+        "separator-1",
+        "heading-draft",
+        "text-draft"
+      ]
+    },
+    "badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X DM",
+        "variant": "secondary"
+      }
+    },
+    "text-handle": {
+      "type": "Text",
+      "props": {
+        "text": "@sparklewarefun",
+        "variant": "lead"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago — shipped sparkleware/sparkleware: the Aeon skill pack discovery registry",
+        "variant": "body"
+      }
+    },
+    "stat-repos": {
+      "type": "Stat",
+      "props": {
+        "label": "Ecosystem repos",
+        "value": "13"
+      }
+    },
+    "stack-features": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-refresh",
+        "badge-friction"
+      ]
+    },
+    "badge-refresh": {
+      "type": "Badge",
+      "props": {
+        "text": "daily auto-refresh live",
+        "variant": "outline"
+      }
+    },
+    "badge-friction": {
+      "type": "Badge",
+      "props": {
+        "text": "zero-friction install",
+        "variant": "outline"
+      }
+    },
+    "link-github": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sparkleware/sparkleware",
+        "href": "https://github.com/sparkleware/sparkleware",
+        "source": "GitHub"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-draft": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft — Proposed co-post",
+        "level": "h3"
+      }
+    },
+    "text-draft": {
+      "type": "Text",
+      "props": {
+        "text": "registry is live and already daily-refreshing. the friction-zero install flow is exactly what atrium needed at its core. want to co-post the one-click-install flow and formalize this as the official discovery layer? ⭐",
+        "variant": "body"
+      }
+    }
+  }
+}
