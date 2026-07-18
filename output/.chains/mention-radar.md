@@ -1,12 +1,12 @@
-ℹ️ Mention Radar
+## Summary
 
-*Mention Radar — 2026-07-16*
+**Mention Radar — 2026-07-18**
 
-**AEON**
-- [x.com/@TotalWorldApps, Jul 15] — "aeonframework seems pretty interesting and ambitious. open source ai infra for autonomous agents is uncharted territory in crypto. will be interesting to see what they build out with their mcp and agent marketplace." — **Discovery** (0♥ 0RT 0↩)
-  [https://x.com/TotalWorldApps/status/2077496693625336136](https://x.com/TotalWorldApps/status/2077496693625336136)
+Ran full scan across X (via X.AI API, http=200 both targets), Reddit, HN, Farcaster, and Product Hunt for `aeon, miroshark, @aeonframework, @miroshark_`.
 
-QUIET: miroshark — no external mentions found (bankrbot API logs excluded; microlaunch listing 0 engagement, no date)
+- **AEON:** X noise = AEON Japan supermarket promos + $AEON token chatter. No qualifying project mentions. Broader web: QUIET.
+- **MIROSHARK:** X = price/token-list noise. Broader web: QUIET. Microlaunch listing still at 0 engagement (already noted 07-16).
+- **GitHub:** aeon 578★ (+1), MiroShark 1368★ (flat) — both under the 5★ delta threshold.
+- **No notification sent** — all quiet, no signal worth surfacing.
 
-**ENGAGEMENT OPPORTUNITIES**
-- @TotalWorldApps: first-take discovery with a framing drift — "crypto infra" + "MCP and agent marketplace." Aeon is a GitHub Actions agent framework, not crypto-native infra. Worth a one-tweet clarification before that label calcifies. Atrium is the "marketplace" they're likely gesturing at.
+Log written to `memory/logs/2026-07-18.md`.
