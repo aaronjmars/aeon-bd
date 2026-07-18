@@ -1,11 +1,10 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
+Fleet is healthy. All 10 enabled skills succeeded on their last run, no stuck dispatches, no open PRs or issues, no memory flags.
 
-All checks clean across 10 enabled skills. `docs/status.md` updated (🟢 OK, 0 open issues). No notification sent — nothing needs attention.
+`docs/status.md` regenerated (🟢 OK, updated timestamp 2026-07-18 08:00 UTC) and today's log written. No notification sent — clean run.
 
 ## Summary
 
-- **P0–P3:** All clean. No failed, stuck, or chronic-failure skills. No open PRs or issues. No new MEMORY.md flags. All 10 enabled skills within their 2× schedule windows.
-- **Wrote:** `docs/status.md` — refreshed timestamps, current cron-state data for all 10 skills.
-- **Wrote:** `memory/logs/2026-07-17.md` — heartbeat ambient log entry.
-- **Token pulse:** omitted (no `output/articles/token-report-*.md` files exist).
-- **No notification sent** (clean run).
+- **P0–P3:** All clear. 10/10 enabled skills green, zero consecutive failures, no stuck dispatches, no PRs/issues.
+- **`docs/status.md`:** Overwritten with fresh timestamps and updated skill table (idea-validator + fetch-tweets now show 07-17 runs).
+- **`memory/logs/2026-07-18.md`:** Created with `mode: ambient` heartbeat entry.
+- **Notification:** none — nothing needs attention.
