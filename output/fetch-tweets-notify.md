@@ -1,5 +1,3 @@
-ℹ️ Tweet Roundup 2026-07-18
-
 *Tweet Roundup — 2026-07-18*
 _Source: api:0 websearch:2 failed:1 — compiled via WebSearch (xAI x_search returned empty; reason: http-200/empty)_
 

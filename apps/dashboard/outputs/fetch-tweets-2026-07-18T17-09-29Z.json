@@ -1,0 +1,99 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup 2026-07-18",
+        "description": "Source: api:0 websearch:2 failed:1 — compiled via WebSearch (xAI x_search returned empty; reason: http-200/empty)"
+      },
+      "children": [
+        "stack-ai",
+        "separator-1",
+        "stack-crypto"
+      ]
+    },
+    "stack-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ai",
+        "text-ai-desc",
+        "storylink-1"
+      ]
+    },
+    "heading-ai": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agents / LLM",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-ai-desc": {
+      "type": "Text",
+      "props": {
+        "text": "single story: local-first AI tooling getting real product form",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "storylink-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "LM Studio Bionic ships as a fully local AI agent; runs open models on-device with no cloud dependency — first-party agent layer from the LM Studio team rather than a third-party wrapper",
+        "href": "https://x.com/akira_papa_IT/status/2077844058559721555",
+        "source": "x.com/akira_papa_IT"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-crypto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-crypto",
+        "text-crypto-desc",
+        "storylink-2"
+      ]
+    },
+    "heading-crypto": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto / DeFi",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-crypto-desc": {
+      "type": "Text",
+      "props": {
+        "text": "market in consolidation, major supply unlocks just cleared",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "storylink-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "weekly market digest; ARB and ERA token unlocks (July 16–17) cleared without visible price dislocations — supply overhang absorbed",
+        "href": "https://x.com/Binance_TH_/status/2077679642752811125",
+        "source": "x.com/Binance_TH_"
+      },
+      "children": []
+    }
+  }
+}

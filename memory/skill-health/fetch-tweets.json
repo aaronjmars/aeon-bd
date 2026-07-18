@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-17T17:26:17Z",
+  "last_analyzed": "2026-07-18T17:09:29Z",
   "quality_score": 4,
-  "assessment": "Curated 3 actionable tweets with signal scores and distinct angles, applied filtering logic (dropped low-engagement crypto topic), maintained memory to prevent re-reporting, clear summary with concrete deliverables.",
+  "assessment": "Substantive fetch with clear fallback logic, specific data (dates, handles, product context), dedup confirmation, and honest status reporting. Well-suited for the GTM/BD audience.",
   "flags": [],
   "avg_score": 3.9,
   "history": [
-    {
-      "date": "2026-06-18",
-      "score": 4
-    },
     {
       "date": "2026-06-19",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-17",
+      "score": 4
+    },
+    {
+      "date": "2026-07-18",
       "score": 4
     }
   ]
