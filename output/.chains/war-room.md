@@ -1,26 +1,26 @@
-ℹ️ war room 2026-07-17
+ℹ️ war room 2026-07-18
 
 ---
 type: Article
-title: War Room — 2026-07-17
+title: War Room — 2026-07-18
 description: Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar.
 tags: [war-room, standup, ecosystem]
-timestamp: 2026-07-17T07:45:00Z
+timestamp: 2026-07-18T07:45:00Z
 ---
 
-⭐🦈 war room — 2026-07-17
+⭐🦈 war room — 2026-07-18
 
-state: both green, both pushed yest. aeon 577⭐/208 forks (+1★ +1 fork), miroshark 1368⭐/290 forks (+3★). combined forks 498 — 500 within reach. nothing stalled, nothing forcing on state.
+state: both green, both quiet. aeon 578⭐/208 forks (+1★). miroshark flat — 1368⭐/290, no push since Wed 07-16. not a stall, but momentum cooled. combined forks 498 — 500 is 2 away.
 
-talk to: quiet sweep, no fresh high-intent lead. best carried play still **Orlix** (AureliusAI-code, orlix.xyz live on Base, wires aeon as its agent backbone + B20 token, ★15). runner-up **Hollup** — real operator, 33d in, skills failing at setup → one GH reply unsticks them, fastest conversion on a dry day.
+talk to: no fresh high-intent lead. only net-new is jmthomasofficial (adjacent — noesis-aeon studying aeon + an openclaw alt, weak). standing call is still **Orlix** (orlix.xyz live on Base, aeon as agent backbone, ★15). **Hollup** the fast backup — stuck operator, one GH reply unsticks them.
 
-decide: close the Orlix loop. it's been the call two mornings running — send the DM today or consciously drop it. don't let the best real-demand proof we have rot in the queue.
+decide: 4th morning Orlix is the call. send the DM today or delete it from the queue. stop re-deciding a dead loop.
 
 ---
 
 ## Appendix — sources
 
-- **STATE** — live `gh api` read (2026-07-17): `aeonfun/aeon` 577⭐ / 208 forks, pushed 2026-07-16T21:59Z, release **v0.1.0** (07-09). `MiroShark/MiroShark` 1368⭐ / 290 forks, pushed 2026-07-16T20:53Z, no release. Deltas vs 07-16 brief: aeon 576→577 (+1★), forks 207→208 (+1); miroshark 1365→1368 (+3★), forks flat 290. Both pushed <2wk → no stall. Combined forks 498 — the ~500 line still just short.
-- **TALK TO / leads** — [bd-radar-2026-07-16](bd-radar-2026-07-16.md) (no 07-17 digest committed yet; used most recent). Quiet sweep — 3 net-new, top intent is **Hollup/aeon** (`building` ★5, stuck operator, skills failing at setup) + techdigger fork (★3) + TotalWorldApps mention (★2). No fresh score-15 `building`/`integrating` from unknown accounts. Strongest standing lead remains **Orlix / AureliusAI-code** (★15, live Base product) carried from the 07-15 digest.
-- **Open loop** — the Orlix DM was the `decide` on both 07-15 and 07-16. Two mornings as the standing call with no close → today's decide is to resolve it, not manufacture a new one.
-- **Category intel** — [sim-watch-2026-07-12](sim-watch-2026-07-12.md) (5d, still fresh — MiroFish-lineage threat + Polisim director-mode overlap). idea-forge last dated 07-08 (>7d, skipped).
+- **STATE** — live `gh api` read (2026-07-18): `aeonfun/aeon` 578⭐ / 208 forks, pushed 2026-07-17T16:03Z, release **v0.1.0** (07-09). `MiroShark/MiroShark` 1368⭐ / 290 forks, pushed 2026-07-16T20:53Z, no release. Deltas vs 07-17 brief: aeon 577→578 (+1★), forks flat 208; miroshark flat on stars (1368) AND forks (290) AND no new push since 07-16 20:53 (~36h). Both pushed <2wk → **no stall**, but miroshark's momentum cooled (nothing moved in 2 days). Combined forks 498 — the ~500 line still 2 short.
+- **TALK TO / leads** — [bd-radar-2026-07-17](bd-radar-2026-07-17.md) (no 07-18 digest committed yet; used most recent). Quiet sweep — 1 net-new, `adjacent` **jmthomasofficial** (★3, 152-repo Jul 11 burst incl. noesis-aeon + hyped-fib "more autonomous openclaw alt") — low intent, watch not DM. No fresh score-15 `building`/`integrating` from unknown accounts. Strongest standing lead remains **Orlix / AureliusAI-code** (★15, orlix.xyz live Base product wiring aeon as backbone + B20 token). Fast backup **Hollup/aeon** (real operator stuck at setup).
+- **Open loop** — the Orlix DM was the `decide` on 07-15, 07-16 AND 07-17. Three mornings as the standing call with no visible close → today's decide is to force resolution (send or delete), not manufacture a new one.
+- **Category intel** — [sim-watch-2026-07-12](sim-watch-2026-07-12.md) (6d, aging — MiroFish-lineage threat + Polisim director-mode overlap). idea-forge last dated 07-08 (>7d, skipped).

@@ -1,0 +1,473 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "War Room — 2026-07-18",
+        "description": "Daily aeon + miroshark standup — state · talk-to · decide"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "intro_line",
+        "sep1",
+        "state_section",
+        "sep2",
+        "talktto_section",
+        "sep3",
+        "decide_section",
+        "sep4",
+        "appendix_section"
+      ]
+    },
+    "intro_line": {
+      "type": "Text",
+      "props": {
+        "text": "⭐🦈 war room — 2026-07-18",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "state_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state_title",
+        "state_desc",
+        "state_metrics"
+      ]
+    },
+    "state_title": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "state_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Both green, both quiet. Aeon 578⭐/208 forks (+1★). Miroshark flat — 1368⭐/290, no push since Wed 07-16. Not a stall, but momentum cooled. Combined forks 498 — 500 is 2 away."
+      }
+    },
+    "state_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_aeon_stars",
+        "stat_aeon_forks",
+        "stat_miroshark_stars",
+        "stat_miroshark_forks",
+        "stat_combined_forks"
+      ]
+    },
+    "stat_aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars",
+        "value": "578",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "stat_aeon_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Forks",
+        "value": "208"
+      }
+    },
+    "stat_miroshark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Stars",
+        "value": "1368"
+      }
+    },
+    "stat_miroshark_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Forks",
+        "value": "290"
+      }
+    },
+    "stat_combined_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Combined Forks",
+        "value": "498",
+        "delta": "2 short of 500",
+        "trend": "neutral"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talktto_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talkto_title",
+        "talkto_intro",
+        "leads_stack"
+      ]
+    },
+    "talkto_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "talkto_intro": {
+      "type": "Text",
+      "props": {
+        "text": "No fresh high-intent lead. Only net-new is jmthomasofficial (adjacent — noesis-aeon studying aeon + an openclaw alt, weak). Standing call is still Orlix. Hollup is the fast backup — stuck operator, one GH reply unsticks them."
+      }
+    },
+    "leads_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead_jmt",
+        "lead_orlix",
+        "lead_hollup"
+      ]
+    },
+    "lead_jmt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_jmt_name",
+        "lead_jmt_desc",
+        "lead_jmt_badge"
+      ]
+    },
+    "lead_jmt_name": {
+      "type": "Heading",
+      "props": {
+        "text": "jmthomasofficial",
+        "level": "h3"
+      }
+    },
+    "lead_jmt_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Adjacent — studying aeon + openclaw alt. ★3, 152-repo Jul 11 burst incl. noesis-aeon.",
+        "variant": "body"
+      }
+    },
+    "lead_jmt_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Low intent — watch not DM",
+        "variant": "outline"
+      }
+    },
+    "lead_orlix": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_orlix_name",
+        "lead_orlix_link",
+        "lead_orlix_desc",
+        "lead_orlix_badge"
+      ]
+    },
+    "lead_orlix_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Orlix / AureliusAI-code",
+        "level": "h3"
+      }
+    },
+    "lead_orlix_link": {
+      "type": "Link",
+      "props": {
+        "label": "orlix.xyz",
+        "href": "https://orlix.xyz"
+      }
+    },
+    "lead_orlix_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Live on Base, aeon as agent backbone, B20 token. ★15 standing call.",
+        "variant": "body"
+      }
+    },
+    "lead_orlix_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Standing call",
+        "variant": "secondary"
+      }
+    },
+    "lead_hollup": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_hollup_name",
+        "lead_hollup_desc",
+        "lead_hollup_badge"
+      ]
+    },
+    "lead_hollup_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Hollup / aeon",
+        "level": "h3"
+      }
+    },
+    "lead_hollup_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Real operator stuck at setup.",
+        "variant": "body"
+      }
+    },
+    "lead_hollup_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fast backup — needs 1 GH reply to unstick",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide_title",
+        "decide_items"
+      ]
+    },
+    "decide_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "decide_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "decide_item1",
+        "decide_item2",
+        "decide_alert"
+      ]
+    },
+    "decide_item1": {
+      "type": "Text",
+      "props": {
+        "text": "4th morning Orlix is the call."
+      }
+    },
+    "decide_item2": {
+      "type": "Text",
+      "props": {
+        "text": "Send the DM today or delete it from the queue."
+      }
+    },
+    "decide_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Stop re-deciding a dead loop.",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "appendix_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "appendix_title",
+        "source_state",
+        "source_leads",
+        "source_loop",
+        "source_intel"
+      ]
+    },
+    "appendix_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      }
+    },
+    "source_state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_state_head",
+        "source_state_body"
+      ]
+    },
+    "source_state_head": {
+      "type": "Heading",
+      "props": {
+        "text": "STATE",
+        "level": "h3"
+      }
+    },
+    "source_state_body": {
+      "type": "Text",
+      "props": {
+        "text": "Live gh api read (2026-07-18): aeonfun/aeon 578⭐ / 208 forks, pushed 2026-07-17T16:03Z, release v0.1.0 (07-09). MiroShark/MiroShark 1368⭐ / 290 forks, pushed 2026-07-16T20:53Z, no release. Deltas vs 07-17 brief: aeon 577→578 (+1★), forks flat 208; miroshark flat on stars (1368) AND forks (290) AND no new push since 07-16 20:53 (~36h). Both pushed <2wk → no stall, but miroshark's momentum cooled (nothing moved in 2 days). Combined forks 498 — the ~500 line still 2 short.",
+        "variant": "caption"
+      }
+    },
+    "source_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_leads_head",
+        "source_leads_p1",
+        "source_leads_p2",
+        "source_leads_p3"
+      ]
+    },
+    "source_leads_head": {
+      "type": "Heading",
+      "props": {
+        "text": "TALK TO / leads",
+        "level": "h3"
+      }
+    },
+    "source_leads_p1": {
+      "type": "Text",
+      "props": {
+        "text": "bd-radar-2026-07-17 (no 07-18 digest committed yet; used most recent). Quiet sweep — 1 net-new, adjacent jmthomasofficial (★3, 152-repo Jul 11 burst incl. noesis-aeon + hyped-fib \"more autonomous openclaw alt\") — low intent, watch not DM. No fresh score-15 building/integrating from unknown accounts.",
+        "variant": "caption"
+      }
+    },
+    "source_leads_p2": {
+      "type": "Text",
+      "props": {
+        "text": "Strongest standing lead remains Orlix / AureliusAI-code (★15, orlix.xyz live Base product wiring aeon as backbone + B20 token).",
+        "variant": "caption"
+      }
+    },
+    "source_leads_p3": {
+      "type": "Text",
+      "props": {
+        "text": "Fast backup Hollup/aeon (real operator stuck at setup).",
+        "variant": "caption"
+      }
+    },
+    "source_loop": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_loop_head",
+        "source_loop_body"
+      ]
+    },
+    "source_loop_head": {
+      "type": "Heading",
+      "props": {
+        "text": "Open loop",
+        "level": "h3"
+      }
+    },
+    "source_loop_body": {
+      "type": "Text",
+      "props": {
+        "text": "The Orlix DM was the decide on 07-15, 07-16 AND 07-17. Three mornings as the standing call with no visible close → today's decide is to force resolution (send or delete), not manufacture a new one.",
+        "variant": "caption"
+      }
+    },
+    "source_intel": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_intel_head",
+        "source_intel_body"
+      ]
+    },
+    "source_intel_head": {
+      "type": "Heading",
+      "props": {
+        "text": "Category intel",
+        "level": "h3"
+      }
+    },
+    "source_intel_body": {
+      "type": "Text",
+      "props": {
+        "text": "sim-watch-2026-07-12 (6d, aging — MiroFish-lineage threat + Polisim director-mode overlap). idea-forge last dated 07-08 (>7d, skipped).",
+        "variant": "caption"
+      }
+    }
+  }
+}
