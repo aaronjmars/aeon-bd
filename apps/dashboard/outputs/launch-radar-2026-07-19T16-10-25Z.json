@@ -1,0 +1,328 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "launch radar",
+        "description": "2026-07-19"
+      },
+      "children": [
+        "summary_section",
+        "separator_1",
+        "wide_open_section",
+        "separator_2",
+        "prior_art_section"
+      ]
+    },
+    "summary_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary_text"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "15 ideas scanned. 0 active competition. 5 still wide open.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "wide_open_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "wide_open_heading",
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5"
+      ]
+    },
+    "wide_open_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Still wide open",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_1_title",
+        "item_1_desc"
+      ]
+    },
+    "item_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "harness-not-model",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "nobody ships a weekly raw-vs-harnessed trace series on a pinned model. Zot and Browser Harness landed in the window but they're coding harnesses, not the comparison receipt.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_2_title",
+        "item_2_desc"
+      ]
+    },
+    "item_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "sim-audit",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "the robustness audit critique (arxiv 2605.18890) has no product answer. miroshark ships the boundary receipt; MiroFish doesn't.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_3_title",
+        "item_3_desc"
+      ]
+    },
+    "item_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "model-mirror",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "\"the model picks the society\" (Emergence World) and nobody productizes the pick. pure miroshark dogfood, 10-min grounded run.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_4_title",
+        "item_4_desc"
+      ]
+    },
+    "item_4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "arena-oracle",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Meta Arena mass-produces PM questions, forecasting agents trade them; nobody presims belief-drift before the crowd prices. lane is empty.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_5_title",
+        "item_5_desc"
+      ]
+    },
+    "item_5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "compute-price-sim",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-race Polymarket markets live ($1.1M/24h \"best model\"). nobody forward-sims the narrative drift before traders size the bet.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "prior_art_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prior_art_heading",
+        "prior_art_items"
+      ]
+    },
+    "prior_art_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior art (exists, no breakout)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "prior_art_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5",
+        "badge_6",
+        "badge_7",
+        "badge_8",
+        "badge_9",
+        "badge_10"
+      ]
+    },
+    "badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "miroshark-social-world-model",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "proof-of-self-repair",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_3": {
+      "type": "Badge",
+      "props": {
+        "text": "reward-hack-receipt",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_4": {
+      "type": "Badge",
+      "props": {
+        "text": "counterfactual-launch-sim",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_5": {
+      "type": "Badge",
+      "props": {
+        "text": "conway-claim",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_6": {
+      "type": "Badge",
+      "props": {
+        "text": "swarm-eval",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_7": {
+      "type": "Badge",
+      "props": {
+        "text": "ambient-aeon",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_8": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-attest",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_9": {
+      "type": "Badge",
+      "props": {
+        "text": "cloudflare-skill-shop",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_10": {
+      "type": "Badge",
+      "props": {
+        "text": "arena-pack",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
