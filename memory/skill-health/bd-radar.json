@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-18T08:13:24Z",
+  "last_analyzed": "2026-07-19T07:55:37Z",
   "quality_score": 4,
-  "assessment": "Substantive sweep with specific, actionable lead (sparkleware registry) and clear context on why they matter; well-sourced across multiple channels, properly tracked, but 1 lead is solid execution rather than breakthrough volume",
+  "assessment": "Substantive lead discovery with correct filtering; honest no-op (quiet Sunday, no high-intent leads); well-structured output, proper decision rules applied.",
   "flags": [],
   "avg_score": 4.1,
   "history": [
-    {
-      "date": "2026-06-18",
-      "score": 4
-    },
     {
       "date": "2026-06-19",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-18",
+      "score": 4
+    },
+    {
+      "date": "2026-07-19",
       "score": 4
     }
   ]
