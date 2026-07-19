@@ -1,0 +1,234 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-07-19"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-state",
+        "sep-1",
+        "section-talk",
+        "sep-2",
+        "section-decide"
+      ]
+    },
+    "section-state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "metric-forks",
+        "metric-miroshark",
+        "metric-aeon"
+      ]
+    },
+    "metric-forks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-forks",
+        "text-forks-breakdown"
+      ]
+    },
+    "stat-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Combined forks",
+        "value": "500"
+      }
+    },
+    "text-forks-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "aeon 208 + miroshark 292 — the line we've been 2 short of all week",
+        "variant": "caption"
+      }
+    },
+    "metric-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-miroshark",
+        "text-miroshark-status"
+      ]
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark stars",
+        "value": "1379",
+        "delta": "+11",
+        "trend": "up"
+      }
+    },
+    "text-miroshark-status": {
+      "type": "Text",
+      "props": {
+        "text": "no push since 07-16 (~2.5d) — cooling, not stalled",
+        "variant": "caption"
+      }
+    },
+    "metric-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header-aeon",
+        "text-aeon-status"
+      ]
+    },
+    "header-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-aeon",
+        "badge-aeon-active"
+      ]
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon stars",
+        "value": "577"
+      }
+    },
+    "badge-aeon-active": {
+      "type": "Badge",
+      "props": {
+        "text": "active",
+        "variant": "default"
+      }
+    },
+    "text-aeon-status": {
+      "type": "Text",
+      "props": {
+        "text": "pushed yesterday",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-talk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-talk",
+        "content-talk"
+      ]
+    },
+    "heading-talk": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h3"
+      }
+    },
+    "content-talk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-sparkleware-name",
+        "text-sparkleware-bio",
+        "text-sparkleware-move"
+      ]
+    },
+    "text-sparkleware-name": {
+      "type": "Text",
+      "props": {
+        "text": "sparkleware (@sparklewarefun)",
+        "variant": "lead"
+      }
+    },
+    "text-sparkleware-bio": {
+      "type": "Text",
+      "props": {
+        "text": "Built the live, daily-refreshing discovery + one-click-install registry for aeon skill packs. 13 repos deep in the ecosystem — our most prolific third-party builder.",
+        "variant": "body"
+      }
+    },
+    "text-sparkleware-move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: DM today, offer to make it the official Atrium discovery layer + co-post the install flow",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-decide": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-decide",
+        "alert-dm-sparkleware",
+        "alert-kill-orlix"
+      ]
+    },
+    "heading-decide": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h3"
+      }
+    },
+    "alert-dm-sparkleware": {
+      "type": "Alert",
+      "props": {
+        "title": "DM sparkleware",
+        "message": "It's the compounding play — a working registry is what pulls the next 100 builders in, and that's the fork line moving",
+        "type": "success"
+      }
+    },
+    "alert-kill-orlix": {
+      "type": "Alert",
+      "props": {
+        "title": "Kill the Orlix loop",
+        "message": "4 mornings deciding it means it's dead. Drop it from the queue",
+        "type": "warning"
+      }
+    }
+  }
+}
