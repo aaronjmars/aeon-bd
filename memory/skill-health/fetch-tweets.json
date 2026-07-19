@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-18T17:09:29Z",
+  "last_analyzed": "2026-07-19T17:18:14Z",
   "quality_score": 4,
-  "assessment": "Substantive fetch with clear fallback logic, specific data (dates, handles, product context), dedup confirmation, and honest status reporting. Well-suited for the GTM/BD audience.",
+  "assessment": "Good — skill fetched 4 relevant tweets with quantified signal scores, categorized by cluster, updated tracking state, and completed the task with clear structure and actionable results.",
   "flags": [],
   "avg_score": 3.9,
   "history": [
-    {
-      "date": "2026-06-19",
-      "score": 4
-    },
     {
       "date": "2026-06-20",
       "score": 3
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-18",
+      "score": 4
+    },
+    {
+      "date": "2026-07-19",
       "score": 4
     }
   ]

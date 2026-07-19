@@ -1,0 +1,217 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + MiroShark"
+      },
+      "children": [
+        "header-date",
+        "summary",
+        "sep1",
+        "section-aeon-title",
+        "tweet-1-container",
+        "sep2",
+        "section-miroshark-title",
+        "tweet-2-container",
+        "tweet-3-container",
+        "sep3",
+        "section-token-title",
+        "tweet-4-container"
+      ]
+    },
+    "header-date": {
+      "type": "Text",
+      "props": {
+        "text": "Top Tweets — Aeon + MiroShark (2026-07-19)",
+        "variant": "lead"
+      }
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "Minitor launch from the team and two MiroShark third-party discoveries lead the day — genuine builder signal on both products, community conviction loud but thin by numbers.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-aeon-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon product launch",
+        "level": "h3"
+      }
+    },
+    "tweet-1-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "metrics-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "Announced \"minitor\": an agent-built monitoring dashboard with 40+ platform integrations and in-dashboard workflow triggers. Weekend reveal paired with a GitHub link thread.",
+        "likes": 34,
+        "retweets": 4
+      }
+    },
+    "metrics-1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2078401909233234120"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-miroshark-title": {
+      "type": "Heading",
+      "props": {
+        "text": "MiroShark organic discovery",
+        "level": "h3"
+      }
+    },
+    "tweet-2-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-2",
+        "metrics-2",
+        "link-2"
+      ]
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "tom_doerr",
+        "handle": "@tom_doerr",
+        "text": "Organic share of MiroShark with a clean one-liner: \"hundreds of autonomous agents that debate, trade, and change their minds based on input events\" — no hype, just the mechanism. This one travels.",
+        "likes": 34,
+        "retweets": 5
+      }
+    },
+    "metrics-2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/tom_doerr/status/2078434875820978309"
+      }
+    },
+    "tweet-3-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-3",
+        "metrics-3",
+        "link-3"
+      ]
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "TeksCreate",
+        "handle": "@TeksCreate",
+        "text": "First comprehensive feature breakdown: Director Mode, Counterfactual Branching, per-agent MCP tools, article gen — frames MiroShark as a full production sim stack, not a demo. Only 1 reply but the most complete external write-up yet.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "metrics-3": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/TeksCreate/status/2078438363439267848"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-token-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token conviction",
+        "level": "h3"
+      }
+    },
+    "tweet-4-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-4",
+        "metrics-4",
+        "link-4"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thosmur",
+        "handle": "@thosmur",
+        "text": "\"Not selling a cent of $aeon until it hits ATLEAST a 10x, believe in @aaronjmars and @aeonframework\" — holder names the team alongside the ticker in the same breath; 4 replies suggest discussion.",
+        "likes": 9,
+        "retweets": 0
+      }
+    },
+    "metrics-4": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thosmur/status/2078609187828023690"
+      }
+    }
+  }
+}
