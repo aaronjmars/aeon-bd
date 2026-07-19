@@ -1,0 +1,416 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-19"
+      },
+      "children": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5"
+      ]
+    },
+    "item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h1_1",
+        "context_1",
+        "meta_1",
+        "link_1",
+        "draft_1",
+        "sep_1"
+      ]
+    },
+    "h1_1": {
+      "type": "Heading",
+      "props": {
+        "text": "@sparklewarefun",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_1": {
+      "type": "Text",
+      "props": {
+        "text": "sparkleware registry live: 13 ecosystem repos, daily auto-refresh, friction-zero install flow; war-room primary directive today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "meta_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time_1",
+        "type_1"
+      ]
+    },
+    "time_1": {
+      "type": "Text",
+      "props": {
+        "text": "1 day ago",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "type_1": {
+      "type": "Badge",
+      "props": {
+        "text": "X DM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/sparkleware/sparkleware",
+        "href": "https://github.com/sparkleware/sparkleware"
+      },
+      "children": []
+    },
+    "draft_1": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: the discovery catalog is the best third-party build in the ecosystem. 13 repos, daily auto-refresh, zero friction — it's already pulling builders in. want to formalize it as the official Atrium discovery layer + co-post the install flow? that's the compounding play ⭐",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h2_2",
+        "context_2",
+        "meta_2",
+        "link_2",
+        "draft_2",
+        "sep_2"
+      ]
+    },
+    "h2_2": {
+      "type": "Heading",
+      "props": {
+        "text": "StevenWang-CY",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_2": {
+      "type": "Text",
+      "props": {
+        "text": "Penn CS student built civic swarm sim for NJ-11 election, 47k lines; exact MiroShark use-case",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "meta_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time_2",
+        "type_2"
+      ]
+    },
+    "time_2": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "type_2": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "link_2": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/StevenWang-CY/township",
+        "href": "https://github.com/StevenWang-CY/township"
+      },
+      "children": []
+    },
+    "draft_2": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: township is the exact use-case MiroShark was built for. hundreds of grounded agents arguing on X + Reddit + trading a simulated AMM, belief drift across rounds, director mode to inject breaking events mid-sim — runs for ~$1 in under 10 min 🦈 would love to see what a MiroShark-powered NJ-11 sim looks like if you want to run it",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h3_3",
+        "context_3",
+        "meta_3",
+        "link_3",
+        "draft_3",
+        "sep_3"
+      ]
+    },
+    "h3_3": {
+      "type": "Heading",
+      "props": {
+        "text": "Artiffusion-Inc",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_3": {
+      "type": "Text",
+      "props": {
+        "text": "org building self-hosted MiroFish+Neo4j (same graph stack as MiroShark), pushed today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "meta_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time_3",
+        "type_3"
+      ]
+    },
+    "time_3": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "type_3": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "link_3": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/Artiffusion-Inc/mirofish",
+        "href": "https://github.com/Artiffusion-Inc/mirofish"
+      },
+      "children": []
+    },
+    "draft_3": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: saw you're building with MiroFish + Neo4j — that's exactly the MiroShark stack, except it's already in production and running for ~$1 per sim. bilingual EN/中文, belief drift, director mode, x402-native. if you want the production-ready version instead of rebuilding from scratch worth a conversation 🦈",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h4_4",
+        "context_4",
+        "meta_4",
+        "note_4",
+        "draft_4",
+        "sep_4"
+      ]
+    },
+    "h4_4": {
+      "type": "Heading",
+      "props": {
+        "text": "@Base_Insights",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_4": {
+      "type": "Text",
+      "props": {
+        "text": "22K account, listed @miroshark_ in Base Early tier on 07-15",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "meta_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time_4",
+        "type_4"
+      ]
+    },
+    "time_4": {
+      "type": "Text",
+      "props": {
+        "text": "2 days ago",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "type_4": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "note_4": {
+      "type": "Text",
+      "props": {
+        "text": "no link found",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "draft_4": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: appreciate the Base Early spot — @miroshark_ is live and cooking 🦈 universal swarm sim, hundreds of grounded agents, ~$1 per run. more coming",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h5_5",
+        "context_5",
+        "meta_5",
+        "link_5",
+        "draft_5"
+      ]
+    },
+    "h5_5": {
+      "type": "Heading",
+      "props": {
+        "text": "@DegenOnBase_",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_5": {
+      "type": "Text",
+      "props": {
+        "text": "\"hidden gem on Base\" full-stack breakdown, 47♥/6RT/12 replies",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "meta_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time_5",
+        "type_5"
+      ]
+    },
+    "time_5": {
+      "type": "Text",
+      "props": {
+        "text": "2 days ago",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "type_5": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "link_5": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/DegenOnBase_/status/2077444080083296601",
+        "href": "https://x.com/DegenOnBase_/status/2077444080083296601"
+      },
+      "children": []
+    },
+    "draft_5": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: the breakdown is accurate. self-repair is the moat, cron is trivial — few realized early. more coming ⭐🦈",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
