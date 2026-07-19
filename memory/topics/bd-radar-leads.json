@@ -1,75 +1,6 @@
 {
   "leads": [
     {
-      "key": "github:logbookbase/aeon-logbook",
-      "class": "building",
-      "who": "logbookbase",
-      "handle": "logbookbase",
-      "signal": "logbookbase graduated from watch-only aeon fork to shipping a dedicated aeon skill: logbook skill for AEON - signed, verifiable receipts for agent actions. JS, 1 star, created 06-19.",
-      "fit": 3,
-      "score": 15,
-      "first_seen": "2026-07-13",
-      "repo_updated": "2026-06-19",
-      "source": "gh_search_repos",
-      "move": "DM logbookbase on GH: you graduated from fork to skill - ECOSYSTEM.md entry + TG invite"
-    },
-    {
-      "key": "github:AI-Risk-Management/aeon-cli",
-      "class": "building",
-      "who": "AI-Risk-Management / AeonBrain",
-      "handle": "AI-Risk-Management",
-      "signal": "Same org as aeon-skill-schema (ed25519 signed skill wire format). Now shipped aeon-cli: turn your team docs into signed, executable skills any AI agent can run. TypeScript, 1 star, created 06-14. Two-product signed-skill toolchain on aeon.",
-      "fit": 3,
-      "score": 15,
-      "first_seen": "2026-07-13",
-      "known": true,
-      "repo_updated": "2026-06-14",
-      "source": "gh_search_repos",
-      "move": "DM AI-Risk-Management on GH: aeon-cli is live - what is AeonBrain rollout plan? TG invite + co-post the signed-skill stack"
-    },
-    {
-      "key": "github:codexvritra/signa-coordinate-skills",
-      "class": "building",
-      "who": "Signa (codexvritra)",
-      "handle": "codexvritra",
-      "signal": "Multi-agent coordination skills for Aeon - broadcast + delegate across the SIGNA network. Signa 3rd distinct aeon skill repo (alongside signa-aeon-skills + signa-miroshark-skills). Full agent-comms suite. 1 star, created 05-26.",
-      "fit": 3,
-      "score": 15,
-      "first_seen": "2026-07-13",
-      "known": true,
-      "repo_updated": "2026-05-26",
-      "source": "gh_search_repos",
-      "move": "Already in ecosystem - spotlight signa-coordinate-skills as the coordination layer; 3-repo aeon skill suite now complete"
-    },
-    {
-      "key": "github:Atrium-Hermes/aeon-atrium-skills",
-      "class": "building",
-      "who": "Atrium",
-      "handle": "Atrium-Hermes",
-      "signal": "Known builder (Atrium-Hermes/aeon fork surfaced 06-18, 2d active). Now shipped aeon-atrium-skills (no description yet). Created 06-01, pushed 06-03. 0 stars. Escalating from fork operator to skill builder.",
-      "fit": 2,
-      "score": 10,
-      "first_seen": "2026-07-13",
-      "known": true,
-      "repo_updated": "2026-06-03",
-      "source": "gh_search_repos",
-      "move": "Ask in ecosystem comms what skills they shipped - push them to add a description"
-    },
-    {
-      "key": "x:clawhuntersol",
-      "class": "building",
-      "who": "Claw Hunter",
-      "handle": "@clawhuntersol",
-      "signal": "X post 07-12: More agents using Claw Hunter Skills daily, sits front row on @aeonframework, hundreds of agents hitting their API in the past week. 12 likes/2 RT, 291 views. clawhunter-skills repo was surfaced; this confirms API-scale traction.",
-      "fit": 2,
-      "score": 10,
-      "first_seen": "2026-07-13",
-      "known": true,
-      "link": "https://x.com/clawhuntersol/status/2076452292501405751",
-      "source": "xai_x",
-      "move": "Reply to @clawhuntersol thread: front row on the framework + DM: flag for ECOSYSTEM.md spotlight given agent adoption numbers"
-    },
-    {
       "key": "github:saxoji/MiroShark",
       "class": "forking",
       "who": "saxoji",
@@ -2496,6 +2427,71 @@
       "repo_updated": "2026-07-18",
       "source": "gh_search_repos",
       "move": "DM @sparklewarefun - registry is live and daily-refreshing; talk about formalizing as official Atrium discovery layer and co-posting the one-click-install flow"
+    },
+    {
+      "key": "github:StevenWang-CY/township",
+      "class": "adjacent",
+      "who": "Steven Wang (StevenWang-CY)",
+      "handle": "StevenWang-CY",
+      "signal": "CS+Math @ Penn 29 building civic swarm intelligence engine for NJ-11 special election. 47k-line project, 2 stars, pushed 05-30. Adjacent to MiroShark use-case.",
+      "fit": 3,
+      "score": 3,
+      "first_seen": "2026-07-19",
+      "repo_updated": "2026-05-30",
+      "source": "gh_search_repos",
+      "move": "Reach out on GH: civic sim for elections is the exact MiroShark use-case"
+    },
+    {
+      "key": "github:Artiffusion-Inc/mirofish",
+      "class": "adjacent",
+      "who": "Artiffusion-Inc",
+      "handle": "Artiffusion-Inc",
+      "signal": "Org building self-hosted MiroFish with Graphiti+Neo4j. Same graph backend as MiroShark, pushed 07-19. Custom code not raw clone.",
+      "fit": 2,
+      "score": 2,
+      "first_seen": "2026-07-19",
+      "repo_updated": "2026-07-19",
+      "source": "gh_search_repos",
+      "move": "DM on GH: same Neo4j graph stack - MiroShark is the production-ready upgrade from MiroFish"
+    },
+    {
+      "key": "github:MukundaKatta/swarmcast",
+      "class": "adjacent",
+      "who": "Mukunda Katta",
+      "handle": "MukundaKatta",
+      "signal": "Anthropic-certified ML engineer building Universal Swarm Intelligence Engine. Mirrors MiroShark tagline. 1396 public repos. Repo stub 49 bytes, early stage.",
+      "fit": 2,
+      "score": 2,
+      "first_seen": "2026-07-19",
+      "repo_updated": "2026-06-27",
+      "source": "gh_search_repos",
+      "move": "Watch - if swarmcast grows, DM with MiroShark context before they reinvent the wheel"
+    },
+    {
+      "key": "x:niuniusad",
+      "class": "mentioning",
+      "who": "niuniusad",
+      "handle": "niuniusad",
+      "signal": "Unprompted community mention of @aeonframework in chain post. 313 views, 1 reply. Not a builder.",
+      "fit": 1,
+      "score": 2,
+      "first_seen": "2026-07-19",
+      "source": "x_search",
+      "link": "https://x.com/niuniusad/status/2078438948154810454",
+      "move": "No action - organic sentiment"
+    },
+    {
+      "key": "x:BasmerW3",
+      "class": "mentioning",
+      "who": "BasmerW3",
+      "handle": "BasmerW3",
+      "signal": "Vague ecosystem growth mention, 0 likes, 1 view. Web3/AI creator. Very weak.",
+      "fit": 1,
+      "score": 1,
+      "first_seen": "2026-07-19",
+      "source": "x_search",
+      "link": "https://x.com/BasmerW3/status/2078490001545818176",
+      "move": "Skip - no actionable signal"
     }
   ],
   "surfaced": [
@@ -2761,6 +2757,11 @@
     "github:jmthomasofficial/noesis-aeon",
     "x:SpaceTimeViking",
     "github:MiroShark/MiroShark",
-    "github:sparkleware/sparkleware"
+    "github:sparkleware/sparkleware",
+    "github:StevenWang-CY/township",
+    "github:Artiffusion-Inc/mirofish",
+    "github:MukundaKatta/swarmcast",
+    "x:niuniusad",
+    "x:BasmerW3"
   ]
 }
