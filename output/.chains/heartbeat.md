@@ -1,12 +1,9 @@
-All clear. `docs/status.md` updated and log entry appended.
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-**HEARTBEAT_OK · STATUS_PAGE=OK**
-
-Fleet is healthy — 10/10 enabled skills green, no open PRs, no open issues. `bd-radar` and `war-room` both ran successfully this morning. `engagement-act` is next at 09:30 UTC.
+All 10 enabled skills healthy, no open PRs or issues, no P3 misses. Updated `docs/status.md` to reflect today's runs (bd-radar and mention-radar both succeeded this morning). No notification sent — nothing needs attention.
 
 ## Summary
 
-- **P0/P1/P2/P3:** All clean. No failures, stuck skills, stalled PRs, or flagged memory items.
-- **docs/status.md** regenerated — 🟢 OK, 10 skills, next run: engagement-act 09:30 UTC.
-- **memory/logs/2026-07-19.md** — heartbeat entry appended under `### heartbeat` (mode: ambient).
-- No notification sent — nothing needs attention.
+- **docs/status.md** — regenerated with 2026-07-20 08:00 UTC timestamp, all 10 skills healthy, next run: shiplog at 09:00 UTC
+- **memory/logs/2026-07-20.md** — appended `### heartbeat` entry (mode: ambient, all tiers clean, STATUS_PAGE=OK)
+- No notification (clean run)
