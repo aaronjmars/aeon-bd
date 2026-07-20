@@ -1,0 +1,493 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "War Room — 2026-07-20",
+        "description": "Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar"
+      },
+      "children": [
+        "tags_section",
+        "sep1",
+        "state_section",
+        "sep2",
+        "talkto_section",
+        "sep3",
+        "decide_section",
+        "sep4",
+        "appendix_section"
+      ]
+    },
+    "tags_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_warroom",
+        "badge_standup",
+        "badge_ecosystem"
+      ]
+    },
+    "badge_warroom": {
+      "type": "Badge",
+      "props": {
+        "text": "war-room"
+      }
+    },
+    "badge_standup": {
+      "type": "Badge",
+      "props": {
+        "text": "standup"
+      }
+    },
+    "badge_ecosystem": {
+      "type": "Badge",
+      "props": {
+        "text": "ecosystem"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "state_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_state",
+        "state_miroshark",
+        "state_aeon",
+        "state_forks",
+        "state_summary"
+      ]
+    },
+    "heading_state": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "state_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_miroshark_stars",
+        "text_miroshark_detail"
+      ]
+    },
+    "stat_miroshark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "MiroShark Stars",
+        "value": "1394",
+        "delta": "+15",
+        "trend": "up"
+      }
+    },
+    "text_miroshark_detail": {
+      "type": "Text",
+      "props": {
+        "text": "4th quiet day (zero recent pushes). Pure organic discovery — demand outrunning ships.",
+        "variant": "caption"
+      }
+    },
+    "state_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_aeon_stars",
+        "text_aeon_detail"
+      ]
+    },
+    "stat_aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars",
+        "value": "577",
+        "delta": "flat",
+        "trend": "neutral"
+      }
+    },
+    "text_aeon_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed 2026-07-18, active.",
+        "variant": "caption"
+      }
+    },
+    "state_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Combined Forks (Aeon + MiroShark)",
+        "value": "504",
+        "delta": "+4",
+        "trend": "up"
+      }
+    },
+    "state_summary": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ Both green",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "talkto_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_talkto",
+        "lead_1_svector",
+        "lead_2_swarm"
+      ]
+    },
+    "heading_talkto": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "lead_1_svector": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_1_title",
+        "lead_1_priority",
+        "lead_1_desc_1",
+        "lead_1_desc_2",
+        "lead_1_link",
+        "lead_1_action"
+      ]
+    },
+    "lead_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "@svector_eth",
+        "level": "h3"
+      }
+    },
+    "lead_1_priority": {
+      "type": "Badge",
+      "props": {
+        "text": "★15 — Highest Priority",
+        "variant": "default"
+      }
+    },
+    "lead_1_desc_1": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped an Aeon fork on the Grok harness end-to-end (~1s TG replies via own Cloudflare Worker). @grok official account cosigned: \"exactly how it should be done.\"",
+        "variant": "body"
+      }
+    },
+    "lead_1_desc_2": {
+      "type": "Text",
+      "props": {
+        "text": "First non-Claude Aeon in the wild — validates harness-agnostic design. DevEx engineer building @tryskopos, 14+ continuous days of commits.",
+        "variant": "body"
+      }
+    },
+    "lead_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Svector-anu/svectors-lab",
+        "href": "https://github.com/Svector-anu/svectors-lab",
+        "source": "GitHub"
+      }
+    },
+    "lead_1_action": {
+      "type": "Text",
+      "props": {
+        "text": "Move: DM today, pull into community, ask what they need.",
+        "variant": "caption"
+      }
+    },
+    "lead_2_swarm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_2_title",
+        "lead_2_priority",
+        "lead_2_desc_1",
+        "lead_2_desc_2",
+        "lead_2_link",
+        "lead_2_action"
+      ]
+    },
+    "lead_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "swarm-ai-research",
+        "level": "h3"
+      }
+    },
+    "lead_2_priority": {
+      "type": "Badge",
+      "props": {
+        "text": "★15 — Runner-up",
+        "variant": "secondary"
+      }
+    },
+    "lead_2_desc_1": {
+      "type": "Text",
+      "props": {
+        "text": "Running Aeon AND MiroShark operationally. Built aeon-atlas (ecosystem map), swarm, agency-os. Pushed sanitized aeon snapshot today.",
+        "variant": "body"
+      }
+    },
+    "lead_2_desc_2": {
+      "type": "Text",
+      "props": {
+        "text": "Research org (swarm-ai.org, 10+ repos).",
+        "variant": "body"
+      }
+    },
+    "lead_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "swarm-ai-research/aeon",
+        "href": "https://github.com/swarm-ai-research/aeon",
+        "source": "GitHub"
+      }
+    },
+    "lead_2_action": {
+      "type": "Text",
+      "props": {
+        "text": "Move: GH DM, offer support + ECOSYSTEM.md listing.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "decide_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_decide",
+        "decide_copy",
+        "decide_reasoning",
+        "decide_action"
+      ]
+    },
+    "heading_decide": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "decide_copy": {
+      "type": "Text",
+      "props": {
+        "text": "The post, not just the DM.",
+        "variant": "lead"
+      }
+    },
+    "decide_reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "\"Someone ran Aeon on Grok — @grok cosigned\" is harness-is-the-model proof that travels.",
+        "variant": "body"
+      }
+    },
+    "decide_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "Co-post svector's setup today while it's warm. DM in the same beat.",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "appendix_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_appendix",
+        "appendix_state_block",
+        "appendix_leads_block",
+        "appendix_decide_block",
+        "appendix_category_block",
+        "appendix_prior_block"
+      ]
+    },
+    "heading_appendix": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      }
+    },
+    "appendix_state_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "appendix_state_title",
+        "appendix_state_text"
+      ]
+    },
+    "appendix_state_title": {
+      "type": "Heading",
+      "props": {
+        "text": "STATE",
+        "level": "h3"
+      }
+    },
+    "appendix_state_text": {
+      "type": "Text",
+      "props": {
+        "text": "Live gh api read (2026-07-20): aaronjmars/aeon → aeonfun/aeon 577⭐ / 209 forks, pushed 2026-07-18T16:21Z, release v0.1.0 (07-09). aaronjmars/MiroShark 1394⭐ / 295 forks, pushed 2026-07-16T20:53Z, no release. Deltas vs 07-19 brief: aeon 577★ flat, forks 208→209 (+1); miroshark 1379→1394 (+15★), forks 292→295 (+3), still no push since 07-16 (~4 days). Both pushed <2wk → no stall. The read: miroshark stars climbing on pure organic discovery while the repo's gone quiet 4 days — demand outrunning ships. Combined forks 504 (209 + 295), cleanly past the 500 line hit 07-19.",
+        "variant": "caption"
+      }
+    },
+    "appendix_leads_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "appendix_leads_title",
+        "appendix_leads_source",
+        "appendix_leads_text"
+      ]
+    },
+    "appendix_leads_title": {
+      "type": "Heading",
+      "props": {
+        "text": "TALK TO / LEADS",
+        "level": "h3"
+      }
+    },
+    "appendix_leads_source": {
+      "type": "Link",
+      "props": {
+        "label": "Full radar: bd-radar-2026-07-20",
+        "href": "bd-radar-2026-07-20.md"
+      }
+    },
+    "appendix_leads_text": {
+      "type": "Text",
+      "props": {
+        "text": "5 net-new (2 building · 2 forking · 1 mentioning). Top: @svector_eth/Svector-anu/svectors-lab (★15) — wired an Aeon fork onto the Grok harness end-to-end, ~1s Telegram replies via self-deployed Cloudflare Worker; @grok's official account replied \"exactly how it should be done.\" 14+ continuous days of commits, devex eng building @tryskopos. First known non-Claude Aeon deployment in the wild → validates harness-agnostic design + carries public cosign. Runner-up: swarm-ai-research/aeon (★15) — research org (swarm-ai.org, 10 repos) running Aeon AND MiroShark operationally, built aeon-atlas (ecosystem map), swarm, agency-os; pushed sanitized aeon snapshot today → GH DM, offer support + ECOSYSTEM.md listing.",
+        "variant": "caption"
+      }
+    },
+    "appendix_decide_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "appendix_decide_title",
+        "appendix_decide_text"
+      ]
+    },
+    "appendix_decide_title": {
+      "type": "Heading",
+      "props": {
+        "text": "DECIDE",
+        "level": "h3"
+      }
+    },
+    "appendix_decide_text": {
+      "type": "Text",
+      "props": {
+        "text": "svector_eth is highest-leverage because it's not just a lead, it's a post: Aeon running on Grok with @grok's own account cosigning is copy-paste proof of \"the harness is the model / harness-agnostic,\" and it travels on X. Convert the DM into a co-post while the @grok reply is warm. Compounds reach (stars) + engages the builder (ecosystem) in one move.",
+        "variant": "caption"
+      }
+    },
+    "appendix_category_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "appendix_category_title",
+        "appendix_category_text"
+      ]
+    },
+    "appendix_category_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Category Intel",
+        "level": "h3"
+      }
+    },
+    "appendix_category_text": {
+      "type": "Text",
+      "props": {
+        "text": "sim-watch last dated 07-12 (>7d, aging — MiroFish-lineage threat noted; a fresh kain205/mirofish-vn-lab fork today is in that lineage, watch). idea-forge last 06-24 (stale, skipped).",
+        "variant": "caption"
+      }
+    },
+    "appendix_prior_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "appendix_prior_title",
+        "appendix_prior_text"
+      ]
+    },
+    "appendix_prior_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Loop",
+        "level": "h3"
+      }
+    },
+    "appendix_prior_text": {
+      "type": "Text",
+      "props": {
+        "text": "sparkleware (07-19 decide) and Orlix (killed 07-19) not re-surfaced; today's leads are net-new.",
+        "variant": "caption"
+      }
+    }
+  }
+}

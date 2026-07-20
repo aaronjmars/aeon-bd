@@ -1,15 +1,11 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-19T07:51:41Z",
+  "last_analyzed": "2026-07-20T08:32:38Z",
   "quality_score": 4,
-  "assessment": "Substantive standup with hard metrics (forks 500+, star deltas, momentum), high-signal BD opportunity (sparkleware identified as net-new builder), and clear tactical decision (DM sparkleware, retire Orlix loop after exhaustion pattern). Well-executed end-to-end with proper logging and notification delivery.",
+  "assessment": "Substantive daily standup—pulled live product state, surfaced specific lead (svector_eth/Grok), synthesized actionable timing decision; output created and notified, but summary is truncated so full brief quality unverified.",
   "flags": [],
-  "avg_score": 4.03,
+  "avg_score": 4,
   "history": [
-    {
-      "date": "2026-06-19",
-      "score": 5
-    },
     {
       "date": "2026-06-20",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-19",
+      "score": 4
+    },
+    {
+      "date": "2026-07-20",
       "score": 4
     }
   ]
