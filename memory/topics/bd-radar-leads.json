@@ -1,83 +1,6 @@
 {
   "leads": [
     {
-      "key": "github:saxoji/MiroShark",
-      "class": "forking",
-      "who": "saxoji",
-      "handle": "saxoji",
-      "signal": "MiroShark fork created today 07-13, pushed 07-11. +391 bytes own content above base. Unknown vertical.",
-      "fit": 1,
-      "score": 4,
-      "first_seen": "2026-07-13",
-      "repo_updated": "2026-07-11",
-      "source": "gh_read_pat_forks",
-      "move": "Watch - ping if they push again or add a description"
-    },
-    {
-      "key": "github:paperclipai/companies",
-      "class": "building",
-      "who": "paperclipai (Aeon Intelligence company)",
-      "handle": "paperclipai",
-      "signal": "30K-star Paperclip AI ships Aeon Intelligence as canonical company template in companies/ dir with 32 Aeon skills. Aeon as platform-of-record for autonomous AI companies. Updated 07-12.",
-      "fit": 3,
-      "score": 15,
-      "first_seen": "2026-07-12",
-      "source": "gh_search_code",
-      "move": "DM paperclipai on GH: you shipped Aeon Intelligence as the canonical company template - co-announce, ECOSYSTEM.md entry, link from aeon.fun company docs"
-    },
-    {
-      "key": "github:sparkleware/proof-of-loadout",
-      "class": "building",
-      "who": "sparkleware (known builder)",
-      "handle": "sparkleware",
-      "signal": "New cross-product skill: compose Aeon loadout + route USDC packs via Phylax audit + preflight MiroShark market sim. Agents pay for their own compute. Pushed 07-09. 10th standalone skill from sparkleware. Aeon+MiroShark+Phylax in one.",
-      "fit": 3,
-      "score": 15,
-      "first_seen": "2026-07-12",
-      "known": true,
-      "source": "gh_search_repos",
-      "move": "Already in TG - spotlight proof-of-loadout as canonical Aeon x MiroShark x Phylax integration example"
-    },
-    {
-      "key": "github:AntFleet/bench-miroshark",
-      "class": "building",
-      "who": "AntFleet (known builder)",
-      "handle": "AntFleet",
-      "signal": "Known cross-product builder (paid PR-review skill + aeon-skills org). New repo bench-miroshark - two-model security review methodology applied to MiroShark. Pushed 07-11. 21-repo org active on both products.",
-      "fit": 3,
-      "score": 15,
-      "first_seen": "2026-07-12",
-      "known": true,
-      "source": "gh_search_repos",
-      "move": "DM AntFleet on GH: bench-miroshark is live - what models? what did you find? TG invite + ECOSYSTEM.md update"
-    },
-    {
-      "key": "web:jetbrains-aeon-2026",
-      "class": "mentioning",
-      "who": "JetBrains (PyCharm Blog)",
-      "handle": "jetbrains",
-      "signal": "JetBrains PyCharm blog June 2026 Top Agentic Frameworks for Building Applications 2026 - Aeon listed. Millions of pro devs as distribution surface.",
-      "fit": 3,
-      "score": 6,
-      "first_seen": "2026-07-12",
-      "source": "websearch",
-      "link": "https://blog.jetbrains.com/pycharm/2026/06/top-agentic-frameworks-for-building-applications-2026/",
-      "move": "Quote/reply the JetBrains post from @aeonframework - direct hit to pro developer audience"
-    },
-    {
-      "key": "github:xalil05/ProjecSen",
-      "class": "forking",
-      "who": "xalil05 (ProjecSen)",
-      "handle": "xalil05",
-      "signal": "Named MiroShark fork: ProjecSen - Fork francais de MiroShark. First French-language MiroShark adaptation. Pushed 07-11.",
-      "fit": 1,
-      "score": 4,
-      "first_seen": "2026-07-12",
-      "repo_updated": "2026-07-11",
-      "source": "gh_search_repos",
-      "move": "Watch - if they push again or add docs, DM in French"
-    },
-    {
       "key": "x:sparklewarefun",
       "class": "building",
       "who": "sparklewarefun (@sparklewarefun)",
@@ -2492,6 +2415,60 @@
       "source": "x_search",
       "link": "https://x.com/BasmerW3/status/2078490001545818176",
       "move": "Skip - no actionable signal"
+    },
+    {
+      "key": "x:svector_eth",
+      "cls": "building",
+      "score": 15,
+      "who": "@svector_eth / Svector-anu/svectors-lab",
+      "signal": "Wired Aeon fork onto Grok harness, ~1s TG via Cloudflare Worker. @grok replied positively. 14+ days continuous commits.",
+      "source": "x",
+      "date": "2026-07-20"
+    },
+    {
+      "key": "github:Svector-anu/svectors-lab",
+      "cls": "building",
+      "score": 15,
+      "who": "Svector-anu (svector_eth, svector.xyz, @tryskopos)",
+      "signal": "Aeon fork renamed svectors-lab, size 38903, confirmed on Grok harness.",
+      "source": "github",
+      "date": "2026-07-20"
+    },
+    {
+      "key": "github:swarm-ai-research/aeon",
+      "cls": "building",
+      "score": 15,
+      "who": "swarm-ai-research (swarm-ai.org, 10 repos)",
+      "signal": "Research org running Aeon+MiroShark operationally. Sanitized aeon snapshot pushed today. Has aeon-atlas, swarm 211KB, agency-os.",
+      "source": "github",
+      "date": "2026-07-20"
+    },
+    {
+      "key": "github:kain205/mirofish-vn-lab",
+      "cls": "forking",
+      "score": 6,
+      "who": "kain205 Nguyen Binh Thanh Vietnam 43 repos",
+      "signal": "MiroShark fork renamed mirofish-vn-lab, active lab context, pushed 07-19.",
+      "source": "github",
+      "date": "2026-07-20"
+    },
+    {
+      "key": "github:Sauken-69/aeon",
+      "cls": "forking",
+      "score": 2,
+      "who": "Sauken-69 sparse profile",
+      "signal": "New aeon fork 07-19, size 36157 +3KB own content.",
+      "source": "github",
+      "date": "2026-07-20"
+    },
+    {
+      "key": "x:Frankc426",
+      "cls": "mentioning",
+      "score": 1,
+      "who": "@Frankc426 Metacade Club member",
+      "signal": "Good to see @aeonframework on the list - 1 like, token holder.",
+      "source": "x",
+      "date": "2026-07-20"
     }
   ],
   "surfaced": [
@@ -2762,6 +2739,12 @@
     "github:Artiffusion-Inc/mirofish",
     "github:MukundaKatta/swarmcast",
     "x:niuniusad",
-    "x:BasmerW3"
+    "x:BasmerW3",
+    "x:svector_eth",
+    "github:Svector-anu/svectors-lab",
+    "github:swarm-ai-research/aeon",
+    "github:kain205/mirofish-vn-lab",
+    "github:Sauken-69/aeon",
+    "x:Frankc426"
   ]
 }
