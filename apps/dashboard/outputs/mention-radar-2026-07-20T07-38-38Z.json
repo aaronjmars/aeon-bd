@@ -1,0 +1,213 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-07-20"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-miroshark",
+        "stack-miroshark",
+        "text-miroshark-quiet",
+        "sep1",
+        "heading-aeon",
+        "stack-aeon",
+        "text-aeon-quiet",
+        "sep2",
+        "heading-engagement",
+        "stack-engagement"
+      ]
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-github",
+        "stat-stars",
+        "stat-forks",
+        "text-miroshark-context"
+      ]
+    },
+    "badge-github": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars (Today)",
+        "value": "1394",
+        "delta": "+15",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks (Today)",
+        "value": "295",
+        "delta": "+3",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-miroshark-context": {
+      "type": "Text",
+      "props": {
+        "text": "Biggest single-day jump this week. No commit since 07-16 — organic discovery driving the run, not a push.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-miroshark-quiet": {
+      "type": "Text",
+      "props": {
+        "text": "QUIET: no qualifying organic X or web mentions today (07-17/19 batch already actioned by engagement-act)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweetcard-aeon",
+        "link-aeon",
+        "badge-competitor",
+        "text-aeon-classification",
+        "text-aeon-quiet"
+      ]
+    },
+    "tweetcard-aeon": {
+      "type": "TweetCard",
+      "props": {
+        "author": "lord_proto",
+        "handle": "lord_proto",
+        "text": "Polsia rises 30M at a 250M valuation. $AEON is at 6M When Polsia is pretty much an application of the exact kind of agentic autonomy @aeonframework has been focusing on."
+      },
+      "children": []
+    },
+    "link-aeon": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/lord_proto/status/2057892462945763785"
+      },
+      "children": []
+    },
+    "badge-competitor": {
+      "type": "Badge",
+      "props": {
+        "text": "Competitor comparison",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-aeon-classification": {
+      "type": "Text",
+      "props": {
+        "text": "valuation gap, AI↔crypto repricing",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-aeon-quiet": {
+      "type": "Text",
+      "props": {
+        "text": "QUIET: aeon 577★ (flat); no new web/HN/Reddit mentions",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-engagement-target",
+        "alert-engagement"
+      ]
+    },
+    "text-engagement-target": {
+      "type": "Text",
+      "props": {
+        "text": "@lord_proto: opened the Polsia/aeon valuation gap in public — perfect entry for the AI↔crypto repricing thesis.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "alert-engagement": {
+      "type": "Alert",
+      "props": {
+        "title": "Suggested Action",
+        "message": "One reply, no hedging: \"the repricing is coming.\"",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
