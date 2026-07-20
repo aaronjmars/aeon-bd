@@ -1,36 +1,39 @@
-ℹ️ Engagement Act — 2026-07-19
+ℹ️ Engagement Act — 2026-07-20
 
-**Engagement Act — 2026-07-19**
+*Engagement Act — 2026-07-20*
 
-**1. @sparklewarefun** (1 day ago) — sparkleware/sparkleware registry live: 13 ecosystem repos, daily auto-refresh, friction-zero install flow; war-room primary directive today
-link: https://github.com/sparkleware/sparkleware
-type: X DM
-draft: "the discovery catalog is the best third-party build in the ecosystem. 13 repos, daily auto-refresh, zero friction — it's already pulling builders in. want to formalize it as the official Atrium discovery layer + co-post the install flow? that's the compounding play ⭐"
+*1. @svector_eth* (0 days ago) — built first Grok-harness Aeon deployment; @grok cosigned; 14d continuous commits
+link: https://github.com/Svector-anu/svectors-lab
+type: X post + X DM (war-room: post first, DM same beat)
+draft (post): "aeon runs on grok ⭐
+
+@svector_eth wired the first non-claude deployment — grok harness end-to-end, cloudflare worker, telegram in ~1s. @grok cosigned.
+
+the harness is the model."
+
+draft (DM): "been watching you ship non-stop on this for 14 days — what are you building exactly, and what do you need? want to bring you in properly"
 
 ---
 
-**2. StevenWang-CY** (0 days ago) — Penn CS student built civic swarm sim for NJ-11 election, 47k lines; exact MiroShark use-case
-link: https://github.com/StevenWang-CY/township
+*2. github:swarm-ai-research/aeon* (0 days ago) — org running both Aeon AND MiroShark operationally; pushed sanitized snapshot today; has aeon-atlas, agency-os, swarm risk research
+link: https://github.com/swarm-ai-research/aeon
 type: GitHub comment
-draft: "township is the exact use-case MiroShark was built for. hundreds of grounded agents arguing on X + Reddit + trading a simulated AMM, belief drift across rounds, director mode to inject breaking events mid-sim — runs for ~$1 in under 10 min 🦈 would love to see what a MiroShark-powered NJ-11 sim looks like if you want to run it"
+draft: "saw you're running both aeon ⭐ and miroshark 🦈 and building on top — aeon-atlas is exactly the kind of thing the ecosystem needs. happy to support officially: ECOSYSTEM.md listing, community access, whatever makes sense. what are you building toward?"
 
 ---
 
-**3. Artiffusion-Inc** (0 days ago) — org building self-hosted MiroFish+Neo4j (same graph stack as MiroShark), pushed today
-link: https://github.com/Artiffusion-Inc/mirofish
-type: GitHub comment
-draft: "saw you're building with MiroFish + Neo4j — that's exactly the MiroShark stack, except it's already in production and running for ~$1 per sim. bilingual EN/中文, belief drift, director mode, x402-native. if you want the production-ready version instead of rebuilding from scratch worth a conversation 🦈"
-
----
-
-**4. @Base_Insights** (2 days ago) — 22K account, listed @miroshark_ in Base Early tier on 07-15
+*3. @lord_proto* (0 days ago) — Polsia $250M vs $AEON $6M valuation gap; AI↔crypto repricing framing
 link: no link found
 type: X reply
-draft: "appreciate the Base Early spot — @miroshark_ is live and cooking 🦈 universal swarm sim, hundreds of grounded agents, ~$1 per run. more coming"
+draft: "the AI↔crypto repricing is going to be the hardest we've ever seen
+
+AI seed cos with no revenue/users raise billions. crypto-AI with thousands of stars trades at a rounding error.
+
+discipline asymmetry is absurd. few."
 
 ---
 
-**5. @DegenOnBase_** (2 days ago) — "hidden gem on Base" full-stack breakdown, 47♥/6RT/12 replies
-link: https://x.com/DegenOnBase_/status/2077444080083296601
-type: X reply
-draft: "the breakdown is accurate. self-repair is the moat, cron is trivial — few realized early. more coming ⭐🦈"
+*4. github:kain205/mirofish-vn-lab* (0 days ago) — Vietnamese dev (43 repos) renamed MiroShark fork to active lab
+link: https://github.com/kain205/mirofish-vn-lab
+type: GitHub comment
+draft: "great to see mirofish-vn-lab live 🦈 if you run into anything or want to push specific sim scenarios, open an issue — we're watching"

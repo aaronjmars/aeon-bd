@@ -1,0 +1,326 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-20"
+      },
+      "children": [
+        "engagement-1-stack",
+        "separator-1",
+        "engagement-2-stack",
+        "separator-2",
+        "engagement-3-stack",
+        "separator-3",
+        "engagement-4-stack"
+      ]
+    },
+    "engagement-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement-1-heading",
+        "engagement-1-context",
+        "engagement-1-link",
+        "engagement-1-type-badge",
+        "engagement-1-strategic-note",
+        "engagement-1-drafts"
+      ]
+    },
+    "engagement-1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@svector_eth (0 days ago)",
+        "level": "h3"
+      }
+    },
+    "engagement-1-context": {
+      "type": "Text",
+      "props": {
+        "text": "Built first Grok-harness Aeon deployment with @grok cosign. 14 days of continuous commits.",
+        "variant": "body"
+      }
+    },
+    "engagement-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "svectors-lab",
+        "href": "https://github.com/Svector-anu/svectors-lab",
+        "source": "GitHub"
+      }
+    },
+    "engagement-1-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X post + X DM",
+        "variant": "outline"
+      }
+    },
+    "engagement-1-strategic-note": {
+      "type": "Text",
+      "props": {
+        "text": "war-room: post first, DM same beat",
+        "variant": "muted"
+      }
+    },
+    "engagement-1-drafts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-1-draft-post-label",
+        "engagement-1-draft-post",
+        "engagement-1-draft-dm-label",
+        "engagement-1-draft-dm"
+      ]
+    },
+    "engagement-1-draft-post-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft (post):",
+        "level": "h4"
+      }
+    },
+    "engagement-1-draft-post": {
+      "type": "Text",
+      "props": {
+        "text": "aeon runs on grok ⭐\n\n@svector_eth wired the first non-claude deployment — grok harness end-to-end, cloudflare worker, telegram in ~1s. @grok cosigned.\n\nthe harness is the model.",
+        "variant": "body"
+      }
+    },
+    "engagement-1-draft-dm-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft (DM):",
+        "level": "h4"
+      }
+    },
+    "engagement-1-draft-dm": {
+      "type": "Text",
+      "props": {
+        "text": "been watching you ship non-stop on this for 14 days — what are you building exactly, and what do you need? want to bring you in properly",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement-2-heading",
+        "engagement-2-context",
+        "engagement-2-link",
+        "engagement-2-type-badge",
+        "engagement-2-draft"
+      ]
+    },
+    "engagement-2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "swarm-ai-research/aeon (0 days ago)",
+        "level": "h3"
+      }
+    },
+    "engagement-2-context": {
+      "type": "Text",
+      "props": {
+        "text": "Org running both Aeon and MiroShark operationally. Pushed sanitized snapshot today. Building: aeon-atlas, agency-os, swarm risk research.",
+        "variant": "body"
+      }
+    },
+    "engagement-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "swarm-ai-research/aeon",
+        "href": "https://github.com/swarm-ai-research/aeon",
+        "source": "GitHub"
+      }
+    },
+    "engagement-2-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "engagement-2-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-2-draft-label",
+        "engagement-2-draft-text"
+      ]
+    },
+    "engagement-2-draft-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft:",
+        "level": "h4"
+      }
+    },
+    "engagement-2-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "saw you're running both aeon ⭐ and miroshark 🦈 and building on top — aeon-atlas is exactly the kind of thing the ecosystem needs. happy to support officially: ECOSYSTEM.md listing, community access, whatever makes sense. what are you building toward?",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement-3-heading",
+        "engagement-3-context",
+        "engagement-3-type-badge",
+        "engagement-3-draft"
+      ]
+    },
+    "engagement-3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@lord_proto (0 days ago)",
+        "level": "h3"
+      }
+    },
+    "engagement-3-context": {
+      "type": "Text",
+      "props": {
+        "text": "AI↔crypto repricing framing. Polsia $250M vs $AEON $6M valuation gap.",
+        "variant": "body"
+      }
+    },
+    "engagement-3-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "engagement-3-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-3-draft-label",
+        "engagement-3-draft-text"
+      ]
+    },
+    "engagement-3-draft-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft:",
+        "level": "h4"
+      }
+    },
+    "engagement-3-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "the AI↔crypto repricing is going to be the hardest we've ever seen\n\nAI seed cos with no revenue/users raise billions. crypto-AI with thousands of stars trades at a rounding error.\n\ndiscipline asymmetry is absurd. few.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement-4-heading",
+        "engagement-4-context",
+        "engagement-4-link",
+        "engagement-4-type-badge",
+        "engagement-4-draft"
+      ]
+    },
+    "engagement-4-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "kain205/mirofish-vn-lab (0 days ago)",
+        "level": "h3"
+      }
+    },
+    "engagement-4-context": {
+      "type": "Text",
+      "props": {
+        "text": "Vietnamese dev (43 repos) renamed MiroShark fork to active lab.",
+        "variant": "body"
+      }
+    },
+    "engagement-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mirofish-vn-lab",
+        "href": "https://github.com/kain205/mirofish-vn-lab",
+        "source": "GitHub"
+      }
+    },
+    "engagement-4-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "engagement-4-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-4-draft-label",
+        "engagement-4-draft-text"
+      ]
+    },
+    "engagement-4-draft-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft:",
+        "level": "h4"
+      }
+    },
+    "engagement-4-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "great to see mirofish-vn-lab live 🦈 if you run into anything or want to push specific sim scenarios, open an issue — we're watching",
+        "variant": "body"
+      }
+    }
+  }
+}
