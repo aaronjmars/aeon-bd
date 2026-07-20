@@ -1,0 +1,174 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "shiplog ⭐🦈 jul 16→20"
+      },
+      "children": [
+        "text_intro",
+        "stat_prs",
+        "stat_commits",
+        "sep_1",
+        "heading_shipped",
+        "stack_shipped",
+        "sep_2",
+        "heading_traction",
+        "stack_traction",
+        "sep_3",
+        "link_article"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "aeon + miroshark shiplog ⭐🦈 jul 16 → jul 20",
+        "variant": "lead"
+      }
+    },
+    "stat_prs": {
+      "type": "Stat",
+      "props": {
+        "label": "PRs shipped",
+        "value": "20"
+      }
+    },
+    "stat_commits": {
+      "type": "Stat",
+      "props": {
+        "label": "commits",
+        "value": "21"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_shipped": {
+      "type": "Heading",
+      "props": {
+        "text": "Shipped",
+        "level": "h2"
+      }
+    },
+    "stack_shipped": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_defillama",
+        "item_adk",
+        "item_mcp",
+        "item_model",
+        "item_minitor",
+        "item_security"
+      ]
+    },
+    "item_defillama": {
+      "type": "Text",
+      "props": {
+        "text": "**defilllama**: aeon + miroshark + miroshark-x402 fees adapters merged into dimension-adapters — both products tracked on defillama now. revenue, public trace."
+      }
+    },
+    "item_adk": {
+      "type": "Text",
+      "props": {
+        "text": "**ADK**: aeon developer kit live — integrate aeon into your site, let users run their own instance in 1-click. github app + api + skill packs"
+      }
+    },
+    "item_mcp": {
+      "type": "Text",
+      "props": {
+        "text": "**mcp expanded**: executor cloud + robinhood-mcp + glim-mcp. dashboard got a PAT setup panel. 61 skills in catalog."
+      }
+    },
+    "item_model": {
+      "type": "Text",
+      "props": {
+        "text": "**miroshark model**: fine-tuned qwen3.5-9b on 9k curated posts → 50% quality improvement on agent sim posts. DPO next. 🦈"
+      }
+    },
+    "item_minitor": {
+      "type": "Text",
+      "props": {
+        "text": "**minitor**: 40-platform monitoring dashboard, agent-triggered workflows — 34♥/4RT on the post."
+      }
+    },
+    "item_security": {
+      "type": "Text",
+      "props": {
+        "text": "**security**: scanned SpaceXAI's grok build repo, found a vuln. streak: google, vercel, alibaba, now spacexai ⭐"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_traction": {
+      "type": "Heading",
+      "props": {
+        "text": "Traction",
+        "level": "h2"
+      }
+    },
+    "stack_traction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_miroshark",
+        "text_momentum",
+        "stat_aeon"
+      ]
+    },
+    "stat_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "miroshark",
+        "value": "1394",
+        "delta": "+29",
+        "trend": "up"
+      }
+    },
+    "text_momentum": {
+      "type": "Text",
+      "props": {
+        "text": "no new push for 4+ days. demand outrunning ships",
+        "variant": "muted"
+      }
+    },
+    "stat_aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon",
+        "value": "577",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_article": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full shiplog article",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/output/articles/shiplog-2026-07-20.md",
+        "source": "GitHub"
+      }
+    }
+  }
+}
