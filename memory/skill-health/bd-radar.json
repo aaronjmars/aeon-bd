@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-19T07:55:37Z",
+  "last_analyzed": "2026-07-20T07:44:06Z",
   "quality_score": 4,
-  "assessment": "Substantive lead discovery with correct filtering; honest no-op (quiet Sunday, no high-intent leads); well-structured output, proper decision rules applied.",
+  "assessment": "Substantive, well-prioritized leads with verified signals and clear actionable next steps; proper security filtering and documentation.",
   "flags": [],
   "avg_score": 4.1,
   "history": [
-    {
-      "date": "2026-06-19",
-      "score": 4
-    },
     {
       "date": "2026-06-20",
       "score": 5
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-19",
+      "score": 4
+    },
+    {
+      "date": "2026-07-20",
       "score": 4
     }
   ]

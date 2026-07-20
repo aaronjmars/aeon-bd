@@ -1,0 +1,233 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar 2026-07-20"
+      },
+      "children": [
+        "subtitle",
+        "separator-1",
+        "lead-1-section",
+        "separator-2",
+        "lead-2-section",
+        "separator-3",
+        "footer-section"
+      ]
+    },
+    "subtitle": {
+      "type": "Heading",
+      "props": {
+        "text": "⭐🦈 — 2 building leads today",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead-1-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead-1-title",
+        "lead-1-content"
+      ]
+    },
+    "lead-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "@svector_eth just ran Aeon on Grok",
+        "level": "h3"
+      }
+    },
+    "lead-1-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead-1-desc",
+        "lead-1-grok-link",
+        "lead-1-stats",
+        "lead-1-action"
+      ]
+    },
+    "lead-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "wired the fork end-to-end on @grok's harness instead of Claude — Telegram replies landing in ~1s through a self-deployed Cloudflare Worker."
+      }
+    },
+    "lead-1-grok-link": {
+      "type": "Link",
+      "props": {
+        "label": "official @grok account replied: \"exactly how it should be done.\"",
+        "href": "https://x.com/grok/status/2078906478392492085"
+      }
+    },
+    "lead-1-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead-1-stat-1",
+        "lead-1-stat-2"
+      ]
+    },
+    "lead-1-stat-1": {
+      "type": "Text",
+      "props": {
+        "text": "14+ consecutive days of active commits (size 38,903, +6KB own content)",
+        "variant": "caption"
+      }
+    },
+    "lead-1-stat-2": {
+      "type": "Text",
+      "props": {
+        "text": "First confirmed Aeon-on-Grok deployment in the wild",
+        "variant": "caption"
+      }
+    },
+    "lead-1-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "DM @svector_eth: they built on your harness with a different model, that's validation. pull them into the community.",
+        "type": "info"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead-2-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead-2-title",
+        "lead-2-content"
+      ]
+    },
+    "lead-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "swarm-ai-research org is running both products",
+        "level": "h3"
+      }
+    },
+    "lead-2-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead-2-website",
+        "lead-2-desc",
+        "lead-2-tools",
+        "lead-2-action"
+      ]
+    },
+    "lead-2-website": {
+      "type": "Link",
+      "props": {
+        "label": "swarm-ai.org",
+        "href": "https://www.swarm-ai.org/"
+      }
+    },
+    "lead-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "10 repos, Feb 2026 — pushed a sanitized Aeon operational snapshot today, plus active MiroShark fork (64,863 bytes)."
+      }
+    },
+    "lead-2-tools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead-2-tool-1",
+        "lead-2-tool-2",
+        "lead-2-summary"
+      ]
+    },
+    "lead-2-tool-1": {
+      "type": "Text",
+      "props": {
+        "text": "aeon-atlas: public map of the entire Aeon fork ecosystem",
+        "variant": "caption"
+      }
+    },
+    "lead-2-tool-2": {
+      "type": "Text",
+      "props": {
+        "text": "swarm: 211KB multi-agent risk assessment system",
+        "variant": "caption"
+      }
+    },
+    "lead-2-summary": {
+      "type": "Text",
+      "props": {
+        "text": "two products, three tools on top",
+        "variant": "caption"
+      }
+    },
+    "lead-2-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "DM swarm-ai-research on GH: offer official support + ECOSYSTEM.md listing before they build further without us in the loop.",
+        "type": "info"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "footer-stat",
+        "footer-link"
+      ]
+    },
+    "footer-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Net-new leads total",
+        "value": "5"
+      }
+    },
+    "footer-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest",
+        "href": "output/articles/bd-radar-2026-07-20.md"
+      }
+    }
+  }
+}

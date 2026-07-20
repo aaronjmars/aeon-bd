@@ -1,19 +1,9 @@
-Done. Quiet Sunday sweep — no high-intent leads, no notify sent (per skill rules).
+ℹ️ BD Radar 2026-07-20
 
----
+## BD radar ⭐🦈 — 2 building leads today
 
-## Summary
+**@svector_eth just ran Aeon on Grok.** wired the fork end-to-end on @grok's harness instead of Claude — Telegram replies landing in ~1s through a self-deployed Cloudflare Worker. [official @grok account replied](https://x.com/grok/status/2078906478392492085): "exactly how it should be done." 14+ consecutive days of active commits (size 38,903, +6KB own content). this is the first confirmed Aeon-on-Grok deployment in the wild. → **DM @svector_eth**: they built on your harness with a different model, that's validation. pull them into the community.
 
-**What ran:** bd-radar — 6 GitHub search sweeps, PAT-authenticated fork pulls on both repos, xAI x_search (http=200), WebSearch HN/Reddit.
+**swarm-ai-research org is running both products.** [swarm-ai.org](https://www.swarm-ai.org/), 10 repos, Feb 2026 — pushed a sanitized Aeon operational snapshot today, plus active MiroShark fork (64,863 bytes). they also built `aeon-atlas` (public map of the entire Aeon fork ecosystem) and `swarm` (211KB multi-agent risk assessment system). two products, three tools on top. → **DM swarm-ai-research on GH**: offer official support + ECOSYSTEM.md listing before they build further without us in the loop.
 
-**5 net-new leads surfaced (none building/integrating):**
-
-| # | Class | Who | Signal |
-|---|-------|-----|--------|
-| 1 | `adjacent` | StevenWang-CY/township | Penn CS student built civic swarm sim for NJ-11 election — exact MiroShark use-case, 47k lines |
-| 2 | `adjacent` | Artiffusion-Inc/mirofish | Org building self-hosted MiroFish+Neo4j (same graph backend as MiroShark), pushed today |
-| 3 | `adjacent` | MukundaKatta/swarmcast | Anthropic-certified ML engineer, "Universal Swarm Intelligence Engine" stub — watch for growth |
-| 4 | `mentioning` | x:niuniusad | Unprompted "like @aeonframework" mention, 313 views |
-| 5 | `mentioning` | x:BasmerW3 | Vague ecosystem post, skip |
-
-**No notify** — threshold is ≥1 new `building` or `integrating` lead. Leads state: 200 total, 268 surfaced. Committed to `output/articles/bd-radar-2026-07-19.md` + log.
+5 net-new leads total · [full digest](output/articles/bd-radar-2026-07-20.md)
