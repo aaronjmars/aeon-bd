@@ -1,23 +1,9 @@
-ℹ️ Top Tweets — Aeon + MiroShark
+*Tweet Roundup — 2026-07-20*
+_Source: api:3 websearch:0 failed:0_
 
-*Top Tweets — Aeon + MiroShark (2026-07-19)*
-_Minitor launch from the team and two MiroShark third-party discoveries lead the day — genuine builder signal on both products, community conviction loud but thin by numbers._
+*AI / agents / LLM* — _micro accounts only, builders quiet_
+- x.com/benkyo7772 — proposes "two-space self-observing reasoning" arch to fix LLM state-management failures; 6 modular components (Structure Builder, Counterfactual Simulator, etc.), no public impl yet (signal: 1) [View](https://x.com/benkyo7772/status/2078993055299113232)
+- x.com/akinade0701 — frames Promethium as purpose-built for AI agents executing crypto ops autonomously on behalf of humans; exact AI×x402 thesis (signal: 1) [View](https://x.com/akinade0701/status/2078993043806392390)
 
-*Aeon product launch*
-1. x.com/aeonframework — Announced "minitor": an agent-built monitoring dashboard with 40+ platform integrations and in-dashboard workflow triggers. Weekend reveal paired with a GitHub link thread.
-Likes: 34 | RTs: 4 | Replies: 4
-[View tweet](https://x.com/aeonframework/status/2078401909233234120)
-
-*MiroShark organic discovery*
-2. x.com/tom_doerr — Organic share of MiroShark with a clean one-liner: "hundreds of autonomous agents that debate, trade, and change their minds based on input events" — no hype, just the mechanism. This one travels.
-Likes: 34 | RTs: 5 | Replies: 0
-[View tweet](https://x.com/tom_doerr/status/2078434875820978309)
-
-3. x.com/TeksCreate — First comprehensive feature breakdown: Director Mode, Counterfactual Branching, per-agent MCP tools, article gen — frames MiroShark as a full production sim stack, not a demo. Only 1 reply but the most complete external write-up yet.
-Likes: 0 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/TeksCreate/status/2078438363439267848)
-
-*Token conviction*
-4. x.com/thosmur — "Not selling a cent of $aeon until it hits ATLEAST a 10x, believe in @aaronjmars and @aeonframework" — holder names the team alongside the ticker in the same breath; 4 replies suggest discussion.
-Likes: 9 | RTs: 0 | Replies: 4
-[View tweet](https://x.com/thosmur/status/2078609187828023690)
+*Crypto / DeFi* — _noise floor — platitudes and unverified bot alpha_
+- x.com/Liquidmexx — claims sports-hybrid upgrade to directional sniper bot will 2-5x PNL; no code, no receipts yet (signal: 5) [View](https://x.com/Liquidmexx/status/2078993279127830939)
