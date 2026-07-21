@@ -1,9 +1,10 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
+Fleet is healthy. HEARTBEAT_OK · STATUS_PAGE=OK
 
-All 10 enabled skills healthy, no open PRs or issues, no P3 misses. Updated `docs/status.md` to reflect today's runs (bd-radar and mention-radar both succeeded this morning). No notification sent — nothing needs attention.
+**P0–P3 all clean:** 10 enabled skills all `success`, no stuck dispatches, no consecutive failures, no stale schedules. bd-radar ran fresh this morning. No open PRs, no open issues. Status page updated to `2026-07-21 08:00 UTC`.
 
 ## Summary
 
-- **docs/status.md** — regenerated with 2026-07-20 08:00 UTC timestamp, all 10 skills healthy, next run: shiplog at 09:00 UTC
-- **memory/logs/2026-07-20.md** — appended `### heartbeat` entry (mode: ambient, all tiers clean, STATUS_PAGE=OK)
-- No notification (clean run)
+- **Checked:** cron-state (10 enabled skills), open PRs/issues, memory flags, schedule intervals
+- **Result:** 🟢 OK — nothing needs attention, no notification sent
+- **Wrote:** `docs/status.md` (updated timestamp + bd-radar's today run reflected in table)
+- **Logged:** `memory/logs/2026-07-21.md` under `### heartbeat` (mode: ambient)
