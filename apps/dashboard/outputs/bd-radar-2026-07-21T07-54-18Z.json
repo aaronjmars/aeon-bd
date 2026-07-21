@@ -1,0 +1,248 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "bd-radar / 2026-07-21",
+        "description": "2 new building leads"
+      },
+      "children": [
+        "intro_heading",
+        "sep1",
+        "tenequm_section",
+        "sep2",
+        "niklas_section",
+        "sep3",
+        "also_section"
+      ]
+    },
+    "intro_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2 new building leads",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tenequm_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tenequm_title",
+        "tenequm_person_context",
+        "tenequm_repos_stack",
+        "tenequm_signal",
+        "tenequm_action"
+      ]
+    },
+    "tenequm_title": {
+      "type": "Heading",
+      "props": {
+        "text": "tenequm escalated.",
+        "level": "h3"
+      }
+    },
+    "tenequm_person_context": {
+      "type": "Text",
+      "props": {
+        "text": "Misha Kolesnik filed a glim.sh issue in June. since then shipped:"
+      }
+    },
+    "tenequm_repos_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_skills",
+        "repo_pond",
+        "repo_nanoclaw",
+        "repo_onecli",
+        "repo_centaur",
+        "repo_aeon"
+      ]
+    },
+    "repo_skills": {
+      "type": "Stat",
+      "props": {
+        "label": "skills",
+        "value": "31 stars",
+        "delta": "topics: openclaw/x402/claude-code/solana"
+      }
+    },
+    "repo_pond": {
+      "type": "Stat",
+      "props": {
+        "label": "pond",
+        "value": "26 stars",
+        "delta": "lossless agent session storage"
+      }
+    },
+    "repo_nanoclaw": {
+      "type": "Text",
+      "props": {
+        "text": "nanoclaw — lightweight OpenClaw alt"
+      }
+    },
+    "repo_onecli": {
+      "type": "Text",
+      "props": {
+        "text": "onecli — agent credential gateway"
+      }
+    },
+    "repo_centaur": {
+      "type": "Text",
+      "props": {
+        "text": "centaur — multiplayer agents"
+      }
+    },
+    "repo_aeon": {
+      "type": "Text",
+      "props": {
+        "text": "forked Aeon"
+      }
+    },
+    "tenequm_signal": {
+      "type": "Text",
+      "props": {
+        "text": "building the same stack we're building. x402 and solana already in his tags. this is a bridge, not a pitch.",
+        "variant": "body"
+      }
+    },
+    "tenequm_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "DM on GH today",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "niklas_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "niklas_title",
+        "niklas_person_intro",
+        "niklas_repos_stack",
+        "niklas_signal",
+        "niklas_action"
+      ]
+    },
+    "niklas_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Niklas-Schmidt forked MiroShark.",
+        "level": "h3"
+      }
+    },
+    "niklas_person_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Dr. Niklas Schmidt (Vienna) — 34 repos in the agent skills space:"
+      }
+    },
+    "niklas_repos_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_kraken",
+        "repo_graphify",
+        "repo_cybersec"
+      ]
+    },
+    "repo_kraken": {
+      "type": "Text",
+      "props": {
+        "text": "kraken-cli — AI-native CLI for crypto/stocks/forex trading"
+      }
+    },
+    "repo_graphify": {
+      "type": "Text",
+      "props": {
+        "text": "graphify — skills for Claude Code/Codex/OpenCode"
+      }
+    },
+    "repo_cybersec": {
+      "type": "Stat",
+      "props": {
+        "label": "Anthropic-Cybersecurity-Skills",
+        "value": "817 cybersec skills for agents"
+      }
+    },
+    "niklas_signal": {
+      "type": "Text",
+      "props": {
+        "text": "crypto trading CLI + MiroShark = obvious combo — simulate the market before the CLI trades it",
+        "variant": "body"
+      }
+    },
+    "niklas_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "DM on GH: market sim + skills port",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "also_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "also_title",
+        "also_rubicon",
+        "also_netra"
+      ]
+    },
+    "also_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Also",
+        "level": "h3"
+      }
+    },
+    "also_rubicon": {
+      "type": "Text",
+      "props": {
+        "text": "Rubicon DeFi listed $MIROSHARK on Base (07-20)"
+      }
+    },
+    "also_netra": {
+      "type": "Text",
+      "props": {
+        "text": "NetraAI building 120-agent LLM swarm sim of SVB collapse — exact MiroShark use case, outbound candidate"
+      }
+    }
+  }
+}

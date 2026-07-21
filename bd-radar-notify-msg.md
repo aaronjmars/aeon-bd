@@ -1,5 +1,3 @@
-ℹ️ bd-radar 2026-07-21
-
 **bd-radar / 2026-07-21** -- 2 new building leads
 
 **tenequm escalated.** Misha Kolesnik filed a glim.sh issue in June. since then: shipped `skills` (31 stars, topics: openclaw/x402/claude-code/solana), `pond` (26 stars -- lossless agent session storage), `nanoclaw` (lightweight OpenClaw alt), `onecli` (agent credential gateway), `centaur` (multiplayer agents). forked Aeon. building the same stack we're building. x402 and solana already in his tags. this is a bridge, not a pitch. **DM on GH today.**
