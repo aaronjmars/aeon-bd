@@ -1,39 +1,40 @@
-ℹ️ Engagement Act — 2026-07-20
+**Engagement Act — 2026-07-21**
 
-*Engagement Act — 2026-07-20*
+**1. github:tenequm/aeon (Misha Kolesnik)** (0 days ago) — independently built x402/openclaw/solana stack (31★ skills repo, 26★ pond, nanoclaw, onecli, centaur), then forked Aeon; war-room escalation ★15
+link: https://github.com/tenequm/aeon
+type: GitHub DM
+draft: "yo misha — you converged on x402 + openclaw + solana independently before forking aeon. that's a good tell.
 
-*1. @svector_eth* (0 days ago) — built first Grok-harness Aeon deployment; @grok cosigned; 14d continuous commits
-link: https://github.com/Svector-anu/svectors-lab
-type: X post + X DM (war-room: post first, DM same beat)
-draft (post): "aeon runs on grok ⭐
-
-@svector_eth wired the first non-claude deployment — grok harness end-to-end, cloudflare worker, telegram in ~1s. @grok cosigned.
-
-the harness is the model."
-
-draft (DM): "been watching you ship non-stop on this for 14 days — what are you building exactly, and what do you need? want to bring you in properly"
+pond + skills is a natural complement to what we're building. want to bridge them? happy to add you to ECOSYSTEM.md and co-announce. ⭐"
 
 ---
 
-*2. github:swarm-ai-research/aeon* (0 days ago) — org running both Aeon AND MiroShark operationally; pushed sanitized snapshot today; has aeon-atlas, agency-os, swarm risk research
-link: https://github.com/swarm-ai-research/aeon
+**2. github:Niklas-Schmidt/miroshark (Dr. Niklas Schmidt, Vienna)** (0 days ago) — forked MiroShark, has kraken-cli (AI-native crypto/stocks/forex trading CLI) + 34 skill repos including 817 Anthropic cybersec skills
+link: https://github.com/Niklas-Schmidt/miroshark
+type: GitHub DM
+draft: "hey niklas — kraken-cli + miroshark is an obvious pair. trading CLI meets a swarm sim that argues on X + trades a simulated AMM — the whole stack.
+
+porting your skills to SKILL.md gets them into the aeon catalog automatically. happy to help you bridge. 🦈"
+
+---
+
+**3. github:eyeinthesky6/MiroShark (Jai)** (1 day ago) — AI/Product/Ops operator, 19yr fintech, fractional AI co-founder "building practical AI workflow systems"; forked MiroShark 07-20, has SkillKit
+link: https://github.com/eyeinthesky6/MiroShark
+type: GitHub DM
+draft: "hey jai — saw the fork. miroshark is the sim layer missing from fintech AI workflows. drop in any press release, policy draft, or market event and you get hundreds of agents debating + trading a simulated AMM in <10min for ~$1.
+
+fintech + swarm simulation is obvious. happy to help plug it in. 🦈"
+
+---
+
+**4. github:no0ktheali3n/MiroShark** (0 days ago) — new MiroShark fork, score 4
+link: https://github.com/no0ktheali3n/MiroShark
 type: GitHub comment
-draft: "saw you're running both aeon ⭐ and miroshark 🦈 and building on top — aeon-atlas is exactly the kind of thing the ecosystem needs. happy to support officially: ECOSYSTEM.md listing, community access, whatever makes sense. what are you building toward?"
+draft: "welcome to the 🦈 ecosystem. if you hit any friction or have questions — drop a note here."
 
 ---
 
-*3. @lord_proto* (0 days ago) — Polsia $250M vs $AEON $6M valuation gap; AI↔crypto repricing framing
-link: no link found
-type: X reply
-draft: "the AI↔crypto repricing is going to be the hardest we've ever seen
-
-AI seed cos with no revenue/users raise billions. crypto-AI with thousands of stars trades at a rounding error.
-
-discipline asymmetry is absurd. few."
-
----
-
-*4. github:kain205/mirofish-vn-lab* (0 days ago) — Vietnamese dev (43 repos) renamed MiroShark fork to active lab
-link: https://github.com/kain205/mirofish-vn-lab
+**5. github:satendra-mani-tiwari/NetraAI** (0 days ago) — adjacent AI build, score 3
+link: https://github.com/satendra-mani-tiwari/NetraAI
 type: GitHub comment
-draft: "great to see mirofish-vn-lab live 🦈 if you run into anything or want to push specific sim scenarios, open an issue — we're watching"
+draft: "interesting direction. if you're exploring multi-agent simulation, miroshark might be worth a look — swarm intelligence layer, ~$1 per run. 🦈"

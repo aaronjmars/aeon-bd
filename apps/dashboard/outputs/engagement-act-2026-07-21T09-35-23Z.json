@@ -1,0 +1,578 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-21",
+        "description": "5 GitHub ecosystem opportunities for Aeon + Miroshark"
+      },
+      "children": [
+        "stack_all"
+      ]
+    },
+    "stack_all": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opportunity_1",
+        "sep_1",
+        "opportunity_2",
+        "sep_2",
+        "opportunity_3",
+        "sep_3",
+        "opportunity_4",
+        "sep_4",
+        "opportunity_5"
+      ]
+    },
+    "opportunity_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_header",
+        "opp1_link",
+        "opp1_context",
+        "opp1_draft"
+      ]
+    },
+    "opp1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_title",
+        "opp1_badge",
+        "opp1_time"
+      ]
+    },
+    "opp1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Misha Kolesnik",
+        "level": "h3"
+      }
+    },
+    "opp1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "default"
+      }
+    },
+    "opp1_time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "muted"
+      }
+    },
+    "opp1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github:tenequm/aeon",
+        "href": "https://github.com/tenequm/aeon",
+        "source": "GitHub"
+      }
+    },
+    "opp1_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1_desc",
+        "opp1_builds"
+      ]
+    },
+    "opp1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Independently built x402/openclaw/solana stack before forking Aeon",
+        "variant": "body"
+      }
+    },
+    "opp1_builds": {
+      "type": "Text",
+      "props": {
+        "text": "Skills repo (31★), Pond (26★), nanoclaw, onecli, centaur. War-room escalation ★15",
+        "variant": "caption"
+      }
+    },
+    "opp1_draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1_draft_label",
+        "opp1_draft_text"
+      ]
+    },
+    "opp1_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "body"
+      }
+    },
+    "opp1_draft_text": {
+      "type": "Text",
+      "props": {
+        "text": "yo misha — you converged on x402 + openclaw + solana independently before forking aeon. that's a good tell.\n\npond + skills is a natural complement to what we're building. want to bridge them? happy to add you to ECOSYSTEM.md and co-announce. ⭐",
+        "variant": "body"
+      }
+    },
+    "opportunity_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_header",
+        "opp2_link",
+        "opp2_context",
+        "opp2_draft"
+      ]
+    },
+    "opp2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_title",
+        "opp2_badge",
+        "opp2_time"
+      ]
+    },
+    "opp2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Dr. Niklas Schmidt",
+        "level": "h3"
+      }
+    },
+    "opp2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "default"
+      }
+    },
+    "opp2_time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "muted"
+      }
+    },
+    "opp2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github:Niklas-Schmidt/miroshark",
+        "href": "https://github.com/Niklas-Schmidt/miroshark",
+        "source": "GitHub"
+      }
+    },
+    "opp2_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_desc",
+        "opp2_location",
+        "opp2_builds"
+      ]
+    },
+    "opp2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Forked MiroShark",
+        "variant": "body"
+      }
+    },
+    "opp2_location": {
+      "type": "Text",
+      "props": {
+        "text": "Vienna",
+        "variant": "caption"
+      }
+    },
+    "opp2_builds": {
+      "type": "Text",
+      "props": {
+        "text": "Built kraken-cli (AI-native crypto/stocks/forex trading CLI) + 34 skill repos including 817 Anthropic cybersec skills",
+        "variant": "caption"
+      }
+    },
+    "opp2_draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_draft_label",
+        "opp2_draft_text"
+      ]
+    },
+    "opp2_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "body"
+      }
+    },
+    "opp2_draft_text": {
+      "type": "Text",
+      "props": {
+        "text": "hey niklas — kraken-cli + miroshark is an obvious pair. trading CLI meets a swarm sim that argues on X + trades a simulated AMM — the whole stack.\n\nporting your skills to SKILL.md gets them into the aeon catalog automatically. happy to help you bridge. 🦈",
+        "variant": "body"
+      }
+    },
+    "opportunity_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp3_header",
+        "opp3_link",
+        "opp3_context",
+        "opp3_draft"
+      ]
+    },
+    "opp3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp3_title",
+        "opp3_badge",
+        "opp3_time"
+      ]
+    },
+    "opp3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Jai",
+        "level": "h3"
+      }
+    },
+    "opp3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "default"
+      }
+    },
+    "opp3_time": {
+      "type": "Text",
+      "props": {
+        "text": "1 day ago",
+        "variant": "muted"
+      }
+    },
+    "opp3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github:eyeinthesky6/MiroShark",
+        "href": "https://github.com/eyeinthesky6/MiroShark",
+        "source": "GitHub"
+      }
+    },
+    "opp3_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3_desc",
+        "opp3_role",
+        "opp3_timeline"
+      ]
+    },
+    "opp3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI/Product/Ops operator, 19 years fintech, fractional AI co-founder building practical AI workflow systems",
+        "variant": "body"
+      }
+    },
+    "opp3_role": {
+      "type": "Text",
+      "props": {
+        "text": "Forked MiroShark 07-20, has SkillKit",
+        "variant": "caption"
+      }
+    },
+    "opp3_timeline": {
+      "type": "Text",
+      "props": {
+        "text": "Natural fit: sim layer missing from fintech AI workflows",
+        "variant": "caption"
+      }
+    },
+    "opp3_draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3_draft_label",
+        "opp3_draft_text"
+      ]
+    },
+    "opp3_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "body"
+      }
+    },
+    "opp3_draft_text": {
+      "type": "Text",
+      "props": {
+        "text": "hey jai — saw the fork. miroshark is the sim layer missing from fintech AI workflows. drop in any press release, policy draft, or market event and you get hundreds of agents debating + trading a simulated AMM in <10min for ~$1.\n\nfintech + swarm simulation is obvious. happy to help plug it in. 🦈",
+        "variant": "body"
+      }
+    },
+    "opportunity_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp4_header",
+        "opp4_link",
+        "opp4_context",
+        "opp4_draft"
+      ]
+    },
+    "opp4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp4_title",
+        "opp4_badge",
+        "opp4_time"
+      ]
+    },
+    "opp4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "no0ktheali3n",
+        "level": "h3"
+      }
+    },
+    "opp4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "opp4_time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "muted"
+      }
+    },
+    "opp4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github:no0ktheali3n/MiroShark",
+        "href": "https://github.com/no0ktheali3n/MiroShark",
+        "source": "GitHub"
+      }
+    },
+    "opp4_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4_desc"
+      ]
+    },
+    "opp4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "New MiroShark fork, score 4",
+        "variant": "body"
+      }
+    },
+    "opp4_draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4_draft_label",
+        "opp4_draft_text"
+      ]
+    },
+    "opp4_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "body"
+      }
+    },
+    "opp4_draft_text": {
+      "type": "Text",
+      "props": {
+        "text": "welcome to the 🦈 ecosystem. if you hit any friction or have questions — drop a note here.",
+        "variant": "body"
+      }
+    },
+    "opportunity_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp5_header",
+        "opp5_link",
+        "opp5_context",
+        "opp5_draft"
+      ]
+    },
+    "opp5_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp5_title",
+        "opp5_badge",
+        "opp5_time"
+      ]
+    },
+    "opp5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "satendra-mani-tiwari",
+        "level": "h3"
+      }
+    },
+    "opp5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "opp5_time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "muted"
+      }
+    },
+    "opp5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github:satendra-mani-tiwari/NetraAI",
+        "href": "https://github.com/satendra-mani-tiwari/NetraAI",
+        "source": "GitHub"
+      }
+    },
+    "opp5_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp5_desc"
+      ]
+    },
+    "opp5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Adjacent AI build, score 3",
+        "variant": "body"
+      }
+    },
+    "opp5_draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp5_draft_label",
+        "opp5_draft_text"
+      ]
+    },
+    "opp5_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "body"
+      }
+    },
+    "opp5_draft_text": {
+      "type": "Text",
+      "props": {
+        "text": "interesting direction. if you're exploring multi-agent simulation, miroshark might be worth a look — swarm intelligence layer, ~$1 per run. 🦈",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    }
+  }
+}

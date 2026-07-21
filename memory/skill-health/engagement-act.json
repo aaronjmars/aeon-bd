@@ -1,15 +1,11 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-07-20T09:43:11Z",
+  "last_analyzed": "2026-07-21T09:35:23Z",
   "quality_score": 4,
-  "assessment": "Delivered 4 concrete, timely BD opportunities with specific engagement hooks; well-structured, actionable, and de-duplicated against prior runs.",
+  "assessment": "Delivered 5 specific, timely engagement opps with drafted outreach; well-structured and actionable, but minimal depth on strategy/selection rationale",
   "flags": [],
   "avg_score": 4,
   "history": [
-    {
-      "date": "2026-06-20",
-      "score": 4
-    },
     {
       "date": "2026-06-21",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-20",
+      "score": 4
+    },
+    {
+      "date": "2026-07-21",
       "score": 4
     }
   ]
