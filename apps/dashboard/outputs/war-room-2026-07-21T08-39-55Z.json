@@ -1,0 +1,598 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-07-21"
+      },
+      "children": [
+        "metadata",
+        "sep1",
+        "state-section",
+        "sep2",
+        "talk-section",
+        "sep3",
+        "decide-section",
+        "sep4",
+        "sources-section"
+      ]
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "meta-type",
+        "meta-tags",
+        "meta-timestamp"
+      ]
+    },
+    "meta-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Article",
+        "variant": "outline"
+      }
+    },
+    "meta-tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag-meta",
+        "tag-ecosystem",
+        "tag-standup"
+      ]
+    },
+    "tag-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "meta",
+        "variant": "secondary"
+      }
+    },
+    "tag-ecosystem": {
+      "type": "Badge",
+      "props": {
+        "text": "ecosystem",
+        "variant": "secondary"
+      }
+    },
+    "tag-standup": {
+      "type": "Badge",
+      "props": {
+        "text": "standup",
+        "variant": "secondary"
+      }
+    },
+    "meta-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-21T07:45:00Z",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-heading",
+        "state-transfer",
+        "state-aeon-block",
+        "state-miroshark-block",
+        "state-observations"
+      ]
+    },
+    "state-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "state",
+        "level": "h2"
+      }
+    },
+    "state-transfer": {
+      "type": "Text",
+      "props": {
+        "text": "Both repos moved to their own orgs overnight — aeonfun/aeon + MiroShark/MiroShark (org transfer, both pushed 2026-07-20T22:38).",
+        "variant": "body"
+      }
+    },
+    "state-aeon-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "state-aeon-link",
+        "state-aeon-stats",
+        "state-aeon-status"
+      ]
+    },
+    "state-aeon-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "GitHub"
+      }
+    },
+    "state-aeon-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-aeon-stars",
+        "stat-aeon-forks"
+      ]
+    },
+    "stat-aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "stars",
+        "value": "577"
+      }
+    },
+    "stat-aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "forks",
+        "value": "210"
+      }
+    },
+    "state-aeon-status": {
+      "type": "Text",
+      "props": {
+        "text": "Flat.",
+        "variant": "muted"
+      }
+    },
+    "state-miroshark-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "state-miroshark-link",
+        "state-miroshark-stats",
+        "state-miroshark-growth"
+      ]
+    },
+    "state-miroshark-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark/MiroShark",
+        "href": "https://github.com/MiroShark/MiroShark",
+        "source": "GitHub"
+      }
+    },
+    "state-miroshark-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-miroshark-stars",
+        "stat-miroshark-forks"
+      ]
+    },
+    "stat-miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "stars",
+        "value": "1407",
+        "delta": "+13",
+        "trend": "up"
+      }
+    },
+    "stat-miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "forks",
+        "value": "297"
+      }
+    },
+    "state-miroshark-growth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "growth-overnight",
+        "growth-context",
+        "growth-progression"
+      ]
+    },
+    "growth-overnight": {
+      "type": "Text",
+      "props": {
+        "text": "+13★ overnight, zero product pushes",
+        "variant": "lead"
+      }
+    },
+    "growth-context": {
+      "type": "Text",
+      "props": {
+        "text": "3rd straight organic-climb day",
+        "variant": "body"
+      }
+    },
+    "growth-progression": {
+      "type": "Text",
+      "props": {
+        "text": "1379 → 1394 → 1407",
+        "variant": "body"
+      }
+    },
+    "state-observations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "obs-demand",
+        "obs-stall"
+      ]
+    },
+    "obs-demand": {
+      "type": "Text",
+      "props": {
+        "text": "Demand outrunning ships.",
+        "variant": "body"
+      }
+    },
+    "obs-stall": {
+      "type": "Text",
+      "props": {
+        "text": "No stall.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk-heading",
+        "talk-person-block"
+      ]
+    },
+    "talk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "talk to",
+        "level": "h2"
+      }
+    },
+    "talk-person-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "talk-person",
+        "talk-background",
+        "talk-current-intro",
+        "talk-repos-list",
+        "talk-action"
+      ]
+    },
+    "talk-person": {
+      "type": "Text",
+      "props": {
+        "text": "tenequm (Misha Kolesnik)",
+        "variant": "lead"
+      }
+    },
+    "talk-background": {
+      "type": "Text",
+      "props": {
+        "text": "Filed a glim.sh issue in June",
+        "variant": "muted"
+      }
+    },
+    "talk-current-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Now ships a full parallel stack in our exact language:",
+        "variant": "body"
+      }
+    },
+    "talk-repos-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "repo-skills",
+        "repo-pond",
+        "repo-nanoclaw",
+        "repo-onecli",
+        "repo-centaur"
+      ]
+    },
+    "repo-skills": {
+      "type": "Text",
+      "props": {
+        "text": "skills — 31★ (x402/solana/openclaw/claude-code)",
+        "variant": "body"
+      }
+    },
+    "repo-pond": {
+      "type": "Text",
+      "props": {
+        "text": "pond — 26★",
+        "variant": "body"
+      }
+    },
+    "repo-nanoclaw": {
+      "type": "Text",
+      "props": {
+        "text": "nanoclaw",
+        "variant": "body"
+      }
+    },
+    "repo-onecli": {
+      "type": "Text",
+      "props": {
+        "text": "onecli",
+        "variant": "body"
+      }
+    },
+    "repo-centaur": {
+      "type": "Text",
+      "props": {
+        "text": "centaur",
+        "variant": "body"
+      }
+    },
+    "talk-action": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "talk-forked",
+        "talk-dm"
+      ]
+    },
+    "talk-forked": {
+      "type": "Text",
+      "props": {
+        "text": "Forked aeon.",
+        "variant": "body"
+      }
+    },
+    "talk-dm": {
+      "type": "Text",
+      "props": {
+        "text": "DM on GH.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide-section": {
+      "type": "Alert",
+      "props": {
+        "title": "decide",
+        "message": "DM tenequm while warm. Not a forker — a builder who independently converged on x402/solana/openclaw then forked us. His 31★ repo pulls the next cohort. Bridge, don't compete. One move — ship it.",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources-heading",
+        "source-state-block",
+        "source-leads-block",
+        "source-weekly-block"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — sources",
+        "level": "h3"
+      }
+    },
+    "source-state-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-state-label",
+        "source-state-intro",
+        "source-aeon-item",
+        "source-miroshark-item",
+        "source-state-footer"
+      ]
+    },
+    "source-state-label": {
+      "type": "Badge",
+      "props": {
+        "text": "STATE",
+        "variant": "outline"
+      }
+    },
+    "source-state-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Live gh api read (2026-07-21):",
+        "variant": "muted"
+      }
+    },
+    "source-aeon-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "source-aeon-link",
+        "source-aeon-details"
+      ]
+    },
+    "source-aeon-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "source-aeon-details": {
+      "type": "Text",
+      "props": {
+        "text": "577★/210f · pushed 2026-07-20T22:38 · release v0.1.0 (07-09)",
+        "variant": "muted"
+      }
+    },
+    "source-miroshark-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "source-miroshark-link",
+        "source-miroshark-details"
+      ]
+    },
+    "source-miroshark-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark/MiroShark",
+        "href": "https://github.com/MiroShark/MiroShark"
+      }
+    },
+    "source-miroshark-details": {
+      "type": "Text",
+      "props": {
+        "text": "1407★/297f · pushed 2026-07-20T22:38 · no release",
+        "variant": "muted"
+      }
+    },
+    "source-state-footer": {
+      "type": "Text",
+      "props": {
+        "text": "Both aaronjmars/* paths now redirect to the new orgs. Combined forks 507.",
+        "variant": "muted"
+      }
+    },
+    "source-leads-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-leads-label",
+        "source-leads-file",
+        "source-leads-summary",
+        "source-leads-runner"
+      ]
+    },
+    "source-leads-label": {
+      "type": "Badge",
+      "props": {
+        "text": "TALK TO / leads",
+        "variant": "outline"
+      }
+    },
+    "source-leads-file": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bd-radar-2026-07-21.md",
+        "href": "bd-radar-2026-07-21.md",
+        "source": "internal"
+      }
+    },
+    "source-leads-summary": {
+      "type": "Text",
+      "props": {
+        "text": "6 net-new: building×2, forking×3, mentioning×1",
+        "variant": "body"
+      }
+    },
+    "source-leads-runner": {
+      "type": "Text",
+      "props": {
+        "text": "Runner-up: Niklas-Schmidt/miroshark (score 10) — Vienna, 34 agent-skill repos + kraken-cli.",
+        "variant": "muted"
+      }
+    },
+    "source-weekly-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-weekly-label",
+        "source-weekly-text"
+      ]
+    },
+    "source-weekly-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Weekly",
+        "variant": "outline"
+      }
+    },
+    "source-weekly-text": {
+      "type": "Text",
+      "props": {
+        "text": "sim-watch / idea-forge — none dated within 7d; omitted.",
+        "variant": "muted"
+      }
+    }
+  }
+}

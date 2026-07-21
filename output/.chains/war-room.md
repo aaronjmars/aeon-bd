@@ -1,25 +1,27 @@
+ℹ️ ⭐🦈 war room — 2026-07-21
+
 ---
 type: Article
-title: War Room — 2026-07-20
+title: War Room — 2026-07-21
 description: Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar.
-tags: [war-room, standup, ecosystem]
-timestamp: 2026-07-20T07:45:00Z
+tags: [meta, ecosystem, standup]
+timestamp: 2026-07-21T07:45:00Z
 ---
 
-⭐🦈 war room — 2026-07-20
+⭐🦈 war room — 2026-07-21
 
-state: miroshark +15★ overnight → 1394, on zero pushes (4th quiet day) — pure organic discovery, demand outrunning ships. aeon 577★ flat, pushed 07-18, active. combined forks cleared 500 → 504. both green.
+state: both repos moved to their own orgs overnight — **aeonfun/aeon** + **MiroShark/MiroShark** (org transfer, both pushed 22:38). aeon 577★/210f, flat. miroshark 1407★/297f — **+13★ overnight, zero product pushes**, 3rd straight organic-climb day (1379→1394→1407). demand outrunning ships. no stall.
 
-talk to: **@svector_eth** — shipped an Aeon fork on the *Grok* harness end-to-end (~1s TG replies, own CF Worker), @grok official cosigned "exactly how it should be done." first non-Claude Aeon in the wild. move: DM today, pull into the community, ask what they need. runner-up: **swarm-ai-research** — running both products, built aeon-atlas → GH DM, offer ECOSYSTEM.md listing.
+talk to: **tenequm** (Misha Kolesnik) — filed a glim.sh issue in June, now ships a full parallel stack in our exact language: `skills` 31★ (x402/solana/openclaw/claude-code), `pond` 26★, `nanoclaw`, `onecli`, `centaur`. forked aeon. DM on GH.
 
-decide: the post, not just the DM. "someone ran Aeon on Grok — grok cosigned" is harness-is-the-model proof that travels. co-post svector's setup today while it's warm, DM in the same beat.
+decide: **DM tenequm while warm.** not a forker — a builder who independently converged on x402/solana/openclaw then forked us. his 31★ repo pulls the next cohort. bridge, don't compete. one move — ship it.
 
 ---
 
 ## Appendix — sources
 
-- **STATE** — live `gh api` read (2026-07-20): `aaronjmars/aeon` (→ aeonfun/aeon) **577⭐ / 209 forks**, pushed 2026-07-18T16:21Z, release **v0.1.0** (07-09). `aaronjmars/MiroShark` **1394⭐ / 295 forks**, pushed 2026-07-16T20:53Z, no release. Deltas vs 07-19 brief: aeon 577★ flat, forks 208→209 (+1); miroshark 1379→**1394 (+15★)**, forks 292→295 (+3), still **no push since 07-16** (~4 days). Both pushed <2wk → **no stall**. The read: miroshark stars climbing on pure organic discovery while the repo's gone quiet 4 days — demand outrunning ships. Combined forks **504** (209 + 295), cleanly past the 500 line hit 07-19.
-- **TALK TO / leads** — [bd-radar-2026-07-20](bd-radar-2026-07-20.md), 5 net-new (2 building · 2 forking · 1 mentioning). Top: **@svector_eth / [Svector-anu/svectors-lab](https://github.com/Svector-anu/svectors-lab)** (★15) — wired an Aeon fork onto the Grok harness end-to-end, ~1s Telegram replies via self-deployed Cloudflare Worker; @grok's official account replied "exactly how it should be done." 14+ continuous days of commits, devex eng building @tryskopos. First known non-Claude Aeon deployment in the wild → validates the harness-agnostic design + carries a public cosign. Runner-up: **[swarm-ai-research/aeon](https://github.com/swarm-ai-research/aeon)** (★15) — research org (swarm-ai.org, 10 repos) running Aeon AND MiroShark operationally, built `aeon-atlas` (ecosystem map), `swarm`, `agency-os`; pushed a sanitized aeon snapshot today → GH DM, offer support + ECOSYSTEM.md listing.
-- **DECIDE** — svector_eth is highest-leverage because it's not just a lead, it's a *post*: Aeon running on Grok with @grok's own account cosigning is copy-paste proof of "the harness is the model / harness-agnostic," and it travels on X. Convert the DM into a co-post while the @grok reply is warm. Compounds reach (stars) + engages the builder (ecosystem) in one move.
-- **Category intel** — sim-watch last dated 07-12 (>7d, aging — MiroFish-lineage threat noted; a fresh `kain205/mirofish-vn-lab` fork today is in that lineage, watch). idea-forge last 06-24 (stale, skipped).
-- **Prior loop** — sparkleware (07-19 decide) and Orlix (killed 07-19) not re-surfaced; today's leads are net-new.
+- **STATE** — live `gh api` read (2026-07-21): [aeonfun/aeon](https://github.com/aeonfun/aeon) 577★/210f · pushed 2026-07-20T22:38 · release v0.1.0 (07-09). [MiroShark/MiroShark](https://github.com/MiroShark/MiroShark) 1407★/297f · pushed 2026-07-20T22:38 · no release. Both `aaronjmars/*` paths now redirect to the new orgs. Combined forks 507.
+- **TALK TO / leads** — [`bd-radar-2026-07-21.md`](bd-radar-2026-07-21.md) (6 net-new: building×2, forking×3, mentioning×1). Runner-up: `Niklas-Schmidt/miroshark` (score 10) — Vienna, 34 agent-skill repos + kraken-cli.
+- **Weekly** — `sim-watch` / `idea-forge` — none dated within 7d; omitted.
+</content>
+</invoke>
