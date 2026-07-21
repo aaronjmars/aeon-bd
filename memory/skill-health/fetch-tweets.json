@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-20T17:21:01Z",
+  "last_analyzed": "2026-07-21T17:36:14Z",
   "quality_score": 4,
-  "assessment": "Complete, well-filtered output with substantive signal assessment; 3 tweets selected across topics with signal ratings and strategy alignment; proper memory tracking and context analysis (quiet day, low throughput justified by filtering threshold, not failure).",
+  "assessment": "Solid signal curation — 5 relevant tweets across 3 actionable clusters (integrations, official, external validation) with engagement context and clear reasoning for culls.",
   "flags": [],
   "avg_score": 3.93,
   "history": [
-    {
-      "date": "2026-06-21",
-      "score": 4
-    },
     {
       "date": "2026-06-22",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-20",
+      "score": 4
+    },
+    {
+      "date": "2026-07-21",
       "score": 4
     }
   ]

@@ -1,0 +1,228 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — 2026-07-21",
+        "description": "Top Tweets — @aeonframework OR @miroshark_ (2026-07-21). Two integrations live in 24h — $MIROSHARK on Rubicon/Base and Robinhood MCP on Aeon — while a builder frames both as the picks-and-shovels of autonomous agents."
+      },
+      "children": [
+        "section_integrations",
+        "sep1",
+        "section_broadcast",
+        "sep2",
+        "section_reads"
+      ]
+    },
+    "section_integrations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_integrations",
+        "tweet1_container",
+        "tweet2_container"
+      ]
+    },
+    "heading_integrations": {
+      "type": "Heading",
+      "props": {
+        "text": "Integrations landed",
+        "level": "h3"
+      }
+    },
+    "tweet1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "link1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Rubicon DEX",
+        "handle": "rubicondefi",
+        "text": "$MIROSHARK goes live on Rubicon DEX on Base — first public exchange call-out for the token",
+        "likes": 5,
+        "retweets": 2
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/rubicondefi/status/2079337377810505924"
+      }
+    },
+    "tweet2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "link2"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron",
+        "handle": "aaronjmars",
+        "text": "Confirms Robinhood MCP is already live on Aeon — quoting the Robinhood MCP launch post",
+        "likes": 9,
+        "retweets": 0
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2079215139794866211"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_broadcast": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_broadcast",
+        "tweet3_container"
+      ]
+    },
+    "heading_broadcast": {
+      "type": "Heading",
+      "props": {
+        "text": "Official broadcast",
+        "level": "h3"
+      }
+    },
+    "tweet3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3",
+        "link3"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "aeonframework",
+        "text": "Latest Aeon + MiroShark shiplog posted — covers progress across both products",
+        "likes": 35,
+        "retweets": 5
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2079168764856119619"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reads": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reads",
+        "tweet4_container",
+        "tweet5_container"
+      ]
+    },
+    "heading_reads": {
+      "type": "Heading",
+      "props": {
+        "text": "Outside reads",
+        "level": "h3"
+      }
+    },
+    "tweet4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4",
+        "link4"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Robin_Cult",
+        "handle": "Robin_Cult",
+        "text": "Tags Aaron 'unicorn founder' on Base; cites Steipete + Pewdiepie repo security + $AEON merge as proof-of-utility edge over other chains",
+        "likes": 1,
+        "retweets": 1
+      }
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Robin_Cult/status/2079227447388631301"
+      }
+    },
+    "tweet5_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet5",
+        "link5"
+      ]
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ScuffCrypto",
+        "handle": "ScuffCrypto",
+        "text": "'Configure-once autonomy + skill marketplace is the real picks-and-shovels play' — flags agent monitoring/recovery as the longevity test",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "link5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ScuffCrypto/status/2079205061121507722"
+      }
+    }
+  }
+}

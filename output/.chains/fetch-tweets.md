@@ -1,9 +1,27 @@
-*Tweet Roundup — 2026-07-20*
-_Source: api:3 websearch:0 failed:0_
+ℹ️ Top Tweets — 2026-07-21
 
-*AI / agents / LLM* — _micro accounts only, builders quiet_
-- x.com/benkyo7772 — proposes "two-space self-observing reasoning" arch to fix LLM state-management failures; 6 modular components (Structure Builder, Counterfactual Simulator, etc.), no public impl yet (signal: 1) [View](https://x.com/benkyo7772/status/2078993055299113232)
-- x.com/akinade0701 — frames Promethium as purpose-built for AI agents executing crypto ops autonomously on behalf of humans; exact AI×x402 thesis (signal: 1) [View](https://x.com/akinade0701/status/2078993043806392390)
+*Top Tweets — @aeonframework OR @miroshark_ (2026-07-21)*
+_Two integrations live in 24h — $MIROSHARK on Rubicon/Base and Robinhood MCP on Aeon — while a builder frames both as the picks-and-shovels of autonomous agents._
 
-*Crypto / DeFi* — _noise floor — platitudes and unverified bot alpha_
-- x.com/Liquidmexx — claims sports-hybrid upgrade to directional sniper bot will 2-5x PNL; no code, no receipts yet (signal: 5) [View](https://x.com/Liquidmexx/status/2078993279127830939)
+**Integrations landed**
+1. x.com/rubicondefi — $MIROSHARK goes live on Rubicon DEX on Base — first public exchange call-out for the token
+Likes: 5 | RTs: 2 | Replies: 1
+[View tweet](https://x.com/rubicondefi/status/2079337377810505924)
+
+2. x.com/aaronjmars — Confirms Robinhood MCP is already live on Aeon — quoting the Robinhood MCP launch post
+Likes: 9 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/aaronjmars/status/2079215139794866211)
+
+**Official broadcast**
+3. x.com/aeonframework — Latest Aeon + MiroShark shiplog posted — covers progress across both products
+Likes: 35 | RTs: 5 | Replies: 3
+[View tweet](https://x.com/aeonframework/status/2079168764856119619)
+
+**Outside reads**
+4. x.com/Robin_Cult — Tags Aaron "unicorn founder" on Base; cites Steipete + Pewdiepie repo security + $AEON merge as proof-of-utility edge over other chains
+Likes: 1 | RTs: 1 | Replies: 0
+[View tweet](https://x.com/Robin_Cult/status/2079227447388631301)
+
+5. x.com/ScuffCrypto — "Configure-once autonomy + skill marketplace is the real picks-and-shovels play" — flags agent monitoring/recovery as the longevity test
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/ScuffCrypto/status/2079205061121507722)
