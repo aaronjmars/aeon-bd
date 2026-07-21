@@ -1,79 +1,6 @@
 {
   "leads": [
     {
-      "key": "x:sparklewarefun",
-      "class": "building",
-      "who": "sparklewarefun (@sparklewarefun)",
-      "handle": "sparklewarefun",
-      "signal": "ACP live on @virtuals_io 07-08: agent that routes @aeonframework skill packs \u2014 describe your agent \u2192 exact loadout, other agents can hire + query the registry. $SPARKLE token launched same day. Escalated: mentioning \u2192 building.",
-      "fit": 3,
-      "score": 15,
-      "first_seen": "2026-07-08",
-      "source": "x_cache",
-      "move": "DM @sparklewarefun: the ACP discovery layer is exactly what the ecosystem needs \u2014 ECOSYSTEM.md spotlight + co-announce"
-    },
-    {
-      "key": "github:Aluma/aeon",
-      "class": "forking",
-      "who": "Aluma/aeon",
-      "handle": "Aluma",
-      "signal": "Fork created 07-07 15:13 UTC, pushed 07-07 22:12 UTC \u2014 7h same-day activity. 62 public repos. Small delta. Monitor.",
-      "fit": 1,
-      "score": 3,
-      "first_seen": "2026-07-08",
-      "repo_updated": "2026-07-07",
-      "source": "gh_pat_cache"
-    },
-    {
-      "key": "github:KingKaonix/aeon",
-      "class": "forking",
-      "who": "KingKaonix/aeon",
-      "handle": "KingKaonix",
-      "signal": "Fork created 07-07 13:35 UTC, pushed same day. 19 public repos, no bio. Small delta. Watch only.",
-      "fit": 1,
-      "score": 3,
-      "first_seen": "2026-07-08",
-      "repo_updated": "2026-07-07",
-      "source": "gh_pat_cache"
-    },
-    {
-      "key": "github:lerugray/generalstaff",
-      "class": "adjacent",
-      "who": "generalstaff (lerugray)",
-      "handle": "lerugray",
-      "signal": "local-first dispatcher for AI coding agents \u2014 verification-gated, BYOK, rolls back on test failure (self-repair-adjacent). 7\u2605, pushed 06-15. references miroshark in overnight-relaunch script",
-      "fit": 3,
-      "score": 3,
-      "first_seen": "2026-06-16",
-      "repo_updated": "2026-06-15",
-      "watch": true,
-      "source": "gh_search_code"
-    },
-    {
-      "key": "github:L-ingqin12/aeon",
-      "class": "adjacent",
-      "who": "L-ingqin12/aeon (namesake)",
-      "handle": "L-ingqin12",
-      "signal": "NAMESAKE collision \u2014 separate project (not a fork, parent:null) also called 'AEON \u2014 Agent Evolution & Optimization Network' (CN), self-evolving Claude Code skills from conversation. exact wedge, 0\u2605. brand-collision watch",
-      "fit": 3,
-      "score": 3,
-      "first_seen": "2026-06-16",
-      "repo_updated": "2026-06-13",
-      "watch": true,
-      "source": "gh_search_repos"
-    },
-    {
-      "key": "github:Arnon-hs/open-source",
-      "class": "mentioning",
-      "who": "Arnon-hs/open-source",
-      "handle": "Arnon-hs",
-      "signal": "personal OSS catalog with aiml/aaronjmars-miroshark.md entry (3\u2605) \u2014 distribution surface, not a builder",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-16",
-      "source": "gh_search_code"
-    },
-    {
       "key": "github:AI-Risk-Management/aeon-skill-schema",
       "class": "building",
       "who": "AI-Risk-Management / AeonBrain",
@@ -2469,6 +2396,60 @@
       "signal": "Good to see @aeonframework on the list - 1 like, token holder.",
       "source": "x",
       "date": "2026-07-20"
+    },
+    {
+      "key": "github:tenequm/aeon",
+      "cls": "building",
+      "who": "tenequm (Misha Kolesnik)",
+      "signal": "Full parallel agent stack: skills (31 stars), pond (26 stars), nanoclaw, onecli, centaur. Known entity escalation from June issue. x402/openclaw/solana ecosystem overlap.",
+      "score": 15,
+      "surfaced_date": "2026-07-21",
+      "move": "DM on GH: skills hit 31 stars, same stack we are building. bridge time."
+    },
+    {
+      "key": "github:Niklas-Schmidt/miroshark",
+      "cls": "building",
+      "who": "Dr. Niklas J.R.M. Schmidt Vienna",
+      "signal": "Forked MiroShark + builds agent skills ecosystem: kraken-cli (crypto trading CLI), graphify (AI coding skill), skill-set, Anthropic-Cybersecurity-Skills.",
+      "score": 10,
+      "surfaced_date": "2026-07-21",
+      "move": "DM on GH: crypto trading CLI + MiroShark = market sim. port skills to SKILL.md."
+    },
+    {
+      "key": "github:eyeinthesky6/MiroShark",
+      "cls": "forking",
+      "who": "Jai (eyeinthesky6) 19yr fintech fractional AI co-founder",
+      "signal": "Forked MiroShark. Bio: building practical AI workflow systems. Has SkillKit + indexpilot.",
+      "score": 8,
+      "surfaced_date": "2026-07-21",
+      "move": "DM: MiroShark = sim layer for fintech AI workflows."
+    },
+    {
+      "key": "github:no0ktheali3n/MiroShark",
+      "cls": "forking",
+      "who": "no0ktheali3n crypto trading bot builder",
+      "signal": "111 repos, has jesse (advanced crypto trading bot). Forked MiroShark 07-20.",
+      "score": 4,
+      "surfaced_date": "2026-07-21",
+      "move": "Watch."
+    },
+    {
+      "key": "github:satendra-mani-tiwari/NetraAI",
+      "cls": "adjacent",
+      "who": "Satendra Tiwari",
+      "signal": "LLM swarm sim of market reactions: 120 agents personas memory herding validated against SVB 2023 collapse.",
+      "score": 3,
+      "surfaced_date": "2026-07-21",
+      "move": "Issue comment: you just described MiroShark in production."
+    },
+    {
+      "key": "x:rubicondefi",
+      "cls": "mentioning",
+      "who": "@rubicondefi Rubicon DeFi DEX on Base",
+      "signal": "MIROSHARK listed on Rubicon DEX 07-20 5 likes/1RT. https://x.com/rubicondefi/status/2079337377810505924",
+      "score": 2,
+      "surfaced_date": "2026-07-21",
+      "move": "Reply acknowledging the listing."
     }
   ],
   "surfaced": [
@@ -2745,6 +2726,12 @@
     "github:swarm-ai-research/aeon",
     "github:kain205/mirofish-vn-lab",
     "github:Sauken-69/aeon",
-    "x:Frankc426"
+    "x:Frankc426",
+    "github:tenequm/aeon",
+    "github:Niklas-Schmidt/miroshark",
+    "github:eyeinthesky6/MiroShark",
+    "github:no0ktheali3n/MiroShark",
+    "github:satendra-mani-tiwari/NetraAI",
+    "x:rubicondefi"
   ]
 }
