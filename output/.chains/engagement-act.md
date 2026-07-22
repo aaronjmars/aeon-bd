@@ -1,40 +1,28 @@
-**Engagement Act — 2026-07-21**
+ℹ️ Engagement Act
 
-**1. github:tenequm/aeon (Misha Kolesnik)** (0 days ago) — independently built x402/openclaw/solana stack (31★ skills repo, 26★ pond, nanoclaw, onecli, centaur), then forked Aeon; war-room escalation ★15
-link: https://github.com/tenequm/aeon
-type: GitHub DM
-draft: "yo misha — you converged on x402 + openclaw + solana independently before forking aeon. that's a good tell.
+**Engagement Act — 2026-07-22**
 
-pond + skills is a natural complement to what we're building. want to bridge them? happy to add you to ECOSYSTEM.md and co-announce. ⭐"
+**1. github:dan-and (Daniel Andersen)** (0 days ago) — filed MiroShark issue #240 (offline HuggingFace for air-gapped deployments), didn't wait: shipped the code — forked at feat/offline-hf-cache, built force-disk-load + docker-compose preload helpers. War-room: merge today.
+link: https://github.com/MiroShark/MiroShark/issues/240
+type: GitHub comment (on issue #240)
+draft: "this is exactly the deployment gap miroshark should close natively. reviewing your PR — air-gapped HF inference is a real enterprise unlock. good work"
 
----
+**2. @thosmur** (0 days ago) — "not selling until 10x, believe in @aaronjmars and @aeonframework" — token confidence, 16♥. Mention-radar: opp to pivot holder → framework builder.
+link: https://x.com/thosmur/status/2078609187828023690
+type: X reply
+draft: "appreciate it. while you hold — aeon ships for you. one skill, cron, no babysitting ⭐"
 
-**2. github:Niklas-Schmidt/miroshark (Dr. Niklas Schmidt, Vienna)** (0 days ago) — forked MiroShark, has kraken-cli (AI-native crypto/stocks/forex trading CLI) + 34 skill repos including 817 Anthropic cybersec skills
-link: https://github.com/Niklas-Schmidt/miroshark
-type: GitHub DM
-draft: "hey niklas — kraken-cli + miroshark is an obvious pair. trading CLI meets a swarm sim that argues on X + trades a simulated AMM — the whole stack.
+**3. @rubicondefi** (1 day ago) — $MIROSHARK live on Rubicon DEX on Base. First DEX call-out. 5♥/2RT.
+link: https://x.com/rubicondefi/status/2079337377810505924
+type: X reply
+draft: "first DEX call-out hits. simulations everywhere 🦈 — Base x Rubicon, lfg"
 
-porting your skills to SKILL.md gets them into the aeon catalog automatically. happy to help you bridge. 🦈"
+**4. github:AgentWorkforce/proactive-agents** (0 days ago) — proactiveagents.dev ("software that wakes up because time passed"), already references aaronjmars/aeon in code. DM @khaliqgant or @willwashburn.
+link: https://github.com/AgentWorkforce/proactive-agents
+type: GitHub DM (to @khaliqgant or @willwashburn)
+draft: "saw you already pull aeon into proactive-agents — 'software that wakes up because time passed' is exactly the thesis. cron is trivial, self-repair is the moat. aeon is the canonical framework here. happy to connect"
 
----
-
-**3. github:eyeinthesky6/MiroShark (Jai)** (1 day ago) — AI/Product/Ops operator, 19yr fintech, fractional AI co-founder "building practical AI workflow systems"; forked MiroShark 07-20, has SkillKit
-link: https://github.com/eyeinthesky6/MiroShark
-type: GitHub DM
-draft: "hey jai — saw the fork. miroshark is the sim layer missing from fintech AI workflows. drop in any press release, policy draft, or market event and you get hundreds of agents debating + trading a simulated AMM in <10min for ~$1.
-
-fintech + swarm simulation is obvious. happy to help plug it in. 🦈"
-
----
-
-**4. github:no0ktheali3n/MiroShark** (0 days ago) — new MiroShark fork, score 4
-link: https://github.com/no0ktheali3n/MiroShark
-type: GitHub comment
-draft: "welcome to the 🦈 ecosystem. if you hit any friction or have questions — drop a note here."
-
----
-
-**5. github:satendra-mani-tiwari/NetraAI** (0 days ago) — adjacent AI build, score 3
-link: https://github.com/satendra-mani-tiwari/NetraAI
-type: GitHub comment
-draft: "interesting direction. if you're exploring multi-agent simulation, miroshark might be worth a look — swarm intelligence layer, ~$1 per run. 🦈"
+**5. @Robin_Cult** (1 day ago) — "Aaron as unicorn founder", Steipete/Pewdiepie repo security + $AEON merge. 1♥/1RT.
+link: https://x.com/Robin_Cult/status/2079227447388631301
+type: X reply
+draft: "aeon finding real vulns in prod repos was the product demo we didn't plan ⭐"

@@ -1,0 +1,376 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-22"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1_stack",
+        "sep_1",
+        "item2_stack",
+        "sep_2",
+        "item3_stack",
+        "sep_3",
+        "item4_stack",
+        "sep_4",
+        "item5_stack"
+      ]
+    },
+    "item1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item1_heading",
+        "item1_time_type",
+        "item1_desc",
+        "item1_link",
+        "item1_draft"
+      ]
+    },
+    "item1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "github:dan-and (Daniel Andersen)",
+        "level": "h3"
+      }
+    },
+    "item1_time_type": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item1_time",
+        "item1_type"
+      ]
+    },
+    "item1_time": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago",
+        "variant": "secondary"
+      }
+    },
+    "item1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment"
+      }
+    },
+    "item1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Filed MiroShark issue #240 (offline HuggingFace for air-gapped deployments), didn't wait: shipped the code — forked at feat/offline-hf-cache, built force-disk-load + docker-compose preload helpers. War-room: merge today."
+      }
+    },
+    "item1_link": {
+      "type": "Link",
+      "props": {
+        "label": "Issue #240",
+        "href": "https://github.com/MiroShark/MiroShark/issues/240"
+      }
+    },
+    "item1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"this is exactly the deployment gap miroshark should close natively. reviewing your PR — air-gapped HF inference is a real enterprise unlock. good work\"",
+        "variant": "muted"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item2_heading",
+        "item2_metadata",
+        "item2_tweet",
+        "item2_link",
+        "item2_draft"
+      ]
+    },
+    "item2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@thosmur",
+        "level": "h3"
+      }
+    },
+    "item2_metadata": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago | Token confidence | Mention-radar: opp to pivot holder → framework builder",
+        "variant": "caption"
+      }
+    },
+    "item2_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thosmur",
+        "handle": "thosmur",
+        "text": "not selling until 10x, believe in @aaronjmars and @aeonframework",
+        "likes": 16
+      }
+    },
+    "item2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thosmur/status/2078609187828023690"
+      }
+    },
+    "item2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"appreciate it. while you hold — aeon ships for you. one skill, cron, no babysitting ⭐\"",
+        "variant": "muted"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item3_heading",
+        "item3_time_type",
+        "item3_tweet",
+        "item3_link",
+        "item3_draft"
+      ]
+    },
+    "item3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@rubicondefi",
+        "level": "h3"
+      }
+    },
+    "item3_time_type": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item3_time",
+        "item3_type"
+      ]
+    },
+    "item3_time": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago",
+        "variant": "secondary"
+      }
+    },
+    "item3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "item3_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "rubicondefi",
+        "handle": "rubicondefi",
+        "text": "$MIROSHARK live on Rubicon DEX on Base. First DEX call-out.",
+        "likes": 5,
+        "retweets": 2
+      }
+    },
+    "item3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/rubicondefi/status/2079337377810505924"
+      }
+    },
+    "item3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"first DEX call-out hits. simulations everywhere 🦈 — Base x Rubicon, lfg\"",
+        "variant": "muted"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item4_heading",
+        "item4_time_type",
+        "item4_desc",
+        "item4_link",
+        "item4_draft"
+      ]
+    },
+    "item4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "github:AgentWorkforce/proactive-agents",
+        "level": "h3"
+      }
+    },
+    "item4_time_type": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item4_time",
+        "item4_type"
+      ]
+    },
+    "item4_time": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago",
+        "variant": "secondary"
+      }
+    },
+    "item4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM"
+      }
+    },
+    "item4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "proactiveagents.dev (\"software that wakes up because time passed\"), already references aaronjmars/aeon in code. DM @khaliqgant or @willwashburn."
+      }
+    },
+    "item4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View repo",
+        "href": "https://github.com/AgentWorkforce/proactive-agents"
+      }
+    },
+    "item4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"saw you already pull aeon into proactive-agents — 'software that wakes up because time passed' is exactly the thesis. cron is trivial, self-repair is the moat. aeon is the canonical framework here. happy to connect\"",
+        "variant": "muted"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item5_heading",
+        "item5_time_type",
+        "item5_tweet",
+        "item5_link",
+        "item5_draft"
+      ]
+    },
+    "item5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@Robin_Cult",
+        "level": "h3"
+      }
+    },
+    "item5_time_type": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item5_time",
+        "item5_type"
+      ]
+    },
+    "item5_time": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago",
+        "variant": "secondary"
+      }
+    },
+    "item5_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "item5_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Robin_Cult",
+        "handle": "Robin_Cult",
+        "text": "Aaron as unicorn founder, Steipete/Pewdiepie repo security + $AEON merge.",
+        "likes": 1,
+        "retweets": 1
+      }
+    },
+    "item5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Robin_Cult/status/2079227447388631301"
+      }
+    },
+    "item5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"aeon finding real vulns in prod repos was the product demo we didn't plan ⭐\"",
+        "variant": "muted"
+      }
+    }
+  }
+}
