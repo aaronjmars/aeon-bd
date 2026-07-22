@@ -1,8 +1,8 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-07-20T07:38:38Z",
+  "last_analyzed": "2026-07-22T07:30:44Z",
   "quality_score": 4,
-  "assessment": "Substantive and actionable—surfaced one real BD signal (@lord_proto valuation comparison) with specifics (star counts, HTTP confirmation, date filtering), aligned to strategy priorities.",
+  "assessment": "Focused signal surfacing with concrete findings (star growth crossing threshold, engagement opportunity flagged); well-aligned with GTM/BD priorities and strategy's no-filler stance",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -80,6 +80,10 @@
     },
     {
       "date": "2026-07-20",
+      "score": 4
+    },
+    {
+      "date": "2026-07-22",
       "score": 4
     }
   ]

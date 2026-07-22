@@ -1,0 +1,284 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-07-22"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "aeon_heading",
+        "aeon_content",
+        "sep1",
+        "miroshark_heading",
+        "miroshark_content",
+        "sep2",
+        "engagement_heading",
+        "engagement_content",
+        "sep3",
+        "quiet_text"
+      ]
+    },
+    "aeon_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon_tweet_group",
+        "aeon_social_status",
+        "aeon_github_group"
+      ]
+    },
+    "aeon_tweet_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_tweet_card",
+        "aeon_tweet_meta",
+        "aeon_tweet_link"
+      ]
+    },
+    "aeon_tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thosmur",
+        "handle": "@thosmur",
+        "text": "not selling a cent of $aeon until it hits ATLEAST a 10x belive in @aaronjmars and @aeonframework",
+        "likes": 16,
+        "retweets": 2
+      }
+    },
+    "aeon_tweet_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_tweet_replies",
+        "aeon_tweet_badge",
+        "aeon_tweet_date"
+      ]
+    },
+    "aeon_tweet_replies": {
+      "type": "Text",
+      "props": {
+        "text": "5 replies",
+        "variant": "caption"
+      }
+    },
+    "aeon_tweet_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Token confidence"
+      }
+    },
+    "aeon_tweet_date": {
+      "type": "Badge",
+      "props": {
+        "text": "07-18",
+        "variant": "secondary"
+      }
+    },
+    "aeon_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com",
+        "href": "https://x.com/thosmur/status/2078609187828023690"
+      }
+    },
+    "aeon_social_status": {
+      "type": "Text",
+      "props": {
+        "text": "Reddit / HN / Farcaster / PH: QUIET",
+        "variant": "muted"
+      }
+    },
+    "aeon_github_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "aeon_stars_stat",
+        "aeon_forks_stat",
+        "aeon_status_text"
+      ]
+    },
+    "aeon_stars_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "577"
+      }
+    },
+    "aeon_forks_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "208"
+      }
+    },
+    "aeon_status_text": {
+      "type": "Text",
+      "props": {
+        "text": "flat",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "miroshark_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark_x_status",
+        "miroshark_social_status",
+        "miroshark_github_group"
+      ]
+    },
+    "miroshark_x_status": {
+      "type": "Text",
+      "props": {
+        "text": "X: QUIET (no new organic mentions; @rubicondefi DEX callout already logged 07-21)",
+        "variant": "muted"
+      }
+    },
+    "miroshark_social_status": {
+      "type": "Text",
+      "props": {
+        "text": "Reddit / HN / Farcaster / PH: QUIET",
+        "variant": "muted"
+      }
+    },
+    "miroshark_github_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "miroshark_stars_stat",
+        "miroshark_forks_stat",
+        "miroshark_status_text"
+      ]
+    },
+    "miroshark_stars_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1413",
+        "delta": "+6 since yesterday",
+        "trend": "up"
+      }
+    },
+    "miroshark_forks_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "297"
+      }
+    },
+    "miroshark_status_text": {
+      "type": "Text",
+      "props": {
+        "text": "organic climb continues",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "engagement_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "engagement_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement_item"
+      ]
+    },
+    "engagement_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement_user",
+        "engagement_desc"
+      ]
+    },
+    "engagement_user": {
+      "type": "Text",
+      "props": {
+        "text": "@thosmur",
+        "variant": "lead"
+      }
+    },
+    "engagement_desc": {
+      "type": "Text",
+      "props": {
+        "text": "token-confident holder, 16-like post. Easy pivot — reply thanking the conviction, point them at the framework (the actual moat, not the token). Convert holder → builder.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quiet_text": {
+      "type": "Text",
+      "props": {
+        "text": "QUIET: broader web — no Reddit/HN/Farcaster/PH/blog mentions this cycle",
+        "variant": "muted"
+      }
+    }
+  }
+}
