@@ -1,0 +1,314 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — 2026-07-22",
+        "description": "Direct mentions quiet — but swarm narrative breaking: Cursor's 200-agent SQLite experiment and agenc shipping /swarm both land squarely in Miroshark's core thesis."
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-own-signal",
+        "stack-tweet-1",
+        "separator-1",
+        "stack-tweet-2",
+        "separator-2",
+        "stack-tweet-3",
+        "separator-3",
+        "heading-swarm",
+        "stack-tweet-4",
+        "separator-4",
+        "stack-tweet-5",
+        "separator-5",
+        "heading-competitor",
+        "stack-tweet-6"
+      ]
+    },
+    "heading-own-signal": {
+      "type": "Heading",
+      "props": {
+        "text": "Own signal — Aeon + Miroshark posts",
+        "level": "h2"
+      }
+    },
+    "stack-tweet-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1",
+        "link-tweet-1",
+        "engagement-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Nurstar",
+        "handle": "0xNurstar",
+        "text": "Promoting the Aeon ADK for building autonomous agents in apps/dApps — \"no worries, thanks to our ADK\" makes the accessibility pitch directly",
+        "likes": 8,
+        "retweets": 1
+      }
+    },
+    "link-tweet-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2079525251667431483"
+      }
+    },
+    "engagement-1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-tweet-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2",
+        "link-tweet-2",
+        "engagement-2"
+      ]
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Base_Insights",
+        "handle": "Base_Insights",
+        "text": "Organic inclusion of @miroshark_ in a curated roundup of early Base projects worth watching — unprompted list placement",
+        "likes": 2,
+        "retweets": 1
+      }
+    },
+    "link-tweet-2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Base_Insights/status/2079971583813361991"
+      }
+    },
+    "engagement-2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-tweet-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3",
+        "link-demo",
+        "link-tweet-3",
+        "engagement-3"
+      ]
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Shares project with 200+ actions, 10+ agents across X, Reddit, Polymarket — the full sim-as-infrastructure pitch with a live demo link",
+        "likes": 2,
+        "retweets": 0
+      }
+    },
+    "link-demo": {
+      "type": "Link",
+      "props": {
+        "label": "x402.miroshark.xyz",
+        "href": "https://x402.miroshark.xyz"
+      }
+    },
+    "link-tweet-3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2079600473535881350"
+      }
+    },
+    "engagement-3": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-swarm": {
+      "type": "Heading",
+      "props": {
+        "text": "Swarm zeitgeist — Cursor's 200-agent SQLite experiment",
+        "level": "h2"
+      }
+    },
+    "stack-tweet-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-4",
+        "link-tweet-4",
+        "engagement-4"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "corigrohman",
+        "handle": "corigrohman",
+        "text": "\"the swarm approach I think ultimately wins\" — unprompted endorsement of swarm architecture in response to Cursor recreating SQLite with agent fleets; Miroshark is the product for this thesis",
+        "likes": 2,
+        "retweets": 0
+      }
+    },
+    "link-tweet-4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/corigrohman/status/2079672295014949002"
+      }
+    },
+    "engagement-4": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-tweet-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-5",
+        "link-tweet-5",
+        "engagement-5"
+      ]
+    },
+    "tweet-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "FernandoTN",
+        "handle": "FernandoTN",
+        "text": "\"The swarm is coming for AI\" — Cursor ran hundreds of agents to rebuild SQLite from scratch; frames swarm as the next architectural wave, not a niche experiment",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "link-tweet-5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/FernandoTN/status/2079403655527104768"
+      }
+    },
+    "engagement-5": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-competitor": {
+      "type": "Heading",
+      "props": {
+        "text": "Competitor alert — agenc ships /swarm",
+        "level": "h2"
+      }
+    },
+    "stack-tweet-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-6",
+        "link-tweet-6",
+        "engagement-6"
+      ]
+    },
+    "tweet-6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "signerless",
+        "handle": "signerless",
+        "text": "agenc harness now runs a real agent swarm (/swarm feature, live) — a competing framework shipping swarm natively; closest direct threat to Miroshark's positioning",
+        "likes": 27,
+        "retweets": 5
+      }
+    },
+    "link-tweet-6": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/signerless/status/2079664191816749341"
+      }
+    },
+    "engagement-6": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    }
+  }
+}

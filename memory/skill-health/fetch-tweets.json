@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-21T17:36:14Z",
+  "last_analyzed": "2026-07-22T17:09:13Z",
   "quality_score": 4,
-  "assessment": "Solid signal curation — 5 relevant tweets across 3 actionable clusters (integrations, official, external validation) with engagement context and clear reasoning for culls.",
+  "assessment": "Substantive, well-structured output — fetched 20 candidates, curated to 6 high-signal results organized into 3 strategic clusters (own signal, zeitgeist, competitor alert). API successful, filtering logic clear, memory/logs updated. Actionable intelligence delivered on strategy priorities.",
   "flags": [],
   "avg_score": 3.93,
   "history": [
-    {
-      "date": "2026-06-22",
-      "score": 4
-    },
     {
       "date": "2026-06-23",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-21",
+      "score": 4
+    },
+    {
+      "date": "2026-07-22",
       "score": 4
     }
   ]
