@@ -234,4 +234,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-21,war-room,claude-opus-4-8,2237,9823,949926,82275
 2026-07-21,engagement-act,claude-sonnet-4-6,11,9634,543190,65752
 2026-07-21,fetch-tweets,claude-sonnet-4-6,24,10078,1157113,45015
-2026-07-22,mention-radar,claude-sonnet-4-6,23,9860,1224727,48880
+2026-07-22,bd-radar,claude-sonnet-4-6,33,27990,2513662,79293

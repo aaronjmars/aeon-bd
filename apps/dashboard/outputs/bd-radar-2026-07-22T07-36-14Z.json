@@ -1,0 +1,324 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar 2026-07-22",
+        "description": "1 integrating lead + 2 adjacent"
+      },
+      "children": [
+        "leads_stack",
+        "separator_footer",
+        "footer_section"
+      ]
+    },
+    "leads_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "lead1_container",
+        "sep1",
+        "lead2_container",
+        "sep2",
+        "lead3_container"
+      ]
+    },
+    "lead1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead1_header",
+        "lead1_badge",
+        "lead1_story",
+        "lead1_details",
+        "lead1_action"
+      ]
+    },
+    "lead1_header": {
+      "type": "Heading",
+      "props": {
+        "text": "#1 · dan-and (Daniel Andersen)",
+        "level": "h3"
+      }
+    },
+    "lead1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "integrating",
+        "variant": "default"
+      }
+    },
+    "lead1_story": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark issue #240: offline HuggingFace models for air-gapped environments",
+        "href": "https://github.com/MiroShark/MiroShark/issues/240",
+        "source": "GitHub"
+      }
+    },
+    "lead1_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead1_text1",
+        "lead1_text2",
+        "lead1_text3"
+      ]
+    },
+    "lead1_text1": {
+      "type": "Text",
+      "props": {
+        "text": "didn't just file an issue — already shipped it.",
+        "variant": "body"
+      }
+    },
+    "lead1_text2": {
+      "type": "Text",
+      "props": {
+        "text": "forked MiroShark, built `feat/offline-hf-cache`, added force-disk-load + docker-compose preload helpers. 124 repos. enterprise deployment vector.",
+        "variant": "body"
+      }
+    },
+    "lead1_text3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "lead1_link_danand"
+      ]
+    },
+    "lead1_link_danand": {
+      "type": "Link",
+      "props": {
+        "label": "danand.de",
+        "href": "https://danand.de"
+      }
+    },
+    "lead1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ reply to issue #240, offer to review/merge his branch",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead2_header",
+        "lead2_badge",
+        "lead2_story",
+        "lead2_details",
+        "lead2_action"
+      ]
+    },
+    "lead2_header": {
+      "type": "Heading",
+      "props": {
+        "text": "#2 · Boucle-framework",
+        "level": "h3"
+      }
+    },
+    "lead2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "adjacent",
+        "variant": "secondary"
+      }
+    },
+    "lead2_story": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Boucle-framework",
+        "href": "https://github.com/Bande-a-Bonnot/Boucle-framework",
+        "source": "GitHub",
+        "score": "117★"
+      }
+    },
+    "lead2_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead2_text1",
+        "lead2_text2"
+      ]
+    },
+    "lead2_text1": {
+      "type": "Text",
+      "props": {
+        "text": "claude-code hooks framework — 7 installable hooks, enforcement & audit tooling, 1,900+ tests.",
+        "variant": "body"
+      }
+    },
+    "lead2_text2": {
+      "type": "Text",
+      "props": {
+        "text": "self-updating via boucle-app bot (5 commits today). same ecosystem (claude-code + mcp + safety).",
+        "variant": "body"
+      }
+    },
+    "lead2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ reach out: Boucle hooks + Aeon skills are complementary layers of the same stack",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead3_header",
+        "lead3_badge",
+        "lead3_story",
+        "lead3_details",
+        "lead3_website",
+        "lead3_action"
+      ]
+    },
+    "lead3_header": {
+      "type": "Heading",
+      "props": {
+        "text": "#3 · AgentWorkforce/proactive-agents",
+        "level": "h3"
+      }
+    },
+    "lead3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "adjacent",
+        "variant": "secondary"
+      }
+    },
+    "lead3_story": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AgentWorkforce/proactive-agents",
+        "href": "https://github.com/AgentWorkforce/proactive-agents",
+        "source": "GitHub"
+      }
+    },
+    "lead3_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead3_text1",
+        "lead3_text2"
+      ]
+    },
+    "lead3_text1": {
+      "type": "Text",
+      "props": {
+        "text": "building proactiveagents.dev — \"software that wakes up because time passed, data changed, or someone spoke.\"",
+        "variant": "body"
+      }
+    },
+    "lead3_text2": {
+      "type": "Text",
+      "props": {
+        "text": "already runs own agents. already references aaronjmars/aeon in code.",
+        "variant": "body"
+      }
+    },
+    "lead3_website": {
+      "type": "Link",
+      "props": {
+        "label": "proactiveagents.dev",
+        "href": "https://proactiveagents.dev"
+      }
+    },
+    "lead3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ DM @khaliqgant / @willwashburn: co-publish on Aeon as the canonical proactive framework",
+        "variant": "lead"
+      }
+    },
+    "separator_footer": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "footer_stats",
+        "footer_digest"
+      ]
+    },
+    "footer_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat1",
+        "stat2"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "net-new",
+        "value": "3"
+      }
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "surfaced LRU",
+        "value": "283"
+      }
+    },
+    "footer_digest": {
+      "type": "Link",
+      "props": {
+        "label": "full digest",
+        "href": "output/articles/bd-radar-2026-07-22.md"
+      }
+    }
+  }
+}
