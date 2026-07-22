@@ -1,0 +1,271 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 war room — 2026-07-22",
+        "description": "The daily aeon + miroshark standup — state · talk-to · decide"
+      },
+      "children": [
+        "state-section",
+        "sep-1",
+        "talk-section",
+        "sep-2",
+        "decide-section",
+        "sep-3",
+        "appendix-section"
+      ]
+    },
+    "state-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-state",
+        "stats-grid",
+        "text-state-context"
+      ]
+    },
+    "heading-state": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h3"
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-miroshark",
+        "stat-aeon",
+        "stat-ratio"
+      ]
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1413",
+        "delta": "+6",
+        "trend": "up"
+      }
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "577",
+        "delta": "flat",
+        "trend": "neutral"
+      }
+    },
+    "stat-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Ratio (Shark/Aeon)",
+        "value": "2.5x"
+      }
+    },
+    "text-state-context": {
+      "type": "Text",
+      "props": {
+        "text": "Both pushed yesterday — no stall. Miroshark 4th straight climb day on near-zero pushes; demand outrunning ships.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "talk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-talk",
+        "lead-primary",
+        "lead-secondary"
+      ]
+    },
+    "heading-talk": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk to",
+        "level": "h3"
+      }
+    },
+    "lead-primary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dan-and",
+        "text-dan-and-desc",
+        "link-issue-240"
+      ]
+    },
+    "badge-dan-and": {
+      "type": "Badge",
+      "props": {
+        "text": "dan-and (Daniel Andersen)",
+        "variant": "secondary"
+      }
+    },
+    "text-dan-and-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Didn't file a feature request, shipped the feature: forked miroshark, built offline-HF cache for air-gapped runs.",
+        "variant": "body"
+      }
+    },
+    "link-issue-240": {
+      "type": "Link",
+      "props": {
+        "label": "Issue #240 with PR sitting unmerged",
+        "href": "https://github.com/MiroShark/MiroShark/issues/240"
+      }
+    },
+    "lead-secondary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-agentworkforce",
+        "text-agentworkforce-desc"
+      ]
+    },
+    "badge-agentworkforce": {
+      "type": "Badge",
+      "props": {
+        "text": "AgentWorkforce/proactive-agents (runner-up)",
+        "variant": "outline"
+      }
+    },
+    "text-agentworkforce-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Writing \"the manual on proactive agents,\" already imports aeon in their code.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "decide-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-decide",
+        "alert-action",
+        "text-decision-rationale"
+      ]
+    },
+    "heading-decide": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h3"
+      }
+    },
+    "alert-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Merge dan-and's PR today",
+        "type": "success"
+      }
+    },
+    "text-decision-rationale": {
+      "type": "Text",
+      "props": {
+        "text": "He's an integrating contributor going cold on our clock, not a lead to sell — air-gapped miroshark is the enterprise/regulated wedge, and the fastest BD move we've got is just shipping his code. Cold DMs (tenequm still warm) hold a day.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator"
+    },
+    "appendix-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-appendix",
+        "source-state",
+        "source-leads",
+        "source-context"
+      ]
+    },
+    "heading-appendix": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      }
+    },
+    "source-state": {
+      "type": "Text",
+      "props": {
+        "text": "STATE: live gh api — aeonfun/aeon 577★ / 208f (pushed 2026-07-21) · MiroShark/MiroShark 1413★ / 297f (pushed 2026-07-21). Aeon release v0.1.0; miroshark none. Star trail: miroshark 1394 (07-20) → 1407 (07-21) → 1413 (07-22).",
+        "variant": "caption"
+      }
+    },
+    "source-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-leads-prefix",
+        "link-bd-radar",
+        "text-leads-suffix"
+      ]
+    },
+    "text-leads-prefix": {
+      "type": "Text",
+      "props": {
+        "text": "TALK TO / leads:",
+        "variant": "caption"
+      }
+    },
+    "link-bd-radar": {
+      "type": "Link",
+      "props": {
+        "label": "output/articles/bd-radar-2026-07-22.md",
+        "href": "bd-radar-2026-07-22.md"
+      }
+    },
+    "text-leads-suffix": {
+      "type": "Text",
+      "props": {
+        "text": "(3 net-new: integrating×1, adjacent×2) · memory/topics/bd-radar-leads.json",
+        "variant": "caption"
+      }
+    },
+    "source-context": {
+      "type": "Text",
+      "props": {
+        "text": "CONTEXT: tenequm (bd-radar ★15, 07-21) still the standing warm-DM lead; @thosmur flagged by mention-radar as a token→builder conversion opportunity.",
+        "variant": "caption"
+      }
+    }
+  }
+}

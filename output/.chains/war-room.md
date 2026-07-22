@@ -1,27 +1,25 @@
-ℹ️ ⭐🦈 war room — 2026-07-21
+ℹ️ ⭐🦈 war room — 2026-07-22
 
 ---
 type: Article
-title: War Room — 2026-07-21
-description: Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar.
-tags: [meta, ecosystem, standup]
-timestamp: 2026-07-21T07:45:00Z
+title: War Room — 2026-07-22
+description: The daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar.
+tags: [war-room, standup, ecosystem]
+timestamp: 2026-07-22T07:45:00Z
 ---
 
-⭐🦈 war room — 2026-07-21
+⭐🦈 war room — 2026-07-22
 
-state: both repos moved to their own orgs overnight — **aeonfun/aeon** + **MiroShark/MiroShark** (org transfer, both pushed 22:38). aeon 577★/210f, flat. miroshark 1407★/297f — **+13★ overnight, zero product pushes**, 3rd straight organic-climb day (1379→1394→1407). demand outrunning ships. no stall.
+state: both green, both pushed yesterday — no stall. miroshark +6★ → 1413, 4th straight climb day on near-zero pushes. demand outrunning ships. aeon flat at 577. shark's ~2.5x aeon on stars now.
 
-talk to: **tenequm** (Misha Kolesnik) — filed a glim.sh issue in June, now ships a full parallel stack in our exact language: `skills` 31★ (x402/solana/openclaw/claude-code), `pond` 26★, `nanoclaw`, `onecli`, `centaur`. forked aeon. DM on GH.
+talk to: **dan-and** (Daniel Andersen) — didn't file a feature request, shipped the feature: forked miroshark, built offline-HF cache for air-gapped runs, opened [issue #240](https://github.com/MiroShark/MiroShark/issues/240) with a PR sitting unmerged. runner-up: **AgentWorkforce/proactive-agents** — writing "the manual on proactive agents," already imports aeon in their code.
 
-decide: **DM tenequm while warm.** not a forker — a builder who independently converged on x402/solana/openclaw then forked us. his 31★ repo pulls the next cohort. bridge, don't compete. one move — ship it.
+decide: **merge dan-and's PR today.** he's an integrating contributor going cold on our clock, not a lead to sell — air-gapped miroshark is the enterprise/regulated wedge, and the fastest BD move we've got is just shipping his code. cold DMs (tenequm still warm) hold a day.
 
 ---
 
 ## Appendix — sources
 
-- **STATE** — live `gh api` read (2026-07-21): [aeonfun/aeon](https://github.com/aeonfun/aeon) 577★/210f · pushed 2026-07-20T22:38 · release v0.1.0 (07-09). [MiroShark/MiroShark](https://github.com/MiroShark/MiroShark) 1407★/297f · pushed 2026-07-20T22:38 · no release. Both `aaronjmars/*` paths now redirect to the new orgs. Combined forks 507.
-- **TALK TO / leads** — [`bd-radar-2026-07-21.md`](bd-radar-2026-07-21.md) (6 net-new: building×2, forking×3, mentioning×1). Runner-up: `Niklas-Schmidt/miroshark` (score 10) — Vienna, 34 agent-skill repos + kraken-cli.
-- **Weekly** — `sim-watch` / `idea-forge` — none dated within 7d; omitted.
-</content>
-</invoke>
+- **STATE** — live `gh api`: `aeonfun/aeon` 577★ / 208f (pushed 2026-07-21) · `MiroShark/MiroShark` 1413★ / 297f (pushed 2026-07-21). aeon release v0.1.0; miroshark none. Star trail: miroshark 1394 (07-20) → 1407 (07-21) → 1413 (07-22).
+- **TALK TO / leads** — [`output/articles/bd-radar-2026-07-22.md`](bd-radar-2026-07-22.md) (3 net-new: integrating×1, adjacent×2) · `memory/topics/bd-radar-leads.json`.
+- **Context** — tenequm (bd-radar ★15, 07-21) still the standing warm-DM lead; @thosmur flagged by mention-radar as a token→builder conversion opp.
