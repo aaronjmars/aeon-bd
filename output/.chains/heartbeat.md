@@ -1,10 +1,11 @@
-Fleet is healthy. HEARTBEAT_OK · STATUS_PAGE=OK
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-**P0–P3 all clean:** 10 enabled skills all `success`, no stuck dispatches, no consecutive failures, no stale schedules. bd-radar ran fresh this morning. No open PRs, no open issues. Status page updated to `2026-07-21 08:00 UTC`.
+All 10 enabled skills healthy, no open PRs or issues, status page updated at `docs/status.md`.
 
 ## Summary
 
-- **Checked:** cron-state (10 enabled skills), open PRs/issues, memory flags, schedule intervals
-- **Result:** 🟢 OK — nothing needs attention, no notification sent
-- **Wrote:** `docs/status.md` (updated timestamp + bd-radar's today run reflected in table)
-- **Logged:** `memory/logs/2026-07-21.md` under `### heartbeat` (mode: ambient)
+- **Ran ambient heartbeat check** (default `${var}` = empty path)
+- **P0–P3**: All clean — no failures, no stuck skills, no stalled PRs/issues, all skills within 2× schedule interval
+- **Wrote** `docs/status.md` — 🟢 OK, 10 enabled skills, 0 open issues, updated 2026-07-22 08:00 UTC
+- **Logged** findings to `memory/logs/2026-07-22.md` under `### heartbeat`
+- **No notification sent** — clean run, nothing to surface
