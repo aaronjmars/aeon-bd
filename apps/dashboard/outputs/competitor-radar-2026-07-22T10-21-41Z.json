@@ -1,0 +1,166 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Competitor Launch Radar — 2026-07-22"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "entries_stack",
+        "sep2",
+        "footer_text",
+        "digest_link"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "25 new agent-framework entrants this week (top 8 below):",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "entries_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story1",
+        "story2",
+        "story3",
+        "story4",
+        "story5",
+        "story6",
+        "story7",
+        "story8"
+      ]
+    },
+    "story1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "LM Studio Bionic: the AI agent for open models. LM Studio ships a native AI agent mode for local open-weight models.",
+        "href": "https://news.ycombinator.com/item?id=48939662",
+        "source": "HN",
+        "score": "330"
+      },
+      "children": []
+    },
+    "story2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Jack Dorsey launches Buzz: team chat + AI agents + Git hosting. Block's new product packages agents as a first-class team primitive.",
+        "href": "https://news.ycombinator.com/item?id=48995213",
+        "source": "HN",
+        "score": "321"
+      },
+      "children": []
+    },
+    "story3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "VulnHunter: Capital One's agentic AI code security tool. Capital One open-sources an agentic scanner. Aeon's lane, enterprise edition.",
+        "href": "https://news.ycombinator.com/item?id=48946692",
+        "source": "HN",
+        "score": "78"
+      },
+      "children": []
+    },
+    "story4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AI Agent – TRMNL. The e-ink dashboard device ships an AI agent feature.",
+        "href": "https://news.ycombinator.com/item?id=48996236",
+        "source": "HN",
+        "score": "50"
+      },
+      "children": []
+    },
+    "story5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "LoopGain – Stop agent loops with control theory, not max_iterations. PID-based loop stabilisation for any agent framework.",
+        "href": "https://news.ycombinator.com/item?id=48919562",
+        "source": "HN",
+        "score": "31"
+      },
+      "children": []
+    },
+    "story6": {
+      "type": "StoryLink",
+      "props": {
+        "title": "StyleSeed – design-rules engine so AI agents stop building generic UI. Constrains agent coding output to a design system.",
+        "href": "https://news.ycombinator.com/item?id=48920888",
+        "source": "HN",
+        "score": "24"
+      },
+      "children": []
+    },
+    "story7": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Ratel – give agents unlimited tools and skills without context bloat. Top framework entrant: claims to solve tool-list context inflation.",
+        "href": "https://news.ycombinator.com/item?id=48936491",
+        "source": "HN",
+        "score": "23"
+      },
+      "children": []
+    },
+    "story8": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Libretto PR agents – Automatically fix failing playwright scripts. LLM agents that auto-fix broken Playwright tests. (Libretto also shipped Browser Tools SDK this week.)",
+        "href": "https://news.ycombinator.com/item?id=48939710",
+        "source": "HN",
+        "score": "22"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "... and 17 more.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "digest_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest: competitor-radar-2026-07-22.md",
+        "href": "output/articles/competitor-radar-2026-07-22.md",
+        "source": "Aeon"
+      },
+      "children": []
+    }
+  }
+}

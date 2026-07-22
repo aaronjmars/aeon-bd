@@ -1,10 +1,10 @@
 {
   "skill": "competitor-radar",
-  "last_analyzed": "2026-07-15T10:24:44Z",
+  "last_analyzed": "2026-07-22T10:21:41Z",
   "quality_score": 4,
-  "assessment": "Surfaced 8 competitive agent-framework entrants with strategic market analysis; clear classification and emerging threat signals (security, orchestration, Microsoft)",
+  "assessment": "Substantive, well-structured radar output with 25 specific candidates, sourced from PH/HN, actionable top picks, and strategic context tied to product positioning.",
   "flags": [],
-  "avg_score": 4.25,
+  "avg_score": 4.2,
   "history": [
     {
       "date": "2026-06-17",
@@ -20,6 +20,10 @@
     },
     {
       "date": "2026-07-15",
+      "score": 4
+    },
+    {
+      "date": "2026-07-22",
       "score": 4
     }
   ]

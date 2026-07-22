@@ -1,1 +1,222 @@
-{"last_run":null,"last_status":null,"announced":[]}
+{
+  "last_run": "2026-07-15",
+  "last_status": "COMPETITOR_LAUNCH_RADAR_OK",
+  "announced": [
+    {
+      "id": "hn:48477400",
+      "name": "Apache Burr: Build reliable AI agents and applications",
+      "url": "https://news.ycombinator.com/item?id=48477400",
+      "class": "framework",
+      "score": 249,
+      "source": "hackernews",
+      "announced_at": "2026-06-17"
+    },
+    {
+      "id": "hn:48488870",
+      "name": "Show HN: state-harness \u2014 detect when LLM agents spiral",
+      "url": "https://news.ycombinator.com/item?id=48488870",
+      "class": "product",
+      "score": 10,
+      "source": "hackernews",
+      "announced_at": "2026-06-17"
+    },
+    {
+      "id": "ph:wolfram-mathematica",
+      "name": "Wolfram Language 15",
+      "url": "https://www.producthunt.com/products/wolfram-mathematica",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-06-17"
+    },
+    {
+      "id": "ph:solongate",
+      "name": "SolonGate",
+      "url": "https://www.producthunt.com/products/solongate",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-06-17"
+    },
+    {
+      "id": "ph:paneflow",
+      "name": "PaneFlow",
+      "url": "https://www.producthunt.com/products/paneflow",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-06-17"
+    },
+    {
+      "id": "ph:spanly",
+      "name": "Spanly",
+      "url": "https://www.producthunt.com/products/spanly",
+      "class": "mcp",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-06-17"
+    },
+    {
+      "id": "ph:locus-founder",
+      "name": "Locus Founder",
+      "url": "https://www.producthunt.com/products/locus-founder",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-06-17"
+    },
+    {
+      "id": "hn:48709744",
+      "name": "Ornith-1.0: Self-scaffolding LLMs for agentic coding",
+      "url": "https://news.ycombinator.com/item?id=48709744",
+      "class": "product",
+      "score": 84,
+      "source": "hackernews",
+      "announced_at": "2026-07-01"
+    },
+    {
+      "id": "ph:livinity",
+      "name": "Livinity",
+      "url": "https://www.producthunt.com/products/livinity",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-07-01"
+    },
+    {
+      "id": "ph:sequence",
+      "name": "Sequence Agentic",
+      "url": "https://www.producthunt.com/products/sequence",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-07-01"
+    },
+    {
+      "id": "hn:48767058",
+      "name": "Zuckerberg says AI agent development going slower than expected",
+      "url": "https://news.ycombinator.com/item?id=48767058",
+      "class": "product",
+      "score": 337,
+      "source": "hackernews",
+      "announced_at": "2026-07-08"
+    },
+    {
+      "id": "hn:48769639",
+      "name": "The Safari MCP server for web developers",
+      "url": "https://news.ycombinator.com/item?id=48769639",
+      "class": "mcp",
+      "score": 272,
+      "source": "hackernews",
+      "announced_at": "2026-07-08"
+    },
+    {
+      "id": "hn:48782671",
+      "name": "Agentic coding notes",
+      "url": "https://news.ycombinator.com/item?id=48782671",
+      "class": "product",
+      "score": 177,
+      "source": "hackernews",
+      "announced_at": "2026-07-08"
+    },
+    {
+      "id": "ph:nanokvm-go",
+      "name": "NanoKVM-Go",
+      "url": "https://www.producthunt.com/products/nanokvm-go",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-07-08"
+    },
+    {
+      "id": "ph:mozaik-4",
+      "name": "Mozaik",
+      "url": "https://www.producthunt.com/products/mozaik-4",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-07-08"
+    },
+    {
+      "id": "ph:circlechat",
+      "name": "CircleChat",
+      "url": "https://www.producthunt.com/products/circlechat",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-07-08"
+    },
+    {
+      "id": "hn:48827858",
+      "name": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "url": "https://news.ycombinator.com/item?id=48827858",
+      "class": "product",
+      "score": 539,
+      "source": "hackernews",
+      "announced_at": "2026-07-15"
+    },
+    {
+      "id": "hn:48834924",
+      "name": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+      "url": "https://news.ycombinator.com/item?id=48834924",
+      "class": "product",
+      "score": 348,
+      "source": "hackernews",
+      "announced_at": "2026-07-15"
+    },
+    {
+      "id": "hn:48882716",
+      "name": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "url": "https://news.ycombinator.com/item?id=48882716",
+      "class": "product",
+      "score": 257,
+      "source": "hackernews",
+      "announced_at": "2026-07-15"
+    },
+    {
+      "id": "hn:48832797",
+      "name": "Show HN: Abralo - Free, easy way to run several Claude Code agents in one window",
+      "url": "https://news.ycombinator.com/item?id=48832797",
+      "class": "product",
+      "score": 37,
+      "source": "hackernews",
+      "announced_at": "2026-07-15"
+    },
+    {
+      "id": "hn:48861217",
+      "name": "Show HN: SubjectiveZero, an open-source agentic node editor for creative coding",
+      "url": "https://news.ycombinator.com/item?id=48861217",
+      "class": "product",
+      "score": 25,
+      "source": "hackernews",
+      "announced_at": "2026-07-15"
+    },
+    {
+      "id": "ph:flutterflow",
+      "name": "Campus",
+      "url": "https://www.producthunt.com/products/flutterflow",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-07-15"
+    },
+    {
+      "id": "ph:nomac",
+      "name": "NoMac.app",
+      "url": "https://www.producthunt.com/products/nomac",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-07-15"
+    },
+    {
+      "id": "ph:nyx-4",
+      "name": "Playground",
+      "url": "https://www.producthunt.com/products/nyx-4",
+      "class": "product",
+      "score": null,
+      "source": "producthunt",
+      "announced_at": "2026-07-15"
+    }
+  ]
+}
