@@ -1,0 +1,214 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar 2026-07-23",
+        "description": "3 new builders on the stack today ⭐"
+      },
+      "children": [
+        "builders_container"
+      ]
+    },
+    "builders_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "builder1",
+        "sep1",
+        "builder2",
+        "sep2",
+        "builder3"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "builder1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "b1_heading",
+        "b1_meta",
+        "b1_projects",
+        "b1_desc",
+        "b1_action"
+      ]
+    },
+    "b1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ModifyMe",
+        "level": "h3"
+      }
+    },
+    "b1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "b1_handle",
+        "b1_repos"
+      ]
+    },
+    "b1_handle": {
+      "type": "Badge",
+      "props": {
+        "text": "Ditto190",
+        "variant": "secondary"
+      }
+    },
+    "b1_repos": {
+      "type": "Badge",
+      "props": {
+        "text": "313 repos",
+        "variant": "secondary"
+      }
+    },
+    "b1_projects": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "b1_proj1",
+        "b1_proj2"
+      ]
+    },
+    "b1_proj1": {
+      "type": "Badge",
+      "props": {
+        "text": "openclaude-modme",
+        "variant": "outline"
+      }
+    },
+    "b1_proj2": {
+      "type": "Badge",
+      "props": {
+        "text": "gh-aw-mcpg (GitHub Agentic Workflows MCP Gateway)",
+        "variant": "outline"
+      }
+    },
+    "b1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Running aeon as the agent OS for their company. This isn't a curious fork — it's a company that independently converged on the same infra layer.",
+        "variant": "body"
+      }
+    },
+    "b1_action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Priority: The one to move on",
+        "message": "DM DT on GitHub before they build past us."
+      }
+    },
+    "builder2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "b2_heading",
+        "b2_meta",
+        "b2_affiliation_block",
+        "b2_profile",
+        "b2_desc",
+        "b2_action"
+      ]
+    },
+    "b2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "nvkudva",
+        "level": "h3"
+      }
+    },
+    "b2_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "Vijay @ Uber",
+        "variant": "secondary"
+      }
+    },
+    "b2_affiliation_block": {
+      "type": "Text",
+      "props": {
+        "text": "UI engineer at Uber",
+        "variant": "caption"
+      }
+    },
+    "b2_profile": {
+      "type": "Link",
+      "props": {
+        "label": "medium.com/@nvkudva",
+        "href": "https://medium.com/@nvkudva"
+      }
+    },
+    "b2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Running a full aeon instance since last week. Enterprise practitioner exploring autonomous agents.",
+        "variant": "body"
+      }
+    },
+    "b2_action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Worth a cold DM: what's the use case?"
+      }
+    },
+    "builder3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "b3_heading",
+        "b3_details",
+        "b3_status"
+      ]
+    },
+    "b3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "aeoncity-hub",
+        "level": "h3"
+      }
+    },
+    "b3_details": {
+      "type": "Text",
+      "props": {
+        "text": "Second personal instance (my-aeon) now live alongside their 3D ecosystem explorer.",
+        "variant": "body"
+      }
+    },
+    "b3_status": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "message": "Known builder deepening"
+      }
+    }
+  }
+}
