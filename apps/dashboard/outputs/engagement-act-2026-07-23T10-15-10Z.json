@@ -1,0 +1,427 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-23"
+      },
+      "children": [
+        "item1",
+        "sep1",
+        "item2",
+        "sep2",
+        "item3",
+        "sep3",
+        "item4",
+        "sep4",
+        "item5"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1-heading",
+        "item1-meta",
+        "item1-desc",
+        "item1-link",
+        "item1-draft-label",
+        "item1-draft"
+      ]
+    },
+    "item1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1. github:Ditto190/aeon-modme",
+        "level": "h3"
+      }
+    },
+    "item1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item1-type",
+        "item1-time"
+      ]
+    },
+    "item1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "item1-time": {
+      "type": "Text",
+      "props": {
+        "text": "0d ago",
+        "variant": "caption"
+      }
+    },
+    "item1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "ModifyMe company standardized full aeon stack: openclaude-modme + gh-aw-mcpg GitHub MCP gateway. First company-level aeon deployment.",
+        "variant": "body"
+      }
+    },
+    "item1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Ditto190/aeon-modme-autonomous-framework",
+        "href": "https://github.com/Ditto190/aeon-modme-autonomous-framework",
+        "source": "GitHub"
+      }
+    },
+    "item1-draft-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft Message:",
+        "level": "h4"
+      }
+    },
+    "item1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "hey DT — saw ModifyMe running full aeon stack with openclaude-modme + the GH MCP gateway. first company-level standardization i've seen — what's the product? what are you building on top? would love to understand the use case + get you in the TG community",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item2-heading",
+        "item2-meta",
+        "item2-desc",
+        "item2-link",
+        "item2-draft-label",
+        "item2-draft"
+      ]
+    },
+    "item2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2. github:nvkudva/aeon",
+        "level": "h3"
+      }
+    },
+    "item2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item2-type",
+        "item2-time"
+      ]
+    },
+    "item2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "item2-time": {
+      "type": "Text",
+      "props": {
+        "text": "0d ago",
+        "variant": "caption"
+      }
+    },
+    "item2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Vijay Krishna Kudva (UI eng @ Uber) running full aeon instance since 07-14, 14 days continuous.",
+        "variant": "body"
+      }
+    },
+    "item2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nvkudva/aeon",
+        "href": "https://github.com/nvkudva/aeon",
+        "source": "GitHub"
+      }
+    },
+    "item2-draft-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft Message:",
+        "level": "h4"
+      }
+    },
+    "item2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "hey Vijay — you've been running aeon for 2 weeks now. uber-scale practitioner feedback goes straight into the roadmap — what's working, what's breaking? also there's a TG community if you want to be in the loop on new skills + infra ⭐",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item3-heading",
+        "item3-meta",
+        "item3-desc",
+        "item3-link",
+        "item3-draft-label",
+        "item3-draft"
+      ]
+    },
+    "item3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3. github:aeoncity-hub/my-aeon",
+        "level": "h3"
+      }
+    },
+    "item3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item3-type",
+        "item3-time"
+      ]
+    },
+    "item3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "item3-time": {
+      "type": "Text",
+      "props": {
+        "text": "0d ago",
+        "variant": "caption"
+      }
+    },
+    "item3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Known builder (aeoncity.fun), second aeon instance live today, escalating from fork to personal operator.",
+        "variant": "body"
+      }
+    },
+    "item3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeoncity-hub/my-aeon",
+        "href": "https://github.com/aeoncity-hub/my-aeon",
+        "source": "GitHub"
+      }
+    },
+    "item3-draft-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft Message:",
+        "level": "h4"
+      }
+    },
+    "item3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "second instance live — lfg ⭐ if you hit config walls or want skills that don't exist yet, open an issue or ping us in TG. ecosystem support is there",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item4-heading",
+        "item4-meta",
+        "item4-desc",
+        "item4-link",
+        "item4-draft-label",
+        "item4-draft"
+      ]
+    },
+    "item4-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4. @corigrohman",
+        "level": "h3"
+      }
+    },
+    "item4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item4-type",
+        "item4-time"
+      ]
+    },
+    "item4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "item4-time": {
+      "type": "Text",
+      "props": {
+        "text": "1d ago",
+        "variant": "caption"
+      }
+    },
+    "item4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "\"swarm approach ultimately wins\" — commented on Cursor's 200-agent SQLite rebuild experiment.",
+        "variant": "body"
+      }
+    },
+    "item4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/corigrohman/status/2079672295014949002",
+        "source": "X"
+      }
+    },
+    "item4-draft-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft Message:",
+        "level": "h4"
+      }
+    },
+    "item4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "this is exactly the miroshark thesis — swarms argue, trade, and change their minds. not a gimmick, the actual architecture 🦈 x402.miroshark.xyz",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item5-heading",
+        "item5-meta",
+        "item5-desc",
+        "item5-link",
+        "item5-draft-label",
+        "item5-draft"
+      ]
+    },
+    "item5-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "5. github:Bande-a-Bonnot/Boucle-framework",
+        "level": "h3"
+      }
+    },
+    "item5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item5-type",
+        "item5-time"
+      ]
+    },
+    "item5-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "item5-time": {
+      "type": "Text",
+      "props": {
+        "text": "1d ago",
+        "variant": "caption"
+      }
+    },
+    "item5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "117★ claude-code hooks framework (topics: agent-framework/mcp/claude-code-hooks/safety). Complementary layer to Aeon skills.",
+        "variant": "body"
+      }
+    },
+    "item5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Bande-a-Bonnot/Boucle-framework",
+        "href": "https://github.com/Bande-a-Bonnot/Boucle-framework",
+        "source": "GitHub"
+      }
+    },
+    "item5-draft-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft Message:",
+        "level": "h4"
+      }
+    },
+    "item5-draft": {
+      "type": "Text",
+      "props": {
+        "text": "hey — saw Boucle, 117★ hooks framework. complementary to aeon skills: hooks cover 'when to act', skills cover 'what to run'. aeon has 200+ skills across 8 categories — might be the content layer you're missing. worth a conversation about bridging the two",
+        "variant": "body"
+      }
+    }
+  }
+}

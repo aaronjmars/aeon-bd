@@ -1,28 +1,28 @@
-ℹ️ Engagement Act
+ℹ️ Engagement Act — 2026-07-23
 
-**Engagement Act — 2026-07-22**
+**Engagement Act — 2026-07-23**
 
-**1. github:dan-and (Daniel Andersen)** (0 days ago) — filed MiroShark issue #240 (offline HuggingFace for air-gapped deployments), didn't wait: shipped the code — forked at feat/offline-hf-cache, built force-disk-load + docker-compose preload helpers. War-room: merge today.
-link: https://github.com/MiroShark/MiroShark/issues/240
-type: GitHub comment (on issue #240)
-draft: "this is exactly the deployment gap miroshark should close natively. reviewing your PR — air-gapped HF inference is a real enterprise unlock. good work"
+**1. github:Ditto190/aeon-modme** (0d ago) — ModifyMe company standardized full aeon stack: openclaude-modme + gh-aw-mcpg GitHub MCP gateway. First company-level aeon deployment.
+link: https://github.com/Ditto190/aeon-modme-autonomous-framework
+type: GitHub DM
+draft: "hey DT — saw ModifyMe running full aeon stack with openclaude-modme + the GH MCP gateway. first company-level standardization i've seen — what's the product? what are you building on top? would love to understand the use case + get you in the TG community"
 
-**2. @thosmur** (0 days ago) — "not selling until 10x, believe in @aaronjmars and @aeonframework" — token confidence, 16♥. Mention-radar: opp to pivot holder → framework builder.
-link: https://x.com/thosmur/status/2078609187828023690
+**2. github:nvkudva/aeon** (0d ago) — Vijay Krishna Kudva (UI eng @ Uber) running full aeon instance since 07-14, 14 days continuous.
+link: https://github.com/nvkudva/aeon
+type: GitHub DM
+draft: "hey Vijay — you've been running aeon for 2 weeks now. uber-scale practitioner feedback goes straight into the roadmap — what's working, what's breaking? also there's a TG community if you want to be in the loop on new skills + infra ⭐"
+
+**3. github:aeoncity-hub/my-aeon** (0d ago) — Known builder (aeoncity.fun), second aeon instance live today, escalating from fork to personal operator.
+link: https://github.com/aeoncity-hub/my-aeon
+type: GitHub comment
+draft: "second instance live — lfg ⭐ if you hit config walls or want skills that don't exist yet, open an issue or ping us in TG. ecosystem support is there"
+
+**4. @corigrohman** (1d ago) — "swarm approach ultimately wins" — commented on Cursor's 200-agent SQLite rebuild experiment.
+link: https://x.com/corigrohman/status/2079672295014949002
 type: X reply
-draft: "appreciate it. while you hold — aeon ships for you. one skill, cron, no babysitting ⭐"
+draft: "this is exactly the miroshark thesis — swarms argue, trade, and change their minds. not a gimmick, the actual architecture 🦈 x402.miroshark.xyz"
 
-**3. @rubicondefi** (1 day ago) — $MIROSHARK live on Rubicon DEX on Base. First DEX call-out. 5♥/2RT.
-link: https://x.com/rubicondefi/status/2079337377810505924
-type: X reply
-draft: "first DEX call-out hits. simulations everywhere 🦈 — Base x Rubicon, lfg"
-
-**4. github:AgentWorkforce/proactive-agents** (0 days ago) — proactiveagents.dev ("software that wakes up because time passed"), already references aaronjmars/aeon in code. DM @khaliqgant or @willwashburn.
-link: https://github.com/AgentWorkforce/proactive-agents
-type: GitHub DM (to @khaliqgant or @willwashburn)
-draft: "saw you already pull aeon into proactive-agents — 'software that wakes up because time passed' is exactly the thesis. cron is trivial, self-repair is the moat. aeon is the canonical framework here. happy to connect"
-
-**5. @Robin_Cult** (1 day ago) — "Aaron as unicorn founder", Steipete/Pewdiepie repo security + $AEON merge. 1♥/1RT.
-link: https://x.com/Robin_Cult/status/2079227447388631301
-type: X reply
-draft: "aeon finding real vulns in prod repos was the product demo we didn't plan ⭐"
+**5. github:Bande-a-Bonnot/Boucle-framework** (1d ago) — 117★ claude-code hooks framework (topics: agent-framework/mcp/claude-code-hooks/safety). Complementary layer to Aeon skills.
+link: https://github.com/Bande-a-Bonnot/Boucle-framework
+type: GitHub DM
+draft: "hey — saw Boucle, 117★ hooks framework. complementary to aeon skills: hooks cover 'when to act', skills cover 'what to run'. aeon has 200+ skills across 8 categories — might be the content layer you're missing. worth a conversation about bridging the two"
