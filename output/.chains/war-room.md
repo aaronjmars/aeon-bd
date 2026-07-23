@@ -1,25 +1,25 @@
-ℹ️ ⭐🦈 war room — 2026-07-22
+ℹ️ ⭐🦈 war room — 2026-07-23
 
 ---
 type: Article
-title: War Room — 2026-07-22
+title: War Room — 2026-07-23
 description: The daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar.
 tags: [war-room, standup, ecosystem]
-timestamp: 2026-07-22T07:45:00Z
+timestamp: 2026-07-23T07:45:00Z
 ---
 
-⭐🦈 war room — 2026-07-22
+⭐🦈 war room — 2026-07-23
 
-state: both green, both pushed yesterday — no stall. miroshark +6★ → 1413, 4th straight climb day on near-zero pushes. demand outrunning ships. aeon flat at 577. shark's ~2.5x aeon on stars now.
+state: both green, no stall. aeon 578★/209f, miroshark 1415★/297f. shark's star climb is cooling hard — +13 → +6 → +2 across three days. the counters aren't the story today, the leads are.
 
-talk to: **dan-and** (Daniel Andersen) — didn't file a feature request, shipped the feature: forked miroshark, built offline-HF cache for air-gapped runs, opened [issue #240](https://github.com/MiroShark/MiroShark/issues/240) with a PR sitting unmerged. runner-up: **AgentWorkforce/proactive-agents** — writing "the manual on proactive agents," already imports aeon in their code.
+talk to: **Ditto190 (DT / ModifyMe)** — a company running full aeon as its agent OS, wrapped in an in-house stack: openclaude-modme (openclaw alt) + gh-aw-mcpg (GitHub MCP gateway) + a vllm fork. not a drive-by fork, an infra bet. runner-up: **nvkudva** — Uber eng running an aeon instance since 07-14.
 
-decide: **merge dan-and's PR today.** he's an integrating contributor going cold on our clock, not a lead to sell — air-gapped miroshark is the enterprise/regulated wedge, and the fastest BD move we've got is just shipping his code. cold DMs (tenequm still warm) hold a day.
+decide: **DM DT today.** highest-score lead in weeks (15), and the only one that's a *company* standardizing on aeon rather than a solo run. ask what ModifyMe ships + why aeon's the OS layer — if they anchor, that's an ecosystem tentpole, not a lead. tenequm's warm DM holds a day.
 
 ---
 
 ## Appendix — sources
 
-- **STATE** — live `gh api`: `aeonfun/aeon` 577★ / 208f (pushed 2026-07-21) · `MiroShark/MiroShark` 1413★ / 297f (pushed 2026-07-21). aeon release v0.1.0; miroshark none. Star trail: miroshark 1394 (07-20) → 1407 (07-21) → 1413 (07-22).
-- **TALK TO / leads** — [`output/articles/bd-radar-2026-07-22.md`](bd-radar-2026-07-22.md) (3 net-new: integrating×1, adjacent×2) · `memory/topics/bd-radar-leads.json`.
-- **Context** — tenequm (bd-radar ★15, 07-21) still the standing warm-DM lead; @thosmur flagged by mention-radar as a token→builder conversion opp.
+- **STATE** — live `gh api`: `aeonfun/aeon` 578★ / 209f (pushed 2026-07-22, release v0.1.0) · `MiroShark/MiroShark` 1415★ / 297f (pushed 2026-07-21, no release). Both pushed this week — no stall. Star trail: miroshark 1394 (07-20) → 1407 (07-21) → 1413 (07-22) → 1415 (07-23); aeon 577 → 578.
+- **TALK TO / leads** — [`output/articles/bd-radar-2026-07-23.md`](bd-radar-2026-07-23.md) (9 net-new: building×5, forking×4) · `memory/topics/bd-radar-leads.json`.
+- **Context** — tenequm (bd-radar ★15, 07-21) still the standing warm-DM lead; luis212/NovaShoal-Swarm-Sim compounding organically at 151★ (was 3 on 06-29).

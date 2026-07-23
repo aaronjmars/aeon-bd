@@ -1,0 +1,373 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⭐🦈 War Room — 2026-07-23",
+        "description": "The daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar."
+      },
+      "children": [
+        "stack-metadata",
+        "separator-meta",
+        "heading-state",
+        "text-state-status",
+        "stack-metrics",
+        "text-star-trend",
+        "separator-1",
+        "heading-talk-to",
+        "stack-leads",
+        "separator-2",
+        "heading-decide",
+        "text-decide-action",
+        "text-decide-reasoning",
+        "separator-3",
+        "heading-appendix",
+        "stack-sources"
+      ]
+    },
+    "stack-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-warroom",
+        "badge-standup",
+        "badge-ecosystem",
+        "text-timestamp"
+      ]
+    },
+    "badge-warroom": {
+      "type": "Badge",
+      "props": {
+        "text": "war-room"
+      }
+    },
+    "badge-standup": {
+      "type": "Badge",
+      "props": {
+        "text": "standup"
+      }
+    },
+    "badge-ecosystem": {
+      "type": "Badge",
+      "props": {
+        "text": "ecosystem"
+      }
+    },
+    "text-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-23 07:45 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator-meta": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-state": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "text-state-status": {
+      "type": "Text",
+      "props": {
+        "text": "Both green, no stall. The counters aren't the story today, the leads are.",
+        "variant": "lead"
+      }
+    },
+    "stack-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-aeon-stars",
+        "stat-aeon-forks",
+        "stat-shark-stars",
+        "stat-shark-forks"
+      ]
+    },
+    "stat-aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "578",
+        "delta": "+1"
+      }
+    },
+    "stat-aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Forks",
+        "value": "209"
+      }
+    },
+    "stat-shark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1415",
+        "delta": "+2",
+        "trend": "down"
+      }
+    },
+    "stat-shark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Forks",
+        "value": "297"
+      }
+    },
+    "text-star-trend": {
+      "type": "Text",
+      "props": {
+        "text": "Miroshark star climb is cooling hard — +13 → +6 → +2 across three days.",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-talk-to": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "stack-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead-ditto190",
+        "lead-nvkudva"
+      ]
+    },
+    "lead-ditto190": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-ditto190-title",
+        "badge-ditto-primary",
+        "text-ditto190-stack",
+        "text-ditto190-note"
+      ]
+    },
+    "text-ditto190-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Ditto190 (DT / ModifyMe)",
+        "level": "h3"
+      }
+    },
+    "badge-ditto-primary": {
+      "type": "Badge",
+      "props": {
+        "text": "PRIMARY LEAD",
+        "variant": "default"
+      }
+    },
+    "text-ditto190-stack": {
+      "type": "Text",
+      "props": {
+        "text": "A company running full aeon as its agent OS, wrapped in an in-house stack: openclaude-modme (openclaw alt) + gh-aw-mcpg (GitHub MCP gateway) + a vllm fork. Not a drive-by fork, an infra bet.",
+        "variant": "body"
+      }
+    },
+    "text-ditto190-note": {
+      "type": "Text",
+      "props": {
+        "text": "Highest-score lead in weeks (15), only company standardizing on aeon rather than solo run.",
+        "variant": "caption"
+      }
+    },
+    "lead-nvkudva": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-nvkudva-title",
+        "badge-nvkudva-runner-up",
+        "text-nvkudva-desc"
+      ]
+    },
+    "text-nvkudva-title": {
+      "type": "Heading",
+      "props": {
+        "text": "nvkudva",
+        "level": "h3"
+      }
+    },
+    "badge-nvkudva-runner-up": {
+      "type": "Badge",
+      "props": {
+        "text": "RUNNER-UP",
+        "variant": "secondary"
+      }
+    },
+    "text-nvkudva-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Uber eng running an aeon instance since 07-14.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-decide": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "text-decide-action": {
+      "type": "Text",
+      "props": {
+        "text": "DM DT today.",
+        "variant": "lead"
+      }
+    },
+    "text-decide-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "Highest-score lead in weeks (15), and the only one that's a company standardizing on aeon rather than a solo run. Ask what ModifyMe ships + why aeon's the OS layer — if they anchor, that's an ecosystem tentpole, not a lead. tenequm's warm DM holds a day.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-appendix": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      }
+    },
+    "stack-sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source-state",
+        "source-talk-to",
+        "source-context"
+      ]
+    },
+    "source-state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-state-label",
+        "source-state-text"
+      ]
+    },
+    "source-state-label": {
+      "type": "Heading",
+      "props": {
+        "text": "STATE",
+        "level": "h3"
+      }
+    },
+    "source-state-text": {
+      "type": "Text",
+      "props": {
+        "text": "Live gh api: aeonfun/aeon 578★ / 209f (pushed 2026-07-22, release v0.1.0) · MiroShark/MiroShark 1415★ / 297f (pushed 2026-07-21, no release). Both pushed this week — no stall. Star trail: miroshark 1394 (07-20) → 1407 (07-21) → 1413 (07-22) → 1415 (07-23); aeon 577 → 578.",
+        "variant": "caption"
+      }
+    },
+    "source-talk-to": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-talk-to-label",
+        "source-talk-to-link",
+        "source-talk-to-detail"
+      ]
+    },
+    "source-talk-to-label": {
+      "type": "Heading",
+      "props": {
+        "text": "TALK TO / leads",
+        "level": "h3"
+      }
+    },
+    "source-talk-to-link": {
+      "type": "Link",
+      "props": {
+        "label": "output/articles/bd-radar-2026-07-23.md",
+        "href": "output/articles/bd-radar-2026-07-23.md"
+      }
+    },
+    "source-talk-to-detail": {
+      "type": "Text",
+      "props": {
+        "text": "9 net-new: building×5, forking×4 · memory/topics/bd-radar-leads.json",
+        "variant": "caption"
+      }
+    },
+    "source-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-context-label",
+        "source-context-text"
+      ]
+    },
+    "source-context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "source-context-text": {
+      "type": "Text",
+      "props": {
+        "text": "tenequm (bd-radar ★15, 07-21) still the standing warm-DM lead; luis212/NovaShoal-Swarm-Sim compounding organically at 151★ (was 3 on 06-29).",
+        "variant": "caption"
+      }
+    }
+  }
+}

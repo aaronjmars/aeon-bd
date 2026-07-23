@@ -1,15 +1,11 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-22T08:20:48Z",
-  "quality_score": 4,
-  "assessment": "Substantive standup with concrete metrics, specific BD signals (dan-and's PR, integrating contributor), and a clear time-sensitive decision. Well-structured, data-grounded, and strategically aligned.",
+  "last_analyzed": "2026-07-23T08:31:50Z",
+  "quality_score": 5,
+  "assessment": "Delivered ranked BD lead (Ditto190/ModifyMe, score 15) with clear priority rationale, flagged cooling momentum pattern (+13→+6→+2 stars), live data sourced, tight and actionable for audience.",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 4.03,
   "history": [
-    {
-      "date": "2026-06-22",
-      "score": 4
-    },
     {
       "date": "2026-06-23",
       "score": 4
@@ -125,6 +121,10 @@
     {
       "date": "2026-07-22",
       "score": 4
+    },
+    {
+      "date": "2026-07-23",
+      "score": 5
     }
   ]
 }
