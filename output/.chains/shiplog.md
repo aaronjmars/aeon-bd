@@ -1,18 +1,20 @@
-✅ shiplog ⭐🦈 jul 16→20
+✅ Shiplog ⭐🦈 Jul 20–23
 
-aeon + miroshark shiplog ⭐🦈 jul 16 → jul 20
+aeon + miroshark shiplog ⭐🦈 jul 20 → jul 23
 
-shipped 20 PRs + 21 commits this window. the bytes:
+shipped 33 PRs (32 merged) across the fleet. the bytes:
 
-- **defilllama**: aeon + miroshark + miroshark-x402 fees adapters merged into dimension-adapters — both products tracked on defillama now. revenue, public trace.
-- **ADK**: aeon developer kit live — integrate aeon into your site, let users run their own instance in 1-click. github app + api + skill packs
-- **mcp expanded**: executor cloud + robinhood-mcp + glim-mcp. dashboard got a PAT setup panel. 61 skills in catalog.
-- **miroshark model**: fine-tuned qwen3.5-9b on 9k curated posts → 50% quality improvement on agent sim posts. DPO next. 🦈
-- **minitor**: 40-platform monitoring dashboard, agent-triggered workflows — 34♥/4RT on the post.
-- **security**: scanned SpaceXAI's grok build repo, found a vuln. streak: google, vercel, alibaba, now spacexai ⭐
+- **security sweep:** 6+ CVEs closed across MiroShark, opendia, aeon dashboard, tweazy, agent-credit — agent lands real fixes into community repos. CVE-2026-13311, CVE-2026-59950, GHSA-xcpc-8h2w-3j85, 2× sharp/libvips high-sev, auth bypass in opendia
+- **secured-watch:** new aeon skill monitors aeonfun/security every 2d and diffs for new advisories ⭐ self-repair is the moat
+- **miroshark:** 9 commits, 9 merged PRs — CVE patches ported into MiroShark/MiroShark 🦈
+- **repo-pulse:** stacks all repos into one notification, watches aeonfun org ⭐
 
 traction:
-- miroshark 1394 🦈 (+29 this window) — no new push for 4+ days. demand outrunning ships
-- aeon 577 ⭐ (+1)
+- @miroshark_ 1415 ⭐ (+21 this window) — organic, demand outrunning ships
+- @aeonframework 578 ⭐ (+1)
+- featured by @Base_Insights (21.9k): @miroshark_ in "Early" Base roundup, organic
+- @0xNurstar dropped a YouTube video (24♥ repost from @aaronjmars)
 
-https://github.com/aaronjmars/aeon-nur/blob/main/output/articles/shiplog-2026-07-20.md
+⭐
+
+https://github.com/aaronjmars/aeon-nur/blob/main/output/articles/shiplog-2026-07-23.md

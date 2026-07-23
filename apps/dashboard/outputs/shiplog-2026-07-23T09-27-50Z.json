@@ -1,0 +1,295 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Shiplog ⭐🦈 Jul 20–23"
+      },
+      "children": [
+        "heading_intro",
+        "stat_prs",
+        "separator_1",
+        "heading_bytes",
+        "stack_security",
+        "stack_secured_watch",
+        "stack_miroshark",
+        "stack_repo_pulse",
+        "separator_2",
+        "heading_traction",
+        "stack_traction",
+        "separator_3",
+        "link_article"
+      ]
+    },
+    "heading_intro": {
+      "type": "Heading",
+      "props": {
+        "text": "aeon + miroshark shiplog ⭐🦈 jul 20 → jul 23",
+        "level": "h2"
+      }
+    },
+    "stat_prs": {
+      "type": "Stat",
+      "props": {
+        "label": "PRs shipped across the fleet",
+        "value": "33",
+        "delta": "32 merged"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_bytes": {
+      "type": "Heading",
+      "props": {
+        "text": "The bytes",
+        "level": "h3"
+      }
+    },
+    "stack_security": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_security",
+        "text_security",
+        "grid_cves"
+      ]
+    },
+    "heading_security": {
+      "type": "Heading",
+      "props": {
+        "text": "Security sweep",
+        "level": "h4"
+      }
+    },
+    "text_security": {
+      "type": "Text",
+      "props": {
+        "text": "6+ CVEs closed across MiroShark, opendia, aeon dashboard, tweazy, agent-credit — agent lands real fixes into community repos.",
+        "variant": "body"
+      }
+    },
+    "grid_cves": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cve_1",
+        "badge_cve_2",
+        "badge_cve_3",
+        "badge_cve_4",
+        "badge_cve_5"
+      ]
+    },
+    "badge_cve_1": {
+      "type": "Badge",
+      "props": {
+        "text": "CVE-2026-13311",
+        "variant": "destructive"
+      }
+    },
+    "badge_cve_2": {
+      "type": "Badge",
+      "props": {
+        "text": "CVE-2026-59950",
+        "variant": "destructive"
+      }
+    },
+    "badge_cve_3": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-xcpc-8h2w-3j85",
+        "variant": "destructive"
+      }
+    },
+    "badge_cve_4": {
+      "type": "Badge",
+      "props": {
+        "text": "2× sharp/libvips high-sev",
+        "variant": "destructive"
+      }
+    },
+    "badge_cve_5": {
+      "type": "Badge",
+      "props": {
+        "text": "auth bypass in opendia",
+        "variant": "destructive"
+      }
+    },
+    "stack_secured_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_secured_watch",
+        "text_secured_watch"
+      ]
+    },
+    "heading_secured_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "⭐ Secured-watch",
+        "level": "h4"
+      }
+    },
+    "text_secured_watch": {
+      "type": "Text",
+      "props": {
+        "text": "New aeon skill monitors aeonfun/security every 2d and diffs for new advisories",
+        "variant": "body"
+      }
+    },
+    "stack_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_miroshark",
+        "text_miroshark"
+      ]
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "🦈 MiroShark",
+        "level": "h4"
+      }
+    },
+    "text_miroshark": {
+      "type": "Text",
+      "props": {
+        "text": "9 commits, 9 merged PRs — CVE patches ported into MiroShark",
+        "variant": "body"
+      }
+    },
+    "stack_repo_pulse": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_repo_pulse",
+        "text_repo_pulse"
+      ]
+    },
+    "heading_repo_pulse": {
+      "type": "Heading",
+      "props": {
+        "text": "⭐ Repo-pulse",
+        "level": "h4"
+      }
+    },
+    "text_repo_pulse": {
+      "type": "Text",
+      "props": {
+        "text": "Stacks all repos into one notification, watches aeonfun org",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_traction": {
+      "type": "Heading",
+      "props": {
+        "text": "Traction",
+        "level": "h3"
+      }
+    },
+    "stack_traction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "traction_item_1",
+        "traction_item_2",
+        "traction_item_3",
+        "traction_item_4"
+      ]
+    },
+    "traction_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_miroshark",
+        "text_miroshark_context"
+      ]
+    },
+    "stat_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "@miroshark_",
+        "value": "1415",
+        "delta": "+21 this window",
+        "trend": "up"
+      }
+    },
+    "text_miroshark_context": {
+      "type": "Text",
+      "props": {
+        "text": "organic, demand outrunning ships",
+        "variant": "caption"
+      }
+    },
+    "traction_item_2": {
+      "type": "Stat",
+      "props": {
+        "label": "@aeonframework",
+        "value": "578",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "traction_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "Featured by @Base_Insights (21.9k): @miroshark_ in \"Early\" Base roundup, organic",
+        "variant": "body"
+      }
+    },
+    "traction_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "@0xNurstar dropped a YouTube video (24♥ repost from @aaronjmars)",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_article": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full shiplog article",
+        "href": "https://github.com/aaronjmars/aeon-nur/blob/main/output/articles/shiplog-2026-07-23.md",
+        "source": "GitHub"
+      }
+    }
+  }
+}
