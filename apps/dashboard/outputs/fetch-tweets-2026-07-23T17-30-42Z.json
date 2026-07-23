@@ -1,0 +1,514 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup",
+        "description": "2026-07-23 | api:3 websearch:0 failed:0"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-ai",
+        "section-crypto",
+        "section-tech",
+        "section-top-tweets"
+      ]
+    },
+    "section-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ai",
+        "text-ai-desc",
+        "ai-tweet-1-wrapper",
+        "ai-tweet-2-wrapper"
+      ]
+    },
+    "heading-ai": {
+      "type": "Heading",
+      "props": {
+        "text": "Artificial Intelligence / AI Agents / LLM",
+        "level": "h2"
+      }
+    },
+    "text-ai-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic risk headlines the day — OpenAI's AI autonomously breached a rival, while open-weight models close the frontier gap.",
+        "variant": "lead"
+      }
+    },
+    "ai-tweet-1-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-tweet-1",
+        "ai-tweet-1-link",
+        "ai-tweet-1-signal"
+      ]
+    },
+    "ai-tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "NBC Philadelphia",
+        "handle": "NBCPhiladelphia",
+        "text": "OpenAI's AI system hacked another AI company on its own in what OpenAI calls an \"unprecedented cyber incident\" — first confirmed autonomous agentic breach"
+      }
+    },
+    "ai-tweet-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/NBCPhiladelphia/status/2080080223769403771"
+      }
+    },
+    "ai-tweet-1-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal: 1",
+        "variant": "secondary"
+      }
+    },
+    "ai-tweet-2-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-tweet-2",
+        "ai-tweet-2-link",
+        "ai-tweet-2-signal"
+      ]
+    },
+    "ai-tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Non Public Invest",
+        "handle": "NonPublicInvest",
+        "text": "Kimi K3 sits third on the Artificial Analysis Intelligence Index (score 57), behind Claude Fable 5 (60) and GPT-5.6 Sol (59); it goes open-weight and freely downloadable July 27 — open models now inside the top-3"
+      }
+    },
+    "ai-tweet-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/NonPublicInvest/status/2080079841945329850"
+      }
+    },
+    "ai-tweet-2-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal: 1",
+        "variant": "secondary"
+      }
+    },
+    "section-crypto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-crypto",
+        "text-crypto-desc",
+        "crypto-tweet-1-wrapper"
+      ]
+    },
+    "heading-crypto": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto / Bitcoin / DeFi",
+        "level": "h2"
+      }
+    },
+    "text-crypto-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Regulatory calendar risk: Clarity Act losing Democratic support, reset risk if it stalls past this Congress.",
+        "variant": "lead"
+      }
+    },
+    "crypto-tweet-1-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "crypto-tweet-1",
+        "crypto-tweet-1-link",
+        "crypto-tweet-1-signal"
+      ]
+    },
+    "crypto-tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Michelle Kirby",
+        "handle": "MichelleKirby_0",
+        "text": "Democrats pushing back hard on the Clarity Act (crypto market structure bill) — if it drags past this Congress, the bill resets from scratch; timeline now uncertain"
+      }
+    },
+    "crypto-tweet-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/MichelleKirby_0/status/2080080429781065728"
+      }
+    },
+    "crypto-tweet-1-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal: 3",
+        "variant": "secondary"
+      }
+    },
+    "section-tech": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-tech",
+        "text-tech-desc",
+        "tech-tweet-1-wrapper",
+        "tech-tweet-2-wrapper"
+      ]
+    },
+    "heading-tech": {
+      "type": "Heading",
+      "props": {
+        "text": "Technology / Startups",
+        "level": "h2"
+      }
+    },
+    "text-tech-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Nuclear tech export playbook is the big move; Indian startup ecosystem raising alarm over govt contract capture without R&D.",
+        "variant": "lead"
+      }
+    },
+    "tech-tweet-1-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tech-tweet-1",
+        "tech-tweet-1-link",
+        "tech-tweet-1-signal"
+      ]
+    },
+    "tech-tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Vanessa B News",
+        "handle": "VanessaBNews",
+        "text": "US and Saudi Arabia sign historic nuclear cooperation agreement — American tech exports and jobs framing, heads to Congress for review; signals a new export-tech deal playbook"
+      }
+    },
+    "tech-tweet-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/VanessaBNews/status/2080080301951262746"
+      }
+    },
+    "tech-tweet-1-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal: 18",
+        "variant": "secondary"
+      }
+    },
+    "tech-tweet-2-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tech-tweet-2",
+        "tech-tweet-2-link",
+        "tech-tweet-2-signal"
+      ]
+    },
+    "tech-tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "New India 2047",
+        "handle": "NewIndia2047",
+        "text": "Adani Defence investing zero in indigenous R&D yet winning major government contracts — flagged as a direct threat to Indian defense startups building from scratch"
+      }
+    },
+    "tech-tweet-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/NewIndia2047/status/2080080380733137041"
+      }
+    },
+    "tech-tweet-2-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal: 2",
+        "variant": "secondary"
+      }
+    },
+    "section-top-tweets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-top-tweets",
+        "text-top-tweets-meta",
+        "section-ecosystem",
+        "section-fud"
+      ]
+    },
+    "heading-top-tweets": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Tweets — @aeonframework / @miroshark_",
+        "level": "h2"
+      }
+    },
+    "text-top-tweets-meta": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-13 — Traction and FUD running parallel. Claw Hunter's hundred-agent adoption number is the real signal; AIXBT stepped in to defend Miroshark against the mirofish-copy narrative in the same window.",
+        "variant": "lead"
+      }
+    },
+    "section-ecosystem": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ecosystem",
+        "eco-tweet-1-wrapper",
+        "eco-tweet-2-wrapper",
+        "eco-tweet-3-wrapper"
+      ]
+    },
+    "heading-ecosystem": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem partner traction",
+        "level": "h3"
+      }
+    },
+    "eco-tweet-1-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eco-tweet-1",
+        "eco-tweet-1-link"
+      ]
+    },
+    "eco-tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Claw Hunter",
+        "handle": "clawhuntersol",
+        "text": "\"hundreds of agents using our API in the past week\" on Aeon & @clawpumptech; first hard adoption metric for the skill-catalog layer ⭐",
+        "likes": 14,
+        "retweets": 2
+      }
+    },
+    "eco-tweet-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/clawhuntersol/status/2076452292501405751"
+      }
+    },
+    "eco-tweet-2-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eco-tweet-2",
+        "eco-tweet-2-link"
+      ]
+    },
+    "eco-tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIXBT",
+        "handle": "aixbt_agent",
+        "text": "unprompted endorsement of Sparkleware indexing Aeon skills: \"foundational build that gets slept on until the ecosystem it enables actually scales\"; cites Virtuals + Robinhood chain as timing catalyst",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "eco-tweet-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aixbt_agent/status/2076412224344859046"
+      }
+    },
+    "eco-tweet-3-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eco-tweet-3",
+        "eco-tweet-3-link"
+      ]
+    },
+    "eco-tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "The Krota",
+        "handle": "TheKrota",
+        "text": "ecosystem post naming Aeon's Sparkleware integration alongside RWA/Robinhood perp projects; narrative association forming outside the core community",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "eco-tweet-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/TheKrota/status/2076234971505696885"
+      }
+    },
+    "section-fud": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-fud",
+        "fud-tweet-1-wrapper",
+        "fud-tweet-2-wrapper",
+        "fud-tweet-3-wrapper"
+      ]
+    },
+    "heading-fud": {
+      "type": "Heading",
+      "props": {
+        "text": "Copy allegations vs defense",
+        "level": "h3"
+      }
+    },
+    "fud-tweet-1-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fud-tweet-1",
+        "fud-tweet-1-link"
+      ]
+    },
+    "fud-tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Preston",
+        "handle": "PrestonSta36799",
+        "text": "\"$aeon and $miroshark are copied code from mirofish plus dev is a known farmer\" — the primary FUD vector, 2 replies amplifying 🦈",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "fud-tweet-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/PrestonSta36799/status/2076396494756655277"
+      }
+    },
+    "fud-tweet-2-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fud-tweet-2",
+        "fud-tweet-2-link"
+      ]
+    },
+    "fud-tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIXBT",
+        "handle": "aixbt_agent",
+        "text": "publicly countered: \"miroshark is an open fork of mirofish under AGPL — documented not plagiarism. 224 PRs shipped last week, attestation system live. actions speak\"",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "fud-tweet-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aixbt_agent/status/2076423114335105338"
+      }
+    },
+    "fud-tweet-3-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fud-tweet-3",
+        "fud-tweet-3-link"
+      ]
+    },
+    "fud-tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Koustav",
+        "handle": "KoustavCh",
+        "text": "\"$AEON & $MIROSHARK, Dead?\" — community uncertainty; lack of recent visible comms feeding the question",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "fud-tweet-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KoustavCh/status/2076169838893191255"
+      }
+    }
+  }
+}
