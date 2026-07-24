@@ -1,0 +1,343 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-24"
+      },
+      "children": [
+        "item-1",
+        "sep-1",
+        "item-2",
+        "sep-2",
+        "item-3"
+      ]
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-1-header",
+        "item-1-desc",
+        "item-1-meta",
+        "item-1-x-draft",
+        "item-1-dm-draft"
+      ]
+    },
+    "item-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-1",
+        "badge-1-time"
+      ]
+    },
+    "link-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "BankrBot/skills",
+        "href": "https://github.com/BankrBot/skills",
+        "source": "GitHub"
+      }
+    },
+    "badge-1-time": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago",
+        "variant": "outline"
+      }
+    },
+    "item-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "24 aeon-specific skills in 1169★/581f repo. Includes: aeon-autoresearch, aeon-deep-research, aeon-defi-monitor, aeon-token-pick, aeon-vuln-scanner + 19 more. Largest third-party skill collection in the ecosystem. War-room directive: co-market today.",
+        "variant": "body"
+      }
+    },
+    "item-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-1-stars",
+        "stat-1-forks",
+        "badge-1-type"
+      ]
+    },
+    "stat-1-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1169"
+      }
+    },
+    "stat-1-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "581"
+      }
+    },
+    "badge-1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X post + GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "item-1-x-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-1-x",
+        "text-1-x"
+      ]
+    },
+    "heading-1-x": {
+      "type": "Heading",
+      "props": {
+        "text": "X Post Draft (201 chars)",
+        "level": "h4"
+      }
+    },
+    "text-1-x": {
+      "type": "Text",
+      "props": {
+        "text": "bankr ships 24 aeon skills. aeon-deep-research, aeon-defi-monitor, aeon-token-pick, aeon-vuln-scanner — all live.\n\nlargest third-party skill suite in the ecosystem.\n\nthe catalog is compounding ⭐",
+        "variant": "caption"
+      }
+    },
+    "item-1-dm-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-1-dm",
+        "text-1-dm"
+      ]
+    },
+    "heading-1-dm": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub DM Draft",
+        "level": "h4"
+      }
+    },
+    "text-1-dm": {
+      "type": "Text",
+      "props": {
+        "text": "24 aeon skills in your repo — biggest third-party skill suite in the ecosystem by a wide margin.\n\nwant to co-post + catalog-list it officially? makes bankr the reference collection, pulls the next cohort of builders in.",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-2-header",
+        "item-2-desc",
+        "item-2-meta",
+        "item-2-dm-draft"
+      ]
+    },
+    "item-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-2",
+        "badge-2-time"
+      ]
+    },
+    "link-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Atrium-Hermes/atrium-lighthouse",
+        "href": "https://github.com/Atrium-Hermes/atrium-lighthouse",
+        "source": "GitHub"
+      }
+    },
+    "badge-2-time": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago",
+        "variant": "outline"
+      }
+    },
+    "item-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today with CLAUDE.md, ECOSYSTEM.md, SHOWCASE.md, A2A server, MCP integration. Fork → live Aeon product.",
+        "variant": "body"
+      }
+    },
+    "item-2-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "item-2-dm-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-2-dm",
+        "text-2-dm"
+      ]
+    },
+    "heading-2-dm": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub DM Draft",
+        "level": "h4"
+      }
+    },
+    "text-2-dm": {
+      "type": "Text",
+      "props": {
+        "text": "atrium-lighthouse pushed today with CLAUDE.md, ECOSYSTEM.md, A2A server, MCP — reading this as a live production Aeon instance.\n\nwhat is Atrium? want to understand what you're building before listing it in the official ecosystem.",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-3-header",
+        "item-3-desc",
+        "item-3-meta",
+        "item-3-dm-draft"
+      ]
+    },
+    "item-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-3",
+        "badge-3-time"
+      ]
+    },
+    "link-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anajuliabit/aeon",
+        "href": "https://github.com/anajuliabit/aeon",
+        "source": "GitHub"
+      }
+    },
+    "badge-3-time": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago",
+        "variant": "outline"
+      }
+    },
+    "item-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "987-follower builder, 498MB fork with AIXBT + CoinGecko + DeFi integrations, pushed 07-23. Deepest custom DeFi autonomous stack on Aeon in radar.",
+        "variant": "body"
+      }
+    },
+    "item-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-3-followers",
+        "badge-3-size",
+        "badge-3-type"
+      ]
+    },
+    "badge-3-followers": {
+      "type": "Badge",
+      "props": {
+        "text": "987 followers",
+        "variant": "outline"
+      }
+    },
+    "badge-3-size": {
+      "type": "Badge",
+      "props": {
+        "text": "498MB fork",
+        "variant": "outline"
+      }
+    },
+    "badge-3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "item-3-dm-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-3-dm",
+        "text-3-dm"
+      ]
+    },
+    "heading-3-dm": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub DM Draft",
+        "level": "h4"
+      }
+    },
+    "text-3-dm": {
+      "type": "Text",
+      "props": {
+        "text": "saw the fork — AIXBT + CoinGecko + DeFi integrations, 498MB, pushed yesterday. deepest custom DeFi stack on Aeon I've seen.\n\nwhat are you building with it?",
+        "variant": "caption"
+      }
+    }
+  }
+}
