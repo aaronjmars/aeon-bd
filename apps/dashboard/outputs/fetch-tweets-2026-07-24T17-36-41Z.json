@@ -1,0 +1,346 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup — 2026-07-24"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_source",
+        "sep_1",
+        "heading_ai",
+        "text_ai_desc",
+        "stack_tweet_jamaica",
+        "stack_tweet_goldman",
+        "sep_2",
+        "heading_crypto",
+        "text_crypto_desc",
+        "stack_tweet_texit",
+        "sep_3",
+        "heading_tech",
+        "text_tech_desc",
+        "stack_tweet_fella",
+        "stack_tweet_terese"
+      ]
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "api:3 websearch:0 failed:0",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_ai": {
+      "type": "Heading",
+      "props": {
+        "text": "Artificial Intelligence / AI Agents / LLM",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_ai_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI anxiety on two flanks: education systems scrambling, Wall Street commoditizing AI debt risk",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_tweet_jamaica": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweetcard_jamaica",
+        "stack_tweet_meta_jamaica"
+      ]
+    },
+    "tweetcard_jamaica": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/JamaicaObserver",
+        "handle": "JamaicaObserver",
+        "text": "Jamaica principals' association sounds public alarm on AI curriculum gap — first official educator body going on record about schools falling behind"
+      },
+      "children": []
+    },
+    "stack_tweet_meta_jamaica": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_signal_jamaica",
+        "link_view_jamaica"
+      ]
+    },
+    "badge_signal_jamaica": {
+      "type": "Badge",
+      "props": {
+        "text": "signal: 75"
+      },
+      "children": []
+    },
+    "link_view_jamaica": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/JamaicaObserver/status/2080441937492845036"
+      },
+      "children": []
+    },
+    "stack_tweet_goldman": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweetcard_goldman",
+        "stack_tweet_meta_goldman"
+      ]
+    },
+    "tweetcard_goldman": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/business",
+        "handle": "business",
+        "text": "Goldman + JPMorgan launch AI junk-bond trading products — hyperscaler debt is now a tradeable instrument, Wall Street is pricing in the risk"
+      },
+      "children": []
+    },
+    "stack_tweet_meta_goldman": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_signal_goldman",
+        "link_view_goldman"
+      ]
+    },
+    "badge_signal_goldman": {
+      "type": "Badge",
+      "props": {
+        "text": "signal: 18"
+      },
+      "children": []
+    },
+    "link_view_goldman": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/business/status/2080441610400121207"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_crypto": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto / Bitcoin / DeFi",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_crypto_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Single story dominating: \"white flag\" framing, crypto camp in self-critique mode",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_tweet_texit": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweetcard_texit",
+        "stack_tweet_meta_texit"
+      ]
+    },
+    "tweetcard_texit": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/TEXITcoin",
+        "handle": "TEXITcoin",
+        "text": "\"Crypto Bros & the White Flag of Defeat\" live broadcast — framing today as a capitulation moment for the crypto community"
+      },
+      "children": []
+    },
+    "stack_tweet_meta_texit": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_signal_texit",
+        "link_view_texit"
+      ]
+    },
+    "badge_signal_texit": {
+      "type": "Badge",
+      "props": {
+        "text": "signal: 145"
+      },
+      "children": []
+    },
+    "link_view_texit": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/TEXITcoin/status/2080442817583911083"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_tech": {
+      "type": "Heading",
+      "props": {
+        "text": "Technology / Startups / Open Source",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_tech_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Tech as geopolitical weapon vs. social corrosion — same infrastructure buildout, two readings",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_tweet_fella": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweetcard_fella",
+        "stack_tweet_meta_fella"
+      ]
+    },
+    "tweetcard_fella": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/FellaHrx69",
+        "handle": "FellaHrx69",
+        "text": "US information/tech superiority over Russia reframed as strategic moat worth protecting — defense-lens tech nationalism"
+      },
+      "children": []
+    },
+    "stack_tweet_meta_fella": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_signal_fella",
+        "link_view_fella"
+      ]
+    },
+    "badge_signal_fella": {
+      "type": "Badge",
+      "props": {
+        "text": "signal: 59"
+      },
+      "children": []
+    },
+    "link_view_fella": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/FellaHrx69/status/2080442758125298096"
+      },
+      "children": []
+    },
+    "stack_tweet_terese": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweetcard_terese",
+        "stack_tweet_meta_terese"
+      ]
+    },
+    "tweetcard_terese": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/Terese4NH",
+        "handle": "Terese4NH",
+        "text": "Anti-data center pushback: \"technology has done nothing but dull the human heart\" — community resistance to AI infrastructure expansion"
+      },
+      "children": []
+    },
+    "stack_tweet_meta_terese": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_signal_terese",
+        "link_view_terese"
+      ]
+    },
+    "badge_signal_terese": {
+      "type": "Badge",
+      "props": {
+        "text": "signal: 44"
+      },
+      "children": []
+    },
+    "link_view_terese": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/Terese4NH/status/2080442678999679340"
+      },
+      "children": []
+    }
+  }
+}

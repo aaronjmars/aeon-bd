@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-23T17:30:42Z",
+  "last_analyzed": "2026-07-24T17:36:41Z",
   "quality_score": 4,
-  "assessment": "Good — substantive, well-structured curated tweets across 3 topics; clean API execution, proper deduping, aligned to strategy (AI agents, crypto policy, startup ecosystem intelligence)",
+  "assessment": "Delivered 5 specific market signals across 3 topics with quantified scores and narrative frames; tracking maintained.",
   "flags": [],
   "avg_score": 3.93,
   "history": [
-    {
-      "date": "2026-06-24",
-      "score": 4
-    },
     {
       "date": "2026-06-25",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-23",
+      "score": 4
+    },
+    {
+      "date": "2026-07-24",
       "score": 4
     }
   ]
