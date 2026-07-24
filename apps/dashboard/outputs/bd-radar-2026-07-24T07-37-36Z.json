@@ -1,0 +1,150 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar 2026-07-24",
+        "description": "4 new leads (building×3)"
+      },
+      "children": [
+        "lead_1_stack",
+        "separator_1",
+        "lead_2_stack",
+        "separator_2",
+        "lead_3_stack",
+        "separator_3",
+        "digest_link"
+      ]
+    },
+    "lead_1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead_1_title",
+        "lead_1_desc",
+        "lead_1_action"
+      ]
+    },
+    "lead_1_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "BankrBot/skills",
+        "href": "https://github.com/BankrBot/skills",
+        "source": "GitHub",
+        "score": "1169★/581f"
+      }
+    },
+    "lead_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "bankr.bot is running 24 aeon-specific skills inside their skill repo: aeon-autoresearch, aeon-deal-flow, aeon-deep-research, aeon-defi-monitor, aeon-distribute-tokens, aeon-narrative-tracker, aeon-on-chain-monitor, aeon-token-pick, aeon-vuln-scanner + 15 more. The biggest third-party aeon skill suite in the ecosystem, never flagged until now.",
+        "variant": "body"
+      }
+    },
+    "lead_1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ DM BankrBot, feature it officially, co-post the suite.",
+        "variant": "muted"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead_2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead_2_title",
+        "lead_2_desc",
+        "lead_2_action"
+      ]
+    },
+    "lead_2_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Atrium-Hermes/atrium-lighthouse",
+        "href": "https://github.com/Atrium-Hermes/atrium-lighthouse",
+        "source": "GitHub"
+      }
+    },
+    "lead_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "known org (aeon fork + aeon-atrium-skills already live) pushed atrium-lighthouse today — full Aeon instance with ECOSYSTEM.md, SHOWCASE.md, A2A server, MCP integration. Escalating from fork to live product.",
+        "variant": "body"
+      }
+    },
+    "lead_2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ DM Atrium-Hermes on GH: what is Atrium?",
+        "variant": "muted"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead_3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead_3_title",
+        "lead_3_desc",
+        "lead_3_action"
+      ]
+    },
+    "lead_3_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anajuliabit/aeon",
+        "href": "https://github.com/anajuliabit/aeon",
+        "source": "GitHub"
+      }
+    },
+    "lead_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "987-follower builder shipping a 498MB Aeon fork yesterday with AIXBT + CoinGecko + DeFi integration layers. Deepest custom DeFi autonomy stack on aeon in the radar.",
+        "variant": "body"
+      }
+    },
+    "lead_3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ DM on GH.",
+        "variant": "muted"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "digest_link": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest",
+        "href": "output/articles/bd-radar-2026-07-24.md"
+      }
+    }
+  }
+}

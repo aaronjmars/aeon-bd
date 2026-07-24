@@ -1,9 +1,11 @@
-ℹ️ BD Radar 2026-07-23
+ℹ️ BD Radar 2026-07-24
 
-**bd-radar** — 3 new builders on the stack today ⭐
+**bd-radar** — 2026-07-24 · 4 new leads (building×3)
 
-**ModifyMe** (Ditto190, 313 repos) is the one to move on. They're running aeon as the agent OS for their company, and they also ship `openclaude-modme` + `gh-aw-mcpg` (GitHub Agentic Workflows MCP Gateway). This isn't a curious fork — it's a company that independently converged on the same infra layer. DM DT on GitHub before they build past us.
+**BankrBot/skills** — bankr.bot is running **24 aeon-specific skills** inside their 1169★/581f skill repo: aeon-autoresearch, aeon-deal-flow, aeon-deep-research, aeon-defi-monitor, aeon-distribute-tokens, aeon-narrative-tracker, aeon-on-chain-monitor, aeon-token-pick, aeon-vuln-scanner + 15 more. The biggest third-party aeon skill suite in the ecosystem, never flagged until now. → DM BankrBot, feature it officially, co-post the suite.
 
-**nvkudva** (Vijay @ Uber, `medium.com/@nvkudva`) — UI engineer at Uber running a full aeon instance since last week. Enterprise practitioner exploring autonomous agents. Worth a cold DM: what's the use case?
+**Atrium-Hermes/atrium-lighthouse** — known org (aeon fork + aeon-atrium-skills already live) pushed `atrium-lighthouse` **today** — full Aeon instance with ECOSYSTEM.md, SHOWCASE.md, A2A server, MCP integration. Escalating from fork to live product. → DM Atrium-Hermes on GH: what is Atrium?
 
-**aeoncity-hub** now has a second personal instance (`my-aeon`) live alongside their 3D ecosystem explorer. Known builder deepening.
+**anajuliabit/aeon** — 987-follower builder shipping a 498MB Aeon fork yesterday with AIXBT + CoinGecko + DeFi integration layers. Deepest custom DeFi autonomy stack on aeon in the radar. → DM on GH.
+
+[Full digest](output/articles/bd-radar-2026-07-24.md)
