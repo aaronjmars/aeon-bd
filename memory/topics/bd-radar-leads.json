@@ -1,53 +1,11 @@
 {
   "leads": [
     {
-      "key": "github:swarm-ai-research/aeon",
-      "cls": "building",
-      "score": 15,
-      "who": "swarm-ai-research (swarm-ai.org, 10 repos)",
-      "signal": "Research org running Aeon+MiroShark operationally. Sanitized aeon snapshot pushed today. Has aeon-atlas, swarm 211KB, agency-os.",
-      "source": "github",
-      "date": "2026-07-20"
-    },
-    {
-      "key": "github:tenequm/aeon",
-      "cls": "building",
-      "who": "tenequm (Misha Kolesnik)",
-      "signal": "Full parallel agent stack: skills (31 stars), pond (26 stars), nanoclaw, onecli, centaur. Known entity escalation from June issue. x402/openclaw/solana ecosystem overlap.",
-      "score": 15,
-      "surfaced_date": "2026-07-21",
-      "move": "DM on GH: skills hit 31 stars, same stack we are building. bridge time."
-    },
-    {
-      "key": "github:danbuildss/luca-aeon-skills",
-      "class": "building",
-      "who": "luca-aeon-skills",
-      "handle": "@AskLucaAI",
-      "owner": "x402Books",
-      "signal": "NEW builder — 4 financial-intel skills for Aeon on Base (wallet/treasury/reports/registry)",
-      "fit": 3,
-      "score": 15,
-      "first_seen": "2026-06-11",
-      "repo_updated": "2026-06-04"
-    },
-    {
-      "key": "github:UIZorrot/careful-finance-aeon-skill-pack",
-      "class": "building",
-      "who": "Careful Finance",
-      "handle": "UIZorrot",
-      "signal": "known fork operator shipped market-intelligence skill pack — fork→skill-pack",
-      "fit": 3,
-      "score": 15,
-      "known": true,
-      "first_seen": "2026-06-11",
-      "repo_updated": "2026-06-08"
-    },
-    {
       "key": "github:codexvritra/signa-aeon-skills",
       "class": "building",
       "who": "Signa",
       "handle": "@Signa_Agent",
-      "signal": "known builder new repo — wallet-signed cross-platform messaging skill pack",
+      "signal": "known builder new repo \u2014 wallet-signed cross-platform messaging skill pack",
       "fit": 3,
       "score": 15,
       "known": true,
@@ -70,7 +28,7 @@
       "class": "building",
       "who": "Solvr",
       "handle": "basedcryptoji",
-      "signal": "repeat builder (after Clerk) — formal verification skill pack via x402",
+      "signal": "repeat builder (after Clerk) \u2014 formal verification skill pack via x402",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-11",
@@ -92,21 +50,21 @@
       "class": "building",
       "who": "chxoky",
       "handle": "chxoky",
-      "signal": "Aeon fork with 17d continuous own activity. Pushed 06-23T06:50 at 43,628 bytes — +10.5KB above base. Biggest own-content aeon fork in PAT list. Unknown vertical.",
+      "signal": "Aeon fork with 17d continuous own activity. Pushed 06-23T06:50 at 43,628 bytes \u2014 +10.5KB above base. Biggest own-content aeon fork in PAT list. Unknown vertical.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-11",
       "repo_updated": "2026-06-23",
       "escalating": true,
       "source": "gh_read_pat_forks",
-      "move": "DM or open GH issue: 10KB+ own content, 17d active — what are you building? TG invite"
+      "move": "DM or open GH issue: 10KB+ own content, 17d active \u2014 what are you building? TG invite"
     },
     {
       "key": "github:HusseinJX/prelaunchagents",
       "class": "building",
       "who": "prelaunchagents",
       "handle": "HusseinJX",
-      "signal": "shipped product on MiroShark — 'simulate your product launch before it happens', swarm sim on local Ollama, no API key",
+      "signal": "shipped product on MiroShark \u2014 'simulate your product launch before it happens', swarm sim on local Ollama, no API key",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-11",
@@ -118,7 +76,7 @@
       "class": "building",
       "who": "Hivra",
       "handle": "@HivraOS",
-      "signal": "shipped one-click @aeonframework deployment on managed agent-hosting platform — distribution surface",
+      "signal": "shipped one-click @aeonframework deployment on managed agent-hosting platform \u2014 distribution surface",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-12",
@@ -130,7 +88,7 @@
       "class": "building",
       "who": "Amper skill (new builder)",
       "handle": "oxkaiba",
-      "signal": "new builder shipping for known partner @helloamper — Amper DeFi-execution skill, 80+ tools (swaps/lending/perps/options/bridge)",
+      "signal": "new builder shipping for known partner @helloamper \u2014 Amper DeFi-execution skill, 80+ tools (swaps/lending/perps/options/bridge)",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-12",
@@ -142,7 +100,7 @@
       "class": "building",
       "who": "Clerk skill pack",
       "handle": "basedcryptoji",
-      "signal": "Clerk skill pack — federal court records via x402 ($0.001 USDC Base). Builder already surfaced via Solvr — known-expanding",
+      "signal": "Clerk skill pack \u2014 federal court records via x402 ($0.001 USDC Base). Builder already surfaced via Solvr \u2014 known-expanding",
       "fit": 3,
       "score": 15,
       "known": true,
@@ -166,7 +124,7 @@
       "class": "building",
       "who": "Mneme",
       "handle": "mnemedb",
-      "signal": "persistent memory layer for Aeon — vector+graph memory, Base streams, 8 drop-in skills",
+      "signal": "persistent memory layer for Aeon \u2014 vector+graph memory, Base streams, 8 drop-in skills",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-13",
@@ -189,7 +147,7 @@
       "class": "building",
       "who": "Sparkleware",
       "handle": "sparkleware",
-      "signal": "running own aeon skill REGISTRY (sparkleware/sparkleware 2★) + registry-watch + 6 skills + active aeon fork (pushed 06-13) + MiroShark fork. third-party distribution surface for aeon packs",
+      "signal": "running own aeon skill REGISTRY (sparkleware/sparkleware 2\u2605) + registry-watch + 6 skills + active aeon fork (pushed 06-13) + MiroShark fork. third-party distribution surface for aeon packs",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-14",
@@ -201,7 +159,7 @@
       "class": "building",
       "who": "Signa",
       "handle": "@Signa_Agent",
-      "signal": "signa-skills — 10-skill suite ONE install (messaging, coordination, Bankr, gitlawb, MiroShark) + new signa-miroshark-skills. known builder shipping cross-product",
+      "signal": "signa-skills \u2014 10-skill suite ONE install (messaging, coordination, Bankr, gitlawb, MiroShark) + new signa-miroshark-skills. known builder shipping cross-product",
       "fit": 3,
       "score": 15,
       "known": true,
@@ -214,7 +172,7 @@
       "class": "building",
       "who": "AI-Risk-Management / AeonBrain",
       "handle": "AI-Risk-Management",
-      "signal": "aeon-skill-schema — vendor-neutral, ed25519-signed AI skill schema, 'the wire format for AeonBrain'. fresh 06-14, 0★. trust/signing layer for agent skills — ecosystem-infra wedge. VERIFY: aeon-native vs own-standard play",
+      "signal": "aeon-skill-schema \u2014 vendor-neutral, ed25519-signed AI skill schema, 'the wire format for AeonBrain'. fresh 06-14, 0\u2605. trust/signing layer for agent skills \u2014 ecosystem-infra wedge. VERIFY: aeon-native vs own-standard play",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-15",
@@ -226,7 +184,7 @@
       "class": "building",
       "who": "mistakes5 / Meridian",
       "handle": "mistakes5",
-      "signal": "built MiroShark MCP Server inside Meridian — LLM-backed oracle + attention-trading platform (Flask/Vue/Neo4j). `mcp/src/server.ts: Exposes MiroShark simulation engine as tools for Claude Code`. 0★, stale since 04-07 — first-time on radar",
+      "signal": "built MiroShark MCP Server inside Meridian \u2014 LLM-backed oracle + attention-trading platform (Flask/Vue/Neo4j). `mcp/src/server.ts: Exposes MiroShark simulation engine as tools for Claude Code`. 0\u2605, stale since 04-07 \u2014 first-time on radar",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-18",
@@ -239,39 +197,39 @@
       "class": "building",
       "who": "SpartanLabsXyz",
       "handle": "SpartanLabsXyz",
-      "signal": "Polymarket Trader skill pack on Aeon — 'powered by Simmer'. Fresh push 06-18. Polymarket + autonomous agents = direct strategy fit.",
+      "signal": "Polymarket Trader skill pack on Aeon \u2014 'powered by Simmer'. Fresh push 06-18. Polymarket + autonomous agents = direct strategy fit.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-19",
       "repo_updated": "2026-06-18",
       "source": "gh_search_repos",
-      "move": "DM SpartanLabsXyz: the PM skill pack is exactly what the ecosystem needed — invite to TG, offer co-promotion if they're shipping"
+      "move": "DM SpartanLabsXyz: the PM skill pack is exactly what the ecosystem needed \u2014 invite to TG, offer co-promotion if they're shipping"
     },
     {
       "key": "github:swarm-ai-research/swarm",
       "class": "building",
       "who": "swarm-ai-research (swarm-ai.org)",
       "handle": "swarm-ai-research",
-      "signal": "36★ Python research org running multi-seed MiroShark academic studies (multiseed_miroshark.py, x-ai/grok-4.3 regime). Already forked aeon→aeon-atlas AND MiroShark; own repo updated 06-19.",
+      "signal": "36\u2605 Python research org running multi-seed MiroShark academic studies (multiseed_miroshark.py, x-ai/grok-4.3 regime). Already forked aeon\u2192aeon-atlas AND MiroShark; own repo updated 06-19.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-19",
       "repo_updated": "2026-06-19",
       "source": "gh_search_code",
-      "move": "Cold outreach at swarm-ai.org or GH org: running multi-seed MiroShark research — let's talk, we want to build an academic-use path"
+      "move": "Cold outreach at swarm-ai.org or GH org: running multi-seed MiroShark research \u2014 let's talk, we want to build an academic-use path"
     },
     {
       "key": "x:Charon_AI",
       "class": "building",
       "who": "Charon (@Charon_AI, charon.codes)",
       "handle": "@Charon_AI",
-      "signal": "Built charon.aeon.yml policy layer on aeon: repo-local rules, PASS/PAUSE/DENY verdicts, Ed25519-signed receipts, Telegram human-in-the-loop. Aaron publicly validated the architecture 06-19 (33 engagement). Fork CharonAI-code/aeon pushed 06-20T02:36 — iterating overnight.",
+      "signal": "Built charon.aeon.yml policy layer on aeon: repo-local rules, PASS/PAUSE/DENY verdicts, Ed25519-signed receipts, Telegram human-in-the-loop. Aaron publicly validated the architecture 06-19 (33 engagement). Fork CharonAI-code/aeon pushed 06-20T02:36 \u2014 iterating overnight.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-20",
       "known": true,
       "source": "xai_x+gh_read_pat_forks",
-      "move": "DM @Charon_AI: co-post the PASS/PAUSE/DENY pattern + fleet-watcher×charon setup guide; convert Aaron's public praise into an ecosystem spotlight"
+      "move": "DM @Charon_AI: co-post the PASS/PAUSE/DENY pattern + fleet-watcher\u00d7charon setup guide; convert Aaron's public praise into an ecosystem spotlight"
     },
     {
       "key": "github:CharonAI-code/aeon",
@@ -291,33 +249,33 @@
       "class": "building",
       "who": "Prax Lannister (praxstack / @synarch-ai)",
       "handle": "praxstack",
-      "signal": "MiroShark fork created 03-23, pushed 06-21T13:31 with 66,801 bytes (base ~63,000 = +3.8KB own content). Commit history shows actively merging upstream PRs — CLAUDE.md addition (PR#197) + i18n fixes (PRs #191-196) co-authored by aeonframework bot. Ex-Amazon SDE, @synarch-ai org. Using Aeon to manage the fork itself.",
+      "signal": "MiroShark fork created 03-23, pushed 06-21T13:31 with 66,801 bytes (base ~63,000 = +3.8KB own content). Commit history shows actively merging upstream PRs \u2014 CLAUDE.md addition (PR#197) + i18n fixes (PRs #191-196) co-authored by aeonframework bot. Ex-Amazon SDE, @synarch-ai org. Using Aeon to manage the fork itself.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-22",
       "repo_updated": "2026-06-21",
       "source": "websearch+gh_api",
-      "move": "DM praxstack on GitHub: you've been merging our PRs and adding own content — what's synarch-ai building on MiroShark? Invite to TG."
+      "move": "DM praxstack on GitHub: you've been merging our PRs and adding own content \u2014 what's synarch-ai building on MiroShark? Invite to TG."
     },
     {
       "key": "x:lnsx_io",
       "class": "building",
       "who": "lnsx_io (lens-scan)",
       "handle": "@lnsx_io",
-      "signal": "Shipped lens-scan — an aeon skill that pulls the wallet behind any X profile and flags rug devs on Base before your agent touches them. Public data, no key. GitHub: Tholynceus/lens-skill-pack. 7 likes on X. @Trend_Ron naming a B20 partnership with aeon.",
+      "signal": "Shipped lens-scan \u2014 an aeon skill that pulls the wallet behind any X profile and flags rug devs on Base before your agent touches them. Public data, no key. GitHub: Tholynceus/lens-skill-pack. 7 likes on X. @Trend_Ron naming a B20 partnership with aeon.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-23",
       "link": "https://x.com/lnsx_io/status/2069223398786347162",
       "source": "xai_x",
-      "move": "DM @lnsx_io: lens-scan is exactly what agents need — what's the B20 angle? Invite to TG"
+      "move": "DM @lnsx_io: lens-scan is exactly what agents need \u2014 what's the B20 angle? Invite to TG"
     },
     {
       "key": "github:Tholynceus/lens-skill-pack",
       "class": "building",
       "who": "lnsx_io / Tholynceus",
       "handle": "Tholynceus",
-      "signal": "lens-skill-pack — aeon skill that pulls wallet behind any X profile, flags rug devs on Base. Public, no key needed. Announced 06-23 on X (7 likes).",
+      "signal": "lens-skill-pack \u2014 aeon skill that pulls wallet behind any X profile, flags rug devs on Base. Public, no key needed. Announced 06-23 on X (7 likes).",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-23",
@@ -349,45 +307,45 @@
       "first_seen": "2026-06-23",
       "repo_updated": "2026-06-23",
       "source": "gh_search_repos",
-      "move": "Already in TG — acknowledge the expansion, ask if they want new repos in skill registry; offer spotlight post"
+      "move": "Already in TG \u2014 acknowledge the expansion, ask if they want new repos in skill registry; offer spotlight post"
     },
     {
       "key": "github:Danypsy/aeon-perso",
       "class": "building",
       "who": "Danypsy (Dany)",
       "handle": "Danypsy",
-      "signal": "Personal aeon instance: 'Agent autonome personnel basé sur Aeon — GitHub Actions. Configuré pour Dany.' 1★, pushed 06-25. First French-language personal aeon deployment in the radar.",
+      "signal": "Personal aeon instance: 'Agent autonome personnel bas\u00e9 sur Aeon \u2014 GitHub Actions. Configur\u00e9 pour Dany.' 1\u2605, pushed 06-25. First French-language personal aeon deployment in the radar.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-26",
       "repo_updated": "2026-06-25",
       "source": "gh_search",
-      "move": "DM Danypsy on GH: saw your personal aeon instance — how's it running? TG invite + onboarding help"
+      "move": "DM Danypsy on GH: saw your personal aeon instance \u2014 how's it running? TG invite + onboarding help"
     },
     {
       "key": "github:sparkleware/aeon-pulse",
       "class": "building",
       "who": "sparkleware (aeon-pulse)",
       "handle": "sparkleware",
-      "signal": "9th standalone skill repo from sparkleware — daily activity summary for the Aeon framework. Builder already runs 8 aeon skill repos.",
+      "signal": "9th standalone skill repo from sparkleware \u2014 daily activity summary for the Aeon framework. Builder already runs 8 aeon skill repos.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-06-27",
       "known": true,
       "source": "gh_search_repos",
-      "move": "Already in TG — ask if aeon-pulse goes in the skill registry"
+      "move": "Already in TG \u2014 ask if aeon-pulse goes in the skill registry"
     },
     {
       "key": "x:OrlixAI",
       "class": "building",
       "who": "OrlixAI (@OrlixAI / @tylerbroqs co-founder)",
       "handle": "@tylerbroqs",
-      "signal": "orlixai.xyz live product on aeon — Agentic AI Playground on Base (search web, fetch URLs, analyze GitHub repos, query Base live), explicitly powered by the Aeon Framework. @tylerbroqs surfaced via xAI cache.",
+      "signal": "orlixai.xyz live product on aeon \u2014 Agentic AI Playground on Base (search web, fetch URLs, analyze GitHub repos, query Base live), explicitly powered by the Aeon Framework. @tylerbroqs surfaced via xAI cache.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-07-02",
       "source": "xai_x+websearch",
-      "move": "DM @tylerbroqs: orlixai.xyz is live on aeon — ECOSYSTEM.md entry + co-post opportunity while fresh"
+      "move": "DM @tylerbroqs: orlixai.xyz is live on aeon \u2014 ECOSYSTEM.md entry + co-post opportunity while fresh"
     },
     {
       "key": "x:CTRL_automation",
@@ -400,32 +358,32 @@
       "first_seen": "2026-07-03",
       "link": "https://x.com/CTRL_automation/status/2072727845919674394",
       "source": "xai_x+websearch",
-      "move": "DM @daxaur: you built the Miroshark×Aeon execution layer — ECOSYSTEM.md entry + co-announcement while it's fresh"
+      "move": "DM @daxaur: you built the Miroshark\u00d7Aeon execution layer \u2014 ECOSYSTEM.md entry + co-announcement while it's fresh"
     },
     {
       "key": "github:ryjin111/flakes",
       "class": "building",
       "who": "MythosForge (ryjin111)",
       "handle": "ryjin111",
-      "signal": "Known builder (MythosForge ops-monitoring skills for Aeon). New product 'Flakes' — app/web/index.html: 'Agent auto-replies need an external AeonFramework runtime (not wired in this MVP).' Treating Aeon as THE runtime dependency, not just a skill pack host.",
+      "signal": "Known builder (MythosForge ops-monitoring skills for Aeon). New product 'Flakes' \u2014 app/web/index.html: 'Agent auto-replies need an external AeonFramework runtime (not wired in this MVP).' Treating Aeon as THE runtime dependency, not just a skill pack host.",
       "fit": 3,
       "score": 15,
       "known": true,
       "first_seen": "2026-07-03",
       "source": "gh_search_code",
-      "move": "DM or GitHub issue: Flakes is treating Aeon as the agent runtime — invite to co-build the integration, offer TG support"
+      "move": "DM or GitHub issue: Flakes is treating Aeon as the agent runtime \u2014 invite to co-build the integration, offer TG support"
     },
     {
       "key": "x:unidentified-docker-aeon-builder-07-07",
       "class": "building",
       "who": "Unidentified (Docker-based aeon implementation)",
       "handle": "unknown",
-      "signal": "Aaron (@aaronjmars) praised on 07-06: 'very cool implementation on top of @aeonframework ⭐ runs on docker instead of github actions, keep aeon AI gateway system + claude subscription, implements a strategy and vote & mint autonomously.' 24 likes. Builder identity not in X cache — manual follow-up required.",
+      "signal": "Aaron (@aaronjmars) praised on 07-06: 'very cool implementation on top of @aeonframework \u2b50 runs on docker instead of github actions, keep aeon AI gateway system + claude subscription, implements a strategy and vote & mint autonomously.' 24 likes. Builder identity not in X cache \u2014 manual follow-up required.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-07-07",
       "source": "xai_x",
-      "move": "Manual: check @aaronjmars post context (https://x.com/aaronjmars/status/2074278744986898676) to identify who Aaron was replying to — this is a BUILDING-class lead shipping aeon on Docker with autonomous on-chain execution"
+      "move": "Manual: check @aaronjmars post context (https://x.com/aaronjmars/status/2074278744986898676) to identify who Aaron was replying to \u2014 this is a BUILDING-class lead shipping aeon on Docker with autonomous on-chain execution"
     },
     {
       "key": "github:techdigger/aeon-skill-pack-agentlink",
@@ -438,7 +396,7 @@
       "first_seen": "2026-07-09",
       "repo_updated": "2026-07-08",
       "source": "gh_search_repos+gh_pat_cache",
-      "move": "DM techdigger on GH: AgentLink is live — ECOSYSTEM.md + skill registry listing"
+      "move": "DM techdigger on GH: AgentLink is live \u2014 ECOSYSTEM.md + skill registry listing"
     },
     {
       "key": "x:AzzleAI",
@@ -453,7 +411,7 @@
       "escalating": true,
       "link": "https://x.com/AzzleAI/status/2075333505672745213",
       "source": "xai_x",
-      "move": "DM @AzzleAI: the scaffolding drop is exactly the pattern — ECOSYSTEM.md entry + TG invite; agentic labor AMM is a native aeon use case"
+      "move": "DM @AzzleAI: the scaffolding drop is exactly the pattern \u2014 ECOSYSTEM.md entry + TG invite; agentic labor AMM is a native aeon use case"
     },
     {
       "key": "x:tryskopos",
@@ -473,12 +431,12 @@
       "class": "building",
       "who": "BankrSynth",
       "handle": "BankrSynth",
-      "signal": "Featured in blocmates Base AI Landscape article as one of the first agents live on Aeon framework, positioning as a 'market operating system on Base.' Live product claim — highest-intent signal class.",
+      "signal": "Featured in blocmates Base AI Landscape article as one of the first agents live on Aeon framework, positioning as a 'market operating system on Base.' Live product claim \u2014 highest-intent signal class.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-07-14",
       "source": "websearch",
-      "move": "Find @BankrSynth on X or GH to verify — if live on aeon, DM: co-announce + ECOSYSTEM.md entry"
+      "move": "Find @BankrSynth on X or GH to verify \u2014 if live on aeon, DM: co-announce + ECOSYSTEM.md entry"
     },
     {
       "key": "github:AureliusAI-code/orlix",
@@ -525,7 +483,7 @@
       "key": "github:Ditto190/aeon-modme-autonomous-framework",
       "cls": "building",
       "score": 15,
-      "who": "DT (Ditto190) @ ModifyMe — 313 repos",
+      "who": "DT (Ditto190) @ ModifyMe \u2014 313 repos",
       "signal": "Full aeon instance branded for ModifyMe. Also ships openclaude-modme + gh-aw-mcpg (GitHub Agentic Workflows MCP Gateway). aeon is their agent OS.",
       "source": "gh_search_repos",
       "date": "2026-07-23",
@@ -548,7 +506,7 @@
       "class": "forking",
       "who": "ResearchSwarm / swarm-ai-research",
       "handle": "@ResearchSwarmAI",
-      "signal": "CROSS-PRODUCT — forked aeon→aeon-atlas (+~22MB own content vs base) AND MiroShark, both pushed 06-11. Likely the known ResearchSwarm, but escalating hard",
+      "signal": "CROSS-PRODUCT \u2014 forked aeon\u2192aeon-atlas (+~22MB own content vs base) AND MiroShark, both pushed 06-11. Likely the known ResearchSwarm, but escalating hard",
       "fit": 3,
       "score": 12,
       "known": true,
@@ -574,7 +532,7 @@
       "class": "forking",
       "who": "Scout",
       "handle": "ScoutAeon",
-      "signal": "renamed aeon fork → 'Scout' (intentional named product), 05-28→05-31",
+      "signal": "renamed aeon fork \u2192 'Scout' (intentional named product), 05-28\u219205-31",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-11",
@@ -586,7 +544,7 @@
       "class": "forking",
       "who": "dan-and/MiroShark",
       "handle": "dan-and",
-      "signal": "active MiroShark fork w/ own commits (62.8MB), 06-03→06-08",
+      "signal": "active MiroShark fork w/ own commits (62.8MB), 06-03\u219206-08",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-11",
@@ -598,7 +556,7 @@
       "class": "forking",
       "who": "CertifiedCryp/MiroShark",
       "handle": "CertifiedCryp",
-      "signal": "MiroShark fork w/ added content (62.8MB), 05-23→06-06",
+      "signal": "MiroShark fork w/ added content (62.8MB), 05-23\u219206-06",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-11",
@@ -610,7 +568,7 @@
       "class": "forking",
       "who": "DYAI2025/MiroShark",
       "handle": "DYAI2025",
-      "signal": "MiroShark fork, recent activity 05-22→06-10",
+      "signal": "MiroShark fork, recent activity 05-22\u219206-10",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-11",
@@ -622,7 +580,7 @@
       "class": "forking",
       "who": "daxaur/aeon",
       "handle": "daxaur",
-      "signal": "active aeon fork, own commits 06-05→06-10",
+      "signal": "active aeon fork, own commits 06-05\u219206-10",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-11",
@@ -634,7 +592,7 @@
       "class": "forking",
       "who": "beijiangqukuailian/aeon",
       "handle": "beijiangqukuailian",
-      "signal": "aeon fork, 8d active 06-03→06-11 (pushed today, CN owner)",
+      "signal": "aeon fork, 8d active 06-03\u219206-11 (pushed today, CN owner)",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-11",
@@ -646,7 +604,7 @@
       "class": "forking",
       "who": "TakamiyaZee/aeon",
       "handle": "TakamiyaZee",
-      "signal": "aeon fork pushed today 05-28→06-11",
+      "signal": "aeon fork pushed today 05-28\u219206-11",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-11",
@@ -658,7 +616,7 @@
       "class": "forking",
       "who": "Raul-dd/MiroShark",
       "handle": "Raul-dd",
-      "signal": "MiroShark fork w/ own commits 05-27→06-02",
+      "signal": "MiroShark fork w/ own commits 05-27\u219206-02",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-11",
@@ -670,7 +628,7 @@
       "class": "forking",
       "who": "Damoncrypto/aeon",
       "handle": "Damoncrypto",
-      "signal": "aeon fork, own commits 05-30→06-04",
+      "signal": "aeon fork, own commits 05-30\u219206-04",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-11",
@@ -682,7 +640,7 @@
       "class": "forking",
       "who": "aeoncity-hub",
       "handle": "aeoncity-hub",
-      "signal": "org-named aeon fork created 06-04, pushed 06-13 20:48 — 9d continuous own activity, not drive-by",
+      "signal": "org-named aeon fork created 06-04, pushed 06-13 20:48 \u2014 9d continuous own activity, not drive-by",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-14",
@@ -694,7 +652,7 @@
       "class": "forking",
       "who": "gitlumen-team/aeon",
       "handle": "gitlumen-team",
-      "signal": "org fork of aeon w/ custom homepage aeon.fun, 4 days own commits (created 06-12, pushed 06-16) — homepage set = not a drive-by",
+      "signal": "org fork of aeon w/ custom homepage aeon.fun, 4 days own commits (created 06-12, pushed 06-16) \u2014 homepage set = not a drive-by",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-17",
@@ -707,7 +665,7 @@
       "class": "forking",
       "who": "swarm-ai-research (swarm-ai.org)",
       "handle": "swarm-ai-research",
-      "signal": "Known research org (36★, already has aeon-atlas + swarm repos, runs multi-seed Grok-4.3 MiroShark experiments). MiroShark fork created 06-07, pushed TODAY 06-21T02:22 with own content (63,661 bytes > base ~62,985). Escalating from adjacent → deep MiroShark builder.",
+      "signal": "Known research org (36\u2605, already has aeon-atlas + swarm repos, runs multi-seed Grok-4.3 MiroShark experiments). MiroShark fork created 06-07, pushed TODAY 06-21T02:22 with own content (63,661 bytes > base ~62,985). Escalating from adjacent \u2192 deep MiroShark builder.",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-21",
@@ -715,33 +673,33 @@
       "known": true,
       "escalating": true,
       "source": "gh_read_pat_forks",
-      "move": "Ping swarm-ai.org / GH org: your MiroShark fork has own content this morning — what's the experiment? offer academic-use path + direct collab"
+      "move": "Ping swarm-ai.org / GH org: your MiroShark fork has own content this morning \u2014 what's the experiment? offer academic-use path + direct collab"
     },
     {
       "key": "github:saluca-labs/miroshark",
       "class": "forking",
       "who": "saluca-labs (known builder)",
       "handle": "saluca-labs",
-      "signal": "saluca-labs already surfaced (pantheon integrating lead — MiroShark→Tiresias bridge). Now forked MiroShark directly. Escalating from integrating to fork.",
+      "signal": "saluca-labs already surfaced (pantheon integrating lead \u2014 MiroShark\u2192Tiresias bridge). Now forked MiroShark directly. Escalating from integrating to fork.",
       "fit": 3,
       "score": 12,
       "known": true,
       "escalating": true,
       "first_seen": "2026-06-30",
       "source": "websearch",
-      "move": "DM saluca-labs on GH: you have pantheon bridge + direct fork now — what's the next phase? TG invite"
+      "move": "DM saluca-labs on GH: you have pantheon bridge + direct fork now \u2014 what's the next phase? TG invite"
     },
     {
       "key": "github:Forkocalypse/agt-eng-MiroShark",
       "class": "forking",
       "who": "Forkocalypse (agent-engineering)",
       "handle": "Forkocalypse",
-      "signal": "Org 'Forkocalypse', repo 'agt-eng-MiroShark' — agent-engineering focused. Squarely in the simulation wedge.",
+      "signal": "Org 'Forkocalypse', repo 'agt-eng-MiroShark' \u2014 agent-engineering focused. Squarely in the simulation wedge.",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-06-30",
       "source": "websearch",
-      "move": "DM Forkocalypse: agent eng + MiroShark fork — what are you building? TG invite"
+      "move": "DM Forkocalypse: agent eng + MiroShark fork \u2014 what are you building? TG invite"
     },
     {
       "key": "github:Owlch/MiroShark",
@@ -753,7 +711,7 @@
       "score": 12,
       "first_seen": "2026-07-02",
       "source": "websearch",
-      "move": "DM Owlch on GH: you gave the fork its own tagline — what are you building with MiroShark? TG invite"
+      "move": "DM Owlch on GH: you gave the fork its own tagline \u2014 what are you building with MiroShark? TG invite"
     },
     {
       "key": "github:Niklas-Schmidt/miroshark",
@@ -769,19 +727,19 @@
       "class": "building",
       "who": "dawsonblock",
       "handle": "dawsonblock",
-      "signal": "Personal Aeon instance with a skill-spotlight series for the @aeonframework ecosystem. Code: 'The @aeonframework skill spotlight ⭐ is the brand of the series.' Builder running Aeon automation to spotlight the ecosystem.",
+      "signal": "Personal Aeon instance with a skill-spotlight series for the @aeonframework ecosystem. Code: 'The @aeonframework skill spotlight \u2b50 is the brand of the series.' Builder running Aeon automation to spotlight the ecosystem.",
       "fit": 2,
       "score": 10,
       "first_seen": "2026-07-14",
       "source": "gh_search_code",
-      "move": "DM dawsonblock on GH: you built an ecosystem spotlight skill — want to wire it into official Aeon curation? TG invite"
+      "move": "DM dawsonblock on GH: you built an ecosystem spotlight skill \u2014 want to wire it into official Aeon curation? TG invite"
     },
     {
       "key": "github:rohanthomas1202/truthlayer",
       "class": "integrating",
       "who": "truthlayer",
       "handle": "rohanthomas1202",
-      "signal": "backend/routes/miroshark.py — 'MiroShark simulation endpoints (Phase 1)', POST /api/miroshark/simulate/arb/{arb_id} fires a sim chain; wired into a truth-layer/arbitration backend",
+      "signal": "backend/routes/miroshark.py \u2014 'MiroShark simulation endpoints (Phase 1)', POST /api/miroshark/simulate/arb/{arb_id} fires a sim chain; wired into a truth-layer/arbitration backend",
       "fit": 3,
       "score": 9,
       "first_seen": "2026-06-11",
@@ -792,7 +750,7 @@
       "class": "integrating",
       "who": "glim.sh",
       "handle": "tenequm",
-      "signal": "aeon issue #464 (06-12): add glim.sh live-data MCP (x402 + MPP) to the featured MCP catalog — explicit ask",
+      "signal": "aeon issue #464 (06-12): add glim.sh live-data MCP (x402 + MPP) to the featured MCP catalog \u2014 explicit ask",
       "fit": 3,
       "score": 9,
       "first_seen": "2026-06-13",
@@ -813,7 +771,7 @@
       "class": "integrating",
       "who": "saluca-labs/pantheon",
       "handle": "saluca-labs",
-      "signal": "MiroShark→Tiresias app-proxy bridge, drop-in action-executor replacement",
+      "signal": "MiroShark\u2192Tiresias app-proxy bridge, drop-in action-executor replacement",
       "fit": 3,
       "score": 9,
       "first_seen": "2026-06-13"
@@ -843,13 +801,13 @@
       "class": "integrating",
       "who": "DYAI2025 / Pattern-agent",
       "handle": "DYAI2025",
-      "signal": "second repo from DYAI2025 (MiroShark forker, daily pushes through 06-16) — TypeScript orchestrator (Google AI Studio template) wiring MiroShark `POST /api/pattern-amp/runs`. 0★, created 05-31",
+      "signal": "second repo from DYAI2025 (MiroShark forker, daily pushes through 06-16) \u2014 TypeScript orchestrator (Google AI Studio template) wiring MiroShark `POST /api/pattern-amp/runs`. 0\u2605, created 05-31",
       "fit": 3,
       "score": 9,
       "first_seen": "2026-06-18",
       "repo_updated": "2026-05-31",
       "source": "gh_search_code",
-      "move": "DM or GitHub comment on Pattern-agent: saw the MiroShark fork still pushing daily + this orchestrator — what are you building with it?"
+      "move": "DM or GitHub comment on Pattern-agent: saw the MiroShark fork still pushing daily + this orchestrator \u2014 what are you building with it?"
     },
     {
       "key": "github:dan-and/issue-187",
@@ -861,31 +819,31 @@
       "score": 9,
       "first_seen": "2026-06-19",
       "source": "gh_read_pat_issues",
-      "move": "Reply on issue #187 directly — most active non-core contributor, multilingual sim path worth prioritizing"
+      "move": "Reply on issue #187 directly \u2014 most active non-core contributor, multilingual sim path worth prioritizing"
     },
     {
       "key": "x:Litebeam_xyz",
       "class": "integrating",
       "who": "Litebeam ($LBM, litebeam.xyz)",
       "handle": "@Litebeam_xyz",
-      "signal": "X post 06-19 claims Litebeam (AI microservice routing, one MCP → thousands of services, USDC on Base) integrated into @aeonframework. litebeam.xyz is a real product. Unverified in code.",
+      "signal": "X post 06-19 claims Litebeam (AI microservice routing, one MCP \u2192 thousands of services, USDC on Base) integrated into @aeonframework. litebeam.xyz is a real product. Unverified in code.",
       "fit": 3,
       "score": 9,
       "first_seen": "2026-06-20",
       "source": "xai_x",
-      "move": "Verify integration in their GitHub. If real: DM @Litebeam_xyz — offer co-announcement, ECOSYSTEM.md entry, write a skill for the Litebeam MCP connector"
+      "move": "Verify integration in their GitHub. If real: DM @Litebeam_xyz \u2014 offer co-announcement, ECOSYSTEM.md entry, write a skill for the Litebeam MCP connector"
     },
     {
       "key": "github:dan-and/issue-193",
       "class": "integrating",
       "who": "dan-and (MiroShark heavy contributor)",
       "handle": "dan-and",
-      "signal": "Filed MiroShark issue #193 (06-19): 'Discussion: separate thinking token budget from response token budget for reasoning-capable models' — third signal this week (fork 06-19, issue #187 06-18, now #193). Deep model architecture engagement.",
+      "signal": "Filed MiroShark issue #193 (06-19): 'Discussion: separate thinking token budget from response token budget for reasoning-capable models' \u2014 third signal this week (fork 06-19, issue #187 06-18, now #193). Deep model architecture engagement.",
       "fit": 3,
       "score": 9,
       "first_seen": "2026-06-20",
       "source": "gh_read_pat_issues",
-      "move": "Reply on issue #193: we're thinking about this — what's your current workaround? Convert to direct collab"
+      "move": "Reply on issue #193: we're thinking about this \u2014 what's your current workaround? Convert to direct collab"
     },
     {
       "key": "x:usephylax",
@@ -898,45 +856,45 @@
       "first_seen": "2026-06-27",
       "link": "https://x.com/usephylax/status/2070579374966165675",
       "source": "xai_x",
-      "move": "Reply and quote: co-write a skill-triage + Phylax thread — convert the shiplog mention into an ecosystem spotlight"
+      "move": "Reply and quote: co-write a skill-triage + Phylax thread \u2014 convert the shiplog mention into an ecosystem spotlight"
     },
     {
       "key": "x:revaultdrops",
       "class": "integrating",
       "who": "Revault (@revaultdrops)",
       "handle": "@revaultdrops",
-      "signal": "X post 06-29 20:28: 'our users can bet on the companies behind them — starting with Nike markets via @Polymarket inside our Bankr mini app, with @miroshark_ sims before taking a side.' Live integration, Bankr partner, World Cup timing.",
+      "signal": "X post 06-29 20:28: 'our users can bet on the companies behind them \u2014 starting with Nike markets via @Polymarket inside our Bankr mini app, with @miroshark_ sims before taking a side.' Live integration, Bankr partner, World Cup timing.",
       "fit": 3,
       "score": 9,
       "first_seen": "2026-06-30",
       "link": "https://x.com/revaultdrops/status/2071692217047990361",
       "source": "xai_x",
-      "move": "Reply to thread + DM: the 'simulate before you trade' pattern is the play — co-announce, 50% affiliate, World Cup timing window NOW"
+      "move": "Reply to thread + DM: the 'simulate before you trade' pattern is the play \u2014 co-announce, 50% affiliate, World Cup timing window NOW"
     },
     {
       "key": "github:nu11dotfun/mine-bean",
       "class": "integrating",
       "who": "nu11.fun / mine-bean",
       "handle": "nu11dotfun",
-      "signal": "Gamified mining protocol on Base (6★, TypeScript, pushed 07-02T14:00Z). Has app/(agent)/integrations/aeon/page.tsx — dedicated Aeon integration page in their agent-facing app.",
+      "signal": "Gamified mining protocol on Base (6\u2605, TypeScript, pushed 07-02T14:00Z). Has app/(agent)/integrations/aeon/page.tsx \u2014 dedicated Aeon integration page in their agent-facing app.",
       "fit": 3,
       "score": 9,
       "first_seen": "2026-07-03",
       "repo_updated": "2026-07-02",
       "source": "gh_search_code",
-      "move": "Open GH comment or DM nu11dotfun: saw the Aeon integration page in mine-bean — what agents are you building? TG invite"
+      "move": "Open GH comment or DM nu11dotfun: saw the Aeon integration page in mine-bean \u2014 what agents are you building? TG invite"
     },
     {
       "key": "github:dan-and/issue-hf-offline",
       "class": "integrating",
       "who": "dan-and (MiroShark heavy contributor)",
       "handle": "dan-and",
-      "signal": "4th MiroShark issue (07-07): 'offline huggingface-models for air-gapped environments' — enterprise/air-gapped deployment signal. Fork 63,752 bytes, pushed 07-06. Prior: issues #187 (multilingual timeouts), #193 (thinking token budget), #N (general integration).",
+      "signal": "4th MiroShark issue (07-07): 'offline huggingface-models for air-gapped environments' \u2014 enterprise/air-gapped deployment signal. Fork 63,752 bytes, pushed 07-06. Prior: issues #187 (multilingual timeouts), #193 (thinking token budget), #N (general integration).",
       "fit": 3,
       "score": 9,
       "first_seen": "2026-07-07",
       "source": "gh_read_pat_issues",
-      "move": "Reply on issue directly: air-gapped path is interesting — what's the deployment context? Offer a direct call or TG"
+      "move": "Reply on issue directly: air-gapped path is interesting \u2014 what's the deployment context? Offer a direct call or TG"
     },
     {
       "key": "github:Svector-anu/skopos-aeon",
@@ -949,7 +907,7 @@
       "first_seen": "2026-07-07",
       "repo_updated": "2026-07-06",
       "source": "gh_read_pat_forks",
-      "move": "DM or GH comment: 'skopos-aeon' is a real product name — what are you building? TG invite"
+      "move": "DM or GH comment: 'skopos-aeon' is a real product name \u2014 what are you building? TG invite"
     },
     {
       "key": "github:nigelon11/aeon",
@@ -962,7 +920,7 @@
       "first_seen": "2026-07-09",
       "repo_updated": "2026-07-08",
       "source": "gh_pat_cache+gh_issue",
-      "move": "Reply on aeon issue #681 — public thread converts integrating→building in the open"
+      "move": "Reply on aeon issue #681 \u2014 public thread converts integrating\u2192building in the open"
     },
     {
       "key": "github:dan-and/issue-240",
@@ -981,7 +939,7 @@
       "class": "integrating",
       "who": "Daniel Andersen (dan-and)",
       "handle": "dan-and",
-      "signal": "Filed MiroShark issue #240 for offline HuggingFace models in air-gapped environments — already shipped: forked MiroShark (dan-and/MiroShark/feat/offline-hf-cache), added force-disk-load + docker-compose preload helper scripts. Real deployment use-case, real code already written.",
+      "signal": "Filed MiroShark issue #240 for offline HuggingFace models in air-gapped environments \u2014 already shipped: forked MiroShark (dan-and/MiroShark/feat/offline-hf-cache), added force-disk-load + docker-compose preload helper scripts. Real deployment use-case, real code already written.",
       "fit": 3,
       "score": 9,
       "first_seen": "2026-07-22",
@@ -1002,24 +960,24 @@
       "key": "github:nvkudva/aeon",
       "cls": "building",
       "score": 8,
-      "who": "Vijay Krishna Kudva — UI guy @ Uber, 55 repos",
+      "who": "Vijay Krishna Kudva \u2014 UI guy @ Uber, 55 repos",
       "signal": "Full aeon framework instance (CLAUDE.md, aeon.yml, skills/) running since 07-14. Uber engineer exploring autonomous agents.",
       "source": "gh_search_repos",
       "date": "2026-07-23",
-      "move": "DM nvkudva on GH: Uber engineer running aeon — what is the use case? Enterprise feedback is gold. TG invite.",
+      "move": "DM nvkudva on GH: Uber engineer running aeon \u2014 what is the use case? Enterprise feedback is gold. TG invite.",
       "fit": 3
     },
     {
       "key": "github:aeoncity-hub/my-aeon",
       "cls": "building",
       "score": 8,
-      "who": "aeoncity-hub (aeoncity.fun — 3D ecosystem explorer)",
+      "who": "aeoncity-hub (aeoncity.fun \u2014 3D ecosystem explorer)",
       "signal": "Known builder now running second aeon instance my-aeon with ECOSYSTEM.md. Escalating from fork to personal operator.",
       "source": "gh_search_repos",
       "date": "2026-07-23",
       "known": true,
       "escalating": true,
-      "move": "Ping aeoncity-hub in TG: personal aeon instance live — what skills are you running?",
+      "move": "Ping aeoncity-hub in TG: personal aeon instance live \u2014 what skills are you running?",
       "fit": 3
     },
     {
@@ -1036,7 +994,7 @@
       "class": "mentioning",
       "who": "tom_doerr",
       "handle": "@tom_doerr",
-      "signal": "posted MiroShark repo, 103 likes/12 RT — high-reach dev account (GitHub/DSPy/agents), best non-official engagement in window",
+      "signal": "posted MiroShark repo, 103 likes/12 RT \u2014 high-reach dev account (GitHub/DSPy/agents), best non-official engagement in window",
       "fit": 3,
       "score": 6,
       "first_seen": "2026-06-12",
@@ -1048,7 +1006,7 @@
       "class": "mentioning",
       "who": "Azzle (dabusthebuilder)",
       "handle": "@dabusthebuilder",
-      "signal": "Azzle founder posted the AzzleAI integration stack — @aeonframework as 'agent setup 4 everyone' alongside bankr + xmtp. 17♥/8RT. Azzle in ECOSYSTEM — founder publicly running aeon as agent-setup layer",
+      "signal": "Azzle founder posted the AzzleAI integration stack \u2014 @aeonframework as 'agent setup 4 everyone' alongside bankr + xmtp. 17\u2665/8RT. Azzle in ECOSYSTEM \u2014 founder publicly running aeon as agent-setup layer",
       "fit": 3,
       "score": 6,
       "first_seen": "2026-06-15",
@@ -1060,7 +1018,7 @@
       "class": "mentioning",
       "who": "kyrolabs/awesome-agents",
       "handle": "kyrolabs",
-      "signal": "MiroShark added to kyrolabs/awesome-agents curated list (high-traffic awesome-list) — distribution/reach surface",
+      "signal": "MiroShark added to kyrolabs/awesome-agents curated list (high-traffic awesome-list) \u2014 distribution/reach surface",
       "fit": 3,
       "score": 6,
       "first_seen": "2026-06-15",
@@ -1071,7 +1029,7 @@
       "class": "mentioning",
       "who": "zby (commonplace KB)",
       "handle": "zby",
-      "signal": "in-depth technical review of MiroShark's neo4j graph + ReACT report-agent architecture in an agent-memory-systems knowledge base — credible evaluator cataloging it favorably",
+      "signal": "in-depth technical review of MiroShark's neo4j graph + ReACT report-agent architecture in an agent-memory-systems knowledge base \u2014 credible evaluator cataloging it favorably",
       "fit": 3,
       "score": 6,
       "first_seen": "2026-06-15",
@@ -1082,7 +1040,7 @@
       "class": "mentioning",
       "who": "microchipgnu (frames catalog)",
       "handle": "microchipgnu",
-      "signal": "x402.miroshark.xyz listed as an x402 merchant in microchipgnu's frames catalog — credible x402/AI builder, distribution surface for the miroshark x402 endpoint",
+      "signal": "x402.miroshark.xyz listed as an x402 merchant in microchipgnu's frames catalog \u2014 credible x402/AI builder, distribution surface for the miroshark x402 endpoint",
       "fit": 3,
       "score": 6,
       "first_seen": "2026-06-15",
@@ -1099,27 +1057,27 @@
       "first_seen": "2026-06-19",
       "link": "https://hackernoon.com/meet-the-agents-that-pay-for-their-own-compute-inside-aeon-miroshark-and-agentic-commerce",
       "source": "websearch",
-      "move": "Find article author on HackerNoon + thank them — a follow-up thread or quote compounds reach"
+      "move": "Find article author on HackerNoon + thank them \u2014 a follow-up thread or quote compounds reach"
     },
     {
       "key": "github:deepmindru-afk/MiroShark",
       "class": "forking",
       "who": "deepmindru-afk",
       "handle": "deepmindru-afk",
-      "signal": "MiroShark fork created 06-19T00:44, own commits pushed 06-19T18:28 — 17h+ own activity. Unclear vertical, no description.",
+      "signal": "MiroShark fork created 06-19T00:44, own commits pushed 06-19T18:28 \u2014 17h+ own activity. Unclear vertical, no description.",
       "fit": 3,
       "score": 6,
       "first_seen": "2026-06-20",
       "repo_updated": "2026-06-19",
       "source": "gh_read_pat_forks",
-      "move": "Watch — if they push again or add description, ping: what are you building with MiroShark?"
+      "move": "Watch \u2014 if they push again or add description, ping: what are you building with MiroShark?"
     },
     {
       "key": "x:excelsior_x0",
       "class": "mentioning",
       "who": "excelsior_x0 (Web3/AI Researcher)",
       "handle": "@excelsior_x0",
-      "signal": "'AI Agents on Base Tier List' — @aeonframework + @miroshark_ both in OG tier alongside gitlawb, Root_Edge, BlockRunAI. 28 engagement (24 likes/4 RT). 06-25. Account bio/links focused on on-chain AI.",
+      "signal": "'AI Agents on Base Tier List' \u2014 @aeonframework + @miroshark_ both in OG tier alongside gitlawb, Root_Edge, BlockRunAI. 28 engagement (24 likes/4 RT). 06-25. Account bio/links focused on on-chain AI.",
       "fit": 3,
       "score": 6,
       "first_seen": "2026-06-26",
@@ -1132,7 +1090,7 @@
       "class": "mentioning",
       "who": "AIonBase_",
       "handle": "@AIonBase_",
-      "signal": "Alpha of the week: @miroshark_ post — solid breakdown of pay-per-run sim. Project account. 4 likes. 06-26.",
+      "signal": "Alpha of the week: @miroshark_ post \u2014 solid breakdown of pay-per-run sim. Project account. 4 likes. 06-26.",
       "fit": 3,
       "score": 6,
       "first_seen": "2026-06-27",
@@ -1152,20 +1110,20 @@
       "first_seen": "2026-06-29",
       "link": "https://x.com/danbuildss/status/2071240182506946693",
       "source": "xai_x",
-      "move": "Reply: 'the open schema + framework guides is the infra the skill ecosystem needed — what's the registry submission flow?'"
+      "move": "Reply: 'the open schema + framework guides is the infra the skill ecosystem needed \u2014 what's the registry submission flow?'"
     },
     {
       "key": "web:youtube-aeon-wc-miroshark",
       "class": "mentioning",
       "who": "YouTube creator (aeon WC video)",
       "handle": "unknown",
-      "signal": "Video 'The agentic World Cup | aeon WC deck and Japan's tournament simulation with MiroShark' — external creator ran both products during 2026 World Cup. Best real-world sim demo found this week.",
+      "signal": "Video 'The agentic World Cup | aeon WC deck and Japan's tournament simulation with MiroShark' \u2014 external creator ran both products during 2026 World Cup. Best real-world sim demo found this week.",
       "fit": 3,
       "score": 6,
       "first_seen": "2026-06-30",
       "link": "https://www.youtube.com/watch?v=5L6_wmewOIs",
       "source": "websearch",
-      "move": "Find creator via YouTube channel, DM: real sim demo = best social proof — co-promote + TG invite"
+      "move": "Find creator via YouTube channel, DM: real sim demo = best social proof \u2014 co-promote + TG invite"
     },
     {
       "key": "github:Zarbel974/MiroShark",
@@ -1178,7 +1136,7 @@
       "first_seen": "2026-07-03",
       "repo_updated": "2026-07-03",
       "source": "gh_read_pat_forks",
-      "move": "Watch — if description or issue appears within 5 days, DM: what are you building with MiroShark? 🦈"
+      "move": "Watch \u2014 if description or issue appears within 5 days, DM: what are you building with MiroShark? \ud83e\udd88"
     },
     {
       "key": "x:nazimahmed",
@@ -1191,7 +1149,7 @@
       "first_seen": "2026-07-10",
       "link": "https://x.com/nazimahmed/status/2075286419526881463",
       "source": "xai_x",
-      "move": "Reply: 'glad aeon made the cut — what's the self-serve portal timeline?' Convert curators to builders"
+      "move": "Reply: 'glad aeon made the cut \u2014 what's the self-serve portal timeline?' Convert curators to builders"
     },
     {
       "key": "github:cyotee/crane",
@@ -1233,7 +1191,7 @@
       "class": "building",
       "who": "LiquidPad",
       "handle": "liquidpadbot",
-      "signal": "skill pack — burn-cycle alerts, token-launch + fee monitoring on Aeon",
+      "signal": "skill pack \u2014 burn-cycle alerts, token-launch + fee monitoring on Aeon",
       "fit": 1,
       "score": 5,
       "first_seen": "2026-06-13",
@@ -1266,7 +1224,7 @@
       "class": "building",
       "who": "aeonbook",
       "handle": "aeonbook",
-      "signal": "machine-validated Excalidraw diagram skill from drawfiles (1★). utility skill, low intent",
+      "signal": "machine-validated Excalidraw diagram skill from drawfiles (1\u2605). utility skill, low intent",
       "fit": 1,
       "score": 5,
       "first_seen": "2026-06-14",
@@ -1278,7 +1236,7 @@
       "class": "building",
       "who": "Nexus L1 monitor (alecjames-dot)",
       "handle": "alecjames-dot",
-      "signal": "Aeon skill — continuous Nexus testnet (chain 3945) monitoring: health, ERI scoring, weekly trends. single-chain utility skill",
+      "signal": "Aeon skill \u2014 continuous Nexus testnet (chain 3945) monitoring: health, ERI scoring, weekly trends. single-chain utility skill",
       "fit": 1,
       "score": 5,
       "first_seen": "2026-06-15",
@@ -1290,39 +1248,39 @@
       "class": "building",
       "who": "clawhunter",
       "handle": "clawhunter",
-      "signal": "Aeon fork named 'add-clawhunter-pack' — own commits pushed 06-18T13:21 (27min before base was pushed at 13:48). Clear skill-pack build. Identity/vertical unknown.",
+      "signal": "Aeon fork named 'add-clawhunter-pack' \u2014 own commits pushed 06-18T13:21 (27min before base was pushed at 13:48). Clear skill-pack build. Identity/vertical unknown.",
       "fit": 1,
       "score": 5,
       "first_seen": "2026-06-19",
       "repo_updated": "2026-06-18",
       "source": "gh_read_pat_forks",
-      "move": "Watch — if they open a PR or publish a repo description, reach out to offer listing in the skill registry"
+      "move": "Watch \u2014 if they open a PR or publish a repo description, reach out to offer listing in the skill registry"
     },
     {
       "key": "github:clawhunter/clawhunter-skills",
       "class": "building",
       "who": "clawhunter (Claw Hunter)",
       "handle": "clawhunter",
-      "signal": "Shipped public skill repo 'Official Claw Hunter agent skills — discover and vet Pump Fun GO bounties, and produce the content to win them.' Updated 06-18T11:48. A product built on aeon, separate from their fork (clawhunter/add-clawhunter-pack).",
+      "signal": "Shipped public skill repo 'Official Claw Hunter agent skills \u2014 discover and vet Pump Fun GO bounties, and produce the content to win them.' Updated 06-18T11:48. A product built on aeon, separate from their fork (clawhunter/add-clawhunter-pack).",
       "fit": 1,
       "score": 5,
       "first_seen": "2026-06-25",
       "repo_updated": "2026-06-18",
       "source": "gh_search_repos",
-      "move": "DM clawhunter: the Claw Hunter skills are live — feature it in the skill registry + ECOSYSTEM.md entry"
+      "move": "DM clawhunter: the Claw Hunter skills are live \u2014 feature it in the skill registry + ECOSYSTEM.md entry"
     },
     {
       "key": "github:roadtogideon222-byte/aeon-cat-studio",
       "class": "building",
       "who": "roadtogideon222-byte (aeon-cat-studio)",
       "handle": "roadtogideon222-byte",
-      "signal": "aeon-cat-studio — personal aeon deployment, created 04-18, pushed TODAY 07-03T05:02Z. Has skills/spawn-instance/SKILL.md with aeonframework config. TypeScript, 0★, 2.5 months of continuous operation.",
+      "signal": "aeon-cat-studio \u2014 personal aeon deployment, created 04-18, pushed TODAY 07-03T05:02Z. Has skills/spawn-instance/SKILL.md with aeonframework config. TypeScript, 0\u2605, 2.5 months of continuous operation.",
       "fit": 1,
       "score": 5,
       "first_seen": "2026-07-03",
       "repo_updated": "2026-07-03",
       "source": "gh_search_code",
-      "move": "Watch — if they publish a description or open issue, reach out: 2.5mo running aeon quietly is worth a ping"
+      "move": "Watch \u2014 if they publish a description or open issue, reach out: 2.5mo running aeon quietly is worth a ping"
     },
     {
       "key": "github:aeonbookai/aeonTemplate",
@@ -1335,7 +1293,7 @@
       "first_seen": "2026-07-10",
       "repo_updated": "2026-07-09",
       "source": "gh_read_pat_forks",
-      "move": "DM aeonbookai on GH: you named an org around aeon — what are you building? TG invite"
+      "move": "DM aeonbookai on GH: you named an org around aeon \u2014 what are you building? TG invite"
     },
     {
       "key": "github:Hollup/aeon",
@@ -1348,7 +1306,7 @@
       "first_seen": "2026-07-16",
       "repo_updated": "2026-07-16",
       "source": "gh_search_repos",
-      "move": "DM Hollup on GH: your skills are failing (heartbeat, engagement-act, self-improve) — likely missing API key or secrets config. Share setup guide + TG invite."
+      "move": "DM Hollup on GH: your skills are failing (heartbeat, engagement-act, self-improve) \u2014 likely missing API key or secrets config. Share setup guide + TG invite."
     },
     {
       "key": "github:LEDGRAGENT/aeon",
@@ -1358,7 +1316,7 @@
       "signal": "Aeon instance with ECOSYSTEM.md + SHOWCASE.md under LEDGR AGENT branding. x402books integrated. Created 06-10, pushed 07-23.",
       "source": "gh_search_repos",
       "date": "2026-07-23",
-      "move": "Check README — if ledger/accounting agent product, DM to feature on skill registry.",
+      "move": "Check README \u2014 if ledger/accounting agent product, DM to feature on skill registry.",
       "fit": 2
     },
     {
@@ -1467,7 +1425,7 @@
       "class": "forking",
       "who": "SahilParikh03",
       "handle": "SahilParikh03",
-      "signal": "aeon fork 06-10 → pushed 06-12, 2d own activity",
+      "signal": "aeon fork 06-10 \u2192 pushed 06-12, 2d own activity",
       "fit": 1,
       "score": 4,
       "first_seen": "2026-06-14",
@@ -1511,7 +1469,7 @@
       "first_seen": "2026-06-18",
       "repo_updated": "2026-06-04",
       "source": "gh_read_pat_forks",
-      "move": "acknowledge in ecosystem comms — already a builder"
+      "move": "acknowledge in ecosystem comms \u2014 already a builder"
     },
     {
       "key": "github:Atrium-Hermes/aeon",
@@ -1538,20 +1496,20 @@
       "first_seen": "2026-06-19",
       "repo_updated": "2026-06-14",
       "source": "gh_read_pat_forks",
-      "move": "Low-touch — ping if they resurface with a description or issue"
+      "move": "Low-touch \u2014 ping if they resurface with a description or issue"
     },
     {
       "key": "github:adlai88/aeon",
       "class": "forking",
       "who": "adlai88",
       "handle": "adlai88",
-      "signal": "New aeon fork, 43min own activity 06-18T13:04→13:47. Identity unknown, no description.",
+      "signal": "New aeon fork, 43min own activity 06-18T13:04\u219213:47. Identity unknown, no description.",
       "fit": 1,
       "score": 4,
       "first_seen": "2026-06-21",
       "repo_updated": "2026-06-18",
       "source": "gh_read_pat_forks",
-      "move": "Watch — ping if they add a description or open an issue"
+      "move": "Watch \u2014 ping if they add a description or open an issue"
     },
     {
       "key": "github:noelclaw/miroshark",
@@ -1564,7 +1522,7 @@
       "first_seen": "2026-06-22",
       "repo_updated": "2026-05-27",
       "source": "gh_read_pat_forks",
-      "move": "Watch — ping if they resurface with a description or push again"
+      "move": "Watch \u2014 ping if they resurface with a description or push again"
     },
     {
       "key": "github:tomer-liran/MiroShark",
@@ -1577,7 +1535,7 @@
       "first_seen": "2026-06-23",
       "repo_updated": "2026-06-22",
       "source": "gh_read_pat_forks",
-      "move": "Watch — ping if description appears or they push again"
+      "move": "Watch \u2014 ping if description appears or they push again"
     },
     {
       "key": "github:kevinpinscoe/MiroShark",
@@ -1603,7 +1561,7 @@
       "first_seen": "2026-06-23",
       "repo_updated": "2026-06-18",
       "source": "gh_read_pat_forks",
-      "move": "Check who jonnydubowsky is — DM on GH if recognizable builder"
+      "move": "Check who jonnydubowsky is \u2014 DM on GH if recognizable builder"
     },
     {
       "key": "github:Marr554/aeon",
@@ -1616,7 +1574,7 @@
       "first_seen": "2026-06-25",
       "repo_updated": "2026-06-26",
       "source": "gh_read_pat_forks",
-      "move": "Watch — ping if description appears or they open an issue"
+      "move": "Watch \u2014 ping if description appears or they open an issue"
     },
     {
       "key": "github:alpenflow/aeon",
@@ -1714,13 +1672,13 @@
       "class": "forking",
       "who": "madmystic",
       "handle": "madmystic",
-      "signal": "Aeon fork 06-26, size 33703 (+340 bytes). GH profile: nextcloud-mcp-server + NethunterApp — security/tools builder.",
+      "signal": "Aeon fork 06-26, size 33703 (+340 bytes). GH profile: nextcloud-mcp-server + NethunterApp \u2014 security/tools builder.",
       "fit": 1,
       "score": 4,
       "first_seen": "2026-06-27",
       "repo_updated": "2026-06-26",
       "source": "gh_read_pat_forks",
-      "move": "Watch — if they publish a skill or add a description, reach out"
+      "move": "Watch \u2014 if they publish a skill or add a description, reach out"
     },
     {
       "key": "github:saivarmadpr/aeon",
@@ -1759,7 +1717,7 @@
       "first_seen": "2026-06-30",
       "repo_updated": "2026-06-29",
       "source": "gh_read_pat_forks",
-      "move": "Watch — ping if description or issue appears"
+      "move": "Watch \u2014 ping if description or issue appears"
     },
     {
       "key": "github:MATHEUSFELIX/miroshark",
@@ -1783,7 +1741,7 @@
       "score": 4,
       "first_seen": "2026-06-30",
       "source": "websearch",
-      "move": "Watch — check GH profile; if agents/AI technical, cold DM worth it"
+      "move": "Watch \u2014 check GH profile; if agents/AI technical, cold DM worth it"
     },
     {
       "key": "github:s97472091-pixel/aeon",
@@ -1796,7 +1754,7 @@
       "first_seen": "2026-07-02",
       "repo_updated": "2026-07-01",
       "source": "gh_read_pat_forks",
-      "move": "Watch — ping if description or issue appears"
+      "move": "Watch \u2014 ping if description or issue appears"
     },
     {
       "key": "github:R16008882/MiroShark",
@@ -1816,26 +1774,26 @@
       "class": "forking",
       "who": "mattsegura",
       "handle": "mattsegura",
-      "signal": "Aeon fork created TODAY 07-07T05:00, pushed 07-07T05:01. Size 35,884 KB = +2,521 bytes above base — largest own-content delta in today's cache. Had content ready to push immediately.",
+      "signal": "Aeon fork created TODAY 07-07T05:00, pushed 07-07T05:01. Size 35,884 KB = +2,521 bytes above base \u2014 largest own-content delta in today's cache. Had content ready to push immediately.",
       "fit": 1,
       "score": 4,
       "first_seen": "2026-07-07",
       "repo_updated": "2026-07-07",
       "source": "gh_read_pat_forks",
-      "move": "Watch — ping if they add description or continue pushing today"
+      "move": "Watch \u2014 ping if they add description or continue pushing today"
     },
     {
       "key": "github:kriptoburak/aeon-xquik",
       "class": "forking",
       "who": "kriptoburak",
       "handle": "kriptoburak",
-      "signal": "Named fork 'aeon-xquik'. Created+pushed 07-09T17:24. Size 36,161 = +2,898 bytes above base — largest own-content aeon fork in today's new set. Product name in repo = intent.",
+      "signal": "Named fork 'aeon-xquik'. Created+pushed 07-09T17:24. Size 36,161 = +2,898 bytes above base \u2014 largest own-content aeon fork in today's new set. Product name in repo = intent.",
       "fit": 1,
       "score": 4,
       "first_seen": "2026-07-10",
       "repo_updated": "2026-07-09",
       "source": "gh_read_pat_forks",
-      "move": "Watch — if description appears or they push again in 5 days, DM: what's aeon-xquik?"
+      "move": "Watch \u2014 if description appears or they push again in 5 days, DM: what's aeon-xquik?"
     },
     {
       "key": "github:satendra-mani-tiwari/NetraAI",
@@ -1862,7 +1820,7 @@
       "class": "adjacent",
       "who": "AdversaLLC",
       "handle": "AdversaLLC",
-      "signal": "forked BOTH aeon + MiroShark 06-12, no own commits yet (security org) — watch",
+      "signal": "forked BOTH aeon + MiroShark 06-12, no own commits yet (security org) \u2014 watch",
       "fit": 3,
       "score": 3,
       "first_seen": "2026-06-13",
@@ -1873,7 +1831,7 @@
       "class": "adjacent",
       "who": "sneg55/SimSwarm",
       "handle": "sneg55",
-      "signal": "competing OPEN swarm-sim — self-hostable LLM agents, entity graphs + prediction markets (3★, active 06-11). MiroShark's exact category — outbound/watch",
+      "signal": "competing OPEN swarm-sim \u2014 self-hostable LLM agents, entity graphs + prediction markets (3\u2605, active 06-11). MiroShark's exact category \u2014 outbound/watch",
       "fit": 3,
       "score": 3,
       "first_seen": "2026-06-14",
@@ -1904,7 +1862,7 @@
       "score": 3,
       "first_seen": "2026-06-20",
       "source": "xai_x",
-      "move": "Check 1claw.ai; if building agent signing infra, reply in thread — their signing + charon's policy + fleet-watcher = composable governance stack, worth a public thread"
+      "move": "Check 1claw.ai; if building agent signing infra, reply in thread \u2014 their signing + charon's policy + fleet-watcher = composable governance stack, worth a public thread"
     },
     {
       "key": "x:gumterver100",
@@ -1917,27 +1875,27 @@
       "first_seen": "2026-06-21",
       "link": "https://x.com/gumterver100/status/2068559314579587303",
       "source": "xai_x",
-      "move": "No action — confirms Litebeam integration getting organic pick-up"
+      "move": "No action \u2014 confirms Litebeam integration getting organic pick-up"
     },
     {
       "key": "github:Jelloeater/MiroShark",
       "class": "forking",
       "who": "Jelloeater",
       "handle": "Jelloeater",
-      "signal": "MiroShark fork 2026-06-27 (yesterday). Drive-by so far (push ~= create, size 62356 = baseline). Fresh enough to watch — if commits appear in 5 days, reach out.",
+      "signal": "MiroShark fork 2026-06-27 (yesterday). Drive-by so far (push ~= create, size 62356 = baseline). Fresh enough to watch \u2014 if commits appear in 5 days, reach out.",
       "fit": 1,
       "score": 3,
       "first_seen": "2026-06-28",
       "repo_updated": "2026-06-27",
       "source": "gh_read_pat_forks",
-      "move": "Watch 5 days — if new commits appear, DM @Jelloeater 🦈"
+      "move": "Watch 5 days \u2014 if new commits appear, DM @Jelloeater \ud83e\udd88"
     },
     {
       "key": "web:openagentskill.com",
       "class": "adjacent",
       "who": "OpenAgentSkill (openagentskill.com)",
       "handle": "openagentskill",
-      "signal": "'npm for AI Agent Skills' — skill discovery/distribution platform with Aeon listed as an installable skill via `npx skills add aaronjmars/aeon`. Auditable, ranked, install-ready; works with Claude Code, Codex, Cursor, MCP agents.",
+      "signal": "'npm for AI Agent Skills' \u2014 skill discovery/distribution platform with Aeon listed as an installable skill via `npx skills add aaronjmars/aeon`. Auditable, ranked, install-ready; works with Claude Code, Codex, Cursor, MCP agents.",
       "fit": 3,
       "score": 3,
       "first_seen": "2026-06-29",
@@ -1949,14 +1907,14 @@
       "class": "adjacent",
       "who": "luis212 / EnsembleOS",
       "handle": "luis212",
-      "signal": "EnsembleOS — biologically-inspired distributed swarm consensus protocol, created 06-28, pushed 06-29. GitHub description copies MiroShark tagline verbatim. Actual project is a competing distributed-intelligence framework (35-byte stub). In the swarm sim wedge.",
+      "signal": "EnsembleOS \u2014 biologically-inspired distributed swarm consensus protocol, created 06-28, pushed 06-29. GitHub description copies MiroShark tagline verbatim. Actual project is a competing distributed-intelligence framework (35-byte stub). In the swarm sim wedge.",
       "fit": 3,
       "score": 3,
       "first_seen": "2026-06-29",
       "repo_updated": "2026-06-29",
       "source": "gh_search_repos",
       "watch": true,
-      "move": "Watch — if they ship code, outreach: aware of MiroShark, competing angle, potential user/partner"
+      "move": "Watch \u2014 if they ship code, outreach: aware of MiroShark, competing angle, potential user/partner"
     },
     {
       "key": "x:trillhause_",
@@ -1969,7 +1927,7 @@
       "first_seen": "2026-07-03",
       "link": "https://x.com/trillhause_/status/2071926431706189913",
       "source": "xai_x",
-      "move": "Reply to thread with the fleet-watcher + pool-runner architecture — convert the question into a TG invite"
+      "move": "Reply to thread with the fleet-watcher + pool-runner architecture \u2014 convert the question into a TG invite"
     },
     {
       "key": "github:zoodsood/MiroShark",
@@ -1982,7 +1940,7 @@
       "first_seen": "2026-07-14",
       "repo_updated": "2026-07-13",
       "source": "gh_read_pat_forks",
-      "move": "Watch — ping if description or issue appears in 5 days"
+      "move": "Watch \u2014 ping if description or issue appears in 5 days"
     },
     {
       "key": "github:iopo545454-del/project-watchlist",
@@ -1994,7 +1952,7 @@
       "score": 3,
       "first_seen": "2026-07-14",
       "source": "gh_search_code",
-      "move": "No action — free-moving intel tracker. Monitor for inbound"
+      "move": "No action \u2014 free-moving intel tracker. Monitor for inbound"
     },
     {
       "key": "github:framerslab/paracosm",
@@ -2042,7 +2000,7 @@
       "class": "forking",
       "who": "techdigger (aeon-skill-pack-agentlink builder)",
       "handle": "techdigger",
-      "signal": "techdigger (known ecosystem builder — shipped aeon-skill-pack-agentlink, AgentLink verified human-backed on-chain identity) created their own aeon fork 07-08, pushed same day. Size 35,442. Deepening personal engagement.",
+      "signal": "techdigger (known ecosystem builder \u2014 shipped aeon-skill-pack-agentlink, AgentLink verified human-backed on-chain identity) created their own aeon fork 07-08, pushed same day. Size 35,442. Deepening personal engagement.",
       "fit": 1,
       "score": 3,
       "first_seen": "2026-07-16",
@@ -2061,7 +2019,7 @@
       "score": 3,
       "first_seen": "2026-07-17",
       "source": "gh_search_repos",
-      "move": "Check jmthomasofficial.com — if serious builder, DM on GH about Aeon as prod-ready version of what they are building toward"
+      "move": "Check jmthomasofficial.com \u2014 if serious builder, DM on GH about Aeon as prod-ready version of what they are building toward"
     },
     {
       "key": "github:StevenWang-CY/township",
@@ -2094,7 +2052,7 @@
       "class": "adjacent",
       "who": "AgentWorkforce (khaliqgant, willwashburn)",
       "handle": "AgentWorkforce",
-      "signal": "Building proactiveagents.dev — manual on proactive agents that wake up because time passed, data changed, or someone spoke. Runs own agents (newsletter-drafter, pr-reviewer, weekly-digest). Already references aaronjmars/aeon in codebase. Exact thesis overlap.",
+      "signal": "Building proactiveagents.dev \u2014 manual on proactive agents that wake up because time passed, data changed, or someone spoke. Runs own agents (newsletter-drafter, pr-reviewer, weekly-digest). Already references aaronjmars/aeon in codebase. Exact thesis overlap.",
       "fit": 3,
       "score": 3,
       "first_seen": "2026-07-22",
@@ -2110,7 +2068,7 @@
       "signal": "aeonai-branded aeon instance with ECOSYSTEM.md + SHOWCASE.md. Pushed today.",
       "source": "gh_search_repos",
       "date": "2026-07-23",
-      "move": "Watch — ping when description appears.",
+      "move": "Watch \u2014 ping when description appears.",
       "fit": 2
     },
     {
@@ -2136,7 +2094,7 @@
       "class": "mentioning",
       "who": "sendbox.fun",
       "handle": "0xkek",
-      "signal": "tools/miroshark.html — miroshark listed as a 'Social Media AI Tool' on the sendbox.fun tool directory (third-party distribution surface, not a builder)",
+      "signal": "tools/miroshark.html \u2014 miroshark listed as a 'Social Media AI Tool' on the sendbox.fun tool directory (third-party distribution surface, not a builder)",
       "fit": 1,
       "score": 2,
       "first_seen": "2026-06-11",
@@ -2216,7 +2174,7 @@
       "score": 2,
       "first_seen": "2026-06-26",
       "source": "websearch",
-      "move": "Verify listing is current — free top-of-funnel"
+      "move": "Verify listing is current \u2014 free top-of-funnel"
     },
     {
       "key": "github:andyrewlee/awesome-agent-orchestrators",
@@ -2228,7 +2186,7 @@
       "score": 2,
       "first_seen": "2026-06-26",
       "source": "websearch",
-      "move": "Verify listing is current — free top-of-funnel"
+      "move": "Verify listing is current \u2014 free top-of-funnel"
     },
     {
       "key": "github:anajuliabit/aeon-fork",
@@ -2241,7 +2199,7 @@
       "first_seen": "2026-06-29",
       "repo_updated": "2026-06-29",
       "source": "gh_read_pat_forks",
-      "move": "Watch 5 days — if commits appear, ping"
+      "move": "Watch 5 days \u2014 if commits appear, ping"
     },
     {
       "key": "github:penguinxbt/aeon",
@@ -2292,14 +2250,14 @@
       "first_seen": "2026-06-30",
       "link": "https://leadai.dev/insider/aeon-a-game-changer-for-running-ai-agents-on-github-actions",
       "source": "websearch",
-      "move": "No action needed — good organic reach"
+      "move": "No action needed \u2014 good organic reach"
     },
     {
       "key": "web:Zijian-Ni/awesome-ai-agents-2026",
       "class": "mentioning",
       "who": "Zijian-Ni (awesome-ai-agents-2026)",
       "handle": "Zijian-Ni",
-      "signal": "A curated list of AI Agent frameworks for 2026 — the year agents went mainstream. Web search surfaced it. Distribution surface for aeon/miroshark listing.",
+      "signal": "A curated list of AI Agent frameworks for 2026 \u2014 the year agents went mainstream. Web search surfaced it. Distribution surface for aeon/miroshark listing.",
       "fit": 1,
       "score": 2,
       "first_seen": "2026-07-02",
@@ -2311,38 +2269,38 @@
       "class": "mentioning",
       "who": "jay2jay01",
       "handle": "@jay2jay01",
-      "signal": "X post 07-02: Top 10 Projects Launched Through @bankrbot — @aeonframework listed #2 with 40/40 Blockworks transparency score, 20% Bedrock Foundation stake. Promoter account.",
+      "signal": "X post 07-02: Top 10 Projects Launched Through @bankrbot \u2014 @aeonframework listed #2 with 40/40 Blockworks transparency score, 20% Bedrock Foundation stake. Promoter account.",
       "fit": 1,
       "score": 2,
       "first_seen": "2026-07-02",
       "link": "https://x.com/jay2jay01/status/2072545933179662406",
       "source": "xai_x",
-      "move": "No action — confirms Bankr launch narrative circulating"
+      "move": "No action \u2014 confirms Bankr launch narrative circulating"
     },
     {
       "key": "x:baseboss_",
       "class": "mentioning",
       "who": "baseboss_",
       "handle": "@baseboss_",
-      "signal": "X post 07-02: Top Bankr coins by Market Cap — aeon in list. Base-affiliated distribution surface.",
+      "signal": "X post 07-02: Top Bankr coins by Market Cap \u2014 aeon in list. Base-affiliated distribution surface.",
       "fit": 1,
       "score": 2,
       "first_seen": "2026-07-02",
       "link": "https://x.com/baseboss_/status/2072560908539253062",
       "source": "xai_x",
-      "move": "No action — distribution surface"
+      "move": "No action \u2014 distribution surface"
     },
     {
       "key": "github:KrishDabhi/MiroShark-a-swarm-intelligence",
       "class": "mentioning",
       "who": "KrishDabhi",
       "handle": "KrishDabhi",
-      "signal": "Standalone named project 'MiroShark-a-swarm-intelligence' — description uses MiroShark tagline verbatim. Created 04-19, 0★, no recent activity. Research/education use case.",
+      "signal": "Standalone named project 'MiroShark-a-swarm-intelligence' \u2014 description uses MiroShark tagline verbatim. Created 04-19, 0\u2605, no recent activity. Research/education use case.",
       "fit": 1,
       "score": 2,
       "first_seen": "2026-07-07",
       "source": "gh_search_repos",
-      "move": "Watch — low signal; open GH comment if they resurface"
+      "move": "Watch \u2014 low signal; open GH comment if they resurface"
     },
     {
       "key": "github:Waleeeeed88/MiroShark",
@@ -2406,7 +2364,7 @@
       "score": 2,
       "first_seen": "2026-07-14",
       "source": "gh_search_code",
-      "move": "No action — organic reach"
+      "move": "No action \u2014 organic reach"
     },
     {
       "key": "github:yindaqiu/aeon",
@@ -2419,7 +2377,7 @@
       "first_seen": "2026-07-14",
       "repo_updated": "2026-07-14",
       "source": "gh_read_pat_forks",
-      "move": "Watch — if description appears or issue filed, ping"
+      "move": "Watch \u2014 if description appears or issue filed, ping"
     },
     {
       "key": "github:gabrielmoreira/awesome-ai-rabbit-holes",
@@ -2445,7 +2403,7 @@
       "first_seen": "2026-07-16",
       "link": "https://x.com/TotalWorldApps/status/2077496693625336136",
       "source": "xai_x",
-      "move": "Reply from @aeonframework: welcome — here's ECOSYSTEM.md + TG link. Convert explorer to builder."
+      "move": "Reply from @aeonframework: welcome \u2014 here's ECOSYSTEM.md + TG link. Convert explorer to builder."
     },
     {
       "key": "github:Artiffusion-Inc/mirofish",
@@ -2459,6 +2417,56 @@
       "repo_updated": "2026-07-19",
       "source": "gh_search_repos",
       "move": "DM on GH: same Neo4j graph stack - MiroShark is the production-ready upgrade from MiroFish"
+    },
+    {
+      "key": "github:BankrBot/skills",
+      "cls": "building",
+      "score": 15,
+      "who": "BankrBot (bankr.bot)",
+      "handle": "BankrBot",
+      "signal": "bankr.bot ships 24 aeon-specific skills in 1169star/581f repo (aeon-autoresearch, aeon-deep-research, aeon-defi-monitor, aeon-narrative-tracker, aeon-token-pick, aeon-vuln-scanner + 18 more). Largest third-party aeon skill collection. Pushed 07-23.",
+      "fit": 3,
+      "source": "gh_search_code",
+      "date": "2026-07-24",
+      "move": "DM BankrBot: 24 aeon skills is the biggest third-party skill suite \u2014 feature officially, co-post."
+    },
+    {
+      "key": "github:Atrium-Hermes/atrium-lighthouse",
+      "cls": "building",
+      "score": 15,
+      "who": "Atrium-Hermes",
+      "handle": "Atrium-Hermes",
+      "signal": "Known org (aeon fork + aeon-atrium-skills previously surfaced) ships atrium-lighthouse pushed TODAY \u2014 CLAUDE.md, ECOSYSTEM.md, SHOWCASE.md, A2A server, MCP integration. Escalating fork to live product.",
+      "fit": 3,
+      "source": "gh_search_repos",
+      "date": "2026-07-24",
+      "known": true,
+      "escalating": true,
+      "move": "DM Atrium-Hermes on GH: atrium-lighthouse live today with A2A+MCP. What is Atrium? TG invite."
+    },
+    {
+      "key": "github:anajuliabit/aeon",
+      "cls": "building",
+      "score": 12,
+      "who": "anajuliabit (Ana Julia, 987 GH followers)",
+      "handle": "anajuliabit",
+      "signal": "498MB Aeon fork pushed 07-23 with AIXBT + CoinGecko + DeFi integrations (.aixbt-chains.json, .cg-markets.json, .candidates.json). Custom autonomous DeFi intelligence stack. 987 GH followers.",
+      "fit": 3,
+      "source": "gh_search_code",
+      "date": "2026-07-24",
+      "move": "DM anajuliabit on GH: AIXBT+CoinGecko aeon fork \u2014 what are you building? TG invite."
+    },
+    {
+      "key": "github:datappt8/UOPC",
+      "cls": "mentioning",
+      "score": 3,
+      "who": "datappt8/UOPC",
+      "handle": "datappt8",
+      "signal": "Bilingual EN/ZH agent platform with companies/aeon-intelligence/skills/ pointing to aaronjmars/aeon. AGENTS.md + AGENTS-zh.md. ZH-language community distribution path.",
+      "fit": 2,
+      "source": "gh_search_code",
+      "date": "2026-07-24",
+      "move": "Watch \u2014 if product site or active contributors appear, reach out."
     }
   ],
   "surfaced": [
@@ -2753,6 +2761,10 @@
     "github:matemorotz/MiroShark",
     "github:c1490b-code/MiroShark",
     "github:veridian69/miroshark",
-    "github:rumahucan-cyber/aeon"
+    "github:rumahucan-cyber/aeon",
+    "github:BankrBot/skills",
+    "github:Atrium-Hermes/atrium-lighthouse",
+    "github:anajuliabit/aeon",
+    "github:datappt8/UOPC"
   ]
 }
