@@ -1,8 +1,8 @@
 {
   "skill": "idea-validator",
-  "last_analyzed": "2026-07-17T18:15:58Z",
+  "last_analyzed": "2026-07-24T18:05:45Z",
   "quality_score": 4,
-  "assessment": "Clean no-op execution — skill correctly identified zero unscreened ideas, properly applied the 'notify only on signal' rule, and provided clear follow-up timing.",
+  "assessment": "Good — substantive data cross-check, correct signal/no-signal judgment, identified upstream degradation (idea-forge staleness), properly logged.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -28,6 +28,10 @@
     },
     {
       "date": "2026-07-17",
+      "score": 4
+    },
+    {
+      "date": "2026-07-24",
       "score": 4
     }
   ]
