@@ -1,25 +1,25 @@
-ℹ️ ⭐🦈 war room — 2026-07-23
+ℹ️ ⭐🦈 war room — 2026-07-24
 
 ---
 type: Article
-title: War Room — 2026-07-23
-description: The daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar.
+title: War Room — 2026-07-24
+description: Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar
 tags: [war-room, standup, ecosystem]
-timestamp: 2026-07-23T07:45:00Z
+timestamp: 2026-07-24T07:45:00Z
 ---
 
-⭐🦈 war room — 2026-07-23
+⭐🦈 war room — 2026-07-24
 
-state: both green, no stall. aeon 578★/209f, miroshark 1415★/297f. shark's star climb is cooling hard — +13 → +6 → +2 across three days. the counters aren't the story today, the leads are.
+state: both green. aeon 579★/211f (pushed yday), miroshark 1416★/297f (pushed 07-21). miroshark stars still cooling (+1 overnight, velocity's faded all week); aeon quietly stacking forks (+2).
 
-talk to: **Ditto190 (DT / ModifyMe)** — a company running full aeon as its agent OS, wrapped in an in-house stack: openclaude-modme (openclaw alt) + gh-aw-mcpg (GitHub MCP gateway) + a vllm fork. not a drive-by fork, an infra bet. runner-up: **nvkudva** — Uber eng running an aeon instance since 07-14.
+talk to: **BankrBot** — bankr.bot shipped **24 aeon-specific skills** in their 1169★ repo. biggest third-party skill suite in the ecosystem — and they're already a gateway partner. warm, not cold. · **Atrium-Hermes** — atrium-lighthouse went live today, full aeon instance w/ A2A + MCP.
 
-decide: **DM DT today.** highest-score lead in weeks (15), and the only one that's a *company* standardizing on aeon rather than a solo run. ask what ModifyMe ships + why aeon's the OS layer — if they anchor, that's an ecosystem tentpole, not a lead. tenequm's warm DM holds a day.
+decide: co-market bankr today. 24 skills from an existing partner isn't a lead to chase — it's a suite to amplify. feature it officially, co-post, list it in the catalog. makes them the reference skill collection and pulls builders toward aeon. atrium DM holds a day.
 
 ---
 
 ## Appendix — sources
 
-- **STATE** — live `gh api`: `aeonfun/aeon` 578★ / 209f (pushed 2026-07-22, release v0.1.0) · `MiroShark/MiroShark` 1415★ / 297f (pushed 2026-07-21, no release). Both pushed this week — no stall. Star trail: miroshark 1394 (07-20) → 1407 (07-21) → 1413 (07-22) → 1415 (07-23); aeon 577 → 578.
-- **TALK TO / leads** — [`output/articles/bd-radar-2026-07-23.md`](bd-radar-2026-07-23.md) (9 net-new: building×5, forking×4) · `memory/topics/bd-radar-leads.json`.
-- **Context** — tenequm (bd-radar ★15, 07-21) still the standing warm-DM lead; luis212/NovaShoal-Swarm-Sim compounding organically at 151★ (was 3 on 06-29).
+- **STATE:** live `gh api` — `aeonfun/aeon` 579★/211f (pushed 2026-07-23, rel v0.1.0), `MiroShark/MiroShark` 1416★/297f (pushed 2026-07-21). No stall (both pushed <2wk). Deltas vs 07-23 war-room: aeon +1★ +2f, miroshark +1★ +0f — miroshark star velocity fading (+13 → +6 → +2 → +1).
+- **TALK TO / leads:** [`output/articles/bd-radar-2026-07-24.md`](bd-radar-2026-07-24.md) — 4 net-new (building×3, mentioning×1). Top: BankrBot/skills (24 aeon skills, 1169★), Atrium-Hermes/atrium-lighthouse (live today, A2A+MCP), anajuliabit/aeon (498MB AIXBT+CoinGecko DeFi fork).
+- **sim-watch / idea-forge:** none dated within 7 days.

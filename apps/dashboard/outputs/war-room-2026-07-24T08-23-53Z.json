@@ -1,0 +1,368 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "War Room — 2026-07-24",
+        "description": "Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar"
+      },
+      "children": [
+        "tags",
+        "state-heading",
+        "state-content",
+        "sep1",
+        "talks-heading",
+        "talks-content",
+        "sep2",
+        "decide-heading",
+        "decide-content",
+        "sep3",
+        "appendix-heading",
+        "appendix-content"
+      ]
+    },
+    "tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag-warroom",
+        "tag-standup",
+        "tag-ecosystem"
+      ]
+    },
+    "tag-warroom": {
+      "type": "Badge",
+      "props": {
+        "text": "war-room",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "tag-standup": {
+      "type": "Badge",
+      "props": {
+        "text": "standup",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "tag-ecosystem": {
+      "type": "Badge",
+      "props": {
+        "text": "ecosystem",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "state-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "state-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state-status",
+        "aeon-stat",
+        "miroshark-stat",
+        "state-notes"
+      ]
+    },
+    "state-status": {
+      "type": "Text",
+      "props": {
+        "text": "both green",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "aeon-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon",
+        "value": "579★ / 211f",
+        "delta": "+1★ +2f",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "miroshark-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "miroshark",
+        "value": "1416★ / 297f",
+        "delta": "+1★",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "state-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon pushed 2026-07-23. Miroshark pushed 2026-07-21. Miroshark star velocity cooling (trend: +13 → +6 → +2 → +1 daily). Aeon quietly stacking forks (+2).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "talks-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "talks-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "bankrbot-item",
+        "atrium-item"
+      ]
+    },
+    "bankrbot-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bankrbot-title",
+        "bankrbot-desc"
+      ]
+    },
+    "bankrbot-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BankrBot",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "bankrbot-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped 24 aeon-specific skills in their 1169★ repo. Biggest third-party skill suite in the ecosystem — already a gateway partner. Warm, not cold.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "atrium-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "atrium-title",
+        "atrium-desc"
+      ]
+    },
+    "atrium-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Atrium-Hermes",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "atrium-desc": {
+      "type": "Text",
+      "props": {
+        "text": "atrium-lighthouse went live today. Full aeon instance with A2A + MCP.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "decide-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "decide-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide-action",
+        "decide-rationale",
+        "decide-next"
+      ]
+    },
+    "decide-action": {
+      "type": "Text",
+      "props": {
+        "text": "Co-market bankr today.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "decide-rationale": {
+      "type": "Text",
+      "props": {
+        "text": "24 skills from an existing partner isn't a lead to chase — it's a suite to amplify. Feature it officially, co-post, list it in the catalog. Makes them the reference skill collection and pulls builders toward aeon.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "decide-next": {
+      "type": "Text",
+      "props": {
+        "text": "Atrium DM holds a day.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "appendix-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "appendix-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "appendix-state",
+        "appendix-talks",
+        "appendix-sim"
+      ]
+    },
+    "appendix-state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "appendix-state-title",
+        "appendix-state-text"
+      ]
+    },
+    "appendix-state-title": {
+      "type": "Text",
+      "props": {
+        "text": "STATE:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "appendix-state-text": {
+      "type": "Text",
+      "props": {
+        "text": "Live gh api — aeonfun/aeon 579★/211f (pushed 2026-07-23, rel v0.1.0), MiroShark/MiroShark 1416★/297f (pushed 2026-07-21). No stall (both pushed <2wk). Deltas vs 07-23 war-room: aeon +1★ +2f, miroshark +1★ +0f — miroshark star velocity fading (+13 → +6 → +2 → +1).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "appendix-talks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "appendix-talks-title",
+        "appendix-talks-link",
+        "appendix-talks-details"
+      ]
+    },
+    "appendix-talks-title": {
+      "type": "Text",
+      "props": {
+        "text": "TALK TO / leads:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "appendix-talks-link": {
+      "type": "Link",
+      "props": {
+        "label": "output/articles/bd-radar-2026-07-24.md",
+        "href": "bd-radar-2026-07-24.md"
+      },
+      "children": []
+    },
+    "appendix-talks-details": {
+      "type": "Text",
+      "props": {
+        "text": "4 net-new (building×3, mentioning×1). Top: BankrBot/skills (24 aeon skills, 1169★), Atrium-Hermes/atrium-lighthouse (live today, A2A+MCP), anajuliabit/aeon (498MB AIXBT+CoinGecko DeFi fork).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "appendix-sim": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "appendix-sim-title",
+        "appendix-sim-text"
+      ]
+    },
+    "appendix-sim-title": {
+      "type": "Text",
+      "props": {
+        "text": "sim-watch / idea-forge:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "appendix-sim-text": {
+      "type": "Text",
+      "props": {
+        "text": "None dated within 7 days.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

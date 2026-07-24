@@ -1,15 +1,11 @@
 {
   "skill": "war-room",
-  "last_analyzed": "2026-07-23T08:31:50Z",
+  "last_analyzed": "2026-07-24T08:23:53Z",
   "quality_score": 5,
-  "assessment": "Delivered ranked BD lead (Ditto190/ModifyMe, score 15) with clear priority rationale, flagged cooling momentum pattern (+13→+6→+2 stars), live data sourced, tight and actionable for audience.",
+  "assessment": "Excellent — substantive intelligence with live data, clear strategic decisions, and actionable next steps tailored to the war room's GTM mission.",
   "flags": [],
-  "avg_score": 4.03,
+  "avg_score": 4.07,
   "history": [
-    {
-      "date": "2026-06-23",
-      "score": 4
-    },
     {
       "date": "2026-06-25",
       "score": 3
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-23",
+      "score": 5
+    },
+    {
+      "date": "2026-07-24",
       "score": 5
     }
   ]
