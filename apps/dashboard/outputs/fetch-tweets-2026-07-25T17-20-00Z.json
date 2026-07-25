@@ -1,0 +1,175 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup — 2026-07-25",
+        "description": "Source: api:3 websearch:0 failed:0"
+      },
+      "children": [
+        "ai-section",
+        "sep1",
+        "crypto-section",
+        "sep2",
+        "tech-section"
+      ]
+    },
+    "ai-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-heading",
+        "ai-desc",
+        "ai-item-1"
+      ]
+    },
+    "ai-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI / Agents / LLM",
+        "level": "h2"
+      }
+    },
+    "ai-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet day — one model-release explainer surfaces, rest of the conversation low-signal",
+        "variant": "muted"
+      }
+    },
+    "ai-item-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "First practical Claude Opus 5 engineering guide: effort levels, context window tradeoffs, cost per use case — useful ref as teams calibrate toward the new flagship",
+        "href": "https://x.com/zyvop1/status/2081065716715814923",
+        "source": "zyvop1"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "crypto-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "crypto-heading",
+        "crypto-desc",
+        "crypto-item-1",
+        "crypto-item-2",
+        "crypto-item-3"
+      ]
+    },
+    "crypto-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto / Bitcoin / DeFi",
+        "level": "h2"
+      }
+    },
+    "crypto-desc": {
+      "type": "Text",
+      "props": {
+        "text": "No price catalyst; one regulatory signal, one new DeFi primitive, one conviction hold",
+        "variant": "muted"
+      }
+    },
+    "crypto-item-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SEC sets Sept 17 roundtable on 24-hour equity trading under Chair Atkins — market-structure overlap with crypto rails is the subtext",
+        "href": "https://x.com/cryptodotnews/status/2081065944886153333",
+        "source": "cryptodotnews",
+        "score": "signal: 2"
+      }
+    },
+    "crypto-item-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "States the scarcity thesis plainly: 21M cap + growing demand = price appreciation is the only resolution; framed as conviction formed at depressed prices",
+        "href": "https://x.com/OnrampBitcoin/status/2081065863805857843",
+        "source": "OnrampBitcoin",
+        "score": "signal: 1"
+      }
+    },
+    "crypto-item-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Hashi testnet live on Sui: decentralized BTC collateralization primitive, no centralized balance sheets, smart-contract-native BTC orchestration",
+        "href": "https://x.com/cryptoo_moneyy/status/2081065934123676087",
+        "source": "cryptoo_moneyy",
+        "score": "signal: 1"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tech-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "tech-desc",
+        "tech-item-1",
+        "tech-item-2",
+        "tech-item-3"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tech / Startups / Open Source",
+        "level": "h2"
+      }
+    },
+    "tech-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open-weight sovereignty debate leads; US DoE backing Arcee AI is the anchor signal",
+        "variant": "muted"
+      }
+    },
+    "tech-item-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "US DoE backing Arcee AI via Genesis Mission + GS1 — argues the DoE is reacting more rationally to the open-source AI situation than any private megacorp",
+        "href": "https://x.com/teortaxesTex/status/2080805102361657844",
+        "source": "teortaxesTex",
+        "score": "signal: 62"
+      }
+    },
+    "tech-item-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open weights ≠ open source: the real unlock is checkpoints builders can own, adapt, and self-host — full reproduced pipelines aren't what most teams need; sovereignty and specialization happen at the application layer",
+        "href": "https://x.com/knisaci/status/2080805180367638580",
+        "source": "knisaci"
+      }
+    },
+    "tech-item-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Benchhood: benchmarking open source AI models on real Robinhood tokens via Alchemy + Chainlink — OS models stress-tested in live-trading conditions",
+        "href": "https://x.com/SonyxEth/status/2080805005171323099",
+        "source": "SonyxEth",
+        "score": "signal: 8"
+      }
+    }
+  }
+}

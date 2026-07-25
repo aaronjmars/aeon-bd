@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-24T17:36:41Z",
+  "last_analyzed": "2026-07-25T17:20:00Z",
   "quality_score": 4,
-  "assessment": "Delivered 5 specific market signals across 3 topics with quantified scores and narrative frames; tracking maintained.",
+  "assessment": "Good execution — fetched 7 curated tweets from three topics with API success, deduplication applied, memory updated, substantive signals identified for GTM/BD use.",
   "flags": [],
   "avg_score": 3.93,
   "history": [
-    {
-      "date": "2026-06-25",
-      "score": 4
-    },
     {
       "date": "2026-06-26",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-24",
+      "score": 4
+    },
+    {
+      "date": "2026-07-25",
       "score": 4
     }
   ]

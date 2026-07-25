@@ -1,15 +1,17 @@
-ℹ️ Tweet Roundup — 2026-07-24
+ℹ️ Tweet Roundup — 2026-07-25
 
-*Tweet Roundup — 2026-07-24*
+*Tweet Roundup — 2026-07-25*
 _Source: api:3 websearch:0 failed:0_
 
-*Artificial Intelligence / AI Agents / LLM* — _AI anxiety on two flanks: education systems scrambling, Wall Street commoditizing AI debt risk_
-- x.com/JamaicaObserver — Jamaica principals' association sounds public alarm on AI curriculum gap — first official educator body going on record about schools falling behind (signal: 75) [View](https://x.com/JamaicaObserver/status/2080441937492845036)
-- x.com/business — Goldman + JPMorgan launch AI junk-bond trading products — hyperscaler debt is now a tradeable instrument, Wall Street is pricing in the risk (signal: 18) [View](https://x.com/business/status/2080441610400121207)
+*AI / Agents / LLM* — _Quiet day — one model-release explainer surfaces, rest of the conversation low-signal_
+- x.com/zyvop1 — First practical Claude Opus 5 engineering guide: effort levels, context window tradeoffs, cost per use case — useful ref as teams calibrate toward the new flagship [View](https://x.com/zyvop1/status/2081065716715814923)
 
-*Crypto / Bitcoin / DeFi* — _Single story dominating: "white flag" framing, crypto camp in self-critique mode_
-- x.com/TEXITcoin — "Crypto Bros & the White Flag of Defeat" live broadcast — framing today as a capitulation moment for the crypto community (signal: 145) [View](https://x.com/TEXITcoin/status/2080442817583911083)
+*Crypto / Bitcoin / DeFi* — _No price catalyst; one regulatory signal, one new DeFi primitive, one conviction hold_
+- x.com/cryptodotnews — SEC sets Sept 17 roundtable on 24-hour equity trading under Chair Atkins — market-structure overlap with crypto rails is the subtext (signal: 2) [View](https://x.com/cryptodotnews/status/2081065944886153333)
+- x.com/OnrampBitcoin — States the scarcity thesis plainly: 21M cap + growing demand = price appreciation is the only resolution; framed as conviction formed at depressed prices (signal: 1) [View](https://x.com/OnrampBitcoin/status/2081065863805857843)
+- x.com/cryptoo_moneyy — Hashi testnet live on Sui: decentralized BTC collateralization primitive, no centralized balance sheets, smart-contract-native BTC orchestration (signal: 1) [View](https://x.com/cryptoo_moneyy/status/2081065934123676087)
 
-*Technology / Startups / Open Source* — _Tech as geopolitical weapon vs. social corrosion — same infrastructure buildout, two readings_
-- x.com/FellaHrx69 — US information/tech superiority over Russia reframed as strategic moat worth protecting — defense-lens tech nationalism (signal: 59) [View](https://x.com/FellaHrx69/status/2080442758125298096)
-- x.com/Terese4NH — Anti-data center pushback: "technology has done nothing but dull the human heart" — community resistance to AI infrastructure expansion (signal: 44) [View](https://x.com/Terese4NH/status/2080442678999679340)
+*Tech / Startups / Open Source* — _Open-weight sovereignty debate leads; US DoE backing Arcee AI is the anchor signal_
+- x.com/teortaxesTex — US DoE backing Arcee AI via Genesis Mission + GS1 — argues the DoE is reacting more rationally to the open-source AI situation than any private megacorp (signal: 62) [View](https://x.com/teortaxesTex/status/2080805102361657844)
+- x.com/knisaci — Open weights ≠ open source: the real unlock is checkpoints builders can own, adapt, and self-host — full reproduced pipelines aren't what most teams need; sovereignty and specialization happen at the application layer [View](https://x.com/knisaci/status/2080805180367638580)
+- x.com/SonyxEth — Benchhood: benchmarking open source AI models on real Robinhood tokens via Alchemy + Chainlink — OS models stress-tested in live-trading conditions (signal: 8) [View](https://x.com/SonyxEth/status/2080805005171323099)
