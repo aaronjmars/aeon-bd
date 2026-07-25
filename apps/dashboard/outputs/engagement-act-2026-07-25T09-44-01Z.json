@@ -1,0 +1,396 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "2026-07-25"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "engagement_1",
+        "sep_1",
+        "engagement_2",
+        "sep_2",
+        "engagement_3",
+        "sep_3",
+        "engagement_4",
+        "sep_4",
+        "engagement_5"
+      ]
+    },
+    "engagement_1": {
+      "type": "Card",
+      "props": {
+        "title": "github:HKUDS/Vibe-Trading (0 days ago)"
+      },
+      "children": [
+        "engagement_1_stack"
+      ]
+    },
+    "engagement_1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng1_desc",
+        "eng1_link",
+        "eng1_type",
+        "eng1_xpost_label",
+        "eng1_xpost",
+        "eng1_dm_label",
+        "eng1_dm"
+      ]
+    },
+    "eng1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "aeon's vuln-scanner merged PR #390 (Pillow+langchain CVE fix) into their 27k★ trading platform on 07-05; war-room directive today: DM maintainer + co-announce the merge as a proof-post",
+        "variant": "body"
+      }
+    },
+    "eng1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://github.com/HKUDS/Vibe-Trading",
+        "href": "https://github.com/HKUDS/Vibe-Trading",
+        "source": "GitHub"
+      }
+    },
+    "eng1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X post + GitHub DM"
+      }
+    },
+    "eng1_xpost_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft X post:",
+        "variant": "lead"
+      }
+    },
+    "eng1_xpost": {
+      "type": "Text",
+      "props": {
+        "text": "aeon's vuln-scanner shipped a CVE fix to Vibe-Trading (27k★ AI trading platform). they merged it.\n\ncompute → security → ecosystem. this is the play ⭐",
+        "variant": "caption"
+      }
+    },
+    "eng1_dm_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft GitHub DM:",
+        "variant": "lead"
+      }
+    },
+    "eng1_dm": {
+      "type": "Text",
+      "props": {
+        "text": "hey — aeon's security bot found + fixed a Pillow/langchain CVE in Vibe-Trading (merged PR #390, 07-05). wanted to connect properly. if you're open to formalizing this or co-announcing the merge, i'm in — the story is pretty good.",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement_2": {
+      "type": "Card",
+      "props": {
+        "title": "github:BankrBot/skills (1 day ago)"
+      },
+      "children": [
+        "engagement_2_stack"
+      ]
+    },
+    "engagement_2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng2_desc",
+        "eng2_link",
+        "eng2_type",
+        "eng2_xpost_label",
+        "eng2_xpost",
+        "eng2_dm_label",
+        "eng2_dm"
+      ]
+    },
+    "eng2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "24 aeon-specific skills in 1169★/581f repo (aeon-autoresearch, aeon-deep-research, aeon-defi-monitor, aeon-vuln-scanner, aeon-token-pick + 19 more); largest third-party skill suite in the ecosystem; war-room 07-24 directive: co-market today",
+        "variant": "body"
+      }
+    },
+    "eng2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://github.com/BankrBot/skills",
+        "href": "https://github.com/BankrBot/skills",
+        "source": "GitHub"
+      }
+    },
+    "eng2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X post + GitHub DM"
+      }
+    },
+    "eng2_xpost_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft X post:",
+        "variant": "lead"
+      }
+    },
+    "eng2_xpost": {
+      "type": "Text",
+      "props": {
+        "text": "@bankr_bot has 24 aeon-specific skills live — aeon-autoresearch, aeon-defi-monitor, aeon-vuln-scanner + 21 more\n\nbiggest third-party skill suite in the ecosystem\n\nthis is the reference collection ⭐",
+        "variant": "caption"
+      }
+    },
+    "eng2_dm_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft GitHub DM:",
+        "variant": "lead"
+      }
+    },
+    "eng2_dm": {
+      "type": "Text",
+      "props": {
+        "text": "hey — 24 aeon-specific skills in your repo is the largest third-party suite we've seen. want to co-post the collection + get listed in the official skill catalog? the bankr × aeon story writes itself.",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement_3": {
+      "type": "Card",
+      "props": {
+        "title": "github:Atrium-Hermes/atrium-lighthouse (1 day ago)"
+      },
+      "children": [
+        "engagement_3_stack"
+      ]
+    },
+    "engagement_3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng3_desc",
+        "eng3_link",
+        "eng3_type",
+        "eng3_score",
+        "eng3_dm_label",
+        "eng3_dm"
+      ]
+    },
+    "eng3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "pushed yesterday with CLAUDE.md, ECOSYSTEM.md, A2A server + MCP integration; fork→live Aeon product in one day; score 15",
+        "variant": "body"
+      }
+    },
+    "eng3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://github.com/Atrium-Hermes/atrium-lighthouse",
+        "href": "https://github.com/Atrium-Hermes/atrium-lighthouse",
+        "source": "GitHub"
+      }
+    },
+    "eng3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM"
+      }
+    },
+    "eng3_score": {
+      "type": "Stat",
+      "props": {
+        "label": "Score",
+        "value": "15"
+      }
+    },
+    "eng3_dm_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft GitHub DM:",
+        "variant": "lead"
+      }
+    },
+    "eng3_dm": {
+      "type": "Text",
+      "props": {
+        "text": "hey — saw atrium-lighthouse go live with CLAUDE.md, ECOSYSTEM.md, A2A + MCP integration. that's a proper aeon deployment. curious what Atrium is building — join the TG if you want to connect: t.me/aeonframework",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement_4": {
+      "type": "Card",
+      "props": {
+        "title": "github:Ditto190/aeon-modme-autonomous-framework (2 days ago)"
+      },
+      "children": [
+        "engagement_4_stack"
+      ]
+    },
+    "engagement_4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng4_desc",
+        "eng4_link",
+        "eng4_type",
+        "eng4_dm_label",
+        "eng4_dm"
+      ]
+    },
+    "eng4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ModifyMe company (DT, 313 repos) running full aeon stack + openclaude-modme + gh-aw-mcpg as agent OS across their product; first company-level standardization on aeon in radar; war-room 07-23 directive: DM DT today",
+        "variant": "body"
+      }
+    },
+    "eng4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://github.com/Ditto190/aeon-modme-autonomous-framework",
+        "href": "https://github.com/Ditto190/aeon-modme-autonomous-framework",
+        "source": "GitHub"
+      }
+    },
+    "eng4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM"
+      }
+    },
+    "eng4_dm_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft GitHub DM:",
+        "variant": "lead"
+      }
+    },
+    "eng4_dm": {
+      "type": "Text",
+      "props": {
+        "text": "hey DT — saw you shipping openclaude-modme + gh-aw-mcpg on top of aeon. first company-level standardization we've seen. what is the ModifyMe product? curious to connect — TG: t.me/aeonframework",
+        "variant": "caption"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement_5": {
+      "type": "Card",
+      "props": {
+        "title": "github:anajuliabit/aeon (2 days ago)"
+      },
+      "children": [
+        "engagement_5_stack"
+      ]
+    },
+    "engagement_5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng5_desc",
+        "eng5_link",
+        "eng5_type",
+        "eng5_score",
+        "eng5_dm_label",
+        "eng5_dm"
+      ]
+    },
+    "eng5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "987-follower builder, 498MB fork with AIXBT+CoinGecko+DeFi integrations, deepest custom DeFi autonomous stack on aeon in current radar, pushed 07-23; score 12",
+        "variant": "body"
+      }
+    },
+    "eng5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://github.com/anajuliabit/aeon",
+        "href": "https://github.com/anajuliabit/aeon",
+        "source": "GitHub"
+      }
+    },
+    "eng5_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM"
+      }
+    },
+    "eng5_score": {
+      "type": "Stat",
+      "props": {
+        "label": "Score",
+        "value": "12"
+      }
+    },
+    "eng5_dm_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft GitHub DM:",
+        "variant": "lead"
+      }
+    },
+    "eng5_dm": {
+      "type": "Text",
+      "props": {
+        "text": "hey — saw your aeon fork with AIXBT+CoinGecko+DeFi integrations. deepest custom DeFi stack on aeon in our radar. what are you building? TG if you want to connect: t.me/aeonframework",
+        "variant": "caption"
+      }
+    }
+  }
+}
