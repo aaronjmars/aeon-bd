@@ -20,7 +20,7 @@
     "last_quality_score": 4
   },
   "war-room": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-07-24T08:25:33Z",
     "total_runs": 44,
     "total_successes": 44,
@@ -28,7 +28,7 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 5,
-    "last_dispatch": "2026-07-24T08:21:20Z"
+    "last_dispatch": "2026-07-25T08:16:07Z"
   },
   "fetch-tweets": {
     "last_dispatch": "2026-07-24T17:31:03Z",
@@ -90,8 +90,8 @@
     "last_error": "e_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inp"
   },
   "heartbeat": {
-    "last_dispatch": "2026-07-24T08:21:20Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-25T08:16:07Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-24T08:23:49Z",
     "total_runs": 71,
     "total_successes": 71,
