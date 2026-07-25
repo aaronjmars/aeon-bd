@@ -1,25 +1,23 @@
-ℹ️ ⭐🦈 war room — 2026-07-24
-
 ---
 type: Article
-title: War Room — 2026-07-24
+title: War Room — 2026-07-25
 description: Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar
 tags: [war-room, standup, ecosystem]
-timestamp: 2026-07-24T07:45:00Z
+timestamp: 2026-07-25T07:45:00Z
 ---
 
-⭐🦈 war room — 2026-07-24
+⭐🦈 war room — 2026-07-25
 
-state: both green. aeon 579★/211f (pushed yday), miroshark 1416★/297f (pushed 07-21). miroshark stars still cooling (+1 overnight, velocity's faded all week); aeon quietly stacking forks (+2).
+state: both green, both pushed yday. aeon 579★/211f, miroshark 1416★/297f — flat overnight. real story: star velocity flatlined this week (miroshark +13→+6→+2→+1→0). no red, but no wave. we need a distribution moment.
 
-talk to: **BankrBot** — bankr.bot shipped **24 aeon-specific skills** in their 1169★ repo. biggest third-party skill suite in the ecosystem — and they're already a gateway partner. warm, not cold. · **Atrium-Hermes** — atrium-lighthouse went live today, full aeon instance w/ A2A + MCP.
+talk to: **HKUDS/Vibe-Trading** — 27k★ trading platform, and the aeon security bot already merged PR #390 there (Pillow+langchain CVE). not a cold lead — a merged contributor. DM the maintainer, make it official, co-announce.
 
-decide: co-market bankr today. 24 skills from an existing partner isn't a lead to chase — it's a suite to amplify. feature it officially, co-post, list it in the catalog. makes them the reference skill collection and pulls builders toward aeon. atrium DM holds a day.
+decide: DM HKUDS today + co-announce the merge. "aeon secured a 27k★ trading platform" is the proof-post that breaks the star flatline. outbound vuln work → inbound BD → distribution. that's the wave — ship it.
 
 ---
 
 ## Appendix — sources
 
-- **STATE:** live `gh api` — `aeonfun/aeon` 579★/211f (pushed 2026-07-23, rel v0.1.0), `MiroShark/MiroShark` 1416★/297f (pushed 2026-07-21). No stall (both pushed <2wk). Deltas vs 07-23 war-room: aeon +1★ +2f, miroshark +1★ +0f — miroshark star velocity fading (+13 → +6 → +2 → +1).
-- **TALK TO / leads:** [`output/articles/bd-radar-2026-07-24.md`](bd-radar-2026-07-24.md) — 4 net-new (building×3, mentioning×1). Top: BankrBot/skills (24 aeon skills, 1169★), Atrium-Hermes/atrium-lighthouse (live today, A2A+MCP), anajuliabit/aeon (498MB AIXBT+CoinGecko DeFi fork).
+- **STATE:** live `gh api` — `aeonfun/aeon` 579★/211f (pushed 2026-07-24T20:23Z, rel v0.1.0), `MiroShark/MiroShark` 1416★/297f (pushed 2026-07-24T16:29Z, no release). No stall (both pushed <2wk, fresh yday). Deltas vs 07-24 war-room: aeon 0★/0f, miroshark 0★/0f — star growth flatlined across both this week.
+- **TALK TO / leads:** [`output/articles/bd-radar-2026-07-25.md`](bd-radar-2026-07-25.md) — 4 net-new (integrating×2, forking×2). Top: HKUDS/Vibe-Trading (27k★, aeon bot merged PR #390, score 10), koala73/worldmonitor (73k★, PR #5518 open/under review, score 5), AdversaLLC/MiroShark (security org forked both products).
 - **sim-watch / idea-forge:** none dated within 7 days.

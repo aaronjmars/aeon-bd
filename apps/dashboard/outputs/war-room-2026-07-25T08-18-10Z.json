@@ -1,0 +1,325 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "War Room — 2026-07-25",
+        "description": "Daily aeon + miroshark standup — state · talk-to · decide"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-state",
+        "stack-state-content",
+        "sep1",
+        "heading-talk",
+        "stack-talk-content",
+        "sep2",
+        "heading-decide",
+        "text-decide",
+        "sep3",
+        "heading-appendix",
+        "stack-appendix"
+      ]
+    },
+    "heading-state": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h2"
+      }
+    },
+    "stack-state-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-aeon",
+        "stat-miroshark",
+        "text-state"
+      ]
+    },
+    "stat-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon",
+        "value": "579★ / 211f",
+        "delta": "0★ / 0f",
+        "trend": "neutral"
+      }
+    },
+    "stat-miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark",
+        "value": "1416★ / 297f",
+        "delta": "0★ / 0f",
+        "trend": "neutral"
+      }
+    },
+    "text-state": {
+      "type": "Text",
+      "props": {
+        "text": "Both green, both pushed yesterday. Star velocity flatlined this week (+13→+6→+2→+1→0). No red, but no wave. We need a distribution moment.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-talk": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h2"
+      }
+    },
+    "stack-talk-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk-primary",
+        "text-leads-intro",
+        "talk-lead-2",
+        "talk-lead-3",
+        "talk-lead-4"
+      ]
+    },
+    "talk-primary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-27k",
+        "text-hkuds"
+      ]
+    },
+    "badge-27k": {
+      "type": "Badge",
+      "props": {
+        "text": "27k★ • Score 10",
+        "variant": "default"
+      }
+    },
+    "text-hkuds": {
+      "type": "Text",
+      "props": {
+        "text": "HKUDS/Vibe-Trading — trading platform, aeon security bot already merged PR #390 (Pillow+langchain CVE). Not a cold lead — a merged contributor. DM the maintainer, make it official, co-announce.",
+        "variant": "body"
+      }
+    },
+    "text-leads-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Top leads from BD radar (4 net-new: integrating×2, forking×2):",
+        "variant": "lead"
+      }
+    },
+    "talk-lead-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-73k",
+        "text-koala73"
+      ]
+    },
+    "badge-73k": {
+      "type": "Badge",
+      "props": {
+        "text": "73k★ • Score 5",
+        "variant": "secondary"
+      }
+    },
+    "text-koala73": {
+      "type": "Text",
+      "props": {
+        "text": "koala73/worldmonitor — PR #5518 open/under review",
+        "variant": "body"
+      }
+    },
+    "talk-lead-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-org",
+        "text-adversa"
+      ]
+    },
+    "badge-org": {
+      "type": "Badge",
+      "props": {
+        "text": "Security Org",
+        "variant": "secondary"
+      }
+    },
+    "text-adversa": {
+      "type": "Text",
+      "props": {
+        "text": "AdversaLLC/MiroShark — security org forked both products",
+        "variant": "body"
+      }
+    },
+    "talk-lead-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "BD Radar 2026-07-25",
+        "href": "output/articles/bd-radar-2026-07-25.md",
+        "source": "Full lead details"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-decide": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h2"
+      }
+    },
+    "text-decide": {
+      "type": "Text",
+      "props": {
+        "text": "DM HKUDS today + co-announce the merge. 'Aeon secured a 27k★ trading platform' is the proof-post that breaks the star flatline. Outbound vuln work → inbound BD → distribution. That's the wave — ship it.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-appendix": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h2"
+      }
+    },
+    "stack-appendix": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
+    },
+    "source-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-s1",
+        "text-s1"
+      ]
+    },
+    "heading-s1": {
+      "type": "Heading",
+      "props": {
+        "text": "STATE",
+        "level": "h4"
+      }
+    },
+    "text-s1": {
+      "type": "Text",
+      "props": {
+        "text": "Live gh api — aeonfun/aeon 579★/211f (pushed 2026-07-24T20:23Z, rel v0.1.0), MiroShark/MiroShark 1416★/297f (pushed 2026-07-24T16:29Z, no release). No stall (both pushed <2wk, fresh yday). Deltas vs 07-24 war-room: aeon 0★/0f, miroshark 0★/0f — star growth flatlined across both this week.",
+        "variant": "caption"
+      }
+    },
+    "source-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-s2",
+        "text-s2",
+        "link-s2"
+      ]
+    },
+    "heading-s2": {
+      "type": "Heading",
+      "props": {
+        "text": "TALK TO / leads",
+        "level": "h4"
+      }
+    },
+    "text-s2": {
+      "type": "Text",
+      "props": {
+        "text": "4 net-new (integrating×2, forking×2). Top: HKUDS/Vibe-Trading (27k★, aeon bot merged PR #390, score 10), koala73/worldmonitor (73k★, PR #5518 open/under review, score 5), AdversaLLC/MiroShark (security org forked both products).",
+        "variant": "caption"
+      }
+    },
+    "link-s2": {
+      "type": "Link",
+      "props": {
+        "label": "See full BD radar",
+        "href": "output/articles/bd-radar-2026-07-25.md"
+      }
+    },
+    "source-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-s3",
+        "text-s3"
+      ]
+    },
+    "heading-s3": {
+      "type": "Heading",
+      "props": {
+        "text": "sim-watch / idea-forge",
+        "level": "h4"
+      }
+    },
+    "text-s3": {
+      "type": "Text",
+      "props": {
+        "text": "None dated within 7 days.",
+        "variant": "caption"
+      }
+    }
+  }
+}
