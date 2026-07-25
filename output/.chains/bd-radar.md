@@ -1,11 +1,13 @@
-ℹ️ BD Radar 2026-07-24
+ℹ️ BD Radar 2026-07-25
 
-**bd-radar** — 2026-07-24 · 4 new leads (building×3)
+## BD Radar -- 2026-07-25
 
-**BankrBot/skills** — bankr.bot is running **24 aeon-specific skills** inside their 1169★/581f skill repo: aeon-autoresearch, aeon-deal-flow, aeon-deep-research, aeon-defi-monitor, aeon-distribute-tokens, aeon-narrative-tracker, aeon-on-chain-monitor, aeon-token-pick, aeon-vuln-scanner + 15 more. The biggest third-party aeon skill suite in the ecosystem, never flagged until now. → DM BankrBot, feature it officially, co-post the suite.
+**2 new integrating leads.** Security scanner work converting to BD opps.
 
-**Atrium-Hermes/atrium-lighthouse** — known org (aeon fork + aeon-atrium-skills already live) pushed `atrium-lighthouse` **today** — full Aeon instance with ECOSYSTEM.md, SHOWCASE.md, A2A server, MCP integration. Escalating from fork to live product. → DM Atrium-Hermes on GH: what is Atrium?
+**HKUDS/Vibe-Trading** (27,401 stars) -- aeon bot already had PR #390 MERGED on their codebase (Pillow+langchain CVE fix, July 5). They know the bot, accepted its output, haven't been pitched yet. DM the maintainer: convert "bot contributor" to formal security partner. https://github.com/HKUDS/Vibe-Trading/pull/390
 
-**anajuliabit/aeon** — 987-follower builder shipping a 498MB Aeon fork yesterday with AIXBT + CoinGecko + DeFi integration layers. Deepest custom DeFi autonomy stack on aeon in the radar. → DM on GH.
+**koala73/worldmonitor** (73,614 stars -- geopolitics/OSINT/MCP dashboard) -- aeon bot opened PR #5518 July 23, currently open with trust:caution label. If they merge it, 73k-star project publicly using aeon security tooling. Watch. https://github.com/koala73/worldmonitor/pull/5518
 
-[Full digest](output/articles/bd-radar-2026-07-24.md)
+**Also:** AdversaLLC (security org) forked MiroShark -- previously only had the aeon fork. Both products now. No commits yet, watch for activity.
+
+X quiet. HN/Reddit quiet. 4 total new leads today.

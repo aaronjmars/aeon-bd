@@ -1,13 +1,11 @@
-## BD Radar — 2026-07-14 ⭐🦈
+## BD Radar -- 2026-07-25
 
-Two new `building` leads today.
+**2 new integrating leads.** Security scanner work converting to BD opps.
 
-**BankrSynth** — one of the first agents live on Aeon, positioning as a "market operating system on Base." blocmates featured it in their Base AI Landscape article. Needs a verify pass but if the stack is real this is agents-as-companies in the wild. Find them on X or GH and DM.
+**HKUDS/Vibe-Trading** (27,401 stars) -- aeon bot already had PR #390 MERGED on their codebase (Pillow+langchain CVE fix, July 5). They know the bot, accepted its output, haven't been pitched yet. DM the maintainer: convert "bot contributor" to formal security partner. https://github.com/HKUDS/Vibe-Trading/pull/390
 
-**dawsonblock/Aaron** — personal Aeon instance running a `skill-spotlight` series for the @aeonframework ecosystem. The code has: *"The @aeonframework skill spotlight ⭐ is the brand of the series."* Someone built automation on top of Aeon to curate Aeon. Worth pulling into official curation and TG.
+**koala73/worldmonitor** (73,614 stars -- geopolitics/OSINT/MCP dashboard) -- aeon bot opened PR #5518 July 23, currently open with trust:caution label. If they merge it, 73k-star project publicly using aeon security tooling. Watch. https://github.com/koala73/worldmonitor/pull/5518
 
----
+**Also:** AdversaLLC (security org) forked MiroShark -- previously only had the aeon fork. Both products now. No commits yet, watch for activity.
 
-**Notable:** @sparklewarefun dropped another post 07-13 — "every Aeon loadout gets a @miroshark_ preflight before it's delivered." compose → simulate → ship. still the cleanest Aeon×MiroShark integration live. chxoky/aeon is now at 66K bytes own content (was 44K) with zero description — this builder is cooking something and hasn't come up for air yet.
-
-Full digest: `output/articles/bd-radar-2026-07-14.md`
+X quiet. HN/Reddit quiet. 4 total new leads today.

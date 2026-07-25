@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-24T07:37:36Z",
+  "last_analyzed": "2026-07-25T07:41:28Z",
   "quality_score": 4,
-  "assessment": "Substantive BD signal with 4 high-confidence leads, specific metrics, and clear moves; well-sourced and actionable, aligned with strategy.",
+  "assessment": "Substantive lead surfacing with clear scoring, actionable follow-ups, integrated to memory and main branch; well-structured output with specific GitHub signals and concrete next steps per lead",
   "flags": [],
   "avg_score": 4.07,
   "history": [
-    {
-      "date": "2026-06-25",
-      "score": 4
-    },
     {
       "date": "2026-06-26",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-24",
+      "score": 4
+    },
+    {
+      "date": "2026-07-25",
       "score": 4
     }
   ]

@@ -1,0 +1,238 @@
+{
+  "root": "card-bd-radar",
+  "state": {},
+  "elements": {
+    "card-bd-radar": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar 2026-07-25",
+        "description": "2 new integrating leads. Security scanner work converting to BD opps."
+      },
+      "children": [
+        "lead-1",
+        "separator-1",
+        "lead-2",
+        "separator-2",
+        "additional",
+        "separator-3",
+        "status"
+      ]
+    },
+    "lead-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead-1-header",
+        "lead-1-stars",
+        "lead-1-context",
+        "lead-1-action",
+        "lead-1-link"
+      ]
+    },
+    "lead-1-header": {
+      "type": "Heading",
+      "props": {
+        "text": "HKUDS/Vibe-Trading",
+        "level": "h3"
+      }
+    },
+    "lead-1-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Stars",
+        "value": "27,401"
+      }
+    },
+    "lead-1-context": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon bot already had PR #390 MERGED on their codebase (Pillow+langchain CVE fix, July 5). They know the bot, accepted its output, haven't been pitched yet."
+      }
+    },
+    "lead-1-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: DM the maintainer to convert \"bot contributor\" to formal security partner.",
+        "variant": "muted"
+      }
+    },
+    "lead-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #390 - Pillow+langchain CVE fix",
+        "href": "https://github.com/HKUDS/Vibe-Trading/pull/390",
+        "source": "GitHub"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead-2-header",
+        "lead-2-category",
+        "lead-2-stars",
+        "lead-2-context",
+        "lead-2-status",
+        "lead-2-watch",
+        "lead-2-link"
+      ]
+    },
+    "lead-2-header": {
+      "type": "Heading",
+      "props": {
+        "text": "koala73/worldmonitor",
+        "level": "h3"
+      }
+    },
+    "lead-2-category": {
+      "type": "Text",
+      "props": {
+        "text": "Geopolitics/OSINT/MCP dashboard",
+        "variant": "caption"
+      }
+    },
+    "lead-2-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Stars",
+        "value": "73,614"
+      }
+    },
+    "lead-2-context": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon bot opened PR #5518 July 23, currently open with trust:caution label."
+      }
+    },
+    "lead-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "trust:caution",
+        "variant": "outline"
+      }
+    },
+    "lead-2-watch": {
+      "type": "Alert",
+      "props": {
+        "title": "Watch for merge",
+        "message": "If merged, 73k-star project publicly using aeon security tooling.",
+        "type": "info"
+      }
+    },
+    "lead-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #5518",
+        "href": "https://github.com/koala73/worldmonitor/pull/5518",
+        "source": "GitHub"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "additional": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "additional-heading",
+        "additional-content",
+        "additional-watch"
+      ]
+    },
+    "additional-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Also Watch",
+        "level": "h3"
+      }
+    },
+    "additional-content": {
+      "type": "Text",
+      "props": {
+        "text": "AdversaLLC (security org) forked MiroShark — previously only had the aeon fork. Both products now."
+      }
+    },
+    "additional-watch": {
+      "type": "Text",
+      "props": {
+        "text": "No commits yet, watch for activity.",
+        "variant": "muted"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status-heading",
+        "status-grid"
+      ]
+    },
+    "status-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Channel Status",
+        "level": "h3"
+      }
+    },
+    "status-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "status-x",
+        "status-hn",
+        "status-total"
+      ]
+    },
+    "status-x": {
+      "type": "Stat",
+      "props": {
+        "label": "X",
+        "value": "Quiet"
+      }
+    },
+    "status-hn": {
+      "type": "Stat",
+      "props": {
+        "label": "HN/Reddit",
+        "value": "Quiet"
+      }
+    },
+    "status-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total New Leads",
+        "value": "4"
+      }
+    }
+  }
+}
