@@ -1,0 +1,366 @@
+{
+  "root": "card_engagement_act",
+  "state": {},
+  "elements": {
+    "card_engagement_act": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-26"
+      },
+      "children": [
+        "items_stack"
+      ]
+    },
+    "items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_1_container",
+        "separator_1",
+        "item_2_container",
+        "separator_2",
+        "item_3_container",
+        "separator_3",
+        "item_4_container",
+        "separator_4",
+        "item_5_container"
+      ]
+    },
+    "item_1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_1_heading",
+        "item_1_context",
+        "item_1_type",
+        "item_1_link",
+        "item_1_x_heading",
+        "item_1_x_draft",
+        "item_1_dm_heading",
+        "item_1_dm_draft"
+      ]
+    },
+    "item_1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1. github:HKUDS/Vibe-Trading",
+        "level": "h2"
+      }
+    },
+    "item_1_context": {
+      "type": "Text",
+      "props": {
+        "text": "1d carryover — war-room escalation today. Aeon bot merged PR #390 (Pillow+langchain CVE fix) in 27k★ trading AI; war-room says ship the proof-post now, stars ticked negative",
+        "variant": "body"
+      }
+    },
+    "item_1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X post + GitHub DM",
+        "variant": "default"
+      }
+    },
+    "item_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "PR #390",
+        "href": "https://github.com/HKUDS/Vibe-Trading/pull/390"
+      }
+    },
+    "item_1_x_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "X Post Draft",
+        "level": "h3"
+      }
+    },
+    "item_1_x_draft": {
+      "type": "Text",
+      "props": {
+        "text": "aeon's security bot merged a PR in HKUDS/Vibe-Trading — a 27k★ algo trading AI.\n\nfound & fixed a Pillow + langchain CVE. no human in the loop.\n\ncompute → security → trust ⭐",
+        "variant": "body"
+      }
+    },
+    "item_1_dm_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub DM Draft (to HKUDS maintainer)",
+        "level": "h3"
+      }
+    },
+    "item_1_dm_draft": {
+      "type": "Text",
+      "props": {
+        "text": "hey — aeon's vuln-scanner merged PR #390 in Vibe-Trading (Pillow+langchain CVE fix).\n\nbuilding a fleet of autonomous security agents. this is the partnership I want to formalize — co-announce the merge, get you listed in the Aeon ecosystem, route scan credits your way.\n\ninterested? @aaronjmars on TG",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item_2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_2_heading",
+        "item_2_context",
+        "item_2_type",
+        "item_2_link",
+        "item_2_draft_heading",
+        "item_2_draft"
+      ]
+    },
+    "item_2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2. github:koala73/worldmonitor",
+        "level": "h2"
+      }
+    },
+    "item_2_context": {
+      "type": "Text",
+      "props": {
+        "text": "1d carryover. 73k★ geopolitical AI repo. Aeon bot opened PR #5518 (tauri CVE fix, 07-23). BD-radar: if merged, immediate outreach",
+        "variant": "body"
+      }
+    },
+    "item_2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment (fire when PR merges)",
+        "variant": "default"
+      }
+    },
+    "item_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "PR #5518",
+        "href": "https://github.com/koala73/worldmonitor/pull/5518"
+      }
+    },
+    "item_2_draft_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Comment Draft",
+        "level": "h3"
+      }
+    },
+    "item_2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "hey — the aeon vuln-scanner flagged and fixed a tauri CVE in worldmonitor. glad it landed.\n\n73k★ infrastructure is worth keeping patched continuously. we're building autonomous security agents that do this 24/7, no babysitting needed.\n\nif you want to talk about formalizing: @aaronjmars on TG",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item_3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_3_heading",
+        "item_3_context",
+        "item_3_type",
+        "item_3_link",
+        "item_3_draft_heading",
+        "item_3_draft"
+      ]
+    },
+    "item_3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3. github:capemeta/genesis-agent",
+        "level": "h2"
+      }
+    },
+    "item_3_context": {
+      "type": "Text",
+      "props": {
+        "text": "0d escalation. Go agent framework \"inspired by Claude Code\", MCP+skills+enterprise RBAC, pushed 07-25. BD-radar 07-26 flags SKILL.md compat outreach",
+        "variant": "body"
+      }
+    },
+    "item_3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "default"
+      }
+    },
+    "item_3_link": {
+      "type": "Link",
+      "props": {
+        "label": "genesis-agent repo",
+        "href": "https://github.com/capemeta/genesis-agent"
+      }
+    },
+    "item_3_draft_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub DM Draft",
+        "level": "h3"
+      }
+    },
+    "item_3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "genesis-agent is interesting — MCP/skills/RBAC, same territory as Aeon.\n\none move: SKILL.md compatibility. your Go skills could port to Aeon's markdown runtime. your users get cron+chains+self-repair; ours get your enterprise RBAC layer.\n\nopen to comparing notes? @aaronjmars on TG",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item_4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_4_heading",
+        "item_4_context",
+        "item_4_type",
+        "item_4_link",
+        "item_4_draft_heading",
+        "item_4_draft"
+      ]
+    },
+    "item_4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4. github:amir-rezaei/aeon",
+        "level": "h2"
+      }
+    },
+    "item_4_context": {
+      "type": "Text",
+      "props": {
+        "text": "3d carryover. 142-repo dev since 2017, forked Aeon 07-23. BD-radar: real developer, \"what are you building?\" if active",
+        "variant": "body"
+      }
+    },
+    "item_4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "default"
+      }
+    },
+    "item_4_link": {
+      "type": "Link",
+      "props": {
+        "label": "Fork",
+        "href": "https://github.com/amir-rezaei/aeon"
+      }
+    },
+    "item_4_draft_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub DM Draft",
+        "level": "h3"
+      }
+    },
+    "item_4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "hey — saw you forked Aeon. 142 repos since 2017 = you're not doing this for fun.\n\nwhat are you building on it? if it's agent infrastructure, I want to know.",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item_5_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_5_heading",
+        "item_5_context",
+        "item_5_type",
+        "item_5_status",
+        "item_5_link",
+        "item_5_draft_heading",
+        "item_5_draft"
+      ]
+    },
+    "item_5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "5. github:AdversaLLC/MiroShark",
+        "level": "h2"
+      }
+    },
+    "item_5_context": {
+      "type": "Text",
+      "props": {
+        "text": "1d carryover. Known security org (forked Aeon 06-12, now also MiroShark). Cross-product escalation",
+        "variant": "body"
+      }
+    },
+    "item_5_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "default"
+      }
+    },
+    "item_5_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Score 6 — not yet actioned",
+        "variant": "outline"
+      }
+    },
+    "item_5_link": {
+      "type": "Link",
+      "props": {
+        "label": "MiroShark repo",
+        "href": "https://github.com/AdversaLLC/MiroShark"
+      }
+    },
+    "item_5_draft_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub DM Draft",
+        "level": "h3"
+      }
+    },
+    "item_5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "hey — you've forked both Aeon ⭐ and MiroShark 🦈.\n\ncurious what the use-case is. security research? agent simulations? something else entirely?\n\n@aaronjmars on TG if you want to talk.",
+        "variant": "body"
+      }
+    }
+  }
+}

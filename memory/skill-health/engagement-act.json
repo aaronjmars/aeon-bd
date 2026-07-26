@@ -1,15 +1,11 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-07-25T09:44:01Z",
+  "last_analyzed": "2026-07-26T09:40:44Z",
   "quality_score": 4,
-  "assessment": "Delivered 5 substantive, ranked opportunities with clear methodology, strategic context, and enough signal to act immediately on each.",
+  "assessment": "Well-executed curation — 5 specific, contextualized engagement opportunities with actionable drafts, proper deduplication, no errors.",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 4.03,
   "history": [
-    {
-      "date": "2026-06-26",
-      "score": 3
-    },
     {
       "date": "2026-06-27",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-25",
+      "score": 4
+    },
+    {
+      "date": "2026-07-26",
       "score": 4
     }
   ]
