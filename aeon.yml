@@ -66,11 +66,11 @@ skills:
 
   # --- Weekly (Monday only) ---
   framework-watch: { enabled: false, schedule: "0 9 * * 2", var: "" } # Monday 08:30 UTC — weekly competitive-intelligence digest across 9 AI agent frameworks (anchor + 8 peers). Momentum signals, 7d/30d star deltas, release listings, breaking-change flags. Set var to a watchlist slug (e.g. langgraph) for a single-framework deep dive.
-  competitor-radar: { enabled: true, schedule: "0 10 * * 3", var: "" } # Monday 10:00 UTC — weekly scan of Product Hunt RSS + HN Algolia for NEW AI-agent-framework launches outside the 9-framework cohort tracked by framework-watch. Classifies framework/mcp/product, LRU-200 dedup, gated notify (QUIET on zero entrants). Pass dry-run to skip notify.
+  competitor-radar: { enabled: false, schedule: "0 10 * * 3", var: "" } # Wed 10:00 UTC — weekly scan of Product Hunt RSS + HN Algolia for NEW AI-agent-framework launches outside the 9-framework cohort tracked by framework-watch. Classifies framework/mcp/product, LRU-200 dedup, gated notify (QUIET on zero entrants). Pass dry-run to skip notify.
   fork-fleet: { enabled: false, schedule: "0 10 * * 1" } # fork fleet scan — inventory active forks, detect diverged work
   spawn-instance: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — var: "name: purpose"
   fleet-control: { enabled: false, schedule: "0 9,15 * * *" } # fleet health checks twice daily, dispatch via var
-  shiplog: { enabled: true, schedule: "0 9 * * 1,4" } # everything shipped SINCE THE LAST RUN (memory/state/shiplog-last.json) — cross-repo PRs/commits, security fixes merged into others' repos, star deltas, X/ecosystem traction → digest article + ready-to-post shiplog in the operator's voice. Cadence-agnostic: schedule sets frequency (daily/weekly/on-demand). Config: memory/products.md + memory/watched-repos.md. Optional XAI_API_KEY + GH_GLOBAL. var: since:DATE | days:N | dry-run | owner/repo | <theme>.
+  shiplog: { enabled: false, schedule: "0 9 * * 1,4" } # everything shipped SINCE THE LAST RUN (memory/state/shiplog-last.json) — cross-repo PRs/commits, security fixes merged into others' repos, star deltas, X/ecosystem traction → digest article + ready-to-post shiplog in the operator's voice. Cadence-agnostic: schedule sets frequency (daily/weekly/on-demand). Config: memory/products.md + memory/watched-repos.md. Optional XAI_API_KEY + GH_GLOBAL. var: since:DATE | days:N | dry-run | owner/repo | <theme>.
   operator-scorecard: { enabled: false, schedule: "30 8 * * 1", var: "" } # Monday — weekly plain-language scorecard: agent health + community growth + economic activity (worst-of-three OK/WATCH/DEGRADED verdict)
 
   # --- Paid ads (AdManage.ai) ---
@@ -85,7 +85,7 @@ skills:
   x402-monitor: { enabled: false, schedule: "0 12 * * 2", var: "" } # Tuesday — protocol ecosystem velocity (defaults to x402; set memory/topics/tracked-protocol.md)
 
   # Research & content
-  launch-radar: { enabled: true, schedule: "0 16 * * 0" } # Monday — scan PH/HN/GitHub Trending for launches matching the startup-idea backlog
+  launch-radar: { enabled: false, schedule: "0 16 * * 0" } # Sun 16:00 UTC — scan PH/HN/GitHub Trending for launches matching the startup-idea backlog
   narrative-convergence: { enabled: false, schedule: "0 13 * * *", var: "" } # daily 13:00 UTC — cross-skill convergence detector: entities/themes surfaced by 3+ independent skill categories in 48h = high-confidence write opportunities. Category map in memory/topics/signal-categories.md. Pass var to filter.
 
   # Dev & repo
@@ -95,11 +95,11 @@ skills:
   vuln-tracker: { enabled: false, schedule: "30 16 * * *" } # daily — status of vuln-scanner PRs/advisories/queued drafts
 
   # Social
-  engagement-act: { enabled: true, schedule: "30 9 * * *" } # daily — turn flagged engagement opportunities into copy-paste-ready replies
+  engagement-act: { enabled: true, schedule: "30 9 1/2 * *" } # every other day (odd days) — turn flagged engagement opportunities into copy-paste-ready replies
 
   # Ideas & productivity
   idea-pipeline: { enabled: false, schedule: "0 18 * * 1" } # Monday — execution-gap audit: top 3 backlog ideas to build this week
-  idea-validator: { enabled: true, schedule: "0 18 * * 5", model: "claude-opus-4-8" } # Monday — screen the startup-idea backlog, score viability
+  idea-validator: { enabled: false, schedule: "0 18 * * 5", model: "claude-opus-4-8" } # Fri 18:00 UTC — screen the startup-idea backlog, score viability
 
   # Self-maintenance / meta
   memory-flush: { enabled: false, schedule: "30 21 * * *" } # daily — promote important recent log entries into MEMORY.md
@@ -123,8 +123,8 @@ skills:
   # bd-radar commits its digest early; war-room reads it (plus a live `gh api`
   # product-state read) at 07:45 and sends the team brief.
   # (product-pulse retired 2026-07 — war-room now reads product STATE live via gh api.)
-  bd-radar: { enabled: true, schedule: "20 7 * * *", var: "" } # 07:20 UTC — BD radar: who's building/forking/integrating/mentioning the products → ranked leads + a next move each. Quiet unless high-intent lead.
-  war-room: { enabled: true, schedule: "45 7 * * *", var: "", model: "claude-opus-4-8" } # 07:45 UTC — daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Reads the day's bd-radar digest + a live gh api product-state read. Always notifies.
+  bd-radar: { enabled: true, schedule: "20 7 1/2 * *", var: "" } # every other day (odd days), 07:20 UTC — BD radar: who's building/forking/integrating/mentioning the products → ranked leads + a next move each. Quiet unless high-intent lead.
+  war-room: { enabled: false, schedule: "45 7 * * *", var: "", model: "claude-opus-4-8" } # 07:45 UTC — daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Reads the day's bd-radar digest + a live gh api product-state read. Always notifies.
   # Weekly thinkers — standalone cron; war-room folds in their latest digest if <7d old.
   sim-watch: { enabled: false, schedule: "0 13 * * 0", var: "" } # Sun 13:00 UTC — Miroshark category intel (LLM/social simulation + world models): competitors, papers, clones; copy/counter/opening verdicts.
   idea-forge: { enabled: false, schedule: "0 16 * * 3", var: "", model: "claude-opus-4-8" } # Wed 16:00 UTC — weekly business-idea engine: zeitgeist × aeon/miroshark capability surface → 3-5 timing-window-scored wedges. Notifies the #1.
