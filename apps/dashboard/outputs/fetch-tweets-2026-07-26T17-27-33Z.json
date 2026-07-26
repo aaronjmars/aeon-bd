@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup — 2026-07-26",
+        "description": "Introspective day: both high-signal posts push back on hype from first principles, no product news"
+      },
+      "children": [
+        "source_info",
+        "category_badge",
+        "separator1",
+        "tweet1_stack",
+        "tweet2_stack"
+      ]
+    },
+    "source_info": {
+      "type": "Text",
+      "props": {
+        "text": "Source: api:3 websearch:0 failed:0",
+        "variant": "caption"
+      }
+    },
+    "category_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Artificial Intelligence / AI Agents / LLM"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "tweet1_link"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "igasparens",
+        "handle": "igasparens",
+        "text": "Resurfaces MIT's 1972 AI Lab lecture (Patrick Winston, who directed the MIT AI Lab from 1972–97) to argue the field declared victory too early too many times; his definition of intelligence \"no 2026 product demo can satisfy\"",
+        "likes": 120
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/igasparens/status/2081167300556624267"
+      }
+    },
+    "tweet2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "tweet2_link"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "EvolvingKymera",
+        "handle": "EvolvingKymera",
+        "text": "Flips the AI-consciousness question: the stranger question isn't whether AI becomes conscious — it's whether humans are as conscious as they assume",
+        "likes": 15
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/EvolvingKymera/status/2081167082507616673"
+      }
+    }
+  }
+}
