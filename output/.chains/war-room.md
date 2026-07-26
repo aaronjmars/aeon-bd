@@ -1,23 +1,23 @@
 ---
 type: Article
-title: War Room — 2026-07-25
-description: Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar
+title: War Room — 2026-07-26
+description: Daily aeon + miroshark standup — state · talk-to · decide — for Aaron + Nurstar.
+date: 2026-07-26
 tags: [war-room, standup, ecosystem]
-timestamp: 2026-07-25T07:45:00Z
 ---
 
-⭐🦈 war room — 2026-07-25
+⭐🦈 war room — 2026-07-26
 
-state: both green, both pushed yday. aeon 579★/211f, miroshark 1416★/297f — flat overnight. real story: star velocity flatlined this week (miroshark +13→+6→+2→+1→0). no red, but no wave. we need a distribution moment.
+state: both green but the needle's red. aeon 578★/210f, miroshark 1415★/298f — each down a star since yesterday, neither pushed in 2 days. velocity went flatline → slightly negative. two healthy repos, zero momentum.
 
-talk to: **HKUDS/Vibe-Trading** — 27k★ trading platform, and the aeon security bot already merged PR #390 there (Pillow+langchain CVE). not a cold lead — a merged contributor. DM the maintainer, make it official, co-announce.
+talk to: no fresh radar today (last is 07-25). HKUDS/Vibe-Trading (27k★, aeon bot merged PR #390) is still the warm one — and the X post + GitHub DM are already drafted (engagement-act, 07-25).
 
-decide: DM HKUDS today + co-announce the merge. "aeon secured a 27k★ trading platform" is the proof-post that breaks the star flatline. outbound vuln work → inbound BD → distribution. that's the wave — ship it.
+decide: ship the HKUDS proof-post today. you called this yesterday and stars ticked *down* instead — the flatline breaks when "aeon secured a 27k★ trading platform" goes public, not while it sits in drafts. send it.
 
 ---
 
 ## Appendix — sources
 
-- **STATE:** live `gh api` — `aeonfun/aeon` 579★/211f (pushed 2026-07-24T20:23Z, rel v0.1.0), `MiroShark/MiroShark` 1416★/297f (pushed 2026-07-24T16:29Z, no release). No stall (both pushed <2wk, fresh yday). Deltas vs 07-24 war-room: aeon 0★/0f, miroshark 0★/0f — star growth flatlined across both this week.
-- **TALK TO / leads:** [`output/articles/bd-radar-2026-07-25.md`](bd-radar-2026-07-25.md) — 4 net-new (integrating×2, forking×2). Top: HKUDS/Vibe-Trading (27k★, aeon bot merged PR #390, score 10), koala73/worldmonitor (73k★, PR #5518 open/under review, score 5), AdversaLLC/MiroShark (security org forked both products).
-- **sim-watch / idea-forge:** none dated within 7 days.
+- **STATE** (live `gh api`, 2026-07-26): `aaronjmars/aeon` 578★ / 210 forks · pushed 2026-07-24 · release v0.1.0 (07-09) · `aaronjmars/MiroShark` 1415★ / 298 forks · pushed 2026-07-24 · no release. Deltas vs 07-25 brief: aeon −1★ / −1f, miroshark −1★ / +1f. No stall (both pushed within 2d).
+- **TALK TO** — `output/articles/bd-radar-2026-07-25.md` (no 07-26 radar). Top warm lead: HKUDS/Vibe-Trading (score 10). Copy drafted in 2026-07-25 engagement-act run.
+- **DECIDE** — carryover from war-room 07-25 (DM HKUDS + co-announce merge), escalated: velocity slipped from 0 to negative while the drafted proof-post waited.

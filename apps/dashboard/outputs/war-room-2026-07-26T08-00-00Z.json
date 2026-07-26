@@ -1,0 +1,338 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "War Room — 2026-07-26",
+        "description": "Daily aeon + miroshark standup — state · talk-to · decide"
+      },
+      "children": [
+        "intro_section",
+        "separator1",
+        "state_section",
+        "separator2",
+        "talk_section",
+        "separator3",
+        "decide_section",
+        "separator4",
+        "sources_section"
+      ]
+    },
+    "intro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "intro_emoji",
+        "intro_status"
+      ]
+    },
+    "intro_emoji": {
+      "type": "Text",
+      "props": {
+        "text": "⭐🦈 war room — 2026-07-26",
+        "variant": "lead"
+      }
+    },
+    "intro_status": {
+      "type": "Alert",
+      "props": {
+        "message": "Both green but the needle's red",
+        "type": "warning"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "state_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "state_heading",
+        "state_metrics",
+        "state_summary"
+      ]
+    },
+    "state_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "State",
+        "level": "h3"
+      }
+    },
+    "state_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon_stat",
+        "miroshark_stat"
+      ]
+    },
+    "aeon_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "aaronjmars/aeon",
+        "value": "578★ / 210f",
+        "delta": "−1★",
+        "trend": "down"
+      }
+    },
+    "miroshark_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "aaronjmars/MiroShark",
+        "value": "1415★ / 298f",
+        "delta": "−1★",
+        "trend": "down"
+      }
+    },
+    "state_summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "state_detail1",
+        "state_detail2",
+        "state_detail3"
+      ]
+    },
+    "state_detail1": {
+      "type": "Text",
+      "props": {
+        "text": "Each down a star since yesterday",
+        "variant": "body"
+      }
+    },
+    "state_detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Neither pushed in 2 days (last: 2026-07-24)",
+        "variant": "body"
+      }
+    },
+    "state_detail3": {
+      "type": "Alert",
+      "props": {
+        "message": "Velocity: flatline → slightly negative. Two healthy repos, zero momentum.",
+        "type": "warning"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "talk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "talk_heading",
+        "radar_status",
+        "hkuds_lead"
+      ]
+    },
+    "talk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Talk To",
+        "level": "h3"
+      }
+    },
+    "radar_status": {
+      "type": "Text",
+      "props": {
+        "text": "No fresh radar today (last: 2026-07-25)",
+        "variant": "muted"
+      }
+    },
+    "hkuds_lead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hkuds_link",
+        "hkuds_details"
+      ]
+    },
+    "hkuds_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/Vibe-Trading",
+        "href": "https://github.com/HKUDS/Vibe-Trading",
+        "source": "27k★ · aeon bot merged PR #390",
+        "score": "10"
+      }
+    },
+    "hkuds_details": {
+      "type": "Text",
+      "props": {
+        "text": "Warm lead. X post + GitHub DM are already drafted (engagement-act, 2026-07-25).",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decide_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decide_heading",
+        "decide_action"
+      ]
+    },
+    "decide_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decide",
+        "level": "h3"
+      }
+    },
+    "decide_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Ship the HKUDS proof-post today",
+        "message": "You called this yesterday and stars ticked down instead — the flatline breaks when 'aeon secured a 27k★ trading platform' goes public, not while it sits in drafts. Send it.",
+        "type": "warning"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "sources_heading",
+        "sources_items"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Appendix — Sources",
+        "level": "h3"
+      }
+    },
+    "sources_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "source_state",
+        "source_talk",
+        "source_decide"
+      ]
+    },
+    "source_state": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_state_label",
+        "source_state_text"
+      ]
+    },
+    "source_state_label": {
+      "type": "Badge",
+      "props": {
+        "text": "STATE",
+        "variant": "secondary"
+      }
+    },
+    "source_state_text": {
+      "type": "Text",
+      "props": {
+        "text": "Live gh api, 2026-07-26: aaronjmars/aeon 578★ / 210 forks · pushed 2026-07-24 · release v0.1.0 (07-09) · aaronjmars/MiroShark 1415★ / 298 forks · pushed 2026-07-24 · no release. Deltas vs 07-25 brief: aeon −1★ / −1f, miroshark −1★ / +1f. No stall (both pushed within 2d).",
+        "variant": "caption"
+      }
+    },
+    "source_talk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_talk_label",
+        "source_talk_text"
+      ]
+    },
+    "source_talk_label": {
+      "type": "Badge",
+      "props": {
+        "text": "TALK TO",
+        "variant": "secondary"
+      }
+    },
+    "source_talk_text": {
+      "type": "Text",
+      "props": {
+        "text": "output/articles/bd-radar-2026-07-25.md (no 07-26 radar). Top warm lead: HKUDS/Vibe-Trading (score 10). Copy drafted in 2026-07-25 engagement-act run.",
+        "variant": "caption"
+      }
+    },
+    "source_decide": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_decide_label",
+        "source_decide_text"
+      ]
+    },
+    "source_decide_label": {
+      "type": "Badge",
+      "props": {
+        "text": "DECIDE",
+        "variant": "secondary"
+      }
+    },
+    "source_decide_text": {
+      "type": "Text",
+      "props": {
+        "text": "Carryover from war-room 07-25 (DM HKUDS + co-announce merge), escalated: velocity slipped from 0 to negative while the drafted proof-post waited.",
+        "variant": "caption"
+      }
+    }
+  }
+}
