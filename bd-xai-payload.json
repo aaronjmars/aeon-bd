@@ -1,1 +1,0 @@
-{"model": "grok-4-1-fast", "input": [{"role": "user", "content": "Search X since 2026-07-18 for posts mentioning: Aeon framework, @aeonframework, aaronjmars/aeon, MiroShark, @miroshark_, swarm simulation. For each qualifying post from a project/builder account return: handle, full text, date, engagement counts likes+retweets, post URL."}], "tools": [{"type": "x_search"}]}
