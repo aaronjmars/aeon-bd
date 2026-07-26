@@ -1,10 +1,9 @@
-All done. Fleet is healthy — no findings, no notification sent.
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-**HEARTBEAT_OK · STATUS_PAGE=OK**
+All checks clean: 10 enabled skills all green, 0 open PRs, 0 open issues, no stuck dispatches. `docs/status.md` regenerated with fresh timestamps and skill table.
 
 ## Summary
 
-- **P0–P3:** All clean. 10 enabled skills all `last_status: success`, no stuck dispatches, no consecutive failures, no stalled PRs or issues, all skills within 2× their schedule interval.
-- **`docs/status.md` regenerated** — 🟢 OK, 0 open issues, bd-radar fresh today at top of table.
-- **No notification sent** — nothing needs attention.
-- **Log appended** to `memory/logs/2026-07-25.md` under `### heartbeat`.
+- **P0–P3:** all clean — fleet fully healthy
+- **Wrote:** `docs/status.md` (overall 🟢 OK, 10 skills, 0 open issues)
+- **Logged:** `memory/logs/2026-07-26.md` under `### heartbeat`
