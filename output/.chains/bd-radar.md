@@ -1,13 +1,21 @@
-ℹ️ BD Radar 2026-07-25
+Done. Quiet Sunday run — no notify sent (notify gate requires ≥1 building/integrating lead).
 
-## BD Radar -- 2026-07-25
+## Summary
 
-**2 new integrating leads.** Security scanner work converting to BD opps.
+**bd-radar 2026-07-26 — 3 net-new leads, no notify.**
 
-**HKUDS/Vibe-Trading** (27,401 stars) -- aeon bot already had PR #390 MERGED on their codebase (Pillow+langchain CVE fix, July 5). They know the bot, accepted its output, haven't been pitched yet. DM the maintainer: convert "bot contributor" to formal security partner. https://github.com/HKUDS/Vibe-Trading/pull/390
+**Sources swept:**
+- GitHub PAT: 40 aeon forks + 40 MiroShark forks — all known builders (Svector-anu, Marr554, clawhunter, freezerboi, etc.) already in the 300-entry surfaced LRU
+- gh search: 4 sweeps across "aeon framework", "autonomous agent framework", "MiroShark swarm", "simulate anything"
+- xAI x_search (http=200): 3 posts returned — all noise (0-engagement crypto accounts, MiroFish brand confusion)
+- HN/Reddit: QUIET
 
-**koala73/worldmonitor** (73,614 stars -- geopolitics/OSINT/MCP dashboard) -- aeon bot opened PR #5518 July 23, currently open with trust:caution label. If they merge it, 73k-star project publicly using aeon security tooling. Watch. https://github.com/koala73/worldmonitor/pull/5518
+**Net-new leads (3 total):**
 
-**Also:** AdversaLLC (security org) forked MiroShark -- previously only had the aeon fork. Both products now. No commits yet, watch for activity.
+| # | Class | Lead | Score |
+|---|-------|------|-------|
+| 1 | forking | amir-rezaei/aeon — 142-repo dev since 2017, forked 07-23 | 3 |
+| 2 | forking | binyangzhu000-sudo/MiroShark — 219-repo, scraper pattern | 2 |
+| 3 | adjacent | capemeta/genesis-agent — Go framework inspired by Claude Code, MCP/skills | 2 |
 
-X quiet. HN/Reddit quiet. 4 total new leads today.
+None hit the `building` or `integrating` threshold → no notify. The wave of high-intent builders from the past week (BankrBot 24 skills, Atrium-Hermes, HKUDS/Vibe-Trading merge, Ditto190/ModifyMe) has been fully processed by engagement-act. Today the ecosystem is digesting, not discovering.
