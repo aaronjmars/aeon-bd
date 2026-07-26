@@ -1,9 +1,12 @@
-MENTION_RADAR_QUIET. Both targets clean — no qualifying X posts (API returned noise only), no web surface hits, star deltas at +1 each (below the 5-star notify threshold). No notification sent.
+**MENTION_RADAR_QUIET** — no notification sent.
+
+---
 
 ## Summary
 
-- **Targets:** aeon (@aeonframework, aeonfun/aeon), miroshark (@miroshark_, MiroShark/MiroShark)
-- **X/Twitter (xAI API, http=200):** Quiet on both — Aeon noise was supermarket/humanoid-robot results; Miroshark had one filtered token-hype post
-- **Web (Reddit, HN, Farcaster, PH, dev.to):** Quiet on both
-- **GitHub:** Aeon 579★ (+1), MiroShark 1416★ (+1) — below 5★ threshold
-- **Action:** No notification. Logged to `memory/logs/2026-07-24.md`
+- **Targets:** aeon (@aeonframework) + miroshark (@miroshark_), last 7 days (2026-07-19 → 2026-07-26)
+- **X/Twitter (X.AI API, http=200 both):** QUIET. No external posts about the aeon framework — noise was crypto tokens/Japan retail. Miroshark had zero qualifying mentions.
+- **Web (Reddit, HN, Farcaster, PH, dev.to):** QUIET across all surfaces.
+- **GitHub:** aeon 578★/210f, miroshark 1415★/298f — both flat (-1★ each, noise, below 5★ threshold).
+- **Microlaunch:** miroshark listing exists but 0 votes/engagement, no clear date — not actionable signal.
+- **Action:** No notification (all quiet, no deltas worth surfacing). Logged to `memory/logs/2026-07-26.md`.
