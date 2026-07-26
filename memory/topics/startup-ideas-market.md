@@ -10,83 +10,83 @@ Competitive scan results from launch-radar. Upserted each run.
 ---
 
 ## harness-not-model
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** Web Bench (web browsing agent benchmark, no date/upvotes); OpenHuman (agent harness, no date/upvotes) — neither matches the weekly raw-vs-harnessed trace series format
-- **HN Show HN:** "Zot – Yet another coding agent harness" (May 30, 2026, no upvotes visible); "Browser Harness" (May 5, 2026, no upvotes visible) — within 60-day window but are coding/browser harnesses, not the harness-vs-model comparison receipt product; "OpenCastor Agent Harness Evaluator Leaderboard" (Mar 24, 2026, >60 days)
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** PenguinHarness (open-source self-improving harness by LlamaFactory team, launched Jul 23, agents build/eval/optimize other agents, beats Claude Code + Opus at 1/70 cost — no upvote count visible); Pi Coding Agent (minimal hackable terminal harness, no date/upvotes); OpenHuman (open-source AI harness, no date/upvotes) — none match the weekly raw-vs-harnessed trace series format
+- **HN Show HN:** "Ask HN: What is your AI harness that lets you switch LLM models easily?" (ID 48821642, very recent — demand signal, not a product launch); "Agent-harness-kit scaffolding for multi-agent workflows" (May 8, 2026, within 60 days, no upvotes visible); "Zot – Yet another coding agent harness" (May 30, 2026, within 60 days, no upvotes visible); "Improving 15 LLMs at Coding in One Afternoon. Only the Harness Changed" (blog post, not a product launch)
 - **Signal:** open
-- **Note:** nothing ships the "raw vs through-aeon on a pinned model, published weekly on public traces" format — the specific branded, recurring, on-voice product is unclaimed; closest HN entries are coding harnesses, not model comparison receipts
+- **Note:** PenguinHarness (Jul 23) is adjacent — agents-build-agents, cost arbitrage — but the weekly raw-vs-harnessed public-trace receipt on a pinned model is still unclaimed; demand for harness/model comparison is live and growing
 
 ---
 
 ## sim-audit
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** none found (Lamatic.ai surfaced, not relevant; arxiv paper 2605.18890 itself appeared — no product)
-- **HN Show HN:** SPICE simulation (circuit design, Apr 21, 2026, not LLM); "Merkle Mountain Range audit log for AI agents" (Mar 6, 2026, >60 days) — for agent actions not simulation robustness
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** none found (no product ships a seed+model boundary receipt for social simulation robustness)
+- **HN Show HN:** "SocialCompute – Local LLM social simulation engine" (Feb 25, 2026, >60 days); "Agent Audit Kit v0.1 – deterministic replay + stress for LLM agents" (Feb 18, 2026, >60 days); new arxiv "Integrating LLM in Agent-Based Social Simulation: Opportunities and Challenges" (2507.19364, July 2026) — academic validation growing but no product
 - **Signal:** open
-- **Note:** the "stop drawing scientific claims from LLM sims without robustness audits" critique (arxiv 2605.18890) still has no product answer — nobody ships a seed+model boundary receipt; miroshark can close this gap and differentiate from MiroFish (which has no audit)
+- **Note:** robustness-audit critique continues to accumulate (new paper Jul 2026); zero products ship a seed+model boundary receipt; miroshark's audit moat vs MiroFish (which has no audit) remains fully uncontested
 
 ---
 
 ## miroshark-social-world-model
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** Marble by World Labs (pixel/3D world model, not social sim); Starchild-1 by Odyssey (real-time multimodal world model, not social/MCP); generic MCP infrastructure (MCP360, xmcp) — no "simulate(decision) as MCP/A2A tool" product found
-- **HN Show HN:** "MIRA – Multiplayer World Model Trained on Rocket League" (video game world model, not social decision sim); MCP clients/extensions not relevant
-- **Signal:** prior art
-- **Note:** world models proliferating but all are pixel/video/game-engine; the MCP/A2A simulate(decision) angle for social decision-making remains unclaimed as a product
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** Publora (MCP-native social media API for agents — posting/commenting, not decision simulation); Cloud World Model (cloud infra sim, not social); Marble by World Labs (3D world model from single image) — no "simulate(decision) as MCP/A2A tool" product found
+- **HN Show HN:** no new relevant results; pixel/video/game-engine world models dominate; social decision simulation via MCP/A2A still absent
+- **Signal:** open
+- **Note:** world models proliferating but all are pixel/3D/cloud; social MCP simulate(decision) lane remains unclaimed as a product
 
 ---
 
 ## proof-of-self-repair
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** nothing specific on public verifiable self-repair ledger found
-- **HN Show HN:** "agent-ledger – prevent double side effects when AI agents retry" (Feb 8, 2026, >60 days) — side-effect dedup, not self-repair proof; "Zuckerman – minimalist personal AI agent that self-edits its own code" (Feb 8, 2026, >60 days) — self-repair capability but closed/internal; "GitAgent – Clone a repo, get an AI agent" (Mar 7, 2026, >60 days)
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** nothing specific to public verifiable self-repair ledger
+- **HN Show HN:** "LIBR tracing with source ledger rows and byte-exact PDF verification" (~Jul 5, 2026, within 60 days, no upvotes visible — source ledger, not self-repair); "Open-source EU AI Act compliance layer for AI agents" (Feb 2026, >60 days); "Tamper-evident audit trail for AI coding agent activity" (HN 48548225, recent high ID, no upvotes visible — coding agent activity, not self-repair ledger)
 - **Signal:** prior art
-- **Note:** self-healing/ledger agent tools exist but all are internal/enterprise tooling; public verifiable self-repair proof where diff+test+trace are on GitHub remains unclaimed
+- **Note:** audit trail and compliance tools active and recent; public verifiable self-repair diff+test+trace on GitHub still unclaimed; adjacent tools exist but none address the self-healing / self-repair framing specifically
 
 ---
 
 ## counterfactual-launch-sim
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** general launch preparation guides only; no simulation product found
-- **HN Show HN:** "I built an interactive HN Simulator" (Dec 1, 2025, >60 days) — static HN sim; Societies.io (YC W25 — AI sims of target audiences for testing product messaging) — single-LLM, no swarm; ProductHunt Chaos Generator (Grok-based single-LLM PH launch day simulator) — no date/upvotes
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** no new simulation products found; launch timing analysis discussions active but not simulation tools
+- **HN Show HN:** no new Show HN matches; "I built an interactive HN Simulator" (Dec 2025, >60 days); Societies.io (YC W25 — AI sims of target audiences, single-LLM) and ProductHunt Chaos Generator (Grok-based single-LLM PH simulator) remain the closest prior art
 - **Signal:** prior art
-- **Note:** Societies.io and PH Chaos Generator own the "simulate your launch" angle but both are single-LLM; the social-swarm / counterfactual-timing-window angle remains distinct and uncontested
+- **Note:** Societies.io and PH Chaos Generator own the "simulate your launch" angle but both are single-LLM; the social-swarm / counterfactual-timing-window angle remains distinct and uncontested; no new entrants
 
 ---
 
 ## conway-claim
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** SuperPowers AI (ambient visual agents), Terminal Mode (ambient terminal on smart glasses for coding agents), Notchcode (MacBook notch monitor for Claude Code sessions); Foglamp, Breadcrumb, Tracea, PandaProbe — agent tracing/observability platforms
-- **HN Show HN:** "Oodle.ai – $10 per million agent traces" (Jul 15, 2026, within 60 days, no upvotes — trace storage pricing, not ambient agent); "RLM-based local debugger for AI agent traces" (~June 2026, within 60 days, no upvotes); "Kelet – Root Cause Analysis agent" (Apr 16, 2026, >60 days); "First background agents in JetBrains IDEs" (Aug 2025, >60 days)
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** ambient agent infra crowded — ClawMetry (real-time observability for AI agents, recent, no date/upvotes visible); Breadcrumb (open-source LLM tracing, self-hosted); Open Agents (background coding agents on Vercel, Apr 2026, >60 days)
+- **HN Show HN:** "Oodle.ai – $10 per million agent traces" (Jul 15, 2026, within 60 days, no upvotes visible — trace storage pricing, not ambient agent); "RLM-based local debugger for AI agent traces" (Jun 24, 2026, within 60 days, no upvotes visible); "Git for AI Agents" (ID 48063548, within 60 days — rewind/bisect agent sessions)
 - **Signal:** prior art
-- **Note:** ambient agent infrastructure very crowded; Oodle.ai (Jul 15) is fresh but is trace storage pricing, not open background agent; "open, public GitHub traces, verifiable" claim still unclaimed as narrative but category itself is saturated; timing window narrows as Conway approaches launch
+- **Note:** ambient agent infra extremely crowded; Oodle.ai and RLM debugger are fresh and within 60 days; "open public GitHub traces verifiable" narrative claim still unclaimed but the category window is narrowing pre-Conway; the narrative play tightens with each passing week
 
 ---
 
 ## ambient-aeon
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** Elvin (proactive AI that finds and finishes work before you ask); CraftBot (self-hosted proactive AI); SuperPowers AI (ambient visual agents) — multiple players, no dominant 60-day launch
-- **HN Show HN:** "Turn Claude Code or Codex into proactive, autonomous 24/7 AI agents" (item 47054100, ~Feb 2026, >60 days); "Hippo, biologically inspired memory for AI agents" (item 47667672, ~Apr 2026, >60 days)
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** Elvin (proactive AI that finishes work before you ask); CraftBot (self-hosted proactive AI); SuperPowers AI (ambient visual agents) — multiple players, no dominant 60-day launch; ClawMetry (agent observability, recent)
+- **HN Show HN:** no new relevant Show HN results within 60 days; proactive/ambient agent tools proliferating
 - **Signal:** prior art
-- **Note:** category fully crowded across PH and HN; "shipped first on public traces" claim remains unclaimed as narrative but the category itself is saturated
+- **Note:** category fully crowded across PH and HN; "shipped first on public traces" claim remains unclaimed as narrative but the category itself is saturated; same verdict as last week
 
 ---
 
 ## skill-attest
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** Skillkit (package manager for agent skills); Agent Skills (directory); SClawHub (security scanner for OpenClaw skills) — crowded directory
-- **HN Show HN:** SkillFortify – formal verification for AI agent skills (Feb 27, 2026, >60 days); Skillaudit.sh – minimalist security auditor for LLM skill definitions (Feb 15, 2026, >60 days); TheAuditor (Nov 2025, >60 days) — all major HN launches now outside 60-day window
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** Skillkit (package manager for agent skills); Agent Skills (directory); SClawHub (security scanner for OpenClaw skills) — crowded directory; no new launches visible in 60-day window
+- **HN Show HN:** SkillFortify (Feb 27, 2026, >60 days); Skillaudit.sh (Feb 15, 2026, >60 days); TheAuditor (Nov 2025, >60 days) — all major HN launches still outside 60-day window
 - **Signal:** prior art
-- **Note:** AI-skill security category wave peaked Jan–Mar 2026 and is now >60 days old; the "tokenize the scanner" angle is unclaimed but the space is saturated + security is aaeron's lane
+- **Note:** AI-skill security wave peaked Jan–Mar 2026; all major launches now outside 60-day window; "tokenize the scanner" angle unclaimed but space saturated and security is aaeron's lane
 
 ---
 
 ## compute-price-sim
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** none found (crypto prediction tools and financial analysis products unrelated to AI compute pricing narrative)
-- **HN Show HN:** "A playable toy model of frontier AI lab capex decisions" (Feb 14, 2026, >60 days) — toy capex model, not narrative-drift simulation ahead of live Polymarket markets; "I logged Gemini's stock predictions for 38 days to study LLM drift" (item 47296932, ~Mar/Apr 2026, >60 days) — drift observation log, not forward presim
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** no products found for AI compute narrative simulation or AI-race market forward sim
+- **HN Show HN:** "Ask HN: How do you track 2026 AI price wars? I built a tool to help" (Feb 2026, >60 days — a price-tracking tool, not a narrative-drift forward sim); no products forward-simulate AI-race belief drift ahead of live PM markets
 - **Signal:** open
-- **Note:** genuinely empty lane — no product forward-simulates AI-race narrative drift (compute index, model-of-the-month) as a belief-evolution sim ahead of Polymarket; markets have live volume ($1.1M/24h), nobody simulates ahead of them
+- **Note:** genuinely empty lane — Polymarket has live AI-race markets with real volume; no product forward-simulates compute-index / model-of-the-month narrative drift as a belief-evolution sim; demand exists (AI price war tracking active) but nobody connects it to pre-sim
 
 ---
 
@@ -118,47 +118,47 @@ Competitive scan results from launch-radar. Upserted each run.
 ---
 
 ## model-mirror
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** none found (general multi-model tools exist; no model-selection-for-swarm-simulation product)
-- **HN Show HN:** "Swarm – program a colony of 200 ants using a custom assembly language" (Mar 27, 2026, >60 days) — ant colony sim, not LLM model-selection for swarms; multi-model debate UIs exist but are UI products not model-selection methodology
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** MIOSN (test multiple LLMs in parallel on your own inputs/outputs, structured report on top models — no date/upvotes visible; not swarm model-selection); general multi-model tools exist but are UI products, not model-selection methodology for swarms
+- **HN Show HN:** "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models" (ID 49026810, very recent — model cost/quality comparison using open-weight, adjacent but not swarm-model-selection); "Agent swarms and the new model economics" (ID 48982535, recent — article/discussion not a product); "Find the best local LLM for your hardware, ranked by benchmarks" (within 60 days, no upvotes visible)
 - **Signal:** open
-- **Note:** Emergence World (arxiv 2606.08367) remains the only proof that the model picks the society, and nobody productizes it; "pick your swarm's model in 10 min on your own question" methodology is unclaimed
+- **Note:** Echo (very recent) and MIOSN do model comparison on cost/quality; nobody productizes "pick your swarm's model on your own question in 10 min" — the Emergence World (arxiv 2606.08367) proof is still unproductized; open lane confirmed
 
 ---
 
 ## reward-hack-receipt
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** none found (Onpilot, DeepWorkPlan have audit trails but no public verifiable receipt)
-- **HN Show HN:** "RewardHackWatch – Reward hacking detector for LLM agents" (HN, detects hacking but does not publish public diff+test+trace receipts); "Self-Evolving Agents – interactive evolving AI agent list" (2025, >60 days); "Tamper-evident audit trail for AI coding agent activity" (HN 48548225, high ID → likely Jun/Jul 2026, no upvotes visible) — audit trail for coding agents, not self-evolving reward-hack-specific trace
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** nothing found for public verifiable reward-hack receipt (Onpilot, DeepWorkPlan have audit trails but internal/enterprise)
+- **HN Show HN:** "Show HN: Git for AI Agents" (ID 48063548, within 60 days — rewind/bisect agent sessions, interesting but not reward-hack specific); "RewardHackWatch – Reward hacking detector for LLM agents" (detects hacking, does not publish public diff+test+trace receipts); "Tamper-evident audit trail for AI coding agent activity" (HN 48548225, recent, no upvotes — coding audit trail, not self-evolving reward-hack framing)
 - **Signal:** prior art
-- **Note:** audit trail space active with a recent HN entry (tamper-evident trail) but none address the reward-hacking / self-evolving-agent framing with a public diff+test+trace receipt; RewardHackWatch is a detector, not a publisher
+- **Note:** audit trail and agent-history tools active; none address the reward-hacking / self-evolving-agent framing with a public diff+test+trace receipt; "Git for AI Agents" (within 60 days) is the closest but targets session debugging not public safety receipts
 
 ---
 
 ## arena-oracle
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** none found (MAXIA Oracle is a price feed; Predicto is static analysis; prediction tools don't run belief-drift swarm presims)
-- **HN Show HN:** "I logged Gemini's stock predictions for 38 days to study LLM drift" (item 47296932, ~Mar/Apr 2026, >60 days) — drift *observation* post-hoc, not presim before crowd prices; PM infrastructure tools (Prediktion aggregator, open-source PMs) but none forward-simulate belief drift
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** no products found that forward-simulate belief drift for prediction markets
+- **HN Show HN:** "Show HN: I simulated closing the Strait of Hormuz on real oil trade data" (ID 49020545, very recent — economic scenario simulation on real data, different domain but shows demand for "sim before the market prices it"); "Prediction market analysis app layering LLMs with data APIs" (Apr 9, 2026, >60 days); "Turn any prediction into ranked Kalshi/Polymarket trades" (Apr 2026, >60 days)
 - **Signal:** open
-- **Note:** Meta Arena (3.56B-DAU funnel) mass-produces PM questions, forecasting agents trade them — but nobody runs a belief-drift swarm simulation before the crowd prices; the presim-only miroshark lane is genuinely empty
+- **Note:** Hormuz sim (very recent) validates demand for "simulate economic scenarios before the market prices it"; nobody runs a belief-drift swarm simulation before the PM crowd prices it; the presim-only miroshark lane is genuinely empty and demand signal is strengthening
 
 ---
 
 ## arena-pack
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** Fere AI (autonomous PM trading agent — turns signals into Polymarket trades, entry/exit rules, stop-loss); Agent Arena (first public arena for AI agents, earn credits/onchain rewards, no date/upvotes); Agent Skills (skills directory for Claude Code/Cursor/Copilot)
-- **HN Show HN:** "AI agent that trades Polymarket by hiring inference via Lightning" (Mar 4, 2026, >60 days); "Onyx – Trading Terminal for Polymarket" (Dec 2025, >60 days); "Agent Skills Leaderboard" (Jan 23, 2026, >60 days); "Prediction Hunt API" (Apr 9, 2026, >60 days) — all outside 60-day window
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** Fere AI (autonomous PM trading agent — turns signals into Polymarket trades, entry/exit rules, stop-loss, no date/upvotes visible); Agent Arena (first public arena for AI agents, earn credits/onchain rewards); no dominant new 60-day launch
+- **HN Show HN:** "AI agent that trades Polymarket by hiring inference via Lightning" (Mar 4, 2026, >60 days); "Onyx – Trading Terminal for Polymarket" (Dec 2025, >60 days) — all outside 60-day window
 - **Signal:** prior art
-- **Note:** Fere AI is the funded standalone PM-trading-agent competitor; SpartanLabs already in field; no new entrants in 60-day window; the only open sliver is the miroshark presim-gate layer (arena-oracle), not a competing standalone pack
+- **Note:** Fere AI is the funded standalone PM-trading-agent competitor; SpartanLabs already in field; no new entrants in 60-day window; the only open sliver remains the miroshark presim-gate layer (arena-oracle), not a competing standalone pack
 
 ---
 
 ## swarm-eval
-- **Last scanned:** 2026-07-19
-- **ProductHunt:** Scorecard (evaluate/optimize/ship AI agents, references simulating hundreds of variations before deployment — no date/upvotes visible); general LLM eval tools dominate
-- **HN Show HN:** "Agent-skills-eval – Test whether Agent Skills improve outputs" (item 48046023, recent high-ID, no date/upvotes visible); "Agent Swarm – Multi-agent self-learning teams (OSS)" (Feb 26, 2026, >60 days) — adjacent tools but not swarm-based user-proxy evaluation
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** Scorecard (evaluate/optimize AI agents, simulate hundreds of variations — no date/upvotes visible); general LLM eval tools dominate
+- **HN Show HN:** "Agent-skills-eval – Test whether Agent Skills improve outputs" (ID 48046023, within 60 days, no date/upvotes visible — adjacent but not swarm-based user-proxy evaluation); "Agent Swarm – Multi-agent self-learning teams" (Feb 26, 2026, >60 days)
 - **Signal:** prior art
-- **Note:** agent eval is a crowded funded field (Confident AI/DeepEval, Adaline, ClawsBench, WebArena, VISTA); the belief-drift grounded eval angle differentiates but the category is contested; treat as eval-facing framing of the "sims-are-unreliable" wave behind sim-audit
+- **Note:** agent eval crowded funded field (Confident AI/DeepEval, Adaline, ClawsBench, WebArena, VISTA); belief-drift grounded eval angle differentiates but category is contested; treat as eval-facing framing of the "sims-are-unreliable" wave behind sim-audit
 
 ---
 
@@ -168,3 +168,12 @@ Competitive scan results from launch-radar. Upserted each run.
 - **HN Show HN:** "I built a live honeypot that catches AI agents" (Feb 20, 2026, >60 days, no upvote count); Nono – kernel-enforced sandboxing (Feb 2, 2026, >60 days) — adjacent, not swarm-based
 - **Signal:** prior art
 - **Note:** honeypot-for-AI-agents exists as named research (Honeypot Protocol arxiv 2604.13301, AI Control Hackathon) and on HN; static scanner field crowded+funded; security lane → aaeron
+
+---
+
+## cloudflare-skill-shop
+- **Last scanned:** 2026-07-26
+- **ProductHunt:** x402 alternatives and Cloudflare products active; no "every skill = priced endpoint" specific product; Ollang DX (AI Language Execution Layer, MCP skills SDK/API) — adjacent but enterprise-focused
+- **HN Show HN:** "Monetization Gateway: Charge for any resource behind Cloudflare via x402" (ID 48746914, ~Jul 12, 2026, within 60 days, no upvote count visible — Cloudflare's own gateway ships the exact layer); "X402, a static blog monetization exercise" (ID 48802885, recent — builder using x402 for content monetization); "Mcp2cli – One CLI for every API" (within 60 days) — MCP ecosystem commoditizing
+- **Signal:** prior art
+- **Note:** Cloudflare Monetization Gateway (Jul 12) ships the exact "charge for any resource via x402" layer this idea targets; combined with Nevermined $7M, MCPize, and Apify ($4M+ payouts), generic MCP metering is fully commoditizing — confirmed as a free aeon feature / dogfood play, not a standalone company

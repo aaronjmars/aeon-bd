@@ -1,15 +1,24 @@
-ℹ️ launch radar — 2026-07-19
+ℹ️ Launch Radar — 2026-07-26
 
-launch radar — 2026-07-19
+launch radar — 2026-07-26
 
-15 ideas scanned. 0 active competition. 5 still wide open.
+15 ideas scanned. no active competition. 6 still wide open.
 
-still wide open:
-- **harness-not-model** — nobody ships a weekly raw-vs-harnessed trace series on a pinned model. Zot and Browser Harness landed in the window but they're coding harnesses, not the comparison receipt.
-- **sim-audit** — the robustness audit critique (arxiv 2605.18890) has no product answer. miroshark ships the boundary receipt; MiroFish doesn't.
-- **model-mirror** — "the model picks the society" (Emergence World) and nobody productizes the pick. pure miroshark dogfood, 10-min grounded run.
-- **arena-oracle** — Meta Arena mass-produces PM questions, forecasting agents trade them; nobody presims belief-drift before the crowd prices. lane is empty.
-- **compute-price-sim** — AI-race Polymarket markets live ($1.1M/24h "best model"). nobody forward-sims the narrative drift before traders size the bet.
+**prior art (exists, no breakout):**
+- proof-of-self-repair — ledger tools landing (LIBR tracing Jul 5, tamper-evident audit trail recent); public diff+test+trace still unclaimed
+- reward-hack-receipt — "Git for AI Agents" (HN, within 60 days) does rewind/bisect; reward-hack-specific public receipt still open
+- counterfactual-launch-sim — Societies.io (YC W25) holds single-LLM launch sim; swarm timing-window angle clear
+- conway-claim — Oodle.ai (Jul 15), ClawMetry recent; ambient infra crowded, narrative window narrowing
+- ambient-aeon — same: category saturated, "first on public traces" narrative unclaimed
+- swarm-eval — eval field crowded; belief-drift angle differentiates but sim-audit leads
+- skill-attest — wave peaked Jan–Mar; all outside 60 days; security lane → aaeron
+- arena-pack — Fere AI holds PM trading agent; no new entrants
+- cloudflare-skill-shop — Cloudflare Monetization Gateway (Jul 12) ships the exact layer; commoditizing fast
 
-prior art (exists, no breakout):
-miroshark-social-world-model, proof-of-self-repair, reward-hack-receipt, counterfactual-launch-sim, conway-claim, swarm-eval, ambient-aeon, skill-attest, cloudflare-skill-shop, arena-pack
+**still wide open:**
+- **harness-not-model** ⭐ — PenguinHarness (Jul 23) is agents-build-agents; weekly model-vs-harness public trace series unclaimed. Ask HN "what's your AI harness for switching models?" just live = demand, no answer
+- **miroshark-social-world-model** 🦈 — world models all pixel/3D/cloud; social MCP simulate(decision) untouched
+- **sim-audit** 🦈 — new paper Jul 2026 (arxiv 2507.19364); zero products shipping seed+model boundary receipt; MiroFish has no audit — wedge holds
+- **model-mirror** 🦈 — Echo (HN, this week) does open-weight cost comparison; swarm model-selection "pick your sim's model in 10 min" still open
+- **arena-oracle** 🦈 — "simulated closing the Strait of Hormuz on real oil data" (HN, this week) validates demand for scenario-sim-before-the-market; PM belief-drift presim lane untouched
+- **compute-price-sim** — AI price war tracking tools exist; nobody forward-simulates the narrative drift ahead of live PM markets

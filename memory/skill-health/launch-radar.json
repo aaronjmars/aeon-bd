@@ -1,8 +1,8 @@
 {
   "skill": "launch-radar",
-  "last_analyzed": "2026-07-19T16:10:24Z",
+  "last_analyzed": "2026-07-26T16:18:41Z",
   "quality_score": 4,
-  "assessment": "Substantive market intel with 5 specific open lanes identified, quantified competitive landscape (0 breakout launches in 60d), and proper file outputs — actionable GTM signal aligned with strategy.",
+  "assessment": "Substantive market intelligence output with 6 specific, dated, actionable opportunity lanes identified and properly filed",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -28,6 +28,10 @@
     },
     {
       "date": "2026-07-19",
+      "score": 4
+    },
+    {
+      "date": "2026-07-26",
       "score": 4
     }
   ]

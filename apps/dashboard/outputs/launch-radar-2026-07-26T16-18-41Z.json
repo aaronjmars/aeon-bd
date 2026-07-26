@@ -1,0 +1,201 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Launch Radar"
+      },
+      "children": [
+        "heading-date",
+        "stat-text",
+        "sep-1",
+        "section-prior",
+        "sep-2",
+        "section-open"
+      ]
+    },
+    "heading-date": {
+      "type": "Heading",
+      "props": {
+        "text": "2026-07-26",
+        "level": "h3"
+      }
+    },
+    "stat-text": {
+      "type": "Text",
+      "props": {
+        "text": "15 ideas scanned. no active competition. 6 still wide open.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-prior": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-prior",
+        "prior-stack"
+      ]
+    },
+    "heading-prior": {
+      "type": "Heading",
+      "props": {
+        "text": "prior art (exists, no breakout)",
+        "level": "h3"
+      }
+    },
+    "prior-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prior-1",
+        "prior-2",
+        "prior-3",
+        "prior-4",
+        "prior-5",
+        "prior-6",
+        "prior-7",
+        "prior-8",
+        "prior-9"
+      ]
+    },
+    "prior-1": {
+      "type": "Text",
+      "props": {
+        "text": "**proof-of-self-repair** — ledger tools landing (LIBR tracing Jul 5, tamper-evident audit trail recent); public diff+test+trace still unclaimed"
+      }
+    },
+    "prior-2": {
+      "type": "Text",
+      "props": {
+        "text": "**reward-hack-receipt** — \"Git for AI Agents\" (HN, within 60 days) does rewind/bisect; reward-hack-specific public receipt still open"
+      }
+    },
+    "prior-3": {
+      "type": "Text",
+      "props": {
+        "text": "**counterfactual-launch-sim** — Societies.io (YC W25) holds single-LLM launch sim; swarm timing-window angle clear"
+      }
+    },
+    "prior-4": {
+      "type": "Text",
+      "props": {
+        "text": "**conway-claim** — Oodle.ai (Jul 15), ClawMetry recent; ambient infra crowded, narrative window narrowing"
+      }
+    },
+    "prior-5": {
+      "type": "Text",
+      "props": {
+        "text": "**ambient-aeon** — same: category saturated, \"first on public traces\" narrative unclaimed"
+      }
+    },
+    "prior-6": {
+      "type": "Text",
+      "props": {
+        "text": "**swarm-eval** — eval field crowded; belief-drift angle differentiates but sim-audit leads"
+      }
+    },
+    "prior-7": {
+      "type": "Text",
+      "props": {
+        "text": "**skill-attest** — wave peaked Jan–Mar; all outside 60 days; security lane → aaeron"
+      }
+    },
+    "prior-8": {
+      "type": "Text",
+      "props": {
+        "text": "**arena-pack** — Fere AI holds PM trading agent; no new entrants"
+      }
+    },
+    "prior-9": {
+      "type": "Text",
+      "props": {
+        "text": "**cloudflare-skill-shop** — Cloudflare Monetization Gateway (Jul 12) ships the exact layer; commoditizing fast"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-open": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-open",
+        "open-stack"
+      ]
+    },
+    "heading-open": {
+      "type": "Heading",
+      "props": {
+        "text": "still wide open",
+        "level": "h3"
+      }
+    },
+    "open-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "open-1",
+        "open-2",
+        "open-3",
+        "open-4",
+        "open-5",
+        "open-6"
+      ]
+    },
+    "open-1": {
+      "type": "Text",
+      "props": {
+        "text": "⭐ **harness-not-model** — PenguinHarness (Jul 23) is agents-build-agents; weekly model-vs-harness public trace series unclaimed. Ask HN \"what's your AI harness for switching models?\" just live = demand, no answer"
+      }
+    },
+    "open-2": {
+      "type": "Text",
+      "props": {
+        "text": "🦈 **miroshark-social-world-model** — world models all pixel/3D/cloud; social MCP simulate(decision) untouched"
+      }
+    },
+    "open-3": {
+      "type": "Text",
+      "props": {
+        "text": "🦈 **sim-audit** — new paper Jul 2026 (arxiv 2507.19364); zero products shipping seed+model boundary receipt; MiroFish has no audit — wedge holds"
+      }
+    },
+    "open-4": {
+      "type": "Text",
+      "props": {
+        "text": "🦈 **model-mirror** — Echo (HN, this week) does open-weight cost comparison; swarm model-selection \"pick your sim's model in 10 min\" still open"
+      }
+    },
+    "open-5": {
+      "type": "Text",
+      "props": {
+        "text": "🦈 **arena-oracle** — \"simulated closing the Strait of Hormuz on real oil data\" (HN, this week) validates demand for scenario-sim-before-the-market; PM belief-drift presim lane untouched"
+      }
+    },
+    "open-6": {
+      "type": "Text",
+      "props": {
+        "text": "**compute-price-sim** — AI price war tracking tools exist; nobody forward-simulates the narrative drift ahead of live PM markets"
+      }
+    }
+  }
+}
