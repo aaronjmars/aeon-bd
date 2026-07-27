@@ -1,0 +1,10 @@
+{
+  "model": "grok-4-1-fast",
+  "input": [
+    {
+      "role": "user",
+      "content": "Search X since 2026-07-24 for posts mentioning any of: @aeonframework, @miroshark_, aaronjmars/aeon, MiroShark, aeon framework autonomous, built on aeon. For each post return: @handle, full text, date, whether the author reads as a project or builder (from bio/links), engagement counts (likes/RTs), and the direct link https://x.com/handle/status/ID. Focus on accounts that are builders, projects, or developers — exclude pure token traders, crypto KOLs hyping without substance, and random noise. Return up to 15 results."
+    }
+  ],
+  "tools": [{"type": "x_search"}]
+}

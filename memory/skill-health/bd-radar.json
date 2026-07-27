@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-07-26T08:06:29Z",
+  "last_analyzed": "2026-07-27T08:21:09Z",
   "quality_score": 4,
-  "assessment": "Well-structured sweep with honest assessment; sourced 3 net-new leads (forking/adjacent) with proper triage, explained gate logic for no-notify decision, acknowledged ecosystem digest phase.",
+  "assessment": "Substantive output — found 5 actionable adjacent leads with specific engagement angles, all sources transparent (GitHub PAT, gh search, xAI http=200, WebSearch), structured for BD follow-up, appropriately quiet-day decision.",
   "flags": [],
   "avg_score": 4.07,
   "history": [
-    {
-      "date": "2026-06-27",
-      "score": 4
-    },
     {
       "date": "2026-06-28",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-26",
+      "score": 4
+    },
+    {
+      "date": "2026-07-27",
       "score": 4
     }
   ]
