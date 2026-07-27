@@ -1,0 +1,420 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-07-27"
+      },
+      "children": [
+        "heading_title",
+        "separator_intro",
+        "stack_opportunities",
+        "separator_final",
+        "alert_aging"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "5 Engagement Opportunities",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_intro": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "stack_opportunities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opp1_stack",
+        "opp2_stack",
+        "opp3_stack",
+        "opp4_stack",
+        "opp5_stack"
+      ]
+    },
+    "opp1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_heading",
+        "opp1_meta",
+        "opp1_context",
+        "opp1_draft"
+      ]
+    },
+    "opp1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@clawhuntersol",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "opp1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_age_badge",
+        "opp1_type_badge"
+      ]
+    },
+    "opp1_age_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "0-1d",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opp1_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "opp1_context": {
+      "type": "Text",
+      "props": {
+        "text": "posted about an Aeon bounty-hunting bot on X | no link found (flagged in 07-26 bd-radar)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "opp1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "the bounty-hunting bot is aeon-coded — compute→money, except the money is the exploit you found ⭐",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opp2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_heading",
+        "opp2_meta",
+        "opp2_link",
+        "opp2_draft"
+      ]
+    },
+    "opp2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TheMindExpansionNetwork/mindbot-framework",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "opp2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_age_badge",
+        "opp2_type_badge",
+        "opp2_desc_badge"
+      ]
+    },
+    "opp2_age_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "1d",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opp2_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "opp2_desc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "the agent you can prove",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "opp2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mindbot-framework",
+        "href": "https://github.com/TheMindExpansionNetwork/mindbot-framework",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "opp2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "saw mindbot — 'the agent you can prove' is the right frame. aeon runs on GitHub Actions with public traces for the same reason: verifiability > raw capability. skills-as-markdown, runs are public, anyone can audit what the agent actually did. different stack, same thesis on verifiable agents. down to cross-post on this as a category if you're up for it.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opp3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp3_heading",
+        "opp3_meta",
+        "opp3_link",
+        "opp3_draft"
+      ]
+    },
+    "opp3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "agentjido/jido",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "opp3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp3_age_badge",
+        "opp3_type_badge",
+        "opp3_stars_badge"
+      ]
+    },
+    "opp3_age_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "4d",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opp3_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "opp3_stars_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "1,774★ Elixir",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "opp3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jido",
+        "href": "https://github.com/agentjido/jido",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "opp3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "jido's distributed primitives are a good bet — actor model + fault tolerance is the right substrate for long-running autonomous work. aeon handles the scheduling + memory + persistence layer on top of Claude Code with skills-as-markdown. different stack, same direction: agents that run unattended and self-repair. curious what your deployment looks like — could be complementary layers.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opp4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp4_heading",
+        "opp4_meta",
+        "opp4_link",
+        "opp4_draft"
+      ]
+    },
+    "opp4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "LEDGRAGENT/aeon",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "opp4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp4_age_badge",
+        "opp4_type_badge",
+        "opp4_class_badge"
+      ]
+    },
+    "opp4_age_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "4d",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opp4_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "opp4_class_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "score 5 building class",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "opp4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "LEDGRAGENT/aeon fork",
+        "href": "https://github.com/LEDGRAGENT/aeon",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "opp4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "what are you building on aeon? LEDGRAGENT reads ledger-native to me — onchain accounting, audit trails, something else entirely? if you're running skills against onchain data, there are a few paths worth knowing about.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opp5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp5_heading",
+        "opp5_meta",
+        "opp5_link",
+        "opp5_draft"
+      ]
+    },
+    "opp5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "numbpill3d/sigil",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "opp5_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp5_age_badge",
+        "opp5_type_badge",
+        "opp5_desc_badge"
+      ]
+    },
+    "opp5_age_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "5d",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opp5_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "opp5_desc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "vault-native, markdown memory",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "opp5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sigil",
+        "href": "https://github.com/numbpill3d/sigil",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "opp5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "skills-as-markdown for memory is the right call — no vector db overhead, human-readable, git-native. aeon does the same. curious how you're handling cross-skill state / chaining.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_final": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "alert_aging": {
+      "type": "Alert",
+      "props": {
+        "title": "Aging Opportunities",
+        "message": "some opps aging — act or drop (sigil is 5d old)",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
