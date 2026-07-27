@@ -1,0 +1,62 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — 2026-07-27",
+        "description": "Quiet window — one substantive post. aaronjmars drew the Aeon vs. exo line publicly."
+      },
+      "children": [
+        "separator-1",
+        "heading-founder",
+        "tweet-1",
+        "stat-replies",
+        "link-tweet-1"
+      ]
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-founder": {
+      "type": "Heading",
+      "props": {
+        "text": "Founder positioning — Aeon vs. exo",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Breaks down Aeon vs. exo point-by-point: GitHub Actions vs. local-forever, PR-gated harness edits vs. live rebuilds, auto-repair loop with scoring vs. no eval. Frames it cleanly: exo asks what agents should be made of; Aeon asks what agents should do today.",
+        "likes": 19,
+        "retweets": 5
+      },
+      "children": []
+    },
+    "stat-replies": {
+      "type": "Stat",
+      "props": {
+        "label": "Replies",
+        "value": "2"
+      },
+      "children": []
+    },
+    "link-tweet-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2081496673725903017"
+      },
+      "children": []
+    }
+  }
+}
