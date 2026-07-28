@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-27T17:35:02Z",
+  "last_analyzed": "2026-07-28T17:34:45Z",
   "quality_score": 4,
-  "assessment": "Well-executed fetch with substantive signal identified (Aaron's Aeon vs exo comparison), proper filtering applied, and correct memory updates; solid alignment with strategy (BD signal, positioning artifact).",
+  "assessment": "Substantive signal monitoring with clean filtering, specific handles/insights, and proper housekeeping; lacks synthesis on actionability for Aaron/Nurstar.",
   "flags": [],
-  "avg_score": 3.93,
+  "avg_score": 3.97,
   "history": [
-    {
-      "date": "2026-06-28",
-      "score": 3
-    },
     {
       "date": "2026-06-29",
       "score": 3
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-27",
+      "score": 4
+    },
+    {
+      "date": "2026-07-28",
       "score": 4
     }
   ]

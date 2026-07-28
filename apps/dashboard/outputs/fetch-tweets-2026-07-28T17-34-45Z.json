@@ -1,0 +1,100 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup"
+      },
+      "children": [
+        "heading-date",
+        "text-source",
+        "separator-1",
+        "heading-ai",
+        "story-1",
+        "story-2",
+        "separator-2",
+        "heading-crypto",
+        "story-3",
+        "story-4"
+      ]
+    },
+    "heading-date": {
+      "type": "Heading",
+      "props": {
+        "text": "2026-07-28",
+        "level": "h3"
+      }
+    },
+    "text-source": {
+      "type": "Text",
+      "props": {
+        "text": "Source: api:2 websearch:0 failed:0",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-ai": {
+      "type": "Heading",
+      "props": {
+        "text": "AI / agents / LLM",
+        "level": "h4"
+      }
+    },
+    "story-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "calls for making closed-source AI illegal, framing it as an ownership-concentration ban, not a safety play",
+        "href": "https://x.com/dudeman6790/status/2081891602440556873",
+        "source": "dudeman6790",
+        "score": "47"
+      }
+    },
+    "story-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Peter Voss pitching Aigo's cognitive AI architecture as the real AGI path beyond LLMs — real-time learning vs. static training",
+        "href": "https://x.com/timventura/status/2081890762661466136",
+        "source": "timventura",
+        "score": "16"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-crypto": {
+      "type": "Heading",
+      "props": {
+        "text": "crypto / DeFi",
+        "level": "h4"
+      }
+    },
+    "story-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "argues tokenized stocks (NVDA/SPCX on Uniswap) will pull lazy liquidity out of down-only alts — NVDA/USDG LP earning 117% APY on $10.3M daily volume, #2 pair on Uniswap",
+        "href": "https://x.com/DeFi_Dad/status/2081892262267568297",
+        "source": "DeFi_Dad",
+        "score": "101"
+      }
+    },
+    "story-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Hoskinson: \"philosophy hasn't changed, direction hasn't changed\" — maintenance-of-stance signal, likely reactive to renewed Cardano critique",
+        "href": "https://x.com/angrycryptoshow/status/2081892333935587655",
+        "source": "angrycryptoshow",
+        "score": "70"
+      }
+    }
+  }
+}
