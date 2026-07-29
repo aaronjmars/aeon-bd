@@ -1,21 +1,14 @@
-Committed. No notification sent (no building/integrating leads — quiet Monday).
+Done. No notify — no building/integrating leads today.
 
 ## Summary
 
-**bd-radar 2026-07-27** complete.
+**Ran bd-radar for 2026-07-29.** All sources hit clean (GitHub PAT forks ×80, gh search ×4 sweeps, xAI x_search http=200, HN/Reddit quiet).
 
-**Sources:** GitHub forks (PAT OK, 40×aeon + 40×MiroShark), gh search, xAI x_search (http=200, 3 posts), WebSearch — all quiet.
+**5 net-new leads** (forking×4, mentioning×1):
 
-**Net-new leads: 5 (adjacent×5)**
+1. **saxoji/MiroShark** (score 9) — CEO of Linkbricks Horizon-AI, 308 repos including `ai-factory` and `agentscope`. Forked MiroShark 07-13 with own activity. Best lead today — DM him, MiroShark is the sim layer for enterprise agents.
+2. **@zke_com** (score 4) — ZKE exchange listed AEON/USDT on 07-28, tagging @aeonframework. Quick repost = free token-price signal.
+3. **Aluma/aeon** (score 3) — 64-repo account, forked Aeon 07-07 and pushed own commits 4 days later. Worth a "what are you building?" comment.
+4. **aiagentho/aeon**, **aganoob/aeon** (score 3 each) — monitor only.
 
-| # | Who | Signal |
-|---|-----|--------|
-| 1 | [agentjido/jido](https://github.com/agentjido/jido) | 1,774★ Elixir autonomous agent framework — DM on cross-platform scheduling angle |
-| 2 | [TheMindExpansionNetwork/mindbot-framework](https://github.com/TheMindExpansionNetwork/mindbot-framework) | "The agent you can prove" — hash-chained, Merkle-anchored, same public-traces ethos |
-| 3 | numbpill3d/sigil | markdown vault memory (not vector db) — same memory pattern as Aeon |
-| 4 | joshuamschultz/Arc | early-stage autonomous agent framework, active today |
-| 5 | Kinetic-Alpha (michaelmillshealy716-sudo) | trading automation framework — MiroShark simulate-before-execute angle |
-
-**Notable active (already surfaced):** Svector-anu/svectors-lab (day 21+), Marr554/aeon, freezerboi, clawhunter — all pushing today. @clawhuntersol posted on X about their Aeon bounty bot. Surfaced set at LRU cap (300).
-
-**No notification** — quiet Monday, all adjacent class. High-intent pipeline (HKUDS/Vibe-Trading, koala73/worldmonitor) carries from prior days into engagement-act.
+No building/integrating leads → no notification sent. Files written: `output/articles/bd-radar-2026-07-29.md`, `memory/logs/2026-07-29.md`, updated `memory/topics/bd-radar-leads.json`.

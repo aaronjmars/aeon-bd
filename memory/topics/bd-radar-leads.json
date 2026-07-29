@@ -1,70 +1,6 @@
 {
   "leads": [
     {
-      "key": "github:Drix10/ai-resources",
-      "class": "mentioning",
-      "who": "Drix10/ai-resources",
-      "handle": "Drix10",
-      "signal": "112-star daily AI resources catalog lists aaronjmars-miroshark; distribution surface",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-17",
-      "repo_updated": "2026-06-06",
-      "source": "gh_search_code",
-      "move": "reach play; confirm listing accurate, free top-of-funnel"
-    },
-    {
-      "key": "github:Tholynceus/aeon",
-      "class": "forking",
-      "who": "Tholynceus",
-      "handle": "Tholynceus",
-      "signal": "Aeon fork created 06-19T23:20, own commits 06-19T23:35 (15min activity overnight). Identity unknown.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-20",
-      "repo_updated": "2026-06-19",
-      "source": "gh_read_pat_forks",
-      "move": "Watch only"
-    },
-    {
-      "key": "github:logbookbase/aeon",
-      "class": "forking",
-      "who": "logbookbase",
-      "handle": "logbookbase",
-      "signal": "Aeon fork created 06-19T15:32, pushed 06-19T15:55 (23min own activity). Handle suggests logging/ops vertical.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-20",
-      "repo_updated": "2026-06-19",
-      "source": "gh_read_pat_forks",
-      "move": "Watch. If logging/observability play on aeon, ping when description appears"
-    },
-    {
-      "key": "github:usephylax/aeon",
-      "class": "forking",
-      "who": "usephylax",
-      "handle": "usephylax",
-      "signal": "Aeon fork created 06-22T11:50, own commits 23min later at 12:13. No description.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-23",
-      "repo_updated": "2026-06-22",
-      "source": "gh_read_pat_forks",
-      "move": "Watch"
-    },
-    {
-      "key": "github:ARUNAGIRINATHAN-K/awesome-ai-agents-2026",
-      "class": "mentioning",
-      "who": "ARUNAGIRINATHAN-K",
-      "handle": "ARUNAGIRINATHAN-K",
-      "signal": "Curated 300+ AI agents/frameworks list (awesome-ai-agents-2026). Appeared in web search for aeon/miroshark. Potential distribution surface.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-23",
-      "source": "websearch",
-      "move": "Verify aeon is listed; if not, open a PR or ping for inclusion"
-    },
-    {
       "key": "github:bradAGI/awesome-cli-coding-agents",
       "class": "mentioning",
       "who": "bradAGI",
@@ -2470,14 +2406,74 @@
       "known": true,
       "escalating": true,
       "move": "DM Atrium-Hermes on GH: atrium-lighthouse live today with A2A+MCP. What is Atrium? TG invite."
+    },
+    {
+      "key": "github:saxoji/MiroShark",
+      "class": "forking",
+      "who": "saxoji / Linkbricks Horizon-AI",
+      "handle": "saxoji",
+      "signal": "CEO of Linkbricks Horizon-AI (308 repos, ai-factory/agentscope/agent-skills). Forked MiroShark 07-13 with own activity.",
+      "fit": 3,
+      "score": 9,
+      "first_seen": "2026-07-29",
+      "repo_updated": "2026-07-13",
+      "source": "gh_read_pat_forks",
+      "move": "DM saxoji: CEO of AI company building agents, MiroShark is the simulation layer they're missing"
+    },
+    {
+      "key": "x:zke_com",
+      "class": "mentioning",
+      "who": "@zke_com (ZKE exchange)",
+      "handle": "zke_com",
+      "signal": "ZKE exchange listed AEON/USDT on 07-28, tagged @aeonframework in EN+CN posts (272 views)",
+      "fit": 2,
+      "score": 4,
+      "first_seen": "2026-07-29",
+      "repo_updated": "2026-07-29",
+      "source": "x_search",
+      "move": "Repost/ack from @aeonframework, free token-price signal"
+    },
+    {
+      "key": "github:aiagentho/aeon",
+      "class": "forking",
+      "who": "aiagentho",
+      "handle": "aiagentho",
+      "signal": "22-repo account, forked Aeon 07-28. Name reads AI agent tho.",
+      "fit": 1,
+      "score": 3,
+      "first_seen": "2026-07-29",
+      "repo_updated": "2026-07-28",
+      "source": "gh_read_pat_forks",
+      "move": "Monitor, watch for commits"
+    },
+    {
+      "key": "github:aganoob/aeon",
+      "class": "forking",
+      "who": "aganoob",
+      "handle": "aganoob",
+      "signal": "34-repo account since 2014, forked 07-27 with own-day activity (size diff vs upstream).",
+      "fit": 1,
+      "score": 3,
+      "first_seen": "2026-07-29",
+      "repo_updated": "2026-07-27",
+      "source": "gh_read_pat_forks",
+      "move": "Watch, own-day activity suggests more than drive-by"
+    },
+    {
+      "key": "github:Aluma/aeon",
+      "class": "forking",
+      "who": "Aluma",
+      "handle": "Aluma",
+      "signal": "64-repo account since 2015, forked Aeon 07-07, pushed own commits 07-11 (4 days active).",
+      "fit": 1,
+      "score": 3,
+      "first_seen": "2026-07-29",
+      "repo_updated": "2026-07-11",
+      "source": "gh_read_pat_forks",
+      "move": "Open what are you building comment, 4-day own-activity window is warm"
     }
   ],
   "surfaced": [
-    "github:KingKaonix/aeon",
-    "github:AntFleet",
-    "github:sparkleware",
-    "github:codexvritra/signa-skills",
-    "github:aeoncity-hub/aeon",
     "github:aeonbook/aeon-excalidraw-diagram",
     "github:modelcollapse/aeon",
     "github:wrenwealth/aeon",
@@ -2772,6 +2768,11 @@
     "github:TheMindExpansionNetwork/mindbot-framework",
     "github:numbpill3d/sigil",
     "github:joshuamschultz/Arc",
-    "github:michaelmillshealy716-sudo/Kinetic-Alpha-Agentic-Technical-Analysis-Execution"
+    "github:michaelmillshealy716-sudo/Kinetic-Alpha-Agentic-Technical-Analysis-Execution",
+    "github:saxoji/MiroShark",
+    "x:zke_com",
+    "github:aiagentho/aeon",
+    "github:aganoob/aeon",
+    "github:Aluma/aeon"
   ]
 }

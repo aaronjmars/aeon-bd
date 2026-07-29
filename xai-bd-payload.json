@@ -1,8 +1,0 @@
-{
-  "model": "grok-4-1-fast",
-  "input": [{
-    "role": "user",
-    "content": "Search X since 2026-07-22 for posts mentioning any of: @aeonframework, @miroshark_, aeon framework, MiroShark, swarm simulation, aaronjmars, autonomous agent framework, built on aeon. For each qualifying post return: @handle, full text, date, whether the author reads as a project or builder account (from bio/links), engagement counts (likes/RT/replies), and the direct link https://x.com/handle/status/ID. Focus on accounts that look like builders, projects, or technical researchers."
-  }],
-  "tools": [{"type": "x_search"}]
-}
