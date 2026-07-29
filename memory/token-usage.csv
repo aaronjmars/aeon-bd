@@ -264,3 +264,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-28,heartbeat,claude-sonnet-4-6,8,6179,296028,39142
 2026-07-28,fetch-tweets,claude-sonnet-4-6,1119,9337,2147820,68247
 2026-07-29,bd-radar,claude-sonnet-4-6,53,22710,3998107,74923
+2026-07-29,engagement-act,claude-sonnet-4-6,12,11953,591137,63968

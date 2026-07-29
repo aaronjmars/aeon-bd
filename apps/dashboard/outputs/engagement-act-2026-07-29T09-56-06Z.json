@@ -1,0 +1,263 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "2026-07-29"
+      },
+      "children": [
+        "stack-items"
+      ]
+    },
+    "stack-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1",
+        "sep1",
+        "item2",
+        "sep2",
+        "item3"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item1-header",
+        "item1-event",
+        "item1-link",
+        "item1-type",
+        "item1-draft"
+      ]
+    },
+    "item1-header": {
+      "type": "Text",
+      "props": {
+        "text": "@zke_com (1 day ago)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "item1-event": {
+      "type": "Text",
+      "props": {
+        "text": "ZKE exchange listed $AEON/USDT on 07-28, tagged @aeonframework (272 views)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item1-link": {
+      "type": "Text",
+      "props": {
+        "text": "Link: check @zke_com profile for 07-28 listing post",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "item1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "item1-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item1-draft-label",
+        "item1-draft-text"
+      ]
+    },
+    "item1-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "item1-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "$AEON/USDT now on ZKE ⭐ — lfg",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item2-header",
+        "item2-event",
+        "item2-link",
+        "item2-type",
+        "item2-draft"
+      ]
+    },
+    "item2-header": {
+      "type": "Text",
+      "props": {
+        "text": "github:aiagentho/aeon (today)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "item2-event": {
+      "type": "Text",
+      "props": {
+        "text": "forked aaronjmars/aeon (score 3, fresh fork)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item2-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aiagentho/aeon",
+        "href": "https://github.com/aiagentho/aeon"
+      },
+      "children": []
+    },
+    "item2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "item2-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item2-draft-label",
+        "item2-draft-text"
+      ]
+    },
+    "item2-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "item2-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "hey — what are you building on top of Aeon? curious where you're taking it ⭐",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item3-header",
+        "item3-event",
+        "item3-link",
+        "item3-type",
+        "item3-draft"
+      ]
+    },
+    "item3-header": {
+      "type": "Text",
+      "props": {
+        "text": "github:aganoob/aeon (today)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "item3-event": {
+      "type": "Text",
+      "props": {
+        "text": "forked aaronjmars/aeon (score 3, fresh fork)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item3-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aganoob/aeon",
+        "href": "https://github.com/aganoob/aeon"
+      },
+      "children": []
+    },
+    "item3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "item3-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item3-draft-label",
+        "item3-draft-text"
+      ]
+    },
+    "item3-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "item3-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "hey — what are you building? always curious what people are running Aeon for ⭐",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
