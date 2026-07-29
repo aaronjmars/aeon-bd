@@ -1,0 +1,298 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark"
+      },
+      "children": [
+        "date-text",
+        "summary-text",
+        "sep1",
+        "tokenomics-heading",
+        "tokenomics-stack",
+        "sep2",
+        "signal-heading",
+        "signal-stack"
+      ]
+    },
+    "date-text": {
+      "type": "Text",
+      "props": {
+        "text": "Top Tweets — @aeonframework / @miroshark_ (2026-07-29)",
+        "variant": "caption"
+      }
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Revenue ($647k on DeFiLlama) is real — but buyers are gone: $AEON -22%, buyback pressure loud, builders are waiting at the door.",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tokenomics-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tokenomics pressure",
+        "level": "h3"
+      }
+    },
+    "tokenomics-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1-container",
+        "tweet2-container",
+        "tweet3-container"
+      ]
+    },
+    "tweet1-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "tweet1-meta",
+        "tweet1-link"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Ninja_base",
+        "handle": "Ninja_base",
+        "text": "Lays out the product-death loop: $AEON at 100k mcap with $2k daily volume starves the revenue engine; insists buybacks from existing income are the circuit-breaker, not asking to dump treasury.",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "tweet1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Ninja_base/status/2082029694107451721"
+      }
+    },
+    "tweet2-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "tweet2-meta",
+        "tweet2-link"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "VZ6747",
+        "handle": "VZ6747",
+        "text": "Demands on-chain or dashboard proof that product usage creates recurring $AEON demand, and wants the value-flow mechanics spelled out explicitly — not rhetoric.",
+        "likes": 2,
+        "retweets": 0
+      }
+    },
+    "tweet2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/VZ6747/status/2082154367281414541"
+      }
+    },
+    "tweet3-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3",
+        "tweet3-meta",
+        "tweet3-link"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "BogdanMuliar",
+        "handle": "BogdanMuliar",
+        "text": "Points to DeFiLlama's $647k Aeon revenue figure and asks why buybacks haven't been deployed from that pool, given Miroshark buybacks were promised and its chart is near zero.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/BogdanMuliar/status/2081938126663033327"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "signal-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Product signal + builder appetite",
+        "level": "h3"
+      }
+    },
+    "signal-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet4-container",
+        "tweet5-container",
+        "tweet6-container"
+      ]
+    },
+    "tweet4-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4",
+        "tweet4-meta",
+        "tweet4-link"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "0xNurstar",
+        "text": "Cryptic \"maybe you'll hear about @aeonframework soon instead\" — tease from co-founder in response to another project. Something is incoming.",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "tweet4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2082109981311078665"
+      }
+    },
+    "tweet5-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet5",
+        "tweet5-meta",
+        "tweet5-link"
+      ]
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MarnyMarek",
+        "handle": "MarnyMarek",
+        "text": "Builder waiting 3 months to contribute an autoheal implementation to dcaeon, blocked only on it being open-sourced; vibing in the meantime.",
+        "likes": 2,
+        "retweets": 0
+      }
+    },
+    "tweet5-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet5-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/MarnyMarek/status/2082167239059402965"
+      }
+    },
+    "tweet6-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet6",
+        "tweet6-meta",
+        "tweet6-link"
+      ]
+    },
+    "tweet6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Frankc426",
+        "handle": "Frankc426",
+        "text": "Recommends @aeonframework for AI agent personality via latest YouTube video; positions soul.md as the differentiator for non-technical builders.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet6-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet6-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Frankc426/status/2082156900888547754"
+      }
+    }
+  }
+}
