@@ -2,7 +2,7 @@
 #
 # Enable skills by setting enabled: true. Multiple skills at the same time run in parallel.
 # Set var: "value" to pass a default parameter to the skill.
-# Set model: "claude-sonnet-4-6" per skill to override the default model (cost optimization).
+# Set model: "claude-sonnet-5" per skill to override the default model (cost optimization).
 
 skills:
   strategy-builder: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — draft STRATEGY.md (north-star / priorities / audience / constraints) from a brief + repo README + memory. var: bare goal text, or structured brief "repo=owner/repo | links=url1,url2 | goal=free text". Powers the dashboard Strategy → Build my strategy button. No API key needed.
@@ -99,7 +99,7 @@ skills:
 
   # Ideas & productivity
   idea-pipeline: { enabled: false, schedule: "0 18 * * 1" } # Monday — execution-gap audit: top 3 backlog ideas to build this week
-  idea-validator: { enabled: false, schedule: "0 18 * * 5", model: "claude-opus-4-8" } # Fri 18:00 UTC — screen the startup-idea backlog, score viability
+  idea-validator: { enabled: false, schedule: "0 18 * * 5", model: "claude-opus-5" } # Fri 18:00 UTC — screen the startup-idea backlog, score viability
 
   # Self-maintenance / meta
   memory-flush: { enabled: false, schedule: "30 21 * * *" } # daily — promote important recent log entries into MEMORY.md
@@ -124,10 +124,10 @@ skills:
   # product-state read) at 07:45 and sends the team brief.
   # (product-pulse retired 2026-07 — war-room now reads product STATE live via gh api.)
   bd-radar: { enabled: true, schedule: "20 7 1/2 * *", var: "" } # every other day (odd days), 07:20 UTC — BD radar: who's building/forking/integrating/mentioning the products → ranked leads + a next move each. Quiet unless high-intent lead.
-  war-room: { enabled: false, schedule: "45 7 * * *", var: "", model: "claude-opus-4-8" } # 07:45 UTC — daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Reads the day's bd-radar digest + a live gh api product-state read. Always notifies.
+  war-room: { enabled: false, schedule: "45 7 * * *", var: "", model: "claude-opus-5" } # 07:45 UTC — daily standup brief (state · talk-to · decide) for Aaron + Nurstar. Reads the day's bd-radar digest + a live gh api product-state read. Always notifies.
   # Weekly thinkers — standalone cron; war-room folds in their latest digest if <7d old.
   sim-watch: { enabled: false, schedule: "0 13 * * 0", var: "" } # Sun 13:00 UTC — Miroshark category intel (LLM/social simulation + world models): competitors, papers, clones; copy/counter/opening verdicts.
-  idea-forge: { enabled: false, schedule: "0 16 * * 3", var: "", model: "claude-opus-4-8" } # Wed 16:00 UTC — weekly business-idea engine: zeitgeist × aeon/miroshark capability surface → 3-5 timing-window-scored wedges. Notifies the #1.
+  idea-forge: { enabled: false, schedule: "0 16 * * 3", var: "", model: "claude-opus-5" } # Wed 16:00 UTC — weekly business-idea engine: zeitgeist × aeon/miroshark capability surface → 3-5 timing-window-scored wedges. Notifies the #1.
 
   # --- Synced from aeon (2026-06-29): catalog parity, all disabled ---
   ctrl: { enabled: false, schedule: "workflow_dispatch" }
@@ -190,7 +190,7 @@ chains:
 # (Grok harness models: grok-composer-2.5-fast — fast single-agent default;
 #  grok-build — reasoning/multi-agent coding model, run with --no-subagents in CI.
 #  Use the bare CLI id `grok-build`, not the API id `grok-build-0.1`.)
-model: claude-sonnet-4-6
+model: claude-sonnet-5
 
 # Agent harness — which coding-agent CLI runs your skills.
 #   claude (default) — Claude Code (`claude -p`); uses the AI Gateway below.
