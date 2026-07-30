@@ -1,30 +1,9 @@
-ℹ️ Top Tweets — Aeon + Miroshark
+ℹ️ Tweet Roundup
 
-*Top Tweets — @aeonframework / @miroshark_ (2026-07-29)*
-_Revenue ($647k on DeFiLlama) is real — but buyers are gone: $AEON -22%, buyback pressure loud, builders are waiting at the door._
+*Tweet Roundup — 2026-07-30*
+_Source: api:3 websearch:0 failed:0_
 
-*Tokenomics pressure*
-1. x.com/Ninja_base — Lays out the product-death loop: $AEON at 100k mcap with $2k daily volume starves the revenue engine; insists buybacks from existing income are the circuit-breaker, not asking to dump treasury.
-Likes: 3 | RTs: 0 | Replies: 3
-[View tweet](https://x.com/Ninja_base/status/2082029694107451721)
+*crypto OR bitcoin OR DeFi* — _Two modes: TA traders positioning for a Wave C BTC dump toward 62k, while builders make the case that consumer apps are the unlock for the next builder wave._
 
-2. x.com/VZ6747 — Demands on-chain or dashboard proof that product usage creates recurring $AEON demand, and wants the value-flow mechanics spelled out explicitly — not rhetoric.
-Likes: 2 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/VZ6747/status/2082154367281414541)
-
-3. x.com/BogdanMuliar — Points to DeFiLlama's $647k Aeon revenue figure and asks why buybacks haven't been deployed from that pool, given Miroshark buybacks were promised and its chart is near zero.
-Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/BogdanMuliar/status/2081938126663033327)
-
-*Product signal + builder appetite*
-4. x.com/0xNurstar — Cryptic "maybe you'll hear about @aeonframework soon instead" — tease from co-founder in response to another project. Something is incoming.
-Likes: 3 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/0xNurstar/status/2082109981311078665)
-
-5. x.com/MarnyMarek — Builder waiting 3 months to contribute an autoheal implementation to dcaeon, blocked only on it being open-sourced; vibing in the meantime.
-Likes: 2 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/MarnyMarek/status/2082167239059402965)
-
-6. x.com/Frankc426 — Recommends @aeonframework for AI agent personality via latest YouTube video; positions soul.md as the differentiator for non-technical builders.
-Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/Frankc426/status/2082156900888547754)
+- x.com/nick_cassese1 — Calling one final Wave C leg down on BTC toward 61,750–62,300 before structure reasserts; "volatile day but structure still intact" (signal: 44) [View](https://x.com/nick_cassese1/status/2082617155258839486)
+- x.com/blendino — Argues the builder-side chicken-and-egg: no quality consumer apps = no builders entering crypto; building what they'd like to see to create momentum and inspire others (signal: 0 — unique angle) [View](https://x.com/blendino/status/2082881623763112024)

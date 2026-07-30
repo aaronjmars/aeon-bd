@@ -1,0 +1,154 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup",
+        "description": "2026-07-30"
+      },
+      "children": [
+        "header_stack",
+        "themes",
+        "separator1",
+        "tweet1_stack",
+        "separator2",
+        "tweet2_stack"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_info",
+        "topic_stack"
+      ]
+    },
+    "source_info": {
+      "type": "Text",
+      "props": {
+        "text": "Source: api:3 websearch:0 failed:0",
+        "variant": "caption"
+      }
+    },
+    "topic_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "topic_label"
+      ]
+    },
+    "topic_label": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto OR bitcoin OR DeFi"
+      }
+    },
+    "themes": {
+      "type": "Text",
+      "props": {
+        "text": "Two modes: TA traders positioning for a Wave C BTC dump toward 62k, while builders make the case that consumer apps are the unlock for the next builder wave.",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator"
+    },
+    "tweet1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "tweet1_meta"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "nick_cassese1",
+        "text": "Calling one final Wave C leg down on BTC toward 61,750–62,300 before structure reasserts; 'volatile day but structure still intact'"
+      }
+    },
+    "tweet1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1_signal",
+        "tweet1_link"
+      ]
+    },
+    "tweet1_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Signal: 44",
+        "variant": "caption"
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/nick_cassese1/status/2082617155258839486"
+      }
+    },
+    "separator2": {
+      "type": "Separator"
+    },
+    "tweet2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "tweet2_meta"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "blendino",
+        "text": "Argues the builder-side chicken-and-egg: no quality consumer apps = no builders entering crypto; building what they'd like to see to create momentum and inspire others"
+      }
+    },
+    "tweet2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tweet2_signal",
+        "tweet2_link"
+      ]
+    },
+    "tweet2_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Signal: 0 (unique angle)",
+        "variant": "caption"
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/blendino/status/2082881623763112024"
+      }
+    }
+  }
+}
