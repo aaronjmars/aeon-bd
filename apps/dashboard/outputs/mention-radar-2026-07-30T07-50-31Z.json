@@ -1,0 +1,244 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-07-30"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "aeon-section",
+        "separator-1",
+        "miroshark-section",
+        "separator-2",
+        "engagement-section"
+      ]
+    },
+    "aeon-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-heading",
+        "aeon-status",
+        "aeon-desc",
+        "aeon-github"
+      ]
+    },
+    "aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON (@aeonframework)",
+        "level": "h2"
+      }
+    },
+    "aeon-status": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET",
+        "variant": "secondary"
+      }
+    },
+    "aeon-desc": {
+      "type": "Text",
+      "props": {
+        "text": "No external mentions this cycle. X noise was $AEON token/settlement-layer unrelated content; Reddit/HN/Farcaster/PH clean.",
+        "variant": "body"
+      }
+    },
+    "aeon-github": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub",
+        "value": "580★ / 213f",
+        "delta": "+3★ / +2f",
+        "trend": "up"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-heading",
+        "mention-1-group",
+        "mention-2-group",
+        "miroshark-github"
+      ]
+    },
+    "miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK (@miroshark_)",
+        "level": "h2"
+      }
+    },
+    "mention-1-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "mention-1-card",
+        "mention-1-link",
+        "mention-1-badge",
+        "mention-1-note"
+      ]
+    },
+    "mention-1-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "0xNurstar",
+        "text": "Running a @miroshark_ sim about the @OpenAI rogue agent drama 🤖🚨",
+        "likes": 3
+      }
+    },
+    "mention-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/@0xNurstar/status/2082513254979403783",
+        "href": "https://x.com/0xNurstar/status/2082513254979403783"
+      }
+    },
+    "mention-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery/Usage",
+        "variant": "outline"
+      }
+    },
+    "mention-1-note": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-29, 1 reply — someone running a live sim on the hottest AI story of the week",
+        "variant": "caption"
+      }
+    },
+    "mention-2-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "mention-2-card",
+        "mention-2-link",
+        "mention-2-badge",
+        "mention-2-note"
+      ]
+    },
+    "mention-2-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Base_Insights",
+        "handle": "Base_Insights",
+        "text": "Listed @miroshark_ in an 'early projects' watch list alongside 13 crypto/AI projects",
+        "likes": 5,
+        "retweets": 1
+      }
+    },
+    "mention-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/@Base_Insights/status/2082502776115077373",
+        "href": "https://x.com/@Base_Insights/status/2082502776115077373"
+      }
+    },
+    "mention-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "outline"
+      }
+    },
+    "mention-2-note": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-29, 1 repost — on someone's radar",
+        "variant": "caption"
+      }
+    },
+    "miroshark-github": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub",
+        "value": "1414★ / 298f",
+        "delta": "-1★ / +1f",
+        "trend": "down"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-heading",
+        "engagement-item"
+      ]
+    },
+    "engagement-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Engagement Opportunities",
+        "level": "h2"
+      }
+    },
+    "engagement-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "engagement-text",
+        "engagement-link"
+      ]
+    },
+    "engagement-text": {
+      "type": "Text",
+      "props": {
+        "text": "@0xNurstar x @miroshark_: publicly ran a sim on the OpenAI rogue agent drama — that's the exact pitch (\"simulate anything for $1\"). Reply from @miroshark_ or @aaronjmars linking the sim output would turn one post into a product demo thread.",
+        "variant": "body"
+      }
+    },
+    "engagement-link": {
+      "type": "Link",
+      "props": {
+        "label": "View the sim tweet",
+        "href": "https://x.com/0xNurstar/status/2082513254979403783"
+      }
+    }
+  }
+}
