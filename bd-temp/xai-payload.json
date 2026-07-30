@@ -1,9 +1,0 @@
-{
-  "model": "grok-4-1-fast",
-  "tools": [
-    {
-      "type": "x_search"
-    }
-  ],
-  "input": "Search X for recent posts (since 2026-07-11) mentioning any of these: 'Aeon framework' OR 'aeonframework' OR '@miroshark_' OR 'MiroShark' OR 'built on aeon'. For each post found, return the @handle, post text, date, and URL if available. Focus on posts from builders, developers, or projects. Return up to 10 results."
-}

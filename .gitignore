@@ -48,3 +48,31 @@ node_modules/
 # Stale artifacts
 .external-work
 .vuln-scan/
+
+# --- Leaked skill run scratch (belongs in /tmp; skills stage under /tmp per their SKILL.md) ---
+# Root-anchored so legit output/articles/bd-radar-*.md, memory/topics/bd-radar-leads.json,
+# and skills/bd-radar/ are never caught.
+/bd-*.py
+/bd_*.py
+/bd-*.json
+/bd_*.json
+/bd-*.md
+/bd-temp/
+/update_bd_leads.py
+/xai-*.json
+/.xai-*.json
+/shiplog-notify.md
+/tweet-roundup-notify.md
+/.bd-radar-notify-*.md
+/.competitor-radar-notify-*.md
+/.mention-radar-*.md
+/.sim-watch-notify.md
+# hyphen-form temp scratch (existing rule only ignores tmp_*)
+tmp-*
+# interior scratch recurrence guards
+memory/topics/xai-*.json
+output/xai-*.json
+output/.xai-*.json
+# canon parity
+.pending-*.md
+apps/dashboard/outputs/.pending-*.md
