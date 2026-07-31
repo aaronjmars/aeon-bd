@@ -1,18 +1,6 @@
 {
   "leads": [
     {
-      "key": "github:bradAGI/awesome-cli-coding-agents",
-      "class": "mentioning",
-      "who": "bradAGI",
-      "handle": "bradAGI",
-      "signal": "Aeon listed in curated 'awesome-cli-coding-agents' GitHub list. Distribution surface.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-26",
-      "source": "websearch",
-      "move": "Verify listing is current \u2014 free top-of-funnel"
-    },
-    {
       "key": "github:andyrewlee/awesome-agent-orchestrators",
       "class": "mentioning",
       "who": "andyrewlee",
@@ -2471,10 +2459,21 @@
       "repo_updated": "2026-07-11",
       "source": "gh_read_pat_forks",
       "move": "Open what are you building comment, 4-day own-activity window is warm"
+    },
+    {
+      "key": "github:hebridean-tech/x402-pulse",
+      "class": "adjacent",
+      "who": "hebridean-tech (Hebridean Development / Project veritOS)",
+      "handle": "hebridean-tech",
+      "signal": "Filed the identical issue 'x402 Pulse - Free revenue analytics for x402 sellers' on both aeonfun/aeon (#806) and MiroShark/MiroShark (#262) within 2 minutes, 2026-07-31. Free dashboard (pulse.projectveritos.com) connects a Base wallet and tracks USDC revenue plus endpoint health across 180+ x402 services. Cross-repo issue-drop reads as growth-hacking, not a direct integration ask, but lands squarely in the x402 wedge both products already sit in (MiroShark is x402-metered; Aeon ships x402 skills).",
+      "fit": 3,
+      "score": 3,
+      "first_seen": "2026-07-31",
+      "source": "gh_read_pat_issues",
+      "move": "Check pulse.projectveritos.com - if legit, list Aeon/MiroShark's own x402 revenue there for free visibility; if it's spam-pattern issue-dropping, close both issues as off-topic."
     }
   ],
   "surfaced": [
-    "github:aeonbook/aeon-excalidraw-diagram",
     "github:modelcollapse/aeon",
     "github:wrenwealth/aeon",
     "github:SahilParikh03/aeon",
@@ -2773,6 +2772,7 @@
     "x:zke_com",
     "github:aiagentho/aeon",
     "github:aganoob/aeon",
-    "github:Aluma/aeon"
+    "github:Aluma/aeon",
+    "github:hebridean-tech/x402-pulse"
   ]
 }
