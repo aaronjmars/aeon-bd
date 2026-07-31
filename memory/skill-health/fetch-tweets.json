@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-30T17:33:35Z",
+  "last_analyzed": "2026-07-31T17:34:40Z",
   "quality_score": 4,
-  "assessment": "Well-executed filtering task with clear criteria, substantive output (2 quality tweets with specific angles), proper memory logging, and graceful error handling.",
+  "assessment": "Competent execution — fetched 11 candidates, applied thoughtful filtering (removed 8 false positives/duplicates with clear reasoning), curated 3 relevant signals (Kimi integration, token tracker mention), logged properly, committed cleanly.",
   "flags": [],
   "avg_score": 3.97,
   "history": [
-    {
-      "date": "2026-07-01",
-      "score": 4
-    },
     {
       "date": "2026-07-02",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-30",
+      "score": 4
+    },
+    {
+      "date": "2026-07-31",
       "score": 4
     }
   ]

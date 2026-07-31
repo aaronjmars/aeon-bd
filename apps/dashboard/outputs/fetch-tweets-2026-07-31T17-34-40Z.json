@@ -1,0 +1,190 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets",
+        "description": "Aeon + Miroshark (2026-07-31)"
+      },
+      "children": [
+        "text-context",
+        "section-1-heading",
+        "section-1-stack",
+        "separator-1",
+        "section-2-heading",
+        "section-2-stack"
+      ]
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet day, real signal: Aeon shipped multi-model support (Kimi Moonshot) and an automated Base tracker independently flagged $AEON as a 24h gainer — no organic third-party reactions yet.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "section-1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon ships multi-model support",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "section-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1-stack",
+        "tweet-2-stack"
+      ]
+    },
+    "tweet-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1",
+        "tweet-1-replies",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "Ships @Kimi_Moonshot as a selectable model — same skills/schedules/Telegram control, different LLM underneath; same-thread follow-up points to the aeon.fun repo.",
+        "likes": 31,
+        "retweets": 5
+      },
+      "children": []
+    },
+    "tweet-1-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2082801981467373635"
+      },
+      "children": []
+    },
+    "tweet-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2",
+        "tweet-2-replies",
+        "link-2"
+      ]
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "@0xNurstar",
+        "text": "Internal amplification of the multi-LLM launch, framing it as expanding \"agentic usecases.\"",
+        "likes": 4,
+        "retweets": 1
+      },
+      "children": []
+    },
+    "tweet-2-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2082803396902347093"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Third-party token tracker signal",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "section-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-3-stack"
+      ]
+    },
+    "tweet-3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3",
+        "tweet-3-replies",
+        "link-3"
+      ]
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "handle": "@AIonBase_",
+        "text": "Automated Base-ecosystem 24h tracker lists $AEON among top gainers alongside $CLAWNCH, $KELLYCLAUDE, $GITLAWB, $SURPLUS — external discovery, not team-sourced.",
+        "likes": 25,
+        "retweets": 5
+      },
+      "children": []
+    },
+    "tweet-3-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 7",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2082905063425810693"
+      },
+      "children": []
+    }
+  }
+}
