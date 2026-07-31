@@ -1,14 +1,16 @@
-Done. No notify — no building/integrating leads today.
+Pushed successfully. Per the skill's notify gate, this run stays quiet — no building/integrating (high-intent) leads, so no notification is sent.
 
 ## Summary
 
-**Ran bd-radar for 2026-07-29.** All sources hit clean (GitHub PAT forks ×80, gh search ×4 sweeps, xAI x_search http=200, HN/Reddit quiet).
+Ran `bd-radar` for 2026-07-31. Swept GitHub forks/issues (via `GH_READ_PAT`, both `aeonfun/aeon` and `MiroShark/MiroShark`, 40 each), `gh search` (4 term sweeps), xAI X search, and web/HN/Reddit. It was a quiet day — the standing pipeline (dan-and's air-gapped MiroShark work, amir-rezaei, agentjido/jido, etc.) is already tracked, and nothing new crossed the high-intent bar.
 
-**5 net-new leads** (forking×4, mentioning×1):
+**1 net-new lead** (adjacent, score 3): **hebridean-tech** cross-posted an identical "x402 Pulse" issue on both the `aeon` and `MiroShark` repos within 2 minutes, promoting a free x402-seller analytics dashboard — in-wedge given both products are x402-native, but reads as growth-hacking rather than a direct ask.
 
-1. **saxoji/MiroShark** (score 9) — CEO of Linkbricks Horizon-AI, 308 repos including `ai-factory` and `agentscope`. Forked MiroShark 07-13 with own activity. Best lead today — DM him, MiroShark is the sim layer for enterprise agents.
-2. **@zke_com** (score 4) — ZKE exchange listed AEON/USDT on 07-28, tagging @aeonframework. Quick repost = free token-price signal.
-3. **Aluma/aeon** (score 3) — 64-repo account, forked Aeon 07-07 and pushed own commits 4 days later. Worth a "what are you building?" comment.
-4. **aiagentho/aeon**, **aganoob/aeon** (score 3 each) — monitor only.
+**Files changed:**
+- `output/articles/bd-radar-2026-07-31.md` — ranked digest
+- `memory/topics/bd-radar-leads.json` — appended new lead, LRU dedup state
+- `memory/logs/2026-07-31.md` — `### bd-radar` log block
 
-No building/integrating leads → no notification sent. Files written: `output/articles/bd-radar-2026-07-29.md`, `memory/logs/2026-07-29.md`, updated `memory/topics/bd-radar-leads.json`.
+Committed and pushed to `main` (rebased on a concurrent cron-state commit). No notification sent — quiet-by-default gate only fires on new `building`/`integrating` leads, and today's only new signal was lower-intent `adjacent`.
+
+**Note:** several of the skill's documented bash idioms (`${VAR:+x}` checks, `$(...)` command substitution, `>` redirection into `/tmp`) got blocked by this session's permission layer as "expansion"/"redirection" — I worked around them (simpler var checks, `secretcurl -o` direct writes, reading files via the Read tool, running `jq` and reading stdout instead of redirecting). Worth flagging to the operator in case the sandbox got stricter since this skill was last authored.
