@@ -1,15 +1,11 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-07-29T09:56:06Z",
+  "last_analyzed": "2026-07-31T10:54:50Z",
   "quality_score": 4,
-  "assessment": "Solid execution — scanned, de-duped, found 3 unactioned opps, provided concrete drafts (ZKE reply, fork comments), logged properly",
+  "assessment": "Substantive engagement work: scanned logs, ranked 5 opportunities, drafted copy-paste responses, flagged aging HKUDS post as follow-up, logged results cleanly.",
   "flags": [],
   "avg_score": 4.03,
   "history": [
-    {
-      "date": "2026-06-29",
-      "score": 4
-    },
     {
       "date": "2026-06-30",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-29",
+      "score": 4
+    },
+    {
+      "date": "2026-07-31",
       "score": 4
     }
   ]

@@ -1,0 +1,375 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "2026-07-31"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item1",
+        "item2",
+        "item3",
+        "item4",
+        "item5",
+        "separator",
+        "closing"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "i1_heading",
+        "i1_badges",
+        "i1_desc",
+        "i1_link",
+        "i1_draft"
+      ]
+    },
+    "i1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "github:hebridean-tech/x402-pulse",
+        "level": "h3"
+      }
+    },
+    "i1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "i1_badge_type",
+        "i1_badge_age"
+      ]
+    },
+    "i1_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "i1_badge_age": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago",
+        "variant": "outline"
+      }
+    },
+    "i1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Filed identical \"x402 Pulse\" issue on both aeon#806 and MiroShark#262 within 2 min, promoting a free x402-seller analytics dashboard. Growth-hack pattern but in-wedge.",
+        "variant": "body"
+      }
+    },
+    "i1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon#806",
+        "href": "https://github.com/aaronjmars/aeon/issues/806",
+        "source": "GitHub"
+      }
+    },
+    "i1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "📝 Draft: \"in the wedge, not out of it — checking pulse out, listing aeon's x402 seller revenue there this week. will loop back here once it's live.\"",
+        "variant": "caption"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "i2_heading",
+        "i2_badges",
+        "i2_desc",
+        "i2_draft"
+      ]
+    },
+    "i2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@0xNurstar",
+        "level": "h3"
+      }
+    },
+    "i2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "i2_badge_type",
+        "i2_badge_age"
+      ]
+    },
+    "i2_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply (from @miroshark_)",
+        "variant": "secondary"
+      }
+    },
+    "i2_badge_age": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago",
+        "variant": "outline"
+      }
+    },
+    "i2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Ran a live @miroshark_ sim on the OpenAI rogue agent drama (Discovery/Usage, 3 likes). Prime demo moment, currently un-amplified.",
+        "variant": "body"
+      }
+    },
+    "i2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "📝 Draft: \"this is exactly the demo. openai rogue agent drama simulated end to end for ~$1. more of this 🦈\"",
+        "variant": "caption"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "i3_heading",
+        "i3_badges",
+        "i3_desc",
+        "i3_draft"
+      ]
+    },
+    "i3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@zke_com",
+        "level": "h3"
+      }
+    },
+    "i3_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "i3_badge_type",
+        "i3_badge_age"
+      ]
+    },
+    "i3_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply (from @aeonframework)",
+        "variant": "secondary"
+      }
+    },
+    "i3_badge_age": {
+      "type": "Badge",
+      "props": {
+        "text": "2 days ago",
+        "variant": "outline"
+      }
+    },
+    "i3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ZKE exchange listed $AEON/USDT 07-28, tagged @aeonframework (272 views). Free token-price signal, unacknowledged.",
+        "variant": "body"
+      }
+    },
+    "i3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "📝 Draft: \"$AEON live on ZKE — appreciate it ⭐\"",
+        "variant": "caption"
+      }
+    },
+    "item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "i4_heading",
+        "i4_badges",
+        "i4_desc",
+        "i4_link",
+        "i4_draft"
+      ]
+    },
+    "i4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "github:saxoji/MiroShark",
+        "level": "h3"
+      }
+    },
+    "i4_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "i4_badge_type",
+        "i4_badge_age"
+      ]
+    },
+    "i4_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "i4_badge_age": {
+      "type": "Badge",
+      "props": {
+        "text": "2 days ago",
+        "variant": "outline"
+      }
+    },
+    "i4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "CEO of Linkbricks Horizon-AI (Japanese enterprise AI firm, 308 repos), forked MiroShark 07-13. Runs ai-factory / agentscope / agent-skills repos — exact ICP.",
+        "variant": "body"
+      }
+    },
+    "i4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github.com/saxoji",
+        "href": "https://github.com/saxoji",
+        "source": "GitHub"
+      }
+    },
+    "i4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "📝 Draft: \"saw the MiroShark fork — Linkbricks running enterprise agents is exactly the audience. MiroShark's the simulation layer: drop in a scenario, get hundreds of grounded agents arguing it out + trading a simulated market, ~$1 a run. want to jam on an integration?\"",
+        "variant": "caption"
+      }
+    },
+    "item5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "i5_heading",
+        "i5_badges",
+        "i5_alert",
+        "i5_desc",
+        "i5_link",
+        "i5_draft"
+      ]
+    },
+    "i5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "github:HKUDS/Vibe-Trading",
+        "level": "h3"
+      }
+    },
+    "i5_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "i5_badge_type",
+        "i5_badge_age"
+      ]
+    },
+    "i5_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X post (from @aeonframework)",
+        "variant": "secondary"
+      }
+    },
+    "i5_badge_age": {
+      "type": "Badge",
+      "props": {
+        "text": "6 days ago",
+        "variant": "outline"
+      }
+    },
+    "i5_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Aging — act or drop",
+        "type": "warning"
+      }
+    },
+    "i5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon security bot merged PR #390 (Pillow/langchain CVE fix) on a 27k★ trading AI platform. War-room called this the proof-post to break the star flatline on 07-25 and again 07-26 — still undrafted-to-public.",
+        "variant": "body"
+      }
+    },
+    "i5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/Vibe-Trading PR #390",
+        "href": "https://github.com/HKUDS/Vibe-Trading/pull/390",
+        "source": "GitHub"
+      }
+    },
+    "i5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "📝 Draft: \"aeon's security bot found + fixed a Pillow/langchain CVE on HKUDS/Vibe-Trading (27k★ trading AI). PR merged, no human in the loop. compute → security → distribution ⭐\"",
+        "variant": "caption"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "closing": {
+      "type": "Text",
+      "props": {
+        "text": "Some opps aging — act or drop",
+        "variant": "muted"
+      }
+    }
+  }
+}
