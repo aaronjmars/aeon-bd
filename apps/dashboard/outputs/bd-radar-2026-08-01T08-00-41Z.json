@@ -1,0 +1,68 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-main",
+        "separator-1",
+        "link-repo",
+        "separator-2",
+        "text-action"
+      ]
+    },
+    "text-main": {
+      "type": "Text",
+      "props": {
+        "text": "Found someone running a live self-improving Aeon instance rebranded as CHORUS — forked miroshark-aeon, has its own Telegram bot (t.me/miroshark_aeon), shipping cron heartbeats and self-authored skill PRs like it's their own product. This is the goal working in the wild ⭐",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AITOBIAS04/CHORUS",
+        "href": "https://github.com/AITOBIAS04/CHORUS",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "Worth a DM to @AITOBIAS04 — ask what they're building, invite them into ECOSYSTEM.md.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
