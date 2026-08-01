@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-07-31T17:34:40Z",
+  "last_analyzed": "2026-08-01T17:23:50Z",
   "quality_score": 4,
-  "assessment": "Competent execution — fetched 11 candidates, applied thoughtful filtering (removed 8 false positives/duplicates with clear reasoning), curated 3 relevant signals (Kimi integration, token tracker mention), logged properly, committed cleanly.",
+  "assessment": "Substantive execution — cleaned 14 false positives from broad OR query, surfaced 2 new ecosystem integrations (Mistral, AeThree) with actionable follow-up flagged; aligned to priority #1 (surface BD signal early).",
   "flags": [],
   "avg_score": 3.97,
   "history": [
-    {
-      "date": "2026-07-02",
-      "score": 4
-    },
     {
       "date": "2026-07-03",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-07-31",
+      "score": 4
+    },
+    {
+      "date": "2026-08-01",
       "score": 4
     }
   ]

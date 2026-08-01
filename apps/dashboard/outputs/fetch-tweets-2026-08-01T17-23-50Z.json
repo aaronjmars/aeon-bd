@@ -1,0 +1,302 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets",
+        "description": "Weekly recap thread lands next to two real integrations (Mistral Vibe harness, AeThree skill pack) plus a Base-native shill thread doing the BD case for Aeon's Tencent vuln find."
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-filters",
+        "date-info",
+        "sep-1",
+        "heading-recap",
+        "tweet-1-stack",
+        "tweet-2-stack",
+        "sep-2",
+        "heading-integrations",
+        "tweet-3-stack",
+        "tweet-4-stack",
+        "tweet-5-stack",
+        "sep-3",
+        "heading-security",
+        "tweet-6-stack"
+      ]
+    },
+    "heading-filters": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation",
+        "level": "h2"
+      }
+    },
+    "date-info": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-01",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-recap": {
+      "type": "Heading",
+      "props": {
+        "text": "Weekly Recap Thread",
+        "level": "h3"
+      }
+    },
+    "tweet-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1",
+        "tweet-1-stats",
+        "tweet-1-link"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "text": "Opened a 7-day build-in-public recap (24 Jul–1 Aug) covering framework + ecosystem updates.",
+        "likes": 11,
+        "retweets": 3
+      }
+    },
+    "tweet-1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2083569652618125315"
+      }
+    },
+    "tweet-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2",
+        "tweet-2-stats",
+        "tweet-2-link"
+      ]
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "text": "Recap thread published a Miroshark article framing swarm simulations against the aggregated market — a differentiation angle vs. prediction-market aggregators.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet-2-stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2083569669655412999"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-integrations": {
+      "type": "Heading",
+      "props": {
+        "text": "New Ecosystem Integrations",
+        "level": "h3"
+      }
+    },
+    "tweet-3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3",
+        "tweet-3-stats",
+        "tweet-3-link"
+      ]
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "text": "Framework now supports Mistral Vibe's harness — widens runtime compatibility for agent builders.",
+        "likes": 16,
+        "retweets": 2
+      }
+    },
+    "tweet-3-stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2083180505315291454"
+      }
+    },
+    "tweet-4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-4",
+        "tweet-4-stats",
+        "tweet-4-link"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aethree_xyz",
+        "text": "Third-party team shipped an AeThree skill pack for Aeon agents: one call mints an avatar, deploys a token, and opens its bonding curve, seeded in $AEON — concrete ecosystem-building, not just a mention.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet-4-stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet-4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aethree_xyz/status/2083067433594814595"
+      }
+    },
+    "tweet-5-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-5",
+        "tweet-5-stats",
+        "tweet-5-link"
+      ]
+    },
+    "tweet-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "text": "Plugged the open-source repo directly (github.com/aeonfun/aeon), reinforcing the fork-and-configure pitch.",
+        "likes": 5,
+        "retweets": 0
+      }
+    },
+    "tweet-5-stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet-5-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2083185967066673268"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-security": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Reads Aeon's Security Track Record",
+        "level": "h3"
+      }
+    },
+    "tweet-6-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-6",
+        "tweet-6-stats",
+        "tweet-6-link"
+      ]
+    },
+    "tweet-6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "DegenOnBase_",
+        "text": "Frames Aeon's Tencent vuln fix (merged in 3h, on infra serving tens of billions of requests) as evidence of one of the biggest pricing gaps in the Base AI ecosystem — a market participant making the BD case unprompted.",
+        "likes": 32,
+        "retweets": 6
+      }
+    },
+    "tweet-6-stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "tweet-6-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/DegenOnBase_/status/2083178423837692259"
+      }
+    }
+  }
+}
