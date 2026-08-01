@@ -1,13 +1,14 @@
-Nothing needs attention, so no notification is sent per the skill's rules. Since `docs/status.md` lands via the workflow's auto-commit step, no explicit git commands are needed.
+Fleet is clean — no notification needed per the skill's rules (nothing needs attention).
 
 ## Summary
-Ran the heartbeat skill in **ambient check** mode (default, live scheduled path). Fleet is healthy:
-- All 5 enabled skills (bd-radar, fetch-tweets, mention-radar, engagement-act, heartbeat) show `last_status: success`, no stuck/degraded/chronic-failure conditions.
-- No open PRs, no open GitHub issues, no open issues in `memory/issues/INDEX.md`.
-- No P2/P3 flags.
 
-**Files modified:**
-- `docs/status.md` — regenerated (Overall 🟢 OK, updated timestamp, refreshed skill table, next scheduled run = engagement-act at 09:30 UTC).
-- `memory/logs/2026-07-31.md` — appended `### heartbeat` entry (`mode: ambient`) logging `HEARTBEAT_OK · STATUS_PAGE=OK`.
+Ran the heartbeat ambient check (default `${var}`, live scheduled path):
 
-No notification sent (nothing needed attention). No follow-up actions required.
+- **P0 (skills):** all 5 enabled skills (bd-radar, fetch-tweets, mention-radar, engagement-act, heartbeat) `last_status: success`, no stuck dispatches, no degradation, no chronic failures. Heartbeat self-check OK (~23.5h since last success, under the 36h threshold).
+- **P1 (PRs/issues):** no open PRs, no open/urgent GitHub issues.
+- **P2 (memory flags):** none.
+- **P3 (missing schedules):** all enabled skills have recent cron-state entries within 2× their interval.
+- **Status page:** regenerated `docs/status.md` — 🟢 OK, 0 open issues, next scheduled run engagement-act at 09:30 UTC. No token-report file exists, so the Token pulse section stays omitted.
+- **Log:** appended `### heartbeat` entry to `memory/logs/2026-08-01.md` (`mode: ambient`, `HEARTBEAT_OK · STATUS_PAGE=OK`).
+
+Files modified: `docs/status.md`, `memory/logs/2026-08-01.md`. No follow-up actions needed.
