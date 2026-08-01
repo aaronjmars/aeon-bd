@@ -1,30 +1,30 @@
-ℹ️ Engagement Act
+ℹ️ Engagement Act — 2026-08-01
 
-*Engagement Act — 2026-07-31*
+*Engagement Act — 2026-08-01*
 
-*1. github:hebridean-tech/x402-pulse* (0 days ago) — filed identical "x402 Pulse" issue on both aeon#806 and MiroShark#262 within 2 min, promoting a free x402-seller analytics dashboard. growth-hack pattern but in-wedge.
-link: https://github.com/aaronjmars/aeon/issues/806
+*1. @AITOBIAS04/CHORUS* (0d) — forked miroshark-aeon, renamed it CHORUS, running as their own live self-improving Aeon instance (cron commits + self-authored skill PR today) with its own Telegram bot
+link: https://github.com/AITOBIAS04/CHORUS
 type: GitHub comment
-draft: "in the wedge, not out of it — checking pulse out, listing aeon's x402 seller revenue there this week. will loop back here once it's live."
+draft: "saw CHORUS running as its own self-improving instance off miroshark-aeon — that's exactly the pattern ECOSYSTEM.md is for. want in? drop your repo + a line on what CHORUS does and we'll list it."
 
-*2. @0xNurstar* (1 day ago) — ran a live @miroshark_ sim on the OpenAI rogue agent drama (Discovery/Usage, 3 likes). prime demo moment, currently un-amplified.
-link: no link found
-type: X reply (from @miroshark_)
-draft: "this is exactly the demo. openai rogue agent drama simulated end to end for ~$1. more of this 🦈"
-
-*3. @zke_com* (2 days ago) — ZKE exchange listed $AEON/USDT 07-28, tagged @aeonframework (272 views). free token-price signal, unacknowledged.
-link: no link found
-type: X reply (from @aeonframework)
-draft: "$AEON live on ZKE — appreciate it ⭐"
-
-*4. github:saxoji/MiroShark* (2 days ago) — CEO of Linkbricks Horizon-AI (Japanese enterprise AI firm, 308 repos), forked MiroShark 07-13. runs ai-factory / agentscope / agent-skills repos — exact ICP.
-link: https://github.com/saxoji
-type: GitHub DM
-draft: "saw the MiroShark fork — Linkbricks running enterprise agents is exactly the audience. MiroShark's the simulation layer: drop in a scenario, get hundreds of grounded agents arguing it out + trading a simulated market, ~$1 a run. want to jam on an integration?"
-
-aging *5. github:HKUDS/Vibe-Trading* (6 days ago) — aeon security bot merged PR #390 (Pillow/langchain CVE fix) on a 27k★ trading AI platform. war-room called this the proof-post to break the star flatline on 07-25 and again 07-26 — still undrafted-to-public.
+*2. HKUDS/Vibe-Trading* (7 days ago) `aging` — aeon security bot merged PR #390 (Pillow/langchain CVE fix) on their 27k★ trading AI back on 07-05; war-room called this the proof-post to break the star flatline on 07-25 and 07-26, still not shipped
 link: https://github.com/HKUDS/Vibe-Trading/pull/390
-type: X post (from @aeonframework)
-draft: "aeon's security bot found + fixed a Pillow/langchain CVE on HKUDS/Vibe-Trading (27k★ trading AI). PR merged, no human in the loop. compute → security → distribution ⭐"
+type: X post (@aeonframework)
+draft: "our vuln-scanner bot found + merged a Pillow/langchain CVE fix on HKUDS/Vibe-Trading — 27k★ trading AI. compute → security, no audit needed. autonomous open source is real ⭐"
+
+*3. @0xNurstar* (2 days ago) — ran a live @miroshark_ sim on the OpenAI rogue agent drama, prime demo moment (mention-radar 07-30)
+link: https://x.com/0xNurstar
+type: X reply (@miroshark_)
+draft: "this is the demo. drop any headline in and watch belief drift across the swarm in real time 🦈"
+
+*4. saxoji/MiroShark* (3 days ago) — CEO of Linkbricks Horizon-AI (Japanese enterprise AI firm, 308 repos), forked MiroShark, has ai-factory/agentscope/agent-skills repos — enterprise ICP fit
+link: https://github.com/saxoji/MiroShark
+type: GitHub DM
+draft: "saw the MiroShark fork — Linkbricks builds enterprise AI agents, miroshark is the sim layer under them: stress-test agent behavior before it touches prod. curious what you're exploring, happy to help wire it in."
+
+*5. hebridean-tech/x402-pulse* (1 day ago) — filed the same "x402 Pulse" issue on both aeon#806 and MiroShark#262 within 2 minutes, promoting their free x402-seller analytics dashboard
+link: https://github.com/hebridean-tech
+type: GitHub comment
+draft: "cool tool. we already track x402 revenue internally so a duplicate dashboard doesn't add much for us — happy to list pulse.projectveritos.com as a resource instead of running the integration. closing as info-only, ping if that changes."
 
 some opps aging — act or drop
