@@ -1,31 +1,6 @@
 {
   "leads": [
     {
-      "key": "github:andyrewlee/awesome-agent-orchestrators",
-      "class": "mentioning",
-      "who": "andyrewlee",
-      "handle": "andyrewlee",
-      "signal": "Aeon listed in curated 'awesome-agent-orchestrators' GitHub list. Distribution surface.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-26",
-      "source": "websearch",
-      "move": "Verify listing is current \u2014 free top-of-funnel"
-    },
-    {
-      "key": "github:anajuliabit/aeon-fork",
-      "class": "forking",
-      "who": "anajuliabit",
-      "handle": "anajuliabit",
-      "signal": "Aeon fork created 06-29T00:49:49, pushed 8s later (33,587 bytes = base). Drive-by likely.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-29",
-      "repo_updated": "2026-06-29",
-      "source": "gh_read_pat_forks",
-      "move": "Watch 5 days \u2014 if commits appear, ping"
-    },
-    {
       "key": "github:penguinxbt/aeon",
       "class": "forking",
       "who": "penguinxbt",
@@ -2471,11 +2446,35 @@
       "first_seen": "2026-07-31",
       "source": "gh_read_pat_issues",
       "move": "Check pulse.projectveritos.com - if legit, list Aeon/MiroShark's own x402 revenue there for free visibility; if it's spam-pattern issue-dropping, close both issues as off-topic."
+    },
+    {
+      "key": "github:AITOBIAS04/CHORUS",
+      "class": "building",
+      "who": "AITOBIAS04",
+      "handle": "AITOBIAS04",
+      "signal": "Fork of aaronjmars/miroshark-aeon (public automation repo), renamed to CHORUS, running as its own live self-improving Aeon instance — cron commits today (heartbeat, token-report, fetch-tweets, scheduler) plus a self-authored PR improving the memory-flush skill. Has a live Telegram surface at t.me/miroshark_aeon. 24 public repos on the account, active developer, not a drive-by.",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-08-01",
+      "repo_updated": "2026-08-01",
+      "source": "gh_read_pat_forks",
+      "move": "DM @AITOBIAS04 — live self-improving fork running its own Telegram bot on our automation repo, ask what CHORUS is building and if they want to be listed in ECOSYSTEM.md"
+    },
+    {
+      "key": "github:Danypsy/aeon-perso",
+      "class": "forking",
+      "who": "Dany GIBOULOT (Danypsy)",
+      "handle": "Danypsy",
+      "signal": "Genuine fork with 7 independent commits customizing Aeon's identity/style/priorities for personal strategic-intelligence use (French). Real usage, not drive-by — created 2026-05-14, last active 2026-07-19.",
+      "fit": 3,
+      "score": 12,
+      "first_seen": "2026-08-01",
+      "repo_updated": "2026-07-19",
+      "source": "gh_search",
+      "move": "Low-key — note as a real active user; no outreach needed yet, just watch for further customization"
     }
   ],
   "surfaced": [
-    "github:modelcollapse/aeon",
-    "github:wrenwealth/aeon",
     "github:SahilParikh03/aeon",
     "github:sneg55/SimSwarm",
     "github:powerloom/aeon-skills",
@@ -2773,6 +2772,8 @@
     "github:aiagentho/aeon",
     "github:aganoob/aeon",
     "github:Aluma/aeon",
-    "github:hebridean-tech/x402-pulse"
+    "github:hebridean-tech/x402-pulse",
+    "github:AITOBIAS04/CHORUS",
+    "github:Danypsy/aeon-perso"
   ]
 }
