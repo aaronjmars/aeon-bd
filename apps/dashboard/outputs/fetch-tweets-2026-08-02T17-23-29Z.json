@@ -1,0 +1,183 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark (2026-08-02)"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "section1_header",
+        "tweets_section1",
+        "sep2",
+        "section2_header",
+        "tweets_section2"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet 24h — the one real signal is Aeon shipping live overnight and getting unprompted outside validation, plus both tokens showing up together on a Bankr snapshot.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section1_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon ships live, gets outside validation",
+        "level": "h3"
+      }
+    },
+    "tweets_section1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet1_group",
+        "tweet2_group"
+      ]
+    },
+    "tweet1_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1_card",
+        "tweet1_meta",
+        "tweet1_link"
+      ]
+    },
+    "tweet1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Aeon autonomously designed and deployed 5 new Uniswap v4 hooks overnight (ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo) — concrete unsupervised on-chain output, not a demo.",
+        "likes": 24,
+        "retweets": 3
+      }
+    },
+    "tweet1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2083681374708572451"
+      }
+    },
+    "tweet2_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2_card",
+        "tweet2_meta",
+        "tweet2_link"
+      ]
+    },
+    "tweet2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "klimonchain",
+        "handle": "klimonchain",
+        "text": "Outside dev calls the ZigZagMandate hook logic \"insane\" and flags it as bot-resistant — first unprompted technical validation of last night's build.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/klimonchain/status/2083682076239253565"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section2_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Bankr trending",
+        "level": "h3"
+      }
+    },
+    "tweets_section2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3_card",
+        "tweet3_meta",
+        "tweet3_link"
+      ]
+    },
+    "tweet3_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "handle": "AIonBase_",
+        "text": "Bankr's 24h overview lists $aeon in both \"top gainers\" and \"most traded,\" with $MiroShark also top-gainer — first time both tokens land on the same tracker snapshot together.",
+        "likes": 29,
+        "retweets": 2
+      }
+    },
+    "tweet3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2083341944491536625"
+      }
+    }
+  }
+}

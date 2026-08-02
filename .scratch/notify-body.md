@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — Aeon + Miroshark
-
 *Top Tweets — Aeon + Miroshark (2026-08-02)*
 _Quiet 24h — the one real signal is Aeon shipping live overnight and getting unprompted outside validation, plus both tokens showing up together on a Bankr snapshot._
 
