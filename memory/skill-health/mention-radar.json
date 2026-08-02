@@ -1,8 +1,8 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-07-30T07:50:31Z",
-  "quality_score": 5,
-  "assessment": "Excellent execution: substantive BD signal (2 concrete Miroshark mentions with engagement metrics and actionable angles), honest filtering (Aeon quiet, GitHub noise excluded), quantitative (dates, likes, stars), peer-to-peer structure, strategy-aligned (surface signal early, public traces only, honest read).",
+  "last_analyzed": "2026-08-02T08:50:29Z",
+  "quality_score": 4,
+  "assessment": "Complete execution with thorough multi-source checks, correct threshold logic, and bonus insight (namesake collision pointer for bd-radar); appropriate quiet outcome per skill rules.",
   "flags": [],
   "avg_score": 4.04,
   "history": [
@@ -101,6 +101,10 @@
     {
       "date": "2026-07-30",
       "score": 5
+    },
+    {
+      "date": "2026-08-02",
+      "score": 4
     }
   ]
 }
