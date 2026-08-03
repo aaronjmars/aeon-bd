@@ -1,0 +1,284 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-08-03"
+      },
+      "children": [
+        "stack_opportunities"
+      ]
+    },
+    "stack_opportunities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_chorus",
+        "sep1",
+        "opp2_x402",
+        "sep2",
+        "opp3_sim",
+        "sep3",
+        "opp4_linkbricks",
+        "sep4",
+        "opp5_vibe"
+      ]
+    },
+    "opp1_chorus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link1_chorus",
+        "badge1_type",
+        "text1_desc",
+        "text1_draft"
+      ]
+    },
+    "link1_chorus": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AITOBIAS04/CHORUS",
+        "href": "https://github.com/AITOBIAS04/CHORUS",
+        "source": "GitHub"
+      }
+    },
+    "badge1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "2 days ago · GitHub fork/comment"
+      }
+    },
+    "text1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Forked miroshark-aeon, renamed to CHORUS, running as live self-improving instance with cron commits and self-authored skill-improvement PRs. Own Telegram bot at t.me/miroshark_aeon"
+      }
+    },
+    "text1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"this is exactly the kind of fork we want to see — a live self-improving instance shipping its own PRs. what's CHORUS optimizing for? would love to add you to ECOSYSTEM.md if you're up for it\"",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp2_x402": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link2_x402",
+        "badge2_type",
+        "text2_desc",
+        "text2_draft"
+      ]
+    },
+    "link2_x402": {
+      "type": "StoryLink",
+      "props": {
+        "title": "x402 Pulse — GitHub issues (aeon#806 + MiroShark#262)",
+        "href": "https://github.com/aeonfun/aeon/issues/806",
+        "source": "GitHub"
+      }
+    },
+    "badge2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "3 days ago · GitHub comment"
+      }
+    },
+    "text2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Filed same \"x402 Pulse\" free revenue-analytics issue on both aeon#806 and MiroShark#262 within 2 minutes. Tracking 180+ x402 services. Live demo at pulse.projectveritos.com"
+      }
+    },
+    "text2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"checked out pulse.projectveritos.com — solid idea for the x402 wedge. we'll get aeon + miroshark revenue listed. closing the duplicate on the other repo, keeping this one as the tracker\"",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp3_sim": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "card3_sim",
+        "badge3_type",
+        "text3_draft"
+      ]
+    },
+    "card3_sim": {
+      "type": "TweetCard",
+      "props": {
+        "author": "miroshark_",
+        "text": "Live miroshark sim on the OpenAI rogue-agent drama — belief drift and all. This is the demo.",
+        "likes": 3
+      }
+    },
+    "badge3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "4 days ago · X reply · prime demo moment unamplified"
+      }
+    },
+    "text3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"🦈 this is the demo. rogue agent drama simulated in real time, belief drift and all — send us your next scenario\"",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp4_linkbricks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link4_linkbricks",
+        "badge4_type",
+        "text4_desc",
+        "text4_draft"
+      ]
+    },
+    "link4_linkbricks": {
+      "type": "StoryLink",
+      "props": {
+        "title": "saxoji/MiroShark — Linkbricks Horizon-AI fork",
+        "href": "https://github.com/saxoji/MiroShark",
+        "source": "GitHub"
+      }
+    },
+    "badge4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "5 days ago · GitHub DM"
+      }
+    },
+    "text4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Kain Masunaga, Chairman/CEO of Linkbricks Horizon-AI (308 repos), forked MiroShark on 07-13. Linkbricks already deep in agent infrastructure. MiroShark is the simulation layer most agent stacks are missing — test agent behavior against a live sim before production deployment."
+      }
+    },
+    "text4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"saw the fork — Linkbricks is already deep in agent infra. miroshark's the simulation layer most agent stacks are missing: test agent behavior against a live sim before it touches production. worth a call?\"",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp5_vibe": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert5_vibe",
+        "link5_vibe",
+        "badge5_type",
+        "stat5_stars",
+        "text5_desc",
+        "text5_drafts"
+      ]
+    },
+    "alert5_vibe": {
+      "type": "Alert",
+      "props": {
+        "title": "RECURRING · 5 TIMES REDRAFTED, STILL UNSHIPPED — ACT OR DROP",
+        "type": "warning"
+      }
+    },
+    "link5_vibe": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/Vibe-Trading — Security fix PR #390",
+        "href": "https://github.com/HKUDS/Vibe-Trading/pull/390",
+        "source": "GitHub"
+      }
+    },
+    "badge5_type": {
+      "type": "Badge",
+      "props": {
+        "text": "9 days old · Drafted 07-25, 07-26, 07-31, 08-01"
+      }
+    },
+    "stat5_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Repo stars",
+        "value": "27k"
+      }
+    },
+    "text5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon's security bot merged Pillow + langchain CVE fix on 07-05. Outbound security work turning into inbound trust."
+      }
+    },
+    "text5_drafts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text5_draft_x",
+        "text5_draft_dm"
+      ]
+    },
+    "text5_draft_x": {
+      "type": "Text",
+      "props": {
+        "text": "Draft (X post): \"⭐ aeon's vuln-scanner found and fixed a Pillow/langchain CVE on Vibe-Trading (27k★) — merged. outbound security work turning into inbound trust. this is what the bot's for\"",
+        "variant": "caption"
+      }
+    },
+    "text5_draft_dm": {
+      "type": "Text",
+      "props": {
+        "text": "Draft (GitHub DM to HKUDS maintainer): \"our security bot's PR #390 landed a few weeks back — want to make it official? happy to co-announce and add Vibe-Trading to ECOSYSTEM.md\"",
+        "variant": "caption"
+      }
+    }
+  }
+}
