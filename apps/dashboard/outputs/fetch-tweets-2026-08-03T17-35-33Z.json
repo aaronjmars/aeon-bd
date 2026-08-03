@@ -1,0 +1,138 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets"
+      },
+      "children": [
+        "meta_stack",
+        "sep1",
+        "section1_heading",
+        "section1_desc",
+        "tweet1",
+        "tweet1_stats",
+        "link1",
+        "sep2",
+        "section2_heading",
+        "section2_desc",
+        "tweet2",
+        "tweet2_stats",
+        "link2"
+      ]
+    },
+    "meta_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "meta_date",
+        "meta_note"
+      ]
+    },
+    "meta_date": {
+      "type": "Text",
+      "props": {
+        "text": "aeon/miroshark mentions (2026-08-03)",
+        "variant": "caption"
+      }
+    },
+    "meta_note": {
+      "type": "Text",
+      "props": {
+        "text": "quiet 24h — one unverified ansem-endorsement rumor, one real builder shipping with aeon's soul.md",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ansem rumor (unverified)",
+        "level": "h3"
+      }
+    },
+    "section1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "x.com/DjGriffith — claims ansem called $AEON on Base, hinting BASE-team support behind it, 5x pump off the dip. one account, no confirmation from ansem himself — treat as rumor not fact."
+      }
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "DjGriffith",
+        "handle": "DjGriffith",
+        "text": "claims ansem called $AEON on Base, hinting BASE-team support behind it, 5x pump off the dip",
+        "likes": 20,
+        "retweets": 3
+      }
+    },
+    "tweet1_stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/DjGriffith/status/2084027624309825984"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "builder actually using it",
+        "level": "h3"
+      }
+    },
+    "section2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "x.com/dev0xx_ — plugged aeon's soul.md prompts into their own project to build X-persona clones off someone else's corpus. real third-party usage, not us talking about ourselves."
+      }
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "dev0xx_",
+        "handle": "dev0xx_",
+        "text": "plugged aeon's soul.md prompts into their own project to build X-persona clones off someone else's corpus",
+        "likes": 4,
+        "retweets": 0
+      }
+    },
+    "tweet2_stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/dev0xx_/status/2084050680616996896"
+      }
+    }
+  }
+}

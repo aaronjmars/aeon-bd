@@ -1,5 +1,3 @@
-ℹ️ Top Tweets
-
 *Top Tweets — aeon/miroshark mentions (2026-08-03)*
 _quiet 24h — one unverified ansem-endorsement rumor, one real builder shipping with aeon's soul.md_
 
