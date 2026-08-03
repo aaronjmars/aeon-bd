@@ -1,19 +1,6 @@
 {
   "leads": [
     {
-      "key": "github:penguinxbt/aeon",
-      "class": "forking",
-      "who": "penguinxbt",
-      "handle": "penguinxbt",
-      "signal": "Aeon fork created 06-29T20:34, pushed 06-29T18:06 (pushed before fork creation = drive-by). Size 33,642 = base.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-30",
-      "repo_updated": "2026-06-29",
-      "source": "gh_read_pat_forks",
-      "move": "Watch only"
-    },
-    {
       "key": "github:myexperts-solutions/MiroShark",
       "class": "forking",
       "who": "myexperts-solutions",
@@ -2452,30 +2439,41 @@
       "class": "building",
       "who": "AITOBIAS04",
       "handle": "AITOBIAS04",
-      "signal": "Fork of aaronjmars/miroshark-aeon (public automation repo), renamed to CHORUS, running as its own live self-improving Aeon instance — cron commits today (heartbeat, token-report, fetch-tweets, scheduler) plus a self-authored PR improving the memory-flush skill. Has a live Telegram surface at t.me/miroshark_aeon. 24 public repos on the account, active developer, not a drive-by.",
+      "signal": "Fork of aaronjmars/miroshark-aeon (public automation repo), renamed to CHORUS, running as its own live self-improving Aeon instance \u2014 cron commits today (heartbeat, token-report, fetch-tweets, scheduler) plus a self-authored PR improving the memory-flush skill. Has a live Telegram surface at t.me/miroshark_aeon. 24 public repos on the account, active developer, not a drive-by.",
       "fit": 3,
       "score": 15,
       "first_seen": "2026-08-01",
       "repo_updated": "2026-08-01",
       "source": "gh_read_pat_forks",
-      "move": "DM @AITOBIAS04 — live self-improving fork running its own Telegram bot on our automation repo, ask what CHORUS is building and if they want to be listed in ECOSYSTEM.md"
+      "move": "DM @AITOBIAS04 \u2014 live self-improving fork running its own Telegram bot on our automation repo, ask what CHORUS is building and if they want to be listed in ECOSYSTEM.md"
     },
     {
       "key": "github:Danypsy/aeon-perso",
       "class": "forking",
       "who": "Dany GIBOULOT (Danypsy)",
       "handle": "Danypsy",
-      "signal": "Genuine fork with 7 independent commits customizing Aeon's identity/style/priorities for personal strategic-intelligence use (French). Real usage, not drive-by — created 2026-05-14, last active 2026-07-19.",
+      "signal": "Genuine fork with 7 independent commits customizing Aeon's identity/style/priorities for personal strategic-intelligence use (French). Real usage, not drive-by \u2014 created 2026-05-14, last active 2026-07-19.",
       "fit": 3,
       "score": 12,
       "first_seen": "2026-08-01",
       "repo_updated": "2026-07-19",
       "source": "gh_search",
-      "move": "Low-key — note as a real active user; no outreach needed yet, just watch for further customization"
+      "move": "Low-key \u2014 note as a real active user; no outreach needed yet, just watch for further customization"
+    },
+    {
+      "key": "web:microlaunch-miroshark",
+      "class": "adjacent",
+      "who": "microlaunch.net listing",
+      "handle": "microlaunch",
+      "signal": "MiroShark listed on microlaunch.net/p/miroshark. No submitter identified, zero visible engagement (dashes for all metrics) \u2014 reads as auto-scraped directory entry, not an active builder post.",
+      "fit": 1,
+      "score": 1,
+      "first_seen": "2026-08-03",
+      "source": "websearch",
+      "move": "No action needed \u2014 passive directory listing, no identified submitter"
     }
   ],
   "surfaced": [
-    "github:SahilParikh03/aeon",
     "github:sneg55/SimSwarm",
     "github:powerloom/aeon-skills",
     "github:mnemedb/aeon-skill-pack-mneme",
@@ -2774,6 +2772,7 @@
     "github:Aluma/aeon",
     "github:hebridean-tech/x402-pulse",
     "github:AITOBIAS04/CHORUS",
-    "github:Danypsy/aeon-perso"
+    "github:Danypsy/aeon-perso",
+    "web:microlaunch-miroshark"
   ]
 }
