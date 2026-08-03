@@ -1,15 +1,15 @@
-Everything is green — no notification needed since nothing requires attention (per the skill's rules, a clean run stays silent).
+Fleet is healthy — no notification needed since nothing needs attention.
 
 ## Summary
-Ran the heartbeat ambient check (default/live path, `${var}` empty):
-- **P0:** No failed/stuck skills, no `consecutive_failures ≥3`, no chronic failures, heartbeat self-check healthy (last success ~24h ago).
-- **P1:** No open PRs or issues (`gh pr list`/`gh issue list` both empty).
-- **P2:** No new flagged follow-ups in `memory/MEMORY.md`.
-- **P3:** All 5 enabled skills (fetch-tweets, engagement-act, bd-radar, mention-radar, heartbeat) are within their schedule interval.
-- No `output/articles/token-report-*.md` exists, so the Token Pulse section was correctly omitted from the status page.
+Ran the heartbeat skill's **ambient check** branch (default, empty `${var}`):
+- **P0:** No failed/stuck skills; heartbeat's own self-check is within the 36h window.
+- **P1:** No stalled PRs (`gh pr list` empty), no urgent issues (`gh issue list` empty).
+- **P2:** Nothing flagged in `memory/MEMORY.md` needing follow-up.
+- **P3:** All 4 enabled scheduled skills (fetch-tweets, engagement-act, mention-radar, bd-radar) have recent successes well within 2x their schedule interval.
+- No token-report article exists, so the Token Pulse section was omitted from the status page.
 
 **Files modified:**
-- `docs/status.md` — regenerated with current timestamps, verdict `🟢 OK`, next scheduled run = fetch-tweets at 17:00 UTC.
-- `memory/logs/2026-08-02.md` — new log file with `### heartbeat` entry (`mode: ambient`, `HEARTBEAT_OK · STATUS_PAGE=OK`).
+- `docs/status.md` — regenerated (Overall: 🟢 OK, next run: engagement-act at 09:30 UTC, skill health table refreshed)
+- `memory/logs/2026-08-03.md` — new log entry under `### heartbeat` (mode: ambient), `HEARTBEAT_OK · STATUS_PAGE=OK`
 
-No notification sent (nothing needed attention). No follow-up actions required.
+Nothing needed attention, so per the skill's rules, no notification was sent.
