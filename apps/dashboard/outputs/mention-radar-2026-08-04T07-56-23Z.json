@@ -1,0 +1,429 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-08-04"
+      },
+      "children": [
+        "aeon-section",
+        "sep-1",
+        "miroshark-section",
+        "sep-2",
+        "opportunities-section"
+      ]
+    },
+    "aeon-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-heading",
+        "aeon-mentions-stack",
+        "aeon-github-heading",
+        "aeon-stats-stack",
+        "aeon-web-note"
+      ]
+    },
+    "aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon-mentions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "mention-1",
+        "mention-2",
+        "mention-3",
+        "mention-4"
+      ]
+    },
+    "mention-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m1-verified",
+        "m1-author",
+        "m1-text",
+        "m1-link"
+      ]
+    },
+    "m1-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified",
+        "variant": "default"
+      }
+    },
+    "m1-author": {
+      "type": "Text",
+      "props": {
+        "text": "@ai2humannetwork",
+        "variant": "lead"
+      }
+    },
+    "m1-text": {
+      "type": "Text",
+      "props": {
+        "text": "posted a 3-step tutorial installing their skill pack into Aeon (`./bin/install-skill-pack richard7463/ai2human-aeon-skill-pack`, adds an `AI2HUMAN_AGENT_KEY`) — real third-party integration, not a mention",
+        "variant": "body"
+      }
+    },
+    "m1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/ai2humannetwork/status/2084233813375463667"
+      }
+    },
+    "mention-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m2-verified",
+        "m2-author",
+        "m2-text",
+        "m2-link"
+      ]
+    },
+    "m2-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified",
+        "variant": "default"
+      }
+    },
+    "m2-author": {
+      "type": "Text",
+      "props": {
+        "text": "@AzzleAI",
+        "variant": "lead"
+      }
+    },
+    "m2-text": {
+      "type": "Text",
+      "props": {
+        "text": "unsolicited endorsement: \"If you want peak autonomy just use Aeon. It decides on its own when to run, what to check, and when to loop you in.\"",
+        "variant": "body"
+      }
+    },
+    "m2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/AzzleAI/status/2084213328885289392"
+      }
+    },
+    "mention-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m3-verified",
+        "m3-author",
+        "m3-text",
+        "m3-link"
+      ]
+    },
+    "m3-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified",
+        "variant": "default"
+      }
+    },
+    "m3-author": {
+      "type": "Text",
+      "props": {
+        "text": "@Amrit_Mirch",
+        "variant": "lead"
+      }
+    },
+    "m3-text": {
+      "type": "Text",
+      "props": {
+        "text": "namechecks aaronjmars/aeon as \"the framework ansem showcased,\" notes it's now live/pushing on gitlawb (decentralized git network for AI agents)",
+        "variant": "body"
+      }
+    },
+    "m3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Amrit_Mirch/status/2084193617904849275"
+      }
+    },
+    "mention-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m4-verified",
+        "m4-author",
+        "m4-text",
+        "m4-warning",
+        "m4-link"
+      ]
+    },
+    "m4-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "Verified",
+        "variant": "default"
+      }
+    },
+    "m4-author": {
+      "type": "Text",
+      "props": {
+        "text": "@Bh07Ilyas",
+        "variant": "lead"
+      }
+    },
+    "m4-text": {
+      "type": "Text",
+      "props": {
+        "text": "tags @aeonframework claiming a Tencent Cloud bug find, asks if Tencent will \"acknowledge aeon\"",
+        "variant": "body"
+      }
+    },
+    "m4-warning": {
+      "type": "Alert",
+      "props": {
+        "title": "Low-signal",
+        "message": "0 engagement",
+        "type": "warning"
+      }
+    },
+    "m4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Bh07Ilyas/status/2084407949837930944"
+      }
+    },
+    "aeon-github-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub",
+        "level": "h4"
+      }
+    },
+    "aeon-stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-stars",
+        "aeon-forks"
+      ]
+    },
+    "aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "591",
+        "delta": "+7",
+        "trend": "up"
+      }
+    },
+    "aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "215",
+        "delta": "+3",
+        "trend": "up"
+      }
+    },
+    "aeon-web-note": {
+      "type": "Text",
+      "props": {
+        "text": "Web (Reddit/HN/PH/Farcaster): quiet — no fresh discussion",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-heading",
+        "miroshark-x-note",
+        "miroshark-web-note",
+        "miroshark-github-heading",
+        "miroshark-stats-stack"
+      ]
+    },
+    "miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark-x-note": {
+      "type": "Text",
+      "props": {
+        "text": "X: quiet — only $MIROSHARK price/ticker noise, no real discussion",
+        "variant": "muted"
+      }
+    },
+    "miroshark-web-note": {
+      "type": "Text",
+      "props": {
+        "text": "Web: quiet — no fresh Reddit/HN/PH discussion",
+        "variant": "muted"
+      }
+    },
+    "miroshark-github-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub",
+        "level": "h4"
+      }
+    },
+    "miroshark-stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-stars",
+        "miroshark-forks"
+      ]
+    },
+    "miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1414",
+        "delta": "+2",
+        "trend": "up"
+      }
+    },
+    "miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "297",
+        "delta": "-1",
+        "trend": "down"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opportunities-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opportunities-heading",
+        "opp-1",
+        "opp-2",
+        "opportunities-quiet"
+      ]
+    },
+    "opportunities-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-1-handle",
+        "opp-1-text"
+      ]
+    },
+    "opp-1-handle": {
+      "type": "Badge",
+      "props": {
+        "text": "@ai2humannetwork",
+        "variant": "secondary"
+      }
+    },
+    "opp-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "shipped a real skill-pack integration and is teaching others to install it — worth a reply/amplify, could deepen into a case study",
+        "variant": "body"
+      }
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-2-handle",
+        "opp-2-text"
+      ]
+    },
+    "opp-2-handle": {
+      "type": "Badge",
+      "props": {
+        "text": "@AzzleAI",
+        "variant": "secondary"
+      }
+    },
+    "opp-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "another agent-framework builder publicly endorsing Aeon — worth a reply/thank, cross-pollination angle (Azzle audience)",
+        "variant": "body"
+      }
+    },
+    "opportunities-quiet": {
+      "type": "Alert",
+      "props": {
+        "message": "QUIET: miroshark — no external mentions found this cycle",
+        "type": "info"
+      }
+    }
+  }
+}
