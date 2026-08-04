@@ -1,0 +1,86 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat — fleet check"
+      },
+      "children": [
+        "alert_issue",
+        "badge_flagged_date",
+        "badge_score",
+        "badge_flag_type",
+        "text_action_required",
+        "sep_main",
+        "heading_fleet",
+        "text_fleet_status"
+      ]
+    },
+    "alert_issue": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Issue #41: health: engagement-act",
+        "message": "Quality regression — still open"
+      },
+      "children": []
+    },
+    "badge_flagged_date": {
+      "type": "Badge",
+      "props": {
+        "text": "Flagged 2026-08-03",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_score": {
+      "type": "Badge",
+      "props": {
+        "text": "Score: 3",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_flag_type": {
+      "type": "Badge",
+      "props": {
+        "text": "stale_data",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text_action_required": {
+      "type": "Text",
+      "props": {
+        "text": "skill-repair is disabled in aeon.yml, so it won't auto-fix — enable skill-repair or triage manually.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_fleet": {
+      "type": "Heading",
+      "props": {
+        "text": "Fleet Status",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_fleet_status": {
+      "type": "Text",
+      "props": {
+        "text": "Rest of fleet clean: 5/5 enabled skills succeeding, no stalled PRs, no stuck dispatches.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
