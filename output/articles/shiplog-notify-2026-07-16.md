@@ -1,3 +1,7 @@
+---
+type: Article
+---
+
 aeon ⭐ + miroshark 🦈 shiplog — jul 13 → jul 16
 
 shipped 23 PRs + 14 commits. the bytes:
