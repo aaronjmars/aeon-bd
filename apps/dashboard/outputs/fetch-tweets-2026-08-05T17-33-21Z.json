@@ -1,0 +1,98 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-05)",
+        "description": "Quiet 24h — mostly a self-promo push, plus the unverified ansem rumor from 08-03 getting a second telling."
+      },
+      "children": [
+        "sep1",
+        "section_promo_heading",
+        "tweet1",
+        "link1",
+        "sep2",
+        "section_rumor_heading",
+        "tweet2",
+        "link2",
+        "tweet3",
+        "link3"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_promo_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Product self-promo",
+        "level": "h3"
+      }
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "Pushes the vuln-scanner skill directly at builders: \"fork it, run it, find bug bounties\" — framed as a reason to fork, not just a feature note.",
+        "likes": 39,
+        "retweets": 7
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2084618749525553171"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_rumor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ansem rumor, still unverified",
+        "level": "h3"
+      }
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "degenrsc",
+        "handle": "@degenrsc",
+        "text": "Recycles the ansem-shilling-the-token rumor (same unconfirmed claim first seen 08-03 via DjGriffith) inside a longer thread laying out Aeon's skill count and tokenomics to a crypto-native audience — the rumor now has a second independent teller.",
+        "likes": 10,
+        "retweets": 2
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/degenrsc/status/2084551008751849587"
+      }
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "@aaronjmars",
+        "text": "Aaron himself is running persona agents off vitalik & ansem soul files — internal use of the exact ansem hook the rumor mill is chasing, not a claim about the rumor itself.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2084667743773594083"
+      }
+    }
+  }
+}

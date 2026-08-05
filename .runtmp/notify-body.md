@@ -1,12 +1,16 @@
-*Top Tweets — aeon/miroshark mentions (2026-08-03)*
-_quiet 24h — one unverified ansem-endorsement rumor, one real builder shipping with aeon's soul.md_
+*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-05)*
+_Quiet 24h — mostly a self-promo push, plus the unverified ansem rumor from 08-03 getting a second telling._
 
-*ansem rumor (unverified)*
-1. x.com/DjGriffith — claims ansem called $AEON on Base, hinting BASE-team support behind it, 5x pump off the dip. one account, no confirmation from ansem himself — treat as rumor not fact.
-Likes: 20 | RTs: 3 | Replies: 4
-[View tweet](https://x.com/DjGriffith/status/2084027624309825984)
+*Product self-promo*
+1. x.com/aeonframework — Pushes the vuln-scanner skill directly at builders: "fork it, run it, find bug bounties" — framed as a reason to fork, not just a feature note.
+Likes: 39 | RTs: 7 | Replies: 3
+[View tweet](https://x.com/aeonframework/status/2084618749525553171)
 
-*builder actually using it*
-2. x.com/dev0xx_ — plugged aeon's soul.md prompts into their own project to build X-persona clones off someone else's corpus. real third-party usage, not us talking about ourselves.
-Likes: 4 | RTs: 0 | Replies: 2
-[View tweet](https://x.com/dev0xx_/status/2084050680616996896)
+*Ansem rumor, still unverified*
+2. x.com/degenrsc — Recycles the ansem-shilling-the-token rumor (same unconfirmed claim first seen 08-03 via DjGriffith) inside a longer thread laying out Aeon's skill count and tokenomics to a crypto-native audience — the rumor now has a second independent teller.
+Likes: 10 | RTs: 2 | Replies: 4
+[View tweet](https://x.com/degenrsc/status/2084551008751849587)
+
+3. x.com/aaronjmars — Aaron himself is running persona agents off vitalik & ansem soul files — internal use of the exact ansem hook the rumor mill is chasing, not a claim about the rumor itself.
+Likes: 1 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/aaronjmars/status/2084667743773594083)
