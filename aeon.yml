@@ -58,9 +58,9 @@ skills:
   reddit-promo:
     {
       enabled: true,
-      schedule: "45 17 1/2 * *",
+      schedule: "45 17 * * *",
       var: ""
-    } # every other day, 45min after fetch-tweets — reads the daily fetch-tweets output, drafts value-first per-subreddit Aeon promo posts. Drafts only (never posts); self-skips when there is no fresh promotable news. var: r/Name,... to scope subs | story:<url|kw> to force | dry-run.
+    } # daily, 45min after fetch-tweets — reads the daily fetch-tweets output, drafts value-first per-subreddit Aeon promo posts (each with a canonical link + one-click reddit submit URL). Drafts only (never posts); dedups via memory/reddit-promo-seen.txt and self-skips when there is no fresh promotable news. var: r/Name,... to scope subs | story:<url|kw> to force | dry-run.
 
   # --- Evening / meta (6 PM UTC) ---
   skill-health: { enabled: false, schedule: "0 18 * * *" }

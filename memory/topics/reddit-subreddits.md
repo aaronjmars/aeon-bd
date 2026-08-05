@@ -9,11 +9,28 @@ Config for the `reddit-promo` skill. Each row is a subreddit the skill may draft
 Aeon promo post for. The skill reads this file first; if it is missing or empty it
 falls back to the built-in default list in SKILL.md.
 
-Columns:
-- **subreddit** — with the `r/` prefix.
-- **archetype** — which angle template to use (see SKILL.md "Archetypes").
-- **link** — the canonical link that fits this sub best (`repo` = github.com/aaronjmars/aeon, `site` = aeon.fun, `xpost` = the source tweet, `miroshark` = github.com/aaronjmars/MiroShark).
-- **notes** — sub-specific rules / self-promo caution to respect in the draft.
+## Canonical links (what goes IN the post)
+
+The `link` column names which URL to embed in the drafted post body:
+
+| token | URL |
+|-------|-----|
+| repo | https://github.com/aaronjmars/aeon |
+| site | https://aeon.fun |
+| miroshark | https://github.com/aaronjmars/MiroShark |
+| xpost | the source tweet URL for the story (from the fetch-tweets output) |
+
+## Submit links (how to POST it — one click)
+
+For every drafted post the skill also emits a **submit URL** so the operator opens
+the right composer in one click, title pre-filled:
+
+`https://www.reddit.com/r/<name>/submit?title=<url-encoded title>`
+
+(`<name>` is the subreddit without the `r/`. Old-reddit users can swap the host for
+`https://old.reddit.com`. The operator pastes the drafted body into the composer.)
+
+## Targets
 
 | subreddit | archetype | link | notes |
 |-----------|-----------|------|-------|
