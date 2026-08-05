@@ -44,7 +44,11 @@ Do **not** call `./secretcurl`, `x-cli`, or any X API — the point is to reuse 
 
 4. **Pick the story.** Rank remaining items by (fresher × higher engagement × `shipped`/`metric`/`endorsement` over `other`). Choose the **1 strongest** as the headline story; you may fold in 1-2 supporting items as proof points in the same post. If `var` has `story:`, use that instead.
 
-5. **Choose a few subreddits.** Read `memory/topics/reddit-subreddits.md` for the target table (fall back to the built-in default list below if missing). If `var` names subreddits, use only those. Otherwise pick the **3-5** whose archetype best fits the story's `kind` — a `shipped` code story fits `github`/`claude-skills`/`open-source`; a `metric`/`endorsement` fits `startup`/`agents`/`community`. Do not draft all 13 in one run.
+5. **Choose a few subreddits.** Read `memory/topics/reddit-subreddits.md` for the target table + the two link legends (fall back to the built-in default list below if missing). If `var` names subreddits, use only those. Otherwise pick the **3-5** whose archetype best fits the story's `kind` — a `shipped` code story fits `github`/`claude-skills`/`open-source`; a `metric`/`endorsement` fits `startup`/`agents`/`community`. Do not draft all 13 in one run.
+
+   **Resolve links for each chosen subreddit:**
+   - **Canonical link** (goes in the post body) — resolve the row's `link` token via the config's "Canonical links" table: `repo` → `https://github.com/aaronjmars/aeon`, `site` → `https://aeon.fun`, `miroshark` → `https://github.com/aaronjmars/MiroShark`, `xpost` → the story's source tweet URL.
+   - **Submit link** (one-click post) — build `https://www.reddit.com/r/<name>/submit?title=<url-encoded title>` where `<name>` is the subreddit without `r/` and the title is percent-encoded (space→`%20`, etc.). This opens the composer with the title pre-filled; the operator pastes the body.
 
 6. **Draft one post per chosen subreddit** using its **Archetype** (below). Each draft is independent copy-paste-ready text — **never identical across subs** (Reddit's spam filter flags cross-posted duplicates). Vary title and opening per sub. Each draft has:
    - **Title** — specific, no emoji, no clickbait. Follow the sub's format note.
@@ -58,16 +62,18 @@ Do **not** call `./secretcurl`, `x-cli`, or any X API — the point is to reuse 
    _Story:_ [one-line what we're promoting] — [url]
 
    ---
-   *r/SubredditName* · archetype: <name> · link: <canonical url>
+   *r/SubredditName* · archetype: <name>
    *Title:* <title>
    *Body:*
-   <body text, ready to paste>
+   <body text, ready to paste — with the canonical link inline>
+   *Link in post:* <resolved canonical url>
+   *Post here:* [Open r/SubredditName composer](<submit url, title pre-filled>)
    _notes: <rule/disclosure reminder>_
 
    ---
    *r/NextSubreddit* ...
    ```
-   Write to `/tmp/reddit-promo-output.md`, then run `./notify -f /tmp/reddit-promo-output.md`. Skip this step on `dry-run`.
+   Every draft carries both its **Link in post** (the canonical URL the body references) and a **Post here** submit link so posting is one click. Write to `/tmp/reddit-promo-output.md`, then run `./notify -f /tmp/reddit-promo-output.md`. Skip this step on `dry-run`.
 
 8. **Update the seen-file.** Append the promoted story URL (and any supporting-item URLs used) to `memory/reddit-promo-seen.txt`, one per line, so the next run does not re-promote them.
 
