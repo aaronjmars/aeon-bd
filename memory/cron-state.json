@@ -77,14 +77,14 @@
     "last_quality_score": 4
   },
   "bd-radar": {
-    "last_status": "dispatched",
-    "last_success": "2026-08-03T08:17:31Z",
-    "total_runs": 53,
-    "total_successes": 52,
+    "last_status": "success",
+    "last_success": "2026-08-05T08:03:46Z",
+    "total_runs": 54,
+    "total_successes": 53,
     "total_failures": 1,
     "consecutive_failures": 0,
     "success_rate": 0.98,
-    "last_quality_score": 3,
+    "last_quality_score": 4,
     "last_dispatch": "2026-08-05T07:50:31Z",
     "last_failed": "2026-06-17T08:59:30Z",
     "last_error": "e_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inp"
