@@ -1,0 +1,364 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-05"
+      },
+      "children": [
+        "intro",
+        "context_note",
+        "sep1",
+        "drafts_heading",
+        "draft1_card",
+        "draft2_card"
+      ]
+    },
+    "intro": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "intro_heading",
+        "story_link"
+      ]
+    },
+    "intro_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon shipped multi-model support (Kimi Moonshot as a selectable model)",
+        "href": "https://x.com/aeonframework/status/2082801981467373635",
+        "source": "X"
+      }
+    },
+    "context_note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Two other stories (Tencent vuln-scanner fix, Uniswap v4 hooks) already ran through 5+4 subreddits earlier today. Only 4 subs are untouched today (r/LovingAI, r/Ollama, r/MiroFish, r/OpenClawInstall) — of those, only the first two fit this story's archetype (open-source/self-host), so this run is 2 drafts, not 3-5, to avoid same-day duplicate submissions to the same sub."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "drafts_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Reddit Drafts",
+        "level": "h3"
+      }
+    },
+    "draft1_card": {
+      "type": "Card",
+      "props": {
+        "title": "r/LovingAI",
+        "description": "archetype: open-source"
+      },
+      "children": [
+        "d1_title_sec",
+        "d1_body_sec",
+        "d1_links_sec",
+        "d1_notes_sec"
+      ]
+    },
+    "d1_title_sec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "d1_title_label",
+        "d1_title_text"
+      ]
+    },
+    "d1_title_label": {
+      "type": "Text",
+      "props": {
+        "text": "Title:",
+        "variant": "muted"
+      }
+    },
+    "d1_title_text": {
+      "type": "Text",
+      "props": {
+        "text": "Built an AI agent framework that runs itself, just added support for swapping the LLM underneath"
+      }
+    },
+    "d1_body_sec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "d1_body_label",
+        "d1_body_text1",
+        "d1_body_text2",
+        "d1_body_text3",
+        "d1_body_text4"
+      ]
+    },
+    "d1_body_label": {
+      "type": "Text",
+      "props": {
+        "text": "Body:",
+        "variant": "muted"
+      }
+    },
+    "d1_body_text1": {
+      "type": "Text",
+      "props": {
+        "text": "been building an agent framework that just runs — cron on github actions, no approval loops, no babysitting. set it up once, it works unattended."
+      }
+    },
+    "d1_body_text2": {
+      "type": "Text",
+      "props": {
+        "text": "this week added multi-model support. same skills, same schedules, same telegram control — just pick a different LLM underneath (kimi moonshot is the newest option). no rewrite, no re-config. the harness doesn't care what's powering it."
+      }
+    },
+    "d1_body_text3": {
+      "type": "Text",
+      "props": {
+        "text": "someone already forked it and plugged the framework's soul.md prompts into their own project to build persona clones off a different corpus — not us talking about ourselves, a random builder actually using it for something we didn't build."
+      }
+    },
+    "d1_body_text4": {
+      "type": "Text",
+      "props": {
+        "text": "it's open source (AGPL). i built this. happy to answer questions about the setup or the model-swapping bit specifically."
+      }
+    },
+    "d1_links_sec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "d1_links_label",
+        "d1_link1",
+        "d1_link2",
+        "d1_post_link"
+      ]
+    },
+    "d1_links_label": {
+      "type": "Text",
+      "props": {
+        "text": "Links:",
+        "variant": "muted"
+      }
+    },
+    "d1_link1": {
+      "type": "Link",
+      "props": {
+        "label": "Repository: aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "d1_link2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Third-party builder using Aeon for persona clones",
+        "href": "https://x.com/dev0xx_/status/2084050680616996896",
+        "source": "X"
+      }
+    },
+    "d1_post_link": {
+      "type": "Link",
+      "props": {
+        "label": "Post on Reddit (r/LovingAI)",
+        "href": "https://www.reddit.com/r/LovingAI/submit?title=Built%20an%20AI%20agent%20framework%20that%20runs%20itself%2C%20just%20added%20support%20for%20swapping%20the%20LLM%20underneath"
+      }
+    },
+    "d1_notes_sec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "d1_notes_label",
+        "d1_notes_text"
+      ]
+    },
+    "d1_notes_label": {
+      "type": "Text",
+      "props": {
+        "text": "Posting notes:",
+        "variant": "muted"
+      }
+    },
+    "d1_notes_text": {
+      "type": "Text",
+      "props": {
+        "text": "general AI enthusiast sub, keep jargon low — lead with the mechanic not the pitch, disclose \"i built this.\"",
+        "variant": "caption"
+      }
+    },
+    "draft2_card": {
+      "type": "Card",
+      "props": {
+        "title": "r/Ollama",
+        "description": "archetype: open-source"
+      },
+      "children": [
+        "d2_title_sec",
+        "d2_body_sec",
+        "d2_links_sec",
+        "d2_notes_sec"
+      ]
+    },
+    "d2_title_sec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "d2_title_label",
+        "d2_title_text"
+      ]
+    },
+    "d2_title_label": {
+      "type": "Text",
+      "props": {
+        "text": "Title:",
+        "variant": "muted"
+      }
+    },
+    "d2_title_text": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted agent framework that swaps LLMs without touching your setup (runs on GitHub Actions, no server needed)"
+      }
+    },
+    "d2_body_sec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "d2_body_label",
+        "d2_body_text1",
+        "d2_body_text2",
+        "d2_body_text3",
+        "d2_body_text4"
+      ]
+    },
+    "d2_body_label": {
+      "type": "Text",
+      "props": {
+        "text": "Body:",
+        "variant": "muted"
+      }
+    },
+    "d2_body_text1": {
+      "type": "Text",
+      "props": {
+        "text": "if you're the type running local models because you don't want to be locked into one provider — built something adjacent. an agent framework that runs unattended on github actions (no server to babysit, no approval loop), and this week it went model-agnostic: same skills/schedules, different LLM underneath, kimi moonshot is the latest add."
+      }
+    },
+    "d2_body_text2": {
+      "type": "Text",
+      "props": {
+        "text": "own your stack is the whole point — you're not welded to one model provider, and the \"skills\" are just markdown files you can read/fork/edit yourself."
+      }
+    },
+    "d2_body_text3": {
+      "type": "Text",
+      "props": {
+        "text": "a third-party builder already forked the repo and used it plug-and-play — wired the project's own soul.md prompts into their build to generate persona clones from a different corpus. real usage, not us hyping ourselves."
+      }
+    },
+    "d2_body_text4": {
+      "type": "Text",
+      "props": {
+        "text": "repo's open source (AGPL). i work on this, happy to answer setup questions."
+      }
+    },
+    "d2_links_sec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "d2_links_label",
+        "d2_link1",
+        "d2_link2",
+        "d2_post_link"
+      ]
+    },
+    "d2_links_label": {
+      "type": "Text",
+      "props": {
+        "text": "Links:",
+        "variant": "muted"
+      }
+    },
+    "d2_link1": {
+      "type": "Link",
+      "props": {
+        "label": "Repository: github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d2_link2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Third-party builder using Aeon for persona clones",
+        "href": "https://x.com/dev0xx_/status/2084050680616996896",
+        "source": "X"
+      }
+    },
+    "d2_post_link": {
+      "type": "Link",
+      "props": {
+        "label": "Post on Reddit (r/Ollama)",
+        "href": "https://www.reddit.com/r/Ollama/submit?title=Self-hosted%20agent%20framework%20that%20swaps%20LLMs%20without%20touching%20your%20setup%20%28runs%20on%20GitHub%20Actions%2C%20no%20server%20needed%29"
+      }
+    },
+    "d2_notes_sec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "d2_notes_label",
+        "d2_notes_text"
+      ]
+    },
+    "d2_notes_label": {
+      "type": "Text",
+      "props": {
+        "text": "Posting notes:",
+        "variant": "muted"
+      }
+    },
+    "d2_notes_text": {
+      "type": "Text",
+      "props": {
+        "text": "self-hosting crowd respects \"own your stack\" framing — keep it repo-first, disclose \"i work on this.\"",
+        "variant": "caption"
+      }
+    }
+  }
+}

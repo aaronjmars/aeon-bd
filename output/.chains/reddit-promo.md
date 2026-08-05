@@ -2,66 +2,40 @@
 
 *Reddit Promo — 2026-08-05*
 
-_Story:_ Aeon autonomously designed and deployed 5 new Uniswap v4 hooks overnight (ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo) — no human in the loop, then got unprompted outside technical validation. — https://x.com/aaronjmars/status/2083681374708572451
+_Story:_ Aeon shipped multi-model support (Kimi Moonshot as a selectable model — same skills/schedules/Telegram control, different LLM underneath) — https://x.com/aeonframework/status/2082801981467373635
+
+_Note: two other stories (Tencent vuln-scanner fix, Uniswap v4 hooks) already ran through 5+4 subreddits earlier today. Only 4 subs are untouched today (r/LovingAI, r/Ollama, r/MiroFish, r/OpenClawInstall) — of those, only the first two fit this story's archetype (open-source/self-host), so this run is 2 drafts, not 3-5, to avoid same-day duplicate submissions to the same sub._
 
 ---
-*r/aiecosystem* · archetype: agents
-*Title:* An unsupervised agent shipped 5 new Uniswap v4 hooks overnight
+*r/LovingAI* · archetype: open-source
+*Title:* Built an AI agent framework that runs itself, just added support for swapping the LLM underneath
 *Body:*
-Aeon runs on a cron loop, no approval step. Last night it designed and deployed 5 new Uniswap v4 hooks on its own — ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo. Not a demo, actual on-chain output while nobody was watching.
+been building an agent framework that just runs — cron on github actions, no approval loops, no babysitting. set it up once, it works unattended.
 
-An outside dev pulled up the ZigZagMandate logic unprompted and called it "insane," flagged it as bot-resistant. First technical validation that wasn't us saying it.
+this week added multi-model support. same skills, same schedules, same telegram control — just pick a different LLM underneath (kimi moonshot is the newest option). no rewrite, no re-config. the harness doesn't care what's powering it.
 
-Separately, a third-party team shipped an AeThree skill pack on top of Aeon — one call mints an avatar, deploys a token, opens its bonding curve. That's the part I actually care about more than the hooks: people building on it without us asking.
+someone already forked it and plugged the framework's soul.md prompts into their own project to build persona clones off a different corpus — not us talking about ourselves, a random builder actually using it for something we didn't build (https://x.com/dev0xx_/status/2084050680616996896).
 
-The mechanic underneath both: skills are markdown files, the agent runs unattended on GitHub Actions, self-repairs when a run breaks. No orchestration layer to babysit.
+it's open source (AGPL): https://aeon.fun
 
-I work on Aeon. Repo + traces at aeon.fun if you want to see the actual runs, not just the highlight reel.
+i built this. happy to answer questions about the setup or the model-swapping bit specifically.
 *Link in post:* https://aeon.fun
-*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=An%20unsupervised%20agent%20shipped%205%20new%20Uniswap%20v4%20hooks%20overnight)
-_notes: ecosystem/tooling sub, no flair requirement seen — disclose as builder in first paragraph, keep it fact-first not hype._
+*Post here:* [Open r/LovingAI composer](https://www.reddit.com/r/LovingAI/submit?title=Built%20an%20AI%20agent%20framework%20that%20runs%20itself%2C%20just%20added%20support%20for%20swapping%20the%20LLM%20underneath)
+_notes: general AI enthusiast sub, keep jargon low — lead with the mechanic not the pitch, disclose "i built this."_
 
 ---
-*r/AIPromptProgramming* · archetype: agents
-*Title:* Skills are just markdown files, here's one that deployed 5 DeFi contracts on its own
+*r/Ollama* · archetype: open-source
+*Title:* Self-hosted agent framework that swaps LLMs without touching your setup (runs on GitHub Actions, no server needed)
 *Body:*
-The whole agent framework is: a `SKILL.md` file with frontmatter (schedule, permissions, required secrets) and a body the agent reads and executes. No custom DSL, no plugin API. If you can write a markdown checklist you can write a skill.
+if you're the type running local models because you don't want to be locked into one provider — built something adjacent. an agent framework that runs unattended on github actions (no server to babysit, no approval loop), and this week it went model-agnostic: same skills/schedules, different LLM underneath, kimi moonshot is the latest add.
 
-Concrete proof it's not a toy: overnight, one skill designed and deployed 5 new Uniswap v4 hooks unsupervised — ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo. An outside dev looked at the logic afterward, unprompted, and called it "insane," bot-resistant. Nobody fed them that line.
+own your stack is the whole point — you're not welded to one model provider, and the "skills" are just markdown files you can read/fork/edit yourself.
 
-The part that makes this durable instead of a one-off: there's a self-repair loop watching every run. A skill that breaks gets a health score and an issue filed against it, then a repair skill patches it by PR. Cron plus self-repair is doing more work here than the model.
+a third-party builder already forked the repo and used it plug-and-play — wired the project's own soul.md prompts into their build to generate persona clones from a different corpus. real usage, not us hyping ourselves (https://x.com/dev0xx_/status/2084050680616996896).
 
-I built this. Repo's linked below, skill format is documented, happy to answer questions on how the scheduling/permissions model works.
-*Link in post:* https://github.com/aaronjmars/aeon
-*Post here:* [Open r/AIPromptProgramming composer](https://www.reddit.com/r/AIPromptProgramming/submit?title=Skills%20are%20just%20markdown%20files%2C%20here%27s%20one%20that%20deployed%205%20DeFi%20contracts%20on%20its%20own)
-_notes: technical audience, respect it — lead with the mechanic not the pitch, disclose builder status up front._
+repo's open source (AGPL): https://github.com/aeonfun/aeon
 
----
-*r/lovingopensourceAI* · archetype: open-source
-*Title:* Open-sourced the agent that shipped 5 Uniswap v4 hooks while I was asleep
-*Body:*
-I work on Aeon, an open-source (AGPL) agent framework. It's fork-and-configure — you enable skills, schedule them, and it runs unattended on GitHub Actions. No approval loop between "agent decides" and "agent does."
-
-Last night it proved that's not just a slogan: it designed and deployed 5 new Uniswap v4 hooks on its own, no human touching it. An outside dev found the code afterward and called it "insane" and bot-resistant — nobody prompted that, they just found the repo.
-
-Separately, a third-party dev built an AeThree skill pack on top of it — mints an avatar, deploys a token, opens a bonding curve in one call. That's the actual point of open-sourcing it: people building things we didn't plan for.
-
-Everything's public — the repo, the run traces, the skill files. Fork it if you want your own version. Happy to answer anything about the self-repair loop or how skills get scheduled.
-*Link in post:* https://github.com/aaronjmars/aeon
-*Post here:* [Open r/lovingopensourceAI composer](https://www.reddit.com/r/lovingopensourceAI/submit?title=Open-sourced%20the%20agent%20that%20shipped%205%20Uniswap%20v4%20hooks%20while%20I%20was%20asleep)
-_notes: enthusiast OSS crowd, "what I built + why it's open" framing lands well here — keep the AGPL/fork angle explicit._
-
----
-*r/AskVibecoders* · archetype: vibecoders
-*Title:* My agent shipped 5 DeFi contracts overnight without me touching anything
-*Body:*
-Set up an agent (Aeon) that runs on a cron schedule with no approval step. Went to sleep, woke up to 5 new Uniswap v4 hooks live — it designed and deployed all of them on its own overnight. Named them itself too (ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo — no notes on the naming).
-
-Best part: some rando dev found the code, didn't know me, called the logic "insane" and flagged it as bot-resistant. Free unprompted code review from a stranger.
-
-It's just markdown files describing what to do plus a schedule. No custom framework to learn. Fork it, point it at your own repo, let it cook.
-
-I built this, not shilling someone else's thing. Repo's below if you want to see how it's actually wired up.
-*Link in post:* https://github.com/aaronjmars/aeon
-*Post here:* [Open r/AskVibecoders composer](https://www.reddit.com/r/AskVibecoders/submit?title=My%20agent%20shipped%205%20DeFi%20contracts%20overnight%20without%20me%20touching%20anything)
-_notes: casual sub, light self-promo tolerance but still disclose as builder — keep the tone first-person, no jargon dump._
+i work on this, happy to answer setup questions.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/Ollama composer](https://www.reddit.com/r/Ollama/submit?title=Self-hosted%20agent%20framework%20that%20swaps%20LLMs%20without%20touching%20your%20setup%20%28runs%20on%20GitHub%20Actions%2C%20no%20server%20needed%29)
+_notes: self-hosting crowd respects "own your stack" framing — keep it repo-first, disclose "i work on this."_
