@@ -1,0 +1,455 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-05"
+      },
+      "children": [
+        "story_section",
+        "sep1",
+        "post1_section",
+        "sep2",
+        "post2_section",
+        "sep3",
+        "post3_section",
+        "sep4",
+        "post4_section"
+      ]
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_label",
+        "story_text",
+        "story_link"
+      ]
+    },
+    "story_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "story_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon autonomously designed and deployed 5 new Uniswap v4 hooks overnight (ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo) — no human in the loop, then got unprompted outside technical validation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "story_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X (Twitter)",
+        "href": "https://x.com/aaronjmars/status/2083681374708572451"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post1_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1_header",
+        "post1_title",
+        "post1_body",
+        "post1_links",
+        "post1_notes"
+      ]
+    },
+    "post1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_subreddit",
+        "post1_archetype"
+      ]
+    },
+    "post1_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/aiecosystem",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "post1_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "post1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "An unsupervised agent shipped 5 new Uniswap v4 hooks overnight",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "post1_body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon runs on a cron loop, no approval step. Last night it designed and deployed 5 new Uniswap v4 hooks on its own — ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo. Not a demo, actual on-chain output while nobody was watching.\n\nAn outside dev pulled up the ZigZagMandate logic unprompted and called it \"insane,\" flagged it as bot-resistant. First technical validation that wasn't us saying it.\n\nSeparately, a third-party team shipped an AeThree skill pack on top of Aeon — one call mints an avatar, deploys a token, opens its bonding curve. That's the part I actually care about more than the hooks: people building on it without us asking.\n\nThe mechanic underneath both: skills are markdown files, the agent runs unattended on GitHub Actions, self-repairs when a run breaks. No orchestration layer to babysit.\n\nI work on Aeon. Repo + traces at aeon.fun if you want to see the actual runs, not just the highlight reel.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post1_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_repo_link",
+        "post1_composer_link"
+      ]
+    },
+    "post1_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "Link in post: aeon.fun",
+        "href": "https://aeon.fun"
+      },
+      "children": []
+    },
+    "post1_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=An%20unsupervised%20agent%20shipped%205%20new%20Uniswap%20v4%20hooks%20overnight"
+      },
+      "children": []
+    },
+    "post1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "📝 Notes: ecosystem/tooling sub, no flair requirement seen — disclose as builder in first paragraph, keep it fact-first not hype.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post2_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2_header",
+        "post2_title",
+        "post2_body",
+        "post2_links",
+        "post2_notes"
+      ]
+    },
+    "post2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_subreddit",
+        "post2_archetype"
+      ]
+    },
+    "post2_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/AIPromptProgramming",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "post2_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "post2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Skills are just markdown files, here's one that deployed 5 DeFi contracts on its own",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "post2_body": {
+      "type": "Text",
+      "props": {
+        "text": "The whole agent framework is: a `SKILL.md` file with frontmatter (schedule, permissions, required secrets) and a body the agent reads and executes. No custom DSL, no plugin API. If you can write a markdown checklist you can write a skill.\n\nConcrete proof it's not a toy: overnight, one skill designed and deployed 5 new Uniswap v4 hooks unsupervised — ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo. An outside dev looked at the logic afterward, unprompted, and called it \"insane,\" bot-resistant. Nobody fed them that line.\n\nThe part that makes this durable instead of a one-off: there's a self-repair loop watching every run. A skill that breaks gets a health score and an issue filed against it, then a repair skill patches it by PR. Cron plus self-repair is doing more work here than the model.\n\nI built this. Repo's linked below, skill format is documented, happy to answer questions on how the scheduling/permissions model works.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post2_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_repo_link",
+        "post2_composer_link"
+      ]
+    },
+    "post2_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "Link in post: github.com/aaronjmars/aeon",
+        "href": "https://github.com/aaronjmars/aeon"
+      },
+      "children": []
+    },
+    "post2_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AIPromptProgramming composer",
+        "href": "https://www.reddit.com/r/AIPromptProgramming/submit?title=Skills%20are%20just%20markdown%20files%2C%20here%27s%20one%20that%20deployed%205%20DeFi%20contracts%20on%20its%20own"
+      },
+      "children": []
+    },
+    "post2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "📝 Notes: technical audience, respect it — lead with the mechanic not the pitch, disclose builder status up front.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post3_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3_header",
+        "post3_title",
+        "post3_body",
+        "post3_links",
+        "post3_notes"
+      ]
+    },
+    "post3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_subreddit",
+        "post3_archetype"
+      ]
+    },
+    "post3_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/lovingopensourceAI",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "post3_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "post3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Open-sourced the agent that shipped 5 Uniswap v4 hooks while I was asleep",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "post3_body": {
+      "type": "Text",
+      "props": {
+        "text": "I work on Aeon, an open-source (AGPL) agent framework. It's fork-and-configure — you enable skills, schedule them, and it runs unattended on GitHub Actions. No approval loop between \"agent decides\" and \"agent does.\"\n\nLast night it proved that's not just a slogan: it designed and deployed 5 new Uniswap v4 hooks on its own, no human touching it. An outside dev found the code afterward and called it \"insane\" and bot-resistant — nobody prompted that, they just found the repo.\n\nSeparately, a third-party dev built an AeThree skill pack on top of it — mints an avatar, deploys a token, opens a bonding curve in one call. That's the actual point of open-sourcing it: people building things we didn't plan for.\n\nEverything's public — the repo, the run traces, the skill files. Fork it if you want your own version. Happy to answer anything about the self-repair loop or how skills get scheduled.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post3_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_repo_link",
+        "post3_composer_link"
+      ]
+    },
+    "post3_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "Link in post: github.com/aaronjmars/aeon",
+        "href": "https://github.com/aaronjmars/aeon"
+      },
+      "children": []
+    },
+    "post3_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/lovingopensourceAI composer",
+        "href": "https://www.reddit.com/r/lovingopensourceAI/submit?title=Open-sourced%20the%20agent%20that%20shipped%205%20Uniswap%20v4%20hooks%20while%20I%20was%20asleep"
+      },
+      "children": []
+    },
+    "post3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "📝 Notes: enthusiast OSS crowd, \"what I built + why it's open\" framing lands well here — keep the AGPL/fork angle explicit.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post4_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post4_header",
+        "post4_title",
+        "post4_body",
+        "post4_links",
+        "post4_notes"
+      ]
+    },
+    "post4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_subreddit",
+        "post4_archetype"
+      ]
+    },
+    "post4_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/AskVibecoders",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "post4_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "vibecoders",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "post4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "My agent shipped 5 DeFi contracts overnight without me touching anything",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "post4_body": {
+      "type": "Text",
+      "props": {
+        "text": "Set up an agent (Aeon) that runs on a cron schedule with no approval step. Went to sleep, woke up to 5 new Uniswap v4 hooks live — it designed and deployed all of them on its own overnight. Named them itself too (ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo — no notes on the naming).\n\nBest part: some rando dev found the code, didn't know me, called the logic \"insane\" and flagged it as bot-resistant. Free unprompted code review from a stranger.\n\nIt's just markdown files describing what to do plus a schedule. No custom framework to learn. Fork it, point it at your own repo, let it cook.\n\nI built this, not shilling someone else's thing. Repo's below if you want to see how it's actually wired up.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post4_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_repo_link",
+        "post4_composer_link"
+      ]
+    },
+    "post4_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "Link in post: github.com/aaronjmars/aeon",
+        "href": "https://github.com/aaronjmars/aeon"
+      },
+      "children": []
+    },
+    "post4_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AskVibecoders composer",
+        "href": "https://www.reddit.com/r/AskVibecoders/submit?title=My%20agent%20shipped%205%20DeFi%20contracts%20overnight%20without%20me%20touching%20anything"
+      },
+      "children": []
+    },
+    "post4_notes": {
+      "type": "Text",
+      "props": {
+        "text": "📝 Notes: casual sub, light self-promo tolerance but still disclose as builder — keep the tone first-person, no jargon dump.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

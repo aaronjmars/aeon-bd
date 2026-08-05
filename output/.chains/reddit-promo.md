@@ -1,82 +1,67 @@
-ℹ️ Reddit Promo Drafts
+ℹ️ Reddit Promo — 2026-08-05
 
 *Reddit Promo — 2026-08-05*
 
-_Story:_ Aeon's vuln-scanner skill found and shipped a fix into infra serving tens of billions of requests (merged in 3h) — now aeonframework is pushing builders to fork it and hunt their own bug bounties. — https://x.com/aeonframework/status/2084618749525553171
-
-_Proof point:_ unprompted third-party BD read framing the Tencent fix as a pricing-gap signal — https://x.com/DegenOnBase_/status/2083178423837692259
+_Story:_ Aeon autonomously designed and deployed 5 new Uniswap v4 hooks overnight (ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo) — no human in the loop, then got unprompted outside technical validation. — https://x.com/aaronjmars/status/2083681374708572451
 
 ---
-*r/OpenSourceAI* · archetype: open-source · link: https://github.com/aaronjmars/aeon
-*Title:* Open-sourced a vuln-scanner skill for autonomous agents — it already found a live bug in infra serving tens of billions of requests
-
+*r/aiecosystem* · archetype: agents
+*Title:* An unsupervised agent shipped 5 new Uniswap v4 hooks overnight
 *Body:*
-We ship Aeon as a fork-and-configure agent framework — skills are just markdown files (SKILL.md) that run unattended on GitHub Actions, no approval loop, no human clicking "go."
+Aeon runs on a cron loop, no approval step. Last night it designed and deployed 5 new Uniswap v4 hooks on its own — ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo. Not a demo, actual on-chain output while nobody was watching.
 
-Last week one of those skills — a vuln-scanner — found a real vulnerability in Tencent-scale infra. The fix got merged in 3 hours. Nobody prompted the scan, nobody babysat the PR. It ran on its schedule and did its job.
+An outside dev pulled up the ZigZagMandate logic unprompted and called it "insane," flagged it as bot-resistant. First technical validation that wasn't us saying it.
 
-We're not selling "AI finds bugs" as a headline. We're showing the mechanic: fork the repo, the vuln-scanner skill is already in there, point it at your own stack and see what it turns up. If it finds something, that bounty's yours, not ours.
+Separately, a third-party team shipped an AeThree skill pack on top of Aeon — one call mints an avatar, deploys a token, opens its bonding curve. That's the part I actually care about more than the hooks: people building on it without us asking.
 
-Repo: https://github.com/aaronjmars/aeon — happy to answer questions about how the skill's structured or how the cron/self-repair loop works.
+The mechanic underneath both: skills are markdown files, the agent runs unattended on GitHub Actions, self-repairs when a run breaks. No orchestration layer to babysit.
 
-_notes: disclosing as the builder (I work on Aeon). Sub leans OSS-enthusiast — kept it mechanic-first, no hype language._
+I work on Aeon. Repo + traces at aeon.fun if you want to see the actual runs, not just the highlight reel.
+*Link in post:* https://aeon.fun
+*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=An%20unsupervised%20agent%20shipped%205%20new%20Uniswap%20v4%20hooks%20overnight)
+_notes: ecosystem/tooling sub, no flair requirement seen — disclose as builder in first paragraph, keep it fact-first not hype._
 
 ---
-*r/CoolGithubProjects* · archetype: github · link: https://github.com/aaronjmars/aeon
-*Title:* Aeon - open-source agent framework whose vuln-scanner skill already found a real bug in billion-request infra
-
+*r/AIPromptProgramming* · archetype: agents
+*Title:* Skills are just markdown files, here's one that deployed 5 DeFi contracts on its own
 *Body:*
-What it is: Aeon is a fork-and-configure framework for autonomous agents. Skills are markdown files that run on a schedule via GitHub Actions — no approval loop, no persistent server to babysit.
+The whole agent framework is: a `SKILL.md` file with frontmatter (schedule, permissions, required secrets) and a body the agent reads and executes. No custom DSL, no plugin API. If you can write a markdown checklist you can write a skill.
 
-Why it's here: one of the built-in skills is a vuln-scanner. Last week it found a real vulnerability in infra that serves tens of billions of requests (Tencent-scale), and the fix was merged in 3 hours. Nobody triggered it manually — it ran on cron and did its job.
+Concrete proof it's not a toy: overnight, one skill designed and deployed 5 new Uniswap v4 hooks unsupervised — ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo. An outside dev looked at the logic afterward, unprompted, and called it "insane," bot-resistant. Nobody fed them that line.
 
-Stack: Claude Code + GitHub Actions + markdown skills + a self-repair loop that files and fixes its own regressions.
+The part that makes this durable instead of a one-off: there's a self-repair loop watching every run. A skill that breaks gets a health score and an issue filed against it, then a repair skill patches it by PR. Cron plus self-repair is doing more work here than the model.
 
-Repo: https://github.com/aaronjmars/aeon. Fork it, point the vuln-scanner at your own stack, keep whatever bounty it finds.
-
-_notes: r/CoolGithubProjects requires the "Aeon - <desc>" title format — followed exactly. Repo link is the payload per sub rules; no extra links added._
+I built this. Repo's linked below, skill format is documented, happy to answer questions on how the scheduling/permissions model works.
+*Link in post:* https://github.com/aaronjmars/aeon
+*Post here:* [Open r/AIPromptProgramming composer](https://www.reddit.com/r/AIPromptProgramming/submit?title=Skills%20are%20just%20markdown%20files%2C%20here%27s%20one%20that%20deployed%205%20DeFi%20contracts%20on%20its%20own)
+_notes: technical audience, respect it — lead with the mechanic not the pitch, disclose builder status up front._
 
 ---
-*r/CLaudeSkills* · archetype: claude-skills · link: https://github.com/aaronjmars/aeon
-*Title:* Our vuln-scanner skill (literally a markdown file) just found a real bug in Tencent-scale infra
-
+*r/lovingopensourceAI* · archetype: open-source
+*Title:* Open-sourced the agent that shipped 5 Uniswap v4 hooks while I was asleep
 *Body:*
-If you're already writing Claude-style skills, this is a concrete example of what a SKILL.md running unattended can actually do.
+I work on Aeon, an open-source (AGPL) agent framework. It's fork-and-configure — you enable skills, schedule them, and it runs unattended on GitHub Actions. No approval loop between "agent decides" and "agent does."
 
-Aeon's skills are exactly that — markdown files with frontmatter (name, schedule, mode: read-only or write) that a headless Claude Code run reads and executes on a GitHub Actions cron. No wrapper app, no orchestration layer beyond the workflow file.
+Last night it proved that's not just a slogan: it designed and deployed 5 new Uniswap v4 hooks on its own, no human touching it. An outside dev found the code afterward and called it "insane" and bot-resistant — nobody prompted that, they just found the repo.
 
-One of ours is a vuln-scanner skill. It found a real vulnerability in infra serving tens of billions of requests last week, and the fix got merged in 3 hours — the skill ran on schedule, nobody prompted it.
+Separately, a third-party dev built an AeThree skill pack on top of it — mints an avatar, deploys a token, opens a bonding curve in one call. That's the actual point of open-sourcing it: people building things we didn't plan for.
 
-Repo's here if you want to see the actual SKILL.md: https://github.com/aaronjmars/aeon. Fork it and point the scanner at your own stack — genuinely curious what a wider set of agents finds.
-
-_notes: audience is technical — kept the skill-shape explanation concrete instead of marketing-y; disclosed as the builder._
+Everything's public — the repo, the run traces, the skill files. Fork it if you want your own version. Happy to answer anything about the self-repair loop or how skills get scheduled.
+*Link in post:* https://github.com/aaronjmars/aeon
+*Post here:* [Open r/lovingopensourceAI composer](https://www.reddit.com/r/lovingopensourceAI/submit?title=Open-sourced%20the%20agent%20that%20shipped%205%20Uniswap%20v4%20hooks%20while%20I%20was%20asleep)
+_notes: enthusiast OSS crowd, "what I built + why it's open" framing lands well here — keep the AGPL/fork angle explicit._
 
 ---
-*r/Agent_AI* · archetype: agents · link: https://github.com/aaronjmars/aeon
-*Title:* An autonomous vuln-scanner agent found and shipped a fix into billion-request infra — unattended, no approval loop
-
+*r/AskVibecoders* · archetype: vibecoders
+*Title:* My agent shipped 5 DeFi contracts overnight without me touching anything
 *Body:*
-Most "autonomous agent" demos still have a human clicking approve somewhere. Ours doesn't — that's the actual comparison worth making.
+Set up an agent (Aeon) that runs on a cron schedule with no approval step. Went to sleep, woke up to 5 new Uniswap v4 hooks live — it designed and deployed all of them on its own overnight. Named them itself too (ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo — no notes on the naming).
 
-Aeon runs skills on GitHub Actions cron. Last week the vuln-scanner skill found a real vulnerability in infra serving tens of billions of requests, and the fix merged in 3 hours. No approval step, no babysitting — it ran on schedule like every other skill, and a self-repair loop handles the failures that come up.
+Best part: some rando dev found the code, didn't know me, called the logic "insane" and flagged it as bot-resistant. Free unprompted code review from a stranger.
 
-A market participant flagged this unprompted as one of the biggest pricing gaps in the space right now — more validating than anything we could've said ourselves.
+It's just markdown files describing what to do plus a schedule. No custom framework to learn. Fork it, point it at your own repo, let it cook.
 
-Repo: https://github.com/aaronjmars/aeon. Public traces if you want to see what "unattended" actually means here, not just take our word for it.
-
-_notes: no vendor-vs-vendor trash talk, kept the comparison to the autonomy axis only. Disclosed as builder._
-
----
-*r/StartupMind* · archetype: startup · link: https://aeon.fun
-*Title:* Building in public: our open-source security agent found a real bug last week, and a stranger flagged it as one of the biggest gaps in our category — unprompted
-
-*Body:*
-Quick building-in-public update. Aeon is an open-source framework where "skills" (markdown files) run unattended on a schedule. One of them is a vuln-scanner.
-
-Last week it found a real vulnerability in infra serving tens of billions of requests. The fix got merged in 3 hours. We didn't write a thread about it — someone else did, unprompted, framing it as evidence of a pricing gap in our category. That's the kind of validation you can't manufacture.
-
-No growth hack here, just: ship the thing, let it run, let people notice on their own time.
-
-Site: https://aeon.fun — repo's linked there if you want the mechanics.
-
-_notes: r/StartupMind smells growth-hacky tone fast — kept it to one honest traction beat, no CTA stacking. Disclosed as founder ("I work on Aeon")._
+I built this, not shilling someone else's thing. Repo's below if you want to see how it's actually wired up.
+*Link in post:* https://github.com/aaronjmars/aeon
+*Post here:* [Open r/AskVibecoders composer](https://www.reddit.com/r/AskVibecoders/submit?title=My%20agent%20shipped%205%20DeFi%20contracts%20overnight%20without%20me%20touching%20anything)
+_notes: casual sub, light self-promo tolerance but still disclose as builder — keep the tone first-person, no jargon dump._
