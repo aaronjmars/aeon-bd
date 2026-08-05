@@ -1,80 +1,78 @@
 {
   "leads": [
     {
-      "key": "github:myexperts-solutions/MiroShark",
+      "key": "x:ai2humannetwork",
+      "class": "building",
+      "who": "AI2Human (@ai2humannetwork / richard7463)",
+      "handle": "@ai2humannetwork",
+      "signal": "Shipped full AEON skill pack (QA, verification, handoff, research/compliance, social, proof-to-settlement) \u2014 catalog-registered upstream (merged PR #812). Live funded pilot: real 1 USDC prize pool on Base. Tagged @aaronjmars + @aeonframework directly asking community to check it out.",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-08-05",
+      "link": "https://x.com/ai2humannetwork/status/2084894218343076132",
+      "source": "xai_x",
+      "move": "Reply/DM @ai2humannetwork \u2014 merged + shipping + tagged you directly; amplify the thread and invite to ECOSYSTEM.md"
+    },
+    {
+      "key": "github:JessieJanie/aeon-skill-pack-skim",
+      "class": "building",
+      "who": "JessieJanie",
+      "handle": "JessieJanie",
+      "signal": "Shipped x402-metered skill pack \u2014 pay-per-call clean web reads via Skim, $0.002 USDC/call on Base, ~4x smaller than raw HTML. Same author also forked aeon itself today (drive-by, no independent commits).",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-08-05",
+      "source": "gh_search_repos",
+      "move": "DM @JessieJanie \u2014 check if catalog-registered yet, invite to ECOSYSTEM.md"
+    },
+    {
+      "key": "github:LSO-AI/aeon-skills",
+      "class": "building",
+      "who": "LSO-AI",
+      "handle": "LSO-AI",
+      "signal": "Org account shipped broad AEON skill suite: weather, crypto, macro, gov contracts, oil leases, audits, \"Floyd\". Multi-skill, not a one-off.",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-08-05",
+      "source": "gh_search_repos",
+      "move": "Reach out to LSO-AI \u2014 partner DM, invite to ECOSYSTEM.md"
+    },
+    {
+      "key": "github:verdikta/aeon-skill-pack-verdikta",
+      "class": "building",
+      "who": "verdikta",
+      "handle": "verdikta",
+      "signal": "Org account shipped AEON skill pack to hunt AI-judged bounties on Base with hard client-side spend caps \u2014 squarely on-thesis (agents + money).",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-08-05",
+      "source": "gh_search_repos",
+      "move": "DM @verdikta \u2014 invite to ECOSYSTEM.md"
+    },
+    {
+      "key": "github:financedistrict-platform/fd-aeon-skills",
+      "class": "building",
+      "who": "financedistrict-platform",
+      "handle": "financedistrict-platform",
+      "signal": "Org repo: 'Finance District Agent Wallet \u2014 companion skill and setup for the aeon agent framework'. Related core skill (finance-district-mcp, multichain agent wallet over MCP) merged upstream PR #791 \u2014 unclear if authored by Aaron or Finance District; this companion repo is the org's own.",
+      "fit": 2,
+      "score": 10,
+      "first_seen": "2026-08-05",
+      "source": "gh_search_repos",
+      "move": "Confirm the relationship, invite to ECOSYSTEM.md if genuinely external"
+    },
+    {
+      "key": "github:bspacer/aeon",
       "class": "forking",
-      "who": "myexperts-solutions",
-      "handle": "myexperts-solutions",
-      "signal": "MiroShark fork created 06-29T16:31, pushed 06-29T13:26 (pushed before created = drive-by). Size 62,392 = baseline.",
+      "who": "bspacer",
+      "handle": "bspacer",
+      "signal": "Own commits (not upstream sync) actively configuring ~10 skills \u2014 narrative-tracker, idea-pipeline, vuln-scanner, vuln-tracker, github-monitor, deploy-prototype, spawn-instance, auto-merge, auto-workflow, heartbeat \u2014 cron-committing hourly through today. Live, active, generic instance.",
       "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-30",
-      "repo_updated": "2026-06-29",
+      "score": 4,
+      "first_seen": "2026-08-05",
+      "repo_updated": "2026-08-05",
       "source": "gh_read_pat_forks",
-      "move": "Watch only"
-    },
-    {
-      "key": "github:caramaschiHG/awesome-ai-agents-2026",
-      "class": "mentioning",
-      "who": "caramaschiHG",
-      "handle": "caramaschiHG",
-      "signal": "Curated 300+ AI agents/frameworks list (separate from ARUNAGIRINATHAN-K list). Distribution surface.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-30",
-      "source": "websearch",
-      "move": "Verify aeon + MiroShark are listed; open a PR if not"
-    },
-    {
-      "key": "web:leadai.dev-aeon-article",
-      "class": "mentioning",
-      "who": "leadai.dev",
-      "handle": "leadai.dev",
-      "signal": "Article: 'Aeon: A Game-Changer for Running AI Agents on GitHub Actions'. External tech publication organic coverage.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-06-30",
-      "link": "https://leadai.dev/insider/aeon-a-game-changer-for-running-ai-agents-on-github-actions",
-      "source": "websearch",
-      "move": "No action needed \u2014 good organic reach"
-    },
-    {
-      "key": "web:Zijian-Ni/awesome-ai-agents-2026",
-      "class": "mentioning",
-      "who": "Zijian-Ni (awesome-ai-agents-2026)",
-      "handle": "Zijian-Ni",
-      "signal": "A curated list of AI Agent frameworks for 2026 \u2014 the year agents went mainstream. Web search surfaced it. Distribution surface for aeon/miroshark listing.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-07-02",
-      "source": "websearch",
-      "move": "Verify aeon + MiroShark are listed; open PR if not"
-    },
-    {
-      "key": "x:jay2jay01",
-      "class": "mentioning",
-      "who": "jay2jay01",
-      "handle": "@jay2jay01",
-      "signal": "X post 07-02: Top 10 Projects Launched Through @bankrbot \u2014 @aeonframework listed #2 with 40/40 Blockworks transparency score, 20% Bedrock Foundation stake. Promoter account.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-07-02",
-      "link": "https://x.com/jay2jay01/status/2072545933179662406",
-      "source": "xai_x",
-      "move": "No action \u2014 confirms Bankr launch narrative circulating"
-    },
-    {
-      "key": "x:baseboss_",
-      "class": "mentioning",
-      "who": "baseboss_",
-      "handle": "@baseboss_",
-      "signal": "X post 07-02: Top Bankr coins by Market Cap \u2014 aeon in list. Base-affiliated distribution surface.",
-      "fit": 1,
-      "score": 2,
-      "first_seen": "2026-07-02",
-      "link": "https://x.com/baseboss_/status/2072560908539253062",
-      "source": "xai_x",
-      "move": "No action \u2014 distribution surface"
+      "move": "Watch only \u2014 note for SHOWCASE.md, no differentiated product yet"
     },
     {
       "key": "github:KrishDabhi/MiroShark-a-swarm-intelligence",
@@ -2474,13 +2472,6 @@
     }
   ],
   "surfaced": [
-    "github:sneg55/SimSwarm",
-    "github:powerloom/aeon-skills",
-    "github:mnemedb/aeon-skill-pack-mneme",
-    "github:tenequm",
-    "github:madebyshun/blue-agent",
-    "github:saluca-labs/pantheon",
-    "github:LiamVisionary/hivemindos",
     "github:Jeremyliu-621/soon",
     "github:sinfronterasai/aeon",
     "github:ashneil12/aeon-upstream",
@@ -2773,6 +2764,13 @@
     "github:hebridean-tech/x402-pulse",
     "github:AITOBIAS04/CHORUS",
     "github:Danypsy/aeon-perso",
-    "web:microlaunch-miroshark"
+    "web:microlaunch-miroshark",
+    "x:ai2humannetwork",
+    "github:JessieJanie/aeon-skill-pack-skim",
+    "github:LSO-AI/aeon-skills",
+    "github:verdikta/aeon-skill-pack-verdikta",
+    "github:financedistrict-platform/fd-aeon-skills",
+    "github:bspacer/aeon",
+    "github:richard7463/ai2human-aeon-skill-pack"
   ]
 }
