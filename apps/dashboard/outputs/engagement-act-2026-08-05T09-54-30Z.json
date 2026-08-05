@@ -1,0 +1,294 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-08-05"
+      },
+      "children": [
+        "engagements_stack",
+        "separator_aging",
+        "aging_alert"
+      ]
+    },
+    "engagements_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "eng1",
+        "eng2",
+        "eng3",
+        "eng4",
+        "eng5"
+      ]
+    },
+    "eng1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng1_title",
+        "eng1_type",
+        "eng1_link",
+        "eng1_context",
+        "eng1_draft"
+      ]
+    },
+    "eng1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "@ai2humannetwork (0d)",
+        "level": "h3"
+      }
+    },
+    "eng1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "eng1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@ai2humannetwork on X",
+        "href": "https://x.com/ai2humannetwork/status/2084894218343076132",
+        "source": "X"
+      }
+    },
+    "eng1_context": {
+      "type": "Text",
+      "props": {
+        "text": "shipped full AEON skill pack, merged catalog PR #812, live funded 1 USDC pilot on Base, tagged @aaronjmars + @aeonframework directly",
+        "variant": "body"
+      }
+    },
+    "eng1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: catalog merged, pilot live, funded on Base — this is what shipping on aeon looks like. lfg ⭐",
+        "variant": "caption"
+      }
+    },
+    "eng2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng2_title",
+        "eng2_type",
+        "eng2_context",
+        "eng2_draft"
+      ]
+    },
+    "eng2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "@AzzleAI (1d)",
+        "level": "h3"
+      }
+    },
+    "eng2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "eng2_context": {
+      "type": "Text",
+      "props": {
+        "text": "unsolicited endorsement flagged by mention-radar 08-04",
+        "variant": "body"
+      }
+    },
+    "eng2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: appreciate the cosign ⭐",
+        "variant": "caption"
+      }
+    },
+    "eng3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng3_title",
+        "eng3_type",
+        "eng3_link",
+        "eng3_context",
+        "eng3_draft"
+      ]
+    },
+    "eng3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "JessieJanie/aeon-skill-pack-skim (0d)",
+        "level": "h3"
+      }
+    },
+    "eng3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "eng3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "JessieJanie/aeon-skill-pack-skim",
+        "href": "https://github.com/JessieJanie/aeon-skill-pack-skim",
+        "source": "GitHub"
+      }
+    },
+    "eng3_context": {
+      "type": "Text",
+      "props": {
+        "text": "shipped x402-metered skill pack, $0.002 USDC/call web reads on Base",
+        "variant": "body"
+      }
+    },
+    "eng3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: x402 metered pay-per-call reads is exactly the pattern we want more skill packs running. catalog-registered yet? send it over for ECOSYSTEM.md",
+        "variant": "caption"
+      }
+    },
+    "eng4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng4_title",
+        "eng4_type",
+        "eng4_link",
+        "eng4_context",
+        "eng4_draft"
+      ]
+    },
+    "eng4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "LSO-AI/aeon-skills (0d)",
+        "level": "h3"
+      }
+    },
+    "eng4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "eng4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "LSO-AI/aeon-skills",
+        "href": "https://github.com/LSO-AI/aeon-skills",
+        "source": "GitHub"
+      }
+    },
+    "eng4_context": {
+      "type": "Text",
+      "props": {
+        "text": "org shipped broad AEON skill suite (weather/crypto/macro/gov-contracts/oil-leases/audits)",
+        "variant": "body"
+      }
+    },
+    "eng4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: weather to oil leases to audits in one skill suite — this is a real org build, not a toy fork. want it in ECOSYSTEM.md?",
+        "variant": "caption"
+      }
+    },
+    "eng5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng5_title",
+        "eng5_type",
+        "eng5_link",
+        "eng5_context",
+        "eng5_draft",
+        "eng5_aging_badge"
+      ]
+    },
+    "eng5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "HKUDS/Vibe-Trading (11d, aging)",
+        "level": "h3"
+      }
+    },
+    "eng5_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X post",
+        "variant": "secondary"
+      }
+    },
+    "eng5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/Vibe-Trading #390",
+        "href": "https://github.com/HKUDS/Vibe-Trading/pull/390",
+        "source": "GitHub (27k★)"
+      }
+    },
+    "eng5_context": {
+      "type": "Text",
+      "props": {
+        "text": "aeon security bot's PR #390 merged 07-05, redrafted 6x since 07-25, still not shipped",
+        "variant": "body"
+      }
+    },
+    "eng5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: 27k★ repo. our fix merged clean, zero back-and-forth. aeon vuln-scanner working exactly as designed ⭐",
+        "variant": "caption"
+      }
+    },
+    "eng5_aging_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "AGING — needs action",
+        "variant": "destructive"
+      }
+    },
+    "separator_aging": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aging_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "HKUDS/Vibe-Trading: redrafted 6 times since 07-25 with no post. Ship it today or pull it from the queue.",
+        "type": "warning"
+      }
+    }
+  }
+}

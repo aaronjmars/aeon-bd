@@ -1,29 +1,28 @@
-*Engagement Act — 2026-08-03*
+*Engagement Act — 2026-08-05*
 
-*1. github:AITOBIAS04/CHORUS* (2 days ago) — forked miroshark-aeon, renamed it CHORUS, running it as a live self-improving instance (cron commits + self-authored skill-improvement PR), own Telegram bot at t.me/miroshark_aeon
-link: https://github.com/AITOBIAS04/CHORUS
+*1. @ai2humannetwork* (0d) — shipped full AEON skill pack, merged catalog PR #812, live funded 1 USDC pilot on Base, tagged @aaronjmars + @aeonframework directly
+link: https://x.com/ai2humannetwork/status/2084894218343076132
+type: X reply
+draft: "catalog merged, pilot live, funded on Base — this is what shipping on aeon looks like. lfg ⭐"
+
+*2. @AzzleAI* (1d) — unsolicited endorsement flagged by mention-radar 08-04
+link: no link found
+type: X reply
+draft: "appreciate the cosign ⭐"
+
+*3. JessieJanie/aeon-skill-pack-skim* (0d) — shipped x402-metered skill pack, $0.002 USDC/call web reads on Base
+link: https://github.com/JessieJanie/aeon-skill-pack-skim
 type: GitHub comment
-draft: "this is exactly the kind of fork we want to see — a live self-improving instance shipping its own PRs. what's CHORUS optimizing for? would love to add you to ECOSYSTEM.md if you're up for it"
+draft: "x402 metered pay-per-call reads is exactly the pattern we want more skill packs running. catalog-registered yet? send it over for ECOSYSTEM.md"
 
-*2. github:hebridean-tech/x402-pulse* (3 days ago) — filed the same "x402 Pulse" free revenue-analytics issue on both aeon#806 and MiroShark#262 within 2 minutes, tracking 180+ x402 services
-link: https://github.com/aeonfun/aeon/issues/806
+*4. LSO-AI/aeon-skills* (0d) — org shipped broad AEON skill suite (weather/crypto/macro/gov-contracts/oil-leases/audits)
+link: https://github.com/LSO-AI/aeon-skills
 type: GitHub comment
-draft: "checked out pulse.projectveritos.com — solid idea for the x402 wedge. we'll get aeon + miroshark revenue listed. closing the duplicate on the other repo, keeping this one as the tracker"
+draft: "weather to oil leases to audits in one skill suite — this is a real org build, not a toy fork. want it in ECOSYSTEM.md?"
 
-*3. aging @0xNurstar* (4 days ago) — ran a live miroshark sim on the OpenAI rogue-agent drama, 3 likes, prime demo moment unamplified
-link: no link found (X search: @0xNurstar sim thread, ~07-30, "OpenAI rogue agent drama")
-type: X reply (from @miroshark_)
-draft: "🦈 this is the demo. rogue agent drama simulated in real time, belief drift and all — send us your next scenario"
-
-*4. aging github:saxoji/MiroShark* (5 days ago) — Kain Masunaga, Chairman/CEO of Linkbricks Horizon-AI (308 repos), forked MiroShark 07-13 with own activity
-link: https://github.com/saxoji/MiroShark
-type: GitHub DM
-draft: "saw the fork — Linkbricks is already deep in agent infra. miroshark's the simulation layer most agent stacks are missing: test agent behavior against a live sim before it touches production. worth a call?"
-
-*5. aging github:HKUDS/Vibe-Trading* (9 days ago, recurring — drafted 07-25, 07-26, 07-31, 08-01, still unshipped) — aeon's security bot merged PR #390 (Pillow+langchain CVE fix) into this 27k★ trading platform on 07-05
+*5. HKUDS/Vibe-Trading* (11d, aging) — 27k★ repo, aeon security bot's PR #390 merged 07-05, redrafted 6x since 07-25, still not shipped
 link: https://github.com/HKUDS/Vibe-Trading/pull/390
-type: X post (from @aeonframework) + GitHub DM
-draft (X post): "⭐ aeon's vuln-scanner found and fixed a Pillow/langchain CVE on Vibe-Trading (27k★) — merged. outbound security work turning into inbound trust. this is what the bot's for"
-draft (GitHub DM to HKUDS maintainer): "our security bot's PR #390 landed a few weeks back — want to make it official? happy to co-announce and add Vibe-Trading to ECOSYSTEM.md"
+type: X post
+draft: "27k★ repo. our fix merged clean, zero back-and-forth. aeon vuln-scanner working exactly as designed ⭐"
 
-some opps aging — act or drop. HKUDS/Vibe-Trading has been redrafted 5 times without shipping — ship it or drop it from the queue.
+some opps aging — act or drop. HKUDS/Vibe-Trading has been redrafted 6 times since 07-25 with no post — ship it today or pull it from the queue.
