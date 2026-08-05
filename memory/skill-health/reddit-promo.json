@@ -1,0 +1,14 @@
+{
+  "skill": "reddit-promo",
+  "last_analyzed": "2026-08-05T22:46:40Z",
+  "quality_score": 4,
+  "assessment": "Complete end-to-end execution with well-reasoned story selection, targeted multi-subreddit drafts, proper deduplication tracking, and appropriate logging.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-08-05",
+      "score": 4
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo Drafts",
+        "description": "Reddit Promo — 2026-08-05"
+      },
+      "children": [
+        "story-section",
+        "sep-1",
+        "proof-section",
+        "sep-2",
+        "posts-section"
+      ]
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-heading",
+        "story-text",
+        "story-link"
+      ]
+    },
+    "story-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon's vuln-scanner skill found and shipped a fix into infra serving tens of billions of requests (merged in 3h) — now aeonframework is pushing builders to fork it and hunt their own bug bounties."
+      }
+    },
+    "story-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/aeonframework/status/2084618749525553171",
+        "href": "https://x.com/aeonframework/status/2084618749525553171"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "proof-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "proof-heading",
+        "proof-text",
+        "proof-link"
+      ]
+    },
+    "proof-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Proof point",
+        "level": "h3"
+      }
+    },
+    "proof-text": {
+      "type": "Text",
+      "props": {
+        "text": "unprompted third-party BD read framing the Tencent fix as a pricing-gap signal"
+      }
+    },
+    "proof-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/DegenOnBase_/status/2083178423837692259",
+        "href": "https://x.com/DegenOnBase_/status/2083178423837692259"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "posts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "post-1",
+        "post-2",
+        "post-3",
+        "post-4",
+        "post-5"
+      ]
+    },
+    "post-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p1-meta",
+        "p1-title",
+        "p1-body-1",
+        "p1-body-2",
+        "p1-body-3",
+        "p1-link",
+        "p1-notes"
+      ]
+    },
+    "p1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-badge-sub",
+        "p1-badge-type"
+      ]
+    },
+    "p1-badge-sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/OpenSourceAI",
+        "variant": "default"
+      }
+    },
+    "p1-badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "p1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Open-sourced a vuln-scanner skill for autonomous agents — it already found a live bug in infra serving tens of billions of requests",
+        "level": "h4"
+      }
+    },
+    "p1-body-1": {
+      "type": "Text",
+      "props": {
+        "text": "We ship Aeon as a fork-and-configure agent framework — skills are just markdown files (SKILL.md) that run unattended on GitHub Actions, no approval loop, no human clicking \"go.\"",
+        "variant": "body"
+      }
+    },
+    "p1-body-2": {
+      "type": "Text",
+      "props": {
+        "text": "Last week one of those skills — a vuln-scanner — found a real vulnerability in Tencent-scale infra. The fix got merged in 3 hours. Nobody prompted the scan, nobody babysat the PR. It ran on its schedule and did its job.",
+        "variant": "body"
+      }
+    },
+    "p1-body-3": {
+      "type": "Text",
+      "props": {
+        "text": "We're not selling \"AI finds bugs\" as a headline. We're showing the mechanic: fork the repo, the vuln-scanner skill is already in there, point it at your own stack and see what it turns up. If it finds something, that bounty's yours, not ours.",
+        "variant": "body"
+      }
+    },
+    "p1-link": {
+      "type": "Link",
+      "props": {
+        "label": "Repo: https://github.com/aaronjmars/aeon",
+        "href": "https://github.com/aaronjmars/aeon"
+      }
+    },
+    "p1-notes": {
+      "type": "Text",
+      "props": {
+        "text": "disclosing as the builder (I work on Aeon). Sub leans OSS-enthusiast — kept it mechanic-first, no hype language.",
+        "variant": "caption"
+      }
+    },
+    "post-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p2-meta",
+        "p2-title",
+        "p2-body-1",
+        "p2-body-2",
+        "p2-body-3",
+        "p2-link",
+        "p2-notes"
+      ]
+    },
+    "p2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p2-badge-sub",
+        "p2-badge-type"
+      ]
+    },
+    "p2-badge-sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/CoolGithubProjects",
+        "variant": "default"
+      }
+    },
+    "p2-badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "github",
+        "variant": "secondary"
+      }
+    },
+    "p2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon - open-source agent framework whose vuln-scanner skill already found a real bug in billion-request infra",
+        "level": "h4"
+      }
+    },
+    "p2-body-1": {
+      "type": "Text",
+      "props": {
+        "text": "What it is: Aeon is a fork-and-configure framework for autonomous agents. Skills are markdown files that run on a schedule via GitHub Actions — no approval loop, no persistent server to babysit.",
+        "variant": "body"
+      }
+    },
+    "p2-body-2": {
+      "type": "Text",
+      "props": {
+        "text": "Why it's here: one of the built-in skills is a vuln-scanner. Last week it found a real vulnerability in infra that serves tens of billions of requests (Tencent-scale), and the fix was merged in 3 hours. Nobody triggered it manually — it ran on cron and did its job.",
+        "variant": "body"
+      }
+    },
+    "p2-body-3": {
+      "type": "Text",
+      "props": {
+        "text": "Stack: Claude Code + GitHub Actions + markdown skills + a self-repair loop that files and fixes its own regressions.",
+        "variant": "body"
+      }
+    },
+    "p2-link": {
+      "type": "Link",
+      "props": {
+        "label": "Repo: https://github.com/aaronjmars/aeon",
+        "href": "https://github.com/aaronjmars/aeon"
+      }
+    },
+    "p2-notes": {
+      "type": "Text",
+      "props": {
+        "text": "r/CoolGithubProjects requires the \"Aeon - <desc>\" title format — followed exactly. Repo link is the payload per sub rules; no extra links added.",
+        "variant": "caption"
+      }
+    },
+    "post-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p3-meta",
+        "p3-title",
+        "p3-body-1",
+        "p3-body-2",
+        "p3-body-3",
+        "p3-link",
+        "p3-notes"
+      ]
+    },
+    "p3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p3-badge-sub",
+        "p3-badge-type"
+      ]
+    },
+    "p3-badge-sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/CLaudeSkills",
+        "variant": "default"
+      }
+    },
+    "p3-badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "claude-skills",
+        "variant": "secondary"
+      }
+    },
+    "p3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Our vuln-scanner skill (literally a markdown file) just found a real bug in Tencent-scale infra",
+        "level": "h4"
+      }
+    },
+    "p3-body-1": {
+      "type": "Text",
+      "props": {
+        "text": "If you're already writing Claude-style skills, this is a concrete example of what a SKILL.md running unattended can actually do.",
+        "variant": "body"
+      }
+    },
+    "p3-body-2": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon's skills are exactly that — markdown files with frontmatter (name, schedule, mode: read-only or write) that a headless Claude Code run reads and executes on a GitHub Actions cron. No wrapper app, no orchestration layer beyond the workflow file.",
+        "variant": "body"
+      }
+    },
+    "p3-body-3": {
+      "type": "Text",
+      "props": {
+        "text": "One of ours is a vuln-scanner skill. It found a real vulnerability in infra serving tens of billions of requests last week, and the fix got merged in 3 hours — the skill ran on schedule, nobody prompted it.",
+        "variant": "body"
+      }
+    },
+    "p3-link": {
+      "type": "Link",
+      "props": {
+        "label": "Repo: https://github.com/aaronjmars/aeon",
+        "href": "https://github.com/aaronjmars/aeon"
+      }
+    },
+    "p3-notes": {
+      "type": "Text",
+      "props": {
+        "text": "audience is technical — kept the skill-shape explanation concrete instead of marketing-y; disclosed as the builder.",
+        "variant": "caption"
+      }
+    },
+    "post-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p4-meta",
+        "p4-title",
+        "p4-body-1",
+        "p4-body-2",
+        "p4-body-3",
+        "p4-link",
+        "p4-notes"
+      ]
+    },
+    "p4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p4-badge-sub",
+        "p4-badge-type"
+      ]
+    },
+    "p4-badge-sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/Agent_AI",
+        "variant": "default"
+      }
+    },
+    "p4-badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "p4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "An autonomous vuln-scanner agent found and shipped a fix into billion-request infra — unattended, no approval loop",
+        "level": "h4"
+      }
+    },
+    "p4-body-1": {
+      "type": "Text",
+      "props": {
+        "text": "Most \"autonomous agent\" demos still have a human clicking approve somewhere. Ours doesn't — that's the actual comparison worth making.",
+        "variant": "body"
+      }
+    },
+    "p4-body-2": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon runs skills on GitHub Actions cron. Last week the vuln-scanner skill found a real vulnerability in infra serving tens of billions of requests, and the fix merged in 3 hours. No approval step, no babysitting — it ran on schedule like every other skill, and a self-repair loop handles the failures that come up.",
+        "variant": "body"
+      }
+    },
+    "p4-body-3": {
+      "type": "Text",
+      "props": {
+        "text": "A market participant flagged this unprompted as one of the biggest pricing gaps in the space right now — more validating than anything we could've said ourselves.",
+        "variant": "body"
+      }
+    },
+    "p4-link": {
+      "type": "Link",
+      "props": {
+        "label": "Repo: https://github.com/aaronjmars/aeon",
+        "href": "https://github.com/aaronjmars/aeon"
+      }
+    },
+    "p4-notes": {
+      "type": "Text",
+      "props": {
+        "text": "no vendor-vs-vendor trash talk, kept the comparison to the autonomy axis only. Disclosed as builder.",
+        "variant": "caption"
+      }
+    },
+    "post-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p5-meta",
+        "p5-title",
+        "p5-body-1",
+        "p5-body-2",
+        "p5-body-3",
+        "p5-link",
+        "p5-notes"
+      ]
+    },
+    "p5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p5-badge-sub",
+        "p5-badge-type"
+      ]
+    },
+    "p5-badge-sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/StartupMind",
+        "variant": "default"
+      }
+    },
+    "p5-badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "secondary"
+      }
+    },
+    "p5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Building in public: our open-source security agent found a real bug last week, and a stranger flagged it as one of the biggest gaps in our category — unprompted",
+        "level": "h4"
+      }
+    },
+    "p5-body-1": {
+      "type": "Text",
+      "props": {
+        "text": "Quick building-in-public update. Aeon is an open-source framework where \"skills\" (markdown files) run unattended on a schedule. One of them is a vuln-scanner.",
+        "variant": "body"
+      }
+    },
+    "p5-body-2": {
+      "type": "Text",
+      "props": {
+        "text": "Last week it found a real vulnerability in infra serving tens of billions of requests. The fix got merged in 3 hours. We didn't write a thread about it — someone else did, unprompted, framing it as evidence of a pricing gap in our category. That's the kind of validation you can't manufacture.",
+        "variant": "body"
+      }
+    },
+    "p5-body-3": {
+      "type": "Text",
+      "props": {
+        "text": "No growth hack here, just: ship the thing, let it run, let people notice on their own time.",
+        "variant": "body"
+      }
+    },
+    "p5-link": {
+      "type": "Link",
+      "props": {
+        "label": "Site: https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "p5-notes": {
+      "type": "Text",
+      "props": {
+        "text": "r/StartupMind smells growth-hacky tone fast — kept it to one honest traction beat, no CTA stacking. Disclosed as founder (\"I work on Aeon\").",
+        "variant": "caption"
+      }
+    }
+  }
+}
