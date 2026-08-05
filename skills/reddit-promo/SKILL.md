@@ -47,7 +47,7 @@ Do **not** call `./secretcurl`, `x-cli`, or any X API — the point is to reuse 
 5. **Choose a few subreddits.** Read `memory/topics/reddit-subreddits.md` for the target table + the two link legends (fall back to the built-in default list below if missing). If `var` names subreddits, use only those. Otherwise pick the **3-5** whose archetype best fits the story's `kind` — a `shipped` code story fits `github`/`claude-skills`/`open-source`; a `metric`/`endorsement` fits `startup`/`agents`/`community`. Do not draft all 13 in one run.
 
    **Resolve links for each chosen subreddit:**
-   - **Canonical link** (goes in the post body) — resolve the row's `link` token via the config's "Canonical links" table: `repo` → `https://github.com/aaronjmars/aeon`, `site` → `https://aeon.fun`, `miroshark` → `https://github.com/aaronjmars/MiroShark`, `xpost` → the story's source tweet URL.
+   - **Canonical link** (goes in the post body) — resolve the row's `link` token via the config's "Canonical links" table: `repo` → `https://github.com/aeonfun/aeon`, `site` → `https://aeon.fun`, `miroshark` → `https://github.com/miroshark/miroshark`, `xpost` → the story's source tweet URL.
    - **Submit link** (one-click post) — build `https://www.reddit.com/r/<name>/submit?title=<url-encoded title>` where `<name>` is the subreddit without `r/` and the title is percent-encoded (space→`%20`, etc.). This opens the composer with the title pre-filled; the operator pastes the body.
 
 6. **Draft one post per chosen subreddit** using its **Archetype** (below). Each draft is independent copy-paste-ready text — **never identical across subs** (Reddit's spam filter flags cross-posted duplicates). Vary title and opening per sub. Each draft has:
