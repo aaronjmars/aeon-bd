@@ -15,9 +15,9 @@ The `link` column names which URL to embed in the drafted post body:
 
 | token | URL |
 |-------|-----|
-| repo | https://github.com/aaronjmars/aeon |
+| repo | https://github.com/aeonfun/aeon |
 | site | https://aeon.fun |
-| miroshark | https://github.com/aaronjmars/MiroShark |
+| miroshark | https://github.com/miroshark/miroshark |
 | xpost | the source tweet URL for the story (from the fetch-tweets output) |
 
 ## Submit links (how to POST it — one click)
