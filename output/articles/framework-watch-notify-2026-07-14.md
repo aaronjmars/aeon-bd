@@ -1,3 +1,7 @@
+---
+type: Article
+---
+
 **AI Framework Watch — 2026-07-14**
 
 RELEASE WEEK: 5 frameworks shipped — aeon ⭐, langgraph, crewai, mastra, pydantic-ai
