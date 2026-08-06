@@ -1,0 +1,233 @@
+{
+  "root": "card-mention-radar",
+  "state": {},
+  "elements": {
+    "card-mention-radar": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-08-06"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-section",
+        "separator-1",
+        "miroshark-section",
+        "separator-2",
+        "engagement-section"
+      ]
+    },
+    "aeon-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-aeon",
+        "badge-aeon-quiet",
+        "text-aeon-mentions",
+        "stack-aeon-github"
+      ]
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "badge-aeon-quiet": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET",
+        "variant": "secondary"
+      }
+    },
+    "text-aeon-mentions": {
+      "type": "Text",
+      "props": {
+        "text": "No external mentions (X api, http=200, 07-30→08-06 window: zero qualifying posts by others) or web (Reddit/HN/PH/Farcaster all QUIET)",
+        "variant": "body"
+      }
+    },
+    "stack-aeon-github": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-aeon-github",
+        "stat-aeon-stars",
+        "stat-aeon-forks",
+        "text-aeon-threshold"
+      ]
+    },
+    "heading-aeon-github": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub",
+        "level": "h3"
+      }
+    },
+    "stat-aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "594",
+        "delta": "+3",
+        "trend": "up"
+      }
+    },
+    "stat-aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "216",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "text-aeon-threshold": {
+      "type": "Text",
+      "props": {
+        "text": "Below notable threshold (vs 08-04)",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-miroshark",
+        "badge-miroshark-quiet",
+        "text-miroshark-product",
+        "text-miroshark-web",
+        "stack-miroshark-github"
+      ]
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "badge-miroshark-quiet": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET",
+        "variant": "secondary"
+      }
+    },
+    "text-miroshark-product": {
+      "type": "Text",
+      "props": {
+        "text": "QUIET on product discussion — X api (http=200) found nothing but $MIROSHARK ticker/price noise, no genuine product mentions",
+        "variant": "body"
+      }
+    },
+    "text-miroshark-web": {
+      "type": "Text",
+      "props": {
+        "text": "Web (Reddit/HN/PH/Farcaster) QUIET",
+        "variant": "body"
+      }
+    },
+    "stack-miroshark-github": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-miroshark-github",
+        "stat-miroshark-stars",
+        "stat-miroshark-forks",
+        "text-miroshark-notable"
+      ]
+    },
+    "heading-miroshark-github": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub",
+        "level": "h3"
+      }
+    },
+    "stat-miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1424",
+        "delta": "+10",
+        "trend": "up"
+      }
+    },
+    "stat-miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "298",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "text-miroshark-notable": {
+      "type": "Text",
+      "props": {
+        "text": "Notable jump, no visible driver (no press/social spike found this cycle) (vs 08-04)",
+        "variant": "caption"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-engagement",
+        "text-engagement"
+      ]
+    },
+    "heading-engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "text-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "None flagged this cycle — no qualifying mentions found.",
+        "variant": "body"
+      }
+    }
+  }
+}
