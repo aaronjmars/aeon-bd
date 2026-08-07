@@ -1,16 +1,21 @@
-*Top Tweets — Aeon + Miroshark (2026-08-02)*
-_Quiet 24h — the one real signal is Aeon shipping live overnight and getting unprompted outside validation, plus both tokens showing up together on a Bankr snapshot._
+*Top Tweets — Aeon + Miroshark (2026-08-07)*
+_Eyebrow's security integration is today's real story — a wallet/payments integration and a trending-list mention ride alongside it; a wave of $AEON-ticker chatter (a different, unrelated token) was filtered out._
 
-*Aeon ships live, gets outside validation*
-1. x.com/aaronjmars — Aeon autonomously designed and deployed 5 new Uniswap v4 hooks overnight (ZigZagMandate, Volume Ladder, HeavierHand, PoliteTip, Block Echo) — concrete unsupervised on-chain output, not a demo.
-Likes: 24 | RTs: 3 | Replies: 2
-[View tweet](https://x.com/aaronjmars/status/2083681374708572451)
+*Eyebrow ships automated security on Aeon*
+1. x.com/eyebrowCC — Every Aeon skill is now auto-verified by eyebrow's fingerprinting engine before merge; tamper with one after approval and the build fails. Aeon is eyebrow's 2nd integration since launch — #3 and #4 already underway.
+Likes: 30 | RTs: 5 | Replies: 11
+[View tweet](https://x.com/eyebrowCC/status/2085402998650417586)
 
-2. x.com/klimonchain — Outside dev calls the ZigZagMandate hook logic "insane" and flags it as bot-resistant — first unprompted technical validation of last night's build.
+2. x.com/takeru_L2 — Reacting to the "nothing to forget" line: calls it the whole pitch in three words.
 Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/klimonchain/status/2083682076239253565)
+[View tweet](https://x.com/takeru_L2/status/2085428741736747300)
 
-*Bankr trending*
-3. x.com/AIonBase_ — Bankr's 24h overview lists $aeon in both "top gainers" and "most traded," with $MiroShark also top-gainer — first time both tokens land on the same tracker snapshot together.
-Likes: 29 | RTs: 2 | Replies: 3
-[View tweet](https://x.com/AIonBase_/status/2083341944491536625)
+*Agent Wallet brings on-chain payments to Aeon agents*
+3. x.com/FD_XYZ — Agent Wallet goes live as a supported Aeon wallet: multichain, native x402 payments, one connect flow to give any agent a real on-chain wallet.
+Likes: 12 | RTs: 2 | Replies: 3
+[View tweet](https://x.com/FD_XYZ/status/2085251666853691530)
+
+*Trending visibility*
+4. x.com/AIonBase_ — Lists $aeon among the top 10 trending AI tokens on Base in the last 24h, alongside Virtuals, Bankr, and Venice.
+Likes: 38 | RTs: 1 | Replies: 8
+[View tweet](https://x.com/AIonBase_/status/2085222684292735461)
