@@ -31,8 +31,8 @@
     "last_dispatch": "2026-07-26T07:57:13Z"
   },
   "fetch-tweets": {
-    "last_dispatch": "2026-08-06T23:59:06Z",
-    "last_status": "success",
+    "last_dispatch": "2026-08-07T17:15:25Z",
+    "last_status": "dispatched",
     "last_success": "2026-08-07T00:06:55Z",
     "total_runs": 57,
     "total_successes": 57,
