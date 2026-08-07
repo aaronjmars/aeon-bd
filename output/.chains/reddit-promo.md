@@ -1,41 +1,80 @@
-ℹ️ Reddit Promo — 2026-08-05
+ℹ️ Reddit Promo — 2026-08-07
 
-*Reddit Promo — 2026-08-05*
+*Reddit Promo — 2026-08-07*
 
-_Story:_ Aeon shipped multi-model support (Kimi Moonshot as a selectable model — same skills/schedules/Telegram control, different LLM underneath) — https://x.com/aeonframework/status/2082801981467373635
-
-_Note: two other stories (Tencent vuln-scanner fix, Uniswap v4 hooks) already ran through 5+4 subreddits earlier today. Only 4 subs are untouched today (r/LovingAI, r/Ollama, r/MiroFish, r/OpenClawInstall) — of those, only the first two fit this story's archetype (open-source/self-host), so this run is 2 drafts, not 3-5, to avoid same-day duplicate submissions to the same sub._
+_Story:_ Aeon shipped support for Mistral's Vibe harness — no longer locked to a single harness/runtime — https://x.com/aeonframework/status/2083180505315291454
 
 ---
-*r/LovingAI* · archetype: open-source
-*Title:* Built an AI agent framework that runs itself, just added support for swapping the LLM underneath
+*r/OpenSourceAI* · archetype: open-source
+*Title:* My open-source agent framework just stopped being harness-locked (added Mistral Vibe support)
 *Body:*
-been building an agent framework that just runs — cron on github actions, no approval loops, no babysitting. set it up once, it works unattended.
+Been building Aeon for a few months — it's a fork-and-configure agent framework, AGPL, skills are just markdown files (`SKILL.md`) that run on GitHub Actions cron. No approval loops, no babysitting, self-repairs its own skills.
 
-this week added multi-model support. same skills, same schedules, same telegram control — just pick a different LLM underneath (kimi moonshot is the newest option). no rewrite, no re-config. the harness doesn't care what's powering it.
+Up to now every instance ran through one harness. That changed this week — Aeon added support for Mistral's Vibe harness alongside the original one. Same skill files, same cron/chain/self-repair machinery, different engine underneath running them. If you don't want to be locked into a single vendor's runtime to run an autonomous agent, that's now optional.
 
-someone already forked it and plugged the framework's soul.md prompts into their own project to build persona clones off a different corpus — not us talking about ourselves, a random builder actually using it for something we didn't build (https://x.com/dev0xx_/status/2084050680616996896).
+Still early — one additional harness, not a marketplace of them yet — but the architecture was built to make this swap possible instead of hard-coded.
 
-it's open source (AGPL): https://aeon.fun
+Repo: https://github.com/aeonfun/aeon
 
-i built this. happy to answer questions about the setup or the model-swapping bit specifically.
-*Link in post:* https://aeon.fun
-*Post here:* [Open r/LovingAI composer](https://www.reddit.com/r/LovingAI/submit?title=Built%20an%20AI%20agent%20framework%20that%20runs%20itself%2C%20just%20added%20support%20for%20swapping%20the%20LLM%20underneath)
-_notes: general AI enthusiast sub, keep jargon low — lead with the mechanic not the pitch, disclose "i built this."_
-
----
-*r/Ollama* · archetype: open-source
-*Title:* Self-hosted agent framework that swaps LLMs without touching your setup (runs on GitHub Actions, no server needed)
-*Body:*
-if you're the type running local models because you don't want to be locked into one provider — built something adjacent. an agent framework that runs unattended on github actions (no server to babysit, no approval loop), and this week it went model-agnostic: same skills/schedules, different LLM underneath, kimi moonshot is the latest add.
-
-own your stack is the whole point — you're not welded to one model provider, and the "skills" are just markdown files you can read/fork/edit yourself.
-
-a third-party builder already forked the repo and used it plug-and-play — wired the project's own soul.md prompts into their build to generate persona clones from a different corpus. real usage, not us hyping ourselves (https://x.com/dev0xx_/status/2084050680616996896).
-
-repo's open source (AGPL): https://github.com/aeonfun/aeon
-
-i work on this, happy to answer setup questions.
+Happy to answer questions about the skill/harness split or the self-repair loop.
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Ollama composer](https://www.reddit.com/r/Ollama/submit?title=Self-hosted%20agent%20framework%20that%20swaps%20LLMs%20without%20touching%20your%20setup%20%28runs%20on%20GitHub%20Actions%2C%20no%20server%20needed%29)
-_notes: self-hosting crowd respects "own your stack" framing — keep it repo-first, disclose "i work on this."_
+*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=My%20open-source%20agent%20framework%20just%20stopped%20being%20harness-locked%20%28added%20Mistral%20Vibe%20support%29)
+_notes: self-promo-friendly sub, but keep the 9:1 ratio in mind if posting again soon; disclose as the builder ("I built Aeon"), not a neutral discovery._
+
+---
+*r/CoolGithubProjects* · archetype: github
+*Title:* Aeon - an autonomous agent framework that just added a second supported harness (Mistral Vibe)
+*Body:*
+Aeon (https://github.com/aeonfun/aeon) is a fork-and-configure agent framework — skills are markdown files that run on a cron via GitHub Actions, no approval loop, self-repairs when a skill starts failing.
+
+This week's shipped change: it's no longer locked to a single harness. Mistral's Vibe harness is now a supported runtime alongside the original — same skills, same scheduling, different engine.
+
+Open source, AGPL. The repo has the skill format and setup docs if you want to see how the markdown-skill mechanic actually works.
+
+https://github.com/aeonfun/aeon
+
+Happy to answer questions in the comments.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20an%20autonomous%20agent%20framework%20that%20just%20added%20a%20second%20supported%20harness%20%28Mistral%20Vibe%29)
+_notes: strict title-format sub — keep "Aeon - <desc>" exactly as posted; disclose as the builder in a comment if it's not obvious from the title._
+
+---
+*r/Agent_AI* · archetype: agents
+*Title:* Multi-harness support landed in my agent framework this week — curious how others in this sub handle vendor lock-in
+*Body:*
+Posting as the person building Aeon — an agent framework built around three things: skills as markdown, unattended runs on GitHub Actions (cron/chains), and self-repair (a health skill scores runs, a repair skill fixes them by PR).
+
+Until this week, every Aeon instance ran on one harness. That changed — Mistral's Vibe harness is now a supported runtime option next to the original. Doesn't change how skills are written, just what executes them.
+
+Curious how other agent-framework builders here think about this axis — harness portability vs. going deep on one vendor's tooling. We went portable on purpose; the tradeoff is less deep integration with any single harness's specific features.
+
+Repo, if useful: https://github.com/aeonfun/aeon
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=Multi-harness%20support%20landed%20in%20my%20agent%20framework%20this%20week%20-%20curious%20how%20others%20in%20this%20sub%20handle%20vendor%20lock-in)
+_notes: frame as a discussion, not just an announcement — this sub notices vendor-vs-vendor pitches; disclose as the builder up front, no trash-talking other harnesses._
+
+---
+*r/CLaudeSkills* · archetype: claude-skills
+*Title:* Aeon skills are literally markdown files like this — and they now run under more than one harness
+*Body:*
+If you're into Claude Code skills, Aeon skills are the same idea taken further: a `SKILL.md` with frontmatter (`name`, `mode`, `requires`) plus instructions, scheduled by cron, chained into other skills, self-repaired when they start failing. Roughly:
+
+```
+---
+name: reddit-promo
+mode: write
+requires: []
+---
+Turn today's fetch-tweets output into promo drafts...
+```
+
+That's the whole mechanic — no hidden orchestration layer, the skill file IS the instruction set the agent reads.
+
+What's new this week: Aeon isn't locked to running these on a single harness anymore. Mistral's Vibe harness is now supported alongside the original — same skill files, different engine reading them.
+
+Repo (skills + the harness-adapter code): https://github.com/aeonfun/aeon
+
+Genuinely curious what skills people in this sub have written — happy to compare notes.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=Aeon%20skills%20are%20literally%20markdown%20files%20like%20this%20-%20and%20they%20now%20run%20under%20more%20than%20one%20harness)
+_notes: technical audience, respect it — no oversimplifying; disclose as the builder, this sub is fine with show-your-work self-promo._

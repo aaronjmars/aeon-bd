@@ -1,0 +1,421 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-07"
+      },
+      "children": [
+        "story_section",
+        "separator_1",
+        "posts_container"
+      ]
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_label",
+        "story_text",
+        "story_link"
+      ]
+    },
+    "story_label": {
+      "type": "Text",
+      "props": {
+        "text": "Story:",
+        "variant": "lead"
+      }
+    },
+    "story_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon shipped support for Mistral's Vibe harness — no longer locked to a single harness/runtime"
+      }
+    },
+    "story_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/aeonframework/status/2083180505315291454",
+        "href": "https://x.com/aeonframework/status/2083180505315291454"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "posts_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "post_1",
+        "separator_2",
+        "post_2",
+        "separator_3",
+        "post_3",
+        "separator_4",
+        "post_4"
+      ]
+    },
+    "post_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1_meta",
+        "post1_title",
+        "post1_body",
+        "post1_links",
+        "post1_notes"
+      ]
+    },
+    "post1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_sub",
+        "post1_arch"
+      ]
+    },
+    "post1_sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/OpenSourceAI"
+      }
+    },
+    "post1_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "post1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "My open-source agent framework just stopped being harness-locked (added Mistral Vibe support)",
+        "level": "h3"
+      }
+    },
+    "post1_body": {
+      "type": "Text",
+      "props": {
+        "text": "Been building Aeon for a few months — it's a fork-and-configure agent framework, AGPL, skills are just markdown files (SKILL.md) that run on GitHub Actions cron. No approval loops, no babysitting, self-repairs its own skills.\n\nUp to now every instance ran through one harness. That changed this week — Aeon added support for Mistral's Vibe harness alongside the original one. Same skill files, same cron/chain/self-repair machinery, different engine underneath running them. If you don't want to be locked into a single vendor's runtime to run an autonomous agent, that's now optional.\n\nStill early — one additional harness, not a marketplace of them yet — but the architecture was built to make this swap possible instead of hard-coded.\n\nRepo: https://github.com/aeonfun/aeon\n\nHappy to answer questions about the skill/harness split or the self-repair loop."
+      }
+    },
+    "post1_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_repo",
+        "post1_composer"
+      ]
+    },
+    "post1_repo": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post1_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/OpenSourceAI composer",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=My%20open-source%20agent%20framework%20just%20stopped%20being%20harness-locked%20%28added%20Mistral%20Vibe%20support%29"
+      }
+    },
+    "post1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: self-promo-friendly sub, but keep the 9:1 ratio in mind if posting again soon; disclose as the builder (\"I built Aeon\"), not a neutral discovery.",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2_meta",
+        "post2_title",
+        "post2_body",
+        "post2_links",
+        "post2_notes"
+      ]
+    },
+    "post2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_sub",
+        "post2_arch"
+      ]
+    },
+    "post2_sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/CoolGithubProjects"
+      }
+    },
+    "post2_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "github",
+        "variant": "secondary"
+      }
+    },
+    "post2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon - an autonomous agent framework that just added a second supported harness (Mistral Vibe)",
+        "level": "h3"
+      }
+    },
+    "post2_body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon (https://github.com/aeonfun/aeon) is a fork-and-configure agent framework — skills are markdown files that run on a cron via GitHub Actions, no approval loop, self-repairs when a skill starts failing.\n\nThis week's shipped change: it's no longer locked to a single harness. Mistral's Vibe harness is now a supported runtime alongside the original — same skills, same scheduling, different engine.\n\nOpen source, AGPL. The repo has the skill format and setup docs if you want to see how the markdown-skill mechanic actually works.\n\nhttps://github.com/aeonfun/aeon\n\nHappy to answer questions in the comments."
+      }
+    },
+    "post2_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_repo",
+        "post2_composer"
+      ]
+    },
+    "post2_repo": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post2_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CoolGithubProjects composer",
+        "href": "https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20an%20autonomous%20agent%20framework%20that%20just%20added%20a%20second%20supported%20harness%20%28Mistral%20Vibe%29"
+      }
+    },
+    "post2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: strict title-format sub — keep \"Aeon - <desc>\" exactly as posted; disclose as the builder in a comment if it's not obvious from the title.",
+        "variant": "caption"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3_meta",
+        "post3_title",
+        "post3_body",
+        "post3_links",
+        "post3_notes"
+      ]
+    },
+    "post3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_sub",
+        "post3_arch"
+      ]
+    },
+    "post3_sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/Agent_AI"
+      }
+    },
+    "post3_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "post3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Multi-harness support landed in my agent framework this week — curious how others in this sub handle vendor lock-in",
+        "level": "h3"
+      }
+    },
+    "post3_body": {
+      "type": "Text",
+      "props": {
+        "text": "Posting as the person building Aeon — an agent framework built around three things: skills as markdown, unattended runs on GitHub Actions (cron/chains), and self-repair (a health skill scores runs, a repair skill fixes them by PR).\n\nUntil this week, every Aeon instance ran on one harness. That changed — Mistral's Vibe harness is now a supported runtime option next to the original. Doesn't change how skills are written, just what executes them.\n\nCurious how other agent-framework builders here think about this axis — harness portability vs. going deep on one vendor's tooling. We went portable on purpose; the tradeoff is less deep integration with any single harness's specific features.\n\nRepo, if useful: https://github.com/aeonfun/aeon"
+      }
+    },
+    "post3_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_repo",
+        "post3_composer"
+      ]
+    },
+    "post3_repo": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post3_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Agent_AI composer",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=Multi-harness%20support%20landed%20in%20my%20agent%20framework%20this%20week%20-%20curious%20how%20others%20in%20this%20sub%20handle%20vendor%20lock-in"
+      }
+    },
+    "post3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: frame as a discussion, not just an announcement — this sub notices vendor-vs-vendor pitches; disclose as the builder up front, no trash-talking other harnesses.",
+        "variant": "caption"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post4_meta",
+        "post4_title",
+        "post4_body",
+        "post4_links",
+        "post4_notes"
+      ]
+    },
+    "post4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_sub",
+        "post4_arch"
+      ]
+    },
+    "post4_sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/CLaudeSkills"
+      }
+    },
+    "post4_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "claude-skills",
+        "variant": "secondary"
+      }
+    },
+    "post4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon skills are literally markdown files like this — and they now run under more than one harness",
+        "level": "h3"
+      }
+    },
+    "post4_body": {
+      "type": "Text",
+      "props": {
+        "text": "If you're into Claude Code skills, Aeon skills are the same idea taken further: a `SKILL.md` with frontmatter (`name`, `mode`, `requires`) plus instructions, scheduled by cron, chained into other skills, self-repaired when they start failing. Roughly:\n\n---\nname: reddit-promo\nmode: write\nrequires: []\n---\nTurn today's fetch-tweets output into promo drafts...\n\nThat's the whole mechanic — no hidden orchestration layer, the skill file IS the instruction set the agent reads.\n\nWhat's new this week: Aeon isn't locked to running these on a single harness anymore. Mistral's Vibe harness is now supported alongside the original — same skill files, different engine reading them.\n\nRepo (skills + the harness-adapter code): https://github.com/aeonfun/aeon\n\nGenuinely curious what skills people in this sub have written — happy to compare notes."
+      }
+    },
+    "post4_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_repo",
+        "post4_composer"
+      ]
+    },
+    "post4_repo": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post4_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CLaudeSkills composer",
+        "href": "https://www.reddit.com/r/CLaudeSkills/submit?title=Aeon%20skills%20are%20literally%20markdown%20files%20like%20this%20-%20and%20they%20now%20run%20under%20more%20than%20one%20harness"
+      }
+    },
+    "post4_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: technical audience, respect it — no oversimplifying; disclose as the builder, this sub is fine with show-your-work self-promo.",
+        "variant": "caption"
+      }
+    }
+  }
+}
