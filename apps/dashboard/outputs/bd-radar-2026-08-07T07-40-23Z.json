@@ -1,0 +1,205 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar"
+      },
+      "children": [
+        "stat_leads",
+        "separator_1",
+        "lead_1_stack",
+        "separator_2",
+        "lead_2_stack",
+        "separator_3",
+        "lead_3_stack",
+        "separator_4",
+        "digest_link"
+      ]
+    },
+    "stat_leads": {
+      "type": "Stat",
+      "props": {
+        "value": "3",
+        "label": "new building leads today"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "lead_1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead_1_header",
+        "lead_1_body"
+      ]
+    },
+    "lead_1_header": {
+      "type": "Badge",
+      "props": {
+        "text": "paperclipai/companies",
+        "variant": "secondary"
+      }
+    },
+    "lead_1_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_1_p1",
+        "lead_1_p2",
+        "lead_1_p3",
+        "lead_1_p4"
+      ]
+    },
+    "lead_1_p1": {
+      "type": "Text",
+      "props": {
+        "text": "Shipping \"Aeon Intelligence\" as a premade product on their agent-marketplace (paperclip.ing) since March."
+      }
+    },
+    "lead_1_p2": {
+      "type": "Text",
+      "props": {
+        "text": "32 skills, straight off aaronjmars/aeon, 826★ on the repo."
+      }
+    },
+    "lead_1_p3": {
+      "type": "Text",
+      "props": {
+        "text": "5 months live and we're just catching it now."
+      }
+    },
+    "lead_1_p4": {
+      "type": "Text",
+      "props": {
+        "text": "Worth a DM — that's a distribution channel sitting there for free."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "lead_2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead_2_header",
+        "lead_2_body"
+      ]
+    },
+    "lead_2_header": {
+      "type": "Badge",
+      "props": {
+        "text": "alexverify",
+        "variant": "secondary"
+      }
+    },
+    "lead_2_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_2_p1",
+        "lead_2_p2",
+        "lead_2_p3"
+      ]
+    },
+    "lead_2_p1": {
+      "type": "Text",
+      "props": {
+        "text": "Already merged a security fix into core aeon (PR #811)."
+      }
+    },
+    "lead_2_p2": {
+      "type": "Text",
+      "props": {
+        "text": "Building agentguard — trust layer for skills/MCPs."
+      }
+    },
+    "lead_2_p3": {
+      "type": "Text",
+      "props": {
+        "text": "Natural integration partner."
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "lead_3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead_3_header",
+        "lead_3_body"
+      ]
+    },
+    "lead_3_header": {
+      "type": "Badge",
+      "props": {
+        "text": "xalil05",
+        "variant": "secondary"
+      }
+    },
+    "lead_3_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_3_p1",
+        "lead_3_p2",
+        "lead_3_p3"
+      ]
+    },
+    "lead_3_p1": {
+      "type": "Text",
+      "props": {
+        "text": "Solo builder, 2+ months of real work forking MiroShark into a trilingual (FR/EN/中文) build."
+      }
+    },
+    "lead_3_p2": {
+      "type": "Text",
+      "props": {
+        "text": "Project name: ProjecSen."
+      }
+    },
+    "lead_3_p3": {
+      "type": "Text",
+      "props": {
+        "text": "Genuine sustained shipper, not a drive-by."
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "digest_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest",
+        "href": "output/articles/bd-radar-2026-08-07.md",
+        "source": "bd-radar"
+      }
+    }
+  }
+}

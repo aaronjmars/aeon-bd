@@ -1,15 +1,11 @@
-ℹ️ BD Radar — 5 new building leads
+ℹ️ BD Radar
 
-## bd radar — 5 new building leads ⭐
+bd-radar: 3 new building leads today.
 
-skill pack season. 5 orgs/builders shipped on aeon in the last 24-48h:
+biggest one — **paperclipai/companies** has been shipping "Aeon Intelligence" as a premade product on their agent-marketplace (paperclip.ing) since March. 32 skills, straight off aaronjmars/aeon, 826★ on the repo. 5 months live and we're just catching it now. worth a DM — that's a distribution channel sitting there for free.
 
-- **JessieJanie** — x402 skim reads, $0.002/call on base
-- **LSO-AI** — full skill suite (weather, crypto, macro, gov contracts, oil leases)
-- **verdikta** — ai-judged bounty hunter with spend caps
-- **financedistrict-platform** — companion repo for the wallet skill (#791) — check if that's them or you
-- **AI2Human** — already on your radar from mention-radar yesterday. now catalog-merged (#812) + they just went live with a real 1 usdc pilot on base, tagged you directly
+also: **alexverify** — already merged a security fix into core aeon (PR #811), building agentguard (trust layer for skills/MCPs). natural integration partner.
 
-3 orgs shipping same day is a pattern, not noise. worth a look at who's building the biggest thing.
+and **xalil05** — solo builder, 2+ months of real work forking MiroShark into a trilingual (FR/EN/中文) build, "ProjecSen." genuine sustained shipper, not a drive-by.
 
-full digest: `output/articles/bd-radar-2026-08-05.md`
+full digest: output/articles/bd-radar-2026-08-07.md
