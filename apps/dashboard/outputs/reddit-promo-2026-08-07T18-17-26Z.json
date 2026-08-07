@@ -1,0 +1,415 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-07"
+      },
+      "children": [
+        "story-section",
+        "separator-1",
+        "post-1",
+        "separator-2",
+        "post-2",
+        "separator-3",
+        "post-3",
+        "separator-4",
+        "post-4"
+      ]
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-heading",
+        "story-text",
+        "story-link"
+      ]
+    },
+    "story-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "story-text": {
+      "type": "Text",
+      "props": {
+        "text": "you.com — a billion-dollar company — shipped an official skill into Aeon, and Aaron publicly thanked them. Same week Eyebrow shipped automated security auto-verification for every Aeon skill (2nd third-party integration since launch), and Agent Wallet shipped native on-chain payments.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "story-link": {
+      "type": "Link",
+      "props": {
+        "label": "See the X.com post",
+        "href": "https://x.com/Ozzxy/status/2085745642572272026"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-1-badges",
+        "post-1-title",
+        "post-1-body",
+        "post-1-link",
+        "post-1-composer",
+        "post-1-notes"
+      ]
+    },
+    "post-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post-1-subreddit",
+        "post-1-archetype"
+      ]
+    },
+    "post-1-subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/aiecosystem",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "post-1-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: agents",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "post-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "you.com shipped an official skill into an open-source agent framework this week",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "post-1-body": {
+      "type": "Text",
+      "props": {
+        "text": "you.com — the search company, not a hobby project — just shipped an official skill into Aeon, an open-source agent framework. framed by the person who spotted it as \"adoption not hype\": a company with real users contributing directly to the ecosystem instead of just name-dropping it in a blog post.\n\nit lands in the same week as two other integrations: Eyebrow shipped automated security — every Aeon skill now gets auto-verified and fingerprinted before merge, and tampering after approval fails the build. Agent Wallet shipped native multichain x402 payments so agents can transact with one connect flow.\n\nwhat's actually interesting here isn't any single integration — it's that all three showed up independently, same week, with no coordinated launch. that's what \"ecosystem growing on its own\" looks like versus a framework that only gets used by the people who built it.\n\nAeon's the autonomous-agent-framework part of this: skills are markdown files, run unattended on GitHub Actions via cron, self-repair when they break, all traces public. link: https://aeon.fun — happy to answer questions on how the skill/integration model works.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Framework",
+        "href": "https://aeon.fun"
+      },
+      "children": []
+    },
+    "post-1-composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=you.com%20shipped%20an%20official%20skill%20into%20an%20open-source%20agent%20framework%20this%20week"
+      },
+      "children": []
+    },
+    "post-1-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: general self-promo tolerance, but lead with the ecosystem angle not \"our product\" — post as builder (\"I work on Aeon\"), disclose up front.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-2-badges",
+        "post-2-title",
+        "post-2-body",
+        "post-2-link",
+        "post-2-composer",
+        "post-2-notes"
+      ]
+    },
+    "post-2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post-2-subreddit",
+        "post-2-archetype"
+      ]
+    },
+    "post-2-subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/StartupMind",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "post-2-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: startup",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "post-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "a billion-dollar company shipped an integration into our open-source framework, unprompted",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "post-2-body": {
+      "type": "Text",
+      "props": {
+        "text": "building-in-public update: this week you.com shipped an official skill into Aeon. nobody pitched them, nobody ran a partnership process — they just built it and shipped it, and I found out from the post, not a Slack thread. that's the traction number that actually means something: not impressions, an integration.\n\nsame week, two more: Eyebrow (a security tool) shipped automated verification for every skill merged into Aeon — their second integration since their own launch, with two more in progress on their side. Agent Wallet shipped on-chain payments support. three separate teams, three separate reasons to build on the same open framework, in one week, with zero coordination between them.\n\nI've said this before but it's worth repeating for a startup audience: testnet users and impressions don't matter. someone shipping something that depends on your infra, without being asked, does. that's the only metric that's hard to fake.\n\nAeon is the framework — open-source, skills-as-markdown, runs unattended on GitHub Actions, self-repairs. site: https://aeon.fun. happy to talk through what made it easy enough for a company that size to just ship on top of it.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Framework",
+        "href": "https://aeon.fun"
+      },
+      "children": []
+    },
+    "post-2-composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=a%20billion-dollar%20company%20shipped%20an%20integration%20into%20our%20open-source%20framework%2C%20unprompted"
+      },
+      "children": []
+    },
+    "post-2-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: StartupMind is strict on growth-hacky tone — keep the traction framing honest, no vanity metrics, disclose as founder posting directly.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-3-badges",
+        "post-3-title",
+        "post-3-body",
+        "post-3-link",
+        "post-3-composer",
+        "post-3-notes"
+      ]
+    },
+    "post-3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post-3-subreddit",
+        "post-3-archetype"
+      ]
+    },
+    "post-3-subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/lovingopensourceAI",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "post-3-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: open-source",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "post-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "our AGPL agent framework just got its first skill from a company you have actually used",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "post-3-body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon is an AGPL, fully open-source agent framework — every skill is just a markdown file, no proprietary black box in the middle. this week you.com shipped one of those skill files into the project. not a mention, not a shoutout — an actual contribution, from a company most people reading this have used the product of.\n\nwhat makes this an open-source story and not just a BD story: they could do this *because* it's open. no partnership NDA, no API waitlist, no enterprise sales call. clone the repo, write a markdown file, ship it. same week Eyebrow (security) and Agent Wallet (payments) did the same thing independently.\n\nthat's the actual pitch for open infrastructure — the barrier to a company shipping on top of your project is \"can they read the code,\" not \"did they sign the deal.\" repo: https://github.com/aeonfun/aeon. happy to answer anything about the skill format or how contributions get merged.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon GitHub Repository",
+        "href": "https://github.com/aeonfun/aeon"
+      },
+      "children": []
+    },
+    "post-3-composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/lovingopensourceAI composer",
+        "href": "https://www.reddit.com/r/lovingopensourceAI/submit?title=our%20AGPL%20agent%20framework%20just%20got%20its%20first%20skill%20from%20a%20company%20you%20have%20actually%20used"
+      },
+      "children": []
+    },
+    "post-3-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: enthusiast OSS crowd, self-promo fine if framed as \"what I built + why open\" — disclose as the maintainer, not a neutral poster.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-4-badges",
+        "post-4-title",
+        "post-4-body",
+        "post-4-link",
+        "post-4-composer",
+        "post-4-notes"
+      ]
+    },
+    "post-4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post-4-subreddit",
+        "post-4-archetype"
+      ]
+    },
+    "post-4-subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/AIPromptProgramming",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "post-4-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: agents",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "post-4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "what it looks like when a markdown skill file gets adopted by a company the size of you.com",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "post-4-body": {
+      "type": "Text",
+      "props": {
+        "text": "mechanics post, not a pitch. Aeon's \"skills\" are just markdown files with frontmatter — a description, required permissions, a schedule. no plugin SDK, no build step. write the file, drop it in `skills/`, it runs unattended on GitHub Actions via cron. that's the entire interface.\n\nthis week you.com shipped one of those skill files as an official integration. what got them there in a day instead of a quarter: there's nothing to onboard onto except \"can you write markdown and read a cron schedule.\" same week two more integrations landed the same way — Eyebrow added a security-verification skill that fingerprints every merge, Agent Wallet added an x402 payments skill.\n\nfor people building agent tooling: this is the actual argument for skills-as-markdown over skills-as-SDK. the integration surface is small enough that a team ships without touching your core repo. framework's open-source: https://github.com/aeonfun/aeon — happy to go deeper on the skill format or the self-repair loop if useful.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon GitHub Repository",
+        "href": "https://github.com/aeonfun/aeon"
+      },
+      "children": []
+    },
+    "post-4-composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AIPromptProgramming composer",
+        "href": "https://www.reddit.com/r/AIPromptProgramming/submit?title=what%20it%20looks%20like%20when%20a%20markdown%20skill%20file%20gets%20adopted%20by%20a%20company%20the%20size%20of%20you.com"
+      },
+      "children": []
+    },
+    "post-4-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: technical audience, respect it — keep the mechanics concrete, disclose as the builder, no vendor comparisons.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
