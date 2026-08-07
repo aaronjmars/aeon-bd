@@ -1,0 +1,319 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "2026-08-07"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item-1",
+        "sep-1",
+        "item-2",
+        "sep-2",
+        "item-3",
+        "sep-3",
+        "item-4",
+        "sep-4",
+        "item-5",
+        "sep-5",
+        "alert-closing"
+      ]
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-1",
+        "age-1",
+        "link-1",
+        "badge-1",
+        "draft-1"
+      ]
+    },
+    "h-1": {
+      "type": "Heading",
+      "props": {
+        "text": "HKUDS/Vibe-Trading",
+        "level": "h2"
+      }
+    },
+    "age-1": {
+      "type": "Text",
+      "props": {
+        "text": "13 days ago, final call before 14d drop — merged PR into their 27k★ repo, war-room directive from 07-25, redrafted 7× now with zero ship",
+        "variant": "body"
+      }
+    },
+    "link-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/Vibe-Trading PR #390",
+        "href": "https://github.com/HKUDS/Vibe-Trading"
+      }
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "X post (@aeonframework)",
+        "variant": "default"
+      }
+    },
+    "draft-1": {
+      "type": "Text",
+      "props": {
+        "text": "aeon's vuln-scanner fleet found & merged a real security fix into HKUDS/Vibe-Trading (27k★) — this is what autonomous agents shipping into production repos actually looks like. no approval loop, no human review queue. compute → security. ⭐",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-2",
+        "age-2",
+        "link-2",
+        "badge-2",
+        "draft-2"
+      ]
+    },
+    "h-2": {
+      "type": "Heading",
+      "props": {
+        "text": "paperclipai/companies",
+        "level": "h2"
+      }
+    },
+    "age-2": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago — third-party marketplace (agentcompanies.io) has packaged Aeon as an installable product since 2026-03-23, 32 skills sourced from aaronjmars/aeon — 5 months live, first time we caught it",
+        "variant": "body"
+      }
+    },
+    "link-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "paperclipai/companies",
+        "href": "https://github.com/paperclipai/companies"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment / email DM",
+        "variant": "secondary"
+      }
+    },
+    "draft-2": {
+      "type": "Text",
+      "props": {
+        "text": "noticed agentcompanies.io has been running aeon as a packaged product since March — 32 skills, live since day one and we never even saw it until this week. would love to make this official: list you in our ECOSYSTEM.md, cross-promote, whatever's useful on your end. what's the setup looking like on your side?",
+        "variant": "lead"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-3",
+        "age-3",
+        "link-3",
+        "badge-3",
+        "draft-3"
+      ]
+    },
+    "h-3": {
+      "type": "Heading",
+      "props": {
+        "text": "alexverify",
+        "level": "h2"
+      }
+    },
+    "age-3": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago — merged core contributor (PR #811 security fix), now building agentguard, \"the trust layer for agent skills/MCPs/plugins\"",
+        "variant": "body"
+      }
+    },
+    "link-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alexverify",
+        "href": "https://github.com/alexverify"
+      }
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "draft-3": {
+      "type": "Text",
+      "props": {
+        "text": "you shipped PR #811 into aeon core and now you're building agentguard — a trust layer for agent skills/MCPs/plugins is exactly the piece we don't have. want to talk integration? aeon's skill catalog could use a verification layer, agentguard gets a live testbed with real skill volume.",
+        "variant": "lead"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-4",
+        "age-4",
+        "link-4",
+        "badge-4",
+        "draft-4"
+      ]
+    },
+    "h-4": {
+      "type": "Heading",
+      "props": {
+        "text": "@eyebrowCC",
+        "level": "h2"
+      }
+    },
+    "age-4": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago — shipped automated security integration on Aeon, every skill now auto-verified/fingerprinted before merge, tamper-after-approval fails the build. aeon is eyebrow's 2nd integration, #3/#4 in progress",
+        "variant": "body"
+      }
+    },
+    "link-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X post: eyebrowCC",
+        "href": "https://x.com/eyebrowCC/status/2085402998650417586"
+      }
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "draft-4": {
+      "type": "Text",
+      "props": {
+        "text": "aeon being eyebrow's 2nd integration, with #3/#4 already in progress — this is the flywheel working. every skill auto-verified before merge, tamper-after-approval fails the build. exactly the kind of infra layer we want more of.",
+        "variant": "lead"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-5",
+        "age-5",
+        "link-5",
+        "badge-5",
+        "draft-5"
+      ]
+    },
+    "h-5": {
+      "type": "Heading",
+      "props": {
+        "text": "xalil05/ProjecSen",
+        "level": "h2"
+      }
+    },
+    "age-5": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago — solo French builder, 2+ months sustained independent commits on a trilingual (FR/EN/中文) MiroShark fork with real new features",
+        "variant": "body"
+      }
+    },
+    "link-5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "xalil05/ProjecSen",
+        "href": "https://github.com/xalil05/ProjecSen"
+      }
+    },
+    "badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "draft-5": {
+      "type": "Text",
+      "props": {
+        "text": "been watching ProjecSen for two months now — a trilingual MiroShark fork with real independent commits is rare. want an ECOSYSTEM.md listing? happy to point people at it.",
+        "variant": "lead"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-closing": {
+      "type": "Alert",
+      "props": {
+        "title": "Aging Opportunities",
+        "message": "some opps aging — act or drop (HKUDS/Vibe-Trading is at the 14-day cutoff, next cycle it drops for good)",
+        "type": "warning"
+      }
+    }
+  }
+}
