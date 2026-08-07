@@ -1,0 +1,456 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark",
+        "description": "2026-08-07"
+      },
+      "children": [
+        "text-intro",
+        "separator-1",
+        "section-1",
+        "separator-2",
+        "section-2",
+        "separator-3",
+        "section-3",
+        "separator-4",
+        "section-4"
+      ]
+    },
+    "text-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet on raw engagement, but real BD signal — you.com shipped an official Aeon skill, and Miroshark landed on the x402 agentic marketplace next to Claude/Tripadvisor/CoinMarketCap.",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-section-1",
+        "tweet-1-wrapper",
+        "tweet-2-wrapper"
+      ]
+    },
+    "heading-section-1": {
+      "type": "Heading",
+      "props": {
+        "text": "you.com ships an official Aeon skill",
+        "level": "h3"
+      }
+    },
+    "tweet-1-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1-card",
+        "tweet-1-engagement",
+        "tweet-1-link"
+      ]
+    },
+    "tweet-1-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/Ozzxy",
+        "handle": "Ozzxy",
+        "text": "frames it as adoption, not hype: a billion-dollar company (@youdotcom) is now contributing an official real-time-crawling search skill directly to Aeon, not just integrating with it.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet-1-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Ozzxy/status/2085745642572272026"
+      }
+    },
+    "tweet-2-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2-card",
+        "tweet-2-engagement",
+        "tweet-2-link"
+      ]
+    },
+    "tweet-2-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Aaron publicly thanks @youdotcom for the contribution, cementing it as a named partnership.",
+        "likes": 2,
+        "retweets": 0
+      }
+    },
+    "tweet-2-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2085737176482890195"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-section-2",
+        "tweet-3-wrapper",
+        "tweet-4-wrapper",
+        "tweet-5-wrapper"
+      ]
+    },
+    "heading-section-2": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark lands on the x402 agentic marketplace",
+        "level": "h3"
+      }
+    },
+    "tweet-3-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3-card",
+        "tweet-3-engagement",
+        "tweet-3-link"
+      ]
+    },
+    "tweet-3-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/miroshark_",
+        "handle": "miroshark_",
+        "text": "Miroshark's x402 endpoint is now listed on the agentic market page, name-checking @claudeai, @Tripadvisor and @CoinMarketCap as fellow listed services.",
+        "likes": 18,
+        "retweets": 3
+      }
+    },
+    "tweet-3-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/miroshark_/status/2085271134786756863"
+      }
+    },
+    "tweet-4-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-4-card",
+        "tweet-4-engagement",
+        "tweet-4-link"
+      ]
+    },
+    "tweet-4-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/aeonframework",
+        "handle": "aeonframework",
+        "text": "cross-post confirming the Miroshark endpoint is discoverable on the x402 marketplace.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet-4-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet-4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2085639661162991954"
+      }
+    },
+    "tweet-5-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-5-card",
+        "tweet-5-engagement",
+        "tweet-5-link"
+      ]
+    },
+    "tweet-5-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/0xNurstar",
+        "handle": "0xNurstar",
+        "text": "team reaction: \"the sharks are swimming through the agentic market.\"",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet-5-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet-5-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2085271935621923132"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-section-3",
+        "tweet-6-wrapper",
+        "tweet-7-wrapper"
+      ]
+    },
+    "heading-section-3": {
+      "type": "Heading",
+      "props": {
+        "text": "Weekly recap + market trending",
+        "level": "h3"
+      }
+    },
+    "tweet-6-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-6-card",
+        "tweet-6-engagement",
+        "tweet-6-link"
+      ]
+    },
+    "tweet-6-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/aeonframework",
+        "handle": "aeonframework",
+        "text": "posts the Aug 1–7 framework/ecosystem weekly recap thread.",
+        "likes": 21,
+        "retweets": 5
+      }
+    },
+    "tweet-6-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet-6-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2085639625540788456"
+      }
+    },
+    "tweet-7-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-7-card",
+        "tweet-7-engagement",
+        "tweet-7-link"
+      ]
+    },
+    "tweet-7-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/Base_Insights",
+        "handle": "Base_Insights",
+        "text": "$aeon listed among top-10 trending AI tokens on Base in the past 24h, alongside Virtuals/Bankr/Venice-adjacent names.",
+        "likes": 10,
+        "retweets": 1
+      }
+    },
+    "tweet-7-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet-7-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Base_Insights/status/2085599064486473833"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-section-4",
+        "tweet-8-wrapper",
+        "tweet-9-wrapper"
+      ]
+    },
+    "heading-section-4": {
+      "type": "Heading",
+      "props": {
+        "text": "Founder building in public",
+        "level": "h3"
+      }
+    },
+    "tweet-8-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-8-card",
+        "tweet-8-engagement",
+        "tweet-8-link"
+      ]
+    },
+    "tweet-8-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/aaronjmars",
+        "handle": "aaronjmars",
+        "text": "next self-evolving-software step: Aeon now monitors the Aeon and Miroshark websites weekly, reports errors, and fixes them automatically.",
+        "likes": 20,
+        "retweets": 2
+      }
+    },
+    "tweet-8-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet-8-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2085357806748586123"
+      }
+    },
+    "tweet-9-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-9-card",
+        "tweet-9-engagement",
+        "tweet-9-link"
+      ]
+    },
+    "tweet-9-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "x.com/raumoe",
+        "handle": "raumoe",
+        "text": "replies with a concrete cross-product use case: an agent that keeps stables on the best-performing yield meeting safety criteria (min TVL, depositor count).",
+        "likes": 2,
+        "retweets": 0
+      }
+    },
+    "tweet-9-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet-9-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/raumoe/status/2085300893315170368"
+      }
+    }
+  }
+}

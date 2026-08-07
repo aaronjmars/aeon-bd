@@ -1,23 +1,44 @@
-ℹ️ Top Tweets — Aeon + Miroshark
+ℹ️ Top Tweets — Aeon/Miroshark
 
-*Top Tweets — Aeon + Miroshark (2026-08-07)*
-_Eyebrow's security integration is today's real story — a wallet/payments integration and a trending-list mention ride alongside it; a wave of $AEON-ticker chatter (a different, unrelated token) was filtered out._
+*Top Tweets — Aeon/Miroshark (2026-08-07)*
+_Quiet on raw engagement, but real BD signal — you.com shipped an official Aeon skill, and Miroshark landed on the x402 agentic marketplace next to Claude/Tripadvisor/CoinMarketCap._
 
-*Eyebrow ships automated security on Aeon*
-1. x.com/eyebrowCC — Every Aeon skill is now auto-verified by eyebrow's fingerprinting engine before merge; tamper with one after approval and the build fails. Aeon is eyebrow's 2nd integration since launch — #3 and #4 already underway.
-Likes: 30 | RTs: 5 | Replies: 11
-[View tweet](https://x.com/eyebrowCC/status/2085402998650417586)
-
-2. x.com/takeru_L2 — Reacting to the "nothing to forget" line: calls it the whole pitch in three words.
+*you.com ships an official Aeon skill*
+1. x.com/Ozzxy — frames it as adoption, not hype: a billion-dollar company (@youdotcom) is now contributing an official real-time-crawling search skill directly to Aeon, not just integrating with it.
 Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/takeru_L2/status/2085428741736747300)
+[View tweet](https://x.com/Ozzxy/status/2085745642572272026)
 
-*Agent Wallet brings on-chain payments to Aeon agents*
-3. x.com/FD_XYZ — Agent Wallet goes live as a supported Aeon wallet: multichain, native x402 payments, one connect flow to give any agent a real on-chain wallet.
-Likes: 12 | RTs: 2 | Replies: 3
-[View tweet](https://x.com/FD_XYZ/status/2085251666853691530)
+2. x.com/aaronjmars — Aaron publicly thanks @youdotcom for the contribution, cementing it as a named partnership.
+Likes: 2 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/aaronjmars/status/2085737176482890195)
 
-*Trending visibility*
-4. x.com/AIonBase_ — Lists $aeon among the top 10 trending AI tokens on Base in the last 24h, alongside Virtuals, Bankr, and Venice.
-Likes: 38 | RTs: 1 | Replies: 8
-[View tweet](https://x.com/AIonBase_/status/2085222684292735461)
+*Miroshark lands on the x402 agentic marketplace*
+3. x.com/miroshark_ — Miroshark's x402 endpoint is now listed on the agentic market page, name-checking @claudeai, @Tripadvisor and @CoinMarketCap as fellow listed services.
+Likes: 18 | RTs: 3 | Replies: 2
+[View tweet](https://x.com/miroshark_/status/2085271134786756863)
+
+4. x.com/aeonframework — cross-post confirming the Miroshark endpoint is discoverable on the x402 marketplace.
+Likes: 0 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/aeonframework/status/2085639661162991954)
+
+5. x.com/0xNurstar — team reaction: "the sharks are swimming through the agentic market."
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/0xNurstar/status/2085271935621923132)
+
+*Weekly recap + market trending*
+6. x.com/aeonframework — posts the Aug 1–7 framework/ecosystem weekly recap thread.
+Likes: 21 | RTs: 5 | Replies: 1
+[View tweet](https://x.com/aeonframework/status/2085639625540788456)
+
+7. x.com/Base_Insights — $aeon listed among top-10 trending AI tokens on Base in the past 24h, alongside Virtuals/Bankr/Venice-adjacent names.
+Likes: 10 | RTs: 1 | Replies: 3
+[View tweet](https://x.com/Base_Insights/status/2085599064486473833)
+
+*Founder building in public*
+8. x.com/aaronjmars — next self-evolving-software step: Aeon now monitors the Aeon and Miroshark websites weekly, reports errors, and fixes them automatically.
+Likes: 20 | RTs: 2 | Replies: 3
+[View tweet](https://x.com/aaronjmars/status/2085357806748586123)
+
+9. x.com/raumoe — replies with a concrete cross-product use case: an agent that keeps stables on the best-performing yield meeting safety criteria (min TVL, depositor count).
+Likes: 2 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/raumoe/status/2085300893315170368)
