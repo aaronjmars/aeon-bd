@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-05T17:33:21Z",
+  "last_analyzed": "2026-08-07T00:05:44Z",
   "quality_score": 4,
-  "assessment": "Completed skill execution with good curation (8→3 signal filtering with reasoning), cross-run context (ansem rumor tracked since 08-03), and actionable next-step guidance",
+  "assessment": "Substantive ecosystem signal—curated 20→4 tweets, flagged eyebrow + Agent Wallet integrations, filtered homonym noise, proper ops",
   "flags": [],
   "avg_score": 3.97,
   "history": [
-    {
-      "date": "2026-07-07",
-      "score": 4
-    },
     {
       "date": "2026-07-08",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-08-05",
+      "score": 4
+    },
+    {
+      "date": "2026-08-07",
       "score": 4
     }
   ]

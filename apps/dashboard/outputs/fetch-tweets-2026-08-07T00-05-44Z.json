@@ -1,0 +1,233 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark"
+      },
+      "children": [
+        "header_section",
+        "sep1",
+        "section1_heading",
+        "tweet1_stack",
+        "tweet2_stack",
+        "sep2",
+        "section2_heading",
+        "tweet3_stack",
+        "sep3",
+        "section3_heading",
+        "tweet4_stack"
+      ]
+    },
+    "header_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "date_text",
+        "note_text"
+      ]
+    },
+    "date_text": {
+      "type": "Text",
+      "props": {
+        "text": "Top Tweets — Aeon + Miroshark (2026-08-07)",
+        "variant": "lead"
+      }
+    },
+    "note_text": {
+      "type": "Text",
+      "props": {
+        "text": "Eyebrow's security integration is today's real story — a wallet/payments integration and a trending-list mention ride alongside it; a wave of $AEON-ticker chatter (a different, unrelated token) was filtered out.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Eyebrow ships automated security on Aeon",
+        "level": "h2"
+      }
+    },
+    "tweet1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1",
+        "tweet1_stats",
+        "tweet1_link"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "eyebrowCC",
+        "handle": "eyebrowCC",
+        "text": "Every Aeon skill is now auto-verified by eyebrow's fingerprinting engine before merge; tamper with one after approval and the build fails. Aeon is eyebrow's 2nd integration since launch — #3 and #4 already underway.",
+        "likes": 30,
+        "retweets": 5
+      }
+    },
+    "tweet1_stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 11",
+        "variant": "caption"
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/eyebrowCC/status/2085402998650417586"
+      }
+    },
+    "tweet2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet2",
+        "tweet2_stats",
+        "tweet2_link"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "takeru_L2",
+        "handle": "takeru_L2",
+        "text": "Reacting to the \"nothing to forget\" line: calls it the whole pitch in three words.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet2_stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/takeru_L2/status/2085428741736747300"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Agent Wallet brings on-chain payments to Aeon agents",
+        "level": "h2"
+      }
+    },
+    "tweet3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet3",
+        "tweet3_stats",
+        "tweet3_link"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "FD_XYZ",
+        "handle": "FD_XYZ",
+        "text": "Agent Wallet goes live as a supported Aeon wallet: multichain, native x402 payments, one connect flow to give any agent a real on-chain wallet.",
+        "likes": 12,
+        "retweets": 2
+      }
+    },
+    "tweet3_stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/FD_XYZ/status/2085251666853691530"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending visibility",
+        "level": "h2"
+      }
+    },
+    "tweet4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet4",
+        "tweet4_stats",
+        "tweet4_link"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "handle": "AIonBase_",
+        "text": "Lists $aeon among the top 10 trending AI tokens on Base in the last 24h, alongside Virtuals, Bankr, and Venice.",
+        "likes": 38,
+        "retweets": 1
+      }
+    },
+    "tweet4_stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 8",
+        "variant": "caption"
+      }
+    },
+    "tweet4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2085222684292735461"
+      }
+    }
+  }
+}

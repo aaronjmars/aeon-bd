@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — Aeon + Miroshark
-
 *Top Tweets — Aeon + Miroshark (2026-08-07)*
 _Eyebrow's security integration is today's real story — a wallet/payments integration and a trending-list mention ride alongside it; a wave of $AEON-ticker chatter (a different, unrelated token) was filtered out._
 
