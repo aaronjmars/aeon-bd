@@ -1,0 +1,304 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-08"
+      },
+      "children": [
+        "intro-heading",
+        "intro-text",
+        "tweet-card",
+        "tweet-link",
+        "sep1",
+        "drafts-heading",
+        "lovingai-section",
+        "sep2",
+        "ollama-section",
+        "sep3",
+        "vibecoders-section"
+      ]
+    },
+    "intro-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Signal: Unprompted social proof",
+        "level": "h2"
+      }
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "An engineer with no connection to the project (tom_doerr) unprompted-described Aeon as \"an autonomous framework that ships features, finds vulns, and deploys apps without approval loops\" and linked straight to the repo — 45 likes, today."
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "tom_doerr",
+        "handle": "tom_doerr",
+        "text": "an autonomous framework that ships features, finds vulns, and deploys apps without approval loops",
+        "likes": 45
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/tom_doerr/status/2085569978862813264"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "drafts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Drafts for three subreddits",
+        "level": "h2"
+      }
+    },
+    "lovingai-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lovingai-subreddit",
+        "lovingai-archetype",
+        "lovingai-title",
+        "lovingai-body",
+        "lovingai-links",
+        "lovingai-notes"
+      ]
+    },
+    "lovingai-subreddit": {
+      "type": "Heading",
+      "props": {
+        "text": "r/LovingAI",
+        "level": "h3"
+      }
+    },
+    "lovingai-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "lovingai-title": {
+      "type": "Heading",
+      "props": {
+        "text": "We built an AI agent that runs itself — today a stranger explained it better than our docs do",
+        "level": "h4"
+      }
+    },
+    "lovingai-body": {
+      "type": "Text",
+      "props": {
+        "text": "We've been building Aeon, an open-source AI agent that runs on a schedule and just... does its job. No dashboard to babysit, no \"approve this action\" popup. It reads its own memory, does the task, and reports back.\n\nToday an engineer we've never talked to (tom_doerr on X) described it, unprompted, as a framework that \"ships features, finds vulns, and deploys apps without approval loops\" — and linked straight to the GitHub repo himself. Nobody asked him to. That's the best writeup we've gotten this month.\n\nSame week, our sister project Miroshark (a swarm-simulation engine) got listed on the x402 agentic marketplace right next to Claude, Tripadvisor, and CoinMarketCap as a paid API endpoint — so this isn't a one-off, it's a pattern of people outside our circle noticing on their own.\n\nIf \"an AI that runs unattended and doesn't wait for you to click approve\" sounds interesting, it's open source (AGPL) and free to run.\n\nHappy to answer anything about how it actually works under the hood.",
+        "variant": "body"
+      }
+    },
+    "lovingai-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lovingai-main-link",
+        "lovingai-composer-link"
+      ]
+    },
+    "lovingai-main-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "lovingai-composer-link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/LovingAI composer",
+        "href": "https://www.reddit.com/r/LovingAI/submit?title=We%20built%20an%20AI%20agent%20that%20runs%20itself%20%E2%80%94%20today%20a%20stranger%20explained%20it%20better%20than%20our%20docs%20do"
+      }
+    },
+    "lovingai-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: keep jargon low per sub norms; disclose \"I work on Aeon\" in the post, not a neutral-discoverer framing — check if the sub requires a self-promo flair before posting.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ollama-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ollama-subreddit",
+        "ollama-archetype",
+        "ollama-title",
+        "ollama-body",
+        "ollama-links",
+        "ollama-notes"
+      ]
+    },
+    "ollama-subreddit": {
+      "type": "Heading",
+      "props": {
+        "text": "r/Ollama",
+        "level": "h3"
+      }
+    },
+    "ollama-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "ollama-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Self-hosted AI agent that ships its own code — no approval loop, runs on your own GitHub Actions",
+        "level": "h4"
+      }
+    },
+    "ollama-body": {
+      "type": "Text",
+      "props": {
+        "text": "If you're the type who self-hosts because you want to own the loop end to end, this might be relevant: Aeon is an open-source agent framework where \"skills\" are just markdown files that run on a cron schedule via GitHub Actions — no vendor dashboard, no hosted approval queue sitting between the agent and the action it wants to take.\n\nWhat made me post it here: an engineer unconnected to the project (tom_doerr) described it, unprompted, as a framework that \"ships features, finds vulns, and deploys apps without approval loops\" and linked the repo himself. That's the exact autonomy pitch, coming from someone with nothing to gain by saying it.\n\nIt's AGPL, self-repairing (a health loop scores its own runs and files fixes as PRs), and everything it does leaves a public trace in the repo — no black box.",
+        "variant": "body"
+      }
+    },
+    "ollama-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ollama-main-link",
+        "ollama-composer-link"
+      ]
+    },
+    "ollama-main-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "ollama-composer-link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Ollama composer",
+        "href": "https://www.reddit.com/r/Ollama/submit?title=Self-hosted%20AI%20agent%20that%20ships%20its%20own%20code%20%E2%80%94%20no%20approval%20loop%2C%20runs%20on%20your%20own%20GitHub%20Actions"
+      }
+    },
+    "ollama-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: self-hosting crowd is skeptical of anything that smells hosted-SaaS — lead with \"you run this on your own infra,\" disclose as builder, watch the sub's self-promo ratio.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "vibecoders-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vibecoders-subreddit",
+        "vibecoders-archetype",
+        "vibecoders-title",
+        "vibecoders-body",
+        "vibecoders-links",
+        "vibecoders-notes"
+      ]
+    },
+    "vibecoders-subreddit": {
+      "type": "Heading",
+      "props": {
+        "text": "r/AskVibecoders",
+        "level": "h3"
+      }
+    },
+    "vibecoders-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "vibecoders",
+        "variant": "secondary"
+      }
+    },
+    "vibecoders-title": {
+      "type": "Heading",
+      "props": {
+        "text": "I vibe-coded an agent that ships its own PRs while I sleep — today a random dev noticed and described it better than I could",
+        "level": "h4"
+      }
+    },
+    "vibecoders-body": {
+      "type": "Text",
+      "props": {
+        "text": "Been running Aeon, an agent framework where each \"skill\" is a markdown file that fires on a schedule and just does the thing — no approval popup, no me clicking \"yes proceed.\" It reads memory, picks a task, ships it, logs what it did.\n\nFunniest part: I didn't post about this today, someone else did. An engineer I've never talked to (tom_doerr) described it on X as shipping features, finding vulns, and deploying apps \"without approval loops\" and linked the repo himself. Free marketing from a stranger who just liked the mechanic.\n\nIf you're into ship-fast setups, it's open source, AGPL, runs on GitHub Actions — clone it, point it at your own repo, watch it go.\n\nAsk me anything, will actually answer.",
+        "variant": "body"
+      }
+    },
+    "vibecoders-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vibecoders-main-link",
+        "vibecoders-composer-link"
+      ]
+    },
+    "vibecoders-main-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "vibecoders-composer-link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AskVibecoders composer",
+        "href": "https://www.reddit.com/r/AskVibecoders/submit?title=I%20vibe-coded%20an%20agent%20that%20ships%20its%20own%20PRs%20while%20I%20sleep%20%E2%80%94%20today%20a%20random%20dev%20noticed%20and%20described%20it%20better%20than%20I%20could"
+      }
+    },
+    "vibecoders-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: casual first-person tone fits this sub — disclose as the builder up front, keep it light, don't oversell.",
+        "variant": "caption"
+      }
+    }
+  }
+}
