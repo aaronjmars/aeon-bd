@@ -1,5 +1,3 @@
-ℹ️ Top Tweets
-
 *Top Tweets — Aeon + Miroshark mentions (2026-08-08)*
 _You.com's official Aeon skill anchors the day's BD signal; organic third-party reach and a Base trending appearance ride alongside it._
 

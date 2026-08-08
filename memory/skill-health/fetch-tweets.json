@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-07T17:20:04Z",
+  "last_analyzed": "2026-08-08T17:13:02Z",
   "quality_score": 4,
-  "assessment": "Substantive skill execution: fetched 20 tweets via API (http=200), intelligently curated to 9 across 4 product-relevant clusters, dropped 11 as noise, logged and deduplicated cleanly with no errors.",
+  "assessment": "Substantive execution: fetched 13 candidates, applied intelligent filtering (removed 6 low-signal items), structured into 3 meaningful clusters plus a watch item, maintained state properly, and followed the full process (notify + file updates). Clear signal curation with specific examples (You.com skill, third-party advocacy, market trends) suggests good judgment, though full curated content is truncated in the summary.",
   "flags": [],
   "avg_score": 3.97,
   "history": [
-    {
-      "date": "2026-07-09",
-      "score": 4
-    },
     {
       "date": "2026-07-10",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-08-07",
+      "score": 4
+    },
+    {
+      "date": "2026-08-08",
       "score": 4
     }
   ]

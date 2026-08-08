@@ -1,0 +1,250 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets",
+        "description": "Aeon + Miroshark mentions (2026-08-08)"
+      },
+      "children": [
+        "narrative",
+        "sep1",
+        "section1_heading",
+        "tweet1_num",
+        "tweet1",
+        "tweet1_replies",
+        "link1",
+        "sep2",
+        "section2_heading",
+        "tweet2_num",
+        "tweet2",
+        "tweet2_replies",
+        "link2",
+        "tweet3_num",
+        "tweet3",
+        "tweet3_replies",
+        "link3",
+        "sep3",
+        "section3_heading",
+        "tweet4_num",
+        "tweet4",
+        "tweet4_replies",
+        "link4",
+        "sep4",
+        "section4_heading",
+        "tweet5_num",
+        "tweet5",
+        "tweet5_replies",
+        "link5"
+      ]
+    },
+    "narrative": {
+      "type": "Text",
+      "props": {
+        "text": "You.com's official Aeon skill anchors the day's BD signal; organic third-party reach and a Base trending appearance ride alongside it.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "You.com ships an official Aeon skill",
+        "level": "h3"
+      }
+    },
+    "tweet1_num": {
+      "type": "Text",
+      "props": {
+        "text": "1.",
+        "variant": "caption"
+      }
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "aeonframework",
+        "text": "Announces you.com's \"you-web-search\" skill contribution — a billion-dollar startup shipping first-party into the framework; this is the source post behind yesterday's reaction thread.",
+        "likes": 35,
+        "retweets": 7
+      }
+    },
+    "tweet1_replies": {
+      "type": "Text",
+      "props": {
+        "text": "10 replies",
+        "variant": "caption"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2085717364893478994"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Organic third-party advocacy",
+        "level": "h3"
+      }
+    },
+    "tweet2_num": {
+      "type": "Text",
+      "props": {
+        "text": "2.",
+        "variant": "caption"
+      }
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Tom Doerr",
+        "handle": "tom_doerr",
+        "text": "Independently describes Aeon as an autonomous framework that ships features, finds vulns, and deploys apps without approval loops, linking straight to the repo.",
+        "likes": 45,
+        "retweets": 2
+      }
+    },
+    "tweet2_replies": {
+      "type": "Text",
+      "props": {
+        "text": "0 replies",
+        "variant": "caption"
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/tom_doerr/status/2085569978862813264"
+      }
+    },
+    "tweet3_num": {
+      "type": "Text",
+      "props": {
+        "text": "3.",
+        "variant": "caption"
+      }
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Amrit Mirch",
+        "handle": "Amrit_Mirch",
+        "text": "Quotes a podcast naming Aeon alongside gitlawb and Supply as one of \"the frameworks\" discussed — third-party category placement, not self-reported.",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "tweet3_replies": {
+      "type": "Text",
+      "props": {
+        "text": "1 reply",
+        "variant": "caption"
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Amrit_Mirch/status/2085631724353097882"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market signal",
+        "level": "h3"
+      }
+    },
+    "tweet4_num": {
+      "type": "Text",
+      "props": {
+        "text": "4.",
+        "variant": "caption"
+      }
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AI on Base",
+        "handle": "AIonBase_",
+        "text": "Bankr's 24h Base rankings put $aeon in top gainers + most traded + trending, and $MiroShark in top gainers — both tickers cutting across the board same day.",
+        "likes": 32,
+        "retweets": 9
+      }
+    },
+    "tweet4_replies": {
+      "type": "Text",
+      "props": {
+        "text": "5 replies",
+        "variant": "caption"
+      }
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2085843173209764289"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "tweet5_num": {
+      "type": "Text",
+      "props": {
+        "text": "5.",
+        "variant": "caption"
+      }
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron J Mars",
+        "handle": "aaronjmars",
+        "text": "Replying in-thread, states plainly \"all IP & equity is tied to the token\" — a direct tokenomics claim from the founder, low reach but a citable line if it resurfaces.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet5_replies": {
+      "type": "Text",
+      "props": {
+        "text": "0 replies",
+        "variant": "caption"
+      }
+    },
+    "link5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2086137469313916978"
+      }
+    }
+  }
+}
