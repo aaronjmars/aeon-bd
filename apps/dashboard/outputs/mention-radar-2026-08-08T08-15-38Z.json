@@ -1,0 +1,327 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-08-08"
+      },
+      "children": [
+        "aeon_section",
+        "sep1",
+        "miroshark_section",
+        "sep2",
+        "engagement_section",
+        "sep3",
+        "summary_note"
+      ]
+    },
+    "aeon_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon_heading",
+        "aeon_x_row",
+        "aeon_x_detail",
+        "aeon_web_row",
+        "aeon_web_detail",
+        "aeon_github_row",
+        "aeon_github_detail"
+      ]
+    },
+    "aeon_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon_x_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_x_label",
+        "aeon_x_badge"
+      ]
+    },
+    "aeon_x_label": {
+      "type": "Text",
+      "props": {
+        "text": "X:"
+      }
+    },
+    "aeon_x_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET",
+        "variant": "outline"
+      }
+    },
+    "aeon_x_detail": {
+      "type": "Text",
+      "props": {
+        "text": "api, http=200, 08-01→08-08 window. Only prior-known Amrit_Mirch repost resurfaced (already seen 08-04, no discovery/friction signal — doesn't qualify).",
+        "variant": "caption"
+      }
+    },
+    "aeon_web_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_web_label",
+        "aeon_web_badge"
+      ]
+    },
+    "aeon_web_label": {
+      "type": "Text",
+      "props": {
+        "text": "Web (Reddit/HN/PH/Farcaster):"
+      }
+    },
+    "aeon_web_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET",
+        "variant": "outline"
+      }
+    },
+    "aeon_web_detail": {
+      "type": "Text",
+      "props": {
+        "text": "no organic discussion found.",
+        "variant": "caption"
+      }
+    },
+    "aeon_github_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "aeon_github_label",
+        "aeon_stars",
+        "aeon_forks"
+      ]
+    },
+    "aeon_github_label": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub:"
+      }
+    },
+    "aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "617",
+        "delta": "+23 vs 08-06",
+        "trend": "up"
+      }
+    },
+    "aeon_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "222",
+        "delta": "+6 vs 08-06",
+        "trend": "up"
+      }
+    },
+    "aeon_github_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Notable jump. Likely riding this week's integrations (you.com official skill, Eyebrow security integration, Agent Wallet x402) already surfaced by bd-radar/fetch-tweets — no single new driver found this cycle.",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark_heading",
+        "miroshark_x_row",
+        "miroshark_x_detail",
+        "miroshark_web_row",
+        "miroshark_web_detail",
+        "miroshark_github_row",
+        "miroshark_github_detail"
+      ]
+    },
+    "miroshark_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark_x_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark_x_label",
+        "miroshark_x_badge"
+      ]
+    },
+    "miroshark_x_label": {
+      "type": "Text",
+      "props": {
+        "text": "X:"
+      }
+    },
+    "miroshark_x_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET",
+        "variant": "outline"
+      }
+    },
+    "miroshark_x_detail": {
+      "type": "Text",
+      "props": {
+        "text": "api, http=200 — only $MIROSHARK ticker/price chatter, no product discussion.",
+        "variant": "caption"
+      }
+    },
+    "miroshark_web_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark_web_label",
+        "miroshark_web_badge"
+      ]
+    },
+    "miroshark_web_label": {
+      "type": "Text",
+      "props": {
+        "text": "Web:"
+      }
+    },
+    "miroshark_web_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET",
+        "variant": "outline"
+      }
+    },
+    "miroshark_web_detail": {
+      "type": "Text",
+      "props": {
+        "text": "no organic discussion found.",
+        "variant": "caption"
+      }
+    },
+    "miroshark_github_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "miroshark_github_label",
+        "miroshark_stars",
+        "miroshark_forks"
+      ]
+    },
+    "miroshark_github_label": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub:"
+      }
+    },
+    "miroshark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1427",
+        "delta": "+3 vs 08-06",
+        "trend": "up"
+      }
+    },
+    "miroshark_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "298",
+        "delta": "+0 vs 08-06",
+        "trend": "neutral"
+      }
+    },
+    "miroshark_github_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Below notable threshold.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement_heading",
+        "engagement_content"
+      ]
+    },
+    "engagement_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h3"
+      }
+    },
+    "engagement_content": {
+      "type": "Text",
+      "props": {
+        "text": "None this cycle — no new external mentions to act on.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "summary_note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "QUIET: miroshark — no external mentions found this cycle."
+      }
+    }
+  }
+}
