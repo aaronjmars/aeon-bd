@@ -1,0 +1,390 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo"
+      },
+      "children": [
+        "heading-main",
+        "sep-1",
+        "story-section",
+        "sep-2",
+        "reddit-1",
+        "sep-3",
+        "reddit-2",
+        "sep-4",
+        "reddit-3",
+        "sep-5",
+        "reddit-4"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "Reddit Promo — 2026-08-09",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-text",
+        "story-link"
+      ]
+    },
+    "story-text": {
+      "type": "Text",
+      "props": {
+        "text": "you.com (~$1B AI search company) shipped an official \"you-web-search\" skill into Aeon, first-party integration.",
+        "variant": "lead"
+      }
+    },
+    "story-link": {
+      "type": "Link",
+      "props": {
+        "label": "View announcement on X",
+        "href": "https://x.com/aeonframework/status/2085717364893478994"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reddit-1": {
+      "type": "Card",
+      "props": {
+        "title": "r/CLaudeSkills"
+      },
+      "children": [
+        "reddit-1-stack"
+      ]
+    },
+    "reddit-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reddit-1-badge",
+        "reddit-1-title",
+        "reddit-1-body",
+        "reddit-1-links",
+        "reddit-1-notes"
+      ]
+    },
+    "reddit-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "claude-skills",
+        "variant": "secondary"
+      }
+    },
+    "reddit-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "a billion-dollar startup just shipped a skill into my open-source agent framework - here's the actual markdown file",
+        "level": "h3"
+      }
+    },
+    "reddit-1-body": {
+      "type": "Text",
+      "props": {
+        "text": "you.com (~$1B valuation, the AI search engine) just shipped an official skill into Aeon, the open-source agent framework I run. not a partnership announcement, not a press release — an actual `you-web-search` SKILL.md sitting in the repo, contributed and merged like every other skill.\n\nthat's the whole pitch of aeon skills: they're just markdown files. no plugin API, no SDK to learn. a skill file has frontmatter (name, schedule, required env vars) and then plain instructions for what the agent should do when it runs. the agent reads it and executes — no approval loop, no human in the middle. that's what let you.com ship theirs without needing anything special from us.\n\nthe skill runs on a cron schedule via GitHub Actions, pulls you.com's search API, and formats results back into whatever the calling skill needs. same shape as every other skill in the repo — reddit-promo, bd-radar, the one that's writing this post.\n\nRepo's here if you want to see the actual file — happy to answer questions on how the skill/cron/chain system works."
+      }
+    },
+    "reddit-1-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reddit-1-link-repo",
+        "reddit-1-link-post"
+      ]
+    },
+    "reddit-1-link-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "GitHub"
+      }
+    },
+    "reddit-1-link-post": {
+      "type": "Link",
+      "props": {
+        "label": "Open post composer for r/CLaudeSkills",
+        "href": "https://www.reddit.com/r/CLaudeSkills/submit?title=a%20billion-dollar%20startup%20just%20shipped%20a%20skill%20into%20my%20open-source%20agent%20framework%20-%20here%27s%20the%20actual%20markdown%20file"
+      }
+    },
+    "reddit-1-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: technical crowd, self-promo fine if concrete — post as the builder (\"I built Aeon\"), not a neutral discoverer.",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reddit-2": {
+      "type": "Card",
+      "props": {
+        "title": "r/OpenSourceAI"
+      },
+      "children": [
+        "reddit-2-stack"
+      ]
+    },
+    "reddit-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reddit-2-badge",
+        "reddit-2-title",
+        "reddit-2-body",
+        "reddit-2-links",
+        "reddit-2-notes"
+      ]
+    },
+    "reddit-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "reddit-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "you.com (the search engine) just contributed an official skill to my open-source agent framework",
+        "level": "h3"
+      }
+    },
+    "reddit-2-body": {
+      "type": "Text",
+      "props": {
+        "text": "quick one: you.com, the ~$1B AI search company, shipped a first-party integration into Aeon — the AGPL agent framework I've been building. they wrote a skill (`you-web-search`), submitted it, it's merged into the repo now.\n\nworth flagging because it's the kind of signal that's hard to fake. companies don't usually spend eng time integrating with a project unless something about the architecture made it easy, or worth it. in this case: aeon skills are markdown files that run unattended on GitHub Actions cron — no SDK, no plugin system to learn. you write the skill, it runs.\n\nit's the second or third outside integration to land this way in the past couple weeks (a security auto-verification layer and an on-chain wallet integration both showed up the same way). not one company's worth of validation, a pattern.\n\nRepo, AGPL, all public — down to answer questions on how the skill system or the self-repair loop works."
+      }
+    },
+    "reddit-2-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reddit-2-link-repo",
+        "reddit-2-link-post"
+      ]
+    },
+    "reddit-2-link-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "GitHub"
+      }
+    },
+    "reddit-2-link-post": {
+      "type": "Link",
+      "props": {
+        "label": "Open post composer for r/OpenSourceAI",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=you.com%20%28the%20search%20engine%29%20just%20contributed%20an%20official%20skill%20to%20my%20open-source%20agent%20framework"
+      }
+    },
+    "reddit-2-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: respect the ~9:1 value-to-promo norm — lead with the mechanic before the link; disclose you're the builder.",
+        "variant": "caption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reddit-3": {
+      "type": "Card",
+      "props": {
+        "title": "r/Agent_AI"
+      },
+      "children": [
+        "reddit-3-stack"
+      ]
+    },
+    "reddit-3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reddit-3-badge",
+        "reddit-3-title",
+        "reddit-3-body",
+        "reddit-3-links",
+        "reddit-3-notes"
+      ]
+    },
+    "reddit-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "reddit-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "what it looks like when a real company integrates with your agent framework instead of just tweeting about it",
+        "level": "h3"
+      }
+    },
+    "reddit-3-body": {
+      "type": "Text",
+      "props": {
+        "text": "there's a difference between \"we love what you're building 🔥\" replies and someone actually opening a PR. this week it was you.com — the AI search company — shipping an official `you-web-search` skill into Aeon, the autonomous agent framework I run.\n\non the autonomy axis specifically: aeon skills run unattended on GitHub Actions cron, no approval loop, and the framework self-repairs when a skill breaks (a health-scoring loop files issues, a repair skill fixes them by PR). that unattended-by-default posture is apparently what made it low-friction enough for an outside team to just ship into it instead of asking for an API key and building their own wrapper.\n\nnot claiming this makes aeon \"better\" than other agent frameworks — just sharing what actual third-party integration looks like versus the more common \"cool project, following\" pattern.\n\nRepo if you want to look at the skill they shipped."
+      }
+    },
+    "reddit-3-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reddit-3-link-repo",
+        "reddit-3-link-post"
+      ]
+    },
+    "reddit-3-link-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "GitHub"
+      }
+    },
+    "reddit-3-link-post": {
+      "type": "Link",
+      "props": {
+        "label": "Open post composer for r/Agent_AI",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=what%20it%20looks%20like%20when%20a%20real%20company%20integrates%20with%20your%20agent%20framework%20instead%20of%20just%20tweeting%20about%20it"
+      }
+    },
+    "reddit-3-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: no vendor-bashing, this sub polices comparison posts — keep it factual, disclose builder status.",
+        "variant": "caption"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reddit-4": {
+      "type": "Card",
+      "props": {
+        "title": "r/StartupMind"
+      },
+      "children": [
+        "reddit-4-stack"
+      ]
+    },
+    "reddit-4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reddit-4-badge",
+        "reddit-4-title",
+        "reddit-4-body",
+        "reddit-4-links",
+        "reddit-4-notes"
+      ]
+    },
+    "reddit-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "secondary"
+      }
+    },
+    "reddit-4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "a billion-dollar startup shipped a first-party integration into what I'm building",
+        "level": "h3"
+      }
+    },
+    "reddit-4-body": {
+      "type": "Text",
+      "props": {
+        "text": "building-in-public update: you.com (AI search, ~$1B valuation) shipped an official skill contribution into Aeon this week — an open-source autonomous agent framework I've been heads-down on. not a partnership deck, not a quote for a press release. an engineer wrote a skill, it got merged, it runs.\n\ncontext for why this matters more than it might look: aeon runs entirely on GitHub Actions, public repo, public run logs — every skill execution is a verifiable trace, not a claim. that's been the design bet: if you can't show your work publicly, the \"autonomous\" claim is unfalsifiable. this is the first time it paid off as inbound instead of outbound — someone else decided integrating was worth their eng time, unprompted.\n\nsame week: a security-auditing integration and an on-chain wallet integration both landed the same way. three unprompted integrations in a matter of days is the actual traction signal, not the follower count.\n\nSite link — happy to talk about what building unattended-by-default actually looks like day to day."
+      }
+    },
+    "reddit-4-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reddit-4-link-site",
+        "reddit-4-link-post"
+      ]
+    },
+    "reddit-4-link-site": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "reddit-4-link-post": {
+      "type": "Link",
+      "props": {
+        "label": "Open post composer for r/StartupMind",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=a%20billion-dollar%20startup%20shipped%20a%20first-party%20integration%20into%20what%20I%27m%20building"
+      }
+    },
+    "reddit-4-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: founder-story framing expected, but still disclose \"I built this\" explicitly — skip growth-hacky language, StartupMind smells it fast.",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -1,50 +1,65 @@
-*Reddit Promo — 2026-08-08*
+ℹ️ Reddit Promo
 
-_Story:_ An engineer with no connection to the project (tom_doerr) unprompted-described Aeon as "an autonomous framework that ships features, finds vulns, and deploys apps without approval loops" and linked straight to the repo — 45 likes, today. — https://x.com/tom_doerr/status/2085569978862813264
+*Reddit Promo — 2026-08-09*
+
+_Story:_ you.com (~$1B AI search company) shipped an official "you-web-search" skill into Aeon, first-party — https://x.com/aeonframework/status/2085717364893478994
 
 ---
-*r/LovingAI* · archetype: open-source
-*Title:* We built an AI agent that runs itself — today a stranger explained it better than our docs do
+*r/CLaudeSkills* · archetype: claude-skills
+*Title:* a billion-dollar startup just shipped a skill into my open-source agent framework - here's the actual markdown file
 *Body:*
-We've been building Aeon, an open-source AI agent that runs on a schedule and just... does its job. No dashboard to babysit, no "approve this action" popup. It reads its own memory, does the task, and reports back.
+you.com (~$1B valuation, the AI search engine) just shipped an official skill into Aeon, the open-source agent framework I run. not a partnership announcement, not a press release — an actual `you-web-search` SKILL.md sitting in the repo, contributed and merged like every other skill.
 
-Today an engineer we've never talked to (tom_doerr on X) described it, unprompted, as a framework that "ships features, finds vulns, and deploys apps without approval loops" — and linked straight to the GitHub repo himself. Nobody asked him to. That's the best writeup we've gotten this month.
+that's the whole pitch of aeon skills: they're just markdown files. no plugin API, no SDK to learn. a skill file has frontmatter (name, schedule, required env vars) and then plain instructions for what the agent should do when it runs. the agent reads it and executes — no approval loop, no human in the middle. that's what let you.com ship theirs without needing anything special from us.
 
-Same week, our sister project Miroshark (a swarm-simulation engine) got listed on the x402 agentic marketplace right next to Claude, Tripadvisor, and CoinMarketCap as a paid API endpoint — so this isn't a one-off, it's a pattern of people outside our circle noticing on their own.
+the skill runs on a cron schedule via GitHub Actions, pulls you.com's search API, and formats results back into whatever the calling skill needs. same shape as every other skill in the repo — reddit-promo, bd-radar, the one that's writing this post.
 
-If "an AI that runs unattended and doesn't wait for you to click approve" sounds interesting, it's open source (AGPL) and free to run: https://aeon.fun
+repo's here if you want to see the actual file: https://github.com/aeonfun/aeon — happy to answer questions on how the skill/cron/chain system works.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=a%20billion-dollar%20startup%20just%20shipped%20a%20skill%20into%20my%20open-source%20agent%20framework%20-%20here%27s%20the%20actual%20markdown%20file)
+_notes: technical crowd, self-promo fine if concrete — post as the builder ("I built Aeon"), not a neutral discoverer._
 
-Happy to answer anything about how it actually works under the hood.
+---
+*r/OpenSourceAI* · archetype: open-source
+*Title:* you.com (the search engine) just contributed an official skill to my open-source agent framework
+*Body:*
+quick one: you.com, the ~$1B AI search company, shipped a first-party integration into Aeon — the AGPL agent framework I've been building. they wrote a skill (`you-web-search`), submitted it, it's merged into the repo now.
+
+worth flagging because it's the kind of signal that's hard to fake. companies don't usually spend eng time integrating with a project unless something about the architecture made it easy, or worth it. in this case: aeon skills are markdown files that run unattended on GitHub Actions cron — no SDK, no plugin system to learn. you write the skill, it runs.
+
+it's the second or third outside integration to land this way in the past couple weeks (a security auto-verification layer and an on-chain wallet integration both showed up the same way). not one company's worth of validation, a pattern.
+
+repo, AGPL, all public: https://github.com/aeonfun/aeon — down to answer questions on how the skill system or the self-repair loop works.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=you.com%20%28the%20search%20engine%29%20just%20contributed%20an%20official%20skill%20to%20my%20open-source%20agent%20framework)
+_notes: respect the ~9:1 value-to-promo norm — lead with the mechanic before the link; disclose you're the builder._
+
+---
+*r/Agent_AI* · archetype: agents
+*Title:* what it looks like when a real company integrates with your agent framework instead of just tweeting about it
+*Body:*
+there's a difference between "we love what you're building 🔥" replies and someone actually opening a PR. this week it was you.com — the AI search company — shipping an official `you-web-search` skill into Aeon, the autonomous agent framework I run.
+
+on the autonomy axis specifically: aeon skills run unattended on GitHub Actions cron, no approval loop, and the framework self-repairs when a skill breaks (a health-scoring loop files issues, a repair skill fixes them by PR). that unattended-by-default posture is apparently what made it low-friction enough for an outside team to just ship into it instead of asking for an API key and building their own wrapper.
+
+not claiming this makes aeon "better" than other agent frameworks — just sharing what actual third-party integration looks like versus the more common "cool project, following" pattern.
+
+repo if you want to look at the skill they shipped: https://github.com/aeonfun/aeon
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=what%20it%20looks%20like%20when%20a%20real%20company%20integrates%20with%20your%20agent%20framework%20instead%20of%20just%20tweeting%20about%20it)
+_notes: no vendor-bashing, this sub polices comparison posts — keep it factual, disclose builder status._
+
+---
+*r/StartupMind* · archetype: startup
+*Title:* a billion-dollar startup shipped a first-party integration into what I'm building
+*Body:*
+building-in-public update: you.com (AI search, ~$1B valuation) shipped an official skill contribution into Aeon this week — an open-source autonomous agent framework I've been heads-down on. not a partnership deck, not a quote for a press release. an engineer wrote a skill, it got merged, it runs.
+
+context for why this matters more than it might look: aeon runs entirely on GitHub Actions, public repo, public run logs — every skill execution is a verifiable trace, not a claim. that's been the design bet: if you can't show your work publicly, the "autonomous" claim is unfalsifiable. this is the first time it paid off as inbound instead of outbound — someone else decided integrating was worth their eng time, unprompted.
+
+same week: a security-auditing integration and an on-chain wallet integration both landed the same way. three unprompted integrations in a matter of days is the actual traction signal, not the follower count.
+
+site: https://aeon.fun — happy to talk about what building unattended-by-default actually looks like day to day.
 *Link in post:* https://aeon.fun
-*Post here:* [Open r/LovingAI composer](https://www.reddit.com/r/LovingAI/submit?title=We%20built%20an%20AI%20agent%20that%20runs%20itself%20%E2%80%94%20today%20a%20stranger%20explained%20it%20better%20than%20our%20docs%20do)
-_notes: keep jargon low per sub norms; disclose "I work on Aeon" in the post, not a neutral-discoverer framing — check if the sub requires a self-promo flair before posting._
-
----
-*r/Ollama* · archetype: open-source
-*Title:* Self-hosted AI agent that ships its own code — no approval loop, runs on your own GitHub Actions
-*Body:*
-If you're the type who self-hosts because you want to own the loop end to end, this might be relevant: Aeon is an open-source agent framework where "skills" are just markdown files that run on a cron schedule via GitHub Actions — no vendor dashboard, no hosted approval queue sitting between the agent and the action it wants to take.
-
-What made me post it here: an engineer unconnected to the project (tom_doerr) described it, unprompted, as a framework that "ships features, finds vulns, and deploys apps without approval loops" and linked the repo himself. That's the exact autonomy pitch, coming from someone with nothing to gain by saying it.
-
-It's AGPL, self-repairing (a health loop scores its own runs and files fixes as PRs), and everything it does leaves a public trace in the repo — no black box.
-
-Repo: https://github.com/aeonfun/aeon — happy to dig into the mechanics if anyone's curious.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Ollama composer](https://www.reddit.com/r/Ollama/submit?title=Self-hosted%20AI%20agent%20that%20ships%20its%20own%20code%20%E2%80%94%20no%20approval%20loop%2C%20runs%20on%20your%20own%20GitHub%20Actions)
-_notes: self-hosting crowd is skeptical of anything that smells hosted-SaaS — lead with "you run this on your own infra," disclose as builder, watch the sub's self-promo ratio._
-
----
-*r/AskVibecoders* · archetype: vibecoders
-*Title:* I vibe-coded an agent that ships its own PRs while I sleep — today a random dev noticed and described it better than I could
-*Body:*
-Been running Aeon, an agent framework where each "skill" is a markdown file that fires on a schedule and just does the thing — no approval popup, no me clicking "yes proceed." It reads memory, picks a task, ships it, logs what it did.
-
-Funniest part: I didn't post about this today, someone else did. An engineer I've never talked to (tom_doerr) described it on X as shipping features, finding vulns, and deploying apps "without approval loops" and linked the repo himself. Free marketing from a stranger who just liked the mechanic.
-
-If you're into ship-fast setups, it's open source, AGPL, runs on GitHub Actions — clone it, point it at your own repo, watch it go: https://github.com/aeonfun/aeon
-
-Ask me anything, will actually answer.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/AskVibecoders composer](https://www.reddit.com/r/AskVibecoders/submit?title=I%20vibe-coded%20an%20agent%20that%20ships%20its%20own%20PRs%20while%20I%20sleep%20%E2%80%94%20today%20a%20random%20dev%20noticed%20and%20described%20it%20better%20than%20I%20could)
-_notes: casual first-person tone fits this sub — disclose as the builder up front, keep it light, don't oversell._
+*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=a%20billion-dollar%20startup%20shipped%20a%20first-party%20integration%20into%20what%20I%27m%20building)
+_notes: founder-story framing expected, but still disclose "I built this" explicitly — skip growth-hacky language, StartupMind smells it fast._
