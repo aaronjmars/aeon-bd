@@ -58,6 +58,7 @@ node_modules/
 /bd_*.json
 /bd-*.md
 /bd-temp/
+/.bd-radar-scratch/
 /update_bd_leads.py
 /xai-*.json
 /.xai-*.json

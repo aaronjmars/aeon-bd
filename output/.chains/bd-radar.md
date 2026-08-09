@@ -1,11 +1,16 @@
-ℹ️ BD Radar
+OKF validation passes. Since there are no new high-intent (`building`/`integrating`) leads today, per the skill's notify gate this run stays quiet — no notification sent.
 
-bd-radar: 3 new building leads today.
+## Summary
 
-biggest one — **paperclipai/companies** has been shipping "Aeon Intelligence" as a premade product on their agent-marketplace (paperclip.ing) since March. 32 skills, straight off aaronjmars/aeon, 826★ on the repo. 5 months live and we're just catching it now. worth a DM — that's a distribution channel sitting there for free.
+Ran `bd-radar` for 2026-08-09. Swept GitHub forks/issues (11 product repos via `GH_READ_PAT`), `gh search` discovery (5 term sweeps), xAI X search (http=200, 0 relevant hits), and web/HN/Reddit search.
 
-also: **alexverify** — already merged a security fix into core aeon (PR #811), building agentguard (trust layer for skills/MCPs). natural integration partner.
+**Result: 0 net-new leads.** Every distinct signal found today (codexvritra's SIGNA suite, sparkleware's skill catalog, Svector-anu's fork rename, AntFleet's MiroShark benchmark, wshuyi's crucible-sim) was already tracked from a prior sweep. Ruled out two false positives as the operator's own repos (`aeonfun/aeon`, `MiroShark/MiroShark` org) and one spam repo (`luis212/NovaShoal-Swarm-Sim`, keyword-stuffed with farmed stars). ~30 routine "configure-once" forks were correctly filtered as noise.
 
-and **xalil05** — solo builder, 2+ months of real work forking MiroShark into a trilingual (FR/EN/中文) build, "ProjecSen." genuine sustained shipper, not a drive-by.
+**Files created:**
+- `output/articles/bd-radar-2026-08-09.md` — today's digest
+- `memory/logs/2026-08-09.md` — `### bd-radar` log entry
+- `.gitignore` — added `/.bd-radar-scratch/` to exclude this run's scratch dir (mirrors existing leaked-scratch guards)
 
-full digest: output/articles/bd-radar-2026-08-07.md
+**Unchanged:** `memory/topics/bd-radar-leads.json` (no new leads to add). No notify sent (quiet-by-default gate, no new building/integrating lead).
+
+**Follow-up:** none required — standing sweep continues tomorrow 07:20.
