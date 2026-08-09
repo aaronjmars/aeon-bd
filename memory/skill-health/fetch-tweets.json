@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-08T17:13:02Z",
-  "quality_score": 4,
-  "assessment": "Substantive execution: fetched 13 candidates, applied intelligent filtering (removed 6 low-signal items), structured into 3 meaningful clusters plus a watch item, maintained state properly, and followed the full process (notify + file updates). Clear signal curation with specific examples (You.com skill, third-party advocacy, market trends) suggests good judgment, though full curated content is truncated in the summary.",
+  "last_analyzed": "2026-08-09T17:14:25Z",
+  "quality_score": 3,
+  "assessment": "Skill executed correctly, applied curation rules properly, and logged appropriately — but found no signal (pure noise, 0/7 survivors across all topics), resulting in a routine no-op outcome.",
   "flags": [],
-  "avg_score": 3.97,
+  "avg_score": 3.93,
   "history": [
-    {
-      "date": "2026-07-10",
-      "score": 4
-    },
     {
       "date": "2026-07-11",
       "score": 4
@@ -125,6 +121,10 @@
     {
       "date": "2026-08-08",
       "score": 4
+    },
+    {
+      "date": "2026-08-09",
+      "score": 3
     }
   ]
 }
