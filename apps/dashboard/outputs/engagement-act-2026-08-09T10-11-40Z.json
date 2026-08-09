@@ -1,0 +1,439 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-08-09"
+      },
+      "children": [
+        "intro_text",
+        "sep_1",
+        "engagement_1",
+        "sep_2",
+        "engagement_2",
+        "sep_3",
+        "engagement_3",
+        "sep_4",
+        "engagement_4",
+        "sep_5",
+        "engagement_5",
+        "sep_6",
+        "follow_ups",
+        "sep_7",
+        "expired"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Five active engagement opportunities + integrations this week."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "engagement_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng1_header",
+        "eng1_desc",
+        "eng1_badge",
+        "eng1_link",
+        "eng1_draft"
+      ]
+    },
+    "eng1_header": {
+      "type": "Heading",
+      "props": {
+        "text": "@tom_doerr (1 day ago)",
+        "level": "h3"
+      }
+    },
+    "eng1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unprompted described Aeon as shipping features, finding vulns, deploying apps, no approval loops, linked the repo himself"
+      }
+    },
+    "eng1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "default"
+      }
+    },
+    "eng1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/tom_doerr/status/2085569978862813264"
+      }
+    },
+    "eng1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"no approval loops is the whole point. appreciate you calling it out unprompted — that's the part most frameworks can't claim\"",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "engagement_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng2_header",
+        "eng2_desc",
+        "eng2_market_link",
+        "eng2_badge",
+        "eng2_repo_link",
+        "eng2_draft"
+      ]
+    },
+    "eng2_header": {
+      "type": "Heading",
+      "props": {
+        "text": "github:paperclipai/companies (2 days ago)",
+        "level": "h3"
+      }
+    },
+    "eng2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Third-party \"Agent Company\" marketplace packaged Aeon as a premade installable product since 2026-03-23. 32 skills sourced from the repo."
+      }
+    },
+    "eng2_market_link": {
+      "type": "Link",
+      "props": {
+        "label": "Marketplace: paperclip.ing/agentcompanies.io",
+        "href": "https://paperclip.ing/agentcompanies.io"
+      }
+    },
+    "eng2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment / DM",
+        "variant": "secondary"
+      }
+    },
+    "eng2_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on GitHub",
+        "href": "https://github.com/paperclipai/companies"
+      }
+    },
+    "eng2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"been running Aeon skills packaged into your marketplace for months apparently — first we're seeing it. want to make it official? happy to cross-list and link back from ECOSYSTEM.md\"",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "engagement_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng3_header",
+        "eng3_desc",
+        "eng3_detail",
+        "eng3_badge",
+        "eng3_link",
+        "eng3_draft"
+      ]
+    },
+    "eng3_header": {
+      "type": "Heading",
+      "props": {
+        "text": "github:alexverify (2 days ago)",
+        "level": "h3"
+      }
+    },
+    "eng3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Merged core contributor (PR #811, security fix). Runs agentguard — the trust layer for agent skills, MCPs & plugins."
+      }
+    },
+    "eng3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Opportunity: Integration of agentguard as native integration with Aeon's skill model",
+        "variant": "muted"
+      }
+    },
+    "eng3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "secondary"
+      }
+    },
+    "eng3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on GitHub",
+        "href": "https://github.com/alexverify"
+      }
+    },
+    "eng3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"PR #811 was clean, appreciated. agentguard + Aeon's skill model seem like an obvious fit — trust layer sitting under skills-as-markdown. worth a call on wiring it in as a native integration?\"",
+        "variant": "caption"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "engagement_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng4_header",
+        "eng4_desc",
+        "eng4_detail",
+        "eng4_badge",
+        "eng4_link",
+        "eng4_draft"
+      ]
+    },
+    "eng4_header": {
+      "type": "Heading",
+      "props": {
+        "text": "@ai2humannetwork (4 days ago, aging)",
+        "level": "h3"
+      }
+    },
+    "eng4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped full AEON skill pack. Merged catalog PR #812. Live funded pilot running (1 USDC prize pool on Base). Tagged @aaronjmars + @aeonframework directly."
+      }
+    },
+    "eng4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Signal: Adoption loop working — funded onchain pilot live within days of skill pack shipment",
+        "variant": "muted"
+      }
+    },
+    "eng4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "default"
+      }
+    },
+    "eng4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on GitHub",
+        "href": "https://github.com/ai2humannetwork"
+      }
+    },
+    "eng4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"a funded onchain pilot running on an Aeon skill pack within days of shipping — this is the adoption loop working as intended. following the pilot, will amplify results\"",
+        "variant": "caption"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "engagement_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng5_header",
+        "eng5_desc",
+        "eng5_detail",
+        "eng5_badge",
+        "eng5_link",
+        "eng5_draft"
+      ]
+    },
+    "eng5_header": {
+      "type": "Heading",
+      "props": {
+        "text": "@eyebrowCC (2 days ago)",
+        "level": "h3"
+      }
+    },
+    "eng5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped automated security auto-verification for Aeon skills. 2nd third-party integration since launch. #3/#4 integrations in progress."
+      }
+    },
+    "eng5_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Mechanism: Every skill fingerprinted before merge; tamper-after-approval fails the build",
+        "variant": "muted"
+      }
+    },
+    "eng5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "default"
+      }
+    },
+    "eng5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/eyebrowCC/status/2085402998650417586"
+      }
+    },
+    "eng5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"every skill fingerprinted before merge, tamper-after-approval fails the build. this is what an integration should look like — no approval loops on our end, no trust gaps on yours\"",
+        "variant": "caption"
+      }
+    },
+    "sep_6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "follow_ups": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "followup_header",
+        "followup_item1",
+        "followup_item2",
+        "followup_item3",
+        "followup_item4",
+        "followup_item5"
+      ]
+    },
+    "followup_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Carry forward (still valid, dropped from cap)",
+        "level": "h3"
+      }
+    },
+    "followup_item1": {
+      "type": "Link",
+      "props": {
+        "label": "github:xalil05/ProjecSen",
+        "href": "https://github.com/xalil05/ProjecSen"
+      }
+    },
+    "followup_item2": {
+      "type": "Link",
+      "props": {
+        "label": "github:JessieJanie/aeon-skill-pack-skim",
+        "href": "https://github.com/JessieJanie/aeon-skill-pack-skim"
+      }
+    },
+    "followup_item3": {
+      "type": "Link",
+      "props": {
+        "label": "github:LSO-AI/aeon-skills",
+        "href": "https://github.com/LSO-AI/aeon-skills"
+      }
+    },
+    "followup_item4": {
+      "type": "Link",
+      "props": {
+        "label": "@AzzleAI",
+        "href": "https://x.com/AzzleAI"
+      }
+    },
+    "followup_item5": {
+      "type": "Link",
+      "props": {
+        "label": "@FD_XYZ",
+        "href": "https://x.com/FD_XYZ"
+      }
+    },
+    "sep_7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "expired": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "expired_header",
+        "expired_item"
+      ]
+    },
+    "expired_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Expired (14-day window)",
+        "level": "h3"
+      }
+    },
+    "expired_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "expired_link",
+        "expired_note"
+      ]
+    },
+    "expired_link": {
+      "type": "Link",
+      "props": {
+        "label": "github:HKUDS/Vibe-Trading",
+        "href": "https://github.com/HKUDS/Vibe-Trading"
+      }
+    },
+    "expired_note": {
+      "type": "Text",
+      "props": {
+        "text": "(15 days — final call missed 08-07, dropping)",
+        "variant": "muted"
+      }
+    }
+  }
+}

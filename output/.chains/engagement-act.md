@@ -1,30 +1,30 @@
-ℹ️ Engagement Act
+*Engagement Act — 2026-08-09*
 
-*Engagement Act — 2026-08-07*
+*1. @tom_doerr* (1 day ago) — unprompted described Aeon as shipping features, finding vulns, deploying apps, no approval loops, linked the repo himself
+link: https://x.com/tom_doerr/status/2085569978862813264
+type: X reply
+draft: "no approval loops is the whole point. appreciate you calling it out unprompted — that's the part most frameworks can't claim"
 
-*1. aging — HKUDS/Vibe-Trading* (13 days ago, final call before 14d drop) — merged PR into their 27k★ repo, war-room directive from 07-25, redrafted 7× now with zero ship
-link: https://github.com/HKUDS/Vibe-Trading (PR #390)
-type: X post (from @aeonframework)
-draft: "aeon's vuln-scanner fleet found & merged a real security fix into HKUDS/Vibe-Trading (27k★) — this is what autonomous agents shipping into production repos actually looks like. no approval loop, no human review queue. compute → security. ⭐"
-
-*2. paperclipai/companies (Aeon Intelligence)* (0 days ago) — third-party marketplace (agentcompanies.io) has packaged Aeon as an installable product since 2026-03-23, 32 skills sourced from aaronjmars/aeon — 5 months live, first time we caught it
+*2. github:paperclipai/companies* (2 days ago) — third-party "Agent Company" marketplace (paperclip.ing/agentcompanies.io) has packaged Aeon as a premade installable product since 2026-03-23, 32 skills sourced from the repo
 link: https://github.com/paperclipai/companies
-type: GitHub comment / email DM
-draft: "noticed agentcompanies.io has been running aeon as a packaged product since March — 32 skills, live since day one and we never even saw it until this week. would love to make this official: list you in our ECOSYSTEM.md, cross-promote, whatever's useful on your end. what's the setup looking like on your side?"
+type: GitHub comment / DM
+draft: "been running Aeon skills packaged into your marketplace for months apparently — first we're seeing it. want to make it official? happy to cross-list and link back from ECOSYSTEM.md"
 
-*3. alexverify* (0 days ago) — merged core contributor (PR #811 security fix), now building agentguard, "the trust layer for agent skills/MCPs/plugins"
+*3. github:alexverify* (2 days ago) — merged core contributor (PR #811, security fix), runs agentguard, "the trust layer for agent skills, MCPs & plugins"
 link: https://github.com/alexverify
 type: GitHub DM
-draft: "you shipped PR #811 into aeon core and now you're building agentguard — a trust layer for agent skills/MCPs/plugins is exactly the piece we don't have. want to talk integration? aeon's skill catalog could use a verification layer, agentguard gets a live testbed with real skill volume."
+draft: "PR #811 was clean, appreciated. agentguard + Aeon's skill model seem like an obvious fit — trust layer sitting under skills-as-markdown. worth a call on wiring it in as a native integration?"
 
-*4. @eyebrowCC* (0 days ago) — shipped automated security integration on Aeon, every skill now auto-verified/fingerprinted before merge, tamper-after-approval fails the build. aeon is eyebrow's 2nd integration, #3/#4 in progress
+*4. @ai2humannetwork* (4 days ago, aging) — shipped a full AEON skill pack, merged catalog PR #812, live funded pilot (1 USDC prize pool on Base), tagged @aaronjmars + @aeonframework directly
+link: https://github.com/ai2humannetwork
+type: X reply
+draft: "a funded onchain pilot running on an Aeon skill pack within days of shipping — this is the adoption loop working as intended. following the pilot, will amplify results"
+
+*5. @eyebrowCC* (2 days ago) — shipped automated security auto-verification for Aeon skills, 2nd third-party integration since their launch, #3/#4 in progress
 link: https://x.com/eyebrowCC/status/2085402998650417586
 type: X reply
-draft: "aeon being eyebrow's 2nd integration, with #3/#4 already in progress — this is the flywheel working. every skill auto-verified before merge, tamper-after-approval fails the build. exactly the kind of infra layer we want more of."
+draft: "every skill fingerprinted before merge, tamper-after-approval fails the build. this is what an integration should look like — no approval loops on our end, no trust gaps on yours"
 
-*5. xalil05/ProjecSen* (0 days ago) — solo French builder, 2+ months sustained independent commits on a trilingual (FR/EN/中文) MiroShark fork with real new features
-link: https://github.com/xalil05/ProjecSen
-type: GitHub DM
-draft: "been watching ProjecSen for two months now — a trilingual MiroShark fork with real independent commits is rare. want an ECOSYSTEM.md listing? happy to point people at it."
-
-some opps aging — act or drop (HKUDS/Vibe-Trading is at the 14-day cutoff, next cycle it drops for good)
+---
+dropped from cap, still valid (carry forward): github:xalil05/ProjecSen, github:JessieJanie/aeon-skill-pack-skim, github:LSO-AI/aeon-skills, @AzzleAI, @FD_XYZ
+expired at 14-day window: github:HKUDS/Vibe-Trading (15d — final call missed 08-07, dropping)
