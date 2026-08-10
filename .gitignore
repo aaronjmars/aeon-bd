@@ -77,3 +77,6 @@ output/.xai-*.json
 # canon parity
 .pending-*.md
 apps/dashboard/outputs/.pending-*.md
+
+# Skill run scratch dir (payloads, xAI responses, notify bodies) — never committed
+.runtmp/
