@@ -310,3 +310,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-10,mention-radar,claude-sonnet-5,2998,19666,4131186,130235
 2026-08-10,heartbeat,claude-sonnet-5,14468,7619,823161,51495
 2026-08-10,fetch-tweets,claude-sonnet-5,2849,21469,4023142,69975
+2026-08-10,reddit-promo,claude-sonnet-5,3350,8329,595335,52543
