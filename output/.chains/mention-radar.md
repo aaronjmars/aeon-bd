@@ -1,18 +1,18 @@
-ℹ️ Mention Radar — 2026-08-08
+ℹ️ Mention Radar
 
-*Mention Radar — 2026-08-08*
+*Mention Radar — 2026-08-10*
 
-**AEON**
-- X: QUIET (api, http=200, 08-01→08-08 window). Only prior-known Amrit_Mirch repost resurfaced (already seen 08-04, no discovery/friction signal — doesn't qualify).
-- Web (Reddit/HN/PH/Farcaster): QUIET — no organic discussion found.
-- GitHub: **617★/222f (+23★/+6f vs 08-06 — notable jump)**. Likely riding this week's integrations (you.com official skill, Eyebrow security integration, Agent Wallet x402) already surfaced by bd-radar/fetch-tweets — no single new driver found this cycle.
+AEON
+- X: QUIET (api, http=200, 08-03→08-10) — no posts by others matching discovery/confusion/friction/comparison/feature-request criteria; only unrelated $AEON token chatter filtered out.
+- Web (Reddit/HN/PH/Farcaster): QUIET.
+- GitHub: 640★/227f (**+23★/+5f vs 08-08 baseline — notable**), no single driver isolated.
 
-**MIROSHARK**
-- X: QUIET (api, http=200) — only $MIROSHARK ticker/price chatter, no product discussion.
-- Web: QUIET — no organic discussion found.
-- GitHub: 1427★/298f (+3★/+0f vs 08-06, below notable threshold).
+MIROSHARK
+- X: 2 low-reach tags, both worth noting — [@gutomartino](https://x.com/gutomartino/status/2086435522608570504) ("Cc @miroshark_ @aaronjmars", 1 like/1 reply, 08-09) and [@baiweiart](https://x.com/baiweiart/status/2086412013622694383) ("@miroshark_ ?", 08-09) — both dropped into a thread about China's "Light Society" paper (Tsinghua/Zhongguancun/SUFE, arXiv 2506.12078, 1B-agent earth-scale social simulation) that trended hard on X 08-09/08-10 (Brian Roemmele, HowToPrompt posts). People are pattern-matching MiroShark onto a viral billion-agent-simulation research story. Category comparison, not discovery.
+- Web: QUIET (Microlaunch listing is pre-existing, already tracked — not new).
+- GitHub: 1429★/298f (+2★/+0f vs 08-08, below threshold).
 
-**ENGAGEMENT OPPORTUNITIES**
-- None this cycle — no new external mentions to act on.
+ENGAGEMENT OPPORTUNITIES
+- The Light Society thread: real category-zeitgeist collision (billion-agent social simulation going viral same week Miroshark does swarm-agent simulation at $1/<10min). Worth a reply from @miroshark_ or @aaronjmars positioning the contrast — academic megascale paper (no public tool) vs. an actual $1, <10min, runnable product. Low current reach (1-2 likes) but the underlying topic (Brian Roemmele's post) has real pull — reply there, not just to the small tags.
 
-QUIET: miroshark — no external mentions found this cycle.
+QUIET: aeon — no external mentions found beyond the GitHub delta
