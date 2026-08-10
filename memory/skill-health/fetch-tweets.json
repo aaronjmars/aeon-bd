@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-09T17:14:25Z",
-  "quality_score": 3,
-  "assessment": "Skill executed correctly, applied curation rules properly, and logged appropriately — but found no signal (pure noise, 0/7 survivors across all topics), resulting in a routine no-op outcome.",
+  "last_analyzed": "2026-08-10T17:22:16Z",
+  "quality_score": 4,
+  "assessment": "Skill executed successfully: fetched 12 candidates via X.AI API (http=200), curated to 7 substantive results across 3 clusters, applied proper verification rigor (flagged unverified star-count claims, detected bot patterns), completed full workflow (notify sent, memory updated, commit made). Truncation prevents full visibility into the digest content, preventing excellent rating.",
   "flags": [],
   "avg_score": 3.93,
   "history": [
-    {
-      "date": "2026-07-11",
-      "score": 4
-    },
     {
       "date": "2026-07-12",
       "score": 4
@@ -125,6 +121,10 @@
     {
       "date": "2026-08-09",
       "score": 3
+    },
+    {
+      "date": "2026-08-10",
+      "score": 4
     }
   ]
 }

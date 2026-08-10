@@ -1,0 +1,372 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark keyword sweep (2026-08-10)"
+      },
+      "children": [
+        "text_intro",
+        "heading_official",
+        "stack_official",
+        "sep_1",
+        "heading_mirofish",
+        "stack_mirofish",
+        "sep_2",
+        "heading_explainer",
+        "stack_explainer",
+        "sep_3",
+        "heading_watch",
+        "text_watch",
+        "stack_maddox"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet weekend window — the only real signal is a possible templated AEON-explainer push, plus MiroFish community buzz whose star-count claims don't match our own GitHub tracking.",
+        "variant": "lead"
+      }
+    },
+    "heading_official": {
+      "type": "Heading",
+      "props": {
+        "text": "Official channels",
+        "level": "h2"
+      }
+    },
+    "stack_official": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "entry_1",
+        "entry_2"
+      ]
+    },
+    "entry_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_1",
+        "stats_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "aeonframework",
+        "text": "daily-workflow demo of the aeon agent; routine product-usage content, not an announcement.",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "stats_1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2086862381305540740"
+      }
+    },
+    "entry_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_2",
+        "stats_2",
+        "link_2"
+      ]
+    },
+    "tweet_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Miroshark",
+        "handle": "miroshark_",
+        "text": "promotes the sim engine running on x402; repeats existing \"x402-native\" positioning, no new capability claimed.",
+        "likes": 4,
+        "retweets": 1
+      }
+    },
+    "stats_2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "link_2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/miroshark_/status/2086482585669042238"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_mirofish": {
+      "type": "Heading",
+      "props": {
+        "text": "MiroFish buzz — stats don't reconcile",
+        "level": "h2"
+      }
+    },
+    "stack_mirofish": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "entry_3",
+        "entry_4"
+      ]
+    },
+    "entry_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_3",
+        "stats_3",
+        "link_3"
+      ]
+    },
+    "tweet_3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Ritu With AI",
+        "handle": "RituWithAI",
+        "text": "viral-framed thread pitches MiroFish's parallel-futures pitch and cites \"71,000 GitHub stars\" — ~50x our own tracked count (~1.4k per mention-radar). Treat as unverified reach, not confirmed traction.",
+        "likes": 6,
+        "retweets": 5
+      }
+    },
+    "stats_3": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "link_3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/RituWithAI/status/2086330280919621873"
+      }
+    },
+    "entry_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_4",
+        "stats_4",
+        "link_4"
+      ]
+    },
+    "tweet_4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Smarteck_cl",
+        "handle": "Smarteck_cl",
+        "text": "Spanish-language coverage frames MiroFish as unusually ambitious (market/geopolitics simulation), cites \"126 new stars\" + Docker support — doesn't reconcile with our tracked delta (+2★ over the same window).",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "stats_4": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link_4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Smarteck_cl/status/2086535485418316272"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_explainer": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON explainer posts (possible templated push)",
+        "level": "h2"
+      }
+    },
+    "stack_explainer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "entry_5",
+        "entry_6"
+      ]
+    },
+    "entry_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_5",
+        "stats_5",
+        "link_5"
+      ]
+    },
+    "tweet_5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Jennysubt_",
+        "handle": "Jennysubt_",
+        "text": "numbered-thread post (\"2/\") arguing AEON removes fee/rigidity/latency blockers for autonomous agents — reads as templated explainer copy, not a spontaneous reaction.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "stats_5": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "link_5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Jennysubt_/status/2086399100556063086"
+      }
+    },
+    "entry_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_6",
+        "stats_6",
+        "link_6"
+      ]
+    },
+    "tweet_6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Xeus50",
+        "handle": "Xeus50",
+        "text": "near-identical templated phrasing (\"AEON provides the framework that makes this possible\") same weekend — two structurally similar zero-engagement posts same day suggests coordinated/bot-assisted content, not organic discovery.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "stats_6": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "link_6": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Xeus50/status/2086241595939016942"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "text_watch": {
+      "type": "Text",
+      "props": {
+        "text": "Low reach, ambiguous target: x.com/maddox00000 — highest raw engagement of the batch, but \"we are here for you, Aeon... Persist Forever 💹\" reads as $AEON token-community sentiment, not framework news. Can't confirm without more context.",
+        "variant": "caption"
+      }
+    },
+    "stack_maddox": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_7",
+        "stats_7",
+        "link_7"
+      ]
+    },
+    "tweet_7": {
+      "type": "TweetCard",
+      "props": {
+        "author": "maddox00000",
+        "handle": "maddox00000",
+        "text": "we are here for you, Aeon... Persist Forever 💹",
+        "likes": 36,
+        "retweets": 1
+      }
+    },
+    "stats_7": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "link_7": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/maddox00000/status/2086454790163234872"
+      }
+    }
+  }
+}
