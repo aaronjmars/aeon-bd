@@ -1,0 +1,344 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "2026-08-11"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement-1",
+        "sep-1",
+        "engagement-2",
+        "sep-2",
+        "engagement-3",
+        "sep-3",
+        "engagement-4",
+        "sep-4",
+        "engagement-5",
+        "sep-5",
+        "aging-section"
+      ]
+    },
+    "engagement-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-1",
+        "det-1",
+        "link-1",
+        "badge-1",
+        "draft-1"
+      ]
+    },
+    "h-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Light Society thread (@gutomartino / @baiweiart tags)",
+        "level": "h3"
+      }
+    },
+    "det-1": {
+      "type": "Text",
+      "props": {
+        "text": "2 days ago — dropped @miroshark_ @aaronjmars into the viral Light Society billion-agent simulation paper thread (Tsinghua/SUFE, arXiv 2506.12078) trending 08-09/10",
+        "variant": "body"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/gutomartino/status/2086435522608570504",
+        "href": "https://x.com/gutomartino/status/2086435522608570504"
+      }
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "draft-1": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"light society is a paper. no public tool, no live run. miroshark is $1, under 10min, agents actually arguing + trading on a simulated AMM right now 🦈\"",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-2",
+        "det-2",
+        "badge-2",
+        "draft-2"
+      ]
+    },
+    "h-2": {
+      "type": "Heading",
+      "props": {
+        "text": "@ai2humannetwork",
+        "level": "h3"
+      }
+    },
+    "det-2": {
+      "type": "Text",
+      "props": {
+        "text": "6 days ago — shipped a full Aeon skill pack, merged catalog PR #812, funded 1 USDC pilot on Base, direct tag asking community to check it out. No link found (X handle only, from bd-radar 08-05 sweep — pull exact status URL before posting)",
+        "variant": "body"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "draft-2": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"funded pilot running on an aeon skill pack you shipped yourself — this is the loop working. added to the ecosystem list\"",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-3",
+        "det-3",
+        "link-3",
+        "badge-3",
+        "draft-3"
+      ]
+    },
+    "h-3": {
+      "type": "Heading",
+      "props": {
+        "text": "github:alexverify",
+        "level": "h3"
+      }
+    },
+    "det-3": {
+      "type": "Text",
+      "props": {
+        "text": "4 days ago — merged core contributor (PR #811, security fix), runs agentguard (\"trust layer for agent skills/MCPs/plugins\"), implicit pitch for integration",
+        "variant": "body"
+      }
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/alexverify",
+        "href": "https://github.com/alexverify"
+      }
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment/DM",
+        "variant": "outline"
+      }
+    },
+    "draft-3": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"PR #811 was clean. agentguard + aeon skills is an obvious pairing — want to talk integration, or you want to just ship a PR for it?\"",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-4",
+        "det-4",
+        "link-4",
+        "badge-4",
+        "draft-4"
+      ]
+    },
+    "h-4": {
+      "type": "Heading",
+      "props": {
+        "text": "@eyebrowCC",
+        "level": "h3"
+      }
+    },
+    "det-4": {
+      "type": "Text",
+      "props": {
+        "text": "4 days ago — shipped automated security auto-verification for every Aeon skill (2nd integration since launch, #3/#4 in progress) — every skill now fingerprinted pre-merge, tamper-after-approval fails the build",
+        "variant": "body"
+      }
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/eyebrowCC/status/2085402998650417586",
+        "href": "https://x.com/eyebrowCC/status/2085402998650417586"
+      }
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "draft-4": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"tamper-after-approval failing the build is exactly the primitive agent infra needs. 2 integrations in and counting — keep going 🦞\"",
+        "variant": "caption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-5",
+        "det-5",
+        "link-5",
+        "badge-5",
+        "draft-5"
+      ]
+    },
+    "h-5": {
+      "type": "Heading",
+      "props": {
+        "text": "github:paperclipai/companies",
+        "level": "h3"
+      }
+    },
+    "det-5": {
+      "type": "Text",
+      "props": {
+        "text": "4 days ago — third-party \"Agent Company\" marketplace (paperclip.ing/agentcompanies.io) has packaged Aeon as a premade installable product since 2026-03-23, 826★ parent repo, first caught this sweep despite 5 months live",
+        "variant": "body"
+      }
+    },
+    "link-5": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/paperclipai/companies",
+        "href": "https://github.com/paperclipai/companies"
+      }
+    },
+    "badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment/DM",
+        "variant": "outline"
+      }
+    },
+    "draft-5": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"been running aeon packaged into agentcompanies.io since march and this is the first we're seeing it — that's on us not you. want an official listing/cross-promo?\"",
+        "variant": "caption"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aging-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aging-h",
+        "aging-alert",
+        "dropped-h",
+        "dropped-list"
+      ]
+    },
+    "aging-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Aging",
+        "level": "h4"
+      }
+    },
+    "aging-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "@ai2humannetwork (6 days) — still uncontacted since 08-05 first flag. Decide reply or drop next cycle.",
+        "type": "warning"
+      }
+    },
+    "dropped-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Dropped (still valid, will resurface)",
+        "level": "h4"
+      }
+    },
+    "dropped-list": {
+      "type": "Text",
+      "props": {
+        "text": "@tom_doerr (3 days, organic advocacy) • github:xalil05/ProjecSen (4 days) • github:JessieJanie/aeon-skill-pack-skim (6 days, aging) • github:LSO-AI/aeon-skills (6 days, aging) • @AzzleAI (7 days, aging) • @FD_XYZ (4 days)",
+        "variant": "caption"
+      }
+    }
+  }
+}
