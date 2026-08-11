@@ -1,16 +1,16 @@
-OKF validation passes. Since there are no new high-intent (`building`/`integrating`) leads today, per the skill's notify gate this run stays quiet — no notification sent.
-
 ## Summary
 
-Ran `bd-radar` for 2026-08-09. Swept GitHub forks/issues (11 product repos via `GH_READ_PAT`), `gh search` discovery (5 term sweeps), xAI X search (http=200, 0 relevant hits), and web/HN/Reddit search.
+Ran the `bd-radar` skill for 2026-08-11. Swept GitHub forks/issues (via `GH_READ_PAT`), `gh search`, xAI `x_search`, and web/HN/Reddit — **0 net-new leads**. All fresh candidates were already tracked from prior sweeps.
 
-**Result: 0 net-new leads.** Every distinct signal found today (codexvritra's SIGNA suite, sparkleware's skill catalog, Svector-anu's fork rename, AntFleet's MiroShark benchmark, wshuyi's crucible-sim) was already tracked from a prior sweep. Ruled out two false positives as the operator's own repos (`aeonfun/aeon`, `MiroShark/MiroShark` org) and one spam repo (`luis212/NovaShoal-Swarm-Sim`, keyword-stuffed with farmed stars). ~30 routine "configure-once" forks were correctly filtered as noise.
+Notable findings, both ruled out as non-leads after investigation:
+- Confirmed `aaronjmars/aeon` → `aeonfun/aeon` and `aaronjmars/MiroShark` → `MiroShark/MiroShark` are org migrations by the operator (PAT shows `admin:true` on both, custom domains aeon.fun/miroshark.xyz) — not hijacks, not BD leads.
+- `DefiLlama/dimension-adapters` fee adapters for MiroShark were Aaron's own merged PRs (#8188/#8189, mid-July) — not a third-party integration.
+- Flagged a naming collision: an unrelated, separately-funded "AEON" crypto payments company ($8M pre-seed, YZi Labs) — worth being aware of for search/branding noise, not our product.
 
 **Files created:**
-- `output/articles/bd-radar-2026-08-09.md` — today's digest
-- `memory/logs/2026-08-09.md` — `### bd-radar` log entry
-- `.gitignore` — added `/.bd-radar-scratch/` to exclude this run's scratch dir (mirrors existing leaked-scratch guards)
+- `output/articles/bd-radar-2026-08-11.md` — daily digest
+- `memory/logs/2026-08-11.md` — `### bd-radar` log block
 
-**Unchanged:** `memory/topics/bd-radar-leads.json` (no new leads to add). No notify sent (quiet-by-default gate, no new building/integrating lead).
+Both committed to `main`. No changes to `memory/topics/bd-radar-leads.json` state (0 new leads). Notify skipped per the skill's gate (only fires on new `building`/`integrating` leads).
 
-**Follow-up:** none required — standing sweep continues tomorrow 07:20.
+**Follow-up:** none required — standing sweep continues daily at 07:20.
