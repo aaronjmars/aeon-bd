@@ -1,33 +1,31 @@
-*Top Tweets — Aeon/Miroshark keyword sweep (2026-08-10)*
-_Quiet weekend window — the only real signal is a possible templated AEON-explainer push, plus MiroFish community buzz whose star-count claims don't match our own GitHub tracking._
+ℹ️ Top Tweets — Aeon/Miroshark
 
-*Official channels*
-1. x.com/aeonframework — daily-workflow demo of the aeon agent; routine product-usage content, not an announcement.
-Likes: 3 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/aeonframework/status/2086862381305540740)
+*Top Tweets — Aeon/Miroshark (2026-08-11)*
+_Ship log + a live Uniswap v4 hook demo lead; a team member's A2A pitch draws outside interest; two smaller accounts probe token mechanics._
 
-2. x.com/miroshark_ — promotes the sim engine running on x402; repeats existing "x402-native" positioning, no new capability claimed.
-Likes: 4 | RTs: 1 | Replies: 1
-[View tweet](https://x.com/miroshark_/status/2086482585669042238)
+*Ship log & product builds*
+1. x.com/aeonframework — Shiplog recap covering the last 10 days across Aeon + Miroshark — both projects "blossoming" with stars/PRs, self-reported momentum update.
+Likes: 34 | RTs: 4 | Replies: 6
+[View tweet](https://x.com/aeonframework/status/2086813421807231311)
 
-*MiroFish buzz — stats don't reconcile*
-3. x.com/RituWithAI — viral-framed thread pitches MiroFish's parallel-futures pitch and cites "71,000 GitHub stars" — ~50x our own tracked count (~1.4k per mention-radar). Treat as unverified reach, not confirmed traction.
-Likes: 6 | RTs: 5 | Replies: 3
-[View tweet](https://x.com/RituWithAI/status/2086330280919621873)
+2. x.com/aeonframework — Shipped a Dynamic Fee Hook for Uniswap v4, built entirely by an Aeon agent — a concrete on-chain capability demo, not just a claim.
+Likes: 24 | RTs: 4 | Replies: 3
+[View tweet](https://x.com/aeonframework/status/2087181769124589960)
 
-4. x.com/Smarteck_cl — Spanish-language coverage frames MiroFish as unusually ambitious (market/geopolitics simulation), cites "126 new stars" + Docker support — doesn't reconcile with our tracked delta (+2★ over the same window).
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/Smarteck_cl/status/2086535485418316272)
+*Team framing the pitch*
+3. x.com/0xNurstar — Frames Aeon's differentiator as native A2A infra: every skill is independently callable as its own agent over Google's Agent-to-Agent protocol via the a2a-server component.
+Likes: 12 | RTs: 2 | Replies: 1
+[View tweet](https://x.com/0xNurstar/status/2087104890459840685)
 
-*AEON explainer posts (possible templated push)*
-5. x.com/Jennysubt_ — numbered-thread post ("2/") arguing AEON removes fee/rigidity/latency blockers for autonomous agents — reads as templated explainer copy, not a spontaneous reaction.
+4. x.com/dabusthebuilder — Outside builder calls Aeon "an abstraction layer" that lets agent-first protocols skip building their own scaffolding — cites it as the reason he's bullish on $AEON.
+Likes: 1 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/dabusthebuilder/status/2087177500833054903)
+
+*Token questions & criticism*
+5. x.com/0xETHBTC5 — Pushes back publicly on token buyback opacity — no schedule disclosed, calls it a transparency/insider-risk issue.
 Likes: 0 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/Jennysubt_/status/2086399100556063086)
+[View tweet](https://x.com/0xETHBTC5/status/2086860869120545107)
 
-6. x.com/Xeus50 — near-identical templated phrasing ("AEON provides the framework that makes this possible") same weekend — two structurally similar zero-engagement posts same day suggests coordinated/bot-assisted content, not organic discovery.
-Likes: 0 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/Xeus50/status/2086241595939016942)
-
-_watch (low reach, ambiguous target): x.com/maddox00000 — highest raw engagement of the batch, but "we are here for you, Aeon... Persist Forever 💹" reads as $AEON token-community sentiment, not framework news. Can't confirm without more context._
-Likes: 36 | RTs: 1 | Replies: 1
-[View tweet](https://x.com/maddox00000/status/2086454790163234872)
+6. x.com/rianbet999 — Asks Aaron directly whether $AEON will get Basescan verification, same as $MIROSHARK — an open community ask, not yet answered publicly.
+Likes: 1 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/rianbet999/status/2086692048308957421)

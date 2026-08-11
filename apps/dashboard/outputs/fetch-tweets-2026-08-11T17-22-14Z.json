@@ -1,0 +1,200 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark"
+      },
+      "children": [
+        "desc",
+        "sep1",
+        "heading1",
+        "tweet1",
+        "tweet1-replies",
+        "tweet2",
+        "tweet2-replies",
+        "sep2",
+        "heading2",
+        "tweet3",
+        "tweet3-replies",
+        "tweet4",
+        "tweet4-replies",
+        "sep3",
+        "heading3",
+        "tweet5",
+        "tweet5-replies",
+        "tweet6",
+        "tweet6-replies"
+      ]
+    },
+    "desc": {
+      "type": "Text",
+      "props": {
+        "text": "Top Tweets — Aeon/Miroshark (2026-08-11)\n\nShip log + a live Uniswap v4 hook demo lead; a team member's A2A pitch draws outside interest; two smaller accounts probe token mechanics.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Ship log & product builds",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "Shiplog recap covering the last 10 days across Aeon + Miroshark — both projects \"blossoming\" with stars/PRs, self-reported momentum update.",
+        "likes": 34,
+        "retweets": 4
+      },
+      "children": []
+    },
+    "tweet1-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 6",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "Shipped a Dynamic Fee Hook for Uniswap v4, built entirely by an Aeon agent — a concrete on-chain capability demo, not just a claim.",
+        "likes": 24,
+        "retweets": 4
+      },
+      "children": []
+    },
+    "tweet2-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Team framing the pitch",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "@0xNurstar",
+        "text": "Frames Aeon's differentiator as native A2A infra: every skill is independently callable as its own agent over Google's Agent-to-Agent protocol via the a2a-server component.",
+        "likes": 12,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "tweet3-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "dabusthebuilder",
+        "handle": "@dabusthebuilder",
+        "text": "Outside builder calls Aeon \"an abstraction layer\" that lets agent-first protocols skip building their own scaffolding — cites it as the reason he's bullish on $AEON.",
+        "likes": 1,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "tweet4-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "Token questions & criticism",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xETHBTC5",
+        "handle": "@0xETHBTC5",
+        "text": "Pushes back publicly on token buyback opacity — no schedule disclosed, calls it a transparency/insider-risk issue.",
+        "likes": 0,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "tweet5-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "rianbet999",
+        "handle": "@rianbet999",
+        "text": "Asks Aaron directly whether $AEON will get Basescan verification, same as $MIROSHARK — an open community ask, not yet answered publicly.",
+        "likes": 1,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "tweet6-replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
