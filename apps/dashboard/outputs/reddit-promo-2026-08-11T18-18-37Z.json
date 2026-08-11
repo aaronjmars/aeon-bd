@@ -1,0 +1,365 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-11"
+      },
+      "children": [
+        "story_section",
+        "separator_1",
+        "posts_stack"
+      ]
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_heading",
+        "story_body",
+        "story_link"
+      ]
+    },
+    "story_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "story_body": {
+      "type": "Text",
+      "props": {
+        "text": "An Aeon skill wrote, tested, and merged a Dynamic Fee Hook for Uniswap v4 with no human approving a step — a concrete on-chain demo, not a claim",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "story_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2087181769124589960"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "posts_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "post_1",
+        "post_2",
+        "post_3",
+        "post_4"
+      ]
+    },
+    "post_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_1_header",
+        "post_1_title",
+        "post_1_body",
+        "post_1_links",
+        "post_1_notes"
+      ]
+    },
+    "post_1_header": {
+      "type": "Text",
+      "props": {
+        "text": "r/Agent_AI • agents",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "post_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "My agent framework's own agent shipped a working Uniswap v4 hook, unsupervised",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "post_1_body": {
+      "type": "Text",
+      "props": {
+        "text": "Been building Aeon — an agent framework that runs on GitHub Actions, no local box, no approval loop. This week one of its skills wrote, tested, and shipped a Dynamic Fee Hook for Uniswap v4 on its own. Not a code suggestion a human then deployed — the agent's commit, the agent's PR, merged.\n\nWhat makes this different from most \"autonomous agent\" frameworks I've seen: there's no supervisor loop waiting on a human click between steps. Skills are markdown files, each schedulable via cron, and there's a self-repair loop that files and fixes its own bugs. We also just wired every skill up as an independently callable agent over Google's A2A protocol, so other agents can call a single Aeon skill directly instead of hitting a monolith.\n\nRepo's open source (AGPL): https://github.com/aeonfun/aeon — genuinely curious how others are handling the supervision-loop problem, happy to compare notes.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post_1_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "post_1_github",
+        "post_1_composer"
+      ]
+    },
+    "post_1_github": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub repo",
+        "href": "https://github.com/aeonfun/aeon"
+      },
+      "children": []
+    },
+    "post_1_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Post to r/Agent_AI",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=My%20agent%20framework%27s%20own%20agent%20shipped%20a%20working%20Uniswap%20v4%20hook%2C%20unsupervised"
+      },
+      "children": []
+    },
+    "post_1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: general self-promo tolerance if substantive/technical — disclose you're the builder up top.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "post_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_2_header",
+        "post_2_title",
+        "post_2_body",
+        "post_2_links",
+        "post_2_notes"
+      ]
+    },
+    "post_2_header": {
+      "type": "Text",
+      "props": {
+        "text": "r/AIPromptProgramming • agents",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "post_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Skill (markdown file) to agent's own PR to live Uniswap v4 hook. No human in the loop.",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "post_2_body": {
+      "type": "Text",
+      "props": {
+        "text": "A skill in Aeon is just a markdown file — frontmatter for schedule/permissions, then plain instructions. This week the skill that watches our DeFi surface wrote a Dynamic Fee Hook for Uniswap v4, tested it, opened its own PR, and merged — the whole loop ran on a GitHub Actions cron, no one approved a step.\n\nThe part that's more interesting than the hook itself: skills can chain (one skill's output feeds the next), and there's a self-repair skill that reads failure logs and files fixes against other skills. It's markdown orchestrating markdown.\n\nAlso just shipped native A2A (Agent-to-Agent protocol) support — every skill is independently callable as its own agent now, not just internally.\n\nRepo (AGPL, open source): https://github.com/aeonfun/aeon — if you're prompt-engineering agent pipelines, the skill format might be useful even outside our stack.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post_2_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "post_2_github",
+        "post_2_composer"
+      ]
+    },
+    "post_2_github": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub repo",
+        "href": "https://github.com/aeonfun/aeon"
+      },
+      "children": []
+    },
+    "post_2_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Post to r/AIPromptProgramming",
+        "href": "https://www.reddit.com/r/AIPromptProgramming/submit?title=Skill%20%28markdown%20file%29%20to%20agent%27s%20own%20PR%20to%20live%20Uniswap%20v4%20hook.%20No%20human%20in%20the%20loop."
+      },
+      "children": []
+    },
+    "post_2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: keep it concrete (skill format, not hype) — this sub filters hard on genuine tool-share vs ad; disclose you built it.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "post_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_3_header",
+        "post_3_title",
+        "post_3_body",
+        "post_3_links",
+        "post_3_notes"
+      ]
+    },
+    "post_3_header": {
+      "type": "Text",
+      "props": {
+        "text": "r/CLaudeSkills • claude-skills",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "post_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "A markdown skill shipped a Uniswap v4 hook on its own - here's the skill shape",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "post_3_body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon skills are Claude-style markdown skills (SKILL.md, frontmatter + instructions) scheduled via cron on GitHub Actions. This week one of them — the DeFi-ops skill — wrote a Dynamic Fee Hook for Uniswap v4, tested it, and merged its own PR without a human clicking approve.\n\nRough shape of a skill file:\n\n---\nname: uniswap-hooks\nmode: write\nschedule: cron\n---\nWatch [pools/params]. If [condition], draft a hook contract,\nwrite tests, open a PR. Log outcome to memory/.\n\nThat's genuinely most of it — the agent does the rest (write code, run tests, open PR, self-repair if something breaks). We also just gave every skill a Google A2A endpoint, so other agents can call one directly.\n\nRepo's open, AGPL: https://github.com/aeonfun/aeon. Would love feedback from people running Claude-style skills elsewhere — how are you handling write-mode approval gates?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post_3_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "post_3_github",
+        "post_3_composer"
+      ]
+    },
+    "post_3_github": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub repo",
+        "href": "https://github.com/aeonfun/aeon"
+      },
+      "children": []
+    },
+    "post_3_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Post to r/CLaudeSkills",
+        "href": "https://www.reddit.com/r/CLaudeSkills/submit?title=A%20markdown%20skill%20shipped%20a%20Uniswap%20v4%20hook%20on%20its%20own%20-%20here%27s%20the%20skill%20shape"
+      },
+      "children": []
+    },
+    "post_3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: most skills-literate audience here — lead with mechanics, they'll spot hand-wave fast; disclose you built it.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "post_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_4_header",
+        "post_4_title",
+        "post_4_body",
+        "post_4_links",
+        "post_4_notes"
+      ]
+    },
+    "post_4_header": {
+      "type": "Text",
+      "props": {
+        "text": "r/CoolGithubProjects • github",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "post_4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon - autonomous agent framework whose own skill just shipped a live Uniswap v4 hook",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "post_4_body": {
+      "type": "Text",
+      "props": {
+        "text": "What: Aeon, an agent framework that runs unattended on GitHub Actions — skills are markdown files, cron-scheduled, self-repairing.\n\nWhy post: this week a skill wrote, tested, and merged a Dynamic Fee Hook for Uniswap v4 with no human approving a step — the PR is the agent's own. Just added Google A2A protocol support too, so every skill is independently callable as its own agent.\n\nStack: GitHub Actions + Claude Code/other harnesses under the hood, markdown skill definitions, git-backed memory.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post_4_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "post_4_github",
+        "post_4_composer"
+      ]
+    },
+    "post_4_github": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub repo",
+        "href": "https://github.com/aeonfun/aeon"
+      },
+      "children": []
+    },
+    "post_4_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Post to r/CoolGithubProjects",
+        "href": "https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20autonomous%20agent%20framework%20whose%20own%20skill%20just%20shipped%20a%20live%20Uniswap%20v4%20hook"
+      },
+      "children": []
+    },
+    "post_4_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: strict title format enforced (\"Aeon - <desc>\") — keep body factual/stack-focused, no fluff; disclose in body (\"I built this\").",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
