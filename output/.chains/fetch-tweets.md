@@ -1,31 +1,15 @@
-ℹ️ Top Tweets — Aeon/Miroshark
+Pushed successfully.
 
-*Top Tweets — Aeon/Miroshark (2026-08-11)*
-_Ship log + a live Uniswap v4 hook demo lead; a team member's A2A pitch draws outside interest; two smaller accounts probe token mechanics._
+## Summary
 
-*Ship log & product builds*
-1. x.com/aeonframework — Shiplog recap covering the last 10 days across Aeon + Miroshark — both projects "blossoming" with stars/PRs, self-reported momentum update.
-Likes: 34 | RTs: 4 | Replies: 6
-[View tweet](https://x.com/aeonframework/status/2086813421807231311)
+Executed `skills/fetch-tweets/SKILL.md` with `var: "@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation"` (from `aeon.yml`) — no explicit `source:` prefix, so it inferred the **keyword** branch per the selector rules.
 
-2. x.com/aeonframework — Shipped a Dynamic Fee Hook for Uniswap v4, built entirely by an Aeon agent — a concrete on-chain capability demo, not just a claim.
-Likes: 24 | RTs: 4 | Replies: 3
-[View tweet](https://x.com/aeonframework/status/2087181769124589960)
+- Fetched via `./secretcurl` → xAI Responses API (`grok-4-1-fast`, `x_search`), HTTP 200, 15 candidate tweets returned.
+- Deduped against `memory/fetch-tweets-seen.txt` + last 3 days of logs: 2 candidates (dabusthebuilder, 0xNurstar) were already reported on 08-11.
+- Curated the remaining 13: dropped 7 as keyword false-positives on unrelated accounts/handles (boids/Wolfram, RPG chatter, an unrelated "flocking sharks" simulator, etc.), 3 for sub-5 engagement with no substance, 1 for a suspicious wallet address appended to otherwise-legit copy (treated as untrusted, not amplified), and 2 borderline items ("thanks aeon" and a zero-engagement "$aeon token is a joke" dig) judged too thin to clear the signal bar.
+- Result: **0 tweets cleared curation** → `FETCH_TWEETS_NO_NEW`, no notification sent (per "notify only on signal").
+- Logged the run under `### fetch-tweets` in `memory/logs/2026-08-12.md`, including a note on the sandbox quirk this run hit (blocked bare `/tmp` jq access and raw `$VAR` shell checks — worked around with the `Write` tool + literal `./secretcurl` calls, matching what `mention-radar` also hit earlier today).
+- Committed and pushed the log update directly to `main` (memory writes, not code — no PR needed), rebasing past one concurrent `chore(scheduler)` commit.
+- No seen-file update needed since nothing was kept.
 
-*Team framing the pitch*
-3. x.com/0xNurstar — Frames Aeon's differentiator as native A2A infra: every skill is independently callable as its own agent over Google's Agent-to-Agent protocol via the a2a-server component.
-Likes: 12 | RTs: 2 | Replies: 1
-[View tweet](https://x.com/0xNurstar/status/2087104890459840685)
-
-4. x.com/dabusthebuilder — Outside builder calls Aeon "an abstraction layer" that lets agent-first protocols skip building their own scaffolding — cites it as the reason he's bullish on $AEON.
-Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/dabusthebuilder/status/2087177500833054903)
-
-*Token questions & criticism*
-5. x.com/0xETHBTC5 — Pushes back publicly on token buyback opacity — no schedule disclosed, calls it a transparency/insider-risk issue.
-Likes: 0 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/0xETHBTC5/status/2086860869120545107)
-
-6. x.com/rianbet999 — Asks Aaron directly whether $AEON will get Basescan verification, same as $MIROSHARK — an open community ask, not yet answered publicly.
-Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/rianbet999/status/2086692048308957421)
+No follow-up action needed — today's Aeon/Miroshark chatter is genuinely quiet beyond what's already been surfaced.
