@@ -1,0 +1,414 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo",
+        "description": "2026-08-12"
+      },
+      "children": [
+        "heading_story",
+        "text_story_intro",
+        "link_story",
+        "separator_1",
+        "post1_section",
+        "separator_2",
+        "post2_section",
+        "separator_3",
+        "post3_section",
+        "separator_4",
+        "post4_section"
+      ]
+    },
+    "heading_story": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "text_story_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon's 10-day shiplog recap — a Uniswap v4 hook merged by an unattended agent, native Google A2A support, both repos \"blossoming\" on stars/PRs"
+      }
+    },
+    "link_story": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/aeonframework/status/2086813421807231311",
+        "href": "https://x.com/aeonframework/status/2086813421807231311"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post1_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1_meta",
+        "post1_title",
+        "post1_body",
+        "post1_links",
+        "post1_notes"
+      ]
+    },
+    "post1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_post1_sub",
+        "badge_post1_arch"
+      ]
+    },
+    "badge_post1_sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/lovingopensourceAI",
+        "variant": "default"
+      }
+    },
+    "badge_post1_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "post1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "What I've been building: an open-source agent framework that merged a Uniswap v4 hook with no human approving the diff",
+        "level": "h4"
+      }
+    },
+    "post1_body": {
+      "type": "Text",
+      "props": {
+        "text": "I work on Aeon, an AGPL agent framework, and wanted to share something concrete instead of another \"AI agents are the future\" post.\n\nLast week one of our skills — which is just a markdown file describing a task, nothing fancier — wrote, tested, and merged a Dynamic Fee Hook for Uniswap v4. No PR review gate, no human clicking approve. It runs on a GitHub Actions cron, the same way the rest of the framework does: skills fire on a schedule, read/write the repo, and log what they did to a plain markdown memory folder you can audit after the fact.\n\nThe same 10-day stretch also added native support for Google's A2A protocol, so any skill in the framework is independently callable as its own agent by other agents — not just a webhook you have to reverse-engineer.\n\nIt's not perfect and there's stuff that still needs a human (anything genuinely irreversible is gated), but the \"no approval loop for routine work\" part is real and you can read the exact commit history that proves it. Repo's here: https://github.com/aeonfun/aeon — happy to answer questions about how the skill/cron/memory pieces fit together.",
+        "variant": "body"
+      }
+    },
+    "post1_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_post1_repo",
+        "link_post1_composer"
+      ]
+    },
+    "link_post1_repo": {
+      "type": "Link",
+      "props": {
+        "label": "Link in post: https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "link_post1_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/lovingopensourceAI composer",
+        "href": "https://www.reddit.com/r/lovingopensourceAI/submit?title=What%I27ve%20been%20building%3A%20an%20open-source%20agent%20framework%20that%20merged%20a%20Uniswap%20v4%20hook%20with%20no%20human%20approving%20the%20diff"
+      }
+    },
+    "post1_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "disclose as builder (\"I work on Aeon\") in the post itself, not just implied — this sub is welcoming to \"what I built\" posts but still expects the disclosure up front.",
+        "type": "info"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post2_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2_meta",
+        "post2_title",
+        "post2_body",
+        "post2_links",
+        "post2_notes"
+      ]
+    },
+    "post2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_post2_sub",
+        "badge_post2_arch"
+      ]
+    },
+    "badge_post2_sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/aiecosystem",
+        "variant": "default"
+      }
+    },
+    "badge_post2_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "post2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Where we've landed on the autonomy axis for agent frameworks, after 10 days of shipping",
+        "level": "h4"
+      }
+    },
+    "post2_body": {
+      "type": "Text",
+      "props": {
+        "text": "There's a spectrum in agent tooling right now: on one end, frameworks that need a human to approve every meaningful action; on the other, frameworks that just... run. We've been building toward the second end with Aeon, and the last 10 days is a useful data point either way you land on that debate.\n\nIn that window: an agent independently shipped and merged a Uniswap v4 fee hook (real on-chain code, not a demo repo), and we added native support for Google's A2A protocol so individual skills are callable as standalone agents by other systems — not locked into our own runtime. Both product repos also kept growing on stars/PRs through the same stretch, which at least suggests the unattended-run model isn't quietly breaking things.\n\nNot claiming this is the only valid design — plenty of good reasons to keep humans in the loop for high-stakes actions, and we still gate anything irreversible. But if you're mapping the agent-framework landscape, \"runs unattended on a cron with public traces\" is a real point on it now, not just a pitch. More at https://aeon.fun if you want to see how the skill/cron/memory pieces work — glad to go deeper on any of it.",
+        "variant": "body"
+      }
+    },
+    "post2_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_post2_repo",
+        "link_post2_composer"
+      ]
+    },
+    "link_post2_repo": {
+      "type": "Link",
+      "props": {
+        "label": "Link in post: https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "link_post2_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=Where%20we%27ve%20landed%20on%20the%20autonomy%20axis%20for%20agent%20frameworks%2C%20after%2010%20days%20of%20shipping"
+      }
+    },
+    "post2_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "no vendor-vs-vendor comparisons in the body — keep it descriptive, not competitive; disclose as builder up top.",
+        "type": "info"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post3_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3_meta",
+        "post3_title",
+        "post3_body",
+        "post3_links",
+        "post3_notes"
+      ]
+    },
+    "post3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_post3_sub",
+        "badge_post3_arch"
+      ]
+    },
+    "badge_post3_sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/StartupMind",
+        "variant": "default"
+      }
+    },
+    "badge_post3_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "secondary"
+      }
+    },
+    "post3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "10 days of building in public: what actually shipped, no vanity metrics",
+        "level": "h4"
+      }
+    },
+    "post3_body": {
+      "type": "Text",
+      "props": {
+        "text": "Founder update, kept honest: over the last 10 days across our two products (Aeon, an agent framework, and Miroshark, a swarm-simulation engine), the concrete stuff that shipped was — an agent independently wrote, tested, and merged a Uniswap v4 fee hook end to end; we added native Google A2A protocol support so individual skills act as standalone agents; and both repos kept climbing on stars and PRs through the stretch, without a single coordinated marketing push behind it.\n\nI say \"no vanity metrics\" because the part I actually care about reporting is the shipped-feature list, not the star count — the stars are a byproduct, not the goal. The interesting bet here is that most of this ran unattended: scheduled runs, no human approving each diff, self-repair when something breaks. That's the actual product thesis, and this week is one more data point for or against it.\n\nIf you're building something adjacent — agent tooling, on-chain automation, simulation — happy to compare notes. https://aeon.fun has the detail if you want to dig in.",
+        "variant": "body"
+      }
+    },
+    "post3_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_post3_repo",
+        "link_post3_composer"
+      ]
+    },
+    "link_post3_repo": {
+      "type": "Link",
+      "props": {
+        "label": "Link in post: https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "link_post3_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=10%20days%20of%20building%20in%20public%3A%20what%20actually%20shipped%2C%20no%20vanity%20metrics"
+      }
+    },
+    "post3_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "StartupMind is quick to smell growth-hacky tone — keep the framing honest/founder-voiced, disclose as builder, no growth-hack language.",
+        "type": "info"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post4_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post4_meta",
+        "post4_title",
+        "post4_body",
+        "post4_links",
+        "post4_notes"
+      ]
+    },
+    "post4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_post4_sub",
+        "badge_post4_arch"
+      ]
+    },
+    "badge_post4_sub": {
+      "type": "Badge",
+      "props": {
+        "text": "r/MiroFish",
+        "variant": "default"
+      }
+    },
+    "badge_post4_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "community",
+        "variant": "secondary"
+      }
+    },
+    "post4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark rode the same 10-day wave as Aeon — quick update for the community",
+        "level": "h4"
+      }
+    },
+    "post4_body": {
+      "type": "Text",
+      "props": {
+        "text": "Quick one for folks already tracking Miroshark: the last 10 days were good on both sides of the house. While the Aeon side of the team was busy getting an agent to independently ship and merge a Uniswap v4 fee hook (yes, really — no human approving that diff) and rolling out native Google A2A support, Miroshark kept climbing on stars and PRs through the same window.\n\nNothing revolutionary to report on the swarm-sim side specifically this week — no new feature drop — but the sustained growth without a coordinated push is worth flagging, since it usually means people are finding the \"$1, hundreds of agents, under 10 minutes\" pitch and actually trying it rather than just reading about it.\n\nIf you're running sims and hitting rough edges, or have ideas for what the engine should simulate next, drop them here or open an issue — that's still the fastest way to get something prioritized. Repo: https://github.com/miroshark/miroshark",
+        "variant": "body"
+      }
+    },
+    "post4_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_post4_repo",
+        "link_post4_composer"
+      ]
+    },
+    "link_post4_repo": {
+      "type": "Link",
+      "props": {
+        "label": "Link in post: https://github.com/miroshark/miroshark",
+        "href": "https://github.com/miroshark/miroshark"
+      }
+    },
+    "link_post4_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/MiroFish composer",
+        "href": "https://www.reddit.com/r/MiroFish/submit?title=Miroshark%20rode%20the%20same%2010-day%20wave%20as%20Aeon%20%E2%80%94%20quick%20update%20for%20the%20community"
+      }
+    },
+    "post4_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "home community, insider tone is fine here — still sign off as team (\"I work on Miroshark\"), no strict flair requirement known but check sub rules before posting.",
+        "type": "info"
+      }
+    }
+  }
+}
