@@ -1,0 +1,251 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-08-12"
+      },
+      "children": [
+        "section_aeon",
+        "sep1",
+        "section_miroshark",
+        "sep2",
+        "section_engagement",
+        "sep3",
+        "section_quiet"
+      ]
+    },
+    "section_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_aeon",
+        "text_x_aeon",
+        "text_web_aeon",
+        "grid_github_aeon",
+        "text_github_context_aeon"
+      ]
+    },
+    "h_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_x_aeon": {
+      "type": "Text",
+      "props": {
+        "text": "X (api, 08-05→08-12): QUIET — no external mentions found.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_web_aeon": {
+      "type": "Text",
+      "props": {
+        "text": "Web (Reddit/HN/PH/Farcaster): QUIET — no organic threads.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "grid_github_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_gh_stars_aeon",
+        "stat_gh_forks_aeon"
+      ]
+    },
+    "stat_gh_stars_aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Stars",
+        "value": "647",
+        "delta": "+7",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_gh_forks_aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Forks",
+        "value": "236",
+        "delta": "+9",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text_github_context_aeon": {
+      "type": "Text",
+      "props": {
+        "text": "vs 08-10 — no single driver isolated",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_miroshark",
+        "text_x_miroshark",
+        "text_web_miroshark",
+        "grid_github_miroshark",
+        "text_github_context_miroshark"
+      ]
+    },
+    "h_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_x_miroshark": {
+      "type": "Text",
+      "props": {
+        "text": "X (api, 08-05→08-12): QUIET — only incidental replies inside the same \"Light Society\" thread already logged 08-10 (aeonframework hook-demo tag-alongs), nothing new.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_web_miroshark": {
+      "type": "Text",
+      "props": {
+        "text": "Web (Reddit/HN/PH/Farcaster): QUIET — Microlaunch listing pre-existing, no new coverage.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "grid_github_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_gh_stars_miroshark",
+        "stat_gh_forks_miroshark"
+      ]
+    },
+    "stat_gh_stars_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Stars",
+        "value": "1428",
+        "delta": "-1",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_gh_forks_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Forks",
+        "value": "298",
+        "delta": "0",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "text_github_context_miroshark": {
+      "type": "Text",
+      "props": {
+        "text": "flat, below notable threshold",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_engagement",
+        "text_engagement"
+      ]
+    },
+    "h_engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "None this cycle.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_quiet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_quiet",
+        "text_quiet"
+      ]
+    },
+    "h_quiet": {
+      "type": "Heading",
+      "props": {
+        "text": "QUIET Status",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_quiet": {
+      "type": "Text",
+      "props": {
+        "text": "aeon (mentions) · miroshark (mentions, GitHub)",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
