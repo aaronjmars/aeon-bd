@@ -1,0 +1,375 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "Engagement Act — 2026-08-13"
+      },
+      "children": [
+        "stack-all"
+      ]
+    },
+    "stack-all": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-1",
+        "sep-1",
+        "opp-2",
+        "sep-2",
+        "opp-3",
+        "sep-3",
+        "opp-4",
+        "sep-4",
+        "opp-5",
+        "sep-5",
+        "alert-aging"
+      ]
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-powerloom",
+        "text-1-time",
+        "text-1-desc",
+        "stack-1-links",
+        "badge-1-type",
+        "text-1-draft"
+      ]
+    },
+    "h-powerloom": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Powerloom",
+        "level": "h3"
+      }
+    },
+    "text-1-time": {
+      "type": "Text",
+      "props": {
+        "text": "0 days ago",
+        "variant": "caption"
+      }
+    },
+    "text-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped \"Whale Radar,\" an official Aeon skill pack (verified DeFi alerts, zero infra) with a blog post — repo's gone quiet since June"
+      }
+    },
+    "stack-1-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-1-github",
+        "link-1-blog"
+      ]
+    },
+    "link-1-github": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub",
+        "href": "https://github.com/powerloom/aeon-skills"
+      }
+    },
+    "link-1-blog": {
+      "type": "Link",
+      "props": {
+        "label": "Blog Post",
+        "href": "https://blog.powerloom.io/aeon-whale-radar-verified-defi-alerts-zero-infrastructure/"
+      }
+    },
+    "badge-1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment / DM",
+        "variant": "outline"
+      }
+    },
+    "text-1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: whale radar — verified defi alerts, zero infra, clean use of the skill format. repo's been quiet since june, still live? want to feature it in the next ecosystem shiplog if so."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-ai2human",
+        "text-2-time",
+        "badge-2-status",
+        "text-2-desc",
+        "link-2-x",
+        "badge-2-type",
+        "text-2-draft"
+      ]
+    },
+    "h-ai2human": {
+      "type": "Heading",
+      "props": {
+        "text": "2. @ai2humannetwork",
+        "level": "h3"
+      }
+    },
+    "text-2-time": {
+      "type": "Text",
+      "props": {
+        "text": "8 days ago, aging",
+        "variant": "caption"
+      }
+    },
+    "badge-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "4 straight cycles uncontacted",
+        "variant": "destructive"
+      }
+    },
+    "text-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Merged full Aeon skill pack (PR #812), live funded pilot (1 USDC prize pool on Base), direct-tagged us — uncontacted since first flagged 08-05"
+      }
+    },
+    "link-2-x": {
+      "type": "Link",
+      "props": {
+        "label": "X post",
+        "href": "https://x.com/ai2humannetwork/status/2084894218343076132"
+      }
+    },
+    "badge-2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "text-2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: merged pack, live pilot, direct tag — should've replied sooner. adding you to ecosystem.md this week, dm incoming"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-paperclip",
+        "text-3-time",
+        "text-3-desc",
+        "link-3-github",
+        "badge-3-type",
+        "text-3-draft"
+      ]
+    },
+    "h-paperclip": {
+      "type": "Heading",
+      "props": {
+        "text": "3. paperclipai/companies",
+        "level": "h3"
+      }
+    },
+    "text-3-time": {
+      "type": "Text",
+      "props": {
+        "text": "6 days ago, aging",
+        "variant": "caption"
+      }
+    },
+    "text-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Third-party marketplace (agentcompanies.io) has packaged Aeon as an installable product since March — 32 skills, still uncontacted"
+      }
+    },
+    "link-3-github": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub",
+        "href": "https://github.com/paperclipai/companies"
+      }
+    },
+    "badge-3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment / email DM",
+        "variant": "outline"
+      }
+    },
+    "text-3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: agentcompanies.io has been running aeon as a packaged product since march — 32 skills, solid setup. want to make it official? happy to cross-list and promote from our side."
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-alexverify",
+        "text-4-time",
+        "text-4-desc",
+        "link-4-github",
+        "badge-4-type",
+        "text-4-draft"
+      ]
+    },
+    "h-alexverify": {
+      "type": "Heading",
+      "props": {
+        "text": "4. alexverify",
+        "level": "h3"
+      }
+    },
+    "text-4-time": {
+      "type": "Text",
+      "props": {
+        "text": "6 days ago, aging",
+        "variant": "caption"
+      }
+    },
+    "text-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Merged core contributor (PR #811, security fix), runs agentguard (\"the trust layer for agent skills, MCPs & plugins\") — still uncontacted"
+      }
+    },
+    "link-4-github": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub",
+        "href": "https://github.com/alexverify"
+      }
+    },
+    "badge-4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "outline"
+      }
+    },
+    "text-4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: pr #811 was clean. agentguard sounds like a natural fit for the skill trust layer — down to talk integration?"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-eyebrow",
+        "text-5-time",
+        "text-5-desc",
+        "link-5-x",
+        "badge-5-type",
+        "text-5-draft"
+      ]
+    },
+    "h-eyebrow": {
+      "type": "Heading",
+      "props": {
+        "text": "5. @eyebrowCC",
+        "level": "h3"
+      }
+    },
+    "text-5-time": {
+      "type": "Text",
+      "props": {
+        "text": "6 days ago, aging",
+        "variant": "caption"
+      }
+    },
+    "text-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped automated security verification on every Aeon skill (2nd third-party integration, #3/#4 in progress) — still uncontacted"
+      }
+    },
+    "link-5-x": {
+      "type": "Link",
+      "props": {
+        "label": "X post",
+        "href": "https://x.com/eyebrowCC/status/2085402998650417586"
+      }
+    },
+    "badge-5-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "text-5-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: auto-verify before merge, tamper-after-approval fails the build — that's the right default for skills-as-markdown. good to have you in the stack"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-aging": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Some opportunities aging — act or drop, especially @ai2humannetwork (4 cycles uncontacted)",
+        "type": "warning"
+      }
+    }
+  }
+}
