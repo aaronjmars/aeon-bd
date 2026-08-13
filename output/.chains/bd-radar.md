@@ -1,16 +1,7 @@
-## Summary
+ℹ️ BD Radar
 
-Ran the `bd-radar` skill for 2026-08-11. Swept GitHub forks/issues (via `GH_READ_PAT`), `gh search`, xAI `x_search`, and web/HN/Reddit — **0 net-new leads**. All fresh candidates were already tracked from prior sweeps.
+**BD Radar — 2026-08-13**
 
-Notable findings, both ruled out as non-leads after investigation:
-- Confirmed `aaronjmars/aeon` → `aeonfun/aeon` and `aaronjmars/MiroShark` → `MiroShark/MiroShark` are org migrations by the operator (PAT shows `admin:true` on both, custom domains aeon.fun/miroshark.xyz) — not hijacks, not BD leads.
-- `DefiLlama/dimension-adapters` fee adapters for MiroShark were Aaron's own merged PRs (#8188/#8189, mid-July) — not a third-party integration.
-- Flagged a naming collision: an unrelated, separately-funded "AEON" crypto payments company ($8M pre-seed, YZi Labs) — worth being aware of for search/branding noise, not our product.
+Powerloom (live POWER token, $3.1M seed + $1.9M node sale) shipped an official Aeon skill pack — "Whale Radar" DeFi alerts, with their own blog post about it (`powerloom/aeon-skills`). Hasn't pushed since June 4 though. Worth a check-in: is it still live, and can we feature it in the next shiplog?
 
-**Files created:**
-- `output/articles/bd-radar-2026-08-11.md` — daily digest
-- `memory/logs/2026-08-11.md` — `### bd-radar` log block
-
-Both committed to `main`. No changes to `memory/topics/bd-radar-leads.json` state (0 new leads). Notify skipped per the skill's gate (only fires on new `building`/`integrating` leads).
-
-**Follow-up:** none required — standing sweep continues daily at 07:20.
+Two more of the same shape — AeThree and a Bankr Space builder both have `aeon-skill-pack/` dirs we hadn't logged before, same "known partner, unlogged pack" pattern. Full digest: `output/articles/bd-radar-2026-08-13.md`.

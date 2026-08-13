@@ -1,0 +1,204 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar — 2026-08-13"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-powerloom",
+        "separator-1",
+        "section-partners",
+        "separator-2",
+        "section-digest"
+      ]
+    },
+    "section-powerloom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-powerloom",
+        "stack-powerloom-details",
+        "alert-powerloom-status"
+      ]
+    },
+    "heading-powerloom": {
+      "type": "Heading",
+      "props": {
+        "text": "Powerloom",
+        "level": "h2"
+      }
+    },
+    "stack-powerloom-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-powerloom-shipment",
+        "stack-powerloom-badges",
+        "storylink-powerloom"
+      ]
+    },
+    "text-powerloom-shipment": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped official Aeon skill pack: Whale Radar DeFi alerts with blog post.",
+        "variant": "body"
+      }
+    },
+    "stack-powerloom-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-power-token",
+        "badge-seed",
+        "badge-node-sale"
+      ]
+    },
+    "badge-power-token": {
+      "type": "Badge",
+      "props": {
+        "text": "POWER token (live)",
+        "variant": "secondary"
+      }
+    },
+    "badge-seed": {
+      "type": "Badge",
+      "props": {
+        "text": "$3.1M seed",
+        "variant": "secondary"
+      }
+    },
+    "badge-node-sale": {
+      "type": "Badge",
+      "props": {
+        "text": "$1.9M node sale",
+        "variant": "secondary"
+      }
+    },
+    "storylink-powerloom": {
+      "type": "StoryLink",
+      "props": {
+        "title": "powerloom/aeon-skills",
+        "href": "https://github.com/powerloom/aeon-skills",
+        "source": "GitHub"
+      }
+    },
+    "alert-powerloom-status": {
+      "type": "Alert",
+      "props": {
+        "title": "Status Check Needed",
+        "message": "No pushes since June 4. Check if still live and consider featuring in next shiplog.",
+        "type": "warning"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-partners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-partners",
+        "text-partners-intro",
+        "stack-partners-list"
+      ]
+    },
+    "heading-partners": {
+      "type": "Heading",
+      "props": {
+        "text": "Other Partners",
+        "level": "h2"
+      }
+    },
+    "text-partners-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Known partners with aeon-skill-pack/ directories (unlogged, same pattern):",
+        "variant": "body"
+      }
+    },
+    "stack-partners-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-aethree",
+        "badge-bankr-space"
+      ]
+    },
+    "badge-aethree": {
+      "type": "Badge",
+      "props": {
+        "text": "AeThree — aeon-skill-pack/",
+        "variant": "outline"
+      }
+    },
+    "badge-bankr-space": {
+      "type": "Badge",
+      "props": {
+        "text": "Bankr Space builder — aeon-skill-pack/",
+        "variant": "outline"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-digest": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-digest-intro",
+        "storylink-digest"
+      ]
+    },
+    "text-digest-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Full digest:",
+        "variant": "caption"
+      }
+    },
+    "storylink-digest": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bd-radar-2026-08-13.md",
+        "href": "output/articles/bd-radar-2026-08-13.md"
+      }
+    }
+  }
+}
