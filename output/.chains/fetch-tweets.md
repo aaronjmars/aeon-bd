@@ -1,15 +1,17 @@
-Pushed successfully.
+Committed. Summary of the run:
 
 ## Summary
 
-Executed `skills/fetch-tweets/SKILL.md` with `var: "@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation"` (from `aeon.yml`) — no explicit `source:` prefix, so it inferred the **keyword** branch per the selector rules.
+Executed the `fetch-tweets` skill in `keyword` mode (per `aeon.yml`'s configured var: `@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation`, which has no `source:` prefix and defaults to keyword-search).
 
-- Fetched via `./secretcurl` → xAI Responses API (`grok-4-1-fast`, `x_search`), HTTP 200, 15 candidate tweets returned.
-- Deduped against `memory/fetch-tweets-seen.txt` + last 3 days of logs: 2 candidates (dabusthebuilder, 0xNurstar) were already reported on 08-11.
-- Curated the remaining 13: dropped 7 as keyword false-positives on unrelated accounts/handles (boids/Wolfram, RPG chatter, an unrelated "flocking sharks" simulator, etc.), 3 for sub-5 engagement with no substance, 1 for a suspicious wallet address appended to otherwise-legit copy (treated as untrusted, not amplified), and 2 borderline items ("thanks aeon" and a zero-engagement "$aeon token is a joke" dig) judged too thin to clear the signal bar.
-- Result: **0 tweets cleared curation** → `FETCH_TWEETS_NO_NEW`, no notification sent (per "notify only on signal").
-- Logged the run under `### fetch-tweets` in `memory/logs/2026-08-12.md`, including a note on the sandbox quirk this run hit (blocked bare `/tmp` jq access and raw `$VAR` shell checks — worked around with the `Write` tool + literal `./secretcurl` calls, matching what `mention-radar` also hit earlier today).
-- Committed and pushed the log update directly to `main` (memory writes, not code — no PR needed), rebasing past one concurrent `chore(scheduler)` commit.
-- No seen-file update needed since nothing was kept.
+**What happened:**
+- Fetched 18 candidate tweets from the X.AI API (`api.x.ai/v1/responses`, HTTP 200) for the last 24h window.
+- Curated the results: nearly all matches were **"Aeon" homonym noise** — the SPX6900 "Project Aeon"/"Aeons" crypto-cult community, the Japanese AEON retail-card brand, and unrelated handles/characters named Aeon (furry con, gaming meme).
+- **Zero** mentions of `@miroshark_` or "Miroshark swarm simulation" in the window.
+- The only genuinely on-topic hit was `@aeonframework`'s own tweet (a YouTube share) — not external BD/social signal, so nothing cleared the curation bar.
+- Per the skill's "notify only on signal" rule and STRATEGY.md's "avoid filler/busywork," **no notification was sent** — this was a legitimate empty/no-signal run.
 
-No follow-up action needed — today's Aeon/Miroshark chatter is genuinely quiet beyond what's already been surfaced.
+**Files modified:**
+- `memory/logs/2026-08-13.md` — appended a `### fetch-tweets` log entry (status `FETCH_TWEETS_EMPTY`, with the homonym-noise reason documented), committed directly to main.
+
+**Follow-up worth flagging (not actioned):** the configured search query is a bare `Aeon` keyword match with no disambiguation, so it's consistently going to pull in the SPX6900 cult and AEON-brand noise. Consider tightening the query (e.g. quoting exact phrases, adding `-SPX6900 -spx6900`) or scoping via `list:`/`account:` instead — didn't change it since that's a config/operator decision, not something in scope for a single run.
