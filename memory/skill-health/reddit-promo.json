@@ -1,10 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-12T18:21:15Z",
-  "quality_score": 4,
-  "assessment": "Well-executed skill run: identified one fresh story (Aeon shiplog recap), deduped against prior promotions, drafted 4 subreddit-specific Reddit posts, and delivered copy-paste-ready output. Memory and logs updated correctly. No errors or blockers.",
+  "last_analyzed": "2026-08-13T18:17:51Z",
+  "quality_score": 3,
+  "assessment": "Acceptable — correctly executed a no-op skip, with clear reasoning and proper logging; sound judgment filtering unsuitable candidates.",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 3.91,
   "history": [
     {
       "date": "2026-08-05",
@@ -45,6 +45,10 @@
     {
       "date": "2026-08-12",
       "score": 4
+    },
+    {
+      "date": "2026-08-13",
+      "score": 3
     }
   ]
 }
