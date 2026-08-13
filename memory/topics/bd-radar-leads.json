@@ -1,32 +1,6 @@
 {
   "leads": [
     {
-      "key": "github:paperclipai/companies",
-      "class": "building",
-      "who": "paperclipai (Paperclip / agentcompanies.io)",
-      "handle": "paperclipai",
-      "signal": "Third-party 'Agent Company' marketplace (paperclip.ing / agentcompanies.io) packages 'Aeon Intelligence' as a premade installable product - 32 skills sourced directly from aaronjmars/aeon, 4-agent org (CEO / Crypto Analyst / Engineering Lead / Research Analyst). Added 2026-03-23 (commit msg: 'from aaronjmars/aeon'), live for ~5 months - first time this sweep caught it. 826 stars on the parent companies repo.",
-      "fit": 3,
-      "score": 15,
-      "first_seen": "2026-08-07",
-      "link": "https://github.com/paperclipai/companies/tree/main/aeon-intelligence",
-      "source": "gh_search_code",
-      "move": "DM/email paperclip.ing - Aeon is already productized on their marketplace; propose an official listing / cross-promo to reach their install base."
-    },
-    {
-      "key": "github:alexverify/aeon",
-      "class": "building",
-      "who": "alexverify (agentguard)",
-      "handle": "alexverify",
-      "signal": "Merged core contributor - authored PR #811 (security fix: calibrate skill-scan to fire on sinks not template vars), landed 2026-08-03. Bio: building agentguard, 'the trust layer for agent skills, MCPs & plugins' - directly complementary to Aeon's skill catalog / security surface.",
-      "fit": 3,
-      "score": 15,
-      "first_seen": "2026-08-07",
-      "link": "https://github.com/alexverify",
-      "source": "gh_forks_api",
-      "move": "DM @alexverify - already shipped a merged security fix; agentguard is a natural catalog/security partner, propose integration."
-    },
-    {
       "key": "github:xalil05/ProjecSen",
       "class": "building",
       "who": "xalil05 (Ibrahima X Ndiaye)",
@@ -2470,12 +2444,29 @@
       "first_seen": "2026-07-31",
       "source": "gh_read_pat_issues",
       "move": "Check pulse.projectveritos.com - if legit, list Aeon/MiroShark's own x402 revenue there for free visibility; if it's spam-pattern issue-dropping, close both issues as off-topic."
+    },
+    {
+      "key": "github:dxgamers70-dev/Aethree",
+      "class": "building",
+      "who": "dxgamers70-dev (AeThree, known ecosystem partner)",
+      "signal": "aeon-skill-pack/ dir in repo, last pushed 2026-07-08",
+      "fit": 3,
+      "score": 15,
+      "date": "2026-08-13",
+      "move": "Reply to @aethree_xyz -- ask what the pack does, offer a shiplog mention"
+    },
+    {
+      "key": "github:anondevv69/bankr-space",
+      "class": "building",
+      "who": "anondevv69 (Bankr Space -- token-gated communities on bankr.space)",
+      "signal": "aeon-skill-pack/ dir in repo, last pushed 2026-07-03; official-vs-community unclear",
+      "fit": 3,
+      "score": 15,
+      "date": "2026-08-13",
+      "move": "Ask in Bankr community/DM if official -- feature or invite in accordingly"
     }
   ],
   "surfaced": [
-    "github:liquidpadbot/aeon-skill-pack-liquidpad",
-    "github:ryjin111/aeon-skill-pack-mythosforge",
-    "github:gitlawbounty/gitbounty-skill-pack",
     "github:AdversaLLC",
     "github:danbuildss/luca-aeon-skills",
     "github:UIZorrot/careful-finance-aeon-skill-pack",
@@ -2772,6 +2763,9 @@
     "github:richard7463/ai2human-aeon-skill-pack",
     "github:paperclipai/companies",
     "github:alexverify/aeon",
-    "github:xalil05/ProjecSen"
+    "github:xalil05/ProjecSen",
+    "github:powerloom/aeon-skills",
+    "github:dxgamers70-dev/Aethree",
+    "github:anondevv69/bankr-space"
   ]
 }
