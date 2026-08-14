@@ -1,0 +1,281 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-08-14"
+      },
+      "children": [
+        "section_aeon",
+        "sep1",
+        "section_miroshark",
+        "sep2",
+        "section_engagement",
+        "sep3",
+        "text_quiet"
+      ]
+    },
+    "section_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aeon",
+        "text_aeon_x",
+        "text_aeon_web",
+        "stat_aeon_github"
+      ]
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_aeon_x": {
+      "type": "Text",
+      "props": {
+        "text": "X: QUIET (api, http=200, 08-07→08-14) — no genuine third-party mentions, only known contributors/spam/homonyms"
+      },
+      "children": []
+    },
+    "text_aeon_web": {
+      "type": "Text",
+      "props": {
+        "text": "Web (Reddit/HN/PH/Farcaster): QUIET"
+      },
+      "children": []
+    },
+    "stat_aeon_github": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub",
+        "value": "659★ / 237f",
+        "delta": "+12★ / +1f vs 08-12 (notable), no single driver isolated",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_miroshark",
+        "mention_3cardtrickHT",
+        "mention_ashcotXBT",
+        "text_miroshark_web",
+        "stat_miroshark_github"
+      ]
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "mention_3cardtrickHT": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention_3cardtrickHT_meta",
+        "mention_3cardtrickHT_tweet",
+        "mention_3cardtrickHT_class",
+        "mention_3cardtrickHT_context",
+        "mention_3cardtrickHT_link"
+      ]
+    },
+    "mention_3cardtrickHT_meta": {
+      "type": "Text",
+      "props": {
+        "text": "[X, @3cardtrickHT, 2026-08-12]",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "mention_3cardtrickHT_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "3cardtrickHT",
+        "handle": "3cardtrickHT",
+        "text": "What effect will Light Society the Chinese 1 billion ai agent sim have on @miroshark_? Is there a way of plugging miroshark into it or utilizing it in some way? Exciting times for @miroshark_!!"
+      },
+      "children": []
+    },
+    "mention_3cardtrickHT_class": {
+      "type": "Badge",
+      "props": {
+        "text": "Feature request / competitor-adjacent question",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "mention_3cardtrickHT_context": {
+      "type": "Text",
+      "props": {
+        "text": "Direct ask, tags the operator, revives the Light Society timing window flagged 08-10. A same-day follow-up tagged @aaronjmars."
+      },
+      "children": []
+    },
+    "mention_3cardtrickHT_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/3cardtrickHT/status/2087533074993082411"
+      },
+      "children": []
+    },
+    "mention_ashcotXBT": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention_ashcotXBT_meta",
+        "mention_ashcotXBT_tweet",
+        "mention_ashcotXBT_class",
+        "mention_ashcotXBT_context",
+        "mention_ashcotXBT_link"
+      ]
+    },
+    "mention_ashcotXBT_meta": {
+      "type": "Text",
+      "props": {
+        "text": "[X, @ashcotXBT, 2026-08-13]",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "mention_ashcotXBT_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ashcotXBT",
+        "handle": "ashcotXBT",
+        "text": "MiroShark wins the logo round. the fish has main-character energy."
+      },
+      "children": []
+    },
+    "mention_ashcotXBT_class": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "mention_ashcotXBT_context": {
+      "type": "Text",
+      "props": {
+        "text": "Positive, low reach (0 engagement visible)"
+      },
+      "children": []
+    },
+    "mention_ashcotXBT_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/ashcotXBT/status/2087788308214538724"
+      },
+      "children": []
+    },
+    "text_miroshark_web": {
+      "type": "Text",
+      "props": {
+        "text": "Web (Reddit/HN/PH/Farcaster): QUIET — Towards AI 500-agent walkthrough resurfaced in search but already reported 06-26/07-14 (not new)"
+      },
+      "children": []
+    },
+    "stat_miroshark_github": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub",
+        "value": "1430★ / 298f",
+        "delta": "+2★ / 0f vs 08-12, below notable threshold",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_engagement",
+        "engagement_item_3cardtrickHT"
+      ]
+    },
+    "heading_engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "engagement_item_3cardtrickHT": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement_item_3cardtrickHT_text",
+        "engagement_item_3cardtrickHT_link"
+      ]
+    },
+    "engagement_item_3cardtrickHT_text": {
+      "type": "Text",
+      "props": {
+        "text": "@3cardtrickHT: direct, unanswered question about Miroshark plugging into Light Society — worth a reply positioning Miroshark as the runnable $1/<10min alternative to the academic-scale sim. Second instance of this exact framing (first was @gutomartino/@baiweiart 08-10) — pattern, not one-off."
+      },
+      "children": []
+    },
+    "engagement_item_3cardtrickHT_link": {
+      "type": "Link",
+      "props": {
+        "label": "Reply to tweet",
+        "href": "https://x.com/3cardtrickHT/status/2087533074993082411"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "text_quiet": {
+      "type": "Text",
+      "props": {
+        "text": "QUIET: aeon — no external mentions found this cycle",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
