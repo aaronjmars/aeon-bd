@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-13T17:22:32Z",
-  "quality_score": 4,
-  "assessment": "Well-executed run with sound filtering logic; correctly identified homonym noise and applied no-signal rule appropriately, with useful follow-up about query tightening.",
+  "last_analyzed": "2026-08-14T17:19:49Z",
+  "quality_score": 3,
+  "assessment": "Clean execution with proper curation logic; correctly logged empty result and followed notification rules, but no substantive output per design.",
   "flags": [],
-  "avg_score": 3.93,
+  "avg_score": 3.9,
   "history": [
-    {
-      "date": "2026-07-15",
-      "score": 4
-    },
     {
       "date": "2026-07-16",
       "score": 4
@@ -125,6 +121,10 @@
     {
       "date": "2026-08-13",
       "score": 4
+    },
+    {
+      "date": "2026-08-14",
+      "score": 3
     }
   ]
 }
