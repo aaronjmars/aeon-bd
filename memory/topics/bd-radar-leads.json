@@ -1,6 +1,19 @@
 {
   "leads": [
     {
+      "key": "github:belikh/aeon",
+      "class": "building",
+      "who": "Jupiter Belic (belikh, Jupiter Systems, Australia)",
+      "handle": "belikh",
+      "signal": "Forked aeon into own 'jupiterOS agent framework' - 39 independent commits over 2 days (08-14 to 08-15) by a distinct author ('Antigravity'): live Home Assistant MCP integration (ha-mcp.jupiter.au), custom multi-provider LLM gateway routing (GATEWAY_ORDER, Z.ai primary), and real infra debugging incl. a fix for GitHub's secrets-exfiltration approval gate blocking messages.yml - genuine sustained builder running Aeon in production, not a drive-by fork.",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-08-15",
+      "link": "https://github.com/belikh/aeon",
+      "source": "gh_forks_compare",
+      "move": "DM/reach out to belikh (Jupiter Systems, AU) - running a real JupiterOS instance on Aeon w/ Home Assistant integration; invite to ECOSYSTEM.md and flag their messages.yml secrets-gate fix as a possible upstream PR."
+    },
+    {
       "key": "github:xalil05/ProjecSen",
       "class": "building",
       "who": "xalil05 (Ibrahima X Ndiaye)",
@@ -2454,20 +2467,9 @@
       "score": 15,
       "date": "2026-08-13",
       "move": "Reply to @aethree_xyz -- ask what the pack does, offer a shiplog mention"
-    },
-    {
-      "key": "github:anondevv69/bankr-space",
-      "class": "building",
-      "who": "anondevv69 (Bankr Space -- token-gated communities on bankr.space)",
-      "signal": "aeon-skill-pack/ dir in repo, last pushed 2026-07-03; official-vs-community unclear",
-      "fit": 3,
-      "score": 15,
-      "date": "2026-08-13",
-      "move": "Ask in Bankr community/DM if official -- feature or invite in accordingly"
     }
   ],
   "surfaced": [
-    "github:AdversaLLC",
     "github:danbuildss/luca-aeon-skills",
     "github:UIZorrot/careful-finance-aeon-skill-pack",
     "github:codexvritra/signa-aeon-skills",
@@ -2766,6 +2768,7 @@
     "github:xalil05/ProjecSen",
     "github:powerloom/aeon-skills",
     "github:dxgamers70-dev/Aethree",
-    "github:anondevv69/bankr-space"
+    "github:anondevv69/bankr-space",
+    "github:belikh/aeon"
   ]
 }
