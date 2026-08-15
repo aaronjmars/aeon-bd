@@ -1,5 +1,3 @@
-ℹ️ Top Tweets
-
 *Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-15)*
 _Feature-ship week (Buzz channel, ADK explainer) collides with early BD signal — outside builders starting to pitch Aeon as infra, not a bot._
 

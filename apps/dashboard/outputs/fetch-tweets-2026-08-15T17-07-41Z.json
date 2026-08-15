@@ -1,0 +1,351 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets",
+        "description": "@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-15)"
+      },
+      "children": [
+        "intro-text",
+        "sep1",
+        "heading-feature-drops",
+        "stack-feature-drops",
+        "sep2",
+        "heading-aaron",
+        "stack-aaron",
+        "sep3",
+        "heading-builders",
+        "stack-builders",
+        "sep4",
+        "heading-miroshark",
+        "stack-miroshark"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Feature-ship week (Buzz channel, ADK explainer) collides with early BD signal — outside builders starting to pitch Aeon as infra, not a bot.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-feature-drops": {
+      "type": "Heading",
+      "props": {
+        "text": "Feature drops this week",
+        "level": "h2"
+      }
+    },
+    "stack-feature-drops": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "replies-1",
+        "link-1",
+        "sep-1a",
+        "tweet-2",
+        "replies-2",
+        "link-2",
+        "sep-2a",
+        "tweet-3",
+        "replies-3",
+        "link-3"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "aeonframework",
+        "text": "Shipped Buzz (Jack Dorsey's open-source group chat app) as a supported channel — first new integration surface announced since the recent MCP work.",
+        "likes": 31,
+        "retweets": 5
+      }
+    },
+    "replies-1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 5",
+        "variant": "caption"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2088225133529882938"
+      }
+    },
+    "sep-1a": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "aeonframework",
+        "text": "Weekly recap thread (Aug 7–14) rolling up framework + ecosystem changes — the standing cadence post, worth a skim for shipped items not separately announced.",
+        "likes": 20,
+        "retweets": 5
+      }
+    },
+    "replies-2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2088249656740315609"
+      }
+    },
+    "sep-2a": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "aeonframework",
+        "text": "Pushed an ADK explainer pitching \"integrate autonomous agents into any product\" — repositions Aeon as embeddable infra, not just a standalone bot.",
+        "likes": 21,
+        "retweets": 2
+      }
+    },
+    "replies-3": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2088157674978345276"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-aaron": {
+      "type": "Heading",
+      "props": {
+        "text": "Aaron pushing visibility + autonomy pitch",
+        "level": "h2"
+      }
+    },
+    "stack-aaron": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-4",
+        "replies-4",
+        "link-4",
+        "sep-4a",
+        "tweet-5",
+        "replies-5",
+        "link-5"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "aaronjmars",
+        "text": "Reworked GitHub repo visuals for both Aeon and Miroshark specifically to make \"how they work\" legible at a glance — a discoverability push on both repos at once.",
+        "likes": 24,
+        "retweets": 5
+      }
+    },
+    "replies-4": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2088095553649528979"
+      }
+    },
+    "sep-4a": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "aaronjmars",
+        "text": "Pitches one-time Aeon setup for deep research, vuln audits, and feature shipping \"without constant approval loops\" — leans on the autonomy differentiator vs. interactive agents.",
+        "likes": 15,
+        "retweets": 0
+      }
+    },
+    "replies-5": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2088073238849163339"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-builders": {
+      "type": "Heading",
+      "props": {
+        "text": "Builders positioning Aeon as infra — BD signal",
+        "level": "h2"
+      }
+    },
+    "stack-builders": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-6",
+        "replies-6",
+        "link-6",
+        "sep-6a",
+        "tweet-7",
+        "replies-7",
+        "link-7"
+      ]
+    },
+    "tweet-6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xlippit",
+        "handle": "0xlippit",
+        "text": "Unsolicited comparison thread pitches Aeon against Hermes/OpenClaw on the \"keeps working when you're gone\" axis and flags $AEON as undervalued on Base — promotional, but third-party comparison content is BD signal on its own.",
+        "likes": 9,
+        "retweets": 1
+      }
+    },
+    "replies-6": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "link-6": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xlippit/status/2088525204255330686"
+      }
+    },
+    "sep-6a": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-7": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Amrit Mirch",
+        "handle": "Amrit_Mirch",
+        "text": "Frames the ADK's real value for builders as \"GitHub's API IS the agent's API\" — no PATs, no LLM billing sitting on the product — a distinct product-integration angle from a builder, worth a reply despite low reach so far.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "replies-7": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-7": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Amrit_Mirch/status/2088183845439127859"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark cross-promotion",
+        "level": "h2"
+      }
+    },
+    "stack-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-8",
+        "replies-8",
+        "link-8"
+      ]
+    },
+    "tweet-8": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "aeonframework",
+        "text": "Linked a Miroshark article on how swarm role-play surfaces outcomes a single model misses — the only Miroshark-specific content in today's window.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "replies-8": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "link-8": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2088249685483892999"
+      }
+    }
+  }
+}
