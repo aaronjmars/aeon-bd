@@ -1,0 +1,176 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar — new lead"
+      },
+      "children": [
+        "lead_header",
+        "sep1",
+        "lead_intro",
+        "sep2",
+        "stats_section",
+        "sep3",
+        "work_section",
+        "sep4",
+        "repo_section",
+        "sep5",
+        "next_moves_section"
+      ]
+    },
+    "lead_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Jupiter Belic (belikh) — Jupiter Systems, AU",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Forked aeon into jupiterOS — running it for real, not a drive-by. Shipped 39 real commits in 2 days."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats_section": {
+      "type": "Stat",
+      "props": {
+        "label": "Real commits shipped",
+        "value": "39",
+        "delta": "in 2 days"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "work_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "integrations_title",
+        "int_1",
+        "int_2",
+        "bugfix_divider",
+        "bugfix_title",
+        "bugfix_text"
+      ]
+    },
+    "integrations_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Live integrations",
+        "level": "h3"
+      }
+    },
+    "int_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Home Assistant MCP integration",
+        "variant": "outline"
+      }
+    },
+    "int_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Custom LLM gateway routing",
+        "variant": "outline"
+      }
+    },
+    "bugfix_divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "bugfix_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Real bug fixed",
+        "level": "h3"
+      }
+    },
+    "bugfix_text": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub secrets-exfiltration approval gate that was blocking messages.yml runs — they found and shipped the fix."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "repo_section": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jupiterOS (belikh/aeon fork)",
+        "href": "https://github.com/belikh/aeon"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "next_moves_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "moves_title",
+        "move_1",
+        "move_2",
+        "move_3"
+      ]
+    },
+    "moves_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Next moves",
+        "level": "h3"
+      }
+    },
+    "move_1": {
+      "type": "Text",
+      "props": {
+        "text": "DM belikh"
+      }
+    },
+    "move_2": {
+      "type": "Text",
+      "props": {
+        "text": "Invite to ECOSYSTEM.md"
+      }
+    },
+    "move_3": {
+      "type": "Text",
+      "props": {
+        "text": "Flag their messages.yml fix as a possible upstream PR"
+      }
+    }
+  }
+}

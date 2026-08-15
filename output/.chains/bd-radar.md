@@ -1,7 +1,7 @@
-ℹ️ BD Radar
+ℹ️ BD Radar — new lead
 
-**BD Radar — 2026-08-13**
+new building lead: belikh (Jupiter Belic, Jupiter Systems, AU) forked aeon into "jupiterOS" — 39 real commits in 2 days, live Home Assistant MCP integration, custom LLM gateway routing, and a legit fix for a GitHub secrets-exfiltration approval gate that was blocking messages.yml runs. not a drive-by, running it for real.
 
-Powerloom (live POWER token, $3.1M seed + $1.9M node sale) shipped an official Aeon skill pack — "Whale Radar" DeFi alerts, with their own blog post about it (`powerloom/aeon-skills`). Hasn't pushed since June 4 though. Worth a check-in: is it still live, and can we feature it in the next shiplog?
+move: DM belikh, invite to ECOSYSTEM.md, flag their messages.yml fix as a possible upstream PR — they already found and fixed a real bug for us.
 
-Two more of the same shape — AeThree and a Bankr Space builder both have `aeon-skill-pack/` dirs we hadn't logged before, same "known partner, unlogged pack" pattern. Full digest: `output/articles/bd-radar-2026-08-13.md`.
+https://github.com/belikh/aeon
