@@ -1,0 +1,429 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-08-15"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1",
+        "sep1",
+        "item2",
+        "sep2",
+        "item3",
+        "sep3",
+        "item4",
+        "sep4",
+        "item5",
+        "sep5",
+        "alert_aging"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h1",
+        "badges1",
+        "link1",
+        "desc1",
+        "draft1"
+      ]
+    },
+    "h1": {
+      "type": "Heading",
+      "props": {
+        "text": "1. belikh/aeon (0 days ago)",
+        "level": "h3"
+      }
+    },
+    "badges1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1a",
+        "badge1b"
+      ]
+    },
+    "badge1a": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM/comment",
+        "variant": "default"
+      }
+    },
+    "badge1b": {
+      "type": "Badge",
+      "props": {
+        "text": "New",
+        "variant": "secondary"
+      }
+    },
+    "link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "belikh/jupiterOS fork",
+        "href": "https://github.com/belikh/aeon",
+        "source": "GitHub"
+      }
+    },
+    "desc1": {
+      "type": "Text",
+      "props": {
+        "text": "Forked Aeon into jupiterOS with 39 independent commits in 2 days. Features: live Home Assistant MCP integration, custom LLM gateway routing, and a real fix for GitHub secrets-exfiltration approval-gate bug in messages.yml.",
+        "variant": "body"
+      }
+    },
+    "draft1": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"39 independent commits in 2 days on jupiterOS is serious work — the home assistant mcp integration and the messages.yml secrets-gate fix are both real, not surface-level. want in on ecosystem.md? also happy to help land that gate fix upstream as a pr if you want.\"",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h2",
+        "badges2",
+        "link2",
+        "desc2",
+        "draft2"
+      ]
+    },
+    "h2": {
+      "type": "Heading",
+      "props": {
+        "text": "2. @3cardtrickHT (1 day ago)",
+        "level": "h3"
+      }
+    },
+    "badges2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge2a",
+        "badge2b"
+      ]
+    },
+    "badge2a": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "default"
+      }
+    },
+    "badge2b": {
+      "type": "Badge",
+      "props": {
+        "text": "2nd instance of framing",
+        "variant": "outline"
+      }
+    },
+    "link2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Miroshark + Light Society integration question",
+        "href": "https://x.com/3cardtrickHT/status/2087533074993082411",
+        "source": "X"
+      }
+    },
+    "desc2": {
+      "type": "Text",
+      "props": {
+        "text": "Direct, unanswered question about plugging Miroshark into Light Society (China's billion-agent sim). Tags @aaronjmars/@miroshark_. This is the 2nd instance of this exact framing after @gutomartino/@baiweiart 08-10.",
+        "variant": "body"
+      }
+    },
+    "draft2": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"no plug-in yet, but the framing's right — miroshark's the runnable version of what light society is pitching. $1, under 10 min, real trades on a live amm instead of a paper. building the bridge is on the list.\"",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h3",
+        "badges3",
+        "link3",
+        "desc3",
+        "draft3"
+      ]
+    },
+    "h3": {
+      "type": "Heading",
+      "props": {
+        "text": "3. powerloom/aeon-skills (2 days ago)",
+        "level": "h3"
+      }
+    },
+    "badges3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge3a",
+        "badge3b"
+      ]
+    },
+    "badge3a": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment/DM",
+        "variant": "default"
+      }
+    },
+    "badge3b": {
+      "type": "Badge",
+      "props": {
+        "text": "Uncontacted",
+        "variant": "secondary"
+      }
+    },
+    "link3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Whale Radar — DeFi alerts skill pack",
+        "href": "https://github.com/powerloom/aeon-skills",
+        "source": "GitHub (Powerloom, $3.1M seed)"
+      }
+    },
+    "desc3": {
+      "type": "Text",
+      "props": {
+        "text": "Official Whale Radar DeFi-alerts skill pack from funded protocol Powerloom ($3.1M seed). Clean use of skill format with verified DeFi alerts and zero infra. Repo quiet since June. Uncontacted after first flag 08-13.",
+        "variant": "body"
+      }
+    },
+    "draft3": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"whale radar's a clean use of the skill format — verified defi alerts, zero infra. repo's been quiet since june, still live? want to feature it in the next ecosystem shiplog if so — this is the second time we've flagged it, would love to close the loop.\"",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h4",
+        "badges4",
+        "link4",
+        "desc4",
+        "draft4"
+      ]
+    },
+    "h4": {
+      "type": "Heading",
+      "props": {
+        "text": "4. alexverify (8 days ago, aging)",
+        "level": "h3"
+      }
+    },
+    "badges4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge4a",
+        "badge4b",
+        "badge4c"
+      ]
+    },
+    "badge4a": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub DM",
+        "variant": "default"
+      }
+    },
+    "badge4b": {
+      "type": "Badge",
+      "props": {
+        "text": "Uncontacted",
+        "variant": "secondary"
+      }
+    },
+    "badge4c": {
+      "type": "Badge",
+      "props": {
+        "text": "Aging",
+        "variant": "outline"
+      }
+    },
+    "link4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alexverify — agentguard",
+        "href": "https://github.com/alexverify",
+        "source": "GitHub"
+      }
+    },
+    "desc4": {
+      "type": "Text",
+      "props": {
+        "text": "Core contributor, merged PR #811. Runs agentguard (the trust layer for agent skills, MCPs & plugins). Still uncontacted. Natural fit for the skill trust layer.",
+        "variant": "body"
+      }
+    },
+    "draft4": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"pr #811 was clean. agentguard sounds like a natural fit for the skill trust layer — down to talk integration? following up since this has sat a week.\"",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h5",
+        "badges5",
+        "link5",
+        "desc5",
+        "draft5"
+      ]
+    },
+    "h5": {
+      "type": "Heading",
+      "props": {
+        "text": "5. @ai2humannetwork (10 days ago, aging)",
+        "level": "h3"
+      }
+    },
+    "badges5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge5a",
+        "badge5b",
+        "badge5c"
+      ]
+    },
+    "badge5a": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "default"
+      }
+    },
+    "badge5b": {
+      "type": "Badge",
+      "props": {
+        "text": "Uncontacted since 08-05",
+        "variant": "destructive"
+      }
+    },
+    "badge5c": {
+      "type": "Badge",
+      "props": {
+        "text": "5 cycles carried",
+        "variant": "outline"
+      }
+    },
+    "link5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ai2humannetwork — Merged Aeon pack + Base pilot",
+        "href": "https://x.com/ai2humannetwork/status/2084894218343076132",
+        "source": "X"
+      }
+    },
+    "desc5": {
+      "type": "Text",
+      "props": {
+        "text": "Merged full Aeon skill pack (PR #812) with live funded pilot on Base. Direct-tagged @aaronjmars/@aeon_run. Uncontacted since first flagged 08-05. This is the 5th straight cycle carried—near final-call territory.",
+        "variant": "body"
+      }
+    },
+    "draft5": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"merged pack, live pilot, direct tag — this should've had a reply two weeks ago. adding you to ecosystem.md now, dm incoming.\"",
+        "variant": "muted"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_aging": {
+      "type": "Alert",
+      "props": {
+        "title": "Aging opportunities — action required",
+        "message": "Some opps aging — act or drop, especially @ai2humannetwork (5 cycles uncontacted, near final-call territory).",
+        "type": "warning"
+      }
+    }
+  }
+}

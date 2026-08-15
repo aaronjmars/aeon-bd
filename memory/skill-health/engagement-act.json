@@ -1,15 +1,11 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-08-13T10:25:39Z",
+  "last_analyzed": "2026-08-15T10:06:24Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured engagement output with 5 ready-to-action opportunities, proper deduping logic, aging tracking, and clear follow-up guidance.",
+  "assessment": "Substantive, well-prioritized engagement opportunities with clear follow-up flags; actionable for the operator.",
   "flags": [],
-  "avg_score": 3.93,
+  "avg_score": 3.97,
   "history": [
-    {
-      "date": "2026-07-07",
-      "score": 3
-    },
     {
       "date": "2026-07-08",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-08-13",
+      "score": 4
+    },
+    {
+      "date": "2026-08-15",
       "score": 4
     }
   ]
