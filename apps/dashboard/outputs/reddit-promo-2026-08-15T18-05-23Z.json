@@ -1,0 +1,384 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-15"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "story_heading",
+        "story_text",
+        "story_link",
+        "sep_after_story",
+        "post1_section",
+        "sep_post1",
+        "post2_section",
+        "sep_post2",
+        "post3_section",
+        "sep_post3",
+        "post4_section"
+      ]
+    },
+    "story_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h2"
+      }
+    },
+    "story_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon shipped Buzz (Jack Dorsey's open-source group chat app) as a supported channel this week, alongside an ADK explainer repositioning Aeon as embeddable infra",
+        "variant": "body"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Framework announcement",
+        "href": "https://x.com/aeonframework/status/2088225133529882938"
+      }
+    },
+    "sep_after_story": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post1_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1_subreddit",
+        "post1_archetype",
+        "post1_title",
+        "post1_body",
+        "post1_links",
+        "post1_notes"
+      ]
+    },
+    "post1_subreddit": {
+      "type": "Heading",
+      "props": {
+        "text": "r/OpenSourceAI",
+        "level": "h3"
+      }
+    },
+    "post1_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "post1_title": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped support for Buzz (Jack Dorsey's open-source group chat app) in my agent framework this week",
+        "variant": "lead"
+      }
+    },
+    "post1_body": {
+      "type": "Text",
+      "props": {
+        "text": "I build Aeon (AGPL, repo below) — an agent framework that runs unattended on GitHub Actions instead of a chat window you babysit. This week we added Buzz as a supported channel, so agents can post into Buzz group chats the same way they already do on Telegram/Discord/Slack.\n\nMechanically it's simple: each \"channel\" in Aeon is just a notify adapter — read the message, format it, send it. Adding Buzz was writing one more adapter, not a rearchitecture. That's the actual argument for skills-as-markdown: new integration surfaces stay cheap because the core loop (cron → skill → notify) never changes.\n\nSame week we pushed an explainer repositioning Aeon as embeddable infra rather than a standalone bot — the pitch is \"wire autonomous agents into whatever you're already building,\" not \"come use our bot.\" A builder outside the team independently made a similar comparison this week, unprompted — always a better signal than us saying it about ourselves.\n\nRepo: https://github.com/aeonfun/aeon — AGPL, skills are literally markdown files. Happy to answer questions on the Buzz integration or the harness itself.",
+        "variant": "body"
+      }
+    },
+    "post1_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_repo",
+        "post1_composer"
+      ]
+    },
+    "post1_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post1_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/OpenSourceAI composer",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=Shipped%20support%20for%20Buzz%20%28Jack%20Dorsey%27s%20open-source%20group%20chat%20app%29%20in%20my%20agent%20framework%20this%20week"
+      }
+    },
+    "post1_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "Post as \"I built this\" (disclosure), not a neutral discoverer — r/OpenSourceAI is fine with self-promo when it's substantive, keep it that way.",
+        "type": "info"
+      }
+    },
+    "sep_post1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post2_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2_subreddit",
+        "post2_archetype",
+        "post2_title",
+        "post2_body",
+        "post2_links",
+        "post2_notes"
+      ]
+    },
+    "post2_subreddit": {
+      "type": "Heading",
+      "props": {
+        "text": "r/LovingAI",
+        "level": "h3"
+      }
+    },
+    "post2_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "post2_title": {
+      "type": "Text",
+      "props": {
+        "text": "An AI agent framework that runs itself - no chat window, no babysitting",
+        "variant": "lead"
+      }
+    },
+    "post2_body": {
+      "type": "Text",
+      "props": {
+        "text": "Most AI tools still need you sitting there typing prompts. Aeon runs on a schedule (GitHub Actions, cron) and just does stuff — ships features, watches for issues, posts updates — without anyone approving each step along the way.\n\nThis week it picked up support for Buzz (Jack Dorsey's new open-source group chat app) as a place it can post into, alongside Telegram/Discord/Slack it already had. Small thing on its own, but it's part of a bigger push this week to make Aeon plug into whatever tools you're already using instead of being a separate app you have to go check.\n\nIf \"AI that acts before you check on it\" sounds interesting rather than scary: https://aeon.fun — I'm the builder, ask me anything about how it stays unattended without going off the rails.",
+        "variant": "body"
+      }
+    },
+    "post2_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_link",
+        "post2_composer"
+      ]
+    },
+    "post2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "post2_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/LovingAI composer",
+        "href": "https://www.reddit.com/r/LovingAI/submit?title=An%20AI%20agent%20framework%20that%20runs%20itself%20-%20no%20chat%20window%2C%20no%20babysitting"
+      }
+    },
+    "post2_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "Disclose as builder (\"I built this\"); keep jargon low, this sub is general AI-enthusiast, not technical.",
+        "type": "info"
+      }
+    },
+    "sep_post2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post3_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3_subreddit",
+        "post3_archetype",
+        "post3_title",
+        "post3_body",
+        "post3_links",
+        "post3_notes"
+      ]
+    },
+    "post3_subreddit": {
+      "type": "Heading",
+      "props": {
+        "text": "r/Ollama",
+        "level": "h3"
+      }
+    },
+    "post3_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "post3_title": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted agent framework that runs on GitHub Actions cron, no local server required",
+        "variant": "lead"
+      }
+    },
+    "post3_body": {
+      "type": "Text",
+      "props": {
+        "text": "If you're into owning your AI stack, Aeon's worth a look — it's the opposite of a hosted SaaS agent. You fork the repo, it runs on your own GitHub Actions cron, and nothing about it depends on a company staying up. No approval-loop chat interface either — configure skills once and it runs.\n\nShipped a couple things this week: Buzz (Jack Dorsey's open-source group chat app) as a new output channel, and an explainer on wiring Aeon's agents into other products as infra rather than running it as a standalone bot. The harness is provider-agnostic, so if you're already serving local models it'll point at whatever you're running.\n\nRepo: https://github.com/aeonfun/aeon — AGPL, skills are markdown files you can read in five minutes. Happy to talk through the self-hosting setup.",
+        "variant": "body"
+      }
+    },
+    "post3_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_repo",
+        "post3_composer"
+      ]
+    },
+    "post3_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post3_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Ollama composer",
+        "href": "https://www.reddit.com/r/Ollama/submit?title=Self-hosted%20agent%20framework%20that%20runs%20on%20GitHub%20Actions%20cron%2C%20no%20local%20server%20required"
+      }
+    },
+    "post3_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "Disclose as builder; lead with own-your-stack framing — this sub skews self-hosting-first, already reflected above.",
+        "type": "info"
+      }
+    },
+    "sep_post3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post4_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post4_subreddit",
+        "post4_archetype",
+        "post4_title",
+        "post4_body",
+        "post4_links",
+        "post4_notes"
+      ]
+    },
+    "post4_subreddit": {
+      "type": "Heading",
+      "props": {
+        "text": "r/CoolGithubProjects",
+        "level": "h3"
+      }
+    },
+    "post4_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "github",
+        "variant": "secondary"
+      }
+    },
+    "post4_title": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon - autonomous agent framework that ships features on GitHub Actions with no approval loop",
+        "variant": "lead"
+      }
+    },
+    "post4_body": {
+      "type": "Text",
+      "props": {
+        "text": "What it is: an agent framework that runs unattended on cron via GitHub Actions — no chat window, no human approving each step. Skills are just markdown files.\n\nWhy it's cool: this week it shipped support for Buzz (Jack Dorsey's open-source group chat app) as a new output channel — one more adapter added to the same notify loop it already uses for Telegram/Discord/Slack. Same week, pushed a doc positioning the whole thing as embeddable infra you can wire into your own product, not just a standalone bot.\n\nStack: GitHub Actions + Claude Code, AGPL license, public run traces — you can watch it work instead of just trusting that it worked.",
+        "variant": "body"
+      }
+    },
+    "post4_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_repo",
+        "post4_composer"
+      ]
+    },
+    "post4_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post4_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CoolGithubProjects composer",
+        "href": "https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20autonomous%20agent%20framework%20that%20ships%20features%20on%20GitHub%20Actions%20with%20no%20approval%20loop"
+      }
+    },
+    "post4_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "Disclose as builder; follow the sub's strict \"Aeon - <one-line desc>\" title rule exactly (done above) — don't deviate.",
+        "type": "info"
+      }
+    }
+  }
+}
