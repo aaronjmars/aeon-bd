@@ -1,0 +1,369 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-08-16"
+      },
+      "children": [
+        "heading-aeon",
+        "section-aeon",
+        "sep1",
+        "heading-miroshark",
+        "section-miroshark",
+        "sep2",
+        "heading-engagement",
+        "section-engagement",
+        "sep3",
+        "final-status"
+      ]
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "section-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-x",
+        "aeon-web",
+        "aeon-github"
+      ]
+    },
+    "aeon-x": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-x-label",
+        "aeon-x-badge",
+        "aeon-x-text"
+      ]
+    },
+    "aeon-x-label": {
+      "type": "Text",
+      "props": {
+        "text": "X",
+        "variant": "lead"
+      }
+    },
+    "aeon-x-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET"
+      }
+    },
+    "aeon-x-text": {
+      "type": "Text",
+      "props": {
+        "text": "api, http=200, 08-09→08-16, no new mentions by others",
+        "variant": "caption"
+      }
+    },
+    "aeon-web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-web-label",
+        "aeon-web-badge"
+      ]
+    },
+    "aeon-web-label": {
+      "type": "Text",
+      "props": {
+        "text": "Web (Reddit/HN/PH/Farcaster)",
+        "variant": "lead"
+      }
+    },
+    "aeon-web-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET"
+      }
+    },
+    "aeon-github": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-github-label",
+        "aeon-github-stats",
+        "aeon-github-note"
+      ]
+    },
+    "aeon-github-label": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub",
+        "variant": "lead"
+      }
+    },
+    "aeon-github-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "aeon-stat-stars",
+        "aeon-stat-forks"
+      ]
+    },
+    "aeon-stat-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "665",
+        "delta": "+6",
+        "trend": "up"
+      }
+    },
+    "aeon-stat-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "238",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "aeon-github-note": {
+      "type": "Text",
+      "props": {
+        "text": "vs 08-14 — notable, no single driver isolated",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "section-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-x",
+        "miroshark-web",
+        "miroshark-github"
+      ]
+    },
+    "miroshark-x": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-x-label",
+        "miroshark-x-badge",
+        "miroshark-x-detail",
+        "miroshark-x-posts"
+      ]
+    },
+    "miroshark-x-label": {
+      "type": "Text",
+      "props": {
+        "text": "X",
+        "variant": "lead"
+      }
+    },
+    "miroshark-x-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET for new signal"
+      }
+    },
+    "miroshark-x-detail": {
+      "type": "Text",
+      "props": {
+        "text": "api, http=200, 08-09→08-16 — same 3 posts as last cycle, all already logged 08-14 — nothing fresh",
+        "variant": "caption"
+      }
+    },
+    "miroshark-x-posts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post-1",
+        "post-2",
+        "post-3"
+      ]
+    },
+    "post-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ashcotXBT",
+        "handle": "@ashcotXBT",
+        "text": "08-13: wins the logo round"
+      }
+    },
+    "post-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "baiweiart",
+        "handle": "@baiweiart",
+        "text": "08-09: @miroshark_?"
+      }
+    },
+    "post-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "3cardtrickHT",
+        "handle": "@3cardtrickHT",
+        "text": "08-12: Light Society plug-in ask"
+      }
+    },
+    "miroshark-web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-web-label",
+        "miroshark-web-badge",
+        "miroshark-web-text"
+      ]
+    },
+    "miroshark-web-label": {
+      "type": "Text",
+      "props": {
+        "text": "Web",
+        "variant": "lead"
+      }
+    },
+    "miroshark-web-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET"
+      }
+    },
+    "miroshark-web-text": {
+      "type": "Text",
+      "props": {
+        "text": "HackerNoon feature + Microlaunch listing both pre-existing, already reported",
+        "variant": "caption"
+      }
+    },
+    "miroshark-github": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-github-label",
+        "miroshark-github-stats",
+        "miroshark-github-note"
+      ]
+    },
+    "miroshark-github-label": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub",
+        "variant": "lead"
+      }
+    },
+    "miroshark-github-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "miroshark-stat-stars",
+        "miroshark-stat-forks"
+      ]
+    },
+    "miroshark-stat-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1430",
+        "delta": "+0",
+        "trend": "neutral"
+      }
+    },
+    "miroshark-stat-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "298",
+        "delta": "+0",
+        "trend": "neutral"
+      }
+    },
+    "miroshark-github-note": {
+      "type": "Text",
+      "props": {
+        "text": "vs 08-14, below threshold",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "section-engagement": {
+      "type": "Alert",
+      "props": {
+        "message": "None new this cycle — @3cardtrickHT's Light Society question is still unanswered (3rd cycle uncontacted per engagement-act 08-15 log); no fresh candidate to add",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "final-status": {
+      "type": "Alert",
+      "props": {
+        "title": "Status",
+        "message": "miroshark — no new external mentions this cycle",
+        "type": "info"
+      }
+    }
+  }
+}

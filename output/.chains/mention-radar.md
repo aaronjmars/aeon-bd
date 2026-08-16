@@ -1,21 +1,18 @@
-ℹ️ Mention Radar — 2026-08-14
+ℹ️ Mention Radar
 
-*Mention Radar — 2026-08-14*
+*Mention Radar — 2026-08-16*
 
 AEON
-- X: QUIET (api, http=200, 08-07→08-14) — no genuine third-party mentions, only known contributors/spam/homonyms
-- Web (Reddit/HN/PH/Farcaster): QUIET
-- GitHub: 659★ / 237f — **+12★ / +1f vs 08-12 (notable)**, no single driver isolated
+- X — QUIET (api, http=200, 08-09→08-16), no new mentions by others
+- Web (Reddit/HN/PH/Farcaster) — QUIET
+- GitHub — 665★/238f (**+6★/+1f vs 08-14 — notable**, no single driver isolated)
 
 MIROSHARK
-- [X, @3cardtrickHT, 2026-08-12] — "What effect will Light Society the Chinese 1 billion ai agent sim have on @miroshark_? Is there a way of plugging miroshark into it or utilizing it in some way? Exciting times for @miroshark_!!" + a same-day follow-up tagging @aaronjmars — **Feature request / competitor-adjacent question**. Direct ask, tags the operator, revives the Light Society timing window flagged 08-10.
-  https://x.com/3cardtrickHT/status/2087533074993082411
-- [X, @ashcotXBT, 2026-08-13] — "MiroShark wins the logo round. the fish has main-character energy." — **Discovery**, positive, low reach (0 engagement visible)
-  https://x.com/ashcotXBT/status/2087788308214538724
-- Web (Reddit/HN/PH/Farcaster): QUIET (Towards AI 500-agent walkthrough resurfaced in search but already reported 06-26/07-14 — not new)
-- GitHub: 1430★ / 298f — +2★/0f vs 08-12, below notable threshold
+- X — QUIET for *new* signal (api, http=200, 08-09→08-16) — same 3 posts as last cycle (@ashcotXBT 08-13 "wins the logo round", @baiweiart 08-09 "@miroshark_?", @3cardtrickHT 08-12 Light Society plug-in ask), all already logged 08-14 — nothing fresh
+- Web — QUIET (HackerNoon feature + Microlaunch listing both pre-existing, already reported)
+- GitHub — 1430★/298f (+0★/0f vs 08-14, below threshold)
 
 ENGAGEMENT OPPORTUNITIES
-- @3cardtrickHT: direct, unanswered question about Miroshark plugging into Light Society — worth a reply positioning Miroshark as the runnable $1/<10min alternative to the academic-scale sim. Second instance of this exact framing (first was @gutomartino/@baiweiart 08-10) — pattern, not one-off.
+- none new this cycle — @3cardtrickHT's Light Society question is still unanswered (3rd cycle uncontacted per engagement-act 08-15 log); no fresh candidate to add
 
-QUIET: aeon — no external mentions found this cycle
+QUIET: miroshark — no new external mentions this cycle
