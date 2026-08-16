@@ -1,0 +1,425 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-16",
+        "description": "4-community engagement strategy: ai2humannetwork production integration announcement"
+      },
+      "children": [
+        "story-section",
+        "sep1",
+        "post1",
+        "sep2",
+        "post2",
+        "sep3",
+        "post3",
+        "sep4",
+        "post4"
+      ]
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-heading",
+        "story-text",
+        "story-link"
+      ]
+    },
+    "story-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story-text": {
+      "type": "Text",
+      "props": {
+        "text": "ai2humannetwork's AEON skill pack (merged PR #812) is now live in production on Base, running real human-in-the-loop tasks that settle automatically via x402 — the clearest \"shipped, not demo\" proof point from an outside builder this week, still uncontacted per engagement-act.",
+        "variant": "body"
+      }
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X: ai2humannetwork status update",
+        "href": "https://x.com/ai2humannetwork/status/2088662026461864315"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1-meta",
+        "post1-title",
+        "post1-body",
+        "post1-links",
+        "post1-notes"
+      ]
+    },
+    "post1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post1-badge1",
+        "post1-badge2"
+      ]
+    },
+    "post1-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "r/StartupMind",
+        "variant": "secondary"
+      }
+    },
+    "post1-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "outline"
+      }
+    },
+    "post1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "a stranger's product went live on our framework this week - that's the traction number that matters",
+        "level": "h4"
+      }
+    },
+    "post1-body": {
+      "type": "Text",
+      "props": {
+        "text": "most traction numbers are vanity. stars, forks, X likes. the one that actually means something: someone else building a real product on what you shipped, without you asking them to.\n\nthis week a Base-based team (ai2humannetwork) merged their own PR into our skill pack, and it's now live in production — real human-in-the-loop tasks, settling automatically over x402. not a demo. not a \"check this out\" tweet. an actual pipeline running on infra we built.\n\nwe're Aeon — an open agent framework that runs unattended on GitHub Actions. cron for scheduling, self-repair when something breaks, public traces so you can watch what it did and why. no dashboards to babysit.\n\nthe part that's honestly still catching us off guard: we haven't even reached out to say thanks yet. that's the whole point — it just worked without us in the loop.\n\naeon.fun if you want to see what's actually running. happy to answer questions about the architecture or the x402 settlement piece.",
+        "variant": "body"
+      }
+    },
+    "post1-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1-link1",
+        "post1-link2"
+      ]
+    },
+    "post1-link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon.fun",
+        "href": "https://aeon.fun",
+        "source": "Link in post"
+      }
+    },
+    "post1-link2": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=a%20stranger%27s%20product%20went%20live%20on%20our%20framework%20this%20week%20-%20that%27s%20the%20traction%20number%20that%20matters"
+      }
+    },
+    "post1-notes": {
+      "type": "Text",
+      "props": {
+        "text": "disclosing as the builder (\"I built Aeon\") per r/StartupMind norms — keep this occasional, no drip-posting.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2-meta",
+        "post2-title",
+        "post2-body",
+        "post2-links",
+        "post2-notes"
+      ]
+    },
+    "post2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post2-badge1",
+        "post2-badge2"
+      ]
+    },
+    "post2-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "r/Agent_AI",
+        "variant": "secondary"
+      }
+    },
+    "post2-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "outline"
+      }
+    },
+    "post2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "an outside builder is running production agent tasks on our framework, unattended, settling via x402",
+        "level": "h4"
+      }
+    },
+    "post2-body": {
+      "type": "Text",
+      "props": {
+        "text": "the autonomy test for an agent framework isn't \"can it run a demo.\" it's \"does someone else trust it enough to put real tasks through it without you standing next to them.\"\n\nai2humannetwork just cleared that bar. they merged their own PR into our skill pack, it's live on Base, and it's handling human-in-the-loop tasks that settle automatically through x402 — no approval gate, no manual signoff step from us or them.\n\nAeon is built for exactly this: skills as plain markdown, running on GitHub Actions with cron scheduling, self-repair when a skill degrades, and public traces so the whole run is inspectable after the fact. we're not pitching \"agents that need a human to hit go.\" we're pitching agents that keep working after you close the laptop.\n\nrepo's here if you want to see the skill mechanics (see link below) — genuinely curious what other frameworks in this space are doing for third-party integrations that go straight to production instead of staying a proof-of-concept.",
+        "variant": "body"
+      }
+    },
+    "post2-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2-link1",
+        "post2-link2"
+      ]
+    },
+    "post2-link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "Link in post"
+      }
+    },
+    "post2-link2": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Agent_AI composer",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=an%20outside%20builder%20is%20running%20production%20agent%20tasks%20on%20our%20framework%2C%20unattended%2C%20settling%20via%20x402"
+      }
+    },
+    "post2-notes": {
+      "type": "Text",
+      "props": {
+        "text": "disclosing as the builder; this sub is technical — keep it mechanics-first, no hype framing.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3-meta",
+        "post3-title",
+        "post3-body",
+        "post3-links",
+        "post3-notes"
+      ]
+    },
+    "post3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post3-badge1",
+        "post3-badge2"
+      ]
+    },
+    "post3-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "r/aiecosystem",
+        "variant": "secondary"
+      }
+    },
+    "post3-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "outline"
+      }
+    },
+    "post3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "watching a third party ship production traffic through our agent framework this week",
+        "level": "h4"
+      }
+    },
+    "post3-body": {
+      "type": "Text",
+      "props": {
+        "text": "ecosystem health is easier to fake on paper than in practice. anyone can list \"integrations\" on a landing page. what's harder to fake: an outside team merging their own code into your framework and running real production load through it.\n\nthat happened this week. ai2humannetwork's PR into our Aeon skill pack went live on Base — human-in-the-loop tasks now settle automatically via x402, no approval loop on our end or theirs.\n\nfor context, Aeon is an open framework where \"skills\" are just markdown files that run on a schedule via GitHub Actions — no long-lived process, no server to maintain, self-repair built in when something breaks. this only works if the ecosystem around it is actually building, not just watching.\n\nmore at aeon.fun. if you're tracking which agent frameworks are seeing real third-party adoption vs. just marketing it, happy to share specifics on how the integration works.",
+        "variant": "body"
+      }
+    },
+    "post3-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3-link1",
+        "post3-link2"
+      ]
+    },
+    "post3-link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon.fun",
+        "href": "https://aeon.fun",
+        "source": "Link in post"
+      }
+    },
+    "post3-link2": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=watching%20a%20third%20party%20ship%20production%20traffic%20through%20our%20agent%20framework%20this%20week"
+      }
+    },
+    "post3-notes": {
+      "type": "Text",
+      "props": {
+        "text": "disclosing as the builder; this sub skews analytical — lead with the mechanism, not adjectives.",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post4-meta",
+        "post4-title",
+        "post4-body",
+        "post4-links",
+        "post4-notes"
+      ]
+    },
+    "post4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post4-badge1",
+        "post4-badge2"
+      ]
+    },
+    "post4-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "r/CLaudeSkills",
+        "variant": "secondary"
+      }
+    },
+    "post4-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "claude-skills",
+        "variant": "outline"
+      }
+    },
+    "post4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "shipped a skill this week whose whole job is stopping other skills from going stale",
+        "level": "h4"
+      }
+    },
+    "post4-body": {
+      "type": "Text",
+      "props": {
+        "text": "if you've run more than a couple of markdown-style skills long enough, you've hit this: someone forks your repo, the fork drifts from upstream, and six months later they're running a version with a bug you fixed in week two. no one notices until something breaks.\n\nwe shipped `aeon-update` this week — a skill whose only job is auto-pulling the official Aeon repo so instances stay current. closes the \"stale fork\" failure mode we kept seeing across BD leads.\n\nseparately, same week: an outside builder, ai2humannetwork, merged their own PR into our skill pack and it's now live in production on Base — human-in-the-loop tasks settling via x402, unattended. proof the skill format holds up outside our own repo.\n\nif you're building Claude-style markdown skills and want to see how we structured the update mechanic (see link below) — the skill itself is just a `SKILL.md` like anything else in this sub, nothing exotic.",
+        "variant": "body"
+      }
+    },
+    "post4-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post4-link1",
+        "post4-link2"
+      ]
+    },
+    "post4-link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "Link in post"
+      }
+    },
+    "post4-link2": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CLaudeSkills composer",
+        "href": "https://www.reddit.com/r/CLaudeSkills/submit?title=shipped%20a%20skill%20this%20week%20whose%20whole%20job%20is%20stopping%20other%20skills%20from%20going%20stale"
+      }
+    },
+    "post4-notes": {
+      "type": "Text",
+      "props": {
+        "text": "disclosing as the builder; skills-literate crowd — keep code/mechanism front and center.",
+        "variant": "caption"
+      }
+    }
+  }
+}

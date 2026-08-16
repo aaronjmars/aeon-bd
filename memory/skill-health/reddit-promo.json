@@ -1,10 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-15T18:05:23Z",
+  "last_analyzed": "2026-08-16T18:05:13Z",
   "quality_score": 4,
-  "assessment": "Good — substantive, strategically executed Reddit draft posts with proper memory tracking and rotation logic; well-integrated with Aeon's workflow.",
+  "assessment": "Substantive output: 4 drafted posts with clear reasoning, proper filtering against prior runs, and actionable next steps for manual review.",
   "flags": [],
-  "avg_score": 3.92,
+  "avg_score": 3.93,
   "history": [
     {
       "date": "2026-08-05",
@@ -56,6 +56,10 @@
     },
     {
       "date": "2026-08-15",
+      "score": 4
+    },
+    {
+      "date": "2026-08-16",
       "score": 4
     }
   ]
