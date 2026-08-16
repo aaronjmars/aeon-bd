@@ -1,0 +1,304 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets",
+        "description": "@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-16)"
+      },
+      "children": [
+        "intro-text",
+        "sep-1",
+        "feature-heading",
+        "feature-stack",
+        "sep-2",
+        "miroshark-heading",
+        "tweet-4-wrapper",
+        "sep-3",
+        "builders-heading",
+        "builders-stack"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Third straight day of feature-ship cadence (Zai harness, skill auto-updates) while ai2humannetwork goes live on Base off the AEON skill pack — real BD proof point, still uncontacted per engagement-act.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "feature-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Feature drops this week",
+        "level": "h3"
+      }
+    },
+    "feature-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1-wrapper",
+        "tweet-2-wrapper",
+        "tweet-3-wrapper"
+      ]
+    },
+    "tweet-1-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1-card",
+        "tweet-1-engagement",
+        "tweet-1-link"
+      ]
+    },
+    "tweet-1-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "aaronjmars",
+        "text": "Teasing a Zai subscription + harness bolt-on aimed at continuously re-scanning software for vulns as it updates — a security-as-a-service angle, not just the agent framework pitch.",
+        "likes": 19,
+        "retweets": 3
+      }
+    },
+    "tweet-1-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 19 | RTs: 3 | Replies: 5",
+        "variant": "caption"
+      }
+    },
+    "tweet-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2088680520112603146"
+      }
+    },
+    "tweet-2-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2-card",
+        "tweet-2-engagement",
+        "tweet-2-link"
+      ]
+    },
+    "tweet-2-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "aeonframework",
+        "text": "Skill Spotlight on aeon-update: auto-pulls the official repo to keep instances current, closing the 'stale fork' failure mode BD keeps seeing in drive-by clones.",
+        "likes": 19,
+        "retweets": 4
+      }
+    },
+    "tweet-2-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 19 | RTs: 4 | Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2088653092648595819"
+      }
+    },
+    "tweet-3-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3-card",
+        "tweet-3-engagement",
+        "tweet-3-link"
+      ]
+    },
+    "tweet-3-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "aaronjmars",
+        "text": "New feature: instances can now push daily/weekly skill-update digests directly to the operator — closes the discovery gap for new skills.",
+        "likes": 15,
+        "retweets": 1
+      }
+    },
+    "tweet-3-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 15 | RTs: 1 | Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2088679365722689566"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark momentum tease",
+        "level": "h3"
+      }
+    },
+    "tweet-4-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-4-card",
+        "tweet-4-engagement",
+        "tweet-4-link"
+      ]
+    },
+    "tweet-4-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "aaronjmars",
+        "text": "Frames Disney's AI-simulation investment as validation that sim is 'one of the most underestimated fields in AI,' teasing unspecified new Miroshark work — a timing bet riding the Disney news cycle.",
+        "likes": 20,
+        "retweets": 2
+      }
+    },
+    "tweet-4-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 20 | RTs: 2 | Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet-4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2088707241692004543"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "builders-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Builders positioning Aeon as infra — BD signal",
+        "level": "h3"
+      }
+    },
+    "builders-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-5-wrapper",
+        "tweet-6-wrapper"
+      ]
+    },
+    "tweet-5-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-5-card",
+        "tweet-5-engagement",
+        "tweet-5-link"
+      ]
+    },
+    "tweet-5-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AI2Human Network",
+        "handle": "ai2humannetwork",
+        "text": "Reports the AEON skill pack (PR #812) is now live in production on Base with real human-in-the-loop tasks settling via x402 — the clearest 'shipped, not demo' proof point from an outside builder this week.",
+        "likes": 7,
+        "retweets": 1
+      }
+    },
+    "tweet-5-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 7 | RTs: 1 | Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet-5-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ai2humannetwork/status/2088662026461864315"
+      }
+    },
+    "tweet-6-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-6-card",
+        "tweet-6-engagement",
+        "tweet-6-link"
+      ]
+    },
+    "tweet-6-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Early Tools",
+        "handle": "earlytools",
+        "text": "Third-party praise: 'no approval loops, no babysitting' — Aeon completing tasks end-to-end across 67 skills, credited to @aaronjmars — organic outside endorsement, not a self-post.",
+        "likes": 6,
+        "retweets": 2
+      }
+    },
+    "tweet-6-engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 6 | RTs: 2 | Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet-6-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/earlytools/status/2088615188903997876"
+      }
+    }
+  }
+}
