@@ -1,8 +1,8 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-16T18:05:13Z",
+  "last_analyzed": "2026-08-17T19:13:45Z",
   "quality_score": 4,
-  "assessment": "Substantive output: 4 drafted posts with clear reasoning, proper filtering against prior runs, and actionable next steps for manual review.",
+  "assessment": "Ran successfully with clear filtering logic, tailored 3 independent Reddit drafts per subreddit, updated memory, and showed strong STRATEGY alignment (skipped unverified claims, wrong product, non-demonstrable items).",
   "flags": [],
   "avg_score": 3.93,
   "history": [
@@ -60,6 +60,10 @@
     },
     {
       "date": "2026-08-16",
+      "score": 4
+    },
+    {
+      "date": "2026-08-17",
       "score": 4
     }
   ]

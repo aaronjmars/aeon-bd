@@ -1,0 +1,283 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-17"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "story-section",
+        "sep-1",
+        "post1-section",
+        "sep-2",
+        "post2-section",
+        "sep-3",
+        "post3-section"
+      ]
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-heading",
+        "story-desc",
+        "story-link"
+      ]
+    },
+    "story-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Soul System for Autonomous Agents",
+        "level": "h2"
+      }
+    },
+    "story-desc": {
+      "type": "Text",
+      "props": {
+        "text": "@aeonframework's \"your agent needs a soul\" video — spotlighting the soul/ system (SOUL.md + STYLE.md + calibration examples) that gives every unattended skill run a consistent voice instead of generic assistant tone",
+        "variant": "body"
+      }
+    },
+    "story-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X/Twitter",
+        "href": "https://x.com/aeonframework/status/2088906077316206752"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post1-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1-badge",
+        "post1-title",
+        "post1-body",
+        "post1-links",
+        "post1-notes"
+      ]
+    },
+    "post1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "r/AIPromptProgramming • agents",
+        "variant": "outline"
+      }
+    },
+    "post1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Gave my agent framework a personality file (the actual mechanic)",
+        "level": "h3"
+      }
+    },
+    "post1-body": {
+      "type": "Text",
+      "props": {
+        "text": "Most agent frameworks output generic LLM voice no matter who's running it — same tone whether it's writing a bug report or a tweet reply. We fixed that with something almost embarrassingly simple: a markdown file.\n\nAeon (the framework I work on) reads a `soul/` directory before any skill writes output — `SOUL.md` for identity/worldview, `STYLE.md` for sentence structure and vocabulary, plus example transcripts and raw source material for calibration. Every skill — the one that drafts Reddit posts, the one that replies on X, the one that writes research reports — reads those files first and matches the voice. Empty soul/ = clear neutral tone, populated soul/ = it sounds like the person who wrote it.\n\nIt's not a prompt hack bolted onto one skill. It's a standing instruction every headless run picks up automatically, the same way it reads a strategy file for priorities. Skills run unattended on GitHub Actions — cron schedules, chained pipelines, self-repair when something breaks — and the soul system is what keeps months of unattended output from drifting into assistant-speak.",
+        "variant": "body"
+      }
+    },
+    "post1-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1-repo-link",
+        "post1-reddit-link"
+      ]
+    },
+    "post1-repo-link": {
+      "type": "Link",
+      "props": {
+        "label": "Repository: github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post1-reddit-link": {
+      "type": "Link",
+      "props": {
+        "label": "Post to r/AIPromptProgramming",
+        "href": "https://www.reddit.com/r/AIPromptProgramming/submit?title=Gave%20my%20agent%20framework%20a%20personality%20file%20%28the%20actual%20mechanic%29"
+      }
+    },
+    "post1-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Technical sub, self-promo OK if it leads with mechanic not pitch — disclose builder status up top, one link only.",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post2-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2-badge",
+        "post2-title",
+        "post2-body",
+        "post2-links",
+        "post2-notes"
+      ]
+    },
+    "post2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "r/lovingopensourceAI • open-source",
+        "variant": "outline"
+      }
+    },
+    "post2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Open sourced the give-your-agent-a-personality mechanic (AGPL)",
+        "level": "h3"
+      }
+    },
+    "post2-body": {
+      "type": "Text",
+      "props": {
+        "text": "Been building an autonomous agent framework (Aeon) and just shipped the piece I'm most into: a `soul/` system that gives every unattended run a consistent voice instead of generic AI-assistant tone.\n\nWhy it's open: the whole thing is AGPL. Fork it, drop your own `SOUL.md` + `STYLE.md` in, and every skill that writes — Reddit drafts, X replies, research reports, status notifications — reads your files first and writes in your voice. No fine-tuning, no vendor lock to a specific model's default tone. Just markdown files a human can read and edit directly.\n\nThe bigger bet: the framework is meant to be forked and configured, not run as a SaaS. Skills are markdown files, config is a couple YAML files, the whole thing runs on GitHub Actions with no approval loop. The soul system is the part that makes a fork actually feel like *your* agent instead of a reskinned demo.\n\nI work on Aeon — repo's below. Genuinely curious what other open-source folks are doing for agent \"voice\" consistency, feels underexplored outside of this.",
+        "variant": "body"
+      }
+    },
+    "post2-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2-repo-link",
+        "post2-reddit-link"
+      ]
+    },
+    "post2-repo-link": {
+      "type": "Link",
+      "props": {
+        "label": "Repository: github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post2-reddit-link": {
+      "type": "Link",
+      "props": {
+        "label": "Post to r/lovingopensourceAI",
+        "href": "https://www.reddit.com/r/lovingopensourceAI/submit?title=Open%20sourced%20the%20give-your-agent-a-personality%20mechanic%20%28AGPL%29"
+      }
+    },
+    "post2-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Welcoming enthusiast-OSS crowd — still disclose builder status explicitly, keep it to the one repo link.",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post3-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3-badge",
+        "post3-title",
+        "post3-body",
+        "post3-links",
+        "post3-notes"
+      ]
+    },
+    "post3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "r/AskVibecoders • vibecoders",
+        "variant": "outline"
+      }
+    },
+    "post3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "vibe-coded my agent a soul.md and it stopped sounding like chatgpt",
+        "level": "h3"
+      }
+    },
+    "post3-body": {
+      "type": "Text",
+      "props": {
+        "text": "ok this one's a small thing but it changed how much i trust my agent's output.\n\nbeen running Aeon (agent framework, does GTM/BD/social stuff for us on a cron schedule, fully unattended) and every notification it sent read like generic assistant voice. fine for a bug report, annoying for a tweet draft or a Reddit post.\n\nfix was dumb simple: made a `soul/` folder. one file for identity/opinions, one for actual writing style (sentence length, words i use, words i avoid), a folder of example posts to calibrate against. every skill reads that before it writes anything now. notifications, drafts, replies — all of it matches the voice instead of sounding like every other AI post you've scrolled past today.\n\nnot gonna lie it's a little uncanny reading a report the agent wrote overnight and it sounds like something i'd actually say. few realize how much of \"does this feel AI-written\" comes down to just... not having a style file.\n\nrepo's linked, it's open source, i built this — down to answer q's if you're doing something similar with your own setup.",
+        "variant": "body"
+      }
+    },
+    "post3-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3-repo-link",
+        "post3-reddit-link"
+      ]
+    },
+    "post3-repo-link": {
+      "type": "Link",
+      "props": {
+        "label": "Repository: github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post3-reddit-link": {
+      "type": "Link",
+      "props": {
+        "label": "Post to r/AskVibecoders",
+        "href": "https://www.reddit.com/r/AskVibecoders/submit?title=vibe-coded%20my%20agent%20a%20soul.md%20and%20it%20stopped%20sounding%20like%20chatgpt"
+      }
+    },
+    "post3-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Casual/self-promo-tolerant sub if framed as \"here's what I vibe-coded\" — keep the explicit \"i built this\" disclosure.",
+        "variant": "caption"
+      }
+    }
+  }
+}
