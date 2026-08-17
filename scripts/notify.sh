@@ -13,8 +13,9 @@
 #
 # Per-channel rendering (via scripts/notify_format.py): Telegram = Markdown
 # normalized to HTML (parse_mode=HTML, fence-safe chunks, 3900), Discord embeds
-# (color by severity), Slack Block Kit. Falls back to .pending-notify/ for
-# post-run delivery when the sandbox blocks outbound curl.
+# (color by severity), Slack Block Kit, Buzz = raw Markdown via the buzz-cli. Falls
+# back to $AEON_PENDING_DIR/notify-queue for post-run delivery when the sandbox blocks
+# outbound curl.
 set -euo pipefail
 
 # Resolve the formatter whether run as ./notify (repo root) or scripts/notify.sh
@@ -114,10 +115,25 @@ if [ -n "$LINK" ]; then
   MSG=$(printf '%s\n\n🔗 %s' "$MSG" "$LINK")
 fi
 
+# --- staging area for notify's queues ---------------------------------------
+# These MUST live outside the workspace. Two reasons, both measured:
+#   1. A read-only skill runs under an OS sandbox that mounts the repo read-only,
+#      so a queue inside the workspace simply cannot be written — the run then
+#      loses its dedup state, its re-delivery queue and its feed entry.
+#   2. `.gitignore` ignores `.pending-*/` (directories), not `.pending-*.md`, so
+#      the json-render staging FILE was getting COMMITTED. A later sandboxed run
+#      that couldn't overwrite it left the previous run's copy in place, and the
+#      "Capture skill output" step happily published that stale digest as the new
+#      run's output — a green run reporting someone else's work.
+# The workflow exports AEON_PENDING_DIR; the fallbacks keep local runs and other
+# entry points working.
+PENDING_DIR="${AEON_PENDING_DIR:-${RUNNER_TEMP:-${TMPDIR:-/tmp}}/aeon-pending}"
+mkdir -p "$PENDING_DIR" 2>/dev/null || true
+
 # Dedup within this run — same rendered message never sent twice
 _sha() { if command -v sha256sum >/dev/null 2>&1; then sha256sum; else shasum -a 256; fi; }
 HASH=$(printf '%s' "$TITLE|$SEVERITY|$MSG" | _sha | awk '{print $1}')
-HASH_FILE=".notify-sent-hashes"
+HASH_FILE="$PENDING_DIR/notify-sent-hashes"
 touch "$HASH_FILE" 2>/dev/null || true
 if grep -qxF "$HASH" "$HASH_FILE" 2>/dev/null; then
   echo "notify: duplicate message (hash ${HASH:0:8}), skipping" >&2
@@ -138,10 +154,20 @@ else
   PLAIN="$MSG"
 fi
 
-# Always save to .pending-notify/ for post-run delivery (sandbox fallback)
-mkdir -p .pending-notify
+# Try to save to $PENDING_DIR/notify-queue for post-run re-delivery. This queue is the
+# fallback for the INVERSE sandbox — network blocked, FS writable (the old claude
+# wrapper case): notify can't reach the wire inline, so the workflow's "Send
+# pending notifications" step re-delivers post-run from here.
+#
+# Non-fatal by design: codex's native read-only sandbox is the MIRROR case — the
+# FS is blocked but the network is open — so this write fails while inline delivery
+# below works fine. A failed fallback write must NOT abort the primary path (this
+# script runs `set -e`, so an unguarded failure here would kill the whole notify
+# before a single channel is tried).
 TS=$(date -u +%s)
-printf '%s' "$PLAIN" > ".pending-notify/${TS}.md"
+if ! { mkdir -p "$PENDING_DIR/notify-queue" && printf '%s' "$PLAIN" > "$PENDING_DIR/notify-queue/${TS}.md"; } 2>/dev/null; then
+  echo "notify: notify-queue unwritable — delivering inline only" >&2
+fi
 
 DELIVERED=false
 
@@ -156,18 +182,63 @@ DELIVERED=false
 # Skipped when there's no skill context ($SKILL_NAME unset), when the skill name is
 # too long to fit callback_data's 64-byte budget, or on a force_reply prompt (Telegram
 # forbids inline buttons + force_reply on one message — the deliberate ask wins).
+# Interactive controls — inline callback buttons AND force_reply prompts — only do
+# anything if the inbound Messages workflow is running to receive the tap/reply:
+# .github/workflows/messages.yml. If the operator DISABLED that workflow, every tap is
+# dead and every force_reply answer routes nowhere, so notify must not attach them —
+# a "Run again" button that silently does nothing (or, in a shared chat, invites a
+# stranger to tap it) is worse than no button. The message body still sends.
+#
+# We resolve the workflow's state (best-effort, cached once per run) and drop
+# interactive markup only when it is DEFINITIVELY disabled:
+#   • active                                  -> attach (inbound is live)
+#   • disabled_manually / disabled_inactivity -> suppress (operator turned it off)
+#   • unknown / unreachable                   -> attach (fail open: never silently
+#                                                drop controls when we can't prove off)
+# Overrides: TELEGRAM_FORCE_BUTTONS=1 forces attach; AEON_MESSAGES_WF_STATE=<state>
+# skips the API call (operator override + test hook). The owner-user gate in
+# messages.yml still governs WHO may act on a tap when the workflow IS enabled — that
+# is a separate defence and stays in force regardless of this.
+INBOUND_OK=true
+if [ "${TELEGRAM_FORCE_BUTTONS:-}" != "1" ]; then
+  MSG_WF_STATE="${AEON_MESSAGES_WF_STATE:-}"
+  if [ -z "$MSG_WF_STATE" ]; then
+    WF_STATE_CACHE="${TMPDIR:-/tmp}/.aeon-messages-wf-state-${GITHUB_RUN_ID:-$$}"
+    if [ -f "$WF_STATE_CACHE" ]; then
+      MSG_WF_STATE=$(cat "$WF_STATE_CACHE" 2>/dev/null || echo "")
+    elif [ -n "${GITHUB_REPOSITORY:-}" ]; then
+      _WF_API="https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/messages.yml"
+      _WF_TOK="${GH_TOKEN:-${GITHUB_TOKEN:-${GH_GLOBAL:-}}}"
+      if [ -n "$_WF_TOK" ]; then
+        MSG_WF_STATE=$(curl -s --max-time 6 -H "Authorization: Bearer $_WF_TOK" \
+          -H "Accept: application/vnd.github+json" "$_WF_API" 2>/dev/null \
+          | jq -r '.state // "unknown"' 2>/dev/null || echo "unknown")
+      else
+        MSG_WF_STATE=$(curl -s --max-time 6 -H "Accept: application/vnd.github+json" "$_WF_API" 2>/dev/null \
+          | jq -r '.state // "unknown"' 2>/dev/null || echo "unknown")
+      fi
+      printf '%s' "$MSG_WF_STATE" > "$WF_STATE_CACHE" 2>/dev/null || true
+    fi
+  fi
+  case "$MSG_WF_STATE" in
+    disabled_manually|disabled_inactivity) INBOUND_OK=false ;;
+  esac
+fi
+
 GLOBAL_ROW=""
-if [ -n "${SKILL_NAME:-}" ] && [ -z "$FORCE_REPLY" ] && [ "${#SKILL_NAME}" -le 48 ]; then
+if [ "$INBOUND_OK" = true ] && [ -n "${SKILL_NAME:-}" ] && [ -z "$FORCE_REPLY" ] && [ "${#SKILL_NAME}" -le 48 ]; then
   GLOBAL_ROW=$(jq -n --arg s "$SKILL_NAME" \
     '[{text:"🔁 Run again",       callback_data:("run:"+$s)},
       {text:"📅 Schedule weekly", callback_data:("schedule:"+$s+":weekly")}]')
 fi
 
 REPLY_MARKUP="null"
-if [ -n "$FORCE_REPLY" ]; then
+if [ -n "$FORCE_REPLY" ] && [ "$INBOUND_OK" = true ]; then
   REPLY_MARKUP=$(jq -n --arg p "$PLACEHOLDER" \
     '{force_reply:true} + (if $p != "" then {input_field_placeholder:$p} else {} end)')
-else
+elif [ -n "$FORCE_REPLY" ]; then
+  echo "notify: inbound Messages workflow disabled — force-reply prompt sent as plain text (no reply routing)" >&2
+elif [ "$INBOUND_OK" = true ]; then
   # inline_keyboard = optional skill --buttons rows, then the global quick-action row.
   KB="[]"
   if [ -n "$BUTTONS_JSON" ]; then
@@ -183,6 +254,8 @@ else
   if [ "$KB" != "[]" ]; then
     REPLY_MARKUP=$(jq -n --argjson kb "$KB" '{inline_keyboard:$kb}')
   fi
+elif [ -n "$BUTTONS_JSON" ]; then
+  echo "notify: inbound Messages workflow disabled — suppressing inline buttons (set TELEGRAM_FORCE_BUTTONS=1 to keep them)" >&2
 fi
 
 # Telegram — fence-safe chunks (parse_mode Markdown, fallback to none)
@@ -209,8 +282,8 @@ if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
 
     # Dry-run (tests): record the payload instead of sending. No network.
     if [ "${NOTIFY_DRY_RUN:-}" = "1" ]; then
-      mkdir -p .pending-notify
-      printf '%s\n' "$TG_PAYLOAD" >> .pending-notify/tg-payload.jsonl
+      mkdir -p "$PENDING_DIR/notify-queue"
+      printf '%s\n' "$TG_PAYLOAD" >> "$PENDING_DIR/notify-queue/tg-payload.jsonl"
       DELIVERED=true
       continue
     fi
@@ -256,6 +329,32 @@ if [ -n "${SLACK_WEBHOOK_URL:-}" ]; then
   fi
 fi
 
+# Buzz — Block's Nostr-relay workspace (buzz.xyz / github.com/block/buzz). Aeon posts
+# as itself: BUZZ_PRIVATE_KEY is a Schnorr keypair (nsec) and the buzz-cli signs each
+# message + publishes it over the relay at BUZZ_RELAY_URL into channel BUZZ_CHANNEL_ID.
+# Unlike the webhook channels above there is no bearer-URL to POST to, so delivery needs
+# the `buzz` binary staged in the run (see install-harness); we gate on its presence and
+# skip cleanly when it is absent — same graceful degrade as a missing webhook. Content is
+# Markdown, which Buzz renders natively (no HTML/Block-Kit transform). One send per chunk.
+if { command -v buzz >/dev/null 2>&1 || [ "${NOTIFY_DRY_RUN:-}" = "1" ]; } \
+   && [ -n "${BUZZ_PRIVATE_KEY:-}" ] && [ -n "${BUZZ_CHANNEL_ID:-}" ]; then
+  BUZZ_CHUNKS_B64=$(printf '%s' "$MSG" | python3 "$FMT" buzz --title "$TITLE" --severity "$SEVERITY" || true)
+  while IFS= read -r BZ_B64; do
+    [ -z "$BZ_B64" ] && continue
+    BZ_MSG=$(printf '%s' "$BZ_B64" | base64 -d)
+    # Dry-run (tests): record the decoded Markdown instead of sending. No binary, no network.
+    if [ "${NOTIFY_DRY_RUN:-}" = "1" ]; then
+      mkdir -p "$PENDING_DIR/notify-queue"
+      printf '%s\n---\n' "$BZ_MSG" >> "$PENDING_DIR/notify-queue/buzz-payload.txt"
+      DELIVERED=true
+      continue
+    fi
+    printf '%s' "$BZ_MSG" | buzz messages send --channel "$BUZZ_CHANNEL_ID" --content - >/dev/null 2>&1 \
+      && DELIVERED=true || true
+    sleep 0.3
+  done <<< "$BUZZ_CHUNKS_B64"
+fi
+
 # Email via Resend (operator-notify channel — same provider/key as the in-run
 # disclosure/outreach senders in send-email + vuln-scanner Arm C, one Resend
 # account for all outbound mail). Best-effort inline; the workflow's "Send pending
@@ -274,13 +373,17 @@ if [ -n "${RESEND_API_KEY:-}" ] && [ -n "${NOTIFY_EMAIL_TO:-}" ]; then
           '{from:$from, to:[$to], subject:$subject, html:$html, text:$text}')" > /dev/null 2>&1 && DELIVERED=true || true
 fi
 
-# json-render channel — save raw message for post-run conversion
+# json-render channel — save raw message for post-run conversion. Non-fatal for
+# the same reason as the notify-queue above: on a read-only-FS harness
+# (codex) this write can't land, and it must not abort a run whose channel
+# delivery already succeeded inline. The feed entry is simply skipped.
 if [ "${JSONRENDER_ENABLED:-false}" = "true" ] && [ -n "${SKILL_NAME:-}" ]; then
-  mkdir -p apps/dashboard/outputs
-  printf '%s' "$PLAIN" > "apps/dashboard/outputs/.pending-${SKILL_NAME}.md"
+  if ! printf '%s' "$PLAIN" > "$PENDING_DIR/.pending-${SKILL_NAME}.md" 2>/dev/null; then
+    echo "notify: json-render queue unwritable (read-only FS) — feed entry skipped" >&2
+  fi
 fi
 
 # Remove pending file if immediate delivery succeeded (prevents double-send)
 if [ "$DELIVERED" = "true" ]; then
-  rm -f ".pending-notify/${TS}.md"
+  rm -f "$PENDING_DIR/notify-queue/${TS}.md"
 fi
