@@ -1,15 +1,11 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-08-15T08:13:07Z",
+  "last_analyzed": "2026-08-17T08:20:35Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced skill run — identified 1 verified lead via multi-channel discovery and GitHub compare-API filtering, filtered 14 false positives cleanly, provided actionable next steps, created proper memory artifacts.",
+  "assessment": "Substantive, well-sourced lead generation with verified builds and mentions; solid dedup logic; minor rate-limit on one source but fallback maintained coverage.",
   "flags": [],
   "avg_score": 4,
   "history": [
-    {
-      "date": "2026-07-08",
-      "score": 4
-    },
     {
       "date": "2026-07-09",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-08-15",
+      "score": 4
+    },
+    {
+      "date": "2026-08-17",
       "score": 4
     }
   ]

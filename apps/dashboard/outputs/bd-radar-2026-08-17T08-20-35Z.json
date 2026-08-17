@@ -1,0 +1,65 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "new building lead: yghffhgx forked aeon and actually wired it up ⭐"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_commits",
+        "text_changes",
+        "text_assessment",
+        "text_recommendation",
+        "link_digest"
+      ]
+    },
+    "stat_commits": {
+      "type": "Stat",
+      "props": {
+        "label": "independent commits in an hour",
+        "value": "21",
+        "trend": "up"
+      }
+    },
+    "text_changes": {
+      "type": "Text",
+      "props": {
+        "text": "Swapped in a custom OpenAI-compatible provider (deepseek-v4-flash via opencode-go gateway), enabled github-trending on live cron, wrote German setup notes.",
+        "variant": "body"
+      }
+    },
+    "text_assessment": {
+      "type": "Text",
+      "props": {
+        "text": "Not a drive-by fork, someone's actually running it.",
+        "variant": "lead"
+      }
+    },
+    "text_recommendation": {
+      "type": "Text",
+      "props": {
+        "text": "Worth a DM.",
+        "variant": "body"
+      }
+    },
+    "link_digest": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest",
+        "href": "output/articles/bd-radar-2026-08-17.md"
+      }
+    }
+  }
+}

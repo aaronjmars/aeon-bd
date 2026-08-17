@@ -1,7 +1,7 @@
-ℹ️ BD Radar — new lead
+ℹ️ bd-radar
 
-new building lead: belikh (Jupiter Belic, Jupiter Systems, AU) forked aeon into "jupiterOS" — 39 real commits in 2 days, live Home Assistant MCP integration, custom LLM gateway routing, and a legit fix for a GitHub secrets-exfiltration approval gate that was blocking messages.yml runs. not a drive-by, running it for real.
+new building lead: yghffhgx forked aeon and actually wired it up ⭐
 
-move: DM belikh, invite to ECOSYSTEM.md, flag their messages.yml fix as a possible upstream PR — they already found and fixed a real bug for us.
+21 independent commits in an hour — swapped in a custom OpenAI-compatible provider (deepseek-v4-flash via opencode-go gateway), enabled github-trending on live cron, wrote German setup notes. not a drive-by fork, someone's actually running it.
 
-https://github.com/belikh/aeon
+worth a DM. full digest: `output/articles/bd-radar-2026-08-17.md`
