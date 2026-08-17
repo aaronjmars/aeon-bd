@@ -1,6 +1,32 @@
 {
   "leads": [
     {
+      "key": "x:Amrit_Mirch",
+      "class": "mentioning",
+      "who": "Amrit_Mirch (GitHub: amritmirch)",
+      "handle": "@Amrit_Mirch",
+      "signal": "Posted a 2-part X thread today (2026-08-17) accurately explaining Aeon's architecture unprompted - the agent is a github repo, every run is a workflow log, claude code is one of six harnesses it runs on, skills are just markdown files - tagging @aeonframework directly. Same person forked aaronjmars/aeon on GitHub (2026-08-10); fork itself was confirmed drive-by (ahead_by 0) on 2026-08-15, but this is genuine unprompted organic explainer content, not noise. Low reach (1-17 views) but technically accurate and enthusiastic.",
+      "fit": 3,
+      "score": 6,
+      "first_seen": "2026-08-17",
+      "link": "https://x.com/Amrit_Mirch/status/2089257560331505818",
+      "source": "xai_x_search",
+      "move": "Reply/QT from @aeonframework or @aaronjmars - thank them for the accurate explainer thread, low-effort way to turn a reader into an advocate."
+    },
+    {
+      "key": "github:yghffhgx/aeon",
+      "class": "building",
+      "who": "yghffhgx",
+      "handle": "yghffhgx",
+      "signal": "Forked aeon, 21 independent commits / 12 files over ~1hr (2026-08-11) by a distinct author: wired a custom OpenAI-compatible provider (OPENAI_BASE_URL, opencode-go gateway) with model pinned to deepseek-v4-flash for the codex harness, enabled + ran the github-trending skill via cron, live heartbeat/auto-commits through the run. Added German-language setup notes (AEON-SETUP-NOTIZEN.md) - genuine sustained deployment, not a drive-by. Confirmed via /compare (ahead_by 21, not sync noise).",
+      "fit": 3,
+      "score": 15,
+      "first_seen": "2026-08-17",
+      "link": "https://github.com/yghffhgx/aeon",
+      "source": "gh_forks_compare",
+      "move": "DM/reach out to yghffhgx - running a live Aeon instance with a custom OpenAI-compatible/deepseek-v4-flash provider swap; worth understanding their setup and inviting to ECOSYSTEM.md (possible EU/German builder)."
+    },
+    {
       "key": "github:belikh/aeon",
       "class": "building",
       "who": "Jupiter Belic (belikh, Jupiter Systems, Australia)",
@@ -2445,31 +2471,11 @@
       "repo_updated": "2026-07-11",
       "source": "gh_read_pat_forks",
       "move": "Open what are you building comment, 4-day own-activity window is warm"
-    },
-    {
-      "key": "github:hebridean-tech/x402-pulse",
-      "class": "adjacent",
-      "who": "hebridean-tech (Hebridean Development / Project veritOS)",
-      "handle": "hebridean-tech",
-      "signal": "Filed the identical issue 'x402 Pulse - Free revenue analytics for x402 sellers' on both aeonfun/aeon (#806) and MiroShark/MiroShark (#262) within 2 minutes, 2026-07-31. Free dashboard (pulse.projectveritos.com) connects a Base wallet and tracks USDC revenue plus endpoint health across 180+ x402 services. Cross-repo issue-drop reads as growth-hacking, not a direct integration ask, but lands squarely in the x402 wedge both products already sit in (MiroShark is x402-metered; Aeon ships x402 skills).",
-      "fit": 3,
-      "score": 3,
-      "first_seen": "2026-07-31",
-      "source": "gh_read_pat_issues",
-      "move": "Check pulse.projectveritos.com - if legit, list Aeon/MiroShark's own x402 revenue there for free visibility; if it's spam-pattern issue-dropping, close both issues as off-topic."
-    },
-    {
-      "key": "github:dxgamers70-dev/Aethree",
-      "class": "building",
-      "who": "dxgamers70-dev (AeThree, known ecosystem partner)",
-      "signal": "aeon-skill-pack/ dir in repo, last pushed 2026-07-08",
-      "fit": 3,
-      "score": 15,
-      "date": "2026-08-13",
-      "move": "Reply to @aethree_xyz -- ask what the pack does, offer a shiplog mention"
     }
   ],
   "surfaced": [
+    "x:Amrit_Mirch",
+    "github:yghffhgx/aeon",
     "github:danbuildss/luca-aeon-skills",
     "github:UIZorrot/careful-finance-aeon-skill-pack",
     "github:codexvritra/signa-aeon-skills",
@@ -2767,8 +2773,6 @@
     "github:alexverify/aeon",
     "github:xalil05/ProjecSen",
     "github:powerloom/aeon-skills",
-    "github:dxgamers70-dev/Aethree",
-    "github:anondevv69/bankr-space",
-    "github:belikh/aeon"
+    "github:dxgamers70-dev/Aethree"
   ]
 }
