@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-16T17:07:43Z",
+  "last_analyzed": "2026-08-17T18:09:59Z",
   "quality_score": 4,
-  "assessment": "Properly executed fetch-and-curate pipeline: sourced 9 candidates, deduped against history (dropped 1 repeat + 2 noise), clustered 6 survivors into 3 signal types, identified specific BD proof point (ai2humannetwork/Base), maintained audit trail and memory state.",
+  "assessment": "Solid execution — fetched 17 candidates, de-duped and filtered to 5 quality results, curated into 3 strategic clusters, updated memory and sent notifications. Well-structured summary with clear methodology.",
   "flags": [],
   "avg_score": 3.9,
   "history": [
-    {
-      "date": "2026-07-18",
-      "score": 4
-    },
     {
       "date": "2026-07-19",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-08-16",
+      "score": 4
+    },
+    {
+      "date": "2026-08-17",
       "score": 4
     }
   ]

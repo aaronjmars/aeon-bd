@@ -1,21 +1,25 @@
-*Top Tweets — Aeon + Miroshark (2026-08-07)*
-_Eyebrow's security integration is today's real story — a wallet/payments integration and a trending-list mention ride alongside it; a wave of $AEON-ticker chatter (a different, unrelated token) was filtered out._
+*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-17)*
+_Quieter day — Aaron doubles down on Miroshark as a research framework while a community member lobbies x.com/cobie for recognition; Amrit_Mirch's 70-repo/2.1M-star claim resurfaces with harder numbers._
 
-*Eyebrow ships automated security on Aeon*
-1. x.com/eyebrowCC — Every Aeon skill is now auto-verified by eyebrow's fingerprinting engine before merge; tamper with one after approval and the build fails. Aeon is eyebrow's 2nd integration since launch — #3 and #4 already underway.
-Likes: 30 | RTs: 5 | Replies: 11
-[View tweet](https://x.com/eyebrowCC/status/2085402998650417586)
+*Aeon content + proof point*
+1. x.com/aeonframework — Drops a "your agent needs a soul" video, continuing the identity/personality thread from the recent feature-ship run.
+Likes: 18 | RTs: 3 | Replies: 2
+[View tweet](https://x.com/aeonframework/status/2088906077316206752)
 
-2. x.com/takeru_L2 — Reacting to the "nothing to forget" line: calls it the whole pitch in three words.
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/takeru_L2/status/2085428741736747300)
+2. x.com/Amrit_Mirch — Reframes the repo-maintenance agent as live across 70 repos with 2.1M combined stars — same claim flagged 08-15/08-16, now with harder numbers attached.
+Likes: 5 | RTs: 2 | Replies: 0
+[View tweet](https://x.com/Amrit_Mirch/status/2088866769146355765)
 
-*Agent Wallet brings on-chain payments to Aeon agents*
-3. x.com/FD_XYZ — Agent Wallet goes live as a supported Aeon wallet: multichain, native x402 payments, one connect flow to give any agent a real on-chain wallet.
-Likes: 12 | RTs: 2 | Replies: 3
-[View tweet](https://x.com/FD_XYZ/status/2085251666853691530)
+*Aaron pushing Miroshark visibility*
+3. x.com/aaronjmars — Direct call-to-action: "you can try using @miroshark_, open source framework for large scale simulations."
+Likes: 7 | RTs: 1 | Replies: 0
+[View tweet](https://x.com/aaronjmars/status/2089097197232984506)
 
-*Trending visibility*
-4. x.com/AIonBase_ — Lists $aeon among the top 10 trending AI tokens on Base in the last 24h, alongside Virtuals, Bankr, and Venice.
-Likes: 38 | RTs: 1 | Replies: 8
-[View tweet](https://x.com/AIonBase_/status/2085222684292735461)
+4. x.com/aaronjmars — Frames agent-simulation consequences as an emerging field of study, not just a product pitch.
+Likes: 1 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/aaronjmars/status/2089094984632807918)
+
+*Community pushback on recognition*
+5. x.com/Shivam1322 — Tags x.com/cobie directly, arguing Aeon/aaronjmars builders deserve attention now after building through the down period.
+Likes: 1 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/Shivam1322/status/2089123498945913298)

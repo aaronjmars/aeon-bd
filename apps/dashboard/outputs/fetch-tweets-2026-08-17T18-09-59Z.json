@@ -1,0 +1,242 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework, aeonfun/aeon, @miroshark_, Miroshark swarm simulation (2026-08-17)"
+      },
+      "children": [
+        "text_summary",
+        "sep1",
+        "heading1",
+        "section1",
+        "sep2",
+        "heading2",
+        "section2",
+        "sep3",
+        "heading3",
+        "section3"
+      ]
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Quieter day — Aaron doubles down on Miroshark as a research framework while a community member lobbies x.com/cobie for recognition; Amrit_Mirch's 70-repo/2.1M-star claim resurfaces with harder numbers.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon content + proof point",
+        "level": "h2"
+      }
+    },
+    "section1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1_container",
+        "tweet2_container"
+      ]
+    },
+    "tweet1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "link1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "aeonframework",
+        "text": "Drops a \"your agent needs a soul\" video, continuing the identity/personality thread from the recent feature-ship run.",
+        "likes": 18,
+        "retweets": 3
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2088906077316206752"
+      }
+    },
+    "tweet2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "link2"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Amrit_Mirch",
+        "handle": "Amrit_Mirch",
+        "text": "Reframes the repo-maintenance agent as live across 70 repos with 2.1M combined stars — same claim flagged 08-15/08-16, now with harder numbers attached.",
+        "likes": 5,
+        "retweets": 2
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Amrit_Mirch/status/2088866769146355765"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Aaron pushing Miroshark visibility",
+        "level": "h2"
+      }
+    },
+    "section2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet3_container",
+        "tweet4_container"
+      ]
+    },
+    "tweet3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3",
+        "link3"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Direct call-to-action: \"you can try using @miroshark_, open source framework for large scale simulations.\"",
+        "likes": 7,
+        "retweets": 1
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2089097197232984506"
+      }
+    },
+    "tweet4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4",
+        "link4"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Frames agent-simulation consequences as an emerging field of study, not just a product pitch.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2089094984632807918"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "Community pushback on recognition",
+        "level": "h2"
+      }
+    },
+    "section3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet5_container"
+      ]
+    },
+    "tweet5_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet5",
+        "link5"
+      ]
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Shivam1322",
+        "handle": "Shivam1322",
+        "text": "Tags x.com/cobie directly, arguing Aeon/aaronjmars builders deserve attention now after building through the down period.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "link5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Shivam1322/status/2089123498945913298"
+      }
+    }
+  }
+}
