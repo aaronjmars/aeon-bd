@@ -104,7 +104,7 @@ skills:
 
   # Self-maintenance / meta
   memory-flush: { enabled: false, schedule: "30 21 * * *" } # daily — promote important recent log entries into MEMORY.md
-  aeon-update: { enabled: false, schedule: "0 11 * * 1", var: "" } # Monday 11:00 UTC - pull framework updates from aeonfun/aeon canon as a 3-way-merge PR (never clobbers operator config). Baseline in memory/topics/aeon-update-state.json. On-demand until enabled.
+  aeon-update: { enabled: true, schedule: "0 11 * * 1", var: "" } # Monday 11:00 UTC - pull framework updates from aeonfun/aeon canon as a 3-way-merge PR (never clobbers operator config). Baseline in memory/topics/aeon-update-state.json. Runs weekly.
 
   # --- Ported from aeon-aaron ---
   # Infra & health
