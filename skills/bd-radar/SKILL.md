@@ -46,25 +46,28 @@ mkdir -p memory/topics output/articles
 
 **GitHub forks + issues — direct GitHub API, in-run.** The default runner token is integration-scoped to this instance's own repo, so cross-repo forks/issues of your other (esp. private) repos **403/404** from inside the skill (the `forking` + `integrating` signals). `GH_READ_PAT` — a read-only PAT, declared in `requires:` and injected into this run — reads them. Call `api.github.com` directly through `./secretcurl`'s `{GH_READ_PAT}` placeholder so no bare `$SECRET` ever hits the command line (the Bash permission analyzer refuses those). Iterate your configured `owner/repo`s:
 ```bash
-# Only when the PAT is set (a bare $GH_READ_PAT would be refused → use the placeholder).
-if [ -n "${GH_READ_PAT:+x}" ]; then
-  for repo in <owner/repo …from memory/products.md>; do
-    slug="${repo//\//-}"
+# Prefer the read-only PAT when set (via the {GH_READ_PAT} placeholder so no bare $SECRET hits the command line).
+# Otherwise fall back to `gh api`, authenticated by the run's GH_TOKEN (= GH_GLOBAL, a repo-scoped classic PAT that
+# reads the same cross-repo/private forks + issues); gh takes the token from the env, never the command line.
+for repo in <owner/repo …from memory/products.md>; do
+  slug="${repo//\//-}"
+  if [ -n "${GH_READ_PAT:+x}" ]; then
     ./secretcurl -s -H "Authorization: Bearer {GH_READ_PAT}" -H "Accept: application/vnd.github+json" \
       "https://api.github.com/repos/${repo}/forks?sort=newest&per_page=40"  > "/tmp/bd-forks-${slug}.json"
     ./secretcurl -s -H "Authorization: Bearer {GH_READ_PAT}" -H "Accept: application/vnd.github+json" \
       "https://api.github.com/repos/${repo}/issues?state=open&per_page=40"  > "/tmp/bd-issues-${slug}.json"
-  done
-else
-  echo "BD_RADAR_SOURCE_MISS: github-forks-issues (no GH_READ_PAT)"
-fi
+  else
+    gh api "repos/${repo}/forks?sort=newest&per_page=40"  > "/tmp/bd-forks-${slug}.json"  2>/dev/null || echo '[]' > "/tmp/bd-forks-${slug}.json"
+    gh api "repos/${repo}/issues?state=open&per_page=40" > "/tmp/bd-issues-${slug}.json" 2>/dev/null || echo '[]' > "/tmp/bd-issues-${slug}.json"
+  fi
+done
 ```
 Parse each repo's results (the `type=="array"` guard skips a 404/error object cleanly):
 ```bash
 jq 'if type=="array" then .[] else empty end | {repo:.full_name, owner:.owner.login, created:.created_at, pushed:.pushed_at, size:.size}' /tmp/bd-forks-*.json
 jq 'if type=="array" then .[] else empty end | select(.pull_request|not) | {n:.number, title:.title, user:.user.login, created:.created_at, body:.body}' /tmp/bd-issues-*.json
 ```
-Keep forks with their own activity (`pushed` meaningfully after `created`) — drive-by forks are noise. Issues whose title/body asks to integrate/partner/build-on are `integrating` leads (the `/issues` endpoint also returns PRs — the `select(.pull_request|not)` drops them). If `GH_READ_PAT` is unset, or scoped so a repo returns 404, log `BD_RADAR_SOURCE_MISS: github-forks-issues (no GH_READ_PAT)` and continue on `gh search` alone.
+Keep forks with their own activity (`pushed` meaningfully after `created`) — drive-by forks are noise. Issues whose title/body asks to integrate/partner/build-on are `integrating` leads (the `/issues` endpoint also returns PRs — the `select(.pull_request|not)` drops them). If `GH_READ_PAT` is unset, the `gh api` fallback (authenticated by the run's `GH_TOKEN` = `GH_GLOBAL`, a repo-scoped PAT) reads the same forks + issues; only if a specific repo still 404s (token lacks access to it) log `BD_RADAR_SOURCE_MISS: github-forks-issues (<repo> 404)` and lean on `gh search` for that one.
 
 **GitHub discovery — `gh search`** (works with the default token). For each `term` in `memory/products.md`:
 ```bash
