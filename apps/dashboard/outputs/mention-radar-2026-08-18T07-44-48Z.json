@@ -1,0 +1,217 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-08-18"
+      },
+      "children": [
+        "section-aeon",
+        "sep1",
+        "section-miroshark",
+        "sep2",
+        "section-engagement",
+        "sep3",
+        "text-final"
+      ]
+    },
+    "section-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aeon",
+        "alert-aeon-quiet",
+        "stat-aeon-github"
+      ]
+    },
+    "heading-aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert-aeon-quiet": {
+      "type": "Alert",
+      "props": {
+        "message": "QUIET: no external mentions on X (api, http=200, 08-11→08-18) or web (Reddit/HN/PH/Farcaster/blogs) this cycle.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "stat-aeon-github": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub",
+        "value": "668★ / 239 forks",
+        "delta": "+3★/+1f vs 08-16"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-miroshark",
+        "stack-mention-1",
+        "text-dupes",
+        "alert-mirror-web",
+        "stat-miroshark-github"
+      ]
+    },
+    "heading-miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-mention-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-meta-1",
+        "tweet-amrit",
+        "badge-category",
+        "text-context",
+        "link-tweet"
+      ]
+    },
+    "text-meta-1": {
+      "type": "Text",
+      "props": {
+        "text": "X • 2026-08-17",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet-amrit": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Amrit Mirch",
+        "handle": "@Amrit_Mirch",
+        "text": "been trying to understand how to get an edge into prediction markets... paste in a headline, [MiroShark] works out who actually has a stake in it, builds them as agents, lets them argue and trade about it for ten minutes... 240 runs are public, free to read"
+      },
+      "children": []
+    },
+    "badge-category": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery / Advocacy",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "repeat advocate, new product-specific use case",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Amrit_Mirch/status/2089324038569230593"
+      },
+      "children": []
+    },
+    "text-dupes": {
+      "type": "Text",
+      "props": {
+        "text": "Other: @3cardtrickHT, @ashcotXBT — 3 older posts (Light Society plug-in ask x2, logo compliment) resurfaced in search window but already logged 08-14/08-16. Filtered as dupes.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "alert-mirror-web": {
+      "type": "Alert",
+      "props": {
+        "message": "Web (Reddit/HN/PH/Farcaster): QUIET — HackerNoon feature + Microlaunch listing both pre-existing, already reported.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "stat-miroshark-github": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub",
+        "value": "1430★ / 298 forks",
+        "delta": "+0/+0 vs 08-16"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-engagement",
+        "text-engagement-detail"
+      ]
+    },
+    "heading-engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-engagement-detail": {
+      "type": "Text",
+      "props": {
+        "text": "@Amrit_Mirch (Miroshark): not a cold lead — already an existing contact in the pipeline (flagged for Aeon-side advocacy on 08-17) — but this post is fresh, product-specific proof-point material (concrete prediction-market use case, live link, 240 public runs) worth folding into reddit-promo copy or a direct reply, since it's the first time they've spoken about Miroshark specifically rather than Aeon.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-final": {
+      "type": "Alert",
+      "props": {
+        "message": "QUIET: Aeon — no external mentions found this cycle.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
