@@ -300,7 +300,7 @@
     "last_dispatch": "2026-06-29T16:03:06Z"
   },
   "reddit-promo": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-08-17T19:14:58Z",
     "total_runs": 15,
     "total_successes": 15,
@@ -308,6 +308,6 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4,
-    "last_dispatch": "2026-08-17T19:10:05Z"
+    "last_dispatch": "2026-08-18T17:55:54Z"
   }
 }
