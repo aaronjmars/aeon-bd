@@ -1,0 +1,499 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo",
+        "description": "2026-08-18"
+      },
+      "children": [
+        "story_section",
+        "sep1",
+        "post1",
+        "sep2",
+        "post2",
+        "sep3",
+        "post3",
+        "sep4",
+        "post4"
+      ]
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_label",
+        "story_text",
+        "story_link_wrapper"
+      ]
+    },
+    "story_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aaron reworked Aeon + Miroshark's GitHub repo visuals so the architecture reads at a glance instead of requiring a docs dig, paired with this week's shipped skill-update digest feature (instances now push what changed straight to the operator)",
+        "variant": "body"
+      }
+    },
+    "story_link_wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_link"
+      ]
+    },
+    "story_link": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet by aaronjmars",
+        "href": "https://x.com/aaronjmars/status/2088095553649528979"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1_header",
+        "post1_title",
+        "post1_body",
+        "post1_links",
+        "post1_notes"
+      ]
+    },
+    "post1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_sub",
+        "post1_badge"
+      ]
+    },
+    "post1_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/CoolGithubProjects",
+        "level": "h3"
+      }
+    },
+    "post1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "github"
+      }
+    },
+    "post1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon - open-source agent framework that runs unattended on GitHub Actions (skills are just markdown)",
+        "level": "h4"
+      }
+    },
+    "post1_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_text1",
+        "post1_link1",
+        "post1_text2"
+      ]
+    },
+    "post1_text1": {
+      "type": "Text",
+      "props": {
+        "text": "just reworked the repo's README/visuals so you can see how it actually works at a glance instead of digging through docs.\n\nwhat it is: skills are markdown files (SKILL.md), each one runs on a cron via GitHub Actions - no dashboard to babysit, no approval loop. add a skill, it ships. write access is scoped (write vs read-only mode per skill), and every run leaves a public trace in the repo so you can see exactly what it did and when.\n\nshipped this week: instances can now push daily/weekly skill-update digests straight to you, so you're not manually diffing the repo to see what changed.\n\nopen source, AGPL. repo:",
+        "variant": "body"
+      }
+    },
+    "post1_link1": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post1_text2": {
+      "type": "Text",
+      "props": {
+        "text": "built and maintain this - happy to answer anything about the architecture.",
+        "variant": "body"
+      }
+    },
+    "post1_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_composer"
+      ]
+    },
+    "post1_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CoolGithubProjects composer",
+        "href": "https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20open-source%20agent%20framework%20that%20runs%20unattended%20on%20GitHub%20Actions%20%28skills%20are%20just%20markdown%29"
+      }
+    },
+    "post1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: strict sub rule — title must stay \"Aeon - <one-line desc>\", nothing added. Post as builder (\"I built this\"), not anonymously.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2_header",
+        "post2_title",
+        "post2_body",
+        "post2_links",
+        "post2_notes"
+      ]
+    },
+    "post2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_sub",
+        "post2_badge"
+      ]
+    },
+    "post2_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/OpenSourceAI",
+        "level": "h3"
+      }
+    },
+    "post2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source"
+      }
+    },
+    "post2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "reworked our agent framework's repo so \"how it works\" is legible at a glance (AGPL, skills-as-markdown)",
+        "level": "h4"
+      }
+    },
+    "post2_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_text1",
+        "post2_link1",
+        "post2_text2"
+      ]
+    },
+    "post2_text1": {
+      "type": "Text",
+      "props": {
+        "text": "most open-source agent repos make you read the whole codebase to understand the architecture. we just went through and fixed that for Aeon — visuals + structure now show the skill/cron/chain model up front instead of burying it in prose docs.\n\nthe actual mechanic: every capability is a SKILL.md file (plain markdown), scheduled via GitHub Actions cron. no standing server, no approval loop — it just runs on schedule and commits/PRs the result. write-mode skills can open PRs; read-only skills can't touch the repo at all, enforced by the sandbox, not just convention.\n\nshipped alongside this: instances can now push you a digest of what skills changed, so following an actively-developed fork doesn't mean re-reading the diff yourself.\n\nrepo (AGPL, fork and configure it yourself):",
+        "variant": "body"
+      }
+    },
+    "post2_link1": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post2_text2": {
+      "type": "Text",
+      "props": {
+        "text": "I work on Aeon — ask me anything about the design, or where it breaks.",
+        "variant": "body"
+      }
+    },
+    "post2_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_composer"
+      ]
+    },
+    "post2_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/OpenSourceAI composer",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=reworked%20our%20agent%20framework%27s%20repo%20so%20%27how%20it%20works%27%20is%20legible%20at%20a%20glance%20%28AGPL%2C%20skills-as-markdown%29"
+      }
+    },
+    "post2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: disclose builder status up top, watch the sub's self-promo ratio (mix in non-Aeon comments before/after).",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3_header",
+        "post3_title",
+        "post3_body",
+        "post3_links",
+        "post3_notes"
+      ]
+    },
+    "post3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_sub",
+        "post3_badge"
+      ]
+    },
+    "post3_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/CLaudeSkills",
+        "level": "h3"
+      }
+    },
+    "post3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "claude-skills"
+      }
+    },
+    "post3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "our skill-update digest is itself just a SKILL.md — shipped this week, here's the shape",
+        "level": "h4"
+      }
+    },
+    "post3_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_text1",
+        "post3_link1",
+        "post3_text2"
+      ]
+    },
+    "post3_text1": {
+      "type": "Text",
+      "props": {
+        "text": "if you're already writing Claude-style markdown skills, this might be useful: we just shipped a feature in Aeon where any instance can push you a daily/weekly digest of what skills changed — new ones added, existing ones edited — without you having to diff the repo by hand.\n\nit's built the same way every Aeon capability is: a self-contained SKILL.md with frontmatter (name, mode: write/read-only, schedule) and a body of plain-English instructions. the agent reads the file and executes it headless via GitHub Actions — no orchestration code, no framework glue, just markdown the agent follows.\n\nwe also just reworked the repo layout/visuals so the skill model reads clearly from the README instead of requiring a dig through the codebase.\n\nrepo:",
+        "variant": "body"
+      }
+    },
+    "post3_link1": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post3_text2": {
+      "type": "Text",
+      "props": {
+        "text": "— happy to share the actual digest skill's markdown if anyone wants the real thing, not just the pitch.",
+        "variant": "body"
+      }
+    },
+    "post3_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_composer"
+      ]
+    },
+    "post3_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CLaudeSkills composer",
+        "href": "https://www.reddit.com/r/CLaudeSkills/submit?title=our%20skill-update%20digest%20is%20itself%20just%20a%20SKILL.md%20-%20shipped%20this%20week%2C%20heres%20the%20shape"
+      }
+    },
+    "post3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: technical audience — lead with the mechanic, not the pitch; disclose \"I work on Aeon.\"",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post4_header",
+        "post4_title",
+        "post4_body",
+        "post4_links",
+        "post4_notes"
+      ]
+    },
+    "post4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_sub",
+        "post4_badge"
+      ]
+    },
+    "post4_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/Ollama",
+        "level": "h3"
+      }
+    },
+    "post4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source"
+      }
+    },
+    "post4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "self-hosted agent framework, just made the repo actually legible if you're evaluating it",
+        "level": "h4"
+      }
+    },
+    "post4_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_text1",
+        "post4_link1",
+        "post4_text2"
+      ]
+    },
+    "post4_text1": {
+      "type": "Text",
+      "props": {
+        "text": "posting here because the self-hosting crowd usually asks the right questions before adopting something. Aeon is an open-source (AGPL) agent framework — you fork it, configure skills, and it runs entirely on your own GitHub Actions. no vendor API sitting in the middle deciding what you can/can't automate, no approval loop gating each run.\n\njust went through and reworked the repo's visuals/README so the actual architecture — skills as markdown files, cron scheduling, write vs read-only sandboxing — is visible on the repo page instead of buried three docs deep. also shipped a feature this week where your instance can push you a digest of what skills changed, useful if you're tracking upstream after forking.\n\nrepo:",
+        "variant": "body"
+      }
+    },
+    "post4_link1": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post4_text2": {
+      "type": "Text",
+      "props": {
+        "text": "— if you're already running local models, curious what you'd want an unattended agent to actually do for you.",
+        "variant": "body"
+      }
+    },
+    "post4_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_composer"
+      ]
+    },
+    "post4_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Ollama composer",
+        "href": "https://www.reddit.com/r/Ollama/submit?title=self-hosted%20agent%20framework%2C%20just%20made%20the%20repo%20actually%20legible%20if%20youre%20evaluating%20it"
+      }
+    },
+    "post4_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: not Ollama-specific — keep the ask genuinely open-ended (local-model use case) so it doesn't read as off-topic self-promo; disclose builder status.",
+        "variant": "caption"
+      }
+    }
+  }
+}
