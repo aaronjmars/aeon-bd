@@ -1,21 +1,25 @@
-Ambient fleet check complete — nothing needs attention, so no notification sent (per the skill's "notify only on signal" rule).
+## Heartbeat — Ambient check (2026-08-18, 08:11 UTC)
 
-## Heartbeat — Ambient check (2026-08-18)
+**Mode:** ambient (default, `${var}` empty — scheduled path)
 
-**P0 — Failed & stuck skills:** None. All entries in `memory/cron-state.json` show `last_status: success`. No `consecutive_failures ≥ 3`, no chronic failures (lowest success rate: bd-radar at 98%, well-warmed). Heartbeat self-check: last success 2026-08-17 08:13 UTC (~16h ago, inside the 36h bar).
+### P0 — Failed & stuck skills
+No failures. All 28 tracked skills show `last_status: success`, no `consecutive_failures ≥ 3`, no chronic failures. Lowest success rate: `bd-radar` at 98% (60 runs). No stuck dispatches. Heartbeat's own self-check: `last_success` 2026-08-18 00:17 UTC — well within the 36h bar.
 
-**P1 — Stalled PRs & urgent issues:** None. `gh pr list --state open` and `gh issue list --label urgent` both empty.
+### P1 — Stalled PRs & urgent issues
+`gh pr list --state open` → 0 open PRs. `gh issue list --state open` → 0 open issues (0 urgent). Clean.
 
-**P2 — Flagged memory items:** Nothing beyond the standing Next Priorities backlog in `memory/MEMORY.md` (schedule tuning, optional PAT scope expansion, second notification channel) — none due for action.
+### P2 — Flagged memory items
+Nothing flagged in `memory/MEMORY.md` beyond the standing "Next Priorities" list (schedule tuning, optional PAT scope expansion, optional second notify channel) — none due for action.
 
-**P3 — Missing scheduled skills:** All 6 enabled skills (fetch-tweets, reddit-promo, engagement-act, mention-radar, bd-radar, heartbeat) have run within 2x their schedule interval.
+### P3 — Missing scheduled skills
+7 enabled skills in `aeon.yml`: `fetch-tweets`, `reddit-promo`, `engagement-act`, `mention-radar`, `bd-radar`, `heartbeat`, and `aeon-update`.
+- 6 of 7 are within 2x their schedule interval — none stale.
+- `aeon-update` (weekly, Mon 11:00 UTC) has **no cron-state entry** — traced to PR #48 (merged 2026-08-18 00:31 UTC), which enabled it *after* this week's Monday slot had already passed. Its first real dispatch isn't due until next Monday (2026-08-24). Not a missing-dispatch flag — added to the status page as `not yet run`.
 
-**Status page:** `docs/status.md` had reverted to its unpopulated template — it was last touched by the framework-migration commit (#47), not a heartbeat run, so it still read "awaiting first heartbeat run" despite 95 completed heartbeat runs in `cron-state.json`. Regenerated it from live data: Overall 🟢 OK, 0 open issues, next scheduled run mention-radar at 07:25 UTC, full 6-skill health table populated. No token-report article exists yet, so the Token Pulse section stays omitted (consistent with prior days).
+### Status page
+Regenerated `docs/status.md` (overall **🟢 OK**): 7-row skill table now includes `aeon-update`, "Next scheduled run" updated to `fetch-tweets at 17:00 UTC`, 0 open issues. No token-report article on file, so the Token Pulse section stays omitted.
 
-**Verdict:** `HEARTBEAT_OK · STATUS_PAGE=OK`
+**HEARTBEAT_OK · STATUS_PAGE=OK** — no notification sent (nothing needs attention).
 
 ## Summary
-- Ran the ambient fleet-health check (empty `${var}` → live scheduled path); found no failures, no stalled PRs/issues, no flagged memory items, no missing scheduled skills.
-- Regenerated `docs/status.md` with real fleet data (it had reverted to the template after the #47 migration commit overwrote it).
-- Logged the run to `memory/logs/2026-08-18.md` under `### heartbeat` (mode: ambient).
-- No notification sent — clean run, nothing needs attention. No follow-up required; the workflow's auto-commit step will land `docs/status.md` and the log on `main`.
+Ran the ambient fleet check: no failures, no stalled PRs/issues, no stuck skills. Traced the one apparent gap (`aeon-update` missing from cron-state) to a same-day enablement (PR #48) whose first scheduled window hasn't arrived yet — not a real problem. Regenerated `docs/status.md` and appended findings to `memory/logs/2026-08-18.md` under the existing `### heartbeat` heading. No follow-up action needed; `docs/status.md` will be auto-committed by the workflow.
