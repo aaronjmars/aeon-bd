@@ -1,0 +1,1 @@
+{"model":"grok-4-1-fast","input":[{"role":"user","content":"Search X for recent tweets about: crypto OR bitcoin OR DeFi. Date range: 2026-08-17 to 2026-08-18. Return up to 8 substantive tweets. For each: @handle, full text, date, exact engagement counts (likes, retweets, replies; 0 if unknown), and the direct link https://x.com/handle/status/ID."}],"tools":[{"type":"x_search"}]}

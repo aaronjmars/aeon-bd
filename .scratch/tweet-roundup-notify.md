@@ -1,5 +1,3 @@
-ℹ️ Tweet Roundup — 2026-08-18
-
 *Tweet Roundup — 2026-08-18*
 _Source: api:3 websearch:0 failed:0_
 

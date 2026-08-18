@@ -1,0 +1,159 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup — 2026-08-18"
+      },
+      "children": [
+        "text-source",
+        "sep1",
+        "section-ai",
+        "sep2",
+        "section-startups"
+      ]
+    },
+    "text-source": {
+      "type": "Text",
+      "props": {
+        "text": "Source: api:3 websearch:0 failed:0",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ai",
+        "text-ai-desc",
+        "stack-ai-tweets"
+      ]
+    },
+    "heading-ai": {
+      "type": "Heading",
+      "props": {
+        "text": "AI / Agents",
+        "level": "h3"
+      }
+    },
+    "text-ai-desc": {
+      "type": "Text",
+      "props": {
+        "text": "quiet day, one real benchmark thread, rest was noise/reposts",
+        "variant": "muted"
+      }
+    },
+    "stack-ai-tweets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-ai-1",
+        "tweet-ai-1-link"
+      ]
+    },
+    "tweet-ai-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Timboo",
+        "handle": "Timboo",
+        "text": "Grok 4.6 tops Artificial Analysis' agentic index alongside Claude Opus 5 Max, but wins on efficiency: ~53 turns / ~0.5B input tokens vs Opus's ~103 turns / ~2B tokens (signal: 6)"
+      }
+    },
+    "tweet-ai-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/Timboo/status/2089502465687158815"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-startups": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-startups",
+        "text-startups-desc",
+        "stack-startups-tweets"
+      ]
+    },
+    "heading-startups": {
+      "type": "Heading",
+      "props": {
+        "text": "Startups / Tech",
+        "level": "h3"
+      }
+    },
+    "text-startups-desc": {
+      "type": "Text",
+      "props": {
+        "text": "split between abstract tech-philosophy and a pointed agent-economy jab",
+        "variant": "muted"
+      }
+    },
+    "stack-startups-tweets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-startups-1",
+        "tweet-startups-1-link",
+        "tweet-startups-2",
+        "tweet-startups-2-link"
+      ]
+    },
+    "tweet-startups-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ElbarBelgacem",
+        "handle": "ElbarBelgacem",
+        "text": "Blunt read on agent-startup monetization: most fail because they built for other builders, and builders don't pay — they fork (signal: 6)"
+      }
+    },
+    "tweet-startups-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/ElbarBelgacem/status/2089502250473329045"
+      }
+    },
+    "tweet-startups-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "GalacticArrival",
+        "handle": "GalacticArrival",
+        "text": "Argues tech only becomes transformative when it changes coordination/capability, not just speeds up existing inefficient processes (signal: 126)"
+      }
+    },
+    "tweet-startups-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/GalacticArrival/status/2089502512877306303"
+      }
+    }
+  }
+}
