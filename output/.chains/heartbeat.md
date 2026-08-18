@@ -1,25 +1,22 @@
-## Heartbeat — Ambient check (2026-08-18, 08:11 UTC)
+No issues need surfacing — the fleet is healthy. Here's the ambient check output:
 
-**Mode:** ambient (default, `${var}` empty — scheduled path)
+## Heartbeat — Ambient Check (2026-08-18, re-run @ 20:43 UTC)
 
-### P0 — Failed & stuck skills
-No failures. All 28 tracked skills show `last_status: success`, no `consecutive_failures ≥ 3`, no chronic failures. Lowest success rate: `bd-radar` at 98% (60 runs). No stuck dispatches. Heartbeat's own self-check: `last_success` 2026-08-18 00:17 UTC — well within the 36h bar.
+**Overall status: 🟢 OK**
 
-### P1 — Stalled PRs & urgent issues
-`gh pr list --state open` → 0 open PRs. `gh issue list --state open` → 0 open issues (0 urgent). Clean.
+**P0 — Failed & stuck skills:** None. All skills show `last_status: success`. No `consecutive_failures ≥ 3`, no chronic failures (lowest success rate: bd-radar 98%). reddit-promo had a same-day blip — failed at 18:46 UTC (auto-filed self-healing issue [#52](https://github.com/aeon-nur/aeon-nur/issues/52) `health: reddit-promo`), but recovered by 19:02 UTC (`consecutive_failures: 0`). Recovered blip, not a current break — no P0 flag. Heartbeat's own self-check: last success today 08:12 UTC, well within the 36h bar.
 
-### P2 — Flagged memory items
-Nothing flagged in `memory/MEMORY.md` beyond the standing "Next Priorities" list (schedule tuning, optional PAT scope expansion, optional second notify channel) — none due for action.
+**P1 — Stalled PRs & urgent issues:** None. `gh pr list` empty. `gh issue list --label urgent` empty. The one open GH issue (#52) is an unlabeled health thread for the already-recovered reddit-promo blip, not an urgent flag.
 
-### P3 — Missing scheduled skills
-7 enabled skills in `aeon.yml`: `fetch-tweets`, `reddit-promo`, `engagement-act`, `mention-radar`, `bd-radar`, `heartbeat`, and `aeon-update`.
-- 6 of 7 are within 2x their schedule interval — none stale.
-- `aeon-update` (weekly, Mon 11:00 UTC) has **no cron-state entry** — traced to PR #48 (merged 2026-08-18 00:31 UTC), which enabled it *after* this week's Monday slot had already passed. Its first real dispatch isn't due until next Monday (2026-08-24). Not a missing-dispatch flag — added to the status page as `not yet run`.
+**P2 — Flagged memory items:** Nothing beyond the standing "Next Priorities" list in MEMORY.md (no action due).
 
-### Status page
-Regenerated `docs/status.md` (overall **🟢 OK**): 7-row skill table now includes `aeon-update`, "Next scheduled run" updated to `fetch-tweets at 17:00 UTC`, 0 open issues. No token-report article on file, so the Token Pulse section stays omitted.
+**P3 — Missing scheduled skills:** `aeon-update` (weekly, Mondays 11:00 UTC, added via PR #48) still has no cron-state entry — expected, its first dispatch isn't due until 2026-08-24. All other 6 enabled skills (fetch-tweets, reddit-promo, engagement-act, mention-radar, bd-radar, heartbeat) are well within 2× their schedule interval.
 
-**HEARTBEAT_OK · STATUS_PAGE=OK** — no notification sent (nothing needs attention).
+**Status page:** Regenerated `docs/status.md` — refreshed reddit-promo/fetch-tweets/mention-radar/heartbeat timestamps, success rates, and moved the "Next scheduled run" pointer to bd-radar @ 07:20 UTC (2026-08-19). No token-report article on file, so the Token Pulse section stays omitted. Open issues: 0 (memory/issues/INDEX.md is clean).
+
+No notification sent — nothing crossed the bar for one (dedup rules: this is the 3rd heartbeat pass today, and the only item worth mentioning, reddit-promo, already self-healed before this run started).
 
 ## Summary
-Ran the ambient fleet check: no failures, no stalled PRs/issues, no stuck skills. Traced the one apparent gap (`aeon-update` missing from cron-state) to a same-day enablement (PR #48) whose first scheduled window hasn't arrived yet — not a real problem. Regenerated `docs/status.md` and appended findings to `memory/logs/2026-08-18.md` under the existing `### heartbeat` heading. No follow-up action needed; `docs/status.md` will be auto-committed by the workflow.
+- Ran the ambient fleet-health check (default path). Fleet is 🟢 OK — no failed/stuck skills, no stalled PRs, no urgent issues.
+- Modified: `docs/status.md` (regenerated with current cron-state data), `memory/logs/2026-08-18.md` (appended heartbeat log entry, discriminator `mode: ambient`).
+- Follow-up: none required. `aeon-update`'s first run is expected next Monday 2026-08-24; worth a quick check then that it dispatches correctly.
