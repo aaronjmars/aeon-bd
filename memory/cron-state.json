@@ -301,7 +301,7 @@
     "last_dispatch": "2026-06-29T16:03:06Z"
   },
   "reddit-promo": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-08-19T17:57:51Z",
     "total_runs": 18,
     "total_successes": 17,
@@ -309,7 +309,7 @@
     "consecutive_failures": 0,
     "success_rate": 0.94,
     "last_quality_score": 4,
-    "last_dispatch": "2026-08-19T17:51:34Z",
+    "last_dispatch": "2026-08-20T17:56:09Z",
     "last_failed": "2026-08-18T18:46:25Z"
   },
   "skill-health": {
