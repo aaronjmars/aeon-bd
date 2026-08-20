@@ -1,0 +1,14 @@
+{
+  "skill": "reddit-promo",
+  "last_analyzed": "2026-08-20T18:01:25Z",
+  "quality_score": 4,
+  "assessment": "Good — substantive, well-structured, useful. Found and verified a legitimate organic signal (aixbt_agent citing real Miroshark usage metrics), filtered noise properly, and drafted 3 actionable Reddit posts with proper attribution and disclosure. Limited by 1-day data window, but executed with clear judgment.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-08-20",
+      "score": 4
+    }
+  ]
+}
