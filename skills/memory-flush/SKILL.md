@@ -1,4 +1,5 @@
 ---
+scorable: false  # meta skill: no gradable output, skip the post-run quality scorer
 type: Skill
 name: Memory Flush
 category: core
