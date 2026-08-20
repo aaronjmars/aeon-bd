@@ -1,0 +1,406 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark"
+      },
+      "children": [
+        "meta",
+        "intro",
+        "sep1",
+        "s1_heading",
+        "t1",
+        "t2",
+        "sep2",
+        "s2_heading",
+        "t3",
+        "t4",
+        "sep3",
+        "s3_heading",
+        "t5",
+        "sep4",
+        "s4_heading",
+        "t6",
+        "t7",
+        "sep5",
+        "note"
+      ]
+    },
+    "meta": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-20",
+        "variant": "muted"
+      }
+    },
+    "intro": {
+      "type": "Text",
+      "props": {
+        "text": "AEON's real-world payments push drove the window's top engagement; founder podcast + a third-party AI-agent account's Miroshark writeup carried the qualitative narrative.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "s1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Founder podcast — roadmap & positioning",
+        "level": "h3"
+      }
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t1_ref",
+        "t1_card",
+        "t1_replies",
+        "t1_link"
+      ]
+    },
+    "t1_ref": {
+      "type": "Text",
+      "props": {
+        "text": "1. x.com/MCGlive",
+        "variant": "caption"
+      }
+    },
+    "t1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MCG",
+        "handle": "MCGlive",
+        "text": "MCG recap of Aaron's Aeon rundown: self-evolving security auditing, bug-bounty + 50% token buyback revenue model, compute-arbitrage angle on the roadmap.",
+        "likes": 24,
+        "retweets": 4
+      }
+    },
+    "t1_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "t1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/MCGlive/status/2090174478387171483"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t2_ref",
+        "t2_card",
+        "t2_replies",
+        "t2_link"
+      ]
+    },
+    "t2_ref": {
+      "type": "Text",
+      "props": {
+        "text": "2. x.com/MCGlive",
+        "variant": "caption"
+      }
+    },
+    "t2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MCG",
+        "handle": "MCGlive",
+        "text": "Frames Aeon against Jensen Huang's \"AI software studios\" idea — rapid-iteration building across compute, security, and onchain infra, still early on the product surface.",
+        "likes": 19,
+        "retweets": 2
+      }
+    },
+    "t2_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "t2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/MCGlive/status/2090205725591285979"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "s2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON pushes into real-world payments",
+        "level": "h3"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t3_ref",
+        "t3_card",
+        "t3_replies",
+        "t3_link"
+      ]
+    },
+    "t3_ref": {
+      "type": "Text",
+      "props": {
+        "text": "3. x.com/AEON_Community",
+        "variant": "caption"
+      }
+    },
+    "t3_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AEON Community",
+        "handle": "AEON_Community",
+        "text": "Ships $USDC-on-Algorand support for in-store merchant payments across SEA, India, Nigeria, Argentina — moves AEON from an AI-workflow token toward an actual spend rail. Top engagement in the window.",
+        "likes": 206,
+        "retweets": 89
+      }
+    },
+    "t3_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 38",
+        "variant": "caption"
+      }
+    },
+    "t3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AEON_Community/status/2090072970500936187"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t4_ref",
+        "t4_card",
+        "t4_replies",
+        "t4_link"
+      ]
+    },
+    "t4_ref": {
+      "type": "Text",
+      "props": {
+        "text": "4. x.com/AEON_Community",
+        "variant": "caption"
+      }
+    },
+    "t4_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AEON Community",
+        "handle": "AEON_Community",
+        "text": "Daily community quiz relaunch, 1,000 $AEON weekly prize pool, Wed–Sun — retention play, not a product signal.",
+        "likes": 65,
+        "retweets": 22
+      }
+    },
+    "t4_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 5",
+        "variant": "caption"
+      }
+    },
+    "t4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AEON_Community/status/2089993883610488845"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "s3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark explained by an AI-agent account",
+        "level": "h3"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t5_ref",
+        "t5_card",
+        "t5_replies",
+        "t5_link"
+      ]
+    },
+    "t5_ref": {
+      "type": "Text",
+      "props": {
+        "text": "5. x.com/aixbt_agent",
+        "variant": "caption"
+      }
+    },
+    "t5_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aixbt",
+        "handle": "aixbt_agent",
+        "text": "Unaffiliated AI-agent account (not Miroshark's own) cleanly explains the swarm-sim mechanics and cites real usage: 1.35B tokens across 50+ OpenRouter models in 30 days, 143 paid x402 runs / 34 buyers in one July week. Third-party validation worth a reply.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "t5_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "t5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aixbt_agent/status/2090389653337919520"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "s4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Multichain ticker + founder build notes",
+        "level": "h3"
+      }
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t6_ref",
+        "t6_card",
+        "t6_replies",
+        "t6_link"
+      ]
+    },
+    "t6_ref": {
+      "type": "Text",
+      "props": {
+        "text": "6. x.com/bankrbot",
+        "variant": "caption"
+      }
+    },
+    "t6_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bankrbot",
+        "handle": "bankrbot",
+        "text": "Crypto market-update bot flags AEON and MIROSHARK are now live on multiple chains (AEON: base + robinhood-chain, MIROSHARK: base + bnb) and is fishing for which to track — a live confusion point worth clarifying publicly.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "t6_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "t6_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bankrbot/status/2090421735455871241"
+      }
+    },
+    "t7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t7_ref",
+        "t7_card",
+        "t7_replies",
+        "t7_link"
+      ]
+    },
+    "t7_ref": {
+      "type": "Text",
+      "props": {
+        "text": "7. x.com/aaronjmars",
+        "variant": "caption"
+      }
+    },
+    "t7_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron",
+        "handle": "aaronjmars",
+        "text": "Riffs on a Gwern piece (feeding personal docs/persona into a model + a real-time memory layer on top) as a soul.md direction — early feature-direction signal, not an announcement.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "t7_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "t7_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2090417073180541278"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Note",
+        "message": "An MCG segment verbally claimed \"2.2M GitHub stars secured\" for Aeon — contradicts today's own gh api baseline (675★). Treated as a mistranscription/editing artifact and omitted above; not reported as fact."
+      }
+    }
+  }
+}
