@@ -1,0 +1,59 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat",
+        "description": "2026-08-20 08:11 UTC · Overall: 🟡 WATCH"
+      },
+      "children": [
+        "alert_failed",
+        "alert_missing",
+        "notes"
+      ]
+    },
+    "alert_failed": {
+      "type": "Alert",
+      "props": {
+        "title": "🔴 FAILED: digest",
+        "message": "Failed 2026-08-19 16:38 UTC (~16h ago) — isolated (consecutive_failures=1), skill is currently enabled: false in aeon.yml so this is a stale/moot failure, not active",
+        "type": "warning"
+      }
+    },
+    "alert_missing": {
+      "type": "Alert",
+      "props": {
+        "title": "🟠 MISSING: aeon-update",
+        "message": "Enabled (weekly, Mon 11:00 UTC) but has never been dispatched — no entry in cron-state.json, and memory/topics/aeon-update-state.json shows last_run: null. Worth checking the scheduler picked it up.",
+        "type": "warning"
+      }
+    },
+    "notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "note_text",
+        "status_text"
+      ]
+    },
+    "note_text": {
+      "type": "Text",
+      "props": {
+        "text": "No stalled PRs, no urgent issues, nothing flagged in memory.",
+        "variant": "body"
+      }
+    },
+    "status_text": {
+      "type": "Text",
+      "props": {
+        "text": "Status page regenerated: docs/status.md",
+        "variant": "caption"
+      }
+    }
+  }
+}
