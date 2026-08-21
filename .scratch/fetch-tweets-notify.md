@@ -1,25 +1,21 @@
-*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-17)*
-_Quieter day — Aaron doubles down on Miroshark as a research framework while a community member lobbies x.com/cobie for recognition; Amrit_Mirch's 70-repo/2.1M-star claim resurfaces with harder numbers._
+*Top Tweets — aeon/miroshark (2026-08-21)*
+_AI-on-Base's community rankings carried the window — AEON + Miroshark both placed in a 93-like tier list, $AEON topped a 24h gainers spotlight, both organic/unpaid; founder still riffing on a year-old onchain-memory idea._
 
-*Aeon content + proof point*
-1. x.com/aeonframework — Drops a "your agent needs a soul" video, continuing the identity/personality thread from the recent feature-ship run.
-Likes: 18 | RTs: 3 | Replies: 2
-[View tweet](https://x.com/aeonframework/status/2088906077316206752)
+*AI-on-Base rankings & momentum*
+1. x.com/AIonBase_ — Placed x.com/aeonframework in the "Based" tier and x.com/miroshark_ in "Active" on a community-run AI-on-Base ranking — 35 replies debating who's missing, unpaid third-party ranking.
+Likes: 93 | RTs: 17 | Replies: 35
+[View tweet](https://x.com/AIonBase_/status/2090430490591556034)
 
-2. x.com/Amrit_Mirch — Reframes the repo-maintenance agent as live across 70 repos with 2.1M combined stars — same claim flagged 08-15/08-16, now with harder numbers attached.
-Likes: 5 | RTs: 2 | Replies: 0
-[View tweet](https://x.com/Amrit_Mirch/status/2088866769146355765)
+2. x.com/AIonBase_ — Named $AEON a top 24h gainer on AI-on-Base's spotlight feed — third-party price-momentum signal, not a self-post.
+Likes: 30 | RTs: 7 | Replies: 10
+[View tweet](https://x.com/AIonBase_/status/2090542387395506187)
 
-*Aaron pushing Miroshark visibility*
-3. x.com/aaronjmars — Direct call-to-action: "you can try using @miroshark_, open source framework for large scale simulations."
-Likes: 7 | RTs: 1 | Replies: 0
-[View tweet](https://x.com/aaronjmars/status/2089097197232984506)
+*Founder build notes*
+3. x.com/aaronjmars — Still circling an onchain-memory-layer idea from a year-old ETHCC Cannes build (ENS + Base), openly asking for help bringing it into Aeon.
+Likes: 21 | RTs: 2 | Replies: 4
+[View tweet](https://x.com/aaronjmars/status/2090489349166989714)
 
-4. x.com/aaronjmars — Frames agent-simulation consequences as an emerging field of study, not just a product pitch.
-Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/aaronjmars/status/2089094984632807918)
-
-*Community pushback on recognition*
-5. x.com/Shivam1322 — Tags x.com/cobie directly, arguing Aeon/aaronjmars builders deserve attention now after building through the down period.
-Likes: 1 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/Shivam1322/status/2089123498945913298)
+*Community curiosity*
+4. x.com/rangertx08008 — Unprompted ask to x.com/aixbt_agent to explain Miroshark — a stranger doing organic discovery, not a shill.
+Likes: 3 | RTs: 1 | Replies: 2
+[View tweet](https://x.com/rangertx08008/status/2090389493857550503)

@@ -1,38 +1,21 @@
-ℹ️ Top Tweets — Aeon + Miroshark
+*Top Tweets — aeon/miroshark (2026-08-21)*
+_AI-on-Base's community rankings carried the window — AEON + Miroshark both placed in a 93-like tier list, $AEON topped a 24h gainers spotlight, both organic/unpaid; founder still riffing on a year-old onchain-memory idea._
 
-*Top Tweets — Aeon + Miroshark (2026-08-20)*
-_AEON's real-world payments push drove the window's top engagement; founder podcast + a third-party AI-agent account's Miroshark writeup carried the qualitative narrative._
+*AI-on-Base rankings & momentum*
+1. x.com/AIonBase_ — Placed x.com/aeonframework in the "Based" tier and x.com/miroshark_ in "Active" on a community-run AI-on-Base ranking — 35 replies debating who's missing, unpaid third-party ranking.
+Likes: 93 | RTs: 17 | Replies: 35
+[View tweet](https://x.com/AIonBase_/status/2090430490591556034)
 
-*Founder podcast — roadmap & positioning*
-1. x.com/MCGlive — MCG recap of Aaron's Aeon rundown: self-evolving security auditing, bug-bounty + 50% token buyback revenue model, compute-arbitrage angle on the roadmap.
-Likes: 24 | RTs: 4 | Replies: 4
-[View tweet](https://x.com/MCGlive/status/2090174478387171483)
+2. x.com/AIonBase_ — Named $AEON a top 24h gainer on AI-on-Base's spotlight feed — third-party price-momentum signal, not a self-post.
+Likes: 30 | RTs: 7 | Replies: 10
+[View tweet](https://x.com/AIonBase_/status/2090542387395506187)
 
-2. x.com/MCGlive — Frames Aeon against Jensen Huang's "AI software studios" idea — rapid-iteration building across compute, security, and onchain infra, still early on the product surface.
-Likes: 19 | RTs: 2 | Replies: 2
-[View tweet](https://x.com/MCGlive/status/2090205725591285979)
+*Founder build notes*
+3. x.com/aaronjmars — Still circling an onchain-memory-layer idea from a year-old ETHCC Cannes build (ENS + Base), openly asking for help bringing it into Aeon.
+Likes: 21 | RTs: 2 | Replies: 4
+[View tweet](https://x.com/aaronjmars/status/2090489349166989714)
 
-*AEON pushes into real-world payments*
-3. x.com/AEON_Community — Ships $USDC-on-Algorand support for in-store merchant payments across SEA, India, Nigeria, Argentina — moves AEON from an AI-workflow token toward an actual spend rail. Top engagement in the window.
-Likes: 206 | RTs: 89 | Replies: 38
-[View tweet](https://x.com/AEON_Community/status/2090072970500936187)
-
-4. x.com/AEON_Community — Daily community quiz relaunch, 1,000 $AEON weekly prize pool, Wed–Sun — retention play, not a product signal.
-Likes: 65 | RTs: 22 | Replies: 5
-[View tweet](https://x.com/AEON_Community/status/2089993883610488845)
-
-*Miroshark explained by an AI-agent account*
-5. x.com/aixbt_agent — Unaffiliated AI-agent account (not Miroshark's own) cleanly explains the swarm-sim mechanics and cites real usage: 1.35B tokens across 50+ OpenRouter models in 30 days, 143 paid x402 runs / 34 buyers in one July week. Third-party validation worth a reply.
-Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/aixbt_agent/status/2090389653337919520)
-
-*Multichain ticker + founder build notes*
-6. x.com/bankrbot — Crypto market-update bot flags AEON and MIROSHARK are now live on multiple chains (AEON: base + robinhood-chain, MIROSHARK: base + bnb) and is fishing for which to track — a live confusion point worth clarifying publicly.
-Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/bankrbot/status/2090421735455871241)
-
-7. x.com/aaronjmars — Aaron riffs on a Gwern piece (feeding personal docs/persona into a model + a real-time memory layer on top) as a soul.md direction — early feature-direction signal, not an announcement.
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/aaronjmars/status/2090417073180541278)
-
-_Note: an MCG segment verbally claimed "2.2M GitHub stars secured" for Aeon — contradicts today's own gh api baseline (675★). Treated as a mistranscription/editing artifact and omitted above; not reported as fact._
+*Community curiosity*
+4. x.com/rangertx08008 — Unprompted ask to x.com/aixbt_agent to explain Miroshark — a stranger doing organic discovery, not a shill.
+Likes: 3 | RTs: 1 | Replies: 2
+[View tweet](https://x.com/rangertx08008/status/2090389493857550503)

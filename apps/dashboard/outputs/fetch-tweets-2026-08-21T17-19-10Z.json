@@ -1,0 +1,132 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — aeon/miroshark (2026-08-21)"
+      },
+      "children": [
+        "intro_text",
+        "section1_heading",
+        "tweet1",
+        "link1",
+        "tweet2",
+        "link2",
+        "sep1",
+        "section2_heading",
+        "tweet3",
+        "link3",
+        "sep2",
+        "section3_heading",
+        "tweet4",
+        "link4"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI-on-Base's community rankings carried the window — AEON + Miroshark both placed in a 93-like tier list, $AEON topped a 24h gainers spotlight, both organic/unpaid; founder still riffing on a year-old onchain-memory idea.",
+        "variant": "lead"
+      }
+    },
+    "section1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI-on-Base rankings & momentum",
+        "level": "h2"
+      }
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "text": "Placed x.com/aeonframework in the \"Based\" tier and x.com/miroshark_ in \"Active\" on a community-run AI-on-Base ranking — 35 replies debating who's missing, unpaid third-party ranking.",
+        "likes": 93,
+        "retweets": 17
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2090430490591556034"
+      }
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "text": "Named $AEON a top 24h gainer on AI-on-Base's spotlight feed — third-party price-momentum signal, not a self-post.",
+        "likes": 30,
+        "retweets": 7
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2090542387395506187"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Founder build notes",
+        "level": "h2"
+      }
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "text": "Still circling an onchain-memory-layer idea from a year-old ETHCC Cannes build (ENS + Base), openly asking for help bringing it into Aeon.",
+        "likes": 21,
+        "retweets": 2
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2090489349166989714"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Community curiosity",
+        "level": "h2"
+      }
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "rangertx08008",
+        "text": "Unprompted ask to x.com/aixbt_agent to explain Miroshark — a stranger doing organic discovery, not a shill.",
+        "likes": 3,
+        "retweets": 1
+      }
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/rangertx08008/status/2090389493857550503"
+      }
+    }
+  }
+}

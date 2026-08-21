@@ -1,14 +1,18 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-20T17:09:56Z",
-  "quality_score": 4,
-  "assessment": "Substantive curation with business context, proper metrics/links, critical flagging of false claim, but summary truncated.",
+  "last_analyzed": "2026-08-21T17:19:10Z",
+  "quality_score": 3,
+  "assessment": "Competent execution—real tweets fetched, curated, verified with URLs—but soft signal (community tier lists, founder's personal ideas) offers limited BD/GTM impact for a war room focused on stars, ecosystem growth, token price; no engagement synthesis or actionability provided.",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 3.5,
   "history": [
     {
       "date": "2026-08-20",
       "score": 4
+    },
+    {
+      "date": "2026-08-21",
+      "score": 3
     }
   ]
 }
