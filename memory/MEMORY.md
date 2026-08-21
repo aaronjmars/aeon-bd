@@ -19,11 +19,10 @@ type: Index
 | Skill | Cadence | Does |
 |-------|---------|------|
 | bd-radar | daily 07:20 | who's building/forking/integrating/mentioning → ranked leads + next move |
-| war-room | daily 07:45 | the standup brief — state · talk-to · decide — for Aaron + Nurstar |
 | sim-watch | Sun weekly | Miroshark category intel — sim competitors, papers, clones |
 | idea-forge | Wed weekly | business-idea engine — zeitgeist × capabilities → scored wedges |
 
-- The war room runs as **2 staggered standalone daily skills** (bd-radar 07:20 → war-room 07:45), NOT a chain — `chain-runner.yml` is brittle under `bash -e` (a transient `gh` non-zero hard-kills the job before `on_error:continue` reaches the capstone). war-room reads the morning's committed bd-radar digest plus a live `gh api` product-state read. (product-pulse retired 2026-07.)
+- bd-radar runs as a **standalone daily skill** (07:20), not a chain (`chain-runner.yml` is brittle under `bash -e`: a transient `gh` non-zero hard-kills the job). **war-room (the 07:45 standup capstone for Aaron + Nurstar) was retired 2026-07-26** - its skill files are gone and this instance is now public, so the private standup is not re-added; treat any "war-room missing" drift alarm as expected, not a regression. (product-pulse retired 2026-07.)
 
 ## Lessons Learned
 - Digest format: Markdown with clickable links, under 4000 chars.
