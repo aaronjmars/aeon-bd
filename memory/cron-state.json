@@ -112,8 +112,8 @@
     "last_quality_score": 4
   },
   "engagement-act": {
-    "last_dispatch": "2026-08-19T09:42:20Z",
-    "last_status": "success",
+    "last_dispatch": "2026-08-21T09:45:42Z",
+    "last_status": "dispatched",
     "last_success": "2026-08-19T09:47:44Z",
     "total_runs": 57,
     "total_successes": 57,
