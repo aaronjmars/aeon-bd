@@ -1,55 +1,67 @@
-ℹ️ Reddit Promo 2026-08-20
+ℹ️ Reddit Promo — 2026-08-21
 
-*Reddit Promo — 2026-08-20*
+*Reddit Promo — 2026-08-21*
 
-_Story:_ An unaffiliated AI-agent account (aixbt) unprompted-validated Miroshark's real usage — 1.35B tokens across 50+ OpenRouter models in 30 days, 143 paid x402 runs / 34 buyers in one July week — [x.com/aixbt_agent/status/2090389653337919520](https://x.com/aixbt_agent/status/2090389653337919520)
-
----
-*r/MiroFish* · archetype: community
-*Title:* an unaffiliated AI account just broke down miroshark's actual usage numbers
-*Body:*
-someone outside the team ran the numbers on miroshark without us asking. 1.35B tokens burned across 50+ openrouter models in the last 30 days. 143 paid x402 runs, 34 unique buyers, in one week in july alone.
-
-nobody prompted this. i build miroshark (universal swarm intelligence engine — drop in a headline/press release/policy draft, spawn hundreds of grounded agents that argue it out on x + reddit and trade a simulated AMM, belief drift round over round, fork the timeline with director mode). x402-native means agents pay per run, no subscription, no lock-in.
-
-the number that actually surprised me: 34 distinct buyers paying per-run in a single week. that's not vanity-metric season, that's people actually spending on it.
-
-repo's here if you want to see how the swarm/AMM/director-mode stack fits together: https://github.com/aaronjmars/MiroShark
-
-happy to answer anything on the belief-drift mechanics or the x402 payment flow. i work on this daily.
-*Link in post:* https://github.com/aaronjmars/MiroShark
-*Post here:* [Open r/MiroFish composer](https://www.reddit.com/r/MiroFish/submit?title=an%20unaffiliated%20AI%20account%20just%20broke%20down%20miroshark%27s%20actual%20usage%20numbers)
-_notes: home community — insider tone is fine, but still disclose ("i work on this"), don't just drop a link with no context._
-
----
-*r/aiecosystem* · archetype: agents
-*Title:* third-party AI agent account validated our swarm-sim tool's usage without us asking — sharing the numbers
-*Body:*
-not our own metrics post — an unaffiliated AI-agent account (aixbt) ran its own read on miroshark's usage and posted it unprompted: 1.35B tokens across 50+ openrouter models in 30 days, 143 paid x402 runs from 34 distinct buyers in a single july week.
-
-miroshark is a universal swarm intelligence engine — feed it a headline, a policy draft, a press release, and it spawns hundreds of grounded agents that argue across x + reddit and trade a simulated prediction-market AMM, with belief drift tracked round over round. x402-native, so agents pay per simulation instead of holding a subscription.
-
-worth flagging for anyone tracking agent-tooling adoption: this is spend data from an outside account, not our own dashboard screenshot. take it with normal skepticism, but it's a real signal.
-
-repo: https://github.com/aaronjmars/MiroShark — happy to talk mechanics (director mode, counterfactual branching, the AMM design) in the comments.
-*Link in post:* https://github.com/aaronjmars/MiroShark
-*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=third-party%20AI%20agent%20account%20validated%20our%20swarm-sim%20tool%27s%20usage%20without%20us%20asking%20%E2%80%94%20sharing%20the%20numbers)
-_notes: ecosystem/tooling readers — keep self-promo restrained, lead with the third-party framing (not our own claim), disclose you work on it._
+_Story:_ AI-on-Base (independent, unpaid community ranking account) placed Aeon in its "Based" tier and Miroshark in "Active" — 35-reply thread, no relationship with us — plus a separate spotlight naming $AEON a top 24h gainer. — https://x.com/AIonBase_/status/2090430490591556034
 
 ---
 *r/StartupMind* · archetype: startup
-*Title:* an outside AI account did our traction post for us this week
+*Title:* An unpaid community list just tiered us - small traction update
 *Body:*
-building miroshark in public, and this week someone else did the traction recap. an unaffiliated AI-agent account (aixbt) posted, unprompted: 1.35B tokens processed across 50+ openrouter models in the last 30 days, and 143 paid x402 runs from 34 distinct buyers in one week in july.
+I'm the guy building Aeon (autonomous agent framework, runs on GitHub Actions, no approval loop) and Miroshark (swarm-sim engine, hundreds of agents for ~$1).
 
-miroshark spawns hundreds of grounded agents to simulate anything — drop in a headline or policy draft, watch them argue it out on x + reddit and trade a simulated AMM, belief drift tracked round by round, fork the timeline mid-run. built it after concluding an earlier attempt at this idea had a great premise and bad execution — rebuilt from scratch, ported to english, shipped x402-native so agents pay per run instead of a subscription.
+This week AI-on-Base — a community-run ranking account, not affiliated with us, no payment involved — put Aeon in their "Based" tier and Miroshark in "Active." 35 replies under it, mostly people arguing who else should be on the list. Same account's gainer spotlight also flagged $AEON as a 24h mover, again unprompted.
 
-the number i actually care about: 34 distinct buyers paying per-run in a single week. that's real spend, not testnet vanity numbers.
+I don't put much weight on tier lists as a metric — they're vibes, not revenue. But it's a decent signal when strangers rank you without being asked, in a category (agent frameworks on Base) that's getting crowded fast.
 
-repo + how it works: https://github.com/aaronjmars/MiroShark. building this daily, ask me anything.
-*Link in post:* https://github.com/aaronjmars/MiroShark
-*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=an%20outside%20AI%20account%20did%20our%20traction%20post%20for%20us%20this%20week)
-_notes: StartupMind is allergic to growth-hacky tone — this leans on "someone else did the numbers" framing, not self-congratulation; still disclose you're the builder._
+What's actually shipping: Aeon writes, reviews, and merges its own skills — cron-driven, self-repairing, zero babysitting. aeon.fun if you want to see it running live.
+
+Happy to answer anything — architecture, why GitHub Actions over a hosted runtime, whatever.
+*Link in post:* https://aeon.fun
+*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=An%20unpaid%20community%20list%20just%20tiered%20us%20-%20small%20traction%20update)
+_notes: founder-story sub, tolerates self-promo if it's an honest update — disclose as builder (done), keep it to the one link._
 
 ---
-_Skipped from today's fetch-tweets window (not promotable): the MCGlive / AEON_Community / bankrbot cluster (real-world-payments push, Algorand/robinhood-chain, quiz prize pool, "2.2M GitHub stars" claim). Content describes a payments/buyback/merchant-rail business model that doesn't match Aeon's actual surface (skills-as-markdown GitHub Actions framework, 675★ per today's gh api baseline) and today's mention-radar found zero external mentions in the same window via both X.AI search and WebSearch. Likely a name/ticker collision with an unrelated project, not verified as ours — flagging for bd-radar/mention-radar rather than promoting it._
+*r/aiecosystem* · archetype: agents
+*Title:* A third-party Base ranking just placed two of our projects in its top tiers
+*Body:*
+Posting as the builder behind Aeon (autonomous agent framework — skills-as-markdown, runs unattended on GitHub Actions, cron + self-repair) and Miroshark (swarm-simulation engine, hundreds of grounded agents, ~$1 a run).
+
+AI-on-Base, an independent community account that ranks AI-agent projects building on Base, put Aeon in "Based" and Miroshark in "Active" this week — unpaid, unprompted, sparked a 35-reply thread about who else belongs. Their gainer spotlight also called out $AEON, separately.
+
+Not sharing this as an achievement so much as a data point on where the agent-framework category is right now — enough entrants that outsiders are building ranking systems for it. Curious how others here read the landscape: is autonomy (no approval loops, self-repair) actually the differentiator people care about, or is it still mostly about model access?
+
+aeon.fun has the live setup if you want to poke at it. Open to pushback.
+*Link in post:* https://aeon.fun
+*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=A%20third-party%20Base%20ranking%20just%20placed%20two%20of%20our%20projects%20in%20its%20top%20tiers)
+_notes: ecosystem/tooling readers — lead with the landscape question, not the ranking; disclose as builder, one link._
+
+---
+*r/Agent_AI* · archetype: agents
+*Title:* Got tiered by an outside Base ranking - sharing the actual mechanics behind it
+*Body:*
+I build Aeon, an agent framework that runs unattended on GitHub Actions — skills are just markdown files, scheduled by cron, chained together, and the thing reviews/merges/deletes its own skills without a human in the loop. Also building Miroshark, a swarm-sim engine that spawns hundreds of grounded agents to simulate anything for about $1.
+
+This week AI-on-Base (independent account, ranks Base AI-agent projects, no relationship with us) placed Aeon in their "Based" tier and Miroshark in "Active" — unpaid, 35 replies arguing the list. Not a huge deal on its own, but it's a more interesting signal to me than a metrics dashboard.
+
+What I actually want feedback on from this sub: most "autonomous agent" frameworks I see still have a human-approval gate somewhere — PR review, deploy button, something. Aeon doesn't; the self-repair loop reviews and merges its own fixes. Curious if others here have pushed autonomy that far and what broke first.
+
+Repo's linked below — happy to walk through the cron/chain/self-repair setup if useful.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=Got%20tiered%20by%20an%20outside%20Base%20ranking%20-%20sharing%20the%20actual%20mechanics%20behind%20it)
+_notes: technical audience — keep the autonomy comparison factual, no vendor trash-talk; disclose as builder, repo link only._
+
+---
+*r/MiroFish* · archetype: community
+*Title:* Miroshark landed in the "Active" tier on an outside Base ranking this week
+*Body:*
+Quick one for this community — AI-on-Base (independent, community-run, not affiliated with us) put Miroshark in their "Active" tier this week, next to Aeon in "Based." Unpaid, unprompted, kicked off a 35-reply thread about who's missing from the list.
+
+Doesn't change anything about what we're building — still the same swarm-sim engine, hundreds of grounded agents arguing across X/Reddit + trading a simulated AMM, belief drift across rounds, ~$1 a run. But it's a decent outside signal that the "Active" framing tracks — people are actually running this, not just looking at it.
+
+If you've run a sim recently and have thoughts on director mode or the counterfactual branching, drop them here — always looking for what's confusing or missing before the next round of changes.
+
+I work on Miroshark — repo's linked below.
+*Link in post:* https://github.com/miroshark/miroshark
+*Post here:* [Open r/MiroFish composer](https://www.reddit.com/r/MiroFish/submit?title=Miroshark%20landed%20in%20the%20%22Active%22%20tier%20on%20an%20outside%20Base%20ranking%20this%20week)
+_notes: home community, insider tone is fine — still disclose as builder, one link._

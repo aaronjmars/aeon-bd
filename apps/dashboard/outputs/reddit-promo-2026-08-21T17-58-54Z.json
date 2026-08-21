@@ -1,0 +1,340 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-21"
+      },
+      "children": [
+        "section_story",
+        "sep_1",
+        "section_1",
+        "sep_2",
+        "section_2",
+        "sep_3",
+        "section_3",
+        "sep_4",
+        "section_4"
+      ]
+    },
+    "section_story": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_story",
+        "text_story",
+        "storylink_story"
+      ]
+    },
+    "h_story": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h2"
+      }
+    },
+    "text_story": {
+      "type": "Text",
+      "props": {
+        "text": "AI-on-Base (independent, unpaid community ranking account) placed Aeon in its \"Based\" tier and Miroshark in \"Active\" — 35-reply thread, no relationship with us — plus a separate spotlight naming $AEON a top 24h gainer."
+      }
+    },
+    "storylink_story": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AI-on-Base ranking on X",
+        "href": "https://x.com/AIonBase_/status/2090430490591556034",
+        "source": "X"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sub_1",
+        "badge_1",
+        "title_1",
+        "body_1",
+        "link_1",
+        "posthere_1",
+        "notes_1"
+      ]
+    },
+    "sub_1": {
+      "type": "Heading",
+      "props": {
+        "text": "r/StartupMind",
+        "level": "h3"
+      }
+    },
+    "badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "secondary"
+      }
+    },
+    "title_1": {
+      "type": "Heading",
+      "props": {
+        "text": "An unpaid community list just tiered us - small traction update",
+        "level": "h4"
+      }
+    },
+    "body_1": {
+      "type": "Text",
+      "props": {
+        "text": "I'm the guy building Aeon (autonomous agent framework, runs on GitHub Actions, no approval loop) and Miroshark (swarm-sim engine, hundreds of agents for ~$1).\n\nThis week AI-on-Base — a community-run ranking account, not affiliated with us, no payment involved — put Aeon in their \"Based\" tier and Miroshark in \"Active.\" 35 replies under it, mostly people arguing who else should be on the list. Same account's gainer spotlight also flagged $AEON as a 24h mover, again unprompted.\n\nI don't put much weight on tier lists as a metric — they're vibes, not revenue. But it's a decent signal when strangers rank you without being asked, in a category (agent frameworks on Base) that's getting crowded fast.\n\nWhat's actually shipping: Aeon writes, reviews, and merges its own skills — cron-driven, self-repairing, zero babysitting. aeon.fun if you want to see it running live.\n\nHappy to answer anything — architecture, why GitHub Actions over a hosted runtime, whatever.",
+        "variant": "body"
+      }
+    },
+    "link_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "posthere_1": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=An%20unpaid%20community%20list%20just%20tiered%20us%20-%20small%20traction%20update"
+      }
+    },
+    "notes_1": {
+      "type": "Text",
+      "props": {
+        "text": "founder-story sub, tolerates self-promo if it's an honest update — disclose as builder (done), keep it to the one link.",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sub_2",
+        "badge_2",
+        "title_2",
+        "body_2",
+        "link_2",
+        "posthere_2",
+        "notes_2"
+      ]
+    },
+    "sub_2": {
+      "type": "Heading",
+      "props": {
+        "text": "r/aiecosystem",
+        "level": "h3"
+      }
+    },
+    "badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "title_2": {
+      "type": "Heading",
+      "props": {
+        "text": "A third-party Base ranking just placed two of our projects in its top tiers",
+        "level": "h4"
+      }
+    },
+    "body_2": {
+      "type": "Text",
+      "props": {
+        "text": "Posting as the builder behind Aeon (autonomous agent framework — skills-as-markdown, runs unattended on GitHub Actions, cron + self-repair) and Miroshark (swarm-simulation engine, hundreds of grounded agents, ~$1 a run).\n\nAI-on-Base, an independent community account that ranks AI-agent projects building on Base, put Aeon in \"Based\" and Miroshark in \"Active\" this week — unpaid, unprompted, sparked a 35-reply thread about who else belongs. Their gainer spotlight also called out $AEON, separately.\n\nNot sharing this as an achievement so much as a data point on where the agent-framework category is right now — enough entrants that outsiders are building ranking systems for it. Curious how others here read the landscape: is autonomy (no approval loops, self-repair) actually the differentiator people care about, or is it still mostly about model access?\n\naeon.fun has the live setup if you want to poke at it. Open to pushback.",
+        "variant": "body"
+      }
+    },
+    "link_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "posthere_2": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=A%20third-party%20Base%20ranking%20just%20placed%20two%20of%20our%20projects%20in%20its%20top%20tiers"
+      }
+    },
+    "notes_2": {
+      "type": "Text",
+      "props": {
+        "text": "ecosystem/tooling readers — lead with the landscape question, not the ranking; disclose as builder, one link.",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sub_3",
+        "badge_3",
+        "title_3",
+        "body_3",
+        "link_3",
+        "posthere_3",
+        "notes_3"
+      ]
+    },
+    "sub_3": {
+      "type": "Heading",
+      "props": {
+        "text": "r/Agent_AI",
+        "level": "h3"
+      }
+    },
+    "badge_3": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "title_3": {
+      "type": "Heading",
+      "props": {
+        "text": "Got tiered by an outside Base ranking - sharing the actual mechanics behind it",
+        "level": "h4"
+      }
+    },
+    "body_3": {
+      "type": "Text",
+      "props": {
+        "text": "I build Aeon, an agent framework that runs unattended on GitHub Actions — skills are just markdown files, scheduled by cron, chained together, and the thing reviews/merges/deletes its own skills without a human in the loop. Also building Miroshark, a swarm-sim engine that spawns hundreds of grounded agents to simulate anything for about $1.\n\nThis week AI-on-Base (independent account, ranks Base AI-agent projects, no relationship with us) placed Aeon in their \"Based\" tier and Miroshark in \"Active\" — unpaid, 35 replies arguing the list. Not a huge deal on its own, but it's a more interesting signal to me than a metrics dashboard.\n\nWhat I actually want feedback on from this sub: most \"autonomous agent\" frameworks I see still have a human-approval gate somewhere — PR review, deploy button, something. Aeon doesn't; the self-repair loop reviews and merges its own fixes. Curious if others here have pushed autonomy that far and what broke first.\n\nRepo's linked below — happy to walk through the cron/chain/self-repair setup if useful.",
+        "variant": "body"
+      }
+    },
+    "link_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "posthere_3": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Agent_AI composer",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=Got%20tiered%20by%20an%20outside%20Base%20ranking%20-%20sharing%20the%20actual%20mechanics%20behind%20it"
+      }
+    },
+    "notes_3": {
+      "type": "Text",
+      "props": {
+        "text": "technical audience — keep the autonomy comparison factual, no vendor trash-talk; disclose as builder, repo link only.",
+        "variant": "caption"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sub_4",
+        "badge_4",
+        "title_4",
+        "body_4",
+        "link_4",
+        "posthere_4",
+        "notes_4"
+      ]
+    },
+    "sub_4": {
+      "type": "Heading",
+      "props": {
+        "text": "r/MiroFish",
+        "level": "h3"
+      }
+    },
+    "badge_4": {
+      "type": "Badge",
+      "props": {
+        "text": "community",
+        "variant": "secondary"
+      }
+    },
+    "title_4": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark landed in the \"Active\" tier on an outside Base ranking this week",
+        "level": "h4"
+      }
+    },
+    "body_4": {
+      "type": "Text",
+      "props": {
+        "text": "Quick one for this community — AI-on-Base (independent, community-run, not affiliated with us) put Miroshark in their \"Active\" tier this week, next to Aeon in \"Based.\" Unpaid, unprompted, kicked off a 35-reply thread about who's missing from the list.\n\nDoesn't change anything about what we're building — still the same swarm-sim engine, hundreds of grounded agents arguing across X/Reddit + trading a simulated AMM, belief drift across rounds, ~$1 a run. But it's a decent outside signal that the \"Active\" framing tracks — people are actually running this, not just looking at it.\n\nIf you've run a sim recently and have thoughts on director mode or the counterfactual branching, drop them here — always looking for what's confusing or missing before the next round of changes.\n\nI work on Miroshark — repo's linked below.",
+        "variant": "body"
+      }
+    },
+    "link_4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github.com/miroshark/miroshark",
+        "href": "https://github.com/miroshark/miroshark"
+      }
+    },
+    "posthere_4": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/MiroFish composer",
+        "href": "https://www.reddit.com/r/MiroFish/submit?title=Miroshark%20landed%20in%20the%20%22Active%22%20tier%20on%20an%20outside%20Base%20ranking%20this%20week"
+      }
+    },
+    "notes_4": {
+      "type": "Text",
+      "props": {
+        "text": "home community, insider tone is fine — still disclose as builder, one link.",
+        "variant": "caption"
+      }
+    }
+  }
+}
