@@ -20,6 +20,8 @@
 # .pending-notify (notify re-delivery), .pending-deploy (deploy-prototype build),
 # plus .pending-notify-temp where skills stage notify bodies for `./notify -f`
 .pending-*/
+# .scratch/ — fallback scratch dir for runs where /tmp writes are sandboxed
+.scratch/
 # ...and the FILE form. The trailing slash above matches directories only, so the
 # json-render staging file (.pending-<skill>.md) was tracked and committed; a later
 # read-only run that could not overwrite it had the previous run's digest published

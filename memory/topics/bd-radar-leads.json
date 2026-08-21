@@ -1,0 +1,83 @@
+{
+  "leads": [
+    {
+      "key": "github:AITOBIAS04/CHORUS",
+      "class": "building",
+      "who": "AITOBIAS04/CHORUS",
+      "signal": "Live fork of miroshark-aeon, rebranded CHORUS, own Telegram (t.me/miroshark_aeon), 6461 commits ahead, still pushing today",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-21",
+      "url": "https://github.com/AITOBIAS04/CHORUS"
+    },
+    {
+      "key": "github:Zoidberg-eternal/monitor-the-situation-bags",
+      "class": "building",
+      "who": "Zoidberg-eternal/monitor-the-situation-bags",
+      "signal": "AI swarm intelligence for Bags.fm token launches on Solana, Monitor x MiroShark, Bags hackathon 2026",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-21",
+      "url": "https://github.com/Zoidberg-eternal/monitor-the-situation-bags"
+    },
+    {
+      "key": "github:JohnTammi/supercompact-for-miroshark",
+      "class": "building",
+      "who": "JohnTammi/supercompact-for-miroshark",
+      "signal": "Zero-dep TS token-cost tool built for MiroShark, RAG pipelines and multi-agent workflows, 5 stars",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-21",
+      "url": "https://github.com/JohnTammi/supercompact-for-miroshark"
+    },
+    {
+      "key": "github:HusseinJX/prelaunchagents",
+      "class": "building",
+      "who": "HusseinJX/prelaunchagents",
+      "signal": "MiroShark-powered agent swarm simulation using local Ollama, no API key required",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-21",
+      "url": "https://github.com/HusseinJX/prelaunchagents"
+    },
+    {
+      "key": "github:xalil05/ProjecSen",
+      "class": "forking",
+      "who": "xalil05/ProjecSen",
+      "signal": "Fork francais de MiroShark, own branding, fresh push Aug 2",
+      "fit": 3,
+      "score": 12,
+      "date_found": "2026-08-21",
+      "url": "https://github.com/xalil05/ProjecSen"
+    },
+    {
+      "key": "github:codexvritra/signa-miroshark-skills",
+      "class": "integrating",
+      "who": "codexvritra/signa-miroshark-skills",
+      "signal": "Signa (known ecosystem partner) shipped dedicated MiroShark-in-Aeon skill pack",
+      "fit": 3,
+      "score": 9,
+      "date_found": "2026-08-21",
+      "url": "https://github.com/codexvritra/signa-miroshark-skills"
+    },
+    {
+      "key": "github-issue:aaronjmars/aeon#878",
+      "class": "integrating",
+      "who": "pablorq (aeon issue #878)",
+      "signal": "Open bug: cannot get Aeon running with pi agent harness + OpenRouter, docs friction",
+      "fit": 1,
+      "score": 3,
+      "date_found": "2026-08-21",
+      "url": "https://github.com/aaronjmars/aeon/issues/878"
+    }
+  ],
+  "surfaced": [
+    "github:AITOBIAS04/CHORUS",
+    "github:Zoidberg-eternal/monitor-the-situation-bags",
+    "github:JohnTammi/supercompact-for-miroshark",
+    "github:HusseinJX/prelaunchagents",
+    "github:xalil05/ProjecSen",
+    "github:codexvritra/signa-miroshark-skills",
+    "github-issue:aaronjmars/aeon#878"
+  ]
+}
