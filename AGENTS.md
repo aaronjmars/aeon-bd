@@ -29,8 +29,8 @@ A self-healing loop runs on top: the **health skill** (`skill-health`) scores ru
 
 # Strategy
 
-This instance is the **Aeon + Miroshark war room** - a shared Aeon run by Aaron
-(@aaronjmars) and Nurstar. Job: drive the products' numbers through go-to-market -
+This instance is the **Aeon + Miroshark war room** - an Aeon run by Aaron
+(@aaronjmars). Job: drive the products' numbers through go-to-market -
 BD, social, market timing, launches. Watch both products, surface who to talk to,
 generate moves that fit the window. Aaron's voice (`soul/`) in everything sent.
 
@@ -55,7 +55,7 @@ the right builders engaged, the right launches landed at the right time.
    handed to aeon-agent/miroshark; security elsewhere - don't build here.
 
 ## Audience
-Primary: Aaron + Nurstar - two builders, technical, time-constrained, allergic to
+Primary: Aaron - a builder, technical, time-constrained, allergic to
 filler. Write peer-to-peer, one decision per message. Secondary (social/launches):
 technical builders in crypto + AI on X.
 

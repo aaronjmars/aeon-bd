@@ -6,7 +6,7 @@ type: Index
 *Last consolidated: 2026-06-11*
 
 ## About This Instance
-- **aeon + miroshark war room** — a shared Aeon run by Aaron (@aaronjmars) + coworker Nurstar.
+- **aeon + miroshark war room** — an Aeon run by Aaron (@aaronjmars).
 - Job: watch the state of both products, surface who to talk to (BD), generate timing-window ideas.
 - North-star + priorities live in `STRATEGY.md` (read every run). Voice lives in `soul/` (Aaron's).
 
@@ -22,7 +22,7 @@ type: Index
 | sim-watch | Sun weekly | Miroshark category intel — sim competitors, papers, clones |
 | idea-forge | Wed weekly | business-idea engine — zeitgeist × capabilities → scored wedges |
 
-- bd-radar runs as a **standalone daily skill** (07:20), not a chain (`chain-runner.yml` is brittle under `bash -e`: a transient `gh` non-zero hard-kills the job). **war-room (the 07:45 standup capstone for Aaron + Nurstar) was retired 2026-07-26** - its skill files are gone and this instance is now public, so the private standup is not re-added; treat any "war-room missing" drift alarm as expected, not a regression. (product-pulse retired 2026-07.)
+- bd-radar runs as a **standalone daily skill** (07:20), not a chain (`chain-runner.yml` is brittle under `bash -e`: a transient `gh` non-zero hard-kills the job). **war-room (the 07:45 standup capstone for Aaron) was retired 2026-07-26** - its skill files are gone and this instance is now public, so the private standup is not re-added; treat any "war-room missing" drift alarm as expected, not a regression. (product-pulse retired 2026-07.)
 
 ## Lessons Learned
 - Digest format: Markdown with clickable links, under 4000 chars.
