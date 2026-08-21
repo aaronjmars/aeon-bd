@@ -1,0 +1,310 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-08-21"
+      },
+      "children": [
+        "stack_all"
+      ]
+    },
+    "stack_all": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1",
+        "sep1",
+        "item2",
+        "sep2",
+        "item3",
+        "sep3",
+        "item4",
+        "sep4",
+        "item5"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h1_item1",
+        "text1_desc",
+        "link1_github",
+        "link1_telegram",
+        "badge1_type",
+        "text1_draft"
+      ]
+    },
+    "h1_item1": {
+      "type": "Heading",
+      "props": {
+        "text": "1. AITOBIAS04/CHORUS",
+        "level": "h3"
+      }
+    },
+    "text1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "(0 days ago) — live fork of miroshark-aeon rebranded \"CHORUS,\" own Telegram, 6,461 commits ahead, still pushing today",
+        "variant": "body"
+      }
+    },
+    "link1_github": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: AITOBIAS04/CHORUS",
+        "href": "https://github.com/AITOBIAS04/CHORUS"
+      }
+    },
+    "link1_telegram": {
+      "type": "Link",
+      "props": {
+        "label": "Community: t.me/miroshark_aeon",
+        "href": "https://t.me/miroshark_aeon"
+      }
+    },
+    "badge1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "DM (Telegram)",
+        "variant": "outline"
+      }
+    },
+    "text1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"yo this is a wild fork — 6k commits deep already. what's CHORUS building toward? want to get you in the loop with the core aeon/miroshark community if you're down\"",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h1_item2",
+        "text2_desc",
+        "link2_x",
+        "badge2_type",
+        "text2_draft"
+      ]
+    },
+    "h1_item2": {
+      "type": "Heading",
+      "props": {
+        "text": "2. @aixbt_agent",
+        "level": "h3"
+      }
+    },
+    "text2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "(1 day ago) — unaffiliated AI-agent account unprompted-validated Miroshark usage: 1.35B tokens/50+ OpenRouter models/30d, 143 paid x402 runs/34 buyers in one week",
+        "variant": "body"
+      }
+    },
+    "link2_x": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X: @aixbt_agent validation post",
+        "href": "https://x.com/aixbt_agent/status/2090389653337919520"
+      }
+    },
+    "badge2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "text2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"appreciate the unprompted breakdown — 1.35B tokens across 50+ models, 143 paid x402 runs is exactly the usage we build for. 🦈\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h1_item3",
+        "text3_desc",
+        "link3_github",
+        "badge3_type",
+        "text3_draft"
+      ]
+    },
+    "h1_item3": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Zoidberg-eternal/monitor-the-situation-bags",
+        "level": "h3"
+      }
+    },
+    "text3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "(0 days ago) — named MiroShark x Bags.fm hackathon integration, gone quiet since May",
+        "variant": "body"
+      }
+    },
+    "link3_github": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: Zoidberg-eternal/monitor-the-situation-bags",
+        "href": "https://github.com/Zoidberg-eternal/monitor-the-situation-bags"
+      }
+    },
+    "badge3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "text3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"saw the bags.fm x miroshark hackathon build — how'd it go? if you want to formalize the integration happy to link it from our docs. 🦈\"",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h1_item4",
+        "text4_desc",
+        "link4_github",
+        "badge4_type",
+        "text4_draft"
+      ]
+    },
+    "h1_item4": {
+      "type": "Heading",
+      "props": {
+        "text": "4. JohnTammi/supercompact-for-miroshark",
+        "level": "h3"
+      }
+    },
+    "text4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "(0 days ago) — zero-dep TS token-cost tool built for MiroShark/RAG pipelines, 5★",
+        "variant": "body"
+      }
+    },
+    "link4_github": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: JohnTammi/supercompact-for-miroshark",
+        "href": "https://github.com/JohnTammi/supercompact-for-miroshark"
+      }
+    },
+    "badge4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "text4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"supercompact for miroshark is exactly the kind of companion tool we want more of. down to link it from the miroshark docs if you're open to it 🦈\"",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h1_item5",
+        "text5_desc",
+        "link5_github",
+        "badge5_type",
+        "text5_draft"
+      ]
+    },
+    "h1_item5": {
+      "type": "Heading",
+      "props": {
+        "text": "5. xalil05/ProjecSen",
+        "level": "h3"
+      }
+    },
+    "text5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "(0 days ago) — French-branded fork of MiroShark (\"Fork français de MiroShark\"), fresh push Aug 2",
+        "variant": "body"
+      }
+    },
+    "link5_github": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: xalil05/ProjecSen",
+        "href": "https://github.com/xalil05/ProjecSen"
+      }
+    },
+    "badge5_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "text5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"un fork français de miroshark, très cool 🦈 dites-nous ce qu'il vous faut pour une version localisée — ça nous intéresse\"",
+        "variant": "body"
+      }
+    }
+  }
+}
