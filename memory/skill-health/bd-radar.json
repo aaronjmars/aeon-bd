@@ -1,0 +1,14 @@
+{
+  "skill": "bd-radar",
+  "last_analyzed": "2026-08-21T07:39:01Z",
+  "quality_score": 4,
+  "assessment": "Substantive first run: surfaces 7 BD leads with CHORUS as high-intent top finding, fixes operational issue (repo rename), properly flags for verification. Directly serves priority #1 (surface BD signal). Specific, actionable, aligned with audience.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-08-21",
+      "score": 4
+    }
+  ]
+}

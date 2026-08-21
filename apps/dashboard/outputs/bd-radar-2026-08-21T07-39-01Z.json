@@ -1,0 +1,250 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "bd-radar",
+        "description": "CHORUS is live-building on miroshark"
+      },
+      "children": [
+        "heading-context",
+        "separator-1",
+        "stack-chorus",
+        "separator-2",
+        "stack-secondary",
+        "separator-3",
+        "stack-sidenotes",
+        "separator-4",
+        "stack-competitive"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "First run, one finding 🦈",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-chorus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-chorus",
+        "storylink-chorus",
+        "stack-chorus-details",
+        "alert-dm"
+      ]
+    },
+    "heading-chorus": {
+      "type": "Heading",
+      "props": {
+        "text": "AITOBIAS04/CHORUS",
+        "level": "h3"
+      }
+    },
+    "storylink-chorus": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AITOBIAS04/CHORUS",
+        "href": "https://github.com/AITOBIAS04/CHORUS",
+        "source": "GitHub"
+      }
+    },
+    "stack-chorus-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-shipped",
+        "stat-commits",
+        "badge-active",
+        "text-telegram",
+        "text-signal"
+      ]
+    },
+    "badge-shipped": {
+      "type": "Badge",
+      "props": {
+        "text": "Forked miroshark-aeon, rebranded CHORUS",
+        "variant": "secondary"
+      }
+    },
+    "stat-commits": {
+      "type": "Stat",
+      "props": {
+        "label": "Commits ahead",
+        "value": "6461"
+      }
+    },
+    "badge-active": {
+      "type": "Badge",
+      "props": {
+        "text": "Actively pushing commits today",
+        "variant": "default"
+      }
+    },
+    "text-telegram": {
+      "type": "Link",
+      "props": {
+        "label": "Telegram: t.me/miroshark_aeon",
+        "href": "https://t.me/miroshark_aeon"
+      }
+    },
+    "text-signal": {
+      "type": "Text",
+      "props": {
+        "text": "Shipping on top of miroshark right now, not a drive-by star.",
+        "variant": "body"
+      }
+    },
+    "alert-dm": {
+      "type": "Alert",
+      "props": {
+        "title": "Worth a DM",
+        "message": "Active builder running own cron/skills. Outreach candidate.",
+        "type": "info"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-secondary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-secondary",
+        "text-bags",
+        "text-smallerbuilders"
+      ]
+    },
+    "heading-secondary": {
+      "type": "Heading",
+      "props": {
+        "text": "Other Builders",
+        "level": "h3"
+      }
+    },
+    "text-bags": {
+      "type": "Text",
+      "props": {
+        "text": "MiroShark x Bags.fm hackathon integration — gone quiet since May. Worth a follow-up: \"how'd that go?\"",
+        "variant": "body"
+      }
+    },
+    "text-smallerbuilders": {
+      "type": "Text",
+      "props": {
+        "text": "Couple smaller builders found. Full ranked list in digest.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-sidenotes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-sidenotes",
+        "alert-redirect",
+        "text-products-fixed",
+        "text-aeon-fun"
+      ]
+    },
+    "heading-sidenotes": {
+      "type": "Heading",
+      "props": {
+        "text": "Side Notes",
+        "level": "h3"
+      }
+    },
+    "alert-redirect": {
+      "type": "Alert",
+      "props": {
+        "title": "Org redirects detected",
+        "message": "aaronjmars/aeon → aeonfun/aeon, aaronjmars/MiroShark → MiroShark/MiroShark",
+        "type": "warning"
+      }
+    },
+    "text-products-fixed": {
+      "type": "Text",
+      "props": {
+        "text": "Fixed products.md so future runs don't chase ghosts.",
+        "variant": "body"
+      }
+    },
+    "text-aeon-fun": {
+      "type": "Text",
+      "props": {
+        "text": "Question: Can you confirm aeon.fun is yours? Flagging in case redirect wasn't intentional.",
+        "variant": "lead"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-competitive": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-competitive",
+        "storylink-mirofish",
+        "text-positioning"
+      ]
+    },
+    "heading-competitive": {
+      "type": "Heading",
+      "props": {
+        "text": "Competitive Watch",
+        "level": "h3"
+      }
+    },
+    "storylink-mirofish": {
+      "type": "StoryLink",
+      "props": {
+        "title": "666ghj/MiroFish",
+        "href": "https://github.com/666ghj/MiroFish",
+        "source": "GitHub",
+        "score": "71k stars"
+      }
+    },
+    "text-positioning": {
+      "type": "Text",
+      "props": {
+        "text": "Near-identical positioning to MiroShark. Not a fork of ours, not us. Recommend sim-watch monitor it.",
+        "variant": "body"
+      }
+    }
+  }
+}
