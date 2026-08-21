@@ -1,0 +1,65 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⚠️ Heartbeat: config drift"
+      },
+      "children": [
+        "alert-drift",
+        "sep-1",
+        "text-problem",
+        "text-docs",
+        "text-status",
+        "sep-2",
+        "text-solution"
+      ]
+    },
+    "alert-drift": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "CONFIG DRIFT",
+        "message": "war-room missing from aeon.yml"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-problem": {
+      "type": "Text",
+      "props": {
+        "text": "MEMORY.md documents war-room as the daily 07:45 UTC standup brief (paired with bd-radar), but there's no war-room entry in aeon.yml at all. The docs and config disagree."
+      }
+    },
+    "text-docs": {
+      "type": "Text",
+      "props": {
+        "text": "It hasn't run since 2026-07-26 (26 days, was 48/48 success rate)."
+      }
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "bd-radar (its 07:20 partner) is still live and ran fine this morning."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-solution": {
+      "type": "Text",
+      "props": {
+        "text": "Either re-add war-room to aeon.yml or update MEMORY.md to drop the claim."
+      }
+    }
+  }
+}

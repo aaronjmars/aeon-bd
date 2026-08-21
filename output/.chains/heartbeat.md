@@ -1,10 +1,3 @@
-⚠️ Heartbeat: 🟡 WATCH
+⚠️ Heartbeat: config drift
 
-**Heartbeat — 2026-08-20 08:11 UTC** · Overall: 🟡 WATCH
-
-🔴 FAILED: `digest` failed 2026-08-19 16:38 UTC (~16h ago) — isolated (consecutive_failures=1), skill is currently `enabled: false` in aeon.yml so this is a stale/moot failure, not active
-🟠 MISSING: `aeon-update` is enabled (weekly, Mon 11:00 UTC) but has **never been dispatched** — no entry in cron-state.json, and `memory/topics/aeon-update-state.json` shows `last_run: null`. Worth checking the scheduler picked it up.
-
-No stalled PRs, no urgent issues, nothing flagged in memory.
-
-Status page regenerated: docs/status.md
+🟡 CONFIG DRIFT: war-room missing from aeon.yml — MEMORY.md documents it as the daily 07:45 UTC standup brief (paired with bd-radar), but there's no war-room entry in aeon.yml at all. It hasn't run since 2026-07-26 (26 days, was 48/48 success). bd-radar (its 07:20 partner) is still live and ran fine this morning. Either re-add war-room to aeon.yml or update MEMORY.md to drop the claim — right now the docs and the config disagree.
