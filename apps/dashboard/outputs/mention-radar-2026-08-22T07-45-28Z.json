@@ -1,0 +1,393 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-08-22"
+      },
+      "children": [
+        "section_aeon",
+        "separator1",
+        "section_miroshark",
+        "separator2",
+        "section_opportunities"
+      ]
+    },
+    "section_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aeon",
+        "alert_aeon_quiet",
+        "stats_aeon",
+        "text_aeon_threshold"
+      ]
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "alert_aeon_quiet": {
+      "type": "Alert",
+      "props": {
+        "title": "QUIET",
+        "message": "No external mentions found this cycle. X.AI x_search (2026-08-15→08-22) returned HTTP 200. WebSearch swept Reddit/HN/Product Hunt/blogs/GitHub Discussions with no results in-window.",
+        "type": "info"
+      }
+    },
+    "stats_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_aeon_stars",
+        "stat_aeon_forks"
+      ]
+    },
+    "stat_aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Stars",
+        "value": "677",
+        "delta": "+2",
+        "trend": "up"
+      }
+    },
+    "stat_aeon_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Forks",
+        "value": "240",
+        "delta": "-2",
+        "trend": "down"
+      }
+    },
+    "text_aeon_threshold": {
+      "type": "Text",
+      "props": {
+        "text": "Under 5-star notable threshold.",
+        "variant": "muted"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_miroshark",
+        "mentions_stack",
+        "stats_github_miroshark"
+      ]
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "mentions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mention_dannyhbrown",
+        "mention_frankc426",
+        "mention_russian_acai",
+        "text_dedup_note"
+      ]
+    },
+    "mention_dannyhbrown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "date_source_dannyhbrown",
+        "tweet_dannyhbrown",
+        "meta_dannyhbrown"
+      ]
+    },
+    "date_source_dannyhbrown": {
+      "type": "Text",
+      "props": {
+        "text": "X, @Dannyhbrown, 2026-08-21",
+        "variant": "caption"
+      }
+    },
+    "tweet_dannyhbrown": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Danny H Brown",
+        "handle": "Dannyhbrown",
+        "text": "Resurfaced/promoted the HackerNoon interview with @aaronjmars ('Meet the Agents That Pay for Their Own Compute: Inside Aeon, MiroShark, and Agentic Commerce,' published 2026-06-17) — summarized the genesis, Miroshark-vs-focus-groups and Miroshark-vs-prediction-markets framing, and how x402 enables new business models.",
+        "likes": 46,
+        "retweets": 8
+      }
+    },
+    "meta_dannyhbrown": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_press",
+        "text_replies_dannyhbrown",
+        "link_dannyhbrown"
+      ]
+    },
+    "badge_press": {
+      "type": "Badge",
+      "props": {
+        "text": "Press/newsletter",
+        "variant": "secondary"
+      }
+    },
+    "text_replies_dannyhbrown": {
+      "type": "Text",
+      "props": {
+        "text": "8 replies",
+        "variant": "caption"
+      }
+    },
+    "link_dannyhbrown": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Dannyhbrown/status/2090911715755970671"
+      }
+    },
+    "mention_frankc426": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "date_source_frankc426",
+        "tweet_frankc426",
+        "meta_frankc426"
+      ]
+    },
+    "date_source_frankc426": {
+      "type": "Text",
+      "props": {
+        "text": "X, @Frankc426, 2026-08-21",
+        "variant": "caption"
+      }
+    },
+    "tweet_frankc426": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Frankc426",
+        "handle": "Frankc426",
+        "text": "2 great projects! $aeon $MiroShark",
+        "likes": 1
+      }
+    },
+    "meta_frankc426": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_noise_frankc426"
+      ]
+    },
+    "badge_noise_frankc426": {
+      "type": "Badge",
+      "props": {
+        "text": "Generic hype — noise",
+        "variant": "outline"
+      }
+    },
+    "mention_russian_acai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "date_source_russian_acai",
+        "tweet_russian_acai",
+        "meta_russian_acai"
+      ]
+    },
+    "date_source_russian_acai": {
+      "type": "Text",
+      "props": {
+        "text": "X, @russian_acai, 2026-08-19",
+        "variant": "caption"
+      }
+    },
+    "tweet_russian_acai": {
+      "type": "TweetCard",
+      "props": {
+        "author": "russian_acai",
+        "handle": "russian_acai",
+        "text": "miroshark, the only onchain option for the simulation exposure...",
+        "likes": 4
+      }
+    },
+    "meta_russian_acai": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_noise_russian_acai"
+      ]
+    },
+    "badge_noise_russian_acai": {
+      "type": "Badge",
+      "props": {
+        "text": "Thin — noise",
+        "variant": "outline"
+      }
+    },
+    "text_dedup_note": {
+      "type": "Text",
+      "props": {
+        "text": "Note: rangertx08008's Aug-20 curiosity tweet already surfaced in 2026-08-21 log — deduped, not re-listed.",
+        "variant": "muted"
+      }
+    },
+    "stats_github_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_github_label",
+        "github_stats_miroshark",
+        "text_miroshark_threshold"
+      ]
+    },
+    "text_github_label": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub",
+        "variant": "lead"
+      }
+    },
+    "github_stats_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_miroshark_stars",
+        "stat_miroshark_forks"
+      ]
+    },
+    "stat_miroshark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Stars",
+        "value": "1433",
+        "trend": "neutral"
+      }
+    },
+    "stat_miroshark_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Forks",
+        "value": "298",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "text_miroshark_threshold": {
+      "type": "Text",
+      "props": {
+        "text": "Under notable threshold.",
+        "variant": "muted"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_opportunities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_opportunities",
+        "opportunity_dannyhbrown"
+      ]
+    },
+    "heading_opportunities": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "opportunity_dannyhbrown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opportunity_link",
+        "opportunity_desc",
+        "opportunity_badge"
+      ]
+    },
+    "opportunity_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@Dannyhbrown — Resurfaced HackerNoon Interview",
+        "href": "https://x.com/Dannyhbrown/status/2090911715755970671",
+        "source": "X"
+      }
+    },
+    "opportunity_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Organic, unprompted resurfacing of a two-month-old press piece with real engagement (46 likes / 8 reposts / 8 replies) for the window. A reply or repost from @aeonframework/@miroshark_ acknowledging it is low-cost, high-leverage amplification — the kind of 'someone else is doing our marketing for free' moment worth riding.",
+        "variant": "body"
+      }
+    },
+    "opportunity_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Low-cost amplification opportunity",
+        "variant": "default"
+      }
+    }
+  }
+}

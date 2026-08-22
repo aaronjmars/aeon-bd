@@ -1,5 +1,3 @@
-ℹ️ Mention Radar
-
 *Mention Radar — 2026-08-22*
 
 AEON
