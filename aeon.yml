@@ -98,7 +98,7 @@ skills:
   idea-pipeline: { enabled: false, schedule: "0 18 * * 1" } # Monday — execution-gap audit: top 3 backlog ideas to build this week
 
   # Self-maintenance / meta
-  memory-flush: { enabled: false, schedule: "30 21 * * *" } # daily — promote important recent log entries into MEMORY.md
+  memory-flush: { enabled: true, schedule: "0 18 * * 0" } # weekly (Sun 18:00 UTC) - promote important recent log entries into MEMORY.md
   aeon-update: { model: "claude-opus-4-8", enabled: true, schedule: "0 11 * * 1", var: "" } # Monday 11:00 UTC - pull framework updates from aeonfun/aeon canon as a 3-way-merge PR (never clobbers operator config). Baseline in memory/topics/aeon-update-state.json. Runs weekly.
 
   # --- Ported from aeon-aaron ---
