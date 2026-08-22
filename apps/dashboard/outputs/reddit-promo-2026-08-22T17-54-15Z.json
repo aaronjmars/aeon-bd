@@ -1,0 +1,428 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo",
+        "description": "Reddit Promo — 2026-08-22"
+      },
+      "children": [
+        "story_section",
+        "divider1",
+        "post1_container",
+        "divider2",
+        "post2_container",
+        "divider3",
+        "post3_container",
+        "divider4",
+        "post4_container"
+      ]
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_heading",
+        "story_text",
+        "story_link"
+      ]
+    },
+    "story_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Story",
+        "level": "h2"
+      }
+    },
+    "story_text": {
+      "type": "Text",
+      "props": {
+        "text": "Third-party web3 security researcher (pashov) added Aeon to his curated GitHub list of AI-driven web3 security tools, unprompted, unpaid",
+        "variant": "body"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/0xFireFist/status/2090731542364438614",
+        "source": "Twitter/X"
+      }
+    },
+    "divider1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1_header",
+        "post1_title",
+        "post1_body",
+        "post1_links",
+        "post1_notes"
+      ]
+    },
+    "post1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_subreddit",
+        "post1_archetype"
+      ]
+    },
+    "post1_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/OpenSourceAI",
+        "variant": "default"
+      }
+    },
+    "post1_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "post1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "a security researcher added Aeon to a curated web3-security tools list, unprompted",
+        "level": "h3"
+      }
+    },
+    "post1_body": {
+      "type": "Text",
+      "props": {
+        "text": "pashov (well-known web3 security auditor) maintains a curated GitHub list of AI-driven web3 security tooling. this week Aeon showed up on it. nobody asked, nobody paid — it just got added as a real defensive project people are actually running.\n\ncontext: Aeon has been running its own vuln-scanner fleets against real open-source repos (Vercel, Alibaba, Perplexity, OpenClaw) — agents that find exploits and open actual PRs to fix them. the thesis: audits alone don't scale (Balancer ran 11 audits and still got hacked for $128M), so tokenize the security work and let agents scan 24/7 instead of a point-in-time check.\n\nAeon itself is open source (AGPL) — the whole framework is \"skills\" written as plain markdown files that run on GitHub Actions cron, no approval loop, self-repairing when a skill breaks. the vuln-scanner is one skill among ~200.\n\nrepo's here if you want to see how a skill is actually structured: happy to answer questions on the self-repair loop or the scanner mechanics.",
+        "variant": "body"
+      }
+    },
+    "post1_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_repo_link",
+        "post1_composer_link"
+      ]
+    },
+    "post1_repo_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "GitHub"
+      }
+    },
+    "post1_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/OpenSourceAI composer",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=a%20security%20researcher%20added%20Aeon%20to%20a%20curated%20web3-security%20tools%20list%2C%20unprompted"
+      }
+    },
+    "post1_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "disclose as the builder, not a neutral discoverer — check r/OpenSourceAI's self-promo flair/ratio rule before posting.",
+        "type": "info"
+      }
+    },
+    "divider2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2_header",
+        "post2_title",
+        "post2_body",
+        "post2_links",
+        "post2_notes"
+      ]
+    },
+    "post2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_subreddit",
+        "post2_archetype"
+      ]
+    },
+    "post2_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/aiecosystem",
+        "variant": "default"
+      }
+    },
+    "post2_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "post2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "where 'autonomous' agent frameworks actually diverge: got a data point this week",
+        "level": "h3"
+      }
+    },
+    "post2_body": {
+      "type": "Text",
+      "props": {
+        "text": "most \"agentic framework\" comparisons are marketing copy. here's an actual one: a third-party security researcher (pashov, does web3 audits) curates a list of AI-driven web3 security tools on GitHub. this week Aeon — a framework I built — got added, for running autonomous vuln-scanner agents that open real PRs on real repos, unattended.\n\nthe distinction that matters in this category isn't model quality, it's autonomy: does the agent need a human in the loop to act? Aeon's answer is cron + self-repair — skills run on GitHub Actions on a schedule, and when a skill breaks, another skill fixes it and reopens the PR. no approval gate. most agent frameworks are \"you drive\" — this is closer to \"it drives, you watch the public traces.\"\n\nsite: https://aeon.fun if you want to see the shape of it.\n\ncurious what other frameworks people here have seen actually running unattended vs. needing a human to approve every loop.",
+        "variant": "body"
+      }
+    },
+    "post2_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_site_link",
+        "post2_composer_link"
+      ]
+    },
+    "post2_site_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "post2_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=where%20%27autonomous%27%20agent%20frameworks%20actually%20diverge%3A%20got%20a%20data%20point%20this%20week"
+      }
+    },
+    "post2_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "keep the framing comparative, not salesy — disclose as the builder up front.",
+        "type": "info"
+      }
+    },
+    "divider3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3_header",
+        "post3_title",
+        "post3_body",
+        "post3_links",
+        "post3_notes"
+      ]
+    },
+    "post3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_subreddit",
+        "post3_archetype"
+      ]
+    },
+    "post3_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/CoolGithubProjects",
+        "variant": "default"
+      }
+    },
+    "post3_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "github",
+        "variant": "secondary"
+      }
+    },
+    "post3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon - the most autonomous agent framework, just got added to a curated web3-security tools list",
+        "level": "h3"
+      }
+    },
+    "post3_body": {
+      "type": "Text",
+      "props": {
+        "text": "what: Aeon is an open-source (AGPL) framework where every capability is a \"skill\" — a plain markdown file — that runs unattended on GitHub Actions cron. no approval loop, self-repairing (skills that break get fixed by other skills, PR'd automatically).\n\nwhy this is here: this week a third-party web3 security researcher (pashov) added Aeon to his curated list of AI-driven security tooling, unprompted. context: one of Aeon's ~200 skills is a vuln-scanner fleet that finds exploits in real open-source repos (Vercel, Alibaba, Perplexity, OpenClaw) and opens real PRs to fix them.\n\nstack: Claude Code / Codex / OpenClaw as the underlying harness, GitHub Actions for the runtime, markdown for the skill layer.",
+        "variant": "body"
+      }
+    },
+    "post3_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_repo_link",
+        "post3_composer_link"
+      ]
+    },
+    "post3_repo_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "GitHub"
+      }
+    },
+    "post3_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CoolGithubProjects composer",
+        "href": "https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20the%20most%20autonomous%20agent%20framework%2C%20just%20got%20added%20to%20a%20curated%20web3-security%20tools%20list"
+      }
+    },
+    "post3_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "sub enforces a strict title format (\"Aeon - <one-line desc>\") — kept as-is; disclose as builder in a top comment if their rules require it.",
+        "type": "info"
+      }
+    },
+    "divider4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post4_header",
+        "post4_title",
+        "post4_body",
+        "post4_links",
+        "post4_notes"
+      ]
+    },
+    "post4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_subreddit",
+        "post4_archetype"
+      ]
+    },
+    "post4_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/StartupMind",
+        "variant": "default"
+      }
+    },
+    "post4_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "secondary"
+      }
+    },
+    "post4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "small but real traction update: a third party added us to their curated list, unprompted",
+        "level": "h3"
+      }
+    },
+    "post4_body": {
+      "type": "Text",
+      "props": {
+        "text": "building-in-public update — nothing engineered, just logging it because it's the kind of signal that's hard to fake.\n\nI built Aeon, an open-source autonomous agent framework. this week a web3 security researcher (pashov, does audits for a living) added Aeon to his curated GitHub list of AI-driven web3 security tools. we didn't submit it, didn't pay for placement, didn't know until someone tweeted it.\n\nwhy it happened: one of Aeon's skills runs autonomous vuln-scanner fleets against real repos and opens actual fix PRs — turning the \"audits don't scale\" problem (see: Balancer, 11 audits, still hacked for $128M) into something that runs 24/7 instead of once. apparently different enough to get noticed by someone who reviews this space for a living.\n\nsite: https://aeon.fun\n\nhappy to talk through the mechanics if anyone's building something adjacent — not selling anything here, just sharing the traction beat.",
+        "variant": "body"
+      }
+    },
+    "post4_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_site_link",
+        "post4_composer_link"
+      ]
+    },
+    "post4_site_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "post4_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=small%20but%20real%20traction%20update%3A%20a%20third%20party%20added%20us%20to%20their%20curated%20list%2C%20unprompted"
+      }
+    },
+    "post4_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "r/StartupMind values honest traction over growth-hacky tone — keep to \"here's a real thing that happened,\" disclose as founder.",
+        "type": "info"
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-21T17:58:54Z",
+  "last_analyzed": "2026-08-22T17:54:15Z",
   "quality_score": 4,
-  "assessment": "Verified third-party endorsement story with 4 tailored Reddit drafts ready to post; strong GTM alignment, filtering discipline, memory management; all specifics traceable to cited sources.",
+  "assessment": "Identified fresh BD signal (pashov endorsement), deduped correctly, drafted 4 tailored subreddit posts for distinct communities; solid GTM work aligned with strategy. Main deduction: run output should include the post text itself, not just reference that it was sent via notify, per CLAUDE.md output rules.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -12,6 +12,10 @@
     },
     {
       "date": "2026-08-21",
+      "score": 4
+    },
+    {
+      "date": "2026-08-22",
       "score": 4
     }
   ]

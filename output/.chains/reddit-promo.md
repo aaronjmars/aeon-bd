@@ -1,67 +1,69 @@
-ℹ️ Reddit Promo — 2026-08-21
+ℹ️ Reddit Promo
 
-*Reddit Promo — 2026-08-21*
+*Reddit Promo — 2026-08-22*
 
-_Story:_ AI-on-Base (independent, unpaid community ranking account) placed Aeon in its "Based" tier and Miroshark in "Active" — 35-reply thread, no relationship with us — plus a separate spotlight naming $AEON a top 24h gainer. — https://x.com/AIonBase_/status/2090430490591556034
+_Story:_ Third-party web3 security researcher (pashov) added Aeon to his curated GitHub list of AI-driven web3 security tools, unprompted, unpaid — https://x.com/0xFireFist/status/2090731542364438614
 
 ---
-*r/StartupMind* · archetype: startup
-*Title:* An unpaid community list just tiered us - small traction update
+*r/OpenSourceAI* · archetype: open-source
+*Title:* a security researcher added Aeon to a curated web3-security tools list, unprompted
 *Body:*
-I'm the guy building Aeon (autonomous agent framework, runs on GitHub Actions, no approval loop) and Miroshark (swarm-sim engine, hundreds of agents for ~$1).
+pashov (well-known web3 security auditor) maintains a curated GitHub list of AI-driven web3 security tooling. this week Aeon showed up on it. nobody asked, nobody paid — it just got added as a real defensive project people are actually running.
 
-This week AI-on-Base — a community-run ranking account, not affiliated with us, no payment involved — put Aeon in their "Based" tier and Miroshark in "Active." 35 replies under it, mostly people arguing who else should be on the list. Same account's gainer spotlight also flagged $AEON as a 24h mover, again unprompted.
+context: Aeon has been running its own vuln-scanner fleets against real open-source repos (Vercel, Alibaba, Perplexity, OpenClaw) — agents that find exploits and open actual PRs to fix them. the thesis: audits alone don't scale (Balancer ran 11 audits and still got hacked for $128M), so tokenize the security work and let agents scan 24/7 instead of a point-in-time check.
 
-I don't put much weight on tier lists as a metric — they're vibes, not revenue. But it's a decent signal when strangers rank you without being asked, in a category (agent frameworks on Base) that's getting crowded fast.
+Aeon itself is open source (AGPL) — the whole framework is "skills" written as plain markdown files that run on GitHub Actions cron, no approval loop, self-repairing when a skill breaks. the vuln-scanner is one skill among ~200.
 
-What's actually shipping: Aeon writes, reviews, and merges its own skills — cron-driven, self-repairing, zero babysitting. aeon.fun if you want to see it running live.
+repo's here if you want to see how a skill is actually structured: https://github.com/aeonfun/aeon
 
-Happy to answer anything — architecture, why GitHub Actions over a hosted runtime, whatever.
-*Link in post:* https://aeon.fun
-*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=An%20unpaid%20community%20list%20just%20tiered%20us%20-%20small%20traction%20update)
-_notes: founder-story sub, tolerates self-promo if it's an honest update — disclose as builder (done), keep it to the one link._
+happy to answer questions on the self-repair loop or the scanner mechanics.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=a%20security%20researcher%20added%20Aeon%20to%20a%20curated%20web3-security%20tools%20list%2C%20unprompted)
+_notes: disclose as the builder, not a neutral discoverer — check r/OpenSourceAI's self-promo flair/ratio rule before posting._
 
 ---
 *r/aiecosystem* · archetype: agents
-*Title:* A third-party Base ranking just placed two of our projects in its top tiers
+*Title:* where 'autonomous' agent frameworks actually diverge: got a data point this week
 *Body:*
-Posting as the builder behind Aeon (autonomous agent framework — skills-as-markdown, runs unattended on GitHub Actions, cron + self-repair) and Miroshark (swarm-simulation engine, hundreds of grounded agents, ~$1 a run).
+most "agentic framework" comparisons are marketing copy. here's an actual one: a third-party security researcher (pashov, does web3 audits) curates a list of AI-driven web3 security tools on GitHub. this week Aeon — a framework I built — got added, for running autonomous vuln-scanner agents that open real PRs on real repos, unattended.
 
-AI-on-Base, an independent community account that ranks AI-agent projects building on Base, put Aeon in "Based" and Miroshark in "Active" this week — unpaid, unprompted, sparked a 35-reply thread about who else belongs. Their gainer spotlight also called out $AEON, separately.
+the distinction that matters in this category isn't model quality, it's autonomy: does the agent need a human in the loop to act? Aeon's answer is cron + self-repair — skills run on GitHub Actions on a schedule, and when a skill breaks, another skill fixes it and reopens the PR. no approval gate. most agent frameworks are "you drive" — this is closer to "it drives, you watch the public traces."
 
-Not sharing this as an achievement so much as a data point on where the agent-framework category is right now — enough entrants that outsiders are building ranking systems for it. Curious how others here read the landscape: is autonomy (no approval loops, self-repair) actually the differentiator people care about, or is it still mostly about model access?
+site: https://aeon.fun if you want to see the shape of it.
 
-aeon.fun has the live setup if you want to poke at it. Open to pushback.
+curious what other frameworks people here have seen actually running unattended vs. needing a human to approve every loop.
 *Link in post:* https://aeon.fun
-*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=A%20third-party%20Base%20ranking%20just%20placed%20two%20of%20our%20projects%20in%20its%20top%20tiers)
-_notes: ecosystem/tooling readers — lead with the landscape question, not the ranking; disclose as builder, one link._
+*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=where%20%27autonomous%27%20agent%20frameworks%20actually%20diverge%3A%20got%20a%20data%20point%20this%20week)
+_notes: keep the framing comparative, not salesy — disclose as the builder up front._
 
 ---
-*r/Agent_AI* · archetype: agents
-*Title:* Got tiered by an outside Base ranking - sharing the actual mechanics behind it
+*r/CoolGithubProjects* · archetype: github
+*Title:* Aeon - the most autonomous agent framework, just got added to a curated web3-security tools list
 *Body:*
-I build Aeon, an agent framework that runs unattended on GitHub Actions — skills are just markdown files, scheduled by cron, chained together, and the thing reviews/merges/deletes its own skills without a human in the loop. Also building Miroshark, a swarm-sim engine that spawns hundreds of grounded agents to simulate anything for about $1.
+what: Aeon is an open-source (AGPL) framework where every capability is a "skill" — a plain markdown file — that runs unattended on GitHub Actions cron. no approval loop, self-repairing (skills that break get fixed by other skills, PR'd automatically).
 
-This week AI-on-Base (independent account, ranks Base AI-agent projects, no relationship with us) placed Aeon in their "Based" tier and Miroshark in "Active" — unpaid, 35 replies arguing the list. Not a huge deal on its own, but it's a more interesting signal to me than a metrics dashboard.
+why this is here: this week a third-party web3 security researcher (pashov) added Aeon to his curated list of AI-driven security tooling, unprompted. context: one of Aeon's ~200 skills is a vuln-scanner fleet that finds exploits in real open-source repos (Vercel, Alibaba, Perplexity, OpenClaw) and opens real PRs to fix them.
 
-What I actually want feedback on from this sub: most "autonomous agent" frameworks I see still have a human-approval gate somewhere — PR review, deploy button, something. Aeon doesn't; the self-repair loop reviews and merges its own fixes. Curious if others here have pushed autonomy that far and what broke first.
+stack: Claude Code / Codex / OpenClaw as the underlying harness, GitHub Actions for the runtime, markdown for the skill layer.
 
-Repo's linked below — happy to walk through the cron/chain/self-repair setup if useful.
+repo: https://github.com/aeonfun/aeon
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=Got%20tiered%20by%20an%20outside%20Base%20ranking%20-%20sharing%20the%20actual%20mechanics%20behind%20it)
-_notes: technical audience — keep the autonomy comparison factual, no vendor trash-talk; disclose as builder, repo link only._
+*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20the%20most%20autonomous%20agent%20framework%2C%20just%20got%20added%20to%20a%20curated%20web3-security%20tools%20list)
+_notes: sub enforces a strict title format ("Aeon - <one-line desc>") — kept as-is; disclose as builder in a top comment if their rules require it._
 
 ---
-*r/MiroFish* · archetype: community
-*Title:* Miroshark landed in the "Active" tier on an outside Base ranking this week
+*r/StartupMind* · archetype: startup
+*Title:* small but real traction update: a third party added us to their curated list, unprompted
 *Body:*
-Quick one for this community — AI-on-Base (independent, community-run, not affiliated with us) put Miroshark in their "Active" tier this week, next to Aeon in "Based." Unpaid, unprompted, kicked off a 35-reply thread about who's missing from the list.
+building-in-public update — nothing engineered, just logging it because it's the kind of signal that's hard to fake.
 
-Doesn't change anything about what we're building — still the same swarm-sim engine, hundreds of grounded agents arguing across X/Reddit + trading a simulated AMM, belief drift across rounds, ~$1 a run. But it's a decent outside signal that the "Active" framing tracks — people are actually running this, not just looking at it.
+I built Aeon, an open-source autonomous agent framework. this week a web3 security researcher (pashov, does audits for a living) added Aeon to his curated GitHub list of AI-driven web3 security tools. we didn't submit it, didn't pay for placement, didn't know until someone tweeted it.
 
-If you've run a sim recently and have thoughts on director mode or the counterfactual branching, drop them here — always looking for what's confusing or missing before the next round of changes.
+why it happened: one of Aeon's skills runs autonomous vuln-scanner fleets against real repos and opens actual fix PRs — turning the "audits don't scale" problem (see: Balancer, 11 audits, still hacked for $128M) into something that runs 24/7 instead of once. apparently different enough to get noticed by someone who reviews this space for a living.
 
-I work on Miroshark — repo's linked below.
-*Link in post:* https://github.com/miroshark/miroshark
-*Post here:* [Open r/MiroFish composer](https://www.reddit.com/r/MiroFish/submit?title=Miroshark%20landed%20in%20the%20%22Active%22%20tier%20on%20an%20outside%20Base%20ranking%20this%20week)
-_notes: home community, insider tone is fine — still disclose as builder, one link._
+site: https://aeon.fun
+
+happy to talk through the mechanics if anyone's building something adjacent — not selling anything here, just sharing the traction beat.
+*Link in post:* https://aeon.fun
+*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=small%20but%20real%20traction%20update%3A%20a%20third%20party%20added%20us%20to%20their%20curated%20list%2C%20unprompted)
+_notes: r/StartupMind values honest traction over growth-hacky tone — keep to "here's a real thing that happened," disclose as founder._
