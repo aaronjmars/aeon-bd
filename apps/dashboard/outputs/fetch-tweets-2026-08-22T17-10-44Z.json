@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — aeon/miroshark"
+      },
+      "children": [
+        "meta_text",
+        "summary_text",
+        "separator_1",
+        "ecosystem_section"
+      ]
+    },
+    "meta_text": {
+      "type": "Text",
+      "props": {
+        "text": "Filters: @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation | Date: 2026-08-22",
+        "variant": "caption"
+      }
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Only one independent signal in the window — everything else was repeat-account $AEON chatter with zero new information.",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ecosystem_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ecosystem_heading",
+        "tweet_1_stack"
+      ]
+    },
+    "ecosystem_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem recognition",
+        "level": "h3"
+      }
+    },
+    "tweet_1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_1",
+        "tweet_1_engagement",
+        "tweet_1_link"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xFireFist",
+        "text": "Aeon (@aeonframework) added to pashov/ai-web3-security, a curated third-party GitHub list of AI-driven Web3 security tools — organic recognition, not requested or paid.",
+        "likes": 30,
+        "retweets": 2
+      }
+    },
+    "tweet_1_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xFireFist/status/2090731542364438614"
+      }
+    }
+  }
+}
