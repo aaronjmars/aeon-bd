@@ -1,0 +1,397 @@
+{
+  "root": "card_engagement",
+  "state": {},
+  "elements": {
+    "card_engagement": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-08-23",
+        "description": "Recent engagement opportunities and community signal"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item1",
+        "sep1",
+        "item2",
+        "sep2",
+        "item3",
+        "sep3",
+        "item4",
+        "sep4",
+        "item5"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item1_heading",
+        "item1_meta",
+        "item1_draft",
+        "item1_link"
+      ]
+    },
+    "item1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "dan-and — Air-gapped Model-Cache Branch",
+        "level": "h3"
+      }
+    },
+    "item1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item1_time",
+        "item1_type"
+      ]
+    },
+    "item1_time": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago",
+        "variant": "outline"
+      }
+    },
+    "item1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "item1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "this is exactly the kind of infra work that matters — air-gapped model loading + docker-compose cache helpers. reviewing now, shipping if it's clean. thanks for holding for feedback instead of just merging blind 🦈",
+        "variant": "body"
+      }
+    },
+    "item1_link": {
+      "type": "Link",
+      "props": {
+        "label": "MiroShark/MiroShark#240",
+        "href": "https://github.com/MiroShark/MiroShark/issues/240"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item2_heading",
+        "item2_meta",
+        "item2_context",
+        "item2_tweet",
+        "item2_link"
+      ]
+    },
+    "item2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@Dannyhbrown",
+        "level": "h3"
+      }
+    },
+    "item2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item2_time",
+        "item2_type",
+        "item2_engagement"
+      ]
+    },
+    "item2_time": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago",
+        "variant": "outline"
+      }
+    },
+    "item2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "item2_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "46 likes • 8 reposts • 8 replies",
+        "variant": "caption"
+      }
+    },
+    "item2_context": {
+      "type": "Text",
+      "props": {
+        "text": "Resurfaced June HackerNoon 'Aeon, MiroShark, and Agentic Commerce' interview",
+        "variant": "caption"
+      }
+    },
+    "item2_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron",
+        "handle": "@aaronjmars",
+        "text": "still holds up. appreciate you keeping this one circulating ⭐🦈",
+        "likes": 46,
+        "retweets": 8
+      }
+    },
+    "item2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Dannyhbrown/status/2090911715755970671"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item3_heading",
+        "item3_meta",
+        "item3_context",
+        "item3_tweet",
+        "item3_link"
+      ]
+    },
+    "item3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@0xFireFist",
+        "level": "h3"
+      }
+    },
+    "item3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item3_time",
+        "item3_type"
+      ]
+    },
+    "item3_time": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago",
+        "variant": "outline"
+      }
+    },
+    "item3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "item3_context": {
+      "type": "Text",
+      "props": {
+        "text": "pashov (web3 security researcher) added Aeon to curated list of AI-driven security tools, unprompted/unpaid",
+        "variant": "caption"
+      }
+    },
+    "item3_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron",
+        "handle": "@aaronjmars",
+        "text": "pashov adding aeon to a security-tooling list unprompted is the best kind of validation. appreciate the repost ⭐"
+      }
+    },
+    "item3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/0xFireFist/status/2090731542364438614"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item4_heading",
+        "item4_meta",
+        "item4_details",
+        "item4_draft",
+        "item4_link"
+      ]
+    },
+    "item4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NurstarK/MiroShark",
+        "level": "h3"
+      }
+    },
+    "item4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item4_time",
+        "item4_type"
+      ]
+    },
+    "item4_time": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago",
+        "variant": "outline"
+      }
+    },
+    "item4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "item4_details": {
+      "type": "Text",
+      "props": {
+        "text": "Live fork running miroshark-angle content skill biweekly for 3 months straight • 9 posts • most recent yesterday",
+        "variant": "caption"
+      }
+    },
+    "item4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "3 months of steady miroshark-angle posts off this fork — that's real usage, not a driveby. want us to add you to the ecosystem list? 🦈",
+        "variant": "body"
+      }
+    },
+    "item4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on GitHub",
+        "href": "https://github.com/NurstarK/MiroShark"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item5_heading",
+        "item5_meta",
+        "item5_details",
+        "item5_draft",
+        "item5_link"
+      ]
+    },
+    "item5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "raul1stdigital/aeon-finance-district",
+        "level": "h3"
+      }
+    },
+    "item5_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item5_time",
+        "item5_type"
+      ]
+    },
+    "item5_time": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago",
+        "variant": "outline"
+      }
+    },
+    "item5_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "item5_details": {
+      "type": "Text",
+      "props": {
+        "text": "Staged Finance District wallet + MCP catalog integration on top of aeonfun/aeon • no PR opened yet",
+        "variant": "caption"
+      }
+    },
+    "item5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "saw the finance district wallet + MCP catalog work staged on your fork — want to just open the PR against aeonfun/aeon? happy to help land it ⭐",
+        "variant": "body"
+      }
+    },
+    "item5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on GitHub",
+        "href": "https://github.com/raul1stdigital/aeon-finance-district"
+      }
+    }
+  }
+}
