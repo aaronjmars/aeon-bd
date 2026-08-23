@@ -1,0 +1,129 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark",
+        "description": "@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-23)"
+      },
+      "children": [
+        "summary_text",
+        "separator1",
+        "section_heading",
+        "tweet1_stack",
+        "separator2",
+        "tweet2_stack"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Thin window, one real signal — aaronjmars's own $14M→$600k survival/rebuild thread got independent third-party amplification restating the SpaceX security claim.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Founder narrative — SpaceX security claim",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1",
+        "tweet1_meta",
+        "tweet1_link"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Threads the Aeon survival story: base:0xbf8e... mcap went $14M → $600k bottom over the past few months, kept shipping through the drawdown — anchors the pitch in security/onchain/compute verticals + revenue, not hype.",
+        "likes": 289,
+        "retweets": 40
+      },
+      "children": []
+    },
+    "tweet1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 58",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2091188578281807874"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet2",
+        "tweet2_meta",
+        "tweet2_link"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MCGlive",
+        "handle": "MCGlive",
+        "text": "Independent account amplifies the thread to its own audience, restating the framing: Aeon's security software running inside companies \"like SpaceX\" (unverified third-party claim, not confirmed independently) — biggest traction line is self-evolving background agents protecting open-source software at major companies.",
+        "likes": 85,
+        "retweets": 10
+      },
+      "children": []
+    },
+    "tweet2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 12",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/MCGlive/status/2091525871173615644"
+      },
+      "children": []
+    }
+  }
+}

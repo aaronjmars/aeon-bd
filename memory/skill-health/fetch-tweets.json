@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-22T17:10:44Z",
-  "quality_score": 4,
-  "assessment": "Real, actionable signal from one clean finding; transparent filtering logic; actionable BD angle (curated lists) flagged for follow-up; aligns with strategy (early signal, honest read, no filler).",
+  "last_analyzed": "2026-08-23T17:09:03Z",
+  "quality_score": 3,
+  "assessment": "Skill completed technically—fetched tweets, logged signal, properly contextualized unverified claim—but output is thin (3 results unexplained) and lacks actionable strategy or engagement copy for Aaron's GTM/BD mission.",
   "flags": [],
-  "avg_score": 3.67,
+  "avg_score": 3.5,
   "history": [
     {
       "date": "2026-08-20",
@@ -17,6 +17,10 @@
     {
       "date": "2026-08-22",
       "score": 4
+    },
+    {
+      "date": "2026-08-23",
+      "score": 3
     }
   ]
 }
