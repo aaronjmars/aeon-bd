@@ -69,6 +69,66 @@
       "score": 3,
       "date_found": "2026-08-21",
       "url": "https://github.com/aaronjmars/aeon/issues/878"
+    },
+    {
+      "key": "github-issue:MiroShark/MiroShark#240",
+      "class": "building",
+      "who": "dan-and",
+      "signal": "Shipped working feat/offline-hf-cache branch for air-gapped MiroShark installs (loads reranker/twitter-BERT from disk, docker-compose preload/export helpers); asked for review before merge",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-23",
+      "url": "https://github.com/MiroShark/MiroShark/issues/240"
+    },
+    {
+      "key": "github:wshuyi/crucible-sim",
+      "class": "building",
+      "who": "wshuyi/crucible-sim",
+      "signal": "4-layer adversarial swarm-sim orchestrator on top of MiroFish + OASIS, dedicated miroshark mode, OpenRouter-compatible; stale since 2026-05-11",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-23",
+      "url": "https://github.com/wshuyi/crucible-sim"
+    },
+    {
+      "key": "github:NurstarK/MiroShark",
+      "class": "forking",
+      "who": "NurstarK/MiroShark",
+      "signal": "Live instance running a miroshark-angle content skill biweekly since May, most recent post 2026-08-22 — sustained real usage",
+      "fit": 3,
+      "score": 12,
+      "date_found": "2026-08-23",
+      "url": "https://github.com/NurstarK/MiroShark"
+    },
+    {
+      "key": "github:raul1stdigital/aeon-finance-district",
+      "class": "integrating",
+      "who": "raul1stdigital/aeon-finance-district",
+      "signal": "aeon + Finance District Agent Wallet integration copy staged for review (skill + MCP catalog entry on aeonfun/aeon main); no PR opened yet; same handle co-authors commits in alexverify/aeon",
+      "fit": 3,
+      "score": 9,
+      "date_found": "2026-08-23",
+      "url": "https://github.com/raul1stdigital/aeon-finance-district"
+    },
+    {
+      "key": "github:Danypsy/aeon-perso",
+      "class": "forking",
+      "who": "Danypsy/aeon-perso",
+      "signal": "French individual's personal always-on Aeon instance, custom-configured; stale since 2026-07-19",
+      "fit": 1,
+      "score": 4,
+      "date_found": "2026-08-23",
+      "url": "https://github.com/Danypsy/aeon-perso"
+    },
+    {
+      "key": "github:alexverify/aeon",
+      "class": "forking",
+      "who": "alexverify/aeon",
+      "signal": "Live fork, scheduler running daily through today, stock skills only (no custom branding/development yet)",
+      "fit": 1,
+      "score": 4,
+      "date_found": "2026-08-23",
+      "url": "https://github.com/alexverify/aeon"
     }
   ],
   "surfaced": [
@@ -78,6 +138,12 @@
     "github:HusseinJX/prelaunchagents",
     "github:xalil05/ProjecSen",
     "github:codexvritra/signa-miroshark-skills",
-    "github-issue:aaronjmars/aeon#878"
+    "github-issue:aaronjmars/aeon#878",
+    "github-issue:MiroShark/MiroShark#240",
+    "github:wshuyi/crucible-sim",
+    "github:NurstarK/MiroShark",
+    "github:raul1stdigital/aeon-finance-district",
+    "github:Danypsy/aeon-perso",
+    "github:alexverify/aeon"
   ]
 }
