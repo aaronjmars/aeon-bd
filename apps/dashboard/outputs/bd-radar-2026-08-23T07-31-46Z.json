@@ -1,0 +1,242 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "bd-radar: 6 new leads",
+        "description": "6 new leads today — 2 building, 1 integrating, 3 forking"
+      },
+      "children": [
+        "stats-stack",
+        "separator-1",
+        "top-lead-section",
+        "separator-2",
+        "other-leads-section",
+        "separator-3",
+        "flagged-section",
+        "separator-4",
+        "digest-link"
+      ]
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-building",
+        "stat-integrating",
+        "stat-forking"
+      ]
+    },
+    "stat-building": {
+      "type": "Stat",
+      "props": {
+        "label": "Building",
+        "value": "2"
+      }
+    },
+    "stat-integrating": {
+      "type": "Stat",
+      "props": {
+        "label": "Integrating",
+        "value": "1"
+      }
+    },
+    "stat-forking": {
+      "type": "Stat",
+      "props": {
+        "label": "Forking",
+        "value": "3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "top-lead-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-lead-heading",
+        "top-lead-content"
+      ]
+    },
+    "top-lead-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Priority",
+        "level": "h2"
+      }
+    },
+    "top-lead-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dan-and-text",
+        "dan-and-link",
+        "dan-and-details"
+      ]
+    },
+    "dan-and-text": {
+      "type": "Text",
+      "props": {
+        "text": "dan-and shipped a working air-gapped branch for MiroShark (offline HF cache for the reranker/twitter-BERT models, docker-compose preload scripts)",
+        "variant": "body"
+      }
+    },
+    "dan-and-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark/MiroShark#240",
+        "href": "https://github.com/MiroShark/MiroShark/issues/240"
+      }
+    },
+    "dan-and-details": {
+      "type": "Text",
+      "props": {
+        "text": "Waiting on your review before merge. Real infra work, explicit ask, easy win.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "other-leads-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "other-leads-heading",
+        "lead-wshuyi",
+        "lead-raul",
+        "lead-nurstar"
+      ]
+    },
+    "other-leads-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Other Leads",
+        "level": "h2"
+      }
+    },
+    "lead-wshuyi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wshuyi-name",
+        "wshuyi-text"
+      ]
+    },
+    "wshuyi-name": {
+      "type": "Text",
+      "props": {
+        "text": "wshuyi",
+        "variant": "lead"
+      }
+    },
+    "wshuyi-text": {
+      "type": "Text",
+      "props": {
+        "text": "Built a 4-layer adversarial swarm-sim harness with dedicated miroshark mode (crucible-sim). Quiet since May — worth a 'still alive?' ping.",
+        "variant": "body"
+      }
+    },
+    "lead-raul": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "raul-name",
+        "raul-text"
+      ]
+    },
+    "raul-name": {
+      "type": "Text",
+      "props": {
+        "text": "raul1stdigital",
+        "variant": "lead"
+      }
+    },
+    "raul-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon + Finance District wallet integration staged, no PR filed yet.",
+        "variant": "body"
+      }
+    },
+    "lead-nurstar": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "nurstar-name",
+        "nurstar-text"
+      ]
+    },
+    "nurstar-name": {
+      "type": "Text",
+      "props": {
+        "text": "NurstarK",
+        "variant": "lead"
+      }
+    },
+    "nurstar-text": {
+      "type": "Text",
+      "props": {
+        "text": "Running a miroshark-angle content skill biweekly for 3 months straight — real sustained usage, worth a shoutout.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "flagged-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Flagged: Star-farm pattern",
+        "message": "Two repos hit 116★ each within 15 min of each other, baiting the MiroShark name with AI-slop READMEs — ignore.",
+        "type": "warning"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "digest-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest: bd-radar-2026-08-23.md",
+        "href": "output/articles/bd-radar-2026-08-23.md"
+      }
+    }
+  }
+}

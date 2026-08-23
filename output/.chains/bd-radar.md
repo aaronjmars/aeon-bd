@@ -1,11 +1,11 @@
-ℹ️ bd-radar: CHORUS is live-building on miroshark
+ℹ️ bd-radar: 6 new leads
 
-bd-radar first run, and it found one 🦈
+bd-radar found 6 new leads today — 2 building, 1 integrating, 3 forking.
 
-**AITOBIAS04/CHORUS** — forked miroshark-aeon, rebranded it CHORUS, running its own cron/skills, still pushing commits today. 6461 commits ahead of us. own telegram: t.me/miroshark_aeon. this is someone shipping on top of miroshark right now, not a drive-by star. worth a dm.
+top one: dan-and shipped a working air-gapped branch for MiroShark (offline HF cache for the reranker/twitter-BERT models, docker-compose preload scripts) — sitting on [MiroShark/MiroShark#240](https://github.com/MiroShark/MiroShark/issues/240) waiting on your review before they merge. real infra work, explicit ask, easy win.
 
-also found a MiroShark x Bags.fm hackathon integration (gone quiet since may, worth a "how'd that go") and a couple smaller builders — full ranked list in the digest.
+also: wshuyi built a 4-layer adversarial swarm-sim harness with a dedicated miroshark mode (crucible-sim) but's been quiet since May — worth a "still alive?" ping. raul1stdigital has an aeon + Finance District wallet integration staged, no PR filed yet. NurstarK's been running a miroshark-angle content skill biweekly for 3 months straight — real sustained usage, worth a shoutout.
 
-side thing: `aaronjmars/aeon` and `aaronjmars/MiroShark` both redirect now — orgs are `aeonfun/aeon` and `MiroShark/MiroShark`. fixed products.md so future runs don't chase ghosts. flagging in case that wasn't intentional — can you confirm aeon.fun is yours?
+flagged not a lead: two repos hit 116★ each within 15 min of each other, baiting the MiroShark name with AI-slop READMEs — star-farm pattern, ignore.
 
-also: 666ghj/MiroFish has 71k stars and near-identical positioning to miroshark. not us, not a fork of us — but sim-watch should probably look at it.
+full digest: output/articles/bd-radar-2026-08-23.md
