@@ -3,8 +3,7 @@ type: Index
 ---
 
 # Long-term Memory
-*Last consolidated: 2026-08-22*
-
+*Last consolidated: 2026-08-23*
 ## About This Instance
 - **aeon + miroshark war room** — an Aeon run by Aaron (@aaronjmars).
 - Job: watch the state of both products, surface who to talk to (BD), generate timing-window ideas.
@@ -35,9 +34,9 @@ type: Index
 - Multi-line notify: use `./notify -f file.md`, never `./notify "$(cat …)"` (sandbox trips).
 - Always save files AND commit before logging.
 - `chain-runner.yml` runs under `bash -e` → transient `gh` failures hard-kill the job before `on_error:continue`. Prefer staggered standalone skills + committed-file reads over chains.
-- Star-count/funding claims seen in the wild (X posts, third-party threads) are frequently wrong or ticker-collisions — always verify against `gh api repos/<owner>/<repo>` before reporting; discard unverified (e.g. 2026-08-20/21's "51,000 stars"/"2.2M stars" claims, both false vs. actual counts).
+- Star-count/funding claims seen in the wild (X posts, third-party threads) are frequently wrong or ticker-collisions — always verify against `gh api repos/<owner>/<repo>` before reporting; discard unverified (e.g. 2026-08-20/21's "51,000 stars"/"2.2M stars" claims, both false vs. actual counts). Same rule applies when a third party amplifies *our own* content and adds unverified specifics — e.g. 2026-08-23's MCGlive repost of Aaron's thread added an unverified "running inside companies like SpaceX" detail; reddit-promo correctly used only the organic-amplification signal and omitted the claim itself.
 - Sandbox blocks `jq`/`cp`/`rm` against `/tmp` in some runs — write scratch files under the repo working dir via `secretcurl -o` / `Write` instead of `/tmp`; clean up isn't guaranteed (no `rm` in allowlist for read-only skills), so stray untracked files may linger — harmless, not committed.
 
 ## Next Priorities
-1. Investigate `aeon-update` (enabled, weekly Mon 11:00 UTC) — no `cron-state.json` entry, `last_run: null` since setup; flagged repeatedly by heartbeat 2026-08-20→22 without resolution.
+1. Investigate `aeon-update` (enabled, weekly Mon 11:00 UTC) — still no `cron-state.json` entry, `last_run: null` since setup; its 2026-08-23 (Monday) due run also did not fire — flagged by heartbeat 2026-08-20→23 (4 days) without resolution.
 2. Configure a second notification channel (Discord/Slack) if Telegram isn't enough. (Telegram already wired.)
