@@ -1,19 +1,21 @@
-Committed. Now the final output message as required by CLAUDE.md — must carry the substance, not just a pointer.
+Committed. Per the memory-flush skill contract, my final output must carry the substance:
 
-## memory-flush — 2026-08-22
+## Memory Flush — 2026-08-22 → 2026-08-23
 
-**Promoted to MEMORY.md:**
-- Fixed stale canonical repo names in "The two products": `aaronjmars/aeon` → `aeonfun/aeon`, `aaronjmars/MiroShark` → `MiroShark/MiroShark` (org renames surfaced by bd-radar 2026-08-21, old paths just 301-redirect). Also fixed a broken reference to a nonexistent `memory/watched-repos.md` → correct file is `memory/products.md`.
-- Rewrote the "War-room skills" table, which was badly out of date (last touched 2026-06-11): it listed `sim-watch` (skill directory no longer exists — fully retired) and `idea-forge` as active weekly skills, but `idea-forge` is `enabled: false` in `aeon.yml` and `sim-watch` isn't there at all. Replaced with the 8 skills actually running today: bd-radar, mention-radar, fetch-tweets, reddit-promo, engagement-act, heartbeat, aeon-update, memory-flush — with real cadences pulled from `aeon.yml`.
-- Added `666ghj/MiroFish` (71,299★ competitor with near-identical positioning to Miroshark, flagged by bd-radar 2026-08-21) to a new watch-list line.
-- Added two Lessons Learned: (1) star-count/funding claims from X threads are frequently wrong or ticker-collisions — verify against `gh api` before reporting (two false claims caught 2026-08-20/21: "51,000 stars", "2.2M stars"); (2) sandbox blocks `jq`/`cp`/`rm` against `/tmp` in some runs — write scratch files to the repo working dir instead (from mention-radar 2026-08-22).
-- Refreshed Next Priorities: dropped the stale "tune schedules after first week" (odd/even day cadences are already live and working), added investigating `aeon-update`, which heartbeat has flagged three days running as never-dispatched (`last_run: null` in `aeon-update-state.json` despite being enabled weekly).
+**Scan window:** 2 days (watermark was current, no gap clamp). Read `memory/logs/2026-08-22.md` and `memory/logs/2026-08-23.md`.
 
-**Pruned:** checked for an "Open Improvement PRs" section — none existed, and `gh pr list`/`gh issue list` both return empty, so nothing to remove there.
+**Promoted:**
+1. Broadened the "verify unverified claims" Lessons Learned bullet — the existing rule (always verify star/funding claims via `gh api`) now explicitly covers third-party amplification of our own content too: MCGlive's 2026-08-23 repost of Aaron's thread added an unverified "running inside companies like SpaceX" detail; reddit-promo correctly omitted the claim and used only the organic-amplification signal.
+2. Strengthened Next Priorities #1 (`aeon-update`) — confirmed via `cron-state.json` that today's (Monday) scheduled 11:00 UTC due-run also did not fire (`last_run` still `null`). Now 4 consecutive days flagged unresolved (2026-08-20 → 23).
 
-**Result:** MEMORY.md is 44 lines (within the ~50-line budget), committed as `e37a22e`.
+**Checked, no action needed:**
+- bd-radar's 6 new leads (dan-and, wshuyi/crucible-sim, NurstarK/MiroShark, raul1stdigital/aeon-finance-district, + 2 low-fit) — already tracked/deduped in bd-radar's own `memory/topics/bd-radar-leads.json` ledger, not duplicated into MEMORY.md.
+- 2 flagged star-farm/SEO repos (luis212/NovaShoal-Swarm-Sim, Abhinesh2004/mirage-cortex) — one-off noise, not a recurring competitor pattern like MiroFish; not added to watch-list.
+- "Open Improvement PRs": `gh pr list --search "improve:"` → 0 open, section still absent, nothing to prune. (Unrelated open issue #63 is a machine-managed health thread for `engagement-act`, no regression content yet.)
+- Skills table and product config — still accurate against `aeon.yml` and today's logs.
+- Log rotation: 0 months archived, 4 daily files remain (well under the 45 threshold).
+
+**MEMORY.md:** 42 lines, within budget. Watermark stamped to 2026-08-23.
 
 ## Summary
-- Modified `memory/MEMORY.md` (repo names, skills table, lessons, priorities) and `memory/logs/2026-08-22.md` (flush log entry).
-- Committed directly to `main` (memory-only change, not code).
-- Follow-up: someone should look at why `aeon-update` has never dispatched despite being enabled weekly — that's now the top Next Priority.
+Consolidated the last 2 days of logs into `memory/MEMORY.md` (broadened a lesson, escalated the `aeon-update` priority), logged the run in `memory/logs/2026-08-23.md`, stamped `memory/memory-flush-state.json`, and committed all three (`257ea5c`). No stale sections found to prune this window; no follow-up needed beyond the standing `aeon-update` investigation.
