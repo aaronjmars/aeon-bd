@@ -1,69 +1,71 @@
-ℹ️ Reddit Promo
+ℹ️ Reddit Promo — 2026-08-23
 
-*Reddit Promo — 2026-08-22*
+*Reddit Promo — 2026-08-23*
 
-_Story:_ Third-party web3 security researcher (pashov) added Aeon to his curated GitHub list of AI-driven web3 security tools, unprompted, unpaid — https://x.com/0xFireFist/status/2090731542364438614
-
----
-*r/OpenSourceAI* · archetype: open-source
-*Title:* a security researcher added Aeon to a curated web3-security tools list, unprompted
-*Body:*
-pashov (well-known web3 security auditor) maintains a curated GitHub list of AI-driven web3 security tooling. this week Aeon showed up on it. nobody asked, nobody paid — it just got added as a real defensive project people are actually running.
-
-context: Aeon has been running its own vuln-scanner fleets against real open-source repos (Vercel, Alibaba, Perplexity, OpenClaw) — agents that find exploits and open actual PRs to fix them. the thesis: audits alone don't scale (Balancer ran 11 audits and still got hacked for $128M), so tokenize the security work and let agents scan 24/7 instead of a point-in-time check.
-
-Aeon itself is open source (AGPL) — the whole framework is "skills" written as plain markdown files that run on GitHub Actions cron, no approval loop, self-repairing when a skill breaks. the vuln-scanner is one skill among ~200.
-
-repo's here if you want to see how a skill is actually structured: https://github.com/aeonfun/aeon
-
-happy to answer questions on the self-repair loop or the scanner mechanics.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=a%20security%20researcher%20added%20Aeon%20to%20a%20curated%20web3-security%20tools%20list%2C%20unprompted)
-_notes: disclose as the builder, not a neutral discoverer — check r/OpenSourceAI's self-promo flair/ratio rule before posting._
-
----
-*r/aiecosystem* · archetype: agents
-*Title:* where 'autonomous' agent frameworks actually diverge: got a data point this week
-*Body:*
-most "agentic framework" comparisons are marketing copy. here's an actual one: a third-party security researcher (pashov, does web3 audits) curates a list of AI-driven web3 security tools on GitHub. this week Aeon — a framework I built — got added, for running autonomous vuln-scanner agents that open real PRs on real repos, unattended.
-
-the distinction that matters in this category isn't model quality, it's autonomy: does the agent need a human in the loop to act? Aeon's answer is cron + self-repair — skills run on GitHub Actions on a schedule, and when a skill breaks, another skill fixes it and reopens the PR. no approval gate. most agent frameworks are "you drive" — this is closer to "it drives, you watch the public traces."
-
-site: https://aeon.fun if you want to see the shape of it.
-
-curious what other frameworks people here have seen actually running unattended vs. needing a human to approve every loop.
-*Link in post:* https://aeon.fun
-*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=where%20%27autonomous%27%20agent%20frameworks%20actually%20diverge%3A%20got%20a%20data%20point%20this%20week)
-_notes: keep the framing comparative, not salesy — disclose as the builder up front._
-
----
-*r/CoolGithubProjects* · archetype: github
-*Title:* Aeon - the most autonomous agent framework, just got added to a curated web3-security tools list
-*Body:*
-what: Aeon is an open-source (AGPL) framework where every capability is a "skill" — a plain markdown file — that runs unattended on GitHub Actions cron. no approval loop, self-repairing (skills that break get fixed by other skills, PR'd automatically).
-
-why this is here: this week a third-party web3 security researcher (pashov) added Aeon to his curated list of AI-driven security tooling, unprompted. context: one of Aeon's ~200 skills is a vuln-scanner fleet that finds exploits in real open-source repos (Vercel, Alibaba, Perplexity, OpenClaw) and opens real PRs to fix them.
-
-stack: Claude Code / Codex / OpenClaw as the underlying harness, GitHub Actions for the runtime, markdown for the skill layer.
-
-repo: https://github.com/aeonfun/aeon
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20the%20most%20autonomous%20agent%20framework%2C%20just%20got%20added%20to%20a%20curated%20web3-security%20tools%20list)
-_notes: sub enforces a strict title format ("Aeon - <one-line desc>") — kept as-is; disclose as builder in a top comment if their rules require it._
+_Story:_ Aaron's own thread on Aeon's survival — mcap went $14M → $600k over the past few months, kept shipping through the drawdown, anchored in security/onchain/compute + revenue, not hype (289 likes, 40 rt, 58 replies) — got organic third-party amplification (MCGlive, 85 likes) restating the security-vertical framing to a fresh audience. — https://x.com/aaronjmars/status/2091188578281807874
 
 ---
 *r/StartupMind* · archetype: startup
-*Title:* small but real traction update: a third party added us to their curated list, unprompted
+*Title:* aeon's mcap went from $14M to $600k this year. we kept shipping anyway.
 *Body:*
-building-in-public update — nothing engineered, just logging it because it's the kind of signal that's hard to fake.
+most startup posts here are "we hit $1M ARR." this one's the opposite direction.
 
-I built Aeon, an open-source autonomous agent framework. this week a web3 security researcher (pashov, does audits for a living) added Aeon to his curated GitHub list of AI-driven web3 security tools. we didn't submit it, didn't pay for placement, didn't know until someone tweeted it.
+aeon's token went from a $14M market cap to a $600k bottom over the last few months. that's not a stat you put on a pitch deck. but the framework didn't stop shipping through any of it — commits kept landing, skills kept getting added, the thing kept running unattended on GitHub Actions the whole way down.
 
-why it happened: one of Aeon's skills runs autonomous vuln-scanner fleets against real repos and opens actual fix PRs — turning the "audits don't scale" problem (see: Balancer, 11 audits, still hacked for $128M) into something that runs 24/7 instead of once. apparently different enough to get noticed by someone who reviews this space for a living.
+the reason: we never built around the token. aeon is an autonomous agent framework — it runs skills on a schedule, writes and reviews its own code, and increasingly gets used for security work (self-evolving agents that scan open-source repos for exploits and open real PRs). that's the actual product. the mcap was noise on top of it.
 
-site: https://aeon.fun
+honestly the interesting lesson isn't "number go down, number go up." it's that a drawdown is a decent filter for whether you're building something people need or something people were speculating on. we found out which one this was.
 
-happy to talk through the mechanics if anyone's building something adjacent — not selling anything here, just sharing the traction beat.
+i work on aeon (https://aeon.fun) — happy to answer anything about what kept it alive.
 *Link in post:* https://aeon.fun
-*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=small%20but%20real%20traction%20update%3A%20a%20third%20party%20added%20us%20to%20their%20curated%20list%2C%20unprompted)
-_notes: r/StartupMind values honest traction over growth-hacky tone — keep to "here's a real thing that happened," disclose as founder._
+*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=aeon%27s%20mcap%20went%20from%20%2414M%20to%20%24600k%20this%20year.%20we%20kept%20shipping%20anyway.)
+_notes: StartupMind smells growth-hacky tone fast — keep this self-critical, not a victory lap. Post as "I work on Aeon," disclose the builder relationship._
+
+---
+*r/Agent_AI* · archetype: agents
+*Title:* what shipping through a 95% drawdown taught me about building an autonomous agent framework
+*Body:*
+a few months ago aeon's token dropped from a $14M market cap to $600k. i wrote a thread about it this week because the part worth talking about isn't the number — it's what kept running underneath it.
+
+aeon is a fork-and-configure agent framework: you enable "skills" (self-contained markdown capabilities), schedule them on cron, and it runs unattended on GitHub Actions — no approval loop, no babysitting. through the entire drawdown, that loop didn't stop. skills kept shipping, the self-repair loop kept catching its own failures and filing fixes, cron kept firing.
+
+what got an unprompted signal boost this week is the same theme — an independent account picked up the thread on its own and ran with the "this is turning into infra other things get built on top of, including security scanning on real repos" framing. we didn't pay for that, didn't ask for it.
+
+the takeaway for anyone building agent infra: the autonomy loop is the actual moat, not the narrative around it. if your framework needs you to be online to keep functioning, you don't have autonomy, you have a cron job with a UI.
+
+repo's here if you want to see the skill format: https://github.com/aeonfun/aeon — i'm one of the people building it, ask away.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=what%20shipping%20through%20a%2095%25%20drawdown%20taught%20me%20about%20building%20an%20autonomous%20agent%20framework)
+_notes: no vendor-vs-vendor trash talk per the archetype — stick to what's different, not who's worse. Disclose as builder, check for a self-promo flair before posting._
+
+---
+*r/aiecosystem* · archetype: agents
+*Title:* surviving a brutal drawdown as an open-source agent framework — an honest post-mortem
+*Body:*
+posting this because most "we survived a crash" posts are either humblebrags or eulogies, and i wanted to write the boring middle version.
+
+aeon (an autonomous agent framework — skills-as-markdown, runs on GitHub Actions cron, self-repairs) had its token mcap fall from $14M to a $600k bottom over the past few months. no rescue narrative, no relaunch, just: kept merging code, kept adding skills, kept running the same unattended loop it always ran.
+
+what's interesting from an ecosystem standpoint is where the pitch is actually landing now — not the token, but the security/onchain/compute angle: agents that scan repos for exploits and open real PRs, running continuously without a human in the loop. that's the part that got picked up organically by an account outside our own orbit this week, no ask involved.
+
+if you're mapping the agent-framework landscape, this is a decent data point for "which of these projects are actually infra vs. which were speculation with a github repo attached."
+
+site's here if you want the overview: https://aeon.fun
+*Link in post:* https://aeon.fun
+*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=surviving%20a%20brutal%20drawdown%20as%20an%20open-source%20agent%20framework%20-%20an%20honest%20post-mortem)
+_notes: ecosystem/tooling readers, keep it comparative and low-jargon. Disclose as the builder, respect the sub's self-promo ratio._
+
+---
+*r/OpenSourceAI* · archetype: open-source
+*Title:* we didn't stop merging PRs while our token dropped 95% - the open-source framework we kept building
+*Body:*
+aeon is AGPL, open source, and this week i posted a thread about the ugliest stretch of its life so far: token mcap went from $14M to a $600k bottom over a few months. i'm posting the open-source version of that story here.
+
+the mechanic that kept it alive is boring and that's the point: a skill in aeon is just a markdown file (`SKILL.md`) with frontmatter describing what it does and when it runs. the agent reads it, executes it on a GitHub Actions cron, and — this is the part that matters — can write, review, and merge fixes to its own skills without a human clicking approve. that loop ran the entire drawdown. nobody had to keep it alive manually.
+
+the security angle is what's getting picked up outside our own posts now — self-evolving agents running against open-source repos, finding exploits, opening real PRs. that's the direction the project's actually heading, independent of what the token was doing.
+
+repo's here, AGPL, skills are just files: https://github.com/aeonfun/aeon — i work on it, ask me anything about the mechanics.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=we%20didn%27t%20stop%20merging%20PRs%20while%20our%20token%20dropped%2095%25%20-%20the%20open-source%20framework%20we%20kept%20building)
+_notes: show-don't-sell crowd — lead with the mechanic (SKILL.md format), not the pitch. Disclose as builder, check the sub's self-promo/flair rule before posting._

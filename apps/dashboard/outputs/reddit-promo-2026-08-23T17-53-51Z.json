@@ -1,0 +1,461 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-23"
+      },
+      "children": [
+        "story_section",
+        "sep1",
+        "reddit_posts_section"
+      ]
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_heading",
+        "story_desc",
+        "x_thread_link",
+        "story_stats"
+      ]
+    },
+    "story_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h2"
+      }
+    },
+    "story_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Aaron's own thread on Aeon's survival — mcap went $14M → $600k over the past few months, kept shipping through the drawdown, anchored in security/onchain/compute + revenue, not hype",
+        "variant": "body"
+      }
+    },
+    "x_thread_link": {
+      "type": "Link",
+      "props": {
+        "label": "View X thread",
+        "href": "https://x.com/aaronjmars/status/2091188578281807874"
+      }
+    },
+    "story_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stats_primary",
+        "stats_amplify"
+      ]
+    },
+    "stats_primary": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_likes",
+        "stat_retweets",
+        "stat_replies"
+      ]
+    },
+    "stat_likes": {
+      "type": "Stat",
+      "props": {
+        "label": "Likes",
+        "value": "289"
+      }
+    },
+    "stat_retweets": {
+      "type": "Stat",
+      "props": {
+        "label": "Retweets",
+        "value": "40"
+      }
+    },
+    "stat_replies": {
+      "type": "Stat",
+      "props": {
+        "label": "Replies",
+        "value": "58"
+      }
+    },
+    "stats_amplify": {
+      "type": "Text",
+      "props": {
+        "text": "Organic amplification: MCGlive picked up the thread independently with 85 likes, restating the security-vertical framing to a fresh audience",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reddit_posts_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "reddit_post_1",
+        "reddit_post_2",
+        "reddit_post_3",
+        "reddit_post_4"
+      ]
+    },
+    "reddit_post_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "r1_badges",
+        "r1_title",
+        "r1_body",
+        "r1_links",
+        "r1_notes"
+      ]
+    },
+    "r1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "r1_subreddit",
+        "r1_archetype"
+      ]
+    },
+    "r1_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/StartupMind",
+        "variant": "default"
+      }
+    },
+    "r1_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "secondary"
+      }
+    },
+    "r1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "aeon's mcap went from $14M to $600k this year. we kept shipping anyway.",
+        "level": "h3"
+      }
+    },
+    "r1_body": {
+      "type": "Text",
+      "props": {
+        "text": "most startup posts here are \"we hit $1M ARR.\" this one's the opposite direction.\n\naeon's token went from a $14M market cap to a $600k bottom over the last few months. that's not a stat you put on a pitch deck. but the framework didn't stop shipping through any of it — commits kept landing, skills kept getting added, the thing kept running unattended on GitHub Actions the whole way down.\n\nthe reason: we never built around the token. aeon is an autonomous agent framework — it runs skills on a schedule, writes and reviews its own code, and increasingly gets used for security work (self-evolving agents that scan open-source repos for exploits and open real PRs). that's the actual product. the mcap was noise on top of it.\n\nhonestly the interesting lesson isn't \"number go down, number go up.\" it's that a drawdown is a decent filter for whether you're building something people need or something people were speculating on. we found out which one this was.\n\ni work on aeon — happy to answer anything about what kept it alive.",
+        "variant": "body"
+      }
+    },
+    "r1_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r1_link_aeon",
+        "r1_link_composer"
+      ]
+    },
+    "r1_link_aeon": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "r1_link_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=aeon%27s%20mcap%20went%20from%20%2414M%20to%20%24600k%20this%20year.%20we%20kept%20shipping%20anyway."
+      }
+    },
+    "r1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "StartupMind smells growth-hacky tone fast — keep this self-critical, not a victory lap. Post as \"I work on Aeon,\" disclose the builder relationship.",
+        "variant": "caption"
+      }
+    },
+    "reddit_post_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "r2_badges",
+        "r2_title",
+        "r2_body",
+        "r2_links",
+        "r2_notes"
+      ]
+    },
+    "r2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "r2_subreddit",
+        "r2_archetype"
+      ]
+    },
+    "r2_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/Agent_AI",
+        "variant": "default"
+      }
+    },
+    "r2_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "r2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "what shipping through a 95% drawdown taught me about building an autonomous agent framework",
+        "level": "h3"
+      }
+    },
+    "r2_body": {
+      "type": "Text",
+      "props": {
+        "text": "a few months ago aeon's token dropped from a $14M market cap to $600k. i wrote a thread about it this week because the part worth talking about isn't the number — it's what kept running underneath it.\n\naeon is a fork-and-configure agent framework: you enable \"skills\" (self-contained markdown capabilities), schedule them on cron, and it runs unattended on GitHub Actions — no approval loop, no babysitting. through the entire drawdown, that loop didn't stop. skills kept shipping, the self-repair loop kept catching its own failures and filing fixes, cron kept firing.\n\nwhat got an unprompted signal boost this week is the same theme — an independent account picked up the thread on its own and ran with the \"this is turning into infra other things get built on top of, including security scanning on real repos\" framing. we didn't pay for that, didn't ask for it.\n\nthe takeaway for anyone building agent infra: the autonomy loop is the actual moat, not the narrative around it. if your framework needs you to be online to keep functioning, you don't have autonomy, you have a cron job with a UI.\n\nrepo's here if you want to see the skill format — i'm one of the people building it, ask away.",
+        "variant": "body"
+      }
+    },
+    "r2_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r2_link_repo",
+        "r2_link_composer"
+      ]
+    },
+    "r2_link_repo": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "r2_link_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Agent_AI composer",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=what%20shipping%20through%20a%2095%25%20drawdown%20taught%20me%20about%20building%20an%20autonomous%20agent%20framework"
+      }
+    },
+    "r2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "No vendor-vs-vendor trash talk per the archetype — stick to what's different, not who's worse. Disclose as builder, check for a self-promo flair before posting.",
+        "variant": "caption"
+      }
+    },
+    "reddit_post_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "r3_badges",
+        "r3_title",
+        "r3_body",
+        "r3_links",
+        "r3_notes"
+      ]
+    },
+    "r3_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "r3_subreddit",
+        "r3_archetype"
+      ]
+    },
+    "r3_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/aiecosystem",
+        "variant": "default"
+      }
+    },
+    "r3_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "r3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "surviving a brutal drawdown as an open-source agent framework — an honest post-mortem",
+        "level": "h3"
+      }
+    },
+    "r3_body": {
+      "type": "Text",
+      "props": {
+        "text": "posting this because most \"we survived a crash\" posts are either humblebrags or eulogies, and i wanted to write the boring middle version.\n\naeon (an autonomous agent framework — skills-as-markdown, runs on GitHub Actions cron, self-repairs) had its token mcap fall from $14M to a $600k bottom over the past few months. no rescue narrative, no relaunch, just: kept merging code, kept adding skills, kept running the same unattended loop it always ran.\n\nwhat's interesting from an ecosystem standpoint is where the pitch is actually landing now — not the token, but the security/onchain/compute angle: agents that scan repos for exploits and open real PRs, running continuously without a human in the loop. that's the part that got picked up organically by an account outside our own orbit this week, no ask involved.\n\nif you're mapping the agent-framework landscape, this is a decent data point for \"which of these projects are actually infra vs. which were speculation with a github repo attached.\"\n\nsite's here if you want the overview.",
+        "variant": "body"
+      }
+    },
+    "r3_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r3_link_site",
+        "r3_link_composer"
+      ]
+    },
+    "r3_link_site": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "r3_link_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=surviving%20a%20brutal%20drawdown%20as%20an%20open-source%20agent%20framework%20-%20an%20honest%20post-mortem"
+      }
+    },
+    "r3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Ecosystem/tooling readers, keep it comparative and low-jargon. Disclose as the builder, respect the sub's self-promo ratio.",
+        "variant": "caption"
+      }
+    },
+    "reddit_post_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "r4_badges",
+        "r4_title",
+        "r4_body",
+        "r4_links",
+        "r4_notes"
+      ]
+    },
+    "r4_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "r4_subreddit",
+        "r4_archetype"
+      ]
+    },
+    "r4_subreddit": {
+      "type": "Badge",
+      "props": {
+        "text": "r/OpenSourceAI",
+        "variant": "default"
+      }
+    },
+    "r4_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "r4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "we didn't stop merging PRs while our token dropped 95% - the open-source framework we kept building",
+        "level": "h3"
+      }
+    },
+    "r4_body": {
+      "type": "Text",
+      "props": {
+        "text": "aeon is AGPL, open source, and this week i posted a thread about the ugliest stretch of its life so far: token mcap went from $14M to a $600k bottom over a few months. i'm posting the open-source version of that story here.\n\nthe mechanic that kept it alive is boring and that's the point: a skill in aeon is just a markdown file (SKILL.md) with frontmatter describing what it does and when it runs. the agent reads it, executes it on a GitHub Actions cron, and — this is the part that matters — can write, review, and merge fixes to its own skills without a human clicking approve. that loop ran the entire drawdown. nobody had to keep it alive manually.\n\nthe security angle is what's getting picked up outside our own posts now — self-evolving agents running against open-source repos, finding exploits, opening real PRs. that's the direction the project's actually heading, independent of what the token was doing.\n\nrepo's here, AGPL, skills are just files — i work on it, ask me anything about the mechanics.",
+        "variant": "body"
+      }
+    },
+    "r4_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r4_link_repo",
+        "r4_link_composer"
+      ]
+    },
+    "r4_link_repo": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "r4_link_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/OpenSourceAI composer",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=we%20didn%27t%20stop%20merging%20PRs%20while%20our%20token%20dropped%2095%25%20-%20the%20open-source%20framework%20we%20kept%20building"
+      }
+    },
+    "r4_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Show-don't-sell crowd — lead with the mechanic (SKILL.md format), not the pitch. Disclose as builder, check the sub's self-promo/flair rule before posting.",
+        "variant": "caption"
+      }
+    }
+  }
+}
