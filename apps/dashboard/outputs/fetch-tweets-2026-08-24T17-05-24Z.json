@@ -1,0 +1,226 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark"
+      },
+      "children": [
+        "heading_main",
+        "text_context",
+        "sep1",
+        "heading_section1",
+        "tweet1_container",
+        "sep2",
+        "heading_section2",
+        "tweet2_container",
+        "tweet3_container",
+        "tweet4_container"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Tweets — Aeon/Miroshark (2026-08-24)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon's Claude-plugin launch + a deepening AgentOS/HivemindOS integration drove today's mentions — zero Miroshark signal in-window.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_section1": {
+      "type": "Heading",
+      "props": {
+        "text": "Claude Plugin Launch",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "replies1",
+        "link1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Aeon now runs as a Claude plugin: import the repo, type /aeon, and manage schedules/skills/Strategy/Soul directly from inside Claude. Founder's own post, top signal of the day.",
+        "likes": 71,
+        "retweets": 16
+      },
+      "children": []
+    },
+    "replies1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 8",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2091580744350978205"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_section2": {
+      "type": "Heading",
+      "props": {
+        "text": "AgentOS/HivemindOS Integration Deepens",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "replies2",
+        "link2"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "TheHivemindOS",
+        "handle": "TheHivemindOS",
+        "text": "After months running Aeon inside HivemindOS, the integration now exposes a full /aeon control surface (schedules, skills, Strategy/Soul/Style edits, cross-machine runs) — framed as powering a \"Zero Human Company.\"",
+        "likes": 29,
+        "retweets": 10
+      },
+      "children": []
+    },
+    "replies2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 6",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/TheHivemindOS/status/2091859799604609067"
+      },
+      "children": []
+    },
+    "tweet3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3",
+        "replies3",
+        "link3"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "useAgentOS",
+        "handle": "useAgentOS",
+        "text": "AgentOS now ships the Aeon Skill Hub natively in its Skills tab — install and run Aeon skills locally without leaving AgentOS.",
+        "likes": 16,
+        "retweets": 4
+      },
+      "children": []
+    },
+    "replies3": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/useAgentOS/status/2091906334375698882"
+      },
+      "children": []
+    },
+    "tweet4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4",
+        "replies4",
+        "link4"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AndreaPN",
+        "handle": "AndreaPN",
+        "text": "Third-party confirmation of the AgentOS integration, naming specific installable skills (investigation-report, narrative-tracker) as the draw.",
+        "likes": 3,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "replies4": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AndreaPN/status/2091926112494596590"
+      },
+      "children": []
+    }
+  }
+}
