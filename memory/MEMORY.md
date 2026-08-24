@@ -38,5 +38,5 @@ type: Index
 - Sandbox blocks `jq`/`cp`/`rm` against `/tmp` in some runs — write scratch files under the repo working dir via `secretcurl -o` / `Write` instead of `/tmp`; clean up isn't guaranteed (no `rm` in allowlist for read-only skills), so stray untracked files may linger — harmless, not committed.
 
 ## Next Priorities
-1. Investigate `aeon-update` (enabled, weekly Mon 11:00 UTC) — still no `cron-state.json` entry, `last_run: null` since setup; its 2026-08-23 (Monday) due run also did not fire — flagged by heartbeat 2026-08-20→23 (4 days) without resolution.
+1. Investigate `aeon-update` (enabled, weekly Mon 11:00 UTC) — still no `cron-state.json` entry at all, never dispatched since being enabled; due again today 2026-08-24 (Monday) 11:00 UTC — flagged by heartbeat 2026-08-20→24 (5 days) without resolution. Correction: prior logs (2026-08-20→23) mischaracterized 2026-08-23 as "Monday" — it was Sunday (verified via `python3 -c "import datetime; print(datetime.date(2026,8,23).strftime('%A'))"`); the repo is a shallow clone (1 visible commit) so git history can't confirm how many actual Mondays were missed, only that the entry has never appeared in cron-state.json.
 2. Configure a second notification channel (Discord/Slack) if Telegram isn't enough. (Telegram already wired.)
