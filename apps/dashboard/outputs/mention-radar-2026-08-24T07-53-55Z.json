@@ -1,0 +1,281 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-08-24"
+      },
+      "children": [
+        "stack_aeon",
+        "sep1",
+        "stack_miroshark",
+        "sep2",
+        "stack_engagement",
+        "sep3",
+        "stack_summary"
+      ]
+    },
+    "stack_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aeon",
+        "stack_aeon_reddit_story",
+        "text_aeon_repos",
+        "text_aeon_clarification",
+        "text_aeon_stats_label",
+        "stack_aeon_github",
+        "text_aeon_x",
+        "text_aeon_web"
+      ]
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "stack_aeon_reddit_story": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_aeon_reddit",
+        "badge_discovery"
+      ]
+    },
+    "storylink_aeon_reddit": {
+      "type": "StoryLink",
+      "props": {
+        "title": "an AI agent has been getting security patches merged into major open source repos for months and I only just noticed",
+        "href": "https://reddit.com/r/cybersecurity/",
+        "source": "r/cybersecurity, u/amu4biz • 2026-08-11 • surfaced via OffSeq.com Threat Radar",
+        "score": "0 upvotes • 0 comments"
+      }
+    },
+    "badge_discovery": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery/Press",
+        "variant": "secondary"
+      }
+    },
+    "text_aeon_repos": {
+      "type": "Text",
+      "props": {
+        "text": "Third-party discovery of Aeon's autonomous security-patch work: 70+ repos including Alibaba, Tencent, Vercel Labs. All work is transparent via GitHub Actions — every action auditable as a commit or PR. Mention is 11 days old (outside 7-day window) but first time surfaced in logs.",
+        "variant": "body"
+      }
+    },
+    "text_aeon_clarification": {
+      "type": "Text",
+      "props": {
+        "text": "Key clarification: The '2.1-2.2M GitHub stars' figure flagged as unverified on 2026-08-20/21/23 is the combined star count of the 70+ repos Aeon has patched, not Aeon's own repository count.",
+        "variant": "lead"
+      }
+    },
+    "text_aeon_stats_label": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub Stats:",
+        "variant": "body"
+      }
+    },
+    "stack_aeon_github": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_aeon_stars",
+        "stat_aeon_forks"
+      ]
+    },
+    "stat_aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "679",
+        "delta": "+2",
+        "trend": "up"
+      }
+    },
+    "stat_aeon_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "241",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "text_aeon_x": {
+      "type": "Text",
+      "props": {
+        "text": "X (Twitter): Quiet (X.AI x_search 2026-08-17→08-24, HTTP 200). No mentions from non-operator accounts.",
+        "variant": "caption"
+      }
+    },
+    "text_aeon_web": {
+      "type": "Text",
+      "props": {
+        "text": "Web (broader sweep — Reddit/HN/Product Hunt/blogs, 7-day window): Nothing else in-window. An AI-techpark 'AEON Unveils Roadmap' piece returned a 403 on fetch — unable to verify.",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_miroshark",
+        "text_miroshark_status",
+        "text_miroshark_x",
+        "text_miroshark_web",
+        "text_miroshark_stats_label",
+        "stack_miroshark_github"
+      ]
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "text_miroshark_status": {
+      "type": "Text",
+      "props": {
+        "text": "QUIET — no new external mentions this week.",
+        "variant": "body"
+      }
+    },
+    "text_miroshark_x": {
+      "type": "Text",
+      "props": {
+        "text": "X (Twitter, 2026-08-17→08-24, HTTP 200): Quiet. Only token-trading chatter ($MIROSHARK price vs $AEON) and a repost referencing the Hackernoon interview link — that's the same @Dannyhbrown thread already reported 2026-08-22, not new.",
+        "variant": "caption"
+      }
+    },
+    "text_miroshark_web": {
+      "type": "Text",
+      "props": {
+        "text": "Web: An old (March 2026) YouTube short mislabels MiroShark as a 'MiroFish fork' — 5 months stale, out of window, not reported (consistent with the known MiroFish category-overlap watch flagged 2026-08-21).",
+        "variant": "caption"
+      }
+    },
+    "text_miroshark_stats_label": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub Stats:",
+        "variant": "body"
+      }
+    },
+    "stack_miroshark_github": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_miroshark_stars",
+        "stat_miroshark_forks"
+      ]
+    },
+    "stat_miroshark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1437",
+        "delta": "+4",
+        "trend": "up"
+      }
+    },
+    "stat_miroshark_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "298"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_engagement",
+        "text_engagement"
+      ]
+    },
+    "heading_engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "text_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "None actionable this cycle. The one fresh find (OffSeq/Reddit) has zero engagement on the underlying thread — not worth a reply, logged for the record only.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_summary",
+        "text_summary"
+      ]
+    },
+    "heading_summary": {
+      "type": "Heading",
+      "props": {
+        "text": "Summary",
+        "level": "h2"
+      }
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Ran mention-radar for both products (var override: aeon, miroshark, @aeonframework, @miroshark_). X/Twitter via X.AI x_search (HTTP 200 both calls, X_SOURCE=api) came back quiet for both. Broader web sweep found one dated-but-newly-surfaced item: an OffSeq.com Threat Radar writeup of a low-engagement Aug-11 r/cybersecurity post about Aeon's autonomous security-patching — notable mainly because it resolves the '2.1-2.2M stars' figure repeatedly flagged as unverified in prior logs (it's the combined stars of the 70+ patched repos, not Aeon's own). GitHub deltas for both projects were positive but sub-5-star, not called out per threshold rule. No engagement opportunities flagged — zero live engagement on the one find. Notification sent via ./notify. Logged to memory/logs/2026-08-24.md. Files touched: memory/logs/2026-08-24.md (new), stray untracked scratch files under mrscratch/ (payload/response JSON — rm was blocked in this run's sandbox, left in place per the established 2026-08-22 workaround pattern; harmless, not committed).",
+        "variant": "body"
+      }
+    }
+  }
+}
