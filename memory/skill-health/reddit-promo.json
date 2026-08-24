@@ -1,10 +1,13 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-23T17:53:51Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-structured Reddit drafts tailored to 4 subreddit archetypes; strong strategy alignment (honest framing, flagged unverified claims, builder disclosure); memory updates confirm work occurred; however, specific tweet URLs and metrics cannot be independently verified in this context.",
-  "flags": [],
-  "avg_score": 4,
+  "last_analyzed": "2026-08-24T17:59:06Z",
+  "quality_score": 2,
+  "assessment": "Skill ran but violated core output requirement: substantive work (post drafts) was sent via notify instead of included in stdout, making claims about tailoring and quality unverifiable.",
+  "flags": [
+    "low_quality",
+    "unverifiable_claim"
+  ],
+  "avg_score": 3.6,
   "history": [
     {
       "date": "2026-08-20",
@@ -21,6 +24,10 @@
     {
       "date": "2026-08-23",
       "score": 4
+    },
+    {
+      "date": "2026-08-24",
+      "score": 2
     }
   ]
 }

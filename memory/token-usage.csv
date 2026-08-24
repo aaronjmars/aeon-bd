@@ -24,3 +24,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-24,aeon-update,claude-opus-4-8,3634,66280,5961505,108259
 2026-08-24,heartbeat,claude-sonnet-5,14867,18147,997974,66051
 2026-08-24,fetch-tweets,claude-sonnet-5,2420,13288,2362489,61234
+2026-08-24,reddit-promo,claude-sonnet-5,7035,13692,1315989,87257
