@@ -1,30 +1,22 @@
-## Ambient fleet check — 2026-08-24
+Heartbeat (ambient) run complete for 2026-08-24.
 
-**P0 — Failed & stuck skills:** No new failures or stuck skills. Two carryover items, both already flagged in the 2026-08-20→23 logs and deduped (not re-sent):
-- `digest` (disabled skill) — isolated failure 2026-08-19, `consecutive_failures=1`, never recovered but below the 🔴 bar.
-- `aeon-update` (enabled, weekly Mon 11:00 UTC) — still **no entry at all** in `cron-state.json`, never dispatched since being enabled.
+**P0 — Failed/stuck skills:** none new. `digest` (disabled) remains the sole unrecovered isolated failure from 2026-08-19 — carryover, deduped, already reported.
 
-No stuck skills, no `consecutive_failures ≥ 3`, no chronic failures. Heartbeat's own self-check is clean (last success ~24h ago, under the 36h bar).
+**Notable finding — `aeon-update` fully resolved:** PR #64 (43 upstream commits, sync watermark `b1d9079→b7a909a`, opened earlier today) is now **merged to `main`** (confirmed `gh pr view 64` → `MERGED` at 13:08 UTC, and `memory/topics/aeon-update-state.json` on `main` shows `baseline_sha: b7a909a`). PR #65 (`Egress audit hardening`, opt-in) also merged 14:36 UTC, unrelated. This closes the "Action for Aaron: review + merge PR #64" item from `MEMORY.md`. The real remaining decision: 7 conflicts the sync kept local rather than auto-merging — notably `heartbeat`/`memory-flush`/`skill-health` SKILL.md vs. upstream's `0776bbb` scorer rewrite. Updated `MEMORY.md` Next Priorities #1 to reflect this.
 
-**Date correction (memory hygiene):** Verified via `python3 -c "import datetime; print(datetime.date(2026,8,23).strftime('%A'))"` that **2026-08-23 was Sunday, not Monday** — the 2026-08-20→23 logs and `MEMORY.md` had mischaracterized it. That means `memory-flush`'s Sun 18:00 UTC run on the 23rd was correctly on-schedule (nothing anomalous), and `aeon-update`'s framing as "missed its Monday 08-23 run" was wrong — its actual due Monday is **today, 2026-08-24, 11:00 UTC** (not yet reached at this run's 08:16 UTC). The core finding is unchanged: `aeon-update` has never appeared in `cron-state.json`. The repo is a shallow clone (`git log --oneline` = 1 commit), so git history can't confirm how many real Mondays it missed — only that it's never fired. Corrected `MEMORY.md` Next Priorities #1 to drop the wrong date claim.
+**P1:** 0 open PRs (both #64/#65 merged). 1 open issue (#63 `health: engagement-act`, unlabeled, machine-managed, not urgent) — carryover.
 
-**P1 — Stalled PRs & urgent issues:** `gh pr list` → 0 open. `gh issue list` → 1 open (#63 `health: engagement-act`, unlabeled, machine-managed health thread) — not urgent, not new.
+**P2:** MEMORY.md hygiene update only (above) — this reflects Aaron's own merge action, not new information for him, so no notification fired for it.
 
-**P2 — Flagged memory items:** Nothing new beyond the standing Next Priorities (now date-corrected).
+**P3:** clear — every enabled skill has a fresh cron-state entry within its schedule window; `aeon-update` no longer shows as never-dispatched.
 
-**P3 — Missing scheduled skills:** Only carryover is `aeon-update` (never dispatched, unchanged) — due today 11:00 UTC.
+**Status page:** `docs/status.md` regenerated — Overall **🟡 WATCH** (driven solely now by `digest`'s carryover isolated failure; the `aeon-update` driver is gone), 8 enabled skills in the table, next scheduled run `fetch-tweets` at 17:00 UTC today.
 
-**Token pulse:** No `output/articles/token-report-*.md` exists — section omitted from the status page.
+Notification: none sent — nothing crossed the actionable bar that Aaron doesn't already know.
 
-**Notification:** None sent — everything above is either already reported within 48h (deduped) or a memory-hygiene fix, not a new actionable signal for Aaron.
-
-`STATUS_PAGE=WATCH` — wrote `docs/status.md` (8 enabled skills in table; verdict driven by carryover `digest` unrecovered isolated failure + `aeon-update` never-dispatched, both pre-existing, no new signal).
-
-HEARTBEAT_OK · STATUS_PAGE=WATCH
+`HEARTBEAT_OK · STATUS_PAGE=WATCH`
 
 ## Summary
-- Ran the ambient heartbeat check (empty `${var}`, live scheduled path). No new failures, no notification (all findings deduped/carryover).
-- Found and fixed a date error: 2026-08-23 was Sunday, not Monday — corrected `memory/MEMORY.md` Next Priorities #1.
-- Regenerated `docs/status.md` (verdict 🟡 WATCH) and appended the `### heartbeat` entry to `memory/logs/2026-08-24.md`.
-- Files modified: `docs/status.md`, `memory/MEMORY.md`, `memory/logs/2026-08-24.md`. No git commands run — the workflow auto-commits these to `main`.
-- Follow-up: `aeon-update` is due today 11:00 UTC and has never fired — worth watching whether it dispatches on schedule this time.
+- Modified: `docs/status.md` (regenerated, WATCH driver narrowed to `digest` only), `memory/MEMORY.md` (Next Priorities #1 marked resolved w/ new sub-item on pending upstream-conflict adoption), `memory/logs/2026-08-24.md` (appended `### heartbeat` entry).
+- Verified via `gh`: PR #64 and #65 both merged; 0 open PRs; 1 open non-urgent issue (#63).
+- Follow-up for Aaron: decide whether to adopt upstream's scorer rewrite into `heartbeat`/`memory-flush`/`skill-health` (see `memory/topics/aeon-update-state.json` → `pending_conflicts`). Files land on `main` via the workflow's auto-commit — no manual git action taken here.
