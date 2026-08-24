@@ -1,7 +1,21 @@
 {
-  "baseline_sha": "b1d907976ee1d2939b4b545ee4aab46b9fed06a9",
+  "baseline_sha": "b7a909aa412d8e654df15417fcff0682dac39682",
   "upstream": "aeonfun/aeon",
-  "last_run": null,
-  "last_pr": null,
-  "pending_conflicts": []
+  "last_run": "2026-08-24",
+  "last_pr": "https://github.com/aaronjmars/aeon-bd/pull/64",
+  "applied": { "added": 24, "updated": 51, "deleted": 4 },
+  "pending_conflicts": [
+    { "path": ".github/workflows/ci-tests.yml", "reason": "operator-customized", "upstream_commits": ["6535c66", "f91b023", "5c766da", "8367e67", "a95f09e", "b0c3cb7", "ce8b641"] },
+    { "path": ".github/workflows/messages.yml", "reason": "operator-customized", "upstream_commits": ["6535c66", "750ac8a", "e93f6ec", "8367e67", "c139fd7"] },
+    { "path": "CHANGELOG.md", "reason": "operator-customized-append-region", "upstream_commits": ["b1d9079..b7a909a"] },
+    { "path": "llms.txt", "reason": "add-add-collision-fork-local", "upstream_commits": ["d208931"] },
+    { "path": "skills/heartbeat/SKILL.md", "reason": "operator-customized", "upstream_commits": ["0776bbb"] },
+    { "path": "skills/memory-flush/SKILL.md", "reason": "operator-customized", "upstream_commits": ["411bcfb", "0776bbb"] },
+    { "path": "skills/skill-health/SKILL.md", "reason": "operator-customized", "upstream_commits": ["0776bbb"] }
+  ],
+  "informational_divergences": [
+    { "path": ".claude/skills/aeon/references/secrets.md", "note": "upstream modified; not tracked in this fork - kept absent" },
+    { "path": "skills/deploy-uni-hook/SKILL.md", "note": "upstream modified; skill removed locally (not enabled) - kept removed" },
+    { "path": "skills/deploy-uni-hook/hook-deploy.sh", "note": "upstream modified; skill removed locally - kept removed" }
+  ]
 }
