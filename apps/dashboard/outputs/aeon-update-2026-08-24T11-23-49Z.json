@@ -1,0 +1,247 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "aeon-update: sync PR #64",
+        "description": "First real framework sync since setup"
+      },
+      "children": [
+        "date",
+        "stats-row",
+        "summary-stack",
+        "sep1",
+        "conflicts-section",
+        "sep2",
+        "decision-section",
+        "link-pr"
+      ]
+    },
+    "date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-24",
+        "variant": "caption"
+      }
+    },
+    "stats-row": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-upstream",
+        "stat-files"
+      ]
+    },
+    "stat-upstream": {
+      "type": "Stat",
+      "props": {
+        "label": "Upstream Commits",
+        "value": "43"
+      }
+    },
+    "stat-files": {
+      "type": "Stat",
+      "props": {
+        "label": "Files Applied Clean",
+        "value": "79"
+      }
+    },
+    "summary-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-new",
+        "text-merged",
+        "text-conflict-count"
+      ]
+    },
+    "text-new": {
+      "type": "Text",
+      "props": {
+        "text": "24 new files: Codex plugin, fx/Vercel 7th harness, audit log, dry-run gate, reactive+chain evaluators, memory_prep"
+      }
+    },
+    "text-merged": {
+      "type": "Text",
+      "props": {
+        "text": "10 auto-merged 3-way — your local edits kept"
+      }
+    },
+    "text-conflict-count": {
+      "type": "Text",
+      "props": {
+        "text": "7 conflicts, kept your version"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conflicts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conflicts-heading",
+        "conflicts-group1",
+        "conflicts-group2"
+      ]
+    },
+    "conflicts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Conflicts (kept your version)",
+        "level": "h3"
+      }
+    },
+    "conflicts-group1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-group1-head",
+        "badge-hb",
+        "badge-mf",
+        "badge-sh"
+      ]
+    },
+    "text-group1-head": {
+      "type": "Text",
+      "props": {
+        "text": "Skill conflicts — collide with upstream scorer rewrite (#921). Your war-room tuning vs their grading changes:",
+        "variant": "body"
+      }
+    },
+    "badge-hb": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "outline"
+      }
+    },
+    "badge-mf": {
+      "type": "Badge",
+      "props": {
+        "text": "memory-flush",
+        "variant": "outline"
+      }
+    },
+    "badge-sh": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "outline"
+      }
+    },
+    "conflicts-group2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-group2-head",
+        "badge-ci",
+        "badge-msg",
+        "badge-cl",
+        "badge-llm"
+      ]
+    },
+    "text-group2-head": {
+      "type": "Text",
+      "props": {
+        "text": "Config/doc conflicts:",
+        "variant": "body"
+      }
+    },
+    "badge-ci": {
+      "type": "Badge",
+      "props": {
+        "text": "ci-tests.yml",
+        "variant": "outline"
+      }
+    },
+    "badge-msg": {
+      "type": "Badge",
+      "props": {
+        "text": "messages.yml",
+        "variant": "outline"
+      }
+    },
+    "badge-cl": {
+      "type": "Badge",
+      "props": {
+        "text": "CHANGELOG.md",
+        "variant": "outline"
+      }
+    },
+    "badge-llm": {
+      "type": "Badge",
+      "props": {
+        "text": "llms.txt",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decision-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decision-heading",
+        "decision-action",
+        "decision-note"
+      ]
+    },
+    "decision-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Next Step",
+        "level": "h3"
+      }
+    },
+    "decision-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Review + merge PR #64. Merging advances sync watermark to b7a909a. Reconcile the 3 skill conflicts (heartbeat, memory-flush, skill-health) by hand.",
+        "type": "info"
+      }
+    },
+    "decision-note": {
+      "type": "Text",
+      "props": {
+        "text": "aeon.yml untouched — upstream only changed commented docs, no new skills.",
+        "variant": "caption"
+      }
+    },
+    "link-pr": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #64: aeon-update sync",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/64",
+        "source": "GitHub"
+      }
+    }
+  }
+}

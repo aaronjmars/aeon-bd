@@ -1,0 +1,5 @@
+aeon-update: sync upstream b1d9079..b7a909a
+
+43 upstream commits from aeonfun/aeon. 79 files applied cleanly (24 added, 51 updated, 4 deleted), 7 conflicts need manual review. Baseline advanced to b7a909a.
+
+Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
