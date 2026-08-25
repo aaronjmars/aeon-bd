@@ -129,6 +129,46 @@
       "score": 4,
       "date_found": "2026-08-23",
       "url": "https://github.com/alexverify/aeon"
+    },
+    {
+      "key": "github:sparkleware/sparkleware",
+      "class": "building",
+      "who": "sparkleware",
+      "signal": "Built a full skill-pack marketplace/registry for Aeon (13 repos: registry itself, live Aeon fork, 6+ published skill packs, plus a cross-product Aeon+MiroShark preview piece). Live at sparkleware.fun, updated within the hour. Not yet in the official catalog/skill-packs.json listing.",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-25",
+      "url": "https://github.com/sparkleware/sparkleware"
+    },
+    {
+      "key": "github:czijian729-oss/aeon",
+      "class": "building",
+      "who": "czijian729-oss/aeon",
+      "signal": "Live Aeon fork, 116 commits ahead of aeonfun/aeon:main, running own custom crypto skills (token-pick, price-alert, utoken-watch) autonomously since mid-August",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-25",
+      "url": "https://github.com/czijian729-oss/aeon"
+    },
+    {
+      "key": "github:raul1stdigital/aeon",
+      "class": "building",
+      "who": "raul1stdigital/aeon",
+      "signal": "Live driver repo for the already-known raul1stdigital/aeon-finance-district lead (2026-08-23, integrating, no PR yet); hand-authored commits shipping deploy-uni-hook + finance-district-mcp, 55 commits ahead of main",
+      "fit": 2,
+      "score": 10,
+      "date_found": "2026-08-25",
+      "url": "https://github.com/raul1stdigital/aeon"
+    },
+    {
+      "key": "github:anbeime/skill",
+      "class": "mentioning",
+      "who": "anbeime/skill",
+      "signal": "5,742-star Chinese-language AI Agent skill directory (416 packs), pushed today, README references aeonfun/aeon",
+      "fit": 1,
+      "score": 2,
+      "date_found": "2026-08-25",
+      "url": "https://github.com/anbeime/skill"
     }
   ],
   "surfaced": [
@@ -144,6 +184,10 @@
     "github:NurstarK/MiroShark",
     "github:raul1stdigital/aeon-finance-district",
     "github:Danypsy/aeon-perso",
-    "github:alexverify/aeon"
+    "github:alexverify/aeon",
+    "github:sparkleware/sparkleware",
+    "github:czijian729-oss/aeon",
+    "github:raul1stdigital/aeon",
+    "github:anbeime/skill"
   ]
 }
