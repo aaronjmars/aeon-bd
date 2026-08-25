@@ -7,7 +7,7 @@ permalink: /status/
 # Agent Status
 
 **Overall:** 🟡 WATCH
-**Updated:** 2026-08-25 22:30 UTC
+**Updated:** 2026-08-25 23:35 UTC
 **Open issues:** 0
 **Next scheduled run:** mention-radar at 07:25 UTC (2026-08-26)
 
@@ -21,12 +21,12 @@ Regressions also surface as **votable** per-skill GitHub Issues (`health: <skill
 
 | Skill | Last run | Status | Success rate | Consecutive failures |
 |-------|----------|--------|-------------:|---------------------:|
+| aeon-update | 2026-08-25 22:46 UTC | ✅ success | 100% | 0 |
+| heartbeat | 2026-08-25 22:32 UTC | ✅ success | 97% | 0 |
 | reddit-promo | 2026-08-25 18:00 UTC | ✅ success | 96% | 0 |
 | fetch-tweets | 2026-08-25 17:08 UTC | ✅ success | 100% | 0 |
 | engagement-act | 2026-08-25 09:48 UTC | ✅ success | 100% | 0 |
-| heartbeat | 2026-08-25 08:05 UTC | ✅ success | 97% | 0 |
 | bd-radar | 2026-08-25 07:53 UTC | ✅ success | 97% | 0 |
-| aeon-update | 2026-08-24 11:24 UTC | ✅ success | 100% | 0 |
 | mention-radar | 2026-08-24 07:56 UTC | ✅ success | 100% | 0 |
 | memory-flush | 2026-08-23 18:05 UTC | ✅ success | 100% | 0 |
 
