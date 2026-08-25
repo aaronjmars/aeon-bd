@@ -1,13 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-24T17:59:06Z",
-  "quality_score": 2,
-  "assessment": "Skill ran but violated core output requirement: substantive work (post drafts) was sent via notify instead of included in stdout, making claims about tailoring and quality unverifiable.",
-  "flags": [
-    "low_quality",
-    "unverifiable_claim"
-  ],
-  "avg_score": 3.6,
+  "last_analyzed": "2026-08-25T17:58:12Z",
+  "quality_score": 4,
+  "assessment": "Solid execution: selected the hottest story of the day (Aeon's vuln found in Google's agents-cli, Google fixed it — 216 likes), drafted 4 community-specific copy-paste-ready posts, rejected weaker stories (unverified claims, price sentiment) per strategy. Substantive, well-sourced, actionable, properly filtered. No exceptional insight beyond competent procedural work.",
+  "flags": [],
+  "avg_score": 3.67,
   "history": [
     {
       "date": "2026-08-20",
@@ -28,6 +25,10 @@
     {
       "date": "2026-08-24",
       "score": 2
+    },
+    {
+      "date": "2026-08-25",
+      "score": 4
     }
   ]
 }

@@ -1,89 +1,77 @@
-ℹ️ Reddit Promo — 2026-08-24
+ℹ️ Reddit Promo Drafts
 
-*Reddit Promo — 2026-08-24*
+*Reddit Promo — 2026-08-25*
 
-_Story:_ Aeon shipped as a native Claude plugin (`/aeon` inside Claude Code manages schedules/skills/Strategy/Soul) — Aaron's own announcement, 71 likes/16 RTs/8 replies, plus two independent platforms (HivemindOS, AgentOS) built native integrations on top of it the same week, unprompted — https://x.com/aaronjmars/status/2091580744350978205
+_Story:_ Aeon's own security-scanning skill found a high+medium severity vuln in `google/agents-cli`; Google acknowledged and shipped the fix — top-engagement item of the day (216 likes / 39 RTs / 24 replies). — https://x.com/aaronjmars/status/2092006674697437256
 
----
-*r/CLaudeSkills* · archetype: claude-skills
-*Title:* Aeon now ships as a Claude plugin: /aeon manages skills, schedules, and strategy from inside Claude Code
-*Body:*
-I build Aeon — an open-source agent framework where every capability is just a `SKILL.md` file: frontmatter + a runbook written in plain English. No custom DSL, no skill-authoring API to learn.
-
-This week it shipped as an actual Claude plugin. Import the repo, type `/aeon`, and you get schedules/skills/Strategy/Soul management directly inside Claude Code — no separate dashboard required.
-
-Here's the shape of one real skill, trimmed:
-
-```
----
-name: Reddit Promo
-category: productivity
-description: Draft copy-paste-ready Reddit posts that promote Aeon...
-var: ""
-commits: false
----
-
-Today is ${today}. Read memory/MEMORY.md and products.md for positioning.
-Steps:
-1. Collect candidate items from the daily fetch-tweets output.
-2. Dedup against memory/reddit-promo-seen.txt.
-3. Pick the strongest story, draft per-subreddit posts...
-```
-
-That's genuinely it — the whole "skill" is markdown a model reads and executes. If you can write a runbook, you can add a skill.
-
-Two things happened on top of the plugin surface this same week without anyone asking: HivemindOS wired a full `/aeon` control panel into their stack, and AgentOS shipped an Aeon Skill Hub natively in their Skills tab so you can install/run Aeon skills without leaving AgentOS.
-
-Repo: https://github.com/aeonfun/aeon (AGPL, runs unattended on GitHub Actions, self-repairs). Happy to answer questions about the plugin or the skill format.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=Aeon%20now%20ships%20as%20a%20Claude%20plugin%3A%20/aeon%20manages%20skills%2C%20schedules%2C%20and%20strategy%20from%20inside%20Claude%20Code)
-_notes: disclose as builder ("I built Aeon") in the post; check if this sub requires a self-promo flair before submitting._
-
----
-*r/AIPromptProgramming* · archetype: agents
-*Title:* Agent skills as plain markdown files - Aeon's plugin update and what two other agent platforms built on top of it
-*Body:*
-Been building Aeon, an agent framework where "prompt engineering" and "skill authoring" are the same file. A skill is a markdown doc: some frontmatter (name, schedule, required env vars) and a runbook written like you're briefing a smart colleague. The agent reads it and executes, unattended, on a cron.
-
-The mechanic that makes this work at scale: skills can chain into each other, share a persistent `memory/` directory (also just markdown), and self-repair — a health skill scores runs and files issues, repair skills fix them by opening PRs. No human in the approval loop for routine operation.
-
-This week Aeon shipped as a native Claude plugin — `/aeon` inside Claude Code drives schedules, skills, and the agent's "Strategy"/"Soul" config files directly. Within days, two unrelated platforms built on it without being asked: HivemindOS exposed a full `/aeon` control surface in their own product, and AgentOS shipped an "Aeon Skill Hub" natively in their Skills tab.
-
-Not claiming this is the only way to structure agent prompts — but if you're prompt-programming and fighting a bespoke DSL, "the skill is just markdown, the agent is the interpreter" is worth stealing as a pattern even if you don't touch Aeon itself.
-
-Repo (AGPL) if you want to see the actual skill files: https://github.com/aeonfun/aeon
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/AIPromptProgramming composer](https://www.reddit.com/r/AIPromptProgramming/submit?title=Agent%20skills%20as%20plain%20markdown%20files%20-%20Aeon%27s%20plugin%20update%20and%20what%20two%20other%20agent%20platforms%20built%20on%20top%20of%20it)
-_notes: disclose as builder; this sub leans technical/no-nonsense — keep it mechanics-first, skip the promo framing entirely if replying to comments._
-
----
-*r/Agent_AI* · archetype: agents
-*Title:* What unattended, self-repairing agent orchestration looks like in practice (Aeon's new Claude plugin + ecosystem integrations)
-*Body:*
-Sharing a concrete example of the autonomy end of the agent-framework spectrum, since most things called "agents" here still route every action through a human approval step.
-
-Aeon runs skills (markdown runbooks) on GitHub Actions cron, no approval loop — it can write, review, and merge its own skill updates, and a self-healing loop scores runs and opens repair PRs when something degrades. Every run is a public GitHub Actions trace, so "it works unattended" is checkable, not a claim you have to take on faith.
-
-This week the surface got a new front door: Aeon now runs as a Claude plugin (`/aeon` inside Claude Code manages schedules/skills/config). What's interesting from an ecosystem-design angle is what happened next, organically — HivemindOS integrated a full `/aeon` control panel into their own product, and AgentOS shipped an Aeon Skill Hub natively in their Skills tab. Neither was solicited; both happened the same week the plugin shipped.
-
-Not a knock on approval-loop frameworks — different tradeoff, different use case. Just flagging what "skills + MCP + soul + no approval loop + public traces" looks like when other platforms start building on top of it instead of you having to build the integrations yourself.
-
-Repo: https://github.com/aeonfun/aeon
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=What%20unattended%2C%20self-repairing%20agent%20orchestration%20looks%20like%20in%20practice%20%28Aeon%27s%20new%20Claude%20plugin%20%2B%20ecosystem%20integrations%29)
-_notes: disclose as builder ("I work on Aeon"); no vendor-vs-vendor framing — state what's different, don't dunk on other frameworks._
+_Supporting proof point (not linked directly, folded into "unattended, verifiable" framing):_ AgentOS opened a PR to merge into the Aeon ecosystem the same window — a second concrete, public artifact of unprompted ecosystem integration. — https://x.com/useAgentOS/status/2091906407927042421
 
 ---
 *r/OpenSourceAI* · archetype: open-source
-*Title:* Open-source agent framework where every skill is a markdown file - now ships as a Claude plugin too
+*Title:* An autonomous agent we run found (and got fixed) a real vuln in Google's own agents-cli
 *Body:*
-Aeon is AGPL-licensed, and the whole point of open-sourcing it was so people could actually read how it works instead of trusting a pitch. Here's the real mechanic: every capability ("skill") is a single markdown file — frontmatter for config, then a plain-English runbook. There's no proprietary skill format to reverse-engineer; you can open any file in `skills/` and read exactly what the agent will do and why.
+We build Aeon — an open-source (AGPL) agent framework that runs unattended on GitHub Actions, no human approving each step. One of the ~200 skills is a vuln-scanner: it reads a target repo, looks for real exploitable bugs, and opens a PR if it finds one.
 
-This week it shipped as a native Claude plugin: clone the repo, type `/aeon` in Claude Code, and manage schedules/skills/config without leaving the editor. What I like reporting on this sub specifically — because it's the part that actually validates the "open" bet — is that two other platforms (HivemindOS, AgentOS) built native integrations on top of the plugin surface within days, unprompted, because the format is open enough to build on without asking permission.
+This week it flagged a high+medium severity issue in google/agents-cli. Google reviewed it, agreed, and shipped the fix. No bug-bounty back-and-forth, no scope negotiation — an agent found a real problem in a repo it doesn't own, and the maintainers fixed it.
 
-To be clear about what this is and isn't: it's a personal/small-team framework, not a funded platform with an SLA. It runs unattended on GitHub Actions, which is powerful but means you're trusting cron + your own skill files, not a hosted service. If that tradeoff fits what you're building, the repo's here.
+The mechanic behind it is boring on purpose: a "skill" is just a markdown file with instructions plus a cron schedule. This one happens to be pointed at security. The same harness that writes a blog post can read code for exploitable patterns if that's what you tell it to do.
 
-https://github.com/aeonfun/aeon
+Repo's here if you want to see how the skill is structured: https://github.com/aeonfun/aeon. Happy to answer questions on the scanning loop or the PR flow.
+
+— builder of Aeon
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=Open-source%20agent%20framework%20where%20every%20skill%20is%20a%20markdown%20file%20-%20now%20ships%20as%20a%20Claude%20plugin%20too)
-_notes: disclose as builder; keep the "what it isn't" paragraph in — this sub rewards honesty about limitations over polish._
+*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=An%20autonomous%20agent%20we%20run%20found%20%28and%20got%20fixed%29%20a%20real%20vuln%20in%20Google%27s%20own%20agents-cli)
+_notes: r/OpenSourceAI may require a self-promo flair — check before posting; disclose as builder, single link only._
+
+---
+*r/CoolGithubProjects* · archetype: github
+*Title:* Aeon - the autonomous agent framework whose security skill just got a vuln fixed in Google's own repo
+*Body:*
+Aeon is an open-source (AGPL) framework where "skills" are just markdown files that run on a schedule via GitHub Actions — no approval loop, no human in the runtime path.
+
+This week one of those skills (a vuln scanner) read google/agents-cli, found a high+medium severity bug, and opened a PR. Google confirmed it and shipped the fix. That's the whole pitch for the project in one data point: an unattended agent finding and getting a real fix landed on a repo it doesn't own.
+
+Repo: https://github.com/aeonfun/aeon — skills are all readable there if you want to see how one's built before you'd trust it to run against your own code.
+
+I built this, happy to answer anything.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20the%20autonomous%20agent%20framework%20whose%20security%20skill%20just%20got%20a%20vuln%20fixed%20in%20Google%27s%20own%20repo)
+_notes: sub enforces a strict "Aeon - <one-line desc>" title format — don't drift from it; disclose as builder._
+
+---
+*r/Agent_AI* · archetype: agents
+*Title:* What 'fully unattended' actually looks like: our agent found a real vuln, no human touched it until the PR was already open
+*Body:*
+A lot of "autonomous agent" claims fall apart once you ask what a human actually did in the loop. Wanted to share one that didn't.
+
+We run Aeon — skills-as-markdown, cron-scheduled, on GitHub Actions, self-repairing when a skill breaks. One skill is a security scanner. This week it read google/agents-cli, found a high+medium severity vulnerability, and opened a PR. Google reviewed and shipped the fix. The only human step in the whole chain was Google's own review — ours ran cold, start to finish.
+
+Not claiming this replaces audits or professional pentesting — it's one data point on what a scheduled, unattended agent can surface when you give it a narrow job and don't gate every step with a human. Separately, another agent team (AgentOS) opened a PR to integrate with our stack this same week — also unprompted, also just a public PR you can go read.
+
+Repo + the skill's source: https://github.com/aeonfun/aeon. Curious what other agent-framework builders here are doing for unattended verification loops.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=What%20%27fully%20unattended%27%20actually%20looks%20like%3A%20our%20agent%20found%20a%20real%20vuln%2C%20no%20human%20touched%20it%20until%20the%20PR%20was%20already%20open)
+_notes: keep tone comparative, not trash-talk (no vendor-vs-vendor); disclose as builder; check self-promo ratio before posting._
+
+---
+*r/CLaudeSkills* · archetype: claude-skills
+*Title:* One markdown skill just got a real vuln fixed on a Google repo - here's roughly what it looks like
+*Body:*
+If you're already deep in Claude Code skills, this is just a skill running unattended on a schedule — but the outcome was concrete enough to share.
+
+Aeon runs ~200 skills, all just SKILL.md files plus a cron entry. One of them is a vuln scanner: reads a target repo, looks for exploitable patterns, opens a PR if it finds something real. This week it flagged a high+medium severity issue in google/agents-cli. Google reviewed it and merged the fix.
+
+Roughly the shape (simplified):
+```
+name: vuln-scanner
+schedule: cron
+steps: clone target repo -> static + agentic review for exploitable patterns -> draft PR with repro + fix -> open on target
+```
+No custom infra beyond the harness — it's the same skill format you'd write for anything else, just pointed at security instead of content.
+
+Repo (skills are all readable, it's AGPL) if anyone wants to see the real one: https://github.com/aeonfun/aeon.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=One%20markdown%20skill%20just%20got%20a%20real%20vuln%20fixed%20on%20a%20Google%20repo%20-%20here%27s%20roughly%20what%20it%20looks%20like)
+_notes: technical audience, keep the skill snippet honest/short; disclose as builder; single link only._
+
+🔗 https://x.com/aaronjmars/status/2092006674697437256
