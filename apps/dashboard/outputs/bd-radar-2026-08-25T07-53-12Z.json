@@ -1,0 +1,199 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar",
+        "description": "3 new building leads today — 2026-08-25"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead1_section",
+        "separator1",
+        "lead2_section",
+        "separator2",
+        "lead3_section",
+        "separator3",
+        "digest_link"
+      ]
+    },
+    "lead1_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead1_title",
+        "lead1_url",
+        "lead1_details",
+        "lead1_status",
+        "lead1_actions",
+        "lead1_type"
+      ]
+    },
+    "lead1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "sparkleware",
+        "level": "h3"
+      }
+    },
+    "lead1_url": {
+      "type": "Link",
+      "props": {
+        "label": "sparkleware.fun",
+        "href": "https://sparkleware.fun"
+      }
+    },
+    "lead1_details": {
+      "type": "Text",
+      "props": {
+        "text": "Full skill-pack marketplace for Aeon with 13 repos, live registry, running Aeon fork, 6+ published packs, cross-product Aeon+MiroShark piece"
+      }
+    },
+    "lead1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Not in official catalog",
+        "variant": "outline"
+      }
+    },
+    "lead1_actions": {
+      "type": "Text",
+      "props": {
+        "text": "Actions: DM them, point at listing PR, consider shoutout",
+        "variant": "body"
+      }
+    },
+    "lead1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Unpaid ecosystem infra",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead2_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead2_title",
+        "lead2_details",
+        "lead2_skills",
+        "lead2_stat"
+      ]
+    },
+    "lead2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "czijian729-oss/aeon",
+        "level": "h3"
+      }
+    },
+    "lead2_details": {
+      "type": "Text",
+      "props": {
+        "text": "Live fork with custom crypto skills"
+      }
+    },
+    "lead2_skills": {
+      "type": "Text",
+      "props": {
+        "text": "Skills: token-pick, price-alert, utoken-watch"
+      }
+    },
+    "lead2_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Commits ahead",
+        "value": "116"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead3_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead3_title",
+        "lead3_confirmation",
+        "lead3_projects",
+        "lead3_status",
+        "lead3_action"
+      ]
+    },
+    "lead3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "raul1stdigital/aeon",
+        "level": "h3"
+      }
+    },
+    "lead3_confirmation": {
+      "type": "Text",
+      "props": {
+        "text": "Confirmation: Finance District lead from 08-23, still actively shipping"
+      }
+    },
+    "lead3_projects": {
+      "type": "Text",
+      "props": {
+        "text": "Projects: deploy-uni-hook, finance-district-mcp"
+      }
+    },
+    "lead3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "No PR opened on aeonfun/aeon yet",
+        "variant": "outline"
+      }
+    },
+    "lead3_action": {
+      "type": "Text",
+      "props": {
+        "text": "Worth a nudge",
+        "variant": "muted"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "digest_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full digest",
+        "href": "output/articles/bd-radar-2026-08-25.md"
+      }
+    }
+  }
+}
