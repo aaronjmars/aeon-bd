@@ -1,0 +1,535 @@
+[
+ {
+  "path": ".claude/skills/aeon/SKILL.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CONFLICT",
+  "reason": "local-missing-upstream-modified"
+ },
+ {
+  "path": ".claude/skills/aeon/references/layout.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CONFLICT",
+  "reason": "local-missing-upstream-modified"
+ },
+ {
+  "path": ".claude/skills/aeon/references/mcp.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CONFLICT",
+  "reason": "local-missing-upstream-modified"
+ },
+ {
+  "path": ".claude/skills/aeon/references/skill-anatomy.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CONFLICT",
+  "reason": "local-missing-upstream-modified"
+ },
+ {
+  "path": ".github/README.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CONFLICT",
+  "reason": "operator-customized-overlap"
+ },
+ {
+  "path": ".github/actions/egress-audit/action.yml",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-present-identical"
+ },
+ {
+  "path": ".github/scripts/iron-config.mjs",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-present-identical"
+ },
+ {
+  "path": ".github/scripts/iron-report.mjs",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-present-identical"
+ },
+ {
+  "path": ".github/workflows/aeon.yml",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CONFLICT",
+  "reason": "operator-customized-overlap"
+ },
+ {
+  "path": ".github/workflows/ci-apps.yml",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": ".github/workflows/ci-harnesses-json.yml",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": ".github/workflows/ci-shellcheck.yml",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-present-identical"
+ },
+ {
+  "path": ".github/workflows/messages.yml",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-MERGE",
+  "merged": ".aeon-scratch/merged__.github__workflows__messages.yml"
+ },
+ {
+  "path": "CHANGELOG.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CONFLICT",
+  "reason": "operator-customized-overlap"
+ },
+ {
+  "path": "aeon.yml",
+  "status": "modified",
+  "class": "OPERATOR",
+  "disp": "SURFACE"
+ },
+ {
+  "path": "apps/cli/eslint.config.mjs",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "apps/cli/package.json",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/dashboard/app/api/skills/route.ts",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/dashboard/app/api/upload/route.ts",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/dashboard/eslint.config.mjs",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "apps/dashboard/lib/constants.ts",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/dashboard/lib/gateway.ts",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/dashboard/lib/github.test.ts",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "apps/dashboard/lib/github.ts",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/dashboard/lib/harness-auth.ts",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/dashboard/lib/secrets-catalog.ts",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/dashboard/lib/skill-icons.data.ts",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-MERGE",
+  "merged": ".aeon-scratch/merged__apps__dashboard__lib__skill-icons.data.ts"
+ },
+ {
+  "path": "apps/dashboard/lib/types.ts",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/dashboard/package-lock.json",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/dashboard/package.json",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/mcp-server/src/skill-executor.ts",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/webhook/eslint.config.mjs",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "apps/webhook/package-lock.json",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "apps/webhook/package.json",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "catalog/packs.json",
+  "status": "modified",
+  "class": "OPERATOR",
+  "disp": "SURFACE"
+ },
+ {
+  "path": "catalog/skill-icons.json",
+  "status": "modified",
+  "class": "OPERATOR",
+  "disp": "SURFACE"
+ },
+ {
+  "path": "catalog/skills.json",
+  "status": "modified",
+  "class": "OPERATOR",
+  "disp": "SURFACE"
+ },
+ {
+  "path": "docs/CAPABILITIES.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "docs/ECOSYSTEM.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "docs/assets/harnesses-aeon.jpg",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "docs/assets/hero-animated.svg",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "docs/assets/mcp-logo-400.png",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "docs/assets/skill-icons/skill-article.svg",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "docs/harnesses.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "docs/mcp-oauth.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "docs/skill-packs.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CONFLICT",
+  "reason": "operator-customized-overlap"
+ },
+ {
+  "path": "eyebrowlock.json",
+  "status": "modified",
+  "class": "OPERATOR",
+  "disp": "SURFACE"
+ },
+ {
+  "path": "harness-adapter/README.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "harness-adapter/lib/envelope.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-synced"
+ },
+ {
+  "path": "harness-adapter/lib/imports.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-synced"
+ },
+ {
+  "path": "harness-adapter/lib/mcp-translate.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-synced"
+ },
+ {
+  "path": "harness-adapter/lib/otel-span.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-MERGE",
+  "merged": ".aeon-scratch/merged__harness-adapter__lib__otel-span.sh"
+ },
+ {
+  "path": "harness-adapter/lib/sandbox.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-MERGE",
+  "merged": ".aeon-scratch/merged__harness-adapter__lib__sandbox.sh"
+ },
+ {
+  "path": "harness-adapter/lib/schema-retry.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-synced"
+ },
+ {
+  "path": "harness-adapter/lib/tools-grammar.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-synced"
+ },
+ {
+  "path": "llms.txt",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CONFLICT",
+  "reason": "operator-customized-overlap"
+ },
+ {
+  "path": "package.json",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "plugin/.claude-plugin/plugin.json",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "plugin/.minimax-plugin/plugin.json",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "plugin/README.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "plugin/icon.png",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "plugin/plugin.json",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "plugin/skills/aeon/SKILL.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "plugin/skills/aeon/references/history-mining.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "plugin/skills/aeon/references/layout.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "plugin/skills/aeon/references/mcp.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "plugin/skills/aeon/references/skill-anatomy.md",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "plugin/skills/aeon/scripts/mine-history.mjs",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "scripts/audit.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-synced"
+ },
+ {
+  "path": "scripts/cron-due.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "scripts/health_triage.py",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-synced"
+ },
+ {
+  "path": "scripts/lib/capabilities.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-synced"
+ },
+ {
+  "path": "scripts/lint-shell.sh",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-present-identical"
+ },
+ {
+  "path": "scripts/notify-deliver.sh",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-present-identical"
+ },
+ {
+  "path": "scripts/notify.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-synced"
+ },
+ {
+  "path": "scripts/resolve-harness.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "scripts/run-grok.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "scripts/skill-scan.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "scripts/skill_mode.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "scripts/tests/test_cron_due.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "CLEAN-UPDATE"
+ },
+ {
+  "path": "scripts/tests/test_notify.sh",
+  "status": "modified",
+  "class": "OWNED",
+  "disp": "SKIP",
+  "reason": "already-synced"
+ },
+ {
+  "path": "skills/rightstack/SKILL.md",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "skills/rightstack/run.mjs",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ },
+ {
+  "path": "skills/skill-article/SKILL.md",
+  "status": "added",
+  "class": "OWNED",
+  "disp": "CLEAN-ADD"
+ }
+]

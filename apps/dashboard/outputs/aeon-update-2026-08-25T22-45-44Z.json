@@ -1,0 +1,204 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "aeon-update",
+        "description": "Upstream sync — 25 commits to PR #68"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_date",
+        "link_pr",
+        "sep1",
+        "section_sync",
+        "sep2",
+        "section_headline",
+        "sep3",
+        "section_actions",
+        "sep4",
+        "section_conflicts",
+        "sep5",
+        "text_baseline"
+      ]
+    },
+    "text_date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-25",
+        "variant": "muted"
+      }
+    },
+    "link_pr": {
+      "type": "Link",
+      "props": {
+        "label": "PR #68",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/68"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_sync": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_commit_info",
+        "text_files"
+      ]
+    },
+    "stack_commit_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_repo",
+        "text_commit_range"
+      ]
+    },
+    "badge_repo": {
+      "type": "Badge",
+      "props": {
+        "text": "aeonfun/aeon",
+        "variant": "outline"
+      }
+    },
+    "text_commit_range": {
+      "type": "Text",
+      "props": {
+        "text": "b7a909a..8b8d719"
+      }
+    },
+    "text_files": {
+      "type": "Text",
+      "props": {
+        "text": "50 files applied clean (9 add, 37 update, 4 auto-merged 3-way)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_headline": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_changes",
+        "text_headline"
+      ]
+    },
+    "heading_changes": {
+      "type": "Heading",
+      "props": {
+        "text": "Key changes",
+        "level": "h3"
+      }
+    },
+    "text_headline": {
+      "type": "Text",
+      "props": {
+        "text": "fx is the 7th harness now (Vercel). notify moved behind a post-run delivery dispatcher. egress-audit hardening + eslint/shellcheck CI gates."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_actions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_aeon_yml",
+        "alert_skills"
+      ]
+    },
+    "alert_aeon_yml": {
+      "type": "Alert",
+      "props": {
+        "title": "aeon.yml conflict",
+        "message": "Upstream added a link-local/metadata egress block to the run workflow. Worth grabbing by hand.",
+        "type": "warning"
+      }
+    },
+    "alert_skills": {
+      "type": "Alert",
+      "props": {
+        "title": "2 new skills deferred",
+        "message": "skill-article, rightstack — eyebrow binary isn't in the runner, so shipping them would redden ci-skill-integrity. One-line install+scan in the PR when you want them.",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_conflicts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_conflicts",
+        "text_conflicts"
+      ]
+    },
+    "heading_conflicts": {
+      "type": "Heading",
+      "props": {
+        "text": "Conflicts",
+        "level": "h3"
+      }
+    },
+    "text_conflicts": {
+      "type": "Text",
+      "props": {
+        "text": "5 manual conflicts total, all fork-local docs vs the six→seven rename. Prior messages.yml conflict auto-resolved this run."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_baseline": {
+      "type": "Text",
+      "props": {
+        "text": "Baseline moves to 8b8d719 on merge",
+        "variant": "caption"
+      }
+    }
+  }
+}

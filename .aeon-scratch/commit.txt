@@ -1,0 +1,5 @@
+aeon-update: sync upstream b7a909a..8b8d719
+
+25 upstream commits from aeonfun/aeon. 50 files applied cleanly (9 added, 37 updated, 4 3-way-merged), 5 need manual review, 2 new skills deferred for an eyebrowlock scan. Baseline advanced to 8b8d719.
+
+Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>

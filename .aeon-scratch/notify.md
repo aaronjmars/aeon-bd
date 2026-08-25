@@ -1,5 +1,3 @@
-ℹ️ aeon-update: PR #68
-
 **aeon-update — 2026-08-25**
 synced 25 upstream commits → [PR #68](https://github.com/aaronjmars/aeon-bd/pull/68)
 
@@ -12,5 +10,3 @@ two calls for you:
 - **2 new skills deferred** (`skill-article`, `rightstack`) — eyebrow binary isn't in the runner, so shipping them would redden `ci-skill-integrity`. one-line install+scan in the PR when you want them.
 
 5 manual conflicts total, all fork-local docs vs the six→seven rename. prior `messages.yml` conflict auto-resolved this run.
-
-🔗 https://github.com/aaronjmars/aeon-bd/pull/68
