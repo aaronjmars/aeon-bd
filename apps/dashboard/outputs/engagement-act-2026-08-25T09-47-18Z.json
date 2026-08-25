@@ -1,0 +1,359 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-08-25"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item1_stack",
+        "sep1",
+        "item2_stack",
+        "sep2",
+        "item3_stack",
+        "sep3",
+        "item4_stack"
+      ]
+    },
+    "item1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1_header",
+        "item1_description",
+        "item1_links_stack",
+        "item1_type",
+        "item1_draft_label",
+        "item1_draft"
+      ]
+    },
+    "item1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item1_title",
+        "item1_time"
+      ]
+    },
+    "item1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "sparkleware/sparkleware",
+        "level": "h3"
+      }
+    },
+    "item1_time": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago",
+        "variant": "secondary"
+      }
+    },
+    "item1_description": {
+      "type": "Text",
+      "props": {
+        "text": "Third party quietly built a full skill-pack marketplace for Aeon: 13 public repos, live site, one-click installs, not yet in the official catalog"
+      }
+    },
+    "item1_links_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item1_link_gh",
+        "item1_link_site"
+      ]
+    },
+    "item1_link_gh": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: sparkleware/sparkleware",
+        "href": "https://github.com/sparkleware/sparkleware"
+      }
+    },
+    "item1_link_site": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Site: sparkleware.fun",
+        "href": "https://sparkleware.fun"
+      }
+    },
+    "item1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "item1_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft reply:",
+        "variant": "muted"
+      }
+    },
+    "item1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "yo this is a full skill-pack marketplace for aeon and we didn't even know. 13 repos, live site, one-click installs — thats crazy. get sparkleware/sparkleware + your packs into the official catalog (docs/community-skill-packs.md), happy to shout it out ⭐"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item2_header",
+        "item2_description",
+        "item2_link",
+        "item2_type",
+        "item2_draft_label",
+        "item2_draft"
+      ]
+    },
+    "item2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item2_title",
+        "item2_time"
+      ]
+    },
+    "item2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "@TheHivemindOS",
+        "level": "h3"
+      }
+    },
+    "item2_time": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago",
+        "variant": "secondary"
+      }
+    },
+    "item2_description": {
+      "type": "Text",
+      "props": {
+        "text": "Built a full /aeon control panel into their \"Zero Human Company\" stack, unprompted"
+      }
+    },
+    "item2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X (Twitter) - TheHivemindOS",
+        "href": "https://x.com/TheHivemindOS/status/2091859799604609067"
+      }
+    },
+    "item2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "item2_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft reply:",
+        "variant": "muted"
+      }
+    },
+    "item2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "a full /aeon control panel inside zero human company — didn't ask, just built it. thats the ecosystem working. lfg ⭐"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item3_header",
+        "item3_description",
+        "item3_link",
+        "item3_type",
+        "item3_draft_label",
+        "item3_draft"
+      ]
+    },
+    "item3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item3_title",
+        "item3_time"
+      ]
+    },
+    "item3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "@useAgentOS",
+        "level": "h3"
+      }
+    },
+    "item3_time": {
+      "type": "Badge",
+      "props": {
+        "text": "1 day ago",
+        "variant": "secondary"
+      }
+    },
+    "item3_description": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped an Aeon Skill Hub natively in their Skills tab, unprompted"
+      }
+    },
+    "item3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X (Twitter) - useAgentOS",
+        "href": "https://x.com/useAgentOS/status/2091906334375698882"
+      }
+    },
+    "item3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "item3_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft reply:",
+        "variant": "muted"
+      }
+    },
+    "item3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "an aeon skill hub natively in your skills tab, unprompted. this is what background intelligence compounding looks like. very cool ⭐"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item4_header",
+        "item4_description",
+        "item4_link",
+        "item4_type",
+        "item4_draft_label",
+        "item4_draft"
+      ]
+    },
+    "item4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item4_title",
+        "item4_time"
+      ]
+    },
+    "item4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "czijian729-oss/aeon",
+        "level": "h3"
+      }
+    },
+    "item4_time": {
+      "type": "Badge",
+      "props": {
+        "text": "0 days ago",
+        "variant": "secondary"
+      }
+    },
+    "item4_description": {
+      "type": "Text",
+      "props": {
+        "text": "Live Aeon fork, 116 commits ahead, running custom crypto skills (token-pick/price-alert/utoken-watch) unattended since mid-August"
+      }
+    },
+    "item4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub: czijian729-oss/aeon",
+        "href": "https://github.com/czijian729-oss/aeon"
+      }
+    },
+    "item4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment / DM",
+        "variant": "outline"
+      }
+    },
+    "item4_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft reply:",
+        "variant": "muted"
+      }
+    },
+    "item4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "116 commits ahead and running token-pick/price-alert/utoken-watch unattended since mid-august — thats the wedge working exactly as intended. what do token-pick and utoken-watch actually do? if it's shippable as a skill pack we'll feature it ⭐"
+      }
+    }
+  }
+}
