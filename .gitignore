@@ -55,6 +55,16 @@ tmp_*
 *_msg.txt
 *_raw.txt
 
+# Skill run-scratch staged at the repo root (LLM request/response payloads, notify
+# bodies, one-off analysis scripts). These leaked into the tree via a mis-anchored
+# ignore; root-anchored so they only match the top level and never re-commit.
+/mrscratch/
+/.tmp_*
+/xai*.json
+/*-notify.md
+/ft-notify-*.md
+/mention-radar-output.md
+
 # Python bytecode
 __pycache__/
 *.pyc
