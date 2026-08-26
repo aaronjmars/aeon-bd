@@ -1,0 +1,671 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo — 2026-08-26"
+      },
+      "children": [
+        "stack_story",
+        "sep_1",
+        "stack_post_1",
+        "sep_2",
+        "stack_post_2",
+        "sep_3",
+        "stack_post_3",
+        "sep_4",
+        "stack_post_4"
+      ]
+    },
+    "stack_story": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_story",
+        "text_story_1",
+        "link_story_1",
+        "text_story_2",
+        "link_story_2"
+      ]
+    },
+    "heading_story": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_story_1": {
+      "type": "Text",
+      "props": {
+        "text": "An unaffiliated account (BaseHub) ran a \"Builder of the Week\" feature on Aeon this week, citing its autonomous security-patch work — real signal, though the piece also repeats a debunked GitHub star count, so specific stats from it are dropped, only the organic-recognition fact is used —"
+      },
+      "children": []
+    },
+    "link_story_1": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/BaseHubHB/status/2091911966961144196",
+        "href": "https://x.com/BaseHubHB/status/2091911966961144196"
+      },
+      "children": []
+    },
+    "text_story_2": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting: Aeon's own aeon-update skill shipped and landed two real sync PRs this week (#64, #68, both merged) —"
+      },
+      "children": []
+    },
+    "link_story_2": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/aeonframework/status/2091872710892613990",
+        "href": "https://x.com/aeonframework/status/2091872710892613990"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_post_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sub_1",
+        "heading_post_1_title",
+        "stack_post_1_body",
+        "stack_post_1_link_section",
+        "link_post_1_composer",
+        "text_post_1_notes"
+      ]
+    },
+    "heading_sub_1": {
+      "type": "Heading",
+      "props": {
+        "text": "r/StartupMind · startup",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "heading_post_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Got named 'Builder of the Week' by an account with no ties to us - here's the honest version",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stack_post_1_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_1_para_1",
+        "text_post_1_para_2",
+        "text_post_1_para_3",
+        "stack_post_1_para_4"
+      ]
+    },
+    "text_post_1_para_1": {
+      "type": "Text",
+      "props": {
+        "text": "an account with zero affiliation to us ran a \"builder of the week\" feature on Aeon this week. flattering, but it had a stats problem — quoted a GitHub star count that's just wrong (real number, verifiable on the repo, is nowhere close). not going to requote inflated numbers to make a startup post look better. so here's the honest version."
+      },
+      "children": []
+    },
+    "text_post_1_para_2": {
+      "type": "Text",
+      "props": {
+        "text": "what's actually true: Aeon (an autonomous agent framework we run on GitHub Actions, no human approval loop) found a real vulnerability in google/agents-cli. high+medium severity. google fixed it. that's a receipt, not a vanity metric."
+      },
+      "children": []
+    },
+    "text_post_1_para_3": {
+      "type": "Text",
+      "props": {
+        "text": "separately shipped this week: aeon-update, a skill that keeps our own fork in sync with its upstream automatically — pulls the diff, merges it, opens a PR, holds for a human to approve before touching main. two of those landed as real PRs in the last three days."
+      },
+      "children": []
+    },
+    "stack_post_1_para_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_1_para_4_a",
+        "link_post_1_aeon_fun",
+        "text_post_1_para_4_b"
+      ]
+    },
+    "text_post_1_para_4_a": {
+      "type": "Text",
+      "props": {
+        "text": "that's the traction story: an agent that ships security fixes into other people's repos and keeps its own codebase current, unattended."
+      },
+      "children": []
+    },
+    "link_post_1_aeon_fun": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      },
+      "children": []
+    },
+    "text_post_1_para_4_b": {
+      "type": "Text",
+      "props": {
+        "text": "if you want to see it. happy to answer anything — i built this, not selling it."
+      },
+      "children": []
+    },
+    "stack_post_1_link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_1_link_label",
+        "link_post_1_main"
+      ]
+    },
+    "text_post_1_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_post_1_main": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      },
+      "children": []
+    },
+    "link_post_1_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=Got%20named%20%27Builder%20of%20the%20Week%27%20by%20an%20account%20with%20no%20ties%20to%20us%20-%20here%27s%20the%20honest%20version"
+      },
+      "children": []
+    },
+    "text_post_1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "founder-story sub, no growth-hacky tone — post as \"I built this,\" not a growth account; check for a self-promo/builder flair before posting.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_post_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sub_2",
+        "heading_post_2_title",
+        "stack_post_2_body",
+        "stack_post_2_link_section",
+        "link_post_2_composer",
+        "text_post_2_notes"
+      ]
+    },
+    "heading_sub_2": {
+      "type": "Heading",
+      "props": {
+        "text": "r/Agent_AI · agents",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "heading_post_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "What autonomy actually looks like in an agent framework: self-patching, self-updating, unattended",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stack_post_2_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_2_para_1",
+        "text_post_2_para_2",
+        "text_post_2_para_3",
+        "stack_post_2_para_4"
+      ]
+    },
+    "text_post_2_para_1": {
+      "type": "Text",
+      "props": {
+        "text": "most \"autonomous agent framework\" claims fall apart the second you ask what happens without a human watching. here's what unattended actually looks like in Aeon this week, no framework-dump, just the receipts."
+      },
+      "children": []
+    },
+    "text_post_2_para_2": {
+      "type": "Text",
+      "props": {
+        "text": "an independent account (no relation to us) called it out in a \"builder of the week\" post, mostly for a security find: Aeon's own scanning skill caught a high+medium severity vuln in google/agents-cli, google shipped the fix. that part's verified."
+      },
+      "children": []
+    },
+    "text_post_2_para_3": {
+      "type": "Text",
+      "props": {
+        "text": "what's more interesting to this sub: aeon-update, a skill that pulls the framework's own upstream, three-way merges it, and opens a PR — cron-triggered, no one babysitting it. two PRs landed off it this week (#64, #68), both merged."
+      },
+      "children": []
+    },
+    "stack_post_2_para_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_2_para_4_a",
+        "link_post_2_github",
+        "text_post_2_para_4_b"
+      ]
+    },
+    "text_post_2_para_4_a": {
+      "type": "Text",
+      "props": {
+        "text": "that's the autonomy bar i actually care about: not \"can it chat,\" can it patch other people's code and keep its own fork current without me in the loop. repo's open,"
+      },
+      "children": []
+    },
+    "link_post_2_github": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      },
+      "children": []
+    },
+    "text_post_2_para_4_b": {
+      "type": "Text",
+      "props": {
+        "text": "ask me anything about the self-repair/self-update mechanics."
+      },
+      "children": []
+    },
+    "stack_post_2_link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_2_link_label",
+        "link_post_2_main"
+      ]
+    },
+    "text_post_2_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_post_2_main": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      },
+      "children": []
+    },
+    "link_post_2_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Agent_AI composer",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=What%20autonomy%20actually%20looks%20like%20in%20an%20agent%20framework%3A%20self-patching%2C%20self-updating%2C%20unattended"
+      },
+      "children": []
+    },
+    "text_post_2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "technical agent-framework crowd — disclose you're the builder, keep any framework comparisons factual, no vendor bashing.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_post_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sub_3",
+        "heading_post_3_title",
+        "stack_post_3_body",
+        "stack_post_3_link_section",
+        "link_post_3_composer",
+        "text_post_3_notes"
+      ]
+    },
+    "heading_sub_3": {
+      "type": "Heading",
+      "props": {
+        "text": "r/aiecosystem · agents",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "heading_post_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "An agent framework that fixes bugs in other repos and re-syncs its own fork on a schedule",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stack_post_3_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_3_para_1",
+        "text_post_3_para_2",
+        "text_post_3_para_3",
+        "stack_post_3_para_4"
+      ]
+    },
+    "text_post_3_para_1": {
+      "type": "Text",
+      "props": {
+        "text": "where does an agent framework sit once it starts landing security fixes in other people's repos instead of just orchestrating chat? that's the question this week's news answers for Aeon."
+      },
+      "children": []
+    },
+    "text_post_3_para_2": {
+      "type": "Text",
+      "props": {
+        "text": "an unaffiliated account ran a \"builder of the week\" writeup naming Aeon — flattering, though it also quoted a GitHub star count that's flatly wrong, so treat the specific stats in it skeptically. the one number worth trusting: Aeon's own security-scanning skill found a real vuln in google/agents-cli, and google fixed it. verifiable, not self-reported."
+      },
+      "children": []
+    },
+    "text_post_3_para_3": {
+      "type": "Text",
+      "props": {
+        "text": "on the ecosystem-positioning side: also shipped a skill (aeon-update) that keeps the framework's own fork synced to its upstream — no human triggers it, it just runs, diffs, merges, and opens a PR for review. that's the actual differentiator vs. most orchestration-layer frameworks: it maintains itself."
+      },
+      "children": []
+    },
+    "stack_post_3_para_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_3_para_4_a",
+        "link_post_3_aeon_fun",
+        "text_post_3_para_4_b"
+      ]
+    },
+    "text_post_3_para_4_a": {
+      "type": "Text",
+      "props": {
+        "text": "site's"
+      },
+      "children": []
+    },
+    "link_post_3_aeon_fun": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      },
+      "children": []
+    },
+    "text_post_3_para_4_b": {
+      "type": "Text",
+      "props": {
+        "text": "if you want the full picture. happy to talk through where this sits vs. other agent stacks."
+      },
+      "children": []
+    },
+    "stack_post_3_link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_3_link_label",
+        "link_post_3_main"
+      ]
+    },
+    "text_post_3_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_post_3_main": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      },
+      "children": []
+    },
+    "link_post_3_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=An%20agent%20framework%20that%20fixes%20bugs%20in%20other%20repos%20and%20re-syncs%20its%20own%20fork%20on%20a%20schedule"
+      },
+      "children": []
+    },
+    "text_post_3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "ecosystem/tooling sub — respect the self-promo ratio (mix in non-promo comments before/after), disclose you built it.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_post_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sub_4",
+        "heading_post_4_title",
+        "stack_post_4_body",
+        "stack_post_4_link_section",
+        "link_post_4_composer",
+        "text_post_4_notes"
+      ]
+    },
+    "heading_sub_4": {
+      "type": "Heading",
+      "props": {
+        "text": "r/OpenSourceAI · open-source",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "heading_post_4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "How we keep an open-source fork in sync with upstream without a human in the loop",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stack_post_4_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_4_para_1",
+        "text_post_4_para_2",
+        "text_post_4_para_3",
+        "stack_post_4_para_4"
+      ]
+    },
+    "text_post_4_para_1": {
+      "type": "Text",
+      "props": {
+        "text": "mechanic post: how do you keep an open-source fork in sync with its own upstream without a human doing it by hand every week?"
+      },
+      "children": []
+    },
+    "text_post_4_para_2": {
+      "type": "Text",
+      "props": {
+        "text": "we wrote a skill for it — aeon-update. runs on a schedule, pulls the canonical repo (aeonfun/aeon), does a real three-way merge against local changes, and opens a PR. doesn't touch main itself — a human still has to approve and merge. two of those PRs landed and got merged this week (#64: 43 commits, #68: 25 commits), both clean."
+      },
+      "children": []
+    },
+    "text_post_4_para_3": {
+      "type": "Text",
+      "props": {
+        "text": "separately: an outside account (no affiliation) put Aeon in a \"builder of the week\" post this week. worth flagging honestly — it also repeated a GitHub star count that's just wrong, so don't take the specific numbers in that piece at face value. what is verifiable: a vuln Aeon's own scanner found in google/agents-cli, which google then fixed."
+      },
+      "children": []
+    },
+    "stack_post_4_para_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_4_para_4_a",
+        "link_post_4_github",
+        "text_post_4_para_4_b"
+      ]
+    },
+    "text_post_4_para_4_a": {
+      "type": "Text",
+      "props": {
+        "text": "repo's AGPL,"
+      },
+      "children": []
+    },
+    "link_post_4_github": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      },
+      "children": []
+    },
+    "text_post_4_para_4_b": {
+      "type": "Text",
+      "props": {
+        "text": "if you want to see the aeon-update skill itself. it's just markdown + a schedule, happy to walk through it."
+      },
+      "children": []
+    },
+    "stack_post_4_link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_4_link_label",
+        "link_post_4_main"
+      ]
+    },
+    "text_post_4_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_post_4_main": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      },
+      "children": []
+    },
+    "link_post_4_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/OpenSourceAI composer",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=How%20we%20keep%20an%20open-source%20fork%20in%20sync%20with%20upstream%20without%20a%20human%20in%20the%20loop"
+      },
+      "children": []
+    },
+    "text_post_4_notes": {
+      "type": "Text",
+      "props": {
+        "text": "OSS crowd values mechanism over marketing — lead with the how, disclose builder status, check if a self-promo flair is required.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

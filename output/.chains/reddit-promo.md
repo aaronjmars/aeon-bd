@@ -1,77 +1,67 @@
-ℹ️ Reddit Promo Drafts
+ℹ️ Reddit Promo — 2026-08-26
 
-*Reddit Promo — 2026-08-25*
+*Reddit Promo — 2026-08-26*
 
-_Story:_ Aeon's own security-scanning skill found a high+medium severity vuln in `google/agents-cli`; Google acknowledged and shipped the fix — top-engagement item of the day (216 likes / 39 RTs / 24 replies). — https://x.com/aaronjmars/status/2092006674697437256
+_Story:_ An unaffiliated account (BaseHub) ran a "Builder of the Week" feature on Aeon this week, citing its autonomous security-patch work — real signal, though the piece also repeats a debunked GitHub star count, so specific stats from it are dropped, only the organic-recognition fact is used — https://x.com/BaseHubHB/status/2091911966961144196
 
-_Supporting proof point (not linked directly, folded into "unattended, verifiable" framing):_ AgentOS opened a PR to merge into the Aeon ecosystem the same window — a second concrete, public artifact of unprompted ecosystem integration. — https://x.com/useAgentOS/status/2091906407927042421
-
----
-*r/OpenSourceAI* · archetype: open-source
-*Title:* An autonomous agent we run found (and got fixed) a real vuln in Google's own agents-cli
-*Body:*
-We build Aeon — an open-source (AGPL) agent framework that runs unattended on GitHub Actions, no human approving each step. One of the ~200 skills is a vuln-scanner: it reads a target repo, looks for real exploitable bugs, and opens a PR if it finds one.
-
-This week it flagged a high+medium severity issue in google/agents-cli. Google reviewed it, agreed, and shipped the fix. No bug-bounty back-and-forth, no scope negotiation — an agent found a real problem in a repo it doesn't own, and the maintainers fixed it.
-
-The mechanic behind it is boring on purpose: a "skill" is just a markdown file with instructions plus a cron schedule. This one happens to be pointed at security. The same harness that writes a blog post can read code for exploitable patterns if that's what you tell it to do.
-
-Repo's here if you want to see how the skill is structured: https://github.com/aeonfun/aeon. Happy to answer questions on the scanning loop or the PR flow.
-
-— builder of Aeon
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=An%20autonomous%20agent%20we%20run%20found%20%28and%20got%20fixed%29%20a%20real%20vuln%20in%20Google%27s%20own%20agents-cli)
-_notes: r/OpenSourceAI may require a self-promo flair — check before posting; disclose as builder, single link only._
+_Supporting:_ Aeon's own `aeon-update` skill shipped and landed two real sync PRs this week (#64, #68, both merged) — https://x.com/aeonframework/status/2091872710892613990
 
 ---
-*r/CoolGithubProjects* · archetype: github
-*Title:* Aeon - the autonomous agent framework whose security skill just got a vuln fixed in Google's own repo
+*r/StartupMind* · archetype: startup
+*Title:* Got named 'Builder of the Week' by an account with no ties to us - here's the honest version
 *Body:*
-Aeon is an open-source (AGPL) framework where "skills" are just markdown files that run on a schedule via GitHub Actions — no approval loop, no human in the runtime path.
+an account with zero affiliation to us ran a "builder of the week" feature on Aeon this week. flattering, but it had a stats problem — quoted a GitHub star count that's just wrong (real number, verifiable on the repo, is nowhere close). not going to requote inflated numbers to make a startup post look better. so here's the honest version.
 
-This week one of those skills (a vuln scanner) read google/agents-cli, found a high+medium severity bug, and opened a PR. Google confirmed it and shipped the fix. That's the whole pitch for the project in one data point: an unattended agent finding and getting a real fix landed on a repo it doesn't own.
+what's actually true: Aeon (an autonomous agent framework we run on GitHub Actions, no human approval loop) found a real vulnerability in google/agents-cli. high+medium severity. google fixed it. that's a receipt, not a vanity metric.
 
-Repo: https://github.com/aeonfun/aeon — skills are all readable there if you want to see how one's built before you'd trust it to run against your own code.
+separately shipped this week: aeon-update, a skill that keeps our own fork in sync with its upstream automatically — pulls the diff, merges it, opens a PR, holds for a human to approve before touching main. two of those landed as real PRs in the last three days.
 
-I built this, happy to answer anything.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20the%20autonomous%20agent%20framework%20whose%20security%20skill%20just%20got%20a%20vuln%20fixed%20in%20Google%27s%20own%20repo)
-_notes: sub enforces a strict "Aeon - <one-line desc>" title format — don't drift from it; disclose as builder._
+that's the traction story: an agent that ships security fixes into other people's repos and keeps its own codebase current, unattended. https://aeon.fun if you want to see it. happy to answer anything — i built this, not selling it.
+*Link in post:* https://aeon.fun
+*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=Got%20named%20%27Builder%20of%20the%20Week%27%20by%20an%20account%20with%20no%20ties%20to%20us%20-%20here%27s%20the%20honest%20version)
+_notes: founder-story sub, no growth-hacky tone — post as "I built this," not a growth account; check for a self-promo/builder flair before posting._
 
 ---
 *r/Agent_AI* · archetype: agents
-*Title:* What 'fully unattended' actually looks like: our agent found a real vuln, no human touched it until the PR was already open
+*Title:* What autonomy actually looks like in an agent framework: self-patching, self-updating, unattended
 *Body:*
-A lot of "autonomous agent" claims fall apart once you ask what a human actually did in the loop. Wanted to share one that didn't.
+most "autonomous agent framework" claims fall apart the second you ask what happens without a human watching. here's what unattended actually looks like in Aeon this week, no framework-dump, just the receipts.
 
-We run Aeon — skills-as-markdown, cron-scheduled, on GitHub Actions, self-repairing when a skill breaks. One skill is a security scanner. This week it read google/agents-cli, found a high+medium severity vulnerability, and opened a PR. Google reviewed and shipped the fix. The only human step in the whole chain was Google's own review — ours ran cold, start to finish.
+an independent account (no relation to us) called it out in a "builder of the week" post, mostly for a security find: Aeon's own scanning skill caught a high+medium severity vuln in google/agents-cli, google shipped the fix. that part's verified.
 
-Not claiming this replaces audits or professional pentesting — it's one data point on what a scheduled, unattended agent can surface when you give it a narrow job and don't gate every step with a human. Separately, another agent team (AgentOS) opened a PR to integrate with our stack this same week — also unprompted, also just a public PR you can go read.
+what's more interesting to this sub: aeon-update, a skill that pulls the framework's own upstream, three-way merges it, and opens a PR — cron-triggered, no one babysitting it. two PRs landed off it this week (#64, #68), both merged.
 
-Repo + the skill's source: https://github.com/aeonfun/aeon. Curious what other agent-framework builders here are doing for unattended verification loops.
+that's the autonomy bar i actually care about: not "can it chat," can it patch other people's code and keep its own fork current without me in the loop. repo's open, https://github.com/aeonfun/aeon. ask me anything about the self-repair/self-update mechanics.
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=What%20%27fully%20unattended%27%20actually%20looks%20like%3A%20our%20agent%20found%20a%20real%20vuln%2C%20no%20human%20touched%20it%20until%20the%20PR%20was%20already%20open)
-_notes: keep tone comparative, not trash-talk (no vendor-vs-vendor); disclose as builder; check self-promo ratio before posting._
+*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=What%20autonomy%20actually%20looks%20like%20in%20an%20agent%20framework%3A%20self-patching%2C%20self-updating%2C%20unattended)
+_notes: technical agent-framework crowd — disclose you're the builder, keep any framework comparisons factual, no vendor bashing._
 
 ---
-*r/CLaudeSkills* · archetype: claude-skills
-*Title:* One markdown skill just got a real vuln fixed on a Google repo - here's roughly what it looks like
+*r/aiecosystem* · archetype: agents
+*Title:* An agent framework that fixes bugs in other repos and re-syncs its own fork on a schedule
 *Body:*
-If you're already deep in Claude Code skills, this is just a skill running unattended on a schedule — but the outcome was concrete enough to share.
+where does an agent framework sit once it starts landing security fixes in other people's repos instead of just orchestrating chat? that's the question this week's news answers for Aeon.
 
-Aeon runs ~200 skills, all just SKILL.md files plus a cron entry. One of them is a vuln scanner: reads a target repo, looks for exploitable patterns, opens a PR if it finds something real. This week it flagged a high+medium severity issue in google/agents-cli. Google reviewed it and merged the fix.
+an unaffiliated account ran a "builder of the week" writeup naming Aeon — flattering, though it also quoted a GitHub star count that's flatly wrong, so treat the specific stats in it skeptically. the one number worth trusting: Aeon's own security-scanning skill found a real vuln in google/agents-cli, and google fixed it. verifiable, not self-reported.
 
-Roughly the shape (simplified):
-```
-name: vuln-scanner
-schedule: cron
-steps: clone target repo -> static + agentic review for exploitable patterns -> draft PR with repro + fix -> open on target
-```
-No custom infra beyond the harness — it's the same skill format you'd write for anything else, just pointed at security instead of content.
+on the ecosystem-positioning side: also shipped a skill (aeon-update) that keeps the framework's own fork synced to its upstream — no human triggers it, it just runs, diffs, merges, and opens a PR for review. that's the actual differentiator vs. most orchestration-layer frameworks: it maintains itself.
 
-Repo (skills are all readable, it's AGPL) if anyone wants to see the real one: https://github.com/aeonfun/aeon.
+site's https://aeon.fun if you want the full picture. happy to talk through where this sits vs. other agent stacks.
+*Link in post:* https://aeon.fun
+*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=An%20agent%20framework%20that%20fixes%20bugs%20in%20other%20repos%20and%20re-syncs%20its%20own%20fork%20on%20a%20schedule)
+_notes: ecosystem/tooling sub — respect the self-promo ratio (mix in non-promo comments before/after), disclose you built it._
+
+---
+*r/OpenSourceAI* · archetype: open-source
+*Title:* How we keep an open-source fork in sync with upstream without a human in the loop
+*Body:*
+mechanic post: how do you keep an open-source fork in sync with its own upstream without a human doing it by hand every week?
+
+we wrote a skill for it — aeon-update. runs on a schedule, pulls the canonical repo (aeonfun/aeon), does a real three-way merge against local changes, and opens a PR. doesn't touch main itself — a human still has to approve and merge. two of those PRs landed and got merged this week (#64: 43 commits, #68: 25 commits), both clean.
+
+separately: an outside account (no affiliation) put Aeon in a "builder of the week" post this week. worth flagging honestly — it also repeated a GitHub star count that's just wrong, so don't take the specific numbers in that piece at face value. what is verifiable: a vuln Aeon's own scanner found in google/agents-cli, which google then fixed.
+
+repo's AGPL, https://github.com/aeonfun/aeon if you want to see the aeon-update skill itself. it's just markdown + a schedule, happy to walk through it.
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=One%20markdown%20skill%20just%20got%20a%20real%20vuln%20fixed%20on%20a%20Google%20repo%20-%20here%27s%20roughly%20what%20it%20looks%20like)
-_notes: technical audience, keep the skill snippet honest/short; disclose as builder; single link only._
-
-🔗 https://x.com/aaronjmars/status/2092006674697437256
+*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=How%20we%20keep%20an%20open-source%20fork%20in%20sync%20with%20upstream%20without%20a%20human%20in%20the%20loop)
+_notes: OSS crowd values mechanism over marketing — lead with the how, disclose builder status, check if a self-promo flair is required._

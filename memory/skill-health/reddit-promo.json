@@ -1,10 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-25T17:58:12Z",
-  "quality_score": 4,
-  "assessment": "Solid execution: selected the hottest story of the day (Aeon's vuln found in Google's agents-cli, Google fixed it — 216 likes), drafted 4 community-specific copy-paste-ready posts, rejected weaker stories (unverified claims, price sentiment) per strategy. Substantive, well-sourced, actionable, properly filtered. No exceptional insight beyond competent procedural work.",
+  "last_analyzed": "2026-08-26T18:01:34Z",
+  "quality_score": 5,
+  "assessment": "Exceptional: caught false claims in external source (star count), stripped them, verified core facts (Google vuln, PR#64/#68, organic mention), drafted 4 subreddit-tailored posts in Aaron's voice, copy-paste-ready. Hits all 5 strategy priorities. Transparent about data freshness constraint.",
   "flags": [],
-  "avg_score": 3.67,
+  "avg_score": 3.86,
   "history": [
     {
       "date": "2026-08-20",
@@ -29,6 +29,10 @@
     {
       "date": "2026-08-25",
       "score": 4
+    },
+    {
+      "date": "2026-08-26",
+      "score": 5
     }
   ]
 }
