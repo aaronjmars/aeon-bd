@@ -1,0 +1,246 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar — 2026-08-26"
+      },
+      "children": [
+        "aeon-section",
+        "sep-1",
+        "miroshark-section",
+        "sep-2",
+        "opportunities-section",
+        "sep-3",
+        "quiet-summary"
+      ]
+    },
+    "aeon-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-heading",
+        "aeon-x-badge",
+        "aeon-x-text",
+        "aeon-web-text",
+        "aeon-github-heading",
+        "aeon-github-stack"
+      ]
+    },
+    "aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h3"
+      }
+    },
+    "aeon-x-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET on X",
+        "variant": "secondary"
+      }
+    },
+    "aeon-x-text": {
+      "type": "Text",
+      "props": {
+        "text": "HTTP 200, x_search window 2026-08-19→08-26. Only posts surfaced: @useAgentOS ecosystem-merge PR (reported 08-24/08-25) and repeat near-zero-engagement posts from @Amrit_Mirch (known serial-shill account), including recycled '2.2M GitHub stars' claim already debunked in 08-24 log. Nothing new crosses quality bar.",
+        "variant": "body"
+      }
+    },
+    "aeon-web-text": {
+      "type": "Text",
+      "props": {
+        "text": "Web sweep (Reddit, HN, blogs, Product Hunt, Farcaster): nothing new. Only owned properties (aeon.fun, GitHub) and already-logged HackerNoon feature surfaced.",
+        "variant": "body"
+      }
+    },
+    "aeon-github-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Signal",
+        "level": "h4"
+      }
+    },
+    "aeon-github-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-stars",
+        "aeon-forks",
+        "aeon-github-note"
+      ]
+    },
+    "aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "691",
+        "delta": "+12 since 08-24 (was 679★)",
+        "trend": "up"
+      }
+    },
+    "aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "242",
+        "delta": "+1 since 08-24 (was 241)",
+        "trend": "up"
+      }
+    },
+    "aeon-github-note": {
+      "type": "Text",
+      "props": {
+        "text": "Crosses notable-jump threshold. No single attributable source found in-window; organic accumulation.",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-heading",
+        "miroshark-x-badge",
+        "miroshark-x-text",
+        "miroshark-web-text",
+        "miroshark-github-heading",
+        "miroshark-github-stack"
+      ]
+    },
+    "miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h3"
+      }
+    },
+    "miroshark-x-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET on X",
+        "variant": "secondary"
+      }
+    },
+    "miroshark-x-text": {
+      "type": "Text",
+      "props": {
+        "text": "HTTP 200, same window (2026-08-19→08-26). Zero mentions of project/repo. All 'Miroshark' hits were $MIROSHARK token price/market chatter, unrelated to product.",
+        "variant": "body"
+      }
+    },
+    "miroshark-web-text": {
+      "type": "Text",
+      "props": {
+        "text": "Web sweep: nothing new.",
+        "variant": "body"
+      }
+    },
+    "miroshark-github-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Signal",
+        "level": "h4"
+      }
+    },
+    "miroshark-github-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-stars",
+        "miroshark-forks",
+        "miroshark-github-note"
+      ]
+    },
+    "miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1439",
+        "delta": "+2 since 08-24",
+        "trend": "up"
+      }
+    },
+    "miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "299",
+        "delta": "+1 since 08-24",
+        "trend": "up"
+      }
+    },
+    "miroshark-github-note": {
+      "type": "Text",
+      "props": {
+        "text": "Below notable-jump threshold.",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opportunities-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opportunities-heading",
+        "opportunities-alert"
+      ]
+    },
+    "opportunities-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h3"
+      }
+    },
+    "opportunities-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "0 flagged this cycle — no discovery/confusion/friction/competitor-comparison mentions found for either project.",
+        "type": "info"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quiet-summary": {
+      "type": "Alert",
+      "props": {
+        "title": "QUIET: miroshark",
+        "message": "No external mentions found (X or web).",
+        "type": "info"
+      }
+    }
+  }
+}
