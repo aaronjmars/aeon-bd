@@ -1,0 +1,405 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark (2026-08-26)"
+      },
+      "children": [
+        "overview-text",
+        "overview-callout",
+        "sep-1",
+        "section1-heading",
+        "tweet-1-group",
+        "tweet-2-group",
+        "tweet-3-group",
+        "sep-2",
+        "section2-heading",
+        "tweet-4-group",
+        "sep-3",
+        "section3-heading",
+        "tweet-5-group",
+        "tweet-6-group",
+        "tweet-7-group",
+        "sep-4",
+        "watch-heading",
+        "watch-alert",
+        "sep-5",
+        "summary-heading",
+        "summary-api",
+        "summary-files",
+        "summary-notable",
+        "summary-followup"
+      ]
+    },
+    "overview-text": {
+      "type": "Text",
+      "props": {
+        "text": "Autonomous on-chain deploy story still the main character 24h later — zero Miroshark mentions in-window; one brand-impersonation token surfaced as a side risk.",
+        "variant": "lead"
+      }
+    },
+    "overview-callout": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "16 candidates fetched, 7 kept after curation into 3 clusters"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Autonomous deploy story still main character",
+        "level": "h3"
+      }
+    },
+    "tweet-1-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1",
+        "tweet-1-meta",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "aaronjmars",
+        "text": "First public, fully autonomous economic loop: an @aeonframework agent funded its own deployer via an x402 micropayment, refused a suspicious gas transfer it judged to be a drain-attack look-alike, then shipped a live Uniswap v4 hook to Base mainnet — every step logged in a public GH Actions run.",
+        "likes": 49,
+        "retweets": 6
+      }
+    },
+    "tweet-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2092372613620482264"
+      }
+    },
+    "tweet-2-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2",
+        "tweet-2-meta",
+        "link-2"
+      ]
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Jesse Pollak",
+        "handle": "jessepollak",
+        "text": "Base's cofounder dropped a bare \"cool\" that pulled 13 likes/4 replies; timing lines up with the autonomous-deploy story above, though the reply target isn't explicitly confirmed.",
+        "likes": 13,
+        "retweets": 0
+      }
+    },
+    "tweet-2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/jessepollak/status/2092092040041697640"
+      }
+    },
+    "tweet-3-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3",
+        "tweet-3-meta",
+        "link-3"
+      ]
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Rav Exchange",
+        "handle": "ravnexchange",
+        "text": "Reframes the x402 mechanic: \"most x402 loops stop once the receipt prints — this one spent it on the deployer that shipped the hook,\" engaging directly with the tx-level detail of the story above.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet-3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ravnexchange/status/2092125635506536570"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Security amplification continues",
+        "level": "h3"
+      }
+    },
+    "tweet-4-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-4",
+        "tweet-4-meta",
+        "link-4"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "aaronjmars",
+        "text": "A third-party deep-dive on the Google agents-cli vuln (found by Aeon's own security-scanning skill, disclosed and fixed 08-25) is circulating; Aaron amplifying — sustained interest beyond the original announcement, not a new find.",
+        "likes": 30,
+        "retweets": 0
+      }
+    },
+    "tweet-4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2092371358042800613"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon's surface area keeps growing",
+        "level": "h3"
+      }
+    },
+    "tweet-5-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-5",
+        "tweet-5-meta",
+        "link-5"
+      ]
+    },
+    "tweet-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "aaronjmars",
+        "text": "Vercel integration expands: \"welcoming fx to aeon @vercel\" with @svector_eth — another deployment-target surface beyond GitHub Actions.",
+        "likes": 8,
+        "retweets": 2
+      }
+    },
+    "tweet-5-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "link-5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2092246791324307489"
+      }
+    },
+    "tweet-6-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-6",
+        "tweet-6-meta",
+        "link-6"
+      ]
+    },
+    "tweet-6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "aaronjmars",
+        "text": "Ships a reusable pattern for the soul/ voice system: feed an LLM your tweets/essays, get markdown files any model can load to write in your voice — pitched as standalone, adoptable outside Aeon itself.",
+        "likes": 7,
+        "retweets": 0
+      }
+    },
+    "tweet-6-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-6": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2092385918770446339"
+      }
+    },
+    "tweet-7-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-7",
+        "tweet-7-meta",
+        "link-7"
+      ]
+    },
+    "tweet-7": {
+      "type": "TweetCard",
+      "props": {
+        "author": "tiur",
+        "handle": "tiur_eth",
+        "text": "Unprompted technical endorsement (not a reply to Aaron): calls out Aeon's multi-harness support as solving \"the silent killer for long-running workflows\" — model lock-in.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet-7-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-7": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/tiur_eth/status/2092315402223124532"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch (not scored, no engagement)",
+        "level": "h3"
+      }
+    },
+    "watch-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Brand-collision meme token",
+        "message": "x.com/feeldotcash is pairing a \"$AEONFRAMEWOR\" meme token with a fake \"GOOGLc\" ticker, riding Aeon's name/branding — zero traction so far, but a brand-collision pattern worth a passive eye if it resurfaces with volume."
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "summary-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Summary",
+        "level": "h3"
+      }
+    },
+    "summary-api": {
+      "type": "Text",
+      "props": {
+        "text": "Ran fetch-tweets (keyword mode) for @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation via the X.AI x_search API (HTTP 200). 16 candidates fetched, 0 already-seen, 7 kept after curation into 3 clusters; sent via ./notify.",
+        "variant": "body"
+      }
+    },
+    "summary-files": {
+      "type": "Text",
+      "props": {
+        "text": "Files updated: memory/fetch-tweets-seen.txt (+7 URLs), memory/logs/2026-08-26.md (### fetch-tweets entry).",
+        "variant": "body"
+      }
+    },
+    "summary-notable": {
+      "type": "Text",
+      "props": {
+        "text": "Notable: zero Miroshark-side mentions this window — Aeon's autonomous Base-mainnet deploy story continues to dominate. Flagged a brand-impersonation meme-token (feeldotcash) for passive tracking, not action.",
+        "variant": "body"
+      }
+    },
+    "summary-followup": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up: none required; next scheduled fetch-tweets run is tomorrow 17:00 UTC.",
+        "variant": "body"
+      }
+    }
+  }
+}

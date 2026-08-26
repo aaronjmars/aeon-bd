@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — Aeon + Miroshark
-
 *Top Tweets — Aeon + Miroshark (2026-08-26)*
 _Autonomous on-chain deploy story still the main character 24h later — zero Miroshark mentions in-window; one brand-impersonation token surfaced as a side risk._
 
