@@ -1,10 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-26T18:01:34Z",
-  "quality_score": 5,
-  "assessment": "Exceptional: caught false claims in external source (star count), stripped them, verified core facts (Google vuln, PR#64/#68, organic mention), drafted 4 subreddit-tailored posts in Aaron's voice, copy-paste-ready. Hits all 5 strategy priorities. Transparent about data freshness constraint.",
+  "last_analyzed": "2026-08-27T20:28:53Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-sourced Reddit post drafts from recent signal; transparent about data source (yesterday's fetch-tweets, pre-17:00 UTC window); archetype-matched per subreddit with reasoning; copy-paste-ready with direct submit URLs.",
   "flags": [],
-  "avg_score": 3.86,
+  "avg_score": 3.88,
   "history": [
     {
       "date": "2026-08-20",
@@ -33,6 +33,10 @@
     {
       "date": "2026-08-26",
       "score": 5
+    },
+    {
+      "date": "2026-08-27",
+      "score": 4
     }
   ]
 }
