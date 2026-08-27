@@ -1,0 +1,630 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act - 2026-08-27",
+        "description": "5 new opportunities | 0 still-open | 0 dropped"
+      },
+      "children": [
+        "heading-main",
+        "stats-text",
+        "sep-1",
+        "opp-1-stack",
+        "sep-2",
+        "opp-2-stack",
+        "sep-3",
+        "opp-3-stack",
+        "sep-4",
+        "opp-4-stack",
+        "sep-5",
+        "opp-5-stack",
+        "sep-6",
+        "notes-heading",
+        "notes-grid"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "5 New Engagement Opportunities",
+        "level": "h2"
+      }
+    },
+    "stats-text": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-08-27 (earlier run today, pre-contract)",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-1-title",
+        "opp-1-badges",
+        "opp-1-leverage-detail",
+        "opp-1-what",
+        "opp-1-link",
+        "opp-1-draft-section"
+      ]
+    },
+    "opp-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "@thecultos",
+        "level": "h3"
+      }
+    },
+    "opp-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-1-type-badge",
+        "opp-1-leverage-badge",
+        "opp-1-expires-badge"
+      ]
+    },
+    "opp-1-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "opp-1-leverage-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Leverage: high",
+        "variant": "secondary"
+      }
+    },
+    "opp-1-expires-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-10",
+        "variant": "outline"
+      }
+    },
+    "opp-1-leverage-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Named project account, tied to @virtuals_io ecosystem — GitHub-side followers unverified, X profile fetch blocked",
+        "variant": "caption"
+      }
+    },
+    "opp-1-what": {
+      "type": "Text",
+      "props": {
+        "text": "tweeted \"we choose Aeon ⭐️\" (Aug 26), same-day shipped a live fork with a custom cron'd skill (cultos-acp-review) + a dedicated pack repo (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/thecultos/status/2092651447200440566",
+        "source": "X"
+      }
+    },
+    "opp-1-draft-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "opp-1-draft-label",
+        "opp-1-draft-text"
+      ]
+    },
+    "opp-1-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      }
+    },
+    "opp-1-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "cron'd acp-review + a whole skills pack in one day after saying you'd pick aeon — that's the real thing. send it through pack-submit, we'll list it ⭐",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-2-title",
+        "opp-2-badges",
+        "opp-2-leverage-detail",
+        "opp-2-what",
+        "opp-2-link",
+        "opp-2-draft-section"
+      ]
+    },
+    "opp-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "financedistrict-platform/fd-aeon-skills",
+        "level": "h3"
+      }
+    },
+    "opp-2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-2-type-badge",
+        "opp-2-leverage-badge",
+        "opp-2-expires-badge"
+      ]
+    },
+    "opp-2-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "opp-2-leverage-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Leverage: low",
+        "variant": "secondary"
+      }
+    },
+    "opp-2-expires-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-10",
+        "variant": "outline"
+      }
+    },
+    "opp-2-leverage-detail": {
+      "type": "Text",
+      "props": {
+        "text": "~0 GitHub followers, but 2nd repo from a known ecosystem partner",
+        "variant": "caption"
+      }
+    },
+    "opp-2-what": {
+      "type": "Text",
+      "props": {
+        "text": "shipped a second Aeon skill repo — \"Finance District Agent Wallet\" companion skill — deepening a partnership first seen 2026-08-23 (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on GitHub",
+        "href": "https://github.com/financedistrict-platform/fd-aeon-skills",
+        "source": "GitHub"
+      }
+    },
+    "opp-2-draft-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "opp-2-draft-label",
+        "opp-2-draft-text"
+      ]
+    },
+    "opp-2-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      }
+    },
+    "opp-2-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "two aeon repos deep on finance district now. want this listed in the registry + a joint post once it's live?",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-3-title",
+        "opp-3-badges",
+        "opp-3-leverage-detail",
+        "opp-3-what",
+        "opp-3-link",
+        "opp-3-draft-section"
+      ]
+    },
+    "opp-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "JessieJanie/aeon-skill-pack-skim",
+        "level": "h3"
+      }
+    },
+    "opp-3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-3-type-badge",
+        "opp-3-leverage-badge",
+        "opp-3-expires-badge"
+      ]
+    },
+    "opp-3-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "opp-3-leverage-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Leverage: low",
+        "variant": "secondary"
+      }
+    },
+    "opp-3-expires-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-10",
+        "variant": "outline"
+      }
+    },
+    "opp-3-leverage-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Individual builder, ~0 GitHub followers",
+        "variant": "caption"
+      }
+    },
+    "opp-3-what": {
+      "type": "Text",
+      "props": {
+        "text": "shipped a real x402-metered skill pack — $0.002 USDC clean web reads via Skim, on Base (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on GitHub",
+        "href": "https://github.com/JessieJanie/aeon-skill-pack-skim",
+        "source": "GitHub"
+      }
+    },
+    "opp-3-draft-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "opp-3-draft-label",
+        "opp-3-draft-text"
+      ]
+    },
+    "opp-3-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      }
+    },
+    "opp-3-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "x402 $0.002 skim reads is a clean wedge. send it through pack-submit, want it in the registry",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-4-title",
+        "opp-4-badges",
+        "opp-4-leverage-detail",
+        "opp-4-what",
+        "opp-4-link",
+        "opp-4-draft-section"
+      ]
+    },
+    "opp-4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "verdikta/aeon-skill-pack-verdikta",
+        "level": "h3"
+      }
+    },
+    "opp-4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-4-type-badge",
+        "opp-4-leverage-badge",
+        "opp-4-expires-badge"
+      ]
+    },
+    "opp-4-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "opp-4-leverage-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Leverage: low",
+        "variant": "secondary"
+      }
+    },
+    "opp-4-expires-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-10",
+        "variant": "outline"
+      }
+    },
+    "opp-4-leverage-detail": {
+      "type": "Text",
+      "props": {
+        "text": "~24 GitHub followers",
+        "variant": "caption"
+      }
+    },
+    "opp-4-what": {
+      "type": "Text",
+      "props": {
+        "text": "shipped an Aeon skill pack for AI-judged bounty hunting on Base with hard client-side spend caps (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on GitHub",
+        "href": "https://github.com/verdikta/aeon-skill-pack-verdikta",
+        "source": "GitHub"
+      }
+    },
+    "opp-4-draft-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "opp-4-draft-label",
+        "opp-4-draft-text"
+      ]
+    },
+    "opp-4-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      }
+    },
+    "opp-4-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "ai-judged bounties w/ hard spend caps on base — that's a real primitive, not a demo. want it listed via pack-submit?",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-5-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-5-title",
+        "opp-5-badges",
+        "opp-5-leverage-detail",
+        "opp-5-what",
+        "opp-5-link",
+        "opp-5-draft-section"
+      ]
+    },
+    "opp-5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "LSO-AI/aeon-skills",
+        "level": "h3"
+      }
+    },
+    "opp-5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-5-type-badge",
+        "opp-5-leverage-badge",
+        "opp-5-expires-badge"
+      ]
+    },
+    "opp-5-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "opp-5-leverage-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Leverage: low",
+        "variant": "secondary"
+      }
+    },
+    "opp-5-expires-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-10",
+        "variant": "outline"
+      }
+    },
+    "opp-5-leverage-detail": {
+      "type": "Text",
+      "props": {
+        "text": "~0 GitHub followers",
+        "variant": "caption"
+      }
+    },
+    "opp-5-what": {
+      "type": "Text",
+      "props": {
+        "text": "shipped a multi-domain Aeon skill set — 55+ live feeds (crypto/macro/gov/oil/audits) as x402 pay-per-call APIs, no keys needed (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp-5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on GitHub",
+        "href": "https://github.com/LSO-AI/aeon-skills",
+        "source": "GitHub"
+      }
+    },
+    "opp-5-draft-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "opp-5-draft-label",
+        "opp-5-draft-text"
+      ]
+    },
+    "opp-5-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      }
+    },
+    "opp-5-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "55+ live feeds behind x402, no keys needed — that's a lot of surface for one pack. want it in the registry?",
+        "variant": "body"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notes-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run notes",
+        "level": "h3"
+      }
+    },
+    "notes-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notes-item-1",
+        "notes-item-2",
+        "notes-item-3"
+      ]
+    },
+    "notes-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Sourced memory/logs/2026-08-20→27.md + output/articles/bd-radar-2026-08-27.md. This is engagement-act's 2nd dispatch today — the 09:30 UTC run drafted @jessepollak/@BaseHubHB/@AIonBase_ under the pre-contract skill version; excluded here as already-delivered.",
+        "variant": "body"
+      }
+    },
+    "notes-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "memory/topics/engagement-acted.json didn't exist (skill predates the new shared output-contract dedup, PR #69 merged 2026-08-27 17:52 EDT) — bootstrapped it fresh this run and backstopped dedup via log cross-reference against all prior engagement-act runs (08-21, 08-23, 08-25, 08-27-morning).",
+        "variant": "body"
+      }
+    },
+    "notes-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "Sparkleware dropped despite fresh news (shipped 7 more repos) — its canonical handle was already drafted 08-25, contract forbids re-surfacing. Cut for cap-5: richard7463/ai2human-aeon-skill-pack, techdigger/aeon-skill-pack-agentlink (ranked #6-7 by bd-radar), Muriel-Salvan/x_aeon_agents + hansj73/aeon (fit 1, light-touch only per bd-radar, too early for outreach).",
+        "variant": "body"
+      }
+    }
+  }
+}
