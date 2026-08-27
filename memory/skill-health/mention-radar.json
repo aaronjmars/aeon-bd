@@ -1,8 +1,8 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-08-26T07:36:46Z",
+  "last_analyzed": "2026-08-27T21:59:13Z",
   "quality_score": 4,
-  "assessment": "Methodical verification of both products' external mentions — quiet cycle confirmed via X API and web sweep, GitHub metrics tracked, low-quality noise filtered, prior claims debunked. Aligns to strategy priorities (honest read, early signal surfacing, verify before claiming). Transparent methodology allows reverification.",
+  "assessment": "Substantive, verifiable work: checked live sources (X API 200, web, GitHub), dismissed stale candidates with reasoning, fixed a latent bug (dedup state never committed), and delivered honest 'nothing found' market read per strategy priority 4.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -20,6 +20,10 @@
     },
     {
       "date": "2026-08-26",
+      "score": 4
+    },
+    {
+      "date": "2026-08-27",
       "score": 4
     }
   ]
