@@ -1,9 +1,7 @@
-ℹ️ BD Radar — 2026-08-25
+✅ bd-radar: CultOS adopted Aeon
 
-**BD Radar — 3 new building leads today.**
+**bd-radar, 2026-08-27** — CultOS (@thecultos) just went public: "we choose Aeon ⭐️" — and it's backed up on GitHub same-day: a live forked instance running its own cron'd skill (`cultos-acp-review`) plus a dedicated `cultos-aeon-skills` pack for their ACP jobs. Worth a reply/DM while it's warm.
 
-Top one: **sparkleware** (sparkleware.fun) quietly built a full skill-pack marketplace for Aeon — 13 repos, a live registry, a running Aeon fork, 6+ published packs, even a cross-product Aeon+MiroShark piece. Not in our official catalog yet. Worth a DM — point them at the listing PR and consider a shoutout, this is unpaid ecosystem infra.
+9 more new `building` leads behind it — notably a second Finance District repo, and Sparkleware (known partner) quietly shipped 7 more Aeon skill repos incl. a MiroShark-crossover one. Full ranked list in today's digest.
 
-Also new: **czijian729-oss/aeon** — live fork running custom crypto skills (token-pick, price-alert, utoken-watch), 116 commits ahead. And **raul1stdigital/aeon** confirms the 08-23 Finance District lead is still actively shipping (deploy-uni-hook, finance-district-mcp) — still no PR opened on aeonfun/aeon, worth a nudge.
-
-Full digest: `output/articles/bd-radar-2026-08-25.md`.
+🔗 https://x.com/thecultos/status/2092651447200440566

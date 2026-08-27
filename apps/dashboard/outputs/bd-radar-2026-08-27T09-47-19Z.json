@@ -1,0 +1,190 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "CultOS adopted Aeon",
+        "description": "bd-radar, 2026-08-27"
+      },
+      "children": [
+        "signal-section",
+        "sep1",
+        "impl-section",
+        "sep2",
+        "leads-section",
+        "sep3",
+        "cta-section"
+      ]
+    },
+    "signal-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "signal-text",
+        "signal-link"
+      ]
+    },
+    "signal-text": {
+      "type": "Text",
+      "props": {
+        "text": "CultOS (@thecultos) just went public: \"we choose Aeon ⭐️\" — backed up on GitHub same-day with a live forked instance",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "signal-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View announcement",
+        "href": "https://x.com/thecultos/status/2092651447200440566",
+        "source": "X"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "impl-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "impl-heading",
+        "impl-items"
+      ]
+    },
+    "impl-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS implementation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "impl-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "impl-item1",
+        "impl-item2"
+      ]
+    },
+    "impl-item1": {
+      "type": "Text",
+      "props": {
+        "text": "Live forked instance running own cron'd skill: cultos-acp-review",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "impl-item2": {
+      "type": "Text",
+      "props": {
+        "text": "Dedicated cultos-aeon-skills pack for ACP jobs",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "leads-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "leads-heading",
+        "leads-stat",
+        "leads-list"
+      ]
+    },
+    "leads-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Additional building leads",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "leads-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "New building leads",
+        "value": "9"
+      },
+      "children": []
+    },
+    "leads-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead-item1",
+        "lead-item2",
+        "lead-item3"
+      ]
+    },
+    "lead-item1": {
+      "type": "Text",
+      "props": {
+        "text": "Second Finance District repo",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead-item2": {
+      "type": "Text",
+      "props": {
+        "text": "Sparkleware (known partner) quietly shipped 7 more Aeon skill repos",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead-item3": {
+      "type": "Badge",
+      "props": {
+        "text": "Includes MiroShark-crossover repo",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "cta-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Time-sensitive",
+        "message": "Worth a reply/DM to CultOS while it's warm. Full ranked list in today's digest.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
