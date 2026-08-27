@@ -1,69 +1,66 @@
-ℹ️ Reddit Promo — 2026-08-27
+ℹ️ Reddit Promo - 2026-08-27 (run 2)
 
-*Reddit Promo — 2026-08-27*
+*Reddit Promo - 2026-08-27*
+0d since last promo · **second run today** (earlier 2026-08-27 dispatch already promoted the autonomous-deploy story to r/Agent_AI, r/CoolGithubProjects, r/OpenSourceAI, r/StartupMind) · 4 subs drafted
 
-_Story:_ An Aeon skill ran a full autonomous economic loop unattended — funded its own deployer wallet via an x402 micropayment, refused an incoming gas transfer it judged to be a drain-attack look-alike, then shipped a live Uniswap v4 hook to Base mainnet, every step logged in a public GitHub Actions run. — https://x.com/aaronjmars/status/2092372613620482264
+_Story:_ Aeon shipped a native Cursor workflow - enable/schedule/edit skills, wire secrets + channels, mine old chats into new skills, no dashboard needed - https://x.com/aaronjmars/status/2092687201947554035
 
 ---
-*r/Agent_AI* · archetype: agents
-*Title:* My agent funded its own deploy, refused a drain attempt, then shipped to Base mainnet unattended
+*r/CLaudeSkills* · archetype: claude-skills
+*Title:* Aeon skills are literally markdown files - just showed off running/scheduling them from inside Cursor
 *Body:*
-Most "autonomous" agent demos stop right before the part that matters: touching real money, unattended, with no human catching mistakes.
+If you're already writing Claude-style SKILL.md files, Aeon (an open-source agent framework) uses the exact same shape - frontmatter + markdown instructions, triggered by cron instead of a chat turn. This week the founder showed running a whole Aeon instance from inside Cursor: enabling/scheduling/editing skills, wiring up secrets and notification channels, and even mining past chat history into new scheduled skills - all without leaving the editor.
 
-Last week one of our Aeon skills ran the full loop. It funded its own deployer wallet with an x402 micropayment, evaluated an incoming gas transfer, flagged it as a drain-attack look-alike, refused it, then went ahead and shipped a live Uniswap v4 hook to Base mainnet. Every step is a public GitHub Actions log — nothing hidden, nothing curated after the fact.
+It's a genuinely new surface (previously GitHub-dashboard-only), so the whole lifecycle - write a skill, test it, schedule it, watch it run unattended on GitHub Actions - now happens in one place. Separately, an unaffiliated account wrote up a "pick Aeon if you want host-free, self-repairing cron" breakdown this week, which is close to how I'd describe the pitch myself.
 
-What made it interesting to the few people watching wasn't the deploy itself, it was the refusal. One reply reframed it well: most x402 loops stop once the receipt prints — this one spent the receipt on the deployer that shipped the hook. Separately, someone unconnected to us pointed out Aeon's multi-harness support solves "the silent killer for long-running workflows" — model lock-in — which is closer to the actual thesis than the deploy headline is.
+I work on Aeon. Happy to show the actual skill file format if anyone's curious how close it maps to Claude Code skills.
 
-Aeon is the framework behind it: skills-as-markdown, cron + chains, self-repair, running on GitHub Actions with no approval loop. Open source (AGPL): https://github.com/aeonfun/aeon
-
-Happy to go into how the refusal logic or the x402 funding step actually works if anyone's curious.
+Repo: https://github.com/aeonfun/aeon
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=My%20agent%20funded%20its%20own%20deploy%2C%20refused%20a%20drain%20attempt%2C%20then%20shipped%20to%20Base%20mainnet%20unattended)
-_notes: no formal flair requirement known for this sub, but respect the self-promo ratio — post as the builder (disclosed above), not as a neutral bystander._
+*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=Aeon%20skills%20are%20literally%20markdown%20files%20-%20just%20showed%20off%20running%2Fscheduling%20them%20from%20inside%20Cursor)
+_notes: technical sub, skip sales language, lead with the skill-file parity; disclose "I work on Aeon" per sub norms._
 
 ---
-*r/CoolGithubProjects* · archetype: github
-*Title:* Aeon - an autonomous agent that funded its own deploy and shipped to Base mainnet, unattended
+*r/AIPromptProgramming* · archetype: agents
+*Title:* An agent framework you can now fully manage from inside Cursor - schedule/edit/deploy skills without touching a dashboard
 *Body:*
-Aeon - a fork-and-configure agent framework that runs entirely on GitHub Actions cron, no long-lived process, no approval loop.
+Been following Aeon (open-source agent framework, runs unattended on GitHub Actions via cron + markdown "skills") and this week they added a Cursor-native workflow - enable a skill, schedule it, edit its instructions, wire secrets and notification channels, even turn old chat history into a new scheduled skill, all from inside the editor instead of a web dashboard.
 
-What/why: last week one of its skills ran a full autonomous economic loop — paid for its own deployer wallet with an x402 micropayment, judged an incoming gas transfer to be a drain-attack look-alike and refused it, then shipped a live Uniswap v4 hook to Base mainnet. Every step is a public Actions run, not a highlight reel.
+What's different from a lot of agent tooling: there's no daemon you have to keep running yourself - the agent's loop is a scheduled GitHub Actions job, self-repairing when a skill starts failing, with every run's trace public. An independent account wrote up when they'd reach for this over a hosted-daemon setup like Hermes, worth a read if you're weighing the tradeoff.
 
-Stack: skills are plain markdown files (SKILL.md) that Claude Code reads and executes on schedule. Chains wire skills together, a self-repair loop scores runs and files/fixes issues by PR, everything writes to a committed memory/ directory instead of a database.
+I built this - ask me anything about the Cursor integration or the skill format.
 
-Repo, AGPL, open to forks: https://github.com/aeonfun/aeon
+Repo: https://github.com/aeonfun/aeon
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20an%20autonomous%20agent%20that%20funded%20its%20own%20deploy%20and%20shipped%20to%20Base%20mainnet%2C%20unattended)
-_notes: this sub enforces the "Aeon - <one-line desc>" title format strictly — kept it. I'm the builder, will answer questions in-thread._
+*Post here:* [Open r/AIPromptProgramming composer](https://www.reddit.com/r/AIPromptProgramming/submit?title=An%20agent%20framework%20you%20can%20now%20fully%20manage%20from%20inside%20Cursor%20-%20schedule%2Fedit%2Fdeploy%20skills%20without%20touching%20a%20dashboard)
+_notes: comparison mention should stay descriptive not a dunk on Hermes; disclose builder status; keep to one link._
 
 ---
-*r/OpenSourceAI* · archetype: open-source
-*Title:* Open-sourcing the mechanic behind an agent that paid for its own mainnet deploy
+*r/AskVibecoders* · archetype: vibecoders
+*Title:* vibe-coded my agent's entire schedule from inside Cursor this week, no dashboard needed
 *Body:*
-The part of "autonomous agents" that's usually vaporware is the money step — most frameworks demo a plan, not an agent actually spending funds it controls with no human in the loop.
+Small but genuinely useful thing that shipped this week: I can now spin up and manage a whole Aeon agent (open-source, runs on GitHub Actions on a cron) from inside Cursor. Enable a skill, schedule it, tweak the instructions, hook up secrets/notifications - even feed it old chat logs and have it turn that into a new scheduled skill. Didn't touch the GitHub dashboard once.
 
-Aeon is fully open source (AGPL), and the mechanic behind last week's Base mainnet deploy is nothing exotic: a skill is just a markdown file with steps, running on GitHub Actions cron. This particular skill funded its own deployer wallet through an x402 micropayment, evaluated a suspicious gas transfer as a drain-attack pattern, refused it, then proceeded to ship a live Uniswap v4 hook — logged publicly the entire way, nothing edited after the fact.
+Feels like the natural place for this kind of thing to live - you're already vibe-coding in the editor, now the "make this run itself forever" step is right there too.
 
-Nothing about this required a custom runtime or hosted service. It's Claude Code, a cron schedule, and a markdown file describing what to check before spending money. That's the whole trick.
+I'm the builder, this is my own project - happy to answer questions or show the setup.
 
-Repo's here if you want to read the actual skill: https://github.com/aeonfun/aeon
+https://github.com/aeonfun/aeon
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=Open-sourcing%20the%20mechanic%20behind%20an%20agent%20that%20paid%20for%20its%20own%20mainnet%20deploy)
-_notes: disclosed as builder in-body ("I work on Aeon") — keep it, this sub expects it. No flair rule known._
+*Post here:* [Open r/AskVibecoders composer](https://www.reddit.com/r/AskVibecoders/submit?title=vibe-coded%20my%20agent%27s%20entire%20schedule%20from%20inside%20Cursor%20this%20week%2C%20no%20dashboard%20needed)
+_notes: casual/first-person tone fits the sub; still disclose it's your own project; keep self-promo to the one link, no repeat pushes._
 
 ---
-*r/StartupMind* · archetype: startup
-*Title:* Building in public: this week our agent funded its own deploy, refused a drain attempt, and shipped to Base mainnet
+*r/lovingopensourceAI* · archetype: open-source
+*Title:* Open-source agent framework you can now run/schedule entirely from Cursor
 *Body:*
-Shipped this week, no team of ten, no ops on standby: one of Aeon's skills ran a complete autonomous economic loop end to end.
+Sharing because I like seeing open tools get easier to actually use: Aeon (AGPL, skills-as-markdown, cron + chains on GitHub Actions) shipped a Cursor-native workflow this week - manage the whole agent lifecycle (enable/schedule/edit skills, wire secrets and channels) without leaving the editor or touching a dashboard.
 
-It funded its own deployer wallet via an x402 micropayment, got hit with a gas transfer that looked like a drain attack, refused it on its own judgment, then went ahead and shipped a live Uniswap v4 hook to Base mainnet. All of it logged in a public GitHub Actions run — there's no version of this story where we quietly cleaned up a failed run before posting about it, because we can't, the log is the log.
+Nothing about it requires a hosted service - it's still just a repo, a schedule, and markdown files you can read end to end. The Cursor integration is just a friendlier way in.
 
-The reaction that mattered most wasn't the deploy, it was someone unconnected to us pointing out that Aeon's multi-harness support solves "the silent killer for long-running workflows" — model lock-in. That's closer to what we're actually building toward than any single deploy is.
+I work on Aeon - happy to answer questions about the setup or the skill format.
 
-If you want to see how it works: https://aeon.fun
-
-Building this in the open, always happy to talk through what worked and what didn't.
-*Link in post:* https://aeon.fun
-*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=Building%20in%20public%3A%20this%20week%20our%20agent%20funded%20its%20own%20deploy%2C%20refused%20a%20drain%20attempt%2C%20and%20shipped%20to%20Base%20mainnet)
-_notes: keep founder/traction voice per sub norm, no growth-hacky framing; disclose as the builder, don't lurk._
+Repo: https://github.com/aeonfun/aeon
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/lovingopensourceAI composer](https://www.reddit.com/r/lovingopensourceAI/submit?title=Open-source%20agent%20framework%20you%20can%20now%20run%2Fschedule%20entirely%20from%20Cursor)
+_notes: enthusiast OSS crowd, "what I built + why it's open" framing; disclose "I work on Aeon."_

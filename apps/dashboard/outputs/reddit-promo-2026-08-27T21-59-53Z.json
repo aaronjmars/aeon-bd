@@ -1,0 +1,345 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-08-27"
+      },
+      "children": [
+        "text_run_header",
+        "separator_1",
+        "heading_story",
+        "text_story_desc",
+        "link_x_post",
+        "separator_2",
+        "stack_sub1",
+        "separator_3",
+        "stack_sub2",
+        "separator_4",
+        "stack_sub3",
+        "separator_5",
+        "stack_sub4"
+      ]
+    },
+    "text_run_header": {
+      "type": "Text",
+      "props": {
+        "text": "0d since last promo · second run today (earlier 2026-08-27 dispatch already promoted the autonomous-deploy story to r/Agent_AI, r/CoolGithubProjects, r/OpenSourceAI, r/StartupMind) · 4 subs drafted",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_story": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h2"
+      }
+    },
+    "text_story_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon shipped a native Cursor workflow - enable/schedule/edit skills, wire secrets + channels, mine old chats into new skills, no dashboard needed",
+        "variant": "body"
+      }
+    },
+    "link_x_post": {
+      "type": "Link",
+      "props": {
+        "label": "X post by @aaronjmars",
+        "href": "https://x.com/aaronjmars/status/2092687201947554035"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_sub1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sub1",
+        "badge_sub1",
+        "text_sub1_title",
+        "text_sub1_body",
+        "link_sub1_repo",
+        "link_sub1_composer",
+        "text_sub1_notes"
+      ]
+    },
+    "heading_sub1": {
+      "type": "Heading",
+      "props": {
+        "text": "r/CLaudeSkills",
+        "level": "h3"
+      }
+    },
+    "badge_sub1": {
+      "type": "Badge",
+      "props": {
+        "text": "claude-skills",
+        "variant": "outline"
+      }
+    },
+    "text_sub1_title": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon skills are literally markdown files - just showed off running/scheduling them from inside Cursor",
+        "variant": "lead"
+      }
+    },
+    "text_sub1_body": {
+      "type": "Text",
+      "props": {
+        "text": "If you're already writing Claude-style SKILL.md files, Aeon (an open-source agent framework) uses the exact same shape - frontmatter + markdown instructions, triggered by cron instead of a chat turn. This week the founder showed running a whole Aeon instance from inside Cursor: enabling/scheduling/editing skills, wiring up secrets and notification channels, and even mining past chat history into new scheduled skills - all without leaving the editor.\n\nIt's a genuinely new surface (previously GitHub-dashboard-only), so the whole lifecycle - write a skill, test it, schedule it, watch it run unattended on GitHub Actions - now happens in one place. Separately, an unaffiliated account wrote up a \"pick Aeon if you want host-free, self-repairing cron\" breakdown this week, which is close to how I'd describe the pitch myself.\n\nI work on Aeon. Happy to show the actual skill file format if anyone's curious how close it maps to Claude Code skills.",
+        "variant": "body"
+      }
+    },
+    "link_sub1_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Repository",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "link_sub1_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CLaudeSkills composer",
+        "href": "https://www.reddit.com/r/CLaudeSkills/submit?title=Aeon%20skills%20are%20literally%20markdown%20files%20-%20just%20showed%20off%20running%2Fscheduling%20them%20from%20inside%20Cursor"
+      }
+    },
+    "text_sub1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "notes: technical sub, skip sales language, lead with the skill-file parity; disclose \"I work on Aeon\" per sub norms.",
+        "variant": "caption"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_sub2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sub2",
+        "badge_sub2",
+        "text_sub2_title",
+        "text_sub2_body",
+        "link_sub2_repo",
+        "link_sub2_composer",
+        "text_sub2_notes"
+      ]
+    },
+    "heading_sub2": {
+      "type": "Heading",
+      "props": {
+        "text": "r/AIPromptProgramming",
+        "level": "h3"
+      }
+    },
+    "badge_sub2": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "outline"
+      }
+    },
+    "text_sub2_title": {
+      "type": "Text",
+      "props": {
+        "text": "An agent framework you can now fully manage from inside Cursor - schedule/edit/deploy skills without touching a dashboard",
+        "variant": "lead"
+      }
+    },
+    "text_sub2_body": {
+      "type": "Text",
+      "props": {
+        "text": "Been following Aeon (open-source agent framework, runs unattended on GitHub Actions via cron + markdown \"skills\") and this week they added a Cursor-native workflow - enable a skill, schedule it, edit its instructions, wire secrets and notification channels, even turn old chat history into a new scheduled skill, all from inside the editor instead of a web dashboard.\n\nWhat's different from a lot of agent tooling: there's no daemon you have to keep running yourself - the agent's loop is a scheduled GitHub Actions job, self-repairing when a skill starts failing, with every run's trace public. An independent account wrote up when they'd reach for this over a hosted-daemon setup like Hermes, worth a read if you're weighing the tradeoff.\n\nI built this - ask me anything about the Cursor integration or the skill format.",
+        "variant": "body"
+      }
+    },
+    "link_sub2_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Repository",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "link_sub2_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AIPromptProgramming composer",
+        "href": "https://www.reddit.com/r/AIPromptProgramming/submit?title=An%20agent%20framework%20you%20can%20now%20fully%20manage%20from%20inside%20Cursor%20-%20schedule%2Fedit%2Fdeploy%20skills%20without%20touching%20a%20dashboard"
+      }
+    },
+    "text_sub2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "notes: comparison mention should stay descriptive not a dunk on Hermes; disclose builder status; keep to one link.",
+        "variant": "caption"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_sub3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sub3",
+        "badge_sub3",
+        "text_sub3_title",
+        "text_sub3_body",
+        "link_sub3_repo",
+        "link_sub3_composer",
+        "text_sub3_notes"
+      ]
+    },
+    "heading_sub3": {
+      "type": "Heading",
+      "props": {
+        "text": "r/AskVibecoders",
+        "level": "h3"
+      }
+    },
+    "badge_sub3": {
+      "type": "Badge",
+      "props": {
+        "text": "vibecoders",
+        "variant": "outline"
+      }
+    },
+    "text_sub3_title": {
+      "type": "Text",
+      "props": {
+        "text": "vibe-coded my agent's entire schedule from inside Cursor this week, no dashboard needed",
+        "variant": "lead"
+      }
+    },
+    "text_sub3_body": {
+      "type": "Text",
+      "props": {
+        "text": "Small but genuinely useful thing that shipped this week: I can now spin up and manage a whole Aeon agent (open-source, runs on GitHub Actions on a cron) from inside Cursor. Enable a skill, schedule it, tweak the instructions, hook up secrets/notifications - even feed it old chat logs and have it turn that into a new scheduled skill. Didn't touch the GitHub dashboard once.\n\nFeels like the natural place for this kind of thing to live - you're already vibe-coding in the editor, now the \"make this run itself forever\" step is right there too.\n\nI'm the builder, this is my own project - happy to answer questions or show the setup.",
+        "variant": "body"
+      }
+    },
+    "link_sub3_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Repository",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "link_sub3_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AskVibecoders composer",
+        "href": "https://www.reddit.com/r/AskVibecoders/submit?title=vibe-coded%20my%20agent%27s%20entire%20schedule%20from%20inside%20Cursor%20this%20week%2C%20no%20dashboard%20needed"
+      }
+    },
+    "text_sub3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "notes: casual/first-person tone fits the sub; still disclose it's your own project; keep self-promo to the one link, no repeat pushes.",
+        "variant": "caption"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_sub4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sub4",
+        "badge_sub4",
+        "text_sub4_title",
+        "text_sub4_body",
+        "link_sub4_repo",
+        "link_sub4_composer",
+        "text_sub4_notes"
+      ]
+    },
+    "heading_sub4": {
+      "type": "Heading",
+      "props": {
+        "text": "r/lovingopensourceAI",
+        "level": "h3"
+      }
+    },
+    "badge_sub4": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "outline"
+      }
+    },
+    "text_sub4_title": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source agent framework you can now run/schedule entirely from Cursor",
+        "variant": "lead"
+      }
+    },
+    "text_sub4_body": {
+      "type": "Text",
+      "props": {
+        "text": "Sharing because I like seeing open tools get easier to actually use: Aeon (AGPL, skills-as-markdown, cron + chains on GitHub Actions) shipped a Cursor-native workflow this week - manage the whole agent lifecycle (enable/schedule/edit skills, wire secrets and channels) without leaving the editor or touching a dashboard.\n\nNothing about it requires a hosted service - it's still just a repo, a schedule, and markdown files you can read end to end. The Cursor integration is just a friendlier way in.\n\nI work on Aeon - happy to answer questions about the setup or the skill format.",
+        "variant": "body"
+      }
+    },
+    "link_sub4_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Repository",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "link_sub4_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/lovingopensourceAI composer",
+        "href": "https://www.reddit.com/r/lovingopensourceAI/submit?title=Open-source%20agent%20framework%20you%20can%20now%20run%2Fschedule%20entirely%20from%20Cursor"
+      }
+    },
+    "text_sub4_notes": {
+      "type": "Text",
+      "props": {
+        "text": "notes: enthusiast OSS crowd, \"what I built + why it's open\" framing; disclose \"I work on Aeon.\"",
+        "variant": "caption"
+      }
+    }
+  }
+}
