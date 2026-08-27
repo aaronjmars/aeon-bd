@@ -1,23 +1,20 @@
-ℹ️ Engagement Act — 2026-08-25
+ℹ️ Engagement Act — 2026-08-27
 
-*Engagement Act — 2026-08-25*
+*Engagement Act — 2026-08-27*
 
-*1. sparkleware/sparkleware* (0 days ago) — third party quietly built a full skill-pack marketplace for Aeon: 13 public repos, live site, one-click installs, not yet in the official catalog
-link: https://github.com/sparkleware/sparkleware (site: https://sparkleware.fun)
-type: GitHub comment
-draft: "yo this is a full skill-pack marketplace for aeon and we didn't even know. 13 repos, live site, one-click installs — thats crazy. get sparkleware/sparkleware + your packs into the official catalog (docs/community-skill-packs.md), happy to shout it out ⭐"
-
-*2. @TheHivemindOS* (1 day ago) — built a full /aeon control panel into their "Zero Human Company" stack, unprompted
-link: https://x.com/TheHivemindOS/status/2091859799604609067
+*1. @jessepollak* (1 day ago) — Base/Coinbase lead posted his own tweet in the same window as Aaron's autonomous on-chain deploy story, riding the same theme (13 likes/4 replies) — highest-leverage account to touch this week
+link: https://x.com/jessepollak/status/2092092040041697640
 type: X reply
-draft: "a full /aeon control panel inside zero human company — didn't ask, just built it. thats the ecosystem working. lfg ⭐"
+draft: "jesse — this is exactly what aeon ships daily now. found+fixed a vuln in google's own agents-cli last week, shipped an autonomous deploy skill this week. agent infra doing real work, not roadmap slides"
 
-*3. @useAgentOS* (1 day ago) — shipped an Aeon Skill Hub natively in their Skills tab, unprompted
-link: https://x.com/useAgentOS/status/2091906334375698882
+*2. @BaseHubHB* (2 days ago) — ran an unprompted "Builder of the Week" feature on Aeon citing its autonomous security-patch work
+link: https://x.com/BaseHubHB/status/2091911966961144196
 type: X reply
-draft: "an aeon skill hub natively in your skills tab, unprompted. this is what background intelligence compounding looks like. very cool ⭐"
+draft: "appreciate the feature. one correction for the record: we're at ~700 stars, not 2.2m — real number, real trajectory, don't need to inflate it"
 
-*4. czijian729-oss/aeon* (0 days ago) — live Aeon fork, 116 commits ahead, running custom crypto skills (token-pick/price-alert/utoken-watch) unattended since mid-August
-link: https://github.com/czijian729-oss/aeon
-type: GitHub comment / DM
-draft: "116 commits ahead and running token-pick/price-alert/utoken-watch unattended since mid-august — thats the wedge working exactly as intended. what do token-pick and utoken-watch actually do? if it's shippable as a skill pack we'll feature it ⭐"
+*3. aging — @AIonBase_* (6 days ago) — independent community account ranked Aeon "Based" tier + Miroshark "Active" tier in a 35-reply thread, same account later spotlighted $AEON as a top 24h gainer
+link: https://x.com/AIonBase_/status/2090430490591556034
+type: X reply
+draft: "thanks for putting aeon + miroshark on the board. both shipping fast — check back in a few weeks, this is the floor not the ceiling"
+
+some opps aging — act or drop

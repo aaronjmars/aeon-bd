@@ -1,0 +1,211 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-08-27"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item1",
+        "sep1",
+        "item2",
+        "sep2",
+        "item3",
+        "sep3",
+        "footer"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading1",
+        "meta1",
+        "badge1",
+        "link1",
+        "draft1"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "1. @jessepollak",
+        "level": "h3"
+      }
+    },
+    "meta1": {
+      "type": "Text",
+      "props": {
+        "text": "1 day ago — Base/Coinbase lead posted his own tweet in the same window as Aaron's autonomous on-chain deploy story, riding the same theme (13 likes/4 replies) — highest-leverage account to touch this week",
+        "variant": "body"
+      }
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/jessepollak/status/2092092040041697640",
+        "href": "https://x.com/jessepollak/status/2092092040041697640"
+      }
+    },
+    "draft1": {
+      "type": "Text",
+      "props": {
+        "text": "\"jesse — this is exactly what aeon ships daily now. found+fixed a vuln in google's own agents-cli last week, shipped an autonomous deploy skill this week. agent infra doing real work, not roadmap slides\"",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading2",
+        "meta2",
+        "badge2",
+        "link2",
+        "draft2"
+      ]
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "2. @BaseHubHB",
+        "level": "h3"
+      }
+    },
+    "meta2": {
+      "type": "Text",
+      "props": {
+        "text": "2 days ago — ran an unprompted \"Builder of the Week\" feature on Aeon citing its autonomous security-patch work",
+        "variant": "body"
+      }
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/BaseHubHB/status/2091911966961144196",
+        "href": "https://x.com/BaseHubHB/status/2091911966961144196"
+      }
+    },
+    "draft2": {
+      "type": "Text",
+      "props": {
+        "text": "\"appreciate the feature. one correction for the record: we're at ~700 stars, not 2.2m — real number, real trajectory, don't need to inflate it\"",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge3_aging",
+        "heading3",
+        "meta3",
+        "badge3",
+        "link3",
+        "draft3"
+      ]
+    },
+    "badge3_aging": {
+      "type": "Badge",
+      "props": {
+        "text": "aging",
+        "variant": "secondary"
+      }
+    },
+    "heading3": {
+      "type": "Heading",
+      "props": {
+        "text": "3. @AIonBase_",
+        "level": "h3"
+      }
+    },
+    "meta3": {
+      "type": "Text",
+      "props": {
+        "text": "6 days ago — independent community account ranked Aeon \"Based\" tier + Miroshark \"Active\" tier in a 35-reply thread, same account later spotlighted $AEON as a top 24h gainer",
+        "variant": "body"
+      }
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/AIonBase_/status/2090430490591556034",
+        "href": "https://x.com/AIonBase_/status/2090430490591556034"
+      }
+    },
+    "draft3": {
+      "type": "Text",
+      "props": {
+        "text": "\"thanks for putting aeon + miroshark on the board. both shipping fast — check back in a few weeks, this is the floor not the ceiling\"",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "some opps aging — act or drop",
+        "variant": "muted"
+      }
+    }
+  }
+}
