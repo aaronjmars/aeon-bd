@@ -289,6 +289,26 @@
       "score": 1,
       "date_found": "2026-08-27",
       "url": "https://github.com/AntFleet/bench-miroshark"
+    },
+    {
+      "key": "github:jsfranklin221/aeon-skill-pack-spoolis",
+      "class": "building",
+      "who": "jsfranklin221/aeon-skill-pack-spoolis",
+      "signal": "Spoolis (spoolis.com, outcome-verification product) shipped an Aeon skill pack same day - signed Ed25519 Outcome Receipts verifying chain-step deliverables vs acceptance criteria, keyless sandbox mode, passes Aeon's own pack validator; same account's aeon fork is a 0-ahead drive-by, so the pack repo is the real signal",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/jsfranklin221/aeon-skill-pack-spoolis"
+    },
+    {
+      "key": "github:amritmirch/aeon-skill-pack-farcaster",
+      "class": "building",
+      "who": "amritmirch/aeon-skill-pack-farcaster",
+      "signal": "Individual builder shipped Aeon's first Farcaster skill pack same day - cast-via-Neynar with fail-closed gauntlet and daily cap, fills a real gap vs Aeon's X-only social skills; same handle was flagged 08-27 (engagement-act) for recycling a debunked fake-star-count claim on X, so verify identity/intent before outreach",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/amritmirch/aeon-skill-pack-farcaster"
     }
   ],
   "surfaced": [
@@ -320,6 +340,8 @@
     "github:Muriel-Salvan/x_aeon_agents",
     "github:hansj73/aeon",
     "github:agenticluke/claude-skill-aeon-plus",
-    "github:AntFleet/bench-miroshark"
+    "github:AntFleet/bench-miroshark",
+    "github:jsfranklin221/aeon-skill-pack-spoolis",
+    "github:amritmirch/aeon-skill-pack-farcaster"
   ]
 }

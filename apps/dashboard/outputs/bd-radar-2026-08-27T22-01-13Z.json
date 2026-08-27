@@ -1,0 +1,288 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar",
+        "description": "2026-08-27 (run 2) — vs earlier run today"
+      },
+      "children": [
+        "summary_stats",
+        "sep1",
+        "signal_1",
+        "sep2",
+        "signal_2",
+        "sep3",
+        "status_section"
+      ]
+    },
+    "summary_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_new",
+        "stat_open",
+        "stat_total"
+      ]
+    },
+    "stat_new": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "2"
+      }
+    },
+    "stat_open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "29"
+      }
+    },
+    "stat_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total leads",
+        "value": "31"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signal_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sig1_tags",
+        "sig1_repo",
+        "sig1_product",
+        "sig1_desc",
+        "sig1_move_section",
+        "sig1_stale"
+      ]
+    },
+    "sig1_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sig1_badge_building",
+        "sig1_badge_first_seen"
+      ]
+    },
+    "sig1_badge_building": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "default"
+      }
+    },
+    "sig1_badge_first_seen": {
+      "type": "Badge",
+      "props": {
+        "text": "first seen today",
+        "variant": "secondary"
+      }
+    },
+    "sig1_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jsfranklin221/aeon-skill-pack-spoolis",
+        "href": "https://github.com/jsfranklin221/aeon-skill-pack-spoolis",
+        "source": "GitHub"
+      }
+    },
+    "sig1_product": {
+      "type": "StoryLink",
+      "props": {
+        "title": "spoolis",
+        "href": "https://spoolis.com",
+        "source": "Product"
+      }
+    },
+    "sig1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "spoolis (spoolis.com) shipped an aeon skill an hour after git init — signed outcome receipts for chain steps, passes our own validator. an actual product building on aeon ⭐",
+        "variant": "body"
+      }
+    },
+    "sig1_move_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sig1_move_label",
+        "sig1_move_action"
+      ]
+    },
+    "sig1_move_label": {
+      "type": "Text",
+      "props": {
+        "text": "Move:",
+        "variant": "body"
+      }
+    },
+    "sig1_move_action": {
+      "type": "Text",
+      "props": {
+        "text": "DM jsfranklin221, invite to pack-submit",
+        "variant": "body"
+      }
+    },
+    "sig1_stale": {
+      "type": "Text",
+      "props": {
+        "text": "Flips if repo goes stale (no push 14d)",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signal_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sig2_tags",
+        "sig2_repo",
+        "sig2_desc",
+        "sig2_alert",
+        "sig2_move_section",
+        "sig2_stale"
+      ]
+    },
+    "sig2_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sig2_badge_building",
+        "sig2_badge_first_seen"
+      ]
+    },
+    "sig2_badge_building": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "default"
+      }
+    },
+    "sig2_badge_first_seen": {
+      "type": "Badge",
+      "props": {
+        "text": "first seen today",
+        "variant": "secondary"
+      }
+    },
+    "sig2_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "amritmirch/aeon-skill-pack-farcaster",
+        "href": "https://github.com/amritmirch/aeon-skill-pack-farcaster",
+        "source": "GitHub"
+      }
+    },
+    "sig2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "first farcaster skill for aeon. cast via neynar, fail-closed gauntlet. fills a real gap since we're x-only rn",
+        "variant": "body"
+      }
+    },
+    "sig2_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Verification needed",
+        "message": "this handle recycled a fake star-count claim on x today (engagement-act flagged it), so verify before you reach out",
+        "type": "warning"
+      }
+    },
+    "sig2_move_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sig2_move_label",
+        "sig2_move_action"
+      ]
+    },
+    "sig2_move_label": {
+      "type": "Text",
+      "props": {
+        "text": "Move:",
+        "variant": "body"
+      }
+    },
+    "sig2_move_action": {
+      "type": "Text",
+      "props": {
+        "text": "DM re: the pack",
+        "variant": "body"
+      }
+    },
+    "sig2_stale": {
+      "type": "Text",
+      "props": {
+        "text": "Flips if repo goes stale (no push 14d)",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status_heading",
+        "status_text"
+      ]
+    },
+    "status_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Source status",
+        "level": "h4"
+      }
+    },
+    "status_text": {
+      "type": "Text",
+      "props": {
+        "text": "github ok (4/4 repos) · gh-search ok · x_search ok (http=200) · websearch ok · no source misses",
+        "variant": "caption"
+      }
+    }
+  }
+}

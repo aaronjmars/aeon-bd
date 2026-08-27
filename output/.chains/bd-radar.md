@@ -1,7 +1,12 @@
-✅ bd-radar: CultOS adopted Aeon
+ℹ️ BD Radar
 
-**bd-radar, 2026-08-27** — CultOS (@thecultos) just went public: "we choose Aeon ⭐️" — and it's backed up on GitHub same-day: a live forked instance running its own cron'd skill (`cultos-acp-review`) plus a dedicated `cultos-aeon-skills` pack for their ACP jobs. Worth a reply/DM while it's warm.
+*BD Radar — 2026-08-27 (run 2)*
+vs 2026-08-27 (earlier run today) — 2 new — 29 still-open — 31 leads total
 
-9 more new `building` leads behind it — notably a second Finance District repo, and Sparkleware (known partner) quietly shipped 7 more Aeon skill repos incl. a MiroShark-crossover one. Full ranked list in today's digest.
+`building` [jsfranklin221/aeon-skill-pack-spoolis](https://github.com/jsfranklin221/aeon-skill-pack-spoolis) (first seen today): spoolis (spoolis.com) shipped an aeon skill an hour after git init — signed outcome receipts for chain steps, passes our own validator. an actual product building on aeon ⭐
+  move: DM jsfranklin221, invite to pack-submit — flips if repo goes stale (no push 14d)
 
-🔗 https://x.com/thecultos/status/2092651447200440566
+`building` [amritmirch/aeon-skill-pack-farcaster](https://github.com/amritmirch/aeon-skill-pack-farcaster) (first seen today): first farcaster skill for aeon. cast via neynar, fail-closed gauntlet. fills a real gap since we're x-only rn
+  move: DM re: the pack — but this handle recycled a fake star-count claim on x today (engagement-act flagged it), so verify before you reach out — flips if repo goes stale (no push 14d)
+
+run: github ok (4/4 repos) · gh-search ok · x_search ok (http=200) · websearch ok · no source misses
