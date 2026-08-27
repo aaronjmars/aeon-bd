@@ -1,0 +1,342 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark (2026-08-27)"
+      },
+      "children": [
+        "text_context",
+        "sep1",
+        "section_aeon_hermes",
+        "sep2",
+        "section_miroshark",
+        "sep3",
+        "section_cursor",
+        "sep4",
+        "section_dropped"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Team runs a Hermes-vs-Aeon comparison series and pushes Miroshark into a football-betting use case; one independent account is already echoing the pitch verbatim."
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "section_aeon_hermes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aeon_hermes",
+        "tweet1_wrapper",
+        "tweet2_wrapper"
+      ]
+    },
+    "heading_aeon_hermes": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon vs Hermes positioning",
+        "level": "h3"
+      }
+    },
+    "tweet1_wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1_header",
+        "tweet1_card",
+        "tweet1_metrics",
+        "tweet1_link"
+      ]
+    },
+    "tweet1_header": {
+      "type": "Text",
+      "props": {
+        "text": "1. x.com/aeonframework",
+        "variant": "caption"
+      }
+    },
+    "tweet1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "aeonframework",
+        "text": "Kicks off \"Rumble in the agentic jungle\" comparison series, first entry Aeon vs Nous Research's Hermes, blog post linked in replies — direct competitive positioning content from the team.",
+        "likes": 57,
+        "retweets": 5
+      }
+    },
+    "tweet1_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 9",
+        "variant": "caption"
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2092540850492326395"
+      }
+    },
+    "tweet2_wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2_header",
+        "tweet2_card",
+        "tweet2_metrics",
+        "tweet2_link"
+      ]
+    },
+    "tweet2_header": {
+      "type": "Text",
+      "props": {
+        "text": "2. x.com/0xNurstar",
+        "variant": "caption"
+      }
+    },
+    "tweet2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "0xNurstar",
+        "text": "Independent account lays out a decision matrix for \"pick Aeon if...\" — host-free, self-repairing GitHub Actions cron vs. Hermes's user-hosted daemon — third party articulating Aeon's differentiator unprompted.",
+        "likes": 13,
+        "retweets": 1
+      }
+    },
+    "tweet2_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2092541398604005501"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "section_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_miroshark",
+        "tweet3_wrapper",
+        "tweet4_wrapper"
+      ]
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark football-sim promo",
+        "level": "h3"
+      }
+    },
+    "tweet3_wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3_header",
+        "tweet3_card",
+        "tweet3_metrics",
+        "tweet3_link"
+      ]
+    },
+    "tweet3_header": {
+      "type": "Text",
+      "props": {
+        "text": "3. x.com/aeonframework",
+        "variant": "caption"
+      }
+    },
+    "tweet3_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "aeonframework",
+        "text": "Team pitches Miroshark's $1, 10-minute x402-metered multi-agent sim specifically for predicting football matches — a concrete vertical (sports betting/prediction) rather than generic \"simulate anything.\"",
+        "likes": 38,
+        "retweets": 4
+      }
+    },
+    "tweet3_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2092591544423301351"
+      }
+    },
+    "tweet4_wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4_header",
+        "tweet4_card",
+        "tweet4_metrics",
+        "tweet4_link"
+      ]
+    },
+    "tweet4_header": {
+      "type": "Text",
+      "props": {
+        "text": "4. x.com/0xNurstar",
+        "variant": "caption"
+      }
+    },
+    "tweet4_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "0xNurstar",
+        "text": "Same account reposts the football-sim pitch almost verbatim minutes later — thin but real organic amplification of the new use-case framing.",
+        "likes": 9,
+        "retweets": 2
+      }
+    },
+    "tweet4_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2092592697051648462"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "section_cursor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_cursor",
+        "tweet5_wrapper"
+      ]
+    },
+    "heading_cursor": {
+      "type": "Heading",
+      "props": {
+        "text": "Cursor integration",
+        "level": "h3"
+      }
+    },
+    "tweet5_wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet5_header",
+        "tweet5_card",
+        "tweet5_metrics",
+        "tweet5_link"
+      ]
+    },
+    "tweet5_header": {
+      "type": "Text",
+      "props": {
+        "text": "5. x.com/aaronjmars",
+        "variant": "caption"
+      }
+    },
+    "tweet5_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron",
+        "handle": "aaronjmars",
+        "text": "Shows setting up/running an Aeon agent instance from inside Cursor — enable/schedule/edit skills, wire secrets and channels, mine past chats into scheduled skills — a new distribution surface beyond the GitHub dashboard.",
+        "likes": 27,
+        "retweets": 4
+      }
+    },
+    "tweet5_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "tweet5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2092687201947554035"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "section_dropped": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_dropped",
+        "alert_dropped"
+      ]
+    },
+    "heading_dropped": {
+      "type": "Heading",
+      "props": {
+        "text": "Dropped",
+        "level": "h3"
+      }
+    },
+    "alert_dropped": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "2 candidates (@lovevolume, @AIonBase_) claimed \"2M+\"/\"2.4M\" GitHub stars + a \"Google-recognized PR\" for Aeon — actual count via `gh api` is 694 stars, no evidence of the PR. Same pattern as the recycled \"2.2M stars\" spam claim flagged separately today."
+      }
+    }
+  }
+}
