@@ -94,7 +94,7 @@
       "key": "github:NurstarK/MiroShark",
       "class": "forking",
       "who": "NurstarK/MiroShark",
-      "signal": "Live instance running a miroshark-angle content skill biweekly since May, most recent post 2026-08-22 — sustained real usage",
+      "signal": "Live instance running a miroshark-angle content skill biweekly since May, most recent post 2026-08-22 \u2014 sustained real usage",
       "fit": 3,
       "score": 12,
       "date_found": "2026-08-23",
@@ -169,6 +169,126 @@
       "score": 2,
       "date_found": "2026-08-25",
       "url": "https://github.com/anbeime/skill"
+    },
+    {
+      "key": "x:thecultos+github:cultosdev/aeon",
+      "class": "building",
+      "who": "CultOS (@thecultos / cultosdev / thesmithdao)",
+      "signal": "Project account tweeted \"we choose Aeon\" (Aug 26); same-day live forked instance running custom cron'd skill cultos-acp-review + dedicated cultos-aeon-skills pack repo for CultOS ACP jobs",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-27",
+      "url": "https://x.com/thecultos/status/2092651447200440566"
+    },
+    {
+      "key": "github:JessieJanie/aeon-skill-pack-skim",
+      "class": "building",
+      "who": "JessieJanie/aeon-skill-pack-skim",
+      "signal": "Pay-per-call clean web reads via Skim, x402 $0.002 USDC on Base, built for Aeon",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/JessieJanie/aeon-skill-pack-skim"
+    },
+    {
+      "key": "github:financedistrict-platform/fd-aeon-skills",
+      "class": "building",
+      "who": "financedistrict-platform/fd-aeon-skills",
+      "signal": "Finance District Agent Wallet companion skill for Aeon - second repo from this ecosystem (pairs with raul1stdigital/aeon-finance-district)",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/financedistrict-platform/fd-aeon-skills"
+    },
+    {
+      "key": "github:verdikta/aeon-skill-pack-verdikta",
+      "class": "building",
+      "who": "verdikta/aeon-skill-pack-verdikta",
+      "signal": "Aeon skill pack for Verdikta - hunt AI-judged bounties on Base with hard client-side spend caps",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/verdikta/aeon-skill-pack-verdikta"
+    },
+    {
+      "key": "github:LSO-AI/aeon-skills",
+      "class": "building",
+      "who": "LSO-AI/aeon-skills",
+      "signal": "LoneStarOracle AEON skills - weather, crypto, macro, gov contracts, oil leases, audits",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/LSO-AI/aeon-skills"
+    },
+    {
+      "key": "github:richard7463/ai2human-aeon-skill-pack",
+      "class": "building",
+      "who": "richard7463/ai2human-aeon-skill-pack",
+      "signal": "AI2Human Create Task Aeon skill pack: dispatch blocked human steps, proof -> verify -> settle",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/richard7463/ai2human-aeon-skill-pack"
+    },
+    {
+      "key": "github:techdigger/aeon-skill-pack-agentlink",
+      "class": "building",
+      "who": "techdigger/aeon-skill-pack-agentlink",
+      "signal": "AgentLink Aeon skill pack - verified human-backed on-chain identity on Base",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/techdigger/aeon-skill-pack-agentlink"
+    },
+    {
+      "key": "github:sparkleware-expansion-2026-08-27",
+      "class": "building",
+      "who": "Sparkleware (known partner, expanding)",
+      "signal": "7 more Aeon skill repos found beyond sparkleware/sparkleware: aeon-pulse, eth-gas-watch, registry-watch, morning-briefing, hn-top, arxiv-digest, proof-of-loadout (last one also preflights a MiroShark sim)",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/sparkleware/aeon-pulse"
+    },
+    {
+      "key": "github:Muriel-Salvan/x_aeon_agents",
+      "class": "building",
+      "who": "Muriel-Salvan/x_aeon_agents",
+      "signal": "AI agents skills to be used for X-Aeon projects",
+      "fit": 1,
+      "score": 5,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/Muriel-Salvan/x_aeon_agents"
+    },
+    {
+      "key": "github:hansj73/aeon",
+      "class": "building",
+      "who": "hansj73/aeon",
+      "signal": "Fresh fork (created Aug 26) already running its own cron - Telegram auto-commit, fetch-tweets success",
+      "fit": 1,
+      "score": 5,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/hansj73/aeon"
+    },
+    {
+      "key": "github:agenticluke/claude-skill-aeon-plus",
+      "class": "building",
+      "who": "agenticluke/claude-skill-aeon-plus",
+      "signal": "Improved fork of K-Dense-AI/scientific-agent-skills adapted as an aeon skill",
+      "fit": 1,
+      "score": 5,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/agenticluke/claude-skill-aeon-plus"
+    },
+    {
+      "key": "github:AntFleet/bench-miroshark",
+      "class": "adjacent",
+      "who": "AntFleet/bench-miroshark",
+      "signal": "AntFleet benchmark mirror of aaronjmars/MiroShark - two-model security review methodology",
+      "fit": 1,
+      "score": 1,
+      "date_found": "2026-08-27",
+      "url": "https://github.com/AntFleet/bench-miroshark"
     }
   ],
   "surfaced": [
@@ -188,6 +308,18 @@
     "github:sparkleware/sparkleware",
     "github:czijian729-oss/aeon",
     "github:raul1stdigital/aeon",
-    "github:anbeime/skill"
+    "github:anbeime/skill",
+    "x:thecultos+github:cultosdev/aeon",
+    "github:JessieJanie/aeon-skill-pack-skim",
+    "github:financedistrict-platform/fd-aeon-skills",
+    "github:verdikta/aeon-skill-pack-verdikta",
+    "github:LSO-AI/aeon-skills",
+    "github:richard7463/ai2human-aeon-skill-pack",
+    "github:techdigger/aeon-skill-pack-agentlink",
+    "github:sparkleware-expansion-2026-08-27",
+    "github:Muriel-Salvan/x_aeon_agents",
+    "github:hansj73/aeon",
+    "github:agenticluke/claude-skill-aeon-plus",
+    "github:AntFleet/bench-miroshark"
   ]
 }
