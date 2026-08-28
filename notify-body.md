@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — Aeon + Miroshark (2026-08-28)
-
 *Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-28)*
 _x402aff launch dominates the window — Base's Jesse Pollak even reacted — while Miroshark quietly crosses 100k agent actions and lands a Locus integration._
 

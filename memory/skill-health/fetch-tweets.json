@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-27T20:28:39Z",
+  "last_analyzed": "2026-08-28T20:17:20Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-verified BD signal digest with 5 actionable clusters and integrity-driven drops; strong on surfacing/verification, lighter on strategic synthesis.",
+  "assessment": "Substantive BD signal surfaced with real API calls, excellent strategy alignment, actionable follow-ups; verified via HTTP 200 and internally consistent data; not 5 because URLs not independently checked and next steps could be more prescriptive",
   "flags": [],
-  "avg_score": 3.75,
+  "avg_score": 3.78,
   "history": [
     {
       "date": "2026-08-20",
@@ -36,6 +36,10 @@
     },
     {
       "date": "2026-08-27",
+      "score": 4
+    },
+    {
+      "date": "2026-08-28",
       "score": 4
     }
   ]

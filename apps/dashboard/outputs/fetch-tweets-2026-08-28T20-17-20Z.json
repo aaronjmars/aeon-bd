@@ -1,0 +1,394 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark (2026-08-28)",
+        "description": "Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "x402aff_section",
+        "sep2",
+        "momentum_section",
+        "sep3",
+        "community_section"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "x402aff launch dominates the window — Base's Jesse Pollak even reacted — while Miroshark quietly crosses 100k agent actions and lands a Locus integration.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "x402aff_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "x402aff_heading",
+        "tweet1_stack",
+        "tweet2_stack",
+        "tweet3_stack"
+      ]
+    },
+    "x402aff_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "x402aff launch",
+        "level": "h2"
+      }
+    },
+    "tweet1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1_card",
+        "tweet1_engagement",
+        "tweet1_link"
+      ]
+    },
+    "tweet1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Ships x402aff: an affiliate layer letting any x402 endpoint go \"affiliate-ready in one line,\" permissionless join/payout locked onchain — Miroshark's first monetization-infra piece, not just simulation.",
+        "likes": 77,
+        "retweets": 15
+      }
+    },
+    "tweet1_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 18",
+        "variant": "caption"
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2093053679259599283"
+      }
+    },
+    "tweet2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet2_card",
+        "tweet2_engagement",
+        "tweet2_link"
+      ]
+    },
+    "tweet2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "jessepollak",
+        "handle": "jessepollak",
+        "text": "Base's founder drops a wordless 👀 on the x402aff launch — low-effort, high-signal: Base is watching Miroshark's agent-economy infra.",
+        "likes": 16,
+        "retweets": 0
+      }
+    },
+    "tweet2_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/jessepollak/status/2093011018440130585"
+      }
+    },
+    "tweet3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet3_card",
+        "tweet3_engagement",
+        "tweet3_link"
+      ]
+    },
+    "tweet3_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Follow-up pointing devs straight at the x402aff dashboard (miroshark.xyz/x402aff) to start integrating — the CTA half of the launch thread.",
+        "likes": 14,
+        "retweets": 0
+      }
+    },
+    "tweet3_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2093054016867405967"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "momentum_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "momentum_heading",
+        "tweet4_stack",
+        "tweet5_stack",
+        "tweet6_stack"
+      ]
+    },
+    "momentum_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark momentum",
+        "level": "h2"
+      }
+    },
+    "tweet4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet4_card",
+        "tweet4_engagement",
+        "tweet4_link"
+      ]
+    },
+    "tweet4_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Frames the release as deliberately low-noise: \"don't think it will make ton of noise on CT but it's one of the most important things we can ship for x402 adoption\" — infra bet, not hype bait.",
+        "likes": 60,
+        "retweets": 7
+      }
+    },
+    "tweet4_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 10",
+        "variant": "caption"
+      }
+    },
+    "tweet4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2093008050235781140"
+      }
+    },
+    "tweet5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet5_card",
+        "tweet5_engagement",
+        "tweet5_link"
+      ]
+    },
+    "tweet5_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Crosses 100k agent actions on Miroshark, calling the output \"useful synthetic data\" the team will feed back into the simulation model — first public usage-scale number.",
+        "likes": 42,
+        "retweets": 3
+      }
+    },
+    "tweet5_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "tweet5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2093177200803537191"
+      }
+    },
+    "tweet6_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet6_card",
+        "tweet6_engagement",
+        "tweet6_link"
+      ]
+    },
+    "tweet6_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Miroshark goes live on Locus, letting users run multi-agent chaos simulations and pull a report — a third-party platform integration, not just an Aeon-run instance.",
+        "likes": 32,
+        "retweets": 6
+      }
+    },
+    "tweet6_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet6_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2093350269216035026"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "community_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "community_heading",
+        "tweet7_stack",
+        "tweet8_stack"
+      ]
+    },
+    "community_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Community & ecosystem voices",
+        "level": "h2"
+      }
+    },
+    "tweet7_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet7_card",
+        "tweet7_engagement",
+        "tweet7_link"
+      ]
+    },
+    "tweet7_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Amrit_Mirch",
+        "handle": "Amrit_Mirch",
+        "text": "Half-joking challenge to run an agentic debate on Miroshark to check if the $MiroShark team is human or AI — community content idea riffing on the product's own simulation mechanic.",
+        "likes": 19,
+        "retweets": 1
+      }
+    },
+    "tweet7_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet7_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Amrit_Mirch/status/2092972834759061590"
+      }
+    },
+    "tweet8_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet8_card",
+        "tweet8_engagement",
+        "tweet8_link"
+      ]
+    },
+    "tweet8_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "svector_eth",
+        "handle": "svector_eth",
+        "text": "Independent usage testimonial: one Aeon instance now running 6 packs, 27 of 80 skills enabled, operating on its own schedule — \"stopped feeling like something I was testing.\" Real daily-driver use, not promo.",
+        "likes": 4,
+        "retweets": 1
+      }
+    },
+    "tweet8_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet8_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/svector_eth/status/2093422903781916891"
+      }
+    }
+  }
+}
