@@ -1,10 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-27T21:59:53Z",
+  "last_analyzed": "2026-08-28T20:18:20Z",
   "quality_score": 4,
-  "assessment": "Solid execution with proper editorial discretion—flagged unusual same-day duplicate dispatch upfront, drafted audience-tailored Reddit posts, maintained memory, gave clear follow-up action. No errors or generic content.",
+  "assessment": "Four subreddit-specific Reddit drafts with sound editorial choices, copy-paste-ready links, and audience-tailored framing.",
   "flags": [],
-  "avg_score": 3.89,
+  "avg_score": 3.9,
   "history": [
     {
       "date": "2026-08-20",
@@ -40,6 +40,10 @@
     },
     {
       "date": "2026-08-27",
+      "score": 4
+    },
+    {
+      "date": "2026-08-28",
       "score": 4
     }
   ]

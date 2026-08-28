@@ -1,66 +1,71 @@
-ℹ️ Reddit Promo - 2026-08-27 (run 2)
+ℹ️ Reddit Promo - 2026-08-28
 
-*Reddit Promo - 2026-08-27*
-0d since last promo · **second run today** (earlier 2026-08-27 dispatch already promoted the autonomous-deploy story to r/Agent_AI, r/CoolGithubProjects, r/OpenSourceAI, r/StartupMind) · 4 subs drafted
+*Reddit Promo - 2026-08-28*
+1d since last promo · 4 subs drafted
 
-_Story:_ Aeon shipped a native Cursor workflow - enable/schedule/edit skills, wire secrets + channels, mine old chats into new skills, no dashboard needed - https://x.com/aaronjmars/status/2092687201947554035
+_Story:_ Aeon shipped a reusable soul/ voice-cloning pattern - feed an LLM your tweets/essays, get markdown files any model can load to write in your voice, pitched as standalone/adoptable outside Aeon itself - https://x.com/aaronjmars/status/2092385918770446339
+
+---
+*r/LovingAI* · archetype: open-source
+*Title:* an agent framework that clones your writing voice from old tweets, then writes your Reddit posts for you (kinda)
+*Body:*
+been building an open-source agent framework (Aeon) and shipped something this week that's useful even if you never touch the rest of it: a "soul" system. you point it at your old tweets/essays, it distills a couple markdown files - tone, vocabulary, rhetorical habits, the stuff that makes your writing sound like *you* and not generic AI slop. any model can then load those files and write in your voice.
+
+the mechanic is dumb simple on purpose - no fine-tuning, no vector DB, just structured markdown an LLM reads before it writes anything. that's the whole trick. we use it so the agent's automated posts/replies don't read like a bot.
+
+same week we also added Vercel as a deploy target (it originally only ran on GitHub Actions), so it's got more places to actually live now.
+
+repo's here if you want to see the pattern or rip it out for your own project: https://github.com/aeonfun/aeon - it's AGPL, runs unattended, no dashboard required. happy to answer questions on how the voice files get built.
+
+*Link in post:* https://aeon.fun
+*Post here:* [Open r/LovingAI composer](https://www.reddit.com/r/LovingAI/submit?title=an%20agent%20framework%20that%20clones%20your%20writing%20voice%20from%20old%20tweets%2C%20then%20writes%20your%20Reddit%20posts%20for%20you%20%28kinda%29)
+_notes: r/LovingAI skews general-audience - keep jargon low (already done above); disclose as builder ("I work on Aeon") in the post/first comment, don't post as a neutral discoverer._
+
+---
+*r/Ollama* · archetype: open-source
+*Title:* built a self-hosted agent that reads your old tweets and writes markdown files any local model can load to sound like you
+*Body:*
+posting here because this crowd cares about owning your stack, not renting someone else's API forever.
+
+shipped a "soul" system in Aeon (open-source agent framework, AGPL, runs on GitHub Actions) this week: feed it your tweets/essays, it writes out plain markdown files describing your voice - sentence structure, vocab, what you'd never say. any model that can read a text file can load them, local or hosted. no vendor lock-in, no proprietary fine-tune you can't move.
+
+paired with that, we added a second deploy surface (Vercel) alongside GitHub Actions, so the agent isn't tied to one host either.
+
+whole thing's designed to run unattended - cron + self-repair - no approval loop babysitting it. repo: https://github.com/aeonfun/aeon. genuinely curious if anyone's running similar voice/persona files against local models already, would compare notes.
+
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/Ollama composer](https://www.reddit.com/r/Ollama/submit?title=built%20a%20self-hosted%20agent%20that%20reads%20your%20old%20tweets%20and%20writes%20markdown%20files%20any%20local%20model%20can%20load%20to%20sound%20like%20you)
+_notes: self-hosting crowd - lead with own-your-stack framing (done); disclose as builder in-post, check current self-promo flair/ratio rules before posting._
 
 ---
 *r/CLaudeSkills* · archetype: claude-skills
-*Title:* Aeon skills are literally markdown files - just showed off running/scheduling them from inside Cursor
+*Title:* a soul.md skill pack: feed it your tweets/essays, get a voice-clone any Claude Skill can load
 *Body:*
-If you're already writing Claude-style SKILL.md files, Aeon (an open-source agent framework) uses the exact same shape - frontmatter + markdown instructions, triggered by cron instead of a chat turn. This week the founder showed running a whole Aeon instance from inside Cursor: enabling/scheduling/editing skills, wiring up secrets and notification channels, and even mining past chat history into new scheduled skills - all without leaving the editor.
+Aeon skills are literally markdown files that run on a schedule via Claude Code - no custom runtime, just SKILL.md + frontmatter. this week we shipped a new pattern on top of that: a "soul" system for voice-cloning.
 
-It's a genuinely new surface (previously GitHub-dashboard-only), so the whole lifecycle - write a skill, test it, schedule it, watch it run unattended on GitHub Actions - now happens in one place. Separately, an unaffiliated account wrote up a "pick Aeon if you want host-free, self-repairing cron" breakdown this week, which is close to how I'd describe the pitch myself.
+the shape: you dump your tweets/essays in, an LLM distills them into a few markdown files (SOUL.md for identity/opinions, STYLE.md for sentence-level habits, examples/ for calibration). every skill that writes human-facing output reads those files first. that's it - no fine-tune, no embeddings, just markdown a skill loads before it drafts a tweet, a reply, a report.
 
-I work on Aeon. Happy to show the actual skill file format if anyone's curious how close it maps to Claude Code skills.
+works standalone too - if you're already writing Claude Skills, you can lift the pattern without touching the rest of Aeon. same week we added Vercel as a deploy target next to GitHub Actions, if that's relevant to how you're running skills.
 
-Repo: https://github.com/aeonfun/aeon
+repo, if you want to see the actual files: https://github.com/aeonfun/aeon. happy to walk through the SOUL.md/STYLE.md split if useful.
+
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=Aeon%20skills%20are%20literally%20markdown%20files%20-%20just%20showed%20off%20running%2Fscheduling%20them%20from%20inside%20Cursor)
-_notes: technical sub, skip sales language, lead with the skill-file parity; disclose "I work on Aeon" per sub norms._
+*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=a%20soul.md%20skill%20pack%3A%20feed%20it%20your%20tweets/essays%2C%20get%20a%20voice-clone%20any%20Claude%20Skill%20can%20load)
+_notes: technical audience, respect it - show the actual file shape, no oversell; disclose as the builder, not a neutral finder._
 
 ---
-*r/AIPromptProgramming* · archetype: agents
-*Title:* An agent framework you can now fully manage from inside Cursor - schedule/edit/deploy skills without touching a dashboard
+*r/aiecosystem* · archetype: agents
+*Title:* Aeon shipped a portable voice-cloning pattern + a Vercel deploy target this week - notes from the framework side
 *Body:*
-Been following Aeon (open-source agent framework, runs unattended on GitHub Actions via cron + markdown "skills") and this week they added a Cursor-native workflow - enable a skill, schedule it, edit its instructions, wire secrets and notification channels, even turn old chat history into a new scheduled skill, all from inside the editor instead of a web dashboard.
+quick one from the agent-framework side of things. Aeon (skills-as-markdown, runs unattended on GitHub Actions, self-repairs on fork) shipped two things this week worth noting for anyone tracking where agent tooling is headed:
 
-What's different from a lot of agent tooling: there's no daemon you have to keep running yourself - the agent's loop is a scheduled GitHub Actions job, self-repairing when a skill starts failing, with every run's trace public. An independent account wrote up when they'd reach for this over a hosted-daemon setup like Hermes, worth a read if you're weighing the tradeoff.
+1. a "soul" system - feed it your tweets/essays, get markdown files (voice/style/examples) any model can load before writing. solves the "agent output reads like a bot" problem without fine-tuning. built to be portable - works outside Aeon too.
+2. Vercel joined GitHub Actions as a second place the agent can actually run.
 
-I built this - ask me anything about the Cursor integration or the skill format.
+neither is a huge feature on its own, but together they're a decent signal of where the framework's headed: more surfaces to run on, and a cheap way to make agent output not sound like a press release.
 
-Repo: https://github.com/aeonfun/aeon
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/AIPromptProgramming composer](https://www.reddit.com/r/AIPromptProgramming/submit?title=An%20agent%20framework%20you%20can%20now%20fully%20manage%20from%20inside%20Cursor%20-%20schedule%2Fedit%2Fdeploy%20skills%20without%20touching%20a%20dashboard)
-_notes: comparison mention should stay descriptive not a dunk on Hermes; disclose builder status; keep to one link._
+repo's open if you want to see the mechanics: https://github.com/aeonfun/aeon. curious what other frameworks in this space are doing for voice/persona consistency - most of what I've seen is either nothing or a full fine-tune, this sits in between.
 
----
-*r/AskVibecoders* · archetype: vibecoders
-*Title:* vibe-coded my agent's entire schedule from inside Cursor this week, no dashboard needed
-*Body:*
-Small but genuinely useful thing that shipped this week: I can now spin up and manage a whole Aeon agent (open-source, runs on GitHub Actions on a cron) from inside Cursor. Enable a skill, schedule it, tweak the instructions, hook up secrets/notifications - even feed it old chat logs and have it turn that into a new scheduled skill. Didn't touch the GitHub dashboard once.
-
-Feels like the natural place for this kind of thing to live - you're already vibe-coding in the editor, now the "make this run itself forever" step is right there too.
-
-I'm the builder, this is my own project - happy to answer questions or show the setup.
-
-https://github.com/aeonfun/aeon
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/AskVibecoders composer](https://www.reddit.com/r/AskVibecoders/submit?title=vibe-coded%20my%20agent%27s%20entire%20schedule%20from%20inside%20Cursor%20this%20week%2C%20no%20dashboard%20needed)
-_notes: casual/first-person tone fits the sub; still disclose it's your own project; keep self-promo to the one link, no repeat pushes._
-
----
-*r/lovingopensourceAI* · archetype: open-source
-*Title:* Open-source agent framework you can now run/schedule entirely from Cursor
-*Body:*
-Sharing because I like seeing open tools get easier to actually use: Aeon (AGPL, skills-as-markdown, cron + chains on GitHub Actions) shipped a Cursor-native workflow this week - manage the whole agent lifecycle (enable/schedule/edit skills, wire secrets and channels) without leaving the editor or touching a dashboard.
-
-Nothing about it requires a hosted service - it's still just a repo, a schedule, and markdown files you can read end to end. The Cursor integration is just a friendlier way in.
-
-I work on Aeon - happy to answer questions about the setup or the skill format.
-
-Repo: https://github.com/aeonfun/aeon
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/lovingopensourceAI composer](https://www.reddit.com/r/lovingopensourceAI/submit?title=Open-source%20agent%20framework%20you%20can%20now%20run%2Fschedule%20entirely%20from%20Cursor)
-_notes: enthusiast OSS crowd, "what I built + why it's open" framing; disclose "I work on Aeon."_
+*Link in post:* https://aeon.fun
+*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=Aeon%20shipped%20a%20portable%20voice-cloning%20pattern%20%2B%20a%20Vercel%20deploy%20target%20this%20week%20-%20notes%20from%20the%20framework%20side)
+_notes: position in the landscape, no vendor-vs-vendor trash talk (kept out); disclose as builder, standard self-promo ratio applies._
