@@ -1,18 +1,21 @@
-Heartbeat ambient check complete — nothing needs attention, fleet is healthy.
+Status page and log are updated. No new findings crossed the notification bar, so no `./notify` send — consistent with the last several days' dedup behavior.
 
-**HEARTBEAT_OK · STATUS_PAGE=WATCH**
+## Ambient fleet check — 2026-08-29
 
-## Findings
+**Overall status: 🟡 WATCH** (unchanged, driven solely by `digest`'s carryover isolated failure)
 
-- **P0 (failed/stuck skills):** No new failures or stuck dispatches. `digest` (disabled) still carries its lone unrecovered failure from 2026-08-19 (`consecutive_failures=1`) — same carryover flagged every day since 08-20, deduped again, not re-notified. No skill has `consecutive_failures ≥ 3` or `success_rate < 0.5`. Heartbeat's own self-check is clean (last success 26.3h ago, under the 36h bar).
-- **P1 (stalled PRs/urgent issues):** 0 open PRs. 0 open issues — both `#63 health: engagement-act` and `#66 health: reddit-promo`, carried in every heartbeat since 08-23/08-24, are now **closed**. Good-news delta, not an alert.
-- **P2 (flagged memory items):** Nothing new. Standing `Next Priorities` in MEMORY.md (aeon-update conflict-adoption decision, second notification channel) unchanged since 08-24.
-- **P3 (missing scheduled skills):** All 8 enabled skills (bd-radar, mention-radar, fetch-tweets, reddit-promo, engagement-act, heartbeat, aeon-update, memory-flush) are current in `cron-state.json`. bd-radar/engagement-act are odd-day skills and today (08-28) is even, so their last dispatch legitimately dates to yesterday — not a gap.
-- **Token pulse:** No `output/articles/token-report-*.md` exists — section stays omitted from the status page.
+**P0 — Failed/stuck skills:** No new failures. `digest` remains `last_status: failed` (2026-08-19, `consecutive_failures=1`, unrecovered) — carryover, deduped, doesn't meet the 🔴 bar (needs `consecutive_failures ≥ 2`). No stuck skills, no `consecutive_failures ≥ 3`, no chronic failures. Heartbeat self-check clean (last success ~20h ago, under the 36h bar).
 
-No notification sent — everything was either carryover/deduped or a resolution (issue closures), nothing crossed the P0–P3 bar.
+**P1 — Stalled PRs/urgent issues:** `gh pr list --state open` → 0. `gh issue list --state open` → 0. Clean.
+
+**P2 — Flagged memory items:** Next Priorities in MEMORY.md unchanged since 08-24 (aeon-update conflict-adoption decision + second notification channel) — no new flags.
+
+**P3 — Missing scheduled skills:** All 8 enabled skills (bd-radar, mention-radar, fetch-tweets, reddit-promo, engagement-act, heartbeat, aeon-update, memory-flush) current in cron-state.json; none stale beyond 2× their schedule interval.
+
+**Status page:** `docs/status.md` regenerated — bd-radar's 07:29 UTC run now leads the table, next scheduled run is `engagement-act` at 09:30 UTC today, open issues 0.
 
 ## Summary
-- Regenerated `docs/status.md`: skill table resorted by last-run desc (mention-radar's 08-28 08:01 UTC now on top), open issues count updated 2 → 0, timestamp refreshed to 2026-08-28 11:57 UTC. Overall verdict stays **🟡 WATCH**, driven solely by `digest`'s carryover unrecovered isolated failure (unchanged for over a week).
-- Appended `### heartbeat` entry to `memory/logs/2026-08-28.md` with `mode: ambient` discriminator.
-- Follow-up: none new. Standing item for Aaron — decide whether to adopt upstream's scorer rewrite into the 3 war-room skills that were kept local during the `aeon-update` merge (tracked in `memory/topics/aeon-update-state.json`).
+- Read `memory/MEMORY.md`, last 2 days of `memory/logs/`, `memory/cron-state.json`, checked `gh pr/issue list` (both empty).
+- Modified: `docs/status.md` (refreshed timestamp, skill table, next-run pointer); `memory/logs/2026-08-29.md` (appended `### heartbeat` entry).
+- No notification sent — nothing new crossed the P0–P3 bar; `digest`'s carryover failure stays deduped.
+- Follow-up: none new. Standing item from MEMORY.md — Aaron still needs to decide on pulling upstream's scorer rewrite into the 3 war-room skills (see `memory/topics/aeon-update-state.json`).
