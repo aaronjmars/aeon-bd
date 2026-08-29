@@ -1,71 +1,74 @@
-ℹ️ Reddit Promo - 2026-08-28
+ℹ️ Reddit Promo - 2026-08-29
 
-*Reddit Promo - 2026-08-28*
+*Reddit Promo - 2026-08-29*
 1d since last promo · 4 subs drafted
 
-_Story:_ Aeon shipped a reusable soul/ voice-cloning pattern - feed an LLM your tweets/essays, get markdown files any model can load to write in your voice, pitched as standalone/adoptable outside Aeon itself - https://x.com/aaronjmars/status/2092385918770446339
+_Story:_ Cult OS built a paid agent entirely on Aeon skills, hireable via x402 for PR evals/repo audits/code review - https://x.com/thecultos/status/2093467967807713472
 
 ---
-*r/LovingAI* · archetype: open-source
-*Title:* an agent framework that clones your writing voice from old tweets, then writes your Reddit posts for you (kinda)
+*r/Agent_AI* · archetype: agents
+*Title:* A third-party agent is now hireable via x402, built entirely on Aeon skills
 *Body:*
-been building an open-source agent framework (Aeon) and shipped something this week that's useful even if you never touch the rest of it: a "soul" system. you point it at your old tweets/essays, it distills a couple markdown files - tone, vocabulary, rhetorical habits, the stuff that makes your writing sound like *you* and not generic AI slop. any model can then load those files and write in your voice.
+someone built an agent on top of Aeon and it's already earning money without us doing anything.
 
-the mechanic is dumb simple on purpose - no fine-tuning, no vector DB, just structured markdown an LLM reads before it writes anything. that's the whole trick. we use it so the agent's automated posts/replies don't read like a bot.
+Cult OS built "Cult OS agent" — runs PR evals, repo analysis, and code audits — entirely as Aeon skills (markdown files that fire on a cron via GitHub Actions). it's hireable via x402, so it gets paid per job, no subscription, no dashboard, no approval loop in the middle.
 
-same week we also added Vercel as a deploy target (it originally only ran on GitHub Actions), so it's got more places to actually live now.
+what's interesting isn't the specific product — it's that this is the actual shape of "autonomous agent" people keep talking about. skill = markdown + a schedule. self-repair if it breaks. public trace of every run. no human babysitting the loop. someone else just proved it's composable enough that a stranger can build a paid service on top without touching our code.
 
-repo's here if you want to see the pattern or rip it out for your own project: https://github.com/aeonfun/aeon - it's AGPL, runs unattended, no dashboard required. happy to answer questions on how the voice files get built.
+same pattern (x402-metered, no extra infra) just showed up on the Miroshark side too — an affiliate feature that pays out onchain per referral, one line to wire up. feels like x402 is becoming the default settlement layer for agent-to-agent value, not just a novelty.
 
-*Link in post:* https://aeon.fun
-*Post here:* [Open r/LovingAI composer](https://www.reddit.com/r/LovingAI/submit?title=an%20agent%20framework%20that%20clones%20your%20writing%20voice%20from%20old%20tweets%2C%20then%20writes%20your%20Reddit%20posts%20for%20you%20%28kinda%29)
-_notes: r/LovingAI skews general-audience - keep jargon low (already done above); disclose as builder ("I work on Aeon") in the post/first comment, don't post as a neutral discoverer._
+repo: https://github.com/aeonfun/aeon
 
----
-*r/Ollama* · archetype: open-source
-*Title:* built a self-hosted agent that reads your old tweets and writes markdown files any local model can load to sound like you
-*Body:*
-posting here because this crowd cares about owning your stack, not renting someone else's API forever.
-
-shipped a "soul" system in Aeon (open-source agent framework, AGPL, runs on GitHub Actions) this week: feed it your tweets/essays, it writes out plain markdown files describing your voice - sentence structure, vocab, what you'd never say. any model that can read a text file can load them, local or hosted. no vendor lock-in, no proprietary fine-tune you can't move.
-
-paired with that, we added a second deploy surface (Vercel) alongside GitHub Actions, so the agent isn't tied to one host either.
-
-whole thing's designed to run unattended - cron + self-repair - no approval loop babysitting it. repo: https://github.com/aeonfun/aeon. genuinely curious if anyone's running similar voice/persona files against local models already, would compare notes.
-
+i work on Aeon — happy to answer questions about the skills/cron/x402 setup if anyone's building something similar.
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Ollama composer](https://www.reddit.com/r/Ollama/submit?title=built%20a%20self-hosted%20agent%20that%20reads%20your%20old%20tweets%20and%20writes%20markdown%20files%20any%20local%20model%20can%20load%20to%20sound%20like%20you)
-_notes: self-hosting crowd - lead with own-your-stack framing (done); disclose as builder in-post, check current self-promo flair/ratio rules before posting._
+*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=A%20third-party%20agent%20is%20now%20hireable%20via%20x402%2C%20built%20entirely%20on%20Aeon%20skills)
+_notes: r/Agent_AI tolerates builder posts if they lead with substance — promo stays secondary, disclosure ("i work on Aeon") already in body._
 
 ---
-*r/CLaudeSkills* · archetype: claude-skills
-*Title:* a soul.md skill pack: feed it your tweets/essays, get a voice-clone any Claude Skill can load
+*r/CoolGithubProjects* · archetype: github
+*Title:* Aeon - open-source framework where markdown skills run unattended on GitHub Actions
 *Body:*
-Aeon skills are literally markdown files that run on a schedule via Claude Code - no custom runtime, just SKILL.md + frontmatter. this week we shipped a new pattern on top of that: a "soul" system for voice-cloning.
+what it is: an agent framework where a "skill" is just a markdown file (SKILL.md) — no custom DSL. cron triggers it, it runs headless on GitHub Actions, and there's a self-repair loop that files and fixes its own issues when a skill degrades.
 
-the shape: you dump your tweets/essays in, an LLM distills them into a few markdown files (SOUL.md for identity/opinions, STYLE.md for sentence-level habits, examples/ for calibration). every skill that writes human-facing output reads those files first. that's it - no fine-tune, no embeddings, just markdown a skill loads before it drafts a tweet, a reply, a report.
+why it's on here today: a third party (Cult OS) just built a paid agent entirely out of Aeon skills — PR evals, repo audits, hireable via x402 per job. they didn't touch our code, just wrote skills and pointed a cron at them. that's the real test of whether a framework is composable vs. just marketed as one.
 
-works standalone too - if you're already writing Claude Skills, you can lift the pattern without touching the rest of Aeon. same week we added Vercel as a deploy target next to GitHub Actions, if that's relevant to how you're running skills.
+stack: Claude Code + GitHub Actions + markdown skills + x402 for agent-native payments. AGPL, public repo, public run traces.
 
-repo, if you want to see the actual files: https://github.com/aeonfun/aeon. happy to walk through the SOUL.md/STYLE.md split if useful.
-
+repo: https://github.com/aeonfun/aeon
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=a%20soul.md%20skill%20pack%3A%20feed%20it%20your%20tweets/essays%2C%20get%20a%20voice-clone%20any%20Claude%20Skill%20can%20load)
-_notes: technical audience, respect it - show the actual file shape, no oversell; disclose as the builder, not a neutral finder._
+*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20open-source%20framework%20where%20markdown%20skills%20run%20unattended%20on%20GitHub%20Actions)
+_notes: r/CoolGithubProjects enforces the exact "Aeon - <one-line desc>" title format and bans hype language — body kept factual/tight, no sales language._
 
 ---
 *r/aiecosystem* · archetype: agents
-*Title:* Aeon shipped a portable voice-cloning pattern + a Vercel deploy target this week - notes from the framework side
+*Title:* x402 micropayments are becoming the default way agent frameworks monetize
 *Body:*
-quick one from the agent-framework side of things. Aeon (skills-as-markdown, runs unattended on GitHub Actions, self-repairs on fork) shipped two things this week worth noting for anyone tracking where agent tooling is headed:
+two things happened in the Aeon/Miroshark ecosystem this week that point at the same thing: x402 (wallet-native, per-request agent payments) is quietly turning into the default rail, not a novelty.
 
-1. a "soul" system - feed it your tweets/essays, get markdown files (voice/style/examples) any model can load before writing. solves the "agent output reads like a bot" problem without fine-tuning. built to be portable - works outside Aeon too.
-2. Vercel joined GitHub Actions as a second place the agent can actually run.
+first: a third-party team (Cult OS) built an agent entirely on Aeon skills and made it hireable via x402 — PR evals, repo analysis, audits, paid per job, no subscription tier, no dashboard.
 
-neither is a huge feature on its own, but together they're a decent signal of where the framework's headed: more surfaces to run on, and a cheap way to make agent output not sound like a press release.
+second: Miroshark (our swarm-sim engine) shipped x402aff — one line makes any x402 endpoint affiliate-ready, 10% paid out onchain on Base automatically. an unaffiliated account flagged it unprompted, which is usually the better signal than us posting about our own feature.
 
-repo's open if you want to see the mechanics: https://github.com/aeonfun/aeon. curious what other frameworks in this space are doing for voice/persona consistency - most of what I've seen is either nothing or a full fine-tune, this sits in between.
+the common thread: once an agent can hold and spend money natively, the economics of "build vs. rent an agent" change. you don't need a SaaS tier, you need an endpoint and a price.
 
+Aeon: https://aeon.fun
 *Link in post:* https://aeon.fun
-*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=Aeon%20shipped%20a%20portable%20voice-cloning%20pattern%20%2B%20a%20Vercel%20deploy%20target%20this%20week%20-%20notes%20from%20the%20framework%20side)
-_notes: position in the landscape, no vendor-vs-vendor trash talk (kept out); disclose as builder, standard self-promo ratio applies._
+*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=x402%20micropayments%20are%20becoming%20the%20default%20way%20agent%20frameworks%20monetize)
+_notes: one link only (site) even though two products are mentioned — this sub is ecosystem-level discussion, lead with the pattern not the product; disclose "i work on Aeon/Miroshark" if asked in comments._
+
+---
+*r/MiroFish* · archetype: community
+*Title:* Miroshark shipped x402aff: one line makes any endpoint affiliate-ready, paid onchain on Base
+*Body:*
+shipped x402aff this week — wire one line into any x402 endpoint and it becomes affiliate-ready. 10% of the payment routes onchain to whoever referred the call, automatically, no extra infra to run.
+
+built it because we kept seeing the same ask: people wanted to promote Miroshark simulations and get paid in a way that didn't require us to build a whole referral backend. x402 already handles the payment rail, this just adds the split.
+
+wasn't planning to post about it today but @svector_eth flagged it unprompted with a clean writeup of the mechanic — a better signal than us tweeting it ourselves: https://x.com/svector_eth/status/2093217883413164316
+
+repo: https://github.com/miroshark/miroshark
+
+i work on Miroshark — ask me anything about how the affiliate split works or what's next (director mode + belief-drift stuff still cooking).
+*Link in post:* https://github.com/miroshark/miroshark
+*Post here:* [Open r/MiroFish composer](https://www.reddit.com/r/MiroFish/submit?title=Miroshark%20shipped%20x402aff%3A%20one%20line%20makes%20any%20endpoint%20affiliate-ready%2C%20paid%20onchain%20on%20Base)
+_notes: home community, insider tone fine — still disclose "i work on Miroshark" and mind the self-promo ratio, this is a maker post._
