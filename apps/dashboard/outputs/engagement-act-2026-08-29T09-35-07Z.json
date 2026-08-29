@@ -1,0 +1,370 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act - 2026-08-29",
+        "description": "4 new opps - 4 drafted - 0 aging (vs 2026-08-27)"
+      },
+      "children": [
+        "opps-stack"
+      ]
+    },
+    "opps-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opp-1",
+        "separator-1",
+        "opp-2",
+        "separator-2",
+        "opp-3",
+        "separator-3",
+        "opp-4"
+      ]
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1-link",
+        "opp1-meta",
+        "opp1-what",
+        "opp1-draft-heading",
+        "opp1-draft"
+      ]
+    },
+    "opp1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jsfranklin221/aeon-skill-pack-spoolis",
+        "href": "https://github.com/jsfranklin221/aeon-skill-pack-spoolis",
+        "source": "GitHub"
+      }
+    },
+    "opp1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1-type",
+        "opp1-leverage",
+        "opp1-expires"
+      ]
+    },
+    "opp1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "opp1-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "mid (Spoolis, spoolis.com)",
+        "variant": "secondary"
+      }
+    },
+    "opp1-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-10",
+        "variant": "outline"
+      }
+    },
+    "opp1-what": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped an Aeon skill pack for Spoolis's outcome-verification product — signed Ed25519 Outcome Receipts verifying chain-step deliverables vs acceptance criteria, keyless sandbox mode, passes Aeon's pack validator (2 days ago).",
+        "variant": "body"
+      }
+    },
+    "opp1-draft-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft",
+        "level": "h4"
+      }
+    },
+    "opp1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Nice work shipping this — signed Ed25519 Outcome Receipts + keyless sandbox mode is exactly the kind of verification primitive Aeon skills should have more of. Would love to get this listed in the official skill pack catalog if you're up for a PR — happy to help review.",
+        "variant": "lead"
+      }
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2-link",
+        "opp2-meta",
+        "opp2-what",
+        "opp2-draft-heading",
+        "opp2-draft"
+      ]
+    },
+    "opp2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "richard7463/ai2human-aeon-skill-pack",
+        "href": "https://github.com/richard7463/ai2human-aeon-skill-pack",
+        "source": "GitHub"
+      }
+    },
+    "opp2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2-type",
+        "opp2-leverage",
+        "opp2-expires"
+      ]
+    },
+    "opp2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "opp2-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "mid (AI2Human)",
+        "variant": "secondary"
+      }
+    },
+    "opp2-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-10",
+        "variant": "outline"
+      }
+    },
+    "opp2-what": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped an Aeon skill pack for AI2Human — dispatches blocked human steps through a proof → verify → settle flow (2 days ago).",
+        "variant": "body"
+      }
+    },
+    "opp2-draft-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft",
+        "level": "h4"
+      }
+    },
+    "opp2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "This is a clean pattern — dispatch blocked human steps, then proof → verify → settle. Curious what's driving the workflow behind it. If you want this in the official skill catalog, open a PR and we'll take a look.",
+        "variant": "lead"
+      }
+    },
+    "opp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp3-link",
+        "opp3-meta",
+        "opp3-what",
+        "opp3-draft-heading",
+        "opp3-draft"
+      ]
+    },
+    "opp3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "techdigger/aeon-skill-pack-agentlink",
+        "href": "https://github.com/techdigger/aeon-skill-pack-agentlink",
+        "source": "GitHub"
+      }
+    },
+    "opp3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3-type",
+        "opp3-leverage",
+        "opp3-expires"
+      ]
+    },
+    "opp3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "opp3-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "mid (AgentLink)",
+        "variant": "secondary"
+      }
+    },
+    "opp3-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-10",
+        "variant": "outline"
+      }
+    },
+    "opp3-what": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped an Aeon skill pack for AgentLink — verified human-backed on-chain identity on Base (2 days ago).",
+        "variant": "body"
+      }
+    },
+    "opp3-draft-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft",
+        "level": "h4"
+      }
+    },
+    "opp3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Verified human-backed on-chain identity on Base is a good primitive to have as an Aeon skill. If you want more builders finding this, a PR into the official skill pack catalog would help — happy to review.",
+        "variant": "lead"
+      }
+    },
+    "opp-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp4-link",
+        "opp4-meta",
+        "opp4-caution",
+        "opp4-what",
+        "opp4-draft-heading",
+        "opp4-draft",
+        "opp4-note"
+      ]
+    },
+    "opp4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "amritmirch/aeon-skill-pack-farcaster",
+        "href": "https://github.com/amritmirch/aeon-skill-pack-farcaster",
+        "source": "GitHub"
+      }
+    },
+    "opp4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4-type",
+        "opp4-leverage",
+        "opp4-expires"
+      ]
+    },
+    "opp4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "opp4-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "low (individual builder)",
+        "variant": "secondary"
+      }
+    },
+    "opp4-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-10",
+        "variant": "outline"
+      }
+    },
+    "opp4-caution": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Same handle recycled a debunked '2.2M stars' claim on X 08-27 — verify before any X engagement"
+      }
+    },
+    "opp4-what": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped Aeon's first Farcaster skill pack — cast-via-Neynar with a fail-closed gauntlet and daily cap, fills a real gap vs Aeon's X-only social skills (2 days ago).",
+        "variant": "body"
+      }
+    },
+    "opp4-draft-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft",
+        "level": "h4"
+      }
+    },
+    "opp4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "First Farcaster skill pack for Aeon — fills a real gap next to the X-only social skills. If you want it in the official catalog, open a PR.",
+        "variant": "lead"
+      }
+    },
+    "opp4-note": {
+      "type": "Text",
+      "props": {
+        "text": "Kept GitHub-comment-only for this one — the code contribution is real/verifiable but the account has flagged credibility issues on X, so no X-side engagement drafted.",
+        "variant": "muted"
+      }
+    }
+  }
+}
