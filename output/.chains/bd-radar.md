@@ -1,12 +1,12 @@
-ℹ️ BD Radar
+Pushed successfully. Per the skill's notify gate, no self-notify is warranted since there are no new `building`/`integrating` leads this run — staying quiet as instructed.
 
-*BD Radar — 2026-08-27 (run 2)*
-vs 2026-08-27 (earlier run today) — 2 new — 29 still-open — 31 leads total
+## Summary
 
-`building` [jsfranklin221/aeon-skill-pack-spoolis](https://github.com/jsfranklin221/aeon-skill-pack-spoolis) (first seen today): spoolis (spoolis.com) shipped an aeon skill an hour after git init — signed outcome receipts for chain steps, passes our own validator. an actual product building on aeon ⭐
-  move: DM jsfranklin221, invite to pack-submit — flips if repo goes stale (no push 14d)
+Ran `bd-radar` for 2026-08-29 — a full-coverage sweep (GitHub forks/issues on all 4 tracked repos, `gh search`, X `x_search` 08-26→08-29, WebSearch) found **0 new leads**; all 31 previously-tracked leads remain live/unchanged. Several candidate forks and mentions were checked via `compare/main...` and confirmed as drive-by noise (0 commits ahead): the two forks mention-radar punted over on 08-28 (`praxstack/aaronjmars-MiroShark`, `MATHEUSFELIX/miroshark`), plus `AlexMikhalev/miroshark`, `carlpeaslee/miroshark`, `cultosagent/aeon`, `use-agent-os/aeon`.
 
-`building` [amritmirch/aeon-skill-pack-farcaster](https://github.com/amritmirch/aeon-skill-pack-farcaster) (first seen today): first farcaster skill for aeon. cast via neynar, fail-closed gauntlet. fills a real gap since we're x-only rn
-  move: DM re: the pack — but this handle recycled a fake star-count claim on x today (engagement-act flagged it), so verify before you reach out — flips if repo goes stale (no push 14d)
+**Files created/modified:**
+- `output/articles/bd-radar-2026-08-29.md` — full digest with top-10 carried leads table
+- `memory/logs/2026-08-29.md` — `### bd-radar` log block
+- Both committed and pushed to `main` (`e67831b`)
 
-run: github ok (4/4 repos) · gh-search ok · x_search ok (http=200) · websearch ok · no source misses
+**Follow-up:** none required — genuinely quiet run, not a coverage gap. Two harmless untracked scratch files (`bd-xai-payload.json`, `bd-xai-response.json`) are left in the repo root — `rm` was blocked this session (unusual vs. prior runs), so they weren't cleaned up; not committed, no action needed.

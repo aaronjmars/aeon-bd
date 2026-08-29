@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-08-27T22:01:13Z",
-  "quality_score": 4,
-  "assessment": "Substantive, actionable BD leads aligned to strategy priorities with state tracking and specific moves",
+  "last_analyzed": "2026-08-29T07:29:13Z",
+  "quality_score": 3,
+  "assessment": "Completed the radar sweep competently with full coverage and verification; found zero new leads and properly gated notification. Solid operational work, transparent about null result, but produces no actionable BD signal for the stated priorities this cycle.",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 3.83,
   "history": [
     {
       "date": "2026-08-21",
@@ -25,6 +25,10 @@
     {
       "date": "2026-08-27",
       "score": 4
+    },
+    {
+      "date": "2026-08-29",
+      "score": 3
     }
   ]
 }
