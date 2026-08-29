@@ -1,0 +1,115 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — 2026-08-29"
+      },
+      "children": [
+        "search_query",
+        "text_context",
+        "sep1",
+        "heading_ecosystem",
+        "stack1",
+        "sep2",
+        "heading_affiliate",
+        "stack2"
+      ]
+    },
+    "search_query": {
+      "type": "Text",
+      "props": {
+        "text": "@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-29)",
+        "variant": "caption"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Two distinct stories today — a third party building on Aeon skills via x402, and community amplification of Miroshark's new x402 affiliate feature."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_ecosystem": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem integration",
+        "level": "h3"
+      }
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "link1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "text": "building \"Cult OS agent\" powered by Aeon skills, hireable via x402 — automated PR evals, repo analysis, audits",
+        "likes": 5,
+        "retweets": 3
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2093467967807713472"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_affiliate": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark x402 affiliate launch",
+        "level": "h3"
+      }
+    },
+    "stack2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "link2"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "svector_eth",
+        "text": "flags Aaron's x402aff ship for Miroshark: one line makes any x402 endpoint affiliate-ready, 10% paid onchain on Base, no extra infra",
+        "likes": 16,
+        "retweets": 2
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/svector_eth/status/2093217883413164316"
+      }
+    }
+  }
+}

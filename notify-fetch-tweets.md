@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — 2026-08-29
-
 *Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-29)*
 _Two distinct stories today — a third party building on Aeon skills via x402, and community amplification of Miroshark's new x402 affiliate feature._
 

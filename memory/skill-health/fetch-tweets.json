@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-28T20:17:20Z",
+  "last_analyzed": "2026-08-29T17:08:20Z",
   "quality_score": 4,
-  "assessment": "Substantive BD signal surfaced with real API calls, excellent strategy alignment, actionable follow-ups; verified via HTTP 200 and internally consistent data; not 5 because URLs not independently checked and next steps could be more prescriptive",
+  "assessment": "Surfaced fresh ecosystem signal (Cult OS Aeon integration) with transparent dedup logic and verifiable specifics; on-strategy for BD priority but lacks engagement copy and window analysis.",
   "flags": [],
-  "avg_score": 3.78,
+  "avg_score": 3.8,
   "history": [
     {
       "date": "2026-08-20",
@@ -40,6 +40,10 @@
     },
     {
       "date": "2026-08-28",
+      "score": 4
+    },
+    {
+      "date": "2026-08-29",
       "score": 4
     }
   ]
