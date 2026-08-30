@@ -1,21 +1,14 @@
-Committed. Per the memory-flush skill contract, my final output must carry the substance:
-
-## Memory Flush — 2026-08-22 → 2026-08-23
-
-**Scan window:** 2 days (watermark was current, no gap clamp). Read `memory/logs/2026-08-22.md` and `memory/logs/2026-08-23.md`.
-
-**Promoted:**
-1. Broadened the "verify unverified claims" Lessons Learned bullet — the existing rule (always verify star/funding claims via `gh api`) now explicitly covers third-party amplification of our own content too: MCGlive's 2026-08-23 repost of Aaron's thread added an unverified "running inside companies like SpaceX" detail; reddit-promo correctly omitted the claim and used only the organic-amplification signal.
-2. Strengthened Next Priorities #1 (`aeon-update`) — confirmed via `cron-state.json` that today's (Monday) scheduled 11:00 UTC due-run also did not fire (`last_run` still `null`). Now 4 consecutive days flagged unresolved (2026-08-20 → 23).
-
-**Checked, no action needed:**
-- bd-radar's 6 new leads (dan-and, wshuyi/crucible-sim, NurstarK/MiroShark, raul1stdigital/aeon-finance-district, + 2 low-fit) — already tracked/deduped in bd-radar's own `memory/topics/bd-radar-leads.json` ledger, not duplicated into MEMORY.md.
-- 2 flagged star-farm/SEO repos (luis212/NovaShoal-Swarm-Sim, Abhinesh2004/mirage-cortex) — one-off noise, not a recurring competitor pattern like MiroFish; not added to watch-list.
-- "Open Improvement PRs": `gh pr list --search "improve:"` → 0 open, section still absent, nothing to prune. (Unrelated open issue #63 is a machine-managed health thread for `engagement-act`, no regression content yet.)
-- Skills table and product config — still accurate against `aeon.yml` and today's logs.
-- Log rotation: 0 months archived, 4 daily files remain (well under the 45 threshold).
-
-**MEMORY.md:** 42 lines, within budget. Watermark stamped to 2026-08-23.
+The watermark stamp confirms the file matches what I wrote. Memory flush is complete.
 
 ## Summary
-Consolidated the last 2 days of logs into `memory/MEMORY.md` (broadened a lesson, escalated the `aeon-update` priority), logged the run in `memory/logs/2026-08-23.md`, stamped `memory/memory-flush-state.json`, and committed all three (`257ea5c`). No stale sections found to prune this window; no follow-up needed beyond the standing `aeon-update` investigation.
+
+Ran the memory-flush skill for the 2026-08-23→08-30 window (8 in-window log files, no gap clamp needed).
+
+**Promoted to MEMORY.md:**
+- Fixed the `aeon-update` row/priority — it had been stale since 08-24, still saying "never dispatched." Updated to reflect PR #68's merge (25 commits, watermark now `8b8d719` on `main`), the conflict count growing 7→11 (two new deferred skills blocked on an `eyebrowlock.json` regen), and a newly-worth-pulling `aeon.yml` egress-block conflict.
+- Added a new "Ecosystem highlight" line for CultOS (@thecultos) — a third party that built a paid, x402-hireable agent entirely on Aeon skills and publicly declared "we choose Aeon." Strongest ecosystem-growth signal this window, touched by 4 different skills.
+- Broadened the sandbox-blocking Lessons Learned bullet — this window's runs hit `>` redirection and `${VAR}`-brace/presence-check blocks beyond the previously-recorded `jq`/`cp`/`rm`/`/tmp` scope; consolidated into one bullet.
+
+**Pruned/checked, no action needed:** 0 open PRs/issues (the #63/#66 health issues closed by 08-28); ~20 new bd-radar leads stayed in their own ledger rather than duplicating into MEMORY.md; star-count-debunking lesson already generic enough to cover new instances.
+
+**Bookkeeping:** log rotation untouched (11 daily files, under the 45 threshold), MEMORY.md stays at 44 lines, watermark stamped to 2026-08-30.
