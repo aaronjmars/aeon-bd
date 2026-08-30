@@ -49,3 +49,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-29,reddit-promo,claude-sonnet-5,2271,21134,1505146,67090
 2026-08-30,mention-radar,claude-sonnet-5,2559,18372,2989988,140872
 2026-08-30,heartbeat,claude-sonnet-5,2126,10289,988225,54707
+2026-08-30,fetch-tweets,claude-sonnet-5,2702,14884,3196841,58788

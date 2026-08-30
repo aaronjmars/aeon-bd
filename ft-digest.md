@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — Aeon/Miroshark
-
 *Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-30)*
 _Comparison narrative dominates — Aeon-vs-"bot" drew both a cost pitch and a skeptic; WebMCP's ChatGPT/Codex launch is the day's single biggest spike._
 

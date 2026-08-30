@@ -1,0 +1,389 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark"
+      },
+      "children": [
+        "query-info",
+        "narrative",
+        "sep-1",
+        "section-crossproduct",
+        "sep-2",
+        "section-webmcp",
+        "sep-3",
+        "section-comparison",
+        "sep-4",
+        "section-builder"
+      ]
+    },
+    "query-info": {
+      "type": "Text",
+      "props": {
+        "text": "Search: @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-30)",
+        "variant": "caption"
+      }
+    },
+    "narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Comparison narrative dominates — Aeon-vs-\"bot\" drew both a cost pitch and a skeptic; WebMCP's ChatGPT/Codex launch is the day's single biggest spike.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-crossproduct": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-cp",
+        "tweet-container-1"
+      ]
+    },
+    "heading-cp": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-product build in the wild",
+        "level": "h3"
+      }
+    },
+    "tweet-container-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1",
+        "link-1",
+        "replies-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Amrit Mirch",
+        "handle": "@Amrit_Mirch",
+        "text": "Ran an 18-agent Miroshark debate (would Google rename Lake Ontario to \"Lake America\"?) and made the recap video with Aeon's Higgsfield skill — a genuine cross-product workflow from an outside builder, not the team.",
+        "likes": 9,
+        "retweets": 3
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Amrit_Mirch/status/2093609622263472133"
+      }
+    },
+    "replies-1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-webmcp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-webmcp",
+        "tweet-container-2"
+      ]
+    },
+    "heading-webmcp": {
+      "type": "Heading",
+      "props": {
+        "text": "WebMCP ships",
+        "level": "h3"
+      }
+    },
+    "tweet-container-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2",
+        "link-2",
+        "replies-2"
+      ]
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "@aaronjmars",
+        "text": "WebMCP is live: launch Miroshark sims and stand up an Aeon instance directly from ChatGPT desktop and Codex — the day's highest-engagement post, an official capability drop, not a teaser.",
+        "likes": 41,
+        "retweets": 7
+      }
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2093724185994346542"
+      }
+    },
+    "replies-2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-comparison": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-comp",
+        "tweet-container-3",
+        "tweet-container-4",
+        "tweet-container-5"
+      ]
+    },
+    "heading-comp": {
+      "type": "Heading",
+      "props": {
+        "text": "\"Aeon vs bot\" comparison narrative",
+        "level": "h3"
+      }
+    },
+    "tweet-container-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3",
+        "link-3",
+        "replies-3"
+      ]
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon Framework",
+        "handle": "@aeonframework",
+        "text": "Official account posted a head-to-head comparing Aeon to competitor \"bot,\" with the article linked in the replies — the anchor tweet driving the day's reactions.",
+        "likes": 29,
+        "retweets": 4
+      }
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2093590019793469485"
+      }
+    },
+    "replies-3": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 5",
+        "variant": "caption"
+      }
+    },
+    "tweet-container-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-4",
+        "link-4",
+        "replies-4"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Liam Visionary",
+        "handle": "@0xLiamVisionary",
+        "text": "Argues Aeon covers the same ground as the paid \"bot\" product (~$300/mo) while being open-source and usable anywhere — first to frame it as a direct cost-displacement pitch.",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xLiamVisionary/status/2093595280474018139"
+      }
+    },
+    "replies-4": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet-container-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-5",
+        "link-5",
+        "replies-5"
+      ]
+    },
+    "tweet-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Adel Bucetta",
+        "handle": "@adelbucetta",
+        "text": "Calls Aeon \"more production-ready\" than bot but presses on how it avoids an echo-chamber effect in its feedback loop — the one technical pushback in the thread.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "link-5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/adelbucetta/status/2093662900393328966"
+      }
+    },
+    "replies-5": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-builder": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-builder",
+        "tweet-container-6",
+        "tweet-container-7"
+      ]
+    },
+    "heading-builder": {
+      "type": "Heading",
+      "props": {
+        "text": "Builder stack mentions",
+        "level": "h3"
+      }
+    },
+    "tweet-container-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-6",
+        "link-6",
+        "replies-6"
+      ]
+    },
+    "tweet-6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Truunik",
+        "handle": "@Truunik",
+        "text": "Lists Aeon alongside other open builder tools (normiesART, xerberus) as an \"on-chain AI library\" worth vibe-coding from — plus a pointed IP-caution note before commercializing a fork.",
+        "likes": 11,
+        "retweets": 2
+      }
+    },
+    "link-6": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Truunik/status/2093759834751422862"
+      }
+    },
+    "replies-6": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet-container-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-7",
+        "link-7",
+        "replies-7"
+      ]
+    },
+    "tweet-7": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aka The Smith",
+        "handle": "@akathesmith",
+        "text": "Says Aeon is \"already fixing @Google issues\" and is building thecultos features directly on top of it — a concrete build-on-Aeon claim, not just praise.",
+        "likes": 5,
+        "retweets": 3
+      }
+    },
+    "link-7": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/akathesmith/status/2093836995894161907"
+      }
+    },
+    "replies-7": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      }
+    }
+  }
+}

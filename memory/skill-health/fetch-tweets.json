@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-29T17:08:20Z",
+  "last_analyzed": "2026-08-30T17:08:45Z",
   "quality_score": 4,
-  "assessment": "Surfaced fresh ecosystem signal (Cult OS Aeon integration) with transparent dedup logic and verifiable specifics; on-strategy for BD priority but lacks engagement copy and window analysis.",
+  "assessment": "Substantive BD intelligence output—surfaces live builder activity, product launches, and narrative themes aligned to strategy; verifiable method and structure, though engagement copy and explicit action priorities are implicit rather than explicit.",
   "flags": [],
-  "avg_score": 3.8,
+  "avg_score": 3.82,
   "history": [
     {
       "date": "2026-08-20",
@@ -44,6 +44,10 @@
     },
     {
       "date": "2026-08-29",
+      "score": 4
+    },
+    {
+      "date": "2026-08-30",
       "score": 4
     }
   ]
