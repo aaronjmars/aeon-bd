@@ -1,10 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-29T17:51:23Z",
+  "last_analyzed": "2026-08-30T17:51:10Z",
   "quality_score": 4,
-  "assessment": "Substantive Reddit drafts tailored to communities and properly sourced; aligns with BD signal and engagement priorities, but lacks strategic depth on timing windows and cross-platform coordination emphasized in strategy.",
+  "assessment": "Substantive, strategically sound, actionable drafts with real sources—well-executed against the operator's priorities (BD signal, timing the window, honest reads), though verifiability depends on Aaron clicking the X links provided.",
   "flags": [],
-  "avg_score": 3.91,
+  "avg_score": 3.92,
   "history": [
     {
       "date": "2026-08-20",
@@ -48,6 +48,10 @@
     },
     {
       "date": "2026-08-29",
+      "score": 4
+    },
+    {
+      "date": "2026-08-30",
       "score": 4
     }
   ]

@@ -1,0 +1,556 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-08-30"
+      },
+      "children": [
+        "header_stat",
+        "sep1",
+        "story_section",
+        "sep2",
+        "posts_stack"
+      ]
+    },
+    "header_stat": {
+      "type": "Text",
+      "props": {
+        "text": "1d since last promo · 4 subs drafted",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_label",
+        "story_link"
+      ]
+    },
+    "story_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "WebMCP ships — launch a Miroshark simulation or stand up an Aeon instance directly from ChatGPT desktop or Codex, no dashboard",
+        "href": "https://x.com/aaronjmars/status/2093724185994346542"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "posts_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "post1",
+        "post2",
+        "post3",
+        "post4"
+      ]
+    },
+    "post1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1_subreddit",
+        "post1_meta",
+        "post1_title",
+        "post1_body",
+        "post1_note"
+      ]
+    },
+    "post1_subreddit": {
+      "type": "Text",
+      "props": {
+        "text": "r/StartupMind",
+        "variant": "lead"
+      }
+    },
+    "post1_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "default"
+      }
+    },
+    "post1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Shipped: you can now launch our agent framework and swarm-sim engine straight from ChatGPT desktop or Codex",
+        "level": "h4"
+      }
+    },
+    "post1_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_para1",
+        "post1_para2",
+        "post1_para3",
+        "post1_para4_link",
+        "post1_links_section"
+      ]
+    },
+    "post1_para1": {
+      "type": "Text",
+      "props": {
+        "text": "We build two things: Aeon (an autonomous agent framework that runs unattended on GitHub Actions — skills as markdown, cron, self-repair) and Miroshark (spin up hundreds of grounded agents to simulate anything, ~$1 in under 10 minutes).",
+        "variant": "body"
+      }
+    },
+    "post1_para2": {
+      "type": "Text",
+      "props": {
+        "text": "This week we shipped WebMCP — it exposes both as MCP tools, so you can launch a Miroshark simulation or stand up a fresh Aeon instance directly from ChatGPT desktop or Codex, no dashboard, no separate login. It's the highest-engagement post we've had this week, and the best proof point isn't ours — an outside builder used it to run an 18-agent Miroshark debate and then cut the recap video with one of Aeon's own skills, entirely outside anything we scripted.",
+        "variant": "body"
+      }
+    },
+    "post1_para3": {
+      "type": "Text",
+      "props": {
+        "text": "Not a huge unlock in isolation, but it's the kind of \"meet people where they already are\" move that compounds — fewer steps between \"I have an idea\" and \"it's running.\"",
+        "variant": "body"
+      }
+    },
+    "post1_para4_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_para4_text1",
+        "post1_aeon_link",
+        "post1_para4_text2"
+      ]
+    },
+    "post1_para4_text1": {
+      "type": "Text",
+      "props": {
+        "text": "I work on Aeon/Miroshark — site's here:",
+        "variant": "body"
+      }
+    },
+    "post1_aeon_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "post1_para4_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Happy to answer questions about how the MCP wiring works.",
+        "variant": "body"
+      }
+    },
+    "post1_links_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_composer_link"
+      ]
+    },
+    "post1_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=Shipped%3A%20you%20can%20now%20launch%20our%20agent%20framework%20and%20swarm-sim%20engine%20straight%20from%20ChatGPT%20desktop%20or%20Codex"
+      }
+    },
+    "post1_note": {
+      "type": "Text",
+      "props": {
+        "text": "notes: disclosed as builder in-body (\"I work on Aeon/Miroshark\"); StartupMind reads growth-hack tone as spam fast, so kept the traction claim to our own verifiable engagement number, not a projected one.",
+        "variant": "caption"
+      }
+    },
+    "post2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2_subreddit",
+        "post2_meta",
+        "post2_title",
+        "post2_body",
+        "post2_note"
+      ]
+    },
+    "post2_subreddit": {
+      "type": "Text",
+      "props": {
+        "text": "r/OpenSourceAI",
+        "variant": "lead"
+      }
+    },
+    "post2_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "default"
+      }
+    },
+    "post2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Open-source agent framework now callable as an MCP tool from ChatGPT desktop and Codex",
+        "level": "h4"
+      }
+    },
+    "post2_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_para1",
+        "post2_para2",
+        "post2_para3_link",
+        "post2_links_section"
+      ]
+    },
+    "post2_para1": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon is an open-source (AGPL) framework for running autonomous agents unattended — each \"skill\" is just a markdown file with a prompt and a schedule, executed on GitHub Actions with no approval loop in between. No hosted backend required; fork it and it's yours.",
+        "variant": "body"
+      }
+    },
+    "post2_para2": {
+      "type": "Text",
+      "props": {
+        "text": "We just shipped WebMCP, which wraps Aeon (and our sim engine Miroshark) as MCP tools — so ChatGPT desktop or Codex can call out and launch a real agent run or a swarm simulation directly, without leaving the chat. Under the hood it's the same skill-as-markdown model, just given a callable interface.",
+        "variant": "body"
+      }
+    },
+    "post2_para3_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_para3_text1",
+        "post2_repo_link",
+        "post2_para3_text2"
+      ]
+    },
+    "post2_para3_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Repo:",
+        "variant": "body"
+      }
+    },
+    "post2_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post2_para3_text2": {
+      "type": "Text",
+      "props": {
+        "text": "I work on this, so ask me anything about the internals or the MCP tool definitions specifically.",
+        "variant": "body"
+      }
+    },
+    "post2_links_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_composer_link"
+      ]
+    },
+    "post2_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/OpenSourceAI composer",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=Open-source%20agent%20framework%20now%20callable%20as%20an%20MCP%20tool%20from%20ChatGPT%20desktop%20and%20Codex"
+      }
+    },
+    "post2_note": {
+      "type": "Text",
+      "props": {
+        "text": "notes: disclosed as builder; sub is receptive to \"show the mechanic\" posts but still enforces value-first, so led with the open-source model before the new feature.",
+        "variant": "caption"
+      }
+    },
+    "post3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3_subreddit",
+        "post3_meta",
+        "post3_title",
+        "post3_body",
+        "post3_note"
+      ]
+    },
+    "post3_subreddit": {
+      "type": "Text",
+      "props": {
+        "text": "r/AIPromptProgramming",
+        "variant": "lead"
+      }
+    },
+    "post3_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "default"
+      }
+    },
+    "post3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "WebMCP: exposing agent skills and swarm sims as MCP tools for ChatGPT/Codex",
+        "level": "h4"
+      }
+    },
+    "post3_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_para1",
+        "post3_para2",
+        "post3_para3_link",
+        "post3_links_section"
+      ]
+    },
+    "post3_para1": {
+      "type": "Text",
+      "props": {
+        "text": "If you've built anything with MCP, the interesting part isn't \"we support MCP\" — it's what gets exposed as a tool. We just shipped WebMCP for Aeon (our agent framework) and Miroshark (our swarm-sim engine): both are now callable as MCP tools, so ChatGPT desktop or Codex can trigger a real skill run or spin up a multi-agent simulation mid-conversation.",
+        "variant": "body"
+      }
+    },
+    "post3_para2": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon's skills are just markdown — a prompt block + a cron schedule — so the \"tool\" side of this is closer to invoking a script than hitting an opaque API. That's what let an outside builder run an 18-agent Miroshark debate and then generate the recap video with one of Aeon's own skills, in the same session, without touching either dashboard.",
+        "variant": "body"
+      }
+    },
+    "post3_para3_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_para3_text1",
+        "post3_repo_link",
+        "post3_para3_text2"
+      ]
+    },
+    "post3_para3_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Repo (skills + MCP wiring both live here):",
+        "variant": "body"
+      }
+    },
+    "post3_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post3_para3_text2": {
+      "type": "Text",
+      "props": {
+        "text": "I work on this — happy to get into the tool-definition/schema details if useful.",
+        "variant": "body"
+      }
+    },
+    "post3_links_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_composer_link"
+      ]
+    },
+    "post3_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AIPromptProgramming composer",
+        "href": "https://www.reddit.com/r/AIPromptProgramming/submit?title=WebMCP%3A%20exposing%20agent%20skills%20and%20swarm%20sims%20as%20MCP%20tools%20for%20ChatGPT%2FCodex"
+      }
+    },
+    "post3_note": {
+      "type": "Text",
+      "props": {
+        "text": "notes: technical audience, kept the pitch to mechanics not adjectives; disclosed as builder.",
+        "variant": "caption"
+      }
+    },
+    "post4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post4_subreddit",
+        "post4_meta",
+        "post4_title",
+        "post4_body",
+        "post4_note"
+      ]
+    },
+    "post4_subreddit": {
+      "type": "Text",
+      "props": {
+        "text": "r/AskVibecoders",
+        "variant": "lead"
+      }
+    },
+    "post4_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "vibecoders",
+        "variant": "default"
+      }
+    },
+    "post4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "I hooked my agent framework up to ChatGPT desktop via MCP - here's what it can do now",
+        "level": "h4"
+      }
+    },
+    "post4_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_para1",
+        "post4_para2",
+        "post4_para3_link",
+        "post4_links_section"
+      ]
+    },
+    "post4_para1": {
+      "type": "Text",
+      "props": {
+        "text": "Been building Aeon (agents that run themselves on GitHub Actions, no server) and Miroshark (spin up a swarm of agents to simulate something, cheap and fast) for a while. This week I wired both up to MCP, so now I can ask ChatGPT desktop or Codex to launch a simulation or stand up an agent instance mid-chat, no tab-switching.",
+        "variant": "body"
+      }
+    },
+    "post4_para2": {
+      "type": "Text",
+      "props": {
+        "text": "Best part: someone else immediately used it to run an 18-agent debate in Miroshark about renaming a lake, then made the recap video with one of Aeon's own skills. I didn't script that — they just found it.",
+        "variant": "body"
+      }
+    },
+    "post4_para3_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_para3_text1",
+        "post4_repo_link",
+        "post4_para3_text2"
+      ]
+    },
+    "post4_para3_text1": {
+      "type": "Text",
+      "props": {
+        "text": "If you want to poke at it:",
+        "variant": "body"
+      }
+    },
+    "post4_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post4_para3_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Ask me anything, I'll answer in-thread.",
+        "variant": "body"
+      }
+    },
+    "post4_links_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_composer_link"
+      ]
+    },
+    "post4_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AskVibecoders composer",
+        "href": "https://www.reddit.com/r/AskVibecoders/submit?title=I%20hooked%20my%20agent%20framework%20up%20to%20ChatGPT%20desktop%20via%20MCP%20-%20here%27s%20what%20it%20can%20do%20now"
+      }
+    },
+    "post4_note": {
+      "type": "Text",
+      "props": {
+        "text": "notes: disclosed as builder up front, casual tone fits the sub; kept to one link to respect self-promo ratio.",
+        "variant": "caption"
+      }
+    }
+  }
+}

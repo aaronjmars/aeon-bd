@@ -1,74 +1,60 @@
-ℹ️ Reddit Promo - 2026-08-29
+ℹ️ Reddit Promo - 2026-08-30
 
-*Reddit Promo - 2026-08-29*
+*Reddit Promo - 2026-08-30*
 1d since last promo · 4 subs drafted
 
-_Story:_ Cult OS built a paid agent entirely on Aeon skills, hireable via x402 for PR evals/repo audits/code review - https://x.com/thecultos/status/2093467967807713472
+_Story:_ WebMCP ships — launch a Miroshark simulation or stand up an Aeon instance directly from ChatGPT desktop or Codex, no dashboard - https://x.com/aaronjmars/status/2093724185994346542
 
 ---
-*r/Agent_AI* · archetype: agents
-*Title:* A third-party agent is now hireable via x402, built entirely on Aeon skills
+*r/StartupMind* · archetype: startup
+*Title:* Shipped: you can now launch our agent framework and swarm-sim engine straight from ChatGPT desktop or Codex
 *Body:*
-someone built an agent on top of Aeon and it's already earning money without us doing anything.
+We build two things: Aeon (an autonomous agent framework that runs unattended on GitHub Actions — skills as markdown, cron, self-repair) and Miroshark (spin up hundreds of grounded agents to simulate anything, ~$1 in under 10 minutes).
 
-Cult OS built "Cult OS agent" — runs PR evals, repo analysis, and code audits — entirely as Aeon skills (markdown files that fire on a cron via GitHub Actions). it's hireable via x402, so it gets paid per job, no subscription, no dashboard, no approval loop in the middle.
+This week we shipped WebMCP — it exposes both as MCP tools, so you can launch a Miroshark simulation or stand up a fresh Aeon instance directly from ChatGPT desktop or Codex, no dashboard, no separate login. It's the highest-engagement post we've had this week, and the best proof point isn't ours — an outside builder used it to run an 18-agent Miroshark debate and then cut the recap video with one of Aeon's own skills, entirely outside anything we scripted.
 
-what's interesting isn't the specific product — it's that this is the actual shape of "autonomous agent" people keep talking about. skill = markdown + a schedule. self-repair if it breaks. public trace of every run. no human babysitting the loop. someone else just proved it's composable enough that a stranger can build a paid service on top without touching our code.
+Not a huge unlock in isolation, but it's the kind of "meet people where they already are" move that compounds — fewer steps between "I have an idea" and "it's running."
 
-same pattern (x402-metered, no extra infra) just showed up on the Miroshark side too — an affiliate feature that pays out onchain per referral, one line to wire up. feels like x402 is becoming the default settlement layer for agent-to-agent value, not just a novelty.
-
-repo: https://github.com/aeonfun/aeon
-
-i work on Aeon — happy to answer questions about the skills/cron/x402 setup if anyone's building something similar.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=A%20third-party%20agent%20is%20now%20hireable%20via%20x402%2C%20built%20entirely%20on%20Aeon%20skills)
-_notes: r/Agent_AI tolerates builder posts if they lead with substance — promo stays secondary, disclosure ("i work on Aeon") already in body._
-
----
-*r/CoolGithubProjects* · archetype: github
-*Title:* Aeon - open-source framework where markdown skills run unattended on GitHub Actions
-*Body:*
-what it is: an agent framework where a "skill" is just a markdown file (SKILL.md) — no custom DSL. cron triggers it, it runs headless on GitHub Actions, and there's a self-repair loop that files and fixes its own issues when a skill degrades.
-
-why it's on here today: a third party (Cult OS) just built a paid agent entirely out of Aeon skills — PR evals, repo audits, hireable via x402 per job. they didn't touch our code, just wrote skills and pointed a cron at them. that's the real test of whether a framework is composable vs. just marketed as one.
-
-stack: Claude Code + GitHub Actions + markdown skills + x402 for agent-native payments. AGPL, public repo, public run traces.
-
-repo: https://github.com/aeonfun/aeon
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20open-source%20framework%20where%20markdown%20skills%20run%20unattended%20on%20GitHub%20Actions)
-_notes: r/CoolGithubProjects enforces the exact "Aeon - <one-line desc>" title format and bans hype language — body kept factual/tight, no sales language._
-
----
-*r/aiecosystem* · archetype: agents
-*Title:* x402 micropayments are becoming the default way agent frameworks monetize
-*Body:*
-two things happened in the Aeon/Miroshark ecosystem this week that point at the same thing: x402 (wallet-native, per-request agent payments) is quietly turning into the default rail, not a novelty.
-
-first: a third-party team (Cult OS) built an agent entirely on Aeon skills and made it hireable via x402 — PR evals, repo analysis, audits, paid per job, no subscription tier, no dashboard.
-
-second: Miroshark (our swarm-sim engine) shipped x402aff — one line makes any x402 endpoint affiliate-ready, 10% paid out onchain on Base automatically. an unaffiliated account flagged it unprompted, which is usually the better signal than us posting about our own feature.
-
-the common thread: once an agent can hold and spend money natively, the economics of "build vs. rent an agent" change. you don't need a SaaS tier, you need an endpoint and a price.
-
-Aeon: https://aeon.fun
+I work on Aeon/Miroshark — site's here: https://aeon.fun. Happy to answer questions about how the MCP wiring works.
 *Link in post:* https://aeon.fun
-*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=x402%20micropayments%20are%20becoming%20the%20default%20way%20agent%20frameworks%20monetize)
-_notes: one link only (site) even though two products are mentioned — this sub is ecosystem-level discussion, lead with the pattern not the product; disclose "i work on Aeon/Miroshark" if asked in comments._
+*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=Shipped%3A%20you%20can%20now%20launch%20our%20agent%20framework%20and%20swarm-sim%20engine%20straight%20from%20ChatGPT%20desktop%20or%20Codex)
+_notes: disclosed as builder in-body ("I work on Aeon/Miroshark"); StartupMind reads growth-hack tone as spam fast, so kept the traction claim to our own verifiable engagement number, not a projected one._
 
 ---
-*r/MiroFish* · archetype: community
-*Title:* Miroshark shipped x402aff: one line makes any endpoint affiliate-ready, paid onchain on Base
+*r/OpenSourceAI* · archetype: open-source
+*Title:* Open-source agent framework now callable as an MCP tool from ChatGPT desktop and Codex
 *Body:*
-shipped x402aff this week — wire one line into any x402 endpoint and it becomes affiliate-ready. 10% of the payment routes onchain to whoever referred the call, automatically, no extra infra to run.
+Aeon is an open-source (AGPL) framework for running autonomous agents unattended — each "skill" is just a markdown file with a prompt and a schedule, executed on GitHub Actions with no approval loop in between. No hosted backend required; fork it and it's yours.
 
-built it because we kept seeing the same ask: people wanted to promote Miroshark simulations and get paid in a way that didn't require us to build a whole referral backend. x402 already handles the payment rail, this just adds the split.
+We just shipped WebMCP, which wraps Aeon (and our sim engine Miroshark) as MCP tools — so ChatGPT desktop or Codex can call out and launch a real agent run or a swarm simulation directly, without leaving the chat. Under the hood it's the same skill-as-markdown model, just given a callable interface.
 
-wasn't planning to post about it today but @svector_eth flagged it unprompted with a clean writeup of the mechanic — a better signal than us tweeting it ourselves: https://x.com/svector_eth/status/2093217883413164316
+Repo: https://github.com/aeonfun/aeon — I work on this, so ask me anything about the internals or the MCP tool definitions specifically.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=Open-source%20agent%20framework%20now%20callable%20as%20an%20MCP%20tool%20from%20ChatGPT%20desktop%20and%20Codex)
+_notes: disclosed as builder; sub is receptive to "show the mechanic" posts but still enforces value-first, so led with the open-source model before the new feature._
 
-repo: https://github.com/miroshark/miroshark
+---
+*r/AIPromptProgramming* · archetype: agents
+*Title:* WebMCP: exposing agent skills and swarm sims as MCP tools for ChatGPT/Codex
+*Body:*
+If you've built anything with MCP, the interesting part isn't "we support MCP" — it's what gets exposed as a tool. We just shipped WebMCP for Aeon (our agent framework) and Miroshark (our swarm-sim engine): both are now callable as MCP tools, so ChatGPT desktop or Codex can trigger a real skill run or spin up a multi-agent simulation mid-conversation.
 
-i work on Miroshark — ask me anything about how the affiliate split works or what's next (director mode + belief-drift stuff still cooking).
-*Link in post:* https://github.com/miroshark/miroshark
-*Post here:* [Open r/MiroFish composer](https://www.reddit.com/r/MiroFish/submit?title=Miroshark%20shipped%20x402aff%3A%20one%20line%20makes%20any%20endpoint%20affiliate-ready%2C%20paid%20onchain%20on%20Base)
-_notes: home community, insider tone fine — still disclose "i work on Miroshark" and mind the self-promo ratio, this is a maker post._
+Aeon's skills are just markdown — a prompt block + a cron schedule — so the "tool" side of this is closer to invoking a script than hitting an opaque API. That's what let an outside builder run an 18-agent Miroshark debate and then generate the recap video with one of Aeon's own skills, in the same session, without touching either dashboard.
+
+Repo (skills + MCP wiring both live here): https://github.com/aeonfun/aeon. I work on this — happy to get into the tool-definition/schema details if useful.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/AIPromptProgramming composer](https://www.reddit.com/r/AIPromptProgramming/submit?title=WebMCP%3A%20exposing%20agent%20skills%20and%20swarm%20sims%20as%20MCP%20tools%20for%20ChatGPT%2FCodex)
+_notes: technical audience, kept the pitch to mechanics not adjectives; disclosed as builder._
+
+---
+*r/AskVibecoders* · archetype: vibecoders
+*Title:* I hooked my agent framework up to ChatGPT desktop via MCP - here's what it can do now
+*Body:*
+Been building Aeon (agents that run themselves on GitHub Actions, no server) and Miroshark (spin up a swarm of agents to simulate something, cheap and fast) for a while. This week I wired both up to MCP, so now I can ask ChatGPT desktop or Codex to launch a simulation or stand up an agent instance mid-chat, no tab-switching.
+
+Best part: someone else immediately used it to run an 18-agent debate in Miroshark about renaming a lake, then made the recap video with one of Aeon's own skills. I didn't script that — they just found it.
+
+If you want to poke at it: https://github.com/aeonfun/aeon. Ask me anything, I'll answer in-thread.
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/AskVibecoders composer](https://www.reddit.com/r/AskVibecoders/submit?title=I%20hooked%20my%20agent%20framework%20up%20to%20ChatGPT%20desktop%20via%20MCP%20-%20here%27s%20what%20it%20can%20do%20now)
+_notes: disclosed as builder up front, casual tone fits the sub; kept to one link to respect self-promo ratio._
