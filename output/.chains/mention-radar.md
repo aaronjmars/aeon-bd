@@ -1,24 +1,19 @@
-*Mention Radar - 2026-08-28*
-vs 2026-08-27 — 0 new — 0 still-open — 2 quiet
+ℹ️ Mention Radar - 2026-08-30
+
+*Mention Radar - 2026-08-30*
+vs 2026-08-28 - 1 new - 0 still-open - 1 quiet
 
 AEON
-QUIET: aeon — no mentions this run (covered: api/web) — re-check 2026-08-30
+QUIET - no third-party mentions this cycle (X.AI x_search HTTP 200, 2026-08-23→08-30, X_SOURCE=api; web sweep clean - no fresh press/discussion beyond already-logged items)
+GitHub: 705★ (+9/2d) · 252 forks (+7/2d) since 2026-08-28 baseline - clears the notable-jump threshold, no single attributable driver found in-window
 
 MIROSHARK
-QUIET: miroshark — no mentions this run (covered: api/web) — re-check 2026-08-30
+- NEW [Confusion] @webringonline: "launching a sim from the desktop client is the part I want to see fail gracefully. what happens if the tab closes mid run, does the agent lose the handle or reattach?" - https://x.com/webringonline/status/2093733257473065031
+GitHub: 1444★ (+2/2d) · 299 forks (unch) since 2026-08-28 - under the 5-star notable threshold
 
 ENGAGEMENT OPPORTUNITIES
-- none this run
+- @webringonline: real product question (sim-resilience on tab close) sitting unanswered in your own thread - one direct reply closes the loop and reinforces the reliability story - https://x.com/webringonline/status/2093733257473065031 (flips if: someone else answers first or the thread goes cold >48h)
 
-run: X_SOURCE=api (both targets, HTTP 200, window 08-21→08-28) · web sweep clean (only stale/already-dismissed items re-surfaced: HackerNoon feature, directory listings) · stars aeon +2/since 08-27 (below +5 threshold) · stars miroshark +1/since 08-27 (below +5 threshold) · quiet_streak aeon=3, miroshark=4 (both already past drop threshold, tracking continues since these are the operator's only two products)
+QUIET: aeon - no mentions this run (covered: api/web) - re-check 2026-09-01
 
-## Summary
-Ran mention-radar for aeon and miroshark (explicit var: aeon, miroshark, @aeonframework, @miroshark_). X.AI `x_search` returned HTTP 200 for both with zero third-party mentions in the 2026-08-21→08-28 window; WebSearch across Reddit/HN/PH/blogs turned up nothing new — only already-dismissed items from prior runs (HackerNoon feature, directory-catalog listings, two unfamiliar MiroShark GitHub forks that are bd-radar's lane, not mention-radar's). GitHub star deltas (+2 aeon, +1 miroshark) stayed under the 5-star notable threshold.
-
-**Files changed:**
-- `memory/topics/mention-radar-seen.json` — bumped `quiet_streak` (aeon 2→3, miroshark 3→4); no new mentions to add.
-- `memory/logs/2026-08-28.md` — new log entry under `### Mention Radar`.
-
-**Notification:** not sent — all-quiet gate (contract rule 9 / skill step 7), consistent with the operator's "signal only" instruction.
-
-**Follow-up:** none required. Two harmless untracked scratch files (`xai-mr-aeon-prompt.txt`, `xai-mr-miroshark-prompt.txt`) remain in the working dir — `rm` is blocked in this sandbox (same precedent as prior runs), no functional impact.
+run: X_SOURCE=api · web sweep clean (Reddit/HN/PH/blogs/newsletters checked, no fresh in-window hits beyond known items) · stars aeon +9/2d since 08-28 (notable) · stars miroshark +2/2d since 08-28 (under threshold) · 2 low-signal miroshark replies (@svector_eth "hoping on it" 1 like, @danbuildss "This huge" 0 likes - same operator thread, no content) omitted from digest per quality-over-quantity guideline

@@ -1,7 +1,15 @@
 {
-  "mentions": [],
+  "mentions": [
+    {
+      "key": "x:https://x.com/webringonline/status/2093733257473065031",
+      "project": "miroshark",
+      "category": "Confusion",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-30"
+    }
+  ],
   "quiet_streak": {
-    "aeon": 3,
-    "miroshark": 4
+    "aeon": 4,
+    "miroshark": 0
   }
 }

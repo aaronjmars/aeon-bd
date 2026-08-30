@@ -47,3 +47,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-29,engagement-act,claude-sonnet-5,2273,12181,1624965,68345
 2026-08-29,fetch-tweets,claude-sonnet-5,2694,15374,2804554,57052
 2026-08-29,reddit-promo,claude-sonnet-5,2271,21134,1505146,67090
+2026-08-30,mention-radar,claude-sonnet-5,2559,18372,2989988,140872

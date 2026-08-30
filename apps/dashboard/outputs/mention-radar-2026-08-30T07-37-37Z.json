@@ -1,0 +1,284 @@
+{
+  "root": "main",
+  "state": {},
+  "elements": {
+    "main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar - 2026-08-30",
+        "description": "vs 2026-08-28 - 1 new - 0 still-open - 1 quiet"
+      },
+      "children": [
+        "cycle-summary",
+        "aeon-section",
+        "sep1",
+        "miroshark-section",
+        "sep2",
+        "opportunities",
+        "sep3",
+        "methodology"
+      ]
+    },
+    "cycle-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Cycle summary: 1 new mention, 0 still-open, 1 product quiet",
+        "variant": "lead"
+      }
+    },
+    "aeon-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-heading",
+        "aeon-status",
+        "aeon-status-detail",
+        "aeon-github-row",
+        "aeon-note"
+      ]
+    },
+    "aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon-status": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET - no third-party mentions this cycle",
+        "variant": "outline"
+      }
+    },
+    "aeon-status-detail": {
+      "type": "Text",
+      "props": {
+        "text": "X.AI x_search HTTP 200, 2026-08-23→08-30, X_SOURCE=api; web sweep clean - no fresh press/discussion beyond already-logged items",
+        "variant": "caption"
+      }
+    },
+    "aeon-github-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-stars",
+        "aeon-forks"
+      ]
+    },
+    "aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Stars",
+        "value": "705",
+        "delta": "+9/2d",
+        "trend": "up"
+      }
+    },
+    "aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "252",
+        "delta": "+7/2d",
+        "trend": "up"
+      }
+    },
+    "aeon-note": {
+      "type": "Text",
+      "props": {
+        "text": "Clears the notable-jump threshold, no single attributable driver found in-window",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-heading",
+        "miroshark-mention-badge",
+        "miroshark-mention-card",
+        "miroshark-mention-link",
+        "miroshark-github-row",
+        "miroshark-note"
+      ]
+    },
+    "miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark-mention-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW [Confusion]",
+        "variant": "secondary"
+      }
+    },
+    "miroshark-mention-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "webringonline",
+        "handle": "@webringonline",
+        "text": "launching a sim from the desktop client is the part I want to see fail gracefully. what happens if the tab closes mid run, does the agent lose the handle or reattach?"
+      }
+    },
+    "miroshark-mention-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/webringonline/status/2093733257473065031"
+      }
+    },
+    "miroshark-github-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-stars",
+        "miroshark-forks"
+      ]
+    },
+    "miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "GitHub Stars",
+        "value": "1444",
+        "delta": "+2/2d",
+        "trend": "up"
+      }
+    },
+    "miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "299",
+        "delta": "unchanged",
+        "trend": "neutral"
+      }
+    },
+    "miroshark-note": {
+      "type": "Text",
+      "props": {
+        "text": "Under the 5-star notable threshold",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opportunities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-heading",
+        "opp-item"
+      ]
+    },
+    "opp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h3"
+      }
+    },
+    "opp-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-text",
+        "opp-link",
+        "opp-note"
+      ]
+    },
+    "opp-text": {
+      "type": "Text",
+      "props": {
+        "text": "@webringonline: real product question (sim-resilience on tab close) sitting unanswered in your own thread - one direct reply closes the loop and reinforces the reliability story",
+        "variant": "body"
+      }
+    },
+    "opp-link": {
+      "type": "Link",
+      "props": {
+        "label": "View thread",
+        "href": "https://x.com/webringonline/status/2093733257473065031"
+      }
+    },
+    "opp-note": {
+      "type": "Text",
+      "props": {
+        "text": "Flips if: someone else answers first or the thread goes cold >48h",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "methodology": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "method-heading",
+        "method-content",
+        "quiet-note"
+      ]
+    },
+    "method-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Methodology",
+        "level": "h3"
+      }
+    },
+    "method-content": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=api · web sweep clean (Reddit/HN/PH/blogs/newsletters checked, no fresh in-window hits beyond known items) · stars aeon +9/2d since 08-28 (notable) · stars miroshark +2/2d since 08-28 (under threshold) · 2 low-signal miroshark replies (@svector_eth \"hoping on it\" 1 like, @danbuildss \"This huge\" 0 likes - same operator thread, no content) omitted from digest per quality-over-quantity guideline",
+        "variant": "caption"
+      }
+    },
+    "quiet-note": {
+      "type": "Alert",
+      "props": {
+        "title": "QUIET: aeon",
+        "message": "no mentions this run (covered: api/web) - re-check 2026-09-01",
+        "type": "info"
+      }
+    }
+  }
+}
