@@ -1,0 +1,216 @@
+{
+  "root": "heartbeat-card",
+  "state": {},
+  "elements": {
+    "heartbeat-card": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 4 skills down — one root cause",
+        "description": "🔴 FLEET heartbeat — this run is the first on the new GLM gateway route"
+      },
+      "children": [
+        "fleet-alert",
+        "failure-signature",
+        "stats-grid",
+        "sep-top",
+        "rootcause-alert",
+        "issues-heading",
+        "issues-stack",
+        "sep-mid",
+        "monday-alert",
+        "green-alert",
+        "sep-watch",
+        "watch-alert",
+        "status-stack"
+      ]
+    },
+    "fleet-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "FLEET: 4 skills down this morning — one root cause, already fixed"
+      }
+    },
+    "failure-signature": {
+      "type": "Text",
+      "props": {
+        "variant": "body",
+        "text": "bd-radar, heartbeat, engagement-act, aeon-update all failed 08:51–11:47 UTC. Identical signature: zero input/output tokens, instant die. Not four bugs. One."
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "sm"
+      },
+      "children": [
+        "stat-skills-down",
+        "stat-fix",
+        "stat-conflicts"
+      ]
+    },
+    "stat-skills-down": {
+      "type": "Stat",
+      "props": {
+        "label": "Skills down",
+        "value": "4",
+        "delta": "one root cause",
+        "trend": "neutral"
+      }
+    },
+    "stat-fix": {
+      "type": "Stat",
+      "props": {
+        "label": "Fix landed",
+        "value": "12:13 UTC",
+        "delta": "gateway hop to GLM (04d56d5)",
+        "trend": "up"
+      }
+    },
+    "stat-conflicts": {
+      "type": "Stat",
+      "props": {
+        "label": "Conflicts pending",
+        "value": "11",
+        "delta": "unchanged since 08-25",
+        "trend": "neutral"
+      }
+    },
+    "sep-top": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "rootcause-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Claude sub was exhausted",
+        "message": "Fix landed 12:13 UTC — gateway hop to GLM (04d56d5). This heartbeat is the first run on the new route. It's alive."
+      }
+    },
+    "issues-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Failed skills",
+        "level": "h3"
+      }
+    },
+    "issues-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "issue-bd-radar",
+        "issue-heartbeat",
+        "issue-engagement-act",
+        "issue-aeon-update"
+      ]
+    },
+    "issue-bd-radar": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bd-radar — 3 consec fails (07:20 slot missed)",
+        "href": "https://github.com/aeon-bd/aeon-bd/issues/71",
+        "source": "GitHub issue #71"
+      }
+    },
+    "issue-heartbeat": {
+      "type": "StoryLink",
+      "props": {
+        "title": "heartbeat — 3 consec fails (08:00 slot missed)",
+        "href": "https://github.com/aeon-bd/aeon-bd/issues/72",
+        "source": "GitHub issue #72"
+      }
+    },
+    "issue-engagement-act": {
+      "type": "StoryLink",
+      "props": {
+        "title": "engagement-act — 3 consec fails (09:30 slot missed)",
+        "href": "https://github.com/aeon-bd/aeon-bd/issues/73",
+        "source": "GitHub issue #73"
+      }
+    },
+    "issue-aeon-update": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeon-update — 2 consec fails, Monday 11:00 slot lost",
+        "href": "https://github.com/aeon-bd/aeon-bd/issues/74",
+        "source": "GitHub issue #74"
+      }
+    },
+    "sep-mid": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monday-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Monday's aeon-update run is gone",
+        "message": "Upstream sync watermark still 8b8d719, 11 local conflicts still pending your call (unchanged since 08-25). Next shot is Monday 11:00 UTC."
+      }
+    },
+    "green-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "🟢 Everything else green",
+        "message": "mention-radar, fetch-tweets, reddit-promo, memory-flush all succeeded. No stuck skills, no chronic failures."
+      }
+    },
+    "sep-watch": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Watch: tonight 17:00 UTC (fetch-tweets)",
+        "message": "GLM's first scheduled prove-it run. If it fails, the gateway fix didn't take — check scripts/llm-gateway.sh routing."
+      }
+    },
+    "status-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-status",
+        "link-status-page",
+        "link-status-docs"
+      ]
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "STATUS_PAGE=DEGRADED",
+        "variant": "destructive"
+      }
+    },
+    "link-status-page": {
+      "type": "Link",
+      "props": {
+        "label": "status page",
+        "href": "https://aeon-bd.github.io/aeon-bd/status/"
+      }
+    },
+    "link-status-docs": {
+      "type": "Link",
+      "props": {
+        "label": "docs/status.md",
+        "href": "https://github.com/aeon-bd/aeon-bd/blob/main/docs/status.md"
+      }
+    }
+  }
+}

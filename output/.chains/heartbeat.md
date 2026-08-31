@@ -1,24 +1,22 @@
-Ambient fleet-health check complete — nothing new needed attention, no notification sent.
+🚨 4 skills down — one root cause
 
-## Heartbeat — Ambient check (2026-08-30)
+🔴 FLEET: 4 skills down this morning — one root cause, already fixed
 
-**P0 — Failed & stuck skills:** No new failures or stuck skills. `digest` (disabled skill) remains the sole carryover — isolated failure from 2026-08-19, `consecutive_failures: 1`, still unrecovered, but already reported in yesterday's (08-29) log within the 48h dedup window, so not re-notified. No skill shows `last_status: "dispatched"` other than heartbeat's own in-flight run (excluded by rule). No `consecutive_failures ≥ 3`, no chronic failures (`success_rate < 0.5` & `total_runs ≥ 5`). Heartbeat self-check clean: last success 2026-08-29T08:07:09Z, ~24h ago, under the 36h bar.
+bd-radar, heartbeat, engagement-act, aeon-update all failed 08:51–11:47 UTC. Identical signature: zero input/output tokens, instant die. Not four bugs. One.
 
-**P1 — Stalled PRs & urgent issues:** `gh pr list --state open` → 0. `gh issue list --state open` → 0. Nothing stalled.
+**Claude sub was exhausted.** Fix landed 12:13 UTC — gateway hop to GLM (`04d56d5`). This heartbeat is the first run on the new route. It's alive.
 
-**P2 — Flagged memory items:** No new flags beyond the standing Next Priorities in MEMORY.md (aeon-update conflict-adoption decision + second notification channel), unchanged since 2026-08-24.
+- bd-radar — 3 consec fails (07:20 slot missed) → [#71](https://github.com/aeon-bd/aeon-bd/issues/71)
+- heartbeat — 3 consec fails (08:00 slot missed) → [#72](https://github.com/aeon-bd/aeon-bd/issues/72)
+- engagement-act — 3 consec fails (09:30 slot missed) → [#73](https://github.com/aeon-bd/aeon-bd/issues/73)
+- aeon-update — 2 consec fails, Monday 11:00 slot lost → [#74](https://github.com/aeon-bd/aeon-bd/issues/74)
 
-**P3 — Missing scheduled skills:** All 8 enabled skills (bd-radar, mention-radar, fetch-tweets, reddit-promo, engagement-act, heartbeat, aeon-update, memory-flush) are current per `cron-state.json` — none overdue past 2× their schedule interval.
+🟡 Monday's aeon-update run is gone — upstream sync watermark still `8b8d719`, 11 local conflicts still pending your call (unchanged since 08-25). Next shot is Monday 11:00 UTC.
 
-**Status page:** Regenerated `docs/status.md` — 8 enabled skills re-sorted by last-run descending (mention-radar's 08-30 07:38 UTC run now on top), open issues 0, next scheduled run `fetch-tweets` at 17:00 UTC today. Overall verdict stays **🟡 WATCH**, driven solely by `digest`'s carryover unrecovered isolated failure (unchanged from prior days — not worth a 🔴 since it's a single, non-chronic failure on a disabled skill).
+🟢 Everything else green: mention-radar, fetch-tweets, reddit-promo, memory-flush all succeeded. No stuck skills, no chronic failures.
 
-**Token pulse:** No `output/articles/token-report-*.md` exists — section omitted from the status page.
+**Watch:** tonight 17:00 UTC (fetch-tweets) is GLM's first scheduled prove-it run. If it fails, the gateway fix didn't take — check `scripts/llm-gateway.sh` routing.
 
-`HEARTBEAT_OK · STATUS_PAGE=WATCH`
+`STATUS_PAGE=DEGRADED` — [status page](https://aeon-bd.github.io/aeon-bd/status/)
 
-## Summary
-- Read `memory/MEMORY.md`, last 2 days of `memory/logs/`, `memory/cron-state.json`, `aeon.yml`; checked `gh pr/issue list` (both empty).
-- Updated `docs/status.md` (fresh timestamps, resorted skill table, updated next-scheduled-run line).
-- Appended `### heartbeat` entry to `memory/logs/2026-08-30.md` under `mode: ambient`.
-- No notification sent — all findings were carryover/deduped, nothing new crossed the P0–P3 bar.
-- The status.md and log changes will be committed by the workflow's auto-commit step (per skill convention, no manual git commit needed here).
+🔗 https://github.com/aeon-bd/aeon-bd/blob/main/docs/status.md
