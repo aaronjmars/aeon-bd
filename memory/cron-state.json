@@ -31,8 +31,8 @@
     "last_dispatch": "2026-07-26T07:57:13Z"
   },
   "fetch-tweets": {
-    "last_dispatch": "2026-08-31T17:46:48Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-08-31T18:29:15Z",
+    "last_status": "dispatched",
     "last_success": "2026-08-30T17:10:37Z",
     "total_runs": 83,
     "total_successes": 81,
@@ -306,7 +306,7 @@
     "last_dispatch": "2026-06-29T16:03:06Z"
   },
   "reddit-promo": {
-    "last_status": "failed",
+    "last_status": "dispatched",
     "last_success": "2026-08-30T17:53:06Z",
     "total_runs": 31,
     "total_successes": 29,
@@ -314,7 +314,7 @@
     "consecutive_failures": 1,
     "success_rate": 0.94,
     "last_quality_score": 4,
-    "last_dispatch": "2026-08-31T17:46:48Z",
+    "last_dispatch": "2026-08-31T18:29:15Z",
     "last_failed": "2026-08-31T17:50:37Z",
     "last_error": "5302c8\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"s"
   },
