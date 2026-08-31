@@ -1,0 +1,454 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar — 2026-08-31",
+        "description": "vs 08-29"
+      },
+      "children": [
+        "stats-grid",
+        "sep-1",
+        "lead1",
+        "sep-2",
+        "lead2",
+        "sep-3",
+        "lead3",
+        "sep-4",
+        "run"
+      ]
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "sm"
+      },
+      "children": [
+        "stat-new",
+        "stat-open",
+        "stat-dropped",
+        "stat-total"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "new",
+        "value": "3"
+      }
+    },
+    "stat-open": {
+      "type": "Stat",
+      "props": {
+        "label": "still open",
+        "value": "31"
+      }
+    },
+    "stat-dropped": {
+      "type": "Stat",
+      "props": {
+        "label": "dropped",
+        "value": "0"
+      }
+    },
+    "stat-total": {
+      "type": "Stat",
+      "props": {
+        "label": "leads",
+        "value": "34"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "lead1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead1-badges",
+        "lead1-link",
+        "lead1-desc",
+        "lead1-move",
+        "lead1-meta"
+      ]
+    },
+    "lead1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "lead1-cat",
+        "lead1-seen"
+      ]
+    },
+    "lead1-cat": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "default"
+      }
+    },
+    "lead1-seen": {
+      "type": "Badge",
+      "props": {
+        "text": "new · first seen 08-31",
+        "variant": "outline"
+      }
+    },
+    "lead1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Calcutatator/aeon-taskmarket-hooks",
+        "href": "https://github.com/Calcutatator/aeon-taskmarket-hooks",
+        "source": "GitHub"
+      }
+    },
+    "lead1-desc": {
+      "type": "Text",
+      "props": {
+        "variant": "body",
+        "text": "Two production-grade Aeon skills for TaskMarket V1 hook deploys — dry-run default, arm: gate, pinned Foundry, gas + Diamond lifecycle checks. Same owner runs a live standalone Aeon instance whose create-skill wrote both autonomously on 08-24; scheduler still committing today."
+      }
+    },
+    "lead1-move": {
+      "type": "Alert",
+      "props": {
+        "title": "Move",
+        "message": "DM — invite into the catalog + a community-call slot. they built the exact security posture we'd have asked for.",
+        "type": "info"
+      }
+    },
+    "lead1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "lead1-exp-badge",
+        "lead1-exp-text"
+      ]
+    },
+    "lead1-exp-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 09-07",
+        "variant": "outline"
+      }
+    },
+    "lead1-exp-text": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "before TaskMarket V1 merges and their tooling gets pinned to someone else's flow"
+      }
+    },
+    "lead2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead2-badges",
+        "lead2-link",
+        "lead2-desc",
+        "lead2-prs-label",
+        "lead2-prs",
+        "lead2-move",
+        "lead2-meta"
+      ]
+    },
+    "lead2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "lead2-cat",
+        "lead2-status",
+        "lead2-seen"
+      ]
+    },
+    "lead2-cat": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "default"
+      }
+    },
+    "lead2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "escalating",
+        "variant": "destructive"
+      }
+    },
+    "lead2-seen": {
+      "type": "Badge",
+      "props": {
+        "text": "first seen 08-27",
+        "variant": "outline"
+      }
+    },
+    "lead2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "x:thecultos — DOGMA is live",
+        "href": "https://x.com/thecultos",
+        "source": "X (Twitter)"
+      }
+    },
+    "lead2-desc": {
+      "type": "Text",
+      "props": {
+        "variant": "body",
+        "text": "DOGMA is live — paid x402 PR audits at 0.20 USDC on Base. Every audit carries an onchain receipt + public verdict. This is Aeon skills charging real money in production."
+      }
+    },
+    "lead2-prs-label": {
+      "type": "Text",
+      "props": {
+        "variant": "caption",
+        "text": "Audited:"
+      }
+    },
+    "lead2-prs": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "lead2-pr1",
+        "lead2-pr2",
+        "lead2-pr3"
+      ]
+    },
+    "lead2-pr1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "expressjs/express#7430",
+        "href": "https://github.com/expressjs/express/pull/7430",
+        "source": "PR · today"
+      }
+    },
+    "lead2-pr2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/skills#1690",
+        "href": "https://github.com/anthropics/skills/pull/1690",
+        "source": "PR · today"
+      }
+    },
+    "lead2-pr3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeonfun/aeon#986",
+        "href": "https://github.com/aeonfun/aeon/pull/986",
+        "source": "PR · twice on 08-30"
+      }
+    },
+    "lead2-move": {
+      "type": "Alert",
+      "props": {
+        "title": "Move",
+        "message": "Quote it in the next launch thread — strongest ecosystem proof point we have — then check in on the affiliate angle.",
+        "type": "info"
+      }
+    },
+    "lead2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "lead2-exp-badge",
+        "lead2-exp-text"
+      ]
+    },
+    "lead2-exp-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 09-04",
+        "variant": "outline"
+      }
+    },
+    "lead2-exp-text": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "they ship daily"
+      }
+    },
+    "lead3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead3-badges",
+        "lead3-link",
+        "lead3-desc",
+        "lead3-move",
+        "lead3-meta"
+      ]
+    },
+    "lead3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "lead3-cat",
+        "lead3-seen"
+      ]
+    },
+    "lead3-cat": {
+      "type": "Badge",
+      "props": {
+        "text": "forking",
+        "variant": "secondary"
+      }
+    },
+    "lead3-seen": {
+      "type": "Badge",
+      "props": {
+        "text": "first seen 08-31",
+        "variant": "outline"
+      }
+    },
+    "lead3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "keyurbodar/aeon",
+        "href": "https://github.com/keyurbodar/aeon",
+        "source": "GitHub · fork"
+      }
+    },
+    "lead3-desc": {
+      "type": "Text",
+      "props": {
+        "variant": "body",
+        "text": "0 commits on main but 3 real fix branches — chain-dispatch correlation, dashboard origin checks, reject-invalid-harness-output across harness-adapter + api-gate. Owner ships agent-memory infra (Sibyl-Memory)."
+      }
+    },
+    "lead3-move": {
+      "type": "Alert",
+      "props": {
+        "title": "Move",
+        "message": "This is a contributor not a user — reply to the branch work, offer to take the api-gate hardening upstream.",
+        "type": "info"
+      }
+    },
+    "lead3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "lead3-flip-badge",
+        "lead3-flip-text"
+      ]
+    },
+    "lead3-flip-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "flips if",
+        "variant": "outline"
+      }
+    },
+    "lead3-flip-text": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "branches deleted or stale 7d"
+      }
+    },
+    "run": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run-heading",
+        "run-flow"
+      ]
+    },
+    "run-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run log",
+        "level": "h4"
+      }
+    },
+    "run-flow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "run-line1",
+        "run-link",
+        "run-line2"
+      ]
+    },
+    "run-line1": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "github-forks-issues 4/4 repos (default token, cross-repo clean) · gh-search · x x_search http 200 · WebSearch + HN (7d, zero hits) · live probe"
+      }
+    },
+    "run-link": {
+      "type": "Link",
+      "props": {
+        "label": "cultos.dev",
+        "href": "https://cultos.dev"
+      }
+    },
+    "run-line2": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "http 200 · no source misses"
+      }
+    }
+  }
+}

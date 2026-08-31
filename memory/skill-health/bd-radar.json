@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-08-29T07:29:13Z",
-  "quality_score": 3,
-  "assessment": "Completed the radar sweep competently with full coverage and verification; found zero new leads and properly gated notification. Solid operational work, transparent about null result, but produces no actionable BD signal for the stated priorities this cycle.",
+  "last_analyzed": "2026-08-31T15:19:47Z",
+  "quality_score": 5,
+  "assessment": "Excellent BD sweep: specific, verifiable leads (commit c1dd3aa and modified log/output files confirm the run), live-probed claims with http codes, expiry-dated copy-ready moves, and tight strategy-aligned follow-ups — exactly the early-signal GTM work the operator asked for.",
   "flags": [],
-  "avg_score": 3.83,
+  "avg_score": 4,
   "history": [
     {
       "date": "2026-08-21",
@@ -29,6 +29,10 @@
     {
       "date": "2026-08-29",
       "score": 3
+    },
+    {
+      "date": "2026-08-31",
+      "score": 5
     }
   ]
 }
