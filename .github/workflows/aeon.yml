@@ -261,6 +261,8 @@ jobs:
           # grok's native auth (X-account OAuth capture > xAI key), so its AUTH_MODE
           # is detected like the other harnesses instead of defaulting to openrouter.
           GROK_CREDENTIALS: ${{ secrets.GROK_CREDENTIALS }}
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
         run: |
           # The resolution itself lives in scripts/resolve-harness.sh so that every
@@ -313,6 +315,8 @@ jobs:
           AUTH_MODE: ${{ steps.harness.outputs.AUTH_MODE }}
           # grok auth (staged via run-grok.sh setup): captured X-account OAuth or key.
           GROK_CREDENTIALS: ${{ secrets.GROK_CREDENTIALS }}
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           # secrets-write PAT so run-grok.sh setup can PERSIST a rotated grok refresh
           # token back to GROK_CREDENTIALS - the durable-OAuth-past-6h fix (run-grok.sh §2b).
@@ -621,6 +625,7 @@ jobs:
           VENICE_BASE_URL: ${{ vars.VENICE_BASE_URL }}
           VENICE_CLEANCACHE: ${{ vars.VENICE_CLEANCACHE }}
           SURPLUS_MODEL: ${{ vars.SURPLUS_MODEL }}
+          GLM_MODEL: ${{ vars.GLM_MODEL }}
           CCR_LOG: ${{ vars.CCR_LOG }}
           # Optional Langfuse observability — set both keys to stream Claude Code's
           # run to Langfuse as a trace (scripts/langfuse-otel.sh; no-op when unset).
@@ -644,6 +649,8 @@ jobs:
           # so a skill can ask for a message but cannot read the credential that sends
           # it. GITHUB_TOKEN/GH_GLOBAL stay in-run (deferred, broad gh surface).
           GROK_CREDENTIALS: ${{ secrets.GROK_CREDENTIALS }}
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           # Send caps + audit CC for the IN-RUN email senders (send-email + vuln-scanner
           # Arm C). RESEND_API_KEY / RESEND_FROM / RESEND_REPLY_TO are per-skill secrets
           # injected via `requires:`; these are non-secret repo vars, bound here so the
@@ -1317,6 +1324,8 @@ jobs:
           SURPLUS_API_KEY: ${{ secrets.SURPLUS_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}   # grok scorer: API-key auth path
           GROK_CREDENTIALS: ${{ secrets.GROK_CREDENTIALS }}   # grok scorer: X-account OAuth (restored by run-grok.sh)
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           RH_MODEL_ARG: ${{ steps.harness.outputs.MODEL_ARG }}   # run-harness scorer: same --model the run used
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
           OPENROUTER_MODEL_SONNET: ${{ vars.OPENROUTER_MODEL_SONNET }}
@@ -1328,6 +1337,7 @@ jobs:
           VENICE_BASE_URL: ${{ vars.VENICE_BASE_URL }}
           VENICE_CLEANCACHE: ${{ vars.VENICE_CLEANCACHE }}
           SURPLUS_MODEL: ${{ vars.SURPLUS_MODEL }}
+          GLM_MODEL: ${{ vars.GLM_MODEL }}
           CCR_LOG: ${{ vars.CCR_LOG }}
           LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
           LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
@@ -1559,6 +1569,8 @@ jobs:
           USEPOD_TOKEN: ${{ secrets.USEPOD_TOKEN }}
           VENICE_API_KEY: ${{ secrets.VENICE_API_KEY }}
           SURPLUS_API_KEY: ${{ secrets.SURPLUS_API_KEY }}
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
           OPENROUTER_MODEL_SONNET: ${{ vars.OPENROUTER_MODEL_SONNET }}
           OPENROUTER_MODEL_HAIKU: ${{ vars.OPENROUTER_MODEL_HAIKU }}
@@ -1569,6 +1581,7 @@ jobs:
           VENICE_BASE_URL: ${{ vars.VENICE_BASE_URL }}
           VENICE_CLEANCACHE: ${{ vars.VENICE_CLEANCACHE }}
           SURPLUS_MODEL: ${{ vars.SURPLUS_MODEL }}
+          GLM_MODEL: ${{ vars.GLM_MODEL }}
           CCR_LOG: ${{ vars.CCR_LOG }}
           LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
           LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
