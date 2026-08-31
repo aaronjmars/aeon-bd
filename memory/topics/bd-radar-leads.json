@@ -309,6 +309,36 @@
       "score": 15,
       "date_found": "2026-08-27",
       "url": "https://github.com/amritmirch/aeon-skill-pack-farcaster"
+    },
+    {
+      "key": "github:Calcutatator/aeon-taskmarket-hooks",
+      "class": "building",
+      "who": "Calcutatator/aeon-taskmarket-hooks",
+      "signal": "Two production-grade Aeon skills for TaskMarket V1 hook lifecycle (taskmarket-hook-idea via xAI, deploy-taskmarket-hook with dry-run default + arm: gate + pinned Foundry), installable via bin/install-skill-pack; same owner runs a live standalone Aeon instance (aeon-taskmarket-hooks-review, scheduler committing through 08-31) whose create-skill autonomously authored both on 08-24",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-08-31",
+      "url": "https://github.com/Calcutatator/aeon-taskmarket-hooks"
+    },
+    {
+      "key": "github:keyurbodar/aeon",
+      "class": "forking",
+      "who": "keyurbodar/aeon",
+      "signal": "Fork 08-30, 0 commits on main but 3 substantive fix branches (chain-dispatch-correlation, dashboard-origin-host-check, reject-invalid-harness-output across harness-adapter + api-gate + secrets-catalog); owner is a systems engineer (Sibyl-Memory agent-memory plugin family, synara, tailcat) - reads as a contributor, not a user",
+      "fit": 3,
+      "score": 12,
+      "date_found": "2026-08-31",
+      "url": "https://github.com/keyurbodar/aeon"
+    },
+    {
+      "key": "web:agentskillshub.top/best/ai-agent-framework",
+      "class": "mentioning",
+      "who": "agentskillshub.top",
+      "signal": "Third-party directory ranks aeon #1 of 10 open-source agent frameworks 2026 ('If you only pick one, go with aeon', quality score 79) but stats are stale (573 stars vs 707 actual) and the GitHub link still points at the old aaronjmars/aeon path",
+      "fit": 1,
+      "score": 2,
+      "date_found": "2026-08-31",
+      "url": "https://agentskillshub.top/best/ai-agent-framework/"
     }
   ],
   "surfaced": [
@@ -342,6 +372,9 @@
     "github:agenticluke/claude-skill-aeon-plus",
     "github:AntFleet/bench-miroshark",
     "github:jsfranklin221/aeon-skill-pack-spoolis",
-    "github:amritmirch/aeon-skill-pack-farcaster"
+    "github:amritmirch/aeon-skill-pack-farcaster",
+    "github:Calcutatator/aeon-taskmarket-hooks",
+    "github:keyurbodar/aeon",
+    "web:agentskillshub.top/best/ai-agent-framework"
   ]
 }
