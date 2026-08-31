@@ -1,0 +1,607 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act - 2026-08-31"
+      },
+      "children": [
+        "header-stack",
+        "sep-0",
+        "opp1",
+        "sep-1",
+        "opp2",
+        "sep-2",
+        "opp3",
+        "sep-3",
+        "opp4",
+        "sep-4",
+        "opp5",
+        "sep-5",
+        "footer"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-vs",
+        "stats-grid"
+      ]
+    },
+    "text-vs": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-08-29",
+        "variant": "muted"
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-new",
+        "stat-drafted",
+        "stat-aging"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New opps",
+        "value": "7"
+      }
+    },
+    "stat-drafted": {
+      "type": "Stat",
+      "props": {
+        "label": "Drafted",
+        "value": "5"
+      }
+    },
+    "stat-aging": {
+      "type": "Stat",
+      "props": {
+        "label": "Aging",
+        "value": "0"
+      }
+    },
+    "sep-0": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1-name",
+        "opp1-meta",
+        "opp1-what",
+        "opp1-link",
+        "opp1-draft-label",
+        "opp1-draft"
+      ]
+    },
+    "opp1-name": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Calcutatator/aeon-taskmarket-hooks",
+        "level": "h3"
+      }
+    },
+    "opp1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1-type",
+        "opp1-lev",
+        "opp1-exp"
+      ]
+    },
+    "opp1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "opp1-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low (6 followers, verified)",
+        "variant": "secondary"
+      }
+    },
+    "opp1-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-14",
+        "variant": "outline"
+      }
+    },
+    "opp1-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: shipped a production-grade Aeon skill pack for TaskMarket V1 hook deploys (dry-run default, `arm:` gate, pinned Foundry) — and their standalone Aeon instance's create-skill authored both skills itself on 08-24 (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Calcutatator/aeon-taskmarket-hooks",
+        "href": "https://github.com/Calcutatator/aeon-taskmarket-hooks",
+        "source": "GitHub"
+      }
+    },
+    "opp1-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "draft:",
+        "variant": "muted"
+      }
+    },
+    "opp1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "\"your review instance authored both skills itself with create-skill — that's the self-evolving loop working end to end. dry-run default + arm: gate is exactly right for anything that touches mainnet. two things: open a PR to add the pack to skill-packs.json in aeonfun/aeon (official catalog), and write up the pipeline — an instance authoring its own hook deployer is worth documentation.\"",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2-name",
+        "opp2-meta",
+        "opp2-what",
+        "opp2-link",
+        "opp2-draft-label",
+        "opp2-draft"
+      ]
+    },
+    "opp2-name": {
+      "type": "Heading",
+      "props": {
+        "text": "2. keyurbodar/aeon",
+        "level": "h3"
+      }
+    },
+    "opp2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2-type",
+        "opp2-lev",
+        "opp2-exp"
+      ]
+    },
+    "opp2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "opp2-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low (1 follower, verified)",
+        "variant": "secondary"
+      }
+    },
+    "opp2-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-14",
+        "variant": "outline"
+      }
+    },
+    "opp2-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: forked 08-30 with 0 commits on main but 3 substantive fix branches (chain-dispatch correlation, api-gate origin check, harness-output rejection) — reads as a contributor, not a user; ships agent infra (Sibyl-Memory) (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "keyurbodar/aeon",
+        "href": "https://github.com/keyurbodar/aeon",
+        "source": "GitHub"
+      }
+    },
+    "opp2-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "draft:",
+        "variant": "muted"
+      }
+    },
+    "opp2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "\"noticed the three fix branches on your fork — chain-dispatch correlation, the api-gate origin check, and harness-output rejection are all real gaps. open them as PRs against aeonfun/aeon; they'll get eyes fast. contributors who find the edges are how this stays ahead.\"",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3-name",
+        "opp3-meta",
+        "opp3-what",
+        "opp3-link",
+        "opp3-draft-label",
+        "opp3-draft"
+      ]
+    },
+    "opp3-name": {
+      "type": "Heading",
+      "props": {
+        "text": "3. @akathesmith",
+        "level": "h3"
+      }
+    },
+    "opp3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3-type",
+        "opp3-lev",
+        "opp3-exp"
+      ]
+    },
+    "opp3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "opp3-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: mid (est 1k-10k — builder behind CultOS/thesmithdao, named project)",
+        "variant": "default"
+      }
+    },
+    "opp3-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-13",
+        "variant": "outline"
+      }
+    },
+    "opp3-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: publicly building thecultos features directly on top of Aeon (5 likes / 3 RTs); same person behind the cultos-aeon-skills pack and DOGMA's escalation to a paid x402 audit product — the human behind the strongest ecosystem proof point (1 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/akathesmith/status/2093836995894161907"
+      }
+    },
+    "opp3-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "draft:",
+        "variant": "muted"
+      }
+    },
+    "opp3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "\"cultos running paid PR evals on aeon skills is the compute-to-money loop doing exactly what it's supposed to. if the pack hits an upstream gap, open an issue — or make it a cron job and let the instance chase you about it\"",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4-name",
+        "opp4-meta",
+        "opp4-what",
+        "opp4-link",
+        "opp4-draft-label",
+        "opp4-draft",
+        "opp4-alert"
+      ]
+    },
+    "opp4-name": {
+      "type": "Heading",
+      "props": {
+        "text": "4. @webringonline",
+        "level": "h3"
+      }
+    },
+    "opp4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4-type",
+        "opp4-lev",
+        "opp4-exp"
+      ]
+    },
+    "opp4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "opp4-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low (est <1k)",
+        "variant": "secondary"
+      }
+    },
+    "opp4-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-13",
+        "variant": "outline"
+      }
+    },
+    "opp4-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: asked a genuine product question in the MiroShark thread — \"does a sim reattach or lose its handle if the desktop tab closes mid-run?\" — mention-radar's one flagged engagement opp this run (1 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/webringonline/status/2093733257473065031"
+      }
+    },
+    "opp4-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "draft:",
+        "variant": "muted"
+      }
+    },
+    "opp4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "\"sims run headless — the tab is a viewer, not the runtime. close it mid-run and the sim finishes on its own; report + graph are there when you get back. if you've got a run that actually died, drop the run id and I'll trace it\"",
+        "variant": "body"
+      }
+    },
+    "opp4-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Verify before sending",
+        "message": "⚠ verify the headless/reattach behavior against current Miroshark runtime before sending — drafted from architecture knowledge, not a live repro.",
+        "type": "warning"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp5-name",
+        "opp5-meta",
+        "opp5-what",
+        "opp5-link",
+        "opp5-draft-label",
+        "opp5-draft"
+      ]
+    },
+    "opp5-name": {
+      "type": "Heading",
+      "props": {
+        "text": "5. @Truunik",
+        "level": "h3"
+      }
+    },
+    "opp5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp5-type",
+        "opp5-lev",
+        "opp5-exp"
+      ]
+    },
+    "opp5-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "opp5-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low (est <1k, engagement-derived — 11 likes / 2 RTs)",
+        "variant": "secondary"
+      }
+    },
+    "opp5-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-13",
+        "variant": "outline"
+      }
+    },
+    "opp5-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: lists Aeon among open builder-tool stacks and flags IP caution before commercializing forks — a fair caution worth answering with the license, plainly (11 = MIT, verified just now) (1 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp5-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Truunik/status/2093759834751422862"
+      }
+    },
+    "opp5-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "draft:",
+        "variant": "muted"
+      }
+    },
+    "opp5-draft": {
+      "type": "Text",
+      "props": {
+        "text": "\"fair flag. short version: the framework is MIT, so commercializing a fork is fine — keep the license notice, don't sell it as an endorsement. if the terms read ambiguous anywhere, that's a docs bug — say where and it gets fixed this week\"",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-stats",
+        "run1",
+        "run2",
+        "run3",
+        "run4"
+      ]
+    },
+    "footer-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-stars",
+        "stat-forks"
+      ]
+    },
+    "stat-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon stars",
+        "value": "711"
+      }
+    },
+    "stat-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon forks",
+        "value": "253"
+      }
+    },
+    "run1": {
+      "type": "Text",
+      "props": {
+        "text": "run: scanned memory/logs 2026-08-25→08-31 + bd-radar-leads.json; last successful run 2026-08-29 (08-31's scheduled 09:30 dispatch died in the API-degradation incident). GitHub follower counts via gh api this run.",
+        "variant": "muted"
+      }
+    },
+    "run2": {
+      "type": "Text",
+      "props": {
+        "text": "dedup: CultOS/DOGMA escalation dropped — canonical @thecultos already acted 2026-08-27 (same rule that held Sparkleware's expansion on 08-27); @svector_eth is our own hire announcement, not an opp; @Amrit_Mirch repeat shill, ignored.",
+        "variant": "muted"
+      }
+    },
+    "run3": {
+      "type": "Text",
+      "props": {
+        "text": "cut by cap (2): @adelbucetta (skeptical echo-chamber question on the Aeon-vs-bot thread, 0 engagement — recheck next run if it draws replies) and agentskillshub.top (ranks aeon #1 but stale 573★ vs 711 actual + old aaronjmars/aeon link — correction opp, no contact channel found, low fit).",
+        "variant": "muted"
+      }
+    },
+    "run4": {
+      "type": "Text",
+      "props": {
+        "text": "still held: hansj73/aeon + Muriel-Salvan/x_aeon_agents (fit 1, \"too early\" per bd-radar 08-27).",
+        "variant": "muted"
+      }
+    }
+  }
+}
