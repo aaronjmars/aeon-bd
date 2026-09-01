@@ -1,0 +1,483 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-09-01",
+        "description": "vs 2026-08-31"
+      },
+      "children": [
+        "stats-row",
+        "sep-top",
+        "item-1",
+        "sep-1",
+        "item-2",
+        "sep-2",
+        "item-3",
+        "sep-3",
+        "item-4",
+        "sep-4",
+        "run-notes"
+      ]
+    },
+    "stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-opps",
+        "stat-drafted",
+        "stat-aging"
+      ]
+    },
+    "stat-opps": {
+      "type": "Stat",
+      "props": {
+        "label": "new opps",
+        "value": "4"
+      }
+    },
+    "stat-drafted": {
+      "type": "Stat",
+      "props": {
+        "label": "drafted",
+        "value": "4"
+      }
+    },
+    "stat-aging": {
+      "type": "Stat",
+      "props": {
+        "label": "aging",
+        "value": "0"
+      }
+    },
+    "sep-top": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "i1-head",
+        "i1-meta",
+        "i1-what",
+        "i1-link",
+        "i1-draft"
+      ]
+    },
+    "i1-head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "i1-name",
+        "i1-type",
+        "i1-lev",
+        "i1-exp"
+      ]
+    },
+    "i1-name": {
+      "type": "Heading",
+      "props": {
+        "text": "@UsePodAI",
+        "level": "h3"
+      }
+    },
+    "i1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "i1-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: mid",
+        "variant": "default"
+      }
+    },
+    "i1-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-15",
+        "variant": "outline"
+      }
+    },
+    "i1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "~est. 1-5k followers, engagement-derived estimate · named gateway partner",
+        "variant": "muted"
+      }
+    },
+    "i1-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: amplified the 14-features post unprompted, framing usepod as an \"early integration\" with Aeon (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "i1-link": {
+      "type": "Link",
+      "props": {
+        "label": "Open X post",
+        "href": "https://x.com/UsePodAI/status/2094581400888377384"
+      }
+    },
+    "i1-draft": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Draft reply",
+        "text": "usepod routing is the point — five gateways on auto-fallback so a skill never dies mid-run because one provider hiccuped. early integration noted. more coming ⭐"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "i2-head",
+        "i2-meta",
+        "i2-what",
+        "i2-links",
+        "i2-draft"
+      ]
+    },
+    "i2-head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "i2-name",
+        "i2-type",
+        "i2-lev",
+        "i2-exp"
+      ]
+    },
+    "i2-name": {
+      "type": "Heading",
+      "props": {
+        "text": "@eyebrowCC",
+        "level": "h3"
+      }
+    },
+    "i2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "i2-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: high",
+        "variant": "default"
+      }
+    },
+    "i2-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-14",
+        "variant": "outline"
+      }
+    },
+    "i2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "named project — their gate has run in Aeon's CI since 08-04, #815; ~1 GH follower / 8★ repo, relationship leverage not audience",
+        "variant": "muted"
+      }
+    },
+    "i2-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: security vendor courting partnership — two unsolicited PRs open since 08-31 (gate bump v0.4.1→v0.4.2 #1002, MCP-server runtime hardening docs #1001) plus a public partnership post, 31 likes/8 rts; both PRs verified still open today (1 days ago)",
+        "variant": "body"
+      }
+    },
+    "i2-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "i2-link-x",
+        "i2-pr1",
+        "i2-pr2"
+      ]
+    },
+    "i2-link-x": {
+      "type": "Link",
+      "props": {
+        "label": "Open X post",
+        "href": "https://x.com/eyebrowCC/status/2094475852171956625"
+      }
+    },
+    "i2-pr1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #1001: MCP-server runtime hardening docs",
+        "href": "https://github.com/aeonfun/aeon/pull/1001",
+        "source": "github.com/aeonfun/aeon"
+      }
+    },
+    "i2-pr2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #1002: gate bump v0.4.1→v0.4.2",
+        "href": "https://github.com/aeonfun/aeon/pull/1002",
+        "source": "github.com/aeonfun/aeon"
+      }
+    },
+    "i2-draft": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Draft reply",
+        "text": "eyebrow's been gating our CI since august and now the v0.4.2 bump + mcp hardening docs land unprompted. both PRs get eyes this week. this is how a security vendor is supposed to show up ⭐"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "i3-head",
+        "i3-meta",
+        "i3-what",
+        "i3-link",
+        "i3-draft"
+      ]
+    },
+    "i3-head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "i3-name",
+        "i3-type",
+        "i3-lev",
+        "i3-exp"
+      ]
+    },
+    "i3-name": {
+      "type": "Heading",
+      "props": {
+        "text": "forumchen388-debug/aeon",
+        "level": "h3"
+      }
+    },
+    "i3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "secondary"
+      }
+    },
+    "i3-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low",
+        "variant": "outline"
+      }
+    },
+    "i3-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-14",
+        "variant": "outline"
+      }
+    },
+    "i3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "0 GH followers, repo 0★",
+        "variant": "muted"
+      }
+    },
+    "i3-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: fork created 08-31 15:45 UTC, first own commit 19 min later (\"enable selected crypto monitors\") — live-instance operator, verified 2 commits ahead today (1 days ago)",
+        "variant": "body"
+      }
+    },
+    "i3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "forumchen388-debug/aeon",
+        "href": "https://github.com/forumchen388-debug/aeon",
+        "source": "github.com"
+      }
+    },
+    "i3-draft": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Draft reply",
+        "text": "saw the fork go live — crypto monitors on within 19 minutes of forking. that's the intended flow: fork, pick skills, let the scheduler commit. if a skill fights you or you want eyes on your pack config, issues on aeonfun/aeon are open and get answered (often by an agent). curious what you're monitoring."
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "i4-head",
+        "i4-meta",
+        "i4-what",
+        "i4-link",
+        "i4-draft"
+      ]
+    },
+    "i4-head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "i4-name",
+        "i4-type",
+        "i4-lev",
+        "i4-exp"
+      ]
+    },
+    "i4-name": {
+      "type": "Heading",
+      "props": {
+        "text": "@adelbucetta",
+        "level": "h3"
+      }
+    },
+    "i4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "i4-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low",
+        "variant": "outline"
+      }
+    },
+    "i4-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-13",
+        "variant": "outline"
+      }
+    },
+    "i4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "0 likes / 0 rts on the question as-of 08-30 fetch",
+        "variant": "muted"
+      }
+    },
+    "i4-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: genuine skeptic question on the Aeon-vs-bot thread — echo-chamber risk in Aeon's self-review feedback loop; carried from 08-31's cap-cut with a \"recheck next run\" flag (2 days ago)",
+        "variant": "body"
+      }
+    },
+    "i4-link": {
+      "type": "Link",
+      "props": {
+        "label": "Open X post",
+        "href": "https://x.com/adelbucetta/status/2093662900393328966"
+      }
+    },
+    "i4-draft": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Draft reply",
+        "text": "fair concern. mitigations: every run leaves a public trace you can audit, and skill changes pass an external integrity gate before merge. still partly self-referential. but the audit trail is public — more than most autonomy stacks offer."
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rn-title",
+        "rn-dedup",
+        "rn-verify"
+      ]
+    },
+    "rn-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Run notes",
+        "level": "h4"
+      }
+    },
+    "rn-dedup": {
+      "type": "Text",
+      "props": {
+        "text": "dedup dropped CultOS 5d-overdue check-in (@thecultos acted 08-27, contract rule 1 — flagging for Aaron separately, not re-drafting), MiroShark PR #240 / dan-and 9d-awaiting-review (acted 08-23, operator-review item not a reply draft), agentskillshub.top stale-star correction (no contact channel, low fit, cap-cut 2 runs running), all 08-21→08-31 acted handles (31 in state).",
+        "variant": "caption"
+      }
+    },
+    "rn-verify": {
+      "type": "Text",
+      "props": {
+        "text": "GH follower/repo counts verified via gh api this run; X follower counts are engagement-derived estimates. No source misses; last successful run 2026-08-31.",
+        "variant": "caption"
+      }
+    }
+  }
+}
