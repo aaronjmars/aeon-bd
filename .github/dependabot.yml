@@ -52,7 +52,7 @@ updates:
         update-types: ["version-update:semver-major"]
       # eslint 10 crashes eslint-config-next's bundled eslint-plugin-react at
       # runtime (peer allows >=9 but the plugin throws). Hold on 9.x until
-      # eslint-config-next supports eslint 10.
+      # eslint-config-next supports eslint 10 (tracking as of 2026-09-01).
       - dependency-name: "eslint"
         update-types: ["version-update:semver-major"]
 
