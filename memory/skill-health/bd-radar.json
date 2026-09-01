@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-08-31T15:19:47Z",
+  "last_analyzed": "2026-09-01T07:45:42Z",
   "quality_score": 5,
-  "assessment": "Excellent BD sweep: specific, verifiable leads (commit c1dd3aa and modified log/output files confirm the run), live-probed claims with http codes, expiry-dated copy-ready moves, and tight strategy-aligned follow-ups — exactly the early-signal GTM work the operator asked for.",
+  "assessment": "Substantive, signal-first BD sweep: two new verified leads plus drive-by clearing with evidence, each with a concrete move/deadline/flip-condition; claims check out against the run's own artifacts (bd-radar-leads.json: 36 leads/36 surfaced, scores 12 and 9; digest file present and consistent), sources are accounted per-endpoint with honest negatives (X quiet, HN 0 new, one fetch failed), and the eyebrow contributor-vendor recontextualization plus punt-traceability shows real insight — tightly aligned to the operator's surface-signal-early priority; no hype, no financial advice, no unverifiable specifics.",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 4.13,
   "history": [
     {
       "date": "2026-08-21",
@@ -32,6 +32,10 @@
     },
     {
       "date": "2026-08-31",
+      "score": 5
+    },
+    {
+      "date": "2026-09-01",
       "score": 5
     }
   ]

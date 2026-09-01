@@ -56,3 +56,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-31,bd-radar,claude-sonnet-5,107001,25621,6734144,0
 2026-08-31,engagement-act,claude-sonnet-5,91746,14639,585984,0
 2026-09-01,aeon-update,claude-opus-4-8,76328,23418,2351424,0
+2026-09-01,bd-radar,claude-sonnet-5,204671,26734,1960192,0

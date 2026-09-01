@@ -339,6 +339,28 @@
       "score": 2,
       "date_found": "2026-08-31",
       "url": "https://agentskillshub.top/best/ai-agent-framework/"
+    },
+    {
+      "key": "github:alexverify/eyebrow",
+      "class": "integrating",
+      "who": "alexverify (eyebrow dev, @eyebrowCC on X)",
+      "signal": "eyebrow (Aeon's CI skill-integrity gate since 08-04 #815) deepening embed: PR #1002 bump gate v0.4.1->v0.4.2 + PR #1001 docs proposing 'eyebrow wrap' runtime hardening for the Aeon MCP server, both open 08-31; X partnership post 08-31 (31 likes/8 rts), punted to bd-radar by fetch-tweets; repo 8 stars pushed 09-01. Recontextualizes github:alexverify/aeon (their own instance)",
+      "fit": 3,
+      "score": 9,
+      "date_found": "2026-09-01",
+      "first_seen": "2026-09-01",
+      "url": "https://github.com/alexverify/eyebrow"
+    },
+    {
+      "key": "github:forumchen388-debug/aeon",
+      "class": "forking",
+      "who": "forumchen388-debug/aeon",
+      "signal": "Fork created 08-31 15:45 UTC, first own commit 19 min later ('chore: enable selected crypto monitors') - live-instance operator configuring crypto-monitor skills, same pattern as czijian729-oss",
+      "fit": 3,
+      "score": 12,
+      "date_found": "2026-09-01",
+      "first_seen": "2026-09-01",
+      "url": "https://github.com/forumchen388-debug/aeon"
     }
   ],
   "surfaced": [
@@ -375,6 +397,8 @@
     "github:amritmirch/aeon-skill-pack-farcaster",
     "github:Calcutatator/aeon-taskmarket-hooks",
     "github:keyurbodar/aeon",
-    "web:agentskillshub.top/best/ai-agent-framework"
+    "web:agentskillshub.top/best/ai-agent-framework",
+    "github:alexverify/eyebrow",
+    "github:forumchen388-debug/aeon"
   ]
 }

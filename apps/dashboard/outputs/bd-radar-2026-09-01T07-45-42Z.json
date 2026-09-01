@@ -1,0 +1,424 @@
+{
+  "root": "bd-radar-card",
+  "state": {},
+  "elements": {
+    "bd-radar-card": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar — 2026-09-01",
+        "description": "vs 08-31"
+      },
+      "children": [
+        "summary-grid",
+        "sep-1",
+        "new-leads-section",
+        "sep-2",
+        "carried-section",
+        "sep-3",
+        "run-log-section",
+        "sep-4",
+        "report-link"
+      ]
+    },
+    "summary-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-new",
+        "stat-open",
+        "stat-total"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New leads",
+        "value": "2",
+        "delta": "+2 vs 08-31",
+        "trend": "up"
+      }
+    },
+    "stat-open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still open",
+        "value": "34",
+        "trend": "neutral"
+      }
+    },
+    "stat-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total leads",
+        "value": "36",
+        "trend": "neutral"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "new-leads-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "new-leads-heading",
+        "lead-eyebrow",
+        "lead-forumchen"
+      ]
+    },
+    "new-leads-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "New Leads",
+        "level": "h3"
+      }
+    },
+    "lead-eyebrow": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eyebrow-badges",
+        "eyebrow-link",
+        "eyebrow-desc",
+        "eyebrow-move"
+      ]
+    },
+    "eyebrow-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-integrating",
+        "badge-eyebrow-new"
+      ]
+    },
+    "badge-integrating": {
+      "type": "Badge",
+      "props": {
+        "text": "integrating",
+        "variant": "default"
+      }
+    },
+    "badge-eyebrow-new": {
+      "type": "Badge",
+      "props": {
+        "text": "first seen 09-01",
+        "variant": "outline"
+      }
+    },
+    "eyebrow-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github:alexverify/eyebrow",
+        "href": "https://github.com/alexverify/eyebrow",
+        "source": "GitHub"
+      }
+    },
+    "eyebrow-desc": {
+      "type": "Text",
+      "props": {
+        "variant": "body",
+        "text": "eyebrow — already Aeon's CI skill-integrity gate since 08-04 (#815) — is deepening its embed: PR #1002 (SHA-pinned gate bump v0.4.1 -> v0.4.2, verified locally) + PR #1001 (docs proposing \"eyebrow wrap\" runtime hardening for the Aeon MCP server: per-tool policy, redacted audit log, OS sandbox), both opened 08-31; @eyebrowCC courted partnership on X 08-31 (31 likes / 8 rts) — fetch-tweets punted it here today, unactioned"
+      }
+    },
+    "eyebrow-move": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Move — by 09-05",
+        "message": "Merge #1002, review #1001, then open the partner thread — eyebrow is load-bearing in the supply chain and a \"verified skills\" beat fits the security thesis — before they pitch the same wedge to openclaw/hermes. Flips if: both PRs sit unanswered past 09-07."
+      }
+    },
+    "lead-forumchen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "forumchen-badges",
+        "forumchen-link",
+        "forumchen-desc",
+        "forumchen-move"
+      ]
+    },
+    "forumchen-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-forking",
+        "badge-forumchen-new"
+      ]
+    },
+    "badge-forking": {
+      "type": "Badge",
+      "props": {
+        "text": "forking",
+        "variant": "default"
+      }
+    },
+    "badge-forumchen-new": {
+      "type": "Badge",
+      "props": {
+        "text": "first seen 09-01",
+        "variant": "outline"
+      }
+    },
+    "forumchen-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github:forumchen388-debug/aeon",
+        "href": "https://github.com/forumchen388-debug/aeon",
+        "source": "GitHub"
+      }
+    },
+    "forumchen-desc": {
+      "type": "Text",
+      "props": {
+        "variant": "body",
+        "text": "Fork created 08-31 15:45 UTC, first own commit 19 min later (\"chore: enable selected crypto monitors\") — live-instance operator configuring crypto monitors, same pattern as czijian729-oss"
+      }
+    },
+    "forumchen-move": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Move — by 09-08",
+        "message": "Read their public run traces, light DM asking what they're monitoring. Flips if: no push in 7d (cron auto-commits don't count)."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "carried-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "carried-heading",
+        "carried-cultos",
+        "carried-miroshark",
+        "carried-sparkleware"
+      ]
+    },
+    "carried-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Carried — 34 live, top 3",
+        "level": "h3"
+      }
+    },
+    "carried-cultos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cultos-link",
+        "cultos-desc",
+        "badge-cultos-overdue"
+      ]
+    },
+    "cultos-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "x:thecultos + github:cultosdev/aeon",
+        "href": "https://github.com/cultosdev/aeon",
+        "source": "carried since 08-27"
+      }
+    },
+    "cultos-desc": {
+      "type": "Text",
+      "props": {
+        "variant": "body",
+        "text": "DOGMA audit registry live (cultosagent/dogma-registry, updated 08-31) + \"powered by an Aeon framework skill\" post 08-31"
+      }
+    },
+    "badge-cultos-overdue": {
+      "type": "Badge",
+      "props": {
+        "text": "check-in 5d overdue",
+        "variant": "destructive"
+      }
+    },
+    "carried-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-link",
+        "miroshark-desc",
+        "badge-miroshark-wait"
+      ]
+    },
+    "miroshark-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github-issue:MiroShark/MiroShark#240",
+        "href": "https://github.com/MiroShark/MiroShark/issues/240",
+        "source": "carried since 08-23"
+      }
+    },
+    "miroshark-desc": {
+      "type": "Text",
+      "props": {
+        "variant": "body",
+        "text": "dan-and's offline-hf-cache branch awaiting review"
+      }
+    },
+    "badge-miroshark-wait": {
+      "type": "Badge",
+      "props": {
+        "text": "awaiting review 9d",
+        "variant": "outline"
+      }
+    },
+    "carried-sparkleware": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sparkleware-head",
+        "sparkleware-desc"
+      ]
+    },
+    "sparkleware-head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-sparkleware",
+        "badge-sparkleware-date"
+      ]
+    },
+    "badge-sparkleware": {
+      "type": "Badge",
+      "props": {
+        "text": "sparkleware",
+        "variant": "secondary"
+      }
+    },
+    "badge-sparkleware-date": {
+      "type": "Badge",
+      "props": {
+        "text": "carried since 08-25",
+        "variant": "outline"
+      }
+    },
+    "sparkleware-desc": {
+      "type": "Text",
+      "props": {
+        "variant": "body",
+        "text": "Registry pushed 08-31, still absent from the official catalog"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run-log-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run-log-heading",
+        "run-log-table"
+      ]
+    },
+    "run-log-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Log",
+        "level": "h3"
+      }
+    },
+    "run-log-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Source",
+          "Status",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "github-forks-issues",
+            "hit 4/4",
+            "default-token gh api; GH_READ_PAT unset = normal single-key setup"
+          ],
+          [
+            "gh-search",
+            "hit",
+            "—"
+          ],
+          [
+            "x",
+            "hit",
+            "xAI x_search http 200, window 08-29 -> 09-01, 1 relevant post: known CultOS"
+          ],
+          [
+            "hn",
+            "hit",
+            "0 new; Miroshark absent from HN"
+          ],
+          [
+            "reddit/web",
+            "hit",
+            "0 new; towardsai piece 2026-04-12 + blocmates 2026-05-22 stale; r/Bankr_Bot MiroShark post undated — likely known-partner recap"
+          ],
+          [
+            "cleared as drive-bys",
+            "—",
+            "thanhdat3007-create/aeon + AwesomeAgentTools/aeon (0 ahead); amritmirch/aeon (31 \"ahead\" = all cron-state auto-commits); luis212/NovaShoal (keyword-stuffing, stays dropped)"
+          ]
+        ]
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "report-link": {
+      "type": "Link",
+      "props": {
+        "label": "Full report — output/articles/bd-radar-2026-09-01.md",
+        "href": "https://github.com/aaronjmars/aeon-bd/blob/main/output/articles/bd-radar-2026-09-01.md"
+      }
+    }
+  }
+}

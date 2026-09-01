@@ -1,13 +1,16 @@
-*BD Radar — 2026-08-31*
-vs 08-29 — 3 new · 31 still-open · 0 dropped · 34 leads
+ℹ️ BD Radar - 2026-09-01
 
-**building** `Calcutatator/aeon-taskmarket-hooks` (first seen 08-31): two production-grade Aeon skills for TaskMarket V1 hook deploys — dry-run default, `arm:` gate, pinned Foundry, gas + Diamond lifecycle checks. Same owner runs a **live standalone Aeon instance** whose create-skill wrote both autonomously on 08-24; scheduler still committing today.
-  move: DM — invite into the catalog + a community-call slot. they built the exact security posture we'd have asked for. — expires 09-07, before TaskMarket V1 merges and their tooling gets pinned to someone else's flow
+*BD Radar - 2026-09-01*
+vs 08-31 - 2 new - 34 still-open - 36 leads total
 
-**building** `x:thecultos` (first seen 08-27, escalating): **DOGMA is live** — paid x402 PR audits at 0.20 USDC on Base. Audited `expressjs/express#7430` and `anthropics/skills#1690` *today*, plus `aeonfun/aeon#986` twice on 08-30. Every audit carries an onchain receipt + public verdict. This is Aeon skills charging real money in production.
-  move: quote it in the next launch thread — strongest ecosystem proof point we have — then check in on the affiliate angle. — expires 09-04, they ship daily
+integrating github:alexverify/eyebrow (first seen 09-01): eyebrow - already Aeon's CI skill-integrity gate since 08-04 (#815) - is deepening its embed: PR #1002 (SHA-pinned gate bump v0.4.1 -> v0.4.2, verified locally) + PR #1001 (docs proposing "eyebrow wrap" runtime hardening for the Aeon MCP server: per-tool policy, redacted audit log, OS sandbox), both opened 08-31; @eyebrowCC courted partnership on X 08-31 (31 likes / 8 rts) - fetch-tweets punted it here today, unactioned
+  move: merge #1002, review #1001, then open the partner thread - eyebrow is load-bearing in the supply chain and a "verified skills" beat fits the security thesis - by 09-05, before they pitch the same wedge to openclaw/hermes; flips if: both PRs sit unanswered past 09-07
 
-**forking** `keyurbodar/aeon` (first seen 08-31): 0 commits on main but 3 real fix branches — chain-dispatch correlation, dashboard origin checks, reject-invalid-harness-output across harness-adapter + api-gate. Owner ships agent-memory infra (Sibyl-Memory).
-  move: this is a contributor not a user — reply to the branch work, offer to take the api-gate hardening upstream. — flips if: branches deleted or stale 7d
+forking github:forumchen388-debug/aeon (first seen 09-01): fork created 08-31 15:45 UTC, first own commit 19 min later ("chore: enable selected crypto monitors") - live-instance operator configuring crypto monitors, same pattern as czijian729-oss
+  move: read their public run traces, light DM asking what they're monitoring - by 09-08; flips if: no push in 7d (cron auto-commits don't count)
 
-run: github-forks-issues 4/4 repos (default token, cross-repo clean) · gh-search · x x_search http 200 · WebSearch + HN (7d, zero hits) · live probe cultos.dev http 200 · no source misses
+carried (34 live, top 3): x:thecultos+github:cultosdev/aeon (08-27) - DOGMA audit registry live (cultosagent/dogma-registry, updated 08-31) + "powered by an Aeon framework skill" post 08-31, check-in now 5d overdue; github-issue:MiroShark/MiroShark#240 (08-23) - dan-and's offline-hf-cache branch awaiting review 9d; sparkleware (08-25) - registry pushed 08-31, still absent from the official catalog
+
+run: github-forks-issues 4/4 hit (default-token gh api; GH_READ_PAT unset = normal single-key setup) - gh-search hit - x hit (xAI x_search http 200, window 08-29->09-01, 1 relevant post: known CultOS) - hn hit (0 new; Miroshark absent from HN) - reddit/web hit (0 new; towardsai piece 2026-04-12 + blocmates 2026-05-22 stale, r/Bankr_Bot MiroShark post undated - likely known-partner recap) - cleared as drive-bys: thanhdat3007-create/aeon + AwesomeAgentTools/aeon (0 ahead), amritmirch/aeon (31 "ahead" = all cron-state auto-commits), luis212/NovaShoal (keyword-stuffing, stays dropped)
+
+🔗 https://github.com/aaronjmars/aeon-bd/blob/main/output/articles/bd-radar-2026-09-01.md
