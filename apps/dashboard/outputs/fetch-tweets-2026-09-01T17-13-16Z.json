@@ -1,0 +1,234 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — aeonframework / miroshark",
+        "description": "2026-09-01, second pass"
+      },
+      "children": [
+        "callout",
+        "sep1",
+        "h-listed",
+        "t1",
+        "t2",
+        "sep2",
+        "h-outsiders",
+        "t3",
+        "t4"
+      ]
+    },
+    "callout": {
+      "type": "Alert",
+      "props": {
+        "title": "Quiet window",
+        "message": "The fresh signal is third parties cataloging Aeon (Base watchlist, CultOS x402 relay) while token-side spaces recycle the unverified enterprise claim.",
+        "type": "info"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h-listed": {
+      "type": "Heading",
+      "props": {
+        "text": "Listed by third parties",
+        "level": "h2"
+      }
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tc1",
+        "t1-meta",
+        "t1-comment",
+        "t1-link"
+      ]
+    },
+    "tc1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "BaseHubHB",
+        "handle": "@BaseHubHB",
+        "text": "Weekly \"Top Base Projects\" watchlist leads with Aeon, pitched on \"security agents filing private advisories and fix PRs\" — its 700+⭐ figure verified live (712⭐ / 253 forks).",
+        "likes": 7,
+        "retweets": 0
+      }
+    },
+    "t1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "muted"
+      }
+    },
+    "t1-comment": {
+      "type": "Text",
+      "props": {
+        "text": "Third-party curation now leads with the security proof, not the framework pitch.",
+        "variant": "caption"
+      }
+    },
+    "t1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/BaseHubHB/status/2094825393308287145"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tc2",
+        "t2-meta",
+        "t2-badge",
+        "t2-comment",
+        "t2-link"
+      ]
+    },
+    "tc2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "@thecultos",
+        "text": "CultOS's x402 relay now catalogs Aeon beside p0 / Otto / minifetch as hireable dev services through one interface; self-serve listings \"soon.\"",
+        "likes": 2,
+        "retweets": 0
+      }
+    },
+    "t2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "muted"
+      }
+    },
+    "t2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BD lead of the day",
+        "variant": "default"
+      }
+    },
+    "t2-comment": {
+      "type": "Text",
+      "props": {
+        "text": "The \"we choose Aeon\" partner is formalizing distribution — worth a DM on listing details (BD lead of the day).",
+        "variant": "caption"
+      }
+    },
+    "t2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2094818413222690830"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h-outsiders": {
+      "type": "Heading",
+      "props": {
+        "text": "How outsiders tell it",
+        "level": "h2"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tc3",
+        "t3-meta",
+        "t3-badge",
+        "t3-link"
+      ]
+    },
+    "tc3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bigironchris",
+        "handle": "@bigironchris",
+        "text": "Token-side space recap (\"AEON SPACE RECAP\") pitches \"secured bugs for 3 of the world's largest companies\" (Google/SpaceX/Alibaba) + token details — the same unverified company claim flagged 08-23, now circulating in crypto coverage unprompted.",
+        "likes": 7,
+        "retweets": 2
+      }
+    },
+    "t3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "muted"
+      }
+    },
+    "t3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "unverified claim",
+        "variant": "outline"
+      }
+    },
+    "t3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bigironchris/status/2094812652216135922"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tc4",
+        "t4-meta",
+        "t4-link"
+      ]
+    },
+    "tc4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "daril_yovani",
+        "handle": "@daril_yovani",
+        "text": "Sharpest framing of the window, from a 0-engagement account: turn-by-turn → autonomous bug fixing is the line; prove it on messy repos and \"agentic coding starts looking like infrastructure, not a chat feature.\"",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "t4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "muted"
+      }
+    },
+    "t4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/daril_yovani/status/2094813090151911725"
+      }
+    }
+  }
+}
