@@ -1,9 +1,11 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-08-30T17:51:10Z",
+  "last_analyzed": "2026-09-01T01:20:23Z",
   "quality_score": 4,
-  "assessment": "Substantive, strategically sound, actionable drafts with real sources—well-executed against the operator's priorities (BD signal, timing the window, honest reads), though verifiability depends on Aaron clicking the X links provided.",
-  "flags": [],
+  "assessment": "Substantive, strategy-aligned promo run with specific drafts, disclosed provenance, honest framing, and verifiable file changes (corroborated by repo state); only knock is that it's built on 2-4-day-old committed social data rather than a live read, which the run transparently discloses and bounds with an expiry date.",
+  "flags": [
+    "stale_data"
+  ],
   "avg_score": 3.92,
   "history": [
     {
@@ -52,6 +54,10 @@
     },
     {
       "date": "2026-08-30",
+      "score": 4
+    },
+    {
+      "date": "2026-09-01",
       "score": 4
     }
   ]

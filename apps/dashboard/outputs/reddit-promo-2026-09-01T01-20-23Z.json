@@ -1,0 +1,639 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-09-01"
+      },
+      "children": [
+        "metaGrid",
+        "sep1",
+        "storySection",
+        "sep2",
+        "d1",
+        "sep3",
+        "d2",
+        "sep4",
+        "d3",
+        "sep5",
+        "footerSection"
+      ]
+    },
+    "metaGrid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "sm"
+      },
+      "children": [
+        "statLast",
+        "statSubs",
+        "statNew",
+        "statFresh"
+      ]
+    },
+    "statLast": {
+      "type": "Stat",
+      "props": {
+        "label": "since last promo",
+        "value": "2d",
+        "trend": "neutral"
+      }
+    },
+    "statSubs": {
+      "type": "Stat",
+      "props": {
+        "label": "subs drafted",
+        "value": "3",
+        "trend": "neutral"
+      }
+    },
+    "statNew": {
+      "type": "Stat",
+      "props": {
+        "label": "new story promoted (vs 08-30 run)",
+        "value": "1",
+        "trend": "up"
+      }
+    },
+    "statFresh": {
+      "type": "Stat",
+      "props": {
+        "label": "fresh URLs carried (vs 08-30 run)",
+        "value": "6",
+        "trend": "neutral"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "storySection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storyHeading",
+        "storyTweet",
+        "storyLink"
+      ]
+    },
+    "storyHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "storyTweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "@aaronjmars",
+        "text": "Miroshark shipped x402aff — one line makes any x402 endpoint affiliate-ready, payouts locked onchain; 👀 from Base's Jesse Pollak + 100k agent actions crossed the same week"
+      }
+    },
+    "storyLink": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/aaronjmars/status/2093053679259599283"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "d1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d1head",
+        "d1title",
+        "d1p1",
+        "d1p2",
+        "d1p3",
+        "d1p4",
+        "d1repoRow",
+        "d1p5",
+        "d1linkRow",
+        "d1composerRow",
+        "d1notes"
+      ]
+    },
+    "d1head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1sub",
+        "d1arch"
+      ]
+    },
+    "d1sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/MiroFish",
+        "level": "h3"
+      }
+    },
+    "d1arch": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: community",
+        "variant": "secondary"
+      }
+    },
+    "d1title": {
+      "type": "Heading",
+      "props": {
+        "text": "x402aff shipped - any x402 endpoint goes affiliate-ready in one line, payouts locked onchain",
+        "level": "h4"
+      }
+    },
+    "d1p1": {
+      "type": "Text",
+      "props": {
+        "text": "Quick update from my side (I built Miroshark): we shipped x402aff this week.",
+        "variant": "body"
+      }
+    },
+    "d1p2": {
+      "type": "Text",
+      "props": {
+        "text": "It's an affiliate layer for x402 endpoints. One line and your endpoint is affiliate-ready - anyone can join permissionlessly, payouts settle onchain on Base, 10% of each paid call routes to the affiliate. No dashboard account, no API-key middleman. It's Miroshark's first monetization-infra piece: the sim doesn't just simulate an agent economy anymore, it runs on one. 🦈",
+        "variant": "body"
+      }
+    },
+    "d1p3": {
+      "type": "Text",
+      "props": {
+        "text": "Two receipts from the same week, since this community likes them: Miroshark crossed 100k agent actions (first public usage-scale number - the output is useful synthetic data we're feeding back into the sim model), and Jesse Pollak left a 👀 on the launch thread. An emoji is not an endorsement, but Base watching agent-payment infra is the right kind of noise.",
+        "variant": "body"
+      }
+    },
+    "d1p4": {
+      "type": "Text",
+      "props": {
+        "text": "Honest framing, because I said this on X too: I don't expect x402aff to make a ton of noise on CT. It's an infra bet - agents paying agents needs rails before it needs marketing.",
+        "variant": "body"
+      }
+    },
+    "d1repoRow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1repoLabel",
+        "d1repoLink"
+      ]
+    },
+    "d1repoLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Repo:",
+        "variant": "body"
+      }
+    },
+    "d1repoLink": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/miroshark/miroshark",
+        "href": "https://github.com/miroshark/miroshark"
+      }
+    },
+    "d1p5": {
+      "type": "Text",
+      "props": {
+        "text": "- the x402aff dashboard is linked from the README if you want to wire an endpoint in. Questions welcome, I'll be in the thread.",
+        "variant": "body"
+      }
+    },
+    "d1linkRow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1linkLabel",
+        "d1linkInPost"
+      ]
+    },
+    "d1linkLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "muted"
+      }
+    },
+    "d1linkInPost": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/miroshark/miroshark",
+        "href": "https://github.com/miroshark/miroshark"
+      }
+    },
+    "d1composerRow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1composerLabel",
+        "d1composerLink"
+      ]
+    },
+    "d1composerLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Post here:",
+        "variant": "body"
+      }
+    },
+    "d1composerLink": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/MiroFish composer",
+        "href": "https://www.reddit.com/r/MiroFish/submit?title=x402aff%20shipped%20-%20any%20x402%20endpoint%20goes%20affiliate-ready%20in%20one%20line%2C%20payouts%20locked%20onchain"
+      }
+    },
+    "d1notes": {
+      "type": "Text",
+      "props": {
+        "text": "notes: home-community sub, insider tone is fine but still post as the builder (\"I built this\") - never anonymously. It's an update, not an ad; skip any marketing-speak if you edit.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "d2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d2head",
+        "d2title",
+        "d2p1",
+        "d2p2",
+        "d2p3",
+        "d2p4a",
+        "d2p4link",
+        "d2p4b",
+        "d2linkRow",
+        "d2composerRow",
+        "d2notes"
+      ]
+    },
+    "d2head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d2sub",
+        "d2arch"
+      ]
+    },
+    "d2sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/Agent_AI",
+        "level": "h3"
+      }
+    },
+    "d2arch": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: agents",
+        "variant": "secondary"
+      }
+    },
+    "d2title": {
+      "type": "Heading",
+      "props": {
+        "text": "Agents that pay and get paid - we shipped an onchain affiliate rail for x402 endpoints",
+        "level": "h4"
+      }
+    },
+    "d2p1": {
+      "type": "Text",
+      "props": {
+        "text": "I build Aeon (autonomous agent framework, runs unattended on GitHub Actions) and Miroshark (a swarm-simulation engine - hundreds of grounded agents argue on X/Reddit and trade a simulated AMM). This week Miroshark shipped the piece I think agent-framework people should actually look at: x402aff.",
+        "variant": "body"
+      }
+    },
+    "d2p2": {
+      "type": "Text",
+      "props": {
+        "text": "It's an affiliate layer for x402, the HTTP-native micropayment standard. Any x402 endpoint goes affiliate-ready in one line - permissionless join, payout locked onchain on Base, 10% of each paid call routes to whoever drove the adoption. The shift that matters for agents: an agent consuming a paid endpoint can now also be its distribution, and get settled onchain without an account anywhere. Autonomy plus an income path.",
+        "variant": "body"
+      }
+    },
+    "d2p3": {
+      "type": "Text",
+      "props": {
+        "text": "Why believe the usage is real: Miroshark crossed 100k agent actions the same week (first public usage-scale number), and the launch got a 👀 from Jesse Pollak at Base. An emoji is not a partnership, but the agent-economy infra layer is being watched.",
+        "variant": "body"
+      }
+    },
+    "d2p4a": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon is the autonomy half of the stack - skills as markdown, cron, chains, self-repair, public traces:",
+        "variant": "body"
+      }
+    },
+    "d2p4link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d2p4b": {
+      "type": "Text",
+      "props": {
+        "text": "Happy to go deeper on either side - the affiliate mechanic in practice, or how the sim feeds its own output back in.",
+        "variant": "body"
+      }
+    },
+    "d2linkRow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d2linkLabel",
+        "d2linkInPost"
+      ]
+    },
+    "d2linkLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "muted"
+      }
+    },
+    "d2linkInPost": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d2composerRow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d2composerLabel",
+        "d2composerLink"
+      ]
+    },
+    "d2composerLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Post here:",
+        "variant": "body"
+      }
+    },
+    "d2composerLink": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Agent_AI composer",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=Agents%20that%20pay%20and%20get%20paid%20-%20we%20shipped%20an%20onchain%20affiliate%20rail%20for%20x402%20endpoints"
+      }
+    },
+    "d2notes": {
+      "type": "Text",
+      "props": {
+        "text": "notes: post as the builder - the body already discloses \"I build Aeon/Miroshark,\" keep that in. Respect the 9:1 self-promo ratio - don't make this your only activity in the sub. Check for required flair before posting.",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "d3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d3head",
+        "d3title",
+        "d3p1",
+        "d3p2",
+        "d3p3",
+        "d3p4a",
+        "d3p4link",
+        "d3p4b",
+        "d3linkRow",
+        "d3composerRow",
+        "d3notes"
+      ]
+    },
+    "d3head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d3sub",
+        "d3arch"
+      ]
+    },
+    "d3sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/aiecosystem",
+        "level": "h3"
+      }
+    },
+    "d3arch": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: agents",
+        "variant": "secondary"
+      }
+    },
+    "d3title": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark crossed 100k agent actions and shipped an onchain affiliate layer for x402",
+        "level": "h4"
+      }
+    },
+    "d3p1": {
+      "type": "Text",
+      "props": {
+        "text": "Data point for anyone tracking whether agent payments are actually compounding: this week our swarm-simulation engine Miroshark crossed 100k agent actions - first public usage-scale number - and shipped x402aff, an affiliate layer for x402 endpoints.",
+        "variant": "body"
+      }
+    },
+    "d3p2": {
+      "type": "Text",
+      "props": {
+        "text": "The mechanic: any x402 endpoint (HTTP-native micropayments - no API key, no account) goes affiliate-ready in one line. Join is permissionless, the payout is locked onchain on Base, and 10% of each paid call routes to the affiliate that drove it. The engine itself - hundreds of grounded agents arguing on simulated X/Reddit and trading a simulated AMM - now sits on a rail where agents around it can earn from adoption, onchain.",
+        "variant": "body"
+      }
+    },
+    "d3p3": {
+      "type": "Text",
+      "props": {
+        "text": "Signal check, honestly framed: a 👀 from Base's Jesse Pollak on the launch thread (an emoji, not a partnership), and the sim's own 100k-action number is the traction beat. Small numbers, real direction: sims as infrastructure, agents as economic actors.",
+        "variant": "body"
+      }
+    },
+    "d3p4a": {
+      "type": "Text",
+      "props": {
+        "text": "The stack is Aeon (autonomous agent framework) + Miroshark (simulation layer) - overview at",
+        "variant": "body"
+      }
+    },
+    "d3p4link": {
+      "type": "Link",
+      "props": {
+        "label": "aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "d3p4b": {
+      "type": "Text",
+      "props": {
+        "text": "Ask me anything about the x402 affiliate mechanics or the sim design.",
+        "variant": "body"
+      }
+    },
+    "d3linkRow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d3linkLabel",
+        "d3linkInPost"
+      ]
+    },
+    "d3linkLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "muted"
+      }
+    },
+    "d3linkInPost": {
+      "type": "Link",
+      "props": {
+        "label": "aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "d3composerRow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d3composerLabel",
+        "d3composerLink"
+      ]
+    },
+    "d3composerLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Post here:",
+        "variant": "body"
+      }
+    },
+    "d3composerLink": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=Miroshark%20crossed%20100k%20agent%20actions%20and%20shipped%20an%20onchain%20affiliate%20layer%20for%20x402"
+      }
+    },
+    "d3notes": {
+      "type": "Text",
+      "props": {
+        "text": "notes: disclosure is baked into the body (\"we/our\"), keep it. Discussion-first sub - self-promo survives only when the body stands alone without the link, which this does. Use any required flair; watch the 9:1 ratio here, it's the strictest of the three.",
+        "variant": "caption"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footerSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "expiryAlert",
+        "footerMeta",
+        "footerRun"
+      ]
+    },
+    "expiryAlert": {
+      "type": "Alert",
+      "props": {
+        "title": "Expires 2026-09-07",
+        "message": "Story is 4d old; past the 10-day promo window after that - if these don't go out this week, drop them",
+        "type": "warning"
+      }
+    },
+    "footerMeta": {
+      "type": "Text",
+      "props": {
+        "text": "likes/retweets as-of the 08-28 and 08-30 fetch-tweets runs · never auto-posts - the operator reviews and posts",
+        "variant": "muted"
+      }
+    },
+    "footerRun": {
+      "type": "Text",
+      "props": {
+        "text": "run: source = committed fetch-tweets output only (08-28 + 08-30 json/logs; no fetch-tweets ran 08-31 - API-incident day - so nothing newer exists); no X API called; held back: official \"Aeon vs bot\" comparison thread + cost-pitch reply (vendor-vs-vendor framing risk, standing call since 08-25); left fresh for a future run: Locus integration post, x402aff CTA tweet, svector_eth daily-driver testimonial (6 packs / 27 of 80 skills), Truunik builder-stack mention, akathesmith thecultos-on-Aeon; seen-file + logs updated",
+        "variant": "muted"
+      }
+    }
+  }
+}
