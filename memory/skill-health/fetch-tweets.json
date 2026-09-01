@@ -1,10 +1,10 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-08-30T17:08:45Z",
-  "quality_score": 4,
-  "assessment": "Substantive BD intelligence output—surfaces live builder activity, product launches, and narrative themes aligned to strategy; verifiable method and structure, though engagement copy and explicit action priorities are implicit rather than explicit.",
+  "last_analyzed": "2026-09-01T01:19:03Z",
+  "quality_score": 5,
+  "assessment": "Substantive, well-clustered tweet digest with engagement metrics and source path (x_search API, http=200); tweet-ID snowflake timestamps are internally consistent with the claimed 08-30→09-01 window, and the cited commit (948fc11) plus modified files match actual repo state — verifiable, strategy-aligned (fresh eyebrowCC BD lead flagged, reusable framing surfaced, shill tweet demoted with rationale), and actionable.",
   "flags": [],
-  "avg_score": 3.82,
+  "avg_score": 3.92,
   "history": [
     {
       "date": "2026-08-20",
@@ -49,6 +49,10 @@
     {
       "date": "2026-08-30",
       "score": 4
+    },
+    {
+      "date": "2026-09-01",
+      "score": 5
     }
   ]
 }

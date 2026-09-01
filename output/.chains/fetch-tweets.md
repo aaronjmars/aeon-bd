@@ -1,36 +1,30 @@
-ℹ️ Top Tweets — Aeon/Miroshark
+*Top Tweets — aeonframework + miroshark watch (2026-09-01)*
+_Ecosystem-owned window — third parties (eyebrow, CultOS, UsePod) did more of the talking than the team, and the new-engineer hire was the loudest post on the timeline (94 likes, 31 replies)._
 
-*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-08-30)*
-_Comparison narrative dominates — Aeon-vs-"bot" drew both a cost pitch and a skeptic; WebMCP's ChatGPT/Codex launch is the day's single biggest spike._
+*Team growth*
+1. x.com/svector_eth — hire announcement that doubles as ecosystem validation: skopos / elizaOS / x402 background, contributor-to-core pipeline, "aeon stopped being an experiment and became something i ran every day." 31 replies = biggest Aeon-adjacent conversation of the window.
+Likes: 94 | RTs: 6 | Replies: 31
+[View tweet](https://x.com/svector_eth/status/2094438405006409888)
 
-*Cross-product build in the wild*
-1. x.com/Amrit_Mirch — Ran an 18-agent Miroshark debate (would Google rename Lake Ontario to "Lake America"?) and made the recap video with Aeon's Higgsfield skill — a genuine cross-product workflow from an outside builder, not the team.
-Likes: 9 | RTs: 3 | Replies: 3
-[View tweet](https://x.com/Amrit_Mirch/status/2093609622263472133)
+*Third parties landing on the framework*
+2. x.com/eyebrowCC — security vendor courting the partnership through the contribution channel: two unsolicited PRs to aeonframework (supply-chain integrity gate bumped to eyebrow v0.4.2 + MCP-server runtime hardening docs). Courtship in public, receipts included.
+Likes: 31 | RTs: 8 | Replies: 5
+[View tweet](https://x.com/eyebrowCC/status/2094475852171956625)
 
-*WebMCP ships*
-2. x.com/aaronjmars — WebMCP is live: launch Miroshark sims and stand up an Aeon instance directly from ChatGPT desktop and Codex — the day's highest-engagement post, an official capability drop, not a teaser.
-Likes: 41 | RTs: 7 | Replies: 4
-[View tweet](https://x.com/aaronjmars/status/2093724185994346542)
+3. x.com/thecultos — stamps "powered by an Aeon framework skill ⭐" on the paid $CULTOS x402 PR-review service. The "we choose Aeon" pledge is now printed on a revenue product.
+Likes: 4 | RTs: 1 | Replies: 1
+[View tweet](https://x.com/thecultos/status/2094563917250912269)
 
-*"Aeon vs bot" comparison narrative*
-3. x.com/aeonframework — Official account posted a head-to-head comparing Aeon to competitor "bot," with the article linked in the replies — the anchor tweet driving the day's reactions.
-Likes: 29 | RTs: 4 | Replies: 5
-[View tweet](https://x.com/aeonframework/status/2093590019793469485)
+*Autonomous security in public*
+4. x.com/aeonframework — vuln-scanner outreach running in the open: flagged an issue in synthetic-sciences/openscience, private advisory + fix PR filed, feedback requested by public reply. BD by scanner.
+Likes: 32 | RTs: 4 | Replies: 0
+[View tweet](https://x.com/aeonframework/status/2094047486222442924)
 
-4. x.com/0xLiamVisionary — Argues Aeon covers the same ground as the paid "bot" product (~$300/mo) while being open-source and usable anywhere — first to frame it as a direct cost-displacement pitch.
-Likes: 3 | RTs: 0 | Replies: 2
-[View tweet](https://x.com/0xLiamVisionary/status/2093595280474018139)
+*Shipping the story*
+5. x.com/aaronjmars — 14-features list leads with score-gated chains (quality as control flow — nobody else in the category has it) and the soul gallery; strongest reusable framing for outreach.
+Likes: 23 | RTs: 6 | Replies: 2
+[View tweet](https://x.com/aaronjmars/status/2094154269565800866)
 
-5. x.com/adelbucetta — Calls Aeon "more production-ready" than bot but presses on how it avoids an echo-chamber effect in its feedback loop — the one technical pushback in the thread.
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/adelbucetta/status/2093662900393328966)
-
-*Builder stack mentions*
-6. x.com/Truunik — Lists Aeon alongside other open builder tools (normiesART, xerberus) as an "on-chain AI library" worth vibe-coding from — plus a pointed IP-caution note before commercializing a fork.
-Likes: 11 | RTs: 2 | Replies: 2
-[View tweet](https://x.com/Truunik/status/2093759834751422862)
-
-7. x.com/akathesmith — Says Aeon is "already fixing @Google issues" and is building thecultos features directly on top of it — a concrete build-on-Aeon claim, not just praise.
-Likes: 5 | RTs: 3 | Replies: 0
-[View tweet](https://x.com/akathesmith/status/2093836995894161907)
+6. x.com/UsePodAI — gateway partner amplifies the features post as one of its "earlier integrations" — the gateway cascade pulling partner distribution for free.
+Likes: 3 | RTs: 2 | Replies: 0
+[View tweet](https://x.com/UsePodAI/status/2094581400888377384)

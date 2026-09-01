@@ -1,0 +1,390 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — aeonframework + miroshark watch (2026-09-01)",
+        "description": "Ecosystem-owned window — third parties (eyebrow, CultOS, UsePod) did more of the talking than the team, and the new-engineer hire was the loudest post on the timeline (94 likes, 31 replies)."
+      },
+      "children": [
+        "sec-team",
+        "sep-1",
+        "sec-third",
+        "sep-2",
+        "sec-security",
+        "sep-3",
+        "sec-story"
+      ]
+    },
+    "sec-team": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-team",
+        "t1"
+      ]
+    },
+    "h-team": {
+      "type": "Heading",
+      "props": {
+        "text": "Team growth",
+        "level": "h3"
+      }
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-tweet",
+        "t1-badges",
+        "t1-link"
+      ]
+    },
+    "t1-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "svector_eth",
+        "handle": "@svector_eth",
+        "text": "hire announcement that doubles as ecosystem validation: skopos / elizaOS / x402 background, contributor-to-core pipeline, \"aeon stopped being an experiment and became something i ran every day.\" 31 replies = biggest Aeon-adjacent conversation of the window.",
+        "likes": 94,
+        "retweets": 6
+      }
+    },
+    "t1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-replies"
+      ]
+    },
+    "t1-replies": {
+      "type": "Badge",
+      "props": {
+        "text": "31 replies",
+        "variant": "secondary"
+      }
+    },
+    "t1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/svector_eth/status/2094438405006409888"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sec-third": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-third",
+        "t2",
+        "t3"
+      ]
+    },
+    "h-third": {
+      "type": "Heading",
+      "props": {
+        "text": "Third parties landing on the framework",
+        "level": "h3"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-tweet",
+        "t2-badges",
+        "t2-link"
+      ]
+    },
+    "t2-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "eyebrowCC",
+        "handle": "@eyebrowCC",
+        "text": "security vendor courting the partnership through the contribution channel: two unsolicited PRs to aeonframework (supply-chain integrity gate bumped to eyebrow v0.4.2 + MCP-server runtime hardening docs). Courtship in public, receipts included.",
+        "likes": 31,
+        "retweets": 8
+      }
+    },
+    "t2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-replies"
+      ]
+    },
+    "t2-replies": {
+      "type": "Badge",
+      "props": {
+        "text": "5 replies",
+        "variant": "secondary"
+      }
+    },
+    "t2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/eyebrowCC/status/2094475852171956625"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-tweet",
+        "t3-badges",
+        "t3-link"
+      ]
+    },
+    "t3-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "@thecultos",
+        "text": "stamps \"powered by an Aeon framework skill ⭐\" on the paid $CULTOS x402 PR-review service. The \"we choose Aeon\" pledge is now printed on a revenue product.",
+        "likes": 4,
+        "retweets": 1
+      }
+    },
+    "t3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-replies"
+      ]
+    },
+    "t3-replies": {
+      "type": "Badge",
+      "props": {
+        "text": "1 reply",
+        "variant": "secondary"
+      }
+    },
+    "t3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2094563917250912269"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sec-security": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-security",
+        "t4"
+      ]
+    },
+    "h-security": {
+      "type": "Heading",
+      "props": {
+        "text": "Autonomous security in public",
+        "level": "h3"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-tweet",
+        "t4-badges",
+        "t4-link"
+      ]
+    },
+    "t4-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "vuln-scanner outreach running in the open: flagged an issue in synthetic-sciences/openscience, private advisory + fix PR filed, feedback requested by public reply. BD by scanner.",
+        "likes": 32,
+        "retweets": 4
+      }
+    },
+    "t4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-replies"
+      ]
+    },
+    "t4-replies": {
+      "type": "Badge",
+      "props": {
+        "text": "0 replies",
+        "variant": "secondary"
+      }
+    },
+    "t4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2094047486222442924"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sec-story": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-story",
+        "t5",
+        "t6"
+      ]
+    },
+    "h-story": {
+      "type": "Heading",
+      "props": {
+        "text": "Shipping the story",
+        "level": "h3"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-tweet",
+        "t5-badges",
+        "t5-link"
+      ]
+    },
+    "t5-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "@aaronjmars",
+        "text": "14-features list leads with score-gated chains (quality as control flow — nobody else in the category has it) and the soul gallery; strongest reusable framing for outreach.",
+        "likes": 23,
+        "retweets": 6
+      }
+    },
+    "t5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-replies"
+      ]
+    },
+    "t5-replies": {
+      "type": "Badge",
+      "props": {
+        "text": "2 replies",
+        "variant": "secondary"
+      }
+    },
+    "t5-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2094154269565800866"
+      }
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t6-tweet",
+        "t6-badges",
+        "t6-link"
+      ]
+    },
+    "t6-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "UsePodAI",
+        "handle": "@UsePodAI",
+        "text": "gateway partner amplifies the features post as one of its \"earlier integrations\" — the gateway cascade pulling partner distribution for free.",
+        "likes": 3,
+        "retweets": 2
+      }
+    },
+    "t6-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t6-replies"
+      ]
+    },
+    "t6-replies": {
+      "type": "Badge",
+      "props": {
+        "text": "0 replies",
+        "variant": "secondary"
+      }
+    },
+    "t6-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/UsePodAI/status/2094581400888377384"
+      }
+    }
+  }
+}
