@@ -1,12 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-01T01:20:23Z",
+  "last_analyzed": "2026-09-01T17:57:18Z",
   "quality_score": 4,
-  "assessment": "Substantive, strategy-aligned promo run with specific drafts, disclosed provenance, honest framing, and verifiable file changes (corroborated by repo state); only knock is that it's built on 2-4-day-old committed social data rather than a live read, which the run transparently discloses and bounds with an expiry date.",
-  "flags": [
-    "stale_data"
-  ],
-  "avg_score": 3.92,
+  "assessment": "Substantive, verified promo dispatch: 4 distinct per-sub drafts with composer links, live gh-api fact checks (caught stale AGPL→MIT doc, excluded unverified claim), honest same-day cadence flag, and skipped-items reasoning — well aligned to GTM strategy; only minor ding is full draft bodies live in the digest file rather than the captured output.",
+  "flags": [],
+  "avg_score": 3.93,
   "history": [
     {
       "date": "2026-08-20",
@@ -54,6 +52,10 @@
     },
     {
       "date": "2026-08-30",
+      "score": 4
+    },
+    {
+      "date": "2026-09-01",
       "score": 4
     },
     {

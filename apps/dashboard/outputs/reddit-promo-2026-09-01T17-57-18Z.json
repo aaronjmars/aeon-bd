@@ -1,0 +1,745 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-09-01",
+        "description": "0d since last promo · 4 subs drafted"
+      },
+      "children": [
+        "stats_grid",
+        "alert_cadence",
+        "sep1",
+        "h_story",
+        "story_text",
+        "story_link",
+        "sep2",
+        "d1_head",
+        "d1_title",
+        "d1_p1",
+        "d1_p2",
+        "d1_p3",
+        "d1_p4",
+        "d1_p5",
+        "d1_linkline",
+        "d1_postline",
+        "d1_notes",
+        "sep3",
+        "d2_head",
+        "d2_title",
+        "d2_p1",
+        "d2_p2",
+        "d2_p3",
+        "d2_p4",
+        "d2_p5",
+        "d2_linkline",
+        "d2_postline",
+        "d2_notes",
+        "sep4",
+        "d3_head",
+        "d3_title",
+        "d3_p1",
+        "d3_p2",
+        "d3_p3",
+        "d3_p4",
+        "d3_p5",
+        "d3_linkline",
+        "d3_postline",
+        "d3_notes",
+        "sep5",
+        "d4_head",
+        "d4_title",
+        "d4_p1",
+        "d4_p2",
+        "d4_p3",
+        "d4_p4",
+        "d4_p5",
+        "d4_linkline",
+        "d4_postline",
+        "d4_notes",
+        "sep6",
+        "h_skipped",
+        "skipped_text",
+        "sep7",
+        "run_text"
+      ]
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_days",
+        "stat_subs"
+      ]
+    },
+    "stat_days": {
+      "type": "Stat",
+      "props": {
+        "label": "since last promo",
+        "value": "0d",
+        "trend": "neutral"
+      }
+    },
+    "stat_subs": {
+      "type": "Stat",
+      "props": {
+        "label": "subs drafted",
+        "value": "4"
+      }
+    },
+    "alert_cadence": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "cadence flag: same-day second dispatch",
+        "message": "An earlier run today already promoted the Miroshark x402aff story (r/MiroFish, r/Agent_AI, r/aiecosystem). Subs below are fully disjoint from that batch, but if the feed feels heavy, hold this one for tomorrow — Reddit self-promo only works when it stays occasional."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_story": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story_text": {
+      "type": "Text",
+      "props": {
+        "variant": "lead",
+        "text": "Aeon's vuln-scanner skill ran responsible disclosure end-to-end, unattended — flagged an issue in synthetic-sciences/openscience (3.3k★ OSS research workbench), filed a private advisory + fix PR, asked the maintainer for feedback in public"
+      }
+    },
+    "story_link": {
+      "type": "Link",
+      "props": {
+        "label": "the tweet",
+        "href": "https://x.com/aeonframework/status/2094047486222442924"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "d1_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1_sub",
+        "d1_arch"
+      ]
+    },
+    "d1_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/OpenSourceAI",
+        "level": "h3"
+      }
+    },
+    "d1_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: open-source"
+      }
+    },
+    "d1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Responsible disclosure when the reporter is an autonomous agent",
+        "level": "h4"
+      }
+    },
+    "d1_p1": {
+      "type": "Text",
+      "props": {
+        "text": "This week our agent flagged a vulnerability in synthetic-sciences/openscience, a 3.3k-star open-source research workbench. It wrote a private advisory, opened a fix PR, and posted a public reply asking the maintainer for feedback. Nobody on our team touched it — the whole sequence ran on a schedule."
+      }
+    },
+    "d1_p2": {
+      "type": "Text",
+      "props": {
+        "text": "The etiquette is the interesting part, because the reporter being an agent changes nothing about the courtesy owed: private first, never public-shame, include a fix attempt, leave the maintainer the final say. Those rules live in the same markdown file as the scan rules. When your policy is text, you can read it before you trust the agent."
+      }
+    },
+    "d1_p3": {
+      "type": "Text",
+      "props": {
+        "text": "We got here because point-in-time audits stopped matching the threat. Audit after audit didn't save Balancer from a $128M exploit — attackers iterate continuously, annual audits don't. Compute got cheap enough that scanning 24/7 now costs less than one audit, so the scanner is a cron job: pick a repo, read the code, write it up, disclose politely, attempt a patch."
+      }
+    },
+    "d1_p4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1_p4_text",
+        "d1_repo_link"
+      ]
+    },
+    "d1_p4_text": {
+      "type": "Text",
+      "props": {
+        "text": "Disclosure: I built Aeon. Run logs are public on GitHub so you can watch it work — and watch it fail, it does that too. Open source, MIT:"
+      }
+    },
+    "d1_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d1_p5": {
+      "type": "Text",
+      "props": {
+        "text": "Honest question for maintainers: would you want an agent-filed advisory in your inbox? If you'd say yes-but-only-if to a human researcher, tell me the rules and I'll put them in the skill."
+      }
+    },
+    "d1_linkline": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1_linkline_label",
+        "d1_linkline_url"
+      ]
+    },
+    "d1_linkline_label": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "Link in post:"
+      }
+    },
+    "d1_linkline_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d1_postline": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1_postline_label",
+        "d1_composer_link"
+      ]
+    },
+    "d1_postline_label": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "Post here:"
+      }
+    },
+    "d1_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/OpenSourceAI composer",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=Responsible%20disclosure%20when%20the%20reporter%20is%20an%20autonomous%20agent"
+      }
+    },
+    "d1_notes": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "notes: check self-promo rules + required flair; post as the builder (disclosure line is in the body). Do NOT state severity or claim the issue is fixed — advisory was private-first, fix awaits maintainer review. Reply to comments as the author."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "d2_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d2_sub",
+        "d2_arch"
+      ]
+    },
+    "d2_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/CLaudeSkills",
+        "level": "h3"
+      }
+    },
+    "d2_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: claude-skills"
+      }
+    },
+    "d2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "The vulnerability scanner is a markdown file on a cron schedule",
+        "level": "h4"
+      }
+    },
+    "d2_p1": {
+      "type": "Text",
+      "props": {
+        "text": "People expect a security scanner to be a service with dashboards. Ours is a markdown file. Frontmatter declares what it needs — API keys, a cron entry. The body is a runbook: pick a target repo, read the relevant code paths, write findings in the maintainer's format, file the advisory privately, attempt a patch, ask for feedback. The framework schedules it on GitHub Actions and gets out of the way."
+      }
+    },
+    "d2_p2": {
+      "type": "Text",
+      "props": {
+        "text": "This week it ran against synthetic-sciences/openscience (3.3k stars): flagged an issue, private advisory, fix PR, public reply asking the maintainer for feedback. The disclosure rules sit in the same markdown as the scan rules — private first, no shaming, patch attempt included. That's the part I'd highlight for this crowd: when the etiquette is just text, you can audit the policy before the agent ever runs."
+      }
+    },
+    "d2_p3": {
+      "type": "Text",
+      "props": {
+        "text": "The shape is identical to the Claude-style skills you already write. What the framework adds is the scheduler, persistent memory, and a self-repair loop, so the skill keeps running unattended instead of dying quietly the second week."
+      }
+    },
+    "d2_p4": {
+      "type": "Text",
+      "props": {
+        "text": "Not just our own opinion: a third-party team (CultOS) just stamped \"powered by an Aeon framework skill\" on their paid PR-review service — agents built on these skills are earning real money per review."
+      }
+    },
+    "d2_p5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d2_p5a",
+        "d2_repo_link",
+        "d2_p5c"
+      ]
+    },
+    "d2_p5a": {
+      "type": "Text",
+      "props": {
+        "text": "Repo (MIT), skill format readable in a minute:"
+      }
+    },
+    "d2_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d2_p5c": {
+      "type": "Text",
+      "props": {
+        "text": "— happy to walk through the SKILL.md anatomy if anyone wants it. I work on Aeon."
+      }
+    },
+    "d2_linkline": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d2_linkline_label",
+        "d2_linkline_url"
+      ]
+    },
+    "d2_linkline_label": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "Link in post:"
+      }
+    },
+    "d2_linkline_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d2_postline": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d2_postline_label",
+        "d2_composer_link"
+      ]
+    },
+    "d2_postline_label": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "Post here:"
+      }
+    },
+    "d2_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CLaudeSkills composer",
+        "href": "https://www.reddit.com/r/CLaudeSkills/submit?title=The%20vulnerability%20scanner%20is%20a%20markdown%20file%20on%20a%20cron%20schedule"
+      }
+    },
+    "d2_notes": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "notes: skills subs often require a specific flair/tag — check before posting; post as the builder; 9:1 self-promo ratio applies. Don't claim the openscience issue is fixed."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "d3_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d3_sub",
+        "d3_arch"
+      ]
+    },
+    "d3_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/lovingopensourceAI",
+        "level": "h3"
+      }
+    },
+    "d3_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: open-source (enthusiast)"
+      }
+    },
+    "d3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "I built an agent framework that files security advisories on open-source repos while I sleep",
+        "level": "h4"
+      }
+    },
+    "d3_p1": {
+      "type": "Text",
+      "props": {
+        "text": "True story from this week: an agent I configured found an issue in an open-source science workbench (3.3k stars), sent the maintainers a private advisory, opened a suggested fix, and asked politely whether the patch was useful. I was asleep. There was no step where I clicked approve."
+      }
+    },
+    "d3_p2": {
+      "type": "Text",
+      "props": {
+        "text": "I built Aeon because \"set up a bot\" usually means babysitting a bot. This is the opposite: skills are plain markdown files, they run on GitHub Actions on a schedule, and everything the agent does lands in public run logs — so you can check on it any time, and so can everyone else. If it breaks, it repairs itself and you read about it in the log after."
+      }
+    },
+    "d3_p3": {
+      "type": "Text",
+      "props": {
+        "text": "The security part matters to me because open-source maintainers are outnumbered. Attackers iterate for free; defenders get an audit a year, if that. A cheap scanner that runs every night and behaves itself — private disclosure first, never naming-and-shaming, patch included — feels like the least we owe the commons."
+      }
+    },
+    "d3_p4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d3_p4a",
+        "d3_repo_link"
+      ]
+    },
+    "d3_p4a": {
+      "type": "Text",
+      "props": {
+        "text": "It's open source and yours to run:"
+      }
+    },
+    "d3_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d3_p5": {
+      "type": "Text",
+      "props": {
+        "text": "Questions welcome — I'm the person who built it. What would you want an agent like this to do (or never do) on your repos?"
+      }
+    },
+    "d3_linkline": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d3_linkline_label",
+        "d3_linkline_url"
+      ]
+    },
+    "d3_linkline_label": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "Link in post:"
+      }
+    },
+    "d3_linkline_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d3_postline": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d3_postline_label",
+        "d3_composer_link"
+      ]
+    },
+    "d3_postline_label": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "Post here:"
+      }
+    },
+    "d3_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/lovingopensourceAI composer",
+        "href": "https://www.reddit.com/r/lovingopensourceAI/submit?title=I%20built%20an%20agent%20framework%20that%20files%20security%20advisories%20on%20open-source%20repos%20while%20I%20sleep"
+      }
+    },
+    "d3_notes": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "notes: builder posts fine but disclose — disclosure line is in the body; answer replies as the author. No severity/fixed claims on the openscience advisory."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "d4_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d4_sub",
+        "d4_arch"
+      ]
+    },
+    "d4_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/CoolGithubProjects",
+        "level": "h3"
+      }
+    },
+    "d4_arch": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: github"
+      }
+    },
+    "d4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon - an open-source agent framework that runs unattended on GitHub Actions and files its own security advisories",
+        "level": "h4"
+      }
+    },
+    "d4_p1": {
+      "type": "Text",
+      "props": {
+        "text": "What: Aeon turns plain markdown \"skills\" into scheduled autonomous agents. Each skill is a SKILL.md file (runbook + required keys), scheduled via GitHub Actions cron, with chains for multi-step workflows, memory that persists across runs, and self-repair — when a run fails, the agent debugs and fixes itself, on the record."
+      }
+    },
+    "d4_p2": {
+      "type": "Text",
+      "props": {
+        "text": "Why: every agent framework I tried needed a server, a dashboard, and a human approval loop. Aeon runs on GitHub Actions with public run traces, so you can verify what your agent actually did — and so can anyone auditing it. No approval loop is the feature: it ships, it breaks, it fixes itself."
+      }
+    },
+    "d4_p3": {
+      "type": "Text",
+      "props": {
+        "text": "Recent: a 14-feature drop including score-gated chains (a step only proceeds if the previous output clears a quality bar — quality as control flow), a soul gallery (personality files so agents write like you), and a gateway cascade (auto-failover across model providers so runs survive an outage). This week one scheduled skill filed a private security advisory + fix PR against a 3.3k-star OSS repo, end to end, unattended."
+      }
+    },
+    "d4_p4": {
+      "type": "Text",
+      "props": {
+        "text": "Stack: runs on GitHub Actions free tier, MIT, 712★ · drives Claude Code, Codex, Grok and other harnesses under one scheduler."
+      }
+    },
+    "d4_p5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d4_p5a",
+        "d4_repo_link",
+        "d4_p5c"
+      ]
+    },
+    "d4_p5a": {
+      "type": "Text",
+      "props": {
+        "text": "Repo:"
+      }
+    },
+    "d4_repo_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d4_p5c": {
+      "type": "Text",
+      "props": {
+        "text": "— I'm the author, feedback and questions welcome."
+      }
+    },
+    "d4_linkline": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d4_linkline_label",
+        "d4_linkline_url"
+      ]
+    },
+    "d4_linkline_label": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "Link in post:"
+      }
+    },
+    "d4_linkline_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "d4_postline": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d4_postline_label",
+        "d4_composer_link"
+      ]
+    },
+    "d4_postline_label": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "Post here:"
+      }
+    },
+    "d4_composer_link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CoolGithubProjects composer",
+        "href": "https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20an%20open-source%20agent%20framework%20that%20runs%20unattended%20on%20GitHub%20Actions%20and%20files%20its%20own%20security%20advisories"
+      }
+    },
+    "d4_notes": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "notes: strict title format here (\"Project - description\") — title above already follows it, don't reword; use the sub's project flair if required; builder disclosure is in the body. Don't claim the openscience vuln is fixed."
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_skipped": {
+      "type": "Heading",
+      "props": {
+        "text": "Skipped this run",
+        "level": "h3"
+      }
+    },
+    "skipped_text": {
+      "type": "Text",
+      "props": {
+        "text": "svector_eth hire announcement (94 likes, loudest post of the window) — team news, weak Reddit material; eyebrowCC's unsolicited-PR courtship (31 likes) — BD thread, engagement-act's lane; BaseHubHB Base-ecosystem watchlist (7 likes) — genuine third-party validation but crypto-framed, held fresh for an ecosystem story; Miroshark-on-Locus (unseen, 4d) — Miroshark was today's earlier headline, left for its own run; \"Aeon vs bot\" comparison thread — standing vendor-vs-vendor skip."
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run_text": {
+      "type": "Text",
+      "props": {
+        "variant": "muted",
+        "text": "run: source = today's two fetch-tweets runs (09-01 morning + 17:04, plus the 17:33 dispatch logs) · seen-file +3 URLs (story, 14-features tweet, CultOS stamp) · story 1d old, window closes 2026-09-11 · likes as-of fetch runs · verified live this run via gh api: aeonfun/aeon 712★/254 forks MIT, synthetic-sciences/openscience 3383★ TypeScript · unverified \"Google/SpaceX/Alibaba\" claim excluded per standing rule · drafts only — nothing posted"
+      }
+    }
+  }
+}

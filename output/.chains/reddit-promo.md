@@ -1,61 +1,96 @@
-ℹ️ Reddit Promo - 2026-09-01
+**Reddit Promo - 2026-09-01**
+**0d since last promo** · 4 subs drafted
 
-*Reddit Promo - 2026-09-01*
-2d since last promo · 3 subs drafted · vs 08-30 run: 1 new story promoted, 6 fresh URLs carried
+⚠️ **cadence flag: same-day second dispatch.** An earlier run today already promoted the Miroshark x402aff story (r/MiroFish, r/Agent_AI, r/aiecosystem). Subs below are fully disjoint from that batch, but if the feed feels heavy, hold this one for tomorrow — Reddit self-promo only works when it stays occasional.
 
-_Story:_ Miroshark shipped x402aff — one line makes any x402 endpoint affiliate-ready, payouts locked onchain; 👀 from Base's Jesse Pollak + 100k agent actions crossed the same week - https://x.com/aaronjmars/status/2093053679259599283
-
----
-
-*r/MiroFish* · archetype: community
-*Title:* x402aff shipped - any x402 endpoint goes affiliate-ready in one line, payouts locked onchain
-*Body:*
-Quick update from my side (I built Miroshark): we shipped x402aff this week.
-
-It's an affiliate layer for x402 endpoints. One line and your endpoint is affiliate-ready - anyone can join permissionlessly, payouts settle onchain on Base, 10% of each paid call routes to the affiliate. No dashboard account, no API-key middleman. It's Miroshark's first monetization-infra piece: the sim doesn't just simulate an agent economy anymore, it runs on one. 🦈
-
-Two receipts from the same week, since this community likes them: Miroshark crossed 100k agent actions (first public usage-scale number - the output is useful synthetic data we're feeding back into the sim model), and Jesse Pollak left a 👀 on the launch thread. An emoji is not an endorsement, but Base watching agent-payment infra is the right kind of noise.
-
-Honest framing, because I said this on X too: I don't expect x402aff to make a ton of noise on CT. It's an infra bet - agents paying agents needs rails before it needs marketing.
-
-Repo: https://github.com/miroshark/miroshark - the x402aff dashboard is linked from the README if you want to wire an endpoint in. Questions welcome, I'll be in the thread.
-*Link in post:* https://github.com/miroshark/miroshark
-*Post here:* [Open r/MiroFish composer](https://www.reddit.com/r/MiroFish/submit?title=x402aff%20shipped%20-%20any%20x402%20endpoint%20goes%20affiliate-ready%20in%20one%20line%2C%20payouts%20locked%20onchain)
-_notes: home-community sub, insider tone is fine but still post as the builder ("I built this") - never anonymously. It's an update, not an ad; skip any marketing-speak if you edit._
+_Story:_ Aeon's vuln-scanner skill ran responsible disclosure end-to-end, unattended — flagged an issue in synthetic-sciences/openscience (3.3k★ OSS research workbench), filed a private advisory + fix PR, asked the maintainer for feedback in public - [the tweet](https://x.com/aeonframework/status/2094047486222442924)
 
 ---
 
-*r/Agent_AI* · archetype: agents
-*Title:* Agents that pay and get paid - we shipped an onchain affiliate rail for x402 endpoints
-*Body:*
-I build Aeon (autonomous agent framework, runs unattended on GitHub Actions) and Miroshark (a swarm-simulation engine - hundreds of grounded agents argue on X/Reddit and trade a simulated AMM). This week Miroshark shipped the piece I think agent-framework people should actually look at: x402aff.
+**r/OpenSourceAI** · archetype: open-source
+**Title:** Responsible disclosure when the reporter is an autonomous agent
 
-It's an affiliate layer for x402, the HTTP-native micropayment standard. Any x402 endpoint goes affiliate-ready in one line - permissionless join, payout locked onchain on Base, 10% of each paid call routes to whoever drove the adoption. The shift that matters for agents: an agent consuming a paid endpoint can now also be its distribution, and get settled onchain without an account anywhere. Autonomy plus an income path.
+**Body:**
 
-Why believe the usage is real: Miroshark crossed 100k agent actions the same week (first public usage-scale number), and the launch got a 👀 from Jesse Pollak at Base. An emoji is not a partnership, but the agent-economy infra layer is being watched.
+This week our agent flagged a vulnerability in synthetic-sciences/openscience, a 3.3k-star open-source research workbench. It wrote a private advisory, opened a fix PR, and posted a public reply asking the maintainer for feedback. Nobody on our team touched it — the whole sequence ran on a schedule.
 
-Aeon is the autonomy half of the stack - skills as markdown, cron, chains, self-repair, public traces: https://github.com/aeonfun/aeon. Happy to go deeper on either side - the affiliate mechanic in practice, or how the sim feeds its own output back in.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=Agents%20that%20pay%20and%20get%20paid%20-%20we%20shipped%20an%20onchain%20affiliate%20rail%20for%20x402%20endpoints)
-_notes: post as the builder - the body already discloses "I build Aeon/Miroshark," keep that in. Respect the 9:1 self-promo ratio - don't make this your only activity in the sub. Check for required flair before posting._
+The etiquette is the interesting part, because the reporter being an agent changes nothing about the courtesy owed: private first, never public-shame, include a fix attempt, leave the maintainer the final say. Those rules live in the same markdown file as the scan rules. When your policy is text, you can read it before you trust the agent.
+
+We got here because point-in-time audits stopped matching the threat. Audit after audit didn't save Balancer from a $128M exploit — attackers iterate continuously, annual audits don't. Compute got cheap enough that scanning 24/7 now costs less than one audit, so the scanner is a cron job: pick a repo, read the code, write it up, disclose politely, attempt a patch.
+
+Disclosure: I built Aeon. Run logs are public on GitHub so you can watch it work — and watch it fail, it does that too. Open source, MIT: https://github.com/aeonfun/aeon
+
+Honest question for maintainers: would you want an agent-filed advisory in your inbox? If you'd say yes-but-only-if to a human researcher, tell me the rules and I'll put them in the skill.
+
+**Link in post:** https://github.com/aeonfun/aeon
+**Post here:** [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=Responsible%20disclosure%20when%20the%20reporter%20is%20an%20autonomous%20agent)
+_notes: check self-promo rules + required flair; post as the builder (disclosure line is in the body). Do NOT state severity or claim the issue is fixed — advisory was private-first, fix awaits maintainer review. Reply to comments as the author._
+
+---
+
+**r/CLaudeSkills** · archetype: claude-skills
+**Title:** The vulnerability scanner is a markdown file on a cron schedule
+
+**Body:**
+
+People expect a security scanner to be a service with dashboards. Ours is a markdown file. Frontmatter declares what it needs — API keys, a cron entry. The body is a runbook: pick a target repo, read the relevant code paths, write findings in the maintainer's format, file the advisory privately, attempt a patch, ask for feedback. The framework schedules it on GitHub Actions and gets out of the way.
+
+This week it ran against synthetic-sciences/openscience (3.3k stars): flagged an issue, private advisory, fix PR, public reply asking the maintainer for feedback. The disclosure rules sit in the same markdown as the scan rules — private first, no shaming, patch attempt included. That's the part I'd highlight for this crowd: when the etiquette is just text, you can audit the policy before the agent ever runs.
+
+The shape is identical to the Claude-style skills you already write. What the framework adds is the scheduler, persistent memory, and a self-repair loop, so the skill keeps running unattended instead of dying quietly the second week.
+
+Not just our own opinion: a third-party team (CultOS) just stamped "powered by an Aeon framework skill" on their paid PR-review service — agents built on these skills are earning real money per review.
+
+Repo (MIT), skill format readable in a minute: https://github.com/aeonfun/aeon — happy to walk through the SKILL.md anatomy if anyone wants it. I work on Aeon.
+
+**Link in post:** https://github.com/aeonfun/aeon
+**Post here:** [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=The%20vulnerability%20scanner%20is%20a%20markdown%20file%20on%20a%20cron%20schedule)
+_notes: skills subs often require a specific flair/tag — check before posting; post as the builder; 9:1 self-promo ratio applies. Don't claim the openscience issue is fixed._
 
 ---
 
-*r/aiecosystem* · archetype: agents
-*Title:* Miroshark crossed 100k agent actions and shipped an onchain affiliate layer for x402
-*Body:*
-Data point for anyone tracking whether agent payments are actually compounding: this week our swarm-simulation engine Miroshark crossed 100k agent actions - first public usage-scale number - and shipped x402aff, an affiliate layer for x402 endpoints.
+**r/lovingopensourceAI** · archetype: open-source (enthusiast)
+**Title:** I built an agent framework that files security advisories on open-source repos while I sleep
 
-The mechanic: any x402 endpoint (HTTP-native micropayments - no API key, no account) goes affiliate-ready in one line. Join is permissionless, the payout is locked onchain on Base, and 10% of each paid call routes to the affiliate that drove it. The engine itself - hundreds of grounded agents arguing on simulated X/Reddit and trading a simulated AMM - now sits on a rail where agents around it can earn from adoption, onchain.
+**Body:**
 
-Signal check, honestly framed: a 👀 from Base's Jesse Pollak on the launch thread (an emoji, not a partnership), and the sim's own 100k-action number is the traction beat. Small numbers, real direction: sims as infrastructure, agents as economic actors.
+True story from this week: an agent I configured found an issue in an open-source science workbench (3.3k stars), sent the maintainers a private advisory, opened a suggested fix, and asked politely whether the patch was useful. I was asleep. There was no step where I clicked approve.
 
-The stack is Aeon (autonomous agent framework) + Miroshark (simulation layer) - overview at https://aeon.fun. Ask me anything about the x402 affiliate mechanics or the sim design.
-*Link in post:* https://aeon.fun
-*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=Miroshark%20crossed%20100k%20agent%20actions%20and%20shipped%20an%20onchain%20affiliate%20layer%20for%20x402)
-_notes: disclosure is baked into the body ("we/our"), keep it. Discussion-first sub - self-promo survives only when the body stands alone without the link, which this does. Use any required flair; watch the 9:1 ratio here, it's the strictest of the three._
+I built Aeon because "set up a bot" usually means babysitting a bot. This is the opposite: skills are plain markdown files, they run on GitHub Actions on a schedule, and everything the agent does lands in public run logs — so you can check on it any time, and so can everyone else. If it breaks, it repairs itself and you read about it in the log after.
+
+The security part matters to me because open-source maintainers are outnumbered. Attackers iterate for free; defenders get an audit a year, if that. A cheap scanner that runs every night and behaves itself — private disclosure first, never naming-and-shaming, patch included — feels like the least we owe the commons.
+
+It's open source and yours to run: https://github.com/aeonfun/aeon
+
+Questions welcome — I'm the person who built it. What would you want an agent like this to do (or never do) on your repos?
+
+**Link in post:** https://github.com/aeonfun/aeon
+**Post here:** [Open r/lovingopensourceAI composer](https://www.reddit.com/r/lovingopensourceAI/submit?title=I%20built%20an%20agent%20framework%20that%20files%20security%20advisories%20on%20open-source%20repos%20while%20I%20sleep)
+_notes: builder posts fine but disclose — disclosure line is in the body; answer replies as the author. No severity/fixed claims on the openscience advisory._
 
 ---
-_expires 2026-09-07 (story is 4d old; past the 10-day promo window after that - if these don't go out this week, drop them)_
-_likes/retweets as-of the 08-28 and 08-30 fetch-tweets runs · never auto-posts - the operator reviews and posts_
-_run: source = committed fetch-tweets output only (08-28 + 08-30 json/logs; no fetch-tweets ran 08-31 - API-incident day - so nothing newer exists); no X API called; held back: official "Aeon vs bot" comparison thread + cost-pitch reply (vendor-vs-vendor framing risk, standing call since 08-25); left fresh for a future run: Locus integration post, x402aff CTA tweet, svector_eth daily-driver testimonial (6 packs / 27 of 80 skills), Truunik builder-stack mention, akathesmith thecultos-on-Aeon; seen-file + logs updated_
+
+**r/CoolGithubProjects** · archetype: github
+**Title:** Aeon - an open-source agent framework that runs unattended on GitHub Actions and files its own security advisories
+
+**Body:**
+
+**What:** Aeon turns plain markdown "skills" into scheduled autonomous agents. Each skill is a SKILL.md file (runbook + required keys), scheduled via GitHub Actions cron, with chains for multi-step workflows, memory that persists across runs, and self-repair — when a run fails, the agent debugs and fixes itself, on the record.
+
+**Why:** every agent framework I tried needed a server, a dashboard, and a human approval loop. Aeon runs on GitHub Actions with public run traces, so you can verify what your agent actually did — and so can anyone auditing it. No approval loop is the feature: it ships, it breaks, it fixes itself.
+
+**Recent:** a 14-feature drop including score-gated chains (a step only proceeds if the previous output clears a quality bar — quality as control flow), a soul gallery (personality files so agents write like you), and a gateway cascade (auto-failover across model providers so runs survive an outage). This week one scheduled skill filed a private security advisory + fix PR against a 3.3k-star OSS repo, end to end, unattended.
+
+**Stack:** runs on GitHub Actions free tier, MIT, 712★ · drives Claude Code, Codex, Grok and other harnesses under one scheduler.
+
+Repo: https://github.com/aeonfun/aeon — I'm the author, feedback and questions welcome.
+
+**Link in post:** https://github.com/aeonfun/aeon
+**Post here:** [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20an%20open-source%20agent%20framework%20that%20runs%20unattended%20on%20GitHub%20Actions%20and%20files%20its%20own%20security%20advisories)
+_notes: strict title format here ("Project - description") — title above already follows it, don't reword; use the sub's project flair if required; builder disclosure is in the body. Don't claim the openscience vuln is fixed._
+
+---
+
+**skipped this run:** svector_eth hire announcement (94 likes, loudest post of the window) — team news, weak Reddit material; eyebrowCC's unsolicited-PR courtship (31 likes) — BD thread, engagement-act's lane; BaseHubHB Base-ecosystem watchlist (7 likes) — genuine third-party validation but crypto-framed, held fresh for an ecosystem story; Miroshark-on-Locus (unseen, 4d) — Miroshark was today's earlier headline, left for its own run; "Aeon vs bot" comparison thread — standing vendor-vs-vendor skip.
+
+_run: source = today's two fetch-tweets runs (09-01 morning + 17:04, plus the 17:33 dispatch logs) · seen-file +3 URLs (story, 14-features tweet, CultOS stamp) · story 1d old, window closes 2026-09-11 · likes as-of fetch runs · verified live this run via gh api: aeonfun/aeon 712★/254 forks MIT, synthetic-sciences/openscience 3383★ TypeScript · unverified "Google/SpaceX/Alibaba" claim excluded per standing rule · drafts only — nothing posted_
