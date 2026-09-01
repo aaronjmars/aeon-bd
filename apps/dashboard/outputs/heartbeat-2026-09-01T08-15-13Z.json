@@ -1,0 +1,194 @@
+{
+  "root": "heartbeat-card",
+  "state": {},
+  "elements": {
+    "heartbeat-card": {
+      "type": "Card",
+      "props": {
+        "title": "⚠️ Heartbeat — fleet recovered, one red mark left"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "sec-chronic",
+        "sep-1",
+        "sec-backlog",
+        "sep-2",
+        "sec-closed"
+      ]
+    },
+    "sec-chronic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chronic-alert",
+        "chronic-progress",
+        "chronic-recovery",
+        "pr77-link",
+        "chronic-window"
+      ]
+    },
+    "chronic-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "🔴 CHRONIC",
+        "message": "aeon-update success rate is 3/7 (43%), the only 🔴-bar condition in the fleet. all 4 failures incident-era (08-25 conflict stall + the 08-31 gateway outage)."
+      }
+    },
+    "chronic-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 3,
+        "max": 7,
+        "label": "aeon-update success rate 3/7 (43%)"
+      }
+    },
+    "chronic-recovery": {
+      "type": "Text",
+      "props": {
+        "text": "today's recovery run landed clean — 34 upstream commits in",
+        "variant": "body"
+      }
+    },
+    "pr77-link": {
+      "type": "Link",
+      "props": {
+        "label": "PR #77",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/77"
+      }
+    },
+    "chronic-window": {
+      "type": "Text",
+      "props": {
+        "text": "next window Mon 09-07 11:00 UTC. merge #77 before then and the watermark stays advanced.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sec-backlog": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "backlog-stat",
+        "backlog-alert",
+        "backlog-text",
+        "backlog-actions"
+      ]
+    },
+    "backlog-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "6",
+        "label": "open `health:` issues (#71–76)"
+      }
+    },
+    "backlog-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🟡 BACKLOG",
+        "message": "every underlying skill has since succeeded, so they're all stale bookkeeping — and nothing will close them: skill-health + skill-repair are both disabled and the reactive trigger is commented out."
+      }
+    },
+    "backlog-text": {
+      "type": "Text",
+      "props": {
+        "text": "say the word and i'll file the cleanup PR (or flip the reactive trigger back on).",
+        "variant": "body"
+      }
+    },
+    "backlog-actions": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "btn-cleanup",
+        "btn-trigger"
+      ]
+    },
+    "btn-cleanup": {
+      "type": "Button",
+      "props": {
+        "label": "File cleanup PR",
+        "variant": "primary"
+      }
+    },
+    "btn-trigger": {
+      "type": "Button",
+      "props": {
+        "label": "Re-enable reactive trigger",
+        "variant": "secondary"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sec-closed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "closed-alert",
+        "glm-stat",
+        "closed-status",
+        "closed-quiet"
+      ]
+    },
+    "closed-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "🟢 CLOSED",
+        "message": "yesterday's API incident is over. all four flagged skills plus the evening wave (fetch-tweets, reddit-promo) back to green."
+      }
+    },
+    "glm-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "4",
+        "label": "straight clean runs on the GLM route, incl. bd-radar this morning"
+      }
+    },
+    "closed-status": {
+      "type": "Text",
+      "props": {
+        "text": "status page updated — still reads 🔴, held up only by the aeon-update stat.",
+        "variant": "body"
+      }
+    },
+    "closed-quiet": {
+      "type": "Text",
+      "props": {
+        "text": "P1/P2/P3 otherwise quiet: no stuck skills, PR #77 only 7h old, no urgent issues, all 8 enabled skills within their schedule.",
+        "variant": "muted"
+      }
+    }
+  }
+}
