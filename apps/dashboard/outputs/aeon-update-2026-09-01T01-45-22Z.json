@@ -1,0 +1,264 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "aeon-update",
+        "description": "2026-09-01 — upstream sync of aeonfun/aeon"
+      },
+      "children": [
+        "main"
+      ]
+    },
+    "main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "header",
+        "upstreamText",
+        "statsGrid",
+        "sep1",
+        "gatewayAlert",
+        "sep2",
+        "cleanHeading",
+        "cleanTable",
+        "sep3",
+        "looseHeading",
+        "looseText",
+        "metricsRow",
+        "sep4",
+        "backlogAlert",
+        "sep5",
+        "prLink"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "metaRow",
+        "titleHeading"
+      ]
+    },
+    "metaRow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badgeSync",
+        "badgeDate"
+      ]
+    },
+    "badgeSync": {
+      "type": "Badge",
+      "props": {
+        "text": "upstream sync",
+        "variant": "secondary"
+      }
+    },
+    "badgeDate": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-09-01",
+        "variant": "outline"
+      }
+    },
+    "titleHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "synced 34 commits → PR #77",
+        "level": "h2"
+      }
+    },
+    "upstreamText": {
+      "type": "Text",
+      "props": {
+        "text": "Upstream aeonfun/aeon moved 8b8d719..3b4c5a3 (the window Monday's incident ate). 80 files applied clean, 8 need you — plus 2 old carryovers (heartbeat, memory-flush), unchanged.",
+        "variant": "body"
+      }
+    },
+    "statsGrid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "statCommits",
+        "statFiles",
+        "statNeedYou"
+      ]
+    },
+    "statCommits": {
+      "type": "Stat",
+      "props": {
+        "label": "commits synced",
+        "value": "34"
+      }
+    },
+    "statFiles": {
+      "type": "Stat",
+      "props": {
+        "label": "files applied clean",
+        "value": "80"
+      }
+    },
+    "statNeedYou": {
+      "type": "Stat",
+      "props": {
+        "label": "files need you",
+        "value": "8",
+        "delta": "+2 carryovers (unchanged)",
+        "trend": "neutral"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "gatewayAlert": {
+      "type": "Alert",
+      "props": {
+        "title": "The one that matters: scripts/llm-gateway.sh",
+        "message": "Upstream shipped its own GLM routing — a80f70f (Claude AI Gateway arm) + 47d1a56 (tiered GLM_MODEL_SONNET/OPUS/HAIKU — flash for sonnet-tier, full model for opus-pinned). Your 04d56d5 pin is the same feature's other half: the effort-pinning. Merge = take their tiering, keep your effort exports. Five minutes, diff's in the PR body.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cleanHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Also landed clean",
+        "level": "h3"
+      }
+    },
+    "cleanTable": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Change",
+          "Ref"
+        ],
+        "rows": [
+          [
+            "api-gate exact-origin fix",
+            "#986 · security"
+          ],
+          [
+            "mcp-server single-flight queue",
+            "#973"
+          ],
+          [
+            "telegram reply-to-previous-run",
+            "#995"
+          ],
+          [
+            "xAI search retry",
+            "#989"
+          ],
+          [
+            "envelope hard-fail",
+            "#987"
+          ],
+          [
+            "new cortx-reliability skill",
+            "new skill"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "looseHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Two loose ends closed",
+        "level": "h3"
+      }
+    },
+    "looseText": {
+      "type": "Text",
+      "props": {
+        "text": "rightstack + skill-article are in — the SHA-pinned eyebrow binary downloaded + verified this run, one rescan locked everything (0 criticals). skill-health merged 3-way clean, your scorer edits kept.",
+        "variant": "body"
+      }
+    },
+    "metricsRow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "statCriticals",
+        "statConflicts"
+      ]
+    },
+    "statCriticals": {
+      "type": "Stat",
+      "props": {
+        "label": "rescan criticals",
+        "value": "0",
+        "trend": "neutral"
+      }
+    },
+    "statConflicts": {
+      "type": "Stat",
+      "props": {
+        "label": "pending conflicts",
+        "value": "10",
+        "delta": "11 → 10",
+        "trend": "down"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "backlogAlert": {
+      "type": "Alert",
+      "props": {
+        "title": "Canon backlog",
+        "message": "Upstream added cortx-reliability to skills.json but forgot its glyph — their own generate-skill-icons fails at HEAD. Placeholder added here.",
+        "type": "info"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prLink": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #77 — 34-commit upstream sync, 8 conflicts to resolve",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/77",
+        "source": "github.com/aaronjmars/aeon-bd"
+      }
+    }
+  }
+}

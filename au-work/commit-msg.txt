@@ -1,0 +1,5 @@
+aeon-update: sync upstream 8b8d719..3b4c5a3
+
+34 upstream commits from aeonfun/aeon. 80 files applied cleanly (19 added, 57 updated, 4 three-way merged; catalogs regenerated), 8 conflicts need manual review. Baseline advanced to 3b4c5a3.
+
+Includes recovery of rightstack + skill-article (deferred since 08-25 on the missing eyebrow binary - the SHA-pinned v0.4.1 binary was fetchable this run and the lock was rescanned for all three new skills).

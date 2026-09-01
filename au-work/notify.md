@@ -12,5 +12,3 @@ Two loose ends closed: `rightstack` + `skill-article` are in — the SHA-pinned 
 (one for the canon backlog: upstream added cortx-reliability to skills.json but forgot its glyph — their own generate-skill-icons fails at HEAD. placeholder added here.)
 
 PR: https://github.com/aaronjmars/aeon-bd/pull/77
-
-🔗 https://github.com/aaronjmars/aeon-bd/pull/77

@@ -1,10 +1,10 @@
 {
   "skill": "aeon-update",
-  "last_analyzed": "2026-08-25T22:45:44Z",
-  "quality_score": 4,
-  "assessment": "Solid infrastructure sync — specific conflicts identified, PR opened clean, verifiable facts (commits, file counts, conflict diffs), actionable next steps. Fits Aaron's direct style (no filler).",
+  "last_analyzed": "2026-09-01T01:45:22Z",
+  "quality_score": 5,
+  "assessment": "Recovery sync run with every checkable claim corroborated in-repo (branch pushed to origin, exact 88-file +2400/-299 diff, claimed skills/icons/eyebrowlock present, consistent log) — surfaces one clear merge decision (llm-gateway.sh) with resolution guidance, flags an upstream bug with a workaround, honest hygiene note, actionable follow-ups.",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 4.33,
   "history": [
     {
       "date": "2026-08-24",
@@ -13,6 +13,10 @@
     {
       "date": "2026-08-25",
       "score": 4
+    },
+    {
+      "date": "2026-09-01",
+      "score": 5
     }
   ]
 }
