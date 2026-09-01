@@ -22,6 +22,8 @@
 .pending-*/
 # .scratch/ — fallback scratch dir for runs where /tmp writes are sandboxed
 .scratch/
+# aeon-update run scratch; never commit
+au-work/
 # ...and the FILE form. The trailing slash above matches directories only, so the
 # json-render staging file (.pending-<skill>.md) was tracked and committed; a later
 # read-only run that could not overwrite it had the previous run's digest published
