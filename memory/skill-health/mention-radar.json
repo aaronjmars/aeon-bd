@@ -1,10 +1,10 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-08-30T07:37:37Z",
-  "quality_score": 4,
-  "assessment": "Substantive, strategically aligned mention-radar output with actionable engagement opportunity and honest assessment of coverage; verifiable structure but specific claims (tweet URL/quote) cannot be independently confirmed.",
+  "last_analyzed": "2026-09-02T07:41:23Z",
+  "quality_score": 3,
+  "assessment": "Acceptable: task executed cleanly with disciplined filtering and state tracking, but modest findings—0 new mentions, quiet week—yield limited actionability for GTM.",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 3.88,
   "history": [
     {
       "date": "2026-08-20",
@@ -33,6 +33,10 @@
     {
       "date": "2026-08-30",
       "score": 4
+    },
+    {
+      "date": "2026-09-02",
+      "score": 3
     }
   ]
 }

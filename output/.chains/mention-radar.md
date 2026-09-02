@@ -1,19 +1,18 @@
-ℹ️ Mention Radar - 2026-08-30
+ℹ️ Mention Radar
 
-*Mention Radar - 2026-08-30*
-vs 2026-08-28 - 1 new - 0 still-open - 1 quiet
-
-AEON
-QUIET - no third-party mentions this cycle (X.AI x_search HTTP 200, 2026-08-23→08-30, X_SOURCE=api; web sweep clean - no fresh press/discussion beyond already-logged items)
-GitHub: 705★ (+9/2d) · 252 forks (+7/2d) since 2026-08-28 baseline - clears the notable-jump threshold, no single attributable driver found in-window
+*Mention Radar - 2026-09-02*
+vs 2026-08-30 - 0 new - 1 still-open - 1 quiet
 
 MIROSHARK
-- NEW [Confusion] @webringonline: "launching a sim from the desktop client is the part I want to see fail gracefully. what happens if the tab closes mid run, does the agent lose the handle or reattach?" - https://x.com/webringonline/status/2093733257473065031
-GitHub: 1444★ (+2/2d) · 299 forks (unch) since 2026-08-28 - under the 5-star notable threshold
+- Confusion @webringonline (since 2026-08-30): asked whether a sim reattaches or loses its handle if the desktop tab closes mid-run - reply already drafted by engagement-act (2026-08-31), pending send - https://x.com/webringonline/status/2093733257473065031
 
 ENGAGEMENT OPPORTUNITIES
-- @webringonline: real product question (sim-resilience on tab close) sitting unanswered in your own thread - one direct reply closes the loop and reinforces the reliability story - https://x.com/webringonline/status/2093733257473065031 (flips if: someone else answers first or the thread goes cold >48h)
+- none new this cycle - webringonline draft above still awaiting send
 
-QUIET: aeon - no mentions this run (covered: api/web) - re-check 2026-09-01
+QUIET: aeon - no mentions this run (covered: api/web) - re-check 2026-09-04
 
-run: X_SOURCE=api · web sweep clean (Reddit/HN/PH/blogs/newsletters checked, no fresh in-window hits beyond known items) · stars aeon +9/2d since 08-28 (notable) · stars miroshark +2/2d since 08-28 (under threshold) · 2 low-signal miroshark replies (@svector_eth "hoping on it" 1 like, @danbuildss "This huge" 0 likes - same operator thread, no content) omitted from digest per quality-over-quantity guideline
+GITHUB
+- aeon: 713★ (+8 since 08-30) / 255 forks (+3) - crosses the +5-star notable threshold, no single attributable driver found in-window
+- miroshark: 1446★ (+2 since 08-30) / 298 forks (-1) - under threshold
+
+run: X_SOURCE=api (both targets, HTTP 200) · web sweep clean (Reddit/HN/PH/blogs/newsletters, incl. an OffSeq press piece and a MiroFish-fork-framed YouTube short - both already-seen/unverifiable-date, omitted as noise) · aeon quiet_streak=5 (past drop bar, digest-only, tracking continues) · miroshark quiet_streak=1

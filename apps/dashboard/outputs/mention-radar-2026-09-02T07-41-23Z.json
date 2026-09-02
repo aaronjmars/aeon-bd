@@ -1,0 +1,339 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-09-02 vs 2026-08-30"
+      },
+      "children": [
+        "summary_stats",
+        "sep_1",
+        "product_miroshark",
+        "sep_2",
+        "engagement_section",
+        "sep_3",
+        "quiet_section",
+        "sep_4",
+        "github_section",
+        "sep_5",
+        "run_details"
+      ]
+    },
+    "summary_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_new",
+        "stat_open",
+        "stat_quiet"
+      ]
+    },
+    "stat_new": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "0"
+      }
+    },
+    "stat_open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "1"
+      }
+    },
+    "stat_quiet": {
+      "type": "Stat",
+      "props": {
+        "label": "Quiet",
+        "value": "1"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "product_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_miroshark",
+        "item_webringonline"
+      ]
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h3"
+      }
+    },
+    "item_webringonline": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_confusion",
+        "text_confusion_meta",
+        "tweet_confusion",
+        "text_reply_status",
+        "link_confusion_tweet"
+      ]
+    },
+    "badge_confusion": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion",
+        "variant": "default"
+      }
+    },
+    "text_confusion_meta": {
+      "type": "Text",
+      "props": {
+        "text": "@webringonline (since 2026-08-30)",
+        "variant": "caption"
+      }
+    },
+    "tweet_confusion": {
+      "type": "TweetCard",
+      "props": {
+        "author": "webringonline",
+        "handle": "webringonline",
+        "text": "Asked whether a sim reattaches or loses its handle if the desktop tab closes mid-run"
+      }
+    },
+    "text_reply_status": {
+      "type": "Text",
+      "props": {
+        "text": "Reply drafted by engagement-act (2026-08-31), pending send",
+        "variant": "caption"
+      }
+    },
+    "link_confusion_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/webringonline/status/2093733257473065031"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_engagement",
+        "text_engagement"
+      ]
+    },
+    "heading_engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h3"
+      }
+    },
+    "text_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "None new this cycle - webringonline draft above still awaiting send"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quiet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_quiet",
+        "text_quiet"
+      ]
+    },
+    "heading_quiet": {
+      "type": "Heading",
+      "props": {
+        "text": "QUIET",
+        "level": "h3"
+      }
+    },
+    "text_quiet": {
+      "type": "Text",
+      "props": {
+        "text": "aeon - no mentions this run (covered: api/web) - re-check 2026-09-04"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "github_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_github",
+        "github_aeon",
+        "github_miroshark"
+      ]
+    },
+    "heading_github": {
+      "type": "Heading",
+      "props": {
+        "text": "GITHUB",
+        "level": "h3"
+      }
+    },
+    "github_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_aeon_name",
+        "stat_aeon_stars",
+        "stat_aeon_forks",
+        "text_aeon_note"
+      ]
+    },
+    "text_aeon_name": {
+      "type": "Text",
+      "props": {
+        "text": "aeon",
+        "variant": "lead"
+      }
+    },
+    "stat_aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "713",
+        "delta": "+8",
+        "trend": "up"
+      }
+    },
+    "stat_aeon_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "255",
+        "delta": "+3",
+        "trend": "up"
+      }
+    },
+    "text_aeon_note": {
+      "type": "Text",
+      "props": {
+        "text": "Crosses the +5-star notable threshold, no single attributable driver found in-window",
+        "variant": "caption"
+      }
+    },
+    "github_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_miroshark_name",
+        "stat_miroshark_stars",
+        "stat_miroshark_forks",
+        "text_miroshark_note"
+      ]
+    },
+    "text_miroshark_name": {
+      "type": "Text",
+      "props": {
+        "text": "miroshark",
+        "variant": "lead"
+      }
+    },
+    "stat_miroshark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1446",
+        "delta": "+2",
+        "trend": "up"
+      }
+    },
+    "stat_miroshark_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "298",
+        "delta": "-1",
+        "trend": "down"
+      }
+    },
+    "text_miroshark_note": {
+      "type": "Text",
+      "props": {
+        "text": "Under threshold",
+        "variant": "caption"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_run",
+        "text_run_info"
+      ]
+    },
+    "heading_run": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Details",
+        "level": "h4"
+      }
+    },
+    "text_run_info": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=api (both targets, HTTP 200) · web sweep clean (Reddit/HN/PH/blogs/newsletters, incl. an OffSeq press piece and a MiroFish-fork-framed YouTube short - both already-seen/unverifiable-date, omitted as noise) · aeon quiet_streak=5 (past drop bar, digest-only, tracking continues) · miroshark quiet_streak=1",
+        "variant": "caption"
+      }
+    }
+  }
+}
