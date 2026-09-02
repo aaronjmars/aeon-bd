@@ -1,20 +1,30 @@
-*Top Tweets — aeonframework / miroshark (2026-09-01, second pass)*
-_Quiet window — the fresh signal is third parties cataloging Aeon (Base watchlist, CultOS x402 relay) while token-side spaces recycle the unverified enterprise claim._
+ℹ️ Top Tweets
 
-*Listed by third parties*
-1. x.com/BaseHubHB — weekly "Top Base Projects" watchlist leads with Aeon, pitched on "security agents filing private advisories and fix PRs" — its 700+⭐ figure verified live (712⭐ / 253 forks). Third-party curation now leads with the security proof, not the framework pitch.
-Likes: 7 | RTs: 0 | Replies: 2
-[View tweet](https://x.com/BaseHubHB/status/2094825393308287145)
+*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-02)*
+_CultOS's x402 relay keeps compounding on Miroshark — onchain affiliate-payout rails (x402aff) landed today, with the paid Aeon-audit service still live underneath it._
 
-2. x.com/thecultos — CultOS's x402 relay now catalogs Aeon beside p0 / Otto / minifetch as hireable dev services through one interface; self-serve listings "soon." The "we choose Aeon" partner is formalizing distribution — worth a DM on listing details (BD lead of the day).
+*CultOS x402 relay expands with Miroshark affiliate payouts*
+1. x.com/thecultos — relay turns into a directory: Otto, minifetch, Aeon now bookable from one interface, self-serve listings opening soon
+Likes: 13 | RTs: 3 | Replies: 1
+[View tweet](https://x.com/thecultos/status/2094873462959452257)
+
+2. x.com/thecultos — PR-audit-via-Aeon-skills service is live and paid, one npx command hires it through agentic.market
+Likes: 6 | RTs: 2 | Replies: 0
+[View tweet](https://x.com/thecultos/status/2094801948155273220)
+
+3. x.com/thecultos — adds onchain affiliate payouts (Miroshark's x402aff) on top of the relay — anyone can earn a cut referring customers
+Likes: 7 | RTs: 4 | Replies: 2
+[View tweet](https://x.com/thecultos/status/2095166433420292459)
+
+*Ecosystem reacts to the x402aff launch*
+4. x.com/akathesmith — independent builder frames Miroshark's affiliate rails as what made CultOS's expansion "undeniable" — outside vote of confidence, not a team post
+Likes: 4 | RTs: 2 | Replies: 1
+[View tweet](https://x.com/akathesmith/status/2095169506817577289)
+
+5. x.com/bluez_bitguy — third-party account calls out the CultOS x Miroshark tie-up directly — small account, organic amplification
 Likes: 2 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/thecultos/status/2094818413222690830)
+[View tweet](https://x.com/bluez_bitguy/status/2095170224832287058)
 
-*How outsiders tell it*
-3. x.com/bigironchris — token-side space recap ("AEON SPACE RECAP") pitches "secured bugs for 3 of the world's largest companies" (Google/SpaceX/Alibaba) + token details — the same unverified company claim flagged 08-23, now circulating in crypto coverage unprompted.
-Likes: 7 | RTs: 2 | Replies: 2
-[View tweet](https://x.com/bigironchris/status/2094812652216135922)
-
-4. x.com/daril_yovani — sharpest framing of the window, from a 0-engagement account: turn-by-turn → autonomous bug fixing is the line; prove it on messy repos and "agentic coding starts looking like infrastructure, not a chat feature."
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/daril_yovani/status/2094813090151911725)
+6. x.com/aaronjmars — Aaron's own one-line co-sign on the x402aff rollout, confirming the team is tracking the integration
+Likes: 1 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/aaronjmars/status/2095174857772188093)
