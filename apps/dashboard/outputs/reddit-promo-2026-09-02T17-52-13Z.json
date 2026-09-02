@@ -1,0 +1,242 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "ℹ️ Reddit Promo - 2026-09-02 (revised)"
+      },
+      "children": [
+        "meta",
+        "sep1",
+        "story-section",
+        "sep2",
+        "reddit1-section",
+        "sep3",
+        "reddit2-section"
+      ]
+    },
+    "meta": {
+      "type": "Text",
+      "props": {
+        "text": "1d since last promo · 2 subs drafted",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-heading",
+        "story-body",
+        "story-link"
+      ]
+    },
+    "story-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story-body": {
+      "type": "Text",
+      "props": {
+        "text": "CultOS's x402 relay folds in onchain affiliate payouts (Miroshark's x402aff) on top of its Aeon-skills PR-review service, expanding into a small bookable marketplace - independent builder calls it \"undeniable\""
+      }
+    },
+    "story-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/thecultos/status/2095166433420292459",
+        "href": "https://x.com/thecultos/status/2095166433420292459"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "reddit1-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reddit1-header",
+        "reddit1-title",
+        "reddit1-body",
+        "reddit1-links",
+        "reddit1-notes"
+      ]
+    },
+    "reddit1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "reddit1-name",
+        "reddit1-archetype"
+      ]
+    },
+    "reddit1-name": {
+      "type": "Text",
+      "props": {
+        "text": "r/StartupMind",
+        "variant": "lead"
+      }
+    },
+    "reddit1-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "secondary"
+      }
+    },
+    "reddit1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "An outside builder turned our open agent stack into a paid marketplace - we didn't write a line of it",
+        "level": "h4"
+      }
+    },
+    "reddit1-body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon is an autonomous agent framework - skills as markdown, runs on GitHub Actions, no approval loop. Miroshark is a swarm-simulation engine - spin up hundreds of grounded agents, simulate a market or a debate, x402-native for payments. Both open source, both mine.\n\nThe best growth signal this week wasn't anything we shipped.\n\nA separate team (CultOS) has been building on top of ours for weeks: a paid PR-review agent, built entirely from Aeon skills, hired with one `npx` command. This week they folded it into a small marketplace - a few agent products, bookable from one interface, self-serve listings coming soon. Then they wired in onchain affiliate payouts using Miroshark's x402aff rails. Refer a customer, get a cut, automatically, on-chain.\n\nWe found out from the timeline. An outside builder - not on either team - called the payout rails what made the whole thing \"undeniable\" as a real product instead of a demo.\n\nThat's the actual signal: open primitives, someone else's business, we didn't plan any of it. Aeon's MIT, Miroshark's AGPL, both on GitHub.\n\nHappy to answer questions on either project or how the payment rails work."
+      }
+    },
+    "reddit1-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reddit1-link-aeon",
+        "reddit1-link-composer"
+      ]
+    },
+    "reddit1-link-aeon": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "reddit1-link-composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=An%20outside%20builder%20turned%20our%20open%20agent%20stack%20into%20a%20paid%20marketplace%20-%20we%20didn%27t%20write%20a%20line%20of%20it"
+      }
+    },
+    "reddit1-notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "r/StartupMind is strict on no growth-hacky tone - keep this as a plain traction update; disclose as the builder (\"I work on Aeon/Miroshark\"), check current sidebar for a self-promo flair requirement before posting.",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "reddit2-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reddit2-header",
+        "reddit2-title",
+        "reddit2-body",
+        "reddit2-links",
+        "reddit2-notes"
+      ]
+    },
+    "reddit2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "reddit2-name",
+        "reddit2-archetype"
+      ]
+    },
+    "reddit2-name": {
+      "type": "Text",
+      "props": {
+        "text": "r/LovingAI",
+        "variant": "lead"
+      }
+    },
+    "reddit2-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "reddit2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "A third-party team built a paid marketplace on top of our open AI agent project this week",
+        "level": "h4"
+      }
+    },
+    "reddit2-body": {
+      "type": "Text",
+      "props": {
+        "text": "I build two open AI projects. Aeon is an agent framework that runs itself - no approval loop, just runs on a schedule and does the job. Miroshark spins up hundreds of AI agents to simulate things - a market, a debate - for about $1 in under 10 minutes.\n\nThis week a separate team (CultOS) built something we never planned. A code-review agent, built entirely from our Aeon skills, live and paid, hire it with one command. This week they expanded it into a small directory of hireable agents. Then they added automatic on-chain payouts for anyone who refers a customer in. No invoice, no middleman - it just pays out.\n\nAn outside developer called that the thing that made it feel real instead of a demo.\n\nBest kind of validation an open project gets: not us saying it works, someone else building a business on it without asking. Everything's open source.\n\nAsk me anything, happy to explain how it works."
+      }
+    },
+    "reddit2-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reddit2-link-aeon",
+        "reddit2-link-composer"
+      ]
+    },
+    "reddit2-link-aeon": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "reddit2-link-composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/LovingAI composer",
+        "href": "https://www.reddit.com/r/LovingAI/submit?title=A%20third-party%20team%20built%20a%20paid%20marketplace%20on%20top%20of%20our%20open%20AI%20agent%20project%20this%20week"
+      }
+    },
+    "reddit2-notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Notes",
+        "message": "r/LovingAI skews general-audience/enthusiast - jargon kept light on purpose; disclose as the builder, check if a self-promo flair is required before posting.",
+        "type": "info"
+      }
+    }
+  }
+}

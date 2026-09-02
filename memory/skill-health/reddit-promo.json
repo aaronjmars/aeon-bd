@@ -1,8 +1,8 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-01T17:57:18Z",
+  "last_analyzed": "2026-09-02T17:52:13Z",
   "quality_score": 4,
-  "assessment": "Substantive, verified promo dispatch: 4 distinct per-sub drafts with composer links, live gh-api fact checks (caught stale AGPL→MIT doc, excluded unverified claim), honest same-day cadence flag, and skipped-items reasoning — well aligned to GTM strategy; only minor ding is full draft bodies live in the digest file rather than the captured output.",
+  "assessment": "Substantive, verifiable, and well-aligned to strategy — found a specific BD signal (CultOS/Miroshark x402aff expansion), drafted two targeted copy-paste-ready posts, verified GitHub stats live, and showed strategic restraint on cadence. Minor: cadence-limited from 3-5 to 2 posts due to prior run frequency (9/13 subreddits hit in 2 days), and the actual post copy could have been fully shown rather than summarized, though hooks/themes are clear.",
   "flags": [],
   "avg_score": 3.93,
   "history": [
@@ -60,6 +60,10 @@
     },
     {
       "date": "2026-09-01",
+      "score": 4
+    },
+    {
+      "date": "2026-09-02",
       "score": 4
     }
   ]
