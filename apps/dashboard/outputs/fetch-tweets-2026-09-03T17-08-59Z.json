@@ -1,0 +1,213 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — 2026-09-03"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "section1_heading",
+        "tweet1",
+        "engagement1",
+        "link1",
+        "tweet2",
+        "engagement2",
+        "link2",
+        "sep2",
+        "section2_heading",
+        "tweet3",
+        "engagement3",
+        "link3",
+        "sep3",
+        "section3_heading",
+        "tweet4",
+        "engagement4",
+        "link4",
+        "tweet5",
+        "engagement5",
+        "link5"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Team-led plugs (cheaper inference, a FOSS security idea) share the day with outside builders publicly requesting deeper integrations and docs — no big story, steady low-grade demand signal.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Team pushes cost + safety moves",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "text": "Points agent builders at UsePodAI as a cheaper-inference option for their Aeon agents — a concrete cost lever, not just a shoutout",
+        "likes": 41,
+        "retweets": 10
+      },
+      "children": []
+    },
+    "engagement1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2095109716636577888"
+      },
+      "children": []
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "text": "Floats a cross-FOSS collab with GitHub on detecting hidden malware loaders in repos, framed as bigger than Aeon alone — a governance angle that could open a GitHub conversation",
+        "likes": 20,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "engagement2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2095262910331208116"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS/Miroshark affiliate rail opens to any builder",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "text": "CultOS now pays 10% of every attributed USDC payment to any Base builder who registers a builder code, payouts routed onchain via Miroshark's x402aff — the affiliate rail goes from single-partner plug to open incentive",
+        "likes": 10,
+        "retweets": 4
+      },
+      "children": []
+    },
+    "engagement3": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2095192495395127422"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Outside builders pull for deeper integration + docs",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sololevelhunter",
+        "text": "Publicly floats an Aeon x eyebrowCC security-layer collab before either team has announced one — unsolicited demand signal, not a confirmed partnership",
+        "likes": 9,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "engagement4": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/sololevelhunter/status/2095126940143305210"
+      },
+      "children": []
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Rishike89765470",
+        "text": "Asks if Aeon has docs/blog for running a sharded orchestration engine across home laptops via Tailscale — a live use case with no answer yet, a support/BD gap",
+        "likes": 2,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "engagement5": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Rishike89765470/status/2095022666562592827"
+      },
+      "children": []
+    }
+  }
+}

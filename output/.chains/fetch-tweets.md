@@ -1,30 +1,27 @@
-ℹ️ Top Tweets
+ℹ️ Top Tweets — 2026-09-03
 
-*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-02)*
-_CultOS's x402 relay keeps compounding on Miroshark — onchain affiliate-payout rails (x402aff) landed today, with the paid Aeon-audit service still live underneath it._
+*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-03)*
+_Team-led plugs (cheaper inference, a FOSS security idea) share the day with outside builders publicly requesting deeper integrations and docs — no big story, steady low-grade demand signal._
 
-*CultOS x402 relay expands with Miroshark affiliate payouts*
-1. x.com/thecultos — relay turns into a directory: Otto, minifetch, Aeon now bookable from one interface, self-serve listings opening soon
-Likes: 13 | RTs: 3 | Replies: 1
-[View tweet](https://x.com/thecultos/status/2094873462959452257)
+*Team pushes cost + safety moves*
+1. x.com/aeonframework — points agent builders at UsePodAI as a cheaper-inference option for their Aeon agents — a concrete cost lever, not just a shoutout
+Likes: 41 | RTs: 10 | Replies: 2
+[View tweet](https://x.com/aeonframework/status/2095109716636577888)
 
-2. x.com/thecultos — PR-audit-via-Aeon-skills service is live and paid, one npx command hires it through agentic.market
-Likes: 6 | RTs: 2 | Replies: 0
-[View tweet](https://x.com/thecultos/status/2094801948155273220)
+2. x.com/aaronjmars — floats a cross-FOSS collab with GitHub on detecting hidden malware loaders in repos, framed as bigger than Aeon alone — a governance angle that could open a GitHub conversation
+Likes: 20 | RTs: 2 | Replies: 1
+[View tweet](https://x.com/aaronjmars/status/2095262910331208116)
 
-3. x.com/thecultos — adds onchain affiliate payouts (Miroshark's x402aff) on top of the relay — anyone can earn a cut referring customers
-Likes: 7 | RTs: 4 | Replies: 2
-[View tweet](https://x.com/thecultos/status/2095166433420292459)
+*CultOS/Miroshark affiliate rail opens to any builder*
+3. x.com/thecultos — CultOS now pays 10% of every attributed USDC payment to any Base builder who registers a builder code, payouts routed onchain via Miroshark's x402aff — the affiliate rail goes from single-partner plug to open incentive
+Likes: 10 | RTs: 4 | Replies: 2
+[View tweet](https://x.com/thecultos/status/2095192495395127422)
 
-*Ecosystem reacts to the x402aff launch*
-4. x.com/akathesmith — independent builder frames Miroshark's affiliate rails as what made CultOS's expansion "undeniable" — outside vote of confidence, not a team post
-Likes: 4 | RTs: 2 | Replies: 1
-[View tweet](https://x.com/akathesmith/status/2095169506817577289)
+*Outside builders pull for deeper integration + docs*
+4. x.com/sololevelhunter — publicly floats an Aeon x eyebrowCC security-layer collab before either team has announced one — unsolicited demand signal, not a confirmed partnership
+Likes: 9 | RTs: 2 | Replies: 1
+[View tweet](https://x.com/sololevelhunter/status/2095126940143305210)
 
-5. x.com/bluez_bitguy — third-party account calls out the CultOS x Miroshark tie-up directly — small account, organic amplification
+5. x.com/Rishike89765470 — asks if Aeon has docs/blog for running a sharded orchestration engine across home laptops via Tailscale — a live use case with no answer yet, a support/BD gap
 Likes: 2 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/bluez_bitguy/status/2095170224832287058)
-
-6. x.com/aaronjmars — Aaron's own one-line co-sign on the x402aff rollout, confirming the team is tracking the integration
-Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/aaronjmars/status/2095174857772188093)
+[View tweet](https://x.com/Rishike89765470/status/2095022666562592827)

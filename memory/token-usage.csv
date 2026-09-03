@@ -68,3 +68,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-03,bd-radar,claude-sonnet-5,3431,35873,8724134,222715
 2026-09-03,heartbeat,claude-sonnet-5,2122,11227,841732,58068
 2026-09-03,engagement-act,claude-sonnet-5,2543,18961,2766933,91934
+2026-09-03,fetch-tweets,claude-sonnet-5,2418,15285,2326512,63077
