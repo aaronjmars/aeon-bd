@@ -1,16 +1,16 @@
-ℹ️ BD Radar - 2026-09-01
+ℹ️ BD Radar — 2026-09-03
 
-*BD Radar - 2026-09-01*
-vs 08-31 - 2 new - 34 still-open - 36 leads total
+*BD Radar — 09-03*
+vs 09-01 · 2 new · 36 still-open · 38 leads total
 
-integrating github:alexverify/eyebrow (first seen 09-01): eyebrow - already Aeon's CI skill-integrity gate since 08-04 (#815) - is deepening its embed: PR #1002 (SHA-pinned gate bump v0.4.1 -> v0.4.2, verified locally) + PR #1001 (docs proposing "eyebrow wrap" runtime hardening for the Aeon MCP server: per-tool policy, redacted audit log, OS sandbox), both opened 08-31; @eyebrowCC courted partnership on X 08-31 (31 likes / 8 rts) - fetch-tweets punted it here today, unactioned
-  move: merge #1002, review #1001, then open the partner thread - eyebrow is load-bearing in the supply chain and a "verified skills" beat fits the security thesis - by 09-05, before they pitch the same wedge to openclaw/hermes; flips if: both PRs sit unanswered past 09-07
+**building** `swarm-ai-research/swarm` (new): academic risk-research team built a real bridge into miroshark — arXiv paper + PyPI package, preregistered 23-run study. not a meme fork, actual rigor 🦈
+  move: DM rsavitt, feature the study as an academic-rigor case study — flips if quiet 21d (research pace, not startup pace)
 
-forking github:forumchen388-debug/aeon (first seen 09-01): fork created 08-31 15:45 UTC, first own commit 19 min later ("chore: enable selected crypto monitors") - live-instance operator configuring crypto monitors, same pattern as czijian729-oss
-  move: read their public run traces, light DM asking what they're monitoring - by 09-08; flips if: no push in 7d (cron auto-commits don't count)
+**mentioning** `pondstreetledger.com` (new): independent outlet ran a corroborated story — aeon's vuln-scanner caught a cred leak in google's own agents-cli before wide disclosure ⭐
+  move: quote-thank it, feed to reddit-promo while fresh — by 09-10
 
-carried (34 live, top 3): x:thecultos+github:cultosdev/aeon (08-27) - DOGMA audit registry live (cultosagent/dogma-registry, updated 08-31) + "powered by an Aeon framework skill" post 08-31, check-in now 5d overdue; github-issue:MiroShark/MiroShark#240 (08-23) - dan-and's offline-hf-cache branch awaiting review 9d; sparkleware (08-25) - registry pushed 08-31, still absent from the official catalog
+update: alexverify/eyebrow — both PRs merged 09-01. their side's clear, our move now — open the co-marketing ask before 09-08.
 
-run: github-forks-issues 4/4 hit (default-token gh api; GH_READ_PAT unset = normal single-key setup) - gh-search hit - x hit (xAI x_search http 200, window 08-29->09-01, 1 relevant post: known CultOS) - hn hit (0 new; Miroshark absent from HN) - reddit/web hit (0 new; towardsai piece 2026-04-12 + blocmates 2026-05-22 stale, r/Bankr_Bot MiroShark post undated - likely known-partner recap) - cleared as drive-bys: thanhdat3007-create/aeon + AwesomeAgentTools/aeon (0 ahead), amritmirch/aeon (31 "ahead" = all cron-state auto-commits), luis212/NovaShoal (keyword-stuffing, stays dropped)
+CultOS check-in is 7 days overdue at this point. worth a DM.
 
-🔗 https://github.com/aaronjmars/aeon-bd/blob/main/output/articles/bd-radar-2026-09-01.md
+run: github 4/4 hit · gh-search hit · x hit (first query too broad on bare "aeon", tightened + reran) · web hit. no source misses.

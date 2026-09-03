@@ -361,6 +361,28 @@
       "date_found": "2026-09-01",
       "first_seen": "2026-09-01",
       "url": "https://github.com/forumchen388-debug/aeon"
+    },
+    {
+      "key": "github:swarm-ai-research/swarm",
+      "class": "building",
+      "who": "swarm-ai-research/swarm (SWARM Team, owner rsavitt)",
+      "signal": "Academic risk-research project (arXiv 2604.19752, PyPI swarm-safety pkg) built a dedicated MiroShark bridge (swarm/bridges/miroshark/) for social-cascade scenario scaling since 05-11, used in a preregistered 23-run adverse-selection study; repo active, pushed today",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-09-03",
+      "first_seen": "2026-09-03",
+      "url": "https://github.com/swarm-ai-research/swarm"
+    },
+    {
+      "key": "web:pondstreetledger.com/aeon-agent-google-agents-cli-credential-leak",
+      "class": "mentioning",
+      "who": "The Pond Street Ledger (@ThePondStreet / @notenougheth)",
+      "signal": "Independent finance/crypto outlet published a corroborated story on Aeon's vuln-scanner catching a credential-leak flaw in Google's agents-cli (google/agents-cli issue #51, fixed in v1.4.1 08-24); cites aeon.fun/security + aeonfun/aeon directly",
+      "fit": 2,
+      "score": 4,
+      "date_found": "2026-09-03",
+      "first_seen": "2026-09-03",
+      "url": "https://www.pondstreetledger.com/aeon-agent-google-agents-cli-credential-leak-1-4-1"
     }
   ],
   "surfaced": [
@@ -399,6 +421,8 @@
     "github:keyurbodar/aeon",
     "web:agentskillshub.top/best/ai-agent-framework",
     "github:alexverify/eyebrow",
-    "github:forumchen388-debug/aeon"
+    "github:forumchen388-debug/aeon",
+    "github:swarm-ai-research/swarm",
+    "web:pondstreetledger.com/aeon-agent-google-agents-cli-credential-leak"
   ]
 }

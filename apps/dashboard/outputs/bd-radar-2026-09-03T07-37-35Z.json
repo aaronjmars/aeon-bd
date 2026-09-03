@@ -1,0 +1,291 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar",
+        "description": "2026-09-03 vs 09-01"
+      },
+      "children": [
+        "header-stats",
+        "sep1",
+        "discovery-section",
+        "sep2",
+        "updates-section",
+        "sep3",
+        "run-metadata"
+      ]
+    },
+    "header-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-new",
+        "stat-open",
+        "stat-total"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "2"
+      }
+    },
+    "stat-open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "36"
+      }
+    },
+    "stat-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Leads total",
+        "value": "38"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "discovery-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "building-discovery",
+        "mentioning-discovery"
+      ]
+    },
+    "building-discovery": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "building-header",
+        "building-desc",
+        "building-move"
+      ]
+    },
+    "building-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "building-label",
+        "building-repo",
+        "building-badge"
+      ]
+    },
+    "building-label": {
+      "type": "Text",
+      "props": {
+        "text": "building",
+        "variant": "lead"
+      }
+    },
+    "building-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "swarm-ai-research/swarm",
+        "href": "https://github.com/swarm-ai-research/swarm",
+        "source": "GitHub"
+      }
+    },
+    "building-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "new"
+      }
+    },
+    "building-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Academic risk-research team built a real bridge into miroshark — arXiv paper + PyPI package, preregistered 23-run study. not a meme fork, actual rigor 🦈"
+      }
+    },
+    "building-move": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "building-move-label",
+        "building-move-text"
+      ]
+    },
+    "building-move-label": {
+      "type": "Text",
+      "props": {
+        "text": "Move:",
+        "variant": "lead"
+      }
+    },
+    "building-move-text": {
+      "type": "Text",
+      "props": {
+        "text": "DM rsavitt, feature the study as an academic-rigor case study — flips if quiet 21d (research pace, not startup pace)"
+      }
+    },
+    "mentioning-discovery": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mentioning-header",
+        "mentioning-desc",
+        "mentioning-move"
+      ]
+    },
+    "mentioning-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "mentioning-label",
+        "mentioning-site",
+        "mentioning-badge"
+      ]
+    },
+    "mentioning-label": {
+      "type": "Text",
+      "props": {
+        "text": "mentioning",
+        "variant": "lead"
+      }
+    },
+    "mentioning-site": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pondstreetledger.com",
+        "href": "https://pondstreetledger.com"
+      }
+    },
+    "mentioning-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "new"
+      }
+    },
+    "mentioning-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Independent outlet ran a corroborated story — aeon's vuln-scanner caught a cred leak in google's own agents-cli before wide disclosure ⭐"
+      }
+    },
+    "mentioning-move": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mentioning-move-label",
+        "mentioning-move-text"
+      ]
+    },
+    "mentioning-move-label": {
+      "type": "Text",
+      "props": {
+        "text": "Move:",
+        "variant": "lead"
+      }
+    },
+    "mentioning-move-text": {
+      "type": "Text",
+      "props": {
+        "text": "Quote-thank it, feed to reddit-promo while fresh — by 09-10"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "updates-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "updates-header",
+        "update-alexverify",
+        "update-cultos"
+      ]
+    },
+    "updates-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Updates",
+        "level": "h3"
+      }
+    },
+    "update-alexverify": {
+      "type": "Text",
+      "props": {
+        "text": "alexverify/eyebrow — both PRs merged 09-01. their side's clear, our move now — open the co-marketing ask before 09-08."
+      }
+    },
+    "update-cultos": {
+      "type": "Alert",
+      "props": {
+        "title": "CultOS check-in",
+        "message": "7 days overdue. Worth a DM.",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run-header",
+        "run-sources"
+      ]
+    },
+    "run-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Run",
+        "level": "h4"
+      }
+    },
+    "run-sources": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub 4/4 hit · gh-search hit · X hit (first query too broad on bare \"aeon\", tightened + reran) · web hit. No source misses.",
+        "variant": "caption"
+      }
+    }
+  }
+}
