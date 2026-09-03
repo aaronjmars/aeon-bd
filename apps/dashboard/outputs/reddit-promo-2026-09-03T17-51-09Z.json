@@ -1,0 +1,236 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo",
+        "description": "2026-09-03"
+      },
+      "children": [
+        "header-stack",
+        "story-section",
+        "sep1",
+        "post1-stack",
+        "sep2",
+        "post2-stack",
+        "sep3",
+        "post3-stack"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "metric-text"
+      ]
+    },
+    "metric-text": {
+      "type": "Text",
+      "props": {
+        "text": "1d since last promo · 3 subs drafted"
+      }
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-heading",
+        "story-body",
+        "story-link"
+      ]
+    },
+    "story-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story-body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon's own account points agent builders at UsePodAI as a cheaper-inference option for their Aeon agents - one of the framework's existing auto-routed gateways, called out as a concrete cost lever"
+      }
+    },
+    "story-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/aeonframework/status/2095109716636577888"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1-badge",
+        "post1-title",
+        "post1-body",
+        "post1-github",
+        "post1-notes"
+      ]
+    },
+    "post1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "r/Agent_AI • agents"
+      }
+    },
+    "post1-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Why we let our agent framework choose its own inference provider",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=Why%20we%20let%20our%20agent%20framework%20choose%20its%20own%20inference%20provider",
+        "source": "r/Agent_AI"
+      }
+    },
+    "post1-body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon is an open-source agent framework - skills are just markdown files, it runs unattended on GitHub Actions, no approval loop. One decision that's paid off: we never hard-locked it to a single model provider.\n\nAeon auto-routes inference across multiple gateways - Anthropic direct, OpenRouter, Bankr, Venice, and UsePodAI - picked by whichever agent needs to run and what it costs. This week we flagged UsePodAI directly to builders as the cheaper option for running Aeon agents - a concrete cost lever, not a partnership announcement.\n\nThe mechanic behind it: an agent's cost profile isn't static. A skill running once a day on cron doesn't need the same inference tier as one debugging a live PR. Routing lets the framework pick per-job instead of the builder eating one flat bill.",
+        "variant": "body"
+      }
+    },
+    "post1-github": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post1-notes": {
+      "type": "Text",
+      "props": {
+        "text": "r/Agent_AI - agent-framework audience, compare on mechanics not marketing; disclose as the builder (\"I work on Aeon\"), check current self-promo ratio/flair before posting.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2-badge",
+        "post2-title",
+        "post2-body",
+        "post2-github",
+        "post2-notes"
+      ]
+    },
+    "post2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "r/AIPromptProgramming • agents"
+      }
+    },
+    "post2-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Every skill in our agent framework is a markdown file - the runtime decides which model pays for it",
+        "href": "https://www.reddit.com/r/AIPromptProgramming/submit?title=Every%20skill%20in%20our%20agent%20framework%20is%20a%20markdown%20file%20-%20the%20runtime%20decides%20which%20model%20pays%20for%20it",
+        "source": "r/AIPromptProgramming"
+      }
+    },
+    "post2-body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon is an open-source framework where each agent capability (\"skill\") is just a SKILL.md file - frontmatter for schedule/mode, then instructions in plain English. No SDK boilerplate per skill.\n\nWhat's less obvious: the framework doesn't hardcode which model runs a skill. It auto-routes inference across gateways (Anthropic direct, OpenRouter, Bankr, Venice, UsePodAI) based on cost and availability. This week we called out UsePodAI specifically as a cheaper option for builders running Aeon agents at volume - cron jobs add up fast if every run hits the priciest tier.\n\nPractical upshot: you write the skill once in markdown, the routing decides where the tokens actually get spent. You can still pin a specific gateway per skill if you want deterministic behavior.",
+        "variant": "body"
+      }
+    },
+    "post2-github": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post2-notes": {
+      "type": "Text",
+      "props": {
+        "text": "r/AIPromptProgramming - technical audience, keep the skills-as-markdown mechanic front and center, not the cost pitch; disclose as the builder, check self-promo ratio before posting.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3-badge",
+        "post3-title",
+        "post3-body",
+        "post3-github",
+        "post3-notes"
+      ]
+    },
+    "post3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "r/OpenSourceAI • open-source"
+      }
+    },
+    "post3-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open-source agent framework that lets you swap inference providers without touching code",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=Open-source%20agent%20framework%20that%20lets%20you%20swap%20inference%20providers%20without%20touching%20code",
+        "source": "r/OpenSourceAI"
+      }
+    },
+    "post3-body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon's an open-source (MIT) framework for running autonomous agents - no approval loop, skills defined as markdown files, scheduled via GitHub Actions cron. 714 stars, still shipping weekly.\n\nOne thing that's easy to miss on first read: it doesn't lock you to one model provider. Aeon auto-routes inference across several gateways under the hood - Anthropic direct, OpenRouter, Bankr, Venice, and UsePodAI - so a skill can run on whichever is cheapest or fastest for that job. This week the team flagged UsePodAI directly to builders as a lower-cost option for running Aeon agents.\n\nIf you've hit the \"every agent run costs real money\" wall, this is the actual fix - not a discount code, routing at the framework level.",
+        "variant": "body"
+      }
+    },
+    "post3-github": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub: aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post3-notes": {
+      "type": "Text",
+      "props": {
+        "text": "r/OpenSourceAI - lead with open-source + how it works, not the sell; disclose as the builder, check current self-promo ratio/flair before posting.",
+        "variant": "caption"
+      }
+    }
+  }
+}
