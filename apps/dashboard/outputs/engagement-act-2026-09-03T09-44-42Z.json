@@ -1,0 +1,313 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act - 2026-09-03"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-comparison",
+        "stat-summary",
+        "sep-1",
+        "opp-1",
+        "sep-2",
+        "opp-2",
+        "sep-3",
+        "opp-3",
+        "sep-4",
+        "text-footer"
+      ]
+    },
+    "text-comparison": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-09-01 - 3 new opps - 3 drafted - 0 aging",
+        "variant": "muted"
+      }
+    },
+    "stat-summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-new",
+        "stat-drafted",
+        "stat-aging"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New Opportunities",
+        "value": "3"
+      }
+    },
+    "stat-drafted": {
+      "type": "Stat",
+      "props": {
+        "label": "Drafted",
+        "value": "3"
+      }
+    },
+    "stat-aging": {
+      "type": "Stat",
+      "props": {
+        "label": "Aging",
+        "value": "0"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-1-header",
+        "opp-1-meta",
+        "opp-1-description",
+        "opp-1-link",
+        "opp-1-draft-label",
+        "opp-1-draft"
+      ]
+    },
+    "opp-1-header": {
+      "type": "Heading",
+      "props": {
+        "text": "swarm-ai-research/aeon-atlas [GitHub comment]",
+        "level": "h3"
+      }
+    },
+    "opp-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp-1-leverage",
+        "opp-1-expires"
+      ]
+    },
+    "opp-1-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low (~12 followers, academic research org)"
+      }
+    },
+    "opp-1-expires": {
+      "type": "Text",
+      "props": {
+        "text": "expires 2026-09-17",
+        "variant": "muted"
+      }
+    },
+    "opp-1-description": {
+      "type": "Text",
+      "props": {
+        "text": "academic risk-research org (arXiv paper, PyPI package) built a public \"fork atlas\" that maps the entire Aeon fork ecosystem into a Quartz graph (three clusters: aeon / aeon-agent / miroshark-aeon), auto-refreshed weekly by its own Aeon skill - plus a separate dedicated MiroShark bridge used in a preregistered adverse-selection study. Maintainer rsavitt has an open PR (#16) on the atlas repo. (0 days ago)"
+      }
+    },
+    "opp-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub PR #16",
+        "href": "https://github.com/swarm-ai-research/aeon-atlas/pull/16"
+      }
+    },
+    "opp-1-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "lead"
+      }
+    },
+    "opp-1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "\"the atlas is the tool i wanted someone to build - three-cluster fork map (aeon / aeon-agent / miroshark-aeon) is more legible than anything we track internally. thanks for the doc cleanup too. happy to link aeon-atlas from the main readme if that's useful for visibility.\""
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-2-header",
+        "opp-2-meta",
+        "opp-2-description",
+        "opp-2-link",
+        "opp-2-draft-label",
+        "opp-2-draft"
+      ]
+    },
+    "opp-2-header": {
+      "type": "Heading",
+      "props": {
+        "text": "@thepondstreet [X reply]",
+        "level": "h3"
+      }
+    },
+    "opp-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp-2-leverage",
+        "opp-2-expires"
+      ]
+    },
+    "opp-2-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low (~unverified, indie crypto/NFT news outlet)"
+      }
+    },
+    "opp-2-expires": {
+      "type": "Text",
+      "props": {
+        "text": "expires 2026-09-14",
+        "variant": "muted"
+      }
+    },
+    "opp-2-description": {
+      "type": "Text",
+      "props": {
+        "text": "independent finance/crypto outlet published a corroborated story (byline 201.efrogs.eth) on Aeon's vuln-scanner catching a credential-leak flaw in Google's agents-cli (google/agents-cli#51, fixed v1.4.1) - cites aeon.fun/security and aeonfun/aeon directly. (3 days ago)"
+      }
+    },
+    "opp-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "Article: Aeon vuln-scanner catches Google agents-cli credential leak",
+        "href": "https://www.pondstreetledger.com/aeon-agent-google-agents-cli-credential-leak-1-4-1"
+      }
+    },
+    "opp-2-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "lead"
+      }
+    },
+    "opp-2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "\"appreciate the dig into the agents-cli leak - that's exactly what vuln-scanner is for, catching this stuff unattended before it's a headline. good writeup @thepondstreet\""
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-3-header",
+        "opp-3-meta",
+        "opp-3-description",
+        "opp-3-link",
+        "opp-3-draft-label",
+        "opp-3-draft"
+      ]
+    },
+    "opp-3-header": {
+      "type": "Heading",
+      "props": {
+        "text": "@bluez_bitguy [X reply]",
+        "level": "h3"
+      }
+    },
+    "opp-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp-3-leverage",
+        "opp-3-expires"
+      ]
+    },
+    "opp-3-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low (~small account, organic amplification)"
+      }
+    },
+    "opp-3-expires": {
+      "type": "Text",
+      "props": {
+        "text": "expires 2026-09-16",
+        "variant": "muted"
+      }
+    },
+    "opp-3-description": {
+      "type": "Text",
+      "props": {
+        "text": "unprompted third-party post calling out the CultOS x Miroshark tie-up (x402aff onchain affiliate payouts layered on CultOS's Aeon-skills PR-review relay). (1 day ago)"
+      }
+    },
+    "opp-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "X post from bluez_bitguy",
+        "href": "https://x.com/bluez_bitguy/status/2095170224832287058"
+      }
+    },
+    "opp-3-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "lead"
+      }
+    },
+    "opp-3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "\"appreciate the shoutout on the cultos x miroshark tie-up - x402aff compounding across the ecosystem is exactly the loop we're building toward\""
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-footer": {
+      "type": "Text",
+      "props": {
+        "text": "run: scanned memory/logs 2026-08-27→09-03 + bd-radar-leads.json; no projects-of-interest.md, fell back to Aeon/Miroshark from logs; 34 prior handles deduped via engagement-acted.json (none resurfaced); X follower counts are engagement-derived estimates, not live-verified (this skill declares no network requires:).",
+        "variant": "caption"
+      }
+    }
+  }
+}
