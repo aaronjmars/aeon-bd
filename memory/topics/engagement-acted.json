@@ -34,6 +34,9 @@
     {"handle": "@UsePodAI", "acted_on": "2026-09-01"},
     {"handle": "@eyebrowCC", "acted_on": "2026-09-01"},
     {"handle": "forumchen388-debug/aeon", "acted_on": "2026-09-01"},
-    {"handle": "@adelbucetta", "acted_on": "2026-09-01"}
+    {"handle": "@adelbucetta", "acted_on": "2026-09-01"},
+    {"handle": "swarm-ai-research/aeon-atlas", "acted_on": "2026-09-03"},
+    {"handle": "@thepondstreet", "acted_on": "2026-09-03"},
+    {"handle": "@bluez_bitguy", "acted_on": "2026-09-03"}
   ]
 }
