@@ -1,57 +1,73 @@
-ℹ️ Reddit Promo - 2026-09-03
+ℹ️ Reddit Promo - 2026-09-04
 
-*Reddit Promo - 2026-09-03*
-1d since last promo · 3 subs drafted
+*Reddit Promo - 2026-09-04*
+1d since last promo · 4 subs drafted
 
-_Story:_ Aeon's own account points agent builders at UsePodAI as a cheaper-inference option for their Aeon agents - one of the framework's existing auto-routed gateways, called out as a concrete cost lever - https://x.com/aeonframework/status/2095109716636577888
-
----
-*r/Agent_AI* · archetype: agents
-*Title:* Why we let our agent framework choose its own inference provider
-*Body:*
-Aeon is an open-source agent framework - skills are just markdown files, it runs unattended on GitHub Actions, no approval loop. One decision that's paid off: we never hard-locked it to a single model provider.
-
-Aeon auto-routes inference across multiple gateways - Anthropic direct, OpenRouter, Bankr, Venice, and UsePodAI - picked by whichever agent needs to run and what it costs. This week we flagged UsePodAI directly to builders as the cheaper option for running Aeon agents - a concrete cost lever, not a partnership announcement.
-
-The mechanic behind it: an agent's cost profile isn't static. A skill running once a day on cron doesn't need the same inference tier as one debugging a live PR. Routing lets the framework pick per-job instead of the builder eating one flat bill.
-
-Repo's open, MIT: https://github.com/aeonfun/aeon
-
-Happy to go deeper on how the routing logic works if useful.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=Why%20we%20let%20our%20agent%20framework%20choose%20its%20own%20inference%20provider)
-_notes: r/Agent_AI - agent-framework audience, compare on mechanics not marketing; disclose as the builder ("I work on Aeon"), check current self-promo ratio/flair before posting._
+_Story:_ CultOS published its actual project stack this week - 5 projects, Aeon and Miroshark both named, alongside virtuals_io, gitlawb, reppo. Unprompted. - https://x.com/thecultos/status/2095901737345339655
 
 ---
-*r/AIPromptProgramming* · archetype: agents
-*Title:* Every skill in our agent framework is a markdown file - the runtime decides which model pays for it
+*r/MiroFish* · archetype: community
+*Title:* CultOS just published their stack. Miroshark's on it, unprompted.
 *Body:*
-Aeon is an open-source framework where each agent capability ("skill") is just a SKILL.md file - frontmatter for schedule/mode, then instructions in plain English. No SDK boilerplate per skill.
+CultOS runs a paid PR-review/audit service built entirely on Aeon skills. This week they published their actual stack — 5 projects total: Aeon, Miroshark, virtuals_io, gitlawb, reppo.
 
-What's less obvious: the framework doesn't hardcode which model runs a skill. It auto-routes inference across gateways (Anthropic direct, OpenRouter, Bankr, Venice, UsePodAI) based on cost and availability. This week we called out UsePodAI specifically as a cheaper option for builders running Aeon agents at volume - cron jobs add up fast if every run hits the priciest tier.
+Nobody asked them to name it. Nobody paid them to. That's the whole signal.
 
-Practical upshot: you write the skill once in markdown, the routing decides where the tokens actually get spent. You can still pin a specific gateway per skill if you want deterministic behavior.
+Quick context if you're new here: Miroshark spins up hundreds of grounded agents that argue on X and Reddit while trading a simulated AMM in the same run — belief drift across rounds, director mode to inject breaking news mid-sim, counterfactual branching (fork the timeline like git for a strategic decision). Runs for about $1, under 10 minutes, x402-native so agents can pay for their own inference.
 
-Repo's here, MIT licensed, worth a look at the skills folder if you want to see the shape: https://github.com/aeonfun/aeon
+Still early, still shipping in public. Repo's below if you want to see how the sim engine works or run your own.
 
-Ask away if you're building something similar.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/AIPromptProgramming composer](https://www.reddit.com/r/AIPromptProgramming/submit?title=Every%20skill%20in%20our%20agent%20framework%20is%20a%20markdown%20file%20-%20the%20runtime%20decides%20which%20model%20pays%20for%20it)
-_notes: r/AIPromptProgramming - technical audience, keep the skills-as-markdown mechanic front and center, not the cost pitch; disclose as the builder, check self-promo ratio before posting._
+*Link in post:* https://github.com/miroshark/miroshark
+*Post here:* [Open r/MiroFish composer](https://www.reddit.com/r/MiroFish/submit?title=CultOS%20just%20published%20their%20stack.%20Miroshark%27s%20on%20it%2C%20unprompted.)
+_notes: this is Miroshark's own community — direct update is normal here, still disclose "I built this," and keep it to one post this cycle._
 
 ---
-*r/OpenSourceAI* · archetype: open-source
-*Title:* Open-source agent framework that lets you swap inference providers without touching code
+*r/aiecosystem* · archetype: agents
+*Title:* Two unrelated groups catalogued the same agent stack this week - neither asked us
 *Body:*
-Aeon's an open-source (MIT) framework for running autonomous agents - no approval loop, skills defined as markdown files, scheduled via GitHub Actions cron. 714 stars, still shipping weekly.
+Two unrelated groups listed Aeon this week, days apart, no coordination between them.
 
-One thing that's easy to miss on first read: it doesn't lock you to one model provider. Aeon auto-routes inference across several gateways under the hood - Anthropic direct, OpenRouter, Bankr, Venice, and UsePodAI - so a skill can run on whichever is cheapest or fastest for that job. This week the team flagged UsePodAI directly to builders as a lower-cost option for running Aeon agents.
+BaseHubHB's weekly Base-ecosystem watchlist led with Aeon — their "700+ stars" figure checks out live via the GitHub API (715 stars, 256 forks as of today). Then CultOS — who already run a paid PR-review service on Aeon skills — published their full stack: 5 projects, Aeon and Miroshark both named, alongside virtuals_io, gitlawb, and reppo.
 
-If you've hit the "every agent run costs real money" wall, this is the actual fix - not a discount code, routing at the framework level.
+Neither post was solicited. That's the part worth flagging in an ecosystem sub — not virality, just two separate builders independently deciding Aeon belongs on their list.
 
-Code's here if you want to see how the gateway logic is wired: https://github.com/aeonfun/aeon
+For anyone who hasn't run into it: Aeon is skills-as-markdown running unattended on GitHub Actions — cron, chains, self-repair, no approval loop, MIT licensed. Site + repo below if you want to poke at how it's wired.
 
-Open to questions on the routing setup or anything else in the repo.
+*Link in post:* https://aeon.fun
+*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=Two%20unrelated%20groups%20catalogued%20the%20same%20agent%20stack%20this%20week%20-%20neither%20asked%20us)
+_notes: cites third-party validation of my own project — disclose "I work on Aeon" up top so it doesn't read as a neutral roundup._
+
+---
+*r/Ollama* · archetype: open-source
+*Title:* Own your agent stack: markdown skills + cron on GitHub Actions, no dashboard, no lock-in
+*Body:*
+If you're the type who'd rather run things yourself than trust a dashboard, the mechanic here might be interesting even if you never touch Aeon itself.
+
+An Aeon "skill" is just a markdown file — SKILL.md, plain instructions plus frontmatter for the schedule. No proprietary DSL, no hosted-only runtime. You commit it to a repo, GitHub Actions runs it on cron, and the agent just runs — no approval loop sitting between the trigger and the action.
+
+It self-repairs too: a health skill scores every run and files issues, repair skills open PRs to fix the broken ones. MIT licensed, 715 stars / 256 forks as of today.
+
+Not selling a platform — closer to "here's a pattern for owning your automation stack." Repo's below if the skills-as-markdown idea is useful to you even outside Aeon.
+
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=Open-source%20agent%20framework%20that%20lets%20you%20swap%20inference%20providers%20without%20touching%20code)
-_notes: r/OpenSourceAI - lead with open-source + how it works, not the sell; disclose as the builder, check current self-promo ratio/flair before posting._
+*Post here:* [Open r/Ollama composer](https://www.reddit.com/r/Ollama/submit?title=Own%20your%20agent%20stack%3A%20markdown%20skills%20%2B%20cron%20on%20GitHub%20Actions%2C%20no%20dashboard%2C%20no%20lock-in)
+_notes: this sub skews self-hosting and is allergic to vendor pitches — keep the crypto/x402 stuff out, lead with the open-source mechanic, disclose as builder if asked._
+
+---
+*r/CoolGithubProjects* · archetype: github
+*Title:* Aeon - autonomous agent framework, skills are markdown files, runs on GitHub Actions cron
+*Body:*
+What it is: an agent framework where every capability is a single markdown file (SKILL.md) — frontmatter sets the schedule, the body is the instructions. No dashboard, no proprietary config format.
+
+Why it's different: it runs unattended. GitHub Actions triggers each skill on cron, there's no approval loop between trigger and action, and a self-repair loop (health skill scores runs, repair skills open PRs) keeps things running without a human babysitting it.
+
+Proof it's not just us using it: CultOS built a paid PR-review/audit service entirely on Aeon skills and named it in their public stack this week alongside Miroshark and a few other projects — none of that was solicited.
+
+Stack: MIT licensed, 715 stars / 256 forks as of today. Repo's the whole pitch, linked below.
+
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20autonomous%20agent%20framework%2C%20skills%20are%20markdown%20files%2C%20runs%20on%20GitHub%20Actions%20cron)
+_notes: strict sub rule — title must stay "Aeon - <one-line description>", repo link is the entire point of the post, disclose as builder in the first comment if not obvious._
+
+---
+run: expires 2026-09-14 (story 0d old, 10d promo window); likes/star counts as of this run (aeonfun/aeon 715★/256 forks/MIT verified live via gh api); drafts only, nothing posted; seen-file +2 URLs.

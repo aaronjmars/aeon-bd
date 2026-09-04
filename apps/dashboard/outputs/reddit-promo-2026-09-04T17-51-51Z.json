@@ -1,0 +1,441 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-09-04"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "meta_header",
+        "story_section",
+        "sep1",
+        "post1_mirofish",
+        "sep2",
+        "post2_aiecosystem",
+        "sep3",
+        "post3_ollama",
+        "sep4",
+        "post4_coolgithub",
+        "sep5",
+        "footer_section"
+      ]
+    },
+    "meta_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "meta_text1",
+        "meta_text2"
+      ]
+    },
+    "meta_text1": {
+      "type": "Text",
+      "props": {
+        "text": "1d since last promo",
+        "variant": "body"
+      }
+    },
+    "meta_text2": {
+      "type": "Text",
+      "props": {
+        "text": "4 subs drafted",
+        "variant": "body"
+      }
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_heading",
+        "story_text",
+        "story_link"
+      ]
+    },
+    "story_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story_text": {
+      "type": "Text",
+      "props": {
+        "text": "CultOS published its actual project stack this week - 5 projects, Aeon and Miroshark both named, alongside virtuals_io, gitlawb, reppo. Unprompted.",
+        "variant": "body"
+      }
+    },
+    "story_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/thecultos/status/2095901737345339655",
+        "href": "https://x.com/thecultos/status/2095901737345339655"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post1_mirofish": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1_header",
+        "post1_title",
+        "post1_body",
+        "post1_link_section",
+        "post1_composer",
+        "post1_notes"
+      ]
+    },
+    "post1_header": {
+      "type": "Text",
+      "props": {
+        "text": "r/MiroFish · archetype: community",
+        "variant": "lead"
+      }
+    },
+    "post1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS just published their stack. Miroshark's on it, unprompted.",
+        "level": "h4"
+      }
+    },
+    "post1_body": {
+      "type": "Text",
+      "props": {
+        "text": "CultOS runs a paid PR-review/audit service built entirely on Aeon skills. This week they published their actual stack — 5 projects total: Aeon, Miroshark, virtuals_io, gitlawb, reppo.\n\nNobody asked them to name it. Nobody paid them to. That's the whole signal.\n\nQuick context if you're new here: Miroshark spins up hundreds of grounded agents that argue on X and Reddit while trading a simulated AMM in the same run — belief drift across rounds, director mode to inject breaking news mid-sim, counterfactual branching (fork the timeline like git for a strategic decision). Runs for about $1, under 10 minutes, x402-native so agents can pay for their own inference.\n\nStill early, still shipping in public. Repo's below if you want to see how the sim engine works or run your own.",
+        "variant": "body"
+      }
+    },
+    "post1_link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_link_label",
+        "post1_link_url"
+      ]
+    },
+    "post1_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post1_link_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/miroshark/miroshark",
+        "href": "https://github.com/miroshark/miroshark"
+      }
+    },
+    "post1_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/MiroFish composer",
+        "href": "https://www.reddit.com/r/MiroFish/submit?title=CultOS%20just%20published%20their%20stack.%20Miroshark%27s%20on%20it%2C%20unprompted."
+      }
+    },
+    "post1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: this is Miroshark's own community — direct update is normal here, still disclose \"I built this,\" and keep it to one post this cycle.",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post2_aiecosystem": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2_header",
+        "post2_title",
+        "post2_body",
+        "post2_link_section",
+        "post2_composer",
+        "post2_notes"
+      ]
+    },
+    "post2_header": {
+      "type": "Text",
+      "props": {
+        "text": "r/aiecosystem · archetype: agents",
+        "variant": "lead"
+      }
+    },
+    "post2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Two unrelated groups catalogued the same agent stack this week - neither asked us",
+        "level": "h4"
+      }
+    },
+    "post2_body": {
+      "type": "Text",
+      "props": {
+        "text": "Two unrelated groups listed Aeon this week, days apart, no coordination between them.\n\nBaseHubHB's weekly Base-ecosystem watchlist led with Aeon — their \"700+ stars\" figure checks out live via the GitHub API (715 stars, 256 forks as of today). Then CultOS — who already run a paid PR-review service on Aeon skills — published their full stack: 5 projects, Aeon and Miroshark both named, alongside virtuals_io, gitlawb, and reppo.\n\nNeither post was solicited. That's the part worth flagging in an ecosystem sub — not virality, just two separate builders independently deciding Aeon belongs on their list.\n\nFor anyone who hasn't run into it: Aeon is skills-as-markdown running unattended on GitHub Actions — cron, chains, self-repair, no approval loop, MIT licensed. Site + repo below if you want to poke at how it's wired.",
+        "variant": "body"
+      }
+    },
+    "post2_link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_link_label",
+        "post2_link_url"
+      ]
+    },
+    "post2_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post2_link_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "post2_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=Two%20unrelated%20groups%20catalogued%20the%20same%20agent%20stack%20this%20week%20-%20neither%20asked%20us"
+      }
+    },
+    "post2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: cites third-party validation of my own project — disclose \"I work on Aeon\" up top so it doesn't read as a neutral roundup.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post3_ollama": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3_header",
+        "post3_title",
+        "post3_body",
+        "post3_link_section",
+        "post3_composer",
+        "post3_notes"
+      ]
+    },
+    "post3_header": {
+      "type": "Text",
+      "props": {
+        "text": "r/Ollama · archetype: open-source",
+        "variant": "lead"
+      }
+    },
+    "post3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Own your agent stack: markdown skills + cron on GitHub Actions, no dashboard, no lock-in",
+        "level": "h4"
+      }
+    },
+    "post3_body": {
+      "type": "Text",
+      "props": {
+        "text": "If you're the type who'd rather run things yourself than trust a dashboard, the mechanic here might be interesting even if you never touch Aeon itself.\n\nAn Aeon \"skill\" is just a markdown file — SKILL.md, plain instructions plus frontmatter for the schedule. No proprietary DSL, no hosted-only runtime. You commit it to a repo, GitHub Actions runs it on cron, and the agent just runs — no approval loop sitting between the trigger and the action.\n\nIt self-repairs too: a health skill scores every run and files issues, repair skills open PRs to fix the broken ones. MIT licensed, 715 stars / 256 forks as of today.\n\nNot selling a platform — closer to \"here's a pattern for owning your automation stack.\" Repo's below if the skills-as-markdown idea is useful to you even outside Aeon.",
+        "variant": "body"
+      }
+    },
+    "post3_link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_link_label",
+        "post3_link_url"
+      ]
+    },
+    "post3_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post3_link_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post3_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Ollama composer",
+        "href": "https://www.reddit.com/r/Ollama/submit?title=Own%20your%20agent%20stack%3A%20markdown%20skills%20%2B%20cron%20on%20GitHub%20Actions%2C%20no%20dashboard%2C%20no%20lock-in"
+      }
+    },
+    "post3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: this sub skews self-hosting and is allergic to vendor pitches — keep the crypto/x402 stuff out, lead with the open-source mechanic, disclose as builder if asked.",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post4_coolgithub": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post4_header",
+        "post4_title",
+        "post4_body",
+        "post4_link_section",
+        "post4_composer",
+        "post4_notes"
+      ]
+    },
+    "post4_header": {
+      "type": "Text",
+      "props": {
+        "text": "r/CoolGithubProjects · archetype: github",
+        "variant": "lead"
+      }
+    },
+    "post4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon - autonomous agent framework, skills are markdown files, runs on GitHub Actions cron",
+        "level": "h4"
+      }
+    },
+    "post4_body": {
+      "type": "Text",
+      "props": {
+        "text": "What it is: an agent framework where every capability is a single markdown file (SKILL.md) — frontmatter sets the schedule, the body is the instructions. No dashboard, no proprietary config format.\n\nWhy it's different: it runs unattended. GitHub Actions triggers each skill on cron, there's no approval loop between trigger and action, and a self-repair loop (health skill scores runs, repair skills open PRs) keeps things running without a human babysitting it.\n\nProof it's not just us using it: CultOS built a paid PR-review/audit service entirely on Aeon skills and named it in their public stack this week alongside Miroshark and a few other projects — none of that was solicited.\n\nStack: MIT licensed, 715 stars / 256 forks as of today. Repo's the whole pitch, linked below.",
+        "variant": "body"
+      }
+    },
+    "post4_link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_link_label",
+        "post4_link_url"
+      ]
+    },
+    "post4_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post4_link_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post4_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CoolGithubProjects composer",
+        "href": "https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20autonomous%20agent%20framework%2C%20skills%20are%20markdown%20files%2C%20runs%20on%20GitHub%20Actions%20cron"
+      }
+    },
+    "post4_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Notes: strict sub rule — title must stay \"Aeon - <one-line description>\", repo link is the entire point of the post, disclose as builder in the first comment if not obvious.",
+        "variant": "muted"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "footer_text"
+      ]
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "Run: expires 2026-09-14 (story 0d old, 10d promo window); likes/star counts as of this run (aeonfun/aeon 715★/256 forks/MIT verified live via gh api); drafts only, nothing posted; seen-file +2 URLs.",
+        "variant": "caption"
+      }
+    }
+  }
+}
