@@ -1,0 +1,210 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "aeon-update",
+        "description": "Upstream sync 2026-09-04"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-date",
+        "stats-container",
+        "sep-1",
+        "heading-key",
+        "text-glm-resolution",
+        "sep-2",
+        "heading-clean",
+        "text-clean-merges",
+        "sep-3",
+        "heading-manual",
+        "stack-manual-items",
+        "sep-4",
+        "text-watermark",
+        "link-pr"
+      ]
+    },
+    "heading-date": {
+      "type": "Heading",
+      "props": {
+        "text": "synced 22 upstream commits → PR #89",
+        "level": "h2"
+      }
+    },
+    "stats-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-commits",
+        "stat-clean",
+        "stat-review"
+      ]
+    },
+    "stat-commits": {
+      "type": "Stat",
+      "props": {
+        "label": "Commits synced",
+        "value": "22"
+      }
+    },
+    "stat-clean": {
+      "type": "Stat",
+      "props": {
+        "label": "Files applied clean",
+        "value": "27"
+      }
+    },
+    "stat-review": {
+      "type": "Stat",
+      "props": {
+        "label": "Files need review",
+        "value": "12"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-key": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Resolution",
+        "level": "h3"
+      }
+    },
+    "text-glm-resolution": {
+      "type": "Text",
+      "props": {
+        "text": "The GLM-gateway conflict is dead. Last week's headache — our incident pin vs upstream's own routing — resolved itself now #77 landed. Upstream's new effort-pin was already in our copy. Merge was a no-op.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-clean": {
+      "type": "Heading",
+      "props": {
+        "text": "Clean Merges",
+        "level": "h3"
+      }
+    },
+    "text-clean-merges": {
+      "type": "Text",
+      "props": {
+        "text": "Eyebrow gate v0.4.2, feature + skill-health body updates. New PoC-gate scripts + tests for vuln-scanner.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-manual": {
+      "type": "Heading",
+      "props": {
+        "text": "Manual Review Needed (Low Urgency)",
+        "level": "h3"
+      }
+    },
+    "stack-manual-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-dependabot",
+        "text-dependabot",
+        "badge-workflow",
+        "text-workflow",
+        "badge-disabled",
+        "text-disabled"
+      ]
+    },
+    "badge-dependabot": {
+      "type": "Badge",
+      "props": {
+        "text": "dependabot.yml",
+        "variant": "outline"
+      }
+    },
+    "text-dependabot": {
+      "type": "Text",
+      "props": {
+        "text": "You already applied the same holds, only a comment differs. Skip it.",
+        "variant": "caption"
+      }
+    },
+    "badge-workflow": {
+      "type": "Badge",
+      "props": {
+        "text": "Workflow env blocks (aeon/ci-tests/messages)",
+        "variant": "outline"
+      }
+    },
+    "text-workflow": {
+      "type": "Text",
+      "props": {
+        "text": "Upstream added GLM_REASONING_EFFORT + the block-style model: scheduler fix (#1024). That fix doesn't affect us — our model overrides are single-line.",
+        "variant": "caption"
+      }
+    },
+    "badge-disabled": {
+      "type": "Badge",
+      "props": {
+        "text": "pr-review + vuln-scanner (disabled skills)",
+        "variant": "outline"
+      }
+    },
+    "text-disabled": {
+      "type": "Text",
+      "props": {
+        "text": "Deep divergence. Take upstream if you ever enable them. 4 of the conflicting skills are disabled here.",
+        "variant": "caption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-watermark": {
+      "type": "Text",
+      "props": {
+        "text": "Watermark advances to bf33365 on merge.",
+        "variant": "muted"
+      }
+    },
+    "link-pr": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #89",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/89",
+        "source": "GitHub"
+      }
+    }
+  }
+}

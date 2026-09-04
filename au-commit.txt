@@ -1,0 +1,5 @@
+aeon-update: sync upstream 3b4c5a3..bf33365
+
+22 upstream commits from aeonfun/aeon. 27 files applied cleanly (12 added, 11 updated, 4 three-way merged), 12 need manual review. Baseline advanced to bf33365.
+
+Headline: scripts/llm-gateway.sh resolved - last week's GLM-gateway conflict (our 04d56d5 pin vs upstream routing) is gone now PR#77 landed upstream's gateway; the effort-pin (dc1a975) was already present locally, merge is a content no-op.

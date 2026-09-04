@@ -1,16 +1,19 @@
-*aeon-update — 2026-09-01*
-synced 34 commits → PR #77
+ℹ️ aeon-update: 22 commits → PR #89
 
-Upstream `aeonfun/aeon` moved 8b8d719..3b4c5a3 (the window Monday's incident ate). 80 files applied clean, 8 need you — plus 2 old carryovers (heartbeat, memory-flush), unchanged.
+**aeon-update — 2026-09-04**
+synced 22 upstream commits → PR #89. 27 files applied clean, 12 need your eyes.
 
-The one that matters: **`scripts/llm-gateway.sh`**. Upstream shipped its own GLM routing — a80f70f (Claude AI Gateway arm) + 47d1a56 (tiered `GLM_MODEL_SONNET/OPUS/HAIKU` — flash for sonnet-tier, full model for opus-pinned). Your 04d56d5 pin is the same feature's other half: the effort-pinning. Merge = take their tiering, keep your effort exports. Five minutes, diff's in the PR body.
+the one that matters: **the GLM-gateway conflict is dead.** last week's headache — our incident pin vs upstream's own routing — resolved itself now #77 landed. upstream's new effort-pin was already in our copy. merge was a no-op.
 
-Also landed clean: api-gate exact-origin fix (#986, security), mcp-server single-flight queue (#973), telegram reply-to-previous-run (#995), xAI search retry (#989), envelope hard-fail (#987), new `cortx-reliability` skill.
+other clean 3-ways: eyebrow gate v0.4.2, feature + skill-health body updates. new PoC-gate scripts + tests for vuln-scanner.
 
-Two loose ends closed: `rightstack` + `skill-article` are in — the SHA-pinned eyebrow binary downloaded + verified this run, one rescan locked everything (0 criticals). `skill-health` merged 3-way clean, your scorer edits kept. Pending conflicts 11 → 10.
+manual (low urgency — 4 of the conflicting skills are disabled here):
+- `dependabot.yml` — you already applied the same holds, only a comment differs. skip it.
+- workflow env blocks (aeon/ci-tests/messages) — upstream added `GLM_REASONING_EFFORT` + the block-style `model:` scheduler fix (#1024). that fix doesn't affect us — our model overrides are single-line.
+- pr-review + vuln-scanner — disabled skills, deep divergence. take upstream if you ever enable them.
 
-(one for the canon backlog: upstream added cortx-reliability to skills.json but forgot its glyph — their own generate-skill-icons fails at HEAD. placeholder added here.)
+watermark advances to `bf33365` on merge.
 
-PR: https://github.com/aaronjmars/aeon-bd/pull/77
+PR: https://github.com/aaronjmars/aeon-bd/pull/89
 
-🔗 https://github.com/aaronjmars/aeon-bd/pull/77
+🔗 https://github.com/aaronjmars/aeon-bd/pull/89
