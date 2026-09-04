@@ -1,18 +1,28 @@
-ℹ️ Mention Radar
+Per the skill's self-consistency and notify gate (step 7), no `./notify` call is warranted — all projects are quiet and no GitHub star delta cleared the +5 threshold. Producing the final output now.
 
-*Mention Radar - 2026-09-02*
-vs 2026-08-30 - 0 new - 1 still-open - 1 quiet
+## Mention Radar — 2026-09-04
 
-MIROSHARK
-- Confusion @webringonline (since 2026-08-30): asked whether a sim reattaches or loses its handle if the desktop tab closes mid-run - reply already drafted by engagement-act (2026-08-31), pending send - https://x.com/webringonline/status/2093733257473065031
+*Mention Radar - 2026-09-04*
+vs 2026-09-02 - 0 new - 0 still-open - 0 dropped
+
+**AEON**
+QUIET — no mentions this run (covered: api/web) — re-check 2026-09-06
+
+**MIROSHARK**
+QUIET — no mentions this run (covered: api/web) — re-check 2026-09-06
 
 ENGAGEMENT OPPORTUNITIES
-- none new this cycle - webringonline draft above still awaiting send
+- none
 
-QUIET: aeon - no mentions this run (covered: api/web) - re-check 2026-09-04
+run: X_SOURCE=api · no source misses · stars aeon +1/since 09-02 (under threshold) · stars miroshark +0/since 09-02
 
-GITHUB
-- aeon: 713★ (+8 since 08-30) / 255 forks (+3) - crosses the +5-star notable threshold, no single attributable driver found in-window
-- miroshark: 1446★ (+2 since 08-30) / 298 forks (-1) - under threshold
+**Detail:**
+- X.AI `x_search` (grok-4-1-fast, `x_search` tool, window 2026-08-28→09-04) ran for both projects — HTTP 200 both times, zero third-party mentions matching discovery/confusion/friction/comparison/feature-request criteria. Excluded @aaronjmars, @aeonframework, @miroshark_.
+- WebSearch swept Reddit, HN, Product Hunt, blogs/newsletters, Farcaster for both project names + repo paths — only self-authored posts, repo listings, and forks turned up. No organic third-party discussion.
+- GitHub: `aeonfun/aeon` 714★/256 forks (+1★/+1 fork vs 09-02 — under the +5 notable threshold, not surfaced). `MiroShark/MiroShark` 1447★/298 forks (unchanged).
+- Carried item `@webringonline` (Miroshark, Confusion, first_seen 2026-08-30) aged out of the digest this run — the 09-02 log flagged it would age out next cycle if still unsent, and this run's X sweep didn't resurface it. It stays in `memory/topics/mention-radar-seen.json` for record but isn't counted as still-open.
+- `quiet_streak`: aeon 5→6, miroshark 1→2 — both now past the rule-9 drop bar, but tracking continues (core products, not opportunistic leads), consistent with how aeon's streak was already handled on 09-02.
+- Notify gate: all projects quiet, no GitHub delta ≥5 stars → **no notification sent** (`MENTION_RADAR_QUIET`).
 
-run: X_SOURCE=api (both targets, HTTP 200) · web sweep clean (Reddit/HN/PH/blogs/newsletters, incl. an OffSeq press piece and a MiroFish-fork-framed YouTube short - both already-seen/unverifiable-date, omitted as noise) · aeon quiet_streak=5 (past drop bar, digest-only, tracking continues) · miroshark quiet_streak=1
+## Summary
+Ran mention-radar for aeon and miroshark: zero third-party mentions on X (API, HTTP 200) or across the broader web this cycle; GitHub star deltas stayed under the notify threshold. Updated `memory/topics/mention-radar-seen.json` (quiet streaks) and appended a `### Mention Radar` section to `memory/logs/2026-09-04.md`, committed as `9f36bfc`. No `./notify` sent per the quiet-gate rule. Follow-up: none required — next check-in 2026-09-06.
