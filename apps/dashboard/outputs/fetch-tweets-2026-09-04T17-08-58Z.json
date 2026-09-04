@@ -1,0 +1,160 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-context",
+        "alert-thin-window",
+        "separator1",
+        "heading-signal1",
+        "tweet1-stack",
+        "separator2",
+        "heading-signal2",
+        "tweet2-stack",
+        "separator3",
+        "alert-noise-note"
+      ]
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-04)",
+        "variant": "muted"
+      }
+    },
+    "alert-thin-window": {
+      "type": "Alert",
+      "props": {
+        "message": "Thin, noisy window — OpenAI Codex's internal \"aeon-core\" persistent-agent codename flooded the search with same-name collisions; the one real signal is CultOS quietly widening its stack beyond Aeon + Miroshark.",
+        "type": "info"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-signal1": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Stack expands beyond Aeon + Miroshark",
+        "level": "h3"
+      }
+    },
+    "tweet1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1-card",
+        "tweet1-stats",
+        "tweet1-link"
+      ]
+    },
+    "tweet1-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "thecultos",
+        "text": "Lists $CULTOS's stack as five projects now, not two: @aeonframework (core dev framework), @miroshark_ (x402 affiliate pioneers), plus new names virtuals_io (agent economy rails), gitlawb (decentralized repos), reppo (pod-based) — first time CultOS has named non-Aeon/Miroshark stack partners publicly.",
+        "likes": 7,
+        "retweets": 2
+      }
+    },
+    "tweet1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2095901737345339655"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-signal2": {
+      "type": "Heading",
+      "props": {
+        "text": "2. Organic explainer of the product mechanics",
+        "level": "h3"
+      }
+    },
+    "tweet2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2-card",
+        "tweet2-stats",
+        "tweet2-link"
+      ]
+    },
+    "tweet2-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Amrit_Mirch",
+        "handle": "Amrit_Mirch",
+        "text": "Points to the aeon.fun transparency dashboard (treasury holdings over time, holder count), calls out MIT license, aeonfun/aeon repo, markdown skills, GitHub Actions runtime, full commit history — accurate technical description, no token-shill framing this time.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet2-stats": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Amrit_Mirch/status/2094710801156452435"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-noise-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Noise flagged",
+        "message": "An unrelated OpenAI Codex leak thread (@_DMontgomery40, @ntropiq, @grok) discusses a persistent-agent codename literally called \"aeon-core\" / \"nathree-aeon\" — not our product. Excluded, but flagging since it may pollute future keyword-search windows.",
+        "type": "info"
+      }
+    }
+  }
+}
