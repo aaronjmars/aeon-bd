@@ -1,34 +1,33 @@
 {
-  "baseline_sha": "3b4c5a3ff1d9846530e02ed5e6796a4a409d2674",
+  "baseline_sha": "bf33365164c5a8b50d49a0ed64a45521dbe96771",
   "upstream": "aeonfun/aeon",
-  "last_run": "2026-09-01",
-  "last_pr": "https://github.com/aaronjmars/aeon-bd/pull/77",
-  "applied": { "added": 19, "updated": 57, "merged": 4, "deleted": 0 },
+  "last_run": "2026-09-04",
+  "last_pr": "https://github.com/aaronjmars/aeon-bd/pull/89",
+  "applied": { "added": 12, "updated": 11, "merged": 4, "deleted": 0 },
   "pending_conflicts": [
     { "path": ".github/README.md", "reason": "operator-customized", "upstream_commits": ["9ea2a08", "b494610", "9e48e6a", "935965d", "bb8211f", "6a03d1c", "1a67ffb", "a80f70f"] },
-    { "path": ".github/workflows/aeon.yml", "reason": "operator-customized", "upstream_commits": ["90a4d34", "f72f823", "0b1dfde", "8cff4d0", "8cc45e4", "a59b691", "71fad7a", "a80f70f", "a10fd0f", "d28801b", "47d1a56"] },
-    { "path": ".github/workflows/ci-tests.yml", "reason": "operator-customized", "upstream_commits": ["6535c66", "f91b023", "5c766da", "8367e67", "a95f09e", "b0c3cb7", "ce8b641", "a59b691", "71fad7a", "792a880", "1924c4f", "a10fd0f", "8fcce1e"] },
-    { "path": ".github/workflows/messages.yml", "reason": "operator-customized", "upstream_commits": ["8cc45e4", "a80f70f"] },
-    { "path": "CHANGELOG.md", "reason": "operator-customized-append-region", "upstream_commits": ["b1d9079..8b8d719", "bb8211f", "a80f70f", "bb13088"] },
+    { "path": ".github/workflows/aeon.yml", "reason": "operator-customized (env-block narrowing) vs upstream GLM_REASONING_EFFORT wiring, block-style model: scheduler fix #1024, Foundry install for vuln-scanner, dispatch correlation ID, upload-artifact v7, PoC verdict capture", "upstream_commits": ["dc1a975", "c92fbfb", "66711d3", "6dc0ad1", "bf33365"] },
+    { "path": ".github/workflows/ci-tests.yml", "reason": "operator-customized", "upstream_commits": ["c92fbfb", "66711d3", "f3b3b29", "bd74379", "420dc85"] },
+    { "path": ".github/workflows/messages.yml", "reason": "operator-customized (env narrowing)", "upstream_commits": ["420dc85"] },
+    { "path": "CHANGELOG.md", "reason": "operator-customized-append-region", "upstream_commits": ["b1d9079..bf33365"] },
     { "path": "docs/skill-packs.md", "reason": "operator-customized", "upstream_commits": ["3c0ba70", "846cc73", "6a03d1c"] },
     { "path": "llms.txt", "reason": "add-add-collision-fork-local", "upstream_commits": ["9e48e6a", "86ffd45", "bb8211f", "a80f70f"] },
-    { "path": "scripts/llm-gateway.sh", "reason": "operator-customized (GLM gateway pin 04d56d5 vs upstream Claude-AI-Gateway GLM routing)", "upstream_commits": ["a80f70f", "47d1a56"] },
     { "path": "skills/heartbeat/SKILL.md", "reason": "operator-customized", "upstream_commits": ["0776bbb"] },
-    { "path": "skills/memory-flush/SKILL.md", "reason": "operator-customized", "upstream_commits": ["411bcfb", "0776bbb"] }
-  ],
-  "informational_divergences": [
-    { "path": ".claude/skills/aeon/SKILL.md", "note": "upstream modified; .claude/skills/aeon/ not tracked in this fork - kept absent" },
-    { "path": ".claude/skills/aeon/references/layout.md", "note": "upstream modified; not tracked in this fork - kept absent" },
-    { "path": ".claude/skills/aeon/references/mcp.md", "note": "upstream modified; not tracked in this fork - kept absent" },
-    { "path": ".claude/skills/aeon/references/secrets.md", "note": "upstream modified; not tracked in this fork - kept absent" },
-    { "path": ".claude/skills/aeon/references/skill-anatomy.md", "note": "upstream modified; not tracked in this fork - kept absent" },
-    { "path": "skills/deploy-uni-hook/SKILL.md", "note": "upstream modified; skill removed locally (not enabled) - kept removed" },
-    { "path": "skills/deploy-uni-hook/hook-deploy.sh", "note": "upstream modified; skill removed locally - kept removed" },
-    { "path": "skills/deploy-uni-hook/templates/*", "note": "upstream modified 5 template files; skill removed locally - kept removed" }
+    { "path": "skills/memory-flush/SKILL.md", "reason": "operator-customized", "upstream_commits": ["411bcfb", "0776bbb"] },
+    { "path": ".github/dependabot.yml", "reason": "near-trivial: operator already applied the same eslint/globals holds; only diff is a dating parenthetical", "upstream_commits": ["27a83d2"] },
+    { "path": "skills/pr-review/SKILL.md", "reason": "fork frontmatter (flat type:Skill) + aaronjmars/aeon repo naming vs upstream owner/repo#N single-PR scoping; skill disabled in aeon.yml", "upstream_commits": ["bf33365"] },
+    { "path": "skills/vuln-scanner/SKILL.md", "reason": "fork simplified copy (flat frontmatter, older osv-scanner path) vs upstream PoC-verification gate A4.5 + poc-smoke arm; skill disabled in aeon.yml", "upstream_commits": ["66711d3"] }
   ],
   "resolved_this_run": [
-    { "path": "skills/skill-health/SKILL.md", "how": "3-way CLEAN-MERGE (upstream's new edits disjoint from operator's scorer customization)" },
-    { "path": "skills/rightstack/", "how": "recovered - prior needs-eyebrowlock-scan deferral cleared by pinned v0.4.1 eyebrow scan this run" },
-    { "path": "skills/skill-article/", "how": "recovered - prior needs-eyebrowlock-scan deferral cleared by pinned v0.4.1 eyebrow scan this run" }
+    { "path": "scripts/llm-gateway.sh", "how": "3-way CLEAN-MERGE - last week's headline conflict (our GLM pin 04d56d5 vs upstream GLM gateway) resolved now PR#77 landed upstream's routing; only a cosmetic operator comment tweak remains, upstream's dc1a975 effort-pin applied" },
+    { "path": ".github/workflows/ci-skill-integrity.yml", "how": "3-way CLEAN-MERGE (upstream eyebrow v0.4.2 gate bump disjoint from operator edits)" },
+    { "path": "skills/feature/SKILL.md", "how": "3-way CLEAN-MERGE (upstream dispatch-correlation-ID handoff disjoint from fork frontmatter)" },
+    { "path": "skills/skill-health/SKILL.md", "how": "3-way CLEAN-MERGE (upstream critical-incident recovery detection #1018 disjoint from operator scorer customization)" }
+  ],
+  "informational_divergences": [
+    { "path": ".claude/skills/aeon/references/secrets.md", "note": "upstream modified; .claude/skills/aeon/ not tracked in this fork - kept absent" },
+    { "path": "skills/deploy-uni-hook/templates/*", "note": "upstream modified DeployHook.s.sol + Hook.t.sol; skill not tracked locally (not enabled) - kept absent" },
+    { "path": "skills/remotion/project/package-lock.json", "note": "upstream modified; skill not tracked locally - kept absent" },
+    { "path": "apps/*/package*.json (8 files)", "note": "upstream dependabot bumps already present locally via this fork's own dependabot (#88 etc.) - SKIP-synced, no action" }
   ]
 }
