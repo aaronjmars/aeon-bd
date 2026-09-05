@@ -1,8 +1,8 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-04T17:51:51Z",
+  "last_analyzed": "2026-09-05T17:51:18Z",
   "quality_score": 4,
-  "assessment": "Substantive and verifiable: surfaced concrete BD signal (CultOS building paid service on Aeon), drafted 4 tailored subreddit posts, verified all facts live via gh api, showed good judgment skipping risky candidates.",
+  "assessment": "Substantive, sourced, well-structured output with 4 subreddit-tailored drafts ready for posting; strong alignment with priority 1 (surface signal early) and priority 2 (engage where it compounds). Fact hygiene verified, copy-paste-ready, one-click links provided.",
   "flags": [],
   "avg_score": 3.94,
   "history": [
@@ -72,6 +72,10 @@
     },
     {
       "date": "2026-09-04",
+      "score": 4
+    },
+    {
+      "date": "2026-09-05",
       "score": 4
     }
   ]

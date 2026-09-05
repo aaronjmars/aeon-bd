@@ -1,73 +1,84 @@
-ℹ️ Reddit Promo - 2026-09-04
+ℹ️ Reddit Promo - 2026-09-05
 
-*Reddit Promo - 2026-09-04*
+*Reddit Promo - 2026-09-05*
 1d since last promo · 4 subs drafted
 
-_Story:_ CultOS published its actual project stack this week - 5 projects, Aeon and Miroshark both named, alongside virtuals_io, gitlawb, reppo. Unprompted. - https://x.com/thecultos/status/2095901737345339655
+_Story:_ Aeon accepted into OpenAI's Daybreak program - frontier cyber models get access to help secure more repos - https://x.com/aaronjmars/status/2095903024946295214
 
 ---
-*r/MiroFish* · archetype: community
-*Title:* CultOS just published their stack. Miroshark's on it, unprompted.
+*r/StartupMind* · archetype: startup
+*Title:* Aeon got accepted into OpenAI's Daybreak program this week
 *Body:*
-CultOS runs a paid PR-review/audit service built entirely on Aeon skills. This week they published their actual stack — 5 projects total: Aeon, Miroshark, virtuals_io, gitlawb, reppo.
+i've been building Aeon for months - an agent framework that runs unattended on GitHub Actions, no approval loops, self-repairs its own skills. this week OpenAI accepted it into their Daybreak program, which gives frontier cyber models access to help secure more repos.
 
-Nobody asked them to name it. Nobody paid them to. That's the whole signal.
+no funding round, no press release. just an acceptance and a new set of scanning capabilities to point at more open-source projects.
 
-Quick context if you're new here: Miroshark spins up hundreds of grounded agents that argue on X and Reddit while trading a simulated AMM in the same run — belief drift across rounds, director mode to inject breaking news mid-sim, counterfactual branching (fork the timeline like git for a strategic decision). Runs for about $1, under 10 minutes, x402-native so agents can pay for their own inference.
+separately, one of the teams building on top of us ($CULTOS) confirmed their next milestone is expanding their own security-audit service on top of Aeon specifically - didn't ask them to say that, just watched it happen: https://x.com/akathesmith/status/2095972809872978386
 
-Still early, still shipping in public. Repo's below if you want to see how the sim engine works or run your own.
+Aeon is AGPL-3.0-free-to-fork on the security-scanner side (core repo MIT, 715 stars), been running on GitHub Actions since day one so every run is public and verifiable - no black box.
 
-*Link in post:* https://github.com/miroshark/miroshark
-*Post here:* [Open r/MiroFish composer](https://www.reddit.com/r/MiroFish/submit?title=CultOS%20just%20published%20their%20stack.%20Miroshark%27s%20on%20it%2C%20unprompted.)
-_notes: this is Miroshark's own community — direct update is normal here, still disclose "I built this," and keep it to one post this cycle._
+link: https://aeon.fun
 
----
-*r/aiecosystem* · archetype: agents
-*Title:* Two unrelated groups catalogued the same agent stack this week - neither asked us
-*Body:*
-Two unrelated groups listed Aeon this week, days apart, no coordination between them.
+happy to answer anything about the harness, the autonomy model, or what Daybreak actually unlocks.
 
-BaseHubHB's weekly Base-ecosystem watchlist led with Aeon — their "700+ stars" figure checks out live via the GitHub API (715 stars, 256 forks as of today). Then CultOS — who already run a paid PR-review service on Aeon skills — published their full stack: 5 projects, Aeon and Miroshark both named, alongside virtuals_io, gitlawb, and reppo.
-
-Neither post was solicited. That's the part worth flagging in an ecosystem sub — not virality, just two separate builders independently deciding Aeon belongs on their list.
-
-For anyone who hasn't run into it: Aeon is skills-as-markdown running unattended on GitHub Actions — cron, chains, self-repair, no approval loop, MIT licensed. Site + repo below if you want to poke at how it's wired.
-
+(disclosure: I built this)
 *Link in post:* https://aeon.fun
-*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=Two%20unrelated%20groups%20catalogued%20the%20same%20agent%20stack%20this%20week%20-%20neither%20asked%20us)
-_notes: cites third-party validation of my own project — disclose "I work on Aeon" up top so it doesn't read as a neutral roundup._
+*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=Aeon%20got%20accepted%20into%20OpenAI%27s%20Daybreak%20program%20this%20week)
+_notes: founder audience rewards honesty over hype - disclose you're the builder, keep the traction number front and center, no flair required here._
 
 ---
-*r/Ollama* · archetype: open-source
-*Title:* Own your agent stack: markdown skills + cron on GitHub Actions, no dashboard, no lock-in
+*r/Agent_AI* · archetype: agents
+*Title:* Our agent framework just got accepted into OpenAI's Daybreak program (frontier cyber models helping secure repos)
 *Body:*
-If you're the type who'd rather run things yourself than trust a dashboard, the mechanic here might be interesting even if you never touch Aeon itself.
+Aeon got accepted into OpenAI's Daybreak program this week - access to frontier cyber models to help secure more open-source repos. no announcement fanfare, it just landed.
 
-An Aeon "skill" is just a markdown file — SKILL.md, plain instructions plus frontmatter for the schedule. No proprietary DSL, no hosted-only runtime. You commit it to a repo, GitHub Actions runs it on cron, and the agent just runs — no approval loop sitting between the trigger and the action.
+for context on what Aeon actually is: it's not a chatbot wrapper. skills are markdown files, it runs unattended on GitHub Actions (cron, chains, self-repair), and it writes/reviews/merges its own PRs with no human approval loop. every run is public - you can watch the actual traces, not just trust a claim.
 
-It self-repairs too: a health skill scores every run and files issues, repair skills open PRs to fix the broken ones. MIT licensed, 715 stars / 256 forks as of today.
+what's interesting about Daybreak specifically: it's aimed at making frontier models useful for defensive security work at scale. we already run vuln-scanner fleets that find and open real fix PRs on other people's repos. this is more model access to keep doing that, from a source we didn't have to build ourselves.
 
-Not selling a platform — closer to "here's a pattern for owning your automation stack." Repo's below if the skills-as-markdown idea is useful to you even outside Aeon.
+repo: https://github.com/aeonfun/aeon (MIT, 715 stars)
 
+genuinely curious what other agent-framework builders think programs like this mean for the space - happy to go deep on the autonomy/self-repair mechanics too.
+
+(disclosure: I built this)
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Ollama composer](https://www.reddit.com/r/Ollama/submit?title=Own%20your%20agent%20stack%3A%20markdown%20skills%20%2B%20cron%20on%20GitHub%20Actions%2C%20no%20dashboard%2C%20no%20lock-in)
-_notes: this sub skews self-hosting and is allergic to vendor pitches — keep the crypto/x402 stuff out, lead with the open-source mechanic, disclose as builder if asked._
+*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=Our%20agent%20framework%20just%20got%20accepted%20into%20OpenAI%27s%20Daybreak%20program%20%28frontier%20cyber%20models%20helping%20secure%20repos%29)
+_notes: technical audience, no vendor-vs-vendor trash talk - disclose builder status, this sub tolerates self-promo when the post actually teaches the mechanics._
 
 ---
-*r/CoolGithubProjects* · archetype: github
-*Title:* Aeon - autonomous agent framework, skills are markdown files, runs on GitHub Actions cron
+*r/lovingopensourceAI* · archetype: open-source
+*Title:* Our fully open-source (MIT) agent framework got accepted into OpenAI's Daybreak security program
 *Body:*
-What it is: an agent framework where every capability is a single markdown file (SKILL.md) — frontmatter sets the schedule, the body is the instructions. No dashboard, no proprietary config format.
+quick one: Aeon (the autonomous agent framework I've been building) got accepted into OpenAI's Daybreak program this week. it gives frontier cyber models access to help secure more open-source repos.
 
-Why it's different: it runs unattended. GitHub Actions triggers each skill on cron, there's no approval loop between trigger and action, and a self-repair loop (health skill scores runs, repair skills open PRs) keeps things running without a human babysitting it.
+the part I actually care about telling this sub: Aeon itself is MIT-licensed, 715 stars, and every single run is public on GitHub Actions - no "trust us" black box. skills are just markdown files. anyone can fork it, read exactly what it's doing, and see the commit history of an agent literally reviewing and merging its own PRs.
 
-Proof it's not just us using it: CultOS built a paid PR-review/audit service entirely on Aeon skills and named it in their public stack this week alongside Miroshark and a few other projects — none of that was solicited.
+on the security side specifically - we already run vuln-scanner fleets that find real exploits and open real fix PRs on other people's repos (Vercel, Alibaba, Perplexity have all gotten these). Daybreak adds more model access to keep doing that, faster.
 
-Stack: MIT licensed, 715 stars / 256 forks as of today. Repo's the whole pitch, linked below.
+repo: https://github.com/aeonfun/aeon
 
+if you're into open, verifiable AI infra instead of another closed SaaS wrapper, curious what you think.
+
+(disclosure: I'm the builder, not a neutral bystander)
 *Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20autonomous%20agent%20framework%2C%20skills%20are%20markdown%20files%2C%20runs%20on%20GitHub%20Actions%20cron)
-_notes: strict sub rule — title must stay "Aeon - <one-line description>", repo link is the entire point of the post, disclose as builder in the first comment if not obvious._
+*Post here:* [Open r/lovingopensourceAI composer](https://www.reddit.com/r/lovingopensourceAI/submit?title=Our%20fully%20open-source%20%28MIT%29%20agent%20framework%20got%20accepted%20into%20OpenAI%27s%20Daybreak%20security%20program)
+_notes: OSS-enthusiast crowd, builder disclosure expected and welcomed - lead with the license, standard self-promo etiquette applies._
 
 ---
-run: expires 2026-09-14 (story 0d old, 10d promo window); likes/star counts as of this run (aeonfun/aeon 715★/256 forks/MIT verified live via gh api); drafts only, nothing posted; seen-file +2 URLs.
+*r/AskVibecoders* · archetype: vibecoders
+*Title:* openai just accepted my agent framework into their security program lol
+*Body:*
+been vibe-coding on Aeon for a while (agents that run themselves on GitHub Actions, no babysitting) and this week OpenAI accepted it into their Daybreak program - basically frontier cyber models helping it find/fix security bugs in more repos.
+
+the wild part is it's not even a headline feature, it's a side effect of shipping consistently and running vuln-scanner fleets in public for months.
+
+also had a team building on top of us (CultOS) casually confirm they're expanding their own security-audit product on top of Aeon next - unprompted, found out from a tweet like everyone else: https://x.com/akathesmith/status/2095972809872978386
+
+it's open source (MIT) if you want to poke at it: https://github.com/aeonfun/aeon
+
+happy to help anyone trying to spin up their own instance - skills are just markdown files, not as scary as it sounds.
+
+(disclosure: I built this)
+*Link in post:* https://github.com/aeonfun/aeon
+*Post here:* [Open r/AskVibecoders composer](https://www.reddit.com/r/AskVibecoders/submit?title=openai%20just%20accepted%20my%20agent%20framework%20into%20their%20security%20program%20lol)
+_notes: casual sub, ask/show hybrid tone - disclose you built it, keep it light not corporate._

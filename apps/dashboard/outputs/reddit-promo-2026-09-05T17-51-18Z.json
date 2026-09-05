@@ -1,0 +1,394 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-09-05",
+        "description": "1d since last promo · 4 subs drafted"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "story_section",
+        "sep1",
+        "subreddit_1",
+        "sep2",
+        "subreddit_2",
+        "sep3",
+        "subreddit_3",
+        "sep4",
+        "subreddit_4"
+      ]
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_story",
+        "text_story",
+        "link_story"
+      ]
+    },
+    "heading_story": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "text_story": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon accepted into OpenAI's Daybreak program - frontier cyber models get access to help secure more repos"
+      }
+    },
+    "link_story": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/aaronjmars/status/2095903024946295214",
+        "href": "https://x.com/aaronjmars/status/2095903024946295214"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "subreddit_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sub1_header",
+        "sub1_title",
+        "sub1_body",
+        "sub1_link",
+        "sub1_composer",
+        "sub1_notes"
+      ]
+    },
+    "sub1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sub1_name",
+        "sub1_archetype"
+      ]
+    },
+    "sub1_name": {
+      "type": "Heading",
+      "props": {
+        "text": "r/StartupMind",
+        "level": "h3"
+      }
+    },
+    "sub1_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "secondary"
+      }
+    },
+    "sub1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon got accepted into OpenAI's Daybreak program this week",
+        "level": "h4"
+      }
+    },
+    "sub1_body": {
+      "type": "Text",
+      "props": {
+        "text": "i've been building Aeon for months - an agent framework that runs unattended on GitHub Actions, no approval loops, self-repairs its own skills. this week OpenAI accepted it into their Daybreak program, which gives frontier cyber models access to help secure more repos.\n\nno funding round, no press release. just an acceptance and a new set of scanning capabilities to point at more open-source projects.\n\nseparately, one of the teams building on top of us ($CULTOS) confirmed their next milestone is expanding their own security-audit service on top of Aeon specifically - didn't ask them to say that, just watched it happen: https://x.com/akathesmith/status/2095972809872978386\n\nAeon is AGPL-3.0-free-to-fork on the security-scanner side (core repo MIT, 715 stars), been running on GitHub Actions since day one so every run is public and verifiable - no black box.\n\nlink: https://aeon.fun\n\nhappy to answer anything about the harness, the autonomy model, or what Daybreak actually unlocks.\n\n(disclosure: I built this)",
+        "variant": "body"
+      }
+    },
+    "sub1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://aeon.fun",
+        "href": "https://aeon.fun",
+        "source": "Link in post"
+      }
+    },
+    "sub1_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=Aeon%20got%20accepted%20into%20OpenAI%27s%20Daybreak%20program%20this%20week"
+      }
+    },
+    "sub1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "founder audience rewards honesty over hype - disclose you're the builder, keep the traction number front and center, no flair required here.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "subreddit_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sub2_header",
+        "sub2_title",
+        "sub2_body",
+        "sub2_link",
+        "sub2_composer",
+        "sub2_notes"
+      ]
+    },
+    "sub2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sub2_name",
+        "sub2_archetype"
+      ]
+    },
+    "sub2_name": {
+      "type": "Heading",
+      "props": {
+        "text": "r/Agent_AI",
+        "level": "h3"
+      }
+    },
+    "sub2_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "sub2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Our agent framework just got accepted into OpenAI's Daybreak program (frontier cyber models helping secure repos)",
+        "level": "h4"
+      }
+    },
+    "sub2_body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon got accepted into OpenAI's Daybreak program this week - access to frontier cyber models to help secure more open-source repos. no announcement fanfare, it just landed.\n\nfor context on what Aeon actually is: it's not a chatbot wrapper. skills are markdown files, it runs unattended on GitHub Actions (cron, chains, self-repair), and it writes/reviews/merges its own PRs with no human approval loop. every run is public - you can watch the actual traces, not just trust a claim.\n\nwhat's interesting about Daybreak specifically: it's aimed at making frontier models useful for defensive security work at scale. we already run vuln-scanner fleets that find and open real fix PRs on other people's repos. this is more model access to keep doing that, from a source we didn't have to build ourselves.\n\nrepo: https://github.com/aeonfun/aeon (MIT, 715 stars)\n\ngenuinely curious what other agent-framework builders think programs like this mean for the space - happy to go deep on the autonomy/self-repair mechanics too.\n\n(disclosure: I built this)",
+        "variant": "body"
+      }
+    },
+    "sub2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "Link in post"
+      }
+    },
+    "sub2_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/Agent_AI composer",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=Our%20agent%20framework%20just%20got%20accepted%20into%20OpenAI%27s%20Daybreak%20program%20%28frontier%20cyber%20models%20helping%20secure%20repos%29"
+      }
+    },
+    "sub2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "technical audience, no vendor-vs-vendor trash talk - disclose builder status, this sub tolerates self-promo when the post actually teaches the mechanics.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "subreddit_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sub3_header",
+        "sub3_title",
+        "sub3_body",
+        "sub3_link",
+        "sub3_composer",
+        "sub3_notes"
+      ]
+    },
+    "sub3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sub3_name",
+        "sub3_archetype"
+      ]
+    },
+    "sub3_name": {
+      "type": "Heading",
+      "props": {
+        "text": "r/lovingopensourceAI",
+        "level": "h3"
+      }
+    },
+    "sub3_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "sub3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Our fully open-source (MIT) agent framework got accepted into OpenAI's Daybreak security program",
+        "level": "h4"
+      }
+    },
+    "sub3_body": {
+      "type": "Text",
+      "props": {
+        "text": "quick one: Aeon (the autonomous agent framework I've been building) got accepted into OpenAI's Daybreak program this week. it gives frontier cyber models access to help secure more open-source repos.\n\nthe part I actually care about telling this sub: Aeon itself is MIT-licensed, 715 stars, and every single run is public on GitHub Actions - no \"trust us\" black box. skills are just markdown files. anyone can fork it, read exactly what it's doing, and see the commit history of an agent literally reviewing and merging its own PRs.\n\non the security side specifically - we already run vuln-scanner fleets that find real exploits and open real fix PRs on other people's repos (Vercel, Alibaba, Perplexity have all gotten these). Daybreak adds more model access to keep doing that, faster.\n\nrepo: https://github.com/aeonfun/aeon\n\nif you're into open, verifiable AI infra instead of another closed SaaS wrapper, curious what you think.\n\n(disclosure: I'm the builder, not a neutral bystander)",
+        "variant": "body"
+      }
+    },
+    "sub3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "Link in post"
+      }
+    },
+    "sub3_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/lovingopensourceAI composer",
+        "href": "https://www.reddit.com/r/lovingopensourceAI/submit?title=Our%20fully%20open-source%20%28MIT%29%20agent%20framework%20got%20accepted%20into%20OpenAI%27s%20Daybreak%20security%20program"
+      }
+    },
+    "sub3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "OSS-enthusiast crowd, builder disclosure expected and welcomed - lead with the license, standard self-promo etiquette applies.",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "subreddit_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sub4_header",
+        "sub4_title",
+        "sub4_body",
+        "sub4_link",
+        "sub4_composer",
+        "sub4_notes"
+      ]
+    },
+    "sub4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sub4_name",
+        "sub4_archetype"
+      ]
+    },
+    "sub4_name": {
+      "type": "Heading",
+      "props": {
+        "text": "r/AskVibecoders",
+        "level": "h3"
+      }
+    },
+    "sub4_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "vibecoders",
+        "variant": "secondary"
+      }
+    },
+    "sub4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "openai just accepted my agent framework into their security program lol",
+        "level": "h4"
+      }
+    },
+    "sub4_body": {
+      "type": "Text",
+      "props": {
+        "text": "been vibe-coding on Aeon for a while (agents that run themselves on GitHub Actions, no babysitting) and this week OpenAI accepted it into their Daybreak program - basically frontier cyber models helping it find/fix security bugs in more repos.\n\nthe wild part is it's not even a headline feature, it's a side effect of shipping consistently and running vuln-scanner fleets in public for months.\n\nalso had a team building on top of us (CultOS) casually confirm they're expanding their own security-audit product on top of Aeon next - unprompted, found out from a tweet like everyone else: https://x.com/akathesmith/status/2095972809872978386\n\nit's open source (MIT) if you want to poke at it: https://github.com/aeonfun/aeon\n\nhappy to help anyone trying to spin up their own instance - skills are just markdown files, not as scary as it sounds.\n\n(disclosure: I built this)",
+        "variant": "body"
+      }
+    },
+    "sub4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon",
+        "source": "Link in post"
+      }
+    },
+    "sub4_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AskVibecoders composer",
+        "href": "https://www.reddit.com/r/AskVibecoders/submit?title=openai%20just%20accepted%20my%20agent%20framework%20into%20their%20security%20program%20lol"
+      }
+    },
+    "sub4_notes": {
+      "type": "Text",
+      "props": {
+        "text": "casual sub, ask/show hybrid tone - disclose you built it, keep it light not corporate.",
+        "variant": "caption"
+      }
+    }
+  }
+}
