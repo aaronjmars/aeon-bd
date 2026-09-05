@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-09-03T07:37:35Z",
+  "last_analyzed": "2026-09-05T07:32:49Z",
   "quality_score": 4,
-  "assessment": "Comprehensive BD sweep with 2 verified new leads, strong tracking discipline, actionable follow-ups aligned to operator priorities; all verifiable claims supported by fetches and GitHub verification.",
+  "assessment": "Well-executed BD radar with ranked leads, clear risk flagging (churn alerts, stalling PRs), and actionable next moves with decay windows—directly serves operator's #1 priority to surface signal early and flag before it hits the timeline.",
   "flags": [],
-  "avg_score": 4.11,
+  "avg_score": 4.1,
   "history": [
     {
       "date": "2026-08-21",
@@ -40,6 +40,10 @@
     },
     {
       "date": "2026-09-03",
+      "score": 4
+    },
+    {
+      "date": "2026-09-05",
       "score": 4
     }
   ]

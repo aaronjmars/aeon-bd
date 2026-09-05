@@ -1,0 +1,231 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar",
+        "description": "2026-09-05"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "subtitle-text",
+        "stats-grid",
+        "leads-stack",
+        "footer-text"
+      ]
+    },
+    "subtitle-text": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-09-03 - 2 new - 8 still-open - 40 leads total",
+        "variant": "muted"
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-new",
+        "stat-open",
+        "stat-total"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "2"
+      }
+    },
+    "stat-open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "8"
+      }
+    },
+    "stat-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Leads total",
+        "value": "40"
+      }
+    },
+    "leads-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "lead-1",
+        "lead-2",
+        "lead-3"
+      ]
+    },
+    "lead-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead-1-link",
+        "lead-1-meta",
+        "lead-1-desc",
+        "lead-1-action"
+      ]
+    },
+    "lead-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "atrium-lighthouse",
+        "href": "https://github.com/Atrium-Hermes/atrium-lighthouse",
+        "source": "Atrium-Hermes"
+      }
+    },
+    "lead-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "First seen 2026-09-05",
+        "variant": "caption"
+      }
+    },
+    "lead-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "known partner Atrium stood up a full standalone Aeon deployment under a rebrand, not a fork - custom scripts, pushed today",
+        "variant": "body"
+      }
+    },
+    "lead-1-action": {
+      "type": "Text",
+      "props": {
+        "text": "Move: DM @atriumhermes, check in on the rebuild - expires 09-19 (no push 14d)",
+        "variant": "muted"
+      }
+    },
+    "lead-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead-2-link",
+        "lead-2-meta",
+        "lead-2-desc",
+        "lead-2-action"
+      ]
+    },
+    "lead-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "truthlayer",
+        "href": "https://github.com/rohanthomas1202/truthlayer",
+        "source": "rohanthomas1202"
+      }
+    },
+    "lead-2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "First seen 2026-09-05",
+        "variant": "caption"
+      }
+    },
+    "lead-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "live 65-star arb scanner shipped a dedicated MiroShark client back in April, quiet since - never surfaced till now",
+        "variant": "body"
+      }
+    },
+    "lead-2-action": {
+      "type": "Text",
+      "props": {
+        "text": "Move: DM rohanthomas1202, ask if it's dead or paused - flips if no reply in 2 weeks",
+        "variant": "muted"
+      }
+    },
+    "lead-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead-3-header",
+        "lead-3-meta",
+        "lead-3-desc",
+        "lead-3-action"
+      ]
+    },
+    "lead-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "lead-3-badge",
+        "lead-3-link"
+      ]
+    },
+    "lead-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Churn alert",
+        "variant": "destructive"
+      }
+    },
+    "lead-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "@thecultos",
+        "href": "https://x.com/thecultos"
+      }
+    },
+    "lead-3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "First seen 2026-08-27",
+        "variant": "caption"
+      }
+    },
+    "lead-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "cultosdev's GitHub account is fully 404, 9 days after 'we choose Aeon' - was the week's top ecosystem proof point",
+        "variant": "body"
+      }
+    },
+    "lead-3-action": {
+      "type": "Text",
+      "props": {
+        "text": "Move: DM @thecultos directly, check if this is churn or a rebrand - expires 09-12",
+        "variant": "muted"
+      }
+    },
+    "footer-text": {
+      "type": "Text",
+      "props": {
+        "text": "run: github forks/issues ok · gh search ok · x_search http=200 · websearch ok · no source misses",
+        "variant": "caption"
+      }
+    }
+  }
+}

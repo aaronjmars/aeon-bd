@@ -1,16 +1,15 @@
-ℹ️ BD Radar — 2026-09-03
+ℹ️ BD Radar
 
-*BD Radar — 09-03*
-vs 09-01 · 2 new · 36 still-open · 38 leads total
+*BD Radar - 2026-09-05*
+vs 2026-09-03 - 2 new - 8 still-open - 40 leads total
 
-**building** `swarm-ai-research/swarm` (new): academic risk-research team built a real bridge into miroshark — arXiv paper + PyPI package, preregistered 23-run study. not a meme fork, actual rigor 🦈
-  move: DM rsavitt, feature the study as an academic-rigor case study — flips if quiet 21d (research pace, not startup pace)
+building Atrium-Hermes/atrium-lighthouse (first seen 2026-09-05): known partner Atrium stood up a full standalone Aeon deployment under a rebrand, not a fork - custom scripts, pushed today
+  move: DM @atriumhermes, check in on the rebuild - expires 09-19 (no push 14d)
 
-**mentioning** `pondstreetledger.com` (new): independent outlet ran a corroborated story — aeon's vuln-scanner caught a cred leak in google's own agents-cli before wide disclosure ⭐
-  move: quote-thank it, feed to reddit-promo while fresh — by 09-10
+building rohanthomas1202/truthlayer (first seen 2026-09-05): live 65-star arb scanner shipped a dedicated MiroShark client back in April, quiet since - never surfaced till now
+  move: DM rohanthomas1202, ask if it's dead or paused - flips if no reply in 2 weeks
 
-update: alexverify/eyebrow — both PRs merged 09-01. their side's clear, our move now — open the co-marketing ask before 09-08.
+building x:thecultos (first seen 2026-08-27, churn alert): cultosdev's GitHub account is fully 404, 9 days after "we choose Aeon" - was the week's top ecosystem proof point
+  move: DM @thecultos directly, check if this is churn or a rebrand - expires 09-12
 
-CultOS check-in is 7 days overdue at this point. worth a DM.
-
-run: github 4/4 hit · gh-search hit · x hit (first query too broad on bare "aeon", tightened + reran) · web hit. no source misses.
+run: github forks/issues ok · gh search ok · x_search http=200 · websearch ok · no source misses

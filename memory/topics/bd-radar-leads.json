@@ -383,6 +383,28 @@
       "date_found": "2026-09-03",
       "first_seen": "2026-09-03",
       "url": "https://www.pondstreetledger.com/aeon-agent-google-agents-cli-credential-leak-1-4-1"
+    },
+    {
+      "key": "github:Atrium-Hermes/atrium-lighthouse",
+      "class": "building",
+      "who": "Atrium-Hermes/atrium-lighthouse (Atrium, known ecosystem partner @atriumhermes)",
+      "signal": "Full standalone Aeon deployment under a rebrand ('lighthouse') - not a git fork, a from-scratch copy carrying aeon.yml/skills/memory/soul plus custom .atrium_parse.py, .scout-parse.py, setup-lighthouse.sh; live since 2026-06-02, pushed today",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-09-05",
+      "first_seen": "2026-09-05",
+      "url": "https://github.com/Atrium-Hermes/atrium-lighthouse"
+    },
+    {
+      "key": "github:rohanthomas1202/truthlayer",
+      "class": "building",
+      "who": "rohanthomas1202/truthlayer (EdgeTerminal, live cross-market arb scanner, 65 stars)",
+      "signal": "Deployed product (Railway+Vercel, live demo) shipped a dedicated MiroShark HTTP client (retries + error translation, phase 1 task 2/5) for arb signal; not previously surfaced despite shipping since 2026-04-18, quiet since 2026-04-20 (~4.5mo no push)",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-09-05",
+      "first_seen": "2026-09-05",
+      "url": "https://github.com/rohanthomas1202/truthlayer"
     }
   ],
   "surfaced": [
@@ -423,6 +445,8 @@
     "github:alexverify/eyebrow",
     "github:forumchen388-debug/aeon",
     "github:swarm-ai-research/swarm",
-    "web:pondstreetledger.com/aeon-agent-google-agents-cli-credential-leak"
+    "web:pondstreetledger.com/aeon-agent-google-agents-cli-credential-leak",
+    "github:Atrium-Hermes/atrium-lighthouse",
+    "github:rohanthomas1202/truthlayer"
   ]
 }
