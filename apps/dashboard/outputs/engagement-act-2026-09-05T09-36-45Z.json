@@ -1,0 +1,147 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "2026-09-05"
+      },
+      "children": [
+        "header",
+        "sep0",
+        "opp1_section",
+        "sep1",
+        "opp2_section",
+        "sep2",
+        "run_notes"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-09-03 - 2 new opps - 2 drafted - 0 aging",
+        "variant": "lead"
+      }
+    },
+    "sep0": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opp1_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_header",
+        "opp1_meta",
+        "opp1_what",
+        "opp1_link",
+        "opp1_draft"
+      ]
+    },
+    "opp1_header": {
+      "type": "Heading",
+      "props": {
+        "text": "@atriumhermes",
+        "level": "h3"
+      }
+    },
+    "opp1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "X DM · Leverage: low (~0 GitHub followers, known ecosystem partner) · Expires: 2026-09-19",
+        "variant": "caption"
+      }
+    },
+    "opp1_what": {
+      "type": "Text",
+      "props": {
+        "text": "Known partner Atrium stood up a full standalone Aeon deployment under a rebrand (\"atrium-lighthouse\") - not a fork, a from-scratch copy carrying aeon.yml/skills/memory/soul plus custom parse/scout scripts, live since 06-02 - but today's own commits show heartbeat, atrium-earnings, and atrium-scout crons all failing back to back. (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp1_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/Atrium-Hermes/atrium-lighthouse",
+        "href": "https://github.com/Atrium-Hermes/atrium-lighthouse"
+      }
+    },
+    "opp1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"saw atrium-lighthouse's cron log - heartbeat + atrium-earnings + atrium-scout all failing back to back today. rebrand looks clean otherwise, curious what broke - ping me if you want eyes on the skill configs\"",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opp2_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_header",
+        "opp2_meta",
+        "opp2_what",
+        "opp2_link",
+        "opp2_draft"
+      ]
+    },
+    "opp2_header": {
+      "type": "Heading",
+      "props": {
+        "text": "rohanthomas1202/truthlayer",
+        "level": "h3"
+      }
+    },
+    "opp2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub comment · Leverage: low (~3 followers, 65★ live product) · Expires: 2026-09-19",
+        "variant": "caption"
+      }
+    },
+    "opp2_what": {
+      "type": "Text",
+      "props": {
+        "text": "EdgeTerminal, a deployed cross-market arb scanner (live Railway+Vercel demo), shipped a dedicated MiroShark HTTP client back in April - retries, error translation, a sim_id migration, even a frontend button component. Genuine integration, no open PR/issue to reply on, quiet since 04-20. (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp2_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/rohanthomas1202/truthlayer",
+        "href": "https://github.com/rohanthomas1202/truthlayer"
+      }
+    },
+    "opp2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"the miroshark integration here goes deeper than most drive-bys - dedicated client with retries, a sim_id migration, even a MiroSharkButton component. how's the arb signal held up since launch?\"",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "run_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Run Summary",
+        "message": "Scanned memory/logs 2026-08-29→09-05 + bd-radar-leads.json (40 leads, 2 new today). No projects-of-interest.md found; fell back to Aeon/Miroshark from logs. 38 prior handles deduped via engagement-acted.json. @thecultos stayed blocked (cultosdev/aeon's GitHub account now fully 404 — operator decision). MiroShark#240/dan-and's going-cold flag held. hansj73/aeon + Muriel-Salvan/x_aeon_agents held again (fit 1, too early — standing call since 08-27). GitHub follower/star/PR-state verified live via gh api this run. X follower counts are engagement-derived estimates.",
+        "type": "info"
+      }
+    }
+  }
+}
