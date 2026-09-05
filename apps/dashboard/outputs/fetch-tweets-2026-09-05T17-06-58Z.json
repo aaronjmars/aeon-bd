@@ -1,0 +1,170 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark"
+      },
+      "children": [
+        "text-subtitle",
+        "text-editorial",
+        "sep1",
+        "heading-recognition",
+        "tweet1",
+        "link1",
+        "sep2",
+        "heading-cultos",
+        "tweet2",
+        "link2",
+        "tweet3",
+        "link3",
+        "sep3",
+        "heading-chatter",
+        "tweet4",
+        "link4",
+        "tweet5",
+        "link5"
+      ]
+    },
+    "text-subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-05)",
+        "variant": "caption"
+      }
+    },
+    "text-editorial": {
+      "type": "Text",
+      "props": {
+        "text": "OpenAI's Daybreak approval is the story — everything else is CultOS's continued x402 build-out plus routine trending-bot noise.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-recognition": {
+      "type": "Heading",
+      "props": {
+        "text": "Recognition & Momentum",
+        "level": "h2"
+      }
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "@aaronjmars",
+        "text": "Announces Aeon was accepted into OpenAI's Daybreak program, giving frontier cyber models access to help secure more repos.",
+        "likes": 52,
+        "retweets": 10
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2095903024946295214"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-cultos": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS x402 Build-Out",
+        "level": "h2"
+      }
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "akathesmith",
+        "handle": "@akathesmith",
+        "text": "Confirms CultOS is adopting Miroshark's x402aff and running its own open-source stack; next milestone is expanding $CULTOS security-audit services on top of $AEON.",
+        "likes": 6,
+        "retweets": 3
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/akathesmith/status/2095972809872978386"
+      }
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "@thecultos",
+        "text": "Offers a 10% revenue share on $CULTOS x402 requests routed through registered Base builder codes via Miroshark's x402aff.",
+        "likes": 6,
+        "retweets": 2
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2095924274100093253"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-chatter": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Chatter",
+        "level": "h2"
+      }
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "handle": "@AIonBase_",
+        "text": "Automated Bankr trending-bot recap lists $aeon among top-traded/trending Base tokens over the last 24h (routine bot mention, not organic signal).",
+        "likes": 19,
+        "retweets": 3
+      }
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2095867651612704777"
+      }
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "Official account teases a new \"agentic fight series\" on YouTube (@aeonframework vs bot).",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "link5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2095842801153884230"
+      }
+    }
+  }
+}
