@@ -501,7 +501,7 @@
           "owasp": "ASK-06",
           "file": "run.mjs",
           "line": 10,
-          "snippet": ".flatMap((key) =\u003e process.env[key] === undefined ? [] : [[key, process.env[key]]]),",
+          "snippet": ".flatMap((key) => process.env[key] === undefined ? [] : [[key, process.env[key]]]),",
           "explanation": "references sensitive credential or secret paths"
         }
       ],
@@ -1680,6 +1680,26 @@
       ],
       "contentHash": "sha256-a007b63e6ed5255fd62d39ed78dfa3bad9a20772f914e8d63115f4fadd508198",
       "discoveredFrom": "skills/aeon-update/SKILL.md"
+    },
+    {
+      "id": "9564d7b5bcc50cb4",
+      "tool": "aeon",
+      "scope": "project:.",
+      "type": "skill",
+      "name": "reddit-playbook",
+      "source": {
+        "kind": "local",
+        "ref": "skills/reddit-playbook"
+      },
+      "capabilities": {},
+      "files": [
+        {
+          "path": "SKILL.md",
+          "hash": "76719abe66ebb6d3e8799c265cb27e718f16cf16e01dfeb1c6496c269dbc00b7"
+        }
+      ],
+      "contentHash": "sha256-7e063543c00baf074a58a593a9a440be17ddac45309924b9fbf50c273daac1ad",
+      "discoveredFrom": "skills/reddit-playbook/SKILL.md"
     }
   ]
 }

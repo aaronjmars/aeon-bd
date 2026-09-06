@@ -123,6 +123,8 @@ skills:
   install-skill: { enabled: false, schedule: "workflow_dispatch" }
 
   send-email: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — compose + send a 1:1 email to a named recipient via Resend (general sibling of disclosure-emailer). var: "to=… | subject=… | about=…"
+  # --- Reddit (evidence-backed playbook; sibling of reddit-promo) ---
+  reddit-playbook: { enabled: true, schedule: "15 18 1/2 * *", var: "" } # every other day (odd days), 18:15 UTC - after fetch-tweets (17:00) and reddit-promo (17:45). Reads the daily fetch-tweets output, picks a content archetype (news-hook/question/milestone/contrarian/observer) BEFORE writing, keeps the product out of the title, backs claims with third-party links, routes strict subs to comments. Drafts only. var: r/Name,... | story:<url|kw> | archetype:A-E | dry-run.
   # --- Fallback (must be last) ---
   heartbeat: { enabled: true, schedule: "0 8 * * *" }
 
