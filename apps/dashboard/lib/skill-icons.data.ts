@@ -55,6 +55,7 @@ export const SKILL_ICONS: Record<string, string> = {
   "pr-review": "<circle cx='6' cy='6' r='3'/><path d='M6 9v12'/><circle cx='6' cy='18' r='0'/><path d='M13 6h1a2 2 0 0 1 2 2v3'/><path d='M12.5 17.5l2 2 4-4.5'/>",
   "pr-triage": "<path d='M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2.4 2.4 0 0 0 3.4 0l6.6-6.6a2.4 2.4 0 0 0 0-3.4z'/><circle cx='7.5' cy='7.5' r='1.3' fill='currentColor' stroke='none'/>",
   "price-alert": "<path d='M10.3 21a2 2 0 0 0 3.4 0'/><path d='M22 8c0-2.3-.8-4.3-2-6'/><path d='M3.3 15.3A1 1 0 0 0 4 17h16a1 1 0 0 0 .7-1.7C19.4 14 18 12.5 18 8A6 6 0 0 0 6 8c0 4.5-1.4 6-2.7 7.3'/><path d='M4 2C2.8 3.7 2 5.7 2 8'/>",
+  "reddit-playbook": "<path d='M8 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-2'/><path d='M9 3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z'/><path d='M8 11h8'/><path d='M8 15h5'/>",
   "reddit-promo": "<path d='M3 11v2a1 1 0 0 0 1 1h2l4 3.5a.8.8 0 0 0 1.3-.6V7.1a.8.8 0 0 0-1.3-.6L6 10H4a1 1 0 0 0-1 1z'/><path d='M16 9a4 4 0 0 1 0 6'/>",
   "remotion": "<rect x='2' y='3' width='20' height='18' rx='2'/><path d='M7 3v18M17 3v18'/><path d='M2 9h5M2 15h5M17 9h5M17 15h5'/><path d='M11 9.5l3 2.5-3 2.5z' fill='currentColor' stroke='none'/>",
   "reply-maker": "<path d='M9 17l-5-5 5-5'/><path d='M20 18v-2a4 4 0 0 0-4-4H4'/>",
