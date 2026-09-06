@@ -1,10 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-05T17:51:18Z",
+  "last_analyzed": "2026-09-06T17:52:40Z",
   "quality_score": 4,
-  "assessment": "Substantive, sourced, well-structured output with 4 subreddit-tailored drafts ready for posting; strong alignment with priority 1 (surface signal early) and priority 2 (engage where it compounds). Fact hygiene verified, copy-paste-ready, one-click links provided.",
+  "assessment": "Three tailored Reddit drafts sourced from real signals (AIonBase_ ecosystem pickup + svector_eth dogfooding trace), properly disclosed, community-tuned, with operational flagging—solid execution aligned to strategy.",
   "flags": [],
-  "avg_score": 3.94,
+  "avg_score": 3.95,
   "history": [
     {
       "date": "2026-08-20",
@@ -76,6 +76,10 @@
     },
     {
       "date": "2026-09-05",
+      "score": 4
+    },
+    {
+      "date": "2026-09-06",
       "score": 4
     }
   ]
