@@ -1,27 +1,27 @@
-ℹ️ Top Tweets — Aeon/Miroshark
+ℹ️ Fetch Tweets
 
-*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-05)*
-_OpenAI's Daybreak approval is the story — everything else is CultOS's continued x402 build-out plus routine trending-bot noise._
+*Top Tweets — Aeon + Miroshark (2026-09-06)*
+_Quiet weekend on volume — the real signal is dogfooding (a builder ran Astra through Aeon's Codex harness) and a Base ecosystem roundup naming Aeon's TaskMarket Delegate launch, against one unelaborated $AEON bear post._
 
-*Recognition & Momentum*
-1. x.com/aaronjmars — Announces Aeon was accepted into OpenAI's Daybreak program, giving frontier cyber models access to help secure more repos.
-Likes: 52 | RTs: 10 | Replies: 9
-[View tweet](https://x.com/aaronjmars/status/2095903024946295214)
+*Ecosystem Usage & Launches*
+1. x.com/AIonBase_ — Names Aeon's TaskMarket Delegate as one of this week's top Base AI launches, in the same roundup as flock_io — solid third-party visibility with real engagement.
+Likes: 25 | RTs: 3 | Replies: 6
+[View tweet](https://x.com/AIonBase_/status/2096295356128698778)
 
-*CultOS x402 Build-Out*
-2. x.com/akathesmith — Confirms CultOS is adopting Miroshark's x402aff and running its own open-source stack; next milestone is expanding $CULTOS security-audit services on top of $AEON.
-Likes: 6 | RTs: 3 | Replies: 0
-[View tweet](https://x.com/akathesmith/status/2095972809872978386)
+2. x.com/svector_eth — Concrete dogfooding: ran an agent (Astra) through Aeon on the Codex harness — first run failed pre-browser-launch, second run auto-wrote the fix + regression test and handed back for verification.
+Likes: 14 | RTs: 2 | Replies: 3
+[View tweet](https://x.com/svector_eth/status/2096183809389523003)
 
-3. x.com/thecultos — Offers a 10% revenue share on $CULTOS x402 requests routed through registered Base builder codes via Miroshark's x402aff.
-Likes: 6 | RTs: 2 | Replies: 0
-[View tweet](https://x.com/thecultos/status/2095924274100093253)
+*Team & Token Signal*
+3. x.com/aaronjmars — Frames the pitch as infra-first, not hype — "we need infrastructure to secure software at scale," tied directly to @aeonframework.
+Likes: 2 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/aaronjmars/status/2096377660691656953)
 
-*Market Chatter*
-4. x.com/AIonBase_ — Automated Bankr trending-bot recap lists $aeon among top-traded/trending Base tokens over the last 24h (routine bot mention, not organic signal).
-Likes: 19 | RTs: 3 | Replies: 7
-[View tweet](https://x.com/AIonBase_/status/2095867651612704777)
+4. x.com/thecultos — CultOS (known Aeon-stack partner) flags $AEON again with no elaboration — a mention, not a new claim.
+Likes: 3 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/thecultos/status/2096347431738687513)
 
-5. x.com/aeonframework — Official account teases a new "agentic fight series" on YouTube (@aeonframework vs bot).
-Likes: 1 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/aeonframework/status/2095842801153884230)
+*Criticism*
+5. x.com/xNovichok — Unelaborated bear call on $AEON, no reasoning given — isolated so far, worth watching for pickup.
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/xNovichok/status/2096305197593108627)

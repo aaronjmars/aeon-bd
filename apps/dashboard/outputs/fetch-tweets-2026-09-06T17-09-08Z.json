@@ -1,0 +1,289 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Fetch Tweets",
+        "description": "Top Tweets — Aeon + Miroshark (2026-09-06)"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-text",
+        "sep1",
+        "ecosystem-section",
+        "sep2",
+        "team-section",
+        "sep3",
+        "criticism-section"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet weekend on volume — the real signal is dogfooding (a builder ran Astra through Aeon's Codex harness) and a Base ecosystem roundup naming Aeon's TaskMarket Delegate launch, against one unelaborated $AEON bear post.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "ecosystem-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ecosystem-heading",
+        "ecosystem-stack"
+      ]
+    },
+    "ecosystem-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem Usage & Launches",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "ecosystem-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1-wrapper",
+        "tweet-2-wrapper"
+      ]
+    },
+    "tweet-1-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "text": "Names Aeon's TaskMarket Delegate as one of this week's top Base AI launches, in the same roundup as flock_io — solid third-party visibility with real engagement.",
+        "likes": 25,
+        "retweets": 3
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2096295356128698778"
+      },
+      "children": []
+    },
+    "tweet-2-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2",
+        "link-2"
+      ]
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "svector_eth",
+        "text": "Concrete dogfooding: ran an agent (Astra) through Aeon on the Codex harness — first run failed pre-browser-launch, second run auto-wrote the fix + regression test and handed back for verification.",
+        "likes": 14,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/svector_eth/status/2096183809389523003"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "team-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "team-heading",
+        "team-stack"
+      ]
+    },
+    "team-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Team & Token Signal",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "team-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-3-wrapper",
+        "tweet-4-wrapper"
+      ]
+    },
+    "tweet-3-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3",
+        "link-3"
+      ]
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "text": "Frames the pitch as infra-first, not hype — \"we need infrastructure to secure software at scale,\" tied directly to @aeonframework.",
+        "likes": 2,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2096377660691656953"
+      },
+      "children": []
+    },
+    "tweet-4-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-4",
+        "link-4"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "text": "CultOS (known Aeon-stack partner) flags $AEON again with no elaboration — a mention, not a new claim.",
+        "likes": 3,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2096347431738687513"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "criticism-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "criticism-heading",
+        "criticism-stack"
+      ]
+    },
+    "criticism-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Criticism",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "criticism-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-5-wrapper"
+      ]
+    },
+    "tweet-5-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-5",
+        "link-5"
+      ]
+    },
+    "tweet-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "xNovichok",
+        "text": "Unelaborated bear call on $AEON, no reasoning given — isolated so far, worth watching for pickup.",
+        "likes": 0,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link-5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/xNovichok/status/2096305197593108627"
+      },
+      "children": []
+    }
+  }
+}
