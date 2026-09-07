@@ -1,15 +1,24 @@
 ℹ️ BD Radar
 
-*BD Radar - 2026-09-05*
-vs 2026-09-03 - 2 new - 8 still-open - 40 leads total
+*BD Radar — 09-07*
+vs 09-05 — 6 new — 4 still-open — 46 leads total
 
-building Atrium-Hermes/atrium-lighthouse (first seen 2026-09-05): known partner Atrium stood up a full standalone Aeon deployment under a rebrand, not a fork - custom scripts, pushed today
-  move: DM @atriumhermes, check in on the rebuild - expires 09-19 (no push 14d)
+building MagIcKEarl/aeon (new): 151 commits ahead, shipped a new hyperliquid skill not in stock aeon — real authored code
+  move: offer to upstream the skill — expires 09-21, before it goes stale
 
-building rohanthomas1202/truthlayer (first seen 2026-09-05): live 65-star arb scanner shipped a dedicated MiroShark client back in April, quiet since - never surfaced till now
-  move: DM rohanthomas1202, ask if it's dead or paused - flips if no reply in 2 weeks
+building powerloom/aeon-skills (new): real datamarket protocol shipped a skill pack for aeon, quiet 3mo
+  move: DM powerloom, check if it's still live — flips if no reply in 2wk
 
-building x:thecultos (first seen 2026-08-27, churn alert): cultosdev's GitHub account is fully 404, 9 days after "we choose Aeon" - was the week's top ecosystem proof point
-  move: DM @thecultos directly, check if this is churn or a rebrand - expires 09-12
+building ryjin111/aeon-skill-pack-mythosforge + XIAOCUICUII/koc-growth-agent (new): two more quiet-but-real builds — a mythosforge ops pack and a china-market KOC tool rebuilt on miroshark
+  move: low-touch check-ins on both — flips if no reply in 2wk
 
-run: github forks/issues ok · gh search ok · x_search http=200 · websearch ok · no source misses
+forking Kodawari10/aeon (new): 29 commits ahead, running the full self-healing stack + wrote their own memory notes — real operator, not a drive-by
+  move: friendly check-in, good showcase candidate — expires 09-21
+
+integrating codexvritra/signa-skills (new): known partner expanded their miroshark skill into a full 10-skill suite
+  move: offer the catalog listing — expires 09-21
+
+⚠️ cultosdev still 404, 13 days since "we choose aeon" — 3rd flag, needs your DM not another bot notice
+⚠️ MiroShark#240 — 26d since any maintainer response, past SLA — merge or close
+
+run: github+x+web all clean, no source misses · hansj73/amritmirch both stuck in failing-heartbeat loops (low priority)

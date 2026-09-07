@@ -264,7 +264,7 @@
       "key": "github:hansj73/aeon",
       "class": "building",
       "who": "hansj73/aeon",
-      "signal": "Fresh fork (created Aug 26) already running its own cron - Telegram auto-commit, fetch-tweets success",
+      "signal": "Real dev happened 08-26/27 (fetch-tweets, narrative-tracker, watched-accounts config) but every commit since 08-28 through today 09-07 is a failing heartbeat/cron-state loop - 10d stuck, not fresh signal",
       "fit": 1,
       "score": 5,
       "date_found": "2026-08-27",
@@ -363,6 +363,72 @@
       "url": "https://github.com/forumchen388-debug/aeon"
     },
     {
+      "key": "github:MagIcKEarl/aeon",
+      "class": "building",
+      "who": "MagIcKEarl/aeon",
+      "signal": "Live fork, 151 commits ahead / 46 behind, enabled DeFi/forecasting/yield-farming/price-alert/self-improve skills and authored a new skills/hyperliquid/SKILL.md not present upstream (confirmed via contents API) - genuine skill authorship under heavy cron noise",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-09-07",
+      "first_seen": "2026-09-07",
+      "url": "https://github.com/MagIcKEarl/aeon"
+    },
+    {
+      "key": "github:powerloom/aeon-skills",
+      "class": "building",
+      "who": "powerloom/aeon-skills (Powerloom, decentralized data protocol)",
+      "signal": "Real org shipped a dedicated Powerloom datamarket skill pack for Aeon (powerloom-bds + install-into-aeon.sh + patch-aeon-fork.sh); live since 05-18, quiet since 06-04 (~3mo no push)",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-09-07",
+      "first_seen": "2026-09-07",
+      "url": "https://github.com/powerloom/aeon-skills"
+    },
+    {
+      "key": "github:ryjin111/aeon-skill-pack-mythosforge",
+      "class": "building",
+      "who": "ryjin111/aeon-skill-pack-mythosforge",
+      "signal": "Individual builder shipped read-only MythosForge ops-monitoring skills for Aeon; single-day build 05-25/26, quiet since (~3.5mo no push)",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-09-07",
+      "first_seen": "2026-09-07",
+      "url": "https://github.com/ryjin111/aeon-skill-pack-mythosforge"
+    },
+    {
+      "key": "github:XIAOCUICUII/koc-growth-agent",
+      "class": "building",
+      "who": "XIAOCUICUII/koc-growth-agent",
+      "signal": "Chinese-market KOC (influencer) growth-prediction AI system explicitly described as \"refactored based on MiroShark\" (根据MiroShark重构); shipped 05-05/06, quiet since (~4mo no push)",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-09-07",
+      "first_seen": "2026-09-07",
+      "url": "https://github.com/XIAOCUICUII/koc-growth-agent"
+    },
+    {
+      "key": "github:Kodawari10/aeon",
+      "class": "forking",
+      "who": "Kodawari10/aeon",
+      "signal": "Live instance, 29 commits ahead / 75 behind, enabled skill-health/skill-repair/memory-flush/monitor-polymarket/digest/reply-maker/pm-manipulation/mention-radar/write-tweet plus an authored operator-context memory note - deliberate curated buildout, not cron noise",
+      "fit": 3,
+      "score": 12,
+      "date_found": "2026-09-07",
+      "first_seen": "2026-09-07",
+      "url": "https://github.com/Kodawari10/aeon"
+    },
+    {
+      "key": "github:codexvritra/signa-skills",
+      "class": "integrating",
+      "who": "codexvritra (SIGNA, known ecosystem partner)",
+      "signal": "Same partner as known lead codexvritra/signa-miroshark-skills expanded to a full 10-skill SIGNA suite (bankr-launches/resolve, gitlawb-stats, miroshark-fire/stats, signa-broadcast/delegate/discover/inbox/message) - recontextualizes the earlier MiroShark-only integration as a broader shipped partner pack",
+      "fit": 3,
+      "score": 9,
+      "date_found": "2026-09-07",
+      "first_seen": "2026-09-07",
+      "url": "https://github.com/codexvritra/signa-skills"
+    },
+    {
       "key": "github:swarm-ai-research/swarm",
       "class": "building",
       "who": "swarm-ai-research/swarm (SWARM Team, owner rsavitt)",
@@ -447,6 +513,12 @@
     "github:swarm-ai-research/swarm",
     "web:pondstreetledger.com/aeon-agent-google-agents-cli-credential-leak",
     "github:Atrium-Hermes/atrium-lighthouse",
-    "github:rohanthomas1202/truthlayer"
+    "github:rohanthomas1202/truthlayer",
+    "github:MagIcKEarl/aeon",
+    "github:powerloom/aeon-skills",
+    "github:ryjin111/aeon-skill-pack-mythosforge",
+    "github:XIAOCUICUII/koc-growth-agent",
+    "github:Kodawari10/aeon",
+    "github:codexvritra/signa-skills"
   ]
 }

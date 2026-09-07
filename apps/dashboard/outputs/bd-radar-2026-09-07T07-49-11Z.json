@@ -1,0 +1,416 @@
+{
+  "root": "card-bd-radar",
+  "state": {},
+  "elements": {
+    "card-bd-radar": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar",
+        "description": "09-07 vs 09-05 — 6 new — 4 still-open — 46 leads total"
+      },
+      "children": [
+        "summary-stats",
+        "sep-1",
+        "opportunities-section",
+        "sep-2",
+        "warnings-section",
+        "sep-3",
+        "status-section"
+      ]
+    },
+    "summary-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-new",
+        "stat-still-open",
+        "stat-total"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "6"
+      }
+    },
+    "stat-still-open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "4"
+      }
+    },
+    "stat-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total leads",
+        "value": "46"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opportunities-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opp-1",
+        "opp-2",
+        "opp-3",
+        "opp-4",
+        "opp-5"
+      ]
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-1-header",
+        "opp-1-badge",
+        "opp-1-details",
+        "opp-1-move",
+        "opp-1-expires"
+      ]
+    },
+    "opp-1-header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MagIcKEarl/aeon",
+        "href": "https://github.com/MagIcKEarl/aeon",
+        "source": "GitHub"
+      }
+    },
+    "opp-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "default"
+      }
+    },
+    "opp-1-details": {
+      "type": "Text",
+      "props": {
+        "text": "151 commits ahead, shipped a new hyperliquid skill not in stock aeon — real authored code",
+        "variant": "body"
+      }
+    },
+    "opp-1-move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: offer to upstream the skill",
+        "variant": "lead"
+      }
+    },
+    "opp-1-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 09-21",
+        "variant": "secondary"
+      }
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-2-header",
+        "opp-2-badge",
+        "opp-2-details",
+        "opp-2-move",
+        "opp-2-timeline"
+      ]
+    },
+    "opp-2-header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "powerloom/aeon-skills",
+        "href": "https://github.com/powerloom/aeon-skills",
+        "source": "GitHub"
+      }
+    },
+    "opp-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "default"
+      }
+    },
+    "opp-2-details": {
+      "type": "Text",
+      "props": {
+        "text": "Real datamarket protocol shipped a skill pack for aeon, quiet 3 months",
+        "variant": "body"
+      }
+    },
+    "opp-2-move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: DM powerloom, check if it's still live",
+        "variant": "lead"
+      }
+    },
+    "opp-2-timeline": {
+      "type": "Badge",
+      "props": {
+        "text": "Flips if no reply in 2wk",
+        "variant": "secondary"
+      }
+    },
+    "opp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-3-header",
+        "opp-3-badge",
+        "opp-3-details",
+        "opp-3-move",
+        "opp-3-timeline"
+      ]
+    },
+    "opp-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-3-link1",
+        "opp-3-plus",
+        "opp-3-link2"
+      ]
+    },
+    "opp-3-link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ryjin111/aeon-skill-pack-mythosforge",
+        "href": "https://github.com/ryjin111/aeon-skill-pack-mythosforge",
+        "source": "GitHub"
+      }
+    },
+    "opp-3-plus": {
+      "type": "Text",
+      "props": {
+        "text": "+",
+        "variant": "caption"
+      }
+    },
+    "opp-3-link2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "XIAOCUICUII/koc-growth-agent",
+        "href": "https://github.com/XIAOCUICUII/koc-growth-agent",
+        "source": "GitHub"
+      }
+    },
+    "opp-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "default"
+      }
+    },
+    "opp-3-details": {
+      "type": "Text",
+      "props": {
+        "text": "Mythosforge ops pack and China-market KOC tool rebuilt on miroshark — two quiet-but-real builds",
+        "variant": "body"
+      }
+    },
+    "opp-3-move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: low-touch check-ins on both",
+        "variant": "lead"
+      }
+    },
+    "opp-3-timeline": {
+      "type": "Badge",
+      "props": {
+        "text": "Flips if no reply in 2wk",
+        "variant": "secondary"
+      }
+    },
+    "opp-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-4-header",
+        "opp-4-badge",
+        "opp-4-details",
+        "opp-4-move",
+        "opp-4-expires"
+      ]
+    },
+    "opp-4-header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Kodawari10/aeon",
+        "href": "https://github.com/Kodawari10/aeon",
+        "source": "GitHub"
+      }
+    },
+    "opp-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "forking",
+        "variant": "outline"
+      }
+    },
+    "opp-4-details": {
+      "type": "Text",
+      "props": {
+        "text": "29 commits ahead, running the full self-healing stack + wrote their own memory notes — real operator, not a drive-by",
+        "variant": "body"
+      }
+    },
+    "opp-4-move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: friendly check-in, good showcase candidate",
+        "variant": "lead"
+      }
+    },
+    "opp-4-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 09-21",
+        "variant": "secondary"
+      }
+    },
+    "opp-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-5-header",
+        "opp-5-badge",
+        "opp-5-details",
+        "opp-5-move",
+        "opp-5-expires"
+      ]
+    },
+    "opp-5-header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "codexvritra/signa-skills",
+        "href": "https://github.com/codexvritra/signa-skills",
+        "source": "GitHub"
+      }
+    },
+    "opp-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "integrating",
+        "variant": "default"
+      }
+    },
+    "opp-5-details": {
+      "type": "Text",
+      "props": {
+        "text": "Known partner expanded their miroshark skill into a full 10-skill suite",
+        "variant": "body"
+      }
+    },
+    "opp-5-move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: offer the catalog listing",
+        "variant": "lead"
+      }
+    },
+    "opp-5-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 09-21",
+        "variant": "secondary"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "warnings-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "warning-1",
+        "warning-2"
+      ]
+    },
+    "warning-1": {
+      "type": "Alert",
+      "props": {
+        "title": "cultosdev",
+        "message": "Still 404, 13 days since 'we choose aeon' — 3rd flag, needs your DM not another bot notice",
+        "type": "warning"
+      }
+    },
+    "warning-2": {
+      "type": "Alert",
+      "props": {
+        "title": "MiroShark#240",
+        "message": "26 days since any maintainer response, past SLA — merge or close",
+        "type": "error"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status-clean",
+        "status-low-priority"
+      ]
+    },
+    "status-clean": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub + X + web all clean, no source misses",
+        "variant": "body"
+      }
+    },
+    "status-low-priority": {
+      "type": "Text",
+      "props": {
+        "text": "hansj73/amritmirch stuck in failing-heartbeat loops (low priority)",
+        "variant": "caption"
+      }
+    }
+  }
+}
