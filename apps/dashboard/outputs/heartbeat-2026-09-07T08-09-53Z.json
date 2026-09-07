@@ -1,0 +1,169 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "⚠️ Heartbeat — 2026-09-07"
+      },
+      "children": [
+        "alert_watch",
+        "sep_1",
+        "heading_carryover",
+        "stack_carryover",
+        "sep_2",
+        "heading_status",
+        "stack_status"
+      ]
+    },
+    "alert_watch": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 WATCH",
+        "message": "`reddit-playbook` (enabled, debuted 2026-09-06) has zero entry in `memory/cron-state.json` despite completing a successful run yesterday (REDDIT_PLAYBOOK_OK, per its own log) — scheduler dispatch-tracking looks unwired for this skill. Worth a repair/scheduler check.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_carryover": {
+      "type": "Heading",
+      "props": {
+        "text": "Carryover (Already Flagged)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_carryover": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "carryover_1",
+        "carryover_2",
+        "carryover_3"
+      ]
+    },
+    "carryover_1": {
+      "type": "Text",
+      "props": {
+        "text": "`digest` unrecovered failure since 08-19",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "carryover_2": {
+      "type": "Text",
+      "props": {
+        "text": "6 open `health:` issues #71-76 (skill-repair disabled)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "carryover_3": {
+      "type": "Text",
+      "props": {
+        "text": "CultOS check-in overdue",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_status": {
+      "type": "Heading",
+      "props": {
+        "text": "Status",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_1",
+        "status_2",
+        "status_3",
+        "status_4"
+      ]
+    },
+    "status_1": {
+      "type": "Text",
+      "props": {
+        "text": "No open PRs",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "status_2": {
+      "type": "Text",
+      "props": {
+        "text": "No urgent issues",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "status_3": {
+      "type": "Text",
+      "props": {
+        "text": "No stuck/newly-failed skills",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "status_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "status_4_text1",
+        "status_4_link",
+        "status_4_text2"
+      ]
+    },
+    "status_4_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Status page:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "status_4_link": {
+      "type": "Link",
+      "props": {
+        "label": "docs/status.md",
+        "href": "docs/status.md"
+      },
+      "children": []
+    },
+    "status_4_text2": {
+      "type": "Text",
+      "props": {
+        "text": "updated (🟡 WATCH)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
