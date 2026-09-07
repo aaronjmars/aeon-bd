@@ -1,0 +1,245 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "aeon-update",
+        "description": "PR #91 — Synced 7 upstream commits with 14 clean files and 3 manual review items"
+      },
+      "children": [
+        "date-badge",
+        "summary-stats",
+        "sep-1",
+        "clean-section",
+        "sep-2",
+        "manual-section",
+        "sep-3",
+        "baseline-section",
+        "pr-link"
+      ]
+    },
+    "date-badge": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-07 ⭐",
+        "variant": "muted"
+      }
+    },
+    "summary-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-commits",
+        "stat-clean",
+        "stat-manual"
+      ]
+    },
+    "stat-commits": {
+      "type": "Stat",
+      "props": {
+        "label": "Upstream commits",
+        "value": "7"
+      }
+    },
+    "stat-clean": {
+      "type": "Stat",
+      "props": {
+        "label": "Files landed clean",
+        "value": "14"
+      }
+    },
+    "stat-manual": {
+      "type": "Stat",
+      "props": {
+        "label": "Need manual review",
+        "value": "3"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clean-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "clean-heading",
+        "clean-details"
+      ]
+    },
+    "clean-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Clean ✓",
+        "level": "h3"
+      }
+    },
+    "clean-details": {
+      "type": "Text",
+      "props": {
+        "text": "Dry-run explicit model selection, dev-loop verified-review receipts, send-email bounce preflight (check_email_bounces.py) + 5 tests. pr-review & send-email auto-merged 3-way — your fork edits kept. Last week's pr-review conflict resolved itself.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "manual-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "manual-heading",
+        "manual-items"
+      ]
+    },
+    "manual-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Manual Review Required (3)",
+        "level": "h3"
+      }
+    },
+    "manual-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "manual-1",
+        "manual-2",
+        "manual-3"
+      ]
+    },
+    "manual-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "text-1"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "aeon.yml",
+        "variant": "outline"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Upstream adds RESEND_API_KEY inject; only matters if you enable send-email",
+        "variant": "body"
+      }
+    },
+    "manual-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2",
+        "text-2"
+      ]
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "ci-tests.yml",
+        "variant": "outline"
+      }
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Two new test steps; the test files they call already landed clean here",
+        "variant": "body"
+      }
+    },
+    "manual-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-3",
+        "text-3"
+      ]
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "vuln-scanner SKILL",
+        "variant": "outline"
+      }
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "Bounded trufflehog scan vs our simplified fork; skill's disabled anyway",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "baseline-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "baseline-text",
+        "conflicts-text"
+      ]
+    },
+    "baseline-text": {
+      "type": "Text",
+      "props": {
+        "text": "Baseline moves to 21b82db on merge",
+        "variant": "body"
+      }
+    },
+    "conflicts-text": {
+      "type": "Text",
+      "props": {
+        "text": "11 old conflicts still parked",
+        "variant": "muted"
+      }
+    },
+    "pr-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #91",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/91",
+        "source": "GitHub"
+      }
+    }
+  }
+}

@@ -1,19 +1,18 @@
-ℹ️ aeon-update: 22 commits → PR #89
+ℹ️ aeon-update: PR #91
 
-**aeon-update — 2026-09-04**
-synced 22 upstream commits → PR #89. 27 files applied clean, 12 need your eyes.
+*aeon-update — 2026-09-07* ⭐
 
-the one that matters: **the GLM-gateway conflict is dead.** last week's headache — our incident pin vs upstream's own routing — resolved itself now #77 landed. upstream's new effort-pin was already in our copy. merge was a no-op.
+synced 7 upstream commits → PR #91. 14 files landed clean, 3 need your call.
 
-other clean 3-ways: eyebrow gate v0.4.2, feature + skill-health body updates. new PoC-gate scripts + tests for vuln-scanner.
+clean: dry-run explicit model selection, dev-loop verified-review receipts, send-email bounce preflight (`check_email_bounces.py`) + 5 tests. `pr-review` & `send-email` auto-merged 3-way — your fork edits kept. last week's `pr-review` conflict resolved itself.
 
-manual (low urgency — 4 of the conflicting skills are disabled here):
-- `dependabot.yml` — you already applied the same holds, only a comment differs. skip it.
-- workflow env blocks (aeon/ci-tests/messages) — upstream added `GLM_REASONING_EFFORT` + the block-style `model:` scheduler fix (#1024). that fix doesn't affect us — our model overrides are single-line.
-- pr-review + vuln-scanner — disabled skills, deep divergence. take upstream if you ever enable them.
+manual (3):
+- `aeon.yml` — upstream adds `RESEND_API_KEY` inject; only matters if you enable send-email
+- `ci-tests.yml` — two new test steps; the test files they call already landed clean here
+- `vuln-scanner` SKILL — bounded trufflehog scan vs our simplified fork; skill's disabled anyway
 
-watermark advances to `bf33365` on merge.
+baseline moves to `21b82db` on merge. 11 old conflicts still parked.
 
-PR: https://github.com/aaronjmars/aeon-bd/pull/89
+PR: https://github.com/aaronjmars/aeon-bd/pull/91
 
-🔗 https://github.com/aaronjmars/aeon-bd/pull/89
+🔗 https://github.com/aaronjmars/aeon-bd/pull/91
