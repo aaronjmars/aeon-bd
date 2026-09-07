@@ -1,0 +1,512 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo",
+        "description": "2026-09-07"
+      },
+      "children": [
+        "header-info",
+        "story-section",
+        "sep1",
+        "posts-stack",
+        "sep2",
+        "metadata-section"
+      ]
+    },
+    "header-info": {
+      "type": "Text",
+      "props": {
+        "text": "1d since last promo · 4 subs drafted",
+        "variant": "body"
+      }
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-label",
+        "story-text",
+        "story-link"
+      ]
+    },
+    "story-label": {
+      "type": "Text",
+      "props": {
+        "text": "Story:",
+        "variant": "lead"
+      }
+    },
+    "story-text": {
+      "type": "Text",
+      "props": {
+        "text": "Capminal ($CAPU) credits @aeonframework with a private security review that caught and fixed a live mint-curve pricing bug, shipped on Base with zero downtime",
+        "variant": "body"
+      }
+    },
+    "story-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/Capminal/status/2096968349028872581",
+        "href": "https://x.com/Capminal/status/2096968349028872581"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "posts-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "post1",
+        "sep-p1",
+        "post2",
+        "sep-p2",
+        "post3",
+        "sep-p3",
+        "post4"
+      ]
+    },
+    "post1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p1-header",
+        "p1-title",
+        "p1-body",
+        "p1-link1",
+        "p1-link2",
+        "p1-notes"
+      ]
+    },
+    "p1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-sub",
+        "p1-badge"
+      ]
+    },
+    "p1-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/OpenSourceAI",
+        "variant": "lead"
+      }
+    },
+    "p1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "p1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "An agent framework audited a live DeFi contract and shipped the fix - here is the actual mechanic",
+        "level": "h3"
+      }
+    },
+    "p1-body": {
+      "type": "Text",
+      "props": {
+        "text": "last week a project called Capminal had aeon run a private security review on their $CAPU vault contracts. it found a mint-curve pricing bug, fixed it, shipped live on Base - no storage changes, no downtime.\n\nwhat's interesting isn't the fix, it's how it happened: aeon's \"review a contract\" capability is a skill - a markdown file with instructions, running unattended on a cron via GitHub Actions. no approval loop, no human babysitting each step. the whole framework works this way: skills-as-markdown, self-repair when something breaks, public run traces so you can see what it actually did instead of trusting a changelog.\n\naeon is MIT-licensed, on GitHub. if you want to see what a skill file actually looks like, the repo has real examples, not toy ones.\n\nhappy to answer questions about how the review skill is structured or how the cron/dispatch model works.",
+        "variant": "body"
+      }
+    },
+    "p1-link1": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "p1-link2": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "p1-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-notes-text",
+        "p1-composer"
+      ]
+    },
+    "p1-notes-text": {
+      "type": "Text",
+      "props": {
+        "text": "post as the builder (\"I built this\"), not anonymously - r/OpenSourceAI tolerates self-promo when it's substantive/technical, keep the ratio in check.",
+        "variant": "caption"
+      }
+    },
+    "p1-composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/OpenSourceAI composer",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=An%20agent%20framework%20audited%20a%20live%20DeFi%20contract%20and%20shipped%20the%20fix%20-%20here%20is%20the%20actual%20mechanic"
+      }
+    },
+    "sep-p1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p2-header",
+        "p2-title",
+        "p2-body",
+        "p2-link1",
+        "p2-link2",
+        "p2-notes"
+      ]
+    },
+    "p2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p2-sub",
+        "p2-badge"
+      ]
+    },
+    "p2-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/aiecosystem",
+        "variant": "lead"
+      }
+    },
+    "p2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "p2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "A security-review agent skill just landed its first named audit-partner credit",
+        "level": "h3"
+      }
+    },
+    "p2-body": {
+      "type": "Text",
+      "props": {
+        "text": "Capminal ($CAPU) had aeon run a private security review on their vault contracts this week. the review caught a mint-curve pricing issue, aeon shipped the fix live on Base, no storage changes, no downtime.\n\nworth flagging for this sub specifically: this wasn't a one-off script someone wrote for Capminal. it's the same general-purpose skill running on a schedule for anyone who asks - autonomous review, unattended execution on GitHub Actions, self-repair if a step fails, a public trace of what it did. that's the axis aeon competes on vs most agent frameworks - not \"smarter model,\" but \"actually runs unattended and you can audit what it did after.\"\n\nsite's at https://aeon.fun if you want the transparency dashboard + how the skill system works.\n\ncurious what this sub's take is on autonomy vs. supervised-agent tradeoffs for something with real financial stakes like a contract audit.",
+        "variant": "body"
+      }
+    },
+    "p2-link1": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "p2-link2": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "p2-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2-notes-text",
+        "p2-composer"
+      ]
+    },
+    "p2-notes-text": {
+      "type": "Text",
+      "props": {
+        "text": "disclose as the builder (\"I work on Aeon\"), not a neutral observer - check the sub's self-promo flair requirement before posting.",
+        "variant": "caption"
+      }
+    },
+    "p2-composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=A%20security-review%20agent%20skill%20just%20landed%20its%20first%20named%20audit-partner%20credit"
+      }
+    },
+    "sep-p2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p3-header",
+        "p3-title",
+        "p3-body",
+        "p3-link1",
+        "p3-link2",
+        "p3-notes"
+      ]
+    },
+    "p3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p3-sub",
+        "p3-badge"
+      ]
+    },
+    "p3-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/StartupMind",
+        "variant": "lead"
+      }
+    },
+    "p3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "secondary"
+      }
+    },
+    "p3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "We just landed our first named security-audit credit as a startup",
+        "level": "h3"
+      }
+    },
+    "p3-body": {
+      "type": "Text",
+      "props": {
+        "text": "small traction update. a DeFi project (Capminal) had our framework run a private security review on their vault contracts. it found a real pricing bug, we fixed it, they shipped it live on Base with zero downtime - and credited us publicly, unprompted.\n\nthat's the first time a paid-for-real-stakes product used aeon for something that mattered and told people about it. not a testimonial we asked for, not a case study we wrote - they just tweeted it.\n\nbeen building aeon in public for a while (skills-as-markdown, self-healing agent framework, all open on GitHub) and this is the kind of proof point that actually moves the needle vs another feature announcement. site: https://aeon.fun\n\nhappy to talk through how we structured the review skill if anyone's building something adjacent.",
+        "variant": "body"
+      }
+    },
+    "p3-link1": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "p3-link2": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "p3-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3-notes-text",
+        "p3-composer"
+      ]
+    },
+    "p3-notes-text": {
+      "type": "Text",
+      "props": {
+        "text": "founder-voice disclosure (\"I'm the builder\") - keep it a traction story, not a pitch; StartupMind smells growth-hacky tone fast.",
+        "variant": "caption"
+      }
+    },
+    "p3-composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=We%20just%20landed%20our%20first%20named%20security-audit%20credit%20as%20a%20startup"
+      }
+    },
+    "sep-p3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p4-header",
+        "p4-title",
+        "p4-body",
+        "p4-link1",
+        "p4-link2",
+        "p4-notes"
+      ]
+    },
+    "p4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p4-sub",
+        "p4-badge"
+      ]
+    },
+    "p4-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/AskVibecoders",
+        "variant": "lead"
+      }
+    },
+    "p4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "vibecoders",
+        "variant": "secondary"
+      }
+    },
+    "p4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "My agent found and fixed a live contract bug this week, wild to watch",
+        "level": "h3"
+      }
+    },
+    "p4-body": {
+      "type": "Text",
+      "props": {
+        "text": "so I run an open-source agent framework (aeon) and one of its skills is \"run a security review.\" this week a project called Capminal actually used it on their $CAPU vault contracts. it found a mint-curve pricing issue, fixed it, shipped live on Base, no downtime. and they just... tweeted about it, unprompted.\n\nthe whole thing is a markdown file that runs on a schedule. no me sitting there approving each step. that part still feels a little unreal even though I built it.\n\nrepo's here if you want to see what the skill file looks like: https://github.com/aeonfun/aeon. it's genuinely just markdown + a cron.\n\nanyone else vibe-coded something that ended up doing real work like this? curious what other people are running unattended.",
+        "variant": "body"
+      }
+    },
+    "p4-link1": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "p4-link2": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "p4-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p4-notes-text",
+        "p4-composer"
+      ]
+    },
+    "p4-notes-text": {
+      "type": "Text",
+      "props": {
+        "text": "disclose you're the builder - keep it casual, this sub wants a \"look what happened\" story, not a pitch.",
+        "variant": "caption"
+      }
+    },
+    "p4-composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AskVibecoders composer",
+        "href": "https://www.reddit.com/r/AskVibecoders/submit?title=My%20agent%20found%20and%20fixed%20a%20live%20contract%20bug%20this%20week%2C%20wild%20to%20watch"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "meta-heading",
+        "meta-text",
+        "meta-gh-link"
+      ]
+    },
+    "meta-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Metadata",
+        "level": "h4"
+      }
+    },
+    "meta-text": {
+      "type": "Text",
+      "props": {
+        "text": "run: story 0d old, expires 2026-09-17 (10d promo window); Capminal's audit claim taken as-stated from their own tweet, no independent verification channel for the private-review detail (same sourcing caveat as prior partner-announcement stories); aeonfun/aeon verified live via gh api = 717★/257 forks/MIT. cadence note: 1d since last REDDIT_PROMO_OK (2026-09-06) - reddit-promo has run daily/near-daily since 08-20, flagging per the standing cadence-watch item in MEMORY.md.",
+        "variant": "caption"
+      }
+    },
+    "meta-gh-link": {
+      "type": "Link",
+      "props": {
+        "label": "Twitter: https://x.com/Capminal/status/2096968349028872581",
+        "href": "https://x.com/Capminal/status/2096968349028872581"
+      }
+    }
+  }
+}
