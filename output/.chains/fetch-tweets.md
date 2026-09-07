@@ -1,27 +1,14 @@
-ℹ️ Fetch Tweets
+ℹ️ Top Tweets — Aeon/Miroshark
 
-*Top Tweets — Aeon + Miroshark (2026-09-06)*
-_Quiet weekend on volume — the real signal is dogfooding (a builder ran Astra through Aeon's Codex harness) and a Base ecosystem roundup naming Aeon's TaskMarket Delegate launch, against one unelaborated $AEON bear post._
+*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-07)*
+_Quiet day dominated by one real story — Capminal shipped a live security fix after an @aeonframework audit — plus a lone, unamplified FUD burst._
 
-*Ecosystem Usage & Launches*
-1. x.com/AIonBase_ — Names Aeon's TaskMarket Delegate as one of this week's top Base AI launches, in the same roundup as flock_io — solid third-party visibility with real engagement.
-Likes: 25 | RTs: 3 | Replies: 6
-[View tweet](https://x.com/AIonBase_/status/2096295356128698778)
+*Capminal x Aeon security review*
+1. x.com/Capminal — Capminal announces @aeonframework ran a private security review of the $CAPU vault contracts, found and fixed a mint-curve pricing issue, live on Base — no storage changes, no downtime. A real audit-partner credit, not just a mention.
+Likes: 12 | RTs: 3 | Replies: 4
+[View tweet](https://x.com/Capminal/status/2096968349028872581)
 
-2. x.com/svector_eth — Concrete dogfooding: ran an agent (Astra) through Aeon on the Codex harness — first run failed pre-browser-launch, second run auto-wrote the fix + regression test and handed back for verification.
-Likes: 14 | RTs: 2 | Replies: 3
-[View tweet](https://x.com/svector_eth/status/2096183809389523003)
-
-*Team & Token Signal*
-3. x.com/aaronjmars — Frames the pitch as infra-first, not hype — "we need infrastructure to secure software at scale," tied directly to @aeonframework.
-Likes: 2 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/aaronjmars/status/2096377660691656953)
-
-4. x.com/thecultos — CultOS (known Aeon-stack partner) flags $AEON again with no elaboration — a mention, not a new claim.
-Likes: 3 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/thecultos/status/2096347431738687513)
-
-*Criticism*
-5. x.com/xNovichok — Unelaborated bear call on $AEON, no reasoning given — isolated so far, worth watching for pickup.
+*Criticism/FUD*
+2. x.com/xNovichok — Posted two back-to-back attacks on $aeon ("garbage farm larp" / "piece of shit garbage") 13 seconds apart. Zero engagement, no pickup so far.
 Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/xNovichok/status/2096305197593108627)
+[View tweet](https://x.com/xNovichok/status/2096996869377245677)

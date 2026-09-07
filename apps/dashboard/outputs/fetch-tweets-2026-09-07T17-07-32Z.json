@@ -1,0 +1,118 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark",
+        "description": "Quiet day dominated by one real story — Capminal shipped a live security fix after an @aeonframework audit — plus a lone, unamplified FUD burst."
+      },
+      "children": [
+        "subtitle",
+        "sep1",
+        "heading1",
+        "tweet1",
+        "replies1",
+        "link1",
+        "sep2",
+        "heading2",
+        "tweet2",
+        "replies2",
+        "link2"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-07)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Capminal x Aeon security review",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Capminal",
+        "handle": "Capminal",
+        "text": "Capminal announces @aeonframework ran a private security review of the $CAPU vault contracts, found and fixed a mint-curve pricing issue, live on Base — no storage changes, no downtime. A real audit-partner credit, not just a mention.",
+        "likes": 12,
+        "retweets": 3
+      },
+      "children": []
+    },
+    "replies1": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Capminal/status/2096968349028872581"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Criticism/FUD",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "xNovichok",
+        "handle": "xNovichok",
+        "text": "Posted two back-to-back attacks on $aeon (\"garbage farm larp\" / \"piece of shit garbage\") 13 seconds apart. Zero engagement, no pickup so far.",
+        "likes": 0,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "replies2": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/xNovichok/status/2096996869377245677"
+      },
+      "children": []
+    }
+  }
+}
