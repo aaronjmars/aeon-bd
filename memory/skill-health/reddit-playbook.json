@@ -1,13 +1,17 @@
 {
   "skill": "reddit-playbook",
-  "last_analyzed": "2026-09-06T15:55:23Z",
+  "last_analyzed": "2026-09-07T18:31:32Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced Reddit drafts with specific verified claims (PR #1001/#1002, merged 09-01, eyebrow 8★), tailored to each subreddit's audience, and actionable with one-click URLs and re-measure schedule; aligned to ecosystem-growth strategy but story age (5 days at posting) and thin signal window reduce impact ceiling.",
+  "assessment": "Thorough filtering analysis with specific tweet IDs and transparent reasoning; correctly concluded no fresh promotable items and properly skipped low-signal posting per skill rules.",
   "flags": [],
   "avg_score": 4,
   "history": [
     {
       "date": "2026-09-06",
+      "score": 4
+    },
+    {
+      "date": "2026-09-07",
       "score": 4
     }
   ]

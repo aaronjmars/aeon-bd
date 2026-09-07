@@ -92,3 +92,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-07,aeon-update,claude-opus-4-8,5089,38829,4395674,90671
 2026-09-07,fetch-tweets,claude-sonnet-5,2412,10857,1920723,54715
 2026-09-07,reddit-promo,claude-sonnet-5,2404,17258,1772147,69598
+2026-09-07,reddit-playbook,claude-sonnet-5,2122,14849,1046561,90536
