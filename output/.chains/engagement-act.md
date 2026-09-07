@@ -1,16 +1,29 @@
-ℹ️ Engagement Act
+ℹ️ Engagement Act - 2026-09-07
 
-*Engagement Act - 2026-09-05*
-vs 2026-09-03 - 2 new opps - 2 drafted - 0 aging
+*Engagement Act - 2026-09-07*
+vs 2026-09-05 - 5 new opps - 5 drafted - 1 aging
 
-*1. @atriumhermes* [X DM] · leverage: low (~0 GitHub followers, known ecosystem partner) · expires 2026-09-19
-what: known partner Atrium stood up a full standalone Aeon deployment under a rebrand ("atrium-lighthouse") - not a fork, a from-scratch copy carrying aeon.yml/skills/memory/soul plus custom parse/scout scripts, live since 06-02 - but today's own commits show heartbeat, atrium-earnings, and atrium-scout crons all failing back to back. (0 days ago)
-link: https://github.com/Atrium-Hermes/atrium-lighthouse
-draft: "saw atrium-lighthouse's cron log - heartbeat + atrium-earnings + atrium-scout all failing back to back today. rebrand looks clean otherwise, curious what broke - ping me if you want eyes on the skill configs"
+*1. powerloom/aeon-skills* [GitHub comment] · leverage: high (named protocol account, GH org 105 followers — real decentralized data protocol w/ token, X reach not verified this run) · expires 2026-09-21
+what: real org (Powerloom) shipped a dedicated datamarket skill pack for Aeon (powerloom-bds + install/patch scripts), live since 05-18, last pushed 06-04 (0 days ago as a fresh bd-radar find)
+link: https://github.com/powerloom/aeon-skills
+draft: "the powerloom datamarket skill pack is exactly what aeon should be known for — a real protocol shipping its own skills instead of us shipping for you. would love to feature this if you're open to it, and happy to help patch it up to the latest framework if drift's the only thing keeping it quiet."
 
-*2. rohanthomas1202/truthlayer* [GitHub comment] · leverage: low (~3 followers, 65★ live product) · expires 2026-09-19
-what: EdgeTerminal, a deployed cross-market arb scanner (live Railway+Vercel demo), shipped a dedicated MiroShark HTTP client back in April - retries, error translation, a sim_id migration, even a frontend button component. Genuine integration, no open PR/issue to reply on, quiet since 04-20. (0 days ago)
-link: https://github.com/rohanthomas1202/truthlayer
-draft: "the miroshark integration here goes deeper than most drive-bys - dedicated client with retries, a sim_id migration, even a MiroSharkButton component. how's the arb signal held up since launch?"
+*2. codexvritra/signa* [GitHub comment] · leverage: mid (established ecosystem partner, live Base Sepolia messaging protocol; GH followers 1, relationship-based not follower-based) · expires 2026-09-21
+what: known partner codexvritra expanded a single MiroShark skill into a full 10-skill SIGNA suite (bankr, gitlawb, broadcast, discover, inbox…), now consolidated into the main `codexvritra/signa` monorepo under `aeon-skills/` (verified live — the standalone `signa-skills` repo bd-radar flagged is now an archived pointer to this one) (0 days ago)
+link: https://github.com/codexvritra/signa
+draft: "signa going from a single miroshark skill to the full 10-skill suite (bankr, gitlawb, broadcast, the works) is the exact 'expand once inside' pattern we want more partners doing. saw it's now folded into the signa monorepo under aeon-skills/ — makes sense to consolidate. lmk if you want it linked from our side."
 
-run: scanned memory/logs 2026-08-29→09-05 + bd-radar-leads.json (40 leads, 2 new today); no projects-of-interest.md, fell back to Aeon/Miroshark from logs; 38 prior handles deduped via engagement-acted.json - @thecultos stayed blocked despite cultosdev/aeon's GitHub account going fully 404 today (operator decision, not this skill's lane), same dedup held MiroShark#240/dan-and's going-cold flag; hansj73/aeon + Muriel-Salvan/x_aeon_agents held again (fit 1, too early - standing call since 08-27); GitHub follower/star/PR-state verified live via gh api this run, X follower counts are engagement-derived estimates.
+*3. Kodawari10/aeon* [GitHub comment] · leverage: low (GH followers 0, 0★ repo — individual builder) · expires 2026-09-21
+what: live instance enabled the full self-healing stack (skill-health + skill-repair + memory-flush) plus monitor-polymarket/reply-maker/mention-radar, and authored an operator-context memory note — deliberate curated buildout, not cron noise (0 days ago)
+link: https://github.com/Kodawari10/aeon
+draft: "enabling the full self-healing stack (skill-health + skill-repair + memory-flush) plus your own operator-context note is the setup we designed this for. how's the self-repair loop holding up in practice — any false positives from skill-health yet?"
+
+*4. MagIcKEarl/aeon* [GitHub comment] · leverage: low (GH followers 4, 0★ repo — individual builder) · expires 2026-09-21
+what: live fork (151 commits ahead) enabled DeFi/forecasting/yield-farming/price-alert/self-improve skills and authored a new `skills/hyperliquid/SKILL.md` not present upstream — genuine skill authorship under heavy cron noise (0 days ago)
+link: https://github.com/MagIcKEarl/aeon
+draft: "hyperliquid skill on top of the defi/forecasting/yield stack is a genuinely new build, not just a cron fork. curious what you're using it for — if it's working well, happy to add it to the community skills list."
+
+*5. hansj73/aeon* [GitHub comment] · leverage: low (GH followers 1, 0★ repo — individual builder) · expires 2026-09-11 · aging
+what: real dev happened 08-26/27 (fetch-tweets, narrative-tracker, watched-accounts config) but every commit since 08-28 through today is a failing heartbeat/narrative-tracker cron loop — 10 days stuck, no skill-repair enabled to self-heal (10 days ago)
+link: https://github.com/hansj73/aeon/commit/a18ed60
+draft: "heads up — heartbeat + narrative-tracker have been failing back to back since 08-28, 10 days now (latest was 9/7 05:51 UTC). skill-repair isn't enabled on your fork so it's not going to self-heal. want a pointer to the fix?"

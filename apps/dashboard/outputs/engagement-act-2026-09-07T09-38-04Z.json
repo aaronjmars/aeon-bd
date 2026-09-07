@@ -1,0 +1,262 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act - 2026-09-07"
+      },
+      "children": [
+        "text-comparison",
+        "sep-1",
+        "opp-1-heading",
+        "opp-1-meta",
+        "opp-1-what",
+        "opp-1-link",
+        "opp-1-draft",
+        "sep-2",
+        "opp-2-heading",
+        "opp-2-meta",
+        "opp-2-what",
+        "opp-2-link",
+        "opp-2-draft",
+        "sep-3",
+        "opp-3-heading",
+        "opp-3-meta",
+        "opp-3-what",
+        "opp-3-link",
+        "opp-3-draft",
+        "sep-4",
+        "opp-4-heading",
+        "opp-4-meta",
+        "opp-4-what",
+        "opp-4-link",
+        "opp-4-draft",
+        "sep-5",
+        "opp-5-heading",
+        "opp-5-meta",
+        "opp-5-what",
+        "opp-5-link",
+        "opp-5-draft"
+      ]
+    },
+    "text-comparison": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-09-05 - 5 new opps - 5 drafted - 1 aging",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1. powerloom/aeon-skills",
+        "level": "h3"
+      }
+    },
+    "opp-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "[GitHub comment] · leverage: high (named protocol account, GH org 105 followers — real decentralized data protocol w/ token, X reach not verified this run) · expires 2026-09-21",
+        "variant": "caption"
+      }
+    },
+    "opp-1-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: real org (Powerloom) shipped a dedicated datamarket skill pack for Aeon (powerloom-bds + install/patch scripts), live since 05-18, last pushed 06-04 (0 days ago as a fresh bd-radar find)",
+        "variant": "body"
+      }
+    },
+    "opp-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "powerloom/aeon-skills",
+        "href": "https://github.com/powerloom/aeon-skills",
+        "source": "GitHub"
+      }
+    },
+    "opp-1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "draft: \"the powerloom datamarket skill pack is exactly what aeon should be known for — a real protocol shipping its own skills instead of us shipping for you. would love to feature this if you're open to it, and happy to help patch it up to the latest framework if drift's the only thing keeping it quiet.\"",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2. codexvritra/signa",
+        "level": "h3"
+      }
+    },
+    "opp-2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "[GitHub comment] · leverage: mid (established ecosystem partner, live Base Sepolia messaging protocol; GH followers 1, relationship-based not follower-based) · expires 2026-09-21",
+        "variant": "caption"
+      }
+    },
+    "opp-2-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: known partner codexvritra expanded a single MiroShark skill into a full 10-skill SIGNA suite (bankr, gitlawb, broadcast, discover, inbox…), now consolidated into the main `codexvritra/signa` monorepo under `aeon-skills/` (verified live — the standalone `signa-skills` repo bd-radar flagged is now an archived pointer to this one) (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "codexvritra/signa",
+        "href": "https://github.com/codexvritra/signa",
+        "source": "GitHub"
+      }
+    },
+    "opp-2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "draft: \"signa going from a single miroshark skill to the full 10-skill suite (bankr, gitlawb, broadcast, the works) is the exact 'expand once inside' pattern we want more partners doing. saw it's now folded into the signa monorepo under aeon-skills/ — makes sense to consolidate. lmk if you want it linked from our side.\"",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Kodawari10/aeon",
+        "level": "h3"
+      }
+    },
+    "opp-3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "[GitHub comment] · leverage: low (GH followers 0, 0★ repo — individual builder) · expires 2026-09-21",
+        "variant": "caption"
+      }
+    },
+    "opp-3-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: live instance enabled the full self-healing stack (skill-health + skill-repair + memory-flush) plus monitor-polymarket/reply-maker/mention-radar, and authored an operator-context memory note — deliberate curated buildout, not cron noise (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Kodawari10/aeon",
+        "href": "https://github.com/Kodawari10/aeon",
+        "source": "GitHub"
+      }
+    },
+    "opp-3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "draft: \"enabling the full self-healing stack (skill-health + skill-repair + memory-flush) plus your own operator-context note is the setup we designed this for. how's the self-repair loop holding up in practice — any false positives from skill-health yet?\"",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-4-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4. MagIcKEarl/aeon",
+        "level": "h3"
+      }
+    },
+    "opp-4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "[GitHub comment] · leverage: low (GH followers 4, 0★ repo — individual builder) · expires 2026-09-21",
+        "variant": "caption"
+      }
+    },
+    "opp-4-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: live fork (151 commits ahead) enabled DeFi/forecasting/yield-farming/price-alert/self-improve skills and authored a new `skills/hyperliquid/SKILL.md` not present upstream — genuine skill authorship under heavy cron noise (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MagIcKEarl/aeon",
+        "href": "https://github.com/MagIcKEarl/aeon",
+        "source": "GitHub"
+      }
+    },
+    "opp-4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "draft: \"hyperliquid skill on top of the defi/forecasting/yield stack is a genuinely new build, not just a cron fork. curious what you're using it for — if it's working well, happy to add it to the community skills list.\"",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-5-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "5. hansj73/aeon",
+        "level": "h3"
+      }
+    },
+    "opp-5-meta": {
+      "type": "Text",
+      "props": {
+        "text": "[GitHub comment] · leverage: low (GH followers 1, 0★ repo — individual builder) · expires 2026-09-11 · aging · 10 days ago",
+        "variant": "caption"
+      }
+    },
+    "opp-5-what": {
+      "type": "Text",
+      "props": {
+        "text": "what: real dev happened 08-26/27 (fetch-tweets, narrative-tracker, watched-accounts config) but every commit since 08-28 through today is a failing heartbeat/narrative-tracker cron loop — 10 days stuck, no skill-repair enabled to self-heal (10 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp-5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "hansj73/aeon commit a18ed60",
+        "href": "https://github.com/hansj73/aeon/commit/a18ed60",
+        "source": "GitHub"
+      }
+    },
+    "opp-5-draft": {
+      "type": "Text",
+      "props": {
+        "text": "draft: \"heads up — heartbeat + narrative-tracker have been failing back to back since 08-28, 10 days now (latest was 9/7 05:51 UTC). skill-repair isn't enabled on your fork so it's not going to self-heal. want a pointer to the fix?\"",
+        "variant": "body"
+      }
+    }
+  }
+}
