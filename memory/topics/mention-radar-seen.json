@@ -6,10 +6,17 @@
       "category": "Confusion",
       "first_seen": "2026-08-30",
       "last_seen": "2026-09-02"
+    },
+    {
+      "key": "x:https://x.com/itsnina_kapoor/status/2096264170786132349",
+      "project": "aeon",
+      "category": "Discovery",
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08"
     }
   ],
   "quiet_streak": {
-    "aeon": 7,
-    "miroshark": 3
+    "aeon": 0,
+    "miroshark": 4
   }
 }
