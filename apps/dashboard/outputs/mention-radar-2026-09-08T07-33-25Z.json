@@ -1,0 +1,178 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-09-08 vs 2026-09-06 - 1 new - 0 still-open - 1 quiet"
+      },
+      "children": [
+        "stack_sections"
+      ]
+    },
+    "stack_sections": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_aeon",
+        "sep1",
+        "section_miroshark",
+        "sep2",
+        "section_engagement",
+        "sep3",
+        "section_run"
+      ]
+    },
+    "section_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_aeon",
+        "badge_new",
+        "tweet_nina",
+        "link_nina"
+      ]
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW Discovery",
+        "variant": "default"
+      }
+    },
+    "tweet_nina": {
+      "type": "TweetCard",
+      "props": {
+        "author": "itsnina_kapoor",
+        "handle": "@itsnina_kapoor",
+        "text": "aeon framework looking clean 👀 aaron's always got something cooking fr",
+        "likes": 1,
+        "retweets": 1
+      }
+    },
+    "link_nina": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/itsnina_kapoor/status/2096264170786132349"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_miroshark",
+        "alert_quiet"
+      ]
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "alert_quiet": {
+      "type": "Alert",
+      "props": {
+        "title": "QUIET",
+        "message": "miroshark - no mentions this run (covered: api/web) - re-check 2026-09-10",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_engagement",
+        "text_no_opportunities"
+      ]
+    },
+    "heading_engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "text_no_opportunities": {
+      "type": "Text",
+      "props": {
+        "text": "none this cycle - itsnina_kapoor's post is thin (1 like, 1 reply, follower count not visible), not high-leverage enough to flag for reply",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_run": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_run",
+        "text_run_summary",
+        "text_run_details"
+      ]
+    },
+    "heading_run": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Details",
+        "level": "h3"
+      }
+    },
+    "text_run_summary": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=api (both targets, HTTP 200) · web sweep clean (Reddit/HN/PH/blogs/Microlaunch) · stars aeon 718 (+1/1d, under threshold) · stars miroshark 1448 (+0/1d, under threshold) · quiet_streak aeon=0 (reset) miroshark=4",
+        "variant": "caption"
+      }
+    },
+    "text_run_details": {
+      "type": "Text",
+      "props": {
+        "text": "noise discarded: @Amrit_Mirch repost of aeon's transparency-dashboard copy (0 likes/0 rts) - same account flagged repeat-shill across bd-radar/fetch-tweets since 08-31, not counted as a mention · Microlaunch \"MiroShark is now on Microlaunch\" listing checked - 0 votes, 0 comments, self-submitted directory noise, not surfaced",
+        "variant": "muted"
+      }
+    }
+  }
+}

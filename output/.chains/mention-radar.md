@@ -1,25 +1,15 @@
-Committed. Since both projects are quiet with no GitHub delta clearing the +5 threshold, per the skill's notify gate I'm skipping `./notify` and logging `MENTION_RADAR_QUIET` instead — already reflected in the log entry above.
+ℹ️ Mention Radar
 
-## Summary
+*Mention Radar - 2026-09-08*
+vs 2026-09-06 - 1 new - 0 still-open - 1 quiet
 
-**Mention Radar — 2026-09-06**
+AEON
+- NEW [Discovery] @itsnina_kapoor: "aeon framework looking clean 👀 aaron's always got something cooking fr" - https://x.com/itsnina_kapoor/status/2096264170786132349
 
-vs 2026-09-04 · 0 new · 0 still-open · 2 quiet
+MIROSHARK
+- QUIET: miroshark - no mentions this run (covered: api/web) - re-check 2026-09-10
 
-**AEON** — QUIET (covered: api/web, streak 7). X.AI `x_search` (2026-08-30→09-06, HTTP 200) found zero third-party mentions; web sweep (Reddit/HN/PH/blogs) clean.
+ENGAGEMENT OPPORTUNITIES
+- none this cycle - itsnina_kapoor's post is thin (1 like, 1 reply, follower count not visible), not high-leverage enough to flag for reply
 
-**MIROSHARK** — QUIET (covered: api/web, streak 3). Same window/method, HTTP 200, zero third-party mentions; web clean.
-
-**GitHub deltas** (vs 2026-09-04): aeon 716★ (+2/2d), 256 forks (+0) — under threshold. miroshark 1448★ (+1/2d), 298 forks (+0) — under threshold.
-
-**Off-digest finding:** A "MiroShark is a MiroFish fork" narrative is circulating (a YouTube short + an AI search-summary repeating it). Verified false via `gh api`: `MiroShark/MiroShark` is `fork:false, parent:null`, created 2026-03-20 — not a git fork of `666ghj/MiroFish` (created 2025-11-26), though the later date and near-identical positioning plausibly explains the confusion. No reliable date/handle to log as a dated mention, so it's routed to `memory/MEMORY.md`'s watch-list for category-intel instead.
-
-**Noise discarded:** a WebSearch AI-summary fabricated "2M GitHub stars"/"68 products" claims for Aeon, unattributable to any real source — discarded per the standing verify-before-claim rule.
-
-run: X_SOURCE=api (both) · stars aeon +2/2d, miroshark +1/2d (both under +5 gate)
-
-**Files changed:** `memory/logs/2026-09-06.md` (new), `memory/MEMORY.md` (watch-list note updated), `memory/topics/mention-radar-seen.json` (quiet_streak bumped: aeon 6→7, miroshark 2→3). Committed to main.
-
-**Notification:** none sent — all-quiet gate, no delta cleared +5 stars.
-
-**Follow-up:** bd-radar/category-intel could dig into whether the MiroFish-fork mischaracterization is spreading enough to warrant a public correction.
+run: X_SOURCE=api (both targets, HTTP 200) · web sweep clean (Reddit/HN/PH/blogs/Microlaunch) · stars aeon 718 (+1/1d, under threshold) · stars miroshark 1448 (+0/1d, under threshold) · quiet_streak aeon=0 (reset) miroshark=4 · noise discarded: @Amrit_Mirch repost of aeon's transparency-dashboard copy (0 likes/0 rts) - same account flagged repeat-shill across bd-radar/fetch-tweets since 08-31, not counted as a mention · Microlaunch "MiroShark is now on Microlaunch" listing checked - 0 votes, 0 comments, self-submitted directory noise, not surfaced

@@ -1,10 +1,10 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-09-06T07:39:17Z",
+  "last_analyzed": "2026-09-08T07:33:24Z",
   "quality_score": 4,
-  "assessment": "Methodical execution with strong verification discipline; all-quiet week limits signal but report is substantive, verifiable, and properly structured.",
+  "assessment": "Substantive, well-filtered report with verifiable methodology and appropriate judgment to avoid low-leverage noise—no filler, aligned to strategy.",
   "flags": [],
-  "avg_score": 3.8,
+  "avg_score": 3.82,
   "history": [
     {
       "date": "2026-08-20",
@@ -44,6 +44,10 @@
     },
     {
       "date": "2026-09-06",
+      "score": 4
+    },
+    {
+      "date": "2026-09-08",
       "score": 4
     }
   ]
