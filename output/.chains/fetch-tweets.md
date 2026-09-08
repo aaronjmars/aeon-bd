@@ -1,14 +1,21 @@
-ℹ️ Top Tweets — Aeon/Miroshark
+## fetch-tweets run — 2026-09-08
 
-*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-07)*
-_Quiet day dominated by one real story — Capminal shipped a live security fix after an @aeonframework audit — plus a lone, unamplified FUD burst._
+**Mode:** keyword (implicit, `var: "@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation"` from `aeon.yml`)
 
-*Capminal x Aeon security review*
-1. x.com/Capminal — Capminal announces @aeonframework ran a private security review of the $CAPU vault contracts, found and fixed a mint-curve pricing issue, live on Base — no storage changes, no downtime. A real audit-partner credit, not just a mention.
-Likes: 12 | RTs: 3 | Replies: 4
-[View tweet](https://x.com/Capminal/status/2096968349028872581)
+**Fetch:** X.AI `x_search` (Path A, primary) — HTTP 200, window 2026-09-07→2026-09-08. 15 raw candidates returned.
 
-*Criticism/FUD*
-2. x.com/xNovichok — Posted two back-to-back attacks on $aeon ("garbage farm larp" / "piece of shit garbage") 13 seconds apart. Zero engagement, no pickup so far.
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/xNovichok/status/2096996869377245677)
+**Curation result:** 0 tweets survived. Breakdown of what was discarded:
+- A cluster of single-word/emoji reply-thread noise ("🥰", "yes", "well said", "Edge?", "Solid list") — no claim, no unique angle, most at 0-2 engagement.
+- Two @majikkaos posts about "Universal_O_S / uOS App Store" — off-topic, spurious keyword match, not actually about Aeon/Miroshark.
+- Two near-duplicate 0-engagement troll posts from **@xNovichok**: "Aeon is a piece of shit garbage" / "Total garbage $aeon" — generic insult, no substantive complaint, doesn't clear the quality bar (worth a note: this is the second consecutive day @xNovichok has posted this exact pattern — flagging in case it escalates, but not reply-worthy material on its own).
+- @carlosthecomic "@miroshark_ too" (4 likes) — bare reply fragment, no parent context, no standalone insight.
+
+No tweet reached the "≥5 engagement + discernible claim" bar this window. Genuinely quiet 24h for both products on X — consistent with heartbeat's read of the day (no new deltas, no engagement opps).
+
+**Status:** `FETCH_TWEETS_EMPTY` — logged, no notification sent (nothing to report beats padding with reply-thread noise).
+
+## Summary
+- Ran the fetch-tweets keyword branch for Aeon/Miroshark; X.AI search returned 15 candidates, all filtered out in curation as noise/off-topic/no-claim.
+- Modified: `memory/logs/2026-09-08.md` (appended `### fetch-tweets` entry, committed as `a3e934a`).
+- No notification sent (per "notify only on signal"); no seen-file update needed (nothing was kept).
+- Follow-up: none required today. Minor watch-item — @xNovichok's repeat 0-engagement "Aeon is garbage" posts (2 days running) — not actionable yet, just noted for pattern-tracking.
