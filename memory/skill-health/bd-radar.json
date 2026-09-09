@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-09-07T07:49:11Z",
+  "last_analyzed": "2026-09-09T07:38:45Z",
   "quality_score": 4,
-  "assessment": "Substantive BD report surfacing 6 new leads with context, clear prioritization, actionable next moves, and sound methodology — aligns well to core priority (surface signal early) with clean source documentation and Aaron's peer-to-peer tone. Stops short of 5 due to lack of generated engagement copy (priority #2) and could strengthen zeitgeist/timing framing (priority #3).",
+  "assessment": "Substantive radar scan with 2 verified new leads, proper noise filtering, and actionable moves tied to expiry dates—well-executed against strategy.",
   "flags": [],
-  "avg_score": 4.09,
+  "avg_score": 4.08,
   "history": [
     {
       "date": "2026-08-21",
@@ -48,6 +48,10 @@
     },
     {
       "date": "2026-09-07",
+      "score": 4
+    },
+    {
+      "date": "2026-09-09",
       "score": 4
     }
   ]

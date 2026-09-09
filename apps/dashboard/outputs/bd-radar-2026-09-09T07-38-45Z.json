@@ -1,0 +1,329 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar",
+        "description": "2026-09-09 vs 2026-09-07 — 2 new, 2 still-open, 48 leads total"
+      },
+      "children": [
+        "sep0",
+        "opp1-stack",
+        "sep1",
+        "opp2-stack",
+        "sep2",
+        "opp3-stack",
+        "sep3",
+        "opp4-stack",
+        "sep4",
+        "run-summary"
+      ]
+    },
+    "sep0": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1-header",
+        "opp1-badges",
+        "opp1-desc",
+        "opp1-move"
+      ]
+    },
+    "opp1-header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "darkstaryuri/aeon",
+        "href": "https://github.com/darkstaryuri/aeon",
+        "source": "GitHub"
+      }
+    },
+    "opp1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-opp1-new",
+        "badge-opp1-building"
+      ]
+    },
+    "badge-opp1-new": {
+      "type": "Badge",
+      "props": {
+        "text": "new",
+        "variant": "secondary"
+      }
+    },
+    "badge-opp1-building": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "default"
+      }
+    },
+    "opp1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped real provider-failover script (round-robin AI-provider rotation) + 2 bug fixes on live instance, 14 commits ahead",
+        "variant": "body"
+      }
+    },
+    "opp1-move": {
+      "type": "Text",
+      "props": {
+        "text": "Open issue offering to upstream provider-failover.sh — expires 09-23, before the fork goes stale",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2-header",
+        "opp2-badges",
+        "opp2-desc",
+        "opp2-move"
+      ]
+    },
+    "opp2-header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark#300",
+        "href": "https://github.com/MiroShark/MiroShark/issues/300",
+        "source": "GitHub"
+      }
+    },
+    "opp2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-opp2-new",
+        "badge-opp2-integrating"
+      ]
+    },
+    "badge-opp2-new": {
+      "type": "Badge",
+      "props": {
+        "text": "new",
+        "variant": "secondary"
+      }
+    },
+    "badge-opp2-integrating": {
+      "type": "Badge",
+      "props": {
+        "text": "integrating",
+        "variant": "default"
+      }
+    },
+    "opp2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AmirF194's contributor-quality locale bug report, matches pattern from #194/#195, cites exact fix",
+        "variant": "body"
+      }
+    },
+    "opp2-move": {
+      "type": "Text",
+      "props": {
+        "text": "Thank + fast-track the review. Reads like a future maintainer — flips if no response by 09-16",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp3-header",
+        "opp3-badges",
+        "opp3-desc",
+        "opp3-move"
+      ]
+    },
+    "opp3-header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@thecultos/cultosdev",
+        "href": "https://x.com/thecultos",
+        "source": "X"
+      }
+    },
+    "opp3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-opp3-stillopen",
+        "badge-opp3-building"
+      ]
+    },
+    "badge-opp3-stillopen": {
+      "type": "Badge",
+      "props": {
+        "text": "still-open",
+        "variant": "outline"
+      }
+    },
+    "badge-opp3-building": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "default"
+      }
+    },
+    "opp3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "First seen 08-27. cultosdev account still 404, 13 days since \"we choose Aeon,\" 4th flag",
+        "variant": "body"
+      }
+    },
+    "opp3-move": {
+      "type": "Text",
+      "props": {
+        "text": "DM @thecultos directly — automation won't move this; expires 09-12",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp4-header",
+        "opp4-badges",
+        "opp4-desc",
+        "opp4-move"
+      ]
+    },
+    "opp4-header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark#240",
+        "href": "https://github.com/MiroShark/MiroShark/issues/240",
+        "source": "GitHub"
+      }
+    },
+    "opp4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-opp4-stillopen",
+        "badge-opp4-building"
+      ]
+    },
+    "badge-opp4-stillopen": {
+      "type": "Badge",
+      "props": {
+        "text": "still-open",
+        "variant": "outline"
+      }
+    },
+    "badge-opp4-building": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "default"
+      }
+    },
+    "opp4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "First seen 08-23. 28 days since last maintainer activity, 65 days open total",
+        "variant": "body"
+      }
+    },
+    "opp4-move": {
+      "type": "Text",
+      "props": {
+        "text": "Merge-or-close decision needed — flips if no response by 09-16",
+        "variant": "lead"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run-summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run-heading",
+        "run-coverage",
+        "run-action"
+      ]
+    },
+    "run-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Search Coverage",
+        "level": "h3"
+      }
+    },
+    "run-coverage": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub forks/issues clean, gh search clean, X search quiet (http 200, no matches), web sweep clean — no source misses",
+        "variant": "body"
+      }
+    },
+    "run-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Fraud Removed",
+        "message": "Cleared a fake-star pair abusing MiroShark's tagline",
+        "type": "success"
+      }
+    }
+  }
+}

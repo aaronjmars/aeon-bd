@@ -1,5 +1,3 @@
-ℹ️ BD Radar
-
 *BD Radar - 2026-09-09*
 vs 2026-09-07 - 2 new - 2 still-open - 48 leads total
 
