@@ -471,6 +471,28 @@
       "date_found": "2026-09-05",
       "first_seen": "2026-09-05",
       "url": "https://github.com/rohanthomas1202/truthlayer"
+    },
+    {
+      "key": "github:darkstaryuri/aeon",
+      "class": "building",
+      "who": "darkstaryuri/aeon",
+      "signal": "Live instance shipped a genuine feature - scripts/provider-failover.sh (round-robin AI-provider failover with cooldown), an OpenRouter free-tier max_tokens fix, and a Windows PATH fix for gh.exe/tsx; 14 commits ahead / 5 behind, still pushing 09-07",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-09-09",
+      "first_seen": "2026-09-09",
+      "url": "https://github.com/darkstaryuri/aeon"
+    },
+    {
+      "key": "github-issue:MiroShark/MiroShark#300",
+      "class": "integrating",
+      "who": "AmirF194",
+      "signal": "Same-day fork + a contributor-quality bug report: GraphBuilderService.add_text_batches drops locale across ThreadPoolExecutor, correctly matches the pattern already fixed in #194/#195, includes exact file/line + proposed fix",
+      "fit": 3,
+      "score": 9,
+      "date_found": "2026-09-09",
+      "first_seen": "2026-09-09",
+      "url": "https://github.com/MiroShark/MiroShark/issues/300"
     }
   ],
   "surfaced": [
@@ -519,6 +541,8 @@
     "github:ryjin111/aeon-skill-pack-mythosforge",
     "github:XIAOCUICUII/koc-growth-agent",
     "github:Kodawari10/aeon",
-    "github:codexvritra/signa-skills"
+    "github:codexvritra/signa-skills",
+    "github:darkstaryuri/aeon",
+    "github-issue:MiroShark/MiroShark#300"
   ]
 }
