@@ -1,0 +1,7 @@
+aeon-update: sync upstream 21b82db..c28ab4c
+
+9 upstream commits from aeonfun/aeon. 11 files applied cleanly (9 updated,
+2 auto-merged 3-way), 2 new skills + 10 operator-diverged files surfaced for
+manual review. Baseline advanced to c28ab4c.
+
+Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
