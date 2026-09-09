@@ -1,0 +1,14 @@
+{
+  "skill": "competitor-monitor",
+  "last_analyzed": "2026-09-09T18:32:07Z",
+  "quality_score": 3,
+  "assessment": "First-run fetch succeeded and baseline captured; core functionality (change detection) blocked by OS-level read-only mount. Honest diagnostic, clear follow-up, but incomplete until persistence is fixed.",
+  "flags": [],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-09-09",
+      "score": 3
+    }
+  ]
+}

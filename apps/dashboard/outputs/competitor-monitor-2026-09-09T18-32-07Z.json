@@ -1,0 +1,142 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Competitor Monitor"
+      },
+      "children": [
+        "alert-infra",
+        "separator-1",
+        "main-stack"
+      ]
+    },
+    "alert-infra": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Infrastructure Issue — Snapshot Not Persisted",
+        "message": "Memory/ is mounted read-only in this environment (EROFS on mkdir/writeFileSync). No baseline saved for next run to diff against."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "run-section",
+        "watchlist-section",
+        "fetch-section"
+      ]
+    },
+    "run-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run-heading",
+        "run-text"
+      ]
+    },
+    "run-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Status",
+        "level": "h4"
+      }
+    },
+    "run-text": {
+      "type": "Text",
+      "props": {
+        "text": "First run",
+        "variant": "body"
+      }
+    },
+    "watchlist-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watchlist-heading",
+        "watchlist-count",
+        "watchlist-url"
+      ]
+    },
+    "watchlist-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch List",
+        "level": "h4"
+      }
+    },
+    "watchlist-count": {
+      "type": "Text",
+      "props": {
+        "text": "1 page monitored",
+        "variant": "body"
+      }
+    },
+    "watchlist-url": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nvidia.com/en-us/security/acknowledgements",
+        "href": "https://nvidia.com/en-us/security/acknowledgements"
+      }
+    },
+    "fetch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fetch-heading",
+        "fetch-status",
+        "fetch-size",
+        "fetch-classification"
+      ]
+    },
+    "fetch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fetch Result",
+        "level": "h4"
+      }
+    },
+    "fetch-status": {
+      "type": "Badge",
+      "props": {
+        "text": "HTTP 200 OK",
+        "variant": "default"
+      }
+    },
+    "fetch-size": {
+      "type": "Text",
+      "props": {
+        "text": "6.3k words fetched",
+        "variant": "body"
+      }
+    },
+    "fetch-classification": {
+      "type": "Badge",
+      "props": {
+        "text": "Infrastructure issue, not competitor signal",
+        "variant": "outline"
+      }
+    }
+  }
+}
