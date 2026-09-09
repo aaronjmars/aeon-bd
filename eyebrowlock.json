@@ -1700,6 +1700,26 @@
       ],
       "contentHash": "sha256-7e063543c00baf074a58a593a9a440be17ddac45309924b9fbf50c273daac1ad",
       "discoveredFrom": "skills/reddit-playbook/SKILL.md"
+    },
+    {
+      "id": "bde8289586949229",
+      "tool": "aeon",
+      "scope": "project:.",
+      "type": "skill",
+      "name": "competitor-monitor",
+      "source": {
+        "kind": "local",
+        "ref": "skills/competitor-monitor"
+      },
+      "capabilities": {},
+      "files": [
+        {
+          "path": "SKILL.md",
+          "hash": "ff2d1681a378aee7d312a81db58968bd2db2f87d2003ecbaa0b2675a0d3415db"
+        }
+      ],
+      "contentHash": "sha256-6066b1ce857a45e03ed0b13260800438555b5d941980c7ed47fd5e2071c9c3ff",
+      "discoveredFrom": "skills/competitor-monitor/SKILL.md"
     }
   ]
 }
