@@ -1,8 +1,8 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-08T17:49:17Z",
+  "last_analyzed": "2026-09-09T17:50:38Z",
   "quality_score": 4,
-  "assessment": "Transparent, well-reasoned no-op—correctly identified zero fresh promotable items, showed work across 7-day lookback with specific rejections, followed the rule to skip filler rather than post for engagement's sake; substantive and verifiable but no signal surfaced today to advance BD/growth metrics.",
+  "assessment": "Solid skip decision with verifiable reasoning; correctly holds bar against filler self-promo.",
   "flags": [],
   "avg_score": 3.95,
   "history": [
@@ -88,6 +88,10 @@
     },
     {
       "date": "2026-09-08",
+      "score": 4
+    },
+    {
+      "date": "2026-09-09",
       "score": 4
     }
   ]

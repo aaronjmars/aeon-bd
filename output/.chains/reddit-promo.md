@@ -1,24 +1,27 @@
-## reddit-promo — 2026-09-08
+## reddit-promo — 2026-09-09
 
-**Status: `REDDIT_PROMO_SKIP: no fresh promotable items`**
+**Status: REDDIT_PROMO_SKIP — no fresh promotable items.**
 
-Today's `fetch-tweets` run came back `FETCH_TWEETS_EMPTY` (0 of 15 candidates survived curation — just @xNovichok troll noise off a quiet 24h window). Falling back to the full 7-day lookback, every strong story is already promoted and sitting in `memory/reddit-promo-seen.txt`:
+Scanned today's fetch-tweets output (6 kept of 16 candidates) plus 7 days of `memory/logs/` (09-02→09-09) and the dashboard JSON, cross-checking every unseen URL against `memory/reddit-promo-seen.txt`.
 
-- CultOS x402-relay cluster (09-02) → r/StartupMind, r/LovingAI
-- UsePodAI cheaper-inference cost lever (09-03) → r/Agent_AI, r/AIPromptProgramming, r/OpenSourceAI
-- CultOS 5-project stack naming (09-04) → r/MiroFish, r/aiecosystem, r/Ollama, r/CoolGithubProjects
-- OpenAI Daybreak program acceptance (09-05) → r/StartupMind, r/Agent_AI, r/lovingopensourceAI, r/AskVibecoders
-- AIonBase_ TaskMarket Delegate roundup + svector_eth dogfooding trace (09-06) → r/CLaudeSkills, r/AIPromptProgramming, r/LovingAI
-- Capminal ($CAPU) audit-fix credit (09-07, the most recent) → r/OpenSourceAI, r/aiecosystem, r/StartupMind, r/AskVibecoders
+**Already promoted 09-02→09-07** (in seen-file): UsePodAI cost-lever post, Daybreak acceptance + CultOS x402aff confirm, TaskMarket Delegate roundup + svector_eth dogfooding trace, Capminal audit-fix — still this instance's strongest headline of the week and already used.
 
-The remaining unseen URLs from the week don't clear the promotable bar and were already explicitly rejected by this skill or its sibling `reddit-playbook`: two sub-2-like co-signs too thin to carry a citation, a speculative/unshipped GitHub-collab tease, two outside integration/docs asks (not endorsements), the CultOS x402aff "opens to any builder" beat repeated a 3rd/4th time (spam risk), an account with a standing repeat-shill flag, a routine bot mention, two no-new-claim low-engagement posts, and two zero-engagement FUD posts from @xNovichok.
+**Unseen but carry-forward rejected** (re-verified, same reasoning still holds from 09-02→09-08 runs): the over-covered CultOS x402aff beat (2x), two outside integration/docs asks (not endorsements), a routine bot mention, three "no new claim" 1-3-like posts, and two FUD posts from `@xNovichok`.
 
-Today's one genuine signal — `@itsnina_kapoor`'s clean-discovery vibe post ("aeon framework looking clean") — came from mention-radar, not fetch-tweets, and is out of this skill's input scope; mention-radar itself called it too thin even for an engagement reply.
+**Today's own fetch-tweets (6 items) — none clear the bar:**
+- `@AgenticV` — site-access complaint ("you know it's bad when you can't even access the website"). Friction, not promotable; that's mention-radar/engagement-act's lane.
+- `@KienNguyen_NFT` / `@0xNurstar` — 0 likes/0 rts each (a praise-phrased-as-question, and an unsubstantiated third-party "stronger than Muse" comparison).
+- `@xenowhale_eth` — vague "sleeping giant" sentiment, 0 engagement, no concrete claim.
+- `@Base_Insights` — Miroshark named among ~16 projects in a Base ecosystem roundup, 2 likes/1 rt. Closest to promotable but no concrete number or detail (unlike Capminal's audit-fix or the TaskMarket Delegate placement used earlier this week) — held as too thin to carry its own citation.
+- `@PF_streams` — `$MiroShark` ticker on pump.fun, bot-spam pattern, explicitly flagged by fetch-tweets as unverified/unconfirmed affiliation — a name-collision watch item, not a promotable claim.
 
-**Cadence clock:** 1 day since the last promo (2026-09-07, Capminal story) — informational only, doesn't gate this decision. Per the skill's own rule, silence beats a filler post, so no drafts, no notification.
+**Cadence clock:** 2d since last promo (prior `REDDIT_PROMO_OK` was 2026-09-07, Capminal story). 09-08 also skipped for the same reason — this is the second consecutive skip, consistent with the strategy's "occasional, not spammy" self-promo bar.
+
+Reddit self-promo has to stay occasional to not read as spam — silence beats a filler post today.
 
 ## Summary
-- Scanned today's `fetch-tweets` output (empty) plus 7 days of logs/dashboard JSON; cross-checked every candidate against `memory/reddit-promo-seen.txt`.
-- Found zero fresh, unseen, promotable items — logged `REDDIT_PROMO_SKIP: no fresh promotable items` to `memory/logs/2026-09-08.md` under `### reddit-promo`.
-- No drafts written, no `./notify` sent, `memory/reddit-promo-seen.txt` unchanged.
-- Follow-up: none required — next run (09-09) should re-scan once fetch-tweets produces fresh candidates.
+- Read the last 7 days of `memory/logs/`, today's fetch-tweets dashboard JSON, `memory/products.md`, `memory/topics/reddit-subreddits.md`, and `memory/reddit-promo-seen.txt`.
+- Found no candidate — old or new — that clears the promotable bar (all either already-seen, previously-rejected, negative/friction, zero-engagement chatter, or unverified ticker noise).
+- Logged `REDDIT_PROMO_SKIP: no fresh promotable items` to `memory/logs/2026-09-09.md` under `### reddit-promo`.
+- No notification sent (per skill rule: skip → exit without notifying). No seen-file changes (nothing was promoted).
+- Follow-up: none required from this run; next run (tomorrow) should re-check whether `@Base_Insights`'s roundup or any fresh fetch-tweets item firms up with more engagement/detail before it ages out of the 10-day window.
