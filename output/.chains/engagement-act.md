@@ -1,29 +1,16 @@
-ℹ️ Engagement Act - 2026-09-07
+ℹ️ Engagement Act - 2026-09-09
 
-*Engagement Act - 2026-09-07*
-vs 2026-09-05 - 5 new opps - 5 drafted - 1 aging
+*Engagement Act - 2026-09-09*
+vs 2026-09-07 - 2 new opps - 2 drafted - 0 aging
 
-*1. powerloom/aeon-skills* [GitHub comment] · leverage: high (named protocol account, GH org 105 followers — real decentralized data protocol w/ token, X reach not verified this run) · expires 2026-09-21
-what: real org (Powerloom) shipped a dedicated datamarket skill pack for Aeon (powerloom-bds + install/patch scripts), live since 05-18, last pushed 06-04 (0 days ago as a fresh bd-radar find)
-link: https://github.com/powerloom/aeon-skills
-draft: "the powerloom datamarket skill pack is exactly what aeon should be known for — a real protocol shipping its own skills instead of us shipping for you. would love to feature this if you're open to it, and happy to help patch it up to the latest framework if drift's the only thing keeping it quiet."
+*1. darkstaryuri/aeon* [GitHub comment] · leverage: low (~0 followers, solo builder) · expires 2026-09-23
+what: Live Aeon fork shipped a genuine round-robin AI-provider failover script, an OpenRouter free-tier max_tokens fix, and a Windows PATH fix for gh.exe/tsx - 14 commits ahead, no PR opened upstream yet (0 days ago)
+link: https://github.com/darkstaryuri/aeon/commit/1bf0b0b
+draft: "Nice - the round-robin failover + OpenRouter free-tier max_tokens fix are exactly the kind of hardening we want upstream. Open a PR against aeonfun/aeon and we'll get it reviewed."
 
-*2. codexvritra/signa* [GitHub comment] · leverage: mid (established ecosystem partner, live Base Sepolia messaging protocol; GH followers 1, relationship-based not follower-based) · expires 2026-09-21
-what: known partner codexvritra expanded a single MiroShark skill into a full 10-skill SIGNA suite (bankr, gitlawb, broadcast, discover, inbox…), now consolidated into the main `codexvritra/signa` monorepo under `aeon-skills/` (verified live — the standalone `signa-skills` repo bd-radar flagged is now an archived pointer to this one) (0 days ago)
-link: https://github.com/codexvritra/signa
-draft: "signa going from a single miroshark skill to the full 10-skill suite (bankr, gitlawb, broadcast, the works) is the exact 'expand once inside' pattern we want more partners doing. saw it's now folded into the signa monorepo under aeon-skills/ — makes sense to consolidate. lmk if you want it linked from our side."
+*2. AmirF194* [GitHub issue comment] · leverage: low (~28 followers, Founder/CEO @ FastInfer - real production-AI shop, strategic value above follower count) · expires 2026-09-23
+what: Forked MiroShark and filed a contributor-quality bug report same day - correctly pattern-matched a locale-drop bug in GraphBuilderService.add_text_batches to the already-fixed #194/#195, with exact file/line and proposed fix (0 days ago)
+link: https://github.com/MiroShark/MiroShark/issues/300
+draft: "Good catch - same locale-propagation gap as #194/#195, and the fix pattern you outlined (snapshot locale before the executor, wrap the worker in use_locale) is right. Want to open a PR for this? Happy to review."
 
-*3. Kodawari10/aeon* [GitHub comment] · leverage: low (GH followers 0, 0★ repo — individual builder) · expires 2026-09-21
-what: live instance enabled the full self-healing stack (skill-health + skill-repair + memory-flush) plus monitor-polymarket/reply-maker/mention-radar, and authored an operator-context memory note — deliberate curated buildout, not cron noise (0 days ago)
-link: https://github.com/Kodawari10/aeon
-draft: "enabling the full self-healing stack (skill-health + skill-repair + memory-flush) plus your own operator-context note is the setup we designed this for. how's the self-repair loop holding up in practice — any false positives from skill-health yet?"
-
-*4. MagIcKEarl/aeon* [GitHub comment] · leverage: low (GH followers 4, 0★ repo — individual builder) · expires 2026-09-21
-what: live fork (151 commits ahead) enabled DeFi/forecasting/yield-farming/price-alert/self-improve skills and authored a new `skills/hyperliquid/SKILL.md` not present upstream — genuine skill authorship under heavy cron noise (0 days ago)
-link: https://github.com/MagIcKEarl/aeon
-draft: "hyperliquid skill on top of the defi/forecasting/yield stack is a genuinely new build, not just a cron fork. curious what you're using it for — if it's working well, happy to add it to the community skills list."
-
-*5. hansj73/aeon* [GitHub comment] · leverage: low (GH followers 1, 0★ repo — individual builder) · expires 2026-09-11 · aging
-what: real dev happened 08-26/27 (fetch-tweets, narrative-tracker, watched-accounts config) but every commit since 08-28 through today is a failing heartbeat/narrative-tracker cron loop — 10 days stuck, no skill-repair enabled to self-heal (10 days ago)
-link: https://github.com/hansj73/aeon/commit/a18ed60
-draft: "heads up — heartbeat + narrative-tracker have been failing back to back since 08-28, 10 days now (latest was 9/7 05:51 UTC). skill-repair isn't enabled on your fork so it's not going to self-heal. want a pointer to the fix?"
+run: source = memory/logs 09-02→09-09 + memory/topics/bd-radar-leads.json (48 leads); de-dupe via memory/topics/engagement-acted.json (45 handles); dropped as already-acted-under-same-canonical-handle: swarm-ai-research/swarm (= swarm-ai-research/aeon-atlas, acted 09-03), web:pondstreetledger.com article (= @thepondstreet, acted 09-03), Atrium-Hermes/atrium-lighthouse (= @atriumhermes, acted 09-05), rohanthomas1202/truthlayer (acted 09-05); dropped as dormant/no fresh signal (~3.5-4mo no push, same reasoning as 09-07 run): ryjin111/aeon-skill-pack-mythosforge, XIAOCUICUII/koc-growth-agent; skipped as operator-side (not a fresh draft): CultOS/@thecultos check-in (dedup blocks re-surfacing since 08-27, still 404 per bd-radar), MiroShark#240/dan-and (acted 08-23); skipped: @itsnina_kapoor mention (mention-radar itself called it too thin, 1 like, no reply warranted)

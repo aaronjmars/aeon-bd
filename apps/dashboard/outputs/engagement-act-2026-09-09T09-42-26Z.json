@@ -1,0 +1,287 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "2026-09-09 vs 2026-09-07"
+      },
+      "children": [
+        "stats",
+        "sep1",
+        "opp1",
+        "sep2",
+        "opp2",
+        "sep3",
+        "run_notes"
+      ]
+    },
+    "stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_new",
+        "stat_drafted",
+        "stat_aging"
+      ]
+    },
+    "stat_new": {
+      "type": "Stat",
+      "props": {
+        "label": "New opportunities",
+        "value": "2"
+      }
+    },
+    "stat_drafted": {
+      "type": "Stat",
+      "props": {
+        "label": "Drafted",
+        "value": "2"
+      }
+    },
+    "stat_aging": {
+      "type": "Stat",
+      "props": {
+        "label": "Aging",
+        "value": "0"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_heading",
+        "opp1_meta",
+        "opp1_what",
+        "opp1_link",
+        "opp1_draft"
+      ]
+    },
+    "opp1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "darkstaryuri/aeon",
+        "level": "h2"
+      }
+    },
+    "opp1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_type",
+        "opp1_leverage",
+        "opp1_expires"
+      ]
+    },
+    "opp1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "default"
+      }
+    },
+    "opp1_leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "Leverage: low (~0 followers, solo builder)",
+        "variant": "secondary"
+      }
+    },
+    "opp1_expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-23",
+        "variant": "outline"
+      }
+    },
+    "opp1_what": {
+      "type": "Text",
+      "props": {
+        "text": "Live Aeon fork shipped a genuine round-robin AI-provider failover script, an OpenRouter free-tier max_tokens fix, and a Windows PATH fix for gh.exe/tsx - 14 commits ahead, no PR opened upstream yet (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View commit",
+        "href": "https://github.com/darkstaryuri/aeon/commit/1bf0b0b"
+      }
+    },
+    "opp1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"Nice - the round-robin failover + OpenRouter free-tier max_tokens fix are exactly the kind of hardening we want upstream. Open a PR against aeonfun/aeon and we'll get it reviewed.\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_heading",
+        "opp2_meta",
+        "opp2_what",
+        "opp2_link",
+        "opp2_draft"
+      ]
+    },
+    "opp2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AmirF194",
+        "level": "h2"
+      }
+    },
+    "opp2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_type",
+        "opp2_leverage",
+        "opp2_expires"
+      ]
+    },
+    "opp2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub issue comment",
+        "variant": "default"
+      }
+    },
+    "opp2_leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "Leverage: low (~28 followers, Founder/CEO @ FastInfer)",
+        "variant": "secondary"
+      }
+    },
+    "opp2_leverage_note": {
+      "type": "Text",
+      "props": {
+        "text": "Strategic value above follower count: real production-AI shop",
+        "variant": "caption"
+      }
+    },
+    "opp2_expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-23",
+        "variant": "outline"
+      }
+    },
+    "opp2_what": {
+      "type": "Text",
+      "props": {
+        "text": "Forked MiroShark and filed a contributor-quality bug report same day - correctly pattern-matched a locale-drop bug in GraphBuilderService.add_text_batches to the already-fixed #194/#195, with exact file/line and proposed fix (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View issue #300",
+        "href": "https://github.com/MiroShark/MiroShark/issues/300"
+      }
+    },
+    "opp2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"Good catch - same locale-propagation gap as #194/#195, and the fix pattern you outlined (snapshot locale before the executor, wrap the worker in use_locale) is right. Want to open a PR for this? Happy to review.\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run_notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run_heading",
+        "run_source",
+        "run_already_acted",
+        "run_dormant",
+        "run_operator_side",
+        "run_thin"
+      ]
+    },
+    "run_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run details",
+        "level": "h3"
+      }
+    },
+    "run_source": {
+      "type": "Text",
+      "props": {
+        "text": "Source: memory/logs 09-02→09-09 + memory/topics/bd-radar-leads.json (48 leads); de-dupe via memory/topics/engagement-acted.json (45 handles)",
+        "variant": "caption"
+      }
+    },
+    "run_already_acted": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped as already-acted-under-same-canonical-handle: swarm-ai-research/swarm (= swarm-ai-research/aeon-atlas, acted 09-03), web:pondstreetledger.com article (= @thepondstreet, acted 09-03), Atrium-Hermes/atrium-lighthouse (= @atriumhermes, acted 09-05), rohanthomas1202/truthlayer (acted 09-05)",
+        "variant": "caption"
+      }
+    },
+    "run_dormant": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped as dormant/no fresh signal (~3.5-4mo no push, same reasoning as 09-07 run): ryjin111/aeon-skill-pack-mythosforge, XIAOCUICUII/koc-growth-agent",
+        "variant": "caption"
+      }
+    },
+    "run_operator_side": {
+      "type": "Text",
+      "props": {
+        "text": "Skipped as operator-side (not a fresh draft): CultOS/@thecultos check-in (dedup blocks re-surfacing since 08-27, still 404 per bd-radar), MiroShark#240/dan-and (acted 08-23)",
+        "variant": "caption"
+      }
+    },
+    "run_thin": {
+      "type": "Text",
+      "props": {
+        "text": "Skipped: @itsnina_kapoor mention (mention-radar itself called it too thin, 1 like, no reply warranted)",
+        "variant": "caption"
+      }
+    }
+  }
+}
