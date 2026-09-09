@@ -1,10 +1,12 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-09-08T17:08:22Z",
-  "quality_score": 4,
-  "assessment": "Clean, well-documented no-op: 15 candidates fetched and properly filtered with transparent methodology; correct decision to mute notification; flagged a minor repeat pattern without over-claiming it.",
-  "flags": [],
-  "avg_score": 4,
+  "last_analyzed": "2026-09-09T17:09:56Z",
+  "quality_score": 2,
+  "assessment": "Math discrepancy in filtering breakdown (16 candidates, 6 kept from 3+1+5=9 dropped) undermines verifiability of specifics.",
+  "flags": [
+    "unverifiable_claim"
+  ],
+  "avg_score": 3.9,
   "history": [
     {
       "date": "2026-08-20",
@@ -85,6 +87,10 @@
     {
       "date": "2026-09-08",
       "score": 4
+    },
+    {
+      "date": "2026-09-09",
+      "score": 2
     }
   ]
 }
