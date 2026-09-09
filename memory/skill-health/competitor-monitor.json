@@ -1,14 +1,20 @@
 {
   "skill": "competitor-monitor",
-  "last_analyzed": "2026-09-09T18:32:07Z",
-  "quality_score": 3,
-  "assessment": "First-run fetch succeeded and baseline captured; core functionality (change detection) blocked by OS-level read-only mount. Honest diagnostic, clear follow-up, but incomplete until persistence is fixed.",
-  "flags": [],
-  "avg_score": 3,
+  "last_analyzed": "2026-09-09T19:00:41Z",
+  "quality_score": 2,
+  "assessment": "Executed faithfully but infrastructure-blocked (EROFS on memory/); zero competitor intelligence delivered against GTM priorities; skill cannot establish baseline in read-only mode.",
+  "flags": [
+    "low_quality"
+  ],
+  "avg_score": 2.5,
   "history": [
     {
       "date": "2026-09-09",
       "score": 3
+    },
+    {
+      "date": "2026-09-09",
+      "score": 2
     }
   ]
 }
