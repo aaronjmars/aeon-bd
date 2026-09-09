@@ -1,0 +1,38 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Competitor Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_tracking",
+        "text_baseline"
+      ]
+    },
+    "text_tracking": {
+      "type": "Text",
+      "props": {
+        "text": "Tracking 1 page"
+      }
+    },
+    "text_baseline": {
+      "type": "Text",
+      "props": {
+        "text": "Baseline saved"
+      }
+    }
+  }
+}
