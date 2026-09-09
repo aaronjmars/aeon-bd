@@ -1,0 +1,251 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "aeon-update — PR #99",
+        "description": "Synced 9 upstream commits"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-status",
+        "sep1",
+        "stack-stats",
+        "sep2",
+        "heading-fixes",
+        "stack-fixes",
+        "text-conflict",
+        "sep3",
+        "alert-decision",
+        "sep4",
+        "heading-pending",
+        "text-pending",
+        "sep5",
+        "heading-baseline",
+        "text-baseline",
+        "sep6",
+        "story-pr"
+      ]
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ PR #99",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-commits",
+        "stat-files"
+      ]
+    },
+    "stat-commits": {
+      "type": "Stat",
+      "props": {
+        "label": "Upstream commits synced",
+        "value": "9"
+      }
+    },
+    "stat-files": {
+      "type": "Stat",
+      "props": {
+        "label": "Files applied clean",
+        "value": "11"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-fixes": {
+      "type": "Heading",
+      "props": {
+        "text": "Fixes Applied",
+        "level": "h3"
+      }
+    },
+    "stack-fixes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-fix1",
+        "stack-fix1-links",
+        "text-fix2",
+        "link-fix2",
+        "text-fix3",
+        "link-fix3"
+      ]
+    },
+    "text-fix1": {
+      "type": "Text",
+      "props": {
+        "text": "harness egress + read-only-sandbox fixes:",
+        "variant": "body"
+      }
+    },
+    "stack-fix1-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-1038",
+        "text-slash",
+        "link-1042"
+      ]
+    },
+    "link-1038": {
+      "type": "Link",
+      "props": {
+        "label": "#1038",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/1038"
+      }
+    },
+    "text-slash": {
+      "type": "Text",
+      "props": {
+        "text": "/",
+        "variant": "body"
+      }
+    },
+    "link-1042": {
+      "type": "Link",
+      "props": {
+        "label": "#1042",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/1042"
+      }
+    },
+    "text-fix2": {
+      "type": "Text",
+      "props": {
+        "text": "competitor-monitor table-row diffing",
+        "variant": "body"
+      }
+    },
+    "link-fix2": {
+      "type": "Link",
+      "props": {
+        "label": "#1043",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/1043"
+      }
+    },
+    "text-fix3": {
+      "type": "Text",
+      "props": {
+        "text": "eyebrow-version-from-CI fix for this very skill",
+        "variant": "body"
+      }
+    },
+    "link-fix3": {
+      "type": "Link",
+      "props": {
+        "label": "#1037",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/1037"
+      }
+    },
+    "text-conflict": {
+      "type": "Text",
+      "props": {
+        "text": "last week's aeon.yml conflict finally merges clean — dropped from pending",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-decision": {
+      "type": "Alert",
+      "props": {
+        "title": "Decision Required",
+        "message": "2 new upstream skills — compute-resell + submit-hook — are NOT auto-installed. Each needs an eyebrowlock entry (binary isn't in the run) + a catalog glyph. Deferred rather than ship a red PR. Install steps are in the PR body; or just leave them.",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-pending": {
+      "type": "Heading",
+      "props": {
+        "text": "Still Pending",
+        "level": "h3"
+      }
+    },
+    "text-pending": {
+      "type": "Text",
+      "props": {
+        "text": "12 conflicts still pending: README, CHANGELOG, skill-packs re-hit this run",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-baseline": {
+      "type": "Heading",
+      "props": {
+        "text": "Baseline",
+        "level": "h3"
+      }
+    },
+    "text-baseline": {
+      "type": "Text",
+      "props": {
+        "text": "Advances to c28ab4c when merged",
+        "variant": "body"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "story-pr": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View PR #99",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/99",
+        "source": "GitHub"
+      }
+    }
+  }
+}
