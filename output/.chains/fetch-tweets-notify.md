@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — Aeon + Miroshark
-
 *Top Tweets — Aeon + Miroshark (2026-09-09)*
 _Quietest engagement day this week bar one line: the founder's plain testimonial post 10x'd everything else, while token-chatter recycled an already-debunked NVIDIA/SpaceX claim and eyebrowCC's footprint picked up an unverified new partner name._
 

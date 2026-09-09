@@ -1,0 +1,335 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark",
+        "description": "Top Tweets — Aeon + Miroshark (2026-09-09)"
+      },
+      "children": [
+        "summary-text",
+        "sep-1",
+        "section-founder",
+        "sep-2",
+        "section-eyebrow",
+        "sep-3",
+        "section-degen",
+        "sep-4",
+        "section-media"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Quietest engagement day this week bar one line: the founder's plain testimonial post 10x'd everything else, while token-chatter recycled an already-debunked NVIDIA/SpaceX claim and eyebrowCC's footprint picked up an unverified new partner name.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-founder": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-founder",
+        "tweet-1-stack",
+        "tweet-2-stack"
+      ]
+    },
+    "heading-founder": {
+      "type": "Heading",
+      "props": {
+        "text": "Founder line resonates",
+        "level": "h3"
+      }
+    },
+    "tweet-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "have been using @aeonframework and it's really good",
+        "likes": 60,
+        "retweets": 8
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2097368914401366503"
+      }
+    },
+    "tweet-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2",
+        "link-2"
+      ]
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Elsewhere0x",
+        "handle": "Elsewhere0x",
+        "text": "Posted near-identical phrase independently 11 minutes later—organic echo, not a quote-tweet, suggesting the line is sticking as a stock endorsement",
+        "likes": 8,
+        "retweets": 1
+      }
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Elsewhere0x/status/2097371708369830359"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-eyebrow": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-eyebrow",
+        "alert-unverified",
+        "tweet-3-stack"
+      ]
+    },
+    "heading-eyebrow": {
+      "type": "Heading",
+      "props": {
+        "text": "eyebrowCC footprint — unverified new partner",
+        "level": "h3"
+      }
+    },
+    "alert-unverified": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "sibyl_labs_ is a name not yet in BD tracking; unverified, worth a bd-radar look"
+      }
+    },
+    "tweet-3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3",
+        "link-3"
+      ]
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "sololevelhunter",
+        "handle": "sololevelhunter",
+        "text": "eyebrowCC integrated into Aeon + gitlawb and partnered up with @sibyl_labs_ (2nd time in 2 days)",
+        "likes": 2,
+        "retweets": 0
+      }
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/sololevelhunter/status/2097442017034875065"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-degen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-degen",
+        "tweet-4-stack",
+        "tweet-5-stack"
+      ]
+    },
+    "heading-degen": {
+      "type": "Heading",
+      "props": {
+        "text": "Degen token chatter",
+        "level": "h3"
+      }
+    },
+    "tweet-4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-4",
+        "alert-debunked",
+        "link-4"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Vicks_vic",
+        "handle": "Vicks_vic",
+        "text": "$AEON undervaluation case citing Alibaba, NVIDIA, SpaceX as clients",
+        "likes": 5,
+        "retweets": 3
+      }
+    },
+    "alert-debunked": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "Unverified claim recirculating",
+        "message": "Same claim already flagged false/unconfirmed since 2026-08-23 MCGlive incident; now recirculating from different account"
+      }
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Vicks_vic/status/2097595202789589377"
+      }
+    },
+    "tweet-5-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-5",
+        "link-5"
+      ]
+    },
+    "tweet-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Ninja_base",
+        "handle": "Ninja_base",
+        "text": "feeling so under exposed on $aeon right now",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "link-5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Ninja_base/status/2097403320700981663"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-media": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-media",
+        "tweet-6-stack",
+        "tweet-7-stack"
+      ]
+    },
+    "heading-media": {
+      "type": "Heading",
+      "props": {
+        "text": "Media / organic referral",
+        "level": "h3"
+      }
+    },
+    "tweet-6-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-6",
+        "link-6"
+      ]
+    },
+    "tweet-6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MichaelWaitze",
+        "handle": "MichaelWaitze",
+        "text": "Replied to @aaronjmars with link to coverage of Meta's Muse launch, seeding Aeon-vs-Muse comparison thread",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "link-6": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/MichaelWaitze/status/2097446109467890008"
+      }
+    },
+    "tweet-7-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-7",
+        "link-7"
+      ]
+    },
+    "tweet-7": {
+      "type": "TweetCard",
+      "props": {
+        "author": "carlosthecomic",
+        "handle": "carlosthecomic",
+        "text": "Told @getAlby to consider using @aeonframework to check for bugs—third party volunteering Aeon as the fix for another project's problem",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "link-7": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/carlosthecomic/status/2097583393093349446"
+      }
+    }
+  }
+}
