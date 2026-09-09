@@ -1,27 +1,29 @@
 {
-  "baseline_sha": "21b82dbb7d4927515ec0ad6cbf36f7daac6cc225",
+  "baseline_sha": "c28ab4c2f529e39c250c0a440f5d2372b0e88e57",
   "upstream": "aeonfun/aeon",
-  "last_run": "2026-09-07",
-  "last_pr": "https://github.com/aaronjmars/aeon-bd/pull/91",
-  "applied": { "added": 6, "updated": 6, "merged": 2, "deleted": 0 },
+  "last_run": "2026-09-09",
+  "last_pr": "https://github.com/aaronjmars/aeon-bd/pull/99",
+  "applied": { "added": 0, "updated": 9, "merged": 2, "deleted": 0 },
   "pending_conflicts": [
-    { "path": ".github/README.md", "reason": "operator-customized", "upstream_commits": ["9ea2a08", "b494610", "9e48e6a", "935965d", "bb8211f", "6a03d1c", "1a67ffb", "a80f70f"] },
-    { "path": ".github/workflows/aeon.yml", "reason": "operator-customized (env-block narrowing) overlaps upstream RESEND_API_KEY inject in validate-skill-secrets (a3ecc82) + expression-headroom comments (048dee9); prior GLM/scheduler/dispatch divergences still unmerged", "upstream_commits": ["dc1a975", "c92fbfb", "66711d3", "6dc0ad1", "bf33365", "048dee9", "a3ecc82"] },
-    { "path": ".github/workflows/ci-tests.yml", "reason": "operator-customized; upstream added two test steps in operator-diverged regions — `test_vuln_scanner_status.py` (d9ac832) and `test_dev_loop_review.sh` (2fd214a); both referenced test files WERE synced clean this run, only the workflow wiring conflicts", "upstream_commits": ["c92fbfb", "66711d3", "f3b3b29", "bd74379", "420dc85", "2fd214a", "d9ac832"] },
+    { "path": ".github/README.md", "reason": "operator-customized", "upstream_commits": ["63078b4", "44ddb43", "9ea2a08", "b494610", "9e48e6a", "935965d", "bb8211f", "6a03d1c", "1a67ffb", "a80f70f"] },
+    { "path": ".github/workflows/ci-tests.yml", "reason": "operator-customized; upstream added two test steps in operator-diverged regions — `test_vuln_scanner_status.py` (d9ac832) and `test_dev_loop_review.sh` (2fd214a); both referenced test files WERE synced clean, only the workflow wiring conflicts", "upstream_commits": ["c92fbfb", "66711d3", "f3b3b29", "bd74379", "420dc85", "2fd214a", "d9ac832"] },
     { "path": ".github/workflows/messages.yml", "reason": "operator-customized (env narrowing)", "upstream_commits": ["420dc85"] },
-    { "path": "CHANGELOG.md", "reason": "operator-customized-append-region", "upstream_commits": ["b1d9079..bf33365"] },
-    { "path": "docs/skill-packs.md", "reason": "operator-customized", "upstream_commits": ["3c0ba70", "846cc73", "6a03d1c"] },
+    { "path": "CHANGELOG.md", "reason": "operator-customized-append-region", "upstream_commits": ["f96beb9", "63078b4", "b1d9079..bf33365"] },
+    { "path": "docs/skill-packs.md", "reason": "operator-customized; upstream added compute-resell + submit-hook rows/counts (3f3509c, 0154c0e) overlapping the fork's narrowed pack tables", "upstream_commits": ["3f3509c", "0154c0e", "3c0ba70", "846cc73", "6a03d1c"] },
     { "path": "llms.txt", "reason": "add-add-collision-fork-local", "upstream_commits": ["9e48e6a", "86ffd45", "bb8211f", "a80f70f"] },
     { "path": "skills/heartbeat/SKILL.md", "reason": "operator-customized", "upstream_commits": ["0776bbb"] },
     { "path": "skills/memory-flush/SKILL.md", "reason": "operator-customized", "upstream_commits": ["411bcfb", "0776bbb"] },
     { "path": ".github/dependabot.yml", "reason": "near-trivial: operator already applied the same eslint/globals holds; only diff is a dating parenthetical", "upstream_commits": ["27a83d2"] },
-    { "path": "skills/vuln-scanner/SKILL.md", "reason": "fork simplified copy (flat frontmatter, older osv-scanner path) vs upstream bounded-trufflehog git-history scan + no-resume/phantom-success guard (d9ac832); skill disabled in aeon.yml", "upstream_commits": ["66711d3", "d9ac832"] }
+    { "path": "skills/vuln-scanner/SKILL.md", "reason": "fork simplified copy (flat frontmatter, older osv-scanner path) vs upstream bounded-trufflehog git-history scan + no-resume/phantom-success guard (d9ac832); skill disabled in aeon.yml", "upstream_commits": ["66711d3", "d9ac832"] },
+    { "path": "skills/compute-resell/", "reason": "needs-eyebrowlock-scan: brand-new upstream skill (#1036, 3f3509c). Not auto-added this run — new-skill CLEAN-ADD requires (a) an `eyebrowlock.json` entry, produced only by the `eyebrow` binary (not preinstalled), and (b) a `compute-resell` glyph in operator-owned `catalog/skill-icons.json` for `bin/generate-skill-icons` to emit its assets. Per the S7 fail-safe, deferred rather than shipping a red PR.", "upstream_commits": ["3f3509c"] },
+    { "path": "skills/submit-hook/", "reason": "needs-eyebrowlock-scan: brand-new upstream skill (#1040, 0154c0e — Uniswap v4 hook marketplace publish). Same defer reason as compute-resell: needs an eyebrowlock entry + a `submit-hook` glyph in catalog/skill-icons.json.", "upstream_commits": ["0154c0e"] }
   ],
   "resolved_this_run": [
-    { "path": "skills/pr-review/SKILL.md", "how": "3-way CLEAN-MERGE — last week's fork-frontmatter conflict now merges clean: upstream's verified-review-receipt body additions (2fd214a #1027) are disjoint from the fork's flat frontmatter + repo-naming edits" },
-    { "path": "skills/send-email/SKILL.md", "how": "3-way CLEAN-MERGE — upstream delivery-preflight bounce-check step 0 (21b82db #1033) disjoint from operator edits" }
+    { "path": ".github/workflows/aeon.yml", "how": "3-way CLEAN-MERGE — the prior env-narrowing conflict now merges clean: upstream's egress/expression-headroom edits (162bf20 + prior) land disjoint from the operator's narrowed env: block; git merge-file rc=0, output re-validated (YAML parse + validate-config.js PASS)" }
   ],
   "informational_divergences": [
-    { "path": "skills/deploy-uni-hook/SKILL.md + templates/Hook.t.sol", "note": "upstream modified (ad4dd82: anchor price/balance/skew gates to pool price #1031); skill not tracked locally (not enabled) — kept absent" }
+    { "path": ".claude/skills/aeon/** (SKILL.md + 3 references)", "note": "upstream doc-sync edits (63078b4); the `.claude/` bundled skill copy is not carried in this fork (operator ships `plugin/skills/aeon/` instead, which WAS synced clean this run) — kept absent" },
+    { "path": "skills/deploy-uni-hook/** (AeonFee.sol add + template/hook-deploy mods, 487b23f)", "note": "skill dir not tracked locally (not enabled) — kept absent, consistent with prior runs" },
+    { "path": "docs/assets/skill-icons/{compute-resell,submit-hook}.svg + apps/dashboard/lib/skill-icons.data.ts + catalog/skill-icons.json", "note": "generated icon assets for the two deferred skills; will be produced by bin/generate-skill-icons once compute-resell/submit-hook land — not hand-written" }
   ]
 }
