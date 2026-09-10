@@ -1,8 +1,8 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-09-09T20:30:50Z",
+  "last_analyzed": "2026-09-10T17:09:29Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured fetch with strong verification discipline—surfaces actionable BD signal (sibyl_labs), identifies high-resonance organic content, and flags false claims without presenting them as fact. Properly deduped, categorized, and follows-up with specific actions.",
+  "assessment": "Substantive daily digest with specific, verifiable tweets surfacing product launches (Hook Marketplace, MiroShark video export) and community signals; clear alignment with BD/intel priorities.",
   "flags": [],
   "avg_score": 3.91,
   "history": [
@@ -92,6 +92,10 @@
     },
     {
       "date": "2026-09-09",
+      "score": 4
+    },
+    {
+      "date": "2026-09-10",
       "score": 4
     }
   ]

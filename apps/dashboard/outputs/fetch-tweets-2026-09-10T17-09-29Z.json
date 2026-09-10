@@ -1,0 +1,238 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — 2026-09-10"
+      },
+      "children": [
+        "subtitle",
+        "sep1",
+        "h1",
+        "tweet1",
+        "link1",
+        "sep2",
+        "h2",
+        "tweet2",
+        "link2",
+        "tweet3",
+        "link3",
+        "sep3",
+        "h3",
+        "tweet4",
+        "link4",
+        "tweet5",
+        "link5",
+        "sep4",
+        "h4",
+        "tweet6",
+        "link6",
+        "tweet7",
+        "link7"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-10)\n\nAeon shipped a real launch (Hook Marketplace) and MiroShark shipped one-click video export same-day, while a BaseHub thread shows Aaron doing public technical Q&A — with one voice picking a rival.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "h1": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon ships the Hook Marketplace",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aeonframework",
+        "handle": "@aeonframework",
+        "text": "Launched aeon.fun/hooks with 12 ready-to-use Uniswap v4 hooks; the registry behind it (aeonfun/univ4-hooks) accepts deploys on seven chains.",
+        "likes": 18,
+        "retweets": 5
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2097997668601544919"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "h2": {
+      "type": "Heading",
+      "props": {
+        "text": "MiroShark ships one-click video export",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "@aaronjmars",
+        "text": "MiroShark can now export a generated agent simulation as a video in one click, on top of the existing hundreds-of-agents/dozens-of-actions engine.",
+        "likes": 19,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2098061703627886906"
+      },
+      "children": []
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "@aaronjmars",
+        "text": "Follow-up CTA: the feature is live and \"available on any simulation\" — not a one-off demo, a general capability.",
+        "likes": 3,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2098062145019658450"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "h3": {
+      "type": "Heading",
+      "props": {
+        "text": "Aaron answers architecture Qs live",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Vicks_vic",
+        "handle": "@Vicks_vic",
+        "text": "Publicly pressed Aaron on four specifics: prompt-injection isolation w/ zero approval loops, GHA cold-start/ToS limits, concurrent git-push collisions on memory, guardrails against bad self-repair loops.",
+        "likes": 0,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Vicks_vic/status/2098026077343875492"
+      },
+      "children": []
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron Mars",
+        "handle": "@aaronjmars",
+        "text": "Answered all four in one reply: secrets off the cmdline + read-only sandboxing, no cold start with missed crons replaying, auto-rebase on push races, repair patches ship as PRs with cooldowns/caps.",
+        "likes": 1,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2098054236177101039"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "h4": {
+      "type": "Heading",
+      "props": {
+        "text": "Community read: BaseHub AI-agent thread",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "takeru_L2",
+        "handle": "@takeru_L2",
+        "text": "\"the rule list is the moat\" — frames Aeon's skill/rule structure itself as the defensibility, not the model.",
+        "likes": 0,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link6": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/takeru_L2/status/2098069145019707587"
+      },
+      "children": []
+    },
+    "tweet7": {
+      "type": "TweetCard",
+      "props": {
+        "author": "r_dulii",
+        "handle": "@r_dulii",
+        "text": "Countered in the same thread: \"the best AI project on Base is @KellyClaudeAI\" — direct competitor pick over aeonframework.",
+        "likes": 1,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link7": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/r_dulii/status/2097995160671977510"
+      },
+      "children": []
+    }
+  }
+}
