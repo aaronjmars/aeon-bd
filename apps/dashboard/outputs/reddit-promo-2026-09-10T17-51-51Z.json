@@ -1,0 +1,398 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-09-10"
+      },
+      "children": [
+        "status-section",
+        "separator-1",
+        "story-section",
+        "separator-2",
+        "posts-section"
+      ]
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-days",
+        "stat-subs"
+      ]
+    },
+    "stat-days": {
+      "type": "Stat",
+      "props": {
+        "label": "Since last promo",
+        "value": "3 days"
+      }
+    },
+    "stat-subs": {
+      "type": "Stat",
+      "props": {
+        "label": "Subreddits drafted",
+        "value": "4"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-title",
+        "story-text",
+        "story-link"
+      ]
+    },
+    "story-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon ships the Hook Marketplace - aeon.fun/hooks live with 12 Uniswap v4 hooks, registry (aeonfun/univ4-hooks) accepting deploys on 7 chains"
+      }
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Framework - Hook Marketplace Launch",
+        "href": "https://x.com/aeonframework/status/2097997668601544919",
+        "source": "X"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "posts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "post-1",
+        "post-2",
+        "post-3",
+        "post-4"
+      ]
+    },
+    "post-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-1-header",
+        "post-1-title",
+        "post-1-body",
+        "post-1-link",
+        "post-1-action",
+        "post-1-notes"
+      ]
+    },
+    "post-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "post-1-sub",
+        "post-1-archetype"
+      ]
+    },
+    "post-1-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/CoolGithubProjects",
+        "variant": "lead"
+      }
+    },
+    "post-1-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "github",
+        "variant": "secondary"
+      }
+    },
+    "post-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon - open-source agent framework that just shipped a Uniswap v4 hook registry deploying to 7 chains",
+        "level": "h4"
+      }
+    },
+    "post-1-body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon is an open-source (AGPL) framework where every \"agent\" is a folder of markdown files run on a schedule via GitHub Actions - no long-running process, no approval loop between one run and the next.\n\nThis week it shipped aeon.fun/hooks: 12 ready-to-use Uniswap v4 hooks, backed by a registry (the univ4-hooks repo) that takes deploys across seven chains. Not a demo - a live marketplace anyone can submit a hook to.\n\nWhy it's relevant here: the whole thing runs through the same skill-as-markdown mechanic as everything else in the framework - a scheduled job reads a spec, writes the hook, opens a PR. No separate infra for \"hooks\" vs. everything else Aeon does.\n\nRepo's linked below if you want to see the actual skill files, not just the pitch.\n\nI built this - happy to answer questions about the deploy pipeline or the framework itself.",
+        "variant": "body"
+      }
+    },
+    "post-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Repository",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post-1-action": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CoolGithubProjects composer",
+        "href": "https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20open-source%20agent%20framework%20that%20just%20shipped%20a%20Uniswap%20v4%20hook%20registry%20deploying%20to%207%20chains"
+      }
+    },
+    "post-1-notes": {
+      "type": "Text",
+      "props": {
+        "text": "strict title-format sub (\"Aeon - <one-line desc>\") - don't edit the title post-submit; post as the builder, not anonymously.",
+        "variant": "caption"
+      }
+    },
+    "post-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-2-header",
+        "post-2-title",
+        "post-2-body",
+        "post-2-link",
+        "post-2-action",
+        "post-2-notes"
+      ]
+    },
+    "post-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "post-2-sub",
+        "post-2-archetype"
+      ]
+    },
+    "post-2-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/OpenSourceAI",
+        "variant": "lead"
+      }
+    },
+    "post-2-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "open-source",
+        "variant": "secondary"
+      }
+    },
+    "post-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Shipped a multi-chain hook marketplace with a framework that has no approval loop between runs - here's how the pipeline works",
+        "level": "h4"
+      }
+    },
+    "post-2-body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon (AGPL, github.com/aeonfun/aeon) runs \"skills\" - plain markdown files with a frontmatter block for schedule/permissions - through GitHub Actions. No daemon, no approval step between one run and the next; whatever the skill decides to do (open a PR, post a draft, deploy something) just happens on the next scheduled tick.\n\nCase in point from this week: it shipped aeon.fun/hooks, 12 ready Uniswap v4 hooks, with a registry accepting deploys on seven chains. That's not a one-off feature - it's the same scheduled-skill mechanic that runs the rest of the framework, just pointed at hook deploys instead of, say, a changelog update or a security scan.\n\nIf \"open source\" for you means you actually want to read the thing that ships code on its own, the repo's below - it's all just .md files and a couple of shell scripts underneath.\n\nI work on Aeon, ask me anything about the internals.",
+        "variant": "body"
+      }
+    },
+    "post-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Repository",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post-2-action": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/OpenSourceAI composer",
+        "href": "https://www.reddit.com/r/OpenSourceAI/submit?title=Shipped%20a%20multi-chain%20hook%20marketplace%20with%20a%20framework%20that%20has%20no%20approval%20loop%20between%20runs%20-%20here%27s%20how%20the%20pipeline%20works"
+      }
+    },
+    "post-2-notes": {
+      "type": "Text",
+      "props": {
+        "text": "enthusiast OSS crowd, self-promo tolerated if mechanic-first - disclose \"I work on Aeon\".",
+        "variant": "caption"
+      }
+    },
+    "post-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-3-header",
+        "post-3-title",
+        "post-3-body",
+        "post-3-link",
+        "post-3-action",
+        "post-3-notes"
+      ]
+    },
+    "post-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "post-3-sub",
+        "post-3-archetype"
+      ]
+    },
+    "post-3-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/AIPromptProgramming",
+        "variant": "lead"
+      }
+    },
+    "post-3-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "post-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "An agent framework where shipping a feature means a scheduled markdown file writes code and opens a PR",
+        "level": "h4"
+      }
+    },
+    "post-3-body": {
+      "type": "Text",
+      "props": {
+        "text": "Been building on Aeon - the interesting bit for this sub is the loop: a \"skill\" is a markdown spec (frontmatter: schedule, required secrets, read-only vs. write mode) that Claude Code executes headless on GitHub Actions. No long-lived agent process, no human approval gate per run - each dispatch reads memory, does the work, and either writes files/opens a PR or reports back.\n\nThis week's proof that loop actually produces something real: aeon.fun/hooks went live with 12 Uniswap v4 hooks, and the registry backing it takes deploys on seven chains. Same skill-dispatch mechanic that runs everything else in the framework, this time pointed at deploying hooks instead of, say, drafting a PR review.\n\nThere's also a self-repair loop on top of it - a health skill scores runs, a repair skill opens fix PRs against skills that degrade. If you're building agents that need to survive unattended for weeks, the failure-mode handling is worth a read even if you never touch Aeon itself.\n\nRepo's linked - happy to talk through the architecture, I'm one of the people building it.",
+        "variant": "body"
+      }
+    },
+    "post-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Repository",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post-3-action": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AIPromptProgramming composer",
+        "href": "https://www.reddit.com/r/AIPromptProgramming/submit?title=An%20agent%20framework%20where%20shipping%20a%20feature%20means%20a%20scheduled%20markdown%20file%20writes%20code%20and%20opens%20a%20PR"
+      }
+    },
+    "post-3-notes": {
+      "type": "Text",
+      "props": {
+        "text": "technical audience, don't oversimplify - disclose builder status.",
+        "variant": "caption"
+      }
+    },
+    "post-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-4-header",
+        "post-4-title",
+        "post-4-body",
+        "post-4-link",
+        "post-4-action",
+        "post-4-notes"
+      ]
+    },
+    "post-4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "post-4-sub",
+        "post-4-archetype"
+      ]
+    },
+    "post-4-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/CLaudeSkills",
+        "variant": "lead"
+      }
+    },
+    "post-4-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "claude-skills",
+        "variant": "secondary"
+      }
+    },
+    "post-4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "A skill whose entire job is drafting Reddit promo posts from another skill's output - here's the shape",
+        "level": "h4"
+      }
+    },
+    "post-4-body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon skills are exactly what this sub is about - markdown files with a frontmatter block, executed by Claude Code on a cron via GitHub Actions. No wrapper app, no special skill-runtime beyond what Claude Code already does.\n\nConcrete example - this one drafted the post you're reading:\n```\ntype: Skill\nname: Reddit Promo\ndescription: Draft copy-paste-ready Reddit posts that promote Aeon - read the\n  daily fetch-tweets output, pull what shipped or got endorsed, write\n  value-first per-subreddit drafts. Drafts only - never auto-posts.\nvar: \"\"\ncommits: false\n```\nThat frontmatter plus a numbered list of steps is the whole \"program.\" No code, no separate runtime - Claude Code just executes the instructions.\n\nSame mechanic ships real things, not just social copy - this week a different skill in the same framework shipped aeon.fun/hooks, 12 Uniswap v4 hooks with a registry that deploys across seven chains. Scheduled markdown files writing code and opening PRs, unattended.\n\nRepo's below if you want to see the other skills in the catalog. I work on this, ask away.",
+        "variant": "body"
+      }
+    },
+    "post-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon Repository",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "post-4-action": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/CLaudeSkills composer",
+        "href": "https://www.reddit.com/r/CLaudeSkills/submit?title=A%20skill%20whose%20entire%20job%20is%20drafting%20Reddit%20promo%20posts%20from%20another%20skill%27s%20output%20-%20here%27s%20the%20shape"
+      }
+    },
+    "post-4-notes": {
+      "type": "Text",
+      "props": {
+        "text": "technical crowd will check the repo - keep every claim literally checkable; disclose \"I work on Aeon.\"",
+        "variant": "caption"
+      }
+    }
+  }
+}

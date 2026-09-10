@@ -1,10 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-09T17:50:38Z",
+  "last_analyzed": "2026-09-10T17:51:51Z",
   "quality_score": 4,
-  "assessment": "Solid skip decision with verifiable reasoning; correctly holds bar against filler self-promo.",
+  "assessment": "Substantive, well-tailored Reddit drafts from a consumed source; strong strategy alignment and actionable output, though solid execution rather than breakthrough insight.",
   "flags": [],
-  "avg_score": 3.95,
+  "avg_score": 3.96,
   "history": [
     {
       "date": "2026-08-20",
@@ -92,6 +92,10 @@
     },
     {
       "date": "2026-09-09",
+      "score": 4
+    },
+    {
+      "date": "2026-09-10",
       "score": 4
     }
   ]
