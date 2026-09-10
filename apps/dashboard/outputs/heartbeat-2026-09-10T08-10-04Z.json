@@ -1,0 +1,233 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat",
+        "description": "2026-09-10"
+      },
+      "children": [
+        "main-alert",
+        "issues-stack",
+        "sep1",
+        "status-section"
+      ]
+    },
+    "main-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "⚠️ ISSUES: 2 new health-issue signals since yesterday",
+        "message": "Open issues moved 6 → 7"
+      }
+    },
+    "issues-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "issue-97",
+        "issue-75",
+        "recovery-note"
+      ]
+    },
+    "issue-97": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-97",
+        "badges-97",
+        "meta-97"
+      ]
+    },
+    "link-97": {
+      "type": "StoryLink",
+      "props": {
+        "title": "#97 health:competitor-monitor",
+        "href": "https://github.com/aaronjmars/aeon-bd/issues/97",
+        "source": "GitHub"
+      }
+    },
+    "badges-97": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-quality-97",
+        "badge-score-97"
+      ]
+    },
+    "badge-quality-97": {
+      "type": "Badge",
+      "props": {
+        "text": "low_quality",
+        "variant": "secondary"
+      }
+    },
+    "badge-score-97": {
+      "type": "Badge",
+      "props": {
+        "text": "score 2",
+        "variant": "outline"
+      }
+    },
+    "meta-97": {
+      "type": "Text",
+      "props": {
+        "text": "First-ever issue for this skill • opened 2026-09-09 19:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "issue-75": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-75",
+        "badges-75",
+        "meta-75",
+        "context-75"
+      ]
+    },
+    "link-75": {
+      "type": "StoryLink",
+      "props": {
+        "title": "#75 health:fetch-tweets",
+        "href": "https://github.com/aaronjmars/aeon-bd/issues/75",
+        "source": "GitHub"
+      }
+    },
+    "badges-75": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-flag-75",
+        "badge-score-75"
+      ]
+    },
+    "badge-flag-75": {
+      "type": "Badge",
+      "props": {
+        "text": "unverifiable_claim",
+        "variant": "secondary"
+      }
+    },
+    "badge-score-75": {
+      "type": "Badge",
+      "props": {
+        "text": "score 2",
+        "variant": "outline"
+      }
+    },
+    "meta-75": {
+      "type": "Text",
+      "props": {
+        "text": "Flagged 2026-09-09 17:10 UTC",
+        "variant": "caption"
+      }
+    },
+    "context-75": {
+      "type": "Text",
+      "props": {
+        "text": "Reactivating thread quiet since 08-31 incident",
+        "variant": "body"
+      }
+    },
+    "recovery-note": {
+      "type": "Text",
+      "props": {
+        "text": "Neither is a run failure or urgent-labeled — cron-state shows both skills clean and recovered",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status-heading",
+        "status-content"
+      ]
+    },
+    "status-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Status",
+        "level": "h3"
+      }
+    },
+    "status-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status-badge",
+        "status-updates"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "STATUS_PAGE = WATCH",
+        "variant": "outline"
+      }
+    },
+    "status-updates": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status-line-1",
+        "status-line-2",
+        "status-note"
+      ]
+    },
+    "status-line-1": {
+      "type": "Text",
+      "props": {
+        "text": "docs/status.md regenerated",
+        "variant": "body"
+      }
+    },
+    "status-line-2": {
+      "type": "Text",
+      "props": {
+        "text": "Added missing competitor-monitor row • open-issues table now 7",
+        "variant": "body"
+      }
+    },
+    "status-note": {
+      "type": "Text",
+      "props": {
+        "text": "Status unchanged",
+        "variant": "muted"
+      }
+    }
+  }
+}
