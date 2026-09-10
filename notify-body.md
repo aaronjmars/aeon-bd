@@ -1,25 +1,34 @@
-*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-03)*
-_Team-led plugs (cheaper inference, a FOSS security idea) share the day with outside builders publicly requesting deeper integrations and docs — no big story, steady low-grade demand signal._
+*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-10)*
+_Aeon shipped a real launch (Hook Marketplace) and MiroShark shipped one-click video export same-day, while a BaseHub thread shows Aaron doing public technical Q&A — with one voice picking a rival._
 
-*Team pushes cost + safety moves*
-1. x.com/aeonframework — points agent builders at UsePodAI as a cheaper-inference option for their Aeon agents — a concrete cost lever, not just a shoutout
-Likes: 41 | RTs: 10 | Replies: 2
-[View tweet](https://x.com/aeonframework/status/2095109716636577888)
+*Aeon ships the Hook Marketplace*
+1. x.com/aeonframework — Launched aeon.fun/hooks with 12 ready-to-use Uniswap v4 hooks; the registry behind it (aeonfun/univ4-hooks) accepts deploys on seven chains.
+Likes: 18 | RTs: 5 | Replies: 1
+[View tweet](https://x.com/aeonframework/status/2097997668601544919)
 
-2. x.com/aaronjmars — floats a cross-FOSS collab with GitHub on detecting hidden malware loaders in repos, framed as bigger than Aeon alone — a governance angle that could open a GitHub conversation
-Likes: 20 | RTs: 2 | Replies: 1
-[View tweet](https://x.com/aaronjmars/status/2095262910331208116)
+*MiroShark ships one-click video export*
+2. x.com/aaronjmars — MiroShark can now export a generated agent simulation as a video in one click, on top of the existing hundreds-of-agents/dozens-of-actions engine.
+Likes: 19 | RTs: 2 | Replies: 2
+[View tweet](https://x.com/aaronjmars/status/2098061703627886906)
 
-*CultOS/Miroshark affiliate rail opens to any builder*
-3. x.com/thecultos — CultOS now pays 10% of every attributed USDC payment to any Base builder who registers a builder code, payouts routed onchain via Miroshark's x402aff — the affiliate rail goes from single-partner plug to open incentive
-Likes: 10 | RTs: 4 | Replies: 2
-[View tweet](https://x.com/thecultos/status/2095192495395127422)
+3. x.com/aaronjmars — Follow-up CTA: the feature is live and "available on any simulation" — not a one-off demo, a general capability.
+Likes: 3 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/aaronjmars/status/2098062145019658450)
 
-*Outside builders pull for deeper integration + docs*
-4. x.com/sololevelhunter — publicly floats an Aeon x eyebrowCC security-layer collab before either team has announced one — unsolicited demand signal, not a confirmed partnership
-Likes: 9 | RTs: 2 | Replies: 1
-[View tweet](https://x.com/sololevelhunter/status/2095126940143305210)
+*Aaron answers architecture Qs live*
+4. x.com/Vicks_vic — Publicly pressed Aaron on four specifics: prompt-injection isolation w/ zero approval loops, GHA cold-start/ToS limits, concurrent git-push collisions on memory, guardrails against bad self-repair loops.
+Likes: 0 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/Vicks_vic/status/2098026077343875492)
 
-5. x.com/Rishike89765470 — asks if Aeon has docs/blog for running a sharded orchestration engine across home laptops via Tailscale — a live use case with no answer yet, a support/BD gap
-Likes: 2 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/Rishike89765470/status/2095022666562592827)
+5. x.com/aaronjmars — Answered all four in one reply: secrets off the cmdline + read-only sandboxing, no cold start with missed crons replaying, auto-rebase on push races, repair patches ship as PRs with cooldowns/caps.
+Likes: 1 | RTs: 0 | Replies: 1
+[View tweet](https://x.com/aaronjmars/status/2098054236177101039)
+
+*Community read: BaseHub AI-agent thread*
+6. x.com/takeru_L2 — "the rule list is the moat" — frames Aeon's skill/rule structure itself as the defensibility, not the model.
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/takeru_L2/status/2098069145019707587)
+
+7. x.com/r_dulii — Countered in the same thread: "the best AI project on Base is @KellyClaudeAI" — direct competitor pick over aeonframework.
+Likes: 1 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/r_dulii/status/2097995160671977510)
