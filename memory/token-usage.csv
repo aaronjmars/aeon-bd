@@ -107,3 +107,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-09,aeon-update,claude-opus-4-8,4647,47615,4208524,97553
 2026-09-09,competitor-monitor,claude-sonnet-5,2833,41398,3456000,82131
 2026-09-09,fetch-tweets,claude-sonnet-5,2420,22136,2740251,82190
+2026-09-10,competitor-monitor,claude-sonnet-5,2118,2988,524248,27676
