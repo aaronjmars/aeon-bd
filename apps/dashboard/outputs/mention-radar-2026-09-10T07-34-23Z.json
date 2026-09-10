@@ -1,0 +1,279 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-09-10 vs 2026-09-08"
+      },
+      "children": [
+        "stats_stack",
+        "sep_1",
+        "section_aeon",
+        "sep_2",
+        "section_miroshark",
+        "sep_3",
+        "section_engagement",
+        "sep_4",
+        "section_run"
+      ]
+    },
+    "stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_new",
+        "stat_open",
+        "stat_quiet"
+      ]
+    },
+    "stat_new": {
+      "type": "Stat",
+      "props": {
+        "label": "New mentions",
+        "value": "2"
+      }
+    },
+    "stat_open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "0"
+      }
+    },
+    "stat_quiet": {
+      "type": "Stat",
+      "props": {
+        "label": "Quiet",
+        "value": "0"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aeon",
+        "aeon_content"
+      ]
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_aeon",
+        "tweet_aeon",
+        "text_aeon_context",
+        "text_aeon_metrics",
+        "link_aeon"
+      ]
+    },
+    "badge_aeon": {
+      "type": "Badge",
+      "props": {
+        "text": "Press/newsletter",
+        "variant": "secondary"
+      }
+    },
+    "tweet_aeon": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "@thecultos",
+        "text": "Give your @claudeai or @OpenAI agents access to Cult OS services powered by @aeonframework skills: SEO audits, PR triage & review, and vulnerability scanning. More to come!",
+        "likes": 8,
+        "retweets": 4
+      }
+    },
+    "text_aeon_context": {
+      "type": "Text",
+      "props": {
+        "text": "CultOS turned the Aeon-skills partnership into a live paid MCP product (3 named service categories), corroborated same-day by founder @akathesmith's dev log naming the identical service list",
+        "variant": "caption"
+      }
+    },
+    "text_aeon_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "4 replies • 413 views",
+        "variant": "muted"
+      }
+    },
+    "link_aeon": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/thecultos/status/2097818225648021603"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_miroshark",
+        "miroshark_content"
+      ]
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_miroshark",
+        "tweet_miroshark",
+        "text_miroshark_context",
+        "link_miroshark"
+      ]
+    },
+    "badge_miroshark": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "secondary"
+      }
+    },
+    "tweet_miroshark": {
+      "type": "TweetCard",
+      "props": {
+        "author": "techcitycrypto",
+        "handle": "@techcitycrypto",
+        "text": "$Miroshark an open source agent simulation is just trading at $300k. Dev is one of the top innovators in the ai agent space... Exploring simulation for sports and prediction mrkts. deserves attention"
+      }
+    },
+    "text_miroshark_context": {
+      "type": "Text",
+      "props": {
+        "text": "Organic first-time praise, no pump language • 303 followers",
+        "variant": "caption"
+      }
+    },
+    "link_miroshark": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/techcitycrypto/status/2095597518671462537"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_engagement",
+        "engagement_content"
+      ]
+    },
+    "heading_engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "engagement_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_engagement",
+        "link_engagement"
+      ]
+    },
+    "text_engagement": {
+      "type": "Text",
+      "props": {
+        "text": "@thecultos: highest-leverage reply this cycle - a partner just shipped a paid product literally branded \"powered by @aeonframework skills,\" worth a boost/RT from the aeon account while the thread is still live (4 replies engaging with it already)",
+        "variant": "body"
+      }
+    },
+    "link_engagement": {
+      "type": "Link",
+      "props": {
+        "label": "View engagement opportunity",
+        "href": "https://x.com/thecultos/status/2097818225648021603"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_run": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_run",
+        "text_run"
+      ]
+    },
+    "heading_run": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Details",
+        "level": "h3"
+      }
+    },
+    "text_run": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=twitterapi (aeon http=200/20 tweets, miroshark http=200/15 tweets) · web sweep (Reddit/HN/PH) clean both projects, HackerNoon \"Aeon/MiroShark agentic commerce\" piece is June-dated (outside 7d window, not new), Microlaunch MiroShark listing still 0 votes (checked 09-08, unchanged) · noise discarded: bare-\"aeon\" query collided with AEON retail chain/AeonCoin/vtuber handles again (same pattern flagged 09-06/09-08) so query was narrowed to \"aeonframework\"/\"aeon framework\"/repo-url only; @CryptoBrada's $CULTOS mega-thread (names AEON+Miroshark as supporting cast in a \"buy now\" pitch, CA included) discarded as promotional shill, not organic; @deexra's \"moonshot gem list\" discarded as too thin (ticker-only, no product claim); @liqfun's \"just followed\" discarded - account is bot-labeled (\"Automated by @liqpad\"); BaseHubHB roundup-thread replies (Mechanical/Jim_buildr/tradingtulips/m00tloader/woongrani/ArsonistCrypto/DLSIT1/aamirfaizwp/moltworksdev, all 0-2 likes) discarded - about $SIBYL or generic agent-market commentary, not aeon-specific · stars aeon 721/+3/since 09-08 (under +5 threshold, not surfaced) · stars miroshark 1450/+2/since 09-08 (under +5 threshold, not surfaced) · quiet_streak both reset to 0 on new mentions",
+        "variant": "caption"
+      }
+    }
+  }
+}

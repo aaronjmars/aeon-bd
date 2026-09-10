@@ -13,10 +13,24 @@
       "category": "Discovery",
       "first_seen": "2026-09-08",
       "last_seen": "2026-09-08"
+    },
+    {
+      "key": "x:https://x.com/thecultos/status/2097818225648021603",
+      "project": "aeon",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-10"
+    },
+    {
+      "key": "x:https://x.com/techcitycrypto/status/2095597518671462537",
+      "project": "miroshark",
+      "category": "Discovery",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-10"
     }
   ],
   "quiet_streak": {
     "aeon": 0,
-    "miroshark": 4
+    "miroshark": 0
   }
 }
