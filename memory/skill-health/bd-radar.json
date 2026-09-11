@@ -1,8 +1,8 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-09-09T07:38:45Z",
+  "last_analyzed": "2026-09-11T07:35:10Z",
   "quality_score": 4,
-  "assessment": "Substantive radar scan with 2 verified new leads, proper noise filtering, and actionable moves tied to expiry dates—well-executed against strategy.",
+  "assessment": "Substantive BD radar with 2 new high-fit leads, concrete next moves, time windows, and clean noise filtering—strategy-aligned and actionable",
   "flags": [],
   "avg_score": 4.08,
   "history": [
@@ -52,6 +52,10 @@
     },
     {
       "date": "2026-09-09",
+      "score": 4
+    },
+    {
+      "date": "2026-09-11",
       "score": 4
     }
   ]

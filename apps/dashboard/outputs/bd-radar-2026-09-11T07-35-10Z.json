@@ -1,0 +1,483 @@
+{
+  "root": "bd_radar_card",
+  "state": {},
+  "elements": {
+    "bd_radar_card": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar",
+        "description": "2026-09-11 vs 2026-09-09"
+      },
+      "children": [
+        "metrics_section",
+        "sep1",
+        "leads_section",
+        "sep2",
+        "run_section"
+      ]
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "total_stat",
+        "new_stat",
+        "open_stat"
+      ]
+    },
+    "total_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total leads",
+        "value": "50"
+      }
+    },
+    "new_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "2"
+      }
+    },
+    "open_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "leads_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "lead_1045",
+        "lead_corinth",
+        "lead_cultosdev",
+        "lead_mr240",
+        "lead_mr300"
+      ]
+    },
+    "lead_1045": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_1045_title",
+        "lead_1045_desc",
+        "lead_1045_action",
+        "lead_1045_deadline"
+      ]
+    },
+    "lead_1045_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_1045",
+        "badge_1045",
+        "date_1045"
+      ]
+    },
+    "link_1045": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aeonfun/aeon#1045",
+        "href": "https://github.com/aeonfun/aeon/issues/1045",
+        "source": "GitHub"
+      }
+    },
+    "badge_1045": {
+      "type": "Badge",
+      "props": {
+        "text": "integrating",
+        "variant": "default"
+      }
+    },
+    "date_1045": {
+      "type": "Text",
+      "props": {
+        "text": "first seen today",
+        "variant": "caption"
+      }
+    },
+    "lead_1045_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OrcaRouter eng dropped a fully-scoped sidecar gateway proposal, offered to write the PR. aaronjmars already said yes same day.",
+        "variant": "body"
+      }
+    },
+    "lead_1045_action": {
+      "type": "Text",
+      "props": {
+        "text": "Move: track for the PR - ask already happened",
+        "variant": "lead"
+      }
+    },
+    "lead_1045_deadline": {
+      "type": "Alert",
+      "props": {
+        "title": "Deadline",
+        "message": "Flips if: no PR by 09-24",
+        "type": "info"
+      }
+    },
+    "lead_corinth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_corinth_title",
+        "lead_corinth_desc",
+        "lead_corinth_action",
+        "lead_corinth_deadline"
+      ]
+    },
+    "lead_corinth_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_corinth",
+        "badge_corinth",
+        "date_corinth"
+      ]
+    },
+    "link_corinth": {
+      "type": "StoryLink",
+      "props": {
+        "title": "corinth1ans/aeon",
+        "href": "https://github.com/corinth1ans/aeon",
+        "source": "GitHub"
+      }
+    },
+    "badge_corinth": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "secondary"
+      }
+    },
+    "date_corinth": {
+      "type": "Text",
+      "props": {
+        "text": "first seen today",
+        "variant": "caption"
+      }
+    },
+    "lead_corinth_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Forked today, already 4 real commits - custom NQ research strategy + scout skill, not a mirror",
+        "variant": "body"
+      }
+    },
+    "lead_corinth_action": {
+      "type": "Text",
+      "props": {
+        "text": "Move: open an issue, compliment the build, invite in",
+        "variant": "lead"
+      }
+    },
+    "lead_corinth_deadline": {
+      "type": "Alert",
+      "props": {
+        "title": "Expires",
+        "message": "09-18 (no push 7d)",
+        "type": "warning"
+      }
+    },
+    "lead_cultosdev": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_cultosdev_title",
+        "lead_cultosdev_desc",
+        "lead_cultosdev_action",
+        "lead_cultosdev_deadline"
+      ]
+    },
+    "lead_cultosdev_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_cultosdev",
+        "link_thecultos",
+        "badge_cultosdev",
+        "date_cultosdev"
+      ]
+    },
+    "text_cultosdev": {
+      "type": "Text",
+      "props": {
+        "text": "cultosdev",
+        "variant": "body"
+      }
+    },
+    "link_thecultos": {
+      "type": "Link",
+      "props": {
+        "label": "@thecultos",
+        "href": "https://x.com/thecultos"
+      }
+    },
+    "badge_cultosdev": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "secondary"
+      }
+    },
+    "date_cultosdev": {
+      "type": "Text",
+      "props": {
+        "text": "first seen 08-27 (15 days)",
+        "variant": "caption"
+      }
+    },
+    "lead_cultosdev_desc": {
+      "type": "Text",
+      "props": {
+        "text": "cultosdev still 404, 15 days now - but @thecultos posted fresh yesterday, still running on aeon skills",
+        "variant": "body"
+      }
+    },
+    "lead_cultosdev_action": {
+      "type": "Text",
+      "props": {
+        "text": "Move: DM @thecultos directly, this needs a human",
+        "variant": "lead"
+      }
+    },
+    "lead_cultosdev_deadline": {
+      "type": "Alert",
+      "props": {
+        "title": "Urgent",
+        "message": "Expires 09-12 (tomorrow)",
+        "type": "error"
+      }
+    },
+    "lead_mr240": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_mr240_title",
+        "lead_mr240_desc",
+        "lead_mr240_action",
+        "lead_mr240_deadline"
+      ]
+    },
+    "lead_mr240_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_mr240",
+        "badge_mr240",
+        "date_mr240"
+      ]
+    },
+    "link_mr240": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark#240",
+        "href": "https://github.com/aeon-org/miroshark/issues/240",
+        "source": "GitHub"
+      }
+    },
+    "badge_mr240": {
+      "type": "Badge",
+      "props": {
+        "text": "building",
+        "variant": "secondary"
+      }
+    },
+    "date_mr240": {
+      "type": "Text",
+      "props": {
+        "text": "first seen 08-23 (67d open, 30d no activity)",
+        "variant": "caption"
+      }
+    },
+    "lead_mr240_desc": {
+      "type": "Text",
+      "props": {
+        "text": "dan-and opened 67 days ago, 30 days since maintainer activity, further past SLA",
+        "variant": "body"
+      }
+    },
+    "lead_mr240_action": {
+      "type": "Text",
+      "props": {
+        "text": "Move: merge or close, need a call",
+        "variant": "lead"
+      }
+    },
+    "lead_mr240_deadline": {
+      "type": "Alert",
+      "props": {
+        "title": "Escalated",
+        "message": "Flips if: no response by 09-16",
+        "type": "error"
+      }
+    },
+    "lead_mr300": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead_mr300_title",
+        "lead_mr300_desc"
+      ]
+    },
+    "lead_mr300_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_mr300",
+        "badge_mr300",
+        "note_mr300"
+      ]
+    },
+    "link_mr300": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark#300",
+        "href": "https://github.com/aeon-org/miroshark/issues/300",
+        "source": "GitHub"
+      }
+    },
+    "badge_mr300": {
+      "type": "Badge",
+      "props": {
+        "text": "resolved",
+        "variant": "outline"
+      }
+    },
+    "note_mr300": {
+      "type": "Text",
+      "props": {
+        "text": "aaronjmars closed same day, ~10h turnaround",
+        "variant": "caption"
+      }
+    },
+    "lead_mr300_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Clean.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run_title",
+        "run_sources_section",
+        "run_cleared_section"
+      ]
+    },
+    "run_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Run details",
+        "level": "h3"
+      }
+    },
+    "run_sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_label",
+        "sources_text"
+      ]
+    },
+    "sources_label": {
+      "type": "Text",
+      "props": {
+        "text": "Sources:",
+        "variant": "lead"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "gh api (4 repos, clean) + gh search + twitterapi.io (200, 20 tweets, no qualifying mentions) + WebSearch, no misses",
+        "variant": "body"
+      }
+    },
+    "run_cleared_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cleared_label",
+        "cleared_text"
+      ]
+    },
+    "cleared_label": {
+      "type": "Text",
+      "props": {
+        "text": "Cleared:",
+        "variant": "lead"
+      }
+    },
+    "cleared_text": {
+      "type": "Text",
+      "props": {
+        "text": "unverified $Flybrain/$AEON mcap claim (single non-project account, no corroboration), new 'Aeon' name collision (unrelated web framework), 6 drive-by forks, 1 pump-bot template",
+        "variant": "body"
+      }
+    }
+  }
+}

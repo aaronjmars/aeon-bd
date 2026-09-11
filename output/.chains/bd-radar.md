@@ -1,18 +1,20 @@
 ℹ️ BD Radar
 
-*BD Radar - 2026-09-09*
-vs 2026-09-07 - 2 new - 2 still-open - 48 leads total
+*BD Radar - 2026-09-11*
+vs 2026-09-09 - 2 new - 2 still-open - 50 leads total
 
-building [darkstaryuri/aeon](https://github.com/darkstaryuri/aeon) (new): shipped a real provider-failover script (round-robin AI-provider rotation) + two bug fixes on a live instance, 14 commits ahead
-  move: open an issue offering to upstream provider-failover.sh - expires 09-23, before the fork goes stale
+integrating aeonfun/aeon#1045 (armyluki-wq, first seen today): OrcaRouter eng dropped a fully-scoped sidecar gateway proposal, offered to write the PR. aaronjmars already said yes same day.
+  move: track for the PR - ask already happened - flips if: no PR by 09-24
 
-integrating [MiroShark#300](https://github.com/MiroShark/MiroShark/issues/300) (new): AmirF194's contributor-quality locale bug report, matches the pattern already fixed in #194/#195, cites exact fix
-  move: thank + fast-track the review, reads like a future maintainer - flips if no response by 09-16
+building corinth1ans/aeon (first seen today): forked today, already 4 real commits - custom NQ research strategy + scout skill, not a mirror
+  move: open an issue, compliment the build, invite in - expires 09-18 (no push 7d)
 
-building [@thecultos](https://x.com/thecultos)/cultosdev (first seen 08-27, still open): cultosdev account still 404, 13 days since "we choose Aeon," 4th flag
-  move: DM @thecultos directly, automation won't move this - expires 09-12
+building x:thecultos / cultosdev (first seen 08-27): cultosdev still 404, 15 days now - but @thecultos posted fresh yesterday, still running on aeon skills
+  move: DM @thecultos directly, this needs a human - expires 09-12 (tomorrow)
 
-building [MiroShark#240](https://github.com/MiroShark/MiroShark/issues/240) (first seen 08-23, still open): 28 days since last maintainer activity, 65 days open total
-  move: merge-or-close decision needed - flips if no response by 09-16
+building MiroShark#240 - dan-and (first seen 08-23): 67d open, 30d since maintainer activity, further past SLA
+  move: merge or close, need a call - flips if: no response by 09-16
 
-run: github forks/issues clean, gh search clean, x_search quiet (http 200, no matches), web sweep clean - no source misses. Cleared a fake-star pair abusing MiroShark's tagline.
+resolved: MiroShark#300 - aaronjmars closed it same day, ~10h turnaround. clean.
+
+run: gh api (4 repos, clean) + gh search + twitterapi.io (200, 20 tweets, no qualifying mentions) + WebSearch, no misses. cleared: unverified $Flybrain/$AEON mcap claim (single non-project account, no corroboration), new "Aeon" name collision (unrelated web framework), 6 drive-by forks, 1 pump-bot template.

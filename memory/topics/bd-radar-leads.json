@@ -399,7 +399,7 @@
       "key": "github:XIAOCUICUII/koc-growth-agent",
       "class": "building",
       "who": "XIAOCUICUII/koc-growth-agent",
-      "signal": "Chinese-market KOC (influencer) growth-prediction AI system explicitly described as \"refactored based on MiroShark\" (根据MiroShark重构); shipped 05-05/06, quiet since (~4mo no push)",
+      "signal": "Chinese-market KOC (influencer) growth-prediction AI system explicitly described as \"refactored based on MiroShark\" (\u6839\u636eMiroShark\u91cd\u6784); shipped 05-05/06, quiet since (~4mo no push)",
       "fit": 3,
       "score": 15,
       "date_found": "2026-09-07",
@@ -487,12 +487,35 @@
       "key": "github-issue:MiroShark/MiroShark#300",
       "class": "integrating",
       "who": "AmirF194",
-      "signal": "Same-day fork + a contributor-quality bug report: GraphBuilderService.add_text_batches drops locale across ThreadPoolExecutor, correctly matches the pattern already fixed in #194/#195, includes exact file/line + proposed fix",
+      "signal": "Same-day fork + a contributor-quality bug report: GraphBuilderService.add_text_batches drops locale across ThreadPoolExecutor, correctly matches the pattern already fixed in #194/#195, includes exact file/line + proposed fix -- RESOLVED: closed same-day by aaronjmars (09-09, ~10h turnaround), fix fast-tracked",
       "fit": 3,
       "score": 9,
       "date_found": "2026-09-09",
       "first_seen": "2026-09-09",
-      "url": "https://github.com/MiroShark/MiroShark/issues/300"
+      "url": "https://github.com/MiroShark/MiroShark/issues/300",
+      "status": "resolved"
+    },
+    {
+      "key": "github-issue:aeonfun/aeon#1045",
+      "class": "integrating",
+      "who": "armyluki-wq",
+      "signal": "OrcaRouter engineer filed a fully-scoped gateway integration proposal (OpenAI-compatible sidecar tier, same shape as Venice/Surplus, offered to write the PR); aaronjmars replied same day accepting and requesting the implementation PR",
+      "fit": 3,
+      "score": 9,
+      "date_found": "2026-09-11",
+      "first_seen": "2026-09-11",
+      "url": "https://github.com/aeonfun/aeon/issues/1045"
+    },
+    {
+      "key": "github:corinth1ans/aeon",
+      "class": "building",
+      "who": "corinth1ans",
+      "signal": "Live instance forked today, 4 real commits ahead (not a synced mirror) - custom restricted NQ research strategy + a read-only NQ research scout skill",
+      "fit": 3,
+      "score": 15,
+      "date_found": "2026-09-11",
+      "first_seen": "2026-09-11",
+      "url": "https://github.com/corinth1ans/aeon"
     }
   ],
   "surfaced": [
@@ -543,6 +566,8 @@
     "github:Kodawari10/aeon",
     "github:codexvritra/signa-skills",
     "github:darkstaryuri/aeon",
-    "github-issue:MiroShark/MiroShark#300"
+    "github-issue:MiroShark/MiroShark#300",
+    "github-issue:aeonfun/aeon#1045",
+    "github:corinth1ans/aeon"
   ]
 }
