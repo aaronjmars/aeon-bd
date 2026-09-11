@@ -361,14 +361,14 @@
   },
   "reddit-playbook": {
     "last_dispatch": "2026-09-11T18:27:47Z",
-    "last_status": "dispatched",
-    "last_success": "2026-09-09T18:31:42Z",
-    "total_runs": 2,
-    "total_successes": 2,
+    "last_status": "success",
+    "last_success": "2026-09-11T18:30:56Z",
+    "total_runs": 3,
+    "total_successes": 3,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1,
-    "last_quality_score": 4
+    "last_quality_score": 3
   },
   "competitor-monitor": {
     "last_dispatch": "2026-09-11T06:06:57Z",
