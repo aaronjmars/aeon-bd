@@ -1,0 +1,417 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-09-11"
+      },
+      "children": [
+        "meta_info",
+        "sep1",
+        "story_section",
+        "sep2",
+        "posts_container"
+      ]
+    },
+    "meta_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "meta_timing",
+        "meta_count"
+      ]
+    },
+    "meta_timing": {
+      "type": "Text",
+      "props": {
+        "text": "1d since last promo (prior OK 2026-09-10, Hooks Marketplace)",
+        "variant": "muted"
+      }
+    },
+    "meta_count": {
+      "type": "Badge",
+      "props": {
+        "text": "4 subs drafted",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_label",
+        "story_link"
+      ]
+    },
+    "story_label": {
+      "type": "Text",
+      "props": {
+        "text": "Story:",
+        "variant": "lead"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MiroShark ships one-click video export for agent simulations",
+        "href": "https://x.com/aaronjmars/status/2098061703627886906",
+        "source": "X"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "posts_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "post1",
+        "post2",
+        "post3",
+        "post4"
+      ]
+    },
+    "post1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post1_header",
+        "post1_archetype",
+        "post1_title",
+        "post1_body",
+        "post1_links_info",
+        "post1_notes"
+      ]
+    },
+    "post1_header": {
+      "type": "Heading",
+      "props": {
+        "text": "r/MiroFish",
+        "level": "h3"
+      }
+    },
+    "post1_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "community"
+      }
+    },
+    "post1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "MiroShark simulations now export as video in one click",
+        "level": "h4"
+      }
+    },
+    "post1_body": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped this yesterday: any MiroShark simulation - hundreds of agents, dozens of actions, belief drift and all - can now be exported as a video in one click.\n\nNot a one-off demo render. It's a general capability, works on any simulation you run, same engine underneath (the swarm still argues, trades on the simulated AMM, drifts belief - you just get a video artifact out the other end now).\n\nWhy this matters for us specifically: simulations are hard to share. A JSON trace or a live dashboard doesn't travel. A video does - you can drop it in a thread, a deck, a Discord, and someone gets the story in 20 seconds without reading a config.\n\nI work on MiroShark. Happy to answer anything on how the export pipeline works or what's next (director mode is the other lever we're pulling on).",
+        "variant": "body"
+      }
+    },
+    "post1_links_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1_link_label",
+        "post1_repo",
+        "post1_composer"
+      ]
+    },
+    "post1_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post1_repo": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/miroshark/miroshark",
+        "href": "https://github.com/miroshark/miroshark"
+      }
+    },
+    "post1_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/MiroFish composer",
+        "href": "https://www.reddit.com/r/MiroFish/submit?title=MiroShark%20simulations%20now%20export%20as%20video%20in%20one%20click"
+      }
+    },
+    "post1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "home community, insider tone is fine - still disclose \"I work on MiroShark\" up top, don't just drop the link",
+        "variant": "caption"
+      }
+    },
+    "post2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post2_header",
+        "post2_archetype",
+        "post2_title",
+        "post2_body",
+        "post2_links_info",
+        "post2_notes"
+      ]
+    },
+    "post2_header": {
+      "type": "Heading",
+      "props": {
+        "text": "r/AskVibecoders",
+        "level": "h3"
+      }
+    },
+    "post2_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "vibecoders"
+      }
+    },
+    "post2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "I vibe-coded a one-click video export for agent simulations",
+        "level": "h4"
+      }
+    },
+    "post2_body": {
+      "type": "Text",
+      "props": {
+        "text": "Been building MiroShark - spin up hundreds of AI agents, let them argue on X/Reddit or trade on a simulated AMM, watch a whole synthetic economy or debate play out for about $1 and under 10 minutes.\n\nThe thing that was always missing: nobody wants to read a JSON trace to understand what happened. So we shipped one-click video export - point it at any simulation, get a video back. Same engine, no extra setup.\n\nIt's the kind of feature that sounds small until you actually need to explain \"what did 200 agents just do\" to someone who wasn't staring at the dashboard.\n\nRepo's open if you want to poke at how the simulation/export pipeline is wired. I built this, happy to answer questions or hear what you'd simulate first.",
+        "variant": "body"
+      }
+    },
+    "post2_links_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2_link_label",
+        "post2_x",
+        "post2_composer"
+      ]
+    },
+    "post2_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post2_x": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/aaronjmars/status/2098061703627886906",
+        "href": "https://x.com/aaronjmars/status/2098061703627886906"
+      }
+    },
+    "post2_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AskVibecoders composer",
+        "href": "https://www.reddit.com/r/AskVibecoders/submit?title=I%20vibe-coded%20a%20one-click%20video%20export%20for%20agent%20simulations"
+      }
+    },
+    "post2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "casual sub - keep first-person \"I built this\" framing, still disclose you're the builder, don't oversell",
+        "variant": "caption"
+      }
+    },
+    "post3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post3_header",
+        "post3_archetype",
+        "post3_title",
+        "post3_body",
+        "post3_links_info",
+        "post3_notes"
+      ]
+    },
+    "post3_header": {
+      "type": "Heading",
+      "props": {
+        "text": "r/StartupMind",
+        "level": "h3"
+      }
+    },
+    "post3_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "startup"
+      }
+    },
+    "post3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Shipped: one-click video export for our AI agent swarm simulator",
+        "level": "h4"
+      }
+    },
+    "post3_body": {
+      "type": "Text",
+      "props": {
+        "text": "Building MiroShark in public - a swarm-simulation engine that spins up hundreds of grounded agents to simulate anything (markets, debates, economies) for about $1 in under 10 minutes, x402-metered so you only pay for what you run.\n\nThis week's ship: one-click video export. Every simulation can now render as a video, not just a live dashboard or a JSON trace - the difference between \"here's a link to our tool\" and \"here's what happened, watch it.\"\n\nSmall but telling data point on why this matters: teams are already building real infra on top of this stack, not just demoing it. CultOS named both MiroShark and Aeon (our sibling framework) as the x402 payment rails under their \"Relic Hunt\" project this week - pitched explicitly as infra, not a token play.\n\nI'm the founder. Posting the honest version: this is a small feature, but it's the kind that compounds - every simulation we've ever run is suddenly shareable.",
+        "variant": "body"
+      }
+    },
+    "post3_links_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3_link_label",
+        "post3_x",
+        "post3_composer"
+      ]
+    },
+    "post3_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post3_x": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/aaronjmars/status/2098061703627886906",
+        "href": "https://x.com/aaronjmars/status/2098061703627886906"
+      }
+    },
+    "post3_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=Shipped%3A%20one-click%20video%20export%20for%20our%20AI%20agent%20swarm%20simulator"
+      }
+    },
+    "post3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "StartupMind smells growth-hacky tone fast - keep it honest/small-ship framing, disclose \"I'm the founder,\" respect self-promo ratio (mix in comments elsewhere before/after posting)",
+        "variant": "caption"
+      }
+    },
+    "post4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post4_header",
+        "post4_archetype",
+        "post4_title",
+        "post4_body",
+        "post4_links_info",
+        "post4_notes"
+      ]
+    },
+    "post4_header": {
+      "type": "Heading",
+      "props": {
+        "text": "r/aiecosystem",
+        "level": "h3"
+      }
+    },
+    "post4_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "agents"
+      }
+    },
+    "post4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "A swarm-simulation engine that now exports results as video",
+        "level": "h4"
+      }
+    },
+    "post4_body": {
+      "type": "Text",
+      "props": {
+        "text": "Where MiroShark sits in the agent-tooling landscape: it's not a chat agent or a framework, it's a simulation engine - spin up hundreds of grounded agents, let them interact (argue, trade on a simulated AMM, drift belief), and observe the outcome. x402-metered, ~$1 per run, under 10 minutes.\n\nNew this week: one-click video export, live on every simulation. That closes a real gap - simulation output used to mean a dashboard or a trace file, now it's a shareable artifact.\n\nWorth flagging for anyone mapping this space: it's also becoming real infra, not just a demo tool. CultOS built their \"Relic Hunt\" project's x402 payment rails on top of both MiroShark and its sibling framework Aeon this week - an outside team choosing to build on it, not us pitching it.\n\nI work on MiroShark. Genuinely curious what this sub would simulate if cost/setup weren't the blocker - that's the use case we're optimizing for.",
+        "variant": "body"
+      }
+    },
+    "post4_links_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post4_link_label",
+        "post4_x",
+        "post4_composer"
+      ]
+    },
+    "post4_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post4_x": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/aaronjmars/status/2098061703627886906",
+        "href": "https://x.com/aaronjmars/status/2098061703627886906"
+      }
+    },
+    "post4_composer": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=A%20swarm-simulation%20engine%20that%20now%20exports%20results%20as%20video"
+      }
+    },
+    "post4_notes": {
+      "type": "Text",
+      "props": {
+        "text": "ecosystem/tooling readers - keep jargon light, no vendor-vs-vendor language, disclose \"I work on MiroShark.\"",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -1,78 +1,71 @@
-ℹ️ Reddit Promo - 2026-09-10
+ℹ️ Reddit Promo - 2026-09-11
 
-*Reddit Promo - 2026-09-10*
-3d since last promo · 4 subs drafted
+*Reddit Promo - 2026-09-11*
+1d since last promo (prior OK 2026-09-10, Hooks Marketplace) · 4 subs drafted
 
-_Story:_ Aeon ships the Hook Marketplace - aeon.fun/hooks live with 12 Uniswap v4 hooks, registry (aeonfun/univ4-hooks) accepting deploys on 7 chains - https://x.com/aeonframework/status/2097997668601544919
-
----
-*r/CoolGithubProjects* · archetype: github
-*Title:* Aeon - open-source agent framework that just shipped a Uniswap v4 hook registry deploying to 7 chains
-*Body:*
-Aeon is an open-source (AGPL) framework where every "agent" is a folder of markdown files run on a schedule via GitHub Actions - no long-running process, no approval loop between one run and the next.
-
-This week it shipped aeon.fun/hooks: 12 ready-to-use Uniswap v4 hooks, backed by a registry (the univ4-hooks repo) that takes deploys across seven chains. Not a demo - a live marketplace anyone can submit a hook to.
-
-Why it's relevant here: the whole thing runs through the same skill-as-markdown mechanic as everything else in the framework - a scheduled job reads a spec, writes the hook, opens a PR. No separate infra for "hooks" vs. everything else Aeon does.
-
-Repo's linked below if you want to see the actual skill files, not just the pitch.
-
-I built this - happy to answer questions about the deploy pipeline or the framework itself.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20open-source%20agent%20framework%20that%20just%20shipped%20a%20Uniswap%20v4%20hook%20registry%20deploying%20to%207%20chains)
-_notes: strict title-format sub ("Aeon - <one-line desc>") - don't edit the title post-submit; post as the builder, not anonymously._
+_Story:_ MiroShark ships one-click video export for agent simulations - https://x.com/aaronjmars/status/2098061703627886906
 
 ---
-*r/OpenSourceAI* · archetype: open-source
-*Title:* Shipped a multi-chain hook marketplace with a framework that has no approval loop between runs - here's how the pipeline works
+*r/MiroFish* · archetype: community
+*Title:* MiroShark simulations now export as video in one click
 *Body:*
-Aeon (AGPL, github.com/aeonfun/aeon) runs "skills" - plain markdown files with a frontmatter block for schedule/permissions - through GitHub Actions. No daemon, no approval step between one run and the next; whatever the skill decides to do (open a PR, post a draft, deploy something) just happens on the next scheduled tick.
+Shipped this yesterday: any MiroShark simulation - hundreds of agents, dozens of actions, belief drift and all - can now be exported as a video in one click.
 
-Case in point from this week: it shipped aeon.fun/hooks, 12 ready Uniswap v4 hooks, with a registry accepting deploys on seven chains. That's not a one-off feature - it's the same scheduled-skill mechanic that runs the rest of the framework, just pointed at hook deploys instead of, say, a changelog update or a security scan.
+Not a one-off demo render. It's a general capability, works on any simulation you run, same engine underneath (the swarm still argues, trades on the simulated AMM, drifts belief - you just get a video artifact out the other end now).
 
-If "open source" for you means you actually want to read the thing that ships code on its own, the repo's below - it's all just .md files and a couple of shell scripts underneath.
+Why this matters for us specifically: simulations are hard to share. A JSON trace or a live dashboard doesn't travel. A video does - you can drop it in a thread, a deck, a Discord, and someone gets the story in 20 seconds without reading a config.
 
-I work on Aeon, ask me anything about the internals.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=Shipped%20a%20multi-chain%20hook%20marketplace%20with%20a%20framework%20that%20has%20no%20approval%20loop%20between%20runs%20-%20here%27s%20how%20the%20pipeline%20works)
-_notes: enthusiast OSS crowd, self-promo tolerated if mechanic-first - disclose "I work on Aeon"._
+I work on MiroShark. Happy to answer anything on how the export pipeline works or what's next (director mode is the other lever we're pulling on).
+
+Link: https://github.com/miroshark/miroshark
+*Link in post:* https://github.com/miroshark/miroshark
+*Post here:* [Open r/MiroFish composer](https://www.reddit.com/r/MiroFish/submit?title=MiroShark%20simulations%20now%20export%20as%20video%20in%20one%20click)
+_notes: home community, insider tone is fine - still disclose "I work on MiroShark" up top, don't just drop the link._
 
 ---
-*r/AIPromptProgramming* · archetype: agents
-*Title:* An agent framework where shipping a feature means a scheduled markdown file writes code and opens a PR
+*r/AskVibecoders* · archetype: vibecoders
+*Title:* I vibe-coded a one-click video export for agent simulations
 *Body:*
-Been building on Aeon - the interesting bit for this sub is the loop: a "skill" is a markdown spec (frontmatter: schedule, required secrets, read-only vs. write mode) that Claude Code executes headless on GitHub Actions. No long-lived agent process, no human approval gate per run - each dispatch reads memory, does the work, and either writes files/opens a PR or reports back.
+Been building MiroShark - spin up hundreds of AI agents, let them argue on X/Reddit or trade on a simulated AMM, watch a whole synthetic economy or debate play out for about $1 and under 10 minutes.
 
-This week's proof that loop actually produces something real: aeon.fun/hooks went live with 12 Uniswap v4 hooks, and the registry backing it takes deploys on seven chains. Same skill-dispatch mechanic that runs everything else in the framework, this time pointed at deploying hooks instead of, say, drafting a PR review.
+The thing that was always missing: nobody wants to read a JSON trace to understand what happened. So we shipped one-click video export - point it at any simulation, get a video back. Same engine, no extra setup.
 
-There's also a self-repair loop on top of it - a health skill scores runs, a repair skill opens fix PRs against skills that degrade. If you're building agents that need to survive unattended for weeks, the failure-mode handling is worth a read even if you never touch Aeon itself.
+It's the kind of feature that sounds small until you actually need to explain "what did 200 agents just do" to someone who wasn't staring at the dashboard.
 
-Repo's linked - happy to talk through the architecture, I'm one of the people building it.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/AIPromptProgramming composer](https://www.reddit.com/r/AIPromptProgramming/submit?title=An%20agent%20framework%20where%20shipping%20a%20feature%20means%20a%20scheduled%20markdown%20file%20writes%20code%20and%20opens%20a%20PR)
-_notes: technical audience, don't oversimplify - disclose builder status._
+Repo's open if you want to poke at how the simulation/export pipeline is wired. I built this, happy to answer questions or hear what you'd simulate first.
+
+*Link in post:* https://x.com/aaronjmars/status/2098061703627886906
+*Post here:* [Open r/AskVibecoders composer](https://www.reddit.com/r/AskVibecoders/submit?title=I%20vibe-coded%20a%20one-click%20video%20export%20for%20agent%20simulations)
+_notes: casual sub - keep first-person "I built this" framing, still disclose you're the builder, don't oversell._
 
 ---
-*r/CLaudeSkills* · archetype: claude-skills
-*Title:* A skill whose entire job is drafting Reddit promo posts from another skill's output - here's the shape
+*r/StartupMind* · archetype: startup
+*Title:* Shipped: one-click video export for our AI agent swarm simulator
 *Body:*
-Aeon skills are exactly what this sub is about - markdown files with a frontmatter block, executed by Claude Code on a cron via GitHub Actions. No wrapper app, no special skill-runtime beyond what Claude Code already does.
+Building MiroShark in public - a swarm-simulation engine that spins up hundreds of grounded agents to simulate anything (markets, debates, economies) for about $1 in under 10 minutes, x402-metered so you only pay for what you run.
 
-Concrete example - this one drafted the post you're reading:
-```
-type: Skill
-name: Reddit Promo
-description: Draft copy-paste-ready Reddit posts that promote Aeon - read the
-  daily fetch-tweets output, pull what shipped or got endorsed, write
-  value-first per-subreddit drafts. Drafts only - never auto-posts.
-var: ""
-commits: false
-```
-That frontmatter plus a numbered list of steps is the whole "program." No code, no separate runtime - Claude Code just executes the instructions.
+This week's ship: one-click video export. Every simulation can now render as a video, not just a live dashboard or a JSON trace - the difference between "here's a link to our tool" and "here's what happened, watch it."
 
-Same mechanic ships real things, not just social copy - this week a different skill in the same framework shipped aeon.fun/hooks, 12 Uniswap v4 hooks with a registry that deploys across seven chains. Scheduled markdown files writing code and opening PRs, unattended.
+Small but telling data point on why this matters: teams are already building real infra on top of this stack, not just demoing it. CultOS named both MiroShark and Aeon (our sibling framework) as the x402 payment rails under their "Relic Hunt" project this week - pitched explicitly as infra, not a token play.
 
-Repo's below if you want to see the other skills in the catalog. I work on this, ask away.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=A%20skill%20whose%20entire%20job%20is%20drafting%20Reddit%20promo%20posts%20from%20another%20skill%27s%20output%20-%20here%27s%20the%20shape)
-_notes: technical crowd will check the repo - keep every claim literally checkable; disclose "I work on Aeon."_
+I'm the founder. Posting the honest version: this is a small feature, but it's the kind that compounds - every simulation we've ever run is suddenly shareable.
+
+*Link in post:* https://x.com/aaronjmars/status/2098061703627886906
+*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=Shipped%3A%20one-click%20video%20export%20for%20our%20AI%20agent%20swarm%20simulator)
+_notes: StartupMind smells growth-hacky tone fast - keep it honest/small-ship framing, disclose "I'm the founder," respect self-promo ratio (mix in comments elsewhere before/after posting)._
+
+---
+*r/aiecosystem* · archetype: agents
+*Title:* A swarm-simulation engine that now exports results as video
+*Body:*
+Where MiroShark sits in the agent-tooling landscape: it's not a chat agent or a framework, it's a simulation engine - spin up hundreds of grounded agents, let them interact (argue, trade on a simulated AMM, drift belief), and observe the outcome. x402-metered, ~$1 per run, under 10 minutes.
+
+New this week: one-click video export, live on every simulation. That closes a real gap - simulation output used to mean a dashboard or a trace file, now it's a shareable artifact.
+
+Worth flagging for anyone mapping this space: it's also becoming real infra, not just a demo tool. CultOS built their "Relic Hunt" project's x402 payment rails on top of both MiroShark and its sibling framework Aeon this week - an outside team choosing to build on it, not us pitching it.
+
+I work on MiroShark. Genuinely curious what this sub would simulate if cost/setup weren't the blocker - that's the use case we're optimizing for.
+
+*Link in post:* https://x.com/aaronjmars/status/2098061703627886906
+*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=A%20swarm-simulation%20engine%20that%20now%20exports%20results%20as%20video)
+_notes: ecosystem/tooling readers - keep jargon light, no vendor-vs-vendor language, disclose "I work on MiroShark."_

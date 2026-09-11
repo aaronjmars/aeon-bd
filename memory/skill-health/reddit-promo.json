@@ -1,8 +1,8 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-10T17:51:51Z",
+  "last_analyzed": "2026-09-11T17:52:12Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-tailored Reddit drafts from a consumed source; strong strategy alignment and actionable output, though solid execution rather than breakthrough insight.",
+  "assessment": "Substantive, well-structured Reddit drafts tailored per community with clear reasoning; ready to post. Strong strategy alignment (GTM/BD/social priorities, timing, audience tone). Cites verifiable sources and shows honest decision logic (why this ship over today's weaker alternatives).",
   "flags": [],
   "avg_score": 3.96,
   "history": [
@@ -96,6 +96,10 @@
     },
     {
       "date": "2026-09-10",
+      "score": 4
+    },
+    {
+      "date": "2026-09-11",
       "score": 4
     }
   ]
