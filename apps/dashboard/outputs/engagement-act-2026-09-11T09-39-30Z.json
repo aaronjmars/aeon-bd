@@ -1,0 +1,226 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act - 2026-09-11",
+        "description": "vs 2026-09-09"
+      },
+      "children": [
+        "header-stats",
+        "sep1",
+        "opportunity-section",
+        "sep2",
+        "run-section"
+      ]
+    },
+    "header-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-opps",
+        "stat-drafted",
+        "stat-aging"
+      ]
+    },
+    "stat-opps": {
+      "type": "Stat",
+      "props": {
+        "label": "New Opportunities",
+        "value": "1"
+      }
+    },
+    "stat-drafted": {
+      "type": "Stat",
+      "props": {
+        "label": "Drafted",
+        "value": "1"
+      }
+    },
+    "stat-aging": {
+      "type": "Stat",
+      "props": {
+        "label": "Aging",
+        "value": "0"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opportunity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-heading",
+        "opp-badges",
+        "opp-link",
+        "opp-what",
+        "draft-section"
+      ]
+    },
+    "opp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "corinth1ans/aeon",
+        "level": "h2"
+      }
+    },
+    "opp-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-type",
+        "badge-leverage",
+        "badge-expires"
+      ]
+    },
+    "badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "default"
+      }
+    },
+    "badge-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "low (~0 followers)",
+        "variant": "secondary"
+      }
+    },
+    "badge-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-25",
+        "variant": "outline"
+      }
+    },
+    "opp-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "corinth1ans/aeon",
+        "href": "https://github.com/corinth1ans/aeon",
+        "source": "GitHub"
+      }
+    },
+    "opp-what": {
+      "type": "Text",
+      "props": {
+        "text": "Fresh fork today shipped 4 real authored commits — new skills/nq-research-scout/SKILL.md (read-only NQ futures research scout) plus a restricted NQ research strategy edit to STRATEGY.md, not a synced mirror (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "draft-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft-heading",
+        "draft-text"
+      ]
+    },
+    "draft-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft",
+        "level": "h4"
+      }
+    },
+    "draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "nice — nq-research-scout is a clean addition, and scoping the strategy down for it makes sense instead of bolting it onto the default config. what's driving the NQ futures angle specifically? happy to help if you hit rough edges building more skills on top of this.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run-heading",
+        "run-summary",
+        "dropped-list"
+      ]
+    },
+    "run-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Dedup Run",
+        "level": "h3"
+      }
+    },
+    "run-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Checked 45 prior-acted handles (memory/topics/engagement-acted.json)",
+        "variant": "lead"
+      }
+    },
+    "dropped-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dropped-1",
+        "dropped-2",
+        "dropped-3",
+        "dropped-4"
+      ]
+    },
+    "dropped-1": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped @thecultos (mention-radar's paid-MCP-launch opp, 09-10) — canonical handle already acted 08-27, contract forbids resurfacing even with the live-thread detail; carried as operator-side item (bd-radar flags CultOS DM-expiry window closing 09-12, outside this skill's loop).",
+        "variant": "body"
+      }
+    },
+    "dropped-2": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped aeonfun/aeon#1045 (armyluki-wq's gateway proposal, found by bd-radar today) — aaronjmars already replied accepting it same-day, no fresh draft needed.",
+        "variant": "body"
+      }
+    },
+    "dropped-3": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped @techcitycrypto's MiroShark discovery post (09-10 mention-radar, 303 followers) — frames around a market-cap number (\"deserves attention\" at $300k), out of lane per the no-buy/sell-signal constraint, not worth an engagement reply.",
+        "variant": "body"
+      }
+    },
+    "dropped-4": {
+      "type": "Text",
+      "props": {
+        "text": "MiroShark#300 (AmirF194) already acted 09-09 and closed by aaronjmars same-turnaround, no action needed.",
+        "variant": "muted"
+      }
+    }
+  }
+}

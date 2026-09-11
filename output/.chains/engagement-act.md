@@ -1,16 +1,12 @@
-ℹ️ Engagement Act - 2026-09-09
+ℹ️ Engagement Act - 2026-09-11
 
-*Engagement Act - 2026-09-09*
-vs 2026-09-07 - 2 new opps - 2 drafted - 0 aging
+*Engagement Act - 2026-09-11*
+vs 2026-09-09 - 1 new opps - 1 drafted - 0 aging
 
-*1. darkstaryuri/aeon* [GitHub comment] · leverage: low (~0 followers, solo builder) · expires 2026-09-23
-what: Live Aeon fork shipped a genuine round-robin AI-provider failover script, an OpenRouter free-tier max_tokens fix, and a Windows PATH fix for gh.exe/tsx - 14 commits ahead, no PR opened upstream yet (0 days ago)
-link: https://github.com/darkstaryuri/aeon/commit/1bf0b0b
-draft: "Nice - the round-robin failover + OpenRouter free-tier max_tokens fix are exactly the kind of hardening we want upstream. Open a PR against aeonfun/aeon and we'll get it reviewed."
+*1. corinth1ans/aeon* [GitHub comment] · leverage: low (~0 followers) · expires 2026-09-25
+what: fresh fork today shipped 4 real authored commits — new `skills/nq-research-scout/SKILL.md` (read-only NQ futures research scout) plus a restricted NQ research strategy edit to STRATEGY.md, not a synced mirror (0 days ago)
+link: https://github.com/corinth1ans/aeon
+draft: "nice — nq-research-scout is a clean addition, and scoping the strategy down for it makes sense instead of bolting it onto the default config. what's driving the NQ futures angle specifically? happy to help if you hit rough edges building more skills on top of this."
 
-*2. AmirF194* [GitHub issue comment] · leverage: low (~28 followers, Founder/CEO @ FastInfer - real production-AI shop, strategic value above follower count) · expires 2026-09-23
-what: Forked MiroShark and filed a contributor-quality bug report same day - correctly pattern-matched a locale-drop bug in GraphBuilderService.add_text_batches to the already-fixed #194/#195, with exact file/line and proposed fix (0 days ago)
-link: https://github.com/MiroShark/MiroShark/issues/300
-draft: "Good catch - same locale-propagation gap as #194/#195, and the fix pattern you outlined (snapshot locale before the executor, wrap the worker in use_locale) is right. Want to open a PR for this? Happy to review."
-
-run: source = memory/logs 09-02→09-09 + memory/topics/bd-radar-leads.json (48 leads); de-dupe via memory/topics/engagement-acted.json (45 handles); dropped as already-acted-under-same-canonical-handle: swarm-ai-research/swarm (= swarm-ai-research/aeon-atlas, acted 09-03), web:pondstreetledger.com article (= @thepondstreet, acted 09-03), Atrium-Hermes/atrium-lighthouse (= @atriumhermes, acted 09-05), rohanthomas1202/truthlayer (acted 09-05); dropped as dormant/no fresh signal (~3.5-4mo no push, same reasoning as 09-07 run): ryjin111/aeon-skill-pack-mythosforge, XIAOCUICUII/koc-growth-agent; skipped as operator-side (not a fresh draft): CultOS/@thecultos check-in (dedup blocks re-surfacing since 08-27, still 404 per bd-radar), MiroShark#240/dan-and (acted 08-23); skipped: @itsnina_kapoor mention (mention-radar itself called it too thin, 1 like, no reply warranted)
+---
+run: dedup checked against 45 prior-acted handles (`memory/topics/engagement-acted.json`); dropped @thecultos (mention-radar's paid-MCP-launch opp, 09-10) — canonical handle already acted 08-27, contract forbids resurfacing even with the live-thread detail; carried as operator-side item (bd-radar flags CultOS DM-expiry window closing 09-12, outside this skill's loop). Dropped `aeonfun/aeon#1045` (armyluki-wq's gateway proposal, found by bd-radar today) — aaronjmars already replied accepting it same-day, no fresh draft needed. Dropped @techcitycrypto's MiroShark discovery post (09-10 mention-radar, 303 followers) — frames around a market-cap number ("deserves attention" at $300k), out of lane per the no-buy/sell-signal constraint, not worth an engagement reply. `MiroShark#300` (AmirF194) already acted 09-09 and closed by aaronjmars same-turnaround, no action needed.
