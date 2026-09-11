@@ -1,0 +1,329 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-11)"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "heading_section1",
+        "tweets_section1",
+        "sep2",
+        "heading_section2",
+        "tweets_section2",
+        "sep3",
+        "heading_section3",
+        "tweets_section3"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Yesterday's Hooks Marketplace launch is still drawing organic pickup, CultOS confirmed still building the x402 stack on both products, and a fake $AEON contract claim got spotted and killed same-day.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_section1": {
+      "type": "Heading",
+      "props": {
+        "text": "Hooks Marketplace afterglow",
+        "level": "h3"
+      }
+    },
+    "tweets_section1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_item1",
+        "tweet_item2",
+        "tweet_item3"
+      ]
+    },
+    "tweet_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "link1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "@0xNurstar",
+        "text": "teasing a dedicated video breakdown of yesterday's Uniswap v4 Hooks Marketplace launch, organic third-party content incoming",
+        "likes": 21,
+        "retweets": 0
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2098327802571292972"
+      }
+    },
+    "tweet_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "link2"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "BaseInsider_",
+        "handle": "@BaseInsider_",
+        "text": "put $aeon on a \"Trending AI on Base\" leaderboard alongside 9 other Base agent tokens",
+        "likes": 18,
+        "retweets": 3
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/BaseInsider_/status/2098271555734458787"
+      }
+    },
+    "tweet_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3",
+        "link3"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Vicks_vic",
+        "handle": "@Vicks_vic",
+        "text": "floats \"Aeon Launchpad\" as the next build after the hooks marketplace, arguing the infra's already there",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Vicks_vic/status/2098307377732686183"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_section2": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS still shipping on the x402 stack",
+        "level": "h3"
+      }
+    },
+    "tweets_section2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_item4",
+        "tweet_item5"
+      ]
+    },
+    "tweet_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4",
+        "link4"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xlyon01",
+        "handle": "@0xlyon01",
+        "text": "names Aeon + Miroshark specifically as the x402 rails under CultOS's \"Relic Hunt,\" pitched as infra not a token pitch",
+        "likes": 10,
+        "retweets": 3
+      }
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xlyon01/status/2098098931389358560"
+      }
+    },
+    "tweet_item5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet5",
+        "link5"
+      ]
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "@aaronjmars",
+        "text": "👀 reply into the same x.com/thecultos thread — a founder touchpoint, not yet the direct check-in flagged as overdue in memory",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "link5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2098130405551395325"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_section3": {
+      "type": "Heading",
+      "props": {
+        "text": "A fake $AEON contract claim got killed same-day",
+        "level": "h3"
+      }
+    },
+    "tweets_section3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_item6",
+        "tweet_item7",
+        "tweet_item8"
+      ]
+    },
+    "tweet_item6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet6",
+        "link6"
+      ]
+    },
+    "tweet6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ronanr1ce",
+        "handle": "@ronanr1ce",
+        "text": "pushes back mid-thread: the real contract is on-chain, the mismatched repo is bait for scraper forks",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "link6": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ronanr1ce/status/2098268027502403898"
+      }
+    },
+    "tweet_item7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet7",
+        "link7"
+      ]
+    },
+    "tweet7": {
+      "type": "TweetCard",
+      "props": {
+        "author": "StandartXBT",
+        "handle": "@StandartXBT",
+        "text": "flags the image/repo aaronjmars was checking as fake",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "link7": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/StandartXBT/status/2098393113928565139"
+      }
+    },
+    "tweet_item8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet8",
+        "link8"
+      ]
+    },
+    "tweet8": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "@aaronjmars",
+        "text": "confirms and deletes it same-day",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "link8": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2098391906220638601"
+      }
+    }
+  }
+}

@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — 2026-09-11
-
 *Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-11)*
 _Yesterday's Hooks Marketplace launch is still drawing organic pickup, CultOS confirmed still building the x402 stack on both products, and a fake $AEON contract claim got spotted and killed same-day._
 
