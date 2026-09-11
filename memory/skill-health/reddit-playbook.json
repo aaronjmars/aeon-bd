@@ -1,10 +1,10 @@
 {
   "skill": "reddit-playbook",
-  "last_analyzed": "2026-09-09T18:31:40Z",
-  "quality_score": 4,
-  "assessment": "Well-executed scan and filtering; correctly skipped filler rather than forcing a weak story. Substantive methodology (7-day window, cross-checked against seen-items, specific tweet rejection reasoning), verifiable output (dates, IDs, prior promotions cited), and sound judgment aligned to strategy.",
+  "last_analyzed": "2026-09-11T18:30:55Z",
+  "quality_score": 3,
+  "assessment": "Acceptable - competent evaluation of social inbox, honest no-op with clear reasoning, but produced no fresh opportunity or BD signal to advance strategy north-star",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 3.75,
   "history": [
     {
       "date": "2026-09-06",
@@ -17,6 +17,10 @@
     {
       "date": "2026-09-09",
       "score": 4
+    },
+    {
+      "date": "2026-09-11",
+      "score": 3
     }
   ]
 }
