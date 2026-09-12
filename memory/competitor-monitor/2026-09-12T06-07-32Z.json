@@ -1,0 +1,1019 @@
+{
+  "monitor_version": 1,
+  "generated": "2026-09-12T06:07:34.913Z",
+  "competitors": [
+    {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.nvidia.com/en-us/security/acknowledgements/",
+      "final_url": "https://www.nvidia.com/en-us/security/acknowledgements/",
+      "title": "NVIDIA Product Security Acknowledgements",
+      "meta_description": "NVIDIA Product Security Acknowledgements",
+      "og_title": "",
+      "og_description": "",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Product Security"
+        }
+      ],
+      "prices": [],
+      "ctas": [
+        "Main Menu",
+        "Cloud Services",
+        "Creating",
+        "Data Center",
+        "Embedded Systems",
+        "Gaming",
+        "Graphics Cards and Desktops",
+        "Laptops",
+        "Networking",
+        "Professional Workstations",
+        "Software",
+        "Tools",
+        "Artificial Intelligence",
+        "Cloud and Data Center",
+        "Design and Simulation",
+        "High-Performance Computing",
+        "Robotics and Edge AI",
+        "Autonomous Vehicles",
+        "Products",
+        "Solutions",
+        "Industries",
+        "Shop",
+        "Drivers",
+        "Support"
+      ],
+      "links": [
+        {
+          "path": "/en-us",
+          "text": ""
+        },
+        {
+          "path": "/en-us/data-center/dgx-cloud",
+          "text": "DGX Cloud NVIDIA’s AI factory in the cloud"
+        },
+        {
+          "path": "/en-us/gpu-cloud",
+          "text": "NVIDIA NGC Accelerated, containerized AI models and SDKs"
+        },
+        {
+          "path": "/en-us/data-center/products/dsx",
+          "text": "DSX Platform Build AI factories optimized for lowest cost tokens per megawatt"
+        },
+        {
+          "path": "/en-us/data-center/virtual-solutions",
+          "text": "Virtual GPU Virtual solutions for scalable, high-performance computing"
+        },
+        {
+          "path": "/en-us/studio",
+          "text": "NVIDIA Studio High performance GeForce RTX PCs, purpose-built for creators"
+        },
+        {
+          "path": "/en-us/geforce/broadcasting",
+          "text": "NVIDIA Broadcast App AI-enhanced voice and video for next-level streams, videos…"
+        },
+        {
+          "path": "/en-us/software/nvidia-app",
+          "text": "NVIDIA App and Studio Drivers Optimize gaming, streaming, and AI-powered creati…"
+        },
+        {
+          "path": "/en-us/ai-on-rtx",
+          "text": "RTX AI PCs AI PCs for gaming, creating, productivity and development"
+        },
+        {
+          "path": "/en-us/geforce/rtx-remix",
+          "text": "RTX Remix Create RTX remasters of classic games with open-source AI"
+        },
+        {
+          "path": "/en-us/software/nvidia-app/g-assist",
+          "text": "Project G-Assist AI assistant to optimize and control your GeForce RTX PC"
+        },
+        {
+          "path": "/en-us/data-center/products",
+          "text": "Overview Modernizing data centers with AI and accelerated computing"
+        },
+        {
+          "path": "/en-us/data-center/dgx-platform",
+          "text": "DGX Platform Enterprise AI factory for model development and deployment"
+        },
+        {
+          "path": "/en-us/data-center/grace-cpu",
+          "text": "Grace CPU Architecture for data centers that transform data into intelligence"
+        },
+        {
+          "path": "/en-us/data-center/hgx",
+          "text": "HGX Platform A supercomputer purpose-built for AI and HPC"
+        },
+        {
+          "path": "/en-us/edge-computing/products/igx",
+          "text": "IGX Platform Advanced functional safety and security for edge AI"
+        },
+        {
+          "path": "/en-us/data-center/products/mgx",
+          "text": "MGX Platform Accelerated computing with modular servers"
+        },
+        {
+          "path": "/en-us/data-center/products/ovx",
+          "text": "OVX Systems Scalable data center infrastructure for high-performance AI"
+        },
+        {
+          "path": "/en-us/autonomous-machines/embedded-systems",
+          "text": "Jetson Leading platform for autonomous machines and embedded applications"
+        },
+        {
+          "path": "/en-us/solutions/autonomous-vehicles/in-vehicle-computing",
+          "text": "DRIVE AGX Powerful in-vehicle computing for AI-driven autonomous vehicle systems"
+        },
+        {
+          "path": "/en-us/geforce",
+          "text": "GeForce Explore graphics cards, gaming solutions, AI technology, and more"
+        },
+        {
+          "path": "/en-us/geforce/graphics-cards",
+          "text": "GeForce Graphics Cards RTX graphics cards bring game-changing AI capabilities"
+        },
+        {
+          "path": "/en-us/geforce/laptops",
+          "text": "Gaming Laptops Thinnest and longest lasting RTX laptops, optimized by Max-Q"
+        },
+        {
+          "path": "/en-us/geforce/products/g-sync-monitors",
+          "text": "G-SYNC Monitors Smooth, tear-free gaming with NVIDIA G-SYNC monitors"
+        },
+        {
+          "path": "/en-us/geforce/technologies/dlss",
+          "text": "DLSS Neural rendering tech boosts FPS and enhances image quality"
+        },
+        {
+          "path": "/en-us/geforce/technologies/reflex",
+          "text": "Reflex Ultimate responsiveness for faster reactions and better aim"
+        },
+        {
+          "path": "/en-us/geforce-now",
+          "text": "GeForce NOW Cloud Gaming RTX-powered cloud gaming. Choose from 3 memberships"
+        },
+        {
+          "path": "/en-us/shield",
+          "text": "SHIELD TV World-class streaming media performance"
+        },
+        {
+          "path": "/en-us/products/workstations",
+          "text": "RTX PRO Accelerating professional AI, graphics, rendering and compute workloads"
+        },
+        {
+          "path": "/en-us/products/rtx-spark",
+          "text": "RTX Spark Compact PCs with NVIDIA AI and RTX graphics"
+        },
+        {
+          "path": "/en-us/products/workstations/dgx-spark",
+          "text": "DGX Spark A Grace Blackwell AI supercomputer on your desk"
+        },
+        {
+          "path": "/en-us/studio/help-me-choose",
+          "text": "Studio Laptops High performance laptops purpose-built for creators"
+        },
+        {
+          "path": "/en-us/products/workstations/professional-laptops",
+          "text": "RTX PRO Laptops Accelerate professional AI and visual computing from anywhere"
+        },
+        {
+          "path": "/en-us/networking",
+          "text": "Overview Accelerated networks for modern workloads"
+        },
+        {
+          "path": "/en-us/networking/products/data-processing-unit",
+          "text": "DPUs Software-defined hardware accelerators for networking, storage, and securi…"
+        },
+        {
+          "path": "/en-us/networking/products/ethernet",
+          "text": "Ethernet Ethernet performance, availability, and ease of use across a wide rang…"
+        },
+        {
+          "path": "/en-us/networking/products/infiniband",
+          "text": "InfiniBand High-performance networking for super computers, AI, and cloud data …"
+        },
+        {
+          "path": "/en-us/networking/products/software",
+          "text": "Networking Software Networking software for optimized performance and scalabili…"
+        },
+        {
+          "path": "/en-us/data-center/magnum-io",
+          "text": "Network Acceleration IO subsystem for modern, GPU-accelerated data centers"
+        },
+        {
+          "path": "/en-us/products/workstations/dgx-station",
+          "text": "DGX Station The ultimate deskside AI supercomputer powered by NVIDIA Grace Blac…"
+        },
+        {
+          "path": "/en-us/products/workstations/dgx-station-for-windows",
+          "text": "DGX Station for Windows The world’s most powerful deskside AI supercomputer for…"
+        },
+        {
+          "path": "/en-us/products/workstations/professional-desktop-gpus",
+          "text": "NVIDIA RTX PRO Desktops Powerful AI, graphics, rendering, and compute workloads"
+        },
+        {
+          "path": "/en-us/ai-data-science/foundation-models/nemotron",
+          "text": "Agentic AI Models - Nemotron"
+        },
+        {
+          "path": "/en-us/ai-data-science/products/nemo",
+          "text": "AI Agents - NeMo"
+        },
+        {
+          "path": "/en-us/ai/dynamo",
+          "text": "AI Inference - Dynamo"
+        },
+        {
+          "path": "/en-us/ai-data-science/products/nim-microservices",
+          "text": "AI Inference - NIM"
+        },
+        {
+          "path": "/en-us/technologies/cuda-x",
+          "text": "AI Microservices - CUDA-X"
+        },
+        {
+          "path": "/en-us/deep-learning-ai/solutions/data-science/apache-spark-3",
+          "text": "Data Science - Apache Spark"
+        },
+        {
+          "path": "/en-us/ai-data-science/products/cuopt",
+          "text": "Decision Optimization - cuOpt"
+        },
+        {
+          "path": "/en-us/industries/healthcare-life-sciences",
+          "text": "Healthcare Platforms"
+        },
+        {
+          "path": "/en-us/omniverse",
+          "text": "Industrial AI - Omniverse"
+        },
+        {
+          "path": "/en-us/autonomous-machines/intelligent-video-analytics-platform",
+          "text": "Intelligent Video Analytics - Metropolis"
+        },
+        {
+          "path": "/en-us/data-center/products/ai-enterprise-suite",
+          "text": "NVIDIA AI Enterprise"
+        },
+        {
+          "path": "/en-us/data-center/mission-control",
+          "text": "NVIDIA Mission Control"
+        },
+        {
+          "path": "/en-us/software/run-ai",
+          "text": "NVIDIA Run:ai"
+        },
+        {
+          "path": "/en-us/ai/cosmos",
+          "text": "Physical AI - Cosmos"
+        },
+        {
+          "path": "/en-us/software",
+          "text": "See All Software"
+        },
+        {
+          "path": "/en-us/deep-learning-ai/solutions/data-science/workbench",
+          "text": "AI Workbench Simplify AI development with NVIDIA AI Workbench on GPUs"
+        },
+        {
+          "path": "/en-us/software/nvidia-app-enterprise",
+          "text": "NVIDIA App for Laptops Optimize enterprise GPU management"
+        },
+        {
+          "path": "/en-us/software/rtx-desktop-manager",
+          "text": "Desktop Manager Enhance multi-display productivity with NVIDIA RTX Desktop Mana…"
+        },
+        {
+          "path": "/en-us/studio/creative-apps",
+          "text": "RTX Accelerated Creative Apps Creative tools and AI-powered apps for artists an…"
+        },
+        {
+          "path": "/en-us/design-visualization/software/broadcast-app",
+          "text": "Video Conferencing AI-powered audio and video enhancement"
+        },
+        {
+          "path": "/en-us/solutions/ai",
+          "text": "Overview Add intelligence and efficiency to your business with AI and machine l…"
+        },
+        {
+          "path": "/en-us/solutions/ai/agentic-ai",
+          "text": "Agentic AI Build AI agents designed to reason, plan, and act"
+        },
+        {
+          "path": "/en-us/data-center/ai-data-platform",
+          "text": "AI Data Powering a new class of enterprise infrastructure for AI"
+        },
+        {
+          "path": "/en-us/solutions/ai/conversational-ai",
+          "text": "Conversational AI Enables natural, personalized interactions with real-time spe…"
+        },
+        {
+          "path": "/en-us/solutions/ai/cybersecurity",
+          "text": "Cybersecurity AI-driven solutions to strengthen cybersecurity and AI infrastruc…"
+        },
+        {
+          "path": "/en-us/deep-learning-ai/solutions/data-science",
+          "text": "Data Science Iterate on large datasets, deploy models more frequently, and lowe…"
+        },
+        {
+          "path": "/en-us/solutions/ai/inference",
+          "text": "Inference Drive breakthrough performance with AI-enabled applications and servi…"
+        },
+        {
+          "path": "/en-us/solutions/data-processing",
+          "text": "Data Processing Data engines ready for AI"
+        },
+        {
+          "path": "/en-us/data-center",
+          "text": "Overview Powering AI, HPC, and modern workloads with NVIDIA"
+        },
+        {
+          "path": "/en-us/data-center/ai-storage",
+          "text": "AI Storage Bringing codesigned enterprise storage into the era of agentic AI"
+        },
+        {
+          "path": "/en-us/solutions/ai-factories",
+          "text": "AI Factory Full-stack infrastructure for scalable AI workloads"
+        },
+        {
+          "path": "/en-us/industries/telecommunications/ai-grid",
+          "text": "AI Grid Scale AI across connected, distributed AI infrastructure"
+        },
+        {
+          "path": "/en-us/data-center/solutions/accelerated-computing",
+          "text": "Accelerated Computing Accelerated computing uses specialized hardware to boost …"
+        },
+        {
+          "path": "/en-us/data-center/gpu-cloud-computing",
+          "text": "Cloud Computing On-demand IT resources and services, enabling scalability and i…"
+        },
+        {
+          "path": "/en-us/data-center/colocation-partners",
+          "text": "Colocation Accelerate the scaling of AI across your organization"
+        },
+        {
+          "path": "/en-us/sustainability",
+          "text": "Sustainable Computing Save energy and lower cost with AI and accelerated comput…"
+        },
+        {
+          "path": "/en-us/solutions/design-and-simulation",
+          "text": "Overview Streamline building, operating, and connecting metaverse apps"
+        },
+        {
+          "path": "/en-us/solutions/cae",
+          "text": "Computer Aided-Engineering Develop real-time interactive design using AI-accele…"
+        },
+        {
+          "path": "/en-us/glossary/digital-twin",
+          "text": "Digital Twin Development Harness the power of large-scale, physically-based Ope…"
+        },
+        {
+          "path": "/en-us/products/workstations/rendering",
+          "text": "Rendering Bring state-of-the-art rendering to professional workflows"
+        },
+        {
+          "path": "/en-us/industries/robotics",
+          "text": "Robotic Simulation Innovative solutions to take on your robotics, edge, and vis…"
+        },
+        {
+          "path": "/en-us/high-performance-computing/scientific-visualization",
+          "text": "Scientific Visualization Enablies researchers to visualize their large datasets…"
+        },
+        {
+          "path": "/en-us/solutions/autonomous-vehicles",
+          "text": "Vehicle Simulation AI-defined vehicles are transforming the future of mobility"
+        },
+        {
+          "path": "/en-us/design-visualization/solutions/virtual-reality",
+          "text": "Extended Reality Transform workflows with immersive, scalable interactions in v…"
+        },
+        {
+          "path": "/en-us/high-performance-computing",
+          "text": "Overview Discover NVIDIA’s HPC solutions for AI, simulation, and accelerated co…"
+        },
+        {
+          "path": "/en-us/high-performance-computing/hpc-and-ai",
+          "text": "HPC and AI Boost accuracy with GPU-accelerating HPC and AI"
+        },
+        {
+          "path": "/en-us/high-performance-computing/simulation-and-modeling",
+          "text": "Simulation and Modeling Accelerate simulation workloads"
+        },
+        {
+          "path": "/en-us/solutions/quantum-computing",
+          "text": "Quantum Computing Fast-tracking the advancement of scientific innovations with …"
+        },
+        {
+          "path": "/en-us/edge-computing",
+          "text": "Edge AI Bring the power of NVIDIA AI to the edge for real-time decision-making …"
+        },
+        {
+          "path": "/en-us/solutions/autonomous-vehicles/alpamayo",
+          "text": "Open Source AV Models and Tools For reasoning-based AV systems"
+        },
+        {
+          "path": "/en-us/solutions/autonomous-vehicles/simulation",
+          "text": "AV Simulation Explore high-fidelity sensor simulation for safe autonomous vehic…"
+        },
+        {
+          "path": "/en-us/solutions/autonomous-vehicles/drive-hyperion",
+          "text": "Reference Architecture Enables vehicles to be L4-ready"
+        },
+        {
+          "path": "/en-us/solutions/autonomous-vehicles/ai-training",
+          "text": "Infrastructure Essential data center tools for safe autonomous vehicle developm…"
+        },
+        {
+          "path": "/en-us/ai-trust-center/halos/autonomous-vehicles",
+          "text": "Safety State-of-the-art system for AV safety, from the cloud to the car"
+        },
+        {
+          "path": "/en-us/industries",
+          "text": "Overview"
+        },
+        {
+          "path": "/en-us/industries/aec",
+          "text": "Architecture, Engineering, Construction & Operations"
+        },
+        {
+          "path": "/en-us/industries/automotive",
+          "text": "Automotive"
+        },
+        {
+          "path": "/en-us/industries/energy",
+          "text": "Energy"
+        },
+        {
+          "path": "/en-us/industries/finance",
+          "text": "Financial Services"
+        },
+        {
+          "path": "/en-us/industries/government",
+          "text": "Government"
+        },
+        {
+          "path": "/en-us/industries/higher-education-research",
+          "text": "Higher Education"
+        },
+        {
+          "path": "/en-us/industries/industrial-sector",
+          "text": "Industrial Sector"
+        },
+        {
+          "path": "/en-us/industries/media-and-entertainment",
+          "text": "Media and Entertainment"
+        },
+        {
+          "path": "/en-us/industries/restaurants",
+          "text": "Restaurants"
+        },
+        {
+          "path": "/en-us/industries/retail",
+          "text": "Retail and CPG"
+        },
+        {
+          "path": "/en-us/industries/semiconductor",
+          "text": "Semiconductor"
+        },
+        {
+          "path": "/en-us/industries/telecommunications",
+          "text": "Telecommunications"
+        },
+        {
+          "path": "/en-us/drivers",
+          "text": "Drivers"
+        },
+        {
+          "path": "/en-us/support",
+          "text": "Support"
+        },
+        {
+          "path": "/en-us/account/edit-profile",
+          "text": "NVIDIA Account"
+        },
+        {
+          "path": "/",
+          "text": "Logout"
+        },
+        {
+          "path": "/en-us/security",
+          "text": "Security Bulletins"
+        },
+        {
+          "path": "/en-us/security/report-vulnerability",
+          "text": "Report Vulnerability"
+        },
+        {
+          "path": "/en-us/security/psirt-policies",
+          "text": "PSIRT Policies"
+        },
+        {
+          "path": "/en-us/security/acknowledgements",
+          "text": "Acknowledgements"
+        },
+        {
+          "path": "/en-us/security/pgp-key",
+          "text": "PGP Key"
+        },
+        {
+          "path": "/en-us/about-nvidia",
+          "text": "About Us"
+        },
+        {
+          "path": "/en-us/startups/nventures",
+          "text": "Venture Capital (NVentures)"
+        },
+        {
+          "path": "/en-us/foundation",
+          "text": "NVIDIA Foundation"
+        },
+        {
+          "path": "/en-us/research",
+          "text": "Research"
+        },
+        {
+          "path": "/en-us/technologies",
+          "text": "Technologies"
+        },
+        {
+          "path": "/en-us/about-nvidia/careers",
+          "text": "Careers"
+        },
+        {
+          "path": "/en-us/about-nvidia/webinar-portal",
+          "text": "Webinars"
+        },
+        {
+          "path": "/en-us/preferences/email-signup",
+          "text": "Stay Informed"
+        },
+        {
+          "path": "/en-us/events",
+          "text": "Events Calendar"
+        },
+        {
+          "path": "/gtc/events",
+          "text": "GTC AI Conference"
+        },
+        {
+          "path": "/en-us/on-demand",
+          "text": "NVIDIA On-Demand"
+        },
+        {
+          "path": "/en-us/about-nvidia/partners",
+          "text": "Partners"
+        },
+        {
+          "path": "/en-us/executive-insights",
+          "text": "Executive Insights"
+        },
+        {
+          "path": "/en-us/startups",
+          "text": "Startups and VCs"
+        },
+        {
+          "path": "/en-us/learn/organizations",
+          "text": "Technical Training"
+        },
+        {
+          "path": "/en-us/support/enterprise/advisory-services",
+          "text": "Professional Services for Data Science"
+        },
+        {
+          "path": "/en-us/location-selector",
+          "text": "United States"
+        },
+        {
+          "path": "/en-us/about-nvidia/privacy-policy",
+          "text": "Privacy Policy"
+        },
+        {
+          "path": "/en-us/about-nvidia/privacy-center",
+          "text": "Your Privacy Choices"
+        },
+        {
+          "path": "/en-us/about-nvidia/terms-of-service",
+          "text": "Terms of Service"
+        },
+        {
+          "path": "/en-us/about-nvidia/accessibility",
+          "text": "Accessibility"
+        },
+        {
+          "path": "/en-us/about-nvidia/company-policies",
+          "text": "Corporate Policies"
+        },
+        {
+          "path": "/en-us/product-security",
+          "text": "Product Security"
+        },
+        {
+          "path": "/en-us/contact",
+          "text": "Contact"
+        }
+      ],
+      "word_count": 6294,
+      "content_hash": "33c8b04701fa0740",
+      "rows": [
+        "Acknowledgment | CVE IDs | Security Bulletin ID",
+        "mia-718ai | CVE-2026-47625",
+        "Shiyu Mu | CVE-2026-16497",
+        "Faisal Tameesh | CVE-2026-61778, CVE-2026-61776, CVE-2026-61774, CVE-2026-61773, CVE-2026-61767, CVE-2026-61766, CVE-2026-61762, CVE-2026-61757, CVE-2026-61755, CVE-2026-61751",
+        "d0qbu | CVE-2026-61759",
+        "Yoseop Kim | CVE-2026-61754",
+        "haehae | CVE-2026-61753",
+        "nambers | CVE-2026-61750",
+        "Markus Halvorsen, Elad Luz (Oasis Security) | CVE-2026-65105",
+        "Markus Halvorsen | CVE-2026-65099, CVE-2026-65096, CVE-2026-65090, CVE-2026-65089, CVE-2026-65088, CVE-2026-65084, CVE-2026-65082, CVE-2026-65081",
+        "Eran Shimony (Palo Alto Networks) | CVE-2026-65098",
+        "Markus Halvorsen, Muhammad Salman Shakeel | CVE-2026-65097",
+        "Leo Lin | CVE-2026-65093, CVE-2026-65092, CVE-2026-65091",
+        "Christos Papakonstantinou | CVE-2026-65087",
+        "Reter AI Security Research | CVE-2026-65086, CVE-2026-65085",
+        "yongzhi | CVE-2026-65083",
+        "Alex Matrosov | CVE-2026-47626, CVE-2026-24263, CVE-2026-24262, CVE-2026-24225",
+        "Oleh Konko of 1seal | CVE-2026-47606",
+        "Martin Brodeur | CVE-2026-47627",
+        "Shiyu Mu | CVE-2026-47628",
+        "Willard | CVE-2026-47629",
+        "s1ko | CVE-2026-47630",
+        "Faisal Tameesh | CVE-2026-24254, CVE-2026-47623",
+        "Faisal Tameesh, Ji'an Zhou | CVE-2026-24253",
+        "Dem0 | CVE-2026-24255",
+        "Navtej Kathuria | CVE-2026-47612, CVE-2026-47613, CVE-2026-47614, CVE-2026-47615, CVE-2026-47616, CVE-2026-47617, CVE-2026-47618, CVE-2026-47619, CVE-2026-47620, CVE-2026-47621, CVE-2026-47622",
+        "responsiblereport10 | CVE-2026-47487",
+        "Michael Katchinskiy | CVE-2026-47483",
+        "Legoclones working with Trend Micro Zero Day Initiative | CVE-2026-24232",
+        "Shiyu Mu, ning1022, zane | CVE-2026-47476",
+        "Parker Cowan | CVE-2026-47477, CVE-2026-47482",
+        "hihihehe | CVE-2026-47479",
+        "Uchiha100x | CVE-2026-47478, CVE-2026-47480",
+        "Hoang The Vinh (@indig0-zero) | CVE-2026-47481",
+        "k0x | CVE-2026-24233",
+        "jackey td | CVE-2026-24220",
+        "Vitaly Simonovich | CVE-2026-24226",
+        "Aryan Srivastava | CVE-2026-24259",
+        "Vitaly Simonovich, Facundo Fernandez | CVE-2026-24234",
+        "Facundo Fernandez | CVE-2026-24271",
+        "Facundo Fernandez | CVE-2026-47475",
+        "dippatel1994 | CVE-2026-47471",
+        "whoami00 | CVE-2026-47472",
+        "Facundo Fernandez | CVE-2026-24229",
+        "aportnoy | CVE-2026-47473",
+        "Seiji Sakurai (@HeapSmasher) working with TrendAI Zero Day Initiative | CVE-2026-24268, CVE-2026-24238, CVE-2026-24272",
+        "Yuval E | CVE-2026-24227",
+        "David Mound - Shinobi Security | CVE-2026-24270",
+        "NSK | CVE-2026-24264",
+        "deayzl | CVE-2026-24210, CVE-2026-24266",
+        "Faisal Tameesh | CVE-2026-24240, CVE-2026-24242, CVE-2026-24243, CVE-2026-24244, CVE-2026-24245, CVE-2026-24246, CVE-2026-24247, CVE-2026-24248, CVE-2026-24260",
+        "Moomi Chen | CVE-2026-24249",
+        "Jaeyeong Lee, Xin Guo and Lei Lu and YJK(@YJK0805) of ZUSO ART working with TrendAI Zero Day Initiative | CVE-2026-24250",
+        "YJK(@YJK0805) of ZUSO ART working with TrendAI Zero Day Initiative | CVE-2026-24251",
+        "Moomi Chen | CVE-2026-24155, CVE-2026-24252",
+        "Tyler Zars working with TrendAI Zero Day Initiative and Dan Aridor | CVE-2026-24228",
+        "Navtej Kathuria | CVE-2026-24180, CVE-2026-24181",
+        "Muhammad Fadilullah Dzaki working with TrendAI Zero Day Initiative | CVE-2026-24237",
+        "ReZyron (Member of CentiSec) | CVE-2026-24221",
+        "James Kennedy | CVE-2026-24212",
+        "Javohir Abduxalilov | CVE-2026-2416",
+        "Hyeonjun Ahn (@deayzl) | CVE-2026-24206",
+        "deayzl | CVE-2026-24207",
+        "Mohamed Lemine ahmed jidou (mauritaniacoder) | CVE-2026-24208",
+        "sarvesh patil | CVE-2026-24209",
+        "deayzl | CVE-2026-24210",
+        "Navtej Kathuria | CVE-2026-24213",
+        "Navtej Kathuria | CVE-2026-24214",
+        "Navtej Kathuria | CVE-2026-24215",
+        "mohammed | CVE-2025-33255, CVE-2026-24163",
+        "cyberjoker | CVE-2026-24142",
+        "alexiscarreras2000@gmail.com | CVE-2026-24160",
+        "baseten | CVE-2026-24205",
+        "Yegor Vasilenko | CVE-2026-24187",
+        "Sihyun Roh and Byoungyoung Lee from Compsec, SNU | CVE-2026-24190",
+        "JunDong Xie (antgroup) | CVE-2026-24192, CVE-2026-24196, CVE-2026-24199",
+        "Binarly Research Team | CVE-2026-24182",
+        "Ximing Fan | CVE-2025-33221",
+        "Daniel Teixeira | CVE-2026-24188",
+        "Jeff Leaming | CVE-2026-24218",
+        "CheN | CVE-2026-24216, CVE-2026-24217",
+        "Orel Asper Organization: EyeR SEC LTD | CVE-2026-24178, CVE-2026-24186",
+        "xlabai | CVE-2026-24204",
+        "Colin McDonough of 50words.com | CVE-2026-24222",
+        "Avi Lumelsky of Oligo Security | CVE-2026-24231",
+        "Chanho Kim (@HO-9), Jihyeok Han (@HanJeouk) | CVE-2026-24189",
+        "Ziyi Guo (Northwestern University) | CVE-2026-24176",
+        "Tianze Ding (Tencent Security Xuanwu Lab) | CVE-2026-24177",
+        "finder16 | CVE-2026-24156",
+        "Sarvesh Patil | CVE-2026-24146",
+        "sungzii | CVE-2026-24173",
+        "Mahammad Huseynkhanli | CVE-2026-24174",
+        "SeaWind (ZSEC Red Team, Zalo) | CVE-2026-24175",
+        "Tianze Ding (Tencent Security Xuanwu Lab) | CVE-2026-24147",
+        "Ozgur Ogul Koca | CVE-2026-24148",
+        "th3_h1tchh1ker | CVE-2026-24153, CVE-2026-24154",
+        "Thomas Keefer, Dan Aridor | CVE-2026-24164",
+        "CheN | CVE-2026-24165",
+        "Dan Aridor | CVE-2025-33244, CVE-2026-24157, CVE-2026-24159, CVE-2026-24152, CVE-2026-24151, CVE-2026-24150",
+        "Alexis Challande | CVE-2025-33238, CVE-2025-33254",
+        "Taiphung217 | CVE-2026-24158",
+        "Xiangwei Zhang of Tencent Security (Yunding Lab) | CVE-2026-24141, CVE-2025-33247",
+        "Yongzhi Liu of Tencent Security (Yunding Lab) | CVE-2025-33248",
+        "David Gauthier | CVE-2026-24241",
+        "TencentAISec | CVE-2025-33239, CVE-2025-33240",
+        "Inga Cherny - Cato CTRL | CVE-2025-33236",
+        "Dan Aridor | CVE-2025-33241, CVE-2025-33243, CVE-2025-33251, CVE-2025-33252, CVE-2025-33253",
+        "Ruslan Semchenko (Руслан Семченко) | CVE-2025-33245",
+        "TencentAISec | CVE-2025-33246, CVE-2025-33249",
+        "XlabAI Team of Tencent Xuanwu Lab, Atuin Automated Vulnerability Discovery Engine, Guannan Wang, Zhanpeng Liu, Guancheng Li | CVE-2025-33250",
+        "Kentaro Kawane from GMO Cybersecure by lerae | CVE-2025-33217, CVE-2025-33218",
+        "Sam Lovejoy and Valentina Palmiotti | CVE-2025-33219",
+        "Thomas Keefer (TKYN) | CVE-2025-33237",
+        "Qi Deng of Aurascape.ai | CVE-2025-33234",
+        "pwni | CVE-2025-33228, CVE-2025-33229, CVE-2025-33230, CVE-2025-33231",
+        "Javohir Abduxalilov (JavaSec.uz member of TuranSec) | CVE-2025-33233",
+        "pwni | CVE-2025-33206",
+        "NVIDIA also thanks Atharva Kanherkar G'iyosiddin Muxammadiyev (mikro_0404) Athbi Muhammad Daniyal Ubaid Azam Tak Xiaozheng Ding, Lidong Li (SourceGuard) Colin McDonough of http://50words.com Shubham Goyal Nikolas Null (n0k0) Vitaly Simonovich Naufal Mu'tashim Ammar Rikky Ihza Pratama Daniel Rhea Ba…",
+        "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative) | CVE-2026-24149",
+        "Daniel Teixeira (NVIDIA AI Red Team) | CVE-2025-33222, CVE-2025-33223, CVE-2025-33224",
+        "oguri | CVE-2025-33212",
+        "h3r | CVE-2025-33226",
+        "Daniel Teixeira (NVIDIA AI Red Team) | CVE-2025-33210",
+        "naxusaireporting | CVE-2025-33225, CVE-2025-33235",
+        "blazingwind | CVE-2025-33214, CVE-2025-33213",
+        "seaw1nd | CVE-2025-33211",
+        "Tyler Zars and Rob Blakely of the Technical Debt Collectors - TrendMicro ZDI, taiphung217 (MDPC, OneMount Group) | CVE-2025-33201",
+        "S Lakshmi Vignesh (@lakshmivignesh) and Shrinivasan S (@normie34) | CVE-2025-33208",
+        "Daniel Teixeira (NVIDIA AI Red Team) | CVE-2025-33203",
+        "Tong Liu (IIE) | CVE-2025-33204",
+        "Peng Zhou (zpbrent) @ Shanghai University | CVE-2025-33205",
+        "NVIDIA Offensive Security Research team | CVE-2025-33187, CVE-2025-33188, CVE-2025-33189, CVE-2025-33190, CVE-2025-33191, CVE-2025-33192, CVE-2025-33193, CVE-2025-33194, CVE-2025-33195, CVE-2025-33196, CVE-2025-33197, CVE-2025-33198, CVE-2025-33199, CVE-2025-33200",
+        "Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative | CVE-2025-33183",
+        "Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative | CVE-2025-33184",
+        "Peter Girnus (@gothburz) of Trend of TrendAI Zero Day Initiative | CVE-2025-23357",
+        "TencentAISec | CVE-2025-23361",
+        "Guanheng Liu, Pinji Chen from NISL lab at Tsinghua University | CVE-2025-33178",
+        "pcowan | CVE-2025-33202",
+        "Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative | CVE-2025-33186",
+        "Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative | CVE-2025-33185",
+        "Kazuma Matsumoto - GMO Cybersecurity by IERAE, Inc. | CVE-2025-23358",
+        "Chen Cohen (Ebay) | CVE-2025-33176",
+        "Robin Bastide of Quarkslab | CVE-2025-23280",
+        "Giovanni Di Santi, Andrea Di Dio, and Cristiano Giuffrida at VU Amsterdam | CVE-2025-23352",
+        "Mo XY of IceSword Lab | CVE-2025-23346",
+        "Sarah Newman and Jason Zaman - Blue River Technology | CVE-2025-33182",
+        "Ju Min Lee, Dokyung Song, and Hanjun Kim (Yonsei University) | CVE-2025-33177",
+        "kikayli (Zhuque Lab, Tencent) | CVE-2025-23356",
+        "Daniel Rhea | CVE-2025-23309",
+        "Sam Lovejoy and Valentina Palmiotti | CVE-2025-23282, CVE-2025-23332",
+        "Robin Bastide of Quarkslab | CVE-2025-23330",
+        "JunDong Xie - Ant Group Light-Year Security Lab | CVE-2025-23345",
+        "Jahmel Harris - NATO Cyber Security Centre | CVE-2025-23291, CVE-2025-23292, CVE-2025-23293",
+        "Dong-uk Kim and JunYoung Park of KAIST Hacking Lab | CVE-2025-23297",
+        "pwni | CVE-2025-23355",
+        "TencentAISec | CVE-2025-23348",
+        "Yu Rong and Hao Fan | CVE-2025-23249, CVE-2025-23353, CVE-2025-23354",
+        "Yuhao Zhou@Sichuan University | CVE-2025-23272, CVE-2025-23274, CVE-2025-23275",
+        "이동하 (Lee Dong Ha) of SSA Lab and Dimitrios Tatsis of Cisco Talos | CVE-2025-23339",
+        "Dimitrios Tatsis of Cisco Talos | CVE-2025-23338, CVE-2025-23271, CVE-2025-23340",
+        "Kai Lu of Palo Alto Networks | CVE-2025-23248",
+        "Xiaozheng Ding, Lidong Li from SourceGuard | CVE-2025-23255",
+        "Trend Micro Zero Day Initiative | CVE-2025-23268",
+        "C0ss4ck - Bytedance Security | CVE-2025-23257",
+        "Руслан Семченко (Ruslan Semchenko) and kikayli (Zhuque Lab, Tencent) | CVE-2025-23312",
+        "Xuanzhe Yu | CVE-2025-23313, CVE-2025-23314",
+        "Tong Liu | CVE-2025-23315",
+        "D.K. | CVE-2025-23307",
+        "Adam Stewart | CVE-2025-23294",
+        "Pinji Chen (Tsinghua University) | CVE-2025-23295",
+        "Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative and Tong Liu (IIE) | CVE-2025-23296",
+        "Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative | CVE-2025-23298",
+        "Yu Rong and Hao Fan | CVE-2025-23305",
+        "Yu Rong and Hao Fan | CVE-2025-23306",
+        "Peng Zhou (zpbrent) @ Shanghai University | CVE-2025-23303",
+        "Ali Islam from Palo Alto Networks | CVE-2025-23304",
+        "Will Vandevanter - Trail of Bits | CVE-2025-23310, CVE-2025-23311",
+        "Ronen Shustin - WIZ.IO | CVE-2025-23319, CVE-2025-23334",
+        "thanhkiem29 | CVE-2025-23321",
+        "Trend Micro ZDI | CVE-2025-23317, CVE-2025-23318, CVE-2025-23320, CVE-2025-23333",
+        "Yash Kundlik Jare | CVE-2025-23289",
+        "Microsoft Offensive Research and Security Engineering Team | CVE-2025-23281, CVE-2025-23287",
+        "Nir Ohfeld (@nirohfeld) and Shir Tamari (@shirtamari) working with Trend Zero Day Initiative | CVE-2025-23266",
+        "Lei Wang & Min Yao (Nebula Security Lab, Huawei Cloud) | CVE-2025-23267",
+        "Sarah Newman (Blue River Technology) | CVE-2025-23270",
+        "Sreejith A R | CVE-2025-23269",
+        "Andong Chen, Zhaoxuan Isaac Jin | CVE-2025-23260",
+        "Yu Rong and Hao Fan | CVE-2025-23264, CVE-2025-23265",
+        "Dimitrios Tatsis of Cisco Talos | CVE-2025-23247",
+        "Avi Lumelsky - Oligo Security | CVE-2025-23254",
+        "Xingyu Jin - Google | CVE-2025-23244",
+        "Sascha Meyer - GAI NetConsult GmbH | CVE-2025-23253",
+        "Peng Zhou - Shanghai University | CVE-2025-23249, CVE-2025-23250, CVE-2025-23251",
+        "David Fiser and Alfredo Oliveira - Nebula of Trend Micro | CVE-2025-23242, CVE-2025-23243",
+        "Or Peles at JFrog Security | CVE-2025-23360",
+        "Boston Dynamics | CVE‑2024-0148",
+        "Kai Lu - Palo Alto Networks | CVE‑2024-53870, CVE‑2024-53871, CVE‑2024-53872, CVE‑2024-53873, CVE‑2024-53874, CVE‑2024-53875, CVE‑2024-53876, CVE‑2024-53877, CVE‑2024-53878",
+        "nEINEI - Tencent-zhuquelab | CVE‑2024‑53879",
+        "Andres Riancho, Ronen Shustin and Shir Tamari-Wiz Research as well as Lei Wang | CVE-2025-23359",
+        "7resp4ss and Guang Gong - 360 Vulnerability Research Institute | CVE-2024‑53880",
+        "Dimitrios Tatsis - Cisco Talos | CVE-2024-0142, CVE-2024-0143, CVE-2024-0144, CVE-2024-0145",
+        "Maxim Mints and Austin Herring | CVE-2024‑0112",
+        "cyfra07 | CVE-2024‑0140",
+        "Xiaochen Zou | CVE-2024-0131",
+        "Wolfgang Frisch | CVE-2024-0149",
+        "Andres Riancho, Ronen Shustin, and Shir Tamari – Wiz Research | CVE-2024-0135, CVE-2024-0136, CVE-2024-0137",
+        "NVIDIA also thanks Kiefer Lin @printedwaste Sairaj Dattu Thorat Kullai Metikala - @kullai12 Michal Biesiada Harsh maheta Ayşenur Demiral Indra Putra (Voltage Park) Michael DePlante (@izobashi) of Trend Zero Day Initiative Lütfü Mert Ceylan - OWASP Project Leader Milan Katwal miguelse Veshraj Ghimir…",
+        "Abian Blome, Jan Kästle – Siemens Energy | CVE-2024-0139",
+        "CSF LABS - Energisa Group | CVE-2024‑0122",
+        "Andres Riancho, Ronen Shustin, and Shir Tamari - Wiz Research | CVE-2024-0134",
+        "Piotr Bania - Cisco Talos | CVE-2024-0117, CVE-2024-0118, CVE-2024-0119, CVE-2024-0120, CVE-2024-0121",
+        "Maxim Mints and Austin Herring | CVE-2024-0126",
+        "Ryan Tracey - HiddenLayer | CVE-2024‑0129",
+        "nEINEI - Tencent-zhuquelab | CVE-2024-0123, CVE-2024-0124, CVE-2024-0125",
+        "r3pwnx | CVE-2024‑0116",
+        "Andres Riancho, Ronen Shustin and Shir Tamari - Wiz Research | CVE-2024‑0132, CVE-2024-0133",
+        "r3pwnx | CVE-2024-0109, CVE-2024-0110",
+        "r3pwnx, nEINEI - Tencent-zhuquelab | CVE-2024-0111",
+        "ByteDance | CVE-2024‑0115",
+        "Cyrille CHATRAS - Orange Group | CVE-2024‑0113",
+        "Matteo Marini and Daniele Cono D'Elia | CVE-2024‑0102",
+        "Piotr Bania - Cisco Talos | CVE-2024‑0107",
+        "CYS DET PEN - Siemens | CVE-2024-0089",
+        "Jisoo Jang, Joonkyo Jung, Yongwan Jo, and Dokyung Song - Yonsei University | CVE-2024-0090",
+        "Frederik Pustelnik | CVE-2024-0093",
+        "pinkdraconian | CVE-2024-0095",
+        "Andrew Innes, Will Williams, Jamie Dougherty, Markus Hennerbichler | CVE-2024-0103",
+        "pinkdraconian, lawliet & Zhiniang Peng (@edwardzpeng) - Sangfor | CVE-2024-0087",
+        "lawliet & Zhiniang Peng (@edwardzpeng) - Sangfor | CVE-2024-0088",
+        "Matteo Marini and Daniele Cono D'Elia | CVE-2024‑0072, CVE-2024-0076",
+        "hjy79425575 | CVE‑2023-31028, CVE-2024-0080",
+        "l1k3beef - tencent-zhuquelab | CVE-2024-0082",
+        "Ozgun Kultekin | CVE-2024-0083",
+        "ALJI Mohamed (sim4n6) | CVE-2024-0081",
+        "Piotr Bania - Cisco Talos | CVE-2024-0071",
+        "HaoKun Yang | CVE-2023-31037",
+        "NVIDIA also thanks the following individuals for their contribution towards making our products more secure Sakil Hasan Saikat Jonas Rudloff, Tethys Svensson, Kristoffer Søholm Zhenkai Zhang - Clemson University Yanan Guo, Zhenkai Zhang, and Jun Yang Pietro `suidpit` Tirenna Shubham Deshmukh Pranav…",
+        "l1k3beef - tencent-zhuquelab | CVE-2023-31036",
+        "Lockheed Martin Red Team | CVE-2023-31017",
+        "Patryk Nowakowski | CVE-2023-31027",
+        "Marc Dovero | CVE-2023-25525, CVE-2023-25526",
+        "Hugo Magalhaes - Oracle | CVE-2023-25519",
+        "Oversecured | CVE-2023-31014",
+        "NVIDIA Offensive Security Research (OSR) team | CVE-2023-25527, CVE-2023-25528, CVE-2023-25529, CVE-2023-25530, CVE-2023-25531, CVE-2023-25532, CVE-2023-25533, CVE-2023-31008, CVE-2023-31009, CVE-2023-31010, CVE-2023-31011, CVE-2023-31012, CVE-2023-31013",
+        "Jifan Xiao | CVE-2023-25523",
+        "Worldcoin Security Lab | CVE-2023-25518",
+        "Trae Mazza | CVE-2023-25520",
+        "zz zr and Zhaozixi105 | CVE-2023-25510, CVE-2023-25511",
+        "Luca Di Bartolomeo @ EPFL and Zhaozixi105 | CVE-2023-25512",
+        "Luca Di Bartolomeo @ EPFL | CVE-2023-25513",
+        "Xinhao Kong, Jingrong Chen, Wei Bai, Yechen Xu, Mahmoud Elhaddad, Shachar Raindel, Jitendra Padhye, Alvin R. Lebeck, and Danyang Zhuo. | CVE-2023-0203, CVE-2023-0204, CVE-2023-0205",
+        "Imre Kis | CVE-2023-0194, CVE-2023-0195",
+        "r3pwnx (@r3pwnx) - 360AIVul | CVE-2023-0193",
+        "hjy79425575 | CVE-2023-0196",
+        "Minse Kim of DNSLab, Korea University | CVE-2022-42291, CVE-2022-31611",
+        "Shashi Bhushan | CVE-2022-42268",
+        "NVIDIA also thanks the following individuals for their contribution towards making our products more secure L1k3beef Durvesh Kolhe Jacob 'kobsoN' Hazak - Zero-Defense Labs Cale Anderson, Iustin Ladunca Iwan Pakochack happytohelp22 (happytohelpw) Abdelrahman Ibrahim Farg Joel Ilagan Dirisipo Abhishe…",
+        "NVIDIA Offensive Security Research (OSR) team | CVE-2022-42271, CVE-2022-42272, CVE-2022-42273, CVE-2022-42274, CVE-2022-42275, CVE-2022-42276, CVE-2022-42277, CVE-2022-42278, CVE-2022-42279, CVE-2022-42280, CVE-2022-42281, CVE-2022-42282, CVE-2022-42283, CVE-2022-42284, CVE-2022-42285, CVE-2022-42…",
+        "hjy79425575 | CVE: CVE-2022-34667",
+        "Daniel Santos (@bananabr) | CVE-2022-34669",
+        "Piotr Bania - Cisco Talos | CVE-2022-34671",
+        "Tal Lossos | CVE-2022-34682",
+        "Wei Lei and Sergey Kornienko (@b1thvn_) of PixiePoint Security | CVE-2022-34683, CVE-2022-42266",
+        "Oliver Sellwood (Nintorac) Elias Hohl | CVE-2022-34668",
+        "Thierry Doré of Quarkslab | CVE‑2022‑31606, CVE‑2022‑31612, CVE‑2022‑31616, CVE‑2022‑31617",
+        "Le Wu of Baidu Security | CVE‑2022‑31607",
+        "Artem S. Tashkinov | CVE‑2022‑31608",
+        "Tal Lossos | CVE‑2022‑31615",
+        "NVIDIA Product Security Team | CVE-2022-28200, CVE-2022-31599, CVE-2022-31600, CVE-2022-31601, CVE-2022-31602, CVE-2022-31603",
+        "Piortr Bania of Cisco Talos | CVE‑2022‑28181 and CVE-28182.",
+        "Xavier Danest - Decathlon | CVE‑2022‑28198.",
+        "Galen Schretlen of Worldcoin | CVE‑2022‑28193, CVE‑2022‑28194, CVE‑2022‑28195, CVE‑2022‑28196, CVE‑2022‑28197.",
+        "Leonardo Galli | CVE‑2022‑21821",
+        "Jeremy Brown | CVE‑2022‑21820 | 5328",
+        "Oliver Sellwood | CVE-2022-21822",
+        "Bennie Affleck of The Good Penguin Ltd | CVE‑2022‑21819 | 5321",
+        "Dmitriy Rabotyagov and Magnus Bergman | CVE-2022-21818 | 5319",
+        "Billy Laws | CVE‑2021‑34406 | 5259",
+        "NVIDIA also thanks the following individuals for their contribution towards making our products more secure Corrie Sloot Darshan Kulkarni Ivo Abreu (berjimk) Yash Kushwah Sawrav Chowdhury (@sawravchy) Hariharan S (@Neo_X37) Vinayak Sakhare - AFour Technologies Bibek Sapkota (Sar00n) Salah Eddine Lo…",
+        "David Köhler | CVE‑2021‑23175 | 5295",
+        "Alexander Tereshkin, Alexander Matrosov, and Adam ‘pi3’ Zabrocki of NVIDIA Product Security Team | CVE‑2021‑0144 | 5213",
+        "Fabian Toepfer | CVE‑2021‑1090, CVE‑2021‑1095, CVE‑2021‑1096 | 5211",
+        "Wenxiang Qian of Tencent Blade Team | CVE‑2021‑1099, CVE‑2021‑1100 | 5211",
+        "NVIDIA Product Security Team | CVE‑2021‑1103 | 5211",
+        "Frédéric Perriot of the Apple Media Products RedTeam | CVE-2021-34372, CVE-2021-34373, CVE-2021-34374, CVE-2021-34375, CVE-2021-34376, CVE-2021-34377, CVE-2021-34378, CVE-2021-34379, CVE-2021-34380, CVE-2021-34381, CVE-2021-34382, CVE-2021-34383, CVE-2021-34384, CVE-2021-34385, CVE-2021-34386, CVE-…",
+        "Wenxiang Qian of Tencent Blade Team | CVE‑2021‑1082, CVE-2021-1084, CVE-2021-1087 | 5172",
+        "NVIDIA Product Security Team | CVE‑2021‑1081, CVE-2021-1083 | 5172",
+        "Matt Batten Paolo Stagno | CVE‑2021‑1079 | 5184",
+        "Aleksandar Milenkoski (@milenkowski) of ERNW Enno Rey Netzwerke GmbH | CVE‑2021‑1072 | 5155",
+        "Michael de Gans | CVE‑2021‑1070 | 5147",
+        "Billy Laws | CVE‑2021‑1069 | 5147",
+        "Rotem Sela and Brian Mastenbrook of Western Digital | CVE‑2021‑1067 | 5148",
+        "NVIDIA Product Security Team | CVE‑2021‑1068 | 5148",
+        "Billy Laws | CVE‑2021‑1069 | 5148",
+        "Xinyuan Lyu of Intelligent Mobile Systems Group, MOE KLINNS Lab, Xi'an Jiaotong University | CVE‑2021‑1056 | 5142",
+        "NVIDIA Product Security Team | CVE‑2021‑1057, CVE-2021-1058, CVE‑2021‑1059, CVE‑2021‑1062 | 5142",
+        "NVIDIA also thanks the following individuals for their contribution towards making our products more secure Simranjit Singh Naif F Alanazi Gaurang Maheta Dristant Uprety Tencent Force Kent Backman of Dragos, Inc. Idan Noiman Zhuo Zhang of Purdue University Michael Dubell",
+        "Hou JingYi (@hjy79425575) of Qihoo 360 CERT | CVE‑2020‑5992 | 5096",
+        "Weidang Peng of Qihoo 360 AIVUL Team | CVE‑2020‑5991 | 5094",
+        "Sergey Gordeychik | CVE‑2020‑11483, CVE‑2020‑11487, CVE‑2020‑11489 | 5010",
+        "Roman Palkin and Sergey Gordeychik | CVE‑2020‑11484 | 5010",
+        "Maria Samoylova, Denis Kolegov, and Roman Palkin | CVE‑2020‑11485 | 5010",
+        "Denis Kolegov and Sergey Gordeychik | CVE‑2020‑11615, CVE‑2020‑11616 | 5010",
+        "Sergey Gordeychik, Maria Samoylova, Denis Kolegov, and Roman Palkin | CVE‑2020‑11486, CVE-2020-11488 | 5010",
+        "Boris Ryutin | CVE-2020-5977 | 5076",
+        "Xavier DANEST - Decathlon | CVE-2020-5977 | 5076",
+        "Hashim Jawad of ACTIVELabs | CVE-2020-5978, CVE-2020-5990 | 5076",
+        "NVIDIA Product Security Team | CVE-2020-5983, CVE-2020-5986 | 5075",
+        "Jo Hemmerlein of Microsoft | CVE-2020-5979 | 5075",
+        "Andy Gill of Pen Test Partners LLP | CVE-2020-5980 | 5075",
+        "Piotr Bania of Cisco Talos | CVE-2020-5981 | 5075",
+        "Rhet Evans | CVE-2020-5975 | 5052",
+        "Martino Trevisan | CVE-2020-5976 | 5052",
+        "Michael de Gans | CVE-2020-5974 | 5039",
+        "Eviatar Gerzi, CyberArk Labs Nuttakorn Tungpoonsup, Secure D Center Research Team, Secure D Center Co.,Ltd. Ammarit Thongthua, Secure D Center Research Team, Secure D Center Co.,Ltd. Sittikorn Sangrattanapitak, Cybersecurity Researcher | CVE-2020-5962 | 5031",
+        "Thomas E. Carroll | CVE-2020-5963 | 5031",
+        "Piotr Bania of Cisco Talos | CVE-2020-5965 | 5031",
+        "Zhiniang Peng (@edwardzpeng) of Qihoo 360 Core Security and Xuefeng Li | CVE-2020-5957 | 4996",
+        "NVIDIA also thanks the following individuals for their contribution towards making our products more secure Emmanuel B. Ivan Korolev of Doctor Web, Ltd. Ivashko Yurii Mahmoud Basel Jayyousi Michael de Gans Anurag Vijay Bhoir Deives Jonathan Bill Nickless Thomas Bryan Austin Mackey",
+        "RyotaK | CVE-2019-5702 | 4954",
+        "Ryan Grachek | CVE-2019-5700 | 4910",
+        "Hashim Jawad of ACTIVELabs | CVE-2019-5701 | 4860",
+        "Peleg Hadar of SafeBreach Labs | CVE-2019-5695 | 4860",
+        "Siyuan Yi of Chengdu University of Technology | CVE-2019-5689 | 4860",
+        "Peleg Hadar of SafeBreach Labs | CVE-2019-5694 CVE-2019-5695 | 4907",
+        "Lucas Pinheiro of Microsoft | CVE-2019-5692 | 4907",
+        "Jesse Michael and Mickey Shkatov of Eclypsium | CVE-2019-5688 | 4928",
+        "Ryan Grachek | CVE-2019-5700 | 4875",
+        "Yousra Aafer | CVE-2019-5681 | 4804",
+        "Leron Gray (daddycocoaman) | CVE-2019-5682 | 4804",
+        "Piotr Bania of Cisco Talos | CVE-2019-5684 CVE-2019-5685 | 4841",
+        "Balázs Triszka | CVE-2019-5680 | 4835",
+        "David Yesland of Rhino Security Labs | CVE-2019-5678 | 4806",
+        "Kushal Arvind Shah of Fortinet's FortiGuard Labs; Łukasz 'zaeek'; Yasin Soliman; Marius Gabriel Mihai; and Stefan Kanthak | CVE-2019-5676 | 4797",
+        "Jesse Raffa | CVE-2019-5672 | 4787",
+        "David Yesland of Rhino Security Labs | CVE-2019-5674 | 4784",
+        "Christoffer Wiman | CVE-2019-5665 | 4772",
+        "Pankaj Kumar Thakur Taeyun Jang Jesse Michael and Mickey Shkatov of Eclypsium Rich Mirch Raghavendra Singh Sameer Phad Hamdi Maamri Jonesy | N/A",
+        "Akshay Jain | CVE-2018-6266 | 4740",
+        "Pierre-Alexandre Braeken | CVE-2018-6263 | 4740",
+        "Hoda Naghibijouybari, Ajaya Neupane, Zhiyun Qian, and Nael Abu-Ghazaleh | CVE-2018-6260 | 4738",
+        "Mark Barnes | CVE-2018-6261 | 4725",
+        "Kate Temkin | CVE-2018-6242 | 4660",
+        "Piotr Bania of Cisco Talos | CVE-2018-6251 | 4649",
+        "Gehan Kaushal, Hassy Vinod | N/A | N/A",
+        "Andriy Noble | N/A | N/A",
+        "Nathan Crandall, Tesla Motors Product Security Team | CVE-2017-0306 CVE-2016-6915 CVE-2016-6916 CVE-2016-6917 | 4561",
+        "Tim Harrison | CVE-2017-0316 | 4560",
+        "Enrique Nissim, IOActive | CVE-2017-6269 CVE-2017-6270 CVE-2017-6271 | 4544",
+        "Enrique Nissim, IOActive | CVE-2017-6256 | 4525",
+        "Andrei Lascu and Alastair Donaldson, Multicore Programming Group at Imperial College London | CVE-2017-6259 | 4525",
+        "Oliver Chang, Google Project Zero | CVE-2017-0312 CVE-2017-0313 | 4398",
+        "Ryan Whitworth | CVE-2017-0317 | 4398",
+        "Kushal Arvind Shah, Fortinet's FortiGuard Labs | N/A | N/A",
+        "Tim Harrison | N/A | N/A",
+        "Oden Schmit | CVE-2016-8827 | 4279",
+        "Oliver Chang, Google Project Zero | CVE-2016-8822 | 4278",
+        "Piotr Bania, Cisco Talos | CVE-2016-8823 | 4278",
+        "Nathan Crandall, Tesla Motors Product Security Team | CVE-2016-6915 CVE-2016-6916 CVE-2016-6917 | 4276",
+        "Nathan Crandall, Tesla Motors Product Security Team | CVE-2016-3847 CVE-2016-3848 | 4267",
+        "Peter Pi, Trend Micro | CVE-2016-3793 | 4267",
+        "Scott Bauer | CVE-2016-3815 | 4267",
+        "Chiachih Wu, CORE Team | CVE-2016-3844 | 4267",
+        "Mingjian Zhou, CORE Team | CVE-2016-3844 | 4267",
+        "Xuxian Jiang, CORE Team | CVE-2016-3844 | 4267",
+        "Sagi Kedmi, IBM Security X-Force Researcher | CVE-2016-3873 | 4267",
+        "Jianqiang Zhao | CVE-2016-6688 CVE-2016-6677 CVE-2016-6687 CVE-2016-6686 CVE-2016-3930 | 4267",
+        "PJF, IceSword Lab, Qihoo 360 Technology Co. Ltd. | CVE-2016-6688 CVE-2016-6677 CVE-2016-6687 CVE-2016-6686 CVE-2016-3930 | 4267",
+        "Mingjian Zhou, CORE Team | CVE-2016-3933 | 4267",
+        "Chiachih Wu, CORE Team | CVE-2016-3933 | 4267",
+        "Xuxian Jiang, CORE Team | CVE-2016-3933 | 4267",
+        "Oliver Chang, Google Project Zero | CVE-2016-8805 CVE-2016-8806 CVE-2016-8807 CVE-2016-8808 CVE-2016-8809 CVE-2016-8810 CVE-2016-8811 CVE-2016-8812 CVE-2016-7391 CVE-2016-7387 CVE-2016-7385 CVE-2016-7390 CVE-2016-7384 CVE-2016-7386 | 4247",
+        "Tripwire VERT | CVE-2016-4959 | 4213",
+        "Alin Ghica | CVE-2016-3161 CVE-2016-5852 | 4213",
+        "Joseph Bialek, Microsoft Vulnerability Research | CVE-2016-4960 CVE-2016-4961 | 4213",
+        "Daniel Cornel | CVE-2016-5025 | 4213",
+        "Jianqiang Zhao, IceSword Lab, Qihoo 360 Technology Co. Ltd. | CVE-2016-2434 CVE-2016-2435 CVE-2016-2436 CVE-2016-2445 CVE-2016-2446 | 4208",
+        "PJF, IceSword Lab, Qihoo 360 Technology Co. Ltd. | CVE-2016-2434 CVE-2016-2435 CVE-2016-2436 CVE-2016-2445 CVE-2016-2446 | 4208",
+        "Yuan-Tsung Lo, CORE Team | CVE-2016-2437 | 4208",
+        "Lubo Zhang, CORE Team | CVE-2016-2437 | 4208",
+        "Chiachih Wu, CORE Team | CVE-2016-2437 | 4208",
+        "Xuxian Jiang, CORE Team | CVE-2016-2437 | 4208",
+        "Joshua J. Drake, Zimperium | CVE-2015-1538 CVE-2015-1539 CVE-2015-3824 CVE-2015-3826 CVE-2015-3827 CVE-2015-3828 CVE-2015-3829 CVE-2015-3864 | 3810",
+        "McAfee/Intel Security in cooperation with NIVIDA | No CVE | 3809",
+        "Axel Monroy, Intel, in cooperation with NIVIDA | CVE-2015-7869 | 3808",
+        "Nikita Tarakanov, Intel, in cooperation with NVIDIA | CVE-2015-7869 | 3808",
+        "Wesley Daniels | CVE-2015-7866 | 3806",
+        "Mellanox Technologies in cooperation with NIVIDA | CVE-2015-5053 | 3802",
+        "Dario Weisser | CVE-2015-5950 | 3763",
+        "James Forshaw, Google Project Zero | CVE-2015-1170 | 3634",
+        "Lee Campbell, Google Chrome Security | CVE-2014-5332 | 3618",
+        "Adam Jackson | CVE-2014-8093 CVE-2014-8098 | 3610",
+        "Alan Coopersmith | CVE-2014-8093 CVE-2014-8098 | 3610",
+        "Robert Morell, NVIDIA | CVE-2014-8298 | 3610",
+        "Marcin Kościelnicki, X.Org Foundation Nouveau Project | CVE-2013-5987 | 3377"
+      ],
+      "rows_count": 395
+    }
+  ]
+}
