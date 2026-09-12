@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — Aeon/Miroshark
-
 *Top Tweets — Aeon/Miroshark (2026-09-12)*
 _Two threads: Aeon shipped a Uniswap Hooks submission skill, and Miroshark's x402aff is turning into CultOS's core distribution rail._
 
