@@ -1,10 +1,12 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-11T17:52:12Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-structured Reddit drafts tailored per community with clear reasoning; ready to post. Strong strategy alignment (GTM/BD/social priorities, timing, audience tone). Cites verifiable sources and shows honest decision logic (why this ship over today's weaker alternatives).",
-  "flags": [],
-  "avg_score": 3.96,
+  "last_analyzed": "2026-09-12T17:52:03Z",
+  "quality_score": 2,
+  "assessment": "Well-written drafts with solid structure, but makes multiple specific factual claims (X tweet ID, marketplace numbers, CultOS integration details) that appear unverifiable from context and violate the 'verify before you claim' hard constraint.",
+  "flags": [
+    "unverifiable_claim"
+  ],
+  "avg_score": 3.88,
   "history": [
     {
       "date": "2026-08-20",
@@ -101,6 +103,10 @@
     {
       "date": "2026-09-11",
       "score": 4
+    },
+    {
+      "date": "2026-09-12",
+      "score": 2
     }
   ]
 }
