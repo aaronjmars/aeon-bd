@@ -1,15 +1,25 @@
 ℹ️ Mention Radar
 
-*Mention Radar - 2026-09-10*
-vs 2026-09-08 - 2 new - 0 still-open - 0 quiet
+*Mention Radar - 2026-09-12*
+vs 2026-09-10 - 5 new - 0 still-open - 0 quiet
 
 AEON
-- NEW [Press/newsletter] @thecultos: "Give your @claudeai or @OpenAI agents access to Cult OS services powered by @aeonframework skills: SEO audits, PR triage & review, and vulnerability scanning. More to come!" - 8 likes/4rt/4reply, 413 views - CultOS turned the Aeon-skills partnership into a live paid MCP product (3 named service categories), corroborated same-day by founder @akathesmith's dev log naming the identical service list - https://x.com/thecultos/status/2097818225648021603
+- NEW [Confusion] @0xDrRick (13.7k followers): asks whether ExponentLabs_'s "$aeon"-branded token vision on Pons actually delivers "more capital directly leads to more intelligence in this specific vision" - sits under a thread where aaronjmars publicly claimed "it's already a reality btw: @aeonframework" - https://x.com/0xDrRick/status/2098602750871224408
+- NEW [Friction] @_THOR_ASGARD (315 followers, self-described early investor): complains the vuln-scanner tweets "tag dead projects and dead accounts," warns "this behaviour of yours will draw 0 investors" - https://x.com/_THOR_ASGARD/status/2098475211205361888
+- NEW [Discovery] @archtuxfan (394 followers): unprompted recommendation to another account - "I guess you guys need to check @aeonframework" - https://x.com/archtuxfan/status/2098618128020234739
 
 MIROSHARK
-- NEW [Discovery] @techcitycrypto (303 followers): "$Miroshark an open source agent simulation is just trading at $300k. Dev is one of the top innovators in the ai agent space... Exploring simulation for sports and prediction mrkts. deserves attention" - organic first-time praise, no pump language - https://x.com/techcitycrypto/status/2095597518671462537
+- NEW [Press/newsletter] @thecultos (2k followers): miroshark's x402aff "just joined the Cult OS x402 catalog on @base" - a concrete catalog-listing event - https://x.com/thecultos/status/2098659774669668359
+- NEW [Confusion] @wolfgangg37 (4.7k followers): "Does the 25-agent simulations cover narratives and beliefs and also output a synthesized report?" - genuine unanswered question posted directly under thecultos's catalog announcement - https://x.com/wolfgangg37/status/2098660851964149793
 
 ENGAGEMENT OPPORTUNITIES
-- @thecultos: highest-leverage reply this cycle - a partner just shipped a paid product literally branded "powered by @aeonframework skills," worth a boost/RT from the aeon account while the thread is still live (4 replies engaging with it already) - https://x.com/thecultos/status/2097818225648021603
+- @0xDrRick: 13.7k-follower account asking a real mechanics question on a live thread that already carries aaronjmars's "already built this" claim - one reply cements the framing while it's hot - https://x.com/0xDrRick/status/2098602750871224408 - expires 2026-09-15
+- @wolfgangg37: technical question sitting unanswered under an active partner post - a direct answer could convert a potential x402aff adopter - https://x.com/wolfgangg37/status/2098660851964149793 - expires 2026-09-14
 
-run: X_SOURCE=twitterapi (aeon http=200/20 tweets, miroshark http=200/15 tweets) · web sweep (Reddit/HN/PH) clean both projects, HackerNoon "Aeon/MiroShark agentic commerce" piece is June-dated (outside 7d window, not new), Microlaunch MiroShark listing still 0 votes (checked 09-08, unchanged) · noise discarded: bare-"aeon" query collided with AEON retail chain/AeonCoin/vtuber handles again (same pattern flagged 09-06/09-08) so query was narrowed to "aeonframework"/"aeon framework"/repo-url only; @CryptoBrada's $CULTOS mega-thread (names AEON+Miroshark as supporting cast in a "buy now" pitch, CA included) discarded as promotional shill, not organic; @deexra's "moonshot gem list" discarded as too thin (ticker-only, no product claim); @liqfun's "just followed" discarded - account is bot-labeled ("Automated by @liqpad"); BaseHubHB roundup-thread replies (Mechanical/Jim_buildr/tradingtulips/m00tloader/woongrani/ArsonistCrypto/DLSIT1/aamirfaizwp/moltworksdev, all 0-2 likes) discarded - about $SIBYL or generic agent-market commentary, not aeon-specific · stars aeon 721/+3/since 09-08 (under +5 threshold, not surfaced) · stars miroshark 1450/+2/since 09-08 (under +5 threshold, not surfaced) · quiet_streak both reset to 0 on new mentions
+GITHUB
+- aeon: 726★ (+5/2d since 09-10) - clears threshold; 261 forks (+3/2d, under threshold)
+- miroshark: 1449★ (-1/2d since 09-10, decrease not a jump); 299 forks (+1/2d, under threshold)
+
+QUIET: none - both projects surfaced fresh mentions this run
+
+run: X_SOURCE=twitterapi (http=200 both) · web sweep (Reddit/HN/PH/Farcaster) clean · WebSearch AI-summary repeated the "2M GitHub stars" fabrication again, discarded (same pattern as 09-06/09-08/09-10) · noise discarded: 6-account "base stack" reply-chain, @TheTokenXpress's (151k f) generic collab-outreach, @AIonBase_'s 17-handle roundup

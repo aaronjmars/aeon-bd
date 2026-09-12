@@ -1,0 +1,610 @@
+{
+  "root": "mention-radar-card",
+  "state": {},
+  "elements": {
+    "mention-radar-card": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar - 2026-09-12"
+      },
+      "children": [
+        "radar-header",
+        "radar-sep-1",
+        "aeon-section",
+        "radar-sep-2",
+        "miroshark-section",
+        "radar-sep-3",
+        "engagement-section",
+        "radar-sep-4",
+        "github-section",
+        "radar-sep-5",
+        "run-details"
+      ]
+    },
+    "radar-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "summary-stat-new",
+        "summary-stat-open",
+        "summary-stat-quiet"
+      ]
+    },
+    "summary-stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New mentions",
+        "value": "5"
+      }
+    },
+    "summary-stat-open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "0"
+      }
+    },
+    "summary-stat-quiet": {
+      "type": "Stat",
+      "props": {
+        "label": "Quiet",
+        "value": "0"
+      }
+    },
+    "radar-sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aeon-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-heading",
+        "aeon-mention-1",
+        "aeon-mention-2",
+        "aeon-mention-3"
+      ]
+    },
+    "aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon-mention-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m1-badges",
+        "aeon-m1-tweet",
+        "aeon-m1-link"
+      ]
+    },
+    "aeon-m1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m1-new",
+        "aeon-m1-type"
+      ]
+    },
+    "aeon-m1-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "aeon-m1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion",
+        "variant": "secondary"
+      }
+    },
+    "aeon-m1-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@0xDrRick",
+        "handle": "0xDrRick",
+        "text": "(13.7k followers) asks whether ExponentLabs_'s \"$aeon\"-branded token vision on Pons actually delivers \"more capital directly leads to more intelligence in this specific vision\" - sits under a thread where aaronjmars publicly claimed \"it's already a reality btw: @aeonframework\""
+      }
+    },
+    "aeon-m1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xDrRick/status/2098602750871224408"
+      }
+    },
+    "aeon-mention-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m2-badges",
+        "aeon-m2-tweet",
+        "aeon-m2-link"
+      ]
+    },
+    "aeon-m2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m2-new",
+        "aeon-m2-type"
+      ]
+    },
+    "aeon-m2-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "aeon-m2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Friction",
+        "variant": "secondary"
+      }
+    },
+    "aeon-m2-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@_THOR_ASGARD",
+        "handle": "_THOR_ASGARD",
+        "text": "(315 followers, self-described early investor) complains the vuln-scanner tweets \"tag dead projects and dead accounts,\" warns \"this behaviour of yours will draw 0 investors\""
+      }
+    },
+    "aeon-m2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/_THOR_ASGARD/status/2098475211205361888"
+      }
+    },
+    "aeon-mention-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m3-badges",
+        "aeon-m3-tweet",
+        "aeon-m3-link"
+      ]
+    },
+    "aeon-m3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m3-new",
+        "aeon-m3-type"
+      ]
+    },
+    "aeon-m3-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "aeon-m3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "secondary"
+      }
+    },
+    "aeon-m3-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@archtuxfan",
+        "handle": "archtuxfan",
+        "text": "(394 followers) unprompted recommendation to another account - \"I guess you guys need to check @aeonframework\""
+      }
+    },
+    "aeon-m3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/archtuxfan/status/2098618128020234739"
+      }
+    },
+    "radar-sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-heading",
+        "miroshark-mention-1",
+        "miroshark-mention-2"
+      ]
+    },
+    "miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark-mention-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-m1-badges",
+        "miroshark-m1-tweet",
+        "miroshark-m1-link"
+      ]
+    },
+    "miroshark-m1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-m1-new",
+        "miroshark-m1-type"
+      ]
+    },
+    "miroshark-m1-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "miroshark-m1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Press/newsletter",
+        "variant": "secondary"
+      }
+    },
+    "miroshark-m1-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@thecultos",
+        "handle": "thecultos",
+        "text": "(2k followers) miroshark's x402aff \"just joined the Cult OS x402 catalog on @base\" - a concrete catalog-listing event"
+      }
+    },
+    "miroshark-m1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2098659774669668359"
+      }
+    },
+    "miroshark-mention-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-m2-badges",
+        "miroshark-m2-tweet",
+        "miroshark-m2-link"
+      ]
+    },
+    "miroshark-m2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-m2-new",
+        "miroshark-m2-type"
+      ]
+    },
+    "miroshark-m2-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "miroshark-m2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion",
+        "variant": "secondary"
+      }
+    },
+    "miroshark-m2-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@wolfgangg37",
+        "handle": "wolfgangg37",
+        "text": "(4.7k followers) \"Does the 25-agent simulations cover narratives and beliefs and also output a synthesized report?\" - genuine unanswered question posted directly under thecultos's catalog announcement"
+      }
+    },
+    "miroshark-m2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/wolfgangg37/status/2098660851964149793"
+      }
+    },
+    "radar-sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement-heading",
+        "engagement-1",
+        "engagement-2"
+      ]
+    },
+    "engagement-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Engagement Opportunities",
+        "level": "h2"
+      }
+    },
+    "engagement-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-1-text",
+        "engagement-1-link",
+        "engagement-1-expiry"
+      ]
+    },
+    "engagement-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "@0xDrRick: 13.7k-follower account asking a real mechanics question on a live thread that already carries aaronjmars's \"already built this\" claim - one reply cements the framing while it's hot",
+        "variant": "body"
+      }
+    },
+    "engagement-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "Go to thread",
+        "href": "https://x.com/0xDrRick/status/2098602750871224408"
+      }
+    },
+    "engagement-1-expiry": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-15",
+        "variant": "outline"
+      }
+    },
+    "engagement-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement-2-text",
+        "engagement-2-link",
+        "engagement-2-expiry"
+      ]
+    },
+    "engagement-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "@wolfgangg37: technical question sitting unanswered under an active partner post - a direct answer could convert a potential x402aff adopter",
+        "variant": "body"
+      }
+    },
+    "engagement-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "Go to thread",
+        "href": "https://x.com/wolfgangg37/status/2098660851964149793"
+      }
+    },
+    "engagement-2-expiry": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-14",
+        "variant": "outline"
+      }
+    },
+    "radar-sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "github-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "github-heading",
+        "github-aeon",
+        "github-miroshark"
+      ]
+    },
+    "github-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub",
+        "level": "h2"
+      }
+    },
+    "github-aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "github-aeon-heading",
+        "github-aeon-stars",
+        "github-aeon-forks"
+      ]
+    },
+    "github-aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "aeon",
+        "level": "h3"
+      }
+    },
+    "github-aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "726",
+        "delta": "+5/2d (clears threshold)"
+      }
+    },
+    "github-aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "261",
+        "delta": "+3/2d (under threshold)"
+      }
+    },
+    "github-miroshark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "github-miroshark-heading",
+        "github-miroshark-stars",
+        "github-miroshark-forks"
+      ]
+    },
+    "github-miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "miroshark",
+        "level": "h3"
+      }
+    },
+    "github-miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1449",
+        "delta": "-1/2d (decrease not a jump)"
+      }
+    },
+    "github-miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "299",
+        "delta": "+1/2d (under threshold)"
+      }
+    },
+    "radar-sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run-heading",
+        "run-twitter",
+        "run-web",
+        "run-websearch",
+        "run-noise"
+      ]
+    },
+    "run-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Details",
+        "level": "h2"
+      }
+    },
+    "run-twitter": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=twitterapi (http=200 both)",
+        "variant": "caption"
+      }
+    },
+    "run-web": {
+      "type": "Text",
+      "props": {
+        "text": "Web sweep (Reddit/HN/PH/Farcaster) clean",
+        "variant": "caption"
+      }
+    },
+    "run-websearch": {
+      "type": "Text",
+      "props": {
+        "text": "WebSearch AI-summary repeated the \"2M GitHub stars\" fabrication again, discarded (same pattern as 09-06/09-08/09-10)",
+        "variant": "caption"
+      }
+    },
+    "run-noise": {
+      "type": "Text",
+      "props": {
+        "text": "Noise discarded: 6-account \"base stack\" reply-chain, @TheTokenXpress's (151k f) generic collab-outreach, @AIonBase_'s 17-handle roundup",
+        "variant": "caption"
+      }
+    }
+  }
+}

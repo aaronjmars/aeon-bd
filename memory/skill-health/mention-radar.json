@@ -1,10 +1,10 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-09-10T07:34:23Z",
+  "last_analyzed": "2026-09-12T07:38:59Z",
   "quality_score": 4,
-  "assessment": "Substantive, verifiable signal work — two concrete mentions with tweet links, appropriate filtering, strategic framing. Minor gaps in citation detail (dev log reference) but methodology is sound and aligned to BD/social priorities.",
+  "assessment": "Solid BD signal detection—specific actionable opportunities with timing windows, verified live data with error handling, good noise filtering, but doesn't provide drafted replies for immediate engagement.",
   "flags": [],
-  "avg_score": 3.83,
+  "avg_score": 3.85,
   "history": [
     {
       "date": "2026-08-20",
@@ -52,6 +52,10 @@
     },
     {
       "date": "2026-09-10",
+      "score": 4
+    },
+    {
+      "date": "2026-09-12",
       "score": 4
     }
   ]

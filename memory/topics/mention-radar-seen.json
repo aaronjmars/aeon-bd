@@ -27,6 +27,41 @@
       "category": "Discovery",
       "first_seen": "2026-09-10",
       "last_seen": "2026-09-10"
+    },
+    {
+      "key": "x:https://x.com/0xDrRick/status/2098602750871224408",
+      "project": "aeon",
+      "category": "Confusion",
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "key": "x:https://x.com/_THOR_ASGARD/status/2098475211205361888",
+      "project": "aeon",
+      "category": "Friction",
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "key": "x:https://x.com/archtuxfan/status/2098618128020234739",
+      "project": "aeon",
+      "category": "Discovery",
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "key": "x:https://x.com/thecultos/status/2098659774669668359",
+      "project": "miroshark",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "key": "x:https://x.com/wolfgangg37/status/2098660851964149793",
+      "project": "miroshark",
+      "category": "Confusion",
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
     }
   ],
   "quiet_streak": {
