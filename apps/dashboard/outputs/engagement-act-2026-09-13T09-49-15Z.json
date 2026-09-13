@@ -1,0 +1,565 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 2026-09-13",
+        "description": "5 new opps · 5 drafted · 1 aging (vs 2026-09-11)"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opp-1",
+        "sep-1",
+        "opp-2",
+        "sep-2",
+        "opp-3",
+        "sep-3",
+        "opp-4",
+        "sep-4",
+        "opp-5",
+        "sep-5",
+        "footer"
+      ]
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-1-header",
+        "opp-1-meta",
+        "opp-1-what",
+        "opp-1-link",
+        "opp-1-draft"
+      ]
+    },
+    "opp-1-header": {
+      "type": "Heading",
+      "props": {
+        "text": "@0xDrRick",
+        "level": "h3"
+      }
+    },
+    "opp-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp-1-type",
+        "opp-1-leverage",
+        "opp-1-expires"
+      ]
+    },
+    "opp-1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "opp-1-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "High leverage (13.7k followers)",
+        "variant": "default"
+      }
+    },
+    "opp-1-expires": {
+      "type": "Text",
+      "props": {
+        "text": "Expires 2026-09-26",
+        "variant": "caption"
+      }
+    },
+    "opp-1-what": {
+      "type": "Text",
+      "props": {
+        "text": "Asks whether more capital actually leads to more intelligence in Aeon's token vision on Pons (1 day ago)",
+        "variant": "body"
+      }
+    },
+    "opp-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/0xDrRick/status/2098602750871224408"
+      }
+    },
+    "opp-1-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-1-draft-label",
+        "opp-1-draft-text"
+      ]
+    },
+    "opp-1-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft reply:",
+        "variant": "lead"
+      }
+    },
+    "opp-1-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "@0xDrRick it's not capital in -> intelligence out, it's compute in -> intelligence out. aeon forks itself onto more runners, more skills, more cron - that's the scaling knob, not funding. aeonfun/aeon if you want to see the loop live",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-2-header",
+        "opp-2-meta",
+        "opp-2-what",
+        "opp-2-link",
+        "opp-2-draft"
+      ]
+    },
+    "opp-2-header": {
+      "type": "Heading",
+      "props": {
+        "text": "@wolfgangg37",
+        "level": "h3"
+      }
+    },
+    "opp-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp-2-type",
+        "opp-2-leverage",
+        "opp-2-expires"
+      ]
+    },
+    "opp-2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "opp-2-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "Mid leverage (4.7k followers)",
+        "variant": "secondary"
+      }
+    },
+    "opp-2-expires": {
+      "type": "Text",
+      "props": {
+        "text": "Expires 2026-09-26",
+        "variant": "caption"
+      }
+    },
+    "opp-2-what": {
+      "type": "Text",
+      "props": {
+        "text": "Genuine unanswered technical question: does the 25-agent simulation cover narratives/beliefs and output a synthesized report? (1 day ago)",
+        "variant": "body"
+      }
+    },
+    "opp-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/wolfgangg37/status/2098660851964149793"
+      }
+    },
+    "opp-2-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-2-draft-label",
+        "opp-2-draft-text"
+      ]
+    },
+    "opp-2-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft reply:",
+        "variant": "lead"
+      }
+    },
+    "opp-2-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "@wolfgangg37 yes - belief drift is core, agents argue + trade a simulated amm hour by hour, and every run ends with a synthesized report. director mode can inject breaking news mid-run too. ~$1, under 10min, worth trying",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-3-header",
+        "opp-3-meta",
+        "opp-3-what",
+        "opp-3-link",
+        "opp-3-draft"
+      ]
+    },
+    "opp-3-header": {
+      "type": "Heading",
+      "props": {
+        "text": "@_THOR_ASGARD",
+        "level": "h3"
+      }
+    },
+    "opp-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp-3-type",
+        "opp-3-leverage",
+        "opp-3-expires"
+      ]
+    },
+    "opp-3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "opp-3-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "Low leverage (315 followers)",
+        "variant": "outline"
+      }
+    },
+    "opp-3-expires": {
+      "type": "Text",
+      "props": {
+        "text": "Expires 2026-09-26",
+        "variant": "caption"
+      }
+    },
+    "opp-3-what": {
+      "type": "Text",
+      "props": {
+        "text": "Self-described early investor complains vuln-scanner tweets tag dead projects and dead accounts, warns it will draw 0 investors — genuine friction on security-scanning GTM angle (1 day ago)",
+        "variant": "body"
+      }
+    },
+    "opp-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/_THOR_ASGARD/status/2098475211205361888"
+      }
+    },
+    "opp-3-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-3-draft-label",
+        "opp-3-draft-text"
+      ]
+    },
+    "opp-3-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft reply:",
+        "variant": "lead"
+      }
+    },
+    "opp-3-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "@_THOR_ASGARD fair pushback. scanner tags whatever repo it finds a live exploit in, dead project or not - that's the point, audits miss stuff, scanning catches it. not targeting accounts. if a specific tag was wrong, drop the link and we'll look",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-4-header",
+        "opp-4-meta",
+        "opp-4-aging",
+        "opp-4-what",
+        "opp-4-link",
+        "opp-4-draft"
+      ]
+    },
+    "opp-4-header": {
+      "type": "Heading",
+      "props": {
+        "text": "emperormk01/void",
+        "level": "h3"
+      }
+    },
+    "opp-4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp-4-type",
+        "opp-4-leverage",
+        "opp-4-expires"
+      ]
+    },
+    "opp-4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "opp-4-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "Low leverage (1 follower)",
+        "variant": "outline"
+      }
+    },
+    "opp-4-expires": {
+      "type": "Text",
+      "props": {
+        "text": "Expires 2026-09-22",
+        "variant": "caption"
+      }
+    },
+    "opp-4-aging": {
+      "type": "Alert",
+      "props": {
+        "title": "Aging",
+        "message": "This opportunity needs response",
+        "type": "warning"
+      }
+    },
+    "opp-4-what": {
+      "type": "Text",
+      "props": {
+        "text": "Detached (non-fork) clone of aeonfun/aeon — identical skills/memory/soul/mcp-server/notify-jsonrender structure, void.yml is aeon.yml renamed, but the LICENSE copyright line was edited from 'Aeon Inc' to 'Emperor M.K' and the README has zero mentions of aeon (verified via direct file diff; repo created 2026-09-08, 5 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View repo",
+        "href": "https://github.com/emperormk01/void"
+      }
+    },
+    "opp-4-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-4-draft-label",
+        "opp-4-draft-text"
+      ]
+    },
+    "opp-4-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft comment:",
+        "variant": "lead"
+      }
+    },
+    "opp-4-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "hey - void's structure lines up closely with aeonfun/aeon (same skills/ layout, memory/, soul/, mcp-server, notify-jsonrender, void.yml = aeon.yml renamed). two things stand out: the LICENSE copyright line was changed from 'Aeon Inc' to 'Emperor M.K', and there's no mention of aeon anywhere in the README. MIT requires keeping the original copyright/permission notice intact even when you build on it and rebrand - that's the one condition. happy to see people ship on this, credit is all we're asking. can you restore the original copyright line and add a note on where this is built from?",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-5-header",
+        "opp-5-meta",
+        "opp-5-what",
+        "opp-5-link",
+        "opp-5-draft"
+      ]
+    },
+    "opp-5-header": {
+      "type": "Heading",
+      "props": {
+        "text": "nvkudva/aeon",
+        "level": "h3"
+      }
+    },
+    "opp-5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp-5-type",
+        "opp-5-leverage",
+        "opp-5-expires"
+      ]
+    },
+    "opp-5-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "opp-5-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "Low leverage (14 followers)",
+        "variant": "outline"
+      }
+    },
+    "opp-5-expires": {
+      "type": "Text",
+      "props": {
+        "text": "Expires 2026-09-26",
+        "variant": "caption"
+      }
+    },
+    "opp-5-what": {
+      "type": "Text",
+      "props": {
+        "text": "Live instance running since 07-14, cron ticking daily through 09-12, attribution/README/LICENSE all intact — no unique authored skills yet, just the stock scheduler commits (1 day ago)",
+        "variant": "body"
+      }
+    },
+    "opp-5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View repo",
+        "href": "https://github.com/nvkudva/aeon"
+      }
+    },
+    "opp-5-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-5-draft-label",
+        "opp-5-draft-text"
+      ]
+    },
+    "opp-5-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft comment:",
+        "variant": "lead"
+      }
+    },
+    "opp-5-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "saw the instance running - cron's been ticking daily since 07-14, and the readme/license attribution's all intact, appreciated. curious what you're planning to build once you start customizing skills - happy to point at examples if useful.",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "footer-title",
+        "footer-details"
+      ]
+    },
+    "footer-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Run notes",
+        "level": "h4"
+      }
+    },
+    "footer-details": {
+      "type": "Text",
+      "props": {
+        "text": "Dedup checked against 49 prior-acted handles (memory/topics/engagement-acted.json), none of today's 5 opps present. Dropped @archtuxfan (09-12 mention-radar, 394 followers, unprompted 'check @aeonframework' recommendation with no ask) as too thin to warrant a scripted reply — mention-radar itself only flagged 2 of its 3 new aeon mentions as engagement opps (0xDrRick, wolfgangg37), same bar applied to THOR_ASGARD's friction signal (mention-radar's own 'Top find' this cycle) and skipped for archtuxfan. Dropped @thecultos's miroshark x402aff catalog-listing mention (09-12) — canonical handle already acted 08-27, dedup blocks resurfacing regardless of the fresh detail. Checked bd-radar's other two 09-13 leads (Hollup/aeon, quiet 14d with no fresh push; nvkudva/aeon included above) and its noise-cleared list (5 sync-only forks, 3 zero-commit detached clones) - nothing else cleared the bar. emperormk01/void's event date used for expiry/aging is the repo's creation date (09-08), not today's discovery date, consistent with the hansj73/aeon precedent (09-07).",
+        "variant": "body"
+      }
+    }
+  }
+}
