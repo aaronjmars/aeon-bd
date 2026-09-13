@@ -1,11 +1,9 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-12T17:52:03Z",
-  "quality_score": 2,
-  "assessment": "Well-written drafts with solid structure, but makes multiple specific factual claims (X tweet ID, marketplace numbers, CultOS integration details) that appear unverifiable from context and violate the 'verify before you claim' hard constraint.",
-  "flags": [
-    "unverifiable_claim"
-  ],
+  "last_analyzed": "2026-09-13T17:50:38Z",
+  "quality_score": 4,
+  "assessment": "Substantive decision with strategic reasoning; skill correctly identified that content doesn't clear promotional bar, applied editorial judgment on repetition/verification/cadence, and followed proper no-op protocol.",
+  "flags": [],
   "avg_score": 3.88,
   "history": [
     {
@@ -107,6 +105,10 @@
     {
       "date": "2026-09-12",
       "score": 2
+    },
+    {
+      "date": "2026-09-13",
+      "score": 4
     }
   ]
 }

@@ -1,73 +1,25 @@
-ℹ️ Reddit Promo - 2026-09-12
+Reviewed today's fetch-tweets output and the last 7 days of logs — nothing clears the promo bar today, so this run ends in a skip with no draft posts.
 
-*Reddit Promo - 2026-09-12*
-1d since last promo (prior OK 2026-09-11, MiroShark video-export story) · 4 subs drafted
+## Reddit Promo — 2026-09-13
 
-_Story:_ Aeon ships a "Submit Hook" skill - hook builders submit to the Hooks Marketplace through their own agent - https://x.com/aeonframework/status/2098792766658535737
+**Result: REDDIT_PROMO_SKIP — no fresh promotable items.**
 
----
-*r/CLaudeSkills* · archetype: claude-skills
-*Title:* Aeon shipped a skill that lets an agent submit its own Uniswap v4 hook to a marketplace
-*Body:*
-Two days ago Aeon launched a Hooks Marketplace - aeon.fun/hooks live with 12 Uniswap v4 hooks, a registry (aeonfun/univ4-hooks) taking deploys across 7 chains. Today's follow-on: a skill so hook builders don't have to go through us to list one - their own agent submits it.
+**What I reviewed:**
+- Today's fetch-tweets (4 kept candidates, cross-checked against the dashboard JSON for full text)
+- 7 days of `memory/logs/` (09-06 → 09-13) for anything unseen and still inside the 10-day promo window
+- `memory/reddit-promo-seen.txt` for dedup
 
-The mechanic is exactly what it sounds like. An Aeon skill is a markdown file (SKILL.md) that a scheduled agent reads and executes on GitHub Actions - no framework code, no approval loop. This one packages a hook and opens the PR into the registry itself. Point your agent at it, it runs unattended.
+**Today's crop, and why each was rejected:**
+1. **CultOS x402 catalog cluster** (`thecultos` ×2 + `akathesmith`, 12/7/4 likes) — CultOS's catalog now lists Aeon-powered audits and Miroshark agent simulations via x402, plus a partner ran a 25-agent Miroshark sim through it. Real, but it's the same beat reddit-promo already used as a *supporting* proof point in 2 of the last 3 headline posts (09-11 MiroShark video-export, 09-12 Submit Hook skill), and mention-radar independently caught the catalog-listing angle just yesterday. Today's increment (the 25-agent number) is incremental, not a fresh standalone claim — posting it as a headline would read as the same story a 4th time.
+2. **moltycash's "considering @aeonframework"** post (5 likes/3rt) — a builder saying they're weighing Aeon for a payout-review agent. Nothing has shipped or been proven yet; this is a soft BD lead (bd-radar/engagement-act's lane), not promotable content.
+3. Re-checked the 09-09 20:30 founder testimonial ("have been using @aeonframework, really good," 60 likes/8rt, still unseen) — held again as 100% brand-as-subject with no concrete claim, the same anti-pattern reddit-playbook flagged on 09-11.
 
-Posting here because it's a concrete example of a skill doing something with real infra consequence (submitting to a live marketplace) instead of just replying to a prompt.
+**Cadence factor:** Prior OK was yesterday (09-12, Submit Hook). Posting today would make it 4 consecutive OK days (09-10 → 09-13), against the standing cadence-watch note in MEMORY.md about reddit-promo/reddit-playbook over-posting risk. Combined with today's content being thin, silence is the right call.
 
-I work on Aeon. Happy to answer anything on how the submission flow or the registry is wired.
+No notification sent (per skill rule: a skip doesn't notify). Seen-file untouched (nothing promoted).
 
-Link: https://github.com/aeonfun/aeon
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CLaudeSkills composer](https://www.reddit.com/r/CLaudeSkills/submit?title=Aeon%20shipped%20a%20skill%20that%20lets%20an%20agent%20submit%20its%20own%20Uniswap%20v4%20hook%20to%20a%20marketplace)
-_notes: technical crowd, no hype - show the mechanic, disclose "I work on Aeon" up top._
-
----
-*r/OpenSourceAI* · archetype: open-source
-*Title:* Aeon (AGPL, skills are just markdown) shipped a hook-submission skill for its Uniswap v4 marketplace
-*Body:*
-Aeon is open source (AGPL) - skills-as-markdown running unattended on GitHub Actions, no framework lock-in, no approval loop between a skill firing and it acting.
-
-Two days ago we shipped a Hooks Marketplace: aeon.fun/hooks, 12 Uniswap v4 hooks live, registry on GitHub (aeonfun/univ4-hooks) accepting deploys on 7 chains. Today's ship closes the loop - a skill that lets hook creators submit through their own agent instead of a manual PR to us.
-
-The open-source part that matters: that submission skill is a plain markdown file anyone can read, fork, or run themselves. Nothing hidden in the pipeline between "here's my hook" and "it's listed."
-
-I built Aeon. Repo's linked below if you want to see how the skill's written - questions welcome.
-
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/OpenSourceAI composer](https://www.reddit.com/r/OpenSourceAI/submit?title=Aeon%20%28AGPL%2C%20skills%20are%20just%20markdown%29%20shipped%20a%20hook-submission%20skill%20for%20its%20Uniswap%20v4%20marketplace)
-_notes: OSS crowd, "what I built + why it's open" framing - disclose "I built Aeon," no shilling beyond the mechanic._
-
----
-*r/CoolGithubProjects* · archetype: github
-*Title:* Aeon - the most autonomous agent framework, skills-as-markdown running unattended on GitHub Actions
-*Body:*
-What it is: Aeon runs "skills" - plain markdown files - on a cron schedule via GitHub Actions. No server, no approval loop between a skill firing and it acting.
-
-Why post now: this week gave a real example instead of an abstract pitch. Two days ago Aeon shipped a Hooks Marketplace (aeon.fun/hooks, 12 Uniswap v4 hooks, a registry taking deploys on 7 chains). Today it shipped a skill that lets outside hook builders submit through their own agent instead of PRing us directly - the marketplace grows itself.
-
-Stack: runs on Claude Code / OpenClaw / Codex under the hood, memory persisted straight into the git repo, a self-repair loop that patches its own broken skills without a human merging it.
-
-Repo's the payload here, not this post.
-
-I maintain this project - happy to answer anything.
-
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20the%20most%20autonomous%20agent%20framework%2C%20skills-as-markdown%20running%20unattended%20on%20GitHub%20Actions)
-_notes: strict title format enforced ("Aeon - <one-line desc>") - repo link is the point, keep body tight, disclose "I maintain this."_
-
----
-*r/aiecosystem* · archetype: agents
-*Title:* Two agent products just became payment and distribution rails for a third-party project
-*Body:*
-Where this fits in the landscape: Aeon (agent framework, skills-as-markdown on GitHub Actions) shipped a skill today letting Uniswap v4 hook builders submit to its marketplace through their own agent - a follow-on to the Hooks Marketplace launch two days ago (aeon.fun/hooks, 12 hooks live, 7-chain deploy registry).
-
-Same week, a different signal: Miroshark's x402aff mechanic - a 10% USDC split paid via builder code - just became CultOS's core distribution rail for their own project. That's not us pitching x402aff as a feature, that's an outside team choosing to build their payout infra on top of it.
-
-Worth flagging for anyone mapping agent tooling: both cases are the same pattern - a framework stops being "a tool you use" and starts being "infra someone else builds their business logic into." That's a different adoption curve than usage numbers.
-
-I work on Aeon and Miroshark. Curious if others here are seeing the same shift with other agent frameworks.
-
-*Link in post:* https://aeon.fun
-*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=Two%20agent%20products%20just%20became%20payment%20and%20distribution%20rails%20for%20a%20third-party%20project)
-_notes: ecosystem/tooling readers, no vendor-vs-vendor language - disclose "I work on Aeon and Miroshark."_
+## Summary
+- Ran reddit-promo for 2026-09-13; determined no item cleared the promotable bar (repeat CultOS x402 beat + a speculative build-lead).
+- Logged `REDDIT_PROMO_SKIP` with full reasoning to `memory/logs/2026-09-13.md`.
+- No files changed besides that log append; no draft posts, no notify, no seen-file update.
+- Follow-up: nothing time-sensitive — next fetch-tweets/reddit-promo cycle tomorrow may surface a cleaner headline (e.g. if the moltycash lead converts to something shipped, or a genuinely new story lands).
