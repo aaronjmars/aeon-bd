@@ -1,0 +1,180 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat: Fleet OK, Issue Cleanup"
+      },
+      "children": [
+        "status-indicator",
+        "sep1",
+        "watch-label",
+        "sep2",
+        "cleanup-section",
+        "sep3",
+        "new-section",
+        "sep4",
+        "unchanged-section",
+        "sep5",
+        "summary-section"
+      ]
+    },
+    "status-indicator": {
+      "type": "Badge",
+      "props": {
+        "text": "Fleet OK, issue cleanup",
+        "variant": "success"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "watch-label": {
+      "type": "Text",
+      "props": {
+        "text": "🟡 WATCH — heartbeat 2026-09-13",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "cleanup-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cleanup-heading",
+        "cleanup-stale-issues",
+        "cleanup-action"
+      ]
+    },
+    "cleanup-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cleanup",
+        "level": "h3"
+      }
+    },
+    "cleanup-stale-issues": {
+      "type": "Text",
+      "props": {
+        "text": "6 stale health issues (#71-76) + #97 auto-closed 2026-09-12 20:30 UTC once their skills recovered"
+      }
+    },
+    "cleanup-action": {
+      "type": "Text",
+      "props": {
+        "text": "Next Priority #1 resolved, no manual action needed"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "new-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "new-heading",
+        "new-issue-alert"
+      ]
+    },
+    "new-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "New",
+        "level": "h3"
+      }
+    },
+    "new-issue-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "#100 health: competitor-monitor",
+        "message": "Score 2, low_quality flag opened despite the skill running clean (success, 0 changes, 100% success rate) — likely a scorer quirk, watching for recurrence.",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "unchanged-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unchanged-heading",
+        "unchanged-digest",
+        "unchanged-cultOS",
+        "unchanged-status"
+      ]
+    },
+    "unchanged-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unchanged",
+        "level": "h3"
+      }
+    },
+    "unchanged-digest": {
+      "type": "Text",
+      "props": {
+        "text": "digest still carries its unrecovered 08-19 failure (disabled skill, holds page at 🟡)"
+      }
+    },
+    "unchanged-cultOS": {
+      "type": "Text",
+      "props": {
+        "text": "CultOS check-in still overdue (carryover)"
+      }
+    },
+    "unchanged-status": {
+      "type": "Text",
+      "props": {
+        "text": "No stalled PRs, no urgent issues, no stuck/degraded skills"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "summary-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "issues-stat",
+        "status-update"
+      ]
+    },
+    "issues-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Open Issues",
+        "value": "1",
+        "delta": "-6",
+        "trend": "down"
+      }
+    },
+    "status-update": {
+      "type": "Text",
+      "props": {
+        "text": "Status page updated"
+      }
+    }
+  }
+}

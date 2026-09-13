@@ -45,6 +45,8 @@ type: Index
 - 2026-08-31 API-degradation incident (bd-radar/heartbeat/engagement-act/aeon-update all hit identical zero-token instant-fail errors — root cause: upstream Claude subscription exhausted) was patched same-day via commit `04d56d5` pinning the harness to the GLM gateway; upstream shipped its own GLM gateway/tiering days later and both landed cleanly via PR #77/#89 — no lingering gateway conflict, explains why `scripts/llm-gateway.sh` has a local effort-pinning tweak on top of upstream's routing.
 
 ## Next Priorities
-1. **6 stale `health:` issues (#71-76)** sit open since the 08-31 incident — skill-health and skill-repair are both disabled (reactive trigger commented out in `aeon.yml`), so nothing auto-closes them even though every underlying skill recovered by 09-04. Either close manually or re-enable skill-repair's reactive trigger.
-2. **CultOS direct check-in overdue** — `cultosdev` GitHub account 404 since ~09-05 despite @thecultos staying active on X (see ecosystem highlight above); engagement-act's dedup keeps blocking a fresh reply to the same canonical handle, so this needs an operator-side check-in outside the skill loop.
-3. Configure a second notification channel (Discord/Slack) if Telegram isn't enough. (Telegram already wired.)
+1. **CultOS direct check-in overdue** — `cultosdev` GitHub account 404 since ~09-05 despite @thecultos staying active on X (see ecosystem highlight above); engagement-act's dedup keeps blocking a fresh reply to the same canonical handle, so this needs an operator-side check-in outside the skill loop.
+2. Configure a second notification channel (Discord/Slack) if Telegram isn't enough. (Telegram already wired.)
+3. New `health: competitor-monitor` issue (`#100`, opened 2026-09-13T06:11 UTC, score 2, flag `low_quality`) despite the skill itself running clean (success, 0 changes, 100% success rate) — likely a scorer quirk on "no-change" monitor output, not a real regression; watch if it recurs.
+
+*(Resolved 2026-09-12: the 6 stale `health:` issues `#71-76` + `#97` from the 08-31 incident all auto-closed at 20:30 UTC once their underlying skills recovered — the health workflow closes on recovery independent of skill-repair's disabled reactive trigger, so no manual action was needed. Correction to the earlier lesson that "nothing auto-closes them.")*
