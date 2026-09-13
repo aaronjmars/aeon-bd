@@ -1,15 +1,15 @@
-Good, mode defaults to write, consistent with prior runs (log edits committed automatically by the harness). The skill is complete — no fresh promotable material today.
+Per the skill's step 3, since nothing cleared the promotable bar today, this run skips silently — no notification, no draft output.
 
 ## Summary
 
-Ran the `reddit-playbook` skill for 2026-09-11. Reviewed today's `fetch-tweets` output (8 kept items: Hooks Marketplace afterglow chatter, CultOS x402 mentions, a fake-$AEON-contract scare that got killed same-day) plus a previously-unscanned second dispatch from 09-09 (including the founder's 60-like "have been using @aeonframework" testimonial — the week's highest-engagement item). Every candidate failed the promotable bar:
+Ran `reddit-playbook` for 2026-09-13. Scanned the last 7 days of `memory/logs/` plus today's `fetch-tweets` dashboard JSON, cross-checked against `memory/reddit-promo-seen.txt`:
 
-- Thin/unpublished (video "teaser," floated idea, one-emoji replies, 0-like items)
-- Brand-as-subject (founder's own testimonial — excluded by the playbook's core rule that the product must never be the headline)
-- Already used by `reddit-promo` earlier today (0xlyon01 CultOS proof point)
-- FUD/unverified (debunked NVIDIA/SpaceX claim, fake-contract scare — closer to `engagement-act`'s lane)
-- Routine bot/aggregator listing (BaseInsider_ trending leaderboard)
+- Today's 4 candidates all fail the bar: the CultOS x402-catalog cluster (thecultos ×2, akathesmith's 25-agent sim) is the same recurring story already used as a *supporting* proof point in 2 of the last 3 reddit-promo headline posts — a 4th recycling, not fresh; `moltycash`'s "considering @aeonframework" post is an unshipped soft lead (bd-radar/engagement-act's lane, not this skill's).
+- Every other candidate from the trailing week (Submit Hook, MiroShark video export, Hooks Marketplace, Capminal audit-fix, eyebrow observer story) is already used; the one standing unused item (Aaron's own "have been using @aeonframework" testimonial, 60 likes) is 100% brand-as-subject with no third-party proof — the exact pattern this skill's Rule 1 excludes.
+- No archetype-A newshook in the pool.
 
-Cadence clock: 0 days since last promo — `reddit-promo` already posted today (MiroShark video-export story), so a `reddit-playbook` skip is doubly appropriate (no material + no cadence pressure).
+**Status:** `REDDIT_PLAYBOOK_SKIP: no fresh promotable items` — 4th consecutive skip since the last OK (2026-09-06, eyebrow observer story), 1d since the most recent promo overall (reddit-promo, 09-12).
 
-**Action taken:** logged `REDDIT_PLAYBOOK_SKIP: no fresh promotable items` to `memory/logs/2026-09-11.md` with full reasoning per candidate. No notification sent (silence beats a filler post, per skill step 3). No seen-file changes needed.
+**Files modified:** appended a `### reddit-playbook` block to `memory/logs/2026-09-13.md` documenting the scan and skip reasoning.
+
+**Follow-up:** none required — silence is correct here per the skill's own rule; next reddit-playbook dispatch is 09-15 (odd-day cadence).
