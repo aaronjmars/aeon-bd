@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-09-11T07:35:10Z",
+  "last_analyzed": "2026-09-13T07:39:26Z",
   "quality_score": 4,
-  "assessment": "Substantive BD radar with 2 new high-fit leads, concrete next moves, time windows, and clean noise filtering—strategy-aligned and actionable",
+  "assessment": "Substantive, well-sourced discovery report with 3 new actionable leads, clear next moves with expiry dates, honest coverage limitations, aligned to priority #1 (surface BD signal early)",
   "flags": [],
-  "avg_score": 4.08,
+  "avg_score": 4.07,
   "history": [
     {
       "date": "2026-08-21",
@@ -56,6 +56,10 @@
     },
     {
       "date": "2026-09-11",
+      "score": 4
+    },
+    {
+      "date": "2026-09-13",
       "score": 4
     }
   ]

@@ -1,0 +1,445 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar",
+        "description": "2026-09-13"
+      },
+      "children": [
+        "subtitle",
+        "stats",
+        "sep1",
+        "leads_stack",
+        "sep2",
+        "run_status"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-09-11 — 3 new — 3 still-open — 53 leads total",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_new",
+        "stat_open",
+        "stat_total"
+      ]
+    },
+    "stat_new": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "3"
+      },
+      "children": []
+    },
+    "stat_open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "3"
+      },
+      "children": []
+    },
+    "stat_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total leads",
+        "value": "53"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "leads_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead_1",
+        "lead_2",
+        "lead_3",
+        "lead_4",
+        "lead_5"
+      ]
+    },
+    "lead_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead1_title",
+        "lead1_date",
+        "lead1_status",
+        "lead1_move",
+        "lead1_deadline"
+      ]
+    },
+    "lead1_title": {
+      "type": "Text",
+      "props": {
+        "text": "emperormk01/void",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "lead1_date": {
+      "type": "Badge",
+      "props": {
+        "text": "First seen: 2026-09-13",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "lead1_status": {
+      "type": "Text",
+      "props": {
+        "text": "Detached clone rebranded \"Void,\" MIT LICENSE copyright edited from \"Aeon Inc\" to \"Emperor M.K,\" zero attribution in README — verified via file diff",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead1_move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: DM requesting attribution restored",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead1_deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "Flips if: no fix or repo-private by 2026-09-20",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "lead_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead2_title",
+        "lead2_date",
+        "lead2_status",
+        "lead2_move",
+        "lead2_deadline"
+      ]
+    },
+    "lead2_title": {
+      "type": "Text",
+      "props": {
+        "text": "x:thecultos",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "lead2_date": {
+      "type": "Badge",
+      "props": {
+        "text": "First seen: 2026-08-27",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "lead2_status": {
+      "type": "Text",
+      "props": {
+        "text": "DM-expiry lapsed 2026-09-12 with no outreach, but shipped a public x402aff affiliate layer today naming both products + a second cluster account ran a 25-agent MiroShark sim through it",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead2_move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: reply/RT the affiliate-layer post today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead2_deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "Flips if: no operator engagement by 2026-09-20",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "lead_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead3_title",
+        "lead3_date",
+        "lead3_status",
+        "lead3_move",
+        "lead3_deadline"
+      ]
+    },
+    "lead3_title": {
+      "type": "Text",
+      "props": {
+        "text": "MiroShark#240",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "lead3_date": {
+      "type": "Badge",
+      "props": {
+        "text": "First seen: 2026-08-23",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "lead3_status": {
+      "type": "Text",
+      "props": {
+        "text": "32d since maintainer activity, 70d open, still past SLA",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead3_move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: merge or close with a note",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead3_deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "Flips if: no response by 2026-09-16",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "lead_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead4_title",
+        "lead4_date",
+        "lead4_status",
+        "lead4_move",
+        "lead4_deadline"
+      ]
+    },
+    "lead4_title": {
+      "type": "Text",
+      "props": {
+        "text": "aeonfun/aeon#1045",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "lead4_date": {
+      "type": "Badge",
+      "props": {
+        "text": "First seen: 2026-09-11",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "lead4_status": {
+      "type": "Text",
+      "props": {
+        "text": "OrcaRouter proposal accepted 2026-09-10, still no PR 3d later",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead4_move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: just tracking, ask already made",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead4_deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "Flips if: no PR by 2026-09-24",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "lead_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lead5_title",
+        "lead5_date",
+        "lead5_status",
+        "lead5_move",
+        "lead5_deadline"
+      ]
+    },
+    "lead5_title": {
+      "type": "Text",
+      "props": {
+        "text": "nvkudva/aeon",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "lead5_date": {
+      "type": "Badge",
+      "props": {
+        "text": "First seen: 2026-09-13",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "lead5_status": {
+      "type": "Text",
+      "props": {
+        "text": "Detached clone, attribution intact, pushed 2026-09-12, no unique skills",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead5_move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: no outreach, ecosystem-count data point",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "lead5_deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "Flips if: stale by 2026-09-27",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "run_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run_header",
+        "run_services",
+        "run_details"
+      ]
+    },
+    "run_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Status",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "run_services": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_gh",
+        "badge_search",
+        "badge_ws",
+        "badge_twitter",
+        "badge_miss"
+      ]
+    },
+    "badge_gh": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub forks/issues OK",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_search": {
+      "type": "Badge",
+      "props": {
+        "text": "gh search OK",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_ws": {
+      "type": "Badge",
+      "props": {
+        "text": "WebSearch OK",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_twitter": {
+      "type": "Badge",
+      "props": {
+        "text": "TwitterAPI HTTP 200 (20 tweets)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_miss": {
+      "type": "Badge",
+      "props": {
+        "text": "No source misses",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "run_details": {
+      "type": "Text",
+      "props": {
+        "text": "Full digest: output/articles/bd-radar-2026-09-13.md",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
