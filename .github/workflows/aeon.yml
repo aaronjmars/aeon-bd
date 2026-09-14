@@ -803,10 +803,7 @@ jobs:
           # the helper scripts need). A skill with `mode: read-only` frontmatter gets a
           # toolset with no Write/Edit/git/gh, so it physically cannot mutate the repo;
           # the post-run read-only guard reverts any stray redirected writes.
-          SKILL_MODE=$(bash scripts/skill_mode.sh mode "${{ steps.skill.outputs.name }}")
-          ALLOWED=$(bash scripts/skill_mode.sh allowed-tools "$SKILL_MODE")
-          echo "SKILL_MODE=$SKILL_MODE" >> "$GITHUB_ENV"
-          echo "Capability mode: $SKILL_MODE"
+          source scripts/resolve-riva-capabilities.sh
 
           # MCP (opt-in): when a project .mcp.json exists, load it for this run
           # and allow each server's tools. No-op when the file is absent, so
@@ -819,7 +816,7 @@ jobs:
           # ${VAR}s are harness-agnostic and also feed grok, which reads .mcp.json
           # natively and expands them (the adapter adds --trust + MCPTool allows).
           MCP_FLAGS=()
-          if [ -f .mcp.json ] && jq -e '.mcpServers' .mcp.json >/dev/null 2>&1; then
+          if [ "$SHADOW_MODE" != "1" ] && [ -f .mcp.json ] && jq -e '.mcpServers' .mcp.json >/dev/null 2>&1; then
             # MCP OAuth (durable): mint a fresh access token from any captured refresh
             # token (MCP_<SLUG>_OAUTH secret) and export MCP_<SLUG>_TOKEN BEFORE the
             # ${VAR} loop, so its "already in env" check keeps the live token over the
@@ -857,12 +854,19 @@ jobs:
           # exported, skill degrades to its public path (unchanged behaviour).
           SECRETS_JSON="${ALL_SECRETS:-}"; [ -z "$SECRETS_JSON" ] && SECRETS_JSON='{}'
           INJECTED=""
-          while IFS= read -r key; do
-            [ -z "$key" ] && continue
-            [ -n "${!key:-}" ] && continue                     # already in env (infra) — leave it
-            val="$(jq -r --arg k "$key" '.[$k] // empty' <<<"$SECRETS_JSON")"
-            [ -n "$val" ] && { export "$key=$val"; INJECTED="$INJECTED $key"; }
-          done < <(bash scripts/skill_requires.sh "$SKILL_NAME" 2>/dev/null)
+          if [ "$SHADOW_MODE" != "1" ]; then
+            while IFS= read -r key; do
+              [ -z "$key" ] && continue
+              [ -n "${!key:-}" ] && continue                     # already in env (infra) — leave it
+              val="$(jq -r --arg k "$key" '.[$k] // empty' <<<"$SECRETS_JSON")"
+              [ -n "$val" ] && { export "$key=$val"; INJECTED="$INJECTED $key"; }
+            done < <(bash scripts/skill_requires.sh "$SKILL_NAME" 2>/dev/null)
+          else
+            # Shadow is research-only. Remove both declared and ambient credentials
+            # before the harness starts; post-run workflow steps retain their own env.
+            unset ALL_SECRETS GH_GLOBAL GH_TOKEN GITHUB_TOKEN RESEND_API_KEY RESEND_FROM RESEND_REPLY_TO XAI_API_KEY
+            echo "Riva shadow mode: declared and disclosure credentials withheld"
+          fi
           [ -n "$INJECTED" ] && echo "::notice::Injected declared secrets for ${SKILL_NAME}:${INJECTED}"
 
           unset ALL_SECRETS   # drop the secrets blob before any skill/Claude code runs
@@ -1688,16 +1692,36 @@ jobs:
           rm -f "$Q"/*.json
 
       - name: Read-only capability guard
-        if: steps.work.outputs.mode != '' && env.SKILL_MODE == 'read-only'
+        # !cancelled() (same idiom "Send pending notifications" already uses for
+        # #912 R1, not always() — a manually-cancelled job should still skip
+        # this, only a genuine failure shouldn't): a bare `mode != ''` implies
+        # success() and skips this step entirely on a failed Run, so the "no
+        # output captured" branch below was previously unreachable in practice.
+        if: ${{ !cancelled() && steps.work.outputs.mode != '' && env.SKILL_MODE == 'read-only' }}
         run: |
           # read-only skills (mode: read-only) get no Write/Edit/git/gh, so they can't
-          # mutate the repo. Two jobs here: (1) record the run-log entry on their behalf
-          # (they couldn't), (2) revert any code/config that slipped through a shell
-          # redirection. State/memory and output/ (incl. .chains/) are preserved for the commit step.
+          # mutate the repo. Three jobs here: (1) record the run-log entry on their
+          # behalf (they couldn't), (2) reuse the output "Capture skill output"
+          # already staged so that entry carries the skill's real structured output
+          # under the "### <skill>" heading CLAUDE.md's Log contract (and every
+          # read-only skill's own SKILL.md) expects — a content-free/wrong-level
+          # stub here silently breaks each skill's own dedup/diff baseline, AND
+          # trips aeon-doctor's own "wrong heading level" health check, (3) revert
+          # any code/config that slipped through a shell redirection. State/memory
+          # and output/ (incl. .chains/) are preserved for the commit step below —
+          # on a failed run specifically, "Commit read-only failure log" (next
+          # step) commits just the memory/logs/ entry, since "Commit results"
+          # still requires success() and stays that way (see that step's note).
           SKILL="${{ steps.skill.outputs.name }}"
+          RUN_OUTCOME="${{ steps.run.outcome }}"
           TODAY=$(date -u +%Y-%m-%d)
           mkdir -p memory/logs
-          printf '\n## %s (read-only)\nRan %s UTC.\n' "$SKILL" "$(date -u +%FT%TZ)" >> "memory/logs/${TODAY}.md"
+          CAPTURED="output/.chains/${SKILL}.md"
+          if [ "$RUN_OUTCOME" = "success" ] && [ -s "$CAPTURED" ] && [ "$(cat "$CAPTURED")" != "_No output captured._" ]; then
+            { printf '\n### %s\n' "$SKILL"; cat "$CAPTURED"; printf '\n'; } >> "memory/logs/${TODAY}.md"
+          else
+            printf '\n### %s\nRun outcome=%s at %s UTC - no output captured; nothing to log.\n' "$SKILL" "$RUN_OUTCOME" "$(date -u +%FT%TZ)" >> "memory/logs/${TODAY}.md"
+          fi
           CODE_PATHS="skills .github apps/mcp-server apps/webhook apps/dashboard/app apps/dashboard/lib apps/dashboard/components scripts docs catalog bin *.md *.json *.yml aeon"
           git checkout -- $CODE_PATHS 2>/dev/null || true
           # Same path set as CODE_PATHS above. `git checkout` only reverts EDITS to
@@ -1710,7 +1734,36 @@ jobs:
           git clean -fd -- $CODE_PATHS 2>/dev/null || true
           echo "read-only guard: logged run + reverted code/config writes for $SKILL"
 
+      - name: Commit read-only failure log
+        # Deliberately its own narrow step rather than widening "Commit
+        # results" to always()/!cancelled(): that step does `git add -A` for
+        # every skill including write-mode ones, and running it unconditionally
+        # would risk committing a write-mode skill's partial/broken mid-edit
+        # state on a genuine failure. Read-only skills can't Write/Edit at all,
+        # so the ONLY thing a failed read-only run could ever need committed is
+        # the memory/logs/ entry "Read-only capability guard" (previous step)
+        # just staged — this step stages that path and nothing else, so by
+        # construction it can't ship code, and it never fires for write-mode
+        # skills regardless (SKILL_MODE == 'read-only' gate).
+        if: ${{ !cancelled() && steps.work.outputs.mode != '' && env.SKILL_MODE == 'read-only' && steps.run.outcome != 'success' }}
+        run: |
+          git config user.name "aeonframework"
+          git config user.email "aeonframework@proton.me"
+          TODAY=$(date -u +%Y-%m-%d)
+          git add "memory/logs/${TODAY}.md"
+          if git diff --staged --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore(${{ steps.skill.outputs.name }}): log read-only failure $(date +%Y-%m-%d)"
+          bash scripts/git-push-retry.sh
+
       - name: Commit results
+        # (Read-only failures are handled above, in "Commit read-only failure
+        # log" — deliberately not by widening this step to always(), since
+        # this step's `git add -A` covers write-mode skills too and running it
+        # unconditionally would risk committing a partial/broken mid-edit state
+        # from a genuinely failed write-mode run.)
         if: steps.work.outputs.mode != ''
         env:
           STATE_BACKEND: ${{ vars.STATE_BACKEND }}
@@ -1765,40 +1818,7 @@ jobs:
           else
             git commit -m "chore($LABEL): auto-commit $(date +%Y-%m-%d)"
           fi
-          for i in 1 2 3 4 5 6 7 8 9 10; do
-            # Pull and rebase onto latest remote
-            if ! git pull --rebase origin main 2>/dev/null; then
-              echo "Rebase conflict on attempt $i, auto-resolving..."
-              while true; do
-                CONFLICTED=$(git diff --name-only --diff-filter=U) || true
-                [ -z "$CONFLICTED" ] && break
-                for f in $CONFLICTED; do
-                  if [[ "$f" == memory/logs/* ]] || [[ "$f" == memory/topics/* ]] || [[ "$f" == memory/MEMORY.md ]] || [[ "$f" == memory/skill-health/* ]] || [[ "$f" == apps/dashboard/outputs/* ]] || [[ "$f" == output/* ]]; then
-                    sed -i '/^<<<<<<< /d; /^=======/d; /^>>>>>>> /d' "$f"
-                    git add "$f"
-                  else
-                    git checkout --theirs "$f"
-                    git add "$f"
-                  fi
-                done
-                if git diff --cached --quiet; then
-                  git rebase --skip || true
-                else
-                  GIT_EDITOR=true git rebase --continue || true
-                fi
-              done
-            fi
-            # Try to push — if it fails, another job beat us, loop and re-pull
-            if git push -u origin HEAD 2>/dev/null; then
-              echo "Pushed successfully on attempt $i"
-              bash scripts/audit.sh "git.push" "$GITHUB_REPOSITORY@$(git rev-parse --abbrev-ref HEAD)" 0 "GH_GLOBAL" || true
-              exit 0
-            fi
-            echo "Push attempt $i failed (ref moved), retrying in ${i}s..."
-            sleep "$(( (RANDOM % 4) + i ))"  # jittered backoff - a deterministic sleep re-collides lockstep writers under push contention
-          done
-          echo "Failed to push after 5 attempts"
-          exit 1
+          bash scripts/git-push-retry.sh
 
       - name: Update cron state
         if: always() && steps.skill.outputs.name != ''
