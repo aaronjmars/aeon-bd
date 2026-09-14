@@ -1,12 +1,11 @@
-✅ aeon-update: PR #99
+✅ aeon-update: PR #101
 
-**aeon-update — 2026-09-09**
-synced 9 upstream commits → PR [#99](https://github.com/aaronjmars/aeon-bd/pull/99)
+**aeon-update — synced 16 upstream commits → [PR #101](https://github.com/aaronjmars/aeon-bd/pull/101)**
 
-11 files applied clean. harness egress + read-only-sandbox fixes (#1038/#1042), competitor-monitor table-row diffing (#1043), the eyebrow-version-from-CI fix for this very skill (#1037). last week's `aeon.yml` conflict finally merges clean — dropped from pending.
+`c28ab4c..95142d1`. 21 files applied clean — mostly the upstream vuln-scanner **Riva** kernel (scripts + CI tests), read-only-guard fixes, dependabot. 3 auto-merged 3-way, your local narrowing kept. Baseline advances on merge.
 
-one decision for you: **2 new upstream skills — `compute-resell` + `submit-hook` — are NOT auto-installed.** each needs an eyebrowlock entry (binary isn't in the run) + a catalog glyph. deferred rather than ship a red PR. install steps are in the PR body; or just leave them.
+13 conflicts, all expected — `ci-tests.yml` wiring, catalog-count bumps, the disabled `vuln-scanner` copy, plus the carried-forward pile.
 
-12 conflicts still pending (README, CHANGELOG, skill-packs re-hit this run). baseline advances to `c28ab4c` when you merge.
+One worth your eyes: upstream shipped **`miroshark-matchday`** — weekly bulk football matchday MiroShark sims + video handoff, x402-paid. That's a product skill, not framework plumbing. Deferred it (needs an icon glyph + eyebrow scan to land green), but it's a real MiroShark GTM surface. Want it adopted here?
 
-🔗 https://github.com/aaronjmars/aeon-bd/pull/99
+🔗 https://github.com/aaronjmars/aeon-bd/pull/101

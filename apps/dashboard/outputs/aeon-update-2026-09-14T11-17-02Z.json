@@ -1,0 +1,225 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "aeon-update: PR #101"
+      },
+      "children": [
+        "header-stack",
+        "sep-1",
+        "commit-info",
+        "sep-2",
+        "applied-section",
+        "sep-3",
+        "conflicts-section",
+        "sep-4",
+        "miroshark-alert",
+        "sep-5",
+        "adoption-question",
+        "sep-6",
+        "pr-link"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status-badge",
+        "stats-row"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Synced successfully",
+        "variant": "default"
+      }
+    },
+    "stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-commits",
+        "stat-files",
+        "stat-conflicts"
+      ]
+    },
+    "stat-commits": {
+      "type": "Stat",
+      "props": {
+        "label": "Upstream commits",
+        "value": "16"
+      }
+    },
+    "stat-files": {
+      "type": "Stat",
+      "props": {
+        "label": "Files applied clean",
+        "value": "21"
+      }
+    },
+    "stat-conflicts": {
+      "type": "Stat",
+      "props": {
+        "label": "Expected conflicts",
+        "value": "13"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commit-info": {
+      "type": "Text",
+      "props": {
+        "text": "Commit range: c28ab4c..95142d1",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "applied-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "applied-heading",
+        "riva-item",
+        "readonly-item",
+        "dependabot-item",
+        "auto-merge-item",
+        "baseline-item"
+      ]
+    },
+    "applied-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "21 files applied clean",
+        "level": "h3"
+      }
+    },
+    "riva-item": {
+      "type": "Text",
+      "props": {
+        "text": "Upstream vuln-scanner Riva kernel (scripts + CI tests)",
+        "variant": "body"
+      }
+    },
+    "readonly-item": {
+      "type": "Text",
+      "props": {
+        "text": "Read-only-guard fixes",
+        "variant": "body"
+      }
+    },
+    "dependabot-item": {
+      "type": "Text",
+      "props": {
+        "text": "Dependabot updates",
+        "variant": "body"
+      }
+    },
+    "auto-merge-item": {
+      "type": "Text",
+      "props": {
+        "text": "3 auto-merged 3-way conflicts; local narrowing kept. Baseline advances on merge.",
+        "variant": "body"
+      }
+    },
+    "baseline-item": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conflicts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "conflicts-heading",
+        "conflicts-detail"
+      ]
+    },
+    "conflicts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "13 expected conflicts to resolve",
+        "level": "h3"
+      }
+    },
+    "conflicts-detail": {
+      "type": "Text",
+      "props": {
+        "text": "ci-tests.yml wiring, catalog-count bumps, disabled vuln-scanner copy, plus the carried-forward pile",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "🆕 miroshark-matchday discovered upstream",
+        "message": "Weekly bulk football matchday MiroShark sims + video handoff, x402-paid. Product skill, not framework plumbing — a real MiroShark GTM surface. Status: deferred (needs icon glyph + eyebrow scan to land green).",
+        "type": "info"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "adoption-question": {
+      "type": "Text",
+      "props": {
+        "text": "Want miroshark-matchday adopted here?",
+        "variant": "lead"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pr-link": {
+      "type": "Link",
+      "props": {
+        "label": "View PR #101 on GitHub",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/101"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+aeon-update: sync upstream c28ab4c..95142d1
+
+16 upstream commits from aeonfun/aeon. 21 files applied cleanly (14 added, 4 updated, 3 3-way-merged), 13 need manual review (4 diverged files + 1 new skill deferred this run + 8 carried forward). Baseline advanced to 95142d1.

@@ -1,0 +1,177 @@
+[
+  {
+    "path": ".github/README.md",
+    "status": "modified",
+    "disp": "CONFLICT",
+    "reason": "3way-overlap"
+  },
+  {
+    "path": ".github/workflows/aeon.yml",
+    "status": "modified",
+    "disp": "CLEAN-MERGE"
+  },
+  {
+    "path": ".github/workflows/chain-runner.yml",
+    "status": "modified",
+    "disp": "CLEAN-UPDATE"
+  },
+  {
+    "path": ".github/workflows/ci-tests.yml",
+    "status": "modified",
+    "disp": "CONFLICT",
+    "reason": "3way-overlap"
+  },
+  {
+    "path": "aeon.yml",
+    "status": "modified",
+    "disp": "OPERATOR"
+  },
+  {
+    "path": "apps/dashboard/package-lock.json",
+    "status": "modified",
+    "disp": "SKIP"
+  },
+  {
+    "path": "apps/dashboard/package.json",
+    "status": "modified",
+    "disp": "SKIP"
+  },
+  {
+    "path": "apps/mcp-server/package-lock.json",
+    "status": "modified",
+    "disp": "SKIP"
+  },
+  {
+    "path": "apps/webhook/package-lock.json",
+    "status": "modified",
+    "disp": "CLEAN-MERGE"
+  },
+  {
+    "path": "apps/webhook/package.json",
+    "status": "modified",
+    "disp": "CLEAN-UPDATE"
+  },
+  {
+    "path": "catalog/packs.json",
+    "status": "modified",
+    "disp": "OPERATOR"
+  },
+  {
+    "path": "catalog/skills.json",
+    "status": "modified",
+    "disp": "OPERATOR"
+  },
+  {
+    "path": "docs/ECOSYSTEM.md",
+    "status": "modified",
+    "disp": "CLEAN-UPDATE"
+  },
+  {
+    "path": "docs/skill-packs.md",
+    "status": "modified",
+    "disp": "CONFLICT",
+    "reason": "3way-overlap"
+  },
+  {
+    "path": "eyebrowlock.json",
+    "status": "modified",
+    "disp": "OPERATOR"
+  },
+  {
+    "path": "scripts/build-vuln-context.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/compare-riva-shadow.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/git-push-retry.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/resolve-riva-capabilities.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/tests/test_chain_runner_no_action.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/tests/test_readonly_failure_commit.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/tests/test_readonly_guard_log.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/tests/test_riva_candidates.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/tests/test_riva_context.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/tests/test_riva_kernel_contract.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/tests/test_riva_shadow_compare.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/tests/test_riva_shadow_guard.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "scripts/tests/test_vuln_scanner_status.py",
+    "status": "modified",
+    "disp": "CLEAN-UPDATE"
+  },
+  {
+    "path": "scripts/validate-riva-candidates.sh",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "skills/github-trending/SKILL.md",
+    "status": "modified",
+    "disp": "CLEAN-MERGE"
+  },
+  {
+    "path": "skills/miroshark-matchday/SKILL.md",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  },
+  {
+    "path": "skills/remotion/project/package-lock.json",
+    "status": "modified",
+    "disp": "CONFLICT",
+    "reason": "modified-upstream-absent-local"
+  },
+  {
+    "path": "skills/vuln-scanner/SKILL.md",
+    "status": "modified",
+    "disp": "CONFLICT",
+    "reason": "3way-overlap"
+  },
+  {
+    "path": "skills/vuln-scanner/riva.md",
+    "status": "added",
+    "disp": "CLEAN-ADD"
+  }
+]

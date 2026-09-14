@@ -1,0 +1,29 @@
+{
+  "added": [
+    "scripts/build-vuln-context.sh",
+    "scripts/compare-riva-shadow.sh",
+    "scripts/git-push-retry.sh",
+    "scripts/resolve-riva-capabilities.sh",
+    "scripts/tests/test_chain_runner_no_action.sh",
+    "scripts/tests/test_readonly_failure_commit.sh",
+    "scripts/tests/test_readonly_guard_log.sh",
+    "scripts/tests/test_riva_candidates.sh",
+    "scripts/tests/test_riva_context.sh",
+    "scripts/tests/test_riva_kernel_contract.sh",
+    "scripts/tests/test_riva_shadow_compare.sh",
+    "scripts/tests/test_riva_shadow_guard.sh",
+    "scripts/validate-riva-candidates.sh",
+    "skills/vuln-scanner/riva.md"
+  ],
+  "updated": [
+    ".github/workflows/chain-runner.yml",
+    "apps/webhook/package.json",
+    "docs/ECOSYSTEM.md",
+    "scripts/tests/test_vuln_scanner_status.py"
+  ],
+  "merged": [
+    ".github/workflows/aeon.yml",
+    "apps/webhook/package-lock.json",
+    "skills/github-trending/SKILL.md"
+  ]
+}
