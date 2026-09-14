@@ -1,11 +1,25 @@
-⚠️ Heartbeat: fleet OK, issue cleanup
+## Heartbeat — Ambient check (2026-09-14)
 
-🟡 WATCH — heartbeat 2026-09-13
+**Mode:** ambient (default, `${var}` empty)
+**Verdict:** HEARTBEAT_OK · STATUS_PAGE=WATCH (carryover, unchanged from yesterday)
 
-*Cleanup:* 6 stale health issues (#71-76) + #97 auto-closed 2026-09-12 20:30 UTC once their skills recovered — Next Priority #1 resolved, no manual action needed.
+### P0 — Failed & stuck skills
+`memory/cron-state.json` clean across all 10 enabled skills: no `last_status: failed`, no stuck/dispatched-stale entries, no `consecutive_failures ≥ 3`, no `success_rate < 0.5`. Only carryover: disabled `digest` skill still carries an unrecovered isolated failure from 2026-08-19 (`consecutive_failures=1`) — below the 🔴 bar, keeps the page at 🟡 as it has for several days. Heartbeat self-check: last success ~24h ago (2026-09-13T08:10:30Z), under the 36h staleness bar.
 
-*New:* #100 health: competitor-monitor (score 2, low_quality flag) opened despite the skill running clean (success, 0 changes, 100% success rate) — likely a scorer quirk, watching for recurrence.
+### P1 — Stalled PRs & urgent issues
+No open PRs. Issue `#100` (`health: competitor-monitor`) has no labels — not urgent.
 
-*Unchanged:* digest still carries its unrecovered 08-19 failure (disabled skill, holds page at 🟡). CultOS check-in still overdue (carryover). No stalled PRs, no urgent issues, no stuck/degraded skills.
+### P2 — Flagged memory items
+MEMORY.md Next Priorities unchanged since 09-13: CultOS direct check-in still overdue (no new development to report), second notification channel still a standing low-urgency item, `#100` low-quality flag still open even though `competitor-monitor` itself keeps running clean.
 
-Open issues: 7 → 1. Status page updated.
+### P3 — Missing scheduled skills
+All 10 enabled skills (`fetch-tweets`, `reddit-promo`, `engagement-act`, `competitor-monitor`, `memory-flush`, `aeon-update`, `mention-radar`, `bd-radar`, `reddit-playbook`, `heartbeat`) present in cron-state and within 2x their schedule interval. `aeon-update` (weekly, Mon 11:00 UTC) is due later today, not yet overdue.
+
+### Public status page
+Regenerated `docs/status.md`: overall 🟡 WATCH, 1 open issue, next scheduled run `aeon-update` at 11:00 UTC today. Skill table refreshed with today's `mention-radar` (07:49 UTC) and `competitor-monitor` (06:11 UTC) runs now at the top.
+
+### Notification
+None sent — every candidate finding (digest carryover, issue `#100`, CultOS overdue, notification-channel note) already appeared in the last 48h of logs. Dedup rule applied; nothing new to surface.
+
+## Summary
+Ran the ambient heartbeat check: fleet is healthy, nothing new since yesterday's run. Updated `docs/status.md` (still 🟡 WATCH on the same two carryover items — disabled `digest`'s stale failure and open issue `#100`) and appended a `### heartbeat` log entry to `memory/logs/2026-09-14.md`. No notification sent (dedup — all findings already reported). No follow-up actions needed; next heartbeat runs tomorrow 08:00 UTC.
