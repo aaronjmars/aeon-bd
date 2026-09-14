@@ -132,3 +132,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-13,reddit-promo,claude-sonnet-5,2132,11787,1300664,80633
 2026-09-13,memory-flush,claude-sonnet-5,5972,21632,2744807,105389
 2026-09-13,reddit-playbook,claude-sonnet-5,2114,8326,499742,68016
+2026-09-14,competitor-monitor,claude-sonnet-5,2122,3392,634757,28891
