@@ -1,10 +1,10 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-09-12T07:38:59Z",
+  "last_analyzed": "2026-09-14T07:47:30Z",
   "quality_score": 4,
-  "assessment": "Solid BD signal detection—specific actionable opportunities with timing windows, verified live data with error handling, good noise filtering, but doesn't provide drafted replies for immediate engagement.",
+  "assessment": "Strong BD signal surfacing—flagged x402 discovery with high-follower verified voices (@cx_00 17.4k, @0xlyon01), set engagement windows, rigorous noise filtering per strategy constraint, all mentions URL-sourced and verifiable.",
   "flags": [],
-  "avg_score": 3.85,
+  "avg_score": 3.86,
   "history": [
     {
       "date": "2026-08-20",
@@ -56,6 +56,10 @@
     },
     {
       "date": "2026-09-12",
+      "score": 4
+    },
+    {
+      "date": "2026-09-14",
       "score": 4
     }
   ]

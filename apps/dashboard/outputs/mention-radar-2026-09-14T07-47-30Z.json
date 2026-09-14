@@ -1,0 +1,516 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar - 2026-09-14",
+        "description": "vs 2026-09-12 - 5 new - 0 still-open - 0 quiet"
+      },
+      "children": [
+        "summary-stats",
+        "sep1",
+        "aeon-section",
+        "sep2",
+        "miroshark-section",
+        "sep3",
+        "engagement-section",
+        "sep4",
+        "noise-section",
+        "sep5",
+        "github-section",
+        "sep6",
+        "run-details"
+      ]
+    },
+    "summary-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-new",
+        "stat-still-open",
+        "stat-quiet"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New mentions",
+        "value": "5"
+      }
+    },
+    "stat-still-open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "0"
+      }
+    },
+    "stat-quiet": {
+      "type": "Stat",
+      "props": {
+        "label": "Quiet",
+        "value": "0"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aeon-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-h",
+        "aeon-m1",
+        "aeon-m2",
+        "aeon-m3"
+      ]
+    },
+    "aeon-h": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon-m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-b1",
+        "aeon-t1",
+        "aeon-l1"
+      ]
+    },
+    "aeon-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "[Friction] @takeru_L2 (387f)",
+        "variant": "default"
+      }
+    },
+    "aeon-t1": {
+      "type": "Text",
+      "props": {
+        "text": "\"@aeonframework @andrejsshell fix PR before public noise, love it\" - flags a live PR issue before it goes public",
+        "variant": "body"
+      }
+    },
+    "aeon-l1": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/takeru_L2/status/2099265371073368214",
+        "href": "https://x.com/takeru_L2/status/2099265371073368214"
+      }
+    },
+    "aeon-m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-b2",
+        "aeon-t2",
+        "aeon-l2"
+      ]
+    },
+    "aeon-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "[Confusion] @niuniusad (159f)",
+        "variant": "default"
+      }
+    },
+    "aeon-t2": {
+      "type": "Text",
+      "props": {
+        "text": "\"can't imagine why @base doesn't back @aeonframework harder\" (zh-CN) - mild frustration, no ask attached",
+        "variant": "body"
+      }
+    },
+    "aeon-l2": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/niuniusad/status/2099358065539887197",
+        "href": "https://x.com/niuniusad/status/2099358065539887197"
+      }
+    },
+    "aeon-m3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-b3",
+        "aeon-t3",
+        "aeon-l3"
+      ]
+    },
+    "aeon-b3": {
+      "type": "Badge",
+      "props": {
+        "text": "[Discovery] @moltycash (820f)",
+        "variant": "default"
+      }
+    },
+    "aeon-t3": {
+      "type": "Text",
+      "props": {
+        "text": "Considering @aeonframework to build an autonomous content-review + payout agent - already engaged (aaronjmars replied \"lets cook\"), no fresh opp",
+        "variant": "body"
+      }
+    },
+    "aeon-l3": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/moltycash/status/2099110455067169232",
+        "href": "https://x.com/moltycash/status/2099110455067169232"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miro-h",
+        "miro-m1",
+        "miro-m2"
+      ]
+    },
+    "miro-h": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miro-m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miro-b1",
+        "miro-t1",
+        "miro-l1"
+      ]
+    },
+    "miro-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "[Discovery] @0xlyon01 (4.7k f, verified)",
+        "variant": "default"
+      }
+    },
+    "miro-t1": {
+      "type": "Text",
+      "props": {
+        "text": "Under thecultos's x402 catalog thread - \"one MCP, USDC on Base, humans and agents in the same funnel. Catalog growth just became distribution.\" - sharp unprompted synthesis",
+        "variant": "body"
+      }
+    },
+    "miro-l1": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/0xlyon01/status/2098898486389358835",
+        "href": "https://x.com/0xlyon01/status/2098898486389358835"
+      }
+    },
+    "miro-m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miro-b2",
+        "miro-t2",
+        "miro-l2"
+      ]
+    },
+    "miro-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "[Press/newsletter] @cx_00 (17.4k f, verified)",
+        "variant": "default"
+      }
+    },
+    "miro-t2": {
+      "type": "Text",
+      "props": {
+        "text": "Same thread - \"x402scan suggests active listings are part of the distribution strategy\" - highest-follower voice in the cluster",
+        "variant": "body"
+      }
+    },
+    "miro-l2": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/cx_00/status/2098627260248940842",
+        "href": "https://x.com/cx_00/status/2098627260248940842"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eng-h",
+        "eng-o1",
+        "eng-o2",
+        "eng-o3"
+      ]
+    },
+    "eng-h": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "eng-o1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng-t1",
+        "eng-l1"
+      ]
+    },
+    "eng-t1": {
+      "type": "Text",
+      "props": {
+        "text": "@cx_00: reply to the x402scan/distribution take - 17.4k followers, verified, first time engaging with either product - expires 2026-09-17 (thread cools fast)",
+        "variant": "body"
+      }
+    },
+    "eng-l1": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/cx_00/status/2098627260248940842",
+        "href": "https://x.com/cx_00/status/2098627260248940842"
+      }
+    },
+    "eng-o2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng-t2",
+        "eng-l2"
+      ]
+    },
+    "eng-t2": {
+      "type": "Text",
+      "props": {
+        "text": "@0xlyon01: reply/amplify the \"catalog growth = distribution\" line - clean pull-quote for our own account - expires 2026-09-17",
+        "variant": "body"
+      }
+    },
+    "eng-l2": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/0xlyon01/status/2098898486389358835",
+        "href": "https://x.com/0xlyon01/status/2098898486389358835"
+      }
+    },
+    "eng-o3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng-t3"
+      ]
+    },
+    "eng-t3": {
+      "type": "Text",
+      "props": {
+        "text": "@takeru_L2's \"fix PR before public noise\" (aeon): not a reply opp, a build signal - worth confirming which PR he means before it surfaces publicly - flips if: the PR in question is already merged/closed",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "noise-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "noise-h",
+        "noise-t1",
+        "noise-t2",
+        "noise-t3"
+      ]
+    },
+    "noise-h": {
+      "type": "Heading",
+      "props": {
+        "text": "NOISE DISCARDED",
+        "level": "h2"
+      }
+    },
+    "noise-t1": {
+      "type": "Text",
+      "props": {
+        "text": "BaseInsider_'s \"trending Base coins\" reply chain (6 accounts tagging @aeonframework alongside 9 unrelated tickers) - ticker-farming, no product signal",
+        "variant": "body"
+      }
+    },
+    "noise-t2": {
+      "type": "Text",
+      "props": {
+        "text": "@deexra's \"$AEON... generational entry... fade at your own risk\" post - pump-style shill language, not amplifying per no-shill constraint",
+        "variant": "body"
+      }
+    },
+    "noise-t3": {
+      "type": "Text",
+      "props": {
+        "text": "@aries22ox72758 x3 emoji-only replies, @Meow_Khan007 \"gCult\", @TriniZone \"Awesome!\" - too thin. WebSearch resurfaced the aeon.fun \"2M GitHub stars\" marketing line and the 2026-06 HackerNoon feature again - both already verified false/stale in prior runs (actual: 728★), not re-reported",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "github-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "gh-h",
+        "gh-table"
+      ]
+    },
+    "gh-h": {
+      "type": "Heading",
+      "props": {
+        "text": "GITHUB",
+        "level": "h2"
+      }
+    },
+    "gh-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Project",
+          "Stars",
+          "Change/2d",
+          "Forks",
+          "Change/2d"
+        ],
+        "rows": [
+          [
+            "aeon",
+            "728★",
+            "+2",
+            "262",
+            "+1"
+          ],
+          [
+            "miroshark",
+            "1449★",
+            "+0",
+            "299",
+            "+0"
+          ]
+        ]
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run-h",
+        "run-t1",
+        "run-t2",
+        "run-t3"
+      ]
+    },
+    "run-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Details",
+        "level": "h3"
+      }
+    },
+    "run-t1": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=twitterapi (HTTP 200 both targets) · web=websearch, no new signal beyond X (Reddit/HN/PH/Farcaster all clean) · quiet_streak aeon=0 miroshark=0",
+        "variant": "caption"
+      }
+    },
+    "run-t2": {
+      "type": "Text",
+      "props": {
+        "text": "2 CultOS-thread items (thecultos/2098659774669668359, wolfgangg37/2098660851964149793) refreshed in state, not re-shown",
+        "variant": "caption"
+      }
+    },
+    "run-t3": {
+      "type": "Text",
+      "props": {
+        "text": "3rd run on the same story",
+        "variant": "caption"
+      }
+    }
+  }
+}
