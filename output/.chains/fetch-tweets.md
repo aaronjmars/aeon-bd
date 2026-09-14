@@ -1,24 +1,19 @@
 ℹ️ Top Tweets — Aeon/Miroshark
 
-*Top Tweets — Aeon/Miroshark (2026-09-13)*
-_Slow day — signal clusters around CultOS's growing x402 catalog (Aeon audits + Miroshark sims) and one fresh builder considering Aeon for an autonomous payout agent._
+*Top Tweets — Aeon/Miroshark (2026-09-14)*
+_Quiet BD day — one third-party ecosystem tier-list naming both products, CultOS pushing its agent-economy pitch again, one grassroots push into the Uniswap builder crowd._
 
-*CultOS x402 catalog growth*
-1. x.com/thecultos — Catalog keeps expanding: Aeon-powered audits + Miroshark agent simulations, both discoverable by humans and agents via x402. Drew a 5-reply thread endorsing the "one MCP, USDC on Base" framing.
-Likes: 12 | RTs: 2 | Replies: 5
-[View tweet](https://x.com/thecultos/status/2098897520051011944)
-
-2. x.com/thecultos — Follow-up: "pioneering x402 affiliates" with Miroshark — "the ritual has only just begun."
+*Ecosystem tier-list mention*
+1. x.com/freya_xbt — places Aeon in the top "OG" tier and Miroshark in the "Based" tier of an informal 4-tier Base AI-agent ecosystem map — third-party categorization, not organic engagement
 Likes: 7 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/thecultos/status/2098947841594884225)
+[View tweet](https://x.com/freya_xbt/status/2099509561673556263)
 
-3. x.com/akathesmith — Ran a 25-agent Miroshark simulation, framed as distributable via CultOS's x402 rails for anyone building payment infra.
-Likes: 4 | RTs: 2 | Replies: 0
-[View tweet](https://x.com/akathesmith/status/2098964325713007082)
+*CultOS agent-economy pitch*
+2. x.com/akathesmith — pitches Aeon skills as agent-consumable via Cult OS/x402 and claims the skills "already secured a @Google repo" (unverified) — highest-engagement tweet of the day
+Likes: 11 | RTs: 3 | Replies: 3
+[View tweet](https://x.com/akathesmith/status/2099467635754713092)
 
-*New build lead*
-4. x.com/moltycash — Says they're considering @aeonframework to build an autonomous agent that reviews content submissions and releases payouts, with partial human oversight.
-Likes: 5 | RTs: 3 | Replies: 1
-[View tweet](https://x.com/moltycash/status/2099110455067169232)
-
-🔗 https://x.com/thecultos/status/2098897520051011944
+*Grassroots hook-marketplace push*
+3. x.com/0xNurstar — second post today asking the Uniswap builder community (tagging Uniswap Foundation staff) to check out Aeon's hook marketplace — organic advocacy, not an official partnership
+Likes: 11 | RTs: 2 | Replies: 2
+[View tweet](https://x.com/0xNurstar/status/2099447003142823947)

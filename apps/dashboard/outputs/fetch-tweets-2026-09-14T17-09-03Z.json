@@ -1,0 +1,183 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark",
+        "description": "Quiet BD day — one third-party ecosystem tier-list naming both products, CultOS pushing its agent-economy pitch again, one grassroots push into the Uniswap builder crowd."
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "date_text",
+        "sep1",
+        "tweet1_group",
+        "sep2",
+        "tweet2_group",
+        "sep3",
+        "tweet3_group"
+      ]
+    },
+    "date_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-14",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet1_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1_heading",
+        "tweet1_card",
+        "tweet1_replies",
+        "tweet1_link"
+      ]
+    },
+    "tweet1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ecosystem tier-list mention",
+        "level": "h3"
+      }
+    },
+    "tweet1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "freya_xbt",
+        "handle": "freya_xbt",
+        "text": "places Aeon in the top \"OG\" tier and Miroshark in the \"Based\" tier of an informal 4-tier Base AI-agent ecosystem map — third-party categorization, not organic engagement",
+        "likes": 7,
+        "retweets": 0
+      }
+    },
+    "tweet1_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "muted"
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/freya_xbt/status/2099509561673556263"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet2_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2_heading",
+        "tweet2_card",
+        "tweet2_replies",
+        "tweet2_link"
+      ]
+    },
+    "tweet2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS agent-economy pitch",
+        "level": "h3"
+      }
+    },
+    "tweet2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "akathesmith",
+        "handle": "akathesmith",
+        "text": "pitches Aeon skills as agent-consumable via Cult OS/x402 and claims the skills \"already secured a @Google repo\" (unverified) — highest-engagement tweet of the day",
+        "likes": 11,
+        "retweets": 3
+      }
+    },
+    "tweet2_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "muted"
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/akathesmith/status/2099467635754713092"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet3_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3_heading",
+        "tweet3_card",
+        "tweet3_replies",
+        "tweet3_link"
+      ]
+    },
+    "tweet3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Grassroots hook-marketplace push",
+        "level": "h3"
+      }
+    },
+    "tweet3_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "0xNurstar",
+        "text": "second post today asking the Uniswap builder community (tagging Uniswap Foundation staff) to check out Aeon's hook marketplace — organic advocacy, not an official partnership",
+        "likes": 11,
+        "retweets": 2
+      }
+    },
+    "tweet3_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "muted"
+      }
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2099447003142823947"
+      }
+    }
+  }
+}
