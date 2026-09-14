@@ -1,10 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-13T17:50:38Z",
+  "last_analyzed": "2026-09-14T17:49:20Z",
   "quality_score": 4,
-  "assessment": "Substantive decision with strategic reasoning; skill correctly identified that content doesn't clear promotional bar, applied editorial judgment on repetition/verification/cadence, and followed proper no-op protocol.",
+  "assessment": "Well-reasoned skip run with verifiable specifics, constraint-aware reasoning, and proper adherence to 'silence beats filler' — solid decision-making documented for future context.",
   "flags": [],
-  "avg_score": 3.88,
+  "avg_score": 3.89,
   "history": [
     {
       "date": "2026-08-20",
@@ -108,6 +108,10 @@
     },
     {
       "date": "2026-09-13",
+      "score": 4
+    },
+    {
+      "date": "2026-09-14",
       "score": 4
     }
   ]
