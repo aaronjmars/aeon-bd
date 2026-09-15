@@ -1,0 +1,493 @@
+{
+  "root": "root-card",
+  "state": {},
+  "elements": {
+    "root-card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act - 2026-09-15",
+        "description": "4 new opportunities, 4 drafted, 0 aging (vs 2026-09-13)"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "opportunities",
+        "sep2",
+        "rundown"
+      ]
+    },
+    "summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-new",
+        "stat-drafted",
+        "stat-aging"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "value": "4",
+        "label": "New opps"
+      }
+    },
+    "stat-drafted": {
+      "type": "Stat",
+      "props": {
+        "value": "4",
+        "label": "Drafted"
+      }
+    },
+    "stat-aging": {
+      "type": "Stat",
+      "props": {
+        "value": "0",
+        "label": "Aging"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opportunities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opp-1",
+        "opp-2",
+        "opp-3",
+        "opp-4"
+      ]
+    },
+    "opp-1": {
+      "type": "Card",
+      "props": {
+        "title": "@haydenzadams [X reply]"
+      },
+      "children": [
+        "o1-meta",
+        "o1-body"
+      ]
+    },
+    "o1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "o1-leverage",
+        "o1-expires"
+      ]
+    },
+    "o1-leverage": {
+      "type": "Text",
+      "props": {
+        "text": "Leverage: high (~2.28M)"
+      }
+    },
+    "o1-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-17",
+        "variant": "secondary"
+      }
+    },
+    "o1-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "o1-what",
+        "o1-link",
+        "o1-draft"
+      ]
+    },
+    "o1-what": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "o1-what-label",
+        "o1-what-text"
+      ]
+    },
+    "o1-what-label": {
+      "type": "Text",
+      "props": {
+        "text": "What:",
+        "variant": "lead"
+      }
+    },
+    "o1-what-text": {
+      "type": "Text",
+      "props": {
+        "text": "Uniswap founder's viral \"skill issue\" tweet dismissing malicious-hook complaints opened a live hook-security debate; @aeonframework's bot account already replied in-thread pitching the marketplace, but the thread calls for a human-voice follow-up with a concrete link (0 days ago)"
+      }
+    },
+    "o1-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/haydenzadams/status/2099711270115013085",
+        "href": "https://x.com/haydenzadams/status/2099711270115013085"
+      }
+    },
+    "o1-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "o1-draft-label",
+        "o1-draft-text"
+      ]
+    },
+    "o1-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "lead"
+      }
+    },
+    "o1-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"84k hooks scanned, 19% safe. that's not a skill issue, that's a market failure nobody priced in. built the audited registry so devs don't have to gamble on every integration - aeon.fun/hooks, 12 hooks live, 7 chains\""
+      }
+    },
+    "opp-2": {
+      "type": "Card",
+      "props": {
+        "title": "@0xProject [X DM]"
+      },
+      "children": [
+        "o2-meta",
+        "o2-body"
+      ]
+    },
+    "o2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "o2-leverage",
+        "o2-expires"
+      ]
+    },
+    "o2-leverage": {
+      "type": "Text",
+      "props": {
+        "text": "Leverage: high (~273k)"
+      }
+    },
+    "o2-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-17",
+        "variant": "secondary"
+      }
+    },
+    "o2-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "o2-what",
+        "o2-link",
+        "o2-draft"
+      ]
+    },
+    "o2-what": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "o2-what-label",
+        "o2-what-text"
+      ]
+    },
+    "o2-what-label": {
+      "type": "Text",
+      "props": {
+        "text": "What:",
+        "variant": "lead"
+      }
+    },
+    "o2-what-text": {
+      "type": "Text",
+      "props": {
+        "text": "0x Protocol published viral hook-safety research (84k v4 hooks analyzed, only 19% rated safe) that directly validates the hook-marketplace thesis; @aeonframework already replied in-thread, a data-tie-up DM is the fresh, unactioned ask (0 days ago)"
+      }
+    },
+    "o2-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/0xProject/status/2099578032960995502",
+        "href": "https://x.com/0xProject/status/2099578032960995502"
+      }
+    },
+    "o2-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "o2-draft-label",
+        "o2-draft-text"
+      ]
+    },
+    "o2-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "lead"
+      }
+    },
+    "o2-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"hey - your v4 hook safety numbers (84k scanned, 19% safe) are exactly the data behind why we built aeon's audited hook marketplace (aeon.fun/hooks) - vuln-scanner fleet audits every hook before it's listed. want to combine your dataset with our scanner findings, public writeup or joint listing criteria? open to whatever's useful on your end\""
+      }
+    },
+    "opp-3": {
+      "type": "Card",
+      "props": {
+        "title": "@cx_00 [X reply]"
+      },
+      "children": [
+        "o3-meta",
+        "o3-body"
+      ]
+    },
+    "o3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "o3-leverage",
+        "o3-expires"
+      ]
+    },
+    "o3-leverage": {
+      "type": "Text",
+      "props": {
+        "text": "Leverage: high (~17.4k, verified)"
+      }
+    },
+    "o3-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-17",
+        "variant": "secondary"
+      }
+    },
+    "o3-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "o3-what",
+        "o3-link",
+        "o3-draft"
+      ]
+    },
+    "o3-what": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "o3-what-label",
+        "o3-what-text"
+      ]
+    },
+    "o3-what-label": {
+      "type": "Text",
+      "props": {
+        "text": "What:",
+        "variant": "lead"
+      }
+    },
+    "o3-what-text": {
+      "type": "Text",
+      "props": {
+        "text": "unprompted analytical take under thecultos's x402 catalog thread - \"x402scan suggests active listings are part of the distribution strategy\" - first time engaging with either product (1 day ago)"
+      }
+    },
+    "o3-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/cx_00/status/2098627260248940842",
+        "href": "https://x.com/cx_00/status/2098627260248940842"
+      }
+    },
+    "o3-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "o3-draft-label",
+        "o3-draft-text"
+      ]
+    },
+    "o3-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "lead"
+      }
+    },
+    "o3-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"correct read. x402 listings aren't just discovery, they're the distribution layer - same catalog, humans and agents both browsing it. cultos already proved it with the audit/sim listings. compounds fast once agents can browse themselves\""
+      }
+    },
+    "opp-4": {
+      "type": "Card",
+      "props": {
+        "title": "@0xlyon01 [X reply]"
+      },
+      "children": [
+        "o4-meta",
+        "o4-body"
+      ]
+    },
+    "o4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "o4-leverage",
+        "o4-expires"
+      ]
+    },
+    "o4-leverage": {
+      "type": "Text",
+      "props": {
+        "text": "Leverage: mid (~4.7k, verified)"
+      }
+    },
+    "o4-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-17",
+        "variant": "secondary"
+      }
+    },
+    "o4-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "o4-what",
+        "o4-link",
+        "o4-draft"
+      ]
+    },
+    "o4-what": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "o4-what-label",
+        "o4-what-text"
+      ]
+    },
+    "o4-what-label": {
+      "type": "Text",
+      "props": {
+        "text": "What:",
+        "variant": "lead"
+      }
+    },
+    "o4-what-text": {
+      "type": "Text",
+      "props": {
+        "text": "unprompted synthesis under the same thread - \"one MCP, USDC on Base, humans and agents in the same funnel. catalog growth just became distribution\" - clean pull-quote (1 day ago)"
+      }
+    },
+    "o4-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/0xlyon01/status/2098898486389358835",
+        "href": "https://x.com/0xlyon01/status/2098898486389358835"
+      }
+    },
+    "o4-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "o4-draft-label",
+        "o4-draft-text"
+      ]
+    },
+    "o4-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "lead"
+      }
+    },
+    "o4-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"exactly - the funnel doesn't split anymore. same catalog, same rails, agent or human doesn't matter. that's the whole bet on x402 native listings over building a separate agent-facing store\""
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "rundown": {
+      "type": "Card",
+      "props": {
+        "title": "Run Details"
+      },
+      "children": [
+        "run-text"
+      ]
+    },
+    "run-text": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped x:freya_xbt and x:AIonBase_ (both flagged 09-15 by bd-radar but both have standing noise history — templated tier-list/bot-style ranking posts, previously excluded by fetch-tweets 09-10 and reddit-promo/reddit-playbook 09-14 as \"near-zero unique signal\"/\"low-follower account\" — same bar applied here). Skipped @thecultos (dedup blocks resurfacing since 08-27, still an operator-side check-in per MEMORY.md). Skipped aeonfun/aeon#1045 and MiroShark#240 (internal/operator-owned, not BD engagement)."
+      }
+    }
+  }
+}
