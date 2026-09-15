@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — 2026-09-15
-
 *Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-15)*
 _The Uniswap hook-security debate bd-radar flagged today (haydenzadams/0xProject) keeps widening — a third-party builder now tags Hayden directly — while CultOS runs its usual x402 audit pitch and one builder calls out a real gap in it._
 
