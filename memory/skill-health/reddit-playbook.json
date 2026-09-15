@@ -1,10 +1,10 @@
 {
   "skill": "reddit-playbook",
-  "last_analyzed": "2026-09-13T18:28:18Z",
-  "quality_score": 4,
-  "assessment": "Well-executed run with strong judgment—correctly identified zero fresh promotable items and properly documented the reasoning. Shows discipline (rejected recycled/unshipped/brand-only content), aligns with strategy priorities (honest read, no filler), and operated as designed.",
+  "last_analyzed": "2026-09-15T18:29:35Z",
+  "quality_score": 3,
+  "assessment": "Competent skip with clear reasoning and proper logging, but 5 consecutive skips merit strategic observation for the operator.",
   "flags": [],
-  "avg_score": 3.8,
+  "avg_score": 3.67,
   "history": [
     {
       "date": "2026-09-06",
@@ -25,6 +25,10 @@
     {
       "date": "2026-09-13",
       "score": 4
+    },
+    {
+      "date": "2026-09-15",
+      "score": 3
     }
   ]
 }
