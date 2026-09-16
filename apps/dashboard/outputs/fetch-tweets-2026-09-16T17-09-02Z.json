@@ -1,0 +1,166 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark"
+      },
+      "children": [
+        "text-summary",
+        "sep-1",
+        "heading-section1",
+        "tweet-1",
+        "link-1",
+        "sep-1b",
+        "tweet-2",
+        "link-2",
+        "sep-2",
+        "heading-section2",
+        "tweet-3",
+        "link-3",
+        "sep-3",
+        "heading-section3",
+        "tweet-4",
+        "link-4"
+      ]
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet day — dominated by a gm-spam bot ring tagging @aeonframework in unrelated threads; only organic threads are CultOS's recurring x402aff pitch and a lone token-strength critique.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-section1": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS x402aff flywheel continues",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "CultOS",
+        "handle": "@thecultos",
+        "text": "reiterates the x402aff pitch and now quantifies it: \"10+ eligible services\" to use or distribute for onchain earnings, naming Aeon vuln-audits among them — the affiliate layer has scaled past the initial announcement.",
+        "likes": 1,
+        "retweets": 1
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2100256561444610092"
+      },
+      "children": []
+    },
+    "sep-1b": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "CultOS",
+        "handle": "@thecultos",
+        "text": "same-day follow-up framing Cult OS as \"pioneering x402 affiliates\" with Miroshark — doubling down on the flywheel narrative.",
+        "likes": 4,
+        "retweets": 1
+      },
+      "children": []
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2100233030673539547"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-section2": {
+      "type": "Heading",
+      "props": {
+        "text": "Hook Marketplace safety advocacy",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "@0xNurstar",
+        "text": "repeats the \"hooks are dangerous by design, Aeon makes them safe\" framing seen 09-14/09-15 — same organic advocate, no new angle, still no official Uniswap signal.",
+        "likes": 3,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2100226375126765782"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-section3": {
+      "type": "Heading",
+      "props": {
+        "text": "First token-strength critique",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Abbey Goodsklgo",
+        "handle": "@AbbeyGoodsklgo",
+        "text": "unprompted low-follower critique (83 followers): unless Aeon's native token holds value, \"no one believes in your one word\" — first FUD-flavored token critique surfaced in recent runs.",
+        "likes": 0,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AbbeyGoodsklgo/status/2100242090064265494"
+      },
+      "children": []
+    }
+  }
+}

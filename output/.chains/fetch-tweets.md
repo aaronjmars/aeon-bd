@@ -1,34 +1,23 @@
-ℹ️ Top Tweets — 2026-09-15
+ℹ️ Top Tweets — Aeon + Miroshark
 
-*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-15)*
-_The Uniswap hook-security debate bd-radar flagged today (haydenzadams/0xProject) keeps widening — a third-party builder now tags Hayden directly — while CultOS runs its usual x402 audit pitch and one builder calls out a real gap in it._
+*Top Tweets — Aeon + Miroshark (2026-09-16)*
+_Quiet day — dominated by a gm-spam bot ring tagging @aeonframework in unrelated threads; only organic threads are CultOS's recurring x402aff pitch and a lone token-strength critique._
 
-*CultOS x402 self-audit pitch*
-1. x.com/thecultos — Frames the vuln-audit skill as a recurring paid service through the $CULTOS x402 gate, tying resale explicitly to Miroshark's new x402aff commission standard
-Likes: 6 | RTs: 2 | Replies: 2
-[View tweet](https://x.com/thecultos/status/2099854887651525008)
-
-2. x.com/akathesmith — Pitches Aeon as the "battle-tested framework" giving CultOS a competitive edge over tiered-plan incumbents for x402 service delivery
-Likes: 5 | RTs: 1 | Replies: 0
-[View tweet](https://x.com/akathesmith/status/2099891666748358757)
-
-*Uniswap hook-security campaign escalates*
-3. x.com/0xNurstar — Tags Uniswap co-founder x.com/haydenzadams directly — first time this grassroots hook-marketplace push has named a Uniswap principal rather than the builder community broadly, same day bd-radar flagged Hayden's own viral "skill issue" thread
+*CultOS x402aff flywheel continues*
+1. x.com/thecultos — reiterates the x402aff pitch and now quantifies it: "10+ eligible services" to use or distribute for onchain earnings, naming Aeon vuln-audits among them — the affiliate layer has scaled past the initial announcement.
 Likes: 1 | RTs: 1 | Replies: 0
-[View tweet](https://x.com/0xNurstar/status/2099835123893993519)
+[View tweet](https://x.com/thecultos/status/2100256561444610092)
 
-4. x.com/0xNurstar — Widens the pitch: "In the Hook jungle, you survive with @aeonframework audited hooks" — leaning on the same hook-safety framing as the viral thread
-Likes: 8 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/0xNurstar/status/2099834522267189267)
+2. x.com/thecultos — same-day follow-up framing Cult OS as "pioneering x402 affiliates" with Miroshark — doubling down on the flywheel narrative.
+Likes: 4 | RTs: 1 | Replies: 0
+[View tweet](https://x.com/thecultos/status/2100233030673539547)
 
-5. x.com/svector_eth — Cites 0xProject's stat that 54% of hooks are flagged malicious and pitches Aeon as "the marketplace layer for v4 hooks" — agents creating, testing, and simulating hook swaps
-Likes: 3 | RTs: 1 | Replies: 3
-[View tweet](https://x.com/svector_eth/status/2099895241801392329)
+*Hook Marketplace safety advocacy*
+3. x.com/0xNurstar — repeats the "hooks are dangerous by design, Aeon makes them safe" framing seen 09-14/09-15 — same organic advocate, no new angle, still no official Uniswap signal.
+Likes: 3 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/0xNurstar/status/2100226375126765782)
 
-*Inbound question + a real critique*
-6. x.com/archtuxfan — Asks twice back to back whether the Hook Marketplace has a public UI or is API-only, and who's using it on the frontend — a genuine prospect question, near-zero engagement but direct
-[View tweet 1](https://x.com/archtuxfan/status/2099850338278711374) · [View tweet 2](https://x.com/archtuxfan/status/2099850015657144482)
-
-7. x.com/CthyllaKassogth — Flags a real gap in the CultOS audit pitch: a receipt that doesn't bind audit scope + commit SHA + result digest can't prove what was actually checked or support replay
+*First token-strength critique*
+4. x.com/AbbeyGoodsklgo — unprompted low-follower critique (83 followers): unless Aeon's native token holds value, "no one believes in your one word" — first FUD-flavored token critique surfaced in recent runs.
 Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/CthyllaKassogth/status/2099855798688006254)
+[View tweet](https://x.com/AbbeyGoodsklgo/status/2100242090064265494)

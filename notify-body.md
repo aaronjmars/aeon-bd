@@ -1,34 +1,21 @@
-*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-10)*
-_Aeon shipped a real launch (Hook Marketplace) and MiroShark shipped one-click video export same-day, while a BaseHub thread shows Aaron doing public technical Q&A — with one voice picking a rival._
+*Top Tweets — Aeon + Miroshark (2026-09-16)*
+_Quiet day — dominated by a gm-spam bot ring tagging @aeonframework in unrelated threads; only organic threads are CultOS's recurring x402aff pitch and a lone token-strength critique._
 
-*Aeon ships the Hook Marketplace*
-1. x.com/aeonframework — Launched aeon.fun/hooks with 12 ready-to-use Uniswap v4 hooks; the registry behind it (aeonfun/univ4-hooks) accepts deploys on seven chains.
-Likes: 18 | RTs: 5 | Replies: 1
-[View tweet](https://x.com/aeonframework/status/2097997668601544919)
+*CultOS x402aff flywheel continues*
+1. x.com/thecultos — reiterates the x402aff pitch and now quantifies it: "10+ eligible services" to use or distribute for onchain earnings, naming Aeon vuln-audits among them — the affiliate layer has scaled past the initial announcement.
+Likes: 1 | RTs: 1 | Replies: 0
+[View tweet](https://x.com/thecultos/status/2100256561444610092)
 
-*MiroShark ships one-click video export*
-2. x.com/aaronjmars — MiroShark can now export a generated agent simulation as a video in one click, on top of the existing hundreds-of-agents/dozens-of-actions engine.
-Likes: 19 | RTs: 2 | Replies: 2
-[View tweet](https://x.com/aaronjmars/status/2098061703627886906)
+2. x.com/thecultos — same-day follow-up framing Cult OS as "pioneering x402 affiliates" with Miroshark — doubling down on the flywheel narrative.
+Likes: 4 | RTs: 1 | Replies: 0
+[View tweet](https://x.com/thecultos/status/2100233030673539547)
 
-3. x.com/aaronjmars — Follow-up CTA: the feature is live and "available on any simulation" — not a one-off demo, a general capability.
-Likes: 3 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/aaronjmars/status/2098062145019658450)
+*Hook Marketplace safety advocacy*
+3. x.com/0xNurstar — repeats the "hooks are dangerous by design, Aeon makes them safe" framing seen 09-14/09-15 — same organic advocate, no new angle, still no official Uniswap signal.
+Likes: 3 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/0xNurstar/status/2100226375126765782)
 
-*Aaron answers architecture Qs live*
-4. x.com/Vicks_vic — Publicly pressed Aaron on four specifics: prompt-injection isolation w/ zero approval loops, GHA cold-start/ToS limits, concurrent git-push collisions on memory, guardrails against bad self-repair loops.
-Likes: 0 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/Vicks_vic/status/2098026077343875492)
-
-5. x.com/aaronjmars — Answered all four in one reply: secrets off the cmdline + read-only sandboxing, no cold start with missed crons replaying, auto-rebase on push races, repair patches ship as PRs with cooldowns/caps.
-Likes: 1 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/aaronjmars/status/2098054236177101039)
-
-*Community read: BaseHub AI-agent thread*
-6. x.com/takeru_L2 — "the rule list is the moat" — frames Aeon's skill/rule structure itself as the defensibility, not the model.
+*First token-strength critique*
+4. x.com/AbbeyGoodsklgo — unprompted low-follower critique (83 followers): unless Aeon's native token holds value, "no one believes in your one word" — first FUD-flavored token critique surfaced in recent runs.
 Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/takeru_L2/status/2098069145019707587)
-
-7. x.com/r_dulii — Countered in the same thread: "the best AI project on Base is @KellyClaudeAI" — direct competitor pick over aeonframework.
-Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/r_dulii/status/2097995160671977510)
+[View tweet](https://x.com/AbbeyGoodsklgo/status/2100242090064265494)
