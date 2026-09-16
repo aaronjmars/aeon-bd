@@ -1,12 +1,12 @@
 {
   "skill": "competitor-monitor",
-  "last_analyzed": "2026-09-15T06:09:01Z",
-  "quality_score": 3,
-  "assessment": "Skill executed flawlessly—correct snapshot, diff, logging, and quiet-run signaling—but the watch list (single NVIDIA security page) is too narrow to surface material BD/market intel signal, undermining strategic utility.",
+  "last_analyzed": "2026-09-16T06:08:56Z",
+  "quality_score": 2,
+  "assessment": "Skill executed correctly (fetch, diff, log, no notification on zero changes), but strategically misaligned—monitoring NVIDIA security acknowledgments doesn't serve Aeon/Miroshark's north-star metrics (GitHub stars, ecosystem growth, token price) or any of the five priorities. Output is boilerplate and provides no actionable signal.",
   "flags": [
-    "low_strategic_value"
+    "low_quality"
   ],
-  "avg_score": 2.67,
+  "avg_score": 2.6,
   "history": [
     {
       "date": "2026-09-09",
@@ -43,6 +43,10 @@
     {
       "date": "2026-09-15",
       "score": 3
+    },
+    {
+      "date": "2026-09-16",
+      "score": 2
     }
   ]
 }
