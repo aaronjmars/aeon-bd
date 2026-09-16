@@ -1,28 +1,20 @@
-## Heartbeat — Ambient fleet check (2026-09-15)
+Fleet is clean today — nothing warrants a notification, so per the dedup rule none was sent. Here's the ambient check output.
 
-**Status: HEARTBEAT_OK · STATUS_PAGE=WATCH (carryover, unchanged)**
+## Heartbeat — Ambient Check (2026-09-16)
 
-### P0 — Failed & stuck skills
-`memory/cron-state.json` is clean across all 10 enabled skills — no `last_status: failed`, no stuck/dispatched-stale entries, no `consecutive_failures ≥ 3`, no `success_rate < 0.5`. Only carryover item: `digest` (disabled in `aeon.yml`) still carries an unrecovered isolated failure from 2026-08-19 (`consecutive_failures=1`) — below the 🔴 bar, but keeps the public status page at 🟡, same as every prior day. Heartbeat's own self-check is clean (last success ~24h ago, under the 36h staleness bar). Confirmed PR #101 (`aeon-update` sync) is merged.
+**HEARTBEAT_OK · STATUS_PAGE=WATCH (carryover, unchanged)**
 
-### P1 — Stalled PRs & urgent issues
-No open PRs. No issues labeled urgent (`#100` carries no labels).
+**P0 — Failed & stuck skills:** `memory/cron-state.json` clean across all 10 enabled skills. No `last_status: failed` (except carryover), no stuck/dispatched-stale entries, no `consecutive_failures >= 3`, no `success_rate < 0.5`. Only carryover item: disabled `digest` skill (unrecovered isolated failure since 2026-08-19, `consecutive_failures=1` — below the 🔴 bar, same as prior days). Heartbeat self-check: last success ~24h ago, under the 36h threshold.
 
-### P2 — Flagged memory items
-MEMORY.md's "Next Priorities" are unchanged: the CultOS direct check-in is still overdue (`cultosdev` GitHub account still 404, DM-expiry window lapsed 09-12) — already re-surfaced today by `bd-radar`'s status-alerts, so not re-notified here. Issue `#100` (competitor-monitor, `low_quality`, score 2) remains open even though the skill itself keeps running clean (100% success rate, 0 changes) — same read as prior days.
+**P1 — Stalled PRs & urgent issues:** No open PRs. No issues labeled urgent (`#100` has no labels).
 
-### P3 — Missing scheduled skills
-All 10 enabled skills have entries in `cron-state.json` and are within 2x their schedule interval. No findings.
+**P2 — Flagged memory items:** MEMORY.md's Next Priorities unchanged — CultOS check-in still overdue (mention-radar today refreshed the same 4 CultOS-thread items but didn't re-surface as new); `#100` (`health: competitor-monitor`, low_quality flag, score 2) still open, though the skill itself keeps running clean (100% success rate, 0 changes today).
 
-### Public status page
-Regenerated `docs/status.md`: **🟡 WATCH**, 1 open issue (`#100`), next scheduled run `engagement-act` at 09:30 UTC today. Skill table re-sorted with today's fresh runs (`heartbeat` in-flight, `bd-radar` 07:34 UTC, `competitor-monitor` 06:09 UTC) at the top. No token-report files exist, so the Token Pulse section stays omitted.
+**P3 — Missing scheduled skills:** All 10 enabled skills present in `cron-state.json`, all within 2x their schedule interval. No findings.
 
-### Notification
-None sent — every open item (digest carryover, `#100`, CultOS overdue check-in) already appeared in the last 48h of logs (yesterday's heartbeat, today's bd-radar). Dedup rule applies; nothing new to surface.
+**Status page:** regenerated `docs/status.md` — Overall **🟡 WATCH** (same two carryover drivers: `digest`'s unrecovered isolated failure and open issue `#100`), Open issues: 1, Next scheduled run: `fetch-tweets` at 17:00 UTC today.
+
+Nothing new vs. the last 48h of logs, so no notification sent (dedup rule).
 
 ## Summary
-- Reviewed `memory/cron-state.json`, `aeon.yml`, `gh pr/issue list`, and the last 2 days of `memory/logs/` — fleet is clean, no new findings.
-- Regenerated `docs/status.md` (🟡 WATCH, unchanged reasons, refreshed skill table and next-run pointer).
-- Appended `### heartbeat` entry to `memory/logs/2026-09-15.md` (mode: ambient).
-- No notification sent (nothing new since last dedup window).
-- Follow-up: none new — CultOS check-in and issue `#100` remain the standing watch items, both already tracked.
+Ran the heartbeat ambient check. Updated `docs/status.md` (fleet table, timestamp, WATCH verdict unchanged) and appended a `### heartbeat` entry to `memory/logs/2026-09-16.md`. No action items beyond the existing carryovers already tracked in MEMORY.md (CultOS check-in, `digest` disabled-skill carryover, issue `#100`).
