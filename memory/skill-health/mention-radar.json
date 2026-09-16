@@ -1,10 +1,10 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-09-14T07:47:30Z",
+  "last_analyzed": "2026-09-16T07:44:42Z",
   "quality_score": 4,
-  "assessment": "Strong BD signal surfacing—flagged x402 discovery with high-follower verified voices (@cx_00 17.4k, @0xlyon01), set engagement windows, rigorous noise filtering per strategy constraint, all mentions URL-sourced and verifiable.",
+  "assessment": "Substantive, verifiable mention-radar output serving strategy priorities 1 & 2 (surface BD signal, flag high-leverage engagements). All claims backed by URLs/metadata; unverified claims properly marked. No noise/filler.",
   "flags": [],
-  "avg_score": 3.86,
+  "avg_score": 3.87,
   "history": [
     {
       "date": "2026-08-20",
@@ -60,6 +60,10 @@
     },
     {
       "date": "2026-09-14",
+      "score": 4
+    },
+    {
+      "date": "2026-09-16",
       "score": 4
     }
   ]

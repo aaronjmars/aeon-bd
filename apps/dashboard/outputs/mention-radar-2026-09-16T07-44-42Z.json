@@ -1,0 +1,719 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-09-16 vs 2026-09-14"
+      },
+      "children": [
+        "header_stats",
+        "sep1",
+        "aeon_section",
+        "sep2",
+        "miroshark_section",
+        "sep3",
+        "engagement_section",
+        "sep4",
+        "run_footer"
+      ]
+    },
+    "header_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_new",
+        "stat_open",
+        "stat_quiet"
+      ]
+    },
+    "stat_new": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "6"
+      }
+    },
+    "stat_open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "0"
+      }
+    },
+    "stat_quiet": {
+      "type": "Stat",
+      "props": {
+        "label": "Quiet",
+        "value": "0"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aeon_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon_heading",
+        "aeon_mention1",
+        "aeon_mention2",
+        "aeon_mention3"
+      ]
+    },
+    "aeon_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon_mention1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_m1_header",
+        "aeon_m1_text",
+        "aeon_m1_link"
+      ]
+    },
+    "aeon_m1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_m1_badge_new",
+        "aeon_m1_badge_type",
+        "aeon_m1_author"
+      ]
+    },
+    "aeon_m1_badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "aeon_m1_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Press/newsletter",
+        "variant": "secondary"
+      }
+    },
+    "aeon_m1_author": {
+      "type": "Text",
+      "props": {
+        "text": "@AIonBase_ (25.3k f)",
+        "variant": "caption"
+      }
+    },
+    "aeon_m1_text": {
+      "type": "Text",
+      "props": {
+        "text": "3rd roundup mention this week — lists aeon among 13 Base AI projects: \"Background agents for security scanning, code fixes, monitoring, and long-running tasks\"",
+        "variant": "body"
+      }
+    },
+    "aeon_m1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/AIonBase_/status/2099958936237416475"
+      }
+    },
+    "aeon_mention2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_m2_header",
+        "aeon_m2_text",
+        "aeon_m2_link"
+      ]
+    },
+    "aeon_m2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_m2_badge_new",
+        "aeon_m2_badge_type",
+        "aeon_m2_author"
+      ]
+    },
+    "aeon_m2_badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "aeon_m2_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion",
+        "variant": "outline"
+      }
+    },
+    "aeon_m2_author": {
+      "type": "Text",
+      "props": {
+        "text": "@archtuxfan (393f)",
+        "variant": "caption"
+      }
+    },
+    "aeon_m2_text": {
+      "type": "Text",
+      "props": {
+        "text": "asking who's actually using the Hook Marketplace in prod, whether there's a public UI or just API",
+        "variant": "body"
+      }
+    },
+    "aeon_m2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/archtuxfan/status/2099850338278711374"
+      }
+    },
+    "aeon_mention3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_m3_header",
+        "aeon_m3_text",
+        "aeon_m3_link"
+      ]
+    },
+    "aeon_m3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_m3_badge_new",
+        "aeon_m3_badge_type",
+        "aeon_m3_author"
+      ]
+    },
+    "aeon_m3_badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "aeon_m3_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Feature request",
+        "variant": "secondary"
+      }
+    },
+    "aeon_m3_author": {
+      "type": "Text",
+      "props": {
+        "text": "@CthyllaKassogth (141f)",
+        "variant": "caption"
+      }
+    },
+    "aeon_m3_text": {
+      "type": "Text",
+      "props": {
+        "text": "wants x402 audit receipts to bind audit scope + commit SHA + result digest — otherwise buyers can't verify what they paid for",
+        "variant": "body"
+      }
+    },
+    "aeon_m3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/CthyllaKassogth/status/2099855798688006254"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark_heading",
+        "miroshark_mention1",
+        "miroshark_mention2",
+        "miroshark_mention3"
+      ]
+    },
+    "miroshark_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark_mention1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miro_m1_header",
+        "miro_m1_text",
+        "miro_m1_link"
+      ]
+    },
+    "miro_m1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "miro_m1_badge_new",
+        "miro_m1_badge_type",
+        "miro_m1_author"
+      ]
+    },
+    "miro_m1_badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "miro_m1_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "secondary"
+      }
+    },
+    "miro_m1_author": {
+      "type": "Text",
+      "props": {
+        "text": "@woisau1 (998f)",
+        "variant": "caption"
+      }
+    },
+    "miro_m1_text": {
+      "type": "Text",
+      "props": {
+        "text": "third-party \"OpenClaw\" agent on @origin_trail's DKG claims \"Powered by DKG V9 + MiroShark\" — first sighted integration claim, unverified",
+        "variant": "body"
+      }
+    },
+    "miro_m1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/woisau1/status/2099119241249091975"
+      }
+    },
+    "miroshark_mention2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miro_m2_header",
+        "miro_m2_text",
+        "miro_m2_link"
+      ]
+    },
+    "miro_m2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "miro_m2_badge_new",
+        "miro_m2_badge_type",
+        "miro_m2_author"
+      ]
+    },
+    "miro_m2_badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "miro_m2_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "secondary"
+      }
+    },
+    "miro_m2_author": {
+      "type": "Text",
+      "props": {
+        "text": "@Awesome_O_AI (149.8k f, verified)",
+        "variant": "caption"
+      }
+    },
+    "miro_m2_text": {
+      "type": "Text",
+      "props": {
+        "text": "unprompted take on x402aff — \"could genuinely simplify how agents transact and earn commissions\" — biggest account to engage this run",
+        "variant": "body"
+      }
+    },
+    "miro_m2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Awesome_O_AI/status/2099854940533625121"
+      }
+    },
+    "miroshark_mention3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miro_m3_header",
+        "miro_m3_text",
+        "miro_m3_link"
+      ]
+    },
+    "miro_m3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "miro_m3_badge_new",
+        "miro_m3_badge_type",
+        "miro_m3_author"
+      ]
+    },
+    "miro_m3_badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "miro_m3_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Press/newsletter",
+        "variant": "secondary"
+      }
+    },
+    "miro_m3_author": {
+      "type": "Text",
+      "props": {
+        "text": "@freya_xbt (248f)",
+        "variant": "caption"
+      }
+    },
+    "miro_m3_text": {
+      "type": "Text",
+      "props": {
+        "text": "ecosystem tier map puts aeon in \"OG\" tier, miroshark in \"Based\" tier alongside 30+ other Base AI projects",
+        "variant": "body"
+      }
+    },
+    "miro_m3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/freya_xbt/status/2099509561673556263"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "engagement_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement_heading",
+        "engagement_opp1",
+        "engagement_opp2",
+        "engagement_opp3"
+      ]
+    },
+    "engagement_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "engagement_opp1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1_header",
+        "opp1_text",
+        "opp1_link"
+      ]
+    },
+    "opp1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1_author",
+        "opp1_badge_expires"
+      ]
+    },
+    "opp1_author": {
+      "type": "Text",
+      "props": {
+        "text": "@Awesome_O_AI (149.8k followers, verified)",
+        "variant": "body"
+      }
+    },
+    "opp1_badge_expires": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-19",
+        "variant": "outline"
+      }
+    },
+    "opp1_text": {
+      "type": "Text",
+      "props": {
+        "text": "149.8k followers, verified, engaged unprompted on x402aff mechanics — highest-leverage reply this run - flips if: thread goes cold",
+        "variant": "body"
+      }
+    },
+    "opp1_link": {
+      "type": "Link",
+      "props": {
+        "label": "Reply opportunity",
+        "href": "https://x.com/Awesome_O_AI/status/2099854940533625121"
+      }
+    },
+    "engagement_opp2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_header",
+        "opp2_text",
+        "opp2_link"
+      ]
+    },
+    "opp2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_author",
+        "opp2_badge_expires"
+      ]
+    },
+    "opp2_author": {
+      "type": "Text",
+      "props": {
+        "text": "@archtuxfan",
+        "variant": "body"
+      }
+    },
+    "opp2_badge_expires": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-18",
+        "variant": "outline"
+      }
+    },
+    "opp2_text": {
+      "type": "Text",
+      "props": {
+        "text": "real question about hook marketplace productionization — a direct answer converts curiosity to usage",
+        "variant": "body"
+      }
+    },
+    "opp2_link": {
+      "type": "Link",
+      "props": {
+        "label": "Reply opportunity",
+        "href": "https://x.com/archtuxfan/status/2099850338278711374"
+      }
+    },
+    "engagement_opp3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3_header",
+        "opp3_text",
+        "opp3_link"
+      ]
+    },
+    "opp3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3_author",
+        "opp3_badge_expires"
+      ]
+    },
+    "opp3_author": {
+      "type": "Text",
+      "props": {
+        "text": "@woisau1",
+        "variant": "body"
+      }
+    },
+    "opp3_badge_expires": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-20",
+        "variant": "outline"
+      }
+    },
+    "opp3_text": {
+      "type": "Text",
+      "props": {
+        "text": "verify the OpenClaw/DKG integration claim — if real, first known third-party build on miroshark",
+        "variant": "body"
+      }
+    },
+    "opp3_link": {
+      "type": "Link",
+      "props": {
+        "label": "Verification opportunity",
+        "href": "https://x.com/woisau1/status/2099119241249091975"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run_footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer_heading",
+        "footer_run_details",
+        "footer_source",
+        "footer_web",
+        "footer_stars"
+      ]
+    },
+    "footer_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Details",
+        "level": "h3"
+      }
+    },
+    "footer_run_details": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=twitterapi (Path A, HTTP 200 both targets)",
+        "variant": "caption"
+      }
+    },
+    "footer_source": {
+      "type": "Text",
+      "props": {
+        "text": "web=clean (Reddit/HN/PH via WebSearch, no new hits beyond already-debunked MiroFish-fork narrative)",
+        "variant": "caption"
+      }
+    },
+    "footer_web": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stars_aeon",
+        "stars_miroshark"
+      ]
+    },
+    "stars_aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon GitHub stars",
+        "value": "734",
+        "delta": "+6/2d",
+        "trend": "up"
+      }
+    },
+    "stars_miroshark": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark GitHub stars",
+        "value": "1449",
+        "delta": "+0/2d",
+        "trend": "neutral"
+      }
+    },
+    "footer_stars": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon clears +5 threshold",
+        "variant": "muted"
+      }
+    }
+  }
+}

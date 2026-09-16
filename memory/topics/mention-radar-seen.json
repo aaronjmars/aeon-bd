@@ -54,14 +54,14 @@
       "project": "miroshark",
       "category": "Press/newsletter",
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-14"
+      "last_seen": "2026-09-16"
     },
     {
       "key": "x:https://x.com/wolfgangg37/status/2098660851964149793",
       "project": "miroshark",
       "category": "Confusion",
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-14"
+      "last_seen": "2026-09-16"
     },
     {
       "key": "x:https://x.com/takeru_L2/status/2099265371073368214",
@@ -89,14 +89,56 @@
       "project": "miroshark",
       "category": "Discovery",
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-14"
+      "last_seen": "2026-09-16"
     },
     {
       "key": "x:https://x.com/cx_00/status/2098627260248940842",
       "project": "miroshark",
       "category": "Press/newsletter",
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-14"
+      "last_seen": "2026-09-16"
+    },
+    {
+      "key": "x:https://x.com/AIonBase_/status/2099958936237416475",
+      "project": "aeon",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16"
+    },
+    {
+      "key": "x:https://x.com/archtuxfan/status/2099850338278711374",
+      "project": "aeon",
+      "category": "Confusion",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16"
+    },
+    {
+      "key": "x:https://x.com/CthyllaKassogth/status/2099855798688006254",
+      "project": "aeon",
+      "category": "Feature request",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16"
+    },
+    {
+      "key": "x:https://x.com/woisau1/status/2099119241249091975",
+      "project": "miroshark",
+      "category": "Discovery",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16"
+    },
+    {
+      "key": "x:https://x.com/Awesome_O_AI/status/2099854940533625121",
+      "project": "miroshark",
+      "category": "Discovery",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16"
+    },
+    {
+      "key": "x:https://x.com/freya_xbt/status/2099509561673556263",
+      "project": "miroshark",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16"
     }
   ],
   "quiet_streak": {

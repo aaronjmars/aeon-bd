@@ -1,5 +1,3 @@
-ℹ️ Mention Radar
-
 *Mention Radar - 2026-09-16*
 vs 2026-09-14 - 6 new - 0 still-open - 0 quiet
 
