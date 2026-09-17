@@ -1,10 +1,10 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-09-15T07:34:29Z",
+  "last_analyzed": "2026-09-17T07:34:36Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced intelligence work. Real signal surfacing (Hayden Adams viral thread, 0x Protocol data) with specific metrics, actionable next moves, and expiry windows. Verified methodology (GitHub API, X advanced_search, WebSearch with noise filtering). Strong alignment to Priority 1 (surface BD signal early) and Priority 4 (honest read). Minor gap on Priority 2 (convert flagged opportunities into copy-paste-ready copy) — flags signal but doesn't draft engagement copy.",
+  "assessment": "Solid methodical sweep with modest signal (1 low-value lead), excellent noise filtering and aging-alert tracking, properly transparent about findings and self-notify logic.",
   "flags": [],
-  "avg_score": 4.07,
+  "avg_score": 4.06,
   "history": [
     {
       "date": "2026-08-21",
@@ -64,6 +64,10 @@
     },
     {
       "date": "2026-09-15",
+      "score": 4
+    },
+    {
+      "date": "2026-09-17",
       "score": 4
     }
   ]
