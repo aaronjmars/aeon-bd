@@ -1,0 +1,384 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-09-17"
+      },
+      "children": [
+        "status-line",
+        "story-section",
+        "sep1",
+        "post-1-section",
+        "sep2",
+        "post-2-section",
+        "sep3",
+        "post-3-section",
+        "sep4",
+        "metadata-section"
+      ]
+    },
+    "status-line": {
+      "type": "Text",
+      "props": {
+        "text": "2d since last promo · 3 subs drafted",
+        "variant": "muted"
+      }
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-heading",
+        "story-text",
+        "story-link"
+      ]
+    },
+    "story-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story-text": {
+      "type": "Text",
+      "props": {
+        "text": "A bankr bot inside Musebook's Town Hall paid $1 USDC via x402 to launch a Miroshark sim on its own initiative - first observed case of a third-party bot autonomously triggering + paying for Miroshark; another project (Musetown) asked for the same skill within the hour."
+      }
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tweet discussion",
+        "href": "https://x.com/svector_eth/status/2100605772610834714"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-1-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-1-header",
+        "post-1-title",
+        "post-1-body",
+        "post-1-link-group",
+        "post-1-action",
+        "post-1-notes"
+      ]
+    },
+    "post-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post-1-sub",
+        "post-1-badge"
+      ]
+    },
+    "post-1-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/MiroFish",
+        "variant": "lead"
+      }
+    },
+    "post-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "community"
+      }
+    },
+    "post-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "A bankr bot just paid $1 in USDC to run a Miroshark sim, no human involved",
+        "level": "h4"
+      }
+    },
+    "post-1-body": {
+      "type": "Text",
+      "props": {
+        "text": "Wanted to share this one because it's exactly the thing we built Miroshark for.\n\nYesterday a bankr bot sitting in Musebook's Town Hall decided on its own to spin up a live Miroshark simulation. It hit the x402 endpoint, paid $1 in USDC, and the sim ran - no human approving anything, no dashboard click. Just an agent deciding it needed a simulation and paying for one.\n\nWithin the hour another project (Musetown) saw it happen and asked for the same skill so they can run their own governance simulations.\n\nThis is the whole thesis: simulate anything, hundreds of grounded agents, ~$1 and under 10 minutes - and now agent-to-agent, no human required. First time we've seen a third party trigger and pay for a sim entirely on its own initiative.\n\nI work on Miroshark 🦈. Repo's here if you want to see how the x402 metering works under the hood.\n\nHappy to answer questions on the x402 integration or how the sim engine handles concurrent agent-triggered runs."
+      }
+    },
+    "post-1-link-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post-1-link-label",
+        "post-1-link"
+      ]
+    },
+    "post-1-link-label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/MiroShark/MiroShark",
+        "href": "https://github.com/MiroShark/MiroShark"
+      }
+    },
+    "post-1-action": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/MiroFish composer",
+        "href": "https://www.reddit.com/r/MiroFish/submit?title=A%20bankr%20bot%20just%20paid%20%241%20in%20USDC%20to%20run%20a%20Miroshark%20sim%2C%20no%20human%20involved"
+      }
+    },
+    "post-1-notes": {
+      "type": "Text",
+      "props": {
+        "text": "home sub for the product, insider tone is fine - still disclose as the builder up top (\"I work on Miroshark\").",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-2-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-2-header",
+        "post-2-title",
+        "post-2-body",
+        "post-2-link-group",
+        "post-2-action",
+        "post-2-notes"
+      ]
+    },
+    "post-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post-2-sub",
+        "post-2-badge"
+      ]
+    },
+    "post-2-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/StartupMind",
+        "variant": "lead"
+      }
+    },
+    "post-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "startup"
+      }
+    },
+    "post-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Our simulation product just got paid by another AI agent to run itself",
+        "level": "h4"
+      }
+    },
+    "post-2-body": {
+      "type": "Text",
+      "props": {
+        "text": "Building-in-public update, and it's a fun one.\n\nWe ship Miroshark, a simulation engine that spins up hundreds of grounded agents to model a scenario for about $1 in under 10 minutes. It's metered through x402, so any agent with a wallet can pay and trigger a run - no signup, no dashboard, no human in the loop.\n\nYesterday that actually happened without us doing anything. A bankr bot operating inside Musebook's Town Hall decided on its own it needed a simulation, paid $1 in USDC through x402, and launched it. Another project watched it happen and immediately asked for the same integration for their own governance decisions.\n\nThat's the traction number that matters to us right now - not signups, but a machine deciding our product was worth paying for, without a human prompting it.\n\nI'm one of the builders. Source thread if you want the details.\n\nAsk me anything about the x402 metering or where we're taking agent-to-agent payments next."
+      }
+    },
+    "post-2-link-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post-2-link-label",
+        "post-2-link"
+      ]
+    },
+    "post-2-link-label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/svector_eth/status/2100605772610834714",
+        "href": "https://x.com/svector_eth/status/2100605772610834714"
+      }
+    },
+    "post-2-action": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=Our%20simulation%20product%20just%20got%20paid%20by%20another%20AI%20agent%20to%20run%20itself"
+      }
+    },
+    "post-2-notes": {
+      "type": "Text",
+      "props": {
+        "text": "founder audience, no growth-hacky language - disclose as builder; used the source tweet as the link (not the configured `site` token) since aeon.fun would misdirect for a Miroshark-only story.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-3-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-3-header",
+        "post-3-title",
+        "post-3-body",
+        "post-3-link-group",
+        "post-3-action",
+        "post-3-notes"
+      ]
+    },
+    "post-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post-3-sub",
+        "post-3-badge"
+      ]
+    },
+    "post-3-sub": {
+      "type": "Text",
+      "props": {
+        "text": "r/AIPromptProgramming",
+        "variant": "lead"
+      }
+    },
+    "post-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "agents"
+      }
+    },
+    "post-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "An AI agent paid another AI agent's product to run a task, autonomously, via x402",
+        "level": "h4"
+      }
+    },
+    "post-3-body": {
+      "type": "Text",
+      "props": {
+        "text": "Technical example of agent-to-agent commerce actually happening, thought this sub would appreciate the mechanics.\n\nWe build Miroshark, an agent-based simulation engine (spins up hundreds of grounded agents, ~$1 per run, done in under 10 minutes). It's metered with x402, so the trigger-and-pay flow is just an HTTP request with a payment header - no API key provisioning, no account.\n\nYesterday a bankr bot running inside Musebook's Town Hall used that flow on its own: it paid $1 in USDC via x402 and launched a live simulation, no human approving the call. A second project saw the result and asked for the same skill to run their own governance simulations.\n\nNo orchestration layer told it to do this - it decided a simulation was useful and had the means to pay for one. That's the part worth showing prompt/agent builders: x402 turns \"call this tool\" into \"pay this tool,\" and once that's true, agents start commissioning work from each other.\n\nI work on Miroshark. Source available at link.\n\nCurious if anyone else here is wiring x402 into their own agent's tool-calling - happy to compare notes."
+      }
+    },
+    "post-3-link-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post-3-link-label",
+        "post-3-link"
+      ]
+    },
+    "post-3-link-label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "post-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/svector_eth/status/2100605772610834714",
+        "href": "https://x.com/svector_eth/status/2100605772610834714"
+      }
+    },
+    "post-3-action": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AIPromptProgramming composer",
+        "href": "https://www.reddit.com/r/AIPromptProgramming/submit?title=An%20AI%20agent%20paid%20another%20AI%20agent%27s%20product%20to%20run%20a%20task%2C%20autonomously%2C%20via%20x402"
+      }
+    },
+    "post-3-notes": {
+      "type": "Text",
+      "props": {
+        "text": "technical audience filters low-effort self-promo hard - keep it concrete, disclose as builder; used the source tweet as the link (not the configured `repo` token) since aeonfun/aeon would misdirect for a Miroshark-only story.",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metadata-heading",
+        "metadata-text"
+      ]
+    },
+    "metadata-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Execution Metadata",
+        "level": "h4"
+      }
+    },
+    "metadata-text": {
+      "type": "Text",
+      "props": {
+        "text": "Story is 0d old (today's fetch-tweets), 10d promo window expires 2026-09-27; engagement counts as-of fetch time (6 likes/2rts/4 replies on the lead tweet - low raw engagement but high novelty, first observed autonomous third-party x402 payment to Miroshark); drafts only, nothing posted; seen-file +3 URLs."
+      }
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-16T17:49:13Z",
+  "last_analyzed": "2026-09-17T17:51:23Z",
   "quality_score": 4,
-  "assessment": "Well-executed SKIP decision with clear reasoning—avoids low-engagement and recycled content (correct per strategy), logs appropriately, provides substantive breakdown for verification.",
+  "assessment": "Substantive, well-sourced drafts for a timely signal; shows good judgment filtering candidates and tailoring to audience; operator can paste and post immediately.",
   "flags": [],
-  "avg_score": 3.86,
+  "avg_score": 3.87,
   "history": [
     {
       "date": "2026-08-20",
@@ -120,6 +120,10 @@
     },
     {
       "date": "2026-09-16",
+      "score": 4
+    },
+    {
+      "date": "2026-09-17",
       "score": 4
     }
   ]
