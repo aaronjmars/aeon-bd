@@ -1,0 +1,398 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act",
+        "description": "2026-09-17 · 4 new opps, 4 drafted, 0 aging"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "opp1",
+        "opp2",
+        "opp3",
+        "opp4",
+        "sep2",
+        "metadata"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-new",
+        "stat-draft",
+        "stat-aging"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New opps",
+        "value": "4"
+      }
+    },
+    "stat-draft": {
+      "type": "Stat",
+      "props": {
+        "label": "Drafted",
+        "value": "4"
+      }
+    },
+    "stat-aging": {
+      "type": "Stat",
+      "props": {
+        "label": "Aging",
+        "value": "0"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1-header",
+        "opp1-meta",
+        "opp1-text",
+        "opp1-link",
+        "opp1-draft"
+      ]
+    },
+    "opp1-header": {
+      "type": "Heading",
+      "props": {
+        "text": "1. @Awesome_O_AI",
+        "level": "h3"
+      }
+    },
+    "opp1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1-type",
+        "opp1-lev",
+        "opp1-exp"
+      ]
+    },
+    "opp1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "opp1-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "High (~149.8k)",
+        "variant": "secondary"
+      }
+    },
+    "opp1-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-19"
+      }
+    },
+    "opp1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unprompted take on x402aff: \"could genuinely simplify how agents transact and earn commissions\" (1 day ago)"
+      }
+    },
+    "opp1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@Awesome_O_AI on x402aff",
+        "href": "https://x.com/Awesome_O_AI/status/2099854940533625121",
+        "source": "X"
+      }
+    },
+    "opp1-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"yep — that's the whole point of x402aff. agents paying agents, commissions settle automatically, no human in the loop. cultos is already running it live on miroshark sims 🦈\"",
+        "variant": "lead"
+      }
+    },
+    "opp2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2-header",
+        "opp2-meta",
+        "opp2-text",
+        "opp2-link",
+        "opp2-draft"
+      ]
+    },
+    "opp2-header": {
+      "type": "Heading",
+      "props": {
+        "text": "2. @archtuxfan",
+        "level": "h3"
+      }
+    },
+    "opp2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2-type",
+        "opp2-lev",
+        "opp2-exp"
+      ]
+    },
+    "opp2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "opp2-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "Low (~393)"
+      }
+    },
+    "opp2-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-18"
+      }
+    },
+    "opp2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Asked whether Hook Marketplace has public UI or API-only, who's running it in prod (1 day ago)"
+      }
+    },
+    "opp2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@archtuxfan on Hook Marketplace",
+        "href": "https://x.com/archtuxfan/status/2099850338278711374",
+        "source": "X"
+      }
+    },
+    "opp2-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"public UI — aeon.fun/hooks. 7 chains live, builders submitting hooks straight through their own agent now, no manual review queue. not just an API ⭐\"",
+        "variant": "lead"
+      }
+    },
+    "opp3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp3-header",
+        "opp3-meta",
+        "opp3-text",
+        "opp3-link",
+        "opp3-draft"
+      ]
+    },
+    "opp3-header": {
+      "type": "Heading",
+      "props": {
+        "text": "3. @woisau1",
+        "level": "h3"
+      }
+    },
+    "opp3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3-type",
+        "opp3-lev",
+        "opp3-exp"
+      ]
+    },
+    "opp3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "opp3-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "Low (~998)"
+      }
+    },
+    "opp3-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-20"
+      }
+    },
+    "opp3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Flagged unverified \"OpenClaw\" agent on origin_trail's DKG claiming \"Powered by DKG V9 + MiroShark\" integration (1 day ago)"
+      }
+    },
+    "opp3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@woisau1 on OpenClaw integration",
+        "href": "https://x.com/woisau1/status/2099119241249091975",
+        "source": "X"
+      }
+    },
+    "opp3-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"haven't seen this on our side yet — which repo/build is this running? happy to verify and shout it out if it's real 🦈\"",
+        "variant": "lead"
+      }
+    },
+    "opp4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp4-header",
+        "opp4-meta",
+        "opp4-text",
+        "opp4-link",
+        "opp4-draft"
+      ]
+    },
+    "opp4-header": {
+      "type": "Heading",
+      "props": {
+        "text": "4. @xvader",
+        "level": "h3"
+      }
+    },
+    "opp4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4-type",
+        "opp4-lev",
+        "opp4-exp"
+      ]
+    },
+    "opp4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "opp4-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "Low (~770)"
+      }
+    },
+    "opp4-exp": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-20"
+      }
+    },
+    "opp4-text": {
+      "type": "Text",
+      "props": {
+        "text": "18-part Indonesian-language thread explaining MiroFish vs MiroShark origin/setup, counters fork-mischaracterization narrative tracked since 09-06 (same day)"
+      }
+    },
+    "opp4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@xvader on MiroFish vs MiroShark",
+        "href": "https://x.com/xvader/status/2100409573253472578",
+        "source": "X"
+      }
+    },
+    "opp4-draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"this is the most accurate MiroFish vs miroshark breakdown out there — real origin story, real setup guides, honest gaps called out. no public benchmark yet, that's true. down to run one together if you're up for it 🦈\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "meta-title",
+        "meta-run",
+        "meta-dedup",
+        "meta-dropped"
+      ]
+    },
+    "meta-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Metadata",
+        "level": "h4"
+      }
+    },
+    "meta-run": {
+      "type": "Text",
+      "props": {
+        "text": "Source: memory/logs 09-11→09-17, apps/dashboard/outputs/mention-radar-2026-09-16T07-44-42Z.json, output/articles/bd-radar-2026-09-17.md, memory/topics/bd-radar-leads.json",
+        "variant": "caption"
+      }
+    },
+    "meta-dedup": {
+      "type": "Text",
+      "props": {
+        "text": "Dedup index: memory/topics/engagement-acted.json (56 handles)",
+        "variant": "caption"
+      }
+    },
+    "meta-dropped": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped as already-acted/noise/no-fresh-ask: @thecultos (dedup since 08-27, DM-expiry 21d lapsed), @AIonBase_ (3rd mention this week, templated-aggregator), @freya_xbt (same tier-list, judged thin 09-14/15), @CthyllaKassogth (technical critique not flagged as opp), @moltycash (already engaged by aaronjmars), @takeru_L2/@niuniusad (build-signal/confusion, not reply opps)",
+        "variant": "caption"
+      }
+    }
+  }
+}

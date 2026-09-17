@@ -1,26 +1,26 @@
-ℹ️ Engagement Act - 2026-09-15
+ℹ️ Engagement Act
 
-*Engagement Act - 2026-09-15*
-vs 2026-09-13 - 4 new opps - 4 drafted - 0 aging
+*Engagement Act - 2026-09-17*
+vs 2026-09-15 - 4 new opps - 4 drafted - 0 aging
 
-*1. @haydenzadams* [X reply] · leverage: high (~2.28M) · expires 2026-09-17
-what: Uniswap founder's viral "skill issue" tweet dismissing malicious-hook complaints opened a live hook-security debate; @aeonframework's bot account already replied in-thread pitching the marketplace, but the thread calls for a human-voice follow-up with a concrete link (0 days ago)
-link: https://x.com/haydenzadams/status/2099711270115013085
-draft: "84k hooks scanned, 19% safe. that's not a skill issue, that's a market failure nobody priced in. built the audited registry so devs don't have to gamble on every integration - aeon.fun/hooks, 12 hooks live, 7 chains"
+*1. @Awesome_O_AI* [X reply] · leverage: high (~149.8k, verified) · expires 2026-09-19
+what: unprompted take on x402aff — "could genuinely simplify how agents transact and earn commissions" (1 day ago)
+link: https://x.com/Awesome_O_AI/status/2099854940533625121
+draft: "yep — that's the whole point of x402aff. agents paying agents, commissions settle automatically, no human in the loop. cultos is already running it live on miroshark sims 🦈"
 
-*2. @0xProject* [X DM] · leverage: high (~273k) · expires 2026-09-17
-what: 0x Protocol published viral hook-safety research (84k v4 hooks analyzed, only 19% rated safe) that directly validates the hook-marketplace thesis; @aeonframework already replied in-thread, a data-tie-up DM is the fresh, unactioned ask (0 days ago)
-link: https://x.com/0xProject/status/2099578032960995502
-draft: "hey - your v4 hook safety numbers (84k scanned, 19% safe) are exactly the data behind why we built aeon's audited hook marketplace (aeon.fun/hooks) - vuln-scanner fleet audits every hook before it's listed. want to combine your dataset with our scanner findings, public writeup or joint listing criteria? open to whatever's useful on your end"
+*2. @archtuxfan* [X reply] · leverage: low (~393) · expires 2026-09-18
+what: asked whether the Hook Marketplace has a public UI or is API-only, who's actually running it in prod (1 day ago)
+link: https://x.com/archtuxfan/status/2099850338278711374
+draft: "public UI — aeon.fun/hooks. 7 chains live, builders submitting hooks straight through their own agent now, no manual review queue. not just an API ⭐"
 
-*3. @cx_00* [X reply] · leverage: high (~17.4k, verified) · expires 2026-09-17
-what: unprompted analytical take under thecultos's x402 catalog thread - "x402scan suggests active listings are part of the distribution strategy" - first time engaging with either product (1 day ago)
-link: https://x.com/cx_00/status/2098627260248940842
-draft: "correct read. x402 listings aren't just discovery, they're the distribution layer - same catalog, humans and agents both browsing it. cultos already proved it with the audit/sim listings. compounds fast once agents can browse themselves"
+*3. @woisau1* [X reply] · leverage: low (~998) · expires 2026-09-20
+what: flagged a third-party "OpenClaw" agent on origin_trail's DKG claiming "Powered by DKG V9 + MiroShark" — unverified integration (1 day ago)
+link: https://x.com/woisau1/status/2099119241249091975
+draft: "haven't seen this on our side yet — which repo/build is this running? happy to verify and shout it out if it's real 🦈"
 
-*4. @0xlyon01* [X reply] · leverage: mid (~4.7k, verified) · expires 2026-09-17
-what: unprompted synthesis under the same thread - "one MCP, USDC on Base, humans and agents in the same funnel. catalog growth just became distribution" - clean pull-quote (1 day ago)
-link: https://x.com/0xlyon01/status/2098898486389358835
-draft: "exactly - the funnel doesn't split anymore. same catalog, same rails, agent or human doesn't matter. that's the whole bet on x402 native listings over building a separate agent-facing store"
+*4. @xvader* [X reply] · leverage: low (~770) · expires 2026-09-20
+what: 18-part Indonesian-language thread accurately explaining MiroFish vs MiroShark origin/setup, warns readers to check commit count/date before cloning — counters the fork-mischaracterization narrative tracked since 09-06 (same day)
+link: https://x.com/xvader/status/2100409573253472578
+draft: "this is the most accurate MiroFish vs miroshark breakdown out there — real origin story, real setup guides, honest gaps called out. no public benchmark yet, that's true. down to run one together if you're up for it 🦈"
 
-run: dropped `x:freya_xbt`/`x:AIonBase_` (both flagged 09-15 by bd-radar but both accounts have a standing noise history - templated tier-list/bot-style ranking posts, previously excluded by fetch-tweets 09-10 and reddit-promo/reddit-playbook 09-14 as "near-zero unique signal"/"low-follower account" - same bar applied here); skipped @thecultos (dedup blocks resurfacing since 08-27, still an operator-side check-in per MEMORY.md); skipped `aeonfun/aeon#1045` and `MiroShark#240` (internal/operator-owned, not BD engagement).
+run: source — memory/logs 09-11→09-17, apps/dashboard/outputs/mention-radar-2026-09-16T07-44-42Z.json, output/articles/bd-radar-2026-09-17.md, memory/topics/bd-radar-leads.json. dedup — memory/topics/engagement-acted.json (56 handles). dropped as already-acted-under-same-canonical-handle: @thecultos (dedup since 08-27, DM-expiry now 21d lapsed, operator-side item not a fresh draft). dropped as noise-history: @AIonBase_ (3rd roundup mention this week, same templated-aggregator pattern flagged 09-05→09-16), @freya_xbt (same tier-list tweet already judged too thin 09-14/09-15, no new engagement). dropped as no fresh ask: @CthyllaKassogth (real technical critique of CultOS's audit-receipt scope, but mention-radar itself did not flag it as an opp — same "needling a partner's methodology" call reddit-playbook made 09-15), @moltycash (already engaged by aaronjmars per mention-radar 09-14), @takeru_L2/@niuniusad (flagged as build-signal/confusion, not reply opps).

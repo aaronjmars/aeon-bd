@@ -1,10 +1,10 @@
 {
   "skill": "engagement-act",
-  "last_analyzed": "2026-09-15T09:49:28Z",
+  "last_analyzed": "2026-09-17T09:43:50Z",
   "quality_score": 4,
-  "assessment": "Substantive engagement intel with high-leverage opportunities, copy-paste-ready drafts, proper timing-window urgency, and sound deduplication logic. Aligned to strategy priorities (surface BD signal, engage where it compounds, time the window). Verifiable in principle but specific URLs cannot be checked in this context.",
+  "assessment": "Substantive engagement digest with copy-paste-ready drafts; strong strategy alignment (priorities 1, 2, 4), sound filtering logic, actionable for operator.",
   "flags": [],
-  "avg_score": 3.87,
+  "avg_score": 3.88,
   "history": [
     {
       "date": "2026-08-21",
@@ -64,6 +64,10 @@
     },
     {
       "date": "2026-09-15",
+      "score": 4
+    },
+    {
+      "date": "2026-09-17",
       "score": 4
     }
   ]
