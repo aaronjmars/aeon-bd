@@ -1,0 +1,395 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Fetch Tweets — Top Tweets Aeon + Miroshark (2026-09-17)"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "section1_heading",
+        "section1_stack",
+        "sep2",
+        "section2_heading",
+        "section2_context",
+        "section2_stack",
+        "sep3",
+        "section3_heading",
+        "section3_stack"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Miroshark went properly agentic today — a bankr bot in Musebook's Town Hall paid $1 USDC via x402 to launch a live Miroshark simulation on its own initiative, and another outside project immediately asked for the same skill for governance sims.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark goes live in Musebook's agent economy",
+        "level": "h2"
+      }
+    },
+    "section1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1_group",
+        "tweet2_group",
+        "tweet3_group"
+      ]
+    },
+    "tweet1_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1_descriptor",
+        "tweet1_card",
+        "tweet1_meta"
+      ]
+    },
+    "tweet1_descriptor": {
+      "type": "Text",
+      "props": {
+        "text": "thread summary, today's highest-engagement item",
+        "variant": "caption"
+      }
+    },
+    "tweet1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "svector_eth",
+        "handle": "svector_eth",
+        "text": "did it. @bankrbot joined Musebook and dropped the @miroshark_ skill in Town Hall",
+        "likes": 6,
+        "retweets": 2
+      }
+    },
+    "tweet1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1_replies",
+        "tweet1_link"
+      ]
+    },
+    "tweet1_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "muted"
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/svector_eth/status/2100605772610834714"
+      }
+    },
+    "tweet2_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2_descriptor",
+        "tweet2_card",
+        "tweet2_meta"
+      ]
+    },
+    "tweet2_descriptor": {
+      "type": "Text",
+      "props": {
+        "text": "confirms $1.00 USDC payment via x402 and launches the sim unprompted — first observed case of a third-party bot autonomously paying to invoke Miroshark",
+        "variant": "caption"
+      }
+    },
+    "tweet2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bankrbot",
+        "handle": "bankrbot",
+        "text": "[Payment and sim launch confirmation]",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tweet2_replies",
+        "tweet2_link"
+      ]
+    },
+    "tweet2_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "muted"
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bankrbot/status/2100611557801820297"
+      }
+    },
+    "tweet3_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3_descriptor",
+        "tweet3_card",
+        "tweet3_meta"
+      ]
+    },
+    "tweet3_descriptor": {
+      "type": "Text",
+      "props": {
+        "text": "inbound feature pull from Musetown, not an outbound pitch",
+        "variant": "caption"
+      }
+    },
+    "tweet3_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dannyhbrown",
+        "handle": "Dannyhbrown",
+        "text": "asks for a miroshark skill so they can run simulations on their governance decisions",
+        "likes": 2,
+        "retweets": 0
+      }
+    },
+    "tweet3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tweet3_replies",
+        "tweet3_link"
+      ]
+    },
+    "tweet3_replies": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "muted"
+      }
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Dannyhbrown/status/2100595968018157755"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Identical-text praise pair (CultOS x402aff cluster)",
+        "level": "h2"
+      }
+    },
+    "section2_context": {
+      "type": "Text",
+      "props": {
+        "text": "Same two handles MEMORY.md tracks running a distributed x402aff sim (09-12/13); reads as templated messaging, not independent praise",
+        "variant": "muted"
+      }
+    },
+    "section2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet4_group",
+        "tweet5_group"
+      ]
+    },
+    "tweet4_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4_card",
+        "tweet4_meta"
+      ]
+    },
+    "tweet4_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "akathesmith",
+        "handle": "akathesmith",
+        "text": "man building with @aeonframework agents is absolutely incredible",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tweet4_link"
+      ]
+    },
+    "tweet4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/akathesmith/status/2100601398584856708"
+      }
+    },
+    "tweet5_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet5_descriptor",
+        "tweet5_card",
+        "tweet5_meta"
+      ]
+    },
+    "tweet5_descriptor": {
+      "type": "Text",
+      "props": {
+        "text": "posts the exact same line 24min later",
+        "variant": "caption"
+      }
+    },
+    "tweet5_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "thecultos",
+        "text": "man building with @aeonframework agents is absolutely incredible",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet5_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tweet5_link"
+      ]
+    },
+    "tweet5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2100595166205612306"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Community pushback on token-FUD",
+        "level": "h2"
+      }
+    },
+    "section3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet6_group"
+      ]
+    },
+    "tweet6_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet6_card",
+        "tweet6_meta"
+      ]
+    },
+    "tweet6_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "24Shays",
+        "handle": "24Shays",
+        "text": "replies to a \"token has nothing to do with the framework\" line: bought $AEON \"just because I like the project... more about supporting the project than trying to value the token\"",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet6_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tweet6_link"
+      ]
+    },
+    "tweet6_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/24Shays/status/2100594325910405223"
+      }
+    }
+  }
+}

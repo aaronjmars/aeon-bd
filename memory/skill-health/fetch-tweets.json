@@ -1,8 +1,8 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-09-16T17:09:02Z",
+  "last_analyzed": "2026-09-17T17:09:03Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-curated BD signal digest with documented methodology (HTTP 200, dedup logic, curation thresholds). Serves strategy priorities 1/4/5; tight, specific, zero filler. One new signal (token-strength critique from low-follower account) flagged appropriately; quiet day assessment is honest and actionable (no false alarm).",
+  "assessment": "Substantive, well-sourced, actionable BD signal captured with transparency and specificity — directly serves all five strategy priorities.",
   "flags": [],
   "avg_score": 3.93,
   "history": [
@@ -120,6 +120,10 @@
     },
     {
       "date": "2026-09-16",
+      "score": 4
+    },
+    {
+      "date": "2026-09-17",
       "score": 4
     }
   ]
