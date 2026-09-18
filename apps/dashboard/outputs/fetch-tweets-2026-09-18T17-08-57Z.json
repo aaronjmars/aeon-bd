@@ -1,0 +1,130 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — 2026-09-18"
+      },
+      "children": [
+        "search_context",
+        "context_summary",
+        "sep1",
+        "heading1",
+        "tweet1_wrapper",
+        "sep2",
+        "heading2",
+        "tweet2_wrapper"
+      ]
+    },
+    "search_context": {
+      "type": "Text",
+      "props": {
+        "text": "@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation",
+        "variant": "muted"
+      }
+    },
+    "context_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Noisiest day in a while — a mass-tag templated reply chain dominated volume, but two items had real signal: a pointed AI-audit critique and a token-chart round-up mention.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Product feedback — AI audit trust bar",
+        "level": "h3"
+      }
+    },
+    "tweet1_wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1_card",
+        "tweet1_metrics",
+        "tweet1_link"
+      ]
+    },
+    "tweet1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "SmartSentinels_",
+        "handle": "SmartSentinels_",
+        "text": "Says Aeon's AI-audit output needs to be reproducible: contract+version pinned, severity-ranked findings with evidence, a reviewable trail — \"trust only earns... when the result can be checked, not just summarized.\"",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet1_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 0 | RTs: 0 | Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/SmartSentinels_/status/2100965831685628236"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Token chart round-up",
+        "level": "h3"
+      }
+    },
+    "tweet2_wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2_card",
+        "tweet2_metrics",
+        "tweet2_link"
+      ]
+    },
+    "tweet2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "carlosjmelgar",
+        "handle": "carlosjmelgar",
+        "text": "Groups $AEON with a shortlist of Base tokens ($LFI, $QUOTIENT, $EARN, $HOME, $BANKR) as \"bankrbot eco\" charts worth positioning into — third-party trader chatter, not an endorsement.",
+        "likes": 5,
+        "retweets": 0
+      }
+    },
+    "tweet2_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 5 | RTs: 0 | Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/carlosjmelgar/status/2100946404344492331"
+      }
+    }
+  }
+}
