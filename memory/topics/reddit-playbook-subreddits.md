@@ -56,6 +56,9 @@ never to our own site - that is what keeps observer-style posts through moderati
 | r/PredictionMarkets | xpost | Miroshark; analytical, not promotional. |
 | r/sportsanalytics | xpost | Miroshark simulation-as-analysis. |
 | r/Kalshi | xpost | Miroshark; market-native framing. |
+| r/AltStreetBets | xpost | Miroshark; crypto-native sub - crypto framing IS allowed here (the trap only bites in non-crypto subs). |
+| r/CryptoMoonShots | xpost | Miroshark; crypto-native - token/onchain framing OK. Keep it a real mechanic, not a shill. |
+| r/WeirdWebsites | xpost | Miroshark; the "simulate anything" novelty-demo angle. Show the sim, not the token. |
 
 ## Question-only - Archetype B framing only (a direct promo is removed)
 
@@ -67,8 +70,9 @@ never to our own site - that is what keeps observer-style posts through moderati
 ## Comment-only - place comments, never posts (12/12 post removals here)
 
 r/programming, r/devsecops, r/cybersecurity, r/vibecoding, r/aiagents,
-r/LovingOpenSourceAI, r/homelab, r/soccer, r/dataisbeautiful. Value-first comment,
-link only if asked in-thread. Zero comment removals in three weeks of data.
+r/LovingOpenSourceAI, r/aitubers, r/homelab, r/soccer, r/dataisbeautiful,
+r/consulting, r/FinancialCareers, r/geography, r/ToiletPaperUSA. Value-first
+comment, link only if asked in-thread. Zero comment removals in three weeks of data.
 
 ## Known trap
 
