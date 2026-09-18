@@ -15,7 +15,7 @@ The one rule above all: **the product is supporting material, never the subject.
 
 Read `memory/MEMORY.md`, `memory/products.md`, and `STRATEGY.md` (if present) for positioning and current priorities. If `soul/SOUL.md` + `soul/STYLE.md` are populated, match that voice for the casual/founder subs; otherwise use a clear, direct, non-hype builder tone.
 
-This skill's output follows the shared **`docs/output-contract.md`**. The one that bites here is the **cadence clock**: Reddit self-promo has to stay occasional (fewer better-placed posts beat volume - 7 posts beat 13 by 6.5x in the data), so the digest surfaces how long it has been since the last promo.
+This skill's output follows the shared **`docs/output-contract.md`**. The one that bites here is the **cadence clock**: Reddit self-promo has to stay occasional. Fewer, better-placed posts beat volume - across three weeks live placements went 9 -> 11 -> 5 per week while views-per-live-post went 4,266 -> 2,945 -> 5,400 (Miroshark: 7 posts beat 13 by 6.5x). So the digest surfaces how long it has been since the last promo, and drafts a **few** subs per run, never a wall.
 
 ## Var
 
@@ -153,6 +153,8 @@ Do **not** call `./secretcurl`, `x-cli`, or any X API - the point is to reuse ou
 - **One link, native, at the bottom.** No UTM spam, no wall of links.
 - **No duplicate text across subs** - each draft is rewritten, not templated.
 - **Respect the 9:1 / sub-specific self-promo ratio.** Flag strict subs in the notes.
+- **Reply window.** Put a reminder in the notes: the operator should reply to comments in the first **30 min-4h** and answer **everything in the first 24h** - Reddit rewards an author who shows up in-thread, and it is where the BD conversations actually start.
+- **Hand off to reddit-scorecard.** These are drafts; measuring what got posted is `reddit-scorecard`'s job. When the operator posts one, they register it there (`add:`) so its day-7 / day-14 reach is tracked and not lost.
 - **Drafts only.** This skill never posts to Reddit and needs no Reddit credentials.
 
 ## Default tiered subreddit map (fallback if config missing)

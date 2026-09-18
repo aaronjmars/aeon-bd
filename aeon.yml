@@ -127,6 +127,7 @@ skills:
   send-email: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — compose + send a 1:1 email to a named recipient via Resend (general sibling of disclosure-emailer). var: "to=… | subject=… | about=…"
   # --- Reddit (evidence-backed playbook; sibling of reddit-promo) ---
   reddit-playbook: { enabled: true, schedule: "15 18 1/2 * *", var: "" } # every other day (odd days), 18:15 UTC - after fetch-tweets (17:00) and reddit-promo (17:45). Reads the daily fetch-tweets output, picks a content archetype (news-hook/question/milestone/contrarian/observer) BEFORE writing, keeps the product out of the title, backs claims with third-party links, routes strict subs to comments. Drafts only. var: r/Name,... | story:<url|kw> | archetype:A-E | dry-run.
+  reddit-scorecard: { enabled: true, schedule: "0 10 * * 0", var: "" } # Sunday 10:00 UTC - measurement half of the Reddit loop (sibling of picks-tracker for reddit-playbook/reddit-promo). Keeps a per-post baseline in memory/topics/reddit-scorecard-state.json, re-measures each live post at day 7 + day 14 (Reddit accrues 1-2+ weeks; every number is a floor), scores reach + conservative earned-media value, logs removals separately (never as a zero). Report only, no posting, no API keys. Reddit insight numbers are not API-exposed - operator feeds them via var. var: "add: <url>|r/Sub|<A-E>|posted:DATE" | "measure: <url>=<views>/<comments>" | "removed: <url>" | dry-run.
   # --- Fallback (must be last) ---
   heartbeat: { enabled: true, schedule: "0 8 * * *" }
 
