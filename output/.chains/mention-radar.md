@@ -1,21 +1,17 @@
-ℹ️ Mention Radar
+ℹ️ Mention Radar - 2026-09-18
 
-*Mention Radar - 2026-09-16*
-vs 2026-09-14 - 6 new - 0 still-open - 0 quiet
+*Mention Radar - 2026-09-18*
+vs 2026-09-16 - 3 new - 1 still-open - 1 quiet
 
 **AEON**
-- NEW [Press/newsletter] @AIonBase_ (25.3k f): 3rd roundup mention this week — lists aeon among 13 Base AI projects: "Background agents for security scanning, code fixes, monitoring, and long-running tasks" - https://x.com/AIonBase_/status/2099958936237416475
-- NEW [Confusion] @archtuxfan (393f): asking who's actually using the Hook Marketplace in prod, whether there's a public UI or just API - https://x.com/archtuxfan/status/2099850338278711374
-- NEW [Feature request] @CthyllaKassogth (141f): wants x402 audit receipts to bind audit scope + commit SHA + result digest — otherwise buyers can't verify what they paid for - https://x.com/CthyllaKassogth/status/2099855798688006254
-
-**MIROSHARK**
-- NEW [Discovery] @woisau1 (998f): third-party "OpenClaw" agent on @origin_trail's DKG claims "Powered by DKG V9 + MiroShark" — first sighted integration claim, unverified - https://x.com/woisau1/status/2099119241249091975
-- NEW [Discovery] @Awesome_O_AI (149.8k f, verified): unprompted take on x402aff — "could genuinely simplify how agents transact and earn commissions" — biggest account to engage this run - https://x.com/Awesome_O_AI/status/2099854940533625121
-- NEW [Press/newsletter] @freya_xbt (248f): ecosystem tier map puts aeon in "OG" tier, miroshark in "Based" tier alongside 30+ other Base AI projects - https://x.com/freya_xbt/status/2099509561673556263
+- NEW [Discovery] @0xNurstar (8.4k f, verified): gets a daily @aeonframework Telegram digest — news, repos, papers, HN in one message, under a minute to read — closes with "get your aeon agent running in a few mins" - https://x.com/0xNurstar/status/2100582251297738942
+- NEW [Discovery] @Vanxyrus (5k f, verified): was listening to Diary of a CEO and says @aeonframework was "the first thing that came to mind" — paired it with a base: contract address, which pulled in a mini token-vs-framework subthread from others - https://x.com/Vanxyrus/status/2100504341459431662
+- NEW [Discovery] @svector_eth (1.7k f, verified): pitched Aeon directly to @jessepollak (Base co-founder) mid-thread — "this is pretty much the problem we're building @aeonframework around... let aeon automate the work around it" - https://x.com/svector_eth/status/2100494869504688468
+- [Feature request] @CthyllaKassogth (since 2026-09-16): still wants the x402 audit receipt to bind scope + commit SHA + result digest — 2 days unresolved, no reply from either product account - https://x.com/CthyllaKassogth/status/2099855798688006254
 
 **ENGAGEMENT OPPORTUNITIES**
-- @Awesome_O_AI: 149.8k followers, verified, engaged unprompted on x402aff mechanics — highest-leverage reply this run - flips if: thread goes cold, expires 2026-09-19 - https://x.com/Awesome_O_AI/status/2099854940533625121
-- @archtuxfan: real question about hook marketplace productionization — a direct answer converts curiosity to usage - expires 2026-09-18 - https://x.com/archtuxfan/status/2099850338278711374
-- @woisau1: verify the OpenClaw/DKG integration claim — if real, first known third-party build on miroshark - expires 2026-09-20 - https://x.com/woisau1/status/2099119241249091975
+- @svector_eth: mid-thread pitch put Aeon in front of Jesse Pollak's (Base co-founder) audience — worth a same-thread reply while it's live - flips if: thread goes cold with no reply, expires 2026-09-19 - https://x.com/svector_eth/status/2100494869504688468
 
-run: X_SOURCE=twitterapi (Path A, HTTP 200 both targets) · web=clean (Reddit/HN/PH via WebSearch, no new hits beyond already-debunked MiroFish-fork narrative) · stars aeon +6/2d (734, clears +5 threshold) · stars miroshark +0/2d (1449, no change)
+QUIET: miroshark - no fresh mentions this run (covered: twitterapi/web) - re-check 2026-09-20
+
+run: X_SOURCE=twitterapi (Path A, HTTP 200 both targets, 2 pages each) · web=clean (WebSearch Reddit/HN/PH, only stale June HackerNoon feature re-surfaced, already discarded since 08-22) · stars aeon 739 +5/2d since 09-16 (clears threshold, forks 266 +1) · stars miroshark 1451 +2/2d since 09-16 (below threshold, not shown, forks 301 +2)

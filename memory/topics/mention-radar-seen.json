@@ -117,7 +117,7 @@
       "project": "aeon",
       "category": "Feature request",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-16"
+      "last_seen": "2026-09-18"
     },
     {
       "key": "x:https://x.com/woisau1/status/2099119241249091975",
@@ -139,10 +139,31 @@
       "category": "Press/newsletter",
       "first_seen": "2026-09-16",
       "last_seen": "2026-09-16"
+    },
+    {
+      "key": "x:https://x.com/0xNurstar/status/2100582251297738942",
+      "project": "aeon",
+      "category": "Discovery",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    {
+      "key": "x:https://x.com/Vanxyrus/status/2100504341459431662",
+      "project": "aeon",
+      "category": "Discovery",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    {
+      "key": "x:https://x.com/svector_eth/status/2100494869504688468",
+      "project": "aeon",
+      "category": "Discovery",
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
     }
   ],
   "quiet_streak": {
     "aeon": 0,
-    "miroshark": 0
+    "miroshark": 1
   }
 }

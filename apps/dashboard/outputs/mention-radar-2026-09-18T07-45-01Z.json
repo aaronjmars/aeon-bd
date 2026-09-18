@@ -1,0 +1,479 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar - 2026-09-18",
+        "description": "vs 2026-09-16 - 3 new - 1 still-open - 1 quiet"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aeon",
+        "stack_aeon_items",
+        "sep_1",
+        "heading_engagement",
+        "stack_engagement",
+        "sep_2",
+        "heading_quiet",
+        "stack_quiet",
+        "sep_3",
+        "heading_run",
+        "stack_run"
+      ]
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "stack_aeon_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon_item_1",
+        "aeon_item_2",
+        "aeon_item_3",
+        "aeon_item_4"
+      ]
+    },
+    "aeon_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_1_header",
+        "aeon_1_content",
+        "aeon_1_link"
+      ]
+    },
+    "aeon_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aeon_1",
+        "aeon_1_author"
+      ]
+    },
+    "badge_aeon_1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW [Discovery]"
+      }
+    },
+    "aeon_1_author": {
+      "type": "Text",
+      "props": {
+        "text": "@0xNurstar (8.4k followers, verified)",
+        "variant": "lead"
+      }
+    },
+    "aeon_1_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "@0xNurstar",
+        "text": "gets a daily @aeonframework Telegram digest — news, repos, papers, HN in one message, under a minute to read — closes with \"get your aeon agent running in a few mins\""
+      }
+    },
+    "aeon_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/0xNurstar/status/2100582251297738942"
+      }
+    },
+    "aeon_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_2_header",
+        "aeon_2_content",
+        "aeon_2_link"
+      ]
+    },
+    "aeon_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aeon_2",
+        "aeon_2_author"
+      ]
+    },
+    "badge_aeon_2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW [Discovery]"
+      }
+    },
+    "aeon_2_author": {
+      "type": "Text",
+      "props": {
+        "text": "@Vanxyrus (5k followers, verified)",
+        "variant": "lead"
+      }
+    },
+    "aeon_2_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Vanxyrus",
+        "handle": "@Vanxyrus",
+        "text": "was listening to Diary of a CEO and says @aeonframework was \"the first thing that came to mind\" — paired it with a base: contract address, which pulled in a mini token-vs-framework subthread from others"
+      }
+    },
+    "aeon_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Vanxyrus/status/2100504341459431662"
+      }
+    },
+    "aeon_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_3_header",
+        "aeon_3_content",
+        "aeon_3_link"
+      ]
+    },
+    "aeon_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aeon_3",
+        "aeon_3_author"
+      ]
+    },
+    "badge_aeon_3": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW [Discovery]"
+      }
+    },
+    "aeon_3_author": {
+      "type": "Text",
+      "props": {
+        "text": "@svector_eth (1.7k followers, verified)",
+        "variant": "lead"
+      }
+    },
+    "aeon_3_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "svector_eth",
+        "handle": "@svector_eth",
+        "text": "pitched Aeon directly to @jessepollak (Base co-founder) mid-thread — \"this is pretty much the problem we're building @aeonframework around... let aeon automate the work around it\""
+      }
+    },
+    "aeon_3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/svector_eth/status/2100494869504688468"
+      }
+    },
+    "aeon_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon_4_header",
+        "aeon_4_content",
+        "aeon_4_status",
+        "aeon_4_link"
+      ]
+    },
+    "aeon_4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aeon_4",
+        "aeon_4_author"
+      ]
+    },
+    "badge_aeon_4": {
+      "type": "Badge",
+      "props": {
+        "text": "Feature request",
+        "variant": "outline"
+      }
+    },
+    "aeon_4_author": {
+      "type": "Text",
+      "props": {
+        "text": "@CthyllaKassogth (since 2026-09-16)",
+        "variant": "lead"
+      }
+    },
+    "aeon_4_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "CthyllaKassogth",
+        "handle": "@CthyllaKassogth",
+        "text": "still wants the x402 audit receipt to bind scope + commit SHA + result digest"
+      }
+    },
+    "aeon_4_status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unresolved",
+        "message": "2 days unresolved, no reply from either product account",
+        "type": "warning"
+      }
+    },
+    "aeon_4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/CthyllaKassogth/status/2099855798688006254"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "stack_engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "engagement_item_1"
+      ]
+    },
+    "engagement_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engagement_1_alert",
+        "engagement_1_deadline",
+        "engagement_1_link"
+      ]
+    },
+    "engagement_1_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "@svector_eth - Jesse Pollak opportunity",
+        "message": "mid-thread pitch put Aeon in front of Jesse Pollak's (Base co-founder) audience — worth a same-thread reply while it's live",
+        "type": "info"
+      }
+    },
+    "engagement_1_deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-19",
+        "variant": "destructive"
+      }
+    },
+    "engagement_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View thread",
+        "href": "https://x.com/svector_eth/status/2100494869504688468"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_quiet": {
+      "type": "Heading",
+      "props": {
+        "text": "QUIET",
+        "level": "h2"
+      }
+    },
+    "stack_quiet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quiet_text",
+        "quiet_coverage",
+        "quiet_recheck"
+      ]
+    },
+    "quiet_text": {
+      "type": "Text",
+      "props": {
+        "text": "Miroshark - no fresh mentions this run",
+        "variant": "body"
+      }
+    },
+    "quiet_coverage": {
+      "type": "Text",
+      "props": {
+        "text": "Covered: twitterapi/web",
+        "variant": "caption"
+      }
+    },
+    "quiet_recheck": {
+      "type": "Badge",
+      "props": {
+        "text": "Re-check 2026-09-20",
+        "variant": "secondary"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_run": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Info",
+        "level": "h2"
+      }
+    },
+    "stack_run": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run_sources",
+        "run_stats"
+      ]
+    },
+    "run_sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run_text_1",
+        "run_text_2",
+        "run_text_3"
+      ]
+    },
+    "run_text_1": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=twitterapi (Path A, HTTP 200 both targets, 2 pages each)",
+        "variant": "body"
+      }
+    },
+    "run_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "web=clean (WebSearch Reddit/HN/PH, only stale June HackerNoon feature re-surfaced, already discarded since 08-22)",
+        "variant": "body"
+      }
+    },
+    "run_text_3": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon stars clears threshold; Miroshark below threshold",
+        "variant": "caption"
+      }
+    },
+    "run_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_aeon_stars",
+        "stat_aeon_forks",
+        "stat_miroshark_stars",
+        "stat_miroshark_forks"
+      ]
+    },
+    "stat_aeon_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars",
+        "value": "739",
+        "delta": "+5/2d since 09-16",
+        "trend": "up"
+      }
+    },
+    "stat_aeon_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Forks",
+        "value": "266",
+        "delta": "+1",
+        "trend": "up"
+      }
+    },
+    "stat_miroshark_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Stars",
+        "value": "1451",
+        "delta": "+2/2d since 09-16",
+        "trend": "neutral"
+      }
+    },
+    "stat_miroshark_forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Forks",
+        "value": "301",
+        "delta": "+2",
+        "trend": "up"
+      }
+    }
+  }
+}
