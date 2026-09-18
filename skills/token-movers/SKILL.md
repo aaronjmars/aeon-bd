@@ -228,10 +228,10 @@ sleep 1
 # Per-network trending + volume leaders
 for N in $NETWORKS; do
   fetch_with_backoff "https://api.geckoterminal.com/api/v2/networks/${N}/trending_pools?page=1" "$TMPDIR/${N}-trend.json" \
-    && eval "${N}_TREND_OK=1" || eval "${N}_TREND_OK=0"
+    && printf -v "${N}_TREND_OK" %s 1 || printf -v "${N}_TREND_OK" %s 0
   sleep 1
   fetch_with_backoff "https://api.geckoterminal.com/api/v2/networks/${N}/pools?page=1&sort=h24_volume_usd_desc" "$TMPDIR/${N}-vol.json" \
-    && eval "${N}_VOL_OK=1" || eval "${N}_VOL_OK=0"
+    && printf -v "${N}_VOL_OK" %s 1 || printf -v "${N}_VOL_OK" %s 0
   sleep 1
 done
 
