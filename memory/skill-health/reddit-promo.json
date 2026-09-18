@@ -1,15 +1,11 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-17T17:51:23Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-sourced drafts for a timely signal; shows good judgment filtering candidates and tailoring to audience; operator can paste and post immediately.",
+  "last_analyzed": "2026-09-18T17:48:59Z",
+  "quality_score": 3,
+  "assessment": "Correct, well-reasoned execution of a legitimate no-op: properly filtered candidates, enforced constraints, and skipped gracefully—but didn't surface the core objective (BD signal/opportunities).",
   "flags": [],
-  "avg_score": 3.87,
+  "avg_score": 3.83,
   "history": [
-    {
-      "date": "2026-08-20",
-      "score": 4
-    },
     {
       "date": "2026-08-21",
       "score": 4
@@ -125,6 +121,10 @@
     {
       "date": "2026-09-17",
       "score": 4
+    },
+    {
+      "date": "2026-09-18",
+      "score": 3
     }
   ]
 }
