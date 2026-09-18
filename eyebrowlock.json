@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T01:28:32.914819495Z",
-  "generator": "eyebrow/0.4.1",
+  "generatedAt": "2026-09-18T14:52:08.460448Z",
+  "generator": "eyebrow/0.4.2",
   "artifacts": [
     {
       "id": "019b953b97c439b3",
@@ -90,10 +90,10 @@
       "files": [
         {
           "path": "SKILL.md",
-          "hash": "2dfd76c4a4a2c52679b5c8d8e35561226b7a112cdfb4b92c37adceec0c4192ec"
+          "hash": "7c928862e226fafa435cd1d7a06582e7f3f72a96040220f54746d77268e9cadb"
         }
       ],
-      "contentHash": "sha256-ecb4061108791a5069c38fe65876faab4933d0432289a55305bb4d8a91a97ca8",
+      "contentHash": "sha256-6242a67919676a12a3eb9c8c424e39ce9ca480cf7f1a9ac71ac38c07872e99eb",
       "discoveredFrom": "skills/github-trending/SKILL.md"
     },
     {
@@ -116,6 +116,10 @@
         {
           "path": "SKILL.md",
           "hash": "2d361d347e75552c08c2db5394fe3abecd9b1824c2120bf8e04b426e772982e8"
+        },
+        {
+          "path": "riva.md",
+          "hash": "e055f507d81ebc4582d30e0c9d3483921e787c83953afb5f67290274d1654bd5"
         }
       ],
       "findings": [
@@ -147,7 +151,7 @@
           "explanation": "downloads and executes remote code via a pipe to a shell"
         }
       ],
-      "contentHash": "sha256-5b8b0eb8750a738a41c9537345532b19d30e190f1bd4ef012a69b058dfc3e095",
+      "contentHash": "sha256-10996b4d63ad18fbd85155ba21d24f05284d75de76c7e779dcb5a6941b6d49f1",
       "discoveredFrom": "skills/vuln-scanner/SKILL.md"
     },
     {
@@ -304,10 +308,10 @@
       "files": [
         {
           "path": "SKILL.md",
-          "hash": "27cec81f6ae877ed7750ef4a0b6a31a47fbc47d585d2f4ce1a2d0a5d70d184c5"
+          "hash": "635cd85e2442be7753d578e4b939f2612759eec12e839c598e102256552df861"
         }
       ],
-      "contentHash": "sha256-c015552814cf6363126d946e61204026a610881f81f76c0dfa349e611cd16052",
+      "contentHash": "sha256-ffef3b2f524ccece3858ca73480e0aa3c5583bb8dc9817d8fdd298561cf1f911",
       "discoveredFrom": "skills/pr-review/SKILL.md"
     },
     {
@@ -387,8 +391,8 @@
       },
       "capabilities": {
         "network": [
-          "api.x.ai",
-          "api.twitterapi.io"
+          "api.twitterapi.io",
+          "api.x.ai"
         ]
       },
       "files": [
@@ -397,7 +401,7 @@
           "hash": "89bd5cbd87c4f2beecff18138f670073e2afd348b15eb35d47dfa89f6fa84b15"
         }
       ],
-      "contentHash": "sha256-b49bb853e3cbff80a5ed3c6d4eff28e5a0042abb8e77f2868fcb9bdb1ee04a44",
+      "contentHash": "sha256-c4bacdee744e1c68e97aed6823fbb3e2c45d3cc0fcd9477859ba3cde898c2f20",
       "discoveredFrom": "skills/mention-radar/SKILL.md"
     },
     {
@@ -414,14 +418,18 @@
       "files": [
         {
           "path": "SKILL.md",
-          "hash": "c48ea37f34cded006b38205fe5cb2578bc8b683b4881b08e565ca1d227ce589c"
+          "hash": "f5b8127627e1288068d84c545966745541dca046c57bb888d3dfd31659d3f968"
+        },
+        {
+          "path": "SKILL.md.AUMERGED",
+          "hash": "f5b8127627e1288068d84c545966745541dca046c57bb888d3dfd31659d3f968"
         },
         {
           "path": "tests/smoke.sh",
           "hash": "a3ac7e943a4ed22c600f3ac3e4433a1385c606b65c46de8c15e6b9967e3a07ae"
         }
       ],
-      "contentHash": "sha256-23bb5943fc72407eb2416316c8a4a27bb6996b15fded2d4ea603665d87995ce2",
+      "contentHash": "sha256-45c8664798568536ed005b9a6d0dee1f3af3edd10d15933e00f83d1d48a014fb",
       "discoveredFrom": "skills/skill-health/SKILL.md"
     },
     {
@@ -502,7 +510,7 @@
           "owasp": "ASK-06",
           "file": "run.mjs",
           "line": 10,
-          "snippet": ".flatMap((key) => process.env[key] === undefined ? [] : [[key, process.env[key]]]),",
+          "snippet": ".flatMap((key) =\u003e process.env[key] === undefined ? [] : [[key, process.env[key]]]),",
           "explanation": "references sensitive credential or secret paths"
         }
       ],
@@ -704,10 +712,14 @@
       "files": [
         {
           "path": "SKILL.md",
-          "hash": "a8e1b273588315e669314de73aa8897eecac33a07fca25e45cea4680169558fe"
+          "hash": "cda2e8dc4854186fa5bd26538038c3be33e32fe8663f0ebd1222ba07e458b2a3"
+        },
+        {
+          "path": "SKILL.md.AUMERGED",
+          "hash": "cda2e8dc4854186fa5bd26538038c3be33e32fe8663f0ebd1222ba07e458b2a3"
         }
       ],
-      "contentHash": "sha256-ed454e702d5aab34ba50ffe81494f685b3d470ccf8fc558bce46b52f5bc42112",
+      "contentHash": "sha256-f9d39f8e0a23dfed097de81f58de5947bd1a7c39906c1002449f6d2821b1461b",
       "discoveredFrom": "skills/feature/SKILL.md"
     },
     {
@@ -775,10 +787,10 @@
       "files": [
         {
           "path": "SKILL.md",
-          "hash": "0d96f97fc04f7669e8a68d5043dc18d69d12a68408c6b6e8a888dccb4114c364"
+          "hash": "1500ae5aa2aeda82c537525457e3deef1e572a71095ae9859f5ba9f75cdab311"
         }
       ],
-      "contentHash": "sha256-53b7d2ff6586e3476ba514d7aff7f79d9b2164922ce85cd289b31c4d81326d99",
+      "contentHash": "sha256-d2e173b7fa610dd4d78187c8c7d773059c1d59a06474ce081bf7f1663761971e",
       "discoveredFrom": "skills/changelog/SKILL.md"
     },
     {
@@ -860,6 +872,26 @@
       ],
       "contentHash": "sha256-63628b5640e4762fbf7719b763c4959e29c180a712ac55e4c3433658dc8592b1",
       "discoveredFrom": "skills/skill-repair/SKILL.md"
+    },
+    {
+      "id": "6e7a47cec3e669ba",
+      "tool": "aeon",
+      "scope": "project:.",
+      "type": "skill",
+      "name": "reddit-scorecard",
+      "source": {
+        "kind": "local",
+        "ref": "skills/reddit-scorecard"
+      },
+      "capabilities": {},
+      "files": [
+        {
+          "path": "SKILL.md",
+          "hash": "43581f1966df0d99be82fe5f8f4bae67bda910278baa7bc20ed11f309ad5aac6"
+        }
+      ],
+      "contentHash": "sha256-466a6bb980d3c4e6a4bcbd4348c66f6e53b303933a522e6876870d40928ec787",
+      "discoveredFrom": "skills/reddit-scorecard/SKILL.md"
     },
     {
       "id": "709dd46ed284c84b",
@@ -973,8 +1005,8 @@
       },
       "capabilities": {
         "network": [
-          "api.x.ai",
-          "api.twitterapi.io"
+          "api.twitterapi.io",
+          "api.x.ai"
         ]
       },
       "files": [
@@ -983,7 +1015,7 @@
           "hash": "78a375fddb8c8f6bce54c3a8c3fc4725546e91478884d03901beacc8f491a28a"
         }
       ],
-      "contentHash": "sha256-0f7563a0ca509773cbad1ffc0838d64d933b632754b3ef3572e6d17fe9fcc6eb",
+      "contentHash": "sha256-1ec219d6e26a4892f6415e05b5755e99d5bc9d72c3d94e911461c5da57d37323",
       "discoveredFrom": "skills/bd-radar/SKILL.md"
     },
     {
@@ -1149,6 +1181,26 @@
       ],
       "contentHash": "sha256-d5b7cbad214d2e2c4050e41fc89107706c46e8be5db4f230f7c7a66a261c2f69",
       "discoveredFrom": "skills/heartbeat/SKILL.md"
+    },
+    {
+      "id": "9564d7b5bcc50cb4",
+      "tool": "aeon",
+      "scope": "project:.",
+      "type": "skill",
+      "name": "reddit-playbook",
+      "source": {
+        "kind": "local",
+        "ref": "skills/reddit-playbook"
+      },
+      "capabilities": {},
+      "files": [
+        {
+          "path": "SKILL.md",
+          "hash": "89ae06e3753a1da5c7e17a25ab7b196b1abbf1deab07ea5a2e25aa485534e889"
+        }
+      ],
+      "contentHash": "sha256-8038af98324cc5f61db50b1205e1c2fb552af788403f198cc5399a01f101a613",
+      "discoveredFrom": "skills/reddit-playbook/SKILL.md"
     },
     {
       "id": "963b1cff6e9f141a",
@@ -1349,6 +1401,26 @@
       "discoveredFrom": "skills/defi-overview/SKILL.md"
     },
     {
+      "id": "bde8289586949229",
+      "tool": "aeon",
+      "scope": "project:.",
+      "type": "skill",
+      "name": "competitor-monitor",
+      "source": {
+        "kind": "local",
+        "ref": "skills/competitor-monitor"
+      },
+      "capabilities": {},
+      "files": [
+        {
+          "path": "SKILL.md",
+          "hash": "0b4cb0f9817bfdca9d09c08bfb0faa413832c6b10ca728fd35ce565d005f0eaf"
+        }
+      ],
+      "contentHash": "sha256-df865d28e52b7b8f71bc71ef69d5005ff1a46b1f0d165bc0bc2bcbaf2c7e7d36",
+      "discoveredFrom": "skills/competitor-monitor/SKILL.md"
+    },
+    {
       "id": "c5fa0f53c33c5553",
       "tool": "aeon",
       "scope": "project:.",
@@ -1479,10 +1551,10 @@
       "files": [
         {
           "path": "SKILL.md",
-          "hash": "a253c74725e00aabea191e70245c5f46c585d646b52efe7c2e8f1b2a4368347d"
+          "hash": "a808dbd41be10c750745666881fefe15c3806f352b25949a5f2daa99412f3aff"
         }
       ],
-      "contentHash": "sha256-b53d6970053fbb0cf038143ba2ba8976ee4dc58cc7131e052e78af392805d85f",
+      "contentHash": "sha256-2047beb26f731609be1d88b2a66618816c34f8ddb0c51d922ae7524d73794d33",
       "discoveredFrom": "skills/send-email/SKILL.md"
     },
     {
@@ -1612,9 +1684,9 @@
       },
       "capabilities": {
         "network": [
+          "api.twitterapi.io",
           "api.x.ai",
-          "x.com",
-          "api.twitterapi.io"
+          "x.com"
         ]
       },
       "files": [
@@ -1623,7 +1695,7 @@
           "hash": "ab20ee061216bfcb0a282272f0c01363219d86f45a2a2cc05d2d797eec8b2b14"
         }
       ],
-      "contentHash": "sha256-abfca757261285193875180e1294000bb2ffe6e90cc62d040ecbf1ca9cd34b9d",
+      "contentHash": "sha256-8c58c9755f482094ef74925915d159eb3a0e8ca0be28d38a6a94b8a34e51aa79",
       "discoveredFrom": "skills/fetch-tweets/SKILL.md"
     },
     {
@@ -1647,10 +1719,10 @@
       "files": [
         {
           "path": "SKILL.md",
-          "hash": "c6a9a7b0ccdc38bd9b0448a6233a6ec7685c8752e9cd117054630d2bad1bf2cd"
+          "hash": "84a709e838bce66d16f6ea384330564c700a5367ae636678d76fdb0c24b7ab60"
         }
       ],
-      "contentHash": "sha256-f5c404fdd5cafe9741222e07a6106c9a2ee413cb0cec89c44e4bf14286a9ac7a",
+      "contentHash": "sha256-ad5b78dadeda82c0b77482b93d0cfc6fb689186fc37b660b632e7a227ceb7df6",
       "discoveredFrom": "skills/token-movers/SKILL.md"
     },
     {
@@ -1667,7 +1739,7 @@
       "files": [
         {
           "path": "SKILL.md",
-          "hash": "40852bbefff47692506db1b4bb38c655aef6b57b2d3de37b3b0fdf8ba1eb272a"
+          "hash": "25b5cd628211b0ef263c2cda1633289535c464734f726e9696388b35d0a87e07"
         }
       ],
       "findings": [
@@ -1681,68 +1753,8 @@
           "explanation": "references sensitive credential or secret paths"
         }
       ],
-      "contentHash": "sha256-a007b63e6ed5255fd62d39ed78dfa3bad9a20772f914e8d63115f4fadd508198",
+      "contentHash": "sha256-d7981bbd0cfb4cbf2bbe5ce87e09e1a9396d61f1f845c26b713402c28355bbc4",
       "discoveredFrom": "skills/aeon-update/SKILL.md"
-    },
-    {
-      "id": "9564d7b5bcc50cb4",
-      "tool": "aeon",
-      "scope": "project:.",
-      "type": "skill",
-      "name": "reddit-playbook",
-      "source": {
-        "kind": "local",
-        "ref": "skills/reddit-playbook"
-      },
-      "capabilities": {},
-      "files": [
-        {
-          "path": "SKILL.md",
-          "hash": "89ae06e3753a1da5c7e17a25ab7b196b1abbf1deab07ea5a2e25aa485534e889"
-        }
-      ],
-      "contentHash": "sha256-8038af98324cc5f61db50b1205e1c2fb552af788403f198cc5399a01f101a613",
-      "discoveredFrom": "skills/reddit-playbook/SKILL.md"
-    },
-    {
-      "id": "6e7a47cec3e669ba",
-      "tool": "aeon",
-      "scope": "project:.",
-      "type": "skill",
-      "name": "reddit-scorecard",
-      "source": {
-        "kind": "local",
-        "ref": "skills/reddit-scorecard"
-      },
-      "capabilities": {},
-      "files": [
-        {
-          "path": "SKILL.md",
-          "hash": "43581f1966df0d99be82fe5f8f4bae67bda910278baa7bc20ed11f309ad5aac6"
-        }
-      ],
-      "contentHash": "sha256-466a6bb980d3c4e6a4bcbd4348c66f6e53b303933a522e6876870d40928ec787",
-      "discoveredFrom": "skills/reddit-scorecard/SKILL.md"
-    },
-    {
-      "id": "bde8289586949229",
-      "tool": "aeon",
-      "scope": "project:.",
-      "type": "skill",
-      "name": "competitor-monitor",
-      "source": {
-        "kind": "local",
-        "ref": "skills/competitor-monitor"
-      },
-      "capabilities": {},
-      "files": [
-        {
-          "path": "SKILL.md",
-          "hash": "ff2d1681a378aee7d312a81db58968bd2db2f87d2003ecbaa0b2675a0d3415db"
-        }
-      ],
-      "contentHash": "sha256-6066b1ce857a45e03ed0b13260800438555b5d941980c7ed47fd5e2071c9c3ff",
-      "discoveredFrom": "skills/competitor-monitor/SKILL.md"
     }
   ]
 }
