@@ -1,10 +1,12 @@
 {
   "skill": "competitor-monitor",
-  "last_analyzed": "2026-09-18T06:08:34Z",
-  "quality_score": 3,
-  "assessment": "Legitimate completed task — correctly monitored the watched page, found no changes, followed protocol by not notifying on silence, and documented the run properly.",
-  "flags": [],
-  "avg_score": 2.67,
+  "last_analyzed": "2026-09-19T06:08:35Z",
+  "quality_score": 2,
+  "assessment": "Skill executed cleanly but misaligned with operator strategy — monitoring NVIDIA's security page produces no BD signal, ecosystem intel, or moves that advance Aeon/Miroshark's north-star metrics.",
+  "flags": [
+    "generic_content"
+  ],
+  "avg_score": 2.62,
   "history": [
     {
       "date": "2026-09-09",
@@ -53,6 +55,10 @@
     {
       "date": "2026-09-18",
       "score": 3
+    },
+    {
+      "date": "2026-09-19",
+      "score": 2
     }
   ]
 }
