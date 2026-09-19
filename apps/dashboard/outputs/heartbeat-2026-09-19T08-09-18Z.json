@@ -1,0 +1,174 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat — 2026-09-19",
+        "description": "System health check"
+      },
+      "children": [
+        "section-scheduler",
+        "sep-1",
+        "section-fleet",
+        "sep-2",
+        "section-page"
+      ]
+    },
+    "section-scheduler": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-scheduler",
+        "alert-reddit",
+        "text-context-1",
+        "text-context-2",
+        "text-otherwise"
+      ]
+    },
+    "h-scheduler": {
+      "type": "Heading",
+      "props": {
+        "text": "🔵 Scheduler",
+        "level": "h2"
+      }
+    },
+    "alert-reddit": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "reddit-scorecard: Never Dispatched",
+        "message": "reddit-scorecard (enabled weekly Sun 10:00 UTC) has zero entries in cron-state.json — never dispatched."
+      }
+    },
+    "text-context-1": {
+      "type": "Text",
+      "props": {
+        "text": "Sibling reddit-playbook (same config block) already has 6 completed runs, so this isn't a fresh-skill grace window.",
+        "variant": "body"
+      }
+    },
+    "text-context-2": {
+      "type": "Text",
+      "props": {
+        "text": "Worth checking scheduler wiring.",
+        "variant": "body"
+      }
+    },
+    "text-otherwise": {
+      "type": "Text",
+      "props": {
+        "text": "Otherwise fleet clean.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-fleet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-fleet",
+        "fleet-item-1",
+        "fleet-item-2",
+        "fleet-item-3"
+      ]
+    },
+    "h-fleet": {
+      "type": "Heading",
+      "props": {
+        "text": "Fleet Status",
+        "level": "h2"
+      }
+    },
+    "fleet-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "bd-radar + competitor-monitor both ran fresh today",
+        "variant": "body"
+      }
+    },
+    "fleet-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "No failed/stuck skills",
+        "variant": "body"
+      }
+    },
+    "fleet-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "No stalled PRs",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-page": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-page",
+        "text-page",
+        "carryovers"
+      ]
+    },
+    "h-page": {
+      "type": "Heading",
+      "props": {
+        "text": "🟡 Page Status",
+        "level": "h2"
+      }
+    },
+    "text-page": {
+      "type": "Text",
+      "props": {
+        "text": "Page stays WATCH on the same two carryovers:",
+        "variant": "body"
+      }
+    },
+    "carryovers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-digest",
+        "link-issue"
+      ]
+    },
+    "badge-digest": {
+      "type": "Badge",
+      "props": {
+        "text": "disabled digest",
+        "variant": "outline"
+      }
+    },
+    "link-issue": {
+      "type": "Link",
+      "props": {
+        "label": "issue #100",
+        "href": "https://github.com/aeon-bd/aeon-bd/issues/100"
+      }
+    }
+  }
+}
