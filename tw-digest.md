@@ -1,5 +1,3 @@
-ℹ️ Top Tweets
-
 *Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-19)*
 _Quiet day, no viral moment — but two concrete BD asks aimed at Aeon leadership and a fresh CultOS usage receipt with hard numbers._
 

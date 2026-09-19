@@ -1,0 +1,209 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets",
+        "description": "@aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-19)"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_summary",
+        "sep1",
+        "section1_heading",
+        "section1_stack",
+        "sep2",
+        "section2_heading",
+        "section2_stack",
+        "sep3",
+        "section3_heading",
+        "section3_stack"
+      ]
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet day, no viral moment — but two concrete BD asks aimed at Aeon leadership and a fresh CultOS usage receipt with hard numbers.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BD asks aimed at Aeon",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "section1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1_card",
+        "tweet1_link",
+        "tweet2_card",
+        "tweet2_link"
+      ]
+    },
+    "tweet1_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "weaponheadsNFT",
+        "text": "Asks @aaronjmars for a v4 hook (92% auto-compound, 8% auto buy-and-burn on $MSTR) built for the Hook Marketplace so the Moon8onBASE community can adopt it — a concrete builder request, not generic praise.",
+        "likes": 2,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/weaponheadsNFT/status/2101274823557103999"
+      },
+      "children": []
+    },
+    "tweet2_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "text": "Publicly asks Base's Jesse Pollak to run an Aeon agent — a direct ask at a Base-ecosystem name, worth tracking for a reply.",
+        "likes": 2,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xNurstar/status/2101252563953680530"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS ships more receipts",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "section2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet3_card",
+        "tweet3_link"
+      ]
+    },
+    "tweet3_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "text": "New usage stats: 11 Aeon jobs settled on Base for $2.20 USDC total (median 37s end-to-end, flat $0.20/job for 3k-50k input tokens) — a full PR audit + repo vuln scan + SEO audit + triage, cheaper than one dev-tool seat.",
+        "likes": 6,
+        "retweets": 1
+      },
+      "children": []
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2101048281602146370"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "$AEON market chatter",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "section3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet4_card",
+        "tweet4_link",
+        "tweet5_card",
+        "tweet5_link"
+      ]
+    },
+    "tweet4_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "cryptobazigar",
+        "text": "Unverified community speculation calling for $AEON to re-price from ~$1.6M mcap toward $10M+ — price chatter, not a claim we can verify or endorse.",
+        "likes": 10,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "tweet4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/cryptobazigar/status/2101225816008937525"
+      },
+      "children": []
+    },
+    "tweet5_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "text": "Bankr's 24h overview lists $aeon in both \"Most traded\" and \"Trending\" among AI-on-Base tokens — a secondary visibility signal, not a price claim.",
+        "likes": 15,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "tweet5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2101119835128189026"
+      },
+      "children": []
+    }
+  }
+}
