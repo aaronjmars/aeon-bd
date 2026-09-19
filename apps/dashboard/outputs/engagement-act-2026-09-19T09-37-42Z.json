@@ -1,0 +1,309 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act — 09-19",
+        "description": "vs 2026-09-17 — 2 new opps, 2 drafted, 0 aging"
+      },
+      "children": [
+        "stats_section",
+        "sep1",
+        "opp1_section",
+        "opp2_section",
+        "sep2",
+        "dropped_section"
+      ]
+    },
+    "stats_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_new",
+        "stat_drafted",
+        "stat_aging"
+      ]
+    },
+    "stat_new": {
+      "type": "Stat",
+      "props": {
+        "label": "New Opps",
+        "value": "2"
+      }
+    },
+    "stat_drafted": {
+      "type": "Stat",
+      "props": {
+        "label": "Drafted",
+        "value": "2"
+      }
+    },
+    "stat_aging": {
+      "type": "Stat",
+      "props": {
+        "label": "Aging",
+        "value": "0"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opp1_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_header",
+        "opp1_details",
+        "opp1_context",
+        "opp1_draft"
+      ]
+    },
+    "opp1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_author_link",
+        "opp1_type_badge",
+        "opp1_leverage_badge"
+      ]
+    },
+    "opp1_author_link": {
+      "type": "Link",
+      "props": {
+        "label": "@svector_eth",
+        "href": "https://x.com/svector_eth"
+      }
+    },
+    "opp1_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "opp1_leverage_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "mid (~1.7k followers, verified)",
+        "variant": "outline"
+      }
+    },
+    "opp1_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_expires_text",
+        "opp1_thread_link"
+      ]
+    },
+    "opp1_expires_text": {
+      "type": "Text",
+      "props": {
+        "text": "Expires: 2026-10-02",
+        "variant": "caption"
+      }
+    },
+    "opp1_thread_link": {
+      "type": "Link",
+      "props": {
+        "label": "View thread",
+        "href": "https://x.com/svector_eth/status/2100494869504688468"
+      }
+    },
+    "opp1_context": {
+      "type": "Text",
+      "props": {
+        "text": "Pitched Aeon directly to @jessepollak (Base co-founder) mid-thread — mention-radar flagged the live-thread window as closing today (09-19). Reply while it's still hot, don't wait for the formal 14-day window.",
+        "variant": "body"
+      }
+    },
+    "opp1_draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1_draft_label",
+        "opp1_draft_text"
+      ]
+    },
+    "opp1_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "caption"
+      }
+    },
+    "opp1_draft_text": {
+      "type": "Text",
+      "props": {
+        "text": "that's the exact loop aeon runs unattended today — scan, patch, open the PR, no approval step. self-repair is the moat ⭐",
+        "variant": "body"
+      }
+    },
+    "opp2_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_header",
+        "opp2_details",
+        "opp2_context",
+        "opp2_draft"
+      ]
+    },
+    "opp2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_author_link",
+        "opp2_type_badge",
+        "opp2_leverage_badge"
+      ]
+    },
+    "opp2_author_link": {
+      "type": "Link",
+      "props": {
+        "label": "@SmartSentinels_",
+        "href": "https://x.com/SmartSentinels_"
+      }
+    },
+    "opp2_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "secondary"
+      }
+    },
+    "opp2_leverage_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "mid (~2.8k followers, project account)",
+        "variant": "outline"
+      }
+    },
+    "opp2_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_expires_text",
+        "opp2_thread_link"
+      ]
+    },
+    "opp2_expires_text": {
+      "type": "Text",
+      "props": {
+        "text": "Expires: 2026-10-03",
+        "variant": "caption"
+      }
+    },
+    "opp2_thread_link": {
+      "type": "Link",
+      "props": {
+        "label": "View thread",
+        "href": "https://x.com/SmartSentinels_/status/2100965831685628236"
+      }
+    },
+    "opp2_context": {
+      "type": "Text",
+      "props": {
+        "text": "Replied to @aeonframework's Smart Contract Audit skill-spotlight tweet pushing for reproducible audit standards — bound contract+version, severity-ranked output with evidence, a reviewable trail. 0 engagement so far, posted 0 days ago.",
+        "variant": "body"
+      }
+    },
+    "opp2_draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_draft_label",
+        "opp2_draft_text"
+      ]
+    },
+    "opp2_draft_label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft response:",
+        "variant": "caption"
+      }
+    },
+    "opp2_draft_text": {
+      "type": "Text",
+      "props": {
+        "text": "fair ask. today's audit skill output is already severity-ranked with file/line evidence — full trail on public dep-CVE PRs, redacted for private disclosures. commit-sha-bound receipt isn't wired in yet, that's a real gap worth closing",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "dropped_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dropped_heading",
+        "dropped_item1",
+        "dropped_item2",
+        "dropped_item3"
+      ]
+    },
+    "dropped_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Dropped",
+        "level": "h3"
+      }
+    },
+    "dropped_item1": {
+      "type": "Text",
+      "props": {
+        "text": "@thecultos — dedup since 08-27, DM-expiry now 23d lapsed (operator check-in item, not a fresh draft)",
+        "variant": "body"
+      }
+    },
+    "dropped_item2": {
+      "type": "Text",
+      "props": {
+        "text": "@CthyllaKassogth — feature-request critique of CultOS's audit-receipt scope, still-open 3rd run in a row (same \"needling a partner's methodology\" call held by engagement-act/reddit-playbook on 09-15/09-17)",
+        "variant": "body"
+      }
+    },
+    "dropped_item3": {
+      "type": "Text",
+      "props": {
+        "text": "@0xNurstar, @Vanxyrus — mention-radar 09-18 Discovery mentions, neither flagged as an engagement opp, both routine/no fresh ask",
+        "variant": "body"
+      }
+    }
+  }
+}
