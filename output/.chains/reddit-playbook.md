@@ -1,35 +1,24 @@
-Ran the reddit-playbook skill for 2026-09-17. Verdict: **skip, no notification** — same-day double-dispatch with reddit-promo (which ran earlier today and already spent the one strong story), and nothing else in the 7-day window clears the promotable bar.
+Now producing the final captured output with the substance of this run, per the skill's skip path and the CLAUDE.md output contract.
 
-## Reddit Playbook — 2026-09-17
+## Reddit Playbook — 2026-09-19
 
-**Status:** `REDDIT_PLAYBOOK_SKIP: no fresh promotable items`
+**Status: SKIP — no fresh promotable items**
 
-**Scan window:** last 7 days of `memory/logs/` (09-11→09-17), every unseen candidate URL cross-checked against `memory/reddit-promo-seen.txt`.
+Ran the full scan (last 7 days of `memory/logs/`, 09-13→09-19, plus `apps/dashboard/outputs/fetch-tweets-*.json`, every unseen URL cross-checked against `memory/reddit-promo-seen.txt`) and came up empty for a genuinely new, unseen, promotable story.
 
-**Same-day double-dispatch:** reddit-promo ran first today (before this 18:15 slot) and took the one strong story available — Miroshark going properly agentic via bankrbot's autonomous $1 USDC x402 payment in Musebook's Town Hall (svector_eth). Headline + 2 supporting URLs (bankrbot, Dannyhbrown) are already in the seen-file.
+**Why:** same-day double-dispatch. `reddit-promo` ran earlier today (17:45 UTC) and already took the one strong item in today's fetch-tweets crop — CultOS's first hard usage-stats tweet (11 Aeon jobs settled on Base via x402, $2.20 USDC total, median 37s end-to-end, flat $0.20/job) — [x.com/thecultos/status/2101048281602146370](https://x.com/thecultos/status/2101048281602146370), now recorded in the seen-file.
 
-**Today's remaining crop, both rejected:**
-- `akathesmith`/`thecultos` — identical praise line posted 24min apart (same x402aff cluster MEMORY.md already flags as suspicious templated messaging, not organic endorsement).
-- `24Shays` — a personal buy rationale replying to token-FUD; brushes the no financial-advice/buy-sell constraint, not a clean third-party proof point.
+**Today's remaining crop, all rejected:**
+- `weaponheadsNFT` — v4 hook feature request for the Hook Marketplace → BD ask, not an endorsement to amplify (engagement-act/bd-radar's lane).
+- `0xNurstar` — public ask for Base's Jesse Pollak to run an Aeon agent → same, a request not a proof point.
+- `cryptobazigar` — unverified $1.6M→$10M+ mcap speculation → brushes the no-financial-advice/no-buy-sell-calls hard constraint, excluded outright.
+- `AIonBase_` — Bankr "most traded"/"trending" list mention → same financial-adjacent exclusion.
 
-**Prior-week candidates re-checked, all held or already used:**
-- CultOS x402 catalog/audit-pitch beat (recurring since 09-10) — excluded every run as an overused supporting point.
-- freya_xbt Base AI tier-list — routine-aggregator account, rejected repeatedly.
-- archtuxfan's Hook Marketplace UI question — real prospect signal but zero substance; engagement-act's lane (drafted a reply for the same handle again today).
-- CthyllaKassogth's audit-receipt-scope critique — sharp but zero-engagement, reads as needling a partner; engagement-act passed on it today for the same reason.
-- akathesmith's unverified "secured a @Google repo" claim — not corroborated, fails verify-before-claim.
-- moltycash's "considering @aeonframework" — an intent statement, not a provable event; BD lane.
-- aaronjmars's "have been using @aeonframework, really good" testimonial (09-09, now 8 days old, 2 left in window) — pure brand-as-subject with no third-party proof chain, the exact anti-pattern this skill excludes.
-- Submit Hook skill, MiroShark video export, Hooks Marketplace, eyebrow observer story — all already seen from earlier promos.
+**Prior-week candidates re-checked, all already used or already judged:** 09-18's SmartSentinels_/carlosjmelgar (rejected same day), 09-17's Musebook/bankrbot x402 story (used 09-17), 09-17's akathesmith/thecultos praise pair + 24Shays reply (templated/financial-adjacent), 09-16's CultOS x402aff repeat + Hook Marketplace 3rd-repeat + FUD (all rejected 09-16), 09-15's Hayden Adams/0xProject debate (used 09-15), 09-14's freya_xbt tier-list + akathesmith unverified claim + 0xNurstar push (all rejected 09-14). aaronjmars's 09-09 testimonial has now aged out of the 10-day promo window.
 
-**No newshook:** the Musebook/bankrbot story is the only live 24-48h agent/AI news, and it's already spent by today's reddit-promo run.
+**Cadence clock (visibility only):** 0d since last promo — `reddit-promo` already posted today. This skill's own last OK stays 2026-09-06 (eyebrow observer-report story) — today is a **7th consecutive skip**. That's structural, not a gap: this skill only gets a genuinely fresh angle when `reddit-promo` leaves something on the table, and it hasn't lately.
 
-**Cadence clock (visibility only):** 0d since last promo (reddit-promo posted today). This skill's own last OK stays 2026-09-06 (eyebrow observer-report) — 6th consecutive skip (09-07, 09-09, 09-11, 09-13, 09-15, today).
-
-**Notified:** no — per skill rule, silence beats a filler post.
+No draft, no notification sent — per the skill's rule, silence beats a filler post.
 
 ## Summary
-- Read `memory/MEMORY.md`, `memory/products.md`, `memory/reddit-promo-seen.txt`, `memory/topics/reddit-playbook-subreddits.md`, and 7 days of `memory/logs/` (09-11→09-17).
-- Found no unseen, non-recurring, verifiable promotable item — reddit-promo had already consumed today's only strong story.
-- Appended a `### reddit-playbook` skip entry (with full reasoning) to `memory/logs/2026-09-17.md`. No files drafted, no seen-file update, no notification sent.
-- Follow-up: none — this is expected behavior per the skill's high promotable bar; worth flagging to the operator only if the double-dispatch pattern (reddit-promo eating the day's story before reddit-playbook's slot) keeps making this skill structurally unable to post.
+Scanned 7 days of fetch-tweets output; found nothing promotable that wasn't already claimed by today's `reddit-promo` run or excluded by the financial-advice/BD-ask filters. Logged `REDDIT_PLAYBOOK_SKIP` to `memory/logs/2026-09-19.md` and committed (`cd12ba8`). No files drafted, no seen-file update needed, no follow-up action required — this is now a 7th straight skip, worth a look if it becomes a permanent pattern (i.e., whether reddit-playbook's dispatch slot should move earlier than reddit-promo's, or the two skills should coordinate on story selection).

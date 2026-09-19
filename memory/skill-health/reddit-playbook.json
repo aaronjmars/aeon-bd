@@ -1,10 +1,10 @@
 {
   "skill": "reddit-playbook",
-  "last_analyzed": "2026-09-17T18:32:40Z",
-  "quality_score": 4,
-  "assessment": "Thorough, verifiable scan with disciplined constraint enforcement; sound no-op decision; transparently flagged scheduling bottleneck but appropriately didn't escalate prematurely.",
+  "last_analyzed": "2026-09-19T18:28:33Z",
+  "quality_score": 3,
+  "assessment": "Competently executed skip with clear reasoning, but 7th consecutive no-op suggests skill is structurally blocked or redundant relative to reddit-promo",
   "flags": [],
-  "avg_score": 3.71,
+  "avg_score": 3.63,
   "history": [
     {
       "date": "2026-09-06",
@@ -33,6 +33,10 @@
     {
       "date": "2026-09-17",
       "score": 4
+    },
+    {
+      "date": "2026-09-19",
+      "score": 3
     }
   ]
 }
