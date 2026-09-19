@@ -1,0 +1,305 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-09-19",
+        "description": "2d since last promo · 3 subs drafted"
+      },
+      "children": [
+        "story_section",
+        "sep1",
+        "post1_section",
+        "post2_section",
+        "post3_section"
+      ]
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_label",
+        "story_text",
+        "story_url"
+      ]
+    },
+    "story_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h3"
+      }
+    },
+    "story_text": {
+      "type": "Text",
+      "props": {
+        "text": "CultOS posted its first hard usage numbers running on Aeon — 11 agent jobs settled on Base via x402, $2.20 USDC total, median 37s end-to-end, flat $0.20/job — instead of the usual pitch language"
+      }
+    },
+    "story_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/thecultos/status/2101048281602146370",
+        "href": "https://x.com/thecultos/status/2101048281602146370"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "post1_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p1_header",
+        "p1_title",
+        "p1_body",
+        "p1_link_label",
+        "p1_link",
+        "p1_composer",
+        "p1_notes"
+      ]
+    },
+    "p1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p1_sub",
+        "p1_archetype"
+      ]
+    },
+    "p1_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/StartupMind",
+        "level": "h3"
+      }
+    },
+    "p1_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "startup",
+        "variant": "secondary"
+      }
+    },
+    "p1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "A partner just posted our first hard usage numbers — 11 agent jobs, $2.20 total, $0.20/job",
+        "level": "h4"
+      }
+    },
+    "p1_body": {
+      "type": "Text",
+      "props": {
+        "text": "I build Aeon — an open-source framework where \"skills\" are just markdown files that run themselves on GitHub Actions, no approval loop, no human babysitting a bot.\n\nYesterday a team building on top of us (CultOS) posted the first hard usage numbers instead of the usual \"we love this\" post: 11 agent jobs settled on Base via x402, $2.20 USDC total, median 37 seconds end-to-end, flat $0.20/job for 3k-50k input tokens. That covered a full PR audit, a repo vuln scan, an SEO audit, and issue triage — four jobs for less than the price of one dev-tool seat.\n\nWhat made me want to share it: none of that ran through us. They pointed their own agent at our skills, metered payment through x402, and just used it. No sales call, no onboarding call, no support ticket.\n\nThat's the bet behind Aeon: if the framework is good enough, the traction shows up as receipts like this, not testimonials.\n\nMore on how the skills work: https://aeon.fun\n\nHappy to answer anything about the setup, the x402 payment flow, or how skills actually run unattended."
+      }
+    },
+    "p1_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "p1_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "p1_composer": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=A%20partner%20just%20posted%20our%20first%20hard%20usage%20numbers%20%E2%80%94%2011%20agent%20jobs%2C%20%242.20%20total%2C%20%240.20%2Fjob",
+        "source": "Reddit"
+      }
+    },
+    "p1_notes": {
+      "type": "Text",
+      "props": {
+        "text": "disclose as builder (\"I build Aeon\"), not a neutral discoverer — StartupMind is founder-story-friendly but wants substance over hype, keep the numbers front and center.",
+        "variant": "caption"
+      }
+    },
+    "post2_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p2_header",
+        "p2_title",
+        "p2_body",
+        "p2_link_label",
+        "p2_link",
+        "p2_composer",
+        "p2_notes"
+      ]
+    },
+    "p2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p2_sub",
+        "p2_archetype"
+      ]
+    },
+    "p2_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/Agent_AI",
+        "level": "h3"
+      }
+    },
+    "p2_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "p2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "A third party ran 11 paid agent jobs on our framework without talking to us once — some real numbers",
+        "level": "h4"
+      }
+    },
+    "p2_body": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon is a framework where agent capabilities (\"skills\") are markdown files that run on a schedule via GitHub Actions — no approval loop, no human in the middle deciding whether to let the agent act.\n\nThe interesting part isn't the framework, it's what happened without us: a team (CultOS) wired their own agent to call our skills over x402 (wallet-native, pay-per-call) and posted the receipts — 11 jobs settled on Base, $2.20 USDC total, median 37s end-to-end, flat $0.20/job across a PR audit, a vuln scan, an SEO audit, and issue triage.\n\nFor this audience specifically: the thing worth noticing is the autonomy stack that made this possible — skills execute headless, get paid headless, and the only human step was someone deciding to point their agent at us in the first place.\n\nRepo: https://github.com/aeonfun/aeon\n\nIf you're building something that calls out to other agents/services autonomously — curious how you're handling metering/payment on your end. x402 is still early and I don't think anyone's fully solved discovery yet."
+      }
+    },
+    "p2_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "p2_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "p2_composer": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open r/Agent_AI composer",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=A%20third%20party%20ran%2011%20paid%20agent%20jobs%20on%20our%20framework%20without%20talking%20to%20us%20once%20%E2%80%94%20some%20real%20numbers",
+        "source": "Reddit"
+      }
+    },
+    "p2_notes": {
+      "type": "Text",
+      "props": {
+        "text": "disclose as builder, not a neutral third party — r/Agent_AI tends fine with self-promo when there's a real technical angle, keep it comparison-not-trash-talk.",
+        "variant": "caption"
+      }
+    },
+    "post3_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p3_header",
+        "p3_title",
+        "p3_body",
+        "p3_link_label",
+        "p3_link",
+        "p3_composer",
+        "p3_notes"
+      ]
+    },
+    "p3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p3_sub",
+        "p3_archetype"
+      ]
+    },
+    "p3_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/aiecosystem",
+        "level": "h3"
+      }
+    },
+    "p3_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "agents",
+        "variant": "secondary"
+      }
+    },
+    "p3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "What it actually costs to run an AI agent job end-to-end: $0.20, 37 seconds (real numbers, not a benchmark)",
+        "level": "h4"
+      }
+    },
+    "p3_body": {
+      "type": "Text",
+      "props": {
+        "text": "Most \"cost of AI agents\" numbers I see are benchmarks run by the vendor. This one isn't — it's a third party's actual bill.\n\nCultOS runs on Aeon (open-source agent framework, skills-as-markdown, GitHub Actions cron) and posted their usage stats without us asking: 11 jobs settled on Base via x402, $2.20 USDC total, median 37 seconds end-to-end, flat $0.20/job for 3k-50k input tokens. The jobs themselves: a full PR audit, a repo vuln scan, an SEO audit, and issue triage — four distinct workflows, same flat rate.\n\nWhat I think is actually interesting for this sub: x402 makes the economics visible in a way subscription APIs don't. You can see exactly what an autonomous agent task costs to run, per call, with no seat or plan obscuring it.\n\nMore on how it works: https://aeon.fun\n\nCurious if others here have seen similar per-call cost breakdowns from x402 or other micropayment rails — feels like an underused way to actually compare agent stacks."
+      }
+    },
+    "p3_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "p3_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "p3_composer": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open r/aiecosystem composer",
+        "href": "https://www.reddit.com/r/aiecosystem/submit?title=What%20it%20actually%20costs%20to%20run%20an%20AI%20agent%20job%20end-to-end%3A%20%240.20%2C%2037%20seconds%20%28real%20numbers%2C%20not%20a%20benchmark%29",
+        "source": "Reddit"
+      }
+    },
+    "p3_notes": {
+      "type": "Text",
+      "props": {
+        "text": "disclose as builder (\"I build Aeon\"), said upfront — r/aiecosystem is fine with vendor posts if there's a genuine data point, keep the framing on the number, not the product.",
+        "variant": "caption"
+      }
+    }
+  }
+}

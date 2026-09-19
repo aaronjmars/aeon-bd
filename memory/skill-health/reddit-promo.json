@@ -1,15 +1,11 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-18T17:48:59Z",
-  "quality_score": 3,
-  "assessment": "Correct, well-reasoned execution of a legitimate no-op: properly filtered candidates, enforced constraints, and skipped gracefully—but didn't surface the core objective (BD signal/opportunities).",
+  "last_analyzed": "2026-09-19T17:51:08Z",
+  "quality_score": 4,
+  "assessment": "Solid GTM work — three audience-tailored Reddit posts from a verified third-party usage signal; production-ready with strong judgment in candidate filtering and audience targeting.",
   "flags": [],
   "avg_score": 3.83,
   "history": [
-    {
-      "date": "2026-08-21",
-      "score": 4
-    },
     {
       "date": "2026-08-22",
       "score": 4
@@ -125,6 +121,10 @@
     {
       "date": "2026-09-18",
       "score": 3
+    },
+    {
+      "date": "2026-09-19",
+      "score": 4
     }
   ]
 }
