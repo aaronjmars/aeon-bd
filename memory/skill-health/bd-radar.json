@@ -1,8 +1,8 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-09-17T07:34:36Z",
+  "last_analyzed": "2026-09-19T07:34:25Z",
   "quality_score": 4,
-  "assessment": "Solid methodical sweep with modest signal (1 low-value lead), excellent noise filtering and aging-alert tracking, properly transparent about findings and self-notify logic.",
+  "assessment": "Substantive radar sweep with specific leads, verifiable sources, actionable next moves, and honest noise clearing. Proper execution of BD signal-surfacing; well-aligned to strategy.",
   "flags": [],
   "avg_score": 4.06,
   "history": [
@@ -68,6 +68,10 @@
     },
     {
       "date": "2026-09-17",
+      "score": 4
+    },
+    {
+      "date": "2026-09-19",
       "score": 4
     }
   ]
