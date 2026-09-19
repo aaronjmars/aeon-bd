@@ -32,6 +32,7 @@ type: Index
 | reddit-playbook | odd days 18:15 UTC | sibling of reddit-promo — evidence-backed archetype picks (news-hook/question/milestone/contrarian/observer), keeps product out of title, routes strict subs to comments |
 | competitor-monitor | daily 06:00 UTC, read-only | diffs watched pages (`memory/competitors.md`, currently just nvidia.com/security/acknowledgements) vs last run, notifies only on real change |
 | memory-flush | Sun 18:00 UTC | this skill |
+| reddit-scorecard | Sun 10:00 UTC | measures reddit-playbook/reddit-promo posts at day 7/14 — **enabled but never dispatched** (flagged by heartbeat 2026-09-19, missing from cron-state.json entirely; sibling reddit-playbook has 6 clean runs, so this isn't just a fresh-skill grace window — needs a scheduler-wiring check) |
 
 - bd-radar runs as a **standalone** skill, not a chain (`chain-runner.yml` is brittle under `bash -e`: a transient `gh` non-zero hard-kills the job). **war-room (the 07:45 standup capstone for Aaron) was retired 2026-07-26** and stays retired — this instance is public now, so no private standup. `sim-watch` and `idea-forge` (weekly category-intel/idea skills) are **not currently active** — sim-watch's skill dir is gone entirely; idea-forge exists but is `enabled: false` in `aeon.yml`.
 - reddit-promo/reddit-playbook double-dispatch watch (flagged 09-06) never recurred through 09-13 — reddit-playbook has skipped almost every day since its debut (high promotable-bar, not a posting-volume problem); dropping the watch item.
