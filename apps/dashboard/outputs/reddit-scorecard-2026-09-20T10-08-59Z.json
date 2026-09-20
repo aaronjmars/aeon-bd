@@ -1,0 +1,1018 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Scorecard",
+        "description": "2026-09-20"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "metrics_header",
+        "metrics_posts",
+        "metrics_emv",
+        "sep1",
+        "remeasure_header",
+        "remeasure_text",
+        "sep2",
+        "scoreboard_header",
+        "scoreboard_text",
+        "sep3",
+        "removed_header",
+        "removed_text",
+        "sep4",
+        "awaiting_header",
+        "post_1",
+        "post_2",
+        "post_3",
+        "post_4",
+        "post_5",
+        "post_6",
+        "post_7",
+        "post_8",
+        "post_9",
+        "post_10",
+        "post_11",
+        "post_12",
+        "post_13",
+        "post_14",
+        "post_15",
+        "post_16",
+        "sep5",
+        "notes_section"
+      ]
+    },
+    "metrics_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Current metrics",
+        "level": "h3"
+      }
+    },
+    "metrics_posts": {
+      "type": "Stat",
+      "props": {
+        "label": "Live posts tracked",
+        "value": "0"
+      }
+    },
+    "metrics_emv": {
+      "type": "Stat",
+      "props": {
+        "label": "Reach floor (views) / EMV",
+        "value": "0 views / ~$0-0"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "remeasure_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Due to re-measure",
+        "level": "h3"
+      }
+    },
+    "remeasure_text": {
+      "type": "Text",
+      "props": {
+        "text": "None - zero posts are confirmed live yet, so nothing has aged into a day-7/day-14 window",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "scoreboard_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Scoreboard (latest floor per post)",
+        "level": "h3"
+      }
+    },
+    "scoreboard_text": {
+      "type": "Text",
+      "props": {
+        "text": "None yet - the ledger has zero confirmed-live posts to score",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "removed_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Removed",
+        "level": "h3"
+      }
+    },
+    "removed_text": {
+      "type": "Text",
+      "props": {
+        "text": "None (no view data - logged, not zeroed)",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "awaiting_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Awaiting confirmation (57 drafted, not yet marked live)",
+        "level": "h3"
+      }
+    },
+    "post_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_1_title",
+        "post_1_source",
+        "post_1_table"
+      ]
+    },
+    "post_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "WebMCP ships",
+        "level": "h4"
+      }
+    },
+    "post_1_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/aaronjmars/status/2093724185994346542",
+        "source": "Drafted 2026-08-30"
+      }
+    },
+    "post_1_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/StartupMind",
+            "var=\"add: WebMCP ships | r/StartupMind | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/OpenSourceAI",
+            "var=\"add: WebMCP ships | r/OpenSourceAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/AIPromptProgramming",
+            "var=\"add: WebMCP ships | r/AIPromptProgramming | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/AskVibecoders",
+            "var=\"add: WebMCP ships | r/AskVibecoders | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_2_title",
+        "post_2_source",
+        "post_2_table"
+      ]
+    },
+    "post_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark shipped x402aff",
+        "level": "h4"
+      }
+    },
+    "post_2_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/aaronjmars/status/2093053679259599283",
+        "source": "Drafted 2026-09-01"
+      }
+    },
+    "post_2_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/MiroFish",
+            "var=\"add: Miroshark shipped x402aff | r/MiroFish | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/Agent_AI",
+            "var=\"add: Miroshark shipped x402aff | r/Agent_AI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/aiecosystem",
+            "var=\"add: Miroshark shipped x402aff | r/aiecosystem | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_3_title",
+        "post_3_source",
+        "post_3_table"
+      ]
+    },
+    "post_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon vuln-scanner responsible disclosure",
+        "level": "h4"
+      }
+    },
+    "post_3_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/aeonframework/status/2094047486222442924",
+        "source": "Drafted 2026-09-01"
+      }
+    },
+    "post_3_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/OpenSourceAI",
+            "var=\"add: Aeon vuln-scanner responsible disclosure | r/OpenSourceAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/CLaudeSkills",
+            "var=\"add: Aeon vuln-scanner responsible disclosure | r/CLaudeSkills | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/lovingopensourceAI",
+            "var=\"add: Aeon vuln-scanner responsible disclosure | r/lovingopensourceAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/CoolGithubProjects",
+            "var=\"add: Aeon vuln-scanner responsible disclosure | r/CoolGithubProjects | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_4_title",
+        "post_4_source",
+        "post_4_table"
+      ]
+    },
+    "post_4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS x402 relay affiliate payouts",
+        "level": "h4"
+      }
+    },
+    "post_4_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/thecultos/status/2095166433420292459",
+        "source": "Drafted 2026-09-02"
+      }
+    },
+    "post_4_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/StartupMind",
+            "var=\"add: CultOS x402 relay affiliate payouts | r/StartupMind | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/LovingAI",
+            "var=\"add: CultOS x402 relay affiliate payouts | r/LovingAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_5_title",
+        "post_5_source",
+        "post_5_table"
+      ]
+    },
+    "post_5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "UsePodAI cost lever",
+        "level": "h4"
+      }
+    },
+    "post_5_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/aeonframework/status/2095109716636577888",
+        "source": "Drafted 2026-09-03"
+      }
+    },
+    "post_5_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/Agent_AI",
+            "var=\"add: UsePodAI cost lever | r/Agent_AI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/AIPromptProgramming",
+            "var=\"add: UsePodAI cost lever | r/AIPromptProgramming | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/OpenSourceAI",
+            "var=\"add: UsePodAI cost lever | r/OpenSourceAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_6_title",
+        "post_6_source",
+        "post_6_table"
+      ]
+    },
+    "post_6_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS project stack names Aeon+Miroshark",
+        "level": "h4"
+      }
+    },
+    "post_6_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/thecultos/status/2095901737345339655",
+        "source": "Drafted 2026-09-04"
+      }
+    },
+    "post_6_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/MiroFish",
+            "var=\"add: CultOS project stack names Aeon+Miroshark | r/MiroFish | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/aiecosystem",
+            "var=\"add: CultOS project stack names Aeon+Miroshark | r/aiecosystem | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/Ollama",
+            "var=\"add: CultOS project stack names Aeon+Miroshark | r/Ollama | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/CoolGithubProjects",
+            "var=\"add: CultOS project stack names Aeon+Miroshark | r/CoolGithubProjects | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_7_title",
+        "post_7_source",
+        "post_7_table"
+      ]
+    },
+    "post_7_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon accepted into OpenAI Daybreak",
+        "level": "h4"
+      }
+    },
+    "post_7_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/aaronjmars/status/2095903024946295214",
+        "source": "Drafted 2026-09-05"
+      }
+    },
+    "post_7_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/StartupMind",
+            "var=\"add: Aeon accepted into OpenAI Daybreak | r/StartupMind | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/Agent_AI",
+            "var=\"add: Aeon accepted into OpenAI Daybreak | r/Agent_AI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/lovingopensourceAI",
+            "var=\"add: Aeon accepted into OpenAI Daybreak | r/lovingopensourceAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/AskVibecoders",
+            "var=\"add: Aeon accepted into OpenAI Daybreak | r/AskVibecoders | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_8_title",
+        "post_8_source",
+        "post_8_table"
+      ]
+    },
+    "post_8_title": {
+      "type": "Heading",
+      "props": {
+        "text": "eyebrow audited Aeon, 2 PRs merged",
+        "level": "h4"
+      }
+    },
+    "post_8_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/eyebrowCC/status/2094475852171956625",
+        "source": "Drafted 2026-09-06"
+      }
+    },
+    "post_8_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/AgentsOfAI",
+            "var=\"add: eyebrow audited Aeon, 2 PRs merged | r/AgentsOfAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/AI_Agents",
+            "var=\"add: eyebrow audited Aeon, 2 PRs merged | r/AI_Agents | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/LLMDevs",
+            "var=\"add: eyebrow audited Aeon, 2 PRs merged | r/LLMDevs | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/cybersecurity [comment]",
+            "var=\"add: eyebrow audited Aeon, 2 PRs merged | r/cybersecurity | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_9_title",
+        "post_9_source",
+        "post_9_table"
+      ]
+    },
+    "post_9_title": {
+      "type": "Heading",
+      "props": {
+        "text": "TaskMarket Delegate named in Base roundup",
+        "level": "h4"
+      }
+    },
+    "post_9_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/AIonBase_/status/2096295356128698778",
+        "source": "Drafted 2026-09-06"
+      }
+    },
+    "post_9_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/CLaudeSkills",
+            "var=\"add: TaskMarket Delegate named in Base roundup | r/CLaudeSkills | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/AIPromptProgramming",
+            "var=\"add: TaskMarket Delegate named in Base roundup | r/AIPromptProgramming | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/LovingAI",
+            "var=\"add: TaskMarket Delegate named in Base roundup | r/LovingAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_10_title",
+        "post_10_source",
+        "post_10_table"
+      ]
+    },
+    "post_10_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Capminal credits Aeon security review",
+        "level": "h4"
+      }
+    },
+    "post_10_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/Capminal/status/2096968349028872581",
+        "source": "Drafted 2026-09-07"
+      }
+    },
+    "post_10_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/OpenSourceAI",
+            "var=\"add: Capminal credits Aeon security review | r/OpenSourceAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/aiecosystem",
+            "var=\"add: Capminal credits Aeon security review | r/aiecosystem | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/StartupMind",
+            "var=\"add: Capminal credits Aeon security review | r/StartupMind | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/AskVibecoders",
+            "var=\"add: Capminal credits Aeon security review | r/AskVibecoders | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_11": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_11_title",
+        "post_11_source",
+        "post_11_table"
+      ]
+    },
+    "post_11_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon ships Hook Marketplace",
+        "level": "h4"
+      }
+    },
+    "post_11_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/aeonframework/status/2097997668601544919",
+        "source": "Drafted 2026-09-10"
+      }
+    },
+    "post_11_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/CoolGithubProjects",
+            "var=\"add: Aeon ships Hook Marketplace | r/CoolGithubProjects | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/OpenSourceAI",
+            "var=\"add: Aeon ships Hook Marketplace | r/OpenSourceAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/AIPromptProgramming",
+            "var=\"add: Aeon ships Hook Marketplace | r/AIPromptProgramming | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/CLaudeSkills",
+            "var=\"add: Aeon ships Hook Marketplace | r/CLaudeSkills | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_12": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_12_title",
+        "post_12_source",
+        "post_12_table"
+      ]
+    },
+    "post_12_title": {
+      "type": "Heading",
+      "props": {
+        "text": "MiroShark one-click video export",
+        "level": "h4"
+      }
+    },
+    "post_12_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/aaronjmars/status/2098061703627886906",
+        "source": "Drafted 2026-09-11"
+      }
+    },
+    "post_12_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/MiroFish",
+            "var=\"add: MiroShark one-click video export | r/MiroFish | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/AskVibecoders",
+            "var=\"add: MiroShark one-click video export | r/AskVibecoders | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/StartupMind",
+            "var=\"add: MiroShark one-click video export | r/StartupMind | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/aiecosystem",
+            "var=\"add: MiroShark one-click video export | r/aiecosystem | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_13": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_13_title",
+        "post_13_source",
+        "post_13_table"
+      ]
+    },
+    "post_13_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aeon ships Submit Hook skill",
+        "level": "h4"
+      }
+    },
+    "post_13_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/aeonframework/status/2098792766658535737",
+        "source": "Drafted 2026-09-12"
+      }
+    },
+    "post_13_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/CLaudeSkills",
+            "var=\"add: Aeon ships Submit Hook skill | r/CLaudeSkills | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/OpenSourceAI",
+            "var=\"add: Aeon ships Submit Hook skill | r/OpenSourceAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/CoolGithubProjects",
+            "var=\"add: Aeon ships Submit Hook skill | r/CoolGithubProjects | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/aiecosystem",
+            "var=\"add: Aeon ships Submit Hook skill | r/aiecosystem | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_14": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_14_title",
+        "post_14_source",
+        "post_14_table"
+      ]
+    },
+    "post_14_title": {
+      "type": "Heading",
+      "props": {
+        "text": "0x Protocol/Hayden Adams hook-safety debate",
+        "level": "h4"
+      }
+    },
+    "post_14_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/haydenzadams/status/2099711270115013085",
+        "source": "Drafted 2026-09-15"
+      }
+    },
+    "post_14_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/Agent_AI",
+            "var=\"add: 0x Protocol/Hayden Adams hook-safety debate | r/Agent_AI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/aiecosystem",
+            "var=\"add: 0x Protocol/Hayden Adams hook-safety debate | r/aiecosystem | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/OpenSourceAI",
+            "var=\"add: 0x Protocol/Hayden Adams hook-safety debate | r/OpenSourceAI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/CoolGithubProjects",
+            "var=\"add: 0x Protocol/Hayden Adams hook-safety debate | r/CoolGithubProjects | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_15": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_15_title",
+        "post_15_source",
+        "post_15_table"
+      ]
+    },
+    "post_15_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark bankrbot x402 Town Hall launch",
+        "level": "h4"
+      }
+    },
+    "post_15_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/svector_eth/status/2100605772610834714",
+        "source": "Drafted 2026-09-17"
+      }
+    },
+    "post_15_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/MiroFish",
+            "var=\"add: Miroshark bankrbot x402 Town Hall launch | r/MiroFish | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/StartupMind",
+            "var=\"add: Miroshark bankrbot x402 Town Hall launch | r/StartupMind | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/AIPromptProgramming",
+            "var=\"add: Miroshark bankrbot x402 Town Hall launch | r/AIPromptProgramming | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "post_16": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_16_title",
+        "post_16_source",
+        "post_16_table"
+      ]
+    },
+    "post_16_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS first hard usage numbers on Aeon",
+        "level": "h4"
+      }
+    },
+    "post_16_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Source: X",
+        "href": "https://x.com/thecultos/status/2101048281602146370",
+        "source": "Drafted 2026-09-19"
+      }
+    },
+    "post_16_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Subreddit",
+          "Confirmation Command"
+        ],
+        "rows": [
+          [
+            "r/StartupMind",
+            "var=\"add: CultOS first hard usage numbers on Aeon | r/StartupMind | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/Agent_AI",
+            "var=\"add: CultOS first hard usage numbers on Aeon | r/Agent_AI | <archetype A-E> | posted:YYYY-MM-DD\""
+          ],
+          [
+            "r/aiecosystem",
+            "var=\"add: CultOS first hard usage numbers on Aeon | r/aiecosystem | <archetype A-E> | posted:YYYY-MM-DD\""
+          ]
+        ]
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notes_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notes_header",
+        "notes_text"
+      ]
+    },
+    "notes_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Notes",
+        "level": "h3"
+      }
+    },
+    "notes_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reddit accrues 1-2+ weeks; every number is a floor. Re-measure at day 7 and day 14. EMV is conservative ($6-8 CPM + $0.70-1.50/comment, comments only). This is the skill's first run - the ledger was empty, so all 57 drafted posts from the last 21 days of reddit-promo/reddit-playbook logs are seeded as unconfirmed. None of them count toward reach/EMV until confirmed live via `add:` - Reddit view/comment counts aren't exposed by any public API, so the operator has to feed them in from their own post-insights UI.",
+        "variant": "caption"
+      }
+    }
+  }
+}

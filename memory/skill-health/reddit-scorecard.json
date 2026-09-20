@@ -1,0 +1,16 @@
+{
+  "skill": "reddit-scorecard",
+  "last_analyzed": "2026-09-20T10:08:59Z",
+  "quality_score": 2,
+  "assessment": "Methodologically sound bootstrap of scorecard system, but zero substantive data or actionable BD signal — 57 items are unconfirmed inferred posts awaiting manual operator verification.",
+  "flags": [
+    "low_quality"
+  ],
+  "avg_score": 2,
+  "history": [
+    {
+      "date": "2026-09-20",
+      "score": 2
+    }
+  ]
+}
