@@ -1,0 +1,696 @@
+{
+  "root": "card-mention-radar",
+  "state": {},
+  "elements": {
+    "card-mention-radar": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar - 2026-09-20",
+        "description": "vs 2026-09-18 - 4 new - 0 still-open - 0 quiet"
+      },
+      "children": [
+        "header-stats",
+        "sep-1",
+        "aeon-section",
+        "sep-2",
+        "miroshark-section",
+        "sep-3",
+        "opportunities-section",
+        "sep-4",
+        "run-section"
+      ]
+    },
+    "header-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-new",
+        "stat-open",
+        "stat-quiet"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "4"
+      }
+    },
+    "stat-open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "0"
+      }
+    },
+    "stat-quiet": {
+      "type": "Stat",
+      "props": {
+        "label": "Quiet",
+        "value": "0"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aeon-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-heading",
+        "aeon-m1",
+        "aeon-m2"
+      ]
+    },
+    "aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon-m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m1-badges",
+        "aeon-m1-author",
+        "aeon-m1-text",
+        "aeon-m1-link"
+      ]
+    },
+    "aeon-m1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m1-badge-type",
+        "aeon-m1-badge-new"
+      ]
+    },
+    "aeon-m1-badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Feature request",
+        "variant": "default"
+      }
+    },
+    "aeon-m1-badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "aeon-m1-author": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-m1-handle",
+        "aeon-m1-followers",
+        "aeon-m1-verified"
+      ]
+    },
+    "aeon-m1-handle": {
+      "type": "Heading",
+      "props": {
+        "text": "@weaponheadsNFT",
+        "level": "h3"
+      }
+    },
+    "aeon-m1-followers": {
+      "type": "Stat",
+      "props": {
+        "label": "Followers",
+        "value": "3.6k"
+      }
+    },
+    "aeon-m1-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "verified",
+        "variant": "outline"
+      }
+    },
+    "aeon-m1-text": {
+      "type": "Text",
+      "props": {
+        "text": "wants a custom V4 hook (92% auto-compound + 8% auto buy-and-burn on $MSTR) built for Moon8onBASE's liquidity pool, asking directly for it on \"the @aeonframework marketplace\"",
+        "variant": "body"
+      }
+    },
+    "aeon-m1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on Twitter",
+        "href": "https://x.com/weaponheadsNFT/status/2101274823557103999"
+      }
+    },
+    "aeon-m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m2-badges",
+        "aeon-m2-author",
+        "aeon-m2-text",
+        "aeon-m2-link"
+      ]
+    },
+    "aeon-m2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m2-badge-type",
+        "aeon-m2-badge-new"
+      ]
+    },
+    "aeon-m2-badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "default"
+      }
+    },
+    "aeon-m2-badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "aeon-m2-author": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-m2-handle",
+        "aeon-m2-followers",
+        "aeon-m2-verified"
+      ]
+    },
+    "aeon-m2-handle": {
+      "type": "Heading",
+      "props": {
+        "text": "@0xNurstar",
+        "level": "h3"
+      }
+    },
+    "aeon-m2-followers": {
+      "type": "Stat",
+      "props": {
+        "label": "Followers",
+        "value": "8.4k"
+      }
+    },
+    "aeon-m2-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "verified",
+        "variant": "outline"
+      }
+    },
+    "aeon-m2-text": {
+      "type": "Text",
+      "props": {
+        "text": "pushing @jessepollak to show his own aeon agent — a live continuation of Friday's @svector_eth pitch thread to the Base co-founder",
+        "variant": "body"
+      }
+    },
+    "aeon-m2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on Twitter",
+        "href": "https://x.com/0xNurstar/status/2101252563953680530"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-heading",
+        "miroshark-m1",
+        "miroshark-m2"
+      ]
+    },
+    "miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark-m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-m1-badges",
+        "miroshark-m1-author",
+        "miroshark-m1-quote",
+        "miroshark-m1-followup",
+        "miroshark-m1-link"
+      ]
+    },
+    "miroshark-m1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-m1-badge-type",
+        "miroshark-m1-badge-new"
+      ]
+    },
+    "miroshark-m1-badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "default"
+      }
+    },
+    "miroshark-m1-badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "miroshark-m1-author": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-m1-handle",
+        "miroshark-m1-followers",
+        "miroshark-m1-verified"
+      ]
+    },
+    "miroshark-m1-handle": {
+      "type": "Heading",
+      "props": {
+        "text": "@Awesome_O_AI",
+        "level": "h3"
+      }
+    },
+    "miroshark-m1-followers": {
+      "type": "Stat",
+      "props": {
+        "label": "Followers",
+        "value": "149.7k"
+      }
+    },
+    "miroshark-m1-verified": {
+      "type": "Badge",
+      "props": {
+        "text": "verified",
+        "variant": "outline"
+      }
+    },
+    "miroshark-m1-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Premier League plus Serie A coverage in one week means this system is production ready\"",
+        "variant": "lead"
+      }
+    },
+    "miroshark-m1-followup": {
+      "type": "Text",
+      "props": {
+        "text": "plus a follow-up praising the \"narrative depth from simulation output\" — reacting to the weekly football matchday sims",
+        "variant": "body"
+      }
+    },
+    "miroshark-m1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on Twitter",
+        "href": "https://x.com/Awesome_O_AI/status/2100932694985363810"
+      }
+    },
+    "miroshark-m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-m2-badges",
+        "miroshark-m2-title",
+        "miroshark-m2-issuer",
+        "miroshark-m2-text",
+        "miroshark-m2-link"
+      ]
+    },
+    "miroshark-m2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-m2-badge-type",
+        "miroshark-m2-badge-new"
+      ]
+    },
+    "miroshark-m2-badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Feature request",
+        "variant": "default"
+      }
+    },
+    "miroshark-m2-badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "miroshark-m2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Issue #305",
+        "level": "h3"
+      }
+    },
+    "miroshark-m2-issuer": {
+      "type": "Text",
+      "props": {
+        "text": "Third-party token holder",
+        "variant": "muted"
+      }
+    },
+    "miroshark-m2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Asks how MiroShark's product/API revenue (currently settled in USDC via x402) will accrue value to $MIROSHARK — buybacks, staking, or gated features",
+        "variant": "body"
+      }
+    },
+    "miroshark-m2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub Issue #305",
+        "href": "https://github.com/MiroShark/MiroShark/issues/305",
+        "source": "GitHub"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opportunities-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-heading",
+        "opp-1",
+        "opp-2",
+        "opp-3"
+      ]
+    },
+    "opp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-1-author",
+        "opp-1-text",
+        "opp-1-expires"
+      ]
+    },
+    "opp-1-author": {
+      "type": "Heading",
+      "props": {
+        "text": "@weaponheadsNFT",
+        "level": "h3"
+      }
+    },
+    "opp-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "A concrete hook spec lines up directly with the live Hook Marketplace + self-serve \"Submit Hook\" flow — worth pointing them at it. Flips if: someone else answers first or the thread goes cold",
+        "variant": "body"
+      }
+    },
+    "opp-1-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-23",
+        "variant": "outline"
+      }
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-2-author",
+        "opp-2-text",
+        "opp-2-expires"
+      ]
+    },
+    "opp-2-author": {
+      "type": "Heading",
+      "props": {
+        "text": "@Awesome_O_AI",
+        "level": "h3"
+      }
+    },
+    "opp-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "A 149k-follower account engaging with Miroshark output for the second time (first was 09-16) — a reply here reaches real distribution",
+        "variant": "body"
+      }
+    },
+    "opp-2-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-23",
+        "variant": "outline"
+      }
+    },
+    "opp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-3-author",
+        "opp-3-text",
+        "opp-3-expires"
+      ]
+    },
+    "opp-3-author": {
+      "type": "Heading",
+      "props": {
+        "text": "@jessepollak thread (via @0xNurstar)",
+        "level": "h3"
+      }
+    },
+    "opp-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Base co-founder still being pulled in 2 days after the original pitch. Flips if: Jesse replies (then it's immediate, not a window)",
+        "variant": "body"
+      }
+    },
+    "opp-3-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "Expires 2026-09-22",
+        "variant": "outline"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run-heading",
+        "run-source",
+        "run-sweep",
+        "run-stars",
+        "run-forks"
+      ]
+    },
+    "run-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Details",
+        "level": "h2"
+      }
+    },
+    "run-source": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=twitterapi (both targets, HTTP 200)",
+        "variant": "caption"
+      }
+    },
+    "run-sweep": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run-sweep-label",
+        "run-sweep-aeon",
+        "run-sweep-miro"
+      ]
+    },
+    "run-sweep-label": {
+      "type": "Text",
+      "props": {
+        "text": "Broader web sweep via WebSearch",
+        "variant": "caption"
+      }
+    },
+    "run-sweep-aeon": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon: 0 new hits (bare-\"aeon\" collisions filtered per standing rule)",
+        "variant": "body"
+      }
+    },
+    "run-sweep-miro": {
+      "type": "Text",
+      "props": {
+        "text": "Miroshark: 1 GitHub issue",
+        "variant": "body"
+      }
+    },
+    "run-stars": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "star-aeon",
+        "star-miro"
+      ]
+    },
+    "star-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon stars",
+        "value": "742",
+        "delta": "+3/2d",
+        "trend": "up"
+      }
+    },
+    "star-miro": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark stars",
+        "value": "1452",
+        "delta": "+1/2d",
+        "trend": "up"
+      }
+    },
+    "run-forks": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "fork-aeon",
+        "fork-miro",
+        "fork-note"
+      ]
+    },
+    "fork-aeon": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon forks",
+        "value": "264",
+        "delta": "-2/2d (likely deleted fork)",
+        "trend": "down"
+      }
+    },
+    "fork-miro": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark forks",
+        "value": "301",
+        "delta": "0/2d",
+        "trend": "neutral"
+      }
+    },
+    "fork-note": {
+      "type": "Text",
+      "props": {
+        "text": "Both star counts below +5 notify threshold",
+        "variant": "muted"
+      }
+    }
+  }
+}

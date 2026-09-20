@@ -170,3 +170,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-19,reddit-promo,claude-sonnet-5,2257,17280,1398941,93428
 2026-09-19,reddit-playbook,claude-sonnet-5,2267,11515,1495641,81555
 2026-09-20,competitor-monitor,claude-sonnet-5,2126,4128,800967,35727
+2026-09-20,mention-radar,claude-sonnet-5,2827,29047,4334548,136839

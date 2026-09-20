@@ -1,17 +1,19 @@
-ℹ️ Mention Radar - 2026-09-18
+ℹ️ Mention Radar - 09-20
 
-*Mention Radar - 2026-09-18*
-vs 2026-09-16 - 3 new - 1 still-open - 1 quiet
+*Mention Radar - 2026-09-20*
+vs 2026-09-18 - 4 new - 0 still-open - 0 quiet
 
-**AEON**
-- NEW [Discovery] @0xNurstar (8.4k f, verified): gets a daily @aeonframework Telegram digest — news, repos, papers, HN in one message, under a minute to read — closes with "get your aeon agent running in a few mins" - https://x.com/0xNurstar/status/2100582251297738942
-- NEW [Discovery] @Vanxyrus (5k f, verified): was listening to Diary of a CEO and says @aeonframework was "the first thing that came to mind" — paired it with a base: contract address, which pulled in a mini token-vs-framework subthread from others - https://x.com/Vanxyrus/status/2100504341459431662
-- NEW [Discovery] @svector_eth (1.7k f, verified): pitched Aeon directly to @jessepollak (Base co-founder) mid-thread — "this is pretty much the problem we're building @aeonframework around... let aeon automate the work around it" - https://x.com/svector_eth/status/2100494869504688468
-- [Feature request] @CthyllaKassogth (since 2026-09-16): still wants the x402 audit receipt to bind scope + commit SHA + result digest — 2 days unresolved, no reply from either product account - https://x.com/CthyllaKassogth/status/2099855798688006254
+AEON
+- NEW [Feature request] @weaponheadsNFT (3.6k f, verified): wants a custom V4 hook (92% auto-compound + 8% auto buy-and-burn on $MSTR) built for Moon8onBASE's liquidity pool, asking directly for it on "the @aeonframework marketplace" — https://x.com/weaponheadsNFT/status/2101274823557103999
+- NEW [Discovery] @0xNurstar (8.4k f, verified): pushing @jessepollak to show his own aeon agent — a live continuation of Friday's @svector_eth pitch thread to the Base co-founder — https://x.com/0xNurstar/status/2101252563953680530
 
-**ENGAGEMENT OPPORTUNITIES**
-- @svector_eth: mid-thread pitch put Aeon in front of Jesse Pollak's (Base co-founder) audience — worth a same-thread reply while it's live - flips if: thread goes cold with no reply, expires 2026-09-19 - https://x.com/svector_eth/status/2100494869504688468
+MIROSHARK
+- NEW [Discovery] @Awesome_O_AI (149.7k f, verified): "Premier League plus Serie A coverage in one week means this system is production ready" — plus a follow-up praising the "narrative depth from simulation output" — reacting to the weekly football matchday sims — https://x.com/Awesome_O_AI/status/2100932694985363810
+- NEW [Feature request] GitHub issue #305: third-party token holder asks how MiroShark's product/API revenue (currently settled in USDC via x402) will accrue value to $MIROSHARK — buybacks, staking, or gated features — https://github.com/MiroShark/MiroShark/issues/305
 
-QUIET: miroshark - no fresh mentions this run (covered: twitterapi/web) - re-check 2026-09-20
+ENGAGEMENT OPPORTUNITIES
+- @weaponheadsNFT: a concrete hook spec lines up directly with the live Hook Marketplace + self-serve "Submit Hook" flow — worth pointing them at it. flips if: someone else answers first or the thread goes cold — expires 2026-09-23
+- @Awesome_O_AI: a 149k-follower account engaging with Miroshark output for the second time (first was 09-16) — a reply here reaches real distribution. expires 2026-09-23
+- @jessepollak thread (via @0xNurstar): Base co-founder still being pulled in 2 days after the original pitch. flips if: Jesse replies (then it's immediate, not a window) — expires 2026-09-22
 
-run: X_SOURCE=twitterapi (Path A, HTTP 200 both targets, 2 pages each) · web=clean (WebSearch Reddit/HN/PH, only stale June HackerNoon feature re-surfaced, already discarded since 08-22) · stars aeon 739 +5/2d since 09-16 (clears threshold, forks 266 +1) · stars miroshark 1451 +2/2d since 09-16 (below threshold, not shown, forks 301 +2)
+run: X_SOURCE=twitterapi (both targets, HTTP 200) · broader web sweep via WebSearch — 0 new Aeon hits (bare-"aeon" collisions filtered out per standing rule), 1 GitHub issue for Miroshark · stars aeon 742 (+3/2d) miroshark 1452 (+1/2d) — both below the +5 notify threshold · forks aeon 264 (-2/2d, likely a deleted fork) miroshark 301 (0/2d)

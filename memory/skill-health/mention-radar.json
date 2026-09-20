@@ -1,8 +1,8 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-09-18T07:45:01Z",
+  "last_analyzed": "2026-09-20T07:42:59Z",
   "quality_score": 4,
-  "assessment": "Substantive, on-strategy mention-radar output with specific BD signals, actionable opportunities, and proper state tracking.",
+  "assessment": "Substantive, verifiable mention-radar with actionable opportunities, honest metric tracking, and sophisticated noise filtering—solid execution on core task despite modest growth headlines.",
   "flags": [],
   "avg_score": 3.88,
   "history": [
@@ -68,6 +68,10 @@
     },
     {
       "date": "2026-09-18",
+      "score": 4
+    },
+    {
+      "date": "2026-09-20",
       "score": 4
     }
   ]

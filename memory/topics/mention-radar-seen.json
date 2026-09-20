@@ -160,10 +160,45 @@
       "category": "Discovery",
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18"
+    },
+    {
+      "key": "x:https://x.com/weaponheadsNFT/status/2101274823557103999",
+      "project": "aeon",
+      "category": "Feature request",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    {
+      "key": "x:https://x.com/0xNurstar/status/2101252563953680530",
+      "project": "aeon",
+      "category": "Discovery",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    {
+      "key": "x:https://x.com/Awesome_O_AI/status/2100932694985363810",
+      "project": "miroshark",
+      "category": "Discovery",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    {
+      "key": "x:https://x.com/Awesome_O_AI/status/2100932464227373531",
+      "project": "miroshark",
+      "category": "Discovery",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    {
+      "key": "github:https://github.com/MiroShark/MiroShark/issues/305",
+      "project": "miroshark",
+      "category": "Feature request",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
     }
   ],
   "quiet_streak": {
     "aeon": 0,
-    "miroshark": 1
+    "miroshark": 0
   }
 }
