@@ -1,20 +1,12 @@
-Memory flush complete for the 2026-09-06 → 2026-09-13 window.
-
-## Summary
+Memory-flush complete for the 2026-09-13 → 2026-09-20 window (8 daily logs).
 
 **Promoted to MEMORY.md:**
-- Registered `competitor-monitor` in the War-room skills table — it's been running daily since 09-09 but was never added
-- Refreshed `aeon-update`'s watermark (`bf33365`→`c28ab4c`, PR #99 merged 09-09)
-- Rewrote the CultOS ecosystem-highlight bullet with everything since 09-06 (paid launch 09-10, x402aff affiliate layer + 25-agent MiroShark sim run through it 09-12/13, lapsed DM-expiry window)
-- Added a "Recent ships" bullet: Aeon's Hook Marketplace + Submit Hook skill, Miroshark's video export
-- Added 3 new Lessons Learned: health-issue auto-close behavior (generalized from a one-off footnote), bd-radar's fork-sweep coverage gap, and the first observed attribution-stripping detached clone (`emperormk01/void`)
-- Updated Next Priorities (CultOS urgency, reworded the competitor-monitor health-issue item)
+- CultOS storyline updated with the 09-17 templated-praise finding and 09-19 hard usage numbers (11 Aeon jobs, $2.20 USDC on Base) — real proof of usage despite the still-404 GitHub account.
+- MiroFish watch-list: noted @xvader's organic 09-17 thread countering the fork-mischaracterization narrative.
+- New "BD momentum spikes" bullet capturing the Uniswap hook-security debate escalating to a direct pitch to Base co-founder @jessepollak, and Miroshark's first third-party autonomous x402 payment — both genuine ecosystem-growth signal.
+- War-room table: `aeon-update` watermark bumped to `95142d1`/PR#101; `reddit-scorecard` row rewritten now that it actually dispatched (57 unconfirmed candidates bootstrapped).
+- New Lessons Learned entry generalizing a health-scorer quirk now seen 3x (issues #100, #104, #105) — spurious score-2 flags on otherwise-clean runs.
 
-**Pruned:**
-- The stale 09-06 "double-dispatch" cadence-watch note (never recurred through 09-13)
-- The one-off "Resolved 2026-09-12" footnote (superseded by the new durable lesson)
-- Confirmed 0 open PRs / 1 open issue (`#100`, already tracked) — no Open Improvement PRs section needed
+**Pruned:** stale double-dispatch watch-item footnote; two Next Priorities (competitor-monitor #100, engagement-act #104) folded into the new generalized lesson, replaced with a real actionable item (reddit-scorecard needs operator `add:` confirmations).
 
-**Mechanical:** scan window 09-06→09-13, log rotation untouched (25 files, under threshold), logged details to `memory/logs/2026-09-13.md`, watermark stamped to 2026-09-13, all changes committed (`5099eb1`).
-
-MEMORY.md sits at 55 lines — flagged in the log as still slightly over the ~50-line guideline; worth a harder trim (pushing detail into `memory/topics/`) next cycle if it keeps growing.
+MEMORY.md stayed at 58 lines net (rewrites freed space for the additions). Watermark stamped to 2026-09-20. Log entry appended to `memory/logs/2026-09-20.md` under `### memory-flush`.
