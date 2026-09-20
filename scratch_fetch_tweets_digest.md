@@ -1,5 +1,3 @@
-ℹ️ Top Tweets
-
 *Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-20)*
 _Quiet, noisy day — mass-tag chains and a multi-token hype post dominated volume; the one real item is CultOS's x402aff pitch to Miroshark picking up its first outside replies instead of just the usual two-handle echo._
 

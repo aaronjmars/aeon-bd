@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-09-19T17:06:27Z",
+  "last_analyzed": "2026-09-20T17:08:08Z",
   "quality_score": 4,
-  "assessment": "Substantive BD signal capture with concrete leads (hook request, Jesse Pollak ask) and hard metrics (CultOS usage data); properly caveated speculation; tightly written for Aaron, verifiable from tweet URLs.",
+  "assessment": "Substantive, well-curated BD signal with verifiable data; identified CultOS x402aff gaining organic traction outside the echo chamber; transparent noise filtering; properly logged and actionable.",
   "flags": [],
   "avg_score": 3.97,
   "history": [
-    {
-      "date": "2026-08-22",
-      "score": 4
-    },
     {
       "date": "2026-08-23",
       "score": 3
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-09-19",
+      "score": 4
+    },
+    {
+      "date": "2026-09-20",
       "score": 4
     }
   ]

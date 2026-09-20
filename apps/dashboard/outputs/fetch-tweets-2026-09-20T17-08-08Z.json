@@ -1,0 +1,214 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets"
+      },
+      "children": [
+        "text_date_scope",
+        "sep1",
+        "text_summary",
+        "sep2",
+        "heading_finding",
+        "stack_tweets"
+      ]
+    },
+    "text_date_scope": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-20 | Monitoring: @aeonframework, aeonfun/aeon, @miroshark_, Miroshark swarm simulation",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet, noisy day — mass-tag chains and a multi-token hype post dominated volume; the one real item is CultOS's x402aff pitch to Miroshark picking up its first outside replies instead of just the usual two-handle echo.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_finding": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS x402aff pitch draws outside replies",
+        "level": "h3"
+      }
+    },
+    "stack_tweets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet_1",
+        "tweet_2",
+        "tweet_3"
+      ]
+    },
+    "tweet_1": {
+      "type": "Card",
+      "props": {
+        "title": "x.com/thecultos",
+        "description": "Reiterates the x402aff pitch pairing @aeonframework/@miroshark_, now quantifying '10+ eligible services ready for distribution' for the first time (prior mentions just said 'an affiliate layer'); highest-engagement post in today's whole candidate set."
+      },
+      "children": [
+        "tweet_1_metrics",
+        "tweet_1_link"
+      ]
+    },
+    "tweet_1_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_likes_1",
+        "stat_rts_1",
+        "stat_replies_1"
+      ]
+    },
+    "stat_likes_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Likes",
+        "value": "7"
+      }
+    },
+    "stat_rts_1": {
+      "type": "Stat",
+      "props": {
+        "label": "RTs",
+        "value": "1"
+      }
+    },
+    "stat_replies_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Replies",
+        "value": "5"
+      }
+    },
+    "tweet_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2101655955616194793"
+      }
+    },
+    "tweet_2": {
+      "type": "Card",
+      "props": {
+        "title": "x.com/wolfgangg37",
+        "description": "Organic 'sounds promising, will check it out' reply — an outside account, not the akathesmith/thecultos duo that's carried this pitch since 09-12."
+      },
+      "children": [
+        "tweet_2_metrics",
+        "tweet_2_link"
+      ]
+    },
+    "tweet_2_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_likes_2",
+        "stat_rts_2",
+        "stat_replies_2"
+      ]
+    },
+    "stat_likes_2": {
+      "type": "Stat",
+      "props": {
+        "label": "Likes",
+        "value": "2"
+      }
+    },
+    "stat_rts_2": {
+      "type": "Stat",
+      "props": {
+        "label": "RTs",
+        "value": "0"
+      }
+    },
+    "stat_replies_2": {
+      "type": "Stat",
+      "props": {
+        "label": "Replies",
+        "value": "0"
+      }
+    },
+    "tweet_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/wolfgangg37/status/2101658944556966126"
+      }
+    },
+    "tweet_3": {
+      "type": "Card",
+      "props": {
+        "title": "x.com/0xlyon01",
+        "description": "Another outside reply summarizing the mechanic: 'x402aff turns agent usage into onchain USDC, the real flywheel starts here.'"
+      },
+      "children": [
+        "tweet_3_metrics",
+        "tweet_3_link"
+      ]
+    },
+    "tweet_3_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_likes_3",
+        "stat_rts_3",
+        "stat_replies_3"
+      ]
+    },
+    "stat_likes_3": {
+      "type": "Stat",
+      "props": {
+        "label": "Likes",
+        "value": "1"
+      }
+    },
+    "stat_rts_3": {
+      "type": "Stat",
+      "props": {
+        "label": "RTs",
+        "value": "0"
+      }
+    },
+    "stat_replies_3": {
+      "type": "Stat",
+      "props": {
+        "label": "Replies",
+        "value": "0"
+      }
+    },
+    "tweet_3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/0xlyon01/status/2101656639153602932"
+      }
+    }
+  }
+}
