@@ -1,0 +1,125 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat — 2026-09-20"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_issue",
+        "sep1",
+        "carryovers_stack",
+        "sep2",
+        "status_stack"
+      ]
+    },
+    "alert_issue": {
+      "type": "Alert",
+      "props": {
+        "title": "NEW: GitHub issue #104 opened",
+        "message": "Category: health: engagement-act\nScore: 2\nFlag: unverifiable_claim\nDate: 2026-09-19\n\nSkill itself ran clean (95% success rate) — worth a spot-check on that run's drafted replies, not a fleet break.",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "carryovers_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "carryovers_heading",
+        "carryovers_list"
+      ]
+    },
+    "carryovers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Carryovers (deduped)",
+        "level": "h3"
+      }
+    },
+    "carryovers_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item1",
+        "item2",
+        "item3"
+      ]
+    },
+    "item1": {
+      "type": "Text",
+      "props": {
+        "text": "digest failure since 08-19",
+        "variant": "body"
+      }
+    },
+    "item2": {
+      "type": "Text",
+      "props": {
+        "text": "#100 competitor-monitor generic_content flag",
+        "variant": "body"
+      }
+    },
+    "item3": {
+      "type": "Text",
+      "props": {
+        "text": "reddit-scorecard never dispatched",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status_heading",
+        "status_badge"
+      ]
+    },
+    "status_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Status Page",
+        "level": "h3"
+      }
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🟡 WATCH",
+        "variant": "secondary"
+      }
+    }
+  }
+}

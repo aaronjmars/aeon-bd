@@ -1,3 +1,3 @@
-⚠️ Heartbeat — 2026-09-19
+⚠️ Heartbeat — 2026-09-20
 
-🔵 SCHEDULER: reddit-scorecard (enabled weekly Sun 10:00 UTC) has zero entries in cron-state.json — never dispatched. Sibling reddit-playbook (same config block) already has 6 completed runs, so this isn't a fresh-skill grace window. Worth checking scheduler wiring. Otherwise fleet clean: bd-radar + competitor-monitor both ran fresh today, no failed/stuck skills, no stalled PRs. Page stays 🟡 WATCH on the same two carryovers (disabled digest, issue #100).
+🔵 NEW: GitHub issue #104 opened — health: engagement-act (score 2, flag: unverifiable_claim, 2026-09-19). Skill itself ran clean (95% success rate) — worth a spot-check on that run's drafted replies, not a fleet break. Carryovers unchanged (deduped): digest failure since 08-19, #100 competitor-monitor generic_content flag, reddit-scorecard never dispatched. Status page: 🟡 WATCH.
