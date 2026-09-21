@@ -1,0 +1,302 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "aeon-update: sync PR #106"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "header_section",
+        "sep1",
+        "what_landed_section",
+        "sep2",
+        "manual_review_section",
+        "sep3",
+        "decision_section"
+      ]
+    },
+    "header_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "upstream_text",
+        "status_row"
+      ]
+    },
+    "upstream_text": {
+      "type": "Text",
+      "props": {
+        "text": "Upstream aeonfun/aeon 95142d1..ba01e9f. 31 files applied clean. Baseline advanced.",
+        "variant": "body"
+      }
+    },
+    "status_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_commits",
+        "stat_files",
+        "badge_ci"
+      ]
+    },
+    "stat_commits": {
+      "type": "Stat",
+      "props": {
+        "label": "Commits synced",
+        "value": "19"
+      }
+    },
+    "stat_files": {
+      "type": "Stat",
+      "props": {
+        "label": "Files applied",
+        "value": "31"
+      }
+    },
+    "badge_ci": {
+      "type": "Badge",
+      "props": {
+        "text": "CI fully green (incl. eyebrow integrity)",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "what_landed_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "what_landed_heading",
+        "what_landed_items"
+      ]
+    },
+    "what_landed_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "What landed",
+        "level": "h3"
+      }
+    },
+    "what_landed_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_dev_loop",
+        "item_xss",
+        "item_riva",
+        "item_ci_gate",
+        "item_self_patch"
+      ]
+    },
+    "item_dev_loop": {
+      "type": "Text",
+      "props": {
+        "text": "dev-loop stack: proof-gated feature→review→repair"
+      }
+    },
+    "item_xss": {
+      "type": "Text",
+      "props": {
+        "text": "Reflected-XSS fix on dashboard MCP OAuth callback"
+      }
+    },
+    "item_riva": {
+      "type": "Text",
+      "props": {
+        "text": "Riva shadow-mode isolation on MCP server"
+      }
+    },
+    "item_ci_gate": {
+      "type": "Text",
+      "props": {
+        "text": "Always-on CI Gate (incl. eyebrow integrity)"
+      }
+    },
+    "item_self_patch": {
+      "type": "Text",
+      "props": {
+        "text": "aeon-update self-patches recurring red-PR bug (prose edits relocating pinned findings) — applied to this run"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "manual_review_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "manual_review_heading",
+        "manual_intro",
+        "sc_audit_item",
+        "other_conflicts_item"
+      ]
+    },
+    "manual_review_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Manual review needed",
+        "level": "h3"
+      }
+    },
+    "manual_intro": {
+      "type": "Text",
+      "props": {
+        "text": "8 items need attention; 1 worth your immediate call:"
+      }
+    },
+    "sc_audit_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sc_audit_heading",
+        "sc_audit_desc",
+        "sc_audit_relevance"
+      ]
+    },
+    "sc_audit_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "sc-audit",
+        "level": "h4"
+      }
+    },
+    "sc_audit_desc": {
+      "type": "Text",
+      "props": {
+        "text": "New upstream skill: deep smart-contract audit (Slither + agentic invariant/access-control/oracle pass, Opus-pinned). Deferred (needs an eyebrow scan + glyph to land).",
+        "variant": "body"
+      }
+    },
+    "sc_audit_relevance": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sc_audit_tag",
+        "sc_audit_note"
+      ]
+    },
+    "sc_audit_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "Product-relevant",
+        "variant": "outline"
+      }
+    },
+    "sc_audit_note": {
+      "type": "Text",
+      "props": {
+        "text": "Same Uniswap-hook-security thread @svector_eth pitched to jessepollak. Worth adopting."
+      }
+    },
+    "other_conflicts_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "other_conflicts_heading",
+        "other_conflicts_text"
+      ]
+    },
+    "other_conflicts_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Remaining 7: fork-narrowed conflicts + dev-loop sub-skill"
+      }
+    },
+    "other_conflicts_text": {
+      "type": "Text",
+      "props": {
+        "text": "README, ci-tests, changelog, vuln-scanner, idea-pipeline, create-prove. All details in the PR body."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decision_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decision_heading",
+        "decision_text",
+        "pr_link",
+        "decision_note"
+      ]
+    },
+    "decision_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decision",
+        "level": "h3"
+      }
+    },
+    "decision_text": {
+      "type": "Text",
+      "props": {
+        "text": "Review + merge #106",
+        "variant": "lead"
+      }
+    },
+    "pr_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GitHub PR #106",
+        "href": "https://github.com/aaronjmars/aeon-bd/pull/106",
+        "source": "GitHub"
+      }
+    },
+    "decision_note": {
+      "type": "Text",
+      "props": {
+        "text": "Nothing auto-touched your config."
+      }
+    }
+  }
+}

@@ -1,5 +1,3 @@
-✅ aeon-update: sync PR #106
-
 **aeon-update — 19 commits synced → [PR #106](https://github.com/aaronjmars/aeon-bd/pull/106)**
 
 Upstream `aeonfun/aeon` `95142d1..ba01e9f`. **31 files applied clean, CI fully green** (incl. the eyebrow integrity gate). Baseline advanced.
@@ -11,5 +9,3 @@ What landed: the **dev-loop** stack (proof-gated feature→review→repair), a r
 - Rest are fork-narrowed conflicts (README, ci-tests, changelog, vuln-scanner, idea-pipeline) + `create-prove` dev-loop sub-skill. All in the PR body.
 
 One decision: **review + merge #106.** Nothing auto-touched your config.
-
-🔗 https://github.com/aaronjmars/aeon-bd/pull/106

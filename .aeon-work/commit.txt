@@ -1,0 +1,5 @@
+aeon-update: sync upstream 95142d1..ba01e9f
+
+19 upstream commits from aeonfun/aeon. 31 files applied cleanly (6 added, 22 updated, 3 auto-merged 3-way), 8 need manual review (2 fork-diverged workflows/docs, 4 operator-customized skills, incl. idea-pipeline; 2 new skills need an eyebrow scan). Baseline advanced to ba01e9f.
+
+Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
