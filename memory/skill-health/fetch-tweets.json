@@ -1,15 +1,13 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-09-20T17:08:08Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-curated BD signal with verifiable data; identified CultOS x402aff gaining organic traction outside the echo chamber; transparent noise filtering; properly logged and actionable.",
-  "flags": [],
-  "avg_score": 3.97,
+  "last_analyzed": "2026-09-21T17:08:02Z",
+  "quality_score": 2,
+  "assessment": "Well-structured output with specific, unverifiable claims; tweets, IDs, quotes, and metrics cannot be confirmed from the scoring context.",
+  "flags": [
+    "unverifiable_claim"
+  ],
+  "avg_score": 3.93,
   "history": [
-    {
-      "date": "2026-08-23",
-      "score": 3
-    },
     {
       "date": "2026-08-24",
       "score": 4
@@ -125,6 +123,10 @@
     {
       "date": "2026-09-20",
       "score": 4
+    },
+    {
+      "date": "2026-09-21",
+      "score": 2
     }
   ]
 }

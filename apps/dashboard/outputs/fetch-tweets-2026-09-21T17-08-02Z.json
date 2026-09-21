@@ -1,0 +1,245 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon + Miroshark",
+        "description": "Top Tweets — Aeon + Miroshark (2026-09-21)"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "text_subtitle",
+        "sep1",
+        "heading_riva",
+        "stack_tweet1",
+        "sep2",
+        "heading_cultos",
+        "stack_tweet2",
+        "sep3",
+        "heading_market",
+        "stack_tweet3",
+        "stack_tweet4"
+      ]
+    },
+    "text_subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet volume day, but real signal: a tracked BD lead just praised an unreleased \"Riva\" capability pre-launch, CultOS keeps working the x402aff channel, and $AEON caught a stray pump mention.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_riva": {
+      "type": "Heading",
+      "props": {
+        "text": "Riva — early builder signal",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_tweet1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1",
+        "text_tweet1_meta",
+        "link_tweet1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "svector_eth",
+        "handle": "svector_eth",
+        "text": "Praises an unreleased \"riva\" capability: \"been using it for a while before the release and i really love this approach. excited for people to finally see what riva can do.\" Matches today's aeon-update sync note on mcp-server Riva isolation — external confirmation testers already have it. aaronjmars starred the reply. Same lead who pitched Aeon to Base's Jesse Pollak on 09-18.",
+        "likes": 0,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "text_tweet1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_tweet1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/svector_eth/status/2102031245156745399"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_cultos": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS x402aff (continuing)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_tweet2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet2",
+        "text_tweet2_meta",
+        "link_tweet2"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "thecultos",
+        "text": "Pushes hiring a \"vuln-audit\" via Cult OS for $0.20, x402aff-eligible with miroshark_ at 10% commission — same templated push pattern tracked since 08-27; operator check-in still overdue.",
+        "likes": 3,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "text_tweet2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_tweet2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2102035448453317061"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market chatter — $AEON price",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_tweet3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet3",
+        "text_tweet3_meta",
+        "link_tweet3"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "based_elnen",
+        "handle": "based_elnen",
+        "text": "Third-party account urges followers to \"load up\" on $AEON + $HIVE, calling both \"UNDERVALUED Base gems\" — pump-style post, not organic demand; drew a pileon of low-content reply-guy replies.",
+        "likes": 20,
+        "retweets": 4
+      },
+      "children": []
+    },
+    "text_tweet3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 6",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_tweet3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/based_elnen/status/2102048727250714934"
+      },
+      "children": []
+    },
+    "stack_tweet4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet4",
+        "text_tweet4_meta",
+        "link_tweet4"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bankrbot",
+        "handle": "bankrbot",
+        "text": "Automated market bot: $AEON $0.00002166, 24h +12.30%, mcap $2.20M — objective data point, not a call.",
+        "likes": 1,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "text_tweet4_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 0",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_tweet4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bankrbot/status/2102025399433925011"
+      },
+      "children": []
+    }
+  }
+}

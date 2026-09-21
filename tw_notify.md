@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — Aeon + Miroshark
-
 *Top Tweets — Aeon + Miroshark (2026-09-21)*
 _Quiet volume day, but real signal: a tracked BD lead just praised an unreleased "Riva" capability pre-launch, CultOS keeps working the x402aff channel, and $AEON caught a stray pump mention._
 
