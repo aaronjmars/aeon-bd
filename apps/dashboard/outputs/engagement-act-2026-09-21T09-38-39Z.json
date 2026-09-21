@@ -1,0 +1,476 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act - 2026-09-21",
+        "description": "vs 2026-09-19 - 4 new opps - 4 drafted - 0 aging"
+      },
+      "children": [
+        "sep-header",
+        "opp1-stack",
+        "sep1",
+        "opp2-stack",
+        "sep2",
+        "opp3-stack",
+        "sep3",
+        "opp4-stack",
+        "sep4",
+        "run-context"
+      ]
+    },
+    "sep-header": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1-title",
+        "opp1-meta-row",
+        "opp1-what",
+        "opp1-draft"
+      ]
+    },
+    "opp1-title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1-link",
+        "opp1-type"
+      ]
+    },
+    "opp1-link": {
+      "type": "Link",
+      "props": {
+        "label": "@weaponheadsNFT",
+        "href": "https://x.com/weaponheadsNFT/status/2101274823557103999"
+      }
+    },
+    "opp1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "opp1-meta-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1-leverage",
+        "opp1-expires"
+      ]
+    },
+    "opp1-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "mid (~3.6k, verified)",
+        "variant": "secondary"
+      }
+    },
+    "opp1-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-23",
+        "variant": "outline"
+      }
+    },
+    "opp1-what": {
+      "type": "Text",
+      "props": {
+        "text": "Wants a custom v4 hook (92% auto-compound + 8% buy-and-burn on $MSTR) built for Moon8onBASE's pool, tagged directly at \"the @aeonframework marketplace\" (2 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp1-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "opp1-draft-label",
+        "opp1-draft-text"
+      ]
+    },
+    "opp1-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      }
+    },
+    "opp1-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "we don't build custom hooks for you but the marketplace is fully self-serve. deploy it yourself (base/eth/monad +4 more chains) then open a 'submit a hook' issue on aeonfun/univ4-hooks — flags decode from the address automatically. no gatekeeper ⭐",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2-title",
+        "opp2-meta-row",
+        "opp2-what",
+        "opp2-draft"
+      ]
+    },
+    "opp2-title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2-link",
+        "opp2-type"
+      ]
+    },
+    "opp2-link": {
+      "type": "Link",
+      "props": {
+        "label": "@0xNurstar",
+        "href": "https://x.com/0xNurstar/status/2101252563953680530"
+      }
+    },
+    "opp2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "opp2-meta-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2-leverage",
+        "opp2-expires"
+      ]
+    },
+    "opp2-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "mid (~8.4k, verified)",
+        "variant": "secondary"
+      }
+    },
+    "opp2-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-09-22",
+        "variant": "outline"
+      }
+    },
+    "opp2-what": {
+      "type": "Text",
+      "props": {
+        "text": "Pushing @jessepollak to show his own aeon agent — live continuation of last week's @svector_eth pitch thread to the Base co-founder (2 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp2-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "opp2-draft-label",
+        "opp2-draft-text"
+      ]
+    },
+    "opp2-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      }
+    },
+    "opp2-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "appreciate you keeping this alive. @jessepollak — fork aeonfun/aeon, drop a skill in skills/, point aeon.yml at a cron slot. runs unattended on github actions, no approval loop to babysit. see it yourself ⭐",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp3-title",
+        "opp3-meta-row",
+        "opp3-what",
+        "opp3-draft"
+      ]
+    },
+    "opp3-title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3-link",
+        "opp3-type"
+      ]
+    },
+    "opp3-link": {
+      "type": "Link",
+      "props": {
+        "label": "@coolcoder56",
+        "href": "https://x.com/coolcoder56/status/2101002038691930318"
+      }
+    },
+    "opp3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply",
+        "variant": "outline"
+      }
+    },
+    "opp3-meta-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3-leverage",
+        "opp3-expires"
+      ]
+    },
+    "opp3-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "high (~15.7k)",
+        "variant": "secondary"
+      }
+    },
+    "opp3-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-10-02",
+        "variant": "outline"
+      }
+    },
+    "opp3-what": {
+      "type": "Text",
+      "props": {
+        "text": "Organic discovery thread on aeon's github-actions-native model + vuln-scanner's audit record; claims it's secured repos at \"Google, NVIDIA and SpaceX\" — unverified, same pattern as the 08-23 amplification case (3 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp3-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "opp3-draft-label",
+        "opp3-draft-text"
+      ]
+    },
+    "opp3-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      }
+    },
+    "opp3-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "appreciate the writeup — the github-actions-native bit is exactly right, no approval loop, skills are just markdown. cant verify the google/nvidia/spacex specifics tho, dont want that spreading uncorrected. what IS real: eyebrow's merged security PRs on the repo",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opp4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp4-title",
+        "opp4-meta-row",
+        "opp4-what",
+        "opp4-draft"
+      ]
+    },
+    "opp4-title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4-link",
+        "opp4-type"
+      ]
+    },
+    "opp4-link": {
+      "type": "Link",
+      "props": {
+        "label": "Syanhlu/MiroShark",
+        "href": "https://github.com/Syanhlu/MiroShark"
+      }
+    },
+    "opp4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment",
+        "variant": "outline"
+      }
+    },
+    "opp4-meta-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4-leverage",
+        "opp4-expires"
+      ]
+    },
+    "opp4-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "low (individual/hackathon team)",
+        "variant": "secondary"
+      }
+    },
+    "opp4-expires": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-10-05",
+        "variant": "outline"
+      }
+    },
+    "opp4-what": {
+      "type": "Text",
+      "props": {
+        "text": "Shipped a full Vietnamese-market Miroshark adaptation (vi locale, Facebook/Threads/TikTok, LLM stance judge, A/B harness) over 10 commits, 2026-07-09→11; dormant 72d but genuinely substantial, only surfaced by the fork sweep today (0 days ago)",
+        "variant": "body"
+      }
+    },
+    "opp4-draft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "opp4-draft-label",
+        "opp4-draft-text"
+      ]
+    },
+    "opp4-draft-label": {
+      "type": "Text",
+      "props": {
+        "text": "Draft:",
+        "variant": "caption"
+      }
+    },
+    "opp4-draft-text": {
+      "type": "Text",
+      "props": {
+        "text": "really solid work — full vietnamese locale (fb/threads/tiktok, llm stance judge, a/b harness) in 10 commits is exactly the kind of adaptation worth having as an official option 🦈. is this shelved or would you want to upstream it as a community locale pack? happy to help if useful",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rc-heading",
+        "rc-state",
+        "rc-sources",
+        "rc-dropped"
+      ]
+    },
+    "rc-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run context",
+        "level": "h4"
+      }
+    },
+    "rc-state": {
+      "type": "Text",
+      "props": {
+        "text": "State bootstrap ok (memory/topics/engagement-acted.json pre-existing, 62 entries)",
+        "variant": "caption"
+      }
+    },
+    "rc-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: mention-radar-2026-09-20 json, bd-radar-2026-09-21 json + bd-radar-leads.json, fetch-tweets-2026-09-19 log",
+        "variant": "caption"
+      }
+    },
+    "rc-dropped": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped as already-answered: GitHub issue #305 ($MIROSHARK value-accrual) — closed 09-17, aaronjmars already replied on-thread, not a fresh draft. Dropped as dedup: @thecultos (acted 08-27, DM-expiry now 25d lapsed, operator check-in item not a fresh draft), @wolfgangg37/@0xlyon01/@Awesome_O_AI (all already acted 09-13/09-15/09-17, resurfaced by today's crop but blocked by canonical-handle dedup)",
+        "variant": "muted"
+      }
+    }
+  }
+}
