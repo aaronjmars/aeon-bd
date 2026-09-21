@@ -1,15 +1,11 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-20T17:50:00Z",
+  "last_analyzed": "2026-09-21T17:49:07Z",
   "quality_score": 4,
-  "assessment": "Well-reasoned, transparent decision-making with solid pattern recognition; exemplifies 'silence beats filler' discipline aligned to Aaron's no-busywork ethos.",
+  "assessment": "Substantive filter decision with clear reasoning; appropriately rejected weak items, flagged the Riva item as a BD signal instead of promo anchor, and applied hard constraints correctly.",
   "flags": [],
   "avg_score": 3.83,
   "history": [
-    {
-      "date": "2026-08-23",
-      "score": 4
-    },
     {
       "date": "2026-08-24",
       "score": 2
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-09-20",
+      "score": 4
+    },
+    {
+      "date": "2026-09-21",
       "score": 4
     }
   ]
