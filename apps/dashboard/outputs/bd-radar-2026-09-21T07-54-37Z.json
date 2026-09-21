@@ -1,0 +1,331 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar",
+        "description": "2026-09-21 — vs 2026-09-19: 2 new, 3 still-open, 61 leads total"
+      },
+      "children": [
+        "stats-header",
+        "sep1",
+        "building-section",
+        "sep2",
+        "mentioning-section",
+        "sep3",
+        "stale-section",
+        "sep4",
+        "run-status"
+      ]
+    },
+    "stats-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-new",
+        "stat-open",
+        "stat-total"
+      ]
+    },
+    "stat-new": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "2"
+      }
+    },
+    "stat-open": {
+      "type": "Stat",
+      "props": {
+        "label": "Still-open",
+        "value": "3"
+      }
+    },
+    "stat-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total leads",
+        "value": "61"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "building-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "building-heading",
+        "building-repo",
+        "building-badges",
+        "building-desc",
+        "building-move-block"
+      ]
+    },
+    "building-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Building",
+        "level": "h3"
+      }
+    },
+    "building-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Syanhlu/MiroShark",
+        "href": "https://github.com/Syanhlu/MiroShark",
+        "source": "GitHub"
+      }
+    },
+    "building-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dead",
+        "badge-first-seen-today"
+      ]
+    },
+    "badge-dead": {
+      "type": "Badge",
+      "props": {
+        "text": "Dead 72d",
+        "variant": "destructive"
+      }
+    },
+    "badge-first-seen-today": {
+      "type": "Badge",
+      "props": {
+        "text": "First seen 2026-09-21",
+        "variant": "secondary"
+      }
+    },
+    "building-desc": {
+      "type": "Text",
+      "props": {
+        "text": "VNG-hackathon team shipped a full Vietnamese-market Miroshark adaptation (vi locale, FB/Threads/TikTok, OpenAI provider, LLM stance judge, A/B harness) over 10 commits, 07-09→11. Genuinely substantial, missed by the sweep until now.",
+        "variant": "body"
+      }
+    },
+    "building-move-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "building-move",
+        "building-flip"
+      ]
+    },
+    "building-move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: DM @Syanhlu — ask if the localization work is shelved or worth upstreaming as an official locale pack",
+        "variant": "lead"
+      }
+    },
+    "building-flip": {
+      "type": "Text",
+      "props": {
+        "text": "Flips if: no reply within 14d",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "mentioning-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mentioning-heading",
+        "mentioning-user",
+        "mentioning-badges",
+        "mentioning-desc",
+        "mentioning-engagement",
+        "mentioning-move-block"
+      ]
+    },
+    "mentioning-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Mentioning",
+        "level": "h3"
+      }
+    },
+    "mentioning-user": {
+      "type": "Link",
+      "props": {
+        "label": "x:coolcoder56",
+        "href": "https://x.com/coolcoder56"
+      }
+    },
+    "mentioning-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-mention-first-seen"
+      ]
+    },
+    "badge-mention-first-seen": {
+      "type": "Badge",
+      "props": {
+        "text": "First seen 2026-09-21",
+        "variant": "secondary"
+      }
+    },
+    "mentioning-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Organic discovery thread — 15.7k-follower SDE praised the GitHub-Actions-native model + vuln-scanner's Google/NVIDIA record. SpaceX detail unverified, same pattern as 08-23.",
+        "variant": "body"
+      }
+    },
+    "mentioning-engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-likes",
+        "stat-views"
+      ]
+    },
+    "stat-likes": {
+      "type": "Stat",
+      "props": {
+        "label": "Likes",
+        "value": "12"
+      }
+    },
+    "stat-views": {
+      "type": "Stat",
+      "props": {
+        "label": "Views",
+        "value": "1.5k"
+      }
+    },
+    "mentioning-move-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mentioning-move",
+        "mentioning-flip"
+      ]
+    },
+    "mentioning-move": {
+      "type": "Text",
+      "props": {
+        "text": "Move: reply, thank + correct the SpaceX detail before it spreads",
+        "variant": "lead"
+      }
+    },
+    "mentioning-flip": {
+      "type": "Text",
+      "props": {
+        "text": "Flips if: flat past 09-25",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stale-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stale-heading",
+        "stale-cultoos",
+        "stale-miroshark",
+        "stale-aeonfun"
+      ]
+    },
+    "stale-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Stale items",
+        "level": "h3"
+      }
+    },
+    "stale-cultoos": {
+      "type": "Alert",
+      "props": {
+        "title": "CultOS",
+        "message": "DM-expiry now 25 days lapsed (09-20 fresh x402aff push + booster cluster, still no outreach)",
+        "type": "warning"
+      }
+    },
+    "stale-miroshark": {
+      "type": "Alert",
+      "props": {
+        "title": "MiroShark#240",
+        "message": "40d past SLA",
+        "type": "warning"
+      }
+    },
+    "stale-aeonfun": {
+      "type": "Alert",
+      "props": {
+        "title": "aeonfun/aeon#1045",
+        "message": "Still no PR 11d after acceptance",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "run-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run-heading",
+        "run-details"
+      ]
+    },
+    "run-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Status",
+        "level": "h4"
+      }
+    },
+    "run-details": {
+      "type": "Text",
+      "props": {
+        "text": "github forks/issues ok · gh search ok · x (twitterapi.io, 2pg) ok · websearch ok · no source misses",
+        "variant": "caption"
+      }
+    }
+  }
+}

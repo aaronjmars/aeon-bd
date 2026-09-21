@@ -1,8 +1,8 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-09-19T07:34:25Z",
+  "last_analyzed": "2026-09-21T07:54:36Z",
   "quality_score": 4,
-  "assessment": "Substantive radar sweep with specific leads, verifiable sources, actionable next moves, and honest noise clearing. Proper execution of BD signal-surfacing; well-aligned to strategy.",
+  "assessment": "Substantive BD signal discovery (2 new leads with verified details, 3 escalations) with honest uncertainty flags, clear follow-ups, and aligned to primary priority (surface signal early). Addresses core task fully; secondary priorities (engage/draft copy, timing strategy) only partially executed.",
   "flags": [],
   "avg_score": 4.06,
   "history": [
@@ -72,6 +72,10 @@
     },
     {
       "date": "2026-09-19",
+      "score": 4
+    },
+    {
+      "date": "2026-09-21",
       "score": 4
     }
   ]
