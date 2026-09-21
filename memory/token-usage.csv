@@ -176,3 +176,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-20,fetch-tweets,claude-sonnet-5,2420,16639,2836600,80229
 2026-09-20,reddit-promo,claude-sonnet-5,2255,9825,1041149,82476
 2026-09-20,memory-flush,claude-sonnet-5,2394,21865,1869807,100672
+2026-09-21,competitor-monitor,claude-sonnet-5,2120,2827,595074,29495
