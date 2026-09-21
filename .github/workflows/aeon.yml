@@ -484,6 +484,31 @@ jobs:
         if: steps.work.outputs.mode != '' && steps.skill.outputs.name == 'vuln-scanner'
         run: bash scripts/stage-vuln-scanner.sh "${{ steps.skill.outputs.name }}"
 
+      - name: Install Foundry (sc-audit)
+        # sc-audit's fuzz arm (SKILL.md S6.5) needs forge; provision it via the
+        # official action (cached, pinned, retried) so the stage script's
+        # `command -v forge` guard skips its own rate-limit-prone curl install -
+        # same lesson as the deploy-uni-hook step below.
+        if: steps.work.outputs.mode != '' && steps.skill.outputs.name == 'sc-audit'
+        uses: foundry-rs/foundry-toolchain@908c540300062bd5a7e473851cdb4282204cee09 # v1
+        with:
+          version: stable
+
+      - name: Stage sc-audit tools
+        # Provisions the smart-contract toolchain (slither/solc-select/crytic-compile
+        # + echidna/medusa) and appends /tmp/bin to $GITHUB_PATH so the bare names
+        # resolve in the later claude -p step and its per-call fresh shells (an in-run
+        # `export PATH` doesn't survive between Claude's Bash calls). Without this the
+        # audit's Slither and fuzz arms degrade to skipped and sc-audit falls back to
+        # the agentic source pass only. GH_TOKEN authenticates the echidna/medusa
+        # release-asset lookups (the unauthenticated 60/hr shared-runner limit 403s
+        # them). In-run tool use is separately gated by the write-tier grant in
+        # scripts/skill_mode.sh. Self-guards to sc-audit; best-effort, never fails.
+        if: steps.work.outputs.mode != '' && steps.skill.outputs.name == 'sc-audit'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/stage-sc-audit.sh "${{ steps.skill.outputs.name }}"
+
       - name: Install Foundry (deploy-uni-hook)
         # The official action installs a cached, pinned Foundry from GitHub
         # releases with retries. The old path (curl https://foundry.paradigm.xyz |
@@ -1744,8 +1769,11 @@ jobs:
         # the memory/logs/ entry "Read-only capability guard" (previous step)
         # just staged — this step stages that path and nothing else, so by
         # construction it can't ship code, and it never fires for write-mode
-        # skills regardless (SKILL_MODE == 'read-only' gate).
-        if: ${{ !cancelled() && steps.work.outputs.mode != '' && env.SKILL_MODE == 'read-only' && steps.run.outcome != 'success' }}
+        # skills regardless (SKILL_MODE == 'read-only' gate). It is also skipped
+        # for proof runs (dispatch_id prefix 'prove-'): a proof re-runs a skill on
+        # the PR's attested head branch, so committing a failure log here would push
+        # a stray commit onto the very head the proof must not move.
+        if: ${{ !cancelled() && steps.work.outputs.mode != '' && env.SKILL_MODE == 'read-only' && steps.run.outcome != 'success' && !startsWith(inputs.dispatch_id, 'prove-') }}
         run: |
           git config user.name "aeonframework"
           git config user.email "aeonframework@proton.me"
@@ -1764,7 +1792,8 @@ jobs:
         # this step's `git add -A` covers write-mode skills too and running it
         # unconditionally would risk committing a partial/broken mid-edit state
         # from a genuinely failed write-mode run.)
-        if: steps.work.outputs.mode != ''
+        # proof runs must not move the immutable branch head they attest.
+        if: steps.work.outputs.mode != '' && steps.skill.outputs.name != 'create-prove' && !startsWith(inputs.dispatch_id, 'prove-')
         env:
           STATE_BACKEND: ${{ vars.STATE_BACKEND }}
         run: |
