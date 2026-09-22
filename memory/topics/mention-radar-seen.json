@@ -166,14 +166,14 @@
       "project": "aeon",
       "category": "Feature request",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20"
+      "last_seen": "2026-09-22"
     },
     {
       "key": "x:https://x.com/0xNurstar/status/2101252563953680530",
       "project": "aeon",
       "category": "Discovery",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20"
+      "last_seen": "2026-09-22"
     },
     {
       "key": "x:https://x.com/Awesome_O_AI/status/2100932694985363810",
@@ -195,6 +195,34 @@
       "category": "Feature request",
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20"
+    },
+    {
+      "key": "x:https://x.com/PremierBase/status/2102415433307771212",
+      "project": "aeon",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22"
+    },
+    {
+      "key": "x:https://x.com/Leon_Defi/status/2102412254725710210",
+      "project": "aeon",
+      "category": "Confusion",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22"
+    },
+    {
+      "key": "x:https://x.com/_THOR_ASGARD/status/2102415346800169378",
+      "project": "aeon",
+      "category": "Confusion",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22"
+    },
+    {
+      "key": "x:https://x.com/Awesome_O_AI/status/2102382401959985360",
+      "project": "miroshark",
+      "category": "Discovery",
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22"
     }
   ],
   "quiet_streak": {

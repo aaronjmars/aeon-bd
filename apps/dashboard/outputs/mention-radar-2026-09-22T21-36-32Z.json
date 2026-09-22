@@ -1,0 +1,739 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar - 2026-09-22",
+        "description": "vs 2026-09-20 - 4 new - 2 still-open - 0 quiet"
+      },
+      "children": [
+        "header-badges",
+        "sep-1",
+        "aeon-section",
+        "sep-2",
+        "miroshark-section",
+        "sep-3",
+        "resolved-section",
+        "sep-4",
+        "opportunities-section",
+        "sep-5",
+        "github-section",
+        "sep-6",
+        "meta-section"
+      ]
+    },
+    "header-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-new",
+        "badge-open",
+        "badge-quiet"
+      ]
+    },
+    "badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "4 new",
+        "variant": "default"
+      }
+    },
+    "badge-open": {
+      "type": "Badge",
+      "props": {
+        "text": "2 still-open",
+        "variant": "secondary"
+      }
+    },
+    "badge-quiet": {
+      "type": "Badge",
+      "props": {
+        "text": "0 quiet",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aeon-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "aeon-heading",
+        "mention-pb",
+        "mention-ld",
+        "mention-ta",
+        "mention-wh",
+        "mention-ns"
+      ]
+    },
+    "aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "mention-pb": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention-pb-badges",
+        "mention-pb-card",
+        "mention-pb-link"
+      ]
+    },
+    "mention-pb-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-pb-new",
+        "badge-pb-cat"
+      ]
+    },
+    "badge-pb-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "badge-pb-cat": {
+      "type": "Badge",
+      "props": {
+        "text": "Press/newsletter",
+        "variant": "secondary"
+      }
+    },
+    "mention-pb-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "PremierBase",
+        "handle": "PremierBase",
+        "text": "\"Base Build 001: Aeon Framework\" deep-dive - frames Aeon as framework→skills→workflows→products→revenue, leads with the 50% buyback + hook-fee-routing mechanic, flags the open question of converting security work into recurring revenue. 32.5k followers, verified.",
+        "likes": 55,
+        "retweets": 17
+      }
+    },
+    "mention-pb-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/PremierBase/status/2102415433307771212"
+      }
+    },
+    "mention-ld": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention-ld-badges",
+        "mention-ld-card",
+        "mention-ld-link"
+      ]
+    },
+    "mention-ld-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ld-new",
+        "badge-ld-cat"
+      ]
+    },
+    "badge-ld-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "badge-ld-cat": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion",
+        "variant": "outline"
+      }
+    },
+    "mention-ld-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Leon_Defi",
+        "handle": "Leon_Defi",
+        "text": "Pushes back on the \"4.3M stars secured\" framing - \"cool but how many critical bugs have you actually caught in those repos this week?\" 11k followers, verified."
+      }
+    },
+    "mention-ld-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Leon_Defi/status/2102412254725710210"
+      }
+    },
+    "mention-ta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention-ta-badges",
+        "mention-ta-card",
+        "mention-ta-link"
+      ]
+    },
+    "mention-ta-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ta-new",
+        "badge-ta-cat"
+      ]
+    },
+    "badge-ta-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "badge-ta-cat": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion",
+        "variant": "outline"
+      }
+    },
+    "mention-ta-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "_THOR_ASGARD",
+        "handle": "_THOR_ASGARD",
+        "text": "Defends @aeonframework as \"the real one\" against a @bankrbot AEON name-collision. Same brand-confusion pattern flagged repeatedly since early September. 335 followers."
+      }
+    },
+    "mention-ta-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/_THOR_ASGARD/status/2102415346800169378"
+      }
+    },
+    "mention-wh": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention-wh-badges",
+        "mention-wh-card",
+        "mention-wh-link"
+      ]
+    },
+    "mention-wh-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-wh-status",
+        "badge-wh-cat"
+      ]
+    },
+    "badge-wh-status": {
+      "type": "Badge",
+      "props": {
+        "text": "Still open since 2026-09-20",
+        "variant": "secondary"
+      }
+    },
+    "badge-wh-cat": {
+      "type": "Badge",
+      "props": {
+        "text": "Feature request",
+        "variant": "secondary"
+      }
+    },
+    "mention-wh-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "weaponheadsNFT",
+        "handle": "weaponheadsNFT",
+        "text": "Custom V4 hook ask tied to the live Hook Marketplace. Still unresolved. No visible reply pointing them at the Submit Hook flow."
+      }
+    },
+    "mention-wh-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/weaponheadsNFT/status/2101274823557103999"
+      }
+    },
+    "mention-ns": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention-ns-badges",
+        "mention-ns-card",
+        "mention-ns-link"
+      ]
+    },
+    "mention-ns-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ns-status",
+        "badge-ns-cat"
+      ]
+    },
+    "badge-ns-status": {
+      "type": "Badge",
+      "props": {
+        "text": "Still open since 2026-09-20",
+        "variant": "secondary"
+      }
+    },
+    "badge-ns-cat": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "secondary"
+      }
+    },
+    "mention-ns-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNurstar",
+        "handle": "0xNurstar",
+        "text": "Pushing @jessepollak in the live pitch thread. No reply from Jesse yet."
+      }
+    },
+    "mention-ns-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/0xNurstar/status/2101252563953680530"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "miroshark-heading",
+        "mention-aoi"
+      ]
+    },
+    "miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "mention-aoi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mention-aoi-badges",
+        "mention-aoi-card",
+        "mention-aoi-link"
+      ]
+    },
+    "mention-aoi-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-aoi-new",
+        "badge-aoi-cat"
+      ]
+    },
+    "badge-aoi-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "badge-aoi-cat": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "secondary"
+      }
+    },
+    "mention-aoi-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Awesome_O_AI",
+        "handle": "Awesome_O_AI",
+        "text": "Reacted to Miroshark's Substack launch - \"x402 letting any agent call the market for a dollar with no signup is huge\". 3rd organic engagement with Miroshark content this window (prior: 09-16, 09-20 x2). 149.7k followers, verified."
+      }
+    },
+    "mention-aoi-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Awesome_O_AI/status/2102382401959985360"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "resolved-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "resolved-heading",
+        "resolved-text"
+      ]
+    },
+    "resolved-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "RESOLVED",
+        "level": "h3"
+      }
+    },
+    "resolved-text": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub issue MiroShark/MiroShark#305 (value-accrual question, flagged 2026-09-20) closed with 2 comments as of today - answered, no longer needs engagement follow-up.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opportunities-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "opp-heading",
+        "opp-pb",
+        "opp-ld",
+        "opp-aoi"
+      ]
+    },
+    "opp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "opp-pb": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-pb-title",
+        "opp-pb-text",
+        "opp-pb-link"
+      ]
+    },
+    "opp-pb-title": {
+      "type": "Heading",
+      "props": {
+        "text": "@PremierBase (32.5k followers)",
+        "level": "h4"
+      }
+    },
+    "opp-pb-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to the Base Build 001 thread with a concrete Phase-2 proof point (e.g. this week's 8 new NVIDIA-credited CVE researchers from competitor-monitor) to extend the highest-reach analysis piece seen this window. Expires ~5d (thread relevance window).",
+        "variant": "body"
+      }
+    },
+    "opp-pb-link": {
+      "type": "Link",
+      "props": {
+        "label": "Reply on thread",
+        "href": "https://x.com/PremierBase/status/2102415433307771212"
+      }
+    },
+    "opp-ld": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-ld-title",
+        "opp-ld-text",
+        "opp-ld-link"
+      ]
+    },
+    "opp-ld-title": {
+      "type": "Heading",
+      "props": {
+        "text": "@Leon_Defi (11k followers)",
+        "level": "h4"
+      }
+    },
+    "opp-ld-text": {
+      "type": "Text",
+      "props": {
+        "text": "Direct factual reply citing verified, sourced numbers (not the bare \"4.3M stars\" framing). A real skeptic asking a fair question - first clean shot at correcting the aggregate-stars narrative before it hardens. Flips if answered before it gets amplified further.",
+        "variant": "body"
+      }
+    },
+    "opp-ld-link": {
+      "type": "Link",
+      "props": {
+        "label": "Reply on thread",
+        "href": "https://x.com/Leon_Defi/status/2102412254725710210"
+      }
+    },
+    "opp-aoi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-aoi-title",
+        "opp-aoi-text",
+        "opp-aoi-link"
+      ]
+    },
+    "opp-aoi-title": {
+      "type": "Heading",
+      "props": {
+        "text": "@Awesome_O_AI (149.7k followers)",
+        "level": "h4"
+      }
+    },
+    "opp-aoi-text": {
+      "type": "Text",
+      "props": {
+        "text": "Amplify/reply - third organic touch on Miroshark from the single highest-reach account either product has seen this window, now specifically praising the x402 mechanic. Flips if this account posts about Miroshark unprompted a 4th time (would mark genuine organic advocacy, not just repeat curiosity).",
+        "variant": "body"
+      }
+    },
+    "opp-aoi-link": {
+      "type": "Link",
+      "props": {
+        "label": "Reply on thread",
+        "href": "https://x.com/Awesome_O_AI/status/2102382401959985360"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "github-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "github-heading",
+        "github-grid"
+      ]
+    },
+    "github-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Network Signal",
+        "level": "h2"
+      }
+    },
+    "github-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "github-aeon-stack",
+        "github-miroshark-stack"
+      ]
+    },
+    "github-aeon-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "github-aeon-title",
+        "github-aeon-stars",
+        "github-aeon-forks"
+      ]
+    },
+    "github-aeon-title": {
+      "type": "Heading",
+      "props": {
+        "text": "aeon",
+        "level": "h4"
+      }
+    },
+    "github-aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "754",
+        "delta": "+12/2d",
+        "trend": "up"
+      }
+    },
+    "github-aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "265",
+        "delta": "+1/2d",
+        "trend": "up"
+      }
+    },
+    "github-miroshark-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "github-miroshark-title",
+        "github-miroshark-stars",
+        "github-miroshark-forks"
+      ]
+    },
+    "github-miroshark-title": {
+      "type": "Heading",
+      "props": {
+        "text": "miroshark",
+        "level": "h4"
+      }
+    },
+    "github-miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1453",
+        "delta": "+1/2d (below +5 threshold)",
+        "trend": "neutral"
+      }
+    },
+    "github-miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "300",
+        "delta": "-1/2d",
+        "trend": "down"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "meta-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "meta-heading",
+        "meta-source",
+        "meta-surfaces",
+        "meta-period"
+      ]
+    },
+    "meta-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Metadata",
+        "level": "h3"
+      }
+    },
+    "meta-source": {
+      "type": "Text",
+      "props": {
+        "text": "Data source: X API (twitterapi)",
+        "variant": "caption"
+      }
+    },
+    "meta-surfaces": {
+      "type": "Text",
+      "props": {
+        "text": "Web surfaces (Reddit/HN/PH): quiet this cycle, no fresh hits",
+        "variant": "caption"
+      }
+    },
+    "meta-period": {
+      "type": "Text",
+      "props": {
+        "text": "Period: 2026-09-20 → 2026-09-22 (aeon +12 stars/2d)",
+        "variant": "caption"
+      }
+    }
+  }
+}
