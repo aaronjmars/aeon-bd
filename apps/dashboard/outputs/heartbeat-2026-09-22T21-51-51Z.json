@@ -1,0 +1,208 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat — Fleet Health"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-main",
+        "sep1",
+        "stack-related",
+        "sep2",
+        "stack-watch",
+        "sep3",
+        "stack-status"
+      ]
+    },
+    "alert-main": {
+      "type": "Alert",
+      "props": {
+        "title": "🔴 FAILED: heartbeat",
+        "message": "4 consecutive run_failed runs since last success (2026-09-21 08:10 UTC), latest fail 15:34 UTC today.\nSelf-check ~37.7h stale (>36h bar).\nZero-token instant-fail signature — same as the 08-31 incident.",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-related": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-related",
+        "stack-related-items"
+      ]
+    },
+    "heading-related": {
+      "type": "Heading",
+      "props": {
+        "text": "Related Failures — Same Signature",
+        "level": "h3"
+      }
+    },
+    "stack-related-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-competitor",
+        "text-mention",
+        "text-unconfirmed"
+      ]
+    },
+    "text-competitor": {
+      "type": "Text",
+      "props": {
+        "text": "competitor-monitor: 4 failures (06:08–13:26 UTC) — recovered by 19:36 UTC",
+        "variant": "body"
+      }
+    },
+    "text-mention": {
+      "type": "Text",
+      "props": {
+        "text": "mention-radar: 4 failures (07:37–15:24 UTC) — recovered by 21:39 UTC",
+        "variant": "body"
+      }
+    },
+    "text-unconfirmed": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat is still unconfirmed — this run is the first attempt since",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "stack-issues",
+        "text-watch1",
+        "text-watch2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "🟡 WATCH: Carryover Health Issues",
+        "level": "h3"
+      }
+    },
+    "stack-issues": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-100",
+        "badge-104",
+        "badge-105",
+        "badge-107"
+      ]
+    },
+    "badge-100": {
+      "type": "Badge",
+      "props": {
+        "text": "#100",
+        "variant": "secondary"
+      }
+    },
+    "badge-104": {
+      "type": "Badge",
+      "props": {
+        "text": "#104",
+        "variant": "secondary"
+      }
+    },
+    "badge-105": {
+      "type": "Badge",
+      "props": {
+        "text": "#105",
+        "variant": "secondary"
+      }
+    },
+    "badge-107": {
+      "type": "Badge",
+      "props": {
+        "text": "#107",
+        "variant": "secondary"
+      }
+    },
+    "text-watch1": {
+      "type": "Text",
+      "props": {
+        "text": "Quality-score nits on skills running clean, no fresh action",
+        "variant": "body"
+      }
+    },
+    "text-watch2": {
+      "type": "Text",
+      "props": {
+        "text": "No stalled PRs, no urgent-labeled issues",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-status",
+        "link-status"
+      ]
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "🔴 DEGRADED",
+        "variant": "lead"
+      }
+    },
+    "link-status": {
+      "type": "Link",
+      "props": {
+        "label": "docs/status.md",
+        "href": "docs/status.md"
+      }
+    }
+  }
+}

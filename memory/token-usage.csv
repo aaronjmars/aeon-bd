@@ -188,3 +188,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-22,reddit-promo,claude-sonnet-5,2422,15700,2407792,71435
 2026-09-22,competitor-monitor,claude-sonnet-5,2410,11347,1747908,52171
 2026-09-22,mention-radar,claude-sonnet-5,2559,17022,2737266,154919
+2026-09-22,heartbeat,claude-sonnet-5,2402,29620,1926801,81460
