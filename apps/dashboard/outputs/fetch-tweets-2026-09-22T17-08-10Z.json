@@ -1,0 +1,164 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets",
+        "description": "Aeon & Miroshark (@aeonframework/@miroshark_) — 2026-09-22"
+      },
+      "children": [
+        "text_intro",
+        "sep_1",
+        "heading_bull",
+        "stack_bull",
+        "sep_2",
+        "heading_product",
+        "stack_product",
+        "sep_3",
+        "heading_pushback",
+        "stack_pushback"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Two independent long-form bull theses on Aeon's buyback/product-vertical model landed same-day, alongside the first public skepticism on the \"4.3M stars secured\" headline and another AEON name-collision flare-up.",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_bull": {
+      "type": "Heading",
+      "props": {
+        "text": "Bull thesis / deep-dive threads",
+        "level": "h3"
+      }
+    },
+    "stack_bull": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "tweet_2"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "PremierBase",
+        "handle": "PremierBase",
+        "text": "\"Base Build 001\" series debut: frames Aeon as framework→skills→workflows→products→revenue, leads with the 50% buyback + hook-fee-routing mechanic, flags whether security work converts to recurring revenue",
+        "likes": 40,
+        "retweets": 13
+      }
+    },
+    "tweet_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aonKaTruong",
+        "handle": "aonKaTruong",
+        "text": "independent thesis argues Aeon is mispriced as \"just a framework,\" bets the repricing catalyst is Phase 2 (security/hooks) traction becoming visible",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_product": {
+      "type": "Heading",
+      "props": {
+        "text": "Product ships + price",
+        "level": "h3"
+      }
+    },
+    "stack_product": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_3",
+        "tweet_4"
+      ]
+    },
+    "tweet_3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "DegenOnBase_",
+        "handle": "DegenOnBase_",
+        "text": "claims Aeon's CapGate hook shipped live, caps swaps at 5% of pool reserves, intro blog updated",
+        "likes": 4,
+        "retweets": 1
+      }
+    },
+    "tweet_4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "CoinGatePad",
+        "handle": "CoinGatePad",
+        "text": "automated gainers-board bot lists $MIROSHARK +17.10% today (4th of 10 tracked tokens)",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_pushback": {
+      "type": "Heading",
+      "props": {
+        "text": "Pushback & brand confusion",
+        "level": "h3"
+      }
+    },
+    "stack_pushback": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_5",
+        "tweet_6"
+      ]
+    },
+    "tweet_5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Leon_Defi",
+        "handle": "Leon_Defi",
+        "text": "first skeptical reply on the \"4.3M stars secured\" claim: asks how many critical bugs were actually caught \"this week\"",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet_6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "_THOR_ASGARD",
+        "handle": "_THOR_ASGARD",
+        "text": "defends @aeonframework as \"the real one\" against brand confusion involving @bankrbot and another AEON-named account — another instance of the known name-collision pattern",
+        "likes": 0,
+        "retweets": 0
+      }
+    }
+  }
+}

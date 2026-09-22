@@ -184,3 +184,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-21,fetch-tweets,claude-sonnet-5,2551,14729,2629258,66728
 2026-09-21,reddit-promo,claude-sonnet-5,2118,7740,758577,71198
 2026-09-21,reddit-playbook,claude-sonnet-5,2116,8081,663802,88409
+2026-09-22,fetch-tweets,claude-sonnet-5,2700,15642,3363836,66568

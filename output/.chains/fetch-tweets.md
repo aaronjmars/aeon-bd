@@ -1,23 +1,31 @@
-ℹ️ Top Tweets — Aeon + Miroshark
+ℹ️ Top Tweets
 
-*Top Tweets — Aeon + Miroshark (2026-09-21)*
-_Quiet volume day, but real signal: a tracked BD lead just praised an unreleased "Riva" capability pre-launch, CultOS keeps working the x402aff channel, and $AEON caught a stray pump mention._
+*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-22)*
+_Two independent long-form bull theses on Aeon's buyback/product-vertical model landed same-day, alongside the first public skepticism on the "4.3M stars secured" headline and another AEON name-collision flare-up._
 
-*Riva — early builder signal*
-1. x.com/svector_eth — Praises an unreleased "riva" capability: "been using it for a while before the release and i really love this approach. excited for people to finally see what riva can do." Matches today's aeon-update sync note on mcp-server Riva isolation — external confirmation testers already have it. aaronjmars starred the reply. Same lead who pitched Aeon to Base's Jesse Pollak on 09-18.
-Likes: 0 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/svector_eth/status/2102031245156745399)
+*Bull thesis / deep-dive threads*
+1. x.com/PremierBase — "Base Build 001" series debut: frames Aeon as framework→skills→workflows→products→revenue, leads with the 50% buyback + hook-fee-routing mechanic, flags whether security work converts to recurring revenue
+Likes: 40 | RTs: 13 | Replies: 7
+[View tweet](https://x.com/PremierBase/status/2102415433307771212)
 
-*CultOS x402aff (continuing)*
-2. x.com/thecultos — Pushes hiring a "vuln-audit" via Cult OS for $0.20, x402aff-eligible with miroshark_ at 10% commission — same templated push pattern tracked since 08-27; operator check-in still overdue.
-Likes: 3 | RTs: 2 | Replies: 0
-[View tweet](https://x.com/thecultos/status/2102035448453317061)
+2. x.com/aonKaTruong — independent thesis argues Aeon is mispriced as "just a framework," bets the repricing catalyst is Phase 2 (security/hooks) traction becoming visible
+Likes: 3 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/aonKaTruong/status/2102422329947197858)
 
-*Market chatter — $AEON price*
-3. x.com/based_elnen — Third-party account urges followers to "load up" on $AEON + $HIVE, calling both "UNDERVALUED Base gems" — pump-style post, not organic demand; drew a pileon of low-content reply-guy replies.
-Likes: 20 | RTs: 4 | Replies: 6
-[View tweet](https://x.com/based_elnen/status/2102048727250714934)
+*Product ships + price*
+3. x.com/DegenOnBase_ — claims Aeon's CapGate hook shipped live, caps swaps at 5% of pool reserves, intro blog updated
+Likes: 4 | RTs: 1 | Replies: 1
+[View tweet](https://x.com/DegenOnBase_/status/2102427711520362668)
 
-4. x.com/bankrbot — Automated market bot: $AEON $0.00002166, 24h +12.30%, mcap $2.20M — objective data point, not a call.
+4. x.com/CoinGatePad — automated gainers-board bot lists $MIROSHARK +17.10% today (4th of 10 tracked tokens)
 Likes: 1 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/bankrbot/status/2102025399433925011)
+[View tweet](https://x.com/CoinGatePad/status/2102435582706110549)
+
+*Pushback & brand confusion*
+5. x.com/Leon_Defi — first skeptical reply on the "4.3M stars secured" claim: asks how many critical bugs were actually caught "this week"
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/Leon_Defi/status/2102412254725710210)
+
+6. x.com/_THOR_ASGARD — defends @aeonframework as "the real one" against brand confusion involving @bankrbot and another AEON-named account — another instance of the known name-collision pattern
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/_THOR_ASGARD/status/2102415346800169378)

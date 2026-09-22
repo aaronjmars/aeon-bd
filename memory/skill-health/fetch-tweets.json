@@ -1,17 +1,13 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-09-21T17:08:02Z",
-  "quality_score": 2,
-  "assessment": "Well-structured output with specific, unverifiable claims; tweets, IDs, quotes, and metrics cannot be confirmed from the scoring context.",
+  "last_analyzed": "2026-09-22T17:08:09Z",
+  "quality_score": 3,
+  "assessment": "Task completed with good structure but output lacks verifiable specifics and tweet links needed for immediate action",
   "flags": [
-    "unverifiable_claim"
+    "generic_content"
   ],
-  "avg_score": 3.93,
+  "avg_score": 3.9,
   "history": [
-    {
-      "date": "2026-08-24",
-      "score": 4
-    },
     {
       "date": "2026-08-25",
       "score": 4
@@ -127,6 +123,10 @@
     {
       "date": "2026-09-21",
       "score": 2
+    },
+    {
+      "date": "2026-09-22",
+      "score": 3
     }
   ]
 }
