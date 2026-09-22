@@ -1,0 +1,155 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Competitor Monitor",
+        "description": "nvidia.com/security/acknowledgements — 3 changes detected"
+      },
+      "children": [
+        "link_page",
+        "sep_1",
+        "heading_changes",
+        "stack_changes",
+        "sep_2",
+        "status"
+      ]
+    },
+    "link_page": {
+      "type": "Link",
+      "props": {
+        "label": "nvidia.com/security/acknowledgements",
+        "href": "https://nvidia.com/security/acknowledgements"
+      }
+    },
+    "sep_1": {
+      "type": "Separator"
+    },
+    "heading_changes": {
+      "type": "Heading",
+      "props": {
+        "text": "Changes",
+        "level": "h3"
+      }
+    },
+    "stack_changes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "change_1_container",
+        "change_2",
+        "change_3"
+      ]
+    },
+    "change_1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_change_1_title",
+        "researchers_list"
+      ]
+    },
+    "text_change_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "8 new table rows — new credited researchers/CVEs:",
+        "variant": "lead"
+      }
+    },
+    "researchers_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    },
+    "r1": {
+      "type": "Text",
+      "props": {
+        "text": "Navtej Kathuria (13 CVEs)"
+      }
+    },
+    "r2": {
+      "type": "Text",
+      "props": {
+        "text": "Faisal Tameesh (CVE-2026-65121)"
+      }
+    },
+    "r3": {
+      "type": "Text",
+      "props": {
+        "text": "升/CheN.. (CVE-2026-65179)"
+      }
+    },
+    "r4": {
+      "type": "Text",
+      "props": {
+        "text": "Руслан Семченко (CVE-2026-24267)"
+      }
+    },
+    "r5": {
+      "type": "Text",
+      "props": {
+        "text": "Hwang JUNHA (CVE-2026-24239)"
+      }
+    },
+    "r6": {
+      "type": "Text",
+      "props": {
+        "text": "Saidakbarxon Maxsudxonov (CVE-2026-65111)"
+      }
+    },
+    "r7": {
+      "type": "Text",
+      "props": {
+        "text": "Song Liu (CVE-2026-65178)"
+      }
+    },
+    "r8": {
+      "type": "Text",
+      "props": {
+        "text": "Expanded bulk-credit line"
+      }
+    },
+    "change_2": {
+      "type": "Text",
+      "props": {
+        "text": "1 row removed — the prior shorter bulk-credit line, superseded by the new one"
+      }
+    },
+    "change_3": {
+      "type": "Text",
+      "props": {
+        "text": "Linked page moved: /en-us/startups → /en-eu/startups (locale-path swap, not new content)"
+      }
+    },
+    "sep_2": {
+      "type": "Separator"
+    },
+    "status": {
+      "type": "Text",
+      "props": {
+        "text": "sources: nvidia.com=ok",
+        "variant": "caption"
+      }
+    }
+  }
+}

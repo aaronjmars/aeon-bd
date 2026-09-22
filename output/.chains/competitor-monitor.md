@@ -1,18 +1,8 @@
-Competitor Monitor run complete — quiet day, no notification sent (per skill design, silence on a quiet run is correct).
+ℹ️ Competitor Monitor
 
-## Result
-
-**Watch list:** 1 page tracked (from `memory/competitors.md`): `https://www.nvidia.com/en-us/security/acknowledgements/` (with `[rows]` table-row diffing enabled).
-
-**Snapshot:** `memory/competitor-monitor/2026-09-21T06-10-35Z.json` written successfully.
-
-**Diff vs. previous run (2026-09-20):** Zero changes — no new/removed table rows (no new credited researchers), no pricing/heading/title/CTA changes (page has none of those signals anyway; it's a table page). Fetch succeeded (`ok: true`).
-
-No notification was sent — a quiet run is the correct outcome, not something to report.
-
-## Summary
-- Ran `scripts/competitor-monitor.mjs snapshot` and `diff` against the single watched page (nvidia.com security acknowledgements, row-tracking enabled).
-- No changes detected vs. yesterday's snapshot — nothing notified (consistent with 12+ consecutive clean days noted in memory).
-- Files written: new snapshot JSON, `memory/logs/2026-09-21.md` (new file, `### competitor-monitor` section logged with `COMPETITOR_MONITOR_OK pages=1`).
-- `memory/competitor-monitor/CHANGES.md` left untouched (no new changes to record).
-- Follow-up: none needed. Watch list remains single-page; expanding it (e.g. adding a pricing/changelog page for an actual competitor) would require an operator `add:<url>` via Telegram or editing `memory/competitors.md` directly.
+*Competitor Monitor* — 1 page, 3 changes
+▶ nvidia.com/security/acknowledgements
+  • 8 new table rows — new credited researchers/CVEs: Navtej Kathuria (13 CVEs), Faisal Tameesh (CVE-2026-65121), 升/CheN.. (CVE-2026-65179), Руслан Семченко (CVE-2026-24267), Hwang JUNHA (CVE-2026-24239), Saidakbarxon Maxsudxonov (CVE-2026-65111), Song Liu (CVE-2026-65178), plus an expanded bulk-credit line
+  • 1 row removed — the prior shorter bulk-credit line, superseded by the new one
+  • Linked page moved: /en-us/startups → /en-eu/startups (locale-path swap, not new content)
+sources: nvidia.com=ok
