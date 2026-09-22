@@ -372,16 +372,16 @@
   },
   "competitor-monitor": {
     "last_dispatch": "2026-09-22T06:38:49Z",
-    "last_status": "dispatched",
+    "last_status": "failed",
     "last_success": "2026-09-21T06:11:34Z",
-    "total_runs": 16,
+    "total_runs": 17,
     "total_successes": 15,
-    "total_failures": 1,
-    "consecutive_failures": 1,
-    "success_rate": 0.94,
+    "total_failures": 2,
+    "consecutive_failures": 2,
+    "success_rate": 0.88,
     "last_quality_score": 2,
-    "last_failed": "2026-09-22T06:08:16Z",
-    "last_error": "2ffa86\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"s"
+    "last_failed": "2026-09-22T06:39:24Z",
+    "last_error": "ca6bba\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"s"
   },
   "reddit-scorecard": {
     "last_dispatch": "2026-09-20T10:03:47Z",
