@@ -1,15 +1,11 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-21T17:49:07Z",
+  "last_analyzed": "2026-09-22T17:51:46Z",
   "quality_score": 4,
-  "assessment": "Substantive filter decision with clear reasoning; appropriately rejected weak items, flagged the Riva item as a BD signal instead of promo anchor, and applied hard constraints correctly.",
+  "assessment": "Thorough verification prevented low-quality promotion; correctly flagged inflated metrics and motivated the SKIP with detailed reasoning aligned to strategy (Priority 4 verify-before-claiming, constraint checks on financial-advice language).",
   "flags": [],
-  "avg_score": 3.83,
+  "avg_score": 3.9,
   "history": [
-    {
-      "date": "2026-08-24",
-      "score": 2
-    },
     {
       "date": "2026-08-25",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-09-21",
+      "score": 4
+    },
+    {
+      "date": "2026-09-22",
       "score": 4
     }
   ]
