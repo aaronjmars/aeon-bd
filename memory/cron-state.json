@@ -371,8 +371,8 @@
     "last_quality_score": 4
   },
   "competitor-monitor": {
-    "last_dispatch": "2026-09-22T06:07:23Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-09-22T06:38:49Z",
+    "last_status": "dispatched",
     "last_success": "2026-09-21T06:11:34Z",
     "total_runs": 16,
     "total_successes": 15,
