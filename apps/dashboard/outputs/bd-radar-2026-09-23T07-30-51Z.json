@@ -1,0 +1,319 @@
+{
+  "root": "bd_radar_card",
+  "state": {},
+  "elements": {
+    "bd_radar_card": {
+      "type": "Card",
+      "props": {
+        "title": "BD Radar",
+        "description": "2026-09-23"
+      },
+      "children": [
+        "main_content"
+      ]
+    },
+    "main_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "entry1",
+        "sep2",
+        "entry2",
+        "sep3",
+        "run_summary"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-09-21 — 2 new — 3 still-open — 63 leads total",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "entry1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "entry1_header",
+        "entry1_desc",
+        "entry1_app_link",
+        "entry1_prs",
+        "entry1_blocker",
+        "entry1_action_section"
+      ]
+    },
+    "entry1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "entry1_title",
+        "entry1_badge"
+      ]
+    },
+    "entry1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "github-issue:aeonfun/aeon#1083 (first seen today)",
+        "level": "h3"
+      }
+    },
+    "entry1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "⭐",
+        "variant": "secondary"
+      }
+    },
+    "entry1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "HivemindOS built a live one-click Aeon deployment product",
+        "variant": "body"
+      }
+    },
+    "entry1_app_link": {
+      "type": "Link",
+      "props": {
+        "label": "hivemindos.app/chat",
+        "href": "https://hivemindos.app/chat"
+      }
+    },
+    "entry1_prs": {
+      "type": "Badge",
+      "props": {
+        "text": "2 merged PRs this week",
+        "variant": "default"
+      }
+    },
+    "entry1_blocker": {
+      "type": "Text",
+      "props": {
+        "text": "Needs owner to approve their OAuth App so users stop hitting an access-restriction error",
+        "variant": "body"
+      }
+    },
+    "entry1_action_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "entry1_move_heading",
+        "entry1_action_text",
+        "entry1_issue_link",
+        "entry1_permission_note",
+        "entry1_deadline"
+      ]
+    },
+    "entry1_move_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Move",
+        "level": "h4"
+      }
+    },
+    "entry1_action_text": {
+      "type": "Text",
+      "props": {
+        "text": "Approve the OAuth App or reply on",
+        "variant": "body"
+      }
+    },
+    "entry1_issue_link": {
+      "type": "Link",
+      "props": {
+        "label": "#1083",
+        "href": "https://github.com/aeonfun/aeon/issues/1083"
+      }
+    },
+    "entry1_permission_note": {
+      "type": "Text",
+      "props": {
+        "text": "They're asking permission to send us users",
+        "variant": "body"
+      }
+    },
+    "entry1_deadline": {
+      "type": "Alert",
+      "props": {
+        "title": "Expires in 7 days",
+        "message": "Their users keep erroring out meanwhile",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "entry2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "entry2_title",
+        "entry2_type",
+        "entry2_use_case",
+        "entry2_delivery",
+        "entry2_action_section"
+      ]
+    },
+    "entry2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "github:rohitctrl/aeon (first seen today)",
+        "level": "h3"
+      }
+    },
+    "entry2_type": {
+      "type": "Text",
+      "props": {
+        "text": "Fresh fork running a monetized custom skill",
+        "variant": "body"
+      }
+    },
+    "entry2_use_case": {
+      "type": "Text",
+      "props": {
+        "text": "Dental-clinic lead-gen for a client, daily cron",
+        "variant": "body"
+      }
+    },
+    "entry2_delivery": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ First output already shipped",
+        "variant": "success"
+      }
+    },
+    "entry2_action_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "entry2_move_heading",
+        "entry2_action_text",
+        "entry2_rationale",
+        "entry2_window"
+      ]
+    },
+    "entry2_move_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Move",
+        "level": "h4"
+      }
+    },
+    "entry2_action_text": {
+      "type": "Text",
+      "props": {
+        "text": "DM @rohitctrl",
+        "variant": "body"
+      }
+    },
+    "entry2_rationale": {
+      "type": "Text",
+      "props": {
+        "text": "Real proof Aeon works as agency infra, worth a case-study quote",
+        "variant": "body"
+      }
+    },
+    "entry2_window": {
+      "type": "Text",
+      "props": {
+        "text": "Flips if: no reply in 14d",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "run_summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run_heading",
+        "run_checks"
+      ]
+    },
+    "run_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run summary",
+        "level": "h4"
+      }
+    },
+    "run_checks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "check_github",
+        "check_gh",
+        "check_x",
+        "check_web",
+        "check_sources"
+      ]
+    },
+    "check_github": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ github forks/issues ok",
+        "variant": "default"
+      }
+    },
+    "check_gh": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ gh search ok",
+        "variant": "default"
+      }
+    },
+    "check_x": {
+      "type": "Text",
+      "props": {
+        "text": "✓ X advanced_search ok (20 tweets, mostly Base trading-bot noise)",
+        "variant": "body"
+      }
+    },
+    "check_web": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ websearch ok, nothing new",
+        "variant": "default"
+      }
+    },
+    "check_sources": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ no source misses",
+        "variant": "default"
+      }
+    }
+  }
+}
