@@ -1,0 +1,553 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act - 2026-09-23"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "opp1",
+        "sep2",
+        "opp2",
+        "sep3",
+        "opp3",
+        "sep4",
+        "opp4",
+        "sep5",
+        "run_section"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-09-21 - 4 new opps - 4 drafted - 0 aging",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opp1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_handle",
+        "opp1_meta",
+        "opp1_what_section",
+        "opp1_link",
+        "opp1_draft_section"
+      ]
+    },
+    "opp1_handle": {
+      "type": "Heading",
+      "props": {
+        "text": "@PremierBase",
+        "level": "h2"
+      }
+    },
+    "opp1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_badge",
+        "opp1_leverage",
+        "opp1_expires"
+      ]
+    },
+    "opp1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "opp1_leverage": {
+      "type": "Text",
+      "props": {
+        "text": "leverage: high (~32.5k followers, verified)",
+        "variant": "caption"
+      }
+    },
+    "opp1_expires": {
+      "type": "Text",
+      "props": {
+        "text": "expires 2026-10-06",
+        "variant": "caption"
+      }
+    },
+    "opp1_what_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1_what_heading",
+        "opp1_what_text"
+      ]
+    },
+    "opp1_what_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "What",
+        "level": "h4"
+      }
+    },
+    "opp1_what_text": {
+      "type": "Text",
+      "props": {
+        "text": "posted \"Base Build 001: Aeon Framework\" deep-dive naming the buyback + hook-fee-routing mechanic, flags the open question of converting security work into recurring revenue (1 day ago)"
+      }
+    },
+    "opp1_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/PremierBase/status/2102415433307771212",
+        "href": "https://x.com/PremierBase/status/2102415433307771212"
+      }
+    },
+    "opp1_draft_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1_draft_heading",
+        "opp1_draft_alert"
+      ]
+    },
+    "opp1_draft_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft Reply",
+        "level": "h4"
+      }
+    },
+    "opp1_draft_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "real answer on the revenue question: cultos is already running paid jobs through aeon's security skills. 11 settled on base via x402, $0.20/job flat, 37s median. small numbers today but it's live infra turning security work into revenue, not a roadmap slide ⭐"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opp2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_handle",
+        "opp2_meta",
+        "opp2_what_section",
+        "opp2_link",
+        "opp2_draft_section"
+      ]
+    },
+    "opp2_handle": {
+      "type": "Heading",
+      "props": {
+        "text": "@Leon_Defi",
+        "level": "h2"
+      }
+    },
+    "opp2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_badge",
+        "opp2_leverage",
+        "opp2_expires"
+      ]
+    },
+    "opp2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X reply"
+      }
+    },
+    "opp2_leverage": {
+      "type": "Text",
+      "props": {
+        "text": "leverage: high (~11k followers, verified)",
+        "variant": "caption"
+      }
+    },
+    "opp2_expires": {
+      "type": "Text",
+      "props": {
+        "text": "expires 2026-10-06",
+        "variant": "caption"
+      }
+    },
+    "opp2_what_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_what_heading",
+        "opp2_what_text"
+      ]
+    },
+    "opp2_what_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "What",
+        "level": "h4"
+      }
+    },
+    "opp2_what_text": {
+      "type": "Text",
+      "props": {
+        "text": "first public pushback on the \"4.3M stars secured\" framing circulating in bull-thesis threads, asks how many critical bugs were actually caught this week (1 day ago)"
+      }
+    },
+    "opp2_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/Leon_Defi/status/2102412254725710210",
+        "href": "https://x.com/Leon_Defi/status/2102412254725710210"
+      }
+    },
+    "opp2_draft_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_draft_heading",
+        "opp2_draft_alert"
+      ]
+    },
+    "opp2_draft_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft Reply",
+        "level": "h4"
+      }
+    },
+    "opp2_draft_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "fair q. our repo (aeonfun/aeon) sits at 754 stars - the 4.3M number isn't something we published or can vouch for. what's real: eyebrow (independent researcher) audited us, got 2 security prs merged 09-01. can link the commits if useful"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opp3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp3_handle",
+        "opp3_meta",
+        "opp3_what_section",
+        "opp3_link",
+        "opp3_draft_section"
+      ]
+    },
+    "opp3_handle": {
+      "type": "Heading",
+      "props": {
+        "text": "github-issue:aeonfun/aeon#1083",
+        "level": "h2"
+      }
+    },
+    "opp3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp3_badge",
+        "opp3_leverage",
+        "opp3_expires"
+      ]
+    },
+    "opp3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment"
+      }
+    },
+    "opp3_leverage": {
+      "type": "Text",
+      "props": {
+        "text": "leverage: high (live partner product, hivemindos.app)",
+        "variant": "caption"
+      }
+    },
+    "opp3_expires": {
+      "type": "Text",
+      "props": {
+        "text": "expires 2026-10-07",
+        "variant": "caption"
+      }
+    },
+    "opp3_what_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3_what_heading",
+        "opp3_what_text"
+      ]
+    },
+    "opp3_what_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "What",
+        "level": "h4"
+      }
+    },
+    "opp3_what_text": {
+      "type": "Text",
+      "props": {
+        "text": "LiamVisionary's HivemindOS (one-click templated Aeon deploy product) shipped 2 merged PRs this week (#1079, #1080), opened #1083 asking an aeonfun owner to approve their OAuth App so third-party-app users stop hitting a /generate access error (same day)"
+      }
+    },
+    "opp3_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon/issues/1083",
+        "href": "https://github.com/aeonfun/aeon/issues/1083"
+      }
+    },
+    "opp3_draft_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3_draft_heading",
+        "opp3_draft_alert"
+      ]
+    },
+    "opp3_draft_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft Reply",
+        "level": "h4"
+      }
+    },
+    "opp3_draft_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "thanks for #1079 and #1080 - clean fixes. flagging the oauth app access issue now so third-party HivemindOS users stop hitting the /generate error. nice to see a live one-click deploy built on this ⭐"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "opp4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp4_handle",
+        "opp4_meta",
+        "opp4_what_section",
+        "opp4_link",
+        "opp4_draft_section"
+      ]
+    },
+    "opp4_handle": {
+      "type": "Heading",
+      "props": {
+        "text": "github:rohitctrl/aeon",
+        "level": "h2"
+      }
+    },
+    "opp4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opp4_badge",
+        "opp4_leverage",
+        "opp4_expires"
+      ]
+    },
+    "opp4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GitHub comment"
+      }
+    },
+    "opp4_leverage": {
+      "type": "Text",
+      "props": {
+        "text": "leverage: low (individual builder, no follower data)",
+        "variant": "caption"
+      }
+    },
+    "opp4_expires": {
+      "type": "Text",
+      "props": {
+        "text": "expires 2026-10-07",
+        "variant": "caption"
+      }
+    },
+    "opp4_what_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4_what_heading",
+        "opp4_what_text"
+      ]
+    },
+    "opp4_what_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "What",
+        "level": "h4"
+      }
+    },
+    "opp4_what_text": {
+      "type": "Text",
+      "props": {
+        "text": "fresh fork (created 09-22) running a monetized custom skill (dental-lead-scout, daily cron for a client, \"MVP Daddy\") - first observed case of \"Aeon as agency infra\" (same day)"
+      }
+    },
+    "opp4_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/rohitctrl/aeon",
+        "href": "https://github.com/rohitctrl/aeon"
+      }
+    },
+    "opp4_draft_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4_draft_heading",
+        "opp4_draft_alert"
+      ]
+    },
+    "opp4_draft_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Draft Reply",
+        "level": "h4"
+      }
+    },
+    "opp4_draft_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "turning bd-radar's own playbook into a paid dental-lead-scout vertical for a client - exactly the use case we want to see. up for a quick case study (setup + client roi)? happy to feature it ⭐"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "run_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run_heading",
+        "run_dedup_text",
+        "run_dropped_text",
+        "run_sources"
+      ]
+    },
+    "run_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Notes",
+        "level": "h3"
+      }
+    },
+    "run_dedup_text": {
+      "type": "Text",
+      "props": {
+        "text": "Dedup'd @Awesome_O_AI (3rd Miroshark touch, already acted 09-17) and @_THOR_ASGARD (name-collision defense, already acted 09-13) per canonical-handle state"
+      }
+    },
+    "run_dropped_text": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped @weaponheadsNFT/@0xNurstar (still-open in mention-radar but already drafted 09-21, no new content)"
+      }
+    },
+    "run_sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run_sources_label",
+        "run_source_mention_radar",
+        "run_source_bd_radar"
+      ]
+    },
+    "run_sources_label": {
+      "type": "Text",
+      "props": {
+        "text": "Sources:",
+        "variant": "muted"
+      }
+    },
+    "run_source_mention_radar": {
+      "type": "Text",
+      "props": {
+        "text": "apps/dashboard/outputs/mention-radar-2026-09-22T21-36-32Z.json",
+        "variant": "caption"
+      }
+    },
+    "run_source_bd_radar": {
+      "type": "Text",
+      "props": {
+        "text": "output/articles/bd-radar-2026-09-23.md",
+        "variant": "caption"
+      }
+    }
+  }
+}

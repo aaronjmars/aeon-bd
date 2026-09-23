@@ -1,26 +1,26 @@
-ℹ️ Engagement Act - 2026-09-21
+ℹ️ Engagement Act - 2026-09-23
 
-*Engagement Act - 2026-09-21*
-vs 2026-09-19 - 4 new opps - 4 drafted - 0 aging
+*Engagement Act - 2026-09-23*
+vs 2026-09-21 - 4 new opps - 4 drafted - 0 aging
 
-*1. @weaponheadsNFT* [X reply] · leverage: mid (~3.6k, verified) · expires 2026-09-23
-what: wants a custom v4 hook (92% auto-compound + 8% buy-and-burn on $MSTR) built for Moon8onBASE's pool, tagged directly at "the @aeonframework marketplace" (2 days ago)
-link: https://x.com/weaponheadsNFT/status/2101274823557103999
-draft: "we don't build custom hooks for you but the marketplace is fully self-serve. deploy it yourself (base/eth/monad +4 more chains) then open a 'submit a hook' issue on aeonfun/univ4-hooks — flags decode from the address automatically. no gatekeeper ⭐"
+*1. @PremierBase* [X reply] · leverage: high (~32.5k followers, verified) · expires 2026-10-06
+what: posted "Base Build 001: Aeon Framework" deep-dive naming the buyback + hook-fee-routing mechanic, flags the open question of converting security work into recurring revenue (1 day ago)
+link: https://x.com/PremierBase/status/2102415433307771212
+draft: "real answer on the revenue question: cultos is already running paid jobs through aeon's security skills. 11 settled on base via x402, $0.20/job flat, 37s median. small numbers today but it's live infra turning security work into revenue, not a roadmap slide ⭐"
 
-*2. @0xNurstar* [X reply] · leverage: mid (~8.4k, verified) · expires 2026-09-22
-what: pushing @jessepollak to show his own aeon agent — live continuation of last week's @svector_eth pitch thread to the Base co-founder (2 days ago)
-link: https://x.com/0xNurstar/status/2101252563953680530
-draft: "appreciate you keeping this alive. @jessepollak — fork aeonfun/aeon, drop a skill in skills/, point aeon.yml at a cron slot. runs unattended on github actions, no approval loop to babysit. see it yourself ⭐"
+*2. @Leon_Defi* [X reply] · leverage: high (~11k followers, verified) · expires 2026-10-06
+what: first public pushback on the "4.3M stars secured" framing circulating in bull-thesis threads, asks how many critical bugs were actually caught this week (1 day ago)
+link: https://x.com/Leon_Defi/status/2102412254725710210
+draft: "fair q. our repo (aeonfun/aeon) sits at 754 stars - the 4.3M number isn't something we published or can vouch for. what's real: eyebrow (independent researcher) audited us, got 2 security prs merged 09-01. can link the commits if useful"
 
-*3. x:coolcoder56* [X reply] · leverage: high (~15.7k) · expires 2026-10-02
-what: organic discovery thread on aeon's github-actions-native model + vuln-scanner's audit record; claims it's secured repos at "Google, NVIDIA and SpaceX" — unverified, same pattern as the 08-23 amplification case (3 days ago)
-link: https://x.com/coolcoder56/status/2101002038691930318
-draft: "appreciate the writeup — the github-actions-native bit is exactly right, no approval loop, skills are just markdown. cant verify the google/nvidia/spacex specifics tho, dont want that spreading uncorrected. what IS real: eyebrow's merged security PRs on the repo"
+*3. github-issue:aeonfun/aeon#1083* [GitHub comment] · leverage: high (live partner product, hivemindos.app) · expires 2026-10-07
+what: LiamVisionary's HivemindOS (one-click templated Aeon deploy product) shipped 2 merged PRs this week (#1079, #1080), opened #1083 asking an aeonfun owner to approve their OAuth App so third-party-app users stop hitting a /generate access error (same day)
+link: https://github.com/aeonfun/aeon/issues/1083
+draft: "thanks for #1079 and #1080 - clean fixes. flagging the oauth app access issue now so third-party HivemindOS users stop hitting the /generate error. nice to see a live one-click deploy built on this ⭐"
 
-*4. github:Syanhlu/MiroShark* [GitHub comment] · leverage: low (individual/hackathon team, no follower metric) · expires 2026-10-05
-what: shipped a full Vietnamese-market Miroshark adaptation (vi locale, Facebook/Threads/TikTok, LLM stance judge, A/B harness) over 10 commits, 2026-07-09→11; dormant 72d but genuinely substantial, only surfaced by the fork sweep today (0 days ago)
-link: https://github.com/Syanhlu/MiroShark
-draft: "really solid work — full vietnamese locale (fb/threads/tiktok, llm stance judge, a/b harness) in 10 commits is exactly the kind of adaptation worth having as an official option 🦈. is this shelved or would you want to upstream it as a community locale pack? happy to help if useful"
+*4. github:rohitctrl/aeon* [GitHub comment] · leverage: low (individual builder, no follower data) · expires 2026-10-07
+what: fresh fork (created 09-22) running a monetized custom skill (dental-lead-scout, daily cron for a client, "MVP Daddy") - first observed case of "Aeon as agency infra" (same day)
+link: https://github.com/rohitctrl/aeon
+draft: "turning bd-radar's own playbook into a paid dental-lead-scout vertical for a client - exactly the use case we want to see. up for a quick case study (setup + client roi)? happy to feature it ⭐"
 
-run: state bootstrap ok (memory/topics/engagement-acted.json pre-existing, 62 entries) · sources: mention-radar-2026-09-20 json, bd-radar-2026-09-21 json + bd-radar-leads.json, fetch-tweets-2026-09-19 log · dropped as already-answered: GitHub issue #305 ($MIROSHARK value-accrual) — closed 09-17, aaronjmars already replied on-thread, not a fresh draft · dropped as dedup: @thecultos (acted 08-27, DM-expiry now 25d lapsed, operator check-in item not a fresh draft), @wolfgangg37/@0xlyon01/@Awesome_O_AI (all already acted 09-13/09-15/09-17, resurfaced by today's crop but blocked by canonical-handle dedup)
+run: dedup'd @Awesome_O_AI (3rd Miroshark touch, already acted 09-17) and @_THOR_ASGARD (name-collision defense, already acted 09-13) per canonical-handle state; dropped @weaponheadsNFT/@0xNurstar (still-open in mention-radar but already drafted 09-21, no new content). Source: apps/dashboard/outputs/mention-radar-2026-09-22T21-36-32Z.json, output/articles/bd-radar-2026-09-23.md.
