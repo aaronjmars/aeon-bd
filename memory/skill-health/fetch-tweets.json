@@ -1,15 +1,11 @@
 {
   "skill": "fetch-tweets",
-  "last_analyzed": "2026-09-23T17:07:41Z",
+  "last_analyzed": "2026-09-24T17:08:42Z",
   "quality_score": 4,
-  "assessment": "Substantive findings with verifiable sourcing; correctly surfaces BD signal (ecosystem build + on-chain market data) and filters noise. Useful for operator decision-making.",
+  "assessment": "Solid curation of live tweet signal; fetched 20 candidates, filtered to 5 verified items, aligned to BD/competitive priorities, flagged traction gaps and next steps. Substance + verifiability present; engagement modest and zero Miroshark mentions limit immediate impact.",
   "flags": [],
   "avg_score": 3.9,
   "history": [
-    {
-      "date": "2026-08-26",
-      "score": 4
-    },
     {
       "date": "2026-08-27",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-09-23",
+      "score": 4
+    },
+    {
+      "date": "2026-09-24",
       "score": 4
     }
   ]

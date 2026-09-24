@@ -1,0 +1,195 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark",
+        "description": "Aaron pushing two self-driven storylines today — a ByteDance vuln-disclosure win, and a fresh \"OpenAI copying Aeon\" callout — outside reactions still thin, zero Miroshark-specific mentions."
+      },
+      "children": [
+        "sep1",
+        "heading_bytedance",
+        "tweet1",
+        "text1_replies",
+        "link1",
+        "tweet2",
+        "text2_replies",
+        "link2",
+        "sep2",
+        "heading_openai",
+        "tweet3",
+        "text3_replies",
+        "link3",
+        "tweet4",
+        "text4_replies",
+        "link4",
+        "sep3",
+        "heading_aibase",
+        "tweet5",
+        "text5_replies",
+        "link5"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_bytedance": {
+      "type": "Heading",
+      "props": {
+        "text": "ByteDance ships overnight fix after Aeon's TikTok bug disclosure",
+        "level": "h3"
+      }
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron",
+        "handle": "aaronjmars",
+        "text": "Reported a bug to ByteDance/TikTok in May, 134 days of silence, published it publicly yesterday on the Aeon security blog. Overnight: ByteDance wrote a fix, merged the patch, and emailed \"already known, fixed Aug 2.\"",
+        "likes": 30,
+        "retweets": 2
+      }
+    },
+    "text1_replies": {
+      "type": "Text",
+      "props": {
+        "text": "2 replies",
+        "variant": "muted"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2103149261663694866"
+      }
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aaron",
+        "handle": "aaronjmars",
+        "text": "Follow-up posting the public write-up link and ByteDance's merged-fix/patch link as receipts.",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "text2_replies": {
+      "type": "Text",
+      "props": {
+        "text": "0 replies",
+        "variant": "muted"
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aaronjmars/status/2103149487330091391"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_openai": {
+      "type": "Heading",
+      "props": {
+        "text": "Is OpenAI copying Aeon?",
+        "level": "h3"
+      }
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Aeon",
+        "handle": "aeonframework",
+        "text": "Aeon's own account directly accuses OpenAI of copying its pattern, backed by a video breakdown — first time the framework itself made the call rather than a third party.",
+        "likes": 28,
+        "retweets": 4
+      }
+    },
+    "text3_replies": {
+      "type": "Text",
+      "props": {
+        "text": "4 replies",
+        "variant": "muted"
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/aeonframework/status/2103128689240113334"
+      }
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "wolfgangg37",
+        "handle": "wolfgangg37",
+        "text": "First outside voice to back the claim, reading OpenAI's persistent-agent framing as lifted from Aeon's design.",
+        "likes": 3,
+        "retweets": 0
+      }
+    },
+    "text4_replies": {
+      "type": "Text",
+      "props": {
+        "text": "1 reply",
+        "variant": "muted"
+      }
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/wolfgangg37/status/2103129544651608482"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aibase": {
+      "type": "Heading",
+      "props": {
+        "text": "AI-on-Base ecosystem tier list",
+        "level": "h3"
+      }
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AI on Base",
+        "handle": "AIonBase_",
+        "text": "Community \"AI on Base\" tier list places @aeonframework in the top \"OG\" tier and @miroshark_ in \"Based\" — both products co-categorized in the same influencer ranking.",
+        "likes": 10,
+        "retweets": 3
+      }
+    },
+    "text5_replies": {
+      "type": "Text",
+      "props": {
+        "text": "3 replies",
+        "variant": "muted"
+      }
+    },
+    "link5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2103164477575410131"
+      }
+    }
+  }
+}

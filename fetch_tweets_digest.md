@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — Aeon/Miroshark
-
 *Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-24)*
 _Aaron pushing two self-driven storylines today — a ByteDance vuln-disclosure win, and a fresh "OpenAI copying Aeon" callout — outside reactions still thin, zero Miroshark-specific mentions._
 
