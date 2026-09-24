@@ -1,0 +1,488 @@
+{
+  "root": "mention-radar-card",
+  "state": {},
+  "elements": {
+    "mention-radar-card": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar - 2026-09-24",
+        "description": "vs 2026-09-22: 5 new mentions, 0 still-open, 0 quiet"
+      },
+      "children": [
+        "sep-header",
+        "aeon-heading",
+        "aeon-mentions-grid",
+        "sep-aeon",
+        "miroshark-heading",
+        "miroshark-mentions-stack",
+        "sep-miroshark",
+        "opportunities-heading",
+        "opportunities-grid",
+        "sep-opps",
+        "github-heading",
+        "github-stats-stack",
+        "sep-gh",
+        "dropped-heading",
+        "dropped-text",
+        "sep-dropped",
+        "run-heading",
+        "run-text"
+      ]
+    },
+    "sep-header": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "aeon-mentions-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aeon-m1",
+        "aeon-m2",
+        "aeon-m3",
+        "aeon-m4"
+      ]
+    },
+    "aeon-m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m1-type",
+        "aeon-m1-card",
+        "aeon-m1-link"
+      ]
+    },
+    "aeon-m1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW • Press/Newsletter",
+        "variant": "secondary"
+      }
+    },
+    "aeon-m1-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "BaseHubHB",
+        "handle": "@BaseHubHB",
+        "text": "Ranks Aeon #10 in 'Top 13 AI projects on Base this week,' citing the NVIDIA vuln-fix story. 57.9k followers • Verified.",
+        "likes": 48,
+        "retweets": 7
+      }
+    },
+    "aeon-m1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/BaseHubHB/status/2102835390621085753"
+      }
+    },
+    "aeon-m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m2-type",
+        "aeon-m2-card",
+        "aeon-m2-link"
+      ]
+    },
+    "aeon-m2-type": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW • Discovery",
+        "variant": "secondary"
+      }
+    },
+    "aeon-m2-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ZzzzzSol",
+        "handle": "@ZzzzzSol",
+        "text": "Posts detailed thread framing Aeon as 'one of the cleanest X Money narratives' — self-sustaining agent, fees to builder, links GitHub/site/founder. 1.3k followers • Verified.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "aeon-m2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View thread",
+        "href": "https://x.com/ZzzzzSol/status/2103015193940775301"
+      }
+    },
+    "aeon-m3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m3-type",
+        "aeon-m3-card",
+        "aeon-m3-link"
+      ]
+    },
+    "aeon-m3-type": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW • Confusion",
+        "variant": "destructive"
+      }
+    },
+    "aeon-m3-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "24Shays",
+        "handle": "@24Shays",
+        "text": "Pushes back on '50% of non-fee product revenue' claim about $AEON token: 'Enlighten us on this? What are the numbers? ... became more critical of the token the more I dove into it'. 445 followers • Verified.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "aeon-m3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/24Shays/status/2102872083806216696"
+      }
+    },
+    "aeon-m4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aeon-m4-type",
+        "aeon-m4-card",
+        "aeon-m4-link"
+      ]
+    },
+    "aeon-m4-type": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW • Press/Newsletter",
+        "variant": "secondary"
+      }
+    },
+    "aeon-m4-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "@thecultos",
+        "text": "Publishes 'Cult OS catalog' post bundling Aeon vuln-audit + Miroshark simulation as services alongside x402 tooling. 2.1k followers • Verified.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "aeon-m4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/thecultos/status/2102834263464739269"
+      }
+    },
+    "sep-aeon": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "miroshark-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "miroshark-mentions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "miroshark-m1"
+      ]
+    },
+    "miroshark-m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "miroshark-m1-type",
+        "miroshark-m1-card",
+        "miroshark-m1-link"
+      ]
+    },
+    "miroshark-m1-type": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW • Press/Newsletter",
+        "variant": "secondary"
+      }
+    },
+    "miroshark-m1-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "@thecultos",
+        "text": "Announces X Spaces with @miroshark_ on Sept 29, 2 PM UTC — 'x402, affiliates, flywheel, and what still needs to be built for the agent economy'. 2.1k followers • Verified.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "miroshark-m1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View announcement",
+        "href": "https://x.com/thecultos/status/2102105807848362436"
+      }
+    },
+    "sep-miroshark": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "opportunities-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "opportunities-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp-1",
+        "opp-2",
+        "opp-3"
+      ]
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-1-title",
+        "opp-1-desc",
+        "opp-1-link"
+      ]
+    },
+    "opp-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "@24Shays — Token revenue-share skepticism",
+        "level": "h3"
+      }
+    },
+    "opp-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Real skepticism on token revenue-share numbers — a factual reply citing the actual split would land better than letting the 'became more critical' framing sit unanswered. High impact if acted quickly; drops if someone else corrects it first.",
+        "variant": "body"
+      }
+    },
+    "opp-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "Go to post",
+        "href": "https://x.com/24Shays/status/2102872083806216696"
+      }
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-2-title",
+        "opp-2-desc",
+        "opp-2-link"
+      ]
+    },
+    "opp-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "@thecultos — X Spaces co-promo (Sept 29)",
+        "level": "h3"
+      }
+    },
+    "opp-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "X Spaces on 9/29 is a live co-promo slot — worth confirming attendance/amplifying beforehand. Expires 2026-09-29.",
+        "variant": "body"
+      }
+    },
+    "opp-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "Go to announcement",
+        "href": "https://x.com/thecultos/status/2102105807848362436"
+      }
+    },
+    "opp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opp-3-title",
+        "opp-3-desc",
+        "opp-3-link"
+      ]
+    },
+    "opp-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "@BaseHubHB — High-leverage reply/quote (57.9k followers)",
+        "level": "h3"
+      }
+    },
+    "opp-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "57.9k-follower Base ecosystem account ranked Aeon #10 unprompted — high-leverage reply/quote opportunity.",
+        "variant": "body"
+      }
+    },
+    "opp-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "Go to post",
+        "href": "https://x.com/BaseHubHB/status/2102835390621085753"
+      }
+    },
+    "sep-opps": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "github-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Deltas (vs 2026-09-22)",
+        "level": "h2"
+      }
+    },
+    "github-stats-stack": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stat-aeon-stars",
+        "stat-aeon-forks",
+        "stat-miroshark-stars",
+        "stat-miroshark-forks"
+      ]
+    },
+    "stat-aeon-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Stars",
+        "value": "755",
+        "delta": "+1 (2d)",
+        "trend": "up"
+      }
+    },
+    "stat-aeon-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Aeon Forks",
+        "value": "264",
+        "delta": "-1 (2d)",
+        "trend": "down"
+      }
+    },
+    "stat-miroshark-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Stars",
+        "value": "1451",
+        "delta": "-2 (2d)",
+        "trend": "down"
+      }
+    },
+    "stat-miroshark-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Miroshark Forks",
+        "value": "300",
+        "delta": "unchanged (2d)",
+        "trend": "neutral"
+      }
+    },
+    "sep-gh": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "dropped-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Dropped from active tracking",
+        "level": "h3"
+      }
+    },
+    "dropped-text": {
+      "type": "Text",
+      "props": {
+        "text": "Already actioned by engagement-act, no new content since: @PremierBase, @Leon_Defi, @_THOR_ASGARD, @weaponheadsNFT, @0xNurstar, @Awesome_O_AI",
+        "variant": "caption"
+      }
+    },
+    "sep-dropped": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "run-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Details",
+        "level": "h3"
+      }
+    },
+    "run-text": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=twitterapi · Web sweep (Reddit/HN/Microlaunch/HackerNoon) turned up only stale hits (April/June 2026 articles, zero-engagement Microlaunch listing) — no new web-surface mentions. Stars: Aeon +1/2d (below +5 threshold, not surfaced), Miroshark -2/2d (below threshold).",
+        "variant": "caption"
+      }
+    }
+  }
+}

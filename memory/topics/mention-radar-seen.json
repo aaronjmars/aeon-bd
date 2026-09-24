@@ -223,6 +223,41 @@
       "category": "Discovery",
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22"
+    },
+    {
+      "key": "x:https://x.com/BaseHubHB/status/2102835390621085753",
+      "project": "aeon",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "key": "x:https://x.com/ZzzzzSol/status/2103015193940775301",
+      "project": "aeon",
+      "category": "Discovery",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "key": "x:https://x.com/24Shays/status/2102872083806216696",
+      "project": "aeon",
+      "category": "Confusion",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "key": "x:https://x.com/thecultos/status/2102834263464739269",
+      "project": "aeon",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24"
+    },
+    {
+      "key": "x:https://x.com/thecultos/status/2102105807848362436",
+      "project": "miroshark",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24"
     }
   ],
   "quiet_streak": {
