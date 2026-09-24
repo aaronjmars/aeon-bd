@@ -1,15 +1,11 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-23T17:50:25Z",
-  "quality_score": 3,
-  "assessment": "Sound strategy execution (found real ecosystem signal, correctly excluded financial-advice content, drafted subreddit posts), but output structure violates CLAUDE.md guidance: final message references posts as 'all above, ready to copy-paste' but doesn't include them in stdout, instead relying on notify delivery alone.",
+  "last_analyzed": "2026-09-24T17:51:39Z",
+  "quality_score": 4,
+  "assessment": "Substantive story selection with solid editorial judgment, 4 tailored post drafts, clear decision trail, and good strategy alignment—the ByteDance security disclosure is a real proof-of-capability signal with verifiable metrics.",
   "flags": [],
-  "avg_score": 3.87,
+  "avg_score": 3.83,
   "history": [
-    {
-      "date": "2026-08-26",
-      "score": 5
-    },
     {
       "date": "2026-08-27",
       "score": 4
@@ -125,6 +121,10 @@
     {
       "date": "2026-09-23",
       "score": 3
+    },
+    {
+      "date": "2026-09-24",
+      "score": 4
     }
   ]
 }

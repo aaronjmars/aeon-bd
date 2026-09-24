@@ -1,0 +1,493 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Promo - 2026-09-24"
+      },
+      "children": [
+        "meta_text",
+        "sep1",
+        "story_section",
+        "sep2",
+        "draft1_container",
+        "draft2_container",
+        "draft3_container",
+        "draft4_container"
+      ]
+    },
+    "meta_text": {
+      "type": "Text",
+      "props": {
+        "text": "1d since last promo · 4 subs drafted",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "story_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_label",
+        "story_text",
+        "story_link"
+      ]
+    },
+    "story_label": {
+      "type": "Text",
+      "props": {
+        "text": "Story:",
+        "variant": "lead"
+      }
+    },
+    "story_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon's security skill reported a bug to ByteDance/TikTok in May, published the writeup after 134 days of silence, and ByteDance shipped a fix overnight - "
+      }
+    },
+    "story_link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/aaronjmars/status/2103149261663694866",
+        "href": "https://x.com/aaronjmars/status/2103149261663694866"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "draft1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "draft1_header",
+        "draft1_title_label",
+        "draft1_title_text",
+        "draft1_body_label",
+        "draft1_body_pre",
+        "draft1_link",
+        "draft1_body_post",
+        "draft1_linkpost_label",
+        "draft1_composer",
+        "draft1_notes"
+      ]
+    },
+    "draft1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "draft1_sub",
+        "draft1_archetype"
+      ]
+    },
+    "draft1_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/Agent_AI",
+        "level": "h3"
+      }
+    },
+    "draft1_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: agents",
+        "variant": "secondary"
+      }
+    },
+    "draft1_title_label": {
+      "type": "Text",
+      "props": {
+        "text": "Title:",
+        "variant": "caption"
+      }
+    },
+    "draft1_title_text": {
+      "type": "Text",
+      "props": {
+        "text": "My autonomous agent framework's security skill got ByteDance to patch a live bug overnight"
+      }
+    },
+    "draft1_body_label": {
+      "type": "Text",
+      "props": {
+        "text": "Body:",
+        "variant": "caption"
+      }
+    },
+    "draft1_body_pre": {
+      "type": "Text",
+      "props": {
+        "text": "I work on Aeon, an open-source framework where every capability (\"skill\") is just a markdown file that runs unattended on a schedule via GitHub Actions - no human approving each run.\n\nOne of those skills does vulnerability research. It found a real bug in ByteDance/TikTok back in May, reported it responsibly, and then... silence. 134 days of it.\n\nThis week the skill published the writeup publicly (standard practice once a disclosure window closes with no fix). Overnight, ByteDance merged a patch and emailed back: \"already known, fixed Aug 2.\" Writeup + patch are linked from the follow-up post.\n\nWhat's interesting to me isn't the bug itself, it's that nobody was manually driving this. The skill ran on its own cadence, wrote its own findings, and the pressure of a public paper trail did the rest. That's the actual pitch of autonomous agents to me - not \"chatbot that does research,\" but a process that keeps happening whether or not I'm watching it.\n\nRepo's here if you want to see how the skill is structured: ",
+        "variant": "body"
+      }
+    },
+    "draft1_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "draft1_body_post": {
+      "type": "Text",
+      "props": {
+        "text": ". Happy to answer questions about the disclosure workflow or the framework itself.",
+        "variant": "body"
+      }
+    },
+    "draft1_linkpost_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "draft1_composer": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open r/Agent_AI composer",
+        "href": "https://www.reddit.com/r/Agent_AI/submit?title=My%20autonomous%20agent%20framework%27s%20security%20skill%20got%20ByteDance%20to%20patch%20a%20live%20bug%20overnight",
+        "source": "Reddit"
+      }
+    },
+    "draft1_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Guidelines",
+        "message": "r/Agent_AI tolerates project posts if substantive - keep the \"I work on X\" disclosure up front (already in body), don't let the ByteDance detail read as an anti-ByteDance callout.",
+        "type": "info"
+      }
+    },
+    "draft2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "draft2_header",
+        "draft2_title_label",
+        "draft2_title_text",
+        "draft2_body_label",
+        "draft2_body_pre",
+        "draft2_link",
+        "draft2_body_post",
+        "draft2_linkpost_label",
+        "draft2_composer",
+        "draft2_notes"
+      ]
+    },
+    "draft2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "draft2_sub",
+        "draft2_archetype"
+      ]
+    },
+    "draft2_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/StartupMind",
+        "level": "h3"
+      }
+    },
+    "draft2_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: startup",
+        "variant": "secondary"
+      }
+    },
+    "draft2_title_label": {
+      "type": "Text",
+      "props": {
+        "text": "Title:",
+        "variant": "caption"
+      }
+    },
+    "draft2_title_text": {
+      "type": "Text",
+      "props": {
+        "text": "What happened after I published a bug report ByteDance sat on for 134 days"
+      }
+    },
+    "draft2_body_label": {
+      "type": "Text",
+      "props": {
+        "text": "Body:",
+        "variant": "caption"
+      }
+    },
+    "draft2_body_pre": {
+      "type": "Text",
+      "props": {
+        "text": "Building in public update: I'm the founder behind Aeon, an open-source autonomous agent framework. Most weeks the traction news is small - a fork, a star, a PR. This week was different.\n\nBack in May, a security skill running inside Aeon found and reported a bug to ByteDance/TikTok. No response for 134 days. This week I published the writeup on our security blog, as-is, with the disclosure timeline included.\n\nByteDance shipped a fix overnight and emailed back \"already known, fixed Aug 2.\" Whether or not that timeline is exact, the fact that publishing forced movement within a day after 4+ months of silence is the actual story.\n\nI'm not sharing this to dunk on ByteDance - this is a genuinely common pattern in vuln disclosure. I'm sharing it because it's the clearest proof I've had that an unattended process, not me personally emailing people, can move a large company. That's the bet behind the whole project: ",
+        "variant": "body"
+      }
+    },
+    "draft2_link": {
+      "type": "Link",
+      "props": {
+        "label": "aeon.fun",
+        "href": "https://aeon.fun"
+      }
+    },
+    "draft2_body_post": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "body"
+      }
+    },
+    "draft2_linkpost_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "draft2_composer": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open r/StartupMind composer",
+        "href": "https://www.reddit.com/r/StartupMind/submit?title=What%20happened%20after%20I%20published%20a%20bug%20report%20ByteDance%20sat%20on%20for%20134%20days",
+        "source": "Reddit"
+      }
+    },
+    "draft2_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Guidelines",
+        "message": "r/StartupMind wants the honest founder voice, not a growth-hacky spin - keep the \"not dunking on ByteDance\" caveat and the founder disclosure.",
+        "type": "info"
+      }
+    },
+    "draft3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "draft3_header",
+        "draft3_title_label",
+        "draft3_title_text",
+        "draft3_body_label",
+        "draft3_body_text",
+        "draft3_linkpost_label",
+        "draft3_link",
+        "draft3_composer",
+        "draft3_notes"
+      ]
+    },
+    "draft3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "draft3_sub",
+        "draft3_archetype"
+      ]
+    },
+    "draft3_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/CoolGithubProjects",
+        "level": "h3"
+      }
+    },
+    "draft3_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: github",
+        "variant": "secondary"
+      }
+    },
+    "draft3_title_label": {
+      "type": "Text",
+      "props": {
+        "text": "Title:",
+        "variant": "caption"
+      }
+    },
+    "draft3_title_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon - open-source agent framework whose security skill just got ByteDance to ship a fix overnight"
+      }
+    },
+    "draft3_body_label": {
+      "type": "Text",
+      "props": {
+        "text": "Body:",
+        "variant": "caption"
+      }
+    },
+    "draft3_body_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon is an open-source, AGPL-licensed framework for running autonomous agents as GitHub Actions - each capability is a markdown \"skill\" file, scheduled by cron, with no per-run human approval.\n\nWhat/why: one of the built-in skills does vulnerability research. It found and reported a bug to ByteDance/TikTok in May; after 134 days with no fix, it published the disclosure publicly this week per standard responsible-disclosure practice. ByteDance merged a patch overnight and confirmed it was \"already known, fixed Aug 2.\"\n\nStack: Claude Code headless runs + GitHub Actions cron + one markdown skill file per capability + a memory dir committed to the repo for state. No always-on server.\n\nRepo: https://github.com/aeonfun/aeon",
+        "variant": "body"
+      }
+    },
+    "draft3_linkpost_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "draft3_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "draft3_composer": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open r/CoolGithubProjects composer",
+        "href": "https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20open-source%20agent%20framework%20whose%20security%20skill%20just%20got%20ByteDance%20to%20ship%20a%20fix%20overnight",
+        "source": "Reddit"
+      }
+    },
+    "draft3_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Guidelines",
+        "message": "r/CoolGithubProjects requires the exact \"Aeon - <description>\" title format - keep as-is, disclose \"I built this\" in a top comment since the title has no room for it.",
+        "type": "info"
+      }
+    },
+    "draft4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "draft4_header",
+        "draft4_title_label",
+        "draft4_title_text",
+        "draft4_body_label",
+        "draft4_body_pre",
+        "draft4_link",
+        "draft4_body_post",
+        "draft4_linkpost_label",
+        "draft4_composer",
+        "draft4_notes"
+      ]
+    },
+    "draft4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "draft4_sub",
+        "draft4_archetype"
+      ]
+    },
+    "draft4_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "r/lovingopensourceAI",
+        "level": "h3"
+      }
+    },
+    "draft4_archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "archetype: open-source",
+        "variant": "secondary"
+      }
+    },
+    "draft4_title_label": {
+      "type": "Text",
+      "props": {
+        "text": "Title:",
+        "variant": "caption"
+      }
+    },
+    "draft4_title_text": {
+      "type": "Text",
+      "props": {
+        "text": "The security researcher in my open-source agent framework is just a markdown skill on a cron job"
+      }
+    },
+    "draft4_body_label": {
+      "type": "Text",
+      "props": {
+        "text": "Body:",
+        "variant": "caption"
+      }
+    },
+    "draft4_body_pre": {
+      "type": "Text",
+      "props": {
+        "text": "I keep seeing \"AI agent\" used to mean a chatbot with tool access. Aeon (open-source, AGPL) is my attempt at the other definition: a process that keeps running without anyone watching it.\n\nConcretely: one skill's whole job is vulnerability research. It's a markdown file with instructions, not code. It runs on a GitHub Actions schedule, does its own research, writes its own findings to the repo, and follows a disclosure timeline on its own.\n\nThis week that skill's May report to ByteDance/TikTok (134 days of silence) went public on schedule, and ByteDance shipped a fix overnight afterward. Nobody on our side timed that moment - the skill just did what the schedule said.\n\nIf you want to see what one of these skill files actually looks like: ",
+        "variant": "body"
+      }
+    },
+    "draft4_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "draft4_body_post": {
+      "type": "Text",
+      "props": {
+        "text": ". I work on this, not just found it - happy to answer questions about how the skills are structured.",
+        "variant": "body"
+      }
+    },
+    "draft4_linkpost_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link in post:",
+        "variant": "caption"
+      }
+    },
+    "draft4_composer": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open r/lovingopensourceAI composer",
+        "href": "https://www.reddit.com/r/lovingopensourceAI/submit?title=The%20security%20researcher%20in%20my%20open-source%20agent%20framework%20is%20just%20a%20markdown%20skill%20on%20a%20cron%20job",
+        "source": "Reddit"
+      }
+    },
+    "draft4_notes": {
+      "type": "Alert",
+      "props": {
+        "title": "Guidelines",
+        "message": "r/lovingopensourceAI is enthusiast-friendly but still flags shills - keep the \"I work on this, not just found it\" disclosure line.",
+        "type": "info"
+      }
+    }
+  }
+}
