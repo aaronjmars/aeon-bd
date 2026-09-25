@@ -1,8 +1,8 @@
 {
   "skill": "bd-radar",
-  "last_analyzed": "2026-09-23T07:30:51Z",
+  "last_analyzed": "2026-09-25T07:44:44Z",
   "quality_score": 4,
-  "assessment": "Substantive lead generation with specific actionable next moves aligned to BD/ecosystem priorities; HivemindOS and rohitctrl/aeon are high-intent signals with verifiable GitHub context and timelines, though verifiability relies on real searches being executed as claimed.",
+  "assessment": "Substantive, specific radar report—5 new leads with fit scores and actionable next moves per strategy; tight, peer-to-peer tone; directly serves BD signal priority. Minor gaps: no meta-insight on priority/momentum, noise-clearing narrative is post-hoc rather than sourced inline.",
   "flags": [],
   "avg_score": 4.05,
   "history": [
@@ -80,6 +80,10 @@
     },
     {
       "date": "2026-09-23",
+      "score": 4
+    },
+    {
+      "date": "2026-09-25",
       "score": 4
     }
   ]

@@ -1,12 +1,17 @@
 ℹ️ BD Radar
 
-*BD Radar — 2026-09-23*
-vs 2026-09-21 — 2 new — 3 still-open — 63 leads total
+*BD Radar — 2026-09-25*
+vs 09-23 — 5 new — 3 still-open — 68 leads total
 
-building `github-issue:aeonfun/aeon#1083` (first seen today): HivemindOS built a live one-click Aeon deployment product (hivemindos.app/chat), already shipped 2 merged PRs this week, now needs an owner to approve their OAuth App so users stop hitting an access-restriction error ⭐
-  move: approve the OAuth App or reply on #1083 — they're asking permission to send us users — expires 7d (their users keep erroring out meanwhile)
+building `LiamVisionary/hivemindos-sdk` (first seen today): HivemindOS went legit — Rizzma Inc. now, and they're deep in MiroShark's actual API (sim templates, polymarket prices, MCP status), not just templating aeon
+  move: DM Rizzma direct, separate from the OAuth no — expires: no reply in 14d
 
-building `github:rohitctrl/aeon` (first seen today): fresh fork running a monetized custom skill — dental-clinic lead-gen for a client, daily cron, first output already shipped
-  move: DM @rohitctrl — real proof Aeon works as agency infra, worth a case-study quote — flips if: no reply in 14d
+building `aeonfun/aeon#1093` (first seen today): brainsparker's real PR, follow-up to their own #795, tagged their own You.com tracking issue — contributor who actually ships
+  move: review/merge or comment on the block — expires: stale in 14d
 
-run: github forks/issues ok · gh search ok · X advanced_search ok (20 tweets, mostly Base trading-bot noise) · websearch ok, nothing new · no source misses
+integrating `madebyshun/blue-agent` (first seen today): shipped an actual webhook bridge to miroshark's REST api today, HMAC and all
+  move: DM, check in on it — expires: no push in 14d
+
+resolved: aaronjmars already killed the #1083 OAuth ask himself 09-22 (scope was too wide) — no op needed there anymore. cultosdev still 404, 29d since "we choose aeon" with zero outreach back.
+
+run: gh api + gh search + twitterapi.io (200) + websearch — 0 misses
