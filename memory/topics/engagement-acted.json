@@ -70,6 +70,11 @@
     {"handle": "@PremierBase", "acted_on": "2026-09-23"},
     {"handle": "@Leon_Defi", "acted_on": "2026-09-23"},
     {"handle": "github-issue:aeonfun/aeon#1083", "acted_on": "2026-09-23"},
-    {"handle": "github:rohitctrl/aeon", "acted_on": "2026-09-23"}
+    {"handle": "github:rohitctrl/aeon", "acted_on": "2026-09-23"},
+    {"handle": "github:LiamVisionary/hivemindos-sdk", "acted_on": "2026-09-25"},
+    {"handle": "github-pull:aeonfun/aeon#1093", "acted_on": "2026-09-25"},
+    {"handle": "github:madebyshun/blue-agent", "acted_on": "2026-09-25"},
+    {"handle": "github:lglucas/ai-dev-operating-system", "acted_on": "2026-09-25"},
+    {"handle": "@24Shays", "acted_on": "2026-09-25"}
   ]
 }

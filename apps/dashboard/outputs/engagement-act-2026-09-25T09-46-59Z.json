@@ -1,0 +1,487 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Engagement Act - 2026-09-25",
+        "description": "Correction: 5 new opps, 5 drafted, 0 aging"
+      },
+      "children": [
+        "header_section",
+        "correction_note",
+        "separator1",
+        "opp1",
+        "separator2",
+        "opp2",
+        "separator3",
+        "opp3",
+        "separator4",
+        "opp4",
+        "separator5",
+        "opp5",
+        "separator6",
+        "dedup_section"
+      ]
+    },
+    "header_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "header_text",
+        "counts_badges"
+      ]
+    },
+    "header_text": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-09-23",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "counts_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "badge_drafted",
+        "badge_aging"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "5 new opps",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_drafted": {
+      "type": "Badge",
+      "props": {
+        "text": "5 drafted",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_aging": {
+      "type": "Badge",
+      "props": {
+        "text": "0 aging",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "correction_note": {
+      "type": "Alert",
+      "props": {
+        "title": "Correction",
+        "message": "@BaseHubHB was wrongly included—already acted 2026-08-27, drops per contract rule 1 regardless of new content (same for @thecultos X Spaces). Swapped in github:lglucas/ai-dev-operating-system to fill the slot.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "opp1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp1_title",
+        "opp1_meta",
+        "opp1_desc",
+        "opp1_draft"
+      ]
+    },
+    "opp1_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github:LiamVisionary/hivemindos-sdk",
+        "href": "https://github.com/LiamVisionary/hivemindos-sdk",
+        "source": "GitHub comment"
+      },
+      "children": []
+    },
+    "opp1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp1_leverage",
+        "opp1_expiry"
+      ]
+    },
+    "opp1_leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: mid (partner, no follower count — formalized as Rizzma Inc.)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "opp1_expiry": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-10-09",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opp1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "known partner formalized as Rizzma Inc.; new hivemindos-sdk repo ships deep, working MiroShark API integration (simulation templates, Polymarket price-history, run-status/graph/export) (0 days ago)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opp1_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"rizzma's the real deal here — simulation templates + polymarket price-history wired straight into miroshark's actual api isn't something you fake. want to talk directly, operator to operator — what do you need from us as you scale this?\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "opp2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp2_title",
+        "opp2_meta",
+        "opp2_desc",
+        "opp2_draft"
+      ]
+    },
+    "opp2_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github-pull:aeonfun/aeon#1093",
+        "href": "https://github.com/aeonfun/aeon/pull/1093",
+        "source": "GitHub comment"
+      },
+      "children": []
+    },
+    "opp2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp2_leverage",
+        "opp2_expiry"
+      ]
+    },
+    "opp2_leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: mid (repeat contributor, coordinates with a third-party vendor's own tracker)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "opp2_expiry": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-10-09",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opp2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "brainsparker filed a follow-up PR to their own merged #795 (feat(you-web-search): run keyless by default), passing eyebrow verify --ci, currently mergeable_state: blocked (0 days ago)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opp2_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"appreciate the follow-up to #795 — clean work, and coordinating with you.com's own tracker on this is rare to see. what's blocking mergeable_state right now? want to get this merged.\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "opp3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp3_title",
+        "opp3_meta",
+        "opp3_desc",
+        "opp3_draft"
+      ]
+    },
+    "opp3_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github:madebyshun/blue-agent",
+        "href": "https://github.com/madebyshun/blue-agent",
+        "source": "GitHub comment"
+      },
+      "children": []
+    },
+    "opp3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp3_leverage",
+        "opp3_expiry"
+      ]
+    },
+    "opp3_leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low (~6 stars)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "opp3_expiry": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-10-09",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opp3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "shipped a real async webhook bridge to MiroShark's actual REST API (/api/simulation/, /transcript, /trajectory.csv, /reproduce.json) with HMAC verification — correct architecture, not guessed from docs (0 days ago)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opp3_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"webhook bridge hits the real endpoints, not the docs-guess version — solid. how's reliability been in practice? happy to help debug if you hit edge cases on the simulation/transcript side.\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "opp4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp4_title",
+        "opp4_meta",
+        "opp4_desc",
+        "opp4_draft"
+      ]
+    },
+    "opp4_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github:lglucas/ai-dev-operating-system",
+        "href": "https://github.com/lglucas/ai-dev-operating-system",
+        "source": "GitHub comment"
+      },
+      "children": []
+    },
+    "opp4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp4_leverage",
+        "opp4_expiry"
+      ]
+    },
+    "opp4_leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low (~12 stars)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "opp4_expiry": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-10-09",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opp4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "independent AI-dev-tooling registry catalogs MiroShark as an installable pack, but points at the old aaronjmars/MiroShark path with a stale 919-star/401-commit snapshot (last reviewed 04-30) (0 days ago)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opp4_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"small thing — your MiroShark listing points at the old aaronjmars/MiroShark path with a stale snapshot from april. canonical's MiroShark/MiroShark now (old path auto-redirects, but worth updating so your registry stays accurate). happy to send current numbers if useful.\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "opp5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opp5_title",
+        "opp5_meta",
+        "opp5_desc",
+        "opp5_draft"
+      ]
+    },
+    "opp5_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@24Shays",
+        "href": "https://x.com/24Shays/status/2102872083806216696",
+        "source": "X reply"
+      },
+      "children": []
+    },
+    "opp5_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opp5_leverage",
+        "opp5_expiry"
+      ]
+    },
+    "opp5_leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "leverage: low (~445 followers, verified)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "opp5_expiry": {
+      "type": "Badge",
+      "props": {
+        "text": "expires 2026-10-08",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opp5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "pushed back on an unverified \"50% of non-fee product revenue\" claim circulating about $AEON, asking for real numbers (1 days ago)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opp5_draft": {
+      "type": "Text",
+      "props": {
+        "text": "Draft: \"fair to push on that — no official revenue-share % has ever been published by us, so anyone quoting one is guessing, third parties included. what's actually verifiable: hook marketplace fees route on-chain, registry's public (aeonfun/univ4-hooks), check it yourself.\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "dedup_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dedup_heading",
+        "dedup_details"
+      ]
+    },
+    "dedup_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Dedup Process",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "dedup_details": {
+      "type": "Text",
+      "props": {
+        "text": "vs memory/topics/engagement-acted.json (69 prior handles) — dropped @BaseHubHB (already acted 2026-08-27, this run's own miss, caught before persisting) and @thecultos's Sept 29 X Spaces co-promo (already acted 2026-08-27) despite fresh content in both cases, contract rule 1 holds regardless of new content; dropped github:DefiLlama/dimension-adapters — bd-radar's own next-move says \"no outreach needed, already live.\"",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
