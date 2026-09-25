@@ -1,0 +1,201 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark"
+      },
+      "children": [
+        "text_intro",
+        "separator_1",
+        "heading_section1",
+        "stack_tweets1",
+        "separator_2",
+        "heading_section2",
+        "stack_tweets2"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Two direct-account confirmations, no outside pickup yet — Miroshark drops its first public dataset (8,201 agent decisions linking narrative to trades) the same day thecultos locks in the Sept 29 X Space debut.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_section1": {
+      "type": "Heading",
+      "props": {
+        "text": "Miroshark ships its first public dataset on HuggingFace",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_tweets1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1_container",
+        "tweet2_container"
+      ]
+    },
+    "tweet1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "link1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "The first dataset of AI agents that argue on social media & bet on prediction markets at the same time — 8,201 decisions from Miroshark simulations linking what an agent saw/reasoned/did to the resulting position (post, quote, follow, or YES/NO trade).",
+        "likes": 27,
+        "retweets": 4
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet (27 likes, 4 retweets, 4 replies)",
+        "href": "https://x.com/aaronjmars/status/2103476061157613903"
+      },
+      "children": []
+    },
+    "tweet2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "link2"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "aaronjmars",
+        "handle": "aaronjmars",
+        "text": "Follow-up posting the HuggingFace blogpost link.",
+        "likes": 4,
+        "retweets": 0
+      },
+      "children": []
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet (4 likes, 0 retweets, 0 replies)",
+        "href": "https://x.com/aaronjmars/status/2103476164098740312"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_section2": {
+      "type": "Heading",
+      "props": {
+        "text": "thecultos/Miroshark X Space debut confirmed for Sept 29",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_tweets2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet3_container",
+        "tweet4_container"
+      ]
+    },
+    "tweet3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3",
+        "link3"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "thecultos",
+        "text": "Our first X Space is officially live... Catch our debut with @miroshark_ on September 29 at 2 PM UTC.",
+        "likes": 4,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet (4 likes, 2 retweets, 3 replies)",
+        "href": "https://x.com/thecultos/status/2103474494669046205"
+      },
+      "children": []
+    },
+    "tweet4_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4",
+        "link4"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "akathesmith",
+        "handle": "akathesmith",
+        "text": "Second internal confirmation of the same Sept 29 2PM UTC debut date.",
+        "likes": 4,
+        "retweets": 2
+      },
+      "children": []
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet (4 likes, 2 retweets, 1 reply)",
+        "href": "https://x.com/akathesmith/status/2103476267966443778"
+      },
+      "children": []
+    }
+  }
+}

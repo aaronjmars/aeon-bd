@@ -1,27 +1,22 @@
 ℹ️ Top Tweets — Aeon/Miroshark
 
-*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-24)*
-_Aaron pushing two self-driven storylines today — a ByteDance vuln-disclosure win, and a fresh "OpenAI copying Aeon" callout — outside reactions still thin, zero Miroshark-specific mentions._
+*Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-25)*
+_Two direct-account confirmations, no outside pickup yet — Miroshark drops its first public dataset (8,201 agent decisions linking narrative to trades) the same day thecultos locks in the Sept 29 X Space debut._
 
-*ByteDance ships overnight fix after Aeon's TikTok bug disclosure*
-1. x.com/aaronjmars — Reported a bug to ByteDance/TikTok in May, 134 days of silence, published it publicly yesterday on the Aeon security blog. Overnight: ByteDance wrote a fix, merged the patch, and emailed "already known, fixed Aug 2."
-Likes: 30 | RTs: 2 | Replies: 2
-[View tweet](https://x.com/aaronjmars/status/2103149261663694866)
+*Miroshark ships its first public dataset on HuggingFace*
+1. x.com/aaronjmars — "The first dataset of AI agents that argue on social media & bet on prediction markets at the same time" — 8,201 decisions from Miroshark simulations linking what an agent saw/reasoned/did to the resulting position (post, quote, follow, or YES/NO trade).
+Likes: 27 | RTs: 4 | Replies: 4
+[View tweet](https://x.com/aaronjmars/status/2103476061157613903)
 
-2. x.com/aaronjmars — Follow-up posting the public write-up link and ByteDance's merged-fix/patch link as receipts.
-Likes: 3 | RTs: 0 | Replies: 0
-[View tweet](https://x.com/aaronjmars/status/2103149487330091391)
+2. x.com/aaronjmars — follow-up posting the HuggingFace blogpost link.
+Likes: 4 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/aaronjmars/status/2103476164098740312)
 
-*Is OpenAI copying Aeon?*
-3. x.com/aeonframework — Aeon's own account directly accuses OpenAI of copying its pattern, backed by a video breakdown — first time the framework itself made the call rather than a third party.
-Likes: 28 | RTs: 4 | Replies: 4
-[View tweet](https://x.com/aeonframework/status/2103128689240113334)
+*thecultos/Miroshark X Space debut confirmed for Sept 29*
+3. x.com/thecultos — "Our first X Space is officially live... Catch our debut with @miroshark_ on September 29 at 2 PM UTC."
+Likes: 4 | RTs: 2 | Replies: 3
+[View tweet](https://x.com/thecultos/status/2103474494669046205)
 
-4. x.com/wolfgangg37 — First outside voice to back the claim, reading OpenAI's persistent-agent framing as lifted from Aeon's design.
-Likes: 3 | RTs: 0 | Replies: 1
-[View tweet](https://x.com/wolfgangg37/status/2103129544651608482)
-
-*AI-on-Base ecosystem tier list*
-5. x.com/AIonBase_ — Community "AI on Base" tier list places @aeonframework in the top "OG" tier and @miroshark_ in "Based" — both products co-categorized in the same influencer ranking.
-Likes: 10 | RTs: 3 | Replies: 3
-[View tweet](https://x.com/AIonBase_/status/2103164477575410131)
+4. x.com/akathesmith — second internal confirmation of the same Sept 29 2PM UTC debut date.
+Likes: 4 | RTs: 2 | Replies: 1
+[View tweet](https://x.com/akathesmith/status/2103476267966443778)
