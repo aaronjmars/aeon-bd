@@ -1,0 +1,735 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Reddit Playbook - 2026-09-25"
+      },
+      "children": [
+        "header-section",
+        "story-section",
+        "archetype-section",
+        "selection-note-section",
+        "drafts-section",
+        "checklist-section",
+        "summary-section"
+      ]
+    },
+    "header-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-days",
+        "badge-archetype",
+        "stat-drafts"
+      ]
+    },
+    "stat-days": {
+      "type": "Stat",
+      "props": {
+        "label": "Since last promo",
+        "value": "0d"
+      }
+    },
+    "badge-archetype": {
+      "type": "Badge",
+      "props": {
+        "text": "Archetype B: domain-native question"
+      }
+    },
+    "stat-drafts": {
+      "type": "Stat",
+      "props": {
+        "label": "Drafts",
+        "value": "3"
+      }
+    },
+    "story-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-heading",
+        "story-text",
+        "story-link"
+      ]
+    },
+    "story-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Story",
+        "level": "h2"
+      }
+    },
+    "story-text": {
+      "type": "Text",
+      "props": {
+        "text": "A community \"AI on Base\" tier list placed @aeonframework in the top \"OG\" tier and @miroshark_ in \"Based\" - a genuine third-party endorsement, both products co-categorized"
+      }
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AI on Base tier list - X/Twitter",
+        "href": "https://x.com/AIonBase_/status/2103164477575410131",
+        "source": "X (Twitter)"
+      }
+    },
+    "archetype-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "archetype-heading",
+        "archetype-text"
+      ]
+    },
+    "archetype-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Archetype",
+        "level": "h2"
+      }
+    },
+    "archetype-text": {
+      "type": "Text",
+      "props": {
+        "text": "B domain-native question - why the tree picked it: no agent/AI/market news in the last 24-48h to tie an Archetype A news-hook to; no number crossed for a milestone (C); the tier-list ranking is third-party but methodology-free opinion, not a checkable single-event receipt, so it's a weaker fit for E (observer report) than for a genuine question about ranking credibility; no wrong-assumption angle for D. Falls to the default: B."
+      }
+    },
+    "selection-note-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "selection-heading",
+        "selection-text"
+      ]
+    },
+    "selection-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Note on Selection",
+        "level": "h2"
+      }
+    },
+    "selection-text": {
+      "type": "Text",
+      "props": {
+        "text": "This was the ONLY unseen + promotable item across the last 7 days of fetch-tweets output - reddit-promo already claimed today's strongest story (Miroshark's HuggingFace dataset) and explicitly passed on this one as \"too thin to headline alone.\" Everything else in the window is already in the seen-file, market chatter, BD asks, pushback, or an unannounced feature nobody can stand behind yet. Engagement is modest (10 likes/3rt/3replies) - flagged honestly, not oversold."
+      }
+    },
+    "drafts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "draft-1-card",
+        "draft-2-card",
+        "draft-3-card"
+      ]
+    },
+    "draft-1-card": {
+      "type": "Card",
+      "props": {
+        "title": "r/AI_Agents - Tier: Green"
+      },
+      "children": [
+        "draft1-title",
+        "draft1-body",
+        "draft1-links",
+        "draft1-notes"
+      ]
+    },
+    "draft1-title": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft1-title-label",
+        "draft1-title-text"
+      ]
+    },
+    "draft1-title-label": {
+      "type": "Text",
+      "props": {
+        "text": "Title:",
+        "variant": "caption"
+      }
+    },
+    "draft1-title-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's actually a fair way to rank agent frameworks right now?"
+      }
+    },
+    "draft1-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft1-body-label",
+        "draft1-body-text"
+      ]
+    },
+    "draft1-body-label": {
+      "type": "Text",
+      "props": {
+        "text": "Body:",
+        "variant": "caption"
+      }
+    },
+    "draft1-body-text": {
+      "type": "Text",
+      "props": {
+        "text": "Feels like every week there's a new \"top AI agent projects\" tier list circulating on crypto-Twitter/Base-Twitter, usually built by an influencer account with zero stated methodology - just vibes plus whichever projects paid for a shoutout.\n\nCase in point: a community \"AI on Base\" tier list went out this week sorting agent projects into OG/Based/etc tiers. No criteria disclosed - not deployment count, not revenue, not uptime, not audits. Just placement.\n\nI build one of the frameworks that landed in the top tier there (Aeon, an autonomous-agent framework that runs unattended on GitHub Actions - skills as markdown files, cron schedules, no approval loops), so I have a stake in this, but that's exactly why I don't trust the ranking itself.\n\nWhat would actually make a ranking like this trustworthy to you - live deployment counts, settled on-chain transactions, uptime/reliability data, something else? Curious what the bar should be before \"tier list\" means anything."
+      }
+    },
+    "draft1-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft1-proof-links-label",
+        "draft1-proof-link",
+        "draft1-product-links-label",
+        "draft1-product-link",
+        "draft1-composer-label",
+        "draft1-composer-link"
+      ]
+    },
+    "draft1-proof-links-label": {
+      "type": "Text",
+      "props": {
+        "text": "Proof links:",
+        "variant": "caption"
+      }
+    },
+    "draft1-proof-link": {
+      "type": "Link",
+      "props": {
+        "label": "AI on Base tier list",
+        "href": "https://x.com/AIonBase_/status/2103164477575410131"
+      }
+    },
+    "draft1-product-links-label": {
+      "type": "Text",
+      "props": {
+        "text": "Product link:",
+        "variant": "caption"
+      }
+    },
+    "draft1-product-link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "draft1-composer-label": {
+      "type": "Text",
+      "props": {
+        "text": "Post composer:",
+        "variant": "caption"
+      }
+    },
+    "draft1-composer-link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AI_Agents composer",
+        "href": "https://www.reddit.com/r/AI_Agents/submit?title=What%27s%20actually%20a%20fair%20way%20to%20rank%20agent%20frameworks%20right%20now%3F"
+      }
+    },
+    "draft1-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft1-notes-label",
+        "draft1-notes-text"
+      ]
+    },
+    "draft1-notes-label": {
+      "type": "Text",
+      "props": {
+        "text": "Notes:",
+        "variant": "caption"
+      }
+    },
+    "draft1-notes-text": {
+      "type": "Text",
+      "props": {
+        "text": "Disclose as builder (already in draft - \"I build one of the frameworks\"). Re-measure day 7 (2026-10-02) and day 14 (2026-10-09). Reply to comments in the first 30min-4h, everything within 24h."
+      }
+    },
+    "draft-2-card": {
+      "type": "Card",
+      "props": {
+        "title": "r/AgentsOfAI - Tier: Green"
+      },
+      "children": [
+        "draft2-title",
+        "draft2-body",
+        "draft2-links",
+        "draft2-notes"
+      ]
+    },
+    "draft2-title": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft2-title-label",
+        "draft2-title-text"
+      ]
+    },
+    "draft2-title-label": {
+      "type": "Text",
+      "props": {
+        "text": "Title:",
+        "variant": "caption"
+      }
+    },
+    "draft2-title-text": {
+      "type": "Text",
+      "props": {
+        "text": "Influencer \"tier lists\" for AI agent projects are everywhere now - what would make one actually credible?"
+      }
+    },
+    "draft2-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft2-body-label",
+        "draft2-body-text"
+      ]
+    },
+    "draft2-body-label": {
+      "type": "Text",
+      "props": {
+        "text": "Body:",
+        "variant": "caption"
+      }
+    },
+    "draft2-body-text": {
+      "type": "Text",
+      "props": {
+        "text": "Noticed a pattern lately: crypto/Base-adjacent accounts post \"top AI agent projects\" tier lists with zero visible methodology, and they get cited as if they're rankings instead of opinions.\n\nLatest one sorted a batch of agent projects into tiers - no criteria shown, no data behind the placement, just a graphic.\n\nI maintain one of the frameworks that landed in the top tier of that particular list (Aeon - skills-as-markdown agents that run unattended on GitHub Actions, self-repair on failure), and even from the inside I can't tell you why it's ranked where it is versus anything else on the list.\n\nGenuinely asking: if you were designing a credible ranking for agent frameworks, what would you actually measure? Deployment count, real settled transactions, GitHub activity, something else entirely?"
+      }
+    },
+    "draft2-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft2-proof-links-label",
+        "draft2-proof-link",
+        "draft2-product-links-label",
+        "draft2-product-link",
+        "draft2-composer-label",
+        "draft2-composer-link"
+      ]
+    },
+    "draft2-proof-links-label": {
+      "type": "Text",
+      "props": {
+        "text": "Proof links:",
+        "variant": "caption"
+      }
+    },
+    "draft2-proof-link": {
+      "type": "Link",
+      "props": {
+        "label": "AI on Base tier list",
+        "href": "https://x.com/AIonBase_/status/2103164477575410131"
+      }
+    },
+    "draft2-product-links-label": {
+      "type": "Text",
+      "props": {
+        "text": "Product link:",
+        "variant": "caption"
+      }
+    },
+    "draft2-product-link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "draft2-composer-label": {
+      "type": "Text",
+      "props": {
+        "text": "Post composer:",
+        "variant": "caption"
+      }
+    },
+    "draft2-composer-link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/AgentsOfAI composer",
+        "href": "https://www.reddit.com/r/AgentsOfAI/submit?title=Influencer%20%22tier%20lists%22%20for%20AI%20agent%20projects%20are%20everywhere%20now%20-%20what%20would%20make%20one%20actually%20credible%3F"
+      }
+    },
+    "draft2-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft2-notes-label",
+        "draft2-notes-text"
+      ]
+    },
+    "draft2-notes-label": {
+      "type": "Text",
+      "props": {
+        "text": "Notes:",
+        "variant": "caption"
+      }
+    },
+    "draft2-notes-text": {
+      "type": "Text",
+      "props": {
+        "text": "Disclose as builder (already in draft). Re-measure day 7 (2026-10-02) and day 14 (2026-10-09). Reply window 30min-4h, everything in 24h."
+      }
+    },
+    "draft-3-card": {
+      "type": "Card",
+      "props": {
+        "title": "r/artificial - Tier: Green"
+      },
+      "children": [
+        "draft3-title",
+        "draft3-body",
+        "draft3-links",
+        "draft3-notes"
+      ]
+    },
+    "draft3-title": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft3-title-label",
+        "draft3-title-text"
+      ]
+    },
+    "draft3-title-label": {
+      "type": "Text",
+      "props": {
+        "text": "Title:",
+        "variant": "caption"
+      }
+    },
+    "draft3-title-text": {
+      "type": "Text",
+      "props": {
+        "text": "Are \"AI agent tier list\" posts on crypto Twitter measuring anything real?"
+      }
+    },
+    "draft3-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft3-body-label",
+        "draft3-body-text"
+      ]
+    },
+    "draft3-body-label": {
+      "type": "Text",
+      "props": {
+        "text": "Body:",
+        "variant": "caption"
+      }
+    },
+    "draft3-body-text": {
+      "type": "Text",
+      "props": {
+        "text": "There's a growing genre of posts on Base/crypto-Twitter that rank AI agent projects into tiers (OG, Based, etc) with an image and zero explanation of methodology. They circulate like they're authoritative.\n\nThis week's version placed a batch of agent/simulation projects across tiers - including two frameworks I work on, oddly in different tiers from each other with no stated reason why.\n\nNot trying to relitigate my own placement - genuinely curious what people here think: is there any version of this kind of ranking that would be worth taking seriously, or is it inherently just a popularity/vibes exercise? What data would actually have to back it up?"
+      }
+    },
+    "draft3-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft3-proof-links-label",
+        "draft3-proof-link",
+        "draft3-product-links-label",
+        "draft3-product-link",
+        "draft3-composer-label",
+        "draft3-composer-link"
+      ]
+    },
+    "draft3-proof-links-label": {
+      "type": "Text",
+      "props": {
+        "text": "Proof links:",
+        "variant": "caption"
+      }
+    },
+    "draft3-proof-link": {
+      "type": "Link",
+      "props": {
+        "label": "AI on Base tier list",
+        "href": "https://x.com/AIonBase_/status/2103164477575410131"
+      }
+    },
+    "draft3-product-links-label": {
+      "type": "Text",
+      "props": {
+        "text": "Product link:",
+        "variant": "caption"
+      }
+    },
+    "draft3-product-link": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/aeonfun/aeon",
+        "href": "https://github.com/aeonfun/aeon"
+      }
+    },
+    "draft3-composer-label": {
+      "type": "Text",
+      "props": {
+        "text": "Post composer:",
+        "variant": "caption"
+      }
+    },
+    "draft3-composer-link": {
+      "type": "Link",
+      "props": {
+        "label": "Open r/artificial composer",
+        "href": "https://www.reddit.com/r/artificial/submit?title=Are%20%22AI%20agent%20tier%20list%22%20posts%20on%20crypto%20Twitter%20measuring%20anything%20real%3F"
+      }
+    },
+    "draft3-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft3-notes-label",
+        "draft3-notes-text"
+      ]
+    },
+    "draft3-notes-label": {
+      "type": "Text",
+      "props": {
+        "text": "Notes:",
+        "variant": "caption"
+      }
+    },
+    "draft3-notes-text": {
+      "type": "Text",
+      "props": {
+        "text": "Disclose as builder (already in draft). r/artificial had the single biggest reach in the historical data (102k) on a question lead - worth watching closely. Re-measure day 7 (2026-10-02) and day 14 (2026-10-09). Reply window 30min-4h, everything in 24h."
+      }
+    },
+    "checklist-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "checklist-heading",
+        "checklist-stack"
+      ]
+    },
+    "checklist-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Pre-Post Checklist",
+        "level": "h2"
+      }
+    },
+    "checklist-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "checklist-item-1",
+        "checklist-item-2",
+        "checklist-item-3",
+        "checklist-item-4",
+        "checklist-item-5",
+        "checklist-item-6",
+        "checklist-item-7",
+        "checklist-item-8"
+      ]
+    },
+    "checklist-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "✓ Archetype chosen via the tree (B, default - no news hook, no milestone, no clean observer-report fit, no contrarian angle)"
+      }
+    },
+    "checklist-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "✓ Product absent from all three titles (correct for B)"
+      }
+    },
+    "checklist-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "✓ Every checkable claim (the tier-list ranking) links to the third-party tweet, not our own site"
+      }
+    },
+    "checklist-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "✓ All three subs are on the green list"
+      }
+    },
+    "checklist-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "✓ No crypto framing - kept to agents/tooling framing throughout, even though the source tweet is Base-ecosystem content"
+      }
+    },
+    "checklist-item-6": {
+      "type": "Text",
+      "props": {
+        "text": "✓ One product link per draft, at the bottom"
+      }
+    },
+    "checklist-item-7": {
+      "type": "Text",
+      "props": {
+        "text": "✓ Titles reworded across all three subs"
+      }
+    },
+    "checklist-item-8": {
+      "type": "Text",
+      "props": {
+        "text": "✓ Hand off to reddit-scorecard once any of these actually get posted (add:)"
+      }
+    },
+    "summary-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-heading",
+        "summary-items"
+      ]
+    },
+    "summary-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Summary",
+        "level": "h2"
+      }
+    },
+    "summary-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "summary-item-1",
+        "summary-item-2",
+        "summary-item-3",
+        "summary-item-4",
+        "summary-item-5",
+        "summary-item-6",
+        "summary-item-7",
+        "summary-item-8"
+      ]
+    },
+    "summary-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Read memory/logs/ for 2026-09-19 through 2026-09-25 (7-day window) plus memory/reddit-promo-seen.txt (104 entries after today's reddit-promo run) and memory/topics/reddit-playbook-subreddits.md"
+      }
+    },
+    "summary-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Today's own fetch-tweets crop (Miroshark HuggingFace dataset + Sept 29 X Space) was already fully claimed by reddit-promo's earlier run today - all 4 of its URLs already in the seen-file"
+      }
+    },
+    "summary-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "Swept the rest of the week: everything else was market chatter ($AEON/$MIROSHARK price/mcap posts), BD asks (not endorsements), pushback/brand-confusion (engagement-act's lane), a \"copy allegation\" narrative (excluded per skill rule), an unannounced pre-launch feature (Riva - can't promote what isn't shipped), or an overused recurring pitch (CultOS x402aff, rejected on this exact basis in nearly every run since 09-10)"
+      }
+    },
+    "summary-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "One item cleared the bar: AIonBase_'s 09-24 community \"AI on Base\" tier list (Aeon \"OG\", Miroshark \"Based\") - a genuine third-party endorsement, unseen, inside the 10-day window. Thin engagement (10 likes/3rt/3replies), explicitly passed over by reddit-promo today as too weak to headline alone, but the only unseen+promotable candidate left"
+      }
+    },
+    "summary-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "Picked Archetype B (domain-native question) via the decision tree - no news hook, no milestone, no clean observer-report fit, no contrarian angle, falls to default"
+      }
+    },
+    "summary-item-6": {
+      "type": "Text",
+      "props": {
+        "text": "Drafted 3 copy-paste-ready posts (r/AI_Agents, r/AgentsOfAI, r/artificial, all green tier) - each independently worded, product absent from titles, the tier-list tweet as the one third-party proof link, one product link (github.com/aeonfun/aeon) at the bottom of each"
+      }
+    },
+    "summary-item-7": {
+      "type": "Text",
+      "props": {
+        "text": "Files: appended https://x.com/AIonBase_/status/2103164477575410131 to memory/reddit-promo-seen.txt; logged ### reddit-playbook to memory/logs/2026-09-25.md"
+      }
+    },
+    "summary-item-8": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up: none required from this run - drafts are for the operator to review/post; if posted, register with reddit-scorecard via add: for day-7/day-14 tracking"
+      }
+    }
+  }
+}

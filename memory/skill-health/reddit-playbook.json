@@ -1,10 +1,10 @@
 {
   "skill": "reddit-playbook",
-  "last_analyzed": "2026-09-23T18:32:04Z",
-  "quality_score": 3,
-  "assessment": "Completed cleanly: thorough scan with justified exclusions and proper constraint adherence, but 9-skip streak limits value delivery on the operator's primary mission (find promotable content)",
+  "last_analyzed": "2026-09-25T18:32:42Z",
+  "quality_score": 4,
+  "assessment": "Thorough sweep with honest filtering and actionable drafts; thin findings but solid execution aligned with strategy.",
   "flags": [],
-  "avg_score": 3.6,
+  "avg_score": 3.64,
   "history": [
     {
       "date": "2026-09-06",
@@ -45,6 +45,10 @@
     {
       "date": "2026-09-23",
       "score": 3
+    },
+    {
+      "date": "2026-09-25",
+      "score": 4
     }
   ]
 }
