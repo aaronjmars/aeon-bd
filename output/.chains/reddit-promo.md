@@ -1,68 +1,57 @@
-ℹ️ Reddit Promo - 2026-09-24
+ℹ️ Reddit Promo - 2026-09-25
 
-*Reddit Promo - 2026-09-24*
-1d since last promo · 4 subs drafted
+*Reddit Promo - 2026-09-25*
+1d since last promo · 3 subs drafted
 
-_Story:_ Aeon's security skill reported a bug to ByteDance/TikTok in May, published the writeup after 134 days of silence, and ByteDance shipped a fix overnight - https://x.com/aaronjmars/status/2103149261663694866
-
----
-*r/Agent_AI* · archetype: agents
-*Title:* My autonomous agent framework's security skill got ByteDance to patch a live bug overnight
-*Body:*
-I work on Aeon, an open-source framework where every capability ("skill") is just a markdown file that runs unattended on a schedule via GitHub Actions - no human approving each run.
-
-One of those skills does vulnerability research. It found a real bug in ByteDance/TikTok back in May, reported it responsibly, and then... silence. 134 days of it.
-
-This week the skill published the writeup publicly (standard practice once a disclosure window closes with no fix). Overnight, ByteDance merged a patch and emailed back: "already known, fixed Aug 2." Writeup + patch are linked from the follow-up post.
-
-What's interesting to me isn't the bug itself, it's that nobody was manually driving this. The skill ran on its own cadence, wrote its own findings, and the pressure of a public paper trail did the rest. That's the actual pitch of autonomous agents to me - not "chatbot that does research," but a process that keeps happening whether or not I'm watching it.
-
-Repo's here if you want to see how the skill is structured: https://github.com/aeonfun/aeon. Happy to answer questions about the disclosure workflow or the framework itself.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/Agent_AI composer](https://www.reddit.com/r/Agent_AI/submit?title=My%20autonomous%20agent%20framework%27s%20security%20skill%20got%20ByteDance%20to%20patch%20a%20live%20bug%20overnight)
-_notes: r/Agent_AI tolerates project posts if substantive - keep the "I work on X" disclosure up front (already in body), don't let the ByteDance detail read as an anti-ByteDance callout._
+_Story:_ Miroshark shipped its first public dataset - 8,201 agent decisions (what an agent saw, reasoned, and did: post/quote/follow/YES-NO trade) from its swarm simulations, live on HuggingFace - https://x.com/aaronjmars/status/2103476061157613903
 
 ---
-*r/StartupMind* · archetype: startup
-*Title:* What happened after I published a bug report ByteDance sat on for 134 days
+*r/MiroFish* · archetype: community
+*Title:* Miroshark just published its first public dataset - 8,201 agent decisions with the reasoning behind each one
 *Body:*
-Building in public update: I'm the founder behind Aeon, an open-source autonomous agent framework. Most weeks the traction news is small - a fork, a star, a PR. This week was different.
+We just shipped something we think is actually useful outside of our own bubble: the first public dataset from Miroshark's swarm simulations.
 
-Back in May, a security skill running inside Aeon found and reported a bug to ByteDance/TikTok. No response for 134 days. This week I published the writeup on our security blog, as-is, with the disclosure timeline included.
+It's 8,201 individual agent decisions - pulled straight from sims where AI agents argue on social media and bet on prediction markets at the same time. For each decision you get what the agent saw, what it reasoned, and what it actually did (post, quote, follow, or place a YES/NO trade) - so you can trace belief to action instead of just looking at outcomes.
 
-ByteDance shipped a fix overnight and emailed back "already known, fixed Aug 2." Whether or not that timeline is exact, the fact that publishing forced movement within a day after 4+ months of silence is the actual story.
+It's up on HuggingFace now, free to pull down. If you've been running your own sims or building agent evals and want ground-truth data on how simulated belief turns into market behavior, this is the kind of thing we wished existed when we started.
 
-I'm not sharing this to dunk on ByteDance - this is a genuinely common pattern in vuln disclosure. I'm sharing it because it's the clearest proof I've had that an unattended process, not me personally emailing people, can move a large company. That's the bet behind the whole project: aeon.fun.
-*Link in post:* https://aeon.fun
-*Post here:* [Open r/StartupMind composer](https://www.reddit.com/r/StartupMind/submit?title=What%20happened%20after%20I%20published%20a%20bug%20report%20ByteDance%20sat%20on%20for%20134%20days)
-_notes: r/StartupMind wants the honest founder voice, not a growth-hacky spin - keep the "not dunking on ByteDance" caveat and the founder disclosure._
+Also: we're doing our first X Space with the team on Sept 29, 2PM UTC, if you want to ask questions live.
+
+I work on Miroshark. Happy to answer anything about the schema or how the sims were run.
+
+Link in post goes to the source tweet with the HuggingFace link.
+*Link in post:* https://x.com/aaronjmars/status/2103476164098740312
+*Post here:* [Open r/MiroFish composer](https://www.reddit.com/r/MiroFish/submit?title=Miroshark%20just%20published%20its%20first%20public%20dataset%20-%208%2C201%20agent%20decisions%20with%20the%20reasoning%20behind%20each%20one)
+_notes: home community, self-promo is fine here - still disclose "I work on Miroshark," post as the builder, not anonymously._
 
 ---
-*r/CoolGithubProjects* · archetype: github
-*Title:* Aeon - open-source agent framework whose security skill just got ByteDance to ship a fix overnight
+*r/aiecosystem* · archetype: agents
+*Title:* An agent framework released a public dataset of simulated agents' social-media + prediction-market behavior
 *Body:*
-Aeon is an open-source, AGPL-licensed framework for running autonomous agents as GitHub Actions - each capability is a markdown "skill" file, scheduled by cron, with no per-run human approval.
+Sharing something from the agent-tooling side that might be useful if you're building evals or studying multi-agent behavior.
 
-What/why: one of the built-in skills does vulnerability research. It found and reported a bug to ByteDance/TikTok in May; after 134 days with no fix, it published the disclosure publicly this week per standard responsible-disclosure practice. ByteDance merged a patch overnight and confirmed it was "already known, fixed Aug 2."
+Miroshark runs swarm simulations - hundreds of grounded AI agents that argue on a social feed and simultaneously trade a prediction market. They just released the first public dataset from those runs: 8,201 individual decisions, each tied to what the agent observed, its stated reasoning, and its resulting action (post, quote, follow, or a YES/NO trade).
 
-Stack: Claude Code headless runs + GitHub Actions cron + one markdown skill file per capability + a memory dir committed to the repo for state. No always-on server.
+What's interesting for this sub specifically: it's a rare case of belief-to-action data that's actually labeled with the reasoning trace, not just the outcome. If you're building agent benchmarks or want ground truth on how narrative exposure moves simulated market positions, worth a look. Free on HuggingFace.
 
-Repo: https://github.com/aeonfun/aeon
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/CoolGithubProjects composer](https://www.reddit.com/r/CoolGithubProjects/submit?title=Aeon%20-%20open-source%20agent%20framework%20whose%20security%20skill%20just%20got%20ByteDance%20to%20ship%20a%20fix%20overnight)
-_notes: r/CoolGithubProjects requires the exact "Aeon - <description>" title format - keep as-is, disclose "I built this" in a top comment since the title has no room for it._
+I work on the team building this (Miroshark, sibling project to Aeon). Happy to answer schema or methodology questions.
+
+*Link in post:* https://x.com/aaronjmars/status/2103476164098740312
+*Post here:* [Open r/aiecosystem composer](https://www.reddit.com/r/aiecosystem/submit?title=An%20agent%20framework%20released%20a%20public%20dataset%20of%20simulated%20agents%27%20social-media%20%2B%20prediction-market%20behavior)
+_notes: keep the self-promo ratio in mind - this is a genuine data-release post; disclose "I work on the team," don't read as a neutral discoverer._
 
 ---
-*r/lovingopensourceAI* · archetype: open-source
-*Title:* The security researcher in my open-source agent framework is just a markdown skill on a cron job
+*r/LovingAI* · archetype: open-source
+*Title:* AI agents debating on social media and betting on prediction markets - someone published the data
 *Body:*
-I keep seeing "AI agent" used to mean a chatbot with tool access. Aeon (open-source, AGPL) is my attempt at the other definition: a process that keeps running without anyone watching it.
+Not my usual post here but this one's fun if you like seeing what AI agents actually do when you let them loose.
 
-Concretely: one skill's whole job is vulnerability research. It's a markdown file with instructions, not code. It runs on a GitHub Actions schedule, does its own research, writes its own findings to the repo, and follows a disclosure timeline on its own.
+Miroshark runs simulations where hundreds of AI agents argue with each other on a social feed and trade a prediction market at the same time - basically watching belief spread and turn into (simulated) money in real time. They just put out the first public dataset from these runs: 8,201 decisions, each showing what the agent saw, what it reasoned, and what it did about it.
 
-This week that skill's May report to ByteDance/TikTok (134 days of silence) went public on schedule, and ByteDance shipped a fix overnight afterward. Nobody on our side timed that moment - the skill just did what the schedule said.
+It's genuinely interesting to skim even if you're not building anything with it - you can watch an agent's stance shift and see exactly where that shows up in its trades. Free on HuggingFace, no signup wall.
 
-If you want to see what one of these skill files actually looks like: https://github.com/aeonfun/aeon. I work on this, not just found it - happy to answer questions about how the skills are structured.
-*Link in post:* https://github.com/aeonfun/aeon
-*Post here:* [Open r/lovingopensourceAI composer](https://www.reddit.com/r/lovingopensourceAI/submit?title=The%20security%20researcher%20in%20my%20open-source%20agent%20framework%20is%20just%20a%20markdown%20skill%20on%20a%20cron%20job)
-_notes: r/lovingopensourceAI is enthusiast-friendly but still flags shills - keep the "I work on this, not just found it" disclosure line._
+Full disclosure, I work on Miroshark, this is our own release. Happy to answer questions about how the sims work if anyone's curious.
+
+*Link in post:* https://x.com/aaronjmars/status/2103476164098740312
+*Post here:* [Open r/LovingAI composer](https://www.reddit.com/r/LovingAI/submit?title=AI%20agents%20debating%20on%20social%20media%20and%20betting%20on%20prediction%20markets%20-%20someone%20published%20the%20data)
+_notes: keep jargon low per sub norms; disclose "I work on Miroshark" up front, don't just drop the link._

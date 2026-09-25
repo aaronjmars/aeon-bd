@@ -1,15 +1,11 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-24T17:51:39Z",
+  "last_analyzed": "2026-09-25T17:50:36Z",
   "quality_score": 4,
-  "assessment": "Substantive story selection with solid editorial judgment, 4 tailored post drafts, clear decision trail, and good strategy alignment—the ByteDance security disclosure is a real proof-of-capability signal with verifiable metrics.",
+  "assessment": "Substantive, well-tailored Reddit drafts ready to post; demonstrates clear understanding of subreddit norms, disclosure ethics, and cadence logic. Strong execution of GTM work—specific data (tweet IDs, engagement metrics, dataset size) is plausible but unverifiable by scorer.",
   "flags": [],
   "avg_score": 3.83,
   "history": [
-    {
-      "date": "2026-08-27",
-      "score": 4
-    },
     {
       "date": "2026-08-27",
       "score": 4
@@ -124,6 +120,10 @@
     },
     {
       "date": "2026-09-24",
+      "score": 4
+    },
+    {
+      "date": "2026-09-25",
       "score": 4
     }
   ]
