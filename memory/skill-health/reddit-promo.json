@@ -1,15 +1,13 @@
 {
   "skill": "reddit-promo",
-  "last_analyzed": "2026-09-25T17:50:36Z",
-  "quality_score": 4,
-  "assessment": "Substantive, well-tailored Reddit drafts ready to post; demonstrates clear understanding of subreddit norms, disclosure ethics, and cadence logic. Strong execution of GTM work—specific data (tweet IDs, engagement metrics, dataset size) is plausible but unverifiable by scorer.",
-  "flags": [],
-  "avg_score": 3.83,
+  "last_analyzed": "2026-09-26T17:56:14Z",
+  "quality_score": 2,
+  "assessment": "Well-executed drafting and filtering, but the core story (svector_eth's tweet) is asserted as fact without independent verification; violates hard constraint against publishing unverifiable claims.",
+  "flags": [
+    "unverifiable_claim"
+  ],
+  "avg_score": 3.77,
   "history": [
-    {
-      "date": "2026-08-27",
-      "score": 4
-    },
     {
       "date": "2026-08-28",
       "score": 4
@@ -125,6 +123,10 @@
     {
       "date": "2026-09-25",
       "score": 4
+    },
+    {
+      "date": "2026-09-26",
+      "score": 2
     }
   ]
 }
