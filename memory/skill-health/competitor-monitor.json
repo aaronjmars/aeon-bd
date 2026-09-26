@@ -1,13 +1,12 @@
 {
   "skill": "competitor-monitor",
-  "last_analyzed": "2026-09-25T06:09:58Z",
+  "last_analyzed": "2026-09-26T06:09:30Z",
   "quality_score": 2,
-  "assessment": "Skill ran technically without error, but monitors an irrelevant target (NVIDIA security page) misaligned with strategy; busywork that provides no BD signal, competitive intelligence, or ecosystem insight for Aeon/Miroshark.",
+  "assessment": "Skill executed correctly but watches irrelevant page; no strategic signal for GTM mission",
   "flags": [
-    "low_quality",
-    "generic_content"
+    "low_quality"
   ],
-  "avg_score": 2.68,
+  "avg_score": 2.65,
   "history": [
     {
       "date": "2026-09-09",
@@ -83,6 +82,10 @@
     },
     {
       "date": "2026-09-25",
+      "score": 2
+    },
+    {
+      "date": "2026-09-26",
       "score": 2
     }
   ]
