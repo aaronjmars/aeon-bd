@@ -1,5 +1,3 @@
-ℹ️ Top Tweets — Aeon/Miroshark
-
 *Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-26)*
 _Real x402 usage proof (a $0.20 onchain SEO audit) headlines a day of otherwise thin Bankr/Base token chatter for both tickers._
 

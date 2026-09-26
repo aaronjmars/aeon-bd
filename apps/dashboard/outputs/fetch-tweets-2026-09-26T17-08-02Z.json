@@ -1,0 +1,246 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Aeon/Miroshark",
+        "description": "Real x402 usage proof (a $0.20 onchain SEO audit) headlines a day of otherwise thin Bankr/Base token chatter for both tickers."
+      },
+      "children": [
+        "metadata",
+        "section1-heading",
+        "tweet1-section",
+        "tweet2-section",
+        "sep1",
+        "section2-heading",
+        "tweet3-section",
+        "tweet4-section",
+        "sep2",
+        "section3-heading",
+        "tweet5-section"
+      ]
+    },
+    "metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Top Tweets — @aeonframework OR aeonfun/aeon OR @miroshark_ OR Miroshark swarm simulation (2026-09-26)",
+        "variant": "caption"
+      }
+    },
+    "section1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS's live x402 usage proof",
+        "level": "h3"
+      }
+    },
+    "tweet1-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "tweet1-metrics",
+        "tweet1-link"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "svector_eth",
+        "handle": "@svector_eth",
+        "text": "Independent account frames the CultOS agent-hires-Aeon-agent SEO audit ($0.20 onchain vs. a $3k agency rate) as proof x402 micropayments beat traditional pricing — not a CultOS-sourced claim.",
+        "likes": 20,
+        "retweets": 2
+      }
+    },
+    "tweet1-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 3",
+        "variant": "caption"
+      }
+    },
+    "tweet1-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/svector_eth/status/2103847675321897276"
+      }
+    },
+    "tweet2-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "tweet2-metrics",
+        "tweet2-link"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "@thecultos",
+        "text": "CultOS itself promotes the same audit as a live demo, pointing to the Cult OS Terminal where anyone can spin up an agent + wallet + memory.",
+        "likes": 10,
+        "retweets": 3
+      }
+    },
+    "tweet2-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 2",
+        "variant": "caption"
+      }
+    },
+    "tweet2-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2103625158879789085"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "$AEON / $MIROSHARK in Base degen-trading feeds",
+        "level": "h3"
+      }
+    },
+    "tweet3-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3",
+        "tweet3-metrics",
+        "tweet3-link"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AIonBase_",
+        "handle": "@AIonBase_",
+        "text": "Bankr's 24h overview lists $aeon in both \"most traded\" and \"trending\" (not top gainers), while a Miroshark-linked contract shows up in \"top gainers\" — both tickers show live trading activity, not just static holding.",
+        "likes": 17,
+        "retweets": 3
+      }
+    },
+    "tweet3-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "tweet3-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/AIonBase_/status/2103493435919642812"
+      }
+    },
+    "tweet4-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4",
+        "tweet4-metrics",
+        "tweet4-link"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "CoinGatePad",
+        "handle": "@CoinGatePad",
+        "text": "An independent Base trend-tracker ranks $MIROSHARK #2 in its daily trending list, above 8 other Base tokens.",
+        "likes": 1,
+        "retweets": 0
+      }
+    },
+    "tweet4-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 1",
+        "variant": "caption"
+      }
+    },
+    "tweet4-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/CoinGatePad/status/2103817474810524110"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CultOS roadmap update",
+        "level": "h3"
+      }
+    },
+    "tweet5-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet5",
+        "tweet5-metrics",
+        "tweet5-link"
+      ]
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "thecultos",
+        "handle": "@thecultos",
+        "text": "Bundles the confirmed Sept 29 Miroshark X Spaces into a broader roadmap roundup: Instant Hackathon, Terminal beta, Base+Arc serving, x402 Solana live endpoints, CLI 0.5.1 for Virtuals builders.",
+        "likes": 8,
+        "retweets": 0
+      }
+    },
+    "tweet5-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Replies: 4",
+        "variant": "caption"
+      }
+    },
+    "tweet5-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/thecultos/status/2103591359068221648"
+      }
+    }
+  }
+}
