@@ -1,10 +1,10 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-09-24T07:42:51Z",
+  "last_analyzed": "2026-09-26T07:42:54Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-sourced signal reporting—5 verified new mentions with direct links, engagement vectors tied to reach and timing, clean triage, and transparent methodology. Aligns to all five strategy priorities; actionable for Aaron without filler.",
+  "assessment": "Substantive mention radar report with 7 verified findings, proper misinformation flagging, and actionable engagement priorities—directly serves operator's core BD/signal-surfacing priorities.",
   "flags": [],
-  "avg_score": 3.89,
+  "avg_score": 3.9,
   "history": [
     {
       "date": "2026-08-20",
@@ -80,6 +80,10 @@
     },
     {
       "date": "2026-09-24",
+      "score": 4
+    },
+    {
+      "date": "2026-09-26",
       "score": 4
     }
   ]

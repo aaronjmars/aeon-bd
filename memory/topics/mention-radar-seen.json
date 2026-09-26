@@ -258,6 +258,55 @@
       "category": "Press/newsletter",
       "first_seen": "2026-09-24",
       "last_seen": "2026-09-24"
+    },
+    {
+      "key": "x:https://x.com/BaseHubHB/status/2103497661865488493",
+      "project": "aeon",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26"
+    },
+    {
+      "key": "x:https://x.com/BaseInsider_/status/2103523434345214249",
+      "project": "aeon",
+      "category": "Confusion",
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26"
+    },
+    {
+      "key": "x:https://x.com/thecultos/status/2103625158879789085",
+      "project": "aeon",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26"
+    },
+    {
+      "key": "x:https://x.com/MrDegenWolf/status/2103410305053126898",
+      "project": "aeon",
+      "category": "Discovery",
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26"
+    },
+    {
+      "key": "x:https://x.com/DegenOnBase_/status/2102540949578825948",
+      "project": "miroshark",
+      "category": "Discovery",
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26"
+    },
+    {
+      "key": "x:https://x.com/deexra/status/2103558778918474032",
+      "project": "miroshark",
+      "category": "Press/newsletter",
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26"
+    },
+    {
+      "key": "x:https://x.com/cybercelos/status/2102851724893638678",
+      "project": "miroshark",
+      "category": "Confusion",
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-09-26"
     }
   ],
   "quiet_streak": {

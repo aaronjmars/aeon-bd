@@ -1,0 +1,477 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar - 2026-09-26"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_comparison",
+        "separator_1",
+        "heading_aeon",
+        "stack_aeon_mentions",
+        "separator_2",
+        "heading_miroshark",
+        "stack_miroshark_mentions",
+        "separator_3",
+        "heading_opportunities",
+        "stack_opportunities",
+        "separator_4",
+        "heading_rundetails",
+        "text_rundetails"
+      ]
+    },
+    "text_comparison": {
+      "type": "Text",
+      "props": {
+        "text": "vs 2026-09-24 - 7 new - 0 still-open - 0 quiet",
+        "variant": "muted"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aeon": {
+      "type": "Heading",
+      "props": {
+        "text": "AEON",
+        "level": "h2"
+      }
+    },
+    "stack_aeon_mentions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "stack_mention_aeon_1",
+        "stack_mention_aeon_2",
+        "stack_mention_aeon_3",
+        "stack_mention_aeon_4"
+      ]
+    },
+    "stack_mention_aeon_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_aeon_1",
+        "badge_type_aeon_1",
+        "storylink_aeon_1"
+      ]
+    },
+    "badge_new_aeon_1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "badge_type_aeon_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Press/newsletter",
+        "variant": "default"
+      }
+    },
+    "storylink_aeon_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "The @base Ecosystem Tier List - Week 39 places @aeonframework in the 'Based' tier",
+        "href": "https://x.com/BaseHubHB/status/2103497661865488493",
+        "source": "@BaseHubHB (57.9k followers, verified)",
+        "score": "Asks: 'What's missing on this list?' | 91 likes / 7 retweets / 27 replies"
+      }
+    },
+    "stack_mention_aeon_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_aeon_2",
+        "badge_type_aeon_2",
+        "storylink_aeon_2"
+      ]
+    },
+    "badge_new_aeon_2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "badge_type_aeon_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion",
+        "variant": "destructive"
+      }
+    },
+    "storylink_aeon_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@aeonframework vuln-scanner skill claimed for 4.3M+ hardened repos (4.3M+ stars vs actual 756★)",
+        "href": "https://x.com/BaseInsider_/status/2103523434345214249",
+        "source": "@BaseInsider_ (21.9k followers, verified) - weekly Base recap",
+        "score": "Same inflated framing @Leon_Defi challenged on 09-22"
+      }
+    },
+    "stack_mention_aeon_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_aeon_3",
+        "badge_type_aeon_3",
+        "storylink_aeon_3"
+      ]
+    },
+    "badge_new_aeon_3": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "badge_type_aeon_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Press/newsletter",
+        "variant": "default"
+      }
+    },
+    "storylink_aeon_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Watch @aeonframework SEO audit in action demoing the Cult OS Terminal",
+        "href": "https://x.com/thecultos/status/2103625158879789085",
+        "source": "@thecultos (2.1k followers, verified)"
+      }
+    },
+    "stack_mention_aeon_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_aeon_4",
+        "badge_type_aeon_4",
+        "storylink_aeon_4"
+      ]
+    },
+    "badge_new_aeon_4": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "badge_type_aeon_4": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "default"
+      }
+    },
+    "storylink_aeon_4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "\"The only one real aeon is @aeonframework\" - unprompted brand-identity defense in reply to @kimmonismus",
+        "href": "https://x.com/MrDegenWolf/status/2103410305053126898",
+        "source": "@MrDegenWolf (32.2k followers, verified)"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_miroshark": {
+      "type": "Heading",
+      "props": {
+        "text": "MIROSHARK",
+        "level": "h2"
+      }
+    },
+    "stack_miroshark_mentions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "stack_mention_miroshark_1",
+        "stack_mention_miroshark_2",
+        "stack_mention_miroshark_3"
+      ]
+    },
+    "stack_mention_miroshark_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_miroshark_1",
+        "badge_type_miroshark_1",
+        "storylink_miroshark_1"
+      ]
+    },
+    "badge_new_miroshark_1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "badge_type_miroshark_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery",
+        "variant": "default"
+      }
+    },
+    "storylink_miroshark_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "$AEON +29% ... $MiroShark +20% in today's top-5 gainers",
+        "href": "https://x.com/DegenOnBase_/status/2102540949578825948",
+        "source": "@DegenOnBase_ (44.2k followers, verified) - daily Base watchlist"
+      }
+    },
+    "stack_mention_miroshark_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_miroshark_2",
+        "badge_type_miroshark_2",
+        "storylink_miroshark_2"
+      ]
+    },
+    "badge_new_miroshark_2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "badge_type_miroshark_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Press/newsletter",
+        "variant": "default"
+      }
+    },
+    "storylink_miroshark_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SWARM INTELLIGENCE AS AN API - frames $MIROSHARK as an undervalued microcap with real utility",
+        "href": "https://x.com/deexra/status/2103558778918474032",
+        "source": "@deexra (1.1k followers, verified)",
+        "score": "Second such post this window"
+      }
+    },
+    "stack_mention_miroshark_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_miroshark_3",
+        "badge_type_miroshark_3",
+        "storylink_miroshark_3"
+      ]
+    },
+    "badge_new_miroshark_3": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "badge_type_miroshark_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion",
+        "variant": "destructive"
+      }
+    },
+    "storylink_miroshark_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "\"Many major announcements coming from $AEON side\" - unconfirmed rumor, nothing published matches this claim",
+        "href": "https://x.com/cybercelos/status/2102851724893638678",
+        "source": "@cybercelos (971 followers, verified)"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_opportunities": {
+      "type": "Heading",
+      "props": {
+        "text": "ENGAGEMENT OPPORTUNITIES",
+        "level": "h2"
+      }
+    },
+    "stack_opportunities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "stack_opp_1",
+        "stack_opp_2",
+        "stack_opp_3"
+      ]
+    },
+    "stack_opp_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_opp_1",
+        "text_opp_1",
+        "link_opp_1"
+      ]
+    },
+    "badge_opp_1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACTION: Correct metrics",
+        "variant": "outline"
+      }
+    },
+    "text_opp_1": {
+      "type": "Text",
+      "props": {
+        "text": "@BaseInsider_: Correct the '4.3M+ stars' figure before it spreads further from a bigger account than the last pushback (21.9k vs @Leon_Defi's 11k). Flips if a correction ships before their next weekly recap."
+      }
+    },
+    "link_opp_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/BaseInsider_/status/2103523434345214249"
+      }
+    },
+    "stack_opp_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_opp_2",
+        "text_opp_2",
+        "link_opp_2"
+      ]
+    },
+    "badge_opp_2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACTION: Amplify",
+        "variant": "outline"
+      }
+    },
+    "text_opp_2": {
+      "type": "Text",
+      "props": {
+        "text": "@DegenOnBase_: Independent 44.2k-follower trader tracking both tickers unprompted. No reply needed - just amplify the signal."
+      }
+    },
+    "link_opp_2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/DegenOnBase_/status/2102540949578825948"
+      }
+    },
+    "stack_opp_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_opp_3",
+        "text_opp_3",
+        "link_opp_3"
+      ]
+    },
+    "badge_opp_3": {
+      "type": "Badge",
+      "props": {
+        "text": "ACTION: Confirm/Promote",
+        "variant": "outline"
+      }
+    },
+    "text_opp_3": {
+      "type": "Text",
+      "props": {
+        "text": "@thecultos x @miroshark_ X Spaces (x402/x402aff/flywheel themes): Confirm/promote before it airs. Expires 2026-09-29."
+      }
+    },
+    "link_opp_3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/miroshark_/status/2103454471665988025"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_rundetails": {
+      "type": "Heading",
+      "props": {
+        "text": "Run Details",
+        "level": "h3"
+      }
+    },
+    "text_rundetails": {
+      "type": "Text",
+      "props": {
+        "text": "X_SOURCE=twitterapi (both queries HTTP 200, 20 tweets each) - aeon's first query ('Aeon' bare word) collided with unrelated K-pop/personal content per the known bare-keyword issue, re-ran narrowed to aeonframework/aeon.fun terms with clean results - web sweep (Reddit/HN/Product Hunt): no new results for either project, same as 09-24 - GitHub: miroshark 1456★ (+5/2d, clears threshold) vs 09-24's 1451; aeon 756★ (+1/2d, below threshold); forks flat on both (aeon +3/2d, miroshark +1/2d, both below threshold) - @BaseHubHB and @thecultos are already actioned handles under engagement-act's dedup (per 09-25 log) - not re-flagged as opps here despite fresh content",
+        "variant": "caption"
+      }
+    }
+  }
+}
